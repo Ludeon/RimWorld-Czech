@@ -1,73 +1,73 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<CommandForbiddenDesc>Forbidden - colonists will not interact with this.</CommandForbiddenDesc>
-	<CommandNotForbiddenDesc>Not forbidden - colonists may interact with this.</CommandNotForbiddenDesc>
+	<CommandForbiddenDesc>Nepovoleno - kolonisté s tímto nemohou komunikovat.</CommandForbiddenDesc>
+	<CommandNotForbiddenDesc>Povoleno - kolonisté s tímto mohou komunikovat.</CommandNotForbiddenDesc>
 
-  <CommandTogglePowerDesc>Toggle power.</CommandTogglePowerDesc>
-  <CommandTogglePowerLabel>Toggle power</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Zapnout enrgii.</CommandTogglePowerDesc>
+  <CommandTogglePowerLabel>Zapnout energii.</CommandTogglePowerLabel>
 
-  <CommandGatherSpotToggleLabel>Gather spot</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>Active - colonists will gather around this object.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>Inactive - colonists will not gather around this object.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleLabel>Shromaždiště</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>Aktivní - kolonisté se budou shromažďovat okolo tohoto objektu.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Neaktivní - kolonisté se nebudou shromažďovat okolo tohoto objektu.</CommandGatherSpotToggleDescInactive>
   
   
   
-  <CommandDraftLabel>Draft</CommandDraftLabel>
-  <CommandUndraftLabel>Undraft</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest.</CommandToggleDraftDesc>
-  <IsIncapped>{0} is incapacitated.</IsIncapped>
+  <CommandDraftLabel>Boj</CommandDraftLabel>
+  <CommandUndraftLabel>Mír</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Přepnout na bojový režim.\n\nLidé přijímají rozkazy a bojují. Nebudou pracovat, jíst, nebo spát.</CommandToggleDraftDesc>
+  <IsIncapped>{0} není schopen.</IsIncapped>
 
   
-  <CommandCancelConstructionLabel>Cancel</CommandCancelConstructionLabel>
-  <CommandCancelConstructionDesc>Cancel this construction.</CommandCancelConstructionDesc>
+  <CommandCancelConstructionLabel>Zrušit</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>Zrušit tuto stavbu.</CommandCancelConstructionDesc>
 
   
-  <CommandBedSetForPrisonersLabel>Set for prisoners</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>Assign beds in this room for use by prisoners.</CommandBedSetForPrisonersDesc>
-  <CommandBedSetForPrisonersFailOutdoors>Cannot set outdoor beds to be for prisoners.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Set for colonists</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Assign beds in this room for use by colonists.</CommandBedSetForColonistsDesc>
-  <TurningOnPrisonerBedWarning>Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOffPrisonerBedWarning>
-  <AreYouSure>Are you sure you want to do this?</AreYouSure>
+  <CommandBedSetForPrisonersLabel>Určit jako vězení</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>Přiřazení postelí v této místosti pro použití vězni.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Nelze určit venkovní postele, jako postele pro vězně.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>Určit pro kolonisty</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>Přiřazení postelí v této místosti pro použití kolonisty.</CommandBedSetForColonistsDesc>
+  <TurningOnPrisonerBedWarning>Zapnutí režimu vězně ovlivňuje celou místnost (Vězni a kolonisté nemohou spát v jedné místnosti).\n\nTito lidé ztratí vlastnictví jejich postele:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Vypnutí režimu vězně ovlivňuje celou místnost (Vězni a kolonisté nemohou spát v jedné místnosti).\n\nTito lidé ztratí vlastnictví jejich postele:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Jsi si jistý že chceš tohle udělat?</AreYouSure>
 
   
   
-  <CommandDetonateDesc>Start the countdown to detonation.</CommandDetonateDesc>
-  <CommandDetonateLabel>Detonate</CommandDetonateLabel>
+  <CommandDetonateDesc>Začne odpočítávání detonace.</CommandDetonateDesc>
+  <CommandDetonateLabel>Detonace</CommandDetonateLabel>
 
-  <CommandRenameZoneDesc>Rename this zone.</CommandRenameZoneDesc>
-  <CommandRenameZoneLabel>Rename</CommandRenameZoneLabel>
+  <CommandRenameZoneDesc>Přejmenuje tuto zónu.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>Přejmenovat</CommandRenameZoneLabel>
 
-  <CommandHideZoneDesc>Hide/unhide this zone.</CommandHideZoneDesc>
-  <CommandHideZoneLabel>Hide</CommandHideZoneLabel>
-  <CommandUnhideZoneLabel>Unhide</CommandUnhideZoneLabel>
+  <CommandHideZoneDesc>Skrýt/zobrazit tuto zónu.</CommandHideZoneDesc>
+  <CommandHideZoneLabel>Skrýt</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Zobrazit</CommandUnhideZoneLabel>
 
-  <CommandDeleteZoneDesc>Delete this zone.</CommandDeleteZoneDesc>
-  <CommandDeleteZoneLabel>Delete</CommandDeleteZoneLabel>
+  <CommandDeleteZoneDesc>Smazat tuto zónu.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>Smazat</CommandDeleteZoneLabel>
   
   
   <!-- Artillery -->
-  <CommandSetForceAttackTarget>Set forced target</CommandSetForceAttackTarget>
-  <CommandSetForceAttackTargetDesc>Sets a target that this turret must attack continuously as long as it can.</CommandSetForceAttackTargetDesc>
-  <CommandStopForceAttack>Stop forced attack</CommandStopForceAttack>
-  <CommandStopForceAttackDesc>Stops force-attacking and allows the turret to fire as it wishes.</CommandStopForceAttackDesc>
-  <CommandStopAttackFailNotForceAttacking>Not currently force-attacking.</CommandStopAttackFailNotForceAttacking>
-  <MessageTargetBeyondMaximumRange>Target beyond maximum range.</MessageTargetBeyondMaximumRange>
-  <MessageTargetBelowMinimumRange>Target below minimum range.</MessageTargetBelowMinimumRange>
+  <CommandSetForceAttackTarget>Nastavit cíl</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Nastavit cíl, na který musí věž útočit opakovaně, jak dlouho bude moci.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Zastavit manuální útok</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Zastavit manuální útok a umožnit věži střílet jak se jí chce.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>Není nastaven manuální útok.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>Zaměřit na maximální dosah.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>Zaměřit na minimální dosah.</MessageTargetBelowMinimumRange>
   
   
   <!-- Ship computer core -->
-  <CommandShipLaunch>Launch ship</CommandShipLaunch>
-  <CommandShipLaunchDesc>Start the ship launch sequence with the current configuration.</CommandShipLaunchDesc>
-  <CommandShipLaunchReport>Show launch report</CommandShipLaunchReport>
-  <CommandShipLaunchReportDesc>Show a readiness report about the ship's launch capability.</CommandShipLaunchReportDesc>
+  <CommandShipLaunch>Vypustit loď</CommandShipLaunch>
+  <CommandShipLaunchDesc>Začít odpočítávání startu lodi s aktuální konfigurací.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>Zobrazit startovní zprávu</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>Zobrazit zprávu o připravenosti lodi k startu.</CommandShipLaunchReportDesc>
 
 
   <!-- Pod -->
-  <CommandPodEject>Eject sleeper</CommandPodEject>
-  <CommandPodEjectDesc>Wake up the cryptosleeper and eject them.</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>Contains nobody.</CommandPodEjectFailEmpty>
+  <CommandPodEject>Vypustit spáče</CommandPodEject>
+  <CommandPodEjectDesc>Vzbudit krypto spáče a vypustit ho.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>Prazdný.</CommandPodEjectFailEmpty>
 
 </LanguageData>
