@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- This is just example data. The default English data is in the xml.
+  
+  If you want to make another language, just write all the strings in all defs in this format:
+  
+  <defName.fieldName>Translation</defName.fieldName>
+  
+  To do other def types, make other directories under DefLinked named after the type of def you want to modify.
+  e.g. to modify the FactionDefs, make a folder called FactionDef and put your translations in it.
+  
+  For a full translation, you'll have to make a directory for every type of def with a player-visible string field (that's most of them).
+  -->
+
+	
+	<Silver.label>Striebro</Silver.label>
+	<Silver.description>Má v podstate iba jeden význam: obchod.</Silver.description>
+
+	<Metal.label>Železo</Metal.label>
+	<Metal.description>Potrebné na stavbu budov/štruktúr.</Metal.description>
+
+	<StoneBlocks.label>Kamenné bloky</StoneBlocks.label>
+	<StoneBlocks.description>Potrebné na stavbu budov/štruktúr.</StoneBlocks.description>
+
+	<WoodLog.label>Drevená guľatina</WoodLog.label>
+	<WoodLog.description>Potrebná na stavbu budov/štruktúr. Je možné ju rozrezať na dosky.</WoodLog.description>
+	
+	<WoodPlank.label>Drevená doska</WoodPlank.label>
+	<WoodPlank.description>Potrebné na stavbu budov/štruktúr.</WoodPlank.description>
+	
+	<RawPotatoes.label>Zemiaky</RawPotatoes.label>
+	<RawPotatoes.description>Surové zemiaky.</RawPotatoes.description>
+	
+	<RawBerries.label>Ostružiny</RawBerries.label>
+	<RawBerries.description>Rozličné ostružiny. Sú chutné aj surové.</RawBerries.description>
+	
+	<RawAgave.label>Agáve</RawAgave.label>	
+	<RawAgave.description>Surové plody agáve.</RawAgave.description>
+	
+	
+	
+  <!--=============== UNUSED ====================-->
+	
+	<Uranium.label>Urán</Uranium.label>
+    <Uranium.description>Palivo do reaktorov.</Uranium.description>
+	
+	<Medicine.label>Lieky</Medicine.label>
+    <Medicine.description>Lieky používajú doktori na liečenie.</Medicine.description>
+	
+	<Shells.label>Strely</Shells.label>
+    <Shells.description>Používané v delách.</Shells.description>
+	
+	<Missiles.label>Rakety</Missiles.label>
+    <Missiles.description>Používané v raketometoch.</Missiles.description>
+
+</LanguageData>
