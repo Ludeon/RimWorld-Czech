@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <GameStartDialog>Probudi jste se ve vašich kryokomorách za zvuku sirén a trhajícího se kovu. Sotva jste se dostali k únikovým modulům než se loď roztrhla.\n\nZa nějaký čas, jste přistáli na této neznámé planetě.\n\nČásti rozdrcené lodi padají vedle vás, začínáte vymýšlet plány na přežití.</GameStartDialog>
+  <Autosaving>Automatické uložení</Autosaving>
+  
+  <GameStartDialog>Tři z vás se probudili z kryospánku za zvuků sirén a trhajícího kovu. Sotva jste se dostali do únikových modulů, tak se loď roztrhala na kusy.\n\nMuseli jste nouzově přistát na této neznámé planetě.\n\nKolem vás padají zbytky vaší lodi a vy musíte začít přemýšlet, jak zde přežijete a jak se dostanete domů.</GameStartDialog>
 
   <Colony>Kolonie</Colony>
   
-  <ChangeLanguageFromMainMenu>Jazyk lze změnit pouze z Nastavení v Hlavním menu.</ChangeLanguageFromMainMenu>
+  <ChangeLanguageFromMainMenu>Jazyk můžete změnit pouze v nastavení z hlavního menu.</ChangeLanguageFromMainMenu>
 
   <AndLower>a</AndLower>
   <DisabledLower>zakázáno</DisabledLower>
@@ -14,24 +16,34 @@
 
 
   <VersionIndicator>Verze {0}</VersionIndicator>
-  <DevelopmentBuildLower>vývojové sestavení</DevelopmentBuildLower>
-  <CompiledOn>Sestavil {0}</CompiledOn>
+  <DevelopmentBuildLower>vývojářská verze</DevelopmentBuildLower>
+  <CompiledOn>Sestavení {0}</CompiledOn>
 
-	<MeatLabel>{0} maso</MeatLabel>
+  <MeatLabel>{0} maso</MeatLabel>
   <MeatDesc>Syrové maso z {0}.</MeatDesc>
 
-	<CorpseLabel>{0} mrtvola</CorpseLabel>
-	<CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
+  <LeatherLabel>{0} kůže</LeatherLabel>
+  <LeatherDesc>Kožené výrobky z {0}.</LeatherDesc>
+
+  <CorpseLabel>{0} mrtvola</CorpseLabel>
+  <CorpseDesc>Mrtvé tělo z {0}.</CorpseDesc>
+  <DeadLabel>{0} (mrtvý)</DeadLabel>
 
 
-	<BlueprintLabelExtra> (plán)</BlueprintLabelExtra>
+  <BlueprintLabelExtra> (plán)</BlueprintLabelExtra>
   <FrameLabelExtra> (budova)</FrameLabelExtra>
   
-  
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+
+  <VariousLabel>(různý)</VariousLabel>
+
   <!-- History events -->
-  <ColonistDied>Kolonista zemřel</ColonistDied>
+  <ColonistDied>Zemřel kolonista</ColonistDied>
   
   
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
   
 </LanguageData>
- 

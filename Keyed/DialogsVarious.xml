@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 
@@ -10,124 +10,163 @@
   <!-- Save/load -->
   <SaveGameButton>Uložit</SaveGameButton>
   <OverwriteButton>Přepsat</OverwriteButton>
-  <LoadGameButton>Nahrát</LoadGameButton>
+  <LoadGameButton>Načist</LoadGameButton>
   <ConfirmDelete>Opravdu smazat {0}?</ConfirmDelete>
-  <DeleteThisSavegame>Smazat tuto uloženou pozici.</DeleteThisSavegame>
-  <SavedAs>Uloženo jako {0}.</SavedAs>
-  <NeedAName>Prosím vložte jméno.</NeedAName>
-  <LoadingLongEvent>Nahrávám...</LoadingLongEvent>
+  <DeleteThisSavegame>Smazat toto uložení.</DeleteThisSavegame>
+  <SavedAs>Uložit jako {0}.</SavedAs>
+  <NeedAName>Prosím vlož jméno.</NeedAName>
+  <LoadingLongEvent>Načítání...</LoadingLongEvent>
   
   
   <!-- Colony naming-->
-  <NameColonyMessage>Každý ví, že nechceš zůstat na této holé zemi. Ale {0} navruhuje, i přesto, dát kolonii jméno.\n\nJak jí chceš nazvat?</NameColonyMessage>
-  <ColonyGainsName>Kolonie je nyní známá jako {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>Tento název kolonie není platný.</ColonyNameIsInvalid>
+  <NameColonyMessage>Je nám jasne, že na tomhle bohem zapomenutém místě nechceme dlouho skejsnout. Ale {0} si myslí, že by to chtělo přeci jen nějak pojmenovat naší osadu.\n\nJak jí budeme říkat?</NameColonyMessage>
+  <ColonyGainsName>Kolonie budiž známa jako {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>Název kolonie je chybný.</ColonyNameIsInvalid>
 
   <!-- Zone naming -->
-  <ZoneGainsName>Zóna se odteď nazývá {0}.</ZoneGainsName>
-  <ZoneNameIsInvalid>Prosím vložte platné jméno zóny.</ZoneNameIsInvalid>
+  <ZoneGainsName>Zóna se nyní jmenuje {0}.</ZoneGainsName>
+  <ZoneNameIsInvalid>Vložte platné jméno zóny.</ZoneNameIsInvalid>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>Přezdívka kolonisty je {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
-  <SaveGameIncompatibleWarningText>Záměna verzí: Mapa byla uložena ve verzi {0}, hra beží na verzi {1}.\n\n Nahrání této pozice bude pravděpodobně způsobovat chyby a pády.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Nekompatibilní uložená pozice</SaveGameIncompatibleWarningTitle>
+  <SaveGameIncompatibleWarningText>Chyba verzí: Mapa byla uložena ve verzi {0}, ale je spouštěna ve verzi {1}.\n\n Nahrání tohoto slotu bude praděpodobně způsobovat bugy a hra může spadnout.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningTitle>Nekompatiblní verze uložení</SaveGameIncompatibleWarningTitle>
   
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>Změnil jsi rozlišení. Pracuje nové nastavení správně?\n\nVrácení změn za {0}...</ConfirmResolutionChange>
-  <ResolutionKeep>Ponechat</ResolutionKeep>
+  <ConfirmResolutionChange>Změnil sis nastavení obrazovky, vyhovuje ti?\n\nNávrat za {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Nechat</ResolutionKeep>
   <ResolutionRevert>Vrátit</ResolutionRevert>
 
   <!-- Overview -->
-  <OverviewOf>Přehled z {0}</OverviewOf>
+  <OverviewOf>Přehled {0}</OverviewOf>
 
   <!-- Research -->
-  <Research>Vyzkoumat</Research>
+  <Research>Výzkum</Research>
   <Researched>Vyzkoumáno</Researched>
   <Unresearched>Nevyzkoumáno</Unresearched>
-  <Finished>Hotovo</Finished>
+  <Finished>Dokončeno</Finished>
   <InProgress>Probíhá</InProgress>
-  <ResearchMenuWithoutBench>Dokud nepostavíš VÝZKUMNOU LABORATOŘ, tví kolonisté nebudou moci provádět výzkum.\n\nPřesto se stále můžeš podívat na projekty pro výzkum.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Dokud nepostavíš lavici výzkumníka, tak nebudeš moci provádět výzkumy.\n\nNicméně si můžeš projekty projít a některý začít.</ResearchMenuWithoutBench>
   
   
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>UPOZORNĚNÍ: Výkon může podstatně klesnout na vetších mapách, pokud nemáte dostatečně výkonný počítač.\n\nPokud máte slabší stroj, zvolte Malá.\n\nObrovská mapa není testována a s velkou pravděpodobností nemusí být hratelná</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>Varování: Výkonost se může snížit u velkých map, pokud nemáte silný počítač.\n\nPokud máte slabý počítač, vyberte si malé mapy.\n\nKolosální velikost není netestovaná a pravděpodobně nebude fungovat.</MapSizePerformanceWarning>
   <MapSize>Velikost mapy</MapSize>
-  <MapSizeDesc>{0}x{0} ({1} polí)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0} ({1} čtverců)</MapSizeDesc>
   <MapSizeSmall>Malá</MapSizeSmall>
   <MapSizeMedium>Střední</MapSizeMedium>
   <MapSizeLarge>Velká</MapSizeLarge>
-  <MapSizeExtreme>Obrovská</MapSizeExtreme>
+  <MapSizeExtreme>Kolosální</MapSizeExtreme>
 
 
 
   <!-- Bill config -->
-  <Suspended>Pozastaven</Suspended>
-  <NotSuspended>Nezastaven</NotSuspended>
-  <SuspendedAllCaps>POZASTAVEN</SuspendedAllCaps>
+  <Suspended>Pozastaveno</Suspended>
+  <NotSuspended>Nepozastaveno</NotSuspended>
+  <SuspendedAllCaps>POZASTAVENO</SuspendedAllCaps>
   <RepeatCount>Opakovat: {0}</RepeatCount>
-  <Forever>Navždy</Forever>
-  <IngredientSearchRadius>Okruh hledání ingrediencí</IngredientSearchRadius>
-  <TargetCount>Vařit dokud nebude: {0}</TargetCount>
+  <Forever>Vždy</Forever>
+  <IngredientSearchRadius>Rádius hledání položek</IngredientSearchRadius>
+  <TargetCount>Dokud jich nebude: {0}</TargetCount>
   <Infinite>Nekonečno</Infinite>
-  <RecipeCannotHaveTargetCount>(U receptu nelze určit požadovanou sumu protože vytvoří mnohonásobné nebo nepředvídatelné produkty.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>Povolené ingredience</PermittedIngredients>
-  <MinimumSkills>Minimální zkušenost:</MinimumSkills>
-  <DoXTimes>Udělej X-krát</DoXTimes>
-  <DoUntilYouHaveX>Dělej dokud není hotovo X</DoUntilYouHaveX>
-  <DoForever>Dělej navždy</DoForever>
+  <RecipeCannotHaveTargetCount>(Tento recept nemůže mít cílový počet, protože obsahuje více nepředvídatelných produktů.)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>Povolené položky</PermittedIngredients>
+  <MinimumSkills>Minimální úroveň:</MinimumSkills>
+  <BillRequires>Je zapotřebí {0} {1}</BillRequires>
+  <UsableIngredients>použitelné položky</UsableIngredients>
+  <DoXTimes>Udělej to X-krát</DoXTimes>
+  <DoUntilYouHaveX>Dělej dokud jich nebude X</DoUntilYouHaveX>
+  <DoForever>Navždy</DoForever>
   <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
-  
+  <BillStoreMode_DropOnFloor>Položit na podlahu</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Odnést na nejbližší skladiště</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Odnést na nejbližší skladiště</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Def Card -->
   <Type>Typ</Type>
   <GunType>Zbraň</GunType>
-  <PlantType>Rostlina</PlantType>
+  <PlantType>Kytka</PlantType>
   <FoodType>Jídlo</FoodType>
   <HumanType>Člověk</HumanType>
   <AnimalType>Zvíře</AnimalType>
   <MechanoidType>Mechanoid</MechanoidType>
-  <Damage>Poškození</Damage>
+  <Damage>Zranění</Damage>
   <Accuracy>Přesnost</Accuracy>
-  <BurstShotCount>Velikost dávky</BurstShotCount>
-  <WarmupTime>Čas přípravy</WarmupTime>
-  <CooldownTime>Vychladnutí</CooldownTime>
-  <BurstShotFireRate>Kadence</BurstShotFireRate>
-  <Range>Dostřel</Range>
-  <GrowsWild>Volný růst</GrowsWild>
-  <Harvestable>Skliditelné</Harvestable>
+  <BurstShotCount>Počet výstřelů</BurstShotCount>
+  <WarmupTime>Zahřívačka</WarmupTime>
+  <CooldownTime>Znovupoužití</CooldownTime>
+  <BurstShotFireRate>Rychlost střelby</BurstShotFireRate>
+  <Range>Dosah</Range>
+  <GrowsWild>Planá</GrowsWild>
+  <Harvestable>Skliditelná</Harvestable>
   <LimitedLifespan>Omezená životnost</LimitedLifespan>
-  <GrowingTime>Čas růstu</GrowingTime>
-  <Days>dny</Days>
-  <FertilityRequirement>Úrodné podmínky</FertilityRequirement>
-  <LightRequirement>Světelné požadavky</LightRequirement>
-  <Attributes>Vlastnosti</Attributes>
+  <GrowingTime>Doba růstu</GrowingTime>
+  <Days>Dnů</Days>
+  <FertilityRequirement>Zapotřebí hnojivo</FertilityRequirement>
+  <LightRequirement>Zapotřebí světlo</LightRequirement>
+  <Attributes>Atributy</Attributes>
   <LifeSpan>Životnost</LifeSpan>
   <Nutrition>Výživa</Nutrition>
-  <FoodQuality>Kvalita jídla</FoodQuality>
+  <FoodQuality>Úroveň jídla</FoodQuality>
   <WalkSpeedProperty>Rychlost chůze</WalkSpeedProperty>
-  <MeleeDamage>Poškození na blizko</MeleeDamage>
+  <MeleeDamage>Poškození nablízko</MeleeDamage>
   <MeatAmount>Množství masa</MeatAmount>
   <MinFoodQuality>Min. kvalita jídla</MinFoodQuality>
   <Diet>Dieta</Diet>
-  <RecruitDifficulty>Náročnost naverbování</RecruitDifficulty>
-  <BasePrice>Základní cena</BasePrice>
+  <RecruitDifficulty>Obtížnost rekrutace</RecruitDifficulty>
+  <baseMarketValue>Cena základny</baseMarketValue>
+  <Covers>Pokrývky</Covers>
+  <NaturalArmorCovers>Přírodní zbroj</NaturalArmorCovers>
+  <BodyPartEfficiency>Účinnost části těla</BodyPartEfficiency>
   
   <!-- Trade -->
-  <YourTradeableSilver>Tvé směnitelné stříbro: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>Směňovat stříbro můžeš jen to, které není pod střechou a je poblíž obchodního vysílače.</YourTradeableSilverTip>
-
+  <DragToTrade>Přetáhnutím obchodovat</DragToTrade>
+  <BuyPriceDesc>Cena za nákup.</BuyPriceDesc>
+  <SellPriceDesc>Cena za prodej.</SellPriceDesc>
+  <PriceTypeDesc>Tento předmět stojí {0}.</PriceTypeDesc>
+  <ColonyCount>Obchodovatelné množství v kolonii.\n\nProdávat předměty můžeš jen pokud jsou v blízkosti orbiálního majáku.</ColonyCount>
+  <TraderCount>Obchodovatelné množství u obchodníka.</TraderCount>
+  <AcceptButton>Přijmout</AcceptButton>
+  <ResetButton>Resetovat</ResetButton>
+  <CancelButton>Zrušit</CancelButton>
+  <YourTradeableSilver>Vaše obchodovatelné stříbro: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>Lze obchodovat pouze se stříbrem v dosahu orbitálního majáku, nesmí být pod střechou.</YourTradeableSilverTip>
+  <TraderHasNoMore>Obchodník více nemá.</TraderHasNoMore>
+  <ColonyHasNoMore>Nic víc na prodej.</ColonyHasNoMore>
+  <TraderWillNotTrade>Obchodník nemíní s tímhle obchodovat.</TraderWillNotTrade>
+  
   <!-- Comms -->
-  <SocialSkillIs>Společenské zkušenosti: {0}</SocialSkillIs>
+  <SocialSkillIs>Sociální dovednosti: {0}</SocialSkillIs>
 
-  <!--Other-->
+  <!-- Stats report -->
+  <StatsReport_BaseValue>Základní hodnota</StatsReport_BaseValue>
+  <StatsReport_RelevantTraits>Relativní znaky</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Relativní vybavení</StatsReport_RelevantGear>
+  <StatsReport_Material>Materiál</StatsReport_Material>
+  <StatsReport_CharacterQuality>Kvalita charakteru</StatsReport_CharacterQuality>
+  <StatsReport_Skills>Faktory dovedností</StatsReport_Skills>
+  <StatsReport_OtherStats>Faktory ostatních statistik</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Faktory zdraví</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} významné</HealthFactorPercentImpact>
+  <StatsReport_PostProcessed>Post-Traumatické zakřivení</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Konečná hodnota</StatsReport_FinalValue>
+  
+  
+  <!--Research-->
   <ResearchFinished>Výzkum dokončen: {0}</ResearchFinished>
-  <ResearchScreen>Okno výzkumu</ResearchScreen>
+  <ResearchScreen>Obrazovka výzkumu</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Chcete nahrávat vaše záznamy z hraní na RimWorld servery k výpomoci vývojářům doladit hru? Pokud souhlasíte, vaše data budou nahrávána každých {0} dní (a ve vzácných případech jako konci hry). Nastavení soukromí lze později změnit v nastavení hry.</HistoryUploadMessage>
-  <HistoryUploadMessagePlayerName>Ikdyž je historie posílána anonymně, můžete k ní připojit jméno.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>Povolit nahrávání záznamů z hraní</HistoryUploadYes>
-  <HistoryUploadNo>Zakázat nahrávání záznamů z hraní</HistoryUploadNo>
-  <HistoryUploadYesOnce>Nahrát jen nyní</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>Nyní nic nenahrávat, zeptat se později</HistoryUploadNoOnce>
-	
-</LanguageData> 
+  <HistoryUploadMessage>Chcete odeslat záznam hry vývojářům RimWorld, aby mohly vývojáři vybalancovat obtížnost hry? Pokud souhlasíš, tak se report odešle každých {0} dní (také ve zvláštních příložitostech, jako při dokončení hry). Nastavení soukromí jde změnit v menu.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Přesto že se hlášení odesíla anonymě, můžete připojit své jméno.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Povolit odesílání herních dat</HistoryUploadYes>
+  <HistoryUploadNo>Zakázat odesílání herních dat</HistoryUploadNo>
+  <HistoryUploadYesOnce>Odeslat pouze nyní</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Neodesílat, zeptat se později</HistoryUploadNoOnce>
+
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  
+</LanguageData>

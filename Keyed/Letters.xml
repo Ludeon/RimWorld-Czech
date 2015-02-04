@@ -1,29 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <JumpToLocation>Přeskočit na místo</JumpToLocation>
+  <JumpToLocation>Jít do lokace</JumpToLocation>
 
-  <RelationsBrokenDown>Vztah s {0} se rozpadl. Teď jsou tvoji nepřátlé.</RelationsBrokenDown>
-  <RelationsWarmed>Vztah s {0} se zlepšil. Již nejsou tvými nepřáteli.</RelationsWarmed>
+  <RelationsBrokenDown>Vztahy s {0} se zhoršily. Nyní jsou k tobě nepřátelští.</RelationsBrokenDown>
+  <RelationsWarmed>Vztahy s {0} se zlepšili. Už k tobě nechovají zášť.</RelationsWarmed>
 
-  <RelationsBrokenCapture>Protože jsi zajmul {0}, {1} jsou teď tvými nepřáteli.</RelationsBrokenCapture>
+  <RelationsBrokenCapture>Protože si zajal {0}, tak lidé z {1} jsou k tobě nepřátelští.</RelationsBrokenCapture>
 
-  <ColonyGoodwill>Přízeň kolonie</ColonyGoodwill>
+  <ColonyGoodwill>Starý známí</ColonyGoodwill>
   <Neutral>Neutrální</Neutral>
 
-  <ShortCircuitRain>{0} zkratovala v dešti a vytvořila menší požár.</ShortCircuitRain>
-  <AreaRevealed>Byla objevena nová oblast.</AreaRevealed>
+  <ShortCircuitRain>{0} zkratoval díky dešti a začal hořet.</ShortCircuitRain>
+  <AreaRevealed>Nové území odhaleno.</AreaRevealed>
 
-  <RoofCollapsed>Střecha spadla, protože byla moc daleko od jakéhokoliv nosníku.</RoofCollapsed>
-  <TheseThingsCrushed>Tyto věci byly zavaleny:</TheseThingsCrushed>
-  <NothingCrushed>Nebyly způsobeny žádné škody.</NothingCrushed>
+  <RoofCollapsed>Střecha se propadla, protože nemáš žádný nosník, který by jí držel.</RoofCollapsed>
+  <TheseThingsCrushed>Tyto věci byly zničeny:</TheseThingsCrushed>
+  <NothingCrushed>Naštěstí se nic nezničilo.</NothingCrushed>
   
-  <MentalBreakRampage>{0} se zhroutil(a) a má záchvat.</MentalBreakRampage>
-  <MentalBreakDaze>{0} to už nevydržel(a) a odchází z kolonie.</MentalBreakDaze>
-  <MentalBreakLeave>{0} se zhroutil(a) a potlouká se kolem.</MentalBreakLeave>
+  <MentalBreakRampage>{0} se zhroutil a začal běsnit.</MentalBreakRampage>
+  <MentalBreakDaze>{0} to vzdal a poblouzněně chodí kolem.</MentalBreakDaze>
+  <MentalBreakLeave>{0} to vzdal a opouští kolonii.</MentalBreakLeave>
 
-  <RecruitSuccess>{0} úspěšně přesvědčil(a) {1}, aby se k nim přidal(a) ({2} chance).</RecruitSuccess>
-  <RecruitFail>{0} nepřesvědčil(a) {1}, aby se k nim přidal(a) ({2} chance).</RecruitFail>
+  <RecruitSuccess>{0} úspěšně naverboval {1} ({2} šance).</RecruitSuccess>
+  <RecruitFail>{0} nenaverboval {1} ({2} šance).</RecruitFail>
   
+  <Birthday>{0} má dnes narozeniny! Zestárl/a z {1} na {2}.</Birthday>
+  <BirthdayWithInjuries>{0} má dnes narozeniny! Zestárl/a z {1} na {2}.\n\nBohužel, {0} díky stáří získal tyto nemoci:\n{3}</BirthdayWithInjuries>
   
-</LanguageData> 
+  <NewDisease>{0} dostal nemoc ({1}). Ujisti se, že {0} dostane náležitou péči a zůstane v poseli, aby se co nejrychleji uzdravil.</NewDisease>
+  <NewPartDisease>{0} dostal do {1} infekci. Ujisti se, že {0} dostane náležitou péči a zůstane v poseli, aby se co nejrychleji uzdravil.</NewPartDisease>
+  
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  
+</LanguageData>

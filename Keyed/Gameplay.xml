@@ -1,145 +1,195 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Various -->
-  <WorkLeft>Zbylá práce</WorkLeft>
+  <WorkLeft>Zbývá práce</WorkLeft>
   <Contents>Obsah</Contents>
-  <ContainedResources>Uskladněné suroviny</ContainedResources>
-  <ForPrisonerUse>Pro vězně</ForPrisonerUse>
+  <ContainedResources>Obsažené zdroje</ContainedResources>
+  <ForPrisonerUse>Pro vězeně</ForPrisonerUse>
   <ForColonistUse>Pro kolonisty</ForColonistUse>
-  <Owner>Vlastník</Owner>
+  <MedicalBed>Zdravotní</MedicalBed>
+  <Owner>Majitel</Owner>
   <Nobody>Nikdo</Nobody>
-  <Unowned>Bez vlastníka</Unowned>
-  <DeadTime>Zemřel {0}</DeadTime>
-  <WalkSpeed>Rachlost chůze {0}</WalkSpeed>
-  <DyingLower>umírá</DyingLower>
-  <PawnEffectiveness>Efektivita</PawnEffectiveness>
-  <FilthOnFeet>Špína na chodidlech:</FilthOnFeet>
-  <NotEnoughStoredLower>nedostatek na skladě</NotEnoughStoredLower>
+  <Unowned>Nevlastněné</Unowned>
+  <DeadTime>Mrtvý {0}</DeadTime>
+  <WalkSpeed>Rychlost chůze {0}</WalkSpeed>
+  <DyingLower>Umírající</DyingLower>
+  <FilthOnFeet>Špína na nohou:</FilthOnFeet>
+  <NotEnoughStoredLower>Není dost místa na skladě</NotEnoughStoredLower>
   <NothingLower>nic</NothingLower>
+  <Adapted>Převzato</Adapted>
+  <Headshot>Headshot</Headshot>
+  <FreshMissingBodyPart>čerstvý</FreshMissingBodyPart>
+  <UntreatedLower>neošetřené</UntreatedLower>
+  <DevelopedImmunityLower>imunita se vyvinula</DevelopedImmunityLower>
+  <InjuryRequiresTreatment>vyžaduje ošetření</InjuryRequiresTreatment>
+  <NextTreatmentAfter>další ošetřování po {0} dni</NextTreatmentAfter>
+  <MissingMedicalBillIngredient>ne {0}</MissingMedicalBillIngredient>
+  <ImmunityDevelopmentProgress>vytváří se imunita</ImmunityDevelopmentProgress>
 
   <!-- Turrets -->
   <GunInstalled>Instalována</GunInstalled>
-  <MinimumRange>Minimální oblast</MinimumRange>
-  <CanFireIn>Připraven k palbě za</CanFireIn>
+  <MinimumRange>Minimální dosah</MinimumRange>
+  <CanFireIn>Může odpalovat</CanFireIn>
   
   
   <!-- Job reports -->
-	<ReportHaulingTo>Přenáší {0} do {1}.</ReportHaulingTo>
-	<ReportHauling>Přenáší {0}.</ReportHauling>
-
+	<ReportHaulingTo>Odnést {0} na {1}.</ReportHaulingTo>
+	<ReportHauling>Odnést {0}.</ReportHauling>
+  <ReportSleeping>Spát.</ReportSleeping>
+  <ReportResting>Odpočívat.</ReportResting>
+  
 	<!-- Shooting report -->
-  <WeaponMissRadius>Rozptyl</WeaponMissRadius>
-	<ShootReportSkill>Zkušenost</ShootReportSkill>
+  <WeaponMissRadius>Vzdálenost rozptylu zbraně</WeaponMissRadius>
+	<ShootReportShooterAbility>Střelec</ShootReportShooterAbility>
 	<ShootReportWeapon>Zbraň</ShootReportWeapon>
-	<Darkness>Temnota</Darkness>
-	<TargetProne>Poloha cíle</TargetProne>
+	<Darkness>Tma</Darkness>
+	<TargetProne>Sklon cíle</TargetProne>
 	<TargetSize>Velikost cíle</TargetSize>
 	<Weather>Počasí</Weather>
-	<ShootingCover>kryt</ShootingCover>
-	<CoverThingBlocksPercentOfShots>{0} zabránila {1}</CoverThingBlocksPercentOfShots>
-	<NoCoverLower>bez krytu</NoCoverLower>
+	<ShootingCover>Krytí</ShootingCover>
+	<CoverThingBlocksPercentOfShots>{0} zastaví {1}</CoverThingBlocksPercentOfShots>
+	<NoCoverLower>Bez krytí</NoCoverLower>
 	
 	
 	<!-- Status levels -->
   <Mood>Nálada</Mood>
-  <MoodTip>Nálada je založená na plnění fyzických a psychologických potřeb.\n\nPokud něčí nálada klesne příliš nízko, může se zbláznit.</MoodTip>
-  <Food>Sytost</Food>
-  <FoodTip>Sytost znamená, jak je kdo spokojen s příjmanou stravou.\n\nSytost se vynuluje, pokud zrovna jí. Po chvíli začne klesat, dokud se znova nenají. Pokud klesne na nulu, osoba začne mít zažívací potíže.</FoodTip>
+  <MoodTip>Nálada se udržuje pomocí plnení fyzických i psychických potřeb.\n\nPokud někomu rázně klesne nálada, tak se může i zhroutit.</MoodTip>
+  <Food>Jídlo</Food>
+  <FoodTip>Jídlo, nebo take potřebná dávka živin, je základem pro život. Pokud nebudou kolonisté dostatečně jíst, budou slábnout až nakonec zemřou.</FoodTip>
   <Rest>Odpočinek</Rest>
-  <RestTip>Odpočinek znamená, jaká kvalita relaxace a spánku se člověku dostává.\n\nStoupá až do maxima pokud spí v postelí. Mimo postel začne postupně klesat.</RestTip>
+  <RestTip>Spánek a relaxace je také důležitá pro kolonisty.\n\nNejvyšší je ráno, když vylezou z postele a pak pomalu klesá.</RestTip>
   <Environment>Prostředí</Environment>
-  <EnvironmentTip>Prostředí odráží jak osobu uklidňuje prostředí v blízkosti.\n\nProstředí je vysoké, pokud jsou lidé v prostorných místnostech s pěknou dekorací. Je špatné pokud  kolem nich je prostředí ošklivé.</EnvironmentTip>
-  <Openness>Otevřenost</Openness>
+  <EnvironmentTip>Prostředí je vše okolo nás.\n\nKolonisté mají radost, když prostředí kolem nich je hezké. Pokud prostředí je ošklivé, tak chytají deprese.</EnvironmentTip>
+  <Openness>Vnímavost</Openness>
 
   
   <!-- Thoughts -->
   <ThoughtExpiresIn>Vyprší za: {0}</ThoughtExpiresIn>
-  <ThoughtStartsExpiringIn>Začne působit za: {0}</ThoughtStartsExpiringIn>
-  <ThoughtFinishesExpiringIn>přestane působit za: {0}</ThoughtFinishesExpiringIn>
-  <MentalBreakThreshold>Na hraně zbláznění</MentalBreakThreshold>
-
-
-
-  <!--Effectiveness-->
-  <EffectivenessFull>Plná</EffectivenessFull>
-  <EffectivenessReduced>Omezená</EffectivenessReduced>
-  <EffectivenessImpaired>Narušená</EffectivenessImpaired>
-  <EffectivenessIncapacitated>Žádná</EffectivenessIncapacitated>
+  <ThoughtStartsExpiringIn>Začne vyprchávat za: {0}</ThoughtStartsExpiringIn>
+  <ThoughtFinishesExpiringIn>Vyprší v: {0}</ThoughtFinishesExpiringIn>
+  <MentalBreakThreshold>Práh psychického zhroucení</MentalBreakThreshold>
 
 
   <!-- Pawn info readout -->
-  <Health>Životy</Health>
+  <Health>Zdraví</Health>
   <PawnMainDescWithFactionGendered>{0} {1} z {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
   <PawnMainDescWithFactionGenderless>{0} z {1}</PawnMainDescWithFactionGenderless>
   <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Frakce</Faction>
-  <Equipped>Vyzbrojeno</Equipped>
+  <Equipped>Vybaven</Equipped>
   <EquippedNothing>Nic</EquippedNothing>
-  <Incapacitated>Neschopnost</Incapacitated>
-  <InRestraints>V poutech (zpomalen)</InRestraints>
-  <Carrying>Nese</Carrying>
-  <SanityDazedWander>Zlomen: Omámen a blouzní</SanityDazedWander>
-  <SanityGiveUpExit>Zlomen: Vzdal se a odchází</SanityGiveUpExit>
-  <SanityPanicFlee>Zlomen: V panice utíká</SanityPanicFlee>
-  <SanityPsychotic>Zlomen: Šíleně besní</SanityPsychotic>
-
+  <Incapacitated>Neschopný</Incapacitated>
+  <InRestraints>Omezen (zpomalen)</InRestraints>
+  <Carrying>Nesoucí</Carrying>
+  <SanityDazedWander>Zlomen: Zmatený a poblouzněn</SanityDazedWander>
+  <SanityGiveUpExit>Zlomen: Vzdal to a odchází</SanityGiveUpExit>
+  <SanityPanicFlee>Zlomen: Utíká v panice</SanityPanicFlee>
+  <SanityPsychotic>Zlomen: Bezhlavé běsnění</SanityPsychotic>
+  
+  <!-- Body and activities condition -->
+  <None>Nic</None>
+  <VeryPoor>Velmi špatné</VeryPoor>
+  <Poor>Špatné</Poor>
+  <Weakened>Chabé</Weakened>
+  <GoodCondition>OK</GoodCondition>
+  <Enhanced>Vylepšené</Enhanced>
+  <SeriouslyImpaired>Vážně postižené</SeriouslyImpaired>
+  <Impaired>Postižené</Impaired>
+  <SlightlyImpaired>Mírně postižené</SlightlyImpaired>
+  <NoPain>Není</NoPain>
+  <LittlePain>Malá</LittlePain>
+  <MediumPain>Střední</MediumPain>
+  <SeverePain>Vážná</SeverePain>
+  <ExtremePain>Příšerná</ExtremePain>
 
   <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Vyber další věc v tomto poli.\n\nZkratka: {0}\n\nLze také provést dvoj-klikem.</SelectNextInSquareTip>
-  <DefInfoTip>Prohlédnout informace o objektu.</DefInfoTip>
+  <SelectNextInSquareTip>Vybrat další věc v daném čtverci.\n\nZkratka: {0}\n\nNebo také stačí pomalu kliknout na stejný čtverec.</SelectNextInSquareTip>
+  <DefInfoTip>Zobrazit informace o tomto objektu.</DefInfoTip>
+  
   
   <!-- ITab titles -->
   <TabBills>Úkoly</TabBills>
   <TabGrowing>Pěstování</TabGrowing>
   <TabCharacter>Charakter</TabCharacter>
-  <TabNeeds>Potřeby</TabNeeds>
-  <TabPrisoner>Vězeň</TabPrisoner>
+  <TabPrisoner>Vězni</TabPrisoner>
   <TabGear>Výbava</TabGear>
   <TabThoughts>Myšlenky</TabThoughts>
   <TabStorage>Sklad</TabStorage>
+  <TabHealth>Zdraví</TabHealth>
+  <TabRace>Rasa</TabRace>
+  <TabBasics>Základ</TabBasics>
+  <TabStats>Statistiky</TabStats>
 
-	<!-- ITabs -->
+
+  <!-- ITabs -->
 	<AddBill>Přidat úkol</AddBill>
-	<RecipeRequiresSkills>Tento recept {0} vyžaduje zkušenosti níže. Žádný z kolonistů nemá tyto schopnosti, tudíž nikdo úkol nemůže vykonat.</RecipeRequiresSkills>
-	<BillConfig>Upřesnit</BillConfig>
-	<SuspendedCaps>POZASTAVEN</SuspendedCaps>
+	<RecipeRequiresSkills>Tonto recept ({0}) vyžaduje schopnosti, které jsou níže. Nikdo z tvých kolonistů tyto schopnosti nemá, takže nikdo to nesplní.</RecipeRequiresSkills>
+	<BillConfig>Nastav</BillConfig>
+	<SuspendedCaps>ZASTAVEN</SuspendedCaps>
 	<PlantVerb>Rostlina</PlantVerb>
-	<RecruitmentDifficulty>Obtížnost naverbování</RecruitmentDifficulty>
-	<PrisonerGetsFood>Dostává příděl potravy</PrisonerGetsFood>
-	<ShouldTryToRecruit>Zkoušet naverbovat</ShouldTryToRecruit>
-	<PrisonerNoInteraction>Žádný kontakt</PrisonerNoInteraction>
-	<PrisonerFriendlyChat>Přátelský rozhovor</PrisonerFriendlyChat>
-	<PrisonerMildBeating>Lehké mlácení</PrisonerMildBeating>
-	<PrisonerViciousBeating>Tvrdé mlácení</PrisonerViciousBeating>
-	<PrisonerExecution>Poprava</PrisonerExecution>
-	<Equipment>Výbava</Equipment>
+	<RecruitmentDifficulty>Obtížnost rekrutace</RecruitmentDifficulty>
+	<PrisonerGetsFood>Dostávat jídlo</PrisonerGetsFood>
+	<DoctorsCare>Doktorská péče</DoctorsCare>
+	<PrisonerGetsMedicine>Dát léky</PrisonerGetsMedicine>
+	<ShouldTryToRecruit>Zkusit naverbovat</ShouldTryToRecruit>
+	<PrisonerNoInteraction>Nic nedělat</PrisonerNoInteraction>
+	<PrisonerFriendlyChat>Pokecat</PrisonerFriendlyChat>
+	<PrisonerMildBeating>Profackovat</PrisonerMildBeating>
+	<PrisonerViciousBeating>Zvalchovat</PrisonerViciousBeating>
+	<PrisonerExecution>Popravit</PrisonerExecution>
+	<Equipment>Vybavení</Equipment>
 	<Apparel>Oblečení</Apparel>
 	<Inventory>Inventář</Inventory>
 	<ThingInfo>Informace</ThingInfo>
-	<DropThing>Upustit</DropThing>
-	<TotalModifiers>Všechny násobiče</TotalModifiers>
-	<DamageAbsorption>Pohlcení poškození</DamageAbsorption>
+	<DropThing>Položen</DropThing>
+	<TotalModifiers>Celkové modifikátory</TotalModifiers>
+	<DamageAbsorption>Absorbce poškození</DamageAbsorption>
+	<DamageDeflection>Výchylka poškození</DamageDeflection>
 	<MoveSpeed>Rychlost pohybu</MoveSpeed>
+	<Efficiency>Účinost</Efficiency>
+	<MissingBodyPart>Pryč</MissingBodyPart>
+	<DestroyedBodyPart>Zničeno</DestroyedBodyPart>
+	<ShatteredBodyPart>Poškozeno</ShatteredBodyPart>
+  <RemovedBodyPart>Odebráno</RemovedBodyPart>
+	<Healthy>Zdravý</Healthy>
+	<InPain>V bolestech</InPain>
+	<PainLevel>Bolest</PainLevel>
+	<Dead>Mrtvý</Dead>
+	<Unconscious>V bezvědomí</Unconscious>
+	<PainShock>V šoku</PainShock>
+	<Injured>Raněn</Injured>
+	<NoInjuries>(žádná zranění)</NoInjuries>
+	<WholeBody>Celé tělo</WholeBody>
+	<RenameColonist>Přejmenovat kolonistu</RenameColonist>
+	<DataProcessing>Zpracovávání dat</DataProcessing>
+	<Communication>Komunikace</Communication>
+	<AffectsLower>Záchvat</AffectsLower>
+	<BleedingRate>Míra krvácení</BleedingRate>
+	<HealthOverview>Přehled</HealthOverview>
+	<MedicalOperationsShort>Operace ({0})</MedicalOperationsShort>
+	<MedicalOperationsMechanoidsShort>Modifikace ({0})</MedicalOperationsMechanoidsShort>
+	<MedicalOperations>Zdravotní operace</MedicalOperations>
+	<Amputate>Amputovat</Amputate>
+	<Harvest>Sebrat</Harvest>
 
 	<!-- like 'Blood of John' -->
 	<OfLower>z</OfLower>
 
 	<!-- Power readout -->
-	<PowerNotConnected>Není napojeno na energii.</PowerNotConnected>
-	<PowerConnectedRate>Síla připojení: {0}W</PowerConnectedRate>
-	<PowerConnectedStored>Uložená energie: {0}Wd</PowerConnectedStored>
-  <PowerNeeded>Potřebná energie</PowerNeeded>
-  <PowerOutput>Energetický výstup</PowerOutput>
+	<PowerNotConnected>Není v zásuvce.</PowerNotConnected>
+  <PowerConnectedRateStored>Přísun elektřiny/uloženo: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerNeeded>Potřebná elektřina</PowerNeeded>
+  <PowerOutput>Výstup elektřiny</PowerOutput>
   <PowerBatteryStored>Uloženo</PowerBatteryStored>
-  <PowerBatteryEfficiency>Efektivita</PowerBatteryEfficiency>
-  
+  <PowerBatteryEfficiency>Účinost</PowerBatteryEfficiency>
+
   
 	<!--Rotting-->
 	<RotStateFresh>Čerstvý</RotStateFresh>
-	<RotStateRotting>Hnije</RotStateRotting>
-	<RotStateDessicated>Zkažený</RotStateDessicated>
+	<RotStateRotting>Hnijící</RotStateRotting>
+	<RotStateDessicated>Sušené</RotStateDessicated>
 	
   <!-- Shooting tooltip -->
   <ShotBy>Střelen {0}</ShotBy>
@@ -147,77 +197,87 @@
 
   <!-- Storage priority labels -->
   <StoragePriorityUnstored>Neukládat</StoragePriorityUnstored>
-  <StoragePriorityLow>Nízká</StoragePriorityLow>
-  <StoragePriorityNormal>Normální</StoragePriorityNormal>
-  <StoragePriorityPreferred>Upřednostněná</StoragePriorityPreferred>
-  <StoragePriorityImportant>Duležitá</StoragePriorityImportant>
-  <StoragePriorityCritical>Kritická</StoragePriorityCritical>
+  <StoragePriorityLow>Málo</StoragePriorityLow>
+  <StoragePriorityNormal>Normálně</StoragePriorityNormal>
+  <StoragePriorityPreferred>Upřednostněně</StoragePriorityPreferred>
+  <StoragePriorityImportant>Důležitě</StoragePriorityImportant>
+  <StoragePriorityCritical>Extrémně</StoragePriorityCritical>
 
   <!-- Meal -->
   <TimeToSpoil>Zkazí se za {0}</TimeToSpoil>
   <Ingredients>Ingredience</Ingredients>
 
   <!-- Plants -->
-  <PercentGrowth>{0}% zralé</PercentGrowth>
-  <Growing>Roste</Growing>
-  <NotGrowingNow>Nyní neroste (musí být {0}).</NotGrowingNow>
-  <FullyGrownIn>Plně vyrostlé za {0}.</FullyGrownIn>
-  <ReadyToHarvest>Připraveno na sklizení.</ReadyToHarvest>
-  <Mature>Zralé.</Mature>
+  <PercentGrowth>{0}% růstu</PercentGrowth>
+  <Growing>Růst</Growing>
+  <NotGrowingNow>Teď neroste (je zapotřebí {0}).</NotGrowingNow>
+  <NotGrowingNowNight>Neroste (je noc).</NotGrowingNowNight>
+  <FullyGrownIn>Plně vyroste za {0}.</FullyGrownIn>
+  <ReadyToHarvest>Připraven na sklizeň.</ReadyToHarvest>
+  <Mature>Dospělí.</Mature>
+  <SeedLabel>{0} semínek</SeedLabel>
   
   <!-- Zones -->
   <Zone>Zóna</Zone>
-  <GrowingZone>Zahrada</GrowingZone>
+  <GrowingZone>Pole</GrowingZone>
   <Stockpile>Skladiště</Stockpile>
   <DumpingStockpile>Skládka</DumpingStockpile>
   <Priority>Priorita</Priority>
 
   <!-- General time stuff -->
-  <DaysLower>dní</DaysLower>
-  <SecondsLower>sekund</SecondsLower>
+  <DaysLower>dny</DaysLower>
+  <SecondsLower>sekundy</SecondsLower>
   
   <!-- Mouseover indicator -->
-  <Undiscovered>Neprozkoumáno</Undiscovered>
+  <Undiscovered>Neobjevené</Undiscovered>
   
   <!-- Buttons -->
-  <ZoneVisibilityToggleButton>Přepni viditelnost zón.</ZoneVisibilityToggleButton>
-  <AutoHomeRegionToggleButton>Přepni automatické přidávání domovských zón kolem nových konstrukcí.</AutoHomeRegionToggleButton>
-
+  <ZoneVisibilityToggleButton>Přepnout viditelnost zón.</ZoneVisibilityToggleButton>
+  <AutoHomeRegionToggleButton>Přepnout na automatické tvoření obytných zón kolem nových staveb.</AutoHomeRegionToggleButton>
+  <CategorizedResourceReadoutToggleButton>Přepnout kategorizaci módu indikace zdrojů.</CategorizedResourceReadoutToggleButton>
 
   <!-- Fire -->
-  <Fire>Střílet</Fire>
-  <FireOn>Střílet na {0}</FireOn>
+  <Fire>Oheň</Fire>
+  <FireOn>Oheň na {0}</FireOn>
   <Burning>Hoří</Burning>
-  <FireSizeLower>velikost požáru {0}</FireSizeLower>
+  <FireSizeLower>Šířka ohně je {0}</FireSizeLower>
   
 
   <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>Právě panují speciální podmínky v okolí.</MapConditionsTip>
+  <MapConditionsTip>Speciální podmínky, které ovlivňují danou oblast.</MapConditionsTip>
 
-  
-  
+  <!-- Building placement -->
+  <NoStuffsToBuildWith>Na stavbu není potřebný materiál.</NoStuffsToBuildWith>
+
   <!-- Building placement restricters -->
-  <MustPlaceUnroofed>Nelze umístít pod střechu.</MustPlaceUnroofed>
-  <MustPlaceHeadOnShipBeam>Musí se umístit hlavou připojenou ke konstrukčnímu nosníku lodi.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>musí být umístěno vedle něčeho, co potřebuje kontejner.</MustPlaceNextToHopperAccepter>
-  <MustPlaceOnSteamGeyser>Musí být umístěno přímo na gejzír páry.</MustPlaceOnSteamGeyser>
-  
+  <MustPlaceUnroofed>Nelze postavit pod střechu.</MustPlaceUnroofed>
+  <MustPlaceHeadOnShipBeam>Musí být položeno tak, aby se hlavou dotýkala konstrukce lodi.</MustPlaceHeadOnShipBeam>
+  <MustPlaceNextToHopperAccepter>Musí být položeno vedle něčeho, co potřebuje násypku.</MustPlaceNextToHopperAccepter>
+  <MustPlaceOnSteamGeyser>Musí to být položeno na gejzíru páry.</MustPlaceOnSteamGeyser>
+
+
+
   <!-- Cryptosleep pod -->
   <PodContains>Obsahuje</PodContains>
 
   <!-- Ship launch report -->
-  <ShipReportCannotLaunch>Nelze nastartovat.</ShipReportCannotLaunch>
-  <ShipReportCanLaunch>Připraveno na start.</ShipReportCanLaunch>
-  <ShipReportMissingPart>Chybí důležitá součástka</ShipReportMissingPart>
-  <ShipReportNoFullPods>Nejsou zaplněny kryptospánkové komory</ShipReportNoFullPods>
+  <ShipReportCannotLaunch>Nelze zažehnout.</ShipReportCannotLaunch>
+  <ShipReportCanLaunch>Připraven na zážeh.</ShipReportCanLaunch>
+  <ShipReportMissingPart>Chybí základní komponenty.</ShipReportMissingPart>
+  <ShipReportNoFullPods>Kryospánkové kapsle nejsou plné.</ShipReportNoFullPods>
 
+  <!-- Neurotrainer -->
+  <UseNeurotrainer>Aby jste se naučili {0}, použijte neurotrenéra</UseNeurotrainer>
+  <NeurotrainerUsed>{0} použil neurotrenéra {1}, aby se dostal z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
   
   
   <!-- Game over -->
-  <GameOverEveryoneDead>Všichni jsou mrtví nebo pryč. Tento příběh je u konce.\n\nMožná někdo další najde využití pro tyto ruiny.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Odletěl jsi s lodí! Tito kolonisté unikli:\n\n{0}\nTito kolonisté zůstali:\n\n{1}\nTvoje umělá inteligence se pokusí tě dopravit na bezpečné místo. Může tě vysadit na lepší planetě v tomto systému. nebo, provede dlouhou cestu k další hvězdě. Může se také rozhodnout skrýt pod ledem na astroidu na pár tisíc let, čekajíc na lepší příležitost.\n\nTo zjistíš až se probudíš.</GameOverShipLaunched>
-  <GameOverKeepPlaying>Pokračovat ve hraní</GameOverKeepPlaying>
+  <GameOverEveryoneDead>Všichni jsou mrtví Dejve.\n\nTřeba někdo najde tuhle skládku, kterou si nazval kolonie a nějak jí využije.</GameOverEveryoneDead>
+  <GameOverShipLaunched>Úspěšne si odstartoval! Tihle zdrhli:\n\n{0}\nA tyhle si tam nechal pojít:\n\n{1}\nTvoje UI se tě bude snažit dostat na bezpečné místo. Nebo tě vyloží na hezčí planetě tohoto systému. Třeba tě vezme na stoletý výlet nedo i delší k jiné hvězdě. Co když se rozhodne ukrýt se na asteroidu a vyčkat na lepší historické období.\n\nNo uvidíš, co se stane, pokud se probudíš.</GameOverShipLaunched>
+  <GameOverKeepPlaying>Pokračovat v hraní</GameOverKeepPlaying>
   <GameOverMainMenu>Hlavní nabídka</GameOverMainMenu>
   
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
   
-</LanguageData> 
+</LanguageData>

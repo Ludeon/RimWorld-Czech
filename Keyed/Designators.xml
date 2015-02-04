@@ -1,82 +1,90 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <DesignatorCancel>Zrušit</DesignatorCancel>
-  <DesignatorCancelDesc>Ruší zadané stavění, dolování, přenášení, sklízení, a všechny ostatní nařízení.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Zruší naplnánovanou výstavbu, těžbu atd...</DesignatorCancelDesc>
 
-  <DesignatorCutPlants>Posekat rostlinu</DesignatorCutPlants>
-  <DesignatorCutPlantsDesc>Označí rostliny, které mají být posekány a zničeny. Rostlinna bude kompletně odstraněna, a jídlo přitom bude sklizeno.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlants>Posekat</DesignatorCutPlants>
+  <DesignatorCutPlantsDesc>Označená rostlina bude úplně odstraněna, žádné jídlo ani meteriál.</DesignatorCutPlantsDesc>
 
   <DesignatorDeconstruct>Rozebrat</DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Rozebere konsrukci a vrátí část použitých zdrojů.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Rozebere stavbu a získejte trochu materiálu nazpět.</DesignatorDeconstructDesc>
 
-  <DesignatorHarvestFood>Sklidit jídlo</DesignatorHarvestFood>
-  <DesignatorHarvestFoodDesc>Označí rostliny které mají být sklizeny. Jídlo bude sklizeno, ale rostlina zůstane na místě.</DesignatorHarvestFoodDesc>
+  <DesignatorHarvest>Sklidit</DesignatorHarvest>
+  <DesignatorHarvestDesc>Označená rostlina bude sklizena.</DesignatorHarvestDesc>
 
-  <DesignatorHarvestWood>Nasekat dřevo</DesignatorHarvestWood>
-  <DesignatorHarvestWoodDesc>Označí stromy které májí být pokáceny k získání dřeva.</DesignatorHarvestWoodDesc>
+  <DesignatorHarvestWood>Pokácet</DesignatorHarvestWood>
+  <DesignatorHarvestWoodDesc>Z označeného stromu se stane dřevo.</DesignatorHarvestWoodDesc>
 
-  <DesignatorHaulThings>Přenést</DesignatorHaulThings>
-  <DesignatorHaulThingsDesc>Označí úlomky kamene a ostatní věci které mají být odneseny na skládku. Není potřeba pro věci jako jídlo a mrtvoly, které jsou vždy přenesitelné.</DesignatorHaulThingsDesc>
-  <NothingToHaulHere>Nic k přenesení.</NothingToHaulHere>
-  <MustHaulHaulables>Musíš označit jen věci, které se automaticky nepřenášejí (jako úlomky kamene).</MustHaulHaulables>
+  <DesignatorHaulThings>Zrecyklovat</DesignatorHaulThings>
+  <DesignatorHaulThingsDesc>Označené kusy kamenů nebo kusy kovu budou při první příležitost odneseny na skládku. Netýká se to těl a mrtvol, ty jsou autamaticky odnášeny.</DesignatorHaulThingsDesc>
+  <NothingToHaulHere>Nic na odnos.</NothingToHaulHere>
+  <MustHaulHaulables>Označit jde pouze věci na odnos, jako například kameny.</MustHaulHaulables>
 
   <DesignatorHunt>Ulovit</DesignatorHunt>
-  <DesignatorHuntDesc>Označí zvířata které mají být ulovena tvými lovci.</DesignatorHuntDesc>
+  <DesignatorHuntDesc>Označené zvířátka budou zmasakrována.</DesignatorHuntDesc>
 
-  <DesignatorMine>Dolovat</DesignatorMine>
-  <DesignatorMineDesc>Označí místa, která mají být vydolovány.</DesignatorMineDesc>
+  <DesignatorMine>Vytěžit</DesignatorMine>
+  <DesignatorMineDesc>Označené území bude vydolováno.</DesignatorMineDesc>
 
-  <DesignatorPlan>Plánovat</DesignatorPlan>
-  <DesignatorPlanDesc>Umístí plánovací značení. Toto nic nestaví, jen ti pomáhá v plánování dalších rozšíření.</DesignatorPlanDesc>
+  <DesignatorPlan>Naplánovat</DesignatorPlan>
+  <DesignatorPlanDesc>Nevytvoří to nic podstatného, ale pomůže při budoucím rozvoji kolonie.</DesignatorPlanDesc>
 
-  <DesignatorPlanRemove>Odstranit plány</DesignatorPlanRemove>
-  <DesignatorPlanRemoveDesc>Odstraní plánovací značení.</DesignatorPlanRemoveDesc>
+  <DesignatorPlanRemove>Zrušit plány</DesignatorPlanRemove>
+  <DesignatorPlanRemoveDesc>Odebere plány.</DesignatorPlanRemoveDesc>
 
-  <DesignatorHomeRegionAdd>Přidat domovskou zónu</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Kolonisté budou opravovat budovy, čistit podlahy a hasit ohně v domovské zóně.</DesignatorHomeRegionAddDesc>
+  <DesignatorHomeRegionAdd>Přidat Obytný region</DesignatorHomeRegionAdd>
+  <DesignatorHomeRegionAddDesc>V obytných regionech kolonisti budou uklízet, opravovat i hasit ohně.</DesignatorHomeRegionAddDesc>
 
-  <DesignatorHomeRegionRemove>Odstranit domovskou zónu</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Odstraní domovskou zónu. Kolonisté zde nebudou nadále čistit, opravovat nebo hasit.</DesignatorHomeRegionRemoveDesc>
+  <DesignatorHomeRegionRemove>Odebrat Obytný region</DesignatorHomeRegionRemove>
+  <DesignatorHomeRegionRemoveDesc>Kolonisti zde už nebudou uklízet, opravovat ani hasit ohně.</DesignatorHomeRegionRemoveDesc>
 
-  <DesignatorRegionNoRoofAdd>Vytvořit bezstřešní zónu</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Vytvoří zónu kde se nebudou generovat střechy. Kolonisté zde taky strhnou existující střechy.</DesignatorRegionNoRoofAddDesc>
+  <DesignatorRegionNoRoofAdd>Nevytvářet střechu</DesignatorRegionNoRoofAdd>
+  <DesignatorRegionNoRoofAddDesc>Vytvoří místo bez střechy nebo odebere stávající, tzn. bude tam pršet atd...</DesignatorRegionNoRoofAddDesc>
 
-  <DesignatorRegionNoRoofRemove>Odstranit bezstřešní zónu</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Ostraní bezstřešní zónu. Vygenerují se zde střechy a už existující budou napojeny.</DesignatorRegionNoRoofRemoveDesc>
+  <DesignatorRegionNoRoofRemove>Vytvořit střechu</DesignatorRegionNoRoofRemove>
+  <DesignatorRegionNoRoofRemoveDesc>Vytvoří střechu nad objektem, která nijak neovlivní stávající střechu.</DesignatorRegionNoRoofRemoveDesc>
 
-  <DesignatorGrowingZoneDesc>Vytvořit zónu, kde tví kolonisté budou moci vyzkoušet pěstovat určité druhy rostlin.</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>Vytvoří zónu, na které se kolonisti budou snažit pěstovat určitý druh.</DesignatorGrowingZoneDesc>
 
-  <DesignatorZoneCreateStorageResourcesDesc>Vytvoř skladiště, kde tví kolonisté budou moci skladovat suroviny.\nTento nástroj může taky rozšířit existující skladiště.</DesignatorZoneCreateStorageResourcesDesc>
+  <DesignatorZoneCreateStorageResourcesDesc>Vytvoří místo pro skladování zásob.\nTaké může rozšířit stávající zónu.</DesignatorZoneCreateStorageResourcesDesc>
 
-  <DesignatorZoneCreateStorageDumpingDesc>Vytvoř skládku, kde tví kolonisté budou moci skladovat odpad.\nTento nástroj může taky rozšířit existující skládku.</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>Vytvoří místo, kam budou kolonisti vyhazovat odpad.\nTaké může rozšířit stávající zónu.</DesignatorZoneCreateStorageDumpingDesc>
 
 
-  <DesignatorZoneDelete>Odstranit zóny</DesignatorZoneDelete>
-  <DesignatorZoneDeleteDesc>Odstraní zóny, jako skladiště a zahrady.</DesignatorZoneDeleteDesc>
+  <DesignatorZoneDelete>Odstranit zónu</DesignatorZoneDelete>
+  <DesignatorZoneDeleteDesc>Odstraní vybranou zónu.</DesignatorZoneDeleteDesc>
   
+  <DesignatorClaim>Zabrat</DesignatorClaim>
+  <DesignatorClaimDesc>Zabere již postavené budovy pro tebe, ať už ruiny nebo opuštěné obléhací stanoviště.</DesignatorClaimDesc>
   
   
   <!-- placement of blueprints -->
-  <TooCloseToMapEdge>Příliš blízko okraji mapy.</TooCloseToMapEdge>
+  <UnchosenStuff>Materiál nevybrán</UnchosenStuff>
+  <TooCloseToMapEdge>Příliš blízko okraje mapy.</TooCloseToMapEdge>
   <OutOfBounds>Mimo hranice.</OutOfBounds>
-  <CannotPlaceInUndiscovered>Nelze umístit v neprozkoumaných místech.</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>Manipulační místo je blokováno.</InteractionSpotBlocked>
-  <InteractionSpotWillBeBlocked>Manipulační místo bude blokováno.</InteractionSpotWillBeBlocked>
-  <WouldBlockInteractionSpot>{0} bude blokovat {1} manipulační pole.</WouldBlockInteractionSpot>
-  <TerrainIsAlready>Zde je terén už {0}.</TerrainIsAlready>
-  <IdenticalThingExists>Stejná věc už zde existuje.</IdenticalThingExists>
-  <IdenticalBlueprintExists>Identický návrh už zde existuje.</IdenticalBlueprintExists>
-  <TerrainCannotSupport>Zdejší terén to neunese.</TerrainCannotSupport>
-  <SpaceAlreadyOccupied>Místo už je obsazeno.</SpaceAlreadyOccupied>
+  <CannotPlaceInUndiscovered>Nelze umístit do prozkoumaného území.</CannotPlaceInUndiscovered>
+  <InteractionSpotBlocked>Místo interakce je blokováno {0}.</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>Místo interakce je mimo hranice.</InteractionSpotOutOfBounds>
+  <InteractionSpotWillBeBlocked>Místo interakce bude blokováno {0}.</InteractionSpotWillBeBlocked>
+  <WouldBlockInteractionSpot>{0} bude blokovat {1} čtverec interakce.</WouldBlockInteractionSpot>
+  <TerrainIsAlready>Terén zde je již {0}.</TerrainIsAlready>
+  <IdenticalThingExists>Stejná vec již zde existuje.</IdenticalThingExists>
+  <IdenticalBlueprintExists>Stejné plány tu již jsou.</IdenticalBlueprintExists>
+  <TerrainCannotSupport>Tento terén toto nepodporuje.</TerrainCannotSupport>
+  <SpaceAlreadyOccupied>Místo je již obsazené.</SpaceAlreadyOccupied>
 
+  
+  
   <!-- placement of zones -->
-  <ExpandOrCreateZone>Rozšiř {0} nebo\nVytvoř novou {1}</ExpandOrCreateZone>
-  <CreateNewZone>Vytvoř novou {0}</CreateNewZone>
+  <ExpandOrCreateZone>Rozšířit {0} nebo\nvytvořit nový {1}</ExpandOrCreateZone>
+  <CreateNewZone>Vytvořit novou {0}</CreateNewZone>
   
   
   <!-- desc helpers -->
-  <TransmitsPower>Přenáší energii</TransmitsPower>
+  <TransmitsPower>Přenosy energie</TransmitsPower>
 
-
-</LanguageData> 
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  
+</LanguageData>

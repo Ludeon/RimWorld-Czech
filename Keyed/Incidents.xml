@@ -1,73 +1,76 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <AnimalInsanitySingle>Místní {0} se zbláznil/a. A bude útočit na vše co uvidí.</AnimalInsanitySingle>
-  <AnimalInsanityMultiple>Nějaký druh psychické vlny se přehnal nad krajinou. Tví kolonisti jsou v pořádku, ale...\n\nZdá se že mnoho {0} v oblasti sešílelo.</AnimalInsanityMultiple>
+  <AnimalInsanitySingle>Místní zvířátko ({0}) se zbláznilo. Začne útočit na všechny, které uvidí.</AnimalInsanitySingle>
+  <AnimalInsanityMultiple>Divný druh psychotického oblaku se přenesl nad krajinou. Kolonisti jsou v pohodě, ale...\n\nVypadá to že hodně {0} se zbláznilo.</AnimalInsanityMultiple>
 
-  <CropBlight>Záhadná nákaza zničila tvé rostliny.</CropBlight>
+  <CropBlight>Záhadné světlo zničilo tvou úrodu.</CropBlight>
 
-  <EclipseIncident>Jeden z měsíců této planety se dostal před slunce. Začalo zatmění.</EclipseIncident>
+  <EclipseIncident>Jeden z měsíců této planety zakryl slunce. Nastává zatmění.</EclipseIncident>
 
-  <MiracleHeal>{0} zažil zázračné zotavení!</MiracleHeal>
+  <MiracleHeal>{0} zažil přímo zázračné uzdravení!</MiracleHeal>
 
   
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Skupina {0} od {1} přišli do okolí.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Skupina {0} z {1} přistála ve výsadkových modulech blízko.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Skupina {0} ze {1} přistála právě u vás! </EnemyRaidCenterDrop>
-  <EnemyRaidStageThenAttack>Budou připraveni za chvíli, potom zaútočí.\n\nPřiprav si obranu nebo zaútoč preventivně.</EnemyRaidStageThenAttack>
-  <EnemyRaidImmediateAttack>Oni právě útočí.</EnemyRaidImmediateAttack>
-  <EnemyRaidBesiege>Vypadá to že chtějí obléhat kolonii .</EnemyRaidBesiege>
+  <EnemyRaidWalkIn>Skupina {0} z {1} přistály poblíž.</EnemyRaidWalkIn>
+  <EnemyRaidEdgeDrop>Skupina {0} z {1} přistály v únikových modulech.</EnemyRaidEdgeDrop>
+  <EnemyRaidCenterDrop>Skupina {0} z {1} přistály kousek od kolonie.</EnemyRaidCenterDrop>
+  <EnemyRaidStageThenAttack>Nejprve se připraví a poté zaútočí.\n\nPřiprav se na ně, nebo proveď protiútok.</EnemyRaidStageThenAttack>
+  <EnemyRaidImmediateAttack>Ihned se dali na pochod.</EnemyRaidImmediateAttack>
+  <EnemyRaidBesiege>Vypadá to, že začínají obléhat kolonii.</EnemyRaidBesiege>
 
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Skupina přátel {0} od {1} přišli do okolí .</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Spřátelená skupina {0} z {1} spadla z oběžné dráhy blízko.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Skupina přátel {0} ze {1} spadla z orbity právě na tebe!</FriendlyRaidCenterDrop>
-  <FriendlyRaidStageThenAttack>Budou se chvíli připravovat pochod na pomoc.</FriendlyRaidStageThenAttack>
-  <FriendlyRaidImmediateAttack>Právě začali pochodovat aby ti pomohli.</FriendlyRaidImmediateAttack>
-  <FriendlyRaidBesiege>Vypadá to jako kdyby chtěli použít obléhací taktiku aby ti pomohli.</FriendlyRaidBesiege>
+  <FriendlyRaidWalkIn>Skupina přátel {0} z {1} přistály poblíž.</FriendlyRaidWalkIn>
+  <FriendlyRaidEdgeDrop>Skupina přátel {0} z {1} přistály v únikových modulech.</FriendlyRaidEdgeDrop>
+  <FriendlyRaidCenterDrop>Skupina přátel {0} z {1} přistály kousek od kolonie.</FriendlyRaidCenterDrop>
+  <FriendlyRaidStageThenAttack>Chvilku si odpočinou a pak půjdou na oběd.</FriendlyRaidStageThenAttack>
+  <FriendlyRaidImmediateAttack>Ihned se daly na pochod.</FriendlyRaidImmediateAttack>
+  <FriendlyRaidBesiege>Vypadá to, že tu nějakou chvilku pobudou.</FriendlyRaidBesiege>
 
-  <RefugeePodCrash>Všiml sis, že blízko tebe spadl záchraný modul.\n\nJestli někdo přežil, bude těžce zraněný.</RefugeePodCrash>
+  <RefugeePodCrash>Všiml sis padajícího modulu.\n\nPokud někdo přežil, bude asi těžce raněn.</RefugeePodCrash>
 
-  <CargoPodCrash>Všiml sis několika záchranných modulů, které havarovaly poblíž.\n\nMožná najdeš nějaké užitečné věci.</CargoPodCrash>
+  <CargoPodCrash>Detekovali jsme kusy lodi, které popadaly z orbitu.\n\nTřeba se v troskách najde něco použitelného.</CargoPodCrash>
 
-  <AnElectricalConduit>elektrické vedení</AnElectricalConduit>
-  <AWallsPowerConduit>elektrické vedení ve zdi</AWallsPowerConduit>
-  <ShortCircuit>Porucha {0} způsobila zkrat.\n\nVšech {1} Wd  energie v připojených bateriích byla vybyta z důsledku elektrického výbuchu.</ShortCircuit>
-  <ShortCircuitWasLarge>Toto velké množství energie vytvořilo výbuch uctihodné velikosti.</ShortCircuitWasLarge>
-  <ShortCircuitWasHuge>Je to opravdu obrovský výbuch. Wow.</ShortCircuitWasHuge>
+  <AnElectricalConduit>Elektrické vedení</AnElectricalConduit>
+  <AWallsPowerConduit>Elektrické vedení ve zdi</AWallsPowerConduit>
+  <ShortCircuit>Chyba v {0} způsobyla zkrat.\n\nVšech {1} Wd energie ve zkratu způsobila výbuch a požár.</ShortCircuit>
+  <ShortCircuitWasLarge>Velké množství energi způsobilo masivní výbuch.</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>To je opravdu extrémní exploze. Wow.</ShortCircuitWasHuge>
 
-  <LetterSolarFlare>Sluneční erupce započala.\n\nIntenzivní záření vyřadí všechny elektrické přístroje.\n\nBude to trvat zhruba den.</LetterSolarFlare>
+  <LetterSolarFlare>Sluneční erupce právě začaly.\n\nMnožství radiace vyřadila veškeré elektrické přístroje.\n\nRadiace by měla zmizet asi tak za den.</LetterSolarFlare>
 
-  <TraderArrival>Obchodní loď prolétává blízko.\n\nJsou známi jako {0}. Jsou to {1}.</TraderArrival>
+  <TraderArrival>Obchodní loď právě prolítá poblíž.\n\nZnamí jako {0}. Jsou {1}.</TraderArrival>
 
-  <SingleTravelerPassing> {0} z {1} prochází vašim územim. HECAP se jmenuje {2}.</SingleTravelerPassing>
-  <GroupTravelersPassing>Skupina poutníku z {0} prochází okolo.</GroupTravelersPassing>
+  <SingleTravelerPassing>{0} z {1} prolít. HECAP pojmenována {2}.</SingleTravelerPassing>
+  <GroupTravelersPassing>Skupina cestovatelů z {0} prolítá kolem.</GroupTravelersPassing>
 
-  <SingleVisitorArrives> {0} z {1} Navštívil kolonii.\n\nHECAP se jmenuje {2}.</SingleVisitorArrives>
-  <GroupVisitorsArrive>Skupina {0} navštívila kolonii.</GroupVisitorsArrive>
-  <VisitorsLeaving>Návštěvníci z {0} opouštějí kolonii.</VisitorsLeaving>
+  <SingleVisitorArrives>{0} z {1} tě navštívili.\n\nHECAP pojmenována {2}.</SingleVisitorArrives>
+  <GroupVisitorsArrive>Skupina z {0} navštívili tvou kolonii.</GroupVisitorsArrive>
+  <VisitorsLeaving>Návštěvníci z {0} odchází.</VisitorsLeaving>
 
-  <WandererJoin> {0} jménem NAME dorazil a připojuje se ke kolonii. HECAP je {1}.</WandererJoin>
+  <WandererJoin>{0} zvaný NAME přijel a přidal se ke kolonii. HECAP je {1}.</WandererJoin>
   
   
   <!-- Crashed ship part-->
-  <SpaceshipPartCrash>Velký kus nějaké staré lodi dopadl blízko.\n\nTví kolonisté mužou cítit v mysli pobízení k nepopsatelným úkonům. Na palubě musí být něco s psychickými účinky. A to není přátelské.\n\nZničte to co nejříve.</SpaceshipPartCrash>
-  <MessageAnimalInsanityPulse>Prastará stavba vytvořila psychický pulz který pobláznil blízká zvířata.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>Část havarované lodi vyslala cílený psychický pulz, který udělal {0}  šíleného.</LetterShipPartDroveColonistInsane>
+  <SpaceshipPartCrash>Velký kus staré lodi právě havaroval poblíž.\n\nTví kolonisti začali pociťovat divné příznaky a vidí různé stíny. Určitě na té lodi měli UI a rozhodně né přátelskou.\n\nZnič ji co nejdříve!</SpaceshipPartCrash>
+  <MessageAnimalInsanityPulse>Tato stará stavba má v sobě nějaké záření, které okolní zvířata mění na běsnící bestie.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>Havarovaný kus lodi vydal puls, ze kterého se {0} můžou kolonisté zbláznit.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>Probudil se před {0} dny</AwokeDaysAgo>
-  <PsychicDroneLevel>Úroveň psychického hučení: {0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>Nízká</PsychicDroneLevelLow>
+  <PsychicDroneLevel>Úroveň psychického záření: {0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>Malá</PsychicDroneLevelLow>
   <PsychicDroneLevelMedium>Střední</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Vysoká</PsychicDroneLevelHigh>
+  <PsychicDroneLevelHigh>Velká</PsychicDroneLevelHigh>
   <PsychicDroneLevelExtreme>Extrémní</PsychicDroneLevelExtreme>
-  <LetterPsychicDroneLevelIncreased>Část havarované lodi teď vysílá silnější druh psychického hučení. Každý humanoid v oblasti se teď cítí více narušen, vyděšen, a paranoidní.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>Havarovaný kus lodi najednou vydává silnější psychické záření. Každý humanoid začíná být vystrašený, omámený a dokonce začínají nad sebou ztrácet kontrolu.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
-  <LetterAgentRevealed>{0} byl odhalen jako agent tvých nepřátel z {1}.\n\nA teď se snaží utéct.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0} byl odhalen jako agent {1}.\n\nSnaží se utéct.</LetterAgentRevealed>
   
   <!-- Distant psychic drone -->
-  <LetterIncidentPsychicDrone>Bolest hlavy proráží lebku jako hřebík!\n\nNějaké vzdálenější zdroje nenávisti sílí. Je to způsobováno vysíláním silného psychického hučení nad tímhlé územim. Po pár dnů, bude nálada každého trochu horší.</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Každý kolonista z {0} sebou škubne bolestí!\n\nNějaký vzdálený generátor nenávisti je pohání. Tento generátor vydává velmi silný psychický paprsek, který ovlivňuje celé okolí. Vypadá to, že ovlivňuje především {0}. V příštích dnech nálada u některých může být horší než mizerná.</LetterIncidentPsychicDrone>
+ 
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
   
-</LanguageData> 
+</LanguageData>

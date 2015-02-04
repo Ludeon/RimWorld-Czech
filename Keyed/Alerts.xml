@@ -1,105 +1,117 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<ClickToJumpToProblem>Kliknutím přeskočíš na událost</ClickToJumpToProblem>
+	<ClickToJumpToProblem>Kliknutím zobraz problém</ClickToJumpToProblem>
 
 
 
 
-  <AlertNeedStockpile>Potřebuješ skladiště</AlertNeedStockpile>
-  <AlertNeedStockpileDesc>Tví kolonisté potřebují někde skladovat předměty. Vytvoř SKLADIŠTĚ pro skladování předmětů.\n\nSkladiště najdeš ve ARCHITEKT menu v sekci ZÓNY, který se nachází v levém dolním rohu.</AlertNeedStockpileDesc>
+  <AlertNeedStockpile>Bez skladiště to nejde</AlertNeedStockpile>
+  <AlertNeedStockpileDesc>Tvoji kolonisté potřebují někde skladovat zásoby. Urči pro ně místo, kam mohou uložit věci \n\nSkladiště najdeš v menu architekta v zónách.</AlertNeedStockpileDesc>
 
-  <AlertUnforbidStartingResources>Unfo</AlertUnforbidStartingResources>
-  <AlertUnforbidStartingResourcesDesc>Sběr surovin na mapě je ZAKÁZANÝ.\n\nJestli je mají kolonisté vzít, musíš je povolit tím, že na ně klikneš a klikneš na POVOLIT</AlertUnforbidStartingResourcesDesc>
+  <AlertUnforbidStartingResources>Povol zdroje</AlertUnforbidStartingResources>
+  <AlertUnforbidStartingResourcesDesc>Zdroje, které se ukáží při startu hry jsou ZAKÁZANÉ.\n\nPokud chceš, aby je kolonisté využívali, tak je musíš POVOLIT. Povolíš je tak, že na ně klikneš a použiješ příkaz, kliknutí na obr.</AlertUnforbidStartingResourcesDesc>
 
-  <AlertEquipStartingWeapons>Potřebuješ zbraň</AlertEquipStartingWeapons>
-  <AlertEquipStartingWeaponsDesc>Tví kolonisté dorazili s nějakými zbraněmi. Ozbroj je!\n\nVyber kolonistu a klikni pravým tlačítkem na zbraň, kterou ho chceš vyzbrojit.</AlertEquipStartingWeaponsDesc>
+  <AlertEquipStartingWeapons>Do zbraně!</AlertEquipStartingWeapons>
+  <AlertEquipStartingWeaponsDesc>Tvoji kolonisté již přiletí s nějakými zbraněmi. Dej jim je!\n\nVyber kolonistu a pravím talčítkem klikněte na zbraň a dejte položku vybavit.</AlertEquipStartingWeaponsDesc>
   
   <NeedSawmill>Potřebuješ pilu</NeedSawmill>
-  <NeedSawmillDesc>Potřebuješ nějaký druh pily na zpracování klád na lépe využitelné laťky.\n\nPostav RUČNÍ PILA nebo ELEKTRICKÁ PILA.</NeedSawmillDesc>
+  <NeedSawmillDesc>Abys mohl nařezat dřevo na prkna, potřebuješ pilu.\n\nVyrob nějakou, nebo prostě postav pilu.</NeedSawmillDesc>
 
-  <EquipStartingEquipment>Vezmi si svou výzbroj</EquipStartingEquipment>
-  <EquipStartingEquipmentDesc>Přistál si s nějakými zbraněmi. Vezmi si je z vašeho přistávacího pole.\n\nPro sebrání nějakého předmětu, vyber kolonistu a pravým klikni na předmět, který chceš vzít.</EquipStartingEquipmentDesc>
+  <EquipStartingEquipment>Odnes vybavení</EquipStartingEquipment>
+  <EquipStartingEquipmentDesc>Přistaneš s nějakými zbraněmi. Hlavně si je odnes z přistávacího místa.\n\nPokud chceš kolonistu něčím vybavit, tak vyber kolonistu a pravím tlačítkem na věc vyber akci vybavit.</EquipStartingEquipmentDesc>
 
-  <MentalBreakSoon>Riziko mentálního zhroucení</MentalBreakSoon>
-  <MentalBreakSoonDesc>Tyto kolonisté jsou na pokraji mentálního zhroucení.:\n\n{0}\nZlepši jejich psychiku, nebo se začnou dít špatné věci.</MentalBreakSoonDesc>
+  <MentalBreakSoon>Hrozí psychické zhroucení</MentalBreakSoon>
+  <MentalBreakSoonDesc>Tento kolonista začíná mít psychické problémy:\n\n{0}\nZlepši jeho psychický stav, nebo se zblázní.</MentalBreakSoonDesc>
 
-  <MentalBreakImminent>Hrozí mentální zhroucení</MentalBreakImminent>
-  <MentalBreakImminentDesc>Tyto kolonisté jsou pod kritickým stresem a za moment se zhroutí.:\n\n{0}</MentalBreakImminentDesc>
+  <MentalBreakImminent>Bezprostřední psychické zhroucení</MentalBreakImminent>
+  <MentalBreakImminentDesc>Tento kolonista pod takovým stresem, že se každou chvíli zhroutí.\n\n{0}</MentalBreakImminentDesc>
 
-  <ColonistNeedsRescue>Kolonisté potřebují zachránit</ColonistNeedsRescue>
-  <ColonistsNeedRescue>Kolonisté potřebují záchranu</ColonistsNeedRescue>
-  <ColonistsNeedRescueDesc>  Tyto kolonisté leží v bezvědomí na zemi:\n\n{0}\nPošli jiné kolonisty aby je zachránili a odnesli do postele.\n\n(Pro záchranu, označ nějakého kolonistu tím, že na něj klikneš pravým a zvolíš Zachránit.</ColonistsNeedRescueDesc>
+  <ColonistNeedsRescue>Kolonista potřebuje zachránit</ColonistNeedsRescue>
+  <ColonistsNeedRescue>Kolonisté potřebují zachránit</ColonistsNeedRescue>
+  <ColonistsNeedRescueDesc>Tento kolonista leží na zemi v bezvědomí:\n\n{0}\nPošli jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni pravím tlačítkem na oběť a vyber zachránit.)</ColonistsNeedRescueDesc>
 
   <BuildARoom>Postav místnost</BuildARoom>
-  <BuildARoomDesc>Nemáš žádné místnosti se stěnou a dveřmi.\n\nPoužij ARCHITEKT nabídku v levém dolním rohu a označ oblasti, kde chceš stavět.Jakmile označíš oblast kde chceš něco stavět, tvoji kolonisté na něm začnou pracovat.</BuildARoomDesc>
+  <BuildARoomDesc>Místnost se skládá ze zdí a dveří.\n\nPomocí nabídky architekta v levém dolním rohu obrazovky urči, kam ji chceš postavit. Jakmile budeš mít hotový návrh, tak se kolonisté pustí do práce, jakmile budou mít čas.</BuildARoomDesc>
 
-  <NeedGrowingZone>Potřebuješ pole</NeedGrowingZone>
-  <NeedGrowingZoneDesc>Nemáš žádné pole.\n\nUmísti pole na úrodnou půdu pomocí menu ARCHITEKT.</NeedGrowingZoneDesc>
+  <NeedGrowingZone>Potřebuješ místo pro pole</NeedGrowingZone>
+  <NeedGrowingZoneDesc>Nemáš žádné místo, kde by mohli kolonisté pěstovat jídlo.\n\nVyber úrodné místo a pomocí menu architekta a záložce zóny označ území, na kterém bude pole.</NeedGrowingZoneDesc>
 
   <NeedDefenses>Potřebuješ obranu</NeedDefenses>
-  <NeedDefensesDesc>Jsi tu již delší dobu, očekávej, že vás někdo zpozoroval. Brzy začnou Pirátské nájezdy.\n\nMěl by jsi připravit obranu.\n\nPostav nějaké věže.</NeedDefensesDesc>
+  <NeedDefensesDesc>Už tu nějakou chvilku jsi, určitě si toho ostatní všimli. Již brzo tě mohou začít napadat piráti.\n\nMěl by sis vybudovat obranu.\n\nZkus postavit třeba věže.</NeedDefensesDesc>
 
-  <NeedDoctor>Potřebuješ doktora</NeedDoctor>
-  <NeedDoctorDesc>Tyto pacienti jsou v bezvědomí a hladoví na posteli. Potřebují být nakrmeni, ale nemáš žádné kolonisty s povoláním Doktor.\n\n{0}\nPřiřaď povolání Doktor k nějakému kolonistovi.</NeedDoctorDesc>
+  <NeedDoctor>Co takhle doktora</NeedDoctor>
+  <NeedDoctorDesc>Tihle kolonisté potřebují lékařskou péči, ale nemáš žádného zdravého kolonistu, co by se staral o ostatní.\n\n{0}\nZvol zdravého kolonistu, aby se stal doktorem. Pokud pacienti nebudou léčeni, tak se nemusí uzdravit a taky mohou umřít.</NeedDoctorDesc>
 
-  <NeedMiner>Potřebuješ horníka</NeedMiner>
-  <NeedMinerDesc>Označil jsi několik skal na kopání, ale nemáš žádné kolonisty s povoláním Horník.\n\nPřiřaď povolání Horník k některému kolonistovi</NeedMinerDesc>
+  <NeedMiner>Slyšel jsi o těžbě</NeedMiner>
+  <NeedMinerDesc>Sice máš navolenu akci těžby, ale není nikdo, kdo by pracoval.\n\nPřiřaď kolonistu na práci těžaře.</NeedMinerDesc>
 
-  <NeedWarden>Potřebuješ hlídače</NeedWarden>
-  <NeedWardenDesc>Máš vězně, ale nemáš žádné kolonisty s povoláním Strážník.\n\nPřiřaď povolání Hlídač k některému kolonistovi</NeedWardenDesc>
+  <NeedWarden>Nemáš dozorce</NeedWarden>
+  <NeedWardenDesc>Máš vězně, ale nemáš člověka, co by ho hlídal.\n\nPřiřaď někomu práci dozorce.</NeedWardenDesc>
 
-  <LowFood>Málo jídla</LowFood>
-  <LowFoodDesc>Ve skladu máš jen {0} kusů jídla. To je nebezpečně málo.\n\nVypěstuj, kup, najdi, nebo ulov něco k jídlu.</LowFoodDesc>
+  <LowFood>Nízký stav jídla</LowFood>
+  <LowFoodDesc>Máš pouze {0} věcí, co se podobá jídlu. To je sakra málo.\n\nVypěstuj, najdi, ulov nebo kup nějaké jídlo.</LowFoodDesc>
 
-  <NeedColonistBeds>Potřebuješ postele pro kolonisty</NeedColonistBeds>
-  <NeedColonistBedsDesc>Máš víc kolonistů než postelí. Některému bude chybět místo na spaní.\n\nBuďto vyrob více postelí, nebo změň vězeňskou postel na postel pro kolonistu.\n\nJestli nemáš suroviny na výrobu, místa pro spaní jsou zadarmo a můžou být okamžitě postaveny.</NeedColonistBedsDesc>
+  <NeedColonistBeds>Kolonisti chtějí spánek</NeedColonistBeds>
+  <NeedColonistBedsDesc>Máš více kolonistů než postelí. Ostatní by si také chtěli lehnout.\n\nVyrob další postele, nebo změň vězeňskou na normální.\n\nPokud nemáš zdroje na jejich výrobu, tak alespoň někam umisť místa na spaní, která jsou zdarma.</NeedColonistBedsDesc>
 
-  <Starvation>Hladovění</Starvation>
-  <StarvationDesc>Tito kolonisté mají hlad:\n\n{0}\nSežeň jim nějaké jídlo. Budeš potřebovat zdroj jídla, jako například stroj na živnou kaši a nějaké jídlo, kterým ho budeš zásobovat. Také se ujisti, že tito kolonisté nejsou v pohotovosti.</StarvationDesc>
+  <Starvation>Hladomor</Starvation>
+  <StarvationDesc>Tihle umírají hlady:\n\n{0}\nSežeň jim jídlo nebo je po nich. Optimálně potřebuješ něco, jako nutriční pastu nebo balíčky s jídlem, uvařené jídlo taky jde. Ujisti se, že je nemáš navolený.</StarvationDesc>
 
   <Exhaustion>Vyčerpání</Exhaustion>
-  <ExhaustionDesc>Tito kolonisté jsou vyčerpaní a potřebují si odpočinout.:\n\n{0}\nDopřej jim oddych. Budeš potřebovat postel určenou pro kolonisty. Také se ujisti, že tito kolonisté nejsou v pohotovosti.</ExhaustionDesc>
+  <ExhaustionDesc>Tihle si opravdu potřebují odpočinout:\n\n{0}\nNech je být. Budou potřebovat chvilku v posteli a ujisti se, že je nemáš navolený.</ExhaustionDesc>
 
-  <NeedFoodHopper>Potřebuješ kontejner</NeedFoodHopper>
-  <NeedFoodHopperDesc>Máš stroj na živnou kaši bez kontejneru vedle něj.\n\nAby fungoval, musí stroj dostávat zdroj potravin ze sousedního kontejneru.\n\nPostav kontejner vedle stroje.</NeedFoodHopperDesc>
+  <NeedFoodHopper>Potřebuješ násypku</NeedFoodHopper>
+  <NeedFoodHopperDesc>Sice máš kejdomat, ale žádnou násypku u něj.\n\nPro práci kejdomatu potřebuješ násypky, které obsahují syrové jídlo.\n\nPostav násypku vedle kejdomatu.</NeedFoodHopperDesc>
 
   <BuildingNeedsPower>Budova potřebuje energii</BuildingNeedsPower>
   <BuildingsNeedPower>Budovy potřebují energii</BuildingsNeedPower>
-  <BuildingsNeedPowerDesc>Tyto energii potřebující budovy jsou odpojené od jakéhokoliv zdroje energie.:\n\n{0}\nPřipoj je ke generátoru energie nebo k nabité baterii.</BuildingsNeedPowerDesc>
-  <AndMore>a víc</AndMore>
+  <BuildingsNeedPowerDesc>Tyhle budovy jsou odstřihlé od energetické sítě:\n\n{0}\nPřipoj je na síť nebo na baterie.</BuildingsNeedPowerDesc>
+  <AndMore>a více</AndMore>
 
-  <NeedMealSource>Potřebuješ zdroj potravy</NeedMealSource>
-  <NeedMealSourceDesc>Nemáš žádný způsob jak vyrábět jídla.\n\nPostav stroj na živnou kaši nebo sporák.\n\n(Nesmí se nacházet v cele, jinak ho kolonisté nemůžou použít.)</NeedMealSourceDesc>
+  <NeedMealSource>Chybí ti maso</NeedMealSource>
+  <NeedMealSourceDesc>Bez masa není pořádné jídlo.\n\nPostav kejdomat nebo sporák.\n\n(Nesmí být ve vězeňské cele, nebo jej kolonisti nebudou moci používat.)</NeedMealSourceDesc>
 
-  <NeedHomeRegion>Potřebuješ domov</NeedHomeRegion>
-  <NeedHomeRegionDesc>Musíš nadefinovat DOMOVSKOU OBLAST, kterou budou tvoji kolonisté čistit, hasit oheň a opravovat věci.\n\nDefinuj domovskou oblast v sekci OBLASTI v ARCHITEKT menu.</NeedHomeRegionDesc>
+  <NeedHomeRegion>Co takhle obytná část</NeedHomeRegion>
+  <NeedHomeRegionDesc>Je zapotřebí, aby sis zvolil obytnou část, ve které kolonisti budou uklízet, opravovat věci a hasit požáry.\n\nPro nastavení obytné zóny použij menu architekta v sekci zóny.</NeedHomeRegionDesc>
 
-  <NeedBatteries>Potřebuješ baterie</NeedBatteries>
-  <NeedBatteriesDesc>Máš pouze solární generátory, ale žádné baterie. To znamená, že budeš ztrácet energie vždy, když zapadne slunce.\n\nPostav několik baterii, aby jsi překonal noc.</NeedBatteriesDesc>
+  <NeedBatteries>Baterky!</NeedBatteries>
+  <NeedBatteriesDesc>Sice máš solárka, ale bez baterií! To znamená, že si bez proudu, jakmile zapadne slunce.\n\nPostav jednu, dvě nebo víc baterií, ať si udržíš proud i přes noc.</NeedBatteriesDesc>
 
-  <NoTradingCapacity>Žádná schopnost obchodovat</NoTradingCapacity>
-  <NoTradingCapacityDesc>Nemáš jak obchodovat s prolétajícími loděmi.\n\nPostav komunikační konzoli.</NoTradingCapacityDesc>
+  <NoTradingCapacity>Nemůžeš obchodovat</NoTradingCapacity>
+  <NoTradingCapacityDesc>Nemáš možnost obchodovat s loděmi prolítající kolem.\n\nZkus postavit komunikátor.</NoTradingCapacityDesc>
 
-  <NeedResearchProject>Potřebuješ projekt</NeedResearchProject>
-  <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený projekt.\n\nOtevři menu a vyber projekt.</NeedResearchProjectDesc>
+  <NeedResearchProject>Výzkum se hodí</NeedResearchProject>
+  <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale krapet ti chybí projekt.\n\nOtevři menu výzkumu a jeden vyber.</NeedResearchProjectDesc>
 
-  <NeedDump>Potřebuješ skládku</NeedDump>
-  <NeedDumpDesc>Máš suť, kterou by měli kolonisti přepravovat, ale nemají pro ní určené místo.\n\nNavrhni sklad a nastav ho pro ukládání sutě.</NeedDumpDesc>
+  <NeedDump>Ekologii zdar</NeedDump>
+  <NeedDumpDesc>Vybral jsi {0} věcí na vyhození, ale kolonisti to nemají kam odnést.\n\nVytvořte místo pro skládku a dejte povolit: {0}.</NeedDumpDesc>
 
-  <NeedGrave>Potřebuješ hrob</NeedGrave>
-  <NeedGraveDesc>Na zemi leží mrtvé tělo a kolonisté ho nemají kam přepravit.\n\nPostav hrob nebo smetiště a nastav mu předvolbu skladování lidských těl.</NeedGraveDesc>
+  <NeedGrave>Jen tři kříže</NeedGrave>
+  <NeedGraveDesc>Váli se ti tu mrtvola a kolonisti ji namjí kam hodit.\n\nPostav hrob, nebo vytvoř skládku a povol tam vyhazování mrtvol.</NeedGraveDesc>
 
-  <ColonistsIdle>{0} kolonistů bez práce</ColonistsIdle>
-  <ColonistsIdleDesc> Tito kolonisté nemají nic na práci.:\n\n{0}\nMěl by jsi jim zadat nějaký úkol.</ColonistsIdleDesc>
+  <ColonistsIdle>Nepracujících:{0}</ColonistsIdle>
+  <ColonistsIdleDesc>Tihle kolonisti se flákají:\n\n{0}\nNajdi jim nějakou zábavu.</ColonistsIdleDesc>
 
-  <HaltedConstructions>{0} konstrukcím chybí materiály</HaltedConstructions>
-  <HaltedConstructionsDesc>Těmto konstrukcím chybí materiály:\n\n{0}\nMěl by jsi pro své kolonisty obstarat potřebné materiály.</HaltedConstructionsDesc>
+  <HaltedConstructions>Chybí materiál na tolika stavbách:{0} </HaltedConstructions>
+  <HaltedConstructionsDesc>Tyhle stavby namají materiál:\n\n{0}\nZkus nějaký sehnat.</HaltedConstructionsDesc>
 
-  <TableNeedsChairs>Stůl potřebuje židle</TableNeedsChairs>
-  <TableNeedsChairsDesc>Máš stůl bez židlí. Stoly jsou zbytečné, když u nich lidé nemůžou sedět.</TableNeedsChairsDesc>
+  <TableNeedsChairs>Stůl bez židlí?!?!</TableNeedsChairs>
+  <TableNeedsChairsDesc>Zkus ke stolu dát i židle. Stůl je ti k ničemu, když si k němu nemohou sednout.</TableNeedsChairsDesc>
 
+  <ColonistNeedsTreatment>Doktor! Méédik!</ColonistNeedsTreatment>
+  <ColonistNeedsTreatmentDesc>Tihle si žádají lékařskou práci. Bez ní umřou, nebo budou mít trvalé následky.\n\n{0}\nLéčbu začneš tím, že je pošleš na nemocniční lůžko.\n\n(Nejprve vybuduj, nebo přiřaď postel jako nemocniční lůžko a pak tak doveď raněného, pokud nemůže tam dojít sám, tak pošli někoho, kdo mu pomůže.)</ColonistNeedsTreatmentDesc>
 
+  <ColonistsAwaitingMedicalOperation>Čekajících na opraci:{0}</ColonistsAwaitingMedicalOperation>
+  <ColonistsAwaitingMedicalOperationDesc>Tihle čekají na operaci:\n\n{0}\nUjisti se, že máš vybavení na operaci a doktor je střízlivý.</ColonistsAwaitingMedicalOperationDesc>
 
+  <PawnsWithLifeThreateningDisease>Těžká nemoc</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>Tito kolonisté jsou v ohrožení života:\n\n{0}\nUjisti se, že dostanou veškerou lékařskou péči.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>Vážná nemoc ohrožuje tyto kolonisty:\n\n{0}\nPokud bude potřeba, zvaž, zda není lepší jim amputovat končetinu, než je nechat umřít.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
-</LanguageData> 
+  <!--<AlertAbsentMinded>{0} is lost in thought</AlertAbsentMinded>-->
+  
+  <!-- © 2014 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  
+</LanguageData>
