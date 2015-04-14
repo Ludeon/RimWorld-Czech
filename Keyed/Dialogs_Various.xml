@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Confirm>Potvrdit</Confirm>
+  <GoBack>Zpět</GoBack>
+  <OK>OK</OK>
+  
+  <!-- Save/load -->
+  <SaveGameButton>Uložit</SaveGameButton>
+  <OverwriteButton>Přepsat</OverwriteButton>
+  <LoadGameButton>Načist</LoadGameButton>
+  <ConfirmDelete>Opravdu smazat {0}?</ConfirmDelete>
+  <DeleteThisSavegame>Smazat toto uložení?</DeleteThisSavegame>
+  <SavedAs>Uložit jako {0}.</SavedAs>
+  <NeedAName>Prosím vlož jméno.</NeedAName>
+  <LoadingLongEvent>Načítání...</LoadingLongEvent>
+  
+  <!-- Colony naming-->
+  <NameColonyMessage>Je nám jasné, že na tomhle bohem zapomenutém místě nechceme dlouho skejsnout. Ale {0} si myslí, že by to chtělo přeci jen nějak pojmenovat naší kolonii.\n\nJak jí budeme říkat?</NameColonyMessage>
+  <ColonyGainsName>Kolonie budiž známa jako {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>Název kolonie je chybný.</ColonyNameIsInvalid>
+
+  <!-- Zone naming -->
+  <ZoneGainsName>Zóna se nyní jmenuje {0}.</ZoneGainsName>
+  <ZoneNameIsInvalid>Vložte platné jméno zóny.</ZoneNameIsInvalid>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>Přezdívka kolonisty je {0}.</PawnGainsName>
+
+  <!-- Save game incompatible warning -->
+   <VersionMismatch>Neshoda verzí</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Chyba verzí: Mapa byla uložena ve verzi {0}, ale je spouštěna ve verzi {1}.\n\n Nahrání tohoto slotu bude praděpodobně způsobovat chyby a hra může spadnout.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>Upozornění: Tento svět byl vytvořen v Rimworld verzi {0}, ale hrajete s verzí {1}\n\nJe velmi pravděpodobné, že způsobí chybu, nebo hru shodí .. Doporučujeme celý svět nově vygenerovat.</WorldFileVersionMismatch>
+  
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>Změnil sis nastavení obrazovky, vyhovuje ti?\n\nNávrat za {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Nechat</ResolutionKeep>
+  <ResolutionRevert>Vrátit</ResolutionRevert>
+
+  <!-- Overview -->
+  <OverviewOf>Přehled {0}</OverviewOf>
+
+  <!-- Research -->
+  <Research>Výzkum</Research>
+  <Researched>Vyzkoumáno</Researched>
+  <Unresearched>Nevyzkoumáno</Unresearched>
+  <Finished>Dokončeno</Finished>
+  <InProgress>Probíhá</InProgress>
+  <ResearchMenuWithoutBench>Dokud nepostavíš lavici výzkumníka, tak nebudeš moci provádět výzkumy.\n\nNicméně si můžeš projekty projít a některý začít.</ResearchMenuWithoutBench>
+    
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Varování: Přistanete na území, ve kterém se mění počasí dle ročního období.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Varování: Výkonost se může snížit u velkých map, pokud nemáte silný počítač.\n\nPokud máte slabý počítač, vyberte si malé mapy.\n\nKolosální velikost není testovaná a pravděpodobně nebude fungovat.</MapSizePerformanceWarning>
+  <MapSize>Velikost mapy</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} čtverců)</MapSizeDesc>
+  <MapSizeSmall>Malá</MapSizeSmall>
+  <MapSizeMedium>Střední</MapSizeMedium>
+  <MapSizeLarge>Velká</MapSizeLarge>
+  <MapSizeExtreme>Kolosální</MapSizeExtreme>
+  <MapStartMonth>První měsíc:</MapStartMonth>
+  <MapStartMonthDefault>Automaticky</MapStartMonthDefault>
+
+  <!-- Bill config -->
+  <Suspended>Pozastaveno</Suspended>
+  <NotSuspended>Nepozastaveno</NotSuspended>
+  <SuspendedAllCaps>POZASTAVENO</SuspendedAllCaps>
+  <RepeatCount>Opakovat: {0}</RepeatCount>
+  <Forever>Vždy</Forever>
+  <IngredientSearchRadius>Rádius hledání položek</IngredientSearchRadius>
+  <CurrentlyHave>V současné době k dispozici</CurrentlyHave>
+  <CountingProducts>Spočítat</CountingProducts>
+  <Infinite>Nekonečno</Infinite>
+  
+  <RecipeCannotHaveTargetCount>(Tento recept nemůže mít cílový počet, protože obsahuje více nepředvídatelných produktů.)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>Povolené položky</PermittedIngredients>
+  <WorkAmount>Množství práce</WorkAmount>
+  <MinimumSkills>Minimální úroveň:</MinimumSkills>
+  <BillRequires>Je zapotřebí {0} {1}</BillRequires>
+  <BillRequiresMayVary>(Počítadla se mohou lišit, pokud jsou nestandartní počet, např. u zlata)</BillRequiresMayVary>
+  <ThisIsSmallVolume>To je látka s nízkým objemem. To znamená, že každá "jednotka" má pouze 1/20 objemu normální složky. Aby bylo dosaženo stejného objemu, tak bude zapotřebí 20x zvětšení..</ThisIsSmallVolume>
+  <UsableIngredients>použitelné položky</UsableIngredients>
+  <DoXTimes>Udělej to X-krát</DoXTimes>
+  <DoUntilYouHaveX>Dělej, dokud jich nebude X</DoUntilYouHaveX>
+  <DoForever>Navždy</DoForever>
+  <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Položit na podlahu</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Odnést na nejbližší skladiště</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Odnést na nejbližší skladiště</BillStoreMode_NearestStockpileAnyPriority>
+  
+  <!-- Def Card -->
+ 
+  <Damage>Zranění</Damage>
+  <Accuracy>Přesnost</Accuracy>
+  <BurstShotCount>Počet výstřelů</BurstShotCount>
+  <WarmupTime>Zahřívačka</WarmupTime>
+  <CooldownTime>Znovupoužití</CooldownTime>
+  <BurstShotFireRate>Rychlost střelby</BurstShotFireRate>
+  <Range>Dosah</Range>
+  <GrowsWild>Planá</GrowsWild>
+  <Harvestable>Skliditelná</Harvestable>
+  <LimitedLifespan>Omezená životnost</LimitedLifespan>
+  <GrowingTime>Doba růstu</GrowingTime>
+  <Days>Dnů</Days>
+  <FertilityRequirement>Zapotřebí hnojivo</FertilityRequirement>
+  <LightRequirement>Zapotřebí světlo</LightRequirement>
+  <Attributes>Atributy</Attributes>
+  <LifeSpan>Životnost</LifeSpan>
+  <Nutrition>Výživa</Nutrition>
+  <FoodQuality>Úroveň jídla</FoodQuality>
+  <WalkSpeedProperty>Rychlost chůze</WalkSpeedProperty>
+  <MeleeDamage>Poškození nablízko</MeleeDamage>
+  <MeatAmount>Množství masa</MeatAmount>
+  <MinFoodQuality>Min. kvalita jídla</MinFoodQuality>
+  <Diet>Dieta</Diet>
+  <RecruitDifficulty>Obtížnost rekrutace</RecruitDifficulty>
+  <baseMarketValue>Cena základny</baseMarketValue>
+  <Covers>Pokrývky</Covers>
+  <BodyPartEfficiency>Účinnost části těla</BodyPartEfficiency>
+  
+  <!-- Trade -->
+  <DragToTrade>Přetáhnutím obchodovat</DragToTrade>
+  <BuyPriceDesc>Cena za nákup.</BuyPriceDesc>
+  <SellPriceDesc>Cena za prodej.</SellPriceDesc>
+  <PriceTypeDesc>Tento předmět stojí {0}.</PriceTypeDesc>
+  <ColonyCount>Obchodovatelné množství v kolonii.\n\nProdávat předměty můžeš jen pokud jsou v blízkosti orbiálního majáku.</ColonyCount>
+  <TraderCount>Obchodovatelné množství u obchodníka.</TraderCount>
+  <AcceptButton>Přijmout</AcceptButton>
+  <ResetButton>Resetovat</ResetButton>
+  <CancelButton>Zrušit</CancelButton>
+  <YourTradeableSilver>Vaše obchodovatelné stříbro: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>Lze obchodovat pouze se stříbrem v dosahu orbitálního majáku, nesmí být pod střechou.</YourTradeableSilverTip>
+  <TraderHasNoMore>Obchodník více nemá.</TraderHasNoMore>
+  <ColonyHasNoMore>Nic víc na prodej.</ColonyHasNoMore>
+  <TraderWillNotTrade>Obchodník nemíní s tímhle obchodovat.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>Váš vyjednavač {0} z důvodu nízkého zdraví nedokáže pořádně vyjednávat.\n\n Obchod nebude tak levný.\n\nCo kdyby byste zvolili zdravějšío vyjednavače?</NegotiatorTalkingImpaired>
+	 
+  <!-- Comms -->
+  <SocialSkillIs>Sociální dovednosti: {0}</SocialSkillIs>
+  
+    <!--Research-->
+  <ResearchFinished>Výzkum dokončen: {0}</ResearchFinished>
+  <ResearchScreen>Obrazovka výzkumu</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Chcete odeslat záznam hry vývojářům RimWorld, aby mohly vývojáři vybalancovat obtížnost hry? Pokud souhlasíš, tak se report odešle každých {0} dní (také ve zvláštních příložitostech, jako při dokončení hry). Nastavení soukromí jde změnit v menu.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Přesto že se hlášení odesíla anonymě, můžete připojit své jméno.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Povolit odesílání herních dat</HistoryUploadYes>
+  <HistoryUploadNo>Zakázat odesílání herních dat</HistoryUploadNo>
+  <HistoryUploadYesOnce>Odeslat pouze nyní</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Zeptat se později</HistoryUploadNoOnce>
+
+  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  
+</LanguageData>

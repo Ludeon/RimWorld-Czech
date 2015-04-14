@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <CommandForbiddenDesc>Zakázáno - Kolonisti s tímto nebudou moci nijak manipulovat.</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>Povoleno - Kolonist mohou s tímto manipulovat.</CommandNotForbiddenDesc>
+
+  <!-- Power -->
+  <CommandTogglePowerLabel>Přepnout energii.</CommandTogglePowerLabel>
+  <CommandTogglePowerDesc>Přepnout energii.</CommandTogglePowerDesc>
+  
+  <CommandDesignateTogglePowerLabel>Energie zap/vyp</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerDesc>Přepínání energie. Musí být poblíž kolonista.</CommandDesignateTogglePowerDesc>
+  
+  <CommandTryReconnectLabel>Připojit</CommandTryReconnectLabel>
+  <CommandTryReconnectDesc>Pokusí se připojit k jiné energetické síti, která je v dosahu k dispozici.</CommandTryReconnectDesc>
+
+
+  <CommandGatherSpotToggleLabel>Místo shromáždění</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>Aktivní - Kolonisté se shromáždí kolem tohoto obektu.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Neaktivní - Kolonisti se nebudou shromažďovat kolem tohoto objektu.</CommandGatherSpotToggleDescInactive>
+  
+  <!-- Drafting -->
+  <CommandDraftLabel>Nábor</CommandDraftLabel>
+  <CommandUndraftLabel>Zrušit nábor</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Přepne vojenský nábor.\n\nLidi pod náborem budou poslouchat pouze vojenské rozkazy, nebudou jíst, spát ani pracovat.</CommandToggleDraftDesc>
+  <IsIncapped>{0} je neschopen.</IsIncapped>
+  
+  <CommandCancelConstructionLabel>Zrušit</CommandCancelConstructionLabel>
+  <CommandCancelConstructionDesc>Zruší konstrukci.</CommandCancelConstructionDesc>
+
+  
+  <CommandGetOutOfBedLabel>Vypadni z postele</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedDesc>Vyhodí kolonistu z postele.</CommandGetOutOfBedDesc>
+
+  <CommandBedSetOwnerLabel>Nastavit vlastníka</CommandBedSetOwnerLabel>
+  <CommandBedSetOwnerDesc>Přiřadí postel jednomu vlastníku.</CommandBedSetOwnerDesc>
+  <BedAssign>Přiřadit</BedAssign>
+  <CommandBedSetForPrisonersLabel>Vězeňská</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>Přiřadí postel pro vězeňské účely.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersFailOutdoors>Postele mimo budovu nejde nastavit jako vězeňská.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForColonistsLabel>Normální</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>Nastaví postel pro normální účely.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>Nemocniční</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc> Přiřadí postel pro nemocniční účely.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Normální</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc> Přiřadí postel opět pro normánlí účely.</CommandBedSetAsNonMedicalDesc>
+  <TurningOnPrisonerBedWarning>Zapnutí režimu vězení ovlivní celou místnot (vězni a kolonisté nemohou spát v jedné místnosti).\n\nTito lidé strácí vlastnictví postele:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Vypnutí režimu vězení ovlivní celou místnot (vězni a kolonisté nemohou spát v jedné místnosti).\n\nTito lidé strácí vlastnictví postelí:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Jseš si jist, že to chceš udělat?</AreYouSure>
+
+  
+  
+  <CommandDetonateDesc>Zahájí odpočet.</CommandDetonateDesc>
+  <CommandDetonateLabel>Odpálit</CommandDetonateLabel>
+
+  <CommandRenameZoneDesc>Přejmenovat zónu.</CommandRenameZoneDesc>
+  <CommandRenameZoneLabel>Přejmenovat</CommandRenameZoneLabel>
+
+  <CommandHideZoneDesc>Skryje/zobrazí zóny.</CommandHideZoneDesc>
+  <CommandHideZoneLabel>Skrýt</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Zobrazit</CommandUnhideZoneLabel>
+
+  <CommandDeleteZoneDesc>Smaže tuto zónu.</CommandDeleteZoneDesc>
+  <CommandDeleteZoneLabel>Smazat</CommandDeleteZoneLabel>
+  
+  
+  <!-- Artillery -->
+  <CommandSetForceAttackTarget>Nastavit primární cíl</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTargetDesc>Nastaví cíl, na který bude pálit, dokud bude moci.</CommandSetForceAttackTargetDesc>
+  <CommandStopForceAttack>Zrušit primární cíl</CommandStopForceAttack>
+  <CommandStopForceAttackDesc>Přestane pálit na cíl, ale bude střílet dle uvážení.</CommandStopForceAttackDesc>
+  <CommandStopAttackFailNotForceAttacking>V současné době nemá nasteven cíl.</CommandStopAttackFailNotForceAttacking>
+  <MessageTargetBeyondMaximumRange>Cíl je mimo dosah.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBelowMinimumRange>Cíl je moc blízko.</MessageTargetBelowMinimumRange>
+    
+  <!-- Ship computer core -->
+  <CommandShipLaunch>Vyslat loď</CommandShipLaunch>
+  <CommandShipLaunchDesc>Spustí startovací sekvenci lodi.</CommandShipLaunchDesc>
+  <CommandShipLaunchReport>Zobrazit zprávu o startu</CommandShipLaunchReport>
+  <CommandShipLaunchReportDesc>Zobrazí zprávu o stavu lodi a možnostech startu.</CommandShipLaunchReportDesc>
+
+  <!-- Pod -->
+  <CommandPodEject>Odstranit spáče</CommandPodEject>
+  <CommandPodEjectDesc>Vzbudí a vyhodí člověka z kryokomory.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>Nikdo tam není.</CommandPodEjectFailEmpty>
+
+  <!-- Door -->
+  <CommandToggleDoorLock>Přepnout zámek</CommandToggleDoorLock>
+  <CommandToggleDoorLockDesc>Zamknout nebo odemknout. Zamknutými dveřmi nikdo neprojde.</CommandToggleDoorLockDesc>
+
+  <!-- Temperature control -->
+  <CommandResetTemp>Resetovat</CommandResetTemp>
+  <CommandResetTempDesc>Resetovat na pokojovou teplotu.</CommandResetTempDesc>
+  <CommandRaiseTempDesc>Zvýšit teplotu.</CommandRaiseTempDesc>
+  <CommandLowerTempDesc>Snížit teplotu.</CommandLowerTempDesc>
+
+  <!-- Art -->
+  <CommandInstall>Nainstaluj</CommandInstall>
+  <CommandInstallDesc>Tato položka je zabalená pro přepravu. Pomocí příkazu k instalaci bude dodána do určeného místa.</CommandInstallDesc>
+
+  <!-- Trade beacon -->
+  <CommandMakeBeaconStockpileLabel>Vytvořit základ</CommandMakeBeaconStockpileLabel>
+  <CommandMakeBeaconStockpileDesc>Vytvoří ležení kolem této stavby, která odpovídá rozsahu majáku</CommandMakeBeaconStockpileDesc>
+ 
+  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  
+</LanguageData>
