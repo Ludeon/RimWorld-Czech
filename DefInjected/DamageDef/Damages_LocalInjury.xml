@@ -1,51 +1,63 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<Cut.label>Pořezání</Cut.label>
+
+	<Cut.label>pořezání</Cut.label>
 	<Cut.deathMessage>{0} zemřel na podřezání.</Cut.deathMessage>
 	
-	<Crush.label>Rozdrcení</Crush.label>
+	<Crush.label>rozdrcení</Crush.label>
 	<Crush.deathMessage>{0} byl rozdrcen.</Crush.deathMessage>
 	
-	<Blunt.label>Otřes</Blunt.label>
+	<Blunt.label>otřesení</Blunt.label>
 	<Blunt.deathMessage>{0} zemřel na vážné poranění.</Blunt.deathMessage>
 	
-	<Stab.label>Bodnutí</Stab.label>
+	<Stab.label>bodnutí</Stab.label>
 	<Stab.deathMessage>{0} byl ubodán.</Stab.deathMessage>
 	
-	<Bullet.label>Kulka</Bullet.label>
+	<Bullet.label>kulka</Bullet.label>
 	<Bullet.deathMessage>{0} byl zastřelen.</Bullet.deathMessage>
 	
-	<Arrow.label>Šíp</Arrow.label>
+	<Arrow.label>šíp</Arrow.label>
 	<Arrow.deathMessage>{0} byl zastřelen.</Arrow.deathMessage>
 	
-	<Scratch.label>Škrábanec</Scratch.label>
+	<Scratch.label>poškrábání</Scratch.label>
 	<Scratch.deathMessage>{0} zemřel.</Scratch.deathMessage>
 	
-	<Bite.label>Kusnutí</Bite.label>
+	<Bite.label>pokousání</Bite.label>
 	<Bite.deathMessage>{0} byl ukousán.</Bite.deathMessage>
-	
-	<Bomb.label>Výbuch</Bomb.label>
-	<Bomb.deathMessage>{0} rozletěl se po okolí.</Bomb.deathMessage>
-	
-	<Flame.label>Oheň</Flame.label>
-	<Flame.deathMessage>{0} byl upálen.</Flame.deathMessage>
-	
-	<Frostbite.label>Omrzliny</Frostbite.label>
-	<Frostbite.deathMessage>{0} proměnil se v rampouch.</Frostbite.deathMessage>
-	
-	<SurgicalCut.label>Chirurgický řez</SurgicalCut.label>
-	<SurgicalCut.deathMessage>{0} doktorovi se smekla ruka.</SurgicalCut.deathMessage>
-	
-	<ToxicBite.label>Poleptání</ToxicBite.label>
+
+	<ToxicBite.label>poleptání</ToxicBite.label>
 	<ToxicBite.deathMessage>{0} byl rozleptán.</ToxicBite.deathMessage>
-	
-	<ExecutionCut.label>Popravovací řez</ExecutionCut.label>
+
+	<Bomb.label>výbuch</Bomb.label>
+	<Bomb.deathMessage>{0} rozletěl se po okolí.</Bomb.deathMessage>
+
+	<Flame.label>oheň</Flame.label>
+	<Flame.deathMessage>{0} byl upálen.</Flame.deathMessage>
+
+
+  <!-- Burn is like Flame, but doesn't ignite anything -->
+
+  <Burn.label>oheň</Burn.label>
+  <Burn.deathMessage>{0} uhořel.</Burn.deathMessage>
+
+	<Frostbite.labeloOmrzliny</Frostbite.label>
+	<Frostbite.deathMessage>{0} proměnil se v rampouch.</Frostbite.deathMessage>
+
+
+  <!-- Surgical cut should not harm outer layers.
+       This makes it possible to remove inner organs without harming outer body parts -->
+
+	<SurgicalCut.label>chirurgický řez</SurgicalCut.label>
+	<SurgicalCut.deathMessage>{0} zemřel, protože se  doktorovi smekla ruka.</SurgicalCut.deathMessage>
+
+
+  <!-- Execution cut
+       This makes it possible to distinguish execution damage from others -->
+
+	<ExecutionCut.label>poprava</ExecutionCut.label>
 	<ExecutionCut.deathMessage>{0} byl popraven.</ExecutionCut.deathMessage>
-	
-	
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  
-	
+
+ <!-- © 2014-2017 Last Battalion & Project-Triad - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014-2017 Last Battalion & Project-Triad - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+
 </LanguageData>
