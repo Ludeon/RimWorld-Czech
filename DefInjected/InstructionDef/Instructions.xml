@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CreateWorldParams.text>Vítejte v RimWorldu! Tento tutorial vás naučí jak hrát.\n\nPrvním krokem je generace světa ve kterém budete hrát.\n\nTato stránka určí jak bude svět nakonfigurován.\n\nZákladní nastavení jsou fajn - tak do toho klikněte na GENEROVAT!</CreateWorldParams.text>
+
+  <ChooseLandingSite.text>Zde si veberte místo přistání.\n\nJe zde hodně biomů, ale pro začátek si vybereme nějaký přátelský.\n\nKlikněte na políčko s lesy mírného pásu a na rovné prostředí, poté na tlačítko DALŠÍ.\n\nMůžete použít tlačítko TERÉN pokud chcete znát informace o daném políčku.</ChooseLandingSite.text>
+  <ChooseLandingSite.rejectInputMessage>Prosím zvolte lesy mírného pásu a rovinu.</ChooseLandingSite.rejectInputMessage>
+
+  <RandomizeCharacter.text>Nyní vygenerujete postavy!\n\nZkuste to nechat náhodě a zmáčkněte tlačítko NÁHODNĚ.</RandomizeCharacter.text>
+  <RandomizeCharacter.rejectInputMessage>Prosím nejprve zkuste náhodnou postavu.</RandomizeCharacter.rejectInputMessage>
+
+  <AcceptStartingPawns.text>Výborně!\n\nZkuste klidně více náhody - ale nesnažte se najít perfektní charakter. Každý má své mouchy a to udělá příběh zajímavějším!\n\nTaké vaše postavy můžete přejmenovat, stačí kliknout na jejich jméno.\n\nJakmile se budete na to cíti tak zmáčkněte tlačítko ZAČÍT.</AcceptStartingPawns.text>
+  <MapCameraDolly.text>Vítejte na povrchu!\n\nNyní zkuste pohybovat kamerou.\n\npoužijte klávesy {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}, nebo zmáčkměte kolečko myši a pohybujte se jejím pohybem.\n\nVyzkoušejte si to!</MapCameraDolly.text>
+  <MapCameraZoom.text>Dobrá!\n\nTaké můžete pomocí kolečka přibližovat a oddalovat, také fungují klávesy {Key:MapZoomIn} a {Key:MapZoomOut}.\n\nDo toho!</MapCameraZoom.text>
+  <Pause.text>Dokonce si můžete hru pozastavit.\n\nTo znamená že nemusíte jednat ukvapeně. Vždy si můžete hru pozastavit a nejprve promyslet.\n\nZkuste hru pozastavit pomocí klávesy {Key:TogglePause}, nebo tlačítko napravo dole.</Pause.text>
+  <TimeControls.text>Ovšem že můžete i zrychlit čas.\n\nZkuste si to nejprve pomocí kláves {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, a {Key:TimeSpeedSuperfast}, nebo opět pomocí panelu vpravo dole.</TimeControls.text>
+
+  <MakeStockpile.text>Výborně!\n\nTeď je na čase vyznačit území prosklad.\n\n1. klikněte vlevo dole na tlačítko ARCHITEKT.\n2. Vyberte ZÓNY.\n3. Zvolte nástroj SKLADIŠTĚ.\n4. Klikem a tahem označte území pro sklad.</MakeStockpile.text>
+  <MakeStockpile.rejectInputMessage>Prosím vytvořte sklad ve vyznačeném území.</MakeStockpile.rejectInputMessage>
+  <MakeStockpile.onMapInstruction>Zde vytvořte skladiště\n(tahem od roho k rohu)</MakeStockpile.onMapInstruction>
+
+  <EndStockpileDesignating.text>Pravím klikem zrušíte nástroj na tvorbu skladiště.</EndStockpileDesignating.text>
+
+  <UnforbidStartingResources.text>Nyní pokud chcete aby kolonisté odnesli věci do skladiště tak musíte mí věci označené jako povolené.\n\n1. Vyberte věci se kterými jste přiletěli.\n2. Klikněte na tlačítko POVOLIT/ZAKÁZAT.\n\n(Pro tip: Dvojklik na předmět označí všechny toho typu v okolí.)</UnforbidStartingResources.text>
+  <UnforbidStartingResources.rejectInputMessage>Prosím povolte základní předměty.</UnforbidStartingResources.rejectInputMessage>
+  <UnforbidStartingResources.onMapInstruction>Povolte ještě tohle</UnforbidStartingResources.onMapInstruction>
+
+  <BuildRoomWalls.text>Úžasné! Nyní postavte místnost.\n\n1. Klikněte na ARCHITEKT.\n2. Klikněte na STAVBA.\n3. Vyberte ZEĎ.\n4. Zvolte za materiál DŘEVO.\n5. Tahem vytvořte zeď dle předkresleného návrhu.</BuildRoomWalls.text>
+  <BuildRoomWalls.rejectInputMessage>Prosím vytvořte zeď v předkresleném obdélníku.</BuildRoomWalls.rejectInputMessage>
+  <BuildRoomWalls.onMapInstruction>Postavte zeď</BuildRoomWalls.onMapInstruction>
+
+  <BuildRoomDoor.text>Nyní postavte DVEŘE na jedné ze stran zdi.\n\nDVEŘE jsou napravo od ZDI v menu ARCHITEKT.</BuildRoomDoor.text>
+  <BuildRoomDoor.onMapInstruction>Postavte dveře na straně zdi</BuildRoomDoor.onMapInstruction>
+  <BuildRoomDoor.rejectInputMessage>Prosím postavte dřevěné dveře na straně zdi.</BuildRoomDoor.rejectInputMessage>
+
+  <BuildBeds.text>Nyní vaši kolonisti postaví místnost!\n\nOvšem kolonisti také potřebují někde spát. Postavte tři POSTELE.\n\nNajdete je v záložce NÁBYTEK.</BuildBeds.text>
+  <BuildBeds.onMapInstruction>Postavte v místnosti tři postele</BuildBeds.onMapInstruction>
+  <BuildBeds.rejectInputMessage>Prosím umístěte tři postele do místnosti.</BuildBeds.rejectInputMessage>
+
+  <BuildTorchLamp.text>Je vhodné mít i světlo, protože kolonistí začnou být nevrlí pokud budou pořád ve tmě.\n\nPostavte POCHODEŇ do středu místnosti.</BuildTorchLamp.text>
+  <BuildTorchLamp.onMapInstruction>Postavte pochoden do místnosti</BuildTorchLamp.onMapInstruction>
+  <BuildTorchLamp.rejectInputMessage>Prosím postavte do místnosti pochodeň.</BuildTorchLamp.rejectInputMessage>
+
+  <BuildAnimalSleepingSpot.text>V8š mazlíček by měl spát s vámi, takže do místnosti vložte ZVÍŘECÍ MÍSTO NA SPANÍ.\n\nSpací místa nejsou opravdové stavby - jsou to jen vyznačená místa určená ke spánku.</BuildAnimalSleepingSpot.text>
+  <BuildAnimalSleepingSpot.onMapInstruction>Postavte spací místo pro zvíře\nv místnosti</BuildAnimalSleepingSpot.onMapInstruction>
+  <BuildAnimalSleepingSpot.rejectInputMessage>Prosím vložte spací místo pro zvířata do místnosti.</BuildAnimalSleepingSpot.rejectInputMessage>
+
+  <BuildHorseshoesPin.text>Vaši kolonisté potřebují něco pro zábavy, jinak začnou být brzo smutní.\n\npostavte tyčku na POKDOVY.</BuildHorseshoesPin.text>
+  <BuildHorseshoesPin.onMapInstruction>postavte tyčku na podkovy\nmímo místnost</BuildHorseshoesPin.onMapInstruction>
+  <BuildHorseshoesPin.rejectInputMessage>Prosím postavte tyčku na podkovy mimo místnost.</BuildHorseshoesPin.rejectInputMessage>
+
+  <MakeGrowingZone.text>Dům je postaven!\n\nVaši kolonisté budou potřebovat něco jíst, takže založte ORNOU PŮDU ve vyznačeném prostoru.\n\nTo bude místem, kde kolonisti začnou sázet plodiny.</MakeGrowingZone.text>
+  <MakeGrowingZone.rejectInputMessage>Prosím vytvořte ve vyznačeném prostoru ornou půdu.</MakeGrowingZone.rejectInputMessage>
+  <MakeGrowingZone.onMapInstruction>Zde vytvořte ornou půdu\n(tahem z rohu do rohu)</MakeGrowingZone.onMapInstruction>
+
+  <SetToGrowRice.text>Pokud chtete, tak můžete zvolit plodinu, která se zde bude pěstovat.\n\n1. pravím klikem zruště menu architekta.\n2. Klikněte na zónu kterou jste vybrali.\n3. Klikněte na "Vybrat rostlinu" a změňte plodinu na rýži.</SetToGrowRice.text>
+  <SetToGrowRice.rejectInputMessage>Prosím změňte plodinů na rýži.</SetToGrowRice.rejectInputMessage>
+  <SetToGrowRice.onMapInstruction>Změňte toto pole na rýžoviště</SetToGrowRice.onMapInstruction>
+
+  <EquipWeapons.text>Vybavte kolonisty počátečními zbraněmi. Pro vybavení zbraní:\n\n1. Kliněte na kolonistu, aby jste jej vybrali.\n2. Pravím kliknem klikněte na zbraň.\n3. Zvolte možnost 'vybavit'.\n\nUdělejte to se všemi kolonisty.</EquipWeapons.text>
+  <EquipWeapons.rejectInputMessage>Prosím vybavte kolonisty zbraněmi.</EquipWeapons.rejectInputMessage>
+  <EquipWeapons.onMapInstruction>Vybavte je tímto</EquipWeapons.onMapInstruction>
+
+  <BuildFueledStove.text>Výborně!\n\nNyní budete potřebovat sporák, aby jste mohli začít vařit pokrmy.\n\nPostavte v místnosti SPORÁK NA PALIVO.</BuildFueledStove.text>
+  <BuildFueledStove.onMapInstruction>Postavte v místnosti sporák na palivo</BuildFueledStove.onMapInstruction>
+  <BuildFueledStove.rejectInputMessage>Prosím postavte sporák na palivo do místosti kterou jste nedávno postavili.</BuildFueledStove.rejectInputMessage>
+
+  <AddBillSimpleMeal.text>Kolonisté potřebují znác co mají vařit.\n\nJakmile je úkon prřidán tak na sporáku zůstane dokud není smazán. Jakmile jsou podmínky tak kolonisté budou vykonávat práci dokud nenaplní stanovené podmínky, nebo dokud budou suroviny.\n\n1. Počkejte až se sporák dostaví.\n2. Klikněte na sporák, aby jste si ho označili.\n3. Otevřete nabídku ÚKOLY.\n4. Klikněte na PŘIDAT ÚKOL.\n5. Vyberte v kontextu UVAŘIT JEDNODUCHÉ JÍDLO.\n6. Klikejte na tlačítko + dokud jich nebudete mít navoleno 10.\n\nNezapomeňte že můžete zrychlovat čas pokud stavba bude trvat dlouho.\n\nTaké můžete manuálně přiřadit kolonistu na stavbu.</AddBillSimpleMeal.text>
+  <AddBillSimpleMeal.rejectInputMessage>Prosím přidejte úkoly k vašemu sporáku.</AddBillSimpleMeal.rejectInputMessage>
+  <AddBillSimpleMeal.onMapInstruction>Zvolte toto</AddBillSimpleMeal.onMapInstruction>
+
+  <MineSteel.text>Naní vaši kolonisté navaří trochu jídla! Hmmmm...!\n\nDále, je zapotřebí natěžit trochu minerálů. Poblíž báze jsem vám spawnul těžitelné minerály.\n\nZvolte TĚŽBA a označte zónu na vytěžení.</MineSteel.text>
+  <MineSteel.rejectInputMessage>Prosím použijte příkaz 'vytěžit' na vytěžení stlačené oceli.</MineSteel.rejectInputMessage>
+  <MineSteel.onMapInstruction>Označne tohle celé\npro vytěžení</MineSteel.onMapInstruction>
+
+  <ChopTrees.text>Take budete chtít asi nasekat trochu dřeva. Vyberte pár exemplářů na pokácení.\n\nZvolte možnost POKÁCET a nechte pokácet 10 stromů.\n\n(Pro tip: tahem můžete označit celou oblast.)</ChopTrees.text>
+  <ChopTrees.rejectInputMessage>Prosím přetáhněte úkon 'pokácet' přes alespoň deset stromů.</ChopTrees.rejectInputMessage>
+
+  <OpenMainTabWork.text>Pokud chcete tak můžete jednotlivým kolonistům přiřadit práci.\n\nOtevřete nabídku PRÁCE.</OpenMainTabWork.text>
+  <OpenMainTabWork.rejectInputMessage>Prosím otevřete nabídku 'Práce'.</OpenMainTabWork.rejectInputMessage>
+
+  <ChangeWorkSettings.text>Můžete zkontrolovat co který kolonista bude dělat pomocí zaškrtávacích políček. Veškeré priority práce se propočítávají zleva doprava.\n\nZkuste změnit rozřazení.\n\nPozor - Kolonisté budou pořád postupovat dle seznamu priorit, klidně i kdyby dělali opravdu hloupé věci! Vybalancové nestavení je klíč k úspěchu v RimWorldu. Takže nastavujte pečlivě!</ChangeWorkSettings.text>
+  <ChangeWorkSettings.rejectInputMessage>Prosím otevřete nabídku 'Práce' a změňte nastavení.</ChangeWorkSettings.rejectInputMessage>
+
+  <BuildSimpleResearchBench.text>Pro pokrok v technologiích budete potřebovat výzkum.\n\nPostavte ve svém domku JEDNODUCHOU VÝZKUMNOU LAVICI.</BuildSimpleResearchBench.text>
+  <BuildSimpleResearchBench.onMapInstruction>Postavte v domku\n jednoduchou svýzkumnou lavici</BuildSimpleResearchBench.onMapInstruction>
+  <BuildSimpleResearchBench.rejectInputMessage>Vybudujte v domku jednoduchou výzkumnou lavici.</BuildSimpleResearchBench.rejectInputMessage>
+
+  <OpenMainTabResearch.text>Výborně! Nyní prosím vyberte projekt který chcete zkoumat.\n\nnaleznete je v nabídce VÝZKUM.</OpenMainTabResearch.text>
+  <OpenMainTabResearch.rejectInputMessage>Prosím otevřete nabídku 'výzkumu'</OpenMainTabResearch.rejectInputMessage>
+
+  <SelectResearchProject.text>Nyní vyberte první věc co chcete aby vaši kolonisté zkoumali.\n\nMožná budete muset počkat na dokončení stavby, nebo dokud se nepokácí stromy na dřevo.\n\nPokud stavba trvá příliž dlouho tak v nabídce PRÁCE přiřaďte více pracovníků do STAVBY.</SelectResearchProject.text>
+  <SelectResearchProject.rejectInputMessage>Prosím otevřete nabídku 'výzkum' a zvolte jeden.</SelectResearchProject.rejectInputMessage>
+
+  <ExpandAreaHome.text>Dále se naučíte, jak se rozšiřuje DOMÁCÍ UZEMÍ.\n\nV tomto území budou kolonisté uklízet a hasit oheň, mimo území jej nechaj hořet.\n\nDomácí území se vytváří automaticky když něco postavíte, ale lze jej rozšířit i manuálně.\n\nV zónách vyberte nástroj ROZŠÍŘIT DOMÁCÍ ÚZEMÍ a označte oblast která má být klasifikována jako domácí.</ExpandAreaHome.text>
+  <ExpandAreaHome.rejectInputMessage>Prosím na zkoušku rozšiřte území.</ExpandAreaHome.rejectInputMessage>
+
+  <ExpandAreaBuildRoof.text>ÚZEMÍ SE STŘECHOU označí území kde se mají kolonisti pokusit postavit střechu.\n\nV případě že postavíte budovu tak se automaticky postaví i střecha.\n\nVyberte nástroj ROZŠÍŘIT ÚZEMÍ SE STŘECHOU a rozšiřte ho kolem domku.</ExpandAreaBuildRoof.text>
+  <ExpandAreaBuildRoof.rejectInputMessage>Prosím na zkoušku trochu rozšiřte území se střechou.</ExpandAreaBuildRoof.rejectInputMessage>
+
+  <BuildSandbags.text>Výborně! Nyní máte základ funkční kolonie! Semtam přijde nájez tak je na čase se na to připravit.\n\nVyberte PYTLE S PÍSKEM a rozmístěte je do vyznačených prostor.</BuildSandbags.text>
+  <BuildSandbags.rejectInputMessage>Prosím postavte pytle s pískem do vyznačených prostor</BuildSandbags.rejectInputMessage>
+  <BuildSandbags.onMapInstruction>Zde postavete pytle s pískem</BuildSandbags.onMapInstruction>
+
+  <FinishSandbags.text>Nyní vyčkejme, než se vše postaví.\n\nZvažte zda není zapotřebí přiřadit více kolonistů ke stavbě.\n\nTaké můžete zrychlit čas.\n\nJakmile bude vše postaveno, tak pošlu útočníky na otestování vaší obrany!</FinishSandbags.text>
+  <FinishSandbags.rejectInputMessage>Prosím vyčkejte než se dostaví pytle s pískem.</FinishSandbags.rejectInputMessage>
+
+  <DownRaider.text>Vyslal jsem nájezdníky na vaší kolonii!\n\n1. Stopněte hru pomocí klávesy {Key:TogglePause}!\n2. Přečtěte si červený dopis vpravo dole.\n3. MOBILIZUJTE vaše kolonisty pomocí tlacítka MOBILIZACE.\n4. Pravím klikem je poělete za pytle s pískem, tak aby se jich dotýkali.\n5. Odpauzněte.\n\nKolonisti se musí dotýkat překážky pokud mají být kryti. Jakmile jste v zákopu tak počkejte než útočníci přijdou. Vaši kolonisté automaticky spustí palbu.</DownRaider.text>
+  <DownRaider.rejectInputMessage>Prosím soustřeďte se na výhru v boji!</DownRaider.rejectInputMessage>
+  <DownRaider.onMapInstruction>Sem pošlete kolonistu\ntak aby byl krýtý za pytly s pískem</DownRaider.onMapInstruction>
+
+  <UndraftAll.text>Úspěch! Nyní zrušte MOBILIZACI, stejně jako jste jí aktivovali.\n\nNyní se všichni vrátí ke svým povinostem.</UndraftAll.text>
+  <UndraftAll.rejectInputMessage>Prosím propusťte všechny kolonisty.</UndraftAll.rejectInputMessage>
+
+  <ChooseStoryteller.text>A jste na konci tutoriálu!\n\nStále je tu mnoho věcí k učení včetně vězňů, lovu, obchodu, výcviku zvířat a mnohem více. Základy už máte.\n\nNáhodné události byli během tutoriálu zrušeny. Pokud chcete zahájit opravdovou hru:\n\n1. Otevřete MENU vpravo dole.\n2. Zvolte NASTAVENÍ.\n3. klikněte na VY\BRAT VYPRAVĚČE.\n4. Zvole obtížnost, která vám nejvíce vyhovuje.\n\nHodně štěstí a zábavy.</ChooseStoryteller.text>
+  <ChooseStoryteller.rejectInputMessagePro >Pro ukončení tutoriálu prosím zvolte v menu vypravěče .</ChooseStoryteller.rejectInputMessage>
+
+ <!-- © 2014-2017 Last Battalion & Project-Triad - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
+  <!-- © 2014-2017 Last Battalion & Project-Triad - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+
+</LanguageData>
