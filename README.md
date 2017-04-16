@@ -6,3 +6,6 @@ A Czech translation for RimWorld.
 See this page for license info:
 
 http://ludeon.com/forums/index.php?topic=2933.0
+
+Nález chyb hlašte zde / For bugtrace: 
+https://github.com/Ludeon/RimWorld-Czech
