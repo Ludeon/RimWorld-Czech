@@ -1,49 +1,148 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <JumpToLocation>Jít do lokace</JumpToLocation>
+  <JumpToLocation>Přejít do oblasti</JumpToLocation>
   
-  <FirstSummerWarning>Je léto! Ale zima se blíží.\n\nV zimě ti neporoste jídlo. Zajisti dostatečné zásoby, dokud můžeš.\n\nTaky nezapomeň postavit mrazák, aby se ti jídlo nezkazilo.\n\nA taky zkus koupit, najít nebo ukrást teplé oblečení.</FirstSummerWarning>
-  
-  <RelationsBrokenDown>Vztahy s {0} se zhoršily. Nyní k tobě budou nepřátelští.</RelationsBrokenDown>
-  <RelationsWarmed>Vztahy s {0} se zlepšili. Už k tobě nechovají zášť.</RelationsWarmed>
+  <LetterLabelFirstSummerWarning>Léto</LetterLabelFirstSummerWarning>
+  <FirstSummerWarning>Začalo léto! Ale zima se blíží.\n\nV zimních mrazech tvoje potravinové plodiny neporostou. Ujisti se, že teď uložíš zásoby jídla na několik dní, dokud ještě můžeš.\n\nAbys zabránil zkažení jídla, můžeš postavit chladící místnost.\n\nA pokus se koupit, ukrást nebo vyrobit pár kabátů, nebo umrzneš hned, jakmile vystrčíš nos ven.</FirstSummerWarning>
 
-  <RelationsBrokenCapture>Protože si zajal {0}, tak lidé z {1} jsou k tobě nepřátelští.</RelationsBrokenCapture>
+  <RelationsBrokenDown>Vztahy s frakcí {0} se pokazily. Teď jsou k tobě nepřátelští.</RelationsBrokenDown>
+  <RelationsWarmed>Vztahy s frakcí {0} se zlepšily. Už k tobě nejsou nepřátelští.</RelationsWarmed>
 
-  <ColonyGoodwill>Starý známí</ColonyGoodwill>
+  <RelationsBrokenCapture>Protože jsi zajal {0}, {1} je teď tvůj nepřítel.</RelationsBrokenCapture>
+
+  <ColonyGoodwill>Pověst kolonie</ColonyGoodwill>
   <Neutral>Neutrální</Neutral>
 
-  <ShortCircuitRain>{0} zkratoval díky dešti a začal hořet.</ShortCircuitRain>
-  <AreaRevealed>Nové území odhaleno.</AreaRevealed>
-  <AreaRevealedWithMechanoids>Objeveno nové území, ale jsou tam mechanoidi!</AreaRevealedWithMechanoids>
+  <ShortCircuitRain>{0} v dešti zkratoval a způsobil požár.</ShortCircuitRain>
 
-  <RoofCollapsed>Střecha se propadla, protože nemáš žádný nosník, který by jí držel.</RoofCollapsed>
-  <TheseThingsCrushed>Tyto věci byly zničeny:</TheseThingsCrushed>
-  <NothingCrushed>Naštěstí se nic nezničilo.</NothingCrushed>
-  
-  <RecruitSuccess>{0} úspěšně naverboval {1} ({2} šance).</RecruitSuccess>
-  <RecruitFail>{0} nenaverboval {1} ({2} šance).</RecruitFail>
-  
-  <BirthdayChronological>{0} má dnes narozeniny! Biologicky mu je {1}{3} let, ale chronologicky {1}{2}.\n\n Jelikož lidé v kryospánku nestárnou, tak se roky mohou lišit.</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>{0} dospěl do úctihodného věku {1} let.\n\nS vysokým věkem {0} se objevily i nemoci:\n{2}</BirthdayBiologicalAgeInjuries>
-  
-  <NewDisease>{0} dostal nemoc ({1}). Ujisti se, že {0} dostane náležitou péči a zůstane v poseli, aby se co nejrychleji uzdravil.</NewDisease>
-  <NewPartDisease>{0} dostal do {1} infekci. Ujisti se, že {0} dostane náležitou péči a zůstane v poseli, aby se co nejrychleji uzdravil.</NewPartDisease>
-  
-  <AncientShrineWarning>Vzhledem k tomu, že {0} prošel/a kolem staré stavby tak HIM má divnou předtuchu. HECAP si není jistý/á, proč cití odtamtud nebezpečí.</AncientShrineWarning>
+  <LetterLabelAreaRevealed>Odhalena nová oblast</LetterLabelAreaRevealed>
+  <AreaRevealed>Byla odhalena nová oblast.</AreaRevealed>
+  <AreaRevealedWithMechanoids>Byla odhalena nová oblast. Jsou v ní starodávní nepřátelští mechanoidi.</AreaRevealedWithMechanoids>
 
-  <StruckMineable>Žíla {0} je blízko!</StruckMineable>
+  <RoofCollapsed>Střecha spadla, protože byla až moc daleko od nejbližší podpěry.</RoofCollapsed>
+  <TheseThingsCrushed>Tyto věci byly rozdrceny:</TheseThingsCrushed>
+  <NothingCrushed>Nic nebylo rozdrceno.</NothingCrushed>
+  <LetterLabelRoofCollapsed>Zhroucení střechy</LetterLabelRoofCollapsed>
   
-  <!--<MentalBreakRampage>{0} se zhroutil a začal běsnit.</MentalBreakRampage>
-  <MentalBreakDaze>{0} to vzdal a poblouzněně chodí kolem.</MentalBreakDaze>
-  <MentalBreakLeave>{0} to vzdal a opouští kolonii.</MentalBreakLeave>
+  <RecruitSuccess>{0} se povedlo naverbovat {1} (šance {2}).</RecruitSuccess>
+  <RecruitFail>{0} se nepovedlo naverbovat {1} (šance {2}).</RecruitFail>
 
-  <MentalBreakRecoveryRampage>{0} pomalu přestává běsnit.</MentalBreakRecoveryRampage>
-  <MentalBreakRecoveryDaze>{0} již není poblouzněný.</MentalBreakRecoveryDaze>
-  <MentalBreakRecoveryLeave>{0} změnil názor a vrací se do kolonie.</MentalBreakRecoveryLeave>
--->
+  <LetterLabelBirthday>Narozeniny</LetterLabelBirthday>
+  <BirthdayChronological>Dneska {0} slaví své chronologické narozeniny! Biologický věk {1} je {3} let.\n\nChronologicky {1} právě završil {2}.\n\nVšimni si, že když lidé v cryptospánku nestárnou, chronologické narozeniny jsou odlišné od těch biologických.</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0} dosáhl biologického věku {1} let.\n\nBohužel v důsledku stárnutí {0} získal následující onemocnění:\n{2}</BirthdayBiologicalAgeInjuries>
 
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  <LetterLabelNewDisease>Nemoc</LetterLabelNewDisease>
+  <NewDisease>Nemoc: {1}\n\n{0} onemocnělHISCAP. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostalHISCAP řádnou péči a v posteli strávilHISCAP tolik času, jak to jen půjde.</NewDisease>
+  <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{0} onemocnělHISCAP. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostalHISCAP řádnou péči a v posteli strávilHISCAP tolik času, jak to jen půjde.</NewPartDisease>
+
+  <LetterLabelAncientShrineWarning>Starodávné nebezpečí</LetterLabelAncientShrineWarning>
+  <AncientShrineWarning>Jak se {0} přiblížil k starodávné zdi, zaplavil HIM zlověstný pocit. Není si jistý proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
+
+  <StruckMineable>Narazili jsme na {0}!</StruckMineable>
+
+  <LetterLabelAnimalManhunterRevenge>{0} se mstí</LetterLabelAnimalManhunterRevenge>
+  <AnimalManhunterFromDamage>{0} útočí poté, co byl zraněn!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>{0} útočí, protože ses ho pokusil ochočit!</AnimalManhunterFromTaming>
+  <AnimalManhunterOthers>Ostatní {0} v okolí to také rozzuřilo!</AnimalManhunterOthers>
+
+  <LetterFriendlyTrapSprungLabel>{0} šlápnul do pasti</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprung>{0} náhodou šlápl do pasti a ta ho zranila.</LetterFriendlyTrapSprung>
+
+  <LetterHealthComplications>U {0} se vyvinul následující zdravotní stav:\n\n  {1}\n\nJe to následek:\n\n  {2}</LetterHealthComplications>
+
+  <LetterHealthComplicationsLabel>{0}: {1}</LetterHealthComplicationsLabel>
+  
+  <LetterHediffFromRandomHediffGiver>U {0} se vyvinul následující zdravotní stav: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiverLabel>{0}: {1}</LetterHediffFromRandomHediffGiverLabel>
+  
+  <LetterLeadersDeathLabel>{1} zemřel: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>{0}, {3} z frakce {1}, zemřel.\n\nNový {3} je {2}.</LetterLeadersDeath>
+
+  <LetterLeaderChangedLabel>Nový {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{0} už není {3} z frakce {1}.\n\nNový {3} je {2}.</LetterLeaderChanged>
+  
+  <MentalBreakLetterLabel>Psychické zhroucení</MentalBreakLetterLabel>
+  <MentalBreakReason>Poslední kapkou bylo: {0}</MentalBreakReason>
+  
+  <!-- Related pawns -->
+  <LetterLabelNoticedRelatedPawns>Vztah</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>V příchozí skupině jsou lidé, kteří mají vztah s některým z tvých kolonistů nebo vězňů.\n\nMěj na paměti, že i když mezi nimi je jakýsi vztah, budou na sebe i přesto útočit z důvodu špatných vztahů s touto frakcí.\n\nTito lidé jsou:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>V příchozí spřátelené skupině jsou lidé, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>V příchozí skupině jsou lidé, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>Obchodník na orbitě prodává lidi, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithFactionBase>Základna frakce prodává lidi, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>Karavana prodává lidi, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsTradingWithOtherCaravan>
+  
+  <RelationshipAppendedLetterSuffix>(vztah)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME je v nějakém vztahu s někým z tvé kolonie. Je to {1} osoby jménem {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME je v nějakém vztahu s tvým vězněm. Je to {1} vězně jménem {0}.</RelationshipAppendedLetterTextPrisoner>
+  
+  <!-- Attempt romance / propose interaction -->
+  <LetterLabelAffair>Milostný poměr</LetterLabelAffair>
+  <LetterAffair>{0}, který je v manželském svazku s {1}, si začal aférku s {2}.</LetterAffair>
+  <LetterLabelNewLovers>Noví milenci</LetterLabelNewLovers>
+  <LetterNewLovers>{0} a {1} se dali dohromady a jsou teď milenci.</LetterNewLovers>
+  <LetterNoLongerLovers>Mezi {0} a {1} už není žádný vztah.</LetterNoLongerLovers>
+  <LetterLabelBreakup>Rozchod</LetterLabelBreakup>
+  <LetterLabelAcceptedProposal>Svatba na spadnutí!</LetterLabelAcceptedProposal>
+  <LetterLabelRejectedProposal>Odmítnutí sňatku</LetterLabelRejectedProposal>
+  <LetterAcceptedProposal>{1} přijímá návrh k sňatku od {0}.\n\nV určitém okamžiku následujících dní či ročních obdobích uspořádají svatební obřad a pozvou na něj všechny kolonisty. Jestli chceš určit, kde se obřad bude konat, zvaž umístění svatebního místa.</LetterAcceptedProposal>
+  <LetterRejectedProposal>{1} odmítá návrh k sňatku od {0}. Z toho bude mít {0} špatný den.</LetterRejectedProposal>
+  
+  <!-- Generalized letter labels -->
+  <LetterLabelRelationsChangeGood>Dobrá pověst</LetterLabelRelationsChangeGood>
+  <LetterLabelRelationsChangeBad>Špatná pověst</LetterLabelRelationsChangeBad>
+  <LetterLabelShortCircuit>Bzzzt...</LetterLabelShortCircuit>
+  <LetterLabelMentalBreakdown>Psychické zhroucení</LetterLabelMentalBreakdown>
+  
+  <!-- Bonded animals -->
+  <LetterLabelBondedAnimalDied>Smrt oblíbeného zvířete</LetterLabelBondedAnimalDied>
+  <LetterBondedAnimalDied>{0}, které si {1} zamiloval, zemřel. To bude mít vliv na náladu {1}.</LetterBondedAnimalDied>
+  <LetterNamedBondedAnimalDied>{0} jménem {1}, které si {2} zamiloval, zemřel. To bude mít vliv na náladu {2}.</LetterNamedBondedAnimalDied>
+  <LetterBondedAnimalDiedMulti>{0} zemřel. To bude mít vliv na náladu následujících lidí:\n\n{1}</LetterBondedAnimalDiedMulti>
+  <LetterNamedBondedAnimalDiedMulti>{0} jménem {1} zemřel. To bude mít vliv na náladu následujících lidí:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+
+  <!-- Prison break -->
+  <LetterLabelPrisonBreak>Útěk z vězení</LetterLabelPrisonBreak>
+  <LetterPrisonBreak>Vězni zorganizovali útěk! Nějak se jim podařilo překonat zámek na dveřích a dostávají se ven. Mohou vyhledat zbraně, bojovat, nebo se pokusí o uniknout. Jedou v tom tihle vězni:\n\n{0}\n\nVězni se budou pokoušet o útěk mnohem více, pokud jsou nešťastní, početní či zdraví.</LetterPrisonBreak>
+  
+  <!-- Party -->
+  <LetterLabelNewParty>Večírek</LetterLabelNewParty>
+  <LetterNewParty>{0} pořádá večírek! Každý, kdo přijde, získá radost a společenskou energii a trvalé pozitivní zvýšení nálady.</LetterNewParty>
+
+  <!-- Newly addicted -->
+  <LetterLabelNewlyAddicted>Závislost na {0}</LetterLabelNewlyAddicted>
+  <LetterNewlyAddicted>{0} si vyvinulHISCAP závislost na {1}.\n\nOdteď bude potřebovat pravidelnou dávku, která je viditelná v HIS záložce Potřeby. Bude automaticky konzumovat tuto drogu, aby uspokojilHISCAP HIS potřebu. Pokud se HECAP nedostane drogy, dostaví se abstinenční příznaky.</LetterNewlyAddicted>
+  
+  <!-- Drug binge -->
+  <LetterLabelDrugBinge>Touha po {0}</LetterLabelDrugBinge>
+  <LetterDrugBinge>{0} touží po {1}</LetterDrugBinge>
+
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Karavana připravena</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>Tvá karavana se vytvořila a na mapě světa očekává příkazy.</LetterFormedCaravan>
+  
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Karavana zničena</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Všichni členové tvé karavany zemřeli.</LetterAllCaravanColonistsDied>
+  
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>Karavana dorazila k přepadu</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} dorazila na místo přepadení.</LetterCaravanEnteredAmbushMap>
+  
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Útok začal</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} dorazil na {1} a je připraven zahájit útok.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} dorazil na {1} a je připraven zahjit útok.\n\nKvůli tvému nepřátelskému postoji jsou teď z {2} tví nepřátelé.</LetterCaravanEnteredEnemyBaseBecameHostile>
+  
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Stanoviště zničeno</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Nepřátelské stanoviště {0} bylo zničeno.\n\nMáš {1} hodiny na posbírání věcí, než tví kolonosté vytvoří karavanu.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>Tohle byla poslední základna patřící {0}, což znamená, že tato frakce již neexistuje.</LetterFactionBaseDefeated_FactionDestroyed>
+  
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Napospas osudu</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Některá tvá zvířata nebo vězňové byli v divočině zanecháni napospas osudu:\n\n{0}</LetterPawnsLostDueToMapCountdown>
   
 </LanguageData>

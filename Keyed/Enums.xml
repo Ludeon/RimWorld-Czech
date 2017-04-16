@@ -2,72 +2,155 @@
 <LanguageData>
 
   <!-- glow -->
-  <Dark>Tmavé</Dark>
+  <Dark>Ve tmě</Dark>
   <Lit>Osvětlené</Lit>
   <LitBrightly>Jasně osvětlené</LitBrightly>
   
-  <!-- food quality -->
-  <NoneQuality>Žádné</NoneQuality>
-  <PlantQuality>Rostliné</PlantQuality>
-  <RawQuality>Syrové</RawQuality>
-  <MealAwfulQuality>Příšerné</MealAwfulQuality>
-  <MealSimpleQuality>Základní</MealSimpleQuality>
-  <MealFineQuality>Dobré</MealFineQuality>
-  <MealLavishLavish>Výtečné</MealLavishLavish>
-  
-  <!-- diet type -->
-  <NeverEats>Nejíst</NeverEats>
-  <Omnivorous>Všežravá</Omnivorous>
-  <Herbivorous>Rostliná</Herbivorous>
-  <Carnivorous>Masitá</Carnivorous>
-  <Dendrovorous>Dřevitá</Dendrovorous>
-  
   <!-- history upload pref -->
-  <Unspecified>Nespecifikováno</Unspecified>
+  <Unspecified>Ještě váhám</Unspecified>
   <Always>Povolit</Always>
-  <Never>Zakázat</Never>
+  <Never>Nepovolit</Never>
   
   <!-- Price types -->
-  <PriceTypeVeryCheap>velmi levný</PriceTypeVeryCheap>
-  <PriceTypeCheap>levný</PriceTypeCheap>
+  <PriceTypeVeryCheap>velmi levné</PriceTypeVeryCheap>
+  <PriceTypeCheap>levné</PriceTypeCheap>
   <PriceTypeNormal>normální</PriceTypeNormal>
-  <PriceTypeExpensive>drahý</PriceTypeExpensive>
-  <PriceTypeExorbitant>přehnaný</PriceTypeExorbitant>
+  <PriceTypeExpensive>drahé</PriceTypeExpensive>
+  <PriceTypeExorbitant>přemrštěné</PriceTypeExorbitant>
+
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>neskladovat</StoragePriorityUnstored>
+  <StoragePriorityLow>nízká</StoragePriorityLow>
+  <StoragePriorityNormal>normální</StoragePriorityNormal>
+  <StoragePriorityPreferred>přednostní</StoragePriorityPreferred>
+  <StoragePriorityImportant>důležité</StoragePriorityImportant>
+  <StoragePriorityCritical>kriticky důležité</StoragePriorityCritical>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>zelenina</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>syrové maso</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>mrtvoly</FoodTypeFlags_Corpse>
+    <FoodTypeFlags_Seed>semena</FoodTypeFlags_Seed>
+  <FoodTypeFlags_AnimalProduct>živočišné produkty</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>živé rostliny</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>živé stromy</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>pokrmy</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>zpracované potraviny</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>lihoviny</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>granule</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
-  <QualityCategory_Awful>Strašná</QualityCategory_Awful>
-  <QualityCategory_Shoddy>Příšerná</QualityCategory_Shoddy>
-  <QualityCategory_Poor>Mizerná</QualityCategory_Poor>
-  <QualityCategory_Normal>Slušná</QualityCategory_Normal>
-  <QualityCategory_Good>Dobrá</QualityCategory_Good>
-  <QualityCategory_Superior>Výborná</QualityCategory_Superior>
-  <QualityCategory_Excellent>Excelentní</QualityCategory_Excellent>
-  <QualityCategory_Masterwork>Mistrovká</QualityCategory_Masterwork>
-  <QualityCategory_Legendary>Legendární</QualityCategory_Legendary>
+  <QualityCategory_Awful>strašná (0)</QualityCategory_Awful>
+  <QualityCategory_Shoddy>příšerná (1)</QualityCategory_Shoddy>
+  <QualityCategory_Poor>mizerná (2)</QualityCategory_Poor>
+  <QualityCategory_Normal>běžná (3)</QualityCategory_Normal>
+  <QualityCategory_Good>dobrá (4)</QualityCategory_Good>
+  <QualityCategory_Superior>výborná (5)</QualityCategory_Superior>
+  <QualityCategory_Excellent>excelentní (6)</QualityCategory_Excellent>
+  <QualityCategory_Masterwork>mistrovká (7)</QualityCategory_Masterwork>
+  <QualityCategory_Legendary>legendární (8)</QualityCategory_Legendary>
+  <QualityCategoryShort_Awful>str (0)</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>pří (1)</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>miz (2)</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>běž (3)</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>dob (4)</QualityCategoryShort_Good>
+  <QualityCategoryShort_Superior>výb (5)</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>exc (6)</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>mis (7)</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>leg (8)</QualityCategoryShort_Legendary>
   
-  <QualityCategoryShort_Awful>str</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>pří</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Poor>miz</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>slu</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>dob</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>výb</QualityCategoryShort_Superior>
-  <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
-  <QualityCategoryShort_Masterwork>mis</QualityCategoryShort_Masterwork>
-  <QualityCategoryShort_Legendary>leg</QualityCategoryShort_Legendary>
-
-    <!-- Hunger -->
-  <HungerLevel_Starving>Hladovění</HungerLevel_Starving>
-  <HungerLevel_UrgentlyHungry>Velký hlad</HungerLevel_UrgentlyHungry>
-  <HungerLevel_Hungry>Hlad</HungerLevel_Hungry>
-  <HungerLevel_Fed>Sytost</HungerLevel_Fed>
+  <!-- Hunger -->
+  <HungerLevel_Starving>Umírá hlady</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>Značně hladový</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>Hladový</HungerLevel_Hungry>
+  <HungerLevel_Fed>Sytý</HungerLevel_Fed>
 
   <!-- -Fatigue -->
-  <HungerLevel_Exhausted>Uhašen</HungerLevel_Exhausted>
-  <HungerLevel_VeryTired>Velmi unaven</HungerLevel_VeryTired>
-  <HungerLevel_Tired>Unaven</HungerLevel_Tired>
-  <HungerLevel_Rested>Odpočat</HungerLevel_Rested>
+  <HungerLevel_Exhausted>Vyčerpaný</HungerLevel_Exhausted>
+  <HungerLevel_VeryTired>Velmi unavený</HungerLevel_VeryTired>
+  <HungerLevel_Tired>Unavený</HungerLevel_Tired>
+  <HungerLevel_Rested>Odpočinutý</HungerLevel_Rested>
+
+  <!-- Hilliness -->
+  <Hilliness_Flat>rovina</Hilliness_Flat>
+  <Hilliness_SmallHills>malé kopce</Hilliness_SmallHills>
+  <Hilliness_LargeHills>velké kopce</Hilliness_LargeHills>
+  <Hilliness_Mountainous>hornatý</Hilliness_Mountainous>
+  <Hilliness_Impassable>neprůchodný</Hilliness_Impassable>
   
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  <!-- Steam workshop interaction -->
+  <WorkshopInteractStage_CreatingItem>Vytváří</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>Podrobuje se</WorkshopInteractStage_SubmittingItem>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Neplatný</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Přípravuji konfigurační data</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Přípravuji soubory s obsahem</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Nahrávám obsah</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Nahrávám soubor s náhledem</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Provádím změny</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+
+  <!-- Mod sources -->
+  <ContentSource_LocalFolder>místní složka</ContentSource_LocalFolder>
+  <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
+  
+  <!-- Trainable intelligence -->
+  <TrainableIntelligence_None>žádná</TrainableIntelligence_None>
+  <TrainableIntelligence_Simple>prostá</TrainableIntelligence_Simple>
+  <TrainableIntelligence_Intermediate>střední</TrainableIntelligence_Intermediate>
+  <TrainableIntelligence_Advanced>pokročilá</TrainableIntelligence_Advanced>
+
+  <!-- Medical care category -->
+  <MedicalCareCategory_NoCare>Bez lékařské péče</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoMeds>Lékařská péče, ale bez léků</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>Bylinné léky nebo horší</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Normální léky nebo horší</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>Lékařská péče nejlepší kvality</MedicalCareCategory_Best>
+
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Ignorovat</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Útok</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Útěk</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>roste</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>stabilní</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>polevuje</HediffGrowthMode_Remission>
+
+  <!-- TechLevel -->
+  <TechLevel_Animal>zvířecí</TechLevel_Animal>
+  <TechLevel_Neolithic>neolitická</TechLevel_Neolithic>
+  <TechLevel_Medieval>středověká</TechLevel_Medieval>
+  <TechLevel_Industrial>průmyslová</TechLevel_Industrial>
+  <TechLevel_Spacer>vesmírná</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>nadsmyslová</TechLevel_Transcendent>
+
+  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>Na zemi</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>V únikových modulech</PlayerPawnsArriveMethod_DropPods>
+
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>všechny postavy</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>postavy ovládané hráčem</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>postavy neovládané hráčem</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <ShowAnimalNames>Ukaž jména zvířat</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Ochočená (pojm.)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Ochočená (vše)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <Celsius>Celsius</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Kelvin>Kelvin</Kelvin>
+  
+  <!-- Direction8Way -->
+  <Direction8Way_North_Short>S</Direction8Way_North_Short>
+  <Direction8Way_NorthEast_Short>SV</Direction8Way_NorthEast_Short>
+  <Direction8Way_East_Short>V</Direction8Way_East_Short>
+  <Direction8Way_SouthEast_Short>JV</Direction8Way_SouthEast_Short>
+  <Direction8Way_South_Short>J</Direction8Way_South_Short>
+  <Direction8Way_SouthWest_Short>JZ</Direction8Way_SouthWest_Short>
+  <Direction8Way_West_Short>Z</Direction8Way_West_Short>
+  <Direction8Way_NorthWest_Short>SZ</Direction8Way_NorthWest_Short>
   
 </LanguageData>

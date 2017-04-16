@@ -3,54 +3,75 @@
 
   <!-- Item hauling -->
 
-  <HaulToCell.reportString>P�enes TargetA do cely.</HaulToCell.reportString>
-  <HaulToContainer.reportString>P�enes TargetA do skladu.</HaulToContainer.reportString>
+  <HaulToCell.reportString>přenáší: TargetA</HaulToCell.reportString>
+  <HaulToContainer.reportString>přenáší: TargetA</HaulToContainer.reportString>
+
+
+  <!-- Special hauling -->
+
+  <Steal.reportString>krade: TargetA</Steal.reportString>
+  <Kidnap.reportString>unáší: TargetA</Kidnap.reportString>
+  <CarryDownedPawnToExit.reportString>odnáší: TargetA</CarryDownedPawnToExit.reportString>
+
 
   <!-- Pawn hauling -->
 
-  <Rescue.reportString>Zachra� TargetA.</Rescue.reportString>
-  <CarryToCryptosleepCasket.reportString>Odnes TargetA do kryokapsle.</CarryToCryptosleepCasket.reportString>
-  <Capture.reportString>Zaber TargetA.</Capture.reportString>
-  <Arrest.reportString>Uv�zn� TargetA.</Arrest.reportString>
-  <ReleasePrisoner.reportString>Propus� TargetA na svobodu.</ReleasePrisoner.reportString>
-  <EscortPrisonerToBed.reportString>P�enes v�zn� TargetA do postele.</EscortPrisonerToBed.reportString>
-  <TakeWoundedPrisonerToBed.reportString>P�enes poran�n�ho v�zn� TargetA do postele.</TakeWoundedPrisonerToBed.reportString>
-  <TakeToBedToOperate.reportString>Odnes TargetA do postele.</TakeToBedToOperate.reportString>
-  <Kidnap.reportString>Unes TargetA.</Kidnap.reportString>
+  <Rescue.reportString>zachraňuje: TargetA</Rescue.reportString>
+  <CarryToCryptosleepCasket.reportString>přenáší do cryptospánkové komory: TargetA</CarryToCryptosleepCasket.reportString>
+  <Capture.reportString>zajímá: TargetA</Capture.reportString>
+  <Arrest.reportString>zatýká: TargetA</Arrest.reportString>
+  <ReleasePrisoner.reportString>propouští: TargetA</ReleasePrisoner.reportString>
+  <EscortPrisonerToBed.reportString>eskortuje vězně: TargetA</EscortPrisonerToBed.reportString>
+  <TakeWoundedPrisonerToBed.reportString>ošetřuje zraněného vězně: TargetA</TakeWoundedPrisonerToBed.reportString>
+  <TakeToBedToOperate.reportString>přenáší do postele: TargetA</TakeToBedToOperate.reportString>
+
 
   <!-- Animal handling -->
 
-  <Slaughter.reportString>Pora� TargetA.</Slaughter.reportString>
-  <Shear.reportString>Osst��hej TargetA.</Shear.reportString>
-  <Milk.reportString>Podoj TargetA.</Milk.reportString>
-  <Tame.reportString>Ocho� TargetA.</Tame.reportString>
-  <Train.reportString>Tr�nuj TargetA.</Train.reportString>
+  <Slaughter.reportString>poráží: TargetA</Slaughter.reportString>
+  <Milk.reportString>dojí: TargetA</Milk.reportString>
+  <Shear.reportString>stříhá: TargetA</Shear.reportString>
+  <Tame.reportString>ochočuje: TargetA</Tame.reportString>
+  <Train.reportString>trénuje: TargetA</Train.reportString>
+
+
+  <!-- Construction and repair -->
+
+  <PlaceNoCostFrame.reportString>připravuje: TargetA</PlaceNoCostFrame.reportString>
+  <FinishFrame.reportString>dokončuje: TargetA</FinishFrame.reportString>
+  <Deconstruct.reportString>rozebírá: TargetA</Deconstruct.reportString>
+  <Uninstall.reportString>odinstalovává: TargetA</Uninstall.reportString>
+  <Repair.reportString>opravuje: TargetA</Repair.reportString>
+  <FixBrokenDownBuilding.reportString>vyměňuje poškozený komponent: TargetA</FixBrokenDownBuilding.reportString>
+  <BuildRoof.reportString>buduje střechu</BuildRoof.reportString>
+  <RemoveRoof.reportString>odstraňuje střechu</RemoveRoof.reportString>
+
+
+  <!-- Medical -->
+
+  <FeedPatient.reportString>krmí: TargetA</FeedPatient.reportString>
+  <TendPatient.reportString>ošetřuje: TargetA</TendPatient.reportString>
+
 
   <!-- Misc -->
 
-  <DeliverFood.reportString>Odnes TargetB k TargetA.</DeliverFood.reportString>
-  <FeedPatient.reportString>Nakrm j�dlem TargetA.</FeedPatient.reportString>
-  <TendPatient.reportString>Za�a� TargetA.</TendPatient.reportString>
-  <PlaceNoCostFrame.reportString>Postav TargetA.</PlaceNoCostFrame.reportString>
-  <DoBill.reportString>Dokon�i �kol TargetA.</DoBill.reportString>
-  <Clean.reportString>Vy�isti TargetA.</Clean.reportString>
-  <Research.reportString>Zkoumej.</Research.reportString>
-  <Hunt.reportString>Ulov TargetA.</Hunt.reportString>
-  <UseCommsConsole.reportString>Pou�ij komunik�tor.</UseCommsConsole.reportString>
-  <Mine.reportString>Vyt� TargetA.</Mine.reportString>
-  <SmoothFloor.reportString>Vyhla� podlahu.</SmoothFloor.reportString>
-  <RemoveFloor.reportString>Odstr� podlahu.</RemoveFloor.reportString>
-  <Repair.reportString>Oprav TargetA.</Repair.reportString>
-  <FixBrokenDownBuilding.reportString>Oprav TargetA.</FixBrokenDownBuilding.reportString>
-  <FinishFrame.reportString>Postav TargetA.</FinishFrame.reportString>
-  <Sow.reportString>Zasa� TargetA.</Sow.reportString>
-  <Harvest.reportString>Skli� TargetA.</Harvest.reportString>
-  <CutPlant.reportString>Odstra� TargetA.</CutPlant.reportString>
-  <Deconstruct.reportString>Zbo� TargetA.</Deconstruct.reportString>
-  <Uninstall.reportString>Odinstaluj TargetA.</Uninstall.reportString>
-  <PrisonerFriendlyChat.reportString>Pokecej si s TargetA.</PrisonerFriendlyChat.reportString>
-  <PrisonerAttemptRecruit.reportString>Rekrutuj TargetA.</PrisonerAttemptRecruit.reportString>
-  <PrisonerExecution.reportString>Poprav TargetA.</PrisonerExecution.reportString>
-  <BuryCorpse.reportString>Spal TargetA.</BuryCorpse.reportString>
+  <DeliverFood.reportString>krmí: TargetA</DeliverFood.reportString>
+  <DoBill.reportString>vyřizuje objednávku s: TargetA</DoBill.reportString>
+  <OperateDeepDrill.reportString>těží pomocí: TargetA</OperateDeepDrill.reportString>
+  <Clean.reportString>čiští: TargetA</Clean.reportString>
+  <Research.reportString>zkoumá.</Research.reportString>
+  <Hunt.reportString>loví: TargetA</Hunt.reportString>
+  <UseCommsConsole.reportString>používá vysílačku.</UseCommsConsole.reportString>
+  <Mine.reportString>těží: TargetA</Mine.reportString>
+  <SmoothFloor.reportString>pokládá podlahu.</SmoothFloor.reportString>
+  <RemoveFloor.reportString>odstraňuje podlahu.</RemoveFloor.reportString>
+  <Sow.reportString>zasévá: TargetA</Sow.reportString>
+  <Harvest.reportString>sklízí: TargetA</Harvest.reportString>
+  <CutPlant.reportString>seká: TargetA</CutPlant.reportString>
+  <PrisonerFriendlyChat.reportString>komunikuje s vězněm: TargetA</PrisonerFriendlyChat.reportString>
+  <PrisonerAttemptRecruit.reportString>pokouší se naverbovat: TargetA</PrisonerAttemptRecruit.reportString>
+  <PrisonerExecution.reportString>popravuje: TargetA</PrisonerExecution.reportString>
+  <BuryCorpse.reportString>pohřbívá: TargetA</BuryCorpse.reportString>
+
 
 </LanguageData>

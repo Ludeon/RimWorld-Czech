@@ -1,89 +1,120 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- ITab titles -->
   <TabBills>Úkoly</TabBills>
   <TabGrowing>Pěstování</TabGrowing>
-  <TabCharacter>Charakter</TabCharacter>
+  <TabCharacter>Postava</TabCharacter>
+  <TabTraining>Výcvik</TabTraining>
   <TabPrisoner>Vězeň</TabPrisoner>
-  <TabGuest>Návštěvník</TabGuest>
+  <TabGuest>Host</TabGuest>
   <TabGear>Výbava</TabGear>
-  <TabThoughts>Myšlenky</TabThoughts>
-  <TabStorage>Sklad</TabStorage>
+  <TabNeeds>Potřeby</TabNeeds>
+  <TabStorage>Skladiště</TabStorage>
   <TabHealth>Zdraví</TabHealth>
   <TabRace>Rasa</TabRace>
-  <TabBasics>Základ</TabBasics>
-  <TabStats>Statstiky</TabStats>
+  <TabBasics>Základy</TabBasics>
+  <TabStats>Statistiky</TabStats>
+  <TabRecords>Záznamy</TabRecords>
   <TabArt>Umění</TabArt>
-  
+  <TabSocial>Vztahy</TabSocial>
   
   <!-- Bills tab  -->
   <AddBill>Přidat úkol</AddBill>
-  <RecipeRequiresSkills>Recept {0}  potřebuje vyšší dovednost. Žádný kolonista nemá dostatečné schopnosti.</RecipeRequiresSkills>
-  <BillConfig>Nastavení</BillConfig>
+  <RecipeRequiresSkills>Recept {0} vyžaduje dovednosti uvedené níže. Tyto dovednosti nemá žádný ze tvých kolonistů, takže tento úkol nikdo neudělá.</RecipeRequiresSkills>
+  <MinimumSkill>Min dovednost</MinimumSkill>
   <SuspendedCaps>ZASTAVENO</SuspendedCaps>
   <BoundWorkerIs>Pracovník: {0}</BoundWorkerIs>
-  <PlantVerb>Zasadit</PlantVerb>
+  <PlantVerb>sázení</PlantVerb>
 
-
-  <!-- Prisoner tab -->
-  <RecruitmentDifficulty>Obtížnost rekrutace</RecruitmentDifficulty>
-  <PrisonerGetsFood>Poskytnout jídlo</PrisonerGetsFood>
-  <DoctorsCare>Doktorská péče</DoctorsCare>
-  <PrisonerGetsMedicine>Poskytnout léky</PrisonerGetsMedicine>
-  <ShouldTryToRecruit>Zkusit naverbovat</ShouldTryToRecruit>
+  <!-- Guest/prisoner tab -->
+  <RecruitmentDifficulty>Obtížnost naverbování</RecruitmentDifficulty>
+  <GetsFood>Dostává jídlo</GetsFood>
+  <DoctorsCare>Lékařská péče</DoctorsCare>
+  <GetsMedicine>Dostává léky</GetsMedicine>
+  <ShouldTryToRecruit>Pokusit se naverbovat</ShouldTryToRecruit>
   <PrisonerNoInteraction>Žádná interakce</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Pokec</PrisonerFriendlyChat>
+  <PrisonerFriendlyChat>Přátelský rozhovor</PrisonerFriendlyChat>
+  <PrisonerAttemptRecruit>Rozhovor a verbování</PrisonerAttemptRecruit>
   <PrisonerRelease>Propustit</PrisonerRelease>
   <PrisonerExecution>Popravit</PrisonerExecution>
-
+  <ConsideredGuilty>Pravděpodobně vinný (vyprší za {0})</ConsideredGuilty>
 
   <!-- Medical - general -->
   <MoveSpeed>Rychlost pohybu</MoveSpeed>
   <Efficiency>Účinnost</Efficiency>
   <MissingBodyPart>Není</MissingBodyPart>
-  <DestroyedBodyPart>Zničena</DestroyedBodyPart>
-  <ShatteredBodyPart>Roztrhána</ShatteredBodyPart>
-  <RemovedBodyPart>Odebrána</RemovedBodyPart>
-  <Healthy>Zdraví</Healthy>
-  <InPain>V bolestech</InPain>
+  <DestroyedBodyPart>Zničeno</DestroyedBodyPart>
+  <ShatteredBodyPart>Roztříštěno</ShatteredBodyPart>
+  <RemovedBodyPart>Odstraněno</RemovedBodyPart>
+  <Healthy>Zdravý</Healthy>
+  <InPain>Má bolesti</InPain>
   <PainLevel>Bolest</PainLevel>
-  <Dead>Mrtvý</Dead>
-  <Unconscious>V bezvědomí</Unconscious>
-  <PainShock>V šoku</PainShock>
-  <Injured>Raněn</Injured>
-  <NoInjuries>(nezraněn)</NoInjuries>
+  <Injured>Zraněný</Injured>
+  <NoInjuries>(bez zranění)</NoInjuries>
   <WholeBody>Celé tělo</WholeBody>
   <DataProcessing>Zpracovávání dat</DataProcessing>
   <Communication>Komunikace</Communication>
-  <AffectsLower>ovlivňuje</AffectsLower>
-  <BleedingRate>Hodnota krvácení</BleedingRate>
+  <Affects>ovlivňuje</Affects>
+  <BleedingRate>Krvácení</BleedingRate>
+  <TimeToDeath>Smrt za {0}</TimeToDeath>
+  <WontBleedOutSoon>žádné bezprostřední nebezpečí</WontBleedOutSoon>
   <HealthOverview>Přehled</HealthOverview>
   <MedicalOperationsShort>Operace ({0})</MedicalOperationsShort>
-  <MedicalOperationsMechanoidsShort>Modifikace ({0})</MedicalOperationsMechanoidsShort>
-  <MedicalOperations>Zdravotní operace</MedicalOperations>
-  <Amputate>Amputace</Amputate>
-  <Harvest>Sebrat</Harvest>
-    
+  <MedicalOperationsMechanoidsShort>Modifikací ({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperations>Lékařských zákroků</MedicalOperations>
+  <Amputate>Amputovat</Amputate>
+  <Harvest>Vyjmout</Harvest>
+  <RemoveOrgan>Odstranit</RemoveOrgan>
+  <MemoryLower>paměť</MemoryLower>
+  <SocialInteractionsLower>sociální komunikace</SocialInteractionsLower>
+  <HungerRate>Míra hladu</HungerRate>
+  <Tiredness>Únava</Tiredness>
+  <PainFactor>Bolest</PainFactor>
+  <PreventsInfection>Zabraňuje infekci</PreventsInfection>
+  
 
   <!-- Medical - Body and activities condition -->
-  <None>Žádné</None>
-  <VeryPoor>Velmi slabý</VeryPoor>
-  <Poor>Slabý</Poor>
+  <None>Žádný</None>
+  <VeryPoor>Vel. špatný</VeryPoor>
+  <Poor>Špatný</Poor>
   <Weakened>Oslabený</Weakened>
-  <GoodCondition>OK</GoodCondition>
+  <GoodCondition>V pořádku</GoodCondition>
   <Enhanced>Vylepšený</Enhanced>
-  <SeriouslyImpaired>Vážně postižený</SeriouslyImpaired>
-  <Impaired>Postižený</Impaired>
-  <SlightlyImpaired>Mírně postižený</SlightlyImpaired>
+  <SeriouslyImpaired>Vážně pošk.</SeriouslyImpaired>
+  <Impaired>Poškozený</Impaired>
+  <SlightlyImpaired>Lehce pošk.</SlightlyImpaired>
   <NoPain>Žádná</NoPain>
   <LittlePain>Malá</LittlePain>
   <MediumPain>Střední</MediumPain>
-  <SeverePain>Velká</SeverePain>
-  <ExtremePain>Extrémní</ExtremePain>
+  <SeverePain>Silná</SeverePain>
+  <ExtremePain>Nesmírná</ExtremePain>
 
 
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  <!-- Training tab-->
+  <TrainableIntelligence>Inteligence pro výcvik</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>Vyžaduje inteligenci pro výcvik {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>Pro tento výcvik je zvíře příliš malé.</CannotTrainTooSmall>
+
+  <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
   
+  <!-- Social tab -->
+  <NoRelationships>(žádné vztahy)</NoRelationships>
+  <Kidnapped>Unesený</Kidnapped>
+  <Slave>Otrok</Slave>
+  <FactionLeader>Vůdce frakce</FactionLeader>
+  <OpinionOf>Mínění o {0}</OpinionOf>
+  <SomeonesOpinionOfMe>Mínění o mně ({0})</SomeonesOpinionOfMe>
+  <IAmDead>Jsem po smrti</IAmDead>
+  <IAmPsychopath>Jsem psychopat</IAmPsychopath>
+  
+  <!-- Gear tab -->
+  <AverageArmor>Průměrná zbroj</AverageArmor>
+  <MassCarried>Nesená hmotnost: {0} / {1} kg</MassCarried>
+  <ComfyTemperatureRange>Příjemný rozsah teplot</ComfyTemperatureRange>
+  <ArmorBlunt>Tupé</ArmorBlunt>
+  <ArmorSharp>Ostré</ArmorSharp>
+  <ArmorHeat>Horko</ArmorHeat>
+  <ArmorElectric>Elektřina</ArmorElectric>
+
 </LanguageData>

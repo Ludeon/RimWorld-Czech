@@ -1,26 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 	
-	<WorkSpeedGlobal.label>Provozní rychlost</WorkSpeedGlobal.label>
-	<WorkSpeedGlobal.description>Násobitel ovlivňující rychlost vykonání úkonu.</WorkSpeedGlobal.description>
+	<WorkSpeedGlobal.label>rychlost práce (globální)</WorkSpeedGlobal.label>
+	<WorkSpeedGlobal.description>Násobitel ovlivňující rychlost veškerých činností.</WorkSpeedGlobal.description>
 	
-	<MiningSpeed.label>Těžební rychlost</MiningSpeed.label>
-	<MiningSpeed.description>Rychlost dolování materiálů a těžby kovů.</MiningSpeed.description>
+	<MiningSpeed.label>rychlost těžby</MiningSpeed.label>
+	<MiningSpeed.description>Rychlost, jakou tato osoba těží suroviny.</MiningSpeed.description>
 	
-	<SmoothingSpeed.label>Rychlost vyhlazovaní podlahy</SmoothingSpeed.label>
-	<SmoothingSpeed.description>Modifikuje rychlost vyhlazování podlahy.</SmoothingSpeed.description>
+	<SmoothingSpeed.label>rychlost vyhlazovaní pohlad</SmoothingSpeed.label>
+	<SmoothingSpeed.description>Rychlost, jakou tato osoba vyhlazuje podlahy.</SmoothingSpeed.description>
 	
-	<ResearchSpeed.label>Rychlost výzkumu</ResearchSpeed.label>
-	<ResearchSpeed.description>Násobiltel rozhodující o rychlosti dokonční výzkumu.</ResearchSpeed.description>
+	<ResearchSpeed.label>rychlost výzkumu</ResearchSpeed.label>
+	<ResearchSpeed.description>Rychlost, jakou tato osoba provádí výzkum.</ResearchSpeed.description>
 	
-	<ConstructionSpeed.label>Rychlost stavby</ConstructionSpeed.label>
-	<ConstructionSpeed.description>Násobitel schopností rychlosti stavby budov a zařízení.</ConstructionSpeed.description>
+	<ConstructionSpeed.label>rychlost stavby</ConstructionSpeed.label>
+	<ConstructionSpeed.description>Rychlost, jakou tato osoba buduje a opravuje stavby.</ConstructionSpeed.description>
 	
-	<PlantWorkSpeed.label>Rychlost sázení</PlantWorkSpeed.label>
-	<PlantWorkSpeed.description>Rychlost nejen sázení, ale i péče o nové rostliny.</PlantWorkSpeed.description>
-
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+	<PlantWorkSpeed.label>rychlost sázení</PlantWorkSpeed.label>
+	<PlantWorkSpeed.description>Rychlost, jakou tato osoba sází a sklízí plodiny.</PlantWorkSpeed.description>
   
-	
+  <HarvestFailChance.label>šance na selhání při sklizni</HarvestFailChance.label>
+  <HarvestFailChance.description>Šance, že tato osoba nechtěně zničí plodinu namísto úspěšného pokusu.</HarvestFailChance.description>
+
+  <ConstructFailChance.label>šance na selhání při konstrukci</ConstructFailChance.label>
+  <ConstructFailChance.description>Šance, že tato osoba selže při konstrukci nečeho, přijde o čas i materiál.</ConstructFailChance.description>
+
+  <FixBrokenDownBuildingFailChance.label>šance na selhání při opravě</FixBrokenDownBuildingFailChance.label>
+  <FixBrokenDownBuildingFailChance.description>Šance, že tato osoba selže při opravě poškozené stavby.</FixBrokenDownBuildingFailChance.description>
+
+
 </LanguageData>

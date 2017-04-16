@@ -1,30 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LanguageData>
-	<MakeStoneBlocks.label>Vyrobit kamenné bloky</MakeStoneBlocks.label>
-	<MakeStoneBlocks.description>Přemění odpadní kámen na použitelné kostky.</MakeStoneBlocks.description>
-	<MakeStoneBlocks.jobString>Vyrábí kostky.</MakeStoneBlocks.jobString>
-	
-	<ExtractMetalFromSlag.label>Přetavuje kovy</ExtractMetalFromSlag.label>
-	<ExtractMetalFromSlag.description>Recyklace různého šrotu zpět na pužitelný kov.</ExtractMetalFromSlag.description>
-	<ExtractMetalFromSlag.jobString>Přetavuje.</ExtractMetalFromSlag.jobString>
 
-	<SmeltWeapon.label>Přetavuje zbraně na kov</SmeltWeapon.label>
+  <MakeStoneBlocksAny.label>vyrobit všechny druhy bloků</MakeStoneBlocksAny.label>
+	<MakeStoneBlocksAny.description>Opracuje surový kámen v bloky použitelné na konstrukce.</MakeStoneBlocksAny.description>
+	<MakeStoneBlocksAny.jobString>Opracovává kámen v bloky.</MakeStoneBlocksAny.jobString>
+	
+	<ExtractMetalFromSlag.label>přetavit ocelový šrot na kov</ExtractMetalFromSlag.label>
+	<ExtractMetalFromSlag.description>Použití tepla a elektromagnetismu k recyklaci různého šrotu zpět na použitelný kov.</ExtractMetalFromSlag.description>
+	<ExtractMetalFromSlag.jobString>Přetavuje ocelový šrot.</ExtractMetalFromSlag.jobString>
+
+	<SmeltWeapon.label>přetavit zbraň na kov</SmeltWeapon.label>
 	<SmeltWeapon.description>Pomocí elektromagnetismu přetaví zbraně zpět na užitečný kov.</SmeltWeapon.description>
-	<SmeltWeapon.jobString>Taví zbraně</SmeltWeapon.jobString>
-	
-	<MakeArtilleryShell.label>Vylej prazdné patrony</MakeArtilleryShell.label>
-	<MakeArtilleryShell.description>Vytvoří prázdné patrony do altilerií.</MakeArtilleryShell.description>
-	<MakeArtilleryShell.jobString>Vytvoř patrony.</MakeArtilleryShell.jobString>	
-
-	<!-- <MakeWoodPlanks_Hand.label>Vyrobit ručně dřevěná prkna</MakeWoodPlanks_Hand.label>
-		 <MakeWoodPlanks_Hand.description>Vyrobí z 10 klád, pomalu ale jistě, 25 dřevěných prken.</MakeWoodPlanks_Hand.description>
-		 <MakeWoodPlanks_Hand.jobString>Vytesává prkna</MakeWoodPlanks_Hand.description>
-	
-		 <MakeWoodPlanks_Electric.label>Vyrobit elekticky dřevěná prkna</MakeWoodPlanks_Electric.label>
-		 <MakeWoodPlanks_Electric.description>Díky elektrice vyrobí z 10 klád 25 prken vcelku rychle</MakeWoodPlanks_Electric.description>
-		 <MakeWoodPlanks_Electric.jobString>Řeže prkna</MakeWoodPlanks_Electric.jobString> -->
-		 
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+	<SmeltWeapon.jobString>Taví zbraň.</SmeltWeapon.jobString>
   
+  <DestroyWeapon.label>zničit zbraň</DestroyWeapon.label>
+  <DestroyWeapon.description>Pomocí velkého tepla ničí zbraně. Funguje na zbraně, které nelze přetavit na kov. Je to rychlejší, ale bohužel bez extrakce surovin.</DestroyWeapon.description>
+  <DestroyWeapon.jobString>Likviduje zbraň.</DestroyWeapon.jobString>
+	
+	<MakeMortarShell.label>vyrobit dělostřelecký granát</MakeMortarShell.label>
+	<MakeMortarShell.description>Vyrobí granáty do minometu.</MakeMortarShell.description>
+	<MakeMortarShell.jobString>Vyrábí dělostřelecký granát.</MakeMortarShell.jobString>
+  
+  <MakeChemfuelFromWood.label>vyrobit palivo ze dřeva</MakeChemfuelFromWood.label>
+  <MakeChemfuelFromWood.description>Vyrobí palivo ze dřeva.</MakeChemfuelFromWood.description>
+  <MakeChemfuelFromWood.jobString>Vyrábí palivo ze dřeva</MakeChemfuelFromWood.jobString>	
+
+	<MakeChemfuelFromOrganics.label>vyrobit palivo z organických surovin</MakeChemfuelFromOrganics.label>
+  <MakeChemfuelFromOrganics.description>Výrobí palivo z organických surovin.</MakeChemfuelFromOrganics.description>
+  <MakeChemfuelFromOrganics.jobString>Vyrábí palivo.</MakeChemfuelFromOrganics.jobString>
+  
+  <MakeComponent.label>vyrobit komponent</MakeComponent.label>
+  <MakeComponent.description>Výroba komponentů.</MakeComponent.description>
+  <MakeComponent.jobString>Vyrábí komponent.</MakeComponent.jobString>
+ 
+ 
 </LanguageData>

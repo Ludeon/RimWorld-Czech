@@ -1,56 +1,86 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <CraftingSpot.label>Pracovní místo</CraftingSpot.label>
+  <CraftingSpot.description>Místo na výrobu jednoduchých věcí jako jsou nože nebo luky.</CraftingSpot.description>
+        
+            
+  <!-- Work tables -->
+
+  <TableSculpting.label>Sochařský stůl</TableSculpting.label>
+  <TableSculpting.description>Pracoviště pro umělce, umožňuje výrobu soch.</TableSculpting.description>
   
+  <TableButcher.label>Porcovací stůl</TableButcher.label>
+  <TableButcher.description>Těžký stůl, na kterém jsou zpracovávána mrtvá zvířata na syrové maso.</TableButcher.description>
 
-	<NutrientPasteDispenser.label>Kejdomat</NutrientPasteDispenser.label>
-	<NutrientPasteDispenser.description>Produkuje nechutnou, ale zato výživnou pastu.</NutrientPasteDispenser.description>
-	
-	<Hopper.label>Násypka</Hopper.label>
-	<Hopper.description>Násypka slouží k vkládání potravy do kejdomatu.</Hopper.description>
-	
-	<!-- ========================= pracovní stoly ==========================-->
+  <HandTailoringBench.label>Ruční krejčovský stůl</HandTailoringBench.label>
+  <HandTailoringBench.description>Pracovní stůl pro ruční šití oděvů. Pracuje o polovinu pomaleji než elektrický šicí stroj.</HandTailoringBench.description>
 
-	<TableButcher.label>Řezníkův stůl</TableButcher.label>
-	<TableButcher.description>Na tomto stole se porcují nejen zvířátka, ale i lidičky.</TableButcher.description>
-	
-	<TableTailor.label>Stůl krejčího</TableTailor.label>
-	<TableTailor.description>Stůl se vším, co je potřebné pro šití oblečení.</TableTailor.description>
-	
-	<TableSmithing.label>Stůl kováře</TableSmithing.label>
-	<TableSmithing.description>Stůl, který slouží k výrobě nástrojů a zbraní.</TableSmithing.description>
-	
-	<TableSculpting.label>Sochařův stůl</TableSculpting.label>
-	<TableSculpting.description>Stůl pro umělecké vyjádření.</TableSculpting.description>
-	
-	<TableMachining.label>Stůl mechanika</TableMachining.label>
-	<TableMachining.description>Stůl pro demontáž mechanoidů.</TableMachining.description>
-	
-	<Brewery.label>Pivovar</Brewery.label>
-	<Brewery.description>Zde se vaří nejlepší pivo v kolonii.</Brewery.description>
-	
-	<CookStove.label>Sporák</CookStove.label>
-	<CookStove.description>Jednoduchý sporák s plochou na přípravu jídel.</CookStove.description>
-	
-	<TableStonecutter.label>Kameníkův stůl</TableStonecutter.label>
-	<TableStonecutter.description>Stůl, na kterém se z kusů kamenů vyrábí kamené cihly.</TableStonecutter.description>
-	
-	<ElectricSmelter.label>Elektrická pec</ElectricSmelter.label>
-	<ElectricSmelter.description>V této peci lze přetavit šrot v znovu použitelný kov.</ElectricSmelter.description>
-	
-	<Crematorium.label>Krematorium</Crematorium.label>
-	<Crematorium.description>V této peci se pálí mrtvoly.</Crematorium.description>
-	<!-- 11/10 židů doporučuje-->
-	
-	<ResearchBench.label>Výzkumná lavice</ResearchBench.label>
-	<ResearchBench.description>Lavice sloužící pro výzkum a vývoj nových technologií.</ResearchBench.description>
-	
-	
-	<!-- ========== Hydroponics ==============-->
-	
-	<HydroponicsBasin.label>Hydroponika</HydroponicsBasin.label>
-	<HydroponicsBasin.description>Nádoby vhodné pro pěstování plodin uvnitř.</HydroponicsBasin.description>
-	
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  	
+  <ElectricTailoringBench.label>Elektrický krejčovský stůl</ElectricTailoringBench.label>
+  <ElectricTailoringBench.description>Pracovní stůl vybavený elektrickým šicím strojem k rychlé výrobě oděvů. Může pracovat i bez elektrické energie, ale jen na 40% normální rychlosti.</ElectricTailoringBench.description>
+
+  <FueledSmithy.label>Kovárna na palivo</FueledSmithy.label>
+  <FueledSmithy.description>Jednoduchá kovárna na dřevo vybavená pro kování nástrojů a nemechanických zbraní.</FueledSmithy.description>
+
+  <ElectricSmithy.label>Kovárna na elektřinu</ElectricSmithy.label>
+  <ElectricSmithy.description>Elektřinou poháněná kovárna vybavená pro kování nástrojů a nemechanických zbraní.</ElectricSmithy.description>
+
+  <TableMachining.label>Obráběcí stůl</TableMachining.label>
+  <TableMachining.description>Pracovní stanice pro montáž a demontáž strojního zařízení, jako jsou zbraně nebo mrtvoly mechanoidů.</TableMachining.description>
+
+  <ElectricStove.label>Sporák na elektřinu</ElectricStove.label>
+  <ElectricStove.description>Elektrický sporák s připojenou pracovní deskou pro přípravu jídel.</ElectricStove.description>
+
+  <FueledStove.label>Sporák na palivo</FueledStove.label>
+  <FueledStove.description>Jednoduchý sporák na dřevo s připojenou pracovní deskou pro přípravu jídel.</FueledStove.description>
+
+  <TableStonecutter.label>Stůl kameníka</TableStonecutter.label>
+  <TableStonecutter.description>Pracovní stůl vybavený k opracovávání hrubého kamene do použitelných bloků.</TableStonecutter.description>
+
+  <Brewery.label>Pivovar</Brewery.label>
+  <Brewery.description>Pracovní stanice s veškerým vybavením potřebným k vaření piva.</Brewery.description>
+
+  <DrugLab.label>Zdravotnická laboratoř</DrugLab.label>
+  <DrugLab.description>Pracovní stůl vybavený rozličnými nádobami, ohřívači a měřicím zařízením pro výrobu různých léků a drog.</DrugLab.description>
+
+  <ElectricSmelter.label>Tavicí pec na elektřinu</ElectricSmelter.label>
+  <ElectricSmelter.description>Z kovových úlomků a různých jiných kovových předmětů extrahuje kov. Spotřebovává značné množství elektrické energie.</ElectricSmelter.description>
+
+  <Refinery.label>Rafinérie</Refinery.label>
+  <Refinery.description>Chemická rafinérie. Používá se pro přeměnu dřeva nebo organického materiálu na chemické palivo.</Refinery.description>
+
+  <ComponentAssemblyBench.label>Výrobna komponentů</ComponentAssemblyBench.label>
+  <ComponentAssemblyBench.description>Pracovní stůl se specializovanými nástroji na výrobu komponentů z jednodušších materiálů.</ComponentAssemblyBench.description>
+  
+  
+  <!-- Non-standard work buildings -->
+  
+  <SimpleResearchBench.label>Jednoduché výzkumné stanoviště</SimpleResearchBench.label>
+  <SimpleResearchBench.description>Jednoduché pracovní stanoviště s psacími nástroji a zastaralými vědeckými přístroji. Tady pracují výzkumníci na objevování nových věcí.</SimpleResearchBench.description>
+
+  <HiTechResearchBench.label>Špičkové výzkumné stanoviště</HiTechResearchBench.label>
+  <HiTechResearchBench.description>Špičkově vybavené stanoviště s počítači a elektronickým měřícím zařízením. Díky pokročilým nástrojům je výzkum urychlen. Vyžaduje energii.</HiTechResearchBench.description>
+
+  <ElectricCrematorium.label>Elektrické krematorium</ElectricCrematorium.label>
+  <ElectricCrematorium.description>Zde se spalují mrtvoly. Je poháněno elektřinou.</ElectricCrematorium.description>
+
+  <HydroponicsBasin.label>Hydroponická nádrž</HydroponicsBasin.label>
+  <HydroponicsBasin.description>Zde, v umělé lázni se živinami, rostou rostliny rychleji. K provozu vyžaduje elektřinu. Pokud elektřina dojde, rostliny zemřou.</HydroponicsBasin.description>
+  
+  <FermentingBarrel.label>Kvasný sud</FermentingBarrel.label>
+  <FermentingBarrel.description>Sud, ve kterém vzniká pivo zkvašením syrové mladiny.</FermentingBarrel.description>
+  
+  <DeepDrill.label>Hlubinná vrtačka</DeepDrill.label>
+  <DeepDrill.description>Těžební zařízení pro těžbu minerálů, ukrytých hluboko pod povrchem. Pro odhalení minerálů použij hloubkový skener.</DeepDrill.description>
+
+
+  <!-- Nutrient dispenser -->
+  
+  <NutrientPasteDispenser.label>Dávkovač nutriční pasty</NutrientPasteDispenser.label>
+  <NutrientPasteDispenser.description>Z organických surovin syntetizuje nutriční pastu. Spotřebovává méně surovin i času než jiné způsoby přípravy, ale nutriční pastu nikdo nemá rád. Přijímá syrové potraviny, ale ne krmivo pro zvířata, jako např. seno.</NutrientPasteDispenser.description>
+
+  <Hopper.label>Násypka</Hopper.label>
+  <Hopper.description>Dají se do ní vložit suroviny pro připojený stroj, jako je např. dávkovač nutriční pasty.</Hopper.description>
+
+  
 </LanguageData>

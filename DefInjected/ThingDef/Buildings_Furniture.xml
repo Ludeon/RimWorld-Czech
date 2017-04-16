@@ -1,53 +1,81 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
+  <!-- Beds -->
+
+  <SleepingSpot.label>Místo na spaní (člověk)</SleepingSpot.label>
+  <SleepingSpot.description>Označuje místo na zemi, kde mohou spát lidé. Nijak zvlášť pohodlné.</SleepingSpot.description>
+
+  <Bed.label>Postel</Bed.label>
+  <Bed.description>Pohodlná matrace s ložním prádlem na rámu. Dobré místo k odpočinku.</Bed.description>
+
+  <DoubleBed.label>Dvojlůžko</DoubleBed.label>
+  <DoubleBed.description>Jednoduché dvojlůžko s dostatkem místa pro dva.</DoubleBed.description>
+
+  <RoyalBed.label>Královská postel</RoyalBed.label>
+  <RoyalBed.description>Luxusní, zlatem zdobená postel vhodná i pro šlechtice. Velmi hezká a pohodlná s dostatkem místa pro dva.</RoyalBed.description>
+
+  <HospitalBed.label>Nemocniční lůžko</HospitalBed.label>
+  <HospitalBed.description>Postel speciálně navržená pro ošetřování zraněných lidí. Zvyšuje pravděpodobnost úspěchu lékařských ošetření i operací.</HospitalBed.description>
+
+  <!-- Animal beds -->
+
+  <AnimalSleepingSpot.label>Místo na spaní (zvíře)</AnimalSleepingSpot.label>
+  <AnimalSleepingSpot.description>Označuje místo na zemi, kde mají spát zvířata.</AnimalSleepingSpot.description>
+
+  <AnimalSleepingBox.label>Krabice (zvíře)</AnimalSleepingBox.label>
+  <AnimalSleepingBox.description>Malá krabice, ve které mohou spát zvířata. Vhodná pro menší zvířata jako např. slepice, kočky a malí psi.</AnimalSleepingBox.description>
+
+  <AnimalBed.label>Pelíšek (zvíře)</AnimalBed.label>
+  <AnimalBed.description>Měkká postýlka, ve které mohou spát zvířata. Vhodná pro všechny druhy zvířat.</AnimalBed.description>
+
+  <!-- Basic domestic furniture -->
+
+  <Stool.label>Stolička</Stool.label>
+  <Stool.description>Prostý povrch, na kterém se dá sedět.</Stool.description>
+
+  <DiningChair.label>Židle</DiningChair.label>
+  <DiningChair.description>Pohodlná a dobře vypadající židle pro posezení u stolu.</DiningChair.description>
+
+  <Armchair.label>Křeslo</Armchair.label>
+  <Armchair.description>Velké, měkké a pohodlné křeslo. Skvělé pro odpočinek.</Armchair.description>
+
+  <!-- Table base -->
+  <TableShort.label>Malý stůl</TableShort.label>
+  <TableShort.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableShort.description>
+
+  <TableLong.label>Velký stůl</TableLong.label>
+  <TableLong.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableLong.description>
+
+  <PlantPot.label>Květináč</PlantPot.label>
+  <PlantPot.description>Sem můžeš vysadit květiny pro zlepšení nálady opodál stojících lidí.</PlantPot.description>
   
-	<!--============================== Postele ==============================-->
   
-	<SleepingSpot.label>Místo na spaní</SleepingSpot.label>
-	<SleepingSpot.description>Prostě flek na zemi, není to sice pohodlné, ale kvalita spánku je 8/10.</SleepingSpot.description>
+  <!-- Lighting -->
 
-	<Bed.label>Postel</Bed.label>
-	<Bed.description>Dobrá matrace s povlečením a pevnou konstrukcí. Nejkvalitnější spánek 10/10</Bed.description>
-	
-	<RoyalBed.label>Dvojlůžko</RoyalBed.label>
-	<RoyalBed.description>Velká postel, ve které si každý dost místa.</RoyalBed.description>
-	
-	<HospitalBed.label>Nemocniční lůžko</HospitalBed.label>
-	<HospitalBed.description>Postel navržena speciálně pro léčbu nemocných. Výrazně zvyšuje šanci na úspěch při operacích a léčení zraněných.</HospitalBed.description>
+  <TorchLamp.label>Pochodeň</TorchLamp.label>
+  <TorchLamp.description>Dřevěná pochodeň, která osvětluje okolí. Lze ji automaticky doplňovat dřevem. Vydává malé množství tepla.</TorchLamp.description>
 
-	<!--======================= Základ ==============================-->
+  <StandingLamp.label>Lampa</StandingLamp.label>
+  <StandingLamp.description>Stojací lampa, která osvětluje okolí.</StandingLamp.description>
 
-	<Stool.label>Stolička</Stool.label>
-	<Stool.description>Slouží k sezení.</Stool.description>
-	
-	<!-- stoly -->
-	
-	<TableShort.label>Stůl (malý)</TableShort.label>
-	<TableShort.description>Kolonisté sem chodí jíst, pokud jsou tedy u stolu židle.</TableShort.description>
-	
-	<TableLong.label>Stůl (velký)</TableLong.label>
-	<TableLong.description>Kolonisté sem chodí jíst, pokud jsou tedy u stolu židle.</TableLong.description>
-	
-	
-	<!-- ======================== světla ======================= -->
-	
-	<StandingLamp.label>Lampa</StandingLamp.label>
-	<StandingLamp.description>Klasická lampa, která dokáže osvětlit velkou plochu.</StandingLamp.description>
-	
-	<StandingLamp_Red.label>Lampa (červená)</StandingLamp_Red.label>
-	<StandingLamp_Red.description>Klasická lampa, která dokáže červeně osvětlit velkou plochu.</StandingLamp_Red.description>
-	
-	<StandingLamp_Green.label>Lampa (zelená)</StandingLamp_Green.label>
-	<StandingLamp_Green.description>Klasická lampa, která dokáže zeleně osvětlit velkou plochu.</StandingLamp_Green.description>
-	
-	<StandingLamp_Blue.label>Lampa (modrá)</StandingLamp_Blue.label>
-	<StandingLamp_Blue.description>Klasická lampa, která dokáže modře osvětlit velkou plochu.</StandingLamp_Blue.description>
-	
-	<!--============================== Storage ==============================-->
-	
-	<EquipmentRack.label>Regál na zbraně</EquipmentRack.label>
-	<EquipmentRack.description>Místo, kam se dájí uložit zbraně.</EquipmentRack.description>
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  	
+  <StandingLamp_Red.label>Lampa (červená)</StandingLamp_Red.label>
+  <StandingLamp_Red.description>Stojací lampa, která osvětluje okolí červeným světlem.</StandingLamp_Red.description>
+
+  <StandingLamp_Green.label>Lampa (zelená)</StandingLamp_Green.label>
+  <StandingLamp_Green.description>Stojací lampa, která osvětluje okolí zeleným světlem.</StandingLamp_Green.description>
+
+  <StandingLamp_Blue.label>Lampa (modrá)</StandingLamp_Blue.label>
+  <StandingLamp_Blue.description>Stojací lampa, která osvětluje okolí modrým světlem.</StandingLamp_Blue.description>
+
+  <SunLamp.label>Umělé slunce</SunLamp.label>
+  <SunLamp.description>Osvětluje okolí tak silně, že při tom mohou růst i rostliny. Vyžaduje velmi mnoho energie.</SunLamp.description>
+
+  
+  <!-- Storage -->
+
+  <EquipmentRack.label>Police</EquipmentRack.label>
+  <EquipmentRack.description>Zde uskladněné vybavení se neničí, dokonce i když je venku.</EquipmentRack.description>
+
+  
 </LanguageData>

@@ -1,136 +1,352 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- ============= Misc ============= -->
+  <!-- Firefighter -->
 
-	<Mine.verb>těžit</Mine.verb>
-	<Mine.gerund>těží</Mine.gerund>
-	<Research.verb>zkoumat</Research.verb>
-	<Research.gerund>zkoumá</Research.gerund>
-	<PlantsCut.verb>sekat</PlantsCut.verb>
-	<PlantsCut.gerund>seká</PlantsCut.gerund>
-	<FightFires.verb>hasit</FightFires.verb>
-	<FightFires.gerund>hasí</FightFires.gerund>
-	<Warden.verb>hlídat</Warden.verb>
-	<Warden.gerund>hlídá</Warden.gerund>
-	<HunterHunt.verb>lovit</HunterHunt.verb>
-	<HunterHunt.gerund>loví</HunterHunt.gerund>
-	<PatientGoToBed.verb>Nechat se ošetřit</PatientGoToBed.verb>
-	<PatientGoToBed.gerund>nechává se ošetřit</PatientGoToBed.gerund>
-	
-	<!-- ============= Cleaning ============= -->	
-	
-	<CleanClearSnow.verb>odklízet sníh</CleanClearSnow.verb>
-	<CleanClearSnow.gerund>odklízí sníh</CleanClearSnow.gerund>
-	<CleanFilth.verb>čistit</CleanFilth.verb>
-	<CleanFilth.gerund>čistí</CleanFilth.gerund>
-	
-  <!-- =========== Control ============-->
-  
-	<TogglePower.verb>Vypnout napájení</TogglePower.verb>
-	<TogglePower.gerund>Zapnout napájení</TogglePower.gerund>
+  <FightFires.label>- bojuje s ohněm</FightFires.label>
+  <FightFires.verb>hasit.</FightFires.verb>
+  <FightFires.gerund>uhaš!</FightFires.gerund>
 
-  <!-- ============= Hauling ============= -->	
 
-	<DoBillsCremate.verb>spálit mrtvolu</DoBillsCremate.verb>
-	<DoBillsCremate.gerund>pálí mrtvolu</DoBillsCremate.gerund>
-    <HaulCorpses.gerund>nosí</HaulCorpses.gerund>
-	<HaulCorpses.verb>nosit</HaulCorpses.verb>
-	<HaulGeneral.verb>nosit</HaulGeneral.verb>
-	<HaulGeneral.gerund>nosí</HaulGeneral.gerund>
-		
-  <!-- ============= Growing ============= -->	
-	
-	<GrowerSow.verb>sít</GrowerSow.verb>
-	<GrowerSow.gerund>seje</GrowerSow.gerund>
-	<GrowerHarvest.verb>sklízet</GrowerHarvest.verb>
-	<GrowerHarvest.gerund>sklízí</GrowerHarvest.gerund>
-	
-  <!-- ============= Repair ============= -->	
-	
-	<Repair.verb>opravit</Repair.verb>
-	<Repair.gerund>opravuje</Repair.gerund>
-	
-	<DoBillsMedicalMechanoidOperation.verb>modifikovat</DoBillsMedicalMechanoidOperation.verb>
-	<DoBillsMedicalMechanoidOperation.gerund>modifikuje</DoBillsMedicalMechanoidOperation.gerund>
-  
-  <!-- ============= Doctor ============= -->
-  
-	<DoctorFeed.verb>krmit</DoctorFeed.verb>
-	<DoctorFeed.gerund>krmí</DoctorFeed.gerund>
-	<DoctorTreatEmergency.verb>ošetřit</DoctorTreatEmergency.verb>
-	<DoctorTreatEmergency.gerund>ošetřuje</DoctorTreatEmergency.gerund>
-	<DoctorTreat.verb>ošetřit</DoctorTreat.verb>
-	<DoctorTreat.gerund>ošetřuje</DoctorTreat.gerund>
-	<TakeToBedToOperate.verb>přivést na operaci</TakeToBedToOperate.verb>
-	<TakeToBedToOperate.gerund>přivádí na operaci</TakeToBedToOperate.gerund>
-	<DoBillsMedicalHumanOperation.verb>operovat</DoBillsMedicalHumanOperation.verb>
-	<DoBillsMedicalHumanOperation.gerund>operuje</DoBillsMedicalHumanOperation.gerund>
-	<DoBillsMedicalAnimalOperation.verb>operovat</DoBillsMedicalAnimalOperation.verb>
-	<DoBillsMedicalAnimalOperation.gerund>operuje</DoBillsMedicalAnimalOperation.gerund>
+  <!-- PatientEmergency -->
 
-  <!-- ============= Construction ============= -->		
-	
-	<Deconstruct.verb>rozebrat</Deconstruct.verb>
-	<Deconstruct.gerund>rozebrá</Deconstruct.gerund>
-	<ConstructFinishFrames.verb>stavět</ConstructFinishFrames.verb>
-	<ConstructFinishFrames.gerund>staví</ConstructFinishFrames.gerund>
-	<ConstructDeliverResourcesToFrames.verb>pracovat</ConstructDeliverResourcesToFrames.verb>
-	<ConstructDeliverResourcesToFrames.gerund>pracuje</ConstructDeliverResourcesToFrames.gerund>
-	<ConstructDeliverResourcesToBlueprints.verb>pracovat</ConstructDeliverResourcesToBlueprints.verb>
-	<ConstructDeliverResourcesToBlueprints.gerund>pracuje</ConstructDeliverResourcesToBlueprints.gerund>
-	<ConstructSmoothFloors.verb>vyhladit</ConstructSmoothFloors.verb>
-	<ConstructSmoothFloors.gerund>vyhlazuje</ConstructSmoothFloors.gerund>
-	
-	<!-- ============= Cooking ============= -->
-	
-	<DoBillsCook.verb>vařit</DoBillsCook.verb>
-	<DoBillsCook.gerund>vaří</DoBillsCook.gerund>
-	<DoBillsBrew.verb>vařit pivo</DoBillsBrew.verb>
-	<DoBillsBrew.gerund>vaří pivo</DoBillsBrew.gerund>
-	<DoBillsButcherFlesh.verb>porcovat</DoBillsButcherFlesh.verb>
-	<DoBillsButcherFlesh.gerund>porcuje</DoBillsButcherFlesh.gerund>
-	<CookFillHopper.verb>naplnit</CookFillHopper.verb>
-	<CookFillHopper.gerund>plní</CookFillHopper.gerund>
-  
-  <!-- ============= Crafting - art - sculpture ============= -->
-	
-	<FinishUnfinishedSculptures.verb>sochařit</FinishUnfinishedSculptures.verb>
-	<FinishUnfinishedSculptures.gerund>tvořit</FinishUnfinishedSculptures.gerund>
-	<DoBillsSculpt.verb>sochařit</DoBillsSculpt.verb>
-	<DoBillsSculpt.gerund>tvoří</DoBillsSculpt.gerund>
-	
-	<!-- ============= Crafting ============= -->
-	
-  <!-- ============= Crafting - weapons ============= -->
+  <PatientGoToBedEmergency.label>- chodí do postele pro akutní ošetření</PatientGoToBedEmergency.label>
+  <PatientGoToBedEmergency.verb>se nechat ošetřit.</PatientGoToBedEmergency.verb>
+  <PatientGoToBedEmergency.gerund>se nech ošetřit!</PatientGoToBedEmergency.gerund>
 
-	<FinishUnfinishedWeapons.verb>ukovat</FinishUnfinishedWeapons.verb>
-	<FinishUnfinishedWeapons.gerund>ková</FinishUnfinishedWeapons.gerund>
-	<DoBillsMakeWeapons.verb>ukovat</DoBillsMakeWeapons.verb>
-	<DoBillsMakeWeapons.gerund>ková</DoBillsMakeWeapons.gerund>
-  
-  <!-- ============= Crafting - apparel ============= -->
-  
-	<FinishUnfinishedApparel.verb>šít oblečení</FinishUnfinishedApparel.verb>
-	<FinishUnfinishedApparel.gerund>šije oblečení</FinishUnfinishedApparel.gerund>
-	<DoBillsMakeApparel.verb>šít oblečení</DoBillsMakeApparel.verb>
-	<DoBillsMakeApparel.gerund>šije oblečení</DoBillsMakeApparel.gerund>
 
-  <!-- ============= Crafting - misc ============= -->	
-	
-	<DoBillsStonecut.verb>kutat cihly</DoBillsStonecut.verb>
-	<DoBillsStonecut.gerund>kutá cihly</DoBillsStonecut.gerund>
-	
-	<DoBillsSlagRefining.verb>přetavit</DoBillsSlagRefining.verb>
-	<DoBillsSlagRefining.gerund>přetavuje</DoBillsSlagRefining.gerund>
-	
-	<DoBillsButcherMechanoid.verb>rozebrat</DoBillsButcherMechanoid.verb>
-	<DoBillsButcherMechanoid.gerund>rozebírá</DoBillsButcherMechanoid.gerund>
-	
-	
-	
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  	
-	
+  <!-- Doctor -->
+
+  <DoctorTreatEmergency.label>- poskytuje akutní ošetření</DoctorTreatEmergency.label>
+  <DoctorTreatEmergency.verb>ošetřit.</DoctorTreatEmergency.verb>
+  <DoctorTreatEmergency.gerund>ošetřuj!</DoctorTreatEmergency.gerund>
+
+  <DoctorRescue.label>- zachraňuje raněné</DoctorRescue.label>
+  <DoctorRescue.verb>zachránit.</DoctorRescue.verb>
+  <DoctorRescue.gerund>zachraň!</DoctorRescue.gerund>
+
+  <DoBillsMedicalHumanOperation.label>- provádí operace na lidech</DoBillsMedicalHumanOperation.label>
+  <DoBillsMedicalHumanOperation.verb>operovat.</DoBillsMedicalHumanOperation.verb>
+  <DoBillsMedicalHumanOperation.gerund>operuj!</DoBillsMedicalHumanOperation.gerund>
+
+  <DoctorTreat.label>- poskytuje běžné ošetření</DoctorTreat.label>
+  <DoctorTreat.verb>ošetřit.</DoctorTreat.verb>
+  <DoctorTreat.gerund>ošetřuj!</DoctorTreat.gerund>
+
+  <DoctorFeed.label>- krmí pacienty</DoctorFeed.label>
+  <DoctorFeed.verb>krmit.</DoctorFeed.verb>
+  <DoctorFeed.gerund>nakrm!</DoctorFeed.gerund>
+
+  <DoBillsMedicalAnimalOperation.label>- provádí operace na zvířatech</DoBillsMedicalAnimalOperation.label>
+  <DoBillsMedicalAnimalOperation.verb>operovat.</DoBillsMedicalAnimalOperation.verb>
+  <DoBillsMedicalAnimalOperation.gerund>operuj!</DoBillsMedicalAnimalOperation.gerund>
+
+  <TakeToBedToOperate.label>- přivádí pacienty k operaci</TakeToBedToOperate.label>
+  <TakeToBedToOperate.verb>přivést k operaci.</TakeToBedToOperate.verb>
+  <TakeToBedToOperate.gerund>přiveď k operaci!</TakeToBedToOperate.gerund>
+
+  <VisitSickPawn.label>- provádí vizitu pacientů</VisitSickPawn.label>
+  <VisitSickPawn.verb>navštívit.</VisitSickPawn.verb>
+  <VisitSickPawn.gerund>navštiv!</VisitSickPawn.gerund>
+
+
+  <!-- PatientBedRest -->
+
+  <PatientGoToBed.label>- zotavuje se v posteli</PatientGoToBed.label>
+  <PatientGoToBed.verb>odpočívat až do uzdravení.</PatientGoToBed.verb>
+  <PatientGoToBed.gerund>odpočívej až do uzdravení!</PatientGoToBed.gerund>
+
+
+  <!-- Flicker -->
+
+  <Flick.label>- přepníná elektrické spínače</Flick.label>
+  <Flick.verb>přepnout.</Flick.verb>
+  <Flick.gerund>přepni!</Flick.gerund>
+
+
+  <!-- Warden -->
+
+  <DoExecution.label>- popravuje zajatce</DoExecution.label>
+  <DoExecution.verb>popravit.</DoExecution.verb>
+  <DoExecution.gerund>poprav!</DoExecution.gerund>
+
+  <ReleasePrisoner.label>- propouští zajatce</ReleasePrisoner.label>
+  <ReleasePrisoner.verb>propustit.</ReleasePrisoner.verb>
+  <ReleasePrisoner.gerund>propusť!</ReleasePrisoner.gerund>
+
+  <TakePrisonerToBed.label>- odvádí zajatce k posteli</TakePrisonerToBed.label>
+  <TakePrisonerToBed.verb>odvést k posteli.</TakePrisonerToBed.verb>
+  <TakePrisonerToBed.gerund>odveď k posteli!</TakePrisonerToBed.gerund>
+
+  <FeedPrisoner.label>- krmí zajatce</FeedPrisoner.label>
+  <FeedPrisoner.verb>krmit.</FeedPrisoner.verb>
+  <FeedPrisoner.gerund>nakrm!</FeedPrisoner.gerund>
+
+  <DeliverFoodToPrisoner.label>- nosí jídlo zajatcům</DeliverFoodToPrisoner.label>
+  <DeliverFoodToPrisoner.verb>přinést jídlo.</DeliverFoodToPrisoner.verb>
+  <DeliverFoodToPrisoner.gerund>přines jídlo!</DeliverFoodToPrisoner.gerund>
+
+  <ChatWithPrisoner.label>- mluví se zajatci</ChatWithPrisoner.label>
+  <ChatWithPrisoner.verb>mluvit se zajatcem.</ChatWithPrisoner.verb>
+  <ChatWithPrisoner.gerund>mluv se zajatcem!</ChatWithPrisoner.gerund>
+
+
+  <!-- Handling -->
+
+  <Slaughter.label>- poráží zvířata</Slaughter.label>
+  <Slaughter.verb>porazit.</Slaughter.verb>
+  <Slaughter.gerund>poraž!</Slaughter.gerund>
+
+  <Milk.label>- získává mléko od zvířat</Milk.label>
+  <Milk.verb>dojit.</Milk.verb>
+  <Milk.gerund>podoj!</Milk.gerund>
+
+  <Shear.label>- získává produkty stříháním zvířat</Shear.label>
+  <Shear.verb>ostříhat.</Shear.verb>
+  <Shear.gerund>ostříhej!</Shear.gerund>
+
+  <Tame.label>- ochočuje zvířata</Tame.label>
+  <Tame.verb>ochočit.</Tame.verb>
+  <Tame.gerund>ochoč!</Tame.gerund>
+
+  <Train.label>- trénuje zvířata povelům</Train.label>
+  <Train.verb>trénovat.</Train.verb>
+  <Train.gerund>trénuj!</Train.gerund>
+
+
+  <!-- Cooking -->
+
+  <DoBillsCook.label>- vaří jídla na sporáku</DoBillsCook.label>
+  <DoBillsCook.verb>vařit.</DoBillsCook.verb>
+  <DoBillsCook.gerund>uvař!</DoBillsCook.gerund>
+
+  <DoBillsCookCampfire.label>- vaří jídla nad ohněm</DoBillsCookCampfire.label>
+  <DoBillsCookCampfire.verb>vařit.</DoBillsCookCampfire.verb>
+  <DoBillsCookCampfire.gerund>uvař!</DoBillsCookCampfire.gerund>
+
+  <DoBillsButcherFlesh.label>- porcuje tvory</DoBillsButcherFlesh.label>
+  <DoBillsButcherFlesh.verb>porcovat.</DoBillsButcherFlesh.verb>
+  <DoBillsButcherFlesh.gerund>naporcuj!</DoBillsButcherFlesh.gerund>
+
+  <CookFillHopper.label>- plní potravinami násypky</CookFillHopper.label>
+  <CookFillHopper.verb>naplnit.</CookFillHopper.verb>
+  <CookFillHopper.gerund>naplň!</CookFillHopper.gerund>
+
+  <DoBillsBrew.label>- vaří ze surovin alkohol</DoBillsBrew.label>
+  <DoBillsBrew.verb>vařit.</DoBillsBrew.verb>
+  <DoBillsBrew.gerund>uvař!</DoBillsBrew.gerund>
+
+
+  <!-- Hunting -->
+
+  <HunterHunt.label>- loví zvěř</HunterHunt.label>
+  <HunterHunt.verb>lovit.</HunterHunt.verb>
+  <HunterHunt.gerund>ulov!</HunterHunt.gerund>
+
+
+  <!-- Construction -->
+
+  <DoBillsMedicalMechanoidOperation.label>- provádí modifikace na mechanoidech</DoBillsMedicalMechanoidOperation.label>
+  <DoBillsMedicalMechanoidOperation.verb>modifikovat.</DoBillsMedicalMechanoidOperation.verb>
+  <DoBillsMedicalMechanoidOperation.gerund>modifikuj!</DoBillsMedicalMechanoidOperation.gerund>
+
+  <FixBrokenDownBuilding.label>- opravuje poškozené stavby</FixBrokenDownBuilding.label>
+  <FixBrokenDownBuilding.verb>nahradit komponent.</FixBrokenDownBuilding.verb>
+  <FixBrokenDownBuilding.gerund>nahraď komponent!</FixBrokenDownBuilding.gerund>
+
+  <Repair.label>- opravuje poškozené věci</Repair.label>
+  <Repair.verb>opravit.</Repair.verb>
+  <Repair.gerund>oprav!</Repair.gerund>
+
+  <BuildRoofs.label>- staví nad budovami střechy</BuildRoofs.label>
+  <BuildRoofs.verb>postavit střechu.</BuildRoofs.verb>
+  <BuildRoofs.gerund>postav střechu!</BuildRoofs.gerund>
+
+  <RemoveRoofs.label>- bourá nad budovami střechy</RemoveRoofs.label>
+  <RemoveRoofs.verb>bourat střechu.</RemoveRoofs.verb>
+  <RemoveRoofs.gerund>zbourej střechu!</RemoveRoofs.gerund>
+
+  <ConstructFinishFrames.label>- dokončuje konstrukce kolem rámů</ConstructFinishFrames.label>
+  <ConstructFinishFrames.verb>dokončit konstrukci.</ConstructFinishFrames.verb>
+  <ConstructFinishFrames.gerund>dokonči konstrukci!</ConstructFinishFrames.gerund>
+
+  <ConstructDeliverResourcesToFrames.label>- přináší suroviny pro rámy</ConstructDeliverResourcesToFrames.label>
+  <ConstructDeliverResourcesToFrames.verb>pracovat.</ConstructDeliverResourcesToFrames.verb>
+  <ConstructDeliverResourcesToFrames.gerund>pracuj!</ConstructDeliverResourcesToFrames.gerund>
+
+  <ConstructDeliverResourcesToBlueprints.label>- přináší plány pro konstrukce</ConstructDeliverResourcesToBlueprints.label>
+  <ConstructDeliverResourcesToBlueprints.verb>plánovat.</ConstructDeliverResourcesToBlueprints.verb>
+  <ConstructDeliverResourcesToBlueprints.gerund>naplánuj!</ConstructDeliverResourcesToBlueprints.gerund>
+
+  <Deconstruct.label>- rozebírá konstrukce na části</Deconstruct.label>
+  <Deconstruct.verb>rozebrat.</Deconstruct.verb>
+  <Deconstruct.gerund>rozeber!</Deconstruct.gerund>
+
+  <Uninstall.label>- odinstalovává postavené konstrukce</Uninstall.label>
+  <Uninstall.verb>odinstalovat.</Uninstall.verb>
+  <Uninstall.gerund>odinstaluj!</Uninstall.gerund>
+
+  <ConstructRemoveFloors.label>- odstraňuje podlahy</ConstructRemoveFloors.label>
+  <ConstructRemoveFloors.verb>odstranit podlahu.</ConstructRemoveFloors.verb>
+  <ConstructRemoveFloors.gerund>odstraň podlahu!</ConstructRemoveFloors.gerund>
+
+  <ConstructSmoothFloors.label>- vyhlazuje podlahy do roviny</ConstructSmoothFloors.label>
+  <ConstructSmoothFloors.verb>vyhladit.</ConstructSmoothFloors.verb>
+  <ConstructSmoothFloors.gerund>vyhlaď!</ConstructSmoothFloors.gerund>
+
+
+  <!-- Growing -->
+
+  <GrowerHarvest.label>- sklízí dospělé plodiny</GrowerHarvest.label>
+  <GrowerHarvest.verb>sklidit.</GrowerHarvest.verb>
+  <GrowerHarvest.gerund>skliď!</GrowerHarvest.gerund>
+
+  <GrowerSow.label>- sází semínka plodin</GrowerSow.label>
+  <GrowerSow.verb>zasadit.</GrowerSow.verb>
+  <GrowerSow.gerund>zasaď!</GrowerSow.gerund>
+
+
+  <!-- Mining -->
+
+  <Mine.label>- těží suroviny</Mine.label>
+  <Mine.verb>těžit.</Mine.verb>
+  <Mine.gerund>vytěž!</Mine.gerund>
+
+  <Drill.label>- vrtá povrch pro hloubkovou těžbu</Drill.label>
+  <Drill.verb>vrtat.</Drill.verb>
+  <Drill.gerund>vrtej!</Drill.gerund>
+
+
+  <!-- PlantCutting -->
+
+  <PlantsCut.label>- seká rostliny</PlantsCut.label>
+  <PlantsCut.verb>sekat.</PlantsCut.verb>
+  <PlantsCut.gerund>posekej!</PlantsCut.gerund>
+
+
+  <!-- Smithing -->
+
+  <DoBillsMakeWeapons.label>- vyrábí zbraně</DoBillsMakeWeapons.label>
+  <DoBillsMakeWeapons.verb>vyrobit.</DoBillsMakeWeapons.verb>
+  <DoBillsMakeWeapons.gerund>vyrob!</DoBillsMakeWeapons.gerund>
+
+  <DoBillsMachiningTable.label>- pracuje na obráběcích stolech</DoBillsMachiningTable.label>
+  <DoBillsMachiningTable.verb>vyrobit.</DoBillsMachiningTable.verb>
+  <DoBillsMachiningTable.gerund>vyrob!</DoBillsMachiningTable.gerund>
+
+  <DoBillsComponentAssemblyBench.label>- sestavuje komponenty v montovně</DoBillsComponentAssemblyBench.label>
+  <DoBillsComponentAssemblyBench.verb>sestavovat komponent.</DoBillsComponentAssemblyBench.verb>
+  <DoBillsComponentAssemblyBench.gerund>sestav komponent!</DoBillsComponentAssemblyBench.gerund>
+
+
+  <!-- Tailoring -->
+
+  <DoBillsMakeApparel.label>- šije oblečení</DoBillsMakeApparel.label>
+  <DoBillsMakeApparel.verb>šít.</DoBillsMakeApparel.verb>
+  <DoBillsMakeApparel.gerund>šij!</DoBillsMakeApparel.gerund>
+
+
+  <!-- Art -->
+
+  <DoBillsSculpt.label>- vyrábí sochy</DoBillsSculpt.label>
+  <DoBillsSculpt.verb>vyrobit sochu.</DoBillsSculpt.verb>
+  <DoBillsSculpt.gerund>vyrob sochu!</DoBillsSculpt.gerund>
+
+
+  <!-- Crafting -->
+
+  <DoBillsUseCraftingSpot.label>- provádí řemeslné práce na podlaze</DoBillsUseCraftingSpot.label>
+  <DoBillsUseCraftingSpot.verb>vyrobit.</DoBillsUseCraftingSpot.verb>
+  <DoBillsUseCraftingSpot.gerund>vyrob!</DoBillsUseCraftingSpot.gerund>
+
+  <DoBillsRefinery.label>- pracuje v laboratoři s chemikáliemi</DoBillsRefinery.label>
+  <DoBillsRefinery.verb>pracovat s chemikáliemi.</DoBillsRefinery.verb>
+  <DoBillsRefinery.gerund>pracuj s chemikáliemi!</DoBillsRefinery.gerund>
+
+  <DoBillsProduceDrugs.label>- vyrábí drogy a léčiva</DoBillsProduceDrugs.label>
+  <DoBillsProduceDrugs.verb>vyrobit léčiva.</DoBillsProduceDrugs.verb>
+  <DoBillsProduceDrugs.gerund>vyrob léčiva!</DoBillsProduceDrugs.gerund>
+
+  <DoBillsStonecut.label>- vytesává z kamenů bloky pro stavbu</DoBillsStonecut.label>
+  <DoBillsStonecut.verb>opracovat kámen.</DoBillsStonecut.verb>
+  <DoBillsStonecut.gerund>opracuj kámen!</DoBillsStonecut.gerund>
+
+  <DoBillsSmelter.label>- přetavuje předměty zpět na suroviny</DoBillsSmelter.label>
+  <DoBillsSmelter.verb>přetavit.</DoBillsSmelter.verb>
+  <DoBillsSmelter.gerund>přetav!</DoBillsSmelter.gerund>
+
+
+  <!-- Hauling -->
+
+  <UnloadCarriers.label>- vykládá nosiče</UnloadCarriers.label>
+  <UnloadCarriers.verb>vyložit.</UnloadCarriers.verb>
+  <UnloadCarriers.gerund>vylož!</UnloadCarriers.gerund>
+
+  <LoadTransporters.label>- nakládá nosiče</LoadTransporters.label>
+  <LoadTransporters.verb>naložit.</LoadTransporters.verb>
+  <LoadTransporters.gerund>nalož!</LoadTransporters.gerund>
+
+  <Strip.label>- svléká mrtvoly</Strip.label>
+  <Strip.verb>svléknout.</Strip.verb>
+  <Strip.gerund>svlékni!</Strip.gerund>
+
+  <BuryCorpses.label>- pohřbívá mrtvoly</BuryCorpses.label>
+  <BuryCorpses.verb>pohřbít.</BuryCorpses.verb>
+  <BuryCorpses.gerund>pohřbi!</BuryCorpses.gerund>
+
+  <HaulCorpses.label>- přenáší mrtvoly</HaulCorpses.label>
+  <HaulCorpses.verb>přenést.</HaulCorpses.verb>
+  <HaulCorpses.gerund>přenes!</HaulCorpses.gerund>
+
+  <Open.label>- otevírá kontejnery</Open.label>
+  <Open.verb>otevřít.</Open.verb>
+  <Open.gerund>otevři!</Open.gerund>
+
+  <Refuel.label>- doplňuje palivo do násypek</Refuel.label>
+  <Refuel.verb>doplnit palivo.</Refuel.verb>
+  <Refuel.gerund>doplň palivo!</Refuel.gerund>
+
+  <RearmTraps.label>- nastražuje pasti</RearmTraps.label>
+  <RearmTraps.verb>nastražit.</RearmTraps.verb>
+  <RearmTraps.gerund>nastraž!</RearmTraps.gerund>
+
+  <DoBillsCremate.label>- provádí kremace</DoBillsCremate.label>
+  <DoBillsCremate.verb>provést kremaci.</DoBillsCremate.verb>
+  <DoBillsCremate.gerund>proveď kremaci!</DoBillsCremate.gerund>
+
+  <DoBillsHaulCampfire.label>- spaluje věci v ohništi</DoBillsHaulCampfire.label>
+  <DoBillsHaulCampfire.verb>spálit v ohništi.</DoBillsHaulCampfire.verb>
+  <DoBillsHaulCampfire.gerund>spal v ohništi!</DoBillsHaulCampfire.gerund>
+
+  <TakeBeerOutOfFermentingBarrel.label>- čepuje pivo z kvasících barelů</TakeBeerOutOfFermentingBarrel.label>
+  <TakeBeerOutOfFermentingBarrel.verb>čepovat.</TakeBeerOutOfFermentingBarrel.verb>
+  <TakeBeerOutOfFermentingBarrel.gerund>načepuj!</TakeBeerOutOfFermentingBarrel.gerund>
+
+  <FillFermentingBarrel.label>- plní kvasící barely</FillFermentingBarrel.label>
+  <FillFermentingBarrel.verb>naplnit.</FillFermentingBarrel.verb>
+  <FillFermentingBarrel.gerund>naplň!</FillFermentingBarrel.gerund>
+
+  <HaulGeneral.label>- přenáší věci</HaulGeneral.label>
+  <HaulGeneral.verb>přenést.</HaulGeneral.verb>
+  <HaulGeneral.gerund>přenes!</HaulGeneral.gerund>
+
+
+  <!-- Cleaning -->
+
+  <CleanClearSnow.label>- odhrňuje sníh</CleanClearSnow.label>
+  <CleanClearSnow.verb>odhrňovat sníh.</CleanClearSnow.verb>
+  <CleanClearSnow.gerund>odhrň sníh!</CleanClearSnow.gerund>
+
+  <CleanFilth.label>- uklízí nečistoty</CleanFilth.label>
+  <CleanFilth.verb>uklidit.</CleanFilth.verb>
+  <CleanFilth.gerund>ukliď!</CleanFilth.gerund>
+
+
+  <!-- Research -->
+
+  <Research.label>- provádí výzkum</Research.label>
+  <Research.verb>zkoumat.</Research.verb>
+  <Research.gerund>zkoumej!</Research.gerund>
+
+
 </LanguageData>

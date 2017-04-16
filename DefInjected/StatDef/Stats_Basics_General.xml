@@ -1,29 +1,41 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<MaxHealth.label>Max zdraví</MaxHealth.label>
-	<MaxHealth.description>Hodnota maximálního zdraví.</MaxHealth.description>
-	
-	<MarketValue.label>Hodnota</MarketValue.label>
-	<MarketValue.description>Hodnota předmětu, kterou má na trhu.</MarketValue.description>
-	
-	<SellPriceFactor.label>Prodejní cena</SellPriceFactor.label>
-	<SellPriceFactor.description>Cena za kterou se předmět může prodat.</SellPriceFactor.description>
 
-	<Flammability.label>Ohnivzdornost</Flammability.label>
-	<Flammability.description>Hodnota věci předtím než shoří.</Flammability.description>
-	
-	<WorkToMake.label>Potřeba práce</WorkToMake.label>
-	<WorkToMake.description>Množství pracovních bodů, které je potřeba k dokončení úlohy.</WorkToMake.description>
-	
-	<DeteriorationRate.label>Rychlost zvětrávání</DeteriorationRate.label>
-	<DeteriorationRate.description>Hodnota rychlosti ničení pomocí přírodních podmínek.</DeteriorationRate.description>
-	
-	<Beauty.label>Vzhled</Beauty.label>
-	<Beauty.description>Hodnota příjemnosti okolí.</Beauty.description>
-	
-		
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  
+  <MaxHitPoints.label>maximalní životnost</MaxHitPoints.label>
+  <MaxHitPoints.description>Maximum životnosti objektu. Toto představuje, jaké poškození snese, než bude zničen.</MaxHitPoints.description>
+
+  <Mass.label>hmotnost</Mass.label>
+  <Mass.description>Fyzická hmotnost objektu.</Mass.description>
+  <Mass.formatString>{0}kg</Mass.formatString>
+
+  <MarketValue.label>tržní cena</MarketValue.label>
+  <MarketValue.description>Tržní cena objektu. Aktuální obchodní cena bude dále modifikována dle vyjednávacích dovedností, vzájemnému vztahu s obchodníkem, a ostatním souvisejícím faktorům.</MarketValue.description>
+  <MarketValue.formatString>${0}</MarketValue.formatString>
+
+  <SellPriceFactor.label>násobitel prodejní ceny</SellPriceFactor.label>
+  <SellPriceFactor.description>Násobitel ceny, za kterou můžete prodat předměty.</SellPriceFactor.description>
+
+  <Flammability.label>hořlavost</Flammability.label>
+  <Flammability.description>Jak snadno objekt začne hořet a jak rychle hoří.</Flammability.description>
+
+  <WorkToMake.label>množství práce pro dokončení</WorkToMake.label>
+  <WorkToMake.description>Základní množství práce, které je potřebné k výrobě, jakmile jsou shromážděny všechny materiály a nástroje.</WorkToMake.description>
+
+  <WorkToBuild.label>množství práce pro dokončení</WorkToBuild.label>
+  <WorkToBuild.description>Základní množství práce, které je potřebné ke stavbě konstrukce, jakmile jsou shromážděny všechny materiály a nástroje.</WorkToBuild.description>
+
+  <DeteriorationRate.label>rychlost zvětrávání</DeteriorationRate.label>
+  <DeteriorationRate.description>Hodnota, jak rychle tento objekt podléhá povětrnostním vlivům, když zůstane venku zejména při dešti.</DeteriorationRate.description>
+  <DeteriorationRate.formatString>{0}/den</DeteriorationRate.formatString>
+
+  <Beauty.label>vzhled</Beauty.label>
+  <Beauty.description>Jak příjemný je objekt pro okolí a na pohled.</Beauty.description>
+
+  <Cleanliness.label>čistota</Cleanliness.label>
+  <Cleanliness.description>Jak čistý je objekt.</Cleanliness.description>
+
+  <Comfort.label>komfort</Comfort.label>
+  <Comfort.description>Jak pohodlný je objekt na sezení, nebo ležení.</Comfort.description>
+
+
 </LanguageData>

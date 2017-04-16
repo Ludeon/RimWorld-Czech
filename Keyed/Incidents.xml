@@ -1,83 +1,128 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LanguageData>
 
-  <AnimalInsanitySingle>Místní zvířátko ({0}) se zbláznilo. Začne útočit na každého, koho uvidí.</AnimalInsanitySingle>
-  <AnimalInsanityMultiple>Divný druh psychotického oblaku se přenesl nad krajinou. Kolonisté jsou v pohodě, ale...\n\nVypadá to, že hodně {0} se zbláznilo.</AnimalInsanityMultiple>
+  <LetterLabelAnimalInsanitySingle>Šílené zvíře</LetterLabelAnimalInsanitySingle>
+  <AnimalInsanitySingle>Místní {0} šílí. Zaútočí na každého, koho uvidí.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>Šílená zvířata!</LetterLabelAnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nVypadá to, že mnoho zvířat v oblasti to dohnalo k nepříčetnosti.\n\nDruh zvířete: {0}</AnimalInsanityMultiple>
 
-  <CropBlight>Záhadné světlo zničilo tvou úrodu.</CropBlight>
+  <LetterLabelCropBlight>Plíseň na poli</LetterLabelCropBlight>
+  <CropBlight>Tvou úrodu zničila záhadná plíseň.</CropBlight>
 
-  <EclipseIncident>Jeden z měsíců této planety zakryl slunce. Nastává zatmění.</EclipseIncident>
+  <LetterLabelMiracleHeal>Zázrak</LetterLabelMiracleHeal>
+  <MiracleHeal>{0} právě zažilHISCAP zázračné uzdravení!</MiracleHeal>
 
-  <MiracleHeal>{0} zažil přímo zázračné uzdravení!</MiracleHeal>
-
-  
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Skupina {0} z {1} přistály poblíž.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Skupina {0} z {1} přistály v únikových modulech.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Skupina {0} z {1} přistály kousek od kolonie.</EnemyRaidCenterDrop>
-  <EnemyRaidStageThenAttack>Nejprve se připraví a poté zaútočí.\n\nPřiprav se na ně, nebo proveď protiútok.</EnemyRaidStageThenAttack>
-  <EnemyRaidImmediateAttack>Ihned se dali na pochod.</EnemyRaidImmediateAttack>
-  <EnemyRaidBesiege>Vypadá to, že začínají obléhat kolonii.</EnemyRaidBesiege>
-
+      <EnemyRaidWalkIn>Do okolí dorazila nepřátelská skupina. Jsou to {0} z frakce {1}.</EnemyRaidWalkIn>
+      <EnemyRaidEdgeDrop>Do okolí dorazila ve výsadkových modulech nepřátelská skupina. Jsou to {0} z frakce {1}.</EnemyRaidEdgeDrop>
+      <EnemyRaidCenterDrop>Přímo na hlavu se ti snesla nepřátelská skupina. Jsou to {0} z frakce {1}!</EnemyRaidCenterDrop>
+      <EnemyRaidLeaderPresent>{1} je vůdce frakce.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Skupina přátel {0} z {1} přistály poblíž.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Skupina přátel {0} z {1} přistály v únikových modulech.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Skupina přátel {0} z {1} přistály kousek od kolonie.</FriendlyRaidCenterDrop>
-  <FriendlyRaidStageThenAttack>Chvilku si odpočinou a pak půjdou na oběd.</FriendlyRaidStageThenAttack>
-  <FriendlyRaidImmediateAttack>Ihned se dali na pochod.</FriendlyRaidImmediateAttack>
-  <FriendlyRaidBesiege>Vypadá to, že tu nějakou chvilku pobudou.</FriendlyRaidBesiege>
+      <FriendlyRaidWalkIn>Do okolí dorazila přátelská skupina. Jsou to {0} z frakce {1}.</FriendlyRaidWalkIn>
+      <FriendlyRaidEdgeDrop>Nedaleko přistála z orbity přátelká skupina. Jsou to {0} z frakce {1}.</FriendlyRaidEdgeDrop>
+      <FriendlyRaidCenterDrop>Přímo na hlavu ti přistála přátelská skupina. Jsou to {0} z frakce {1}!</FriendlyRaidCenterDrop>
+      <FriendlyRaidLeaderPresent>{1} je vůdce frakce.</FriendlyRaidLeaderPresent>
 
-  <RefugeePodCrash>Všiml sis padajícího modulu.\n\nPokud někdo přežil, bude asi těžce raněn.</RefugeePodCrash>
+  <LetterLabelRefugeePodCrash>Únikový modul</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>Všiml sis, že nedaleko tvrdě dopadl únikový modul.\n\nPokud někdo ten náraz přežil, bude těžce zraněný.\n\nMůžeš je zachránit a pak je nechat jít svojí cestou, nebo je zajmout a přemluvit je, aby zůstali, nebo je zotročit.</RefugeePodCrash>
 
-  <CargoPodCrash>Detekovali jsme kusy lodi, které popadaly z orbitu.\n\nTřeba se v troskách najde něco použitelného.</CargoPodCrash>
+  <LetterLabelCargoPodCrash>Nákladní moduly</LetterLabelCargoPodCrash>
+  <CargoPodCrash>Všiml sis, že nedaleko dopadl shluk nákladních modulů.\n\nMožná v jejich troskách najdeš něco užitečného.</CargoPodCrash>
 
   <AnElectricalConduit>Elektrické vedení</AnElectricalConduit>
-  <AWallsPowerConduit>Elektrické vedení ve zdi</AWallsPowerConduit>
-  <ShortCircuit>Chyba v {0} způsobyla zkrat.\n\nVšech {1} Wd energie ve zkratu způsobila výbuch a požár.</ShortCircuit>
-  <ShortCircuitWasLarge>Velké množství energie způsobilo masivní výbuch.</ShortCircuitWasLarge>
-  <ShortCircuitWasHuge>To je opravdu extrémní exploze. Wow.</ShortCircuitWasHuge>
+  <ShortCircuit>Závada v elektrické síti způsobila zkrat.\n\nVeškerých {1} Wd energie v připojených bateriích se vybilo v elektrickém výbuchu.</ShortCircuit>
+  <ShortCircuitWasLarge>Toto velké množství energie vytvořilo výbuch značných rozměrů.</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>To je fakt obrovský výbuch. No páni.</ShortCircuitWasHuge>
 
-  <LetterSolarFlare>Sluneční erupce právě začaly.\n\nMnožství radiace vyřadila veškeré elektrické přístroje.\n\nRadiace by měla zmizet asi tak za den.</LetterSolarFlare>
+  <TraderArrival>Nedaleko prolétá obchodní loď. Je to {1}.\n\nNázev společnosti: {0}</TraderArrival>
+
+  <SingleTravelerPassing>{0} z frakce {1} prochází kolem. Jmenuje se {2}.</SingleTravelerPassing>
+  <GroupTravelersPassing>Kolem prochází skupina cestovatelů z frakce {0}.</GroupTravelersPassing>
+
+  <LetterLabelSingleVisitorArrives>Návštěvník</LetterLabelSingleVisitorArrives>
+  <SingleVisitorArrives>Kolonii navštívilHISCAP {2} z frakce {1}.\n\nJe známHE jako {0}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\nZdá se, že má pár věcí na prodej.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nJe to vůdce frakce.</SingleVisitorArrivesLeaderInfo>
+  <LetterLabelGroupVisitorsArrive>Návštěvníci</LetterLabelGroupVisitorsArrive>
+  <GroupVisitorsArrive>Kolonii navštívila skupina z frakce {0}.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\nZdá se, že mají pár věcí na prodej.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\n{0} je vůdce frakce.</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>Návštěvníci z frakce {0} odcházejí.</VisitorsLeaving>
+
+  <LetterLabelWandererJoin>Poutník se přidal</LetterLabelWandererJoin>
+  <WandererJoin>Potulný {0} jménem NAME dorazilHISCAP a připojilHISCAP se ke kolonii. Je to {1}.</WandererJoin>
+
+  <LetterLabelManhunterPackArrived>Lidožravá smečka</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>Druh zvířete: {0}\n\nDo oblasti vstoupila smečka lidožravé zvěře. Budou se potulovat po krajině a lovit lidské maso.\n\nNemohou procházet dveřmi, takže když zůstaneš za zdmi, měl bys být v bezpečí. Nebudou útočit na vypnuté věže, takže pokud chceš své věže zachránit, vypni je.\n\nOblast opustí za několik dnů.</ManhunterPackArrived>
   
-  <LetterHeatWave>Neobvyklá vlna veder se přiřítila, dávej pozor na úpal.</LetterHeatWave>
-  <HeatWaveOver>Teplá fronta odezněla.</HeatWaveOver>
-  <LetterColdSnap>Studená fronta přišla, dávej pozor na podchlazení.</LetterColdSnap>
-  <ColdSnapOver>Studená fronta odezněla.</ColdSnapOver>
-  
-  <TraderArrival>Obchodní loď právě prolítá poblíž.\n\nZnamí jako {0}. Jsou {1}.</TraderArrival>
-
-  <SingleTravelerPassing>{0} z {1} prolít. HECAP pojmenována {2}.</SingleTravelerPassing>
-  <GroupTravelersPassing>Skupina cestovatelů z {0} prolítá kolem.</GroupTravelersPassing>
-
-  <SingleVisitorArrives>{0} z {1} tě navštívili.\n\nHECAP pojmenována {2}.</SingleVisitorArrives>
-  <GroupVisitorsArrive>Skupina z {0} navštívili tvou kolonii.</GroupVisitorsArrive>
-  <VisitorsLeaving>Návštěvníci z {0} odchází.</VisitorsLeaving>
-
-  <WandererJoin>{0} zvaný NAME přijel a přidal se ke kolonii. HECAP je {1}.</WandererJoin>
-    
   <!-- Crashed ship part-->
-  <SpaceshipPartCrash>Velký kus staré lodi právě havaroval poblíž.\n\nTví kolonisté začali pociťovat divné příznaky a vidí různé stíny. Určitě na té lodi měli UI a rozhodně né přátelskou.\n\nZnič ji co nejdříve!</SpaceshipPartCrash>
-  <MessageAnimalInsanityPulse>Tato stará stavba má v sobě nějaké záření, které okolní zvířata mění na běsnící bestie.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>Havarovaný kus lodi vydal puls, ze kterého se {0} můžou kolonisté zbláznit.</LetterShipPartDroveColonistInsane>
-  <AwokeDaysAgo>Probudil se před {0} dny</AwokeDaysAgo>
-  <PsychicDroneLevel>Úroveň psychického záření: {0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>Malá</PsychicDroneLevelLow>
+  <MessageAnimalInsanityPulse>Starobylá stavba vyslala psychický impuls, který dohnal zvířata v okolí k šílenství.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>Havarovaná část lodi vyslala soustředěný psychický impuls, který dohnal osobu jménem {0} k nepříčetnosti.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>Probudilo se před {0} dny</AwokeDaysAgo>
+  <PsychicDroneLevel>Úroveň psychického bzučení: {0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>Nízká</PsychicDroneLevelLow>
   <PsychicDroneLevelMedium>Střední</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Velká</PsychicDroneLevelHigh>
+  <PsychicDroneLevelHigh>Vysoká</PsychicDroneLevelHigh>
   <PsychicDroneLevelExtreme>Extrémní</PsychicDroneLevelExtreme>
-  <LetterPsychicDroneLevelIncreased>Havarovaný kus lodi najednou vydává silnější psychické záření. Každý humanoid začíná být vystrašený, omámený a dokonce začínají nad sebou ztrácet kontrolu.</LetterPsychicDroneLevelIncreased>
+  <LetterLabelPsychicDroneLevelIncreased>Bzučení zintenzivnělo</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>Havarovaná část lodi teď vyzařuje ještě silnější druh psychického bzučení. Každý člověku podobný tvor v oblasti se teď cící mnohem více neklidný, vyděšený a paranoidní.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
-  <LetterAgentRevealed>{0} byl odhalen jako agent {1}.\n\nSnaží se utéct.</LetterAgentRevealed>
-  
-  <!-- Distant psychic drone -->
-  <LetterIncidentPsychicDrone>Každý kolonista z {0} sebou škubne bolestí!\n\nNějaký vzdálený generátor nenávisti je pohání. Tento generátor vydává velmi silný psychický paprsek, který ovlivňuje celé okolí. Vypadá to, že ovlivňuje především {0}. V příštích dnech nálada u některých může být horší než mizerná.</LetterIncidentPsychicDrone>
- 
-  <!-- Beavers -->
-  <BeaversArrived>Skupina Alfa bobrů dorazila.\n\nZkus se jich zbavit dříve, než zničí všechny stromy v okolí.</BeaversArrived>
+  <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
+  <LetterAgentRevealed>{0} byl odhalen jako agent tvého nepřítele {1}.\n\nTeď se pokoušejí uniknout.</LetterAgentRevealed>
 
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  <!-- Distant psychic drone -->
+  <LetterLabelPsychicDrone>Psychické bzučení</LetterLabelPsychicDrone>
+  <LetterIncidentPsychicDrone>Každý, kdo je {0}, sebou škubl bolestí!\n\nSilně na ně působí jakési vzdálené zařízení nenávisti. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dní bude nálada některých lidí o dost horší.</LetterIncidentPsychicDrone>
+
+  <LetterLabelPsychicSoothe>Psychické uklidnění</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>Každý, kdo je {0}, se spokojeně usmívá!\n\nSilně na ně působí jakési vzdálené zařízení štěstí. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dní bude nálada některých lidí o dost lepší.</LetterIncidentPsychicSoothe>
+
+  <!-- Beavers -->
+  <LetterLabelBeaversArrived>Alfa Bobři!</LetterLabelBeaversArrived>
+  <BeaversArrived>Právě dorazila skupina hladových alfa bobrů.\n\nPokus se je zlikvidovat dřív, než zdecimují všechny stromy v kraji do posledního.</BeaversArrived>
   
+  <!-- Refugee chased -->
+  <RefugeeChasedInitial>Z nedaleké oblasti tě volá {0}. Je pronásledovánHISCAP skupinou známou jako {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii.\n\nJe známHE jako {1} a HIS biologický věk je {4} let.\n\nVarování - pokud HIM přijmeš, budeš muset odrazit útok, protože HIM {2} pronásledují.</RefugeeChasedInitial>
+  <RefugeeChasedInitial_Accept>Nabídnout bezpečí</RefugeeChasedInitial_Accept>
+  <RefugeeChasedInitial_Reject>Zprávu ignorovat</RefugeeChasedInitial_Reject>
+  <RefugeeChasedRejected>Ještě než jsi přerušil spojení, tak jsi slyšel skrze malý reproduktor, jak {0} křičí\nv panice.</RefugeeChasedRejected>
+
+  <!-- Self-tame -->
+  <LetterLabelAnimalSelfTame>Samovolné ochočení: {0}</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>Samovolné ochočení zvířete.\n\nDruh zvířete: {0}</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>Samovolné ochočení zvířete.\n\nDruh zvířete: {0}\n\nKolonisté ho označili jako {1}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>Samovolné ochočení zvířete.\n\nDruh zvířete: {0}\n\nKolonisté ho pojmenovali jako {1}.</LetterAnimalSelfTameAndName>
+
+  <!-- Farm animals wander in -->
+  <LetterLabelFarmAnimalsWanderIn>Zatoulaná zvířata: {0}</LetterLabelFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Druh zvířete: {0}\n\nDo oblasti se zatoulala skupina zvířat, opuštěná a ztracená. Zdá se, že zvířata jsou zvyklá na kontakt s člověkem a přidala se ke kolonii.</LetterFarmAnimalsWanderIn>
+  
+  <!-- Thrumbo passes -->
+  <LetterLabelThrumboPasses>Vzácní Thrumbové</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>Do oblasti se zatoulalo malé stádo Thrumbů.\n\nI když jsou od přírody mírumilovná, po napadení jsou tato vzácná zvířata extrémně nebezpečná. Za jejich drahocennou kůži a roh jsou někteří obchodníci ochotní zaplatit balík peněz.\n\nThrumbové opustí oblast za několik dní.</LetterThrumboPasses>
+  
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>{1} z frakce {0}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>Blíží se karavana z frakce {0}. Je to {1}.\n\nNež odejdou, budou se několik dní potloukat kolem kolonie. Můžeš na ně zaútočit - ale to v jejich frakci vyvolá hněv!</LetterTraderCaravanArrival>
+  
+  <!-- Building breaks down -->
+  <LetterLabelBuildingBrokenDown>Porucha: {0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Jeden ze tvých přístrojů se porouchal. Nebude fungovat, dokud nepřijde nějaký kolonista to opravit (s pracovním zařazením Stavitel).\n\nPorouchané zařízení: {0}</LetterBuildingBrokenDown>
+  
+  <!-- Ransom demand -->
+  <RansomDemand>{1} tě zkontaktovali vysílačkou. Drží bývalého člena kolonie jménem {0} kvůli výkupnému.\n\nJsou ochotní HIM propustit zpátky k tobě výměnou za {2} kusů stříbra.</RansomDemand>
+  <RansomDemand_Accept>Přijmout</RansomDemand_Accept>
+  <RansomDemand_Reject>Odmítnout</RansomDemand_Reject>
+
+  <!-- Journey -->
+  <JourneyOffer>Přátelská UI ze tvé minulosti jménem Charlon Whitestone ti poslal zprávu!\n\nProzradil ti, že má na této planetě ukrytou kosmickou loď a posílá ti její souřadnice.\n\nPokud k té lodi docestuješ, Charlon tě vyzvedne z tohoto okrajového světa vzhůru ke hvězdám.</JourneyOffer>
+
+  <!-- Caravan meeting -->
+  <CaravanMeeting>Tvá karavana se poklidně setkala s karavanou z frakce {0}. Ta druhá karavana sestává z:\n\n{1}</CaravanMeeting>
+  <CaravanMeeting_Trade>Obchodovat</CaravanMeeting_Trade>
+  <CaravanMeeting_Attack>Zaútočit</CaravanMeeting_Attack>
+  <CaravanMeeting_MoveOn>Pokračovat v cestě</CaravanMeeting_MoveOn>
+
 </LanguageData>

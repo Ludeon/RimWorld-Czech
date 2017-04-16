@@ -1,30 +1,60 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+
   
-	<SunLamp.label>Sluneční lampa</SunLamp.label>
-	<SunLamp.description>Má tak silné světlo, že se dají použít i pro pěstování.</SunLamp.description>
-	
-	<OrbitalTradeBeacon.label>Orbitální maják</OrbitalTradeBeacon.label>
-	<OrbitalTradeBeacon.description>Základní pomůcka pro obchod.\nNyní můžete prodávat výrobky, které jsou v dosahu. Také koupené zboží se objeví v dosahu majáku.</OrbitalTradeBeacon.description>
-	
-	<CommsConsole.label>Komunikátor</CommsConsole.label>
-	<CommsConsole.description>Slouží pro komunikaci a obchod s protétajícími loděmi, nebo tábory na planetě.</CommsConsole.description>
-	
-	<Grave.label>Hrob</Grave.label>
-	<Grave.description>Díra v zemi vhodná pro zakopání mrtvoly.</Grave.description>
-	
-	<FertilizerPump.label>Rozprašovač hnojiva</FertilizerPump.label>
-	<FertilizerPump.description>Rozprašovač, který zvyšuje úrodnost půdy.</FertilizerPump.description>
+  <OrbitalTradeBeacon.label>Orbitální obchodní maják</OrbitalTradeBeacon.label>
+  <OrbitalTradeBeacon.description>Potřebný pro obchodování s obchodníky na orbitě.\nMůžeš prodávat jen zboží, které se nachází v dosahu orbitálního obchodního majáku. Dá se umístit i do uzavřených prostor.</OrbitalTradeBeacon.description>
+
+  <CommsConsole.label>Vysílačka</CommsConsole.label>
+  <CommsConsole.description>Umožňuje rádiový kontakt o obchodníky na orbitě, stejně jako s ostatními frakcemi kvůli obchodu či diplomacii.</CommsConsole.description>
   
-    <CryptosleepCasket.label>Kryptokomora</CryptosleepCasket.label>
-	<CryptosleepCasket.description>Komora s vlastním napájením k uchovávání kolonistů ve stavu bezvědomí</CryptosleepCasket.description>
-	
-	<AncientCryptosleepCasket.label>Starověká kryptokomora</AncientCryptosleepCasket.label>
-	<AncientCryptosleepCasket.description>Tato komora vypadá hodně staře, bůh ví co může obsahovat.</AncientCryptosleepCasket.description>
+  <!-- Facilities -->
+
+  <MultiAnalyzer.label>Multifunkční analyzátor</MultiAnalyzer.label>
+  <MultiAnalyzer.description>Zvyšuje rychlost výzkumu. Musí být umístěn vedle špičkového výzkumného stanoviště. K výzkumnému stanovišti lze připojit jen jeden multifunkční analyzátor.</MultiAnalyzer.description>
+
+  <VitalsMonitor.label>Monitor životních funkcí</VitalsMonitor.label>
+  <VitalsMonitor.description>Zlepšuje kvalitu ošetření pacienta. Musí být umístěn vedle nemocniční postele. Nemocniční postel může být spojena jen s jedním monitorem životních funkcí.</VitalsMonitor.description>
+
+  <ToolCabinet.label>Skříň na nářadí</ToolCabinet.label>
+  <ToolCabinet.description>Zvyšuje rychlost práce. Musí být umístěna vedle pracovního stolu. K pracovnímu stolu lze přiřadit jen dvě skříně na nářadí.</ToolCabinet.description>
+
+  <FirefoamPopper.label>Hasící přístroj</FirefoamPopper.label>
+  <FirefoamPopper.description>Když toto zařízení přijde do styku s ohněm, nebo je spuštěno ručně, rozstříkne kolem sebe v kruhovém poli hasící pěnu.</FirefoamPopper.description>
+  <FirefoamPopper.comps.1.useLabel>Spustit hasící přístroj</FirefoamPopper.comps.1.useLabel>
+
+  <MoisturePump.label>Odvodňovací pumpa</MoisturePump.label>
+  <MoisturePump.description>Velmi pomalu odstraňuje vlhkost z okolního terénu a přeměňuje bažiny a mělčiny na suchou zem. Na hlubokou vodu nemá žádný vliv.</MoisturePump.description>
+
+  <GroundPenetratingScanner.label>Hloubkový skener</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.description>Směrem dolů nastavený radar, který je vybaven sonarem a magnetickým snímačem. Umožňuje nacházet (ale ne určovat) hluboko v zemi ukrytá ložiska surovin. Vyžaduje značné množství elektrické energie.</GroundPenetratingScanner.description>
+
+  <PodLauncher.label>Odpalovací rampa</PodLauncher.label>
+  <PodLauncher.description>Zařízení sloužící k dotankovávání a startování modulů. Z odpalovacích ramp mohou startovat i skupiny modulů současně, musí být však umístěny hned vedle sebe.</PodLauncher.description>
   
+  <TransportPod.label>Přepravní modul</TransportPod.label>
+  <TransportPod.description>Odpalovatelný přepravní modul pro nízkoorbitální cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Dá se použít pro přepravu zboží, překvapivé útoky nebo pro vyslání posil do probíhajících konfliktů. Ke startu je potřeba odpalovací rampa.</TransportPod.description>
   
+  <!-- =================================================== -->
+
+  <Grave.label>Hrob</Grave.label>
+  <Grave.description>Pohřbi mrtvé do hrobů a dopřej jim důstojné místo k poslednímu odpočinku. Kolonisté hroby navštěvují kvůli meditativnímu rozjímání.</Grave.description>
+
+  <Sarcophagus.label>Sarkofág</Sarcophagus.label>
+  <Sarcophagus.description>Zdobená pohřební schránka pro ctěné mrtvé.</Sarcophagus.description>
+
+  <!-- Cryptosleep casket -->
+
+  <CryptosleepCasket.label>Cryptospánk. komora</CryptosleepCasket.label>
+  <CryptosleepCasket.description>Kapsle s vlastním napájením, která je navržena tak, aby udržovala člověka ve stavu zpomalených životních funkcí po mnoho let.</CryptosleepCasket.description>
+
+  <AncientCryptosleepCasket.label>Starodávná cryptospánková komora</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.description>Cryptospánková komora z dávných dob. Kdo ví, co je uvnitř?</AncientCryptosleepCasket.description>
   
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  	
+  <MarriageSpot.label>Svatební místo</MarriageSpot.label>
+  <MarriageSpot.description>Označuje místo, kde se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</MarriageSpot.description>
+
+  <PartySpot.label>Místo na večírky</PartySpot.label>
+  <PartySpot.description>Označuje místo, kde se budou konat večírky. Večírky se odehrávají kolem tohoto místa.</PartySpot.description>
+
 </LanguageData>

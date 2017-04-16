@@ -1,44 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<SculptingSpeed.label>Rychost sochaření</SculptingSpeed.label>
-	<SculptingSpeed.description>Násobitel rychlosti vytváření soch aj. uměleckých výtvorů.</SculptingSpeed.description>
-	
-	<TailoringSpeed.label>Rychlost krejčovství</TailoringSpeed.label>
-	<TailoringSpeed.description>Násobitel rychlosti šití oblečení.</TailoringSpeed.description>
-	
-	<SmithingSpeed.label>Rychlost kování</SmithingSpeed.label>
-	<SmithingSpeed.description>Rychlost, kterou kolonista dokáže ukovat, či vyrobit zbraň aj.</SmithingSpeed.description>
-	
-	<CookSpeed.label>Rychlost vaření</CookSpeed.label>
-	<CookSpeed.description>Násobitel rychlosti vaření.</CookSpeed.description>
-	
-	<FoodPoisonChance.label>Šance na otravu jídlem</FoodPoisonChance.label>
-	<FoodPoisonChance.description>Čím vyšší je šance na otravu, tím častěji se stane.</FoodPoisonChance.description>
-	
-	<BrewingSpeed.label>Rychlost vaření piva</BrewingSpeed.label>
-	<BrewingSpeed.description>Násobitel rychlosti vaření piva.</BrewingSpeed.description>
-	
-	<ButcheryFleshSpeed.label>Rychlost porcování</ButcheryFleshSpeed.label>
-	<ButcheryFleshSpeed.description>Násobitel rychlosti porcování masa.</ButcheryFleshSpeed.description>
-	
-	<ButcheryFleshEfficiency.label>Efektivita porcování</ButcheryFleshEfficiency.label>
-	<ButcheryFleshEfficiency.description>Násobitel efektivity porcování zvířat, nebo lidí.</ButcheryFleshEfficiency.description>
-	
-	<ButcheryMechanoidSpeed.label>Rychlost demontáže mechanoida</ButcheryMechanoidSpeed.label>
-	<ButcheryMechanoidSpeed.description>Násobitel rychlosti demontáže mechanoida na náhradní součástky.</ButcheryMechanoidSpeed.description>
-	
-	<ButcheryMechanoidEfficiency.label>Efektivita demontáže mechanoida</ButcheryMechanoidEfficiency.label>
-	<ButcheryMechanoidEfficiency.description>Násobitel efektivity demontáže a získávání recyklovatelných částí.</ButcheryMechanoidEfficiency.description>
-	
-	<StonecuttingSpeed.label>Rychlost kamenictví</StonecuttingSpeed.label>
-	<StonecuttingSpeed.description>Násobitel rychlosti vykutání kamených cihel z šutrů.</StonecuttingSpeed.description>
-	
-	<SmeltingSpeed.label>Rychlost tavení</SmeltingSpeed.label>
-	<SmeltingSpeed.description>Násobitel rychlosti přetavení šrotu v znovu použitelný kov.</SmeltingSpeed.description>
-	
-	
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
-  	
+
+  <!-- Artistic recipes - speed not affected by skill. -->
+
+  <SculptingSpeed.label>rychost výroby soch</SculptingSpeed.label>
+  <SculptingSpeed.description>Rychlost, jakou tato osoba modeluje sochy.</SculptingSpeed.description>
+
+  <TailoringSpeed.label>rychlost šití</TailoringSpeed.label>
+  <TailoringSpeed.description>Rychlost, jakou tato osoba vyrábí oblečení.</TailoringSpeed.description>
+
+  <SmithingSpeed.label>rychlost kování</SmithingSpeed.label>
+  <SmithingSpeed.description>Rychlost, jakou tato osoba ková nebo vyrábí zbraně, stroje, munici, a nástroje.</SmithingSpeed.description>
+
+  <DrugProductionSpeed.label>rychlost produkce léčiv</DrugProductionSpeed.label>
+  <DrugProductionSpeed.description>Rychlost, jakou tato osoba produkuje léčiva.</DrugProductionSpeed.description>
+
+  <StonecuttingSpeed.label>rychlost řezání kamene</StonecuttingSpeed.label>
+  <StonecuttingSpeed.description>Rychlost, jakou tato osoba řeže hrubý kámen v bloky.</StonecuttingSpeed.description>
+
+  <SmeltingSpeed.label>rychlost tavení</SmeltingSpeed.label>
+  <SmeltingSpeed.description>Rychlost, jakou tato osoba přetavuje věci.</SmeltingSpeed.description>
+
+
+  <!-- Production recipes - speed affected by skill. -->
+
+  <CookSpeed.label>rychlost vaření</CookSpeed.label>
+  <CookSpeed.description>Rychlost, jakou tato osoba připravuje pokrmy.</CookSpeed.description>
+
+  <FoodPoisonChance.label>šance otravy jídla</FoodPoisonChance.label>
+  <FoodPoisonChance.description>Šance, jakou tato postava nechtěně otráví jídlo při vaření.</FoodPoisonChance.description>
+
+  <BrewingSpeed.label>rychlost vaření piva</BrewingSpeed.label>
+  <BrewingSpeed.description>Rychlost, jakou tato osoba vaří pivo.</BrewingSpeed.description>
+
+  <ButcheryFleshSpeed.label>rychlost porcování masa</ButcheryFleshSpeed.label>
+  <ButcheryFleshSpeed.description>Rychlost, jakou tato osoba porcuje čerstvé bytosti.</ButcheryFleshSpeed.description>
+
+  <ButcheryMechanoidSpeed.label>rychlost rozebírání mechanoida</ButcheryMechanoidSpeed.label>
+  <ButcheryMechanoidSpeed.description>Rychlost, jakou tato osoba dokáže rozebrat mechanoida.</ButcheryMechanoidSpeed.description>
+
+  <ButcheryFleshEfficiency.label>efektvita porcování masa</ButcheryFleshEfficiency.label>
+  <ButcheryFleshEfficiency.description>Násobitel množství masa vyprodukovaného při porcování bytostí.</ButcheryFleshEfficiency.description>
+
+  <ButcheryMechanoidEfficiency.label>efektivita rozebírání mechanoida</ButcheryMechanoidEfficiency.label>
+  <ButcheryMechanoidEfficiency.description>Násobitel množství získaných materiálů, když osoba rozebírá neaktivního mechanoida.</ButcheryMechanoidEfficiency.description>
+
+
 </LanguageData>

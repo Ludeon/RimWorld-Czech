@@ -1,131 +1,188 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!--=========== Hlavní menu ==========-->
-  <CreateWorld>Vytvořit svět</CreateWorld>
+  <!-- Main menu -->
+  <LearnToPlay>Tutoriál</LearnToPlay>
   <NewColony>Nová kolonie</NewColony>
-  <BackToGame>Zpet do hry</BackToGame>
-  <Save>Uložit</Save>
-  <LoadGame>Načíst</LoadGame>
+  <BackToGame>Zpátky do hry</BackToGame>
+  <ReviewScenario>Přezkoumat scénář</ReviewScenario>
+  <Save>Uložit hru</Save>
+  <LoadGame>Načíst hru</LoadGame>
   <Options>Nastavení</Options>
-  <Mods>Módy</Mods>
+  <Mods>Modifikace</Mods>
   <Credits>Tvůrci</Credits>
-  <QuitToMainMenu>Odejít do hlavního menu</QuitToMainMenu>
+  <QuitToMainMenu>Odejít do hl. nabídky</QuitToMainMenu>
+  <SaveAndQuitToMainMenu>Uložit a do hl. nabídky</SaveAndQuitToMainMenu>
   <QuitToOS>Odejít na plochu</QuitToOS>
-  <FictionPrimer>Úvodní příběh</FictionPrimer>
-  <LudeonBlog>Ludeonův blog</LudeonBlog>
+  <SaveAndQuitToOS>Uložit a odejít na plochu</SaveAndQuitToOS>
+  <FictionPrimer>Fiction Primer</FictionPrimer>
+  <LudeonBlog>Ludeon Blog</LudeonBlog>
   <Forums>Fórum</Forums>
-  <OfficialWiki>Oficiální wiki</OfficialWiki>
-  <TynansTwitter>Tynanův twitter</TynansTwitter>
-  <TynansDesignBook>Tynanův artbook</TynansDesignBook>
-  <HelpTranslate>Pomoct přeložit RimWorld</HelpTranslate>
+  <OfficialWiki>Oficiální Wiki</OfficialWiki>
+  <TynansTwitter>Tynanův Twitter</TynansTwitter>
+  <TynansDesignBook>Tynanova Designkniha</TynansDesignBook>
+  <HelpTranslate>Pomoc při překladu RimWorldu</HelpTranslate>
+  <BuySoundtrack>Koupit Soundtrack</BuySoundtrack>
+  <CreateWorld>Vytvořit svět</CreateWorld>
 
-  <!--=========== Vytvořit/prozkoumat svět ================-->
-  <ReviewWorld>Náhled světa</ReviewWorld>
-  <WorldGenerate>Generovat</WorldGenerate>
-  <WorldSaveAndFinish>Uložit a dokončit</WorldSaveAndFinish>
-  <Reset>Resetovat</Reset>
-  <WorldSize>Velikost</WorldSize>
-  <RandomizeSeed>Náhodný seed</RandomizeSeed>
-  <WorldSeed>Seed světa</WorldSeed>
+  <!-- Create/review world -->
 
-  <!--=========== Vybrat svět ===================-->
+  <ReviewWorld>Mapa světa</ReviewWorld>
+  <WorldGenerate>Vygenerovat</WorldGenerate>
+  <WorldSaveAndFinish>Uložit a ukončit</WorldSaveAndFinish>
+  <Reset>Znovu nastavit</Reset>
+  <PlanetCoverage>Pokrytí světa</PlanetCoverage>
+  <PlanetRainfall>Celkové množství srážek</PlanetRainfall>
+  <PlanetTemperature>Celková teplota</PlanetTemperature>
+  <PlanetRainfall_Low>Nízké</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normální</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Vysoké</PlanetRainfall_High>
+  <PlanetTemperature_Low>Nízká</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normální</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Vysoká</PlanetTemperature_High>
+  <WorldSeed>Základ</WorldSeed>
+  <RandomizeSeed>Náhodný základ</RandomizeSeed>
+  <PlanetCoverageTip>Planeta má vždy stejný průměr, ale protože je mnohem větší, než je pro hru nutné, nebudeme vytvářet celý povrch, protože by to mohlo trvat velmi dlouhou dobu. Toto je procento z plochy, kterou chceš vytvořit.</PlanetCoverageTip>
+  
+  <!-- Select world -->
+
   <SelectWorld>Vybrat svět</SelectWorld>
   <WorldChooseButton>Vybrat</WorldChooseButton>
-  <NoWorldsFilesFound>Data světa nenalezena. Nejprve vytvořte svět.</NoWorldsFilesFound>
-  
-  <!--=========== Verze ==========-->
-  <BuildNowAvailable>Je dostupná verze {0}. Více informací na ludeon.com</BuildNowAvailable>
-  <BuildUpToDate>Vaše verze hry je aktuální</BuildUpToDate>
-  <ErrorGettingVersionInfo>Nastala chyba při získávání verze hry: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>Načítání informací o verzi hry...</LoadingVersionInfo>
+  <NoWorldsFilesFound>Nenalezena žádná data světa. Nejdříve vytvoř nový svět.</NoWorldsFilesFound>
 
-  <!--=========== Gen. světa =========-->
-  <GenerateWorld>Generovat svět</GenerateWorld>
+  <!-- Version info -->
 
-  <!--=========== Módy==========-->
-  <GetMods>Získat módy</GetMods>
-  <OpenModsDataFolder>Otevřít složku s módama</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Opravdu chceš zakázat základní herní módy? Je možné, že hra nebude správně fungovat, pokud nemáš jiný mód, který nahrazuje funkčnost základních módů.\n\nPamatuj, že jiné módy mohou přepsat zdrojovová data použití stejných defName.</ConfirmDisableCoreMod>
+  <BuildNowAvailable>Je dostupná verze {0}. Na Ludeon.com najdeš další informace.</BuildNowAvailable>
+  <BuildUpToDate>Tato verze je aktuální.</BuildUpToDate>
+  <ErrorGettingVersionInfo>Při pokusu o ověření verze se vyskytla chyba: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Nahrávám informace o verzi...</LoadingVersionInfo>
+
+  <!-- World generator -->
+
+  <GenerateWorld>Vygenerovat svět</GenerateWorld>
+
+  <!-- Mods config -->
+
+  <OpenSteamWorkshop>Otevřít Steam Workshop</OpenSteamWorkshop>
+  <GetModsFromForum>Získat modifikace z fóra</GetModsFromForum>
+  <OpenModsDataFolder>Otevřít složku s modofikacemi</OpenModsDataFolder>
+  <ConfirmDisableCoreMod>Jsi si jistý, že chceš deaktivovat jádro hry? Hra nebude fungovat, dokud nebudeš mít jiné modifikace, které nahradí VŠECHNY funkce jádra.\n\nRada: jiné modifikace mohou přepsat Defs jádra, pokud používají stejné jméno Def.</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>Jsi si jistý, že chceš smazat všechna data z {0}?</ConfirmDeleteMod>
+  <Unsubscribe>Odhlásit odběr</Unsubscribe>
+  <ConfirmUnsubscribe>Jsi si jistý, že chceš odhlásit odběr z {0}?</ConfirmUnsubscribe>
   <Author>Autor</Author>
+  <WorkshopPage>Stránka Workshopu</WorkshopPage>
+  <UploadToSteamWorkshop>Nahrát na Workshop</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Aktualizovat na Workshopu</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Nahrávání již probíhá.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Přenos na Workshop selhal.\n\nPříčina: {0}</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>Přenos z {0} byl úspěšný.</WorkshopUploadSucceeded>
+  <Downloading>Nahráváme</Downloading>
+  <Source>Zdroj</Source>
+  <ModTargetVersion>Pro verzi: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Tato modifikace není určena pro aktuální verzi RimWorldu a pravděpodobně nebude správně fungovat.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Tato modifikace vyžaduje cílovou verzi ve správném formátu v souboru About.xml. Měla by vypadat nějak takto: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+    <DragToReorder>Přetáhni pro změnu pořadí</DragToReorder>
+	
+  <!--=========== Select scenario =============-->
+  
+  <ChooseScenario>Vybrat scénář</ChooseScenario>
+  <ScenariosCustom>Přizpůsobit</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
+  <ScenarioEditor>Editor scénáře</ScenarioEditor>
+  <Delete>Smazat</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  
+  <Seed>Zdroj</Seed>
+  <Load>Načíst</Load>
+  <EditMode>Režim úprav</EditMode>
+  <Summary>Shrnutí</Summary>
+  <AddPart>Přidat záznam</AddPart>
+  <TextFieldsMustBeFilled>Všechna textová pole musí být vyplněna.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Jsi si jistý, že toto chceš nahrát na Steam Workshop?\n\nMusíš souhlasit se smluvními podmínkami Steam Workshopu. Smluvní podmínky najdeš tady:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Zjevně můžeš nahrát pouze to, co jsi sám vytvořil.\n\nVytvoři jsi tento obsah ty sám?</ConfirmContentAuthor>
+  <Incompatible>Nekompatibilní</Incompatible>
+  <TooMany>Příliš mnoho (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Vzhledem k tomu, že autorem jsi ty, může toto být na Workshopu aktualizováno.</CanBeUpdatedOnWorkshop>
+  
 
-  <!--=========== Vypravěči ==========-->
-  <ChooseAIStoryteller>Vyber si UI vyprávěče</ChooseAIStoryteller>
-  <HowStorytellersWork>UI vypravěč vytváří události, jako jsou pirátské nájezdy, ztráty zdrojů nebo útoky zvířat. Jejich volby budou mít vliv na osud tvé kolonie.</HowStorytellersWork>
-  <MustChooseChallengeScale>Prosím, vyberte si obtížnost.</MustChooseChallengeScale>
-  <ChallengeScale>Obtížnost</ChallengeScale>
-  <ChallengeScaleTip>Pokud na tebe vypravěč pošle pohromu, tak bude mít rozsah {0} velký jako ve výzvě módů.</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>Režim stavitele</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>Nahodilá hra</ChallengeScale_Casual>
-  <ChallengeScale_Rough>Drsná hra</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>Výzva</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>Extrémní výzva</ChallengeScale_SeriousChallegne>
-  <ChallengeScale_ExtremeChallenge>Jistá smrt</ChallengeScale_ExtremeChallenge>
+  <!-- Select storyteller -->
 
-  <!--=========== Výběr přistání =========-->
-  <SelectLandingSite>Zvol místo přistání</SelectLandingSite>
-  <SelectSite>Vyber místo</SelectSite>
-  <MustSelectLandingSite>Vyber prosím místo přistání.</MustSelectLandingSite>
-  <CannotLandBiome>Nemůžeš přistát na tomto místě: {0}</CannotLandBiome>
-  <WorldRenderMode>Režim</WorldRenderMode>
-  <WorldRenderModeFull>Plný</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Teplota</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Převýšení</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Úrodnost</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Srážky</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>Prostředí</WorldRenderModeBiomes>
-  <BiomeNotImplemented>Prostředí není zahrnuto</BiomeNotImplemented>
-  <BaseAlreadyThere>{0} už tady je základna.</BaseAlreadyThere>
-  <Biome>Prostředí</Biome>
-  <Terrain>Terén</Terrain>
-  <Elevation>Převýšení</Elevation>
+  <ChooseAIStoryteller>Vyber si UI vypravěče</ChooseAIStoryteller>
+  <HowStorytellersWork>UI vypravěč vytváří události jako pirátské nájezdy, shozy surovin nebo útoky zvířat. Jejich rozhodnutí budou ovlivňovat osudy kolonie. Toto nastavení můžeš kdykoliv změnit.</HowStorytellersWork>
+  <MustChooseDifficulty>Zvol si nastavení obtížnosti, prosím.</MustChooseDifficulty>
+  <Difficulty>Obtížnost</Difficulty>
+
+  <!-- Landing site select -->
+
+  <SelectLandingSite>Zvol si místo přistání</SelectLandingSite>
+  <SelectRandomSite>Vybrat náhodné místo</SelectRandomSite>
+  <SelectSite>Vybrat místo</SelectSite>
+  <MustSelectLandingSite>Vyber si místo přistání, prosím.</MustSelectLandingSite>
+  <CannotLandBiome>V tomto biomu nemůžeš přistát: {0}</CannotLandBiome>
+  <BiomeNotImplemented>Biom není dostupný</BiomeNotImplemented>
+  <CannotLandImpassableMountains>Nemůžeš přistát v neprůchodných horách.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>Tam už mají základnu {0}.</BaseAlreadyThere>
+  <Biome>Biom</Biome>
+  <Terrain>Krajina</Terrain>
+  <Elevation>Nadmořská výška</Elevation>
   <Fertility>Úrodnost</Fertility>
-  <AvgTemp>Prům. teplota</AvgTemp>
-  <AvgJanTemp>Prům. teplota (Led): {0}</AvgJanTemp>
-  <AvgJulTemp>Prům. teplota (Črv): {0}</AvgJulTemp>
+  <AvgTemp>Průměrná teplota</AvgTemp>
+  <AvgSummerTemp>Teplota v létě</AvgSummerTemp>
+  <AvgWinterTemp>Teplota v zimě</AvgWinterTemp>
   <Rainfall>Srážky</Rainfall>
   <HasCoast0>Severní pobřeží</HasCoast0>
   <HasCoast1>Východní pobřeží</HasCoast1>
   <HasCoast2>Jižní pobřeží</HasCoast2>
   <HasCoast3>Západní pobřeží</HasCoast3>
   <FactionBase>Základna frakce</FactionBase>
-  <StoneTypesHere>Typ kamene</StoneTypesHere>
+  <StoneTypesHere>Druhy kamene</StoneTypesHere>
+  <TimeZone>Časové pásmo</TimeZone>
+  <MovementTimeNow>Aktuální posun hodin</MovementTimeNow>
+  <MovementTimeSummer>Letní čas</MovementTimeSummer>
+  <MovementTimeWinter>Zimní čas</MovementTimeWinter>
 
-  <!--=========== Výběr postav ==========-->
-  <CreateCharacters>Vytvořit postavu</CreateCharacters>
-  <FirstNameDesc>Křestní jméno postavy.\n\nToto jméno se ukáže pouze v některých nabídkách.</FirstNameDesc>
-  <ShortIdentifierDesc>Krátký indentifikátor.\n\nVždy se zobrazí. Může to být jméno, příjmení nebo přezdívka.</ShortIdentifierDesc>
-  <LastNameDesc>Příjmení postavy.\n\nToto jméno se ukáže pouze v některých nabídkách.</LastNameDesc>
-  <Randomize>Náhodný</Randomize>
-  <AgeIndicator>Věk {0}</AgeIndicator>
-  <Backstory>Příběh</Backstory>
-  <IncapableOf>Neschopný</IncapableOf>
-  <Traits>Vlastnosti</Traits>
-  <TraitsDoNothing>Vlastnosti jsou pouze zábavnou součástní hry; zatím nijak neovlivňují hru. Tohle se ovšem v budoucnu změní.</TraitsDoNothing>
-  <PermanentMoodEffect>Stálý vliv na náladu</PermanentMoodEffect>
+  <!-- Character chooser -->
+
+  <CreateCharacters>Vytvořit postavy</CreateCharacters>
+  <FirstNameDesc>Křestní jméno postavy.\n\nToto jméno se bude zobrazovat jen v určitých nabídkách.</FirstNameDesc>
+  <ShortIdentifierDesc>Přezdívka postavy.\n\nToto jméno se bude zobrazovat vždy. Může být stejné jako křestní nebo příjmení, nebo i naprosto odlišné zcela jiná přezdívka.</ShortIdentifierDesc>
+  <LastNameDesc>Příjmení postavy.\n\nToto jméno se bude zobrazovat jen v určitých nabídkách.</LastNameDesc>
+  <Randomize>Náhodně</Randomize>
+  <AgeIndicator>Stáří {0}</AgeIndicator>
+  <Backstory>Minulost</Backstory>
+  <IncapableOf>Neschopnost</IncapableOf>
+  <Traits>Hlavní rysy</Traits>
+  <PermanentMoodEffect>Trvalý vliv na náladu</PermanentMoodEffect>
   <Skills>Dovednosti</Skills>
-  <NoneLower>žádné</NoneLower>
+  <NoneLower>Nic</NoneLower>
   <Adulthood>Dospělost</Adulthood>
   <Childhood>Dětství</Childhood>
-  <Male>Muž</Male>
-  <Female>Žena</Female>
+  <Male>muž</Male>
+  <Female>žena</Female>
   <Pain>Bolest</Pain>
-  
-  <!--=========== Misc ==========-->
-  <Start>Start</Start>
-  <Advanced>Pokročilé</Advanced>
+  <Health>Zdraví</Health>
+  <Relations>Vztahy</Relations>
+
+  <!-- Misc -->
+
+  <Start>Zahájit</Start>
+  <Advanced>Rozšířené</Advanced>
   <Next>Další</Next>
   <Back>Zpět</Back>
-  
+
   <Gameplay>Hratelnost</Gameplay>
 
-  <ConfirmQuit>Opravdu chceš vypnout hru? Ztratíš tím dosavadní postup ve hře.</ConfirmQuit>
-  <EveryoneNeedsValidName>Každá postava potřebuje platné jméno.</EveryoneNeedsValidName>
+  <ConfirmQuit>Jsi si jistý, že chceš skončit?\nNeuložený postup bude ztracen.</ConfirmQuit>
 
-  <GeneratingWorld>Generuji svět...</GeneratingWorld>
-  <GeneratingMap>Generuji mapu...</GeneratingMap>
-
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  <EveryoneNeedsValidName>Každá osoba musí mít platné jméno.</EveryoneNeedsValidName>
+  <Quit>Odejít</Quit>
+  <Ignore>Ignorovat</Ignore>
   
+  <!--============ Progress bar==============-->
+  <GeneratingWorld>Vytvářím svět</GeneratingWorld>
+  <GeneratingMap>Vytvářím mapu</GeneratingMap>
+  <GeneratingMapForNewEncounter>Vytvářím mapu pro nová setkání</GeneratingMapForNewEncounter>
+
 </LanguageData>

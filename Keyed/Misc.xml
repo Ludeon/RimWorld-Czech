@@ -1,56 +1,81 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <Autosaving>Automatické uložení</Autosaving>
-  
-  <GameStartDialog>Tři z vás se probudili z kryospánku za zvuků sirén a trhajícího kovu. Sotva jste se dostali do únikových modulů, tak se loď roztrhala na kusy.\n\nMuseli jste nouzově přistát na této neznámé planetě.\n\nKolem vás padají zbytky vaší lodi a vy musíte začít přemýšlet, jak zde přežijete a jak se dostanete domů.</GameStartDialog>
+  <Autosaving>Automaticky ukládám...</Autosaving>
 
-  <Colony>Kolonie</Colony>
+  <GameStartDialog>Tři z vás jsou probuzeni v cryptospánkových komorách za zvuků sirén a trhajících se kovů. Sotva, co se dostanete do únikových modulů, je loď roztrhána na kusy. O něco později přistanete na této neznamé planetě.\n\nZatímco kolem vás dopadávaly kusy rozervané lodi, začali jste dělat plány, jak přežít.</GameStartDialog>
   
-  <ChangeLanguageFromMainMenu>Jazyk můžete změnit pouze v nastavení z hlavního menu.</ChangeLanguageFromMainMenu>
+  <Colony>Kolonie</Colony>
+
+  <ChangeLanguageFromMainMenu>Jazyk lze změnit jen v hlavní nabídce.</ChangeLanguageFromMainMenu>
 
   <AndLower>a</AndLower>
-  <DisabledLower>zakázáno</DisabledLower>
-
-  <CloseButton>Zavřít</CloseButton>
+  <DisabledLower>vypnut</DisabledLower>
 
   <VersionIndicator>Verze {0}</VersionIndicator>
-  <DevelopmentBuildLower>vývojářská verze</DevelopmentBuildLower>
-  <CompiledOn>Sestavení {0}</CompiledOn>
+  <DevelopmentBuildLower>Vývojářská verze</DevelopmentBuildLower>
+  <CompiledOn>Sestaveno {0}</CompiledOn>
+  <LoggedIntoSteamAs>Přihlášen na Steamu jako {0}</LoggedIntoSteamAs>
 
-  <!-- Content generation-->
+  <!-- General-use words -->
+  <Yes>Ano</Yes>
+  <No>Ne</No>
+  <min>min</min>
+  <max>max</max>
+  <chance>Šance:</chance>
+  <context>Souvislost:</context>
+  <multiplier>Multiplikátor:</multiplier>
+  <damage>Poškození:</damage>
+  <radius>Poloměr:</radius>
+  <durationDays>Spustí se za (dní)</durationDays>
+  <intervalDays>Spustí se za (dní)</intervalDays>
+  <repeat>Opakovat</repeat>
   
-  <MeatLabel>{0} maso</MeatLabel>
-  <MeatDesc>Syrové maso z {0}.</MeatDesc>
+  <!-- Content generation -->
 
-  <LeatherLabel>{0} kůže</LeatherLabel>
-  <LeatherDesc>Kožené výrobky z {0}.</LeatherDesc>
+  <MeatLabel>Maso z {0}</MeatLabel>
+  <MeatDesc>Syrové maso z poražených zvířat. Může se z něj uvařit jídlo nebo také sníst syrové.</MeatDesc>
 
-  <CorpseLabel>{0} mrtvola</CorpseLabel>
-  <CorpseDesc>Mrtvé tělo z {0}.</CorpseDesc>
+  <LeatherLabel>Kůže z {0}</LeatherLabel>
+  <LeatherDesc>Vyčišněná, usušená a stažená kůže. Dobrý tradiční materiál, ze kterého se dá vyrábět oblečení a batohy.</LeatherDesc>
+
+  <CorpseLabel>{0} (mrtvola)</CorpseLabel>
+  <CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
   <DeadLabel>{0} (mrtvý)</DeadLabel>
 
-  <RoughStoneTerrainLabel>hrubý {0}</RoughStoneTerrainLabel>
-  <RoughStoneTerrainDesc>Hrubý, přírodní {0} podloží.</RoughStoneTerrainDesc>
-  <RoughHewnStoneTerrainLabel>drsný {0}</RoughHewnStoneTerrainLabel>
-  <RoughHewnStoneTerrainDesc>Přírodně hrubé {0} podloží.</RoughHewnStoneTerrainDesc>
-  <SmoothStoneTerrainLabel>jemné {0}</SmoothStoneTerrainLabel>
-  <SmoothStoneTerrainDesc>Přírodně jemné {0} podloží.</SmoothStoneTerrainDesc>
+  <RoughStoneTerrainLabel>Drsný {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Drsný, přírodní povrch z {0}.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>Nahrubo otesaný {0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Nahrubo otesaný povrch z {0}.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>Hladký {0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Vyhlazený přírodní povrch z {0}.</SmoothStoneTerrainDesc>
 
   <BlueprintLabelExtra> (plán)</BlueprintLabelExtra>
-  <FrameLabelExtra> (budova)</FrameLabelExtra>
-  
-  <!-- For things made of stuff, e.g. "Stone bed" -->
-  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
-  <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
+  <FrameLabelExtra> (ve výstavbě)</FrameLabelExtra>
 
-  <VariousLabel>(různý)</VariousLabel>
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+
+  <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
+
+  <!-- To express ownership. -->
+
+  <!-- For example Jack's Bedroom -->
+
+  <SomeonesRoom>{1} patří {0}</SomeonesRoom>
+  <CouplesRoom>{2} patří {0} a {1}</CouplesRoom>
+
+  <VariousLabel>(různé)</VariousLabel>
 
   <!-- History events -->
-  <ColonistDied>Zemřel kolonista</ColonistDied>
-  
-  
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+
+  <ColonistDied>Kolonista zemřel</ColonistDied>
+
+  <!-- Rotation -->
+  <North>Sever</North>
+  <South>Jih</South>
+  <West>Západ</West>
+  <East>Východ</East>
   
 </LanguageData>

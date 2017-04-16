@@ -1,43 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Tier 2 Misc -->
+  <!-- Tier 2: Non-electric -->
 
-    <Firefoam.label>Rozprašovač</Firefoam.label>
-    <Firefoam.description>Když je v blízkosti oheň zalije celou oblast vodou.</Firefoam.description>
+  <PsychiteRefining.label>rafinace látek Psychitu</PsychiteRefining.label>
+  <PsychiteRefining.description>Umožní vyrobit různé formy euforických drog. Jájo a Vločka z rostliny psychovník.</PsychiteRefining.description>
 
-    <GeothermalPower.label>Geotermální energie</GeothermalPower.label>
-	  <GeothermalPower.description>Výzkum nejefektivnějšího získávání energie a to pomocí gejzírů páry.</GeothermalPower.description>
-	
-    <HospitalBed.label>Nemocniční lůžko</HospitalBed.label>
-	  <HospitalBed.description>Se speciální výbavou jde léčení snáze. Nová nemocniční lůžka urychlý léčbu.</HospitalBed.description>
+  <WakeUpProduction.label>droga Budíček</WakeUpProduction.label>
+  <WakeUpProduction.description>Kolonisté se naučí vzorce a techniky pro výrobu drogy Budíček, která zlepšuje pracovní výkon.</WakeUpProduction.description>
 
-    <MultiAnalyzer.label>Multifunkční analyzátor</MultiAnalyzer.label>
-    <MultiAnalyzer.description>Urychluje výzkum k jednomu stolu může být připojen jen jeden analyzátor.</MultiAnalyzer.description>
+  <GoJuiceProduction.label>droga Šťáva Go</GoJuiceProduction.label>
+  <GoJuiceProduction.description>Produkce bojové drogy Šťáva Go.</GoJuiceProduction.description>
 
-  <!-- Tier 2.5 Misc -->
+  <PenoxycylineProduction.label>Penoxycylin</PenoxycylineProduction.label>
+  <PenoxycylineProduction.description>Výroba Penoxycylinu, který slouží k prevenci onemocnění.</PenoxycylineProduction.description>
 
-  <VitalsMonitor.label>Vitalmonitor</VitalsMonitor.label>
-  <VitalsMonitor.description>Vitalmonitor<!--nevím--> zlepšuje a urychluje léčení.</VitalsMonitor.description>
 
-    <Cryptosleep.label>Kryptokomora</Cryptosleep.label>
-	  <Cryptosleep.description>Umožňuje kolonistům postavyt kryptokomory, ve kterých můžou být uvedeni do stavu bezvědomí.</Cryptosleep.description>
-	
-    <ComponentAssembly.label>Výroba součástek</ComponentAssembly.label>
-    <ComponentAssembly.description>Umožní vám vyrábět součástky.</ComponentAssembly.description>
+  <!-- Tier 2: Basic electricity -->
 
-    <PoweredArmor.label>Powered Armor</PoweredArmor.label>
-    <PoweredArmor.description>Staňte se neporazitelnými v novém powered armoru</PoweredArmor.description>
+  <Batteries.label>baterie</Batteries.label>
+  <Batteries.description>Stavba záložních baterií, které ukladají elektrickou energii na horší časy.</Batteries.description>
 
-    <ChargedShot.label>Energetické zbraně</ChargedShot.label>
-    <ChargedShot.description>Kdo potřebuje kulky když může střílet z energetických zbraní.</ChargedShot.description>
+  <Refining.label>rafinace chemického paliva</Refining.label>
+  <Refining.description>Rafinérie produkující chemické palivo ze dřeva nebo jiných organických částí.</Refining.description>
 
-    <MultibarrelWeapons.label>Vícehlavňové zbraně</MultibarrelWeapons.label>
-    <MultibarrelWeapons.description>Více hlavní, více palebné síly.</MultibarrelWeapons.description>
+  <NutrientPaste.label>nutriční pasta</NutrientPaste.label>
+  <NutrientPaste.description>Umožní produkci nutriční pasty ze syrových surovin. Chuť nic moc.</NutrientPaste.description>
 
-  <!--
-    <LargeRockets.label>Raketomety</LargeRockets.label>
-    <LargeRockets.description>Umožnívám výrobu velkých jednorázových raketometů</LargeRockets.description>
-  -->
-  
+  <SolarPanels.label>solární panely</SolarPanels.label>
+  <SolarPanels.description>Umožní vybudovat solární panely pro výrobu elektrické energie.</SolarPanels.description>
+
+  <AirConditioning.label>klimatizace</AirConditioning.label>
+  <AirConditioning.description>Klimatizace umožňuje ochlazování místností v horkých dnech. Využitelné i pro výrobu mrazničky.</AirConditioning.description>
+
+  <Autodoors.label>automatické dveře</Autodoors.label>
+  <Autodoors.description>Automatické dveře na fotobuňku umožnující pohyb bez zpomalení.</Autodoors.description>
+
+  <Hydroponics.label>hydroponie</Hydroponics.label>
+  <Hydroponics.description>Hydroponické nádrže pro pěstovaní rostlin v místnosti. Bez ohledu na terén nebo počasí venku.</Hydroponics.description>
+
+  <ElectricSmelting.label>elektrické kování</ElectricSmelting.label>
+  <ElectricSmelting.description>Vybudovaní elektrické kovárny a tavící pece. Využívá teplo a silné elektromagnety k extrakci užitečných kovů ze šrotu a dalších věcí.</ElectricSmelting.description>
+
+  <ElectricCremation.label>elektrické krematorium</ElectricCremation.label>
+  <ElectricCremation.description>V elektrickém krematoriu mužete spalovat mrtvoly a jiné věci.</ElectricCremation.description>
+
+  <ColoredLights.label>barevná světla</ColoredLights.label>
+  <ColoredLights.description>Konstrukce dekorativních barevných světel.</ColoredLights.description>
+
+  <Machining.label>obrábění</Machining.label>
+  <Machining.description>Obráběcí stroje pro výrobu zbraní a rozebíraní mechanoidů.</Machining.description>
+
+  <IEDBomb.label>improvizovaná výbušnina</IEDBomb.label>
+  <IEDBomb.description>Konstrukce výbušných pastí z dělostřeleckých granátů.</IEDBomb.description>
+
+  <IEDIncendiary.label>improvizovaná zápalná výbušnina</IEDIncendiary.label>
+  <IEDIncendiary.description>Konstrukce zápalných pastí z dělostřeleckých granátů.</IEDIncendiary.description>
+
+  <Mortars.label>minomety</Mortars.label>
+  <Mortars.description>Minomety, které mohou bombardovat na dlouhou vzdálenost.</Mortars.description>
+
+  <MicroelectronicsBasics.label>základy mikroelektroniky</MicroelectronicsBasics.label>
+  <MicroelectronicsBasics.description>Základy práce s mikroelektronikou. Odemkne výzkum vylepšené výzkumné stanice, komunikační stanice a další výzkumné projekty jako televize nebo cryptospánkové komory.</MicroelectronicsBasics.description>
+
+
+  <!-- Tier 2.5 Microelectronics -->
+
+  <TubeTelevision.label>televize</TubeTelevision.label>
+  <TubeTelevision.description>Výroba televize pro zábavu pro kolonisty.</TubeTelevision.description>
+
+  <GunTurrets.label>improvizovaný kanón</GunTurrets.label>
+  <GunTurrets.description>Výroba automatických střeleckých věží.</GunTurrets.description>
+
+
 </LanguageData>

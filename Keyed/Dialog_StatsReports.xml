@@ -1,26 +1,42 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- Stats report -->
 
   <StatsReport_BaseValue>Základní hodnota</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>Relevantní rysy</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>Relevantní vybavení</StatsReport_RelevantGear>
+  <StatsReport_RelevantTraits>Příslušné rysy</StatsReport_RelevantTraits>
+  <StatsReport_RelevantGear>Příslušné vybavení</StatsReport_RelevantGear>
+  <StatsReport_RelevantHediffs>Příslušné zdravotní podmínky</StatsReport_RelevantHediffs>
+  <StatsReport_LifeStage>Fáze života</StatsReport_LifeStage>
   <StatsReport_Material>Materiál</StatsReport_Material>
   <StatsReport_CharacterQuality>Osobnostní kvality</StatsReport_CharacterQuality>
-  <StatsReport_Skills>Faktory dovedností</StatsReport_Skills>
-  <StatsReport_OtherStats>Ostatní faktory</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>Faktory lécení</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>{0} význam</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>Zakřivení po zpracování</StatsReport_PostProcessed>
-  <StatsReport_FinalValue>Finální hodnota</StatsReport_FinalValue>
+  <StatsReport_Skills>Zručnost</StatsReport_Skills>
+  <StatsReport_OtherStats>Ostatní podmínky</StatsReport_OtherStats>
+  <StatsReport_HealthFactors>Zdravotní podmínky</StatsReport_HealthFactors>
+  <HealthFactorPercentImpact>{0} důležitost</HealthFactorPercentImpact>
+  <HealthFactorMaxImpact>{0} max</HealthFactorMaxImpact>
+  <StatsReport_PostProcessed>Křivka následného zpracování</StatsReport_PostProcessed>
+  <StatsReport_FinalValue>Konečná hodnota</StatsReport_FinalValue>
+  <StatsReport_MarketValueFromStuffsAndWork>Tržní cena se vypočítává podle použitého materiálu a vynaložené práce.</StatsReport_MarketValueFromStuffsAndWork>
   <StatsReport_QualityMultiplier>Násobitel kvality</StatsReport_QualityMultiplier>
-  <StatsReport_MarketValueFromStuffsAndWork>Tržní hodnota vypočtená ze stavebních materiálů a s množstvím práce.</StatsReport_MarketValueFromStuffsAndWork>
-  <StatsReport_AgeMultiplier>Multiplikátor pro věk {0}</StatsReport_AgeMultiplier>
-  <StatsReport_HealthMultiplier>Multiplikátor zdraví {0}</StatsReport_HealthMultiplier>
-  <StatsReport_MoodMultiplier>Multiplikátor nálady {0}</StatsReport_MoodMultiplier>
+  <StatsReport_AgeMultiplier>Násobitel stáří {0}</StatsReport_AgeMultiplier>
+  <StatsReport_HealthMultiplier>Násobitel pro zdravotní stav {0}</StatsReport_HealthMultiplier>
+  <StatsReport_MoodMultiplier>Násobitel pro náladu {0}</StatsReport_MoodMultiplier>
+  <StatsReport_DifficultyMultiplier>Násobitel pro stupeň obtížnosti {0}</StatsReport_DifficultyMultiplier>
   <StatsReport_InBed>V posteli</StatsReport_InBed>
-  
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios--> 
- 
+  <StatsReport_Facilities>Vybavení</StatsReport_Facilities>
+  <StatsReport_BodySize>Násobitel pro tělesnou váhu {0}</StatsReport_BodySize>
+  <StatsReport_MeleeDPSExplanation>Statistika se zobrazuje v následujícím formátu:\nDPS ( zranění v boji na blízko / čas pro znovupoužití v sekundách / pravděpodobnost zásahu v boji zblízka )\n\nDPS = zranění v boji na blízko * pravděpodobnost zásahu v boji zblízka / čas pro znovupoužití v sekundách</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDamage>Zranění v boji na blízko</StatsReport_MeleeDamage>
+  <StatsReport_Cooldown>Čas pro znovupoužití</StatsReport_Cooldown>
+  <StatsReport_MeleeHitChance>Pravděpodobnost zásahu v boji zblízka</StatsReport_MeleeHitChance>
+  <StatsReport_CooldownFormat>{0} s</StatsReport_CooldownFormat>
+  <StatsReport_LifeExpectancy>Délka života</StatsReport_LifeExpectancy>
+  <StatsReport_MissingBodyParts>Násobitel pro chybějící části těla</StatsReport_MissingBodyParts>
+  <StatsReport_GearAndInventoryMass>Váha výstroje a inventáře</StatsReport_GearAndInventoryMass>
+  <StatsReport_WornByCorpse>Násobitel nošeno mrtvolou</StatsReport_WornByCorpse>
+  <AverageOfAllAttacks>Průměr všech útoků</AverageOfAllAttacks>
+  <StatsReport_UnpoweredWorkTable>Bez napájení</StatsReport_UnpoweredWorkTable>
+  <StatsReport_ScenarioFactor>Scénář</StatsReport_ScenarioFactor>
+
 </LanguageData>

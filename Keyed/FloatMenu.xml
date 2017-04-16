@@ -1,104 +1,151 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
+	<CallOnRadio>Zavolej! - {0}</CallOnRadio>
+  <CannotUseReason>Nelze použít. {0}</CannotUseReason>
+	<CannotUseSolarFlare>Nelze použít, protože jsou sluneční erupce.</CannotUseSolarFlare>
+	<CannotUseNoPower>Nelze použít, protože není energie.</CannotUseNoPower>
+	<CannotUseNoPath>Nelze použít. (žádná cesta)</CannotUseNoPath>
+  <CannotUseReserved>Nelze použít. (vyhrazeno)</CannotUseReserved>
+  <CannotUseFull>Nelze použít. (plno)</CannotUseFull>
+  <LeaderUnavailable>Vůdce {0} není dostupný.</LeaderUnavailable>
+
+  <FireAt>Střílej! - {0}</FireAt>
+
+  <OutOfRange>mimo dosah</OutOfRange>
+  <CannotHitTarget>nelze zasáhnout cíl</CannotHitTarget>
+  <IsIncapableOfViolenceLower>{0} není schopen násilí</IsIncapableOfViolenceLower>
+  <IsNotDraftedLower>{0} není naverbován</IsNotDraftedLower>
+  <CannotOrderNonControlledLower>nelze dávat příkazy neovládaným jednotkám</CannotOrderNonControlledLower>
+
+  <OrderManThing>Obsluhuj! - {0}</OrderManThing>
   
-  <CallOnRadio>Zavolat {0}</CallOnRadio>
-  <CannotUseSolarFlare>Nelze použít (sluneční erupce)</CannotUseSolarFlare>
-  <CannotUseNoPower>Nelze použít (bez energie)</CannotUseNoPower>
-  <CannotUseNoPath>Nelze použít (chybí cesta)</CannotUseNoPath>
-  <CannotUseReserved>Nelze použít (rezervováno)</CannotUseReserved>
-  <CannotUseFull>Nelze použít (plno)</CannotUseFull>
+  <MeleeAttack>Zaútoč zblízka! - {0}</MeleeAttack>
+  <MeleeAttackToDeath>Umlať k smrti! - {0}</MeleeAttackToDeath>
+  <NoPath>žádná cesta</NoPath>
+
+	<ForbiddenLower>zakázáno</ForbiddenLower>
+	<ForbiddenOutsideAllowedAreaLower>mimo povolenou oblast</ForbiddenOutsideAllowedAreaLower>
+	<NotInHomeArea>není v domovské oblasti</NotInHomeArea>
+	<SociallyImproperLower>společenky nevhodné</SociallyImproperLower>
+  <PrisonerRoomLower>místnost pro vězně</PrisonerRoomLower>
+	<BurningLower>hoří</BurningLower>
+	<NoEmptyPlaceLower>není nastavené volné místo pro uskladnění</NoEmptyPlaceLower>
+	<AlreadyFilledLower>již naplněno</AlreadyFilledLower>
+	<MissingMaterials>chybí materiály</MissingMaterials>
+  <MissingSkill>příliš nízká dovednost</MissingSkill>
+	<NoEmptyGraveLower>není nastavený žádný volný hrob na uložení</NoEmptyGraveLower>
+  <AnimalInteractedTooRecently>interakce se zvířetem proběhla před příliš krátkou dobou</AnimalInteractedTooRecently>
+  <NoUsableFood>žádné použitelné jídlo</NoUsableFood>
+  <NoFood>žádné jídlo</NoFood>
+  <AnimalsSkillTooLow>dovednost Zvířata je příliš nízká</AnimalsSkillTooLow>
+	<NoComponentsToRepair>chybí komponenty</NoComponentsToRepair>
+	<NoFuelToRefuel>chybí {0}</NoFuelToRefuel>
+  <NoWort>chybí mladina</NoWort>
   
-  <FireAt>Střílej na {0}</FireAt>
-
-  <OutOfRange>Mimo dosah</OutOfRange>
-  <CannotHitTarget>Nelze zasáhnout cíl</CannotHitTarget>
-  <CannotFight>{0} nemůže bojovat</CannotFight>
-
-  <OrderManThing>Muž {0}</OrderManThing>
+  <ConsumeThing>Sněz! - {0}</ConsumeThing>
   
-  <MeleeAttack>Udeřit {0}</MeleeAttack>
-  <MeleeAttackToDeath>Umlátit {0} k smrti</MeleeAttackToDeath>
-  <NoPath>Žádná cesta</NoPath>
-
-	<ForbiddenLower>Zakázáno</ForbiddenLower>
-	<SociallyImproperLower>Společensky nevhodné</SociallyImproperLower>
-    <PrisonerRoomLower>Vězení</PrisonerRoomLower>
-	<BurningLower>Hoří</BurningLower>
-	<NoEmptyPlaceLower>Není žádné volné, ani povolené místo k uskladnění</NoEmptyPlaceLower>
-	<AlreadyFilledLower>Již přeplněno</AlreadyFilledLower>
-	<MissingMaterials>Chybí materiál</MissingMaterials>
-	
-	
-  <ConsumeThing>Najíst se {0}</ConsumeThing>
+  <CannotGoNoPath>Nelze sem jít, protože sem nevede žádná cesta.</CannotGoNoPath>
+  <GoHere>Běž sem!</GoHere>
   
+  <Arrest>Zatkni! - {0}</Arrest>
+  <TryToArrest>Pokus se zatknout! - {0}</TryToArrest>
+  <CannotArrest>Nelze zatknout.</CannotArrest>
+
+  <Capture>Zajmi! - {0}</Capture>
+  <CannotCapture>Nelze zajmout.</CannotCapture>
+
+  <Rescue>Zachraň! - {0}</Rescue>
+  <CannotRescue>Nelze zachránit.</CannotRescue>
+
+  <CarryToCryptosleepCasket>Přenes do cryptospánkové komory! - {0}</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Nelze přenést do cryptospánkové komory.</CannotCarryToCryptosleepCasket>
+
+  <NoCryptosleepCasket>Žádná cryptospánková komora není dostupná.</NoCryptosleepCasket>
+  <NoPrisonerBed>Není dostupná žádná volná uzavřená postel označená jako vězeňská.</NoPrisonerBed>
+  <NoNonPrisonerBed>Není dostupná žádná volná nevězeňská postel.</NoNonPrisonerBed>
+  <NoAnimalBed>Není dostupný žádný volný pelíšek pro zvíře.</NoAnimalBed>
+  <Reserved>Vyhrazeno někým jiným.</Reserved>
+  <ReservedBy>Vyhrazeno pro {0}.</ReservedBy>
+  <IsReservedBy>{0} (je vyhrazeno pro {1}).</IsReservedBy>
+  <TooHeavy>Příliš těžké.</TooHeavy>
+
+  <Incapable>nezpůsobilý</Incapable>
+  <IncapableOfCapacity>není způsobilý {0}</IncapableOfCapacity>
+
+  <MinSkill>min. dovednost</MinSkill>
   
-  <CannotGoNoPath>Nemůže sem jít (žádná cesta)</CannotGoNoPath>
-  <GoHere>Jít sem</GoHere>
+  <Equip>Vybav se! - {0}</Equip>
+  <EquipWarningBrawler>(rváč bude nešťastný)</EquipWarningBrawler>
+  <CannotEquip>Nelze se vybavit. - {0}</CannotEquip>
   
-  <Arrest>Zatknout {0}</Arrest>
-  <CannotArrest>Nelze zatknout</CannotArrest>
-
-  <Capture>Zajmout {0}</Capture>
-  <CannotCapture>Nelze zajmout</CannotCapture>
-
-  <Rescue>Zachránit {0}</Rescue>
-  <CannotRescue>Nelze zachránit</CannotRescue>
-
-  <CarryToCryptosleepCasket>Odnes {0} do kryokomory</CarryToCryptosleepCasket>
-  <CannotCarryToCryptosleepCasket>Odnese jedince do kryokomory a uloží ho ke spánku</CannotCarryToCryptosleepCasket>
-
-  <NoCryptosleepCasket>Kryokomora není k dispozici</NoCryptosleepCasket>
-  <NoPrisonerBed>V blízkosti není k dispozici žádná postel pro vězně.</NoPrisonerBed>
-  <NoNonPrisonerBed>Není zde použitelná nevězeňská postel.</NoNonPrisonerBed>
-  <Reserved>Již někým rezervováno.</Reserved>
-  <ReservedBy>Rozervováno {0}.</ReservedBy>
-  <IsReservedBy>{0} je rezervováno {1}.</IsReservedBy>
-
-  <NoManipulationSkill>Neschopen</NoManipulationSkill>
-
-  <Equip>Vybavit {0}</Equip>
-  <EquipWarningBrawler>(rváč nebude štastný)</EquipWarningBrawler>
-  <CannotEquip>Nelze vybavit {0}</CannotEquip>
+  <ForceWear>Vynuceně obleč! - {0}</ForceWear>
+  <CannotWear>Nelze si obléct. - {0}</CannotWear>
+  <CannotWearBecauseOfMissingBodyParts>chybějící části těla.</CannotWearBecauseOfMissingBodyParts>
   
-  <Wear>Obléct {0}</Wear>
-  <CannotWear>Nelze obléct {0}</CannotWear>
+  <CannotPickUp>Nelze zvednout. - {0}</CannotPickUp>
+  <CannotPickUpAll>Nelze zvednout. - {0} (vše)</CannotPickUpAll>
+  <PickUp>Zvedni! - {0}</PickUp>
+  <PickUpAll>Zvedni! - {0} (vše)</PickUpAll>
+  <PickUpSome>Zvedni! - {0}...</PickUpSome>
+  <PickUpCount>Zvedni! - {0} {{0}} ks</PickUpCount>
   
-  <Strip>Svléct {0}</Strip>
-  <CannotStrip>Nelze svléct {0}</CannotStrip>
+  <CannotGiveToPackAnimal>Nelze dát na nákladní zvíře {0}</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>Nelze dát na nákladní zvíře {0} (vše)</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Dej na nákladní zvíře! {0}</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Dej na nákladní zvíře! {0} (vše)</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Dej na nákladní zvíře...! {0}</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Vezmi! {0} {{0}} ks</GiveToPackAnimalCount>
+  
+  <CannotCarryToExit>Nelze naložit a opustit oblast. {0}</CannotCarryToExit>
+  <CarryToExit>Nalož a opusť oblast! {0}</CarryToExit>
+  
+  <Strip>Svlékni! - {0}</Strip>
+  <CannotStrip>Nelze svléct. {0}</CannotStrip>
 
-  <Deposit>Uložit {0} v {1}</Deposit>
-  <CannotDeposit>Nelze uložit {0} v {1}</CannotDeposit>
+  <Deposit>Ulož {0} do {1}</Deposit>
+  <CannotDeposit>Nelze uložit {0} do {1}</CannotDeposit>
 
-  <SelfDestructHere>Znič se zde</SelfDestructHere>
+  <SelfDestructHere>Proveď zde sebezničení!</SelfDestructHere>
   
-  <Drop>Položit {0}</Drop>
-  
-  <UseMedicalBed>Plně se uzdravit</UseMedicalBed>
-  <NotInjured>Není zraněn</NotInjured>
+  <Drop>Upusť! - {0}</Drop>
+
+  <UseMedicalBed>Odpočívej až do uzdravení!</UseMedicalBed>
+  <NotInjured>Není zraněný</NotInjured>
   <SomeoneElseSleeping>Obsazeno</SomeoneElseSleeping>
+  
+  <TradeWith>Obchoduj! - {0}</TradeWith>
+  <CannotTrade>Nelze obchodovat.</CannotTrade>
+
+  <EnterMap>Vstoupit - {0}</EnterMap>
+  <VisitFactionBase>Navštivit - {0}</VisitFactionBase>
+  <AttackFactionBase>Zaútočit - {0}</AttackFactionBase>
 
   <!-- Specific thing interactions -->
-  <EnterCryptosleepPod>Vstoupit do kryokomory</EnterCryptosleepPod>
-  <OpenCryptosleepCasket>Otevřít kryokomoru</OpenCryptosleepCasket>
-    
+  <EnterCryptosleepCasket>Vstup do cryptospánkové komory!</EnterCryptosleepCasket>
+  <OpenCryptosleepCasket>Otevři cryptospánkovou komoru!</OpenCryptosleepCasket>
+
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
-  <CannotGenericWork>Nelze {0} {1}</CannotGenericWork>
+  <CannotGenericWork>Nelze {0} - {1}</CannotGenericWork>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>Nelze upřednostnit (zdravotní problém: {0})</CannotMissingHealthActivities>
-	
-  <CannotGenericAlreadyAm>Již {0} {1}</CannotGenericAlreadyAm>
+  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc-->
+  <CannotMissingHealthActivities>Nelze upřednostnit (není způsobilý {0})</CannotMissingHealthActivities>
 
-  <CannotPrioritizeIsNotA>Nelze upřednostňovat ({0} protože není {1})</CannotPrioritizeIsNotA>
+  <CannotGenericAlreadyAm>Již provádí činnost {0}. - {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeResearch>Nelze upřednostňovat (Výzkum je dlouhodobá záležitost)</CannotPrioritizeResearch>
+  <CannotPrioritizeWorkTypeDisabled>Nelze upřednostnit, protože nikdy nebude dělat činnost {0}.</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeNotAssignedToWorkType>Nelze upřednostnit, protože nemá přidělenou činnost {0}.</CannotPrioritizeNotAssignedToWorkType>
 
-  <CannotPrioritizeForbidden>Nelze upřednostňovat ({0} ja zakázáno)</CannotPrioritizeForbidden>
+  <CannotPrioritizeResearch>Nelze upřednostnit, protože výzkum je dlouhodobý úkol.</CannotPrioritizeResearch>
 
+  <CannotPrioritizeForbidden>Nelze upřednostnit ({0} je zakázáno)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Nelze upřednostnit ({0} se nachází mimo povolenou oblast)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
-  <PrioritizeGeneric>Upřednostnit {0} {1}</PrioritizeGeneric>
- 
-  <!-- © 2014-2015 Last Battalion - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2015 Last Battalion - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
+  <PrioritizeGeneric>Prioritně {0} - {1}</PrioritizeGeneric>
+
+  <DropAtEdge>Provést výsadek na okraji</DropAtEdge>
+  <DropInCenter>Provést výsadek uprostřed</DropInCenter>
   
 </LanguageData>

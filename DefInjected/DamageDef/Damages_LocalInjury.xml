@@ -1,63 +1,61 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<Cut.label>pořezání</Cut.label>
-	<Cut.deathMessage>{0} zemřel na podřezání.</Cut.deathMessage>
-	
-	<Crush.label>rozdrcení</Crush.label>
-	<Crush.deathMessage>{0} byl rozdrcen.</Crush.deathMessage>
-	
-	<Blunt.label>otřesení</Blunt.label>
-	<Blunt.deathMessage>{0} zemřel na vážné poranění.</Blunt.deathMessage>
-	
-	<Stab.label>bodnutí</Stab.label>
-	<Stab.deathMessage>{0} byl ubodán.</Stab.deathMessage>
-	
-	<Bullet.label>kulka</Bullet.label>
-	<Bullet.deathMessage>{0} byl zastřelen.</Bullet.deathMessage>
-	
-	<Arrow.label>šíp</Arrow.label>
-	<Arrow.deathMessage>{0} byl zastřelen.</Arrow.deathMessage>
-	
-	<Scratch.label>poškrábání</Scratch.label>
-	<Scratch.deathMessage>{0} zemřel.</Scratch.deathMessage>
-	
-	<Bite.label>pokousání</Bite.label>
-	<Bite.deathMessage>{0} byl ukousán.</Bite.deathMessage>
+  <Cut.label>pořezání</Cut.label>
+  <Cut.deathMessage>{0} zemřelHISCAP na pořezání.</Cut.deathMessage>
 
-	<ToxicBite.label>poleptání</ToxicBite.label>
-	<ToxicBite.deathMessage>{0} byl rozleptán.</ToxicBite.deathMessage>
+  <Crush.label>rozdrcení</Crush.label>
+  <Crush.deathMessage>{0} zemřelHISCAP na rozdrcení.</Crush.deathMessage>
 
-	<Bomb.label>výbuch</Bomb.label>
-	<Bomb.deathMessage>{0} rozletěl se po okolí.</Bomb.deathMessage>
+  <Blunt.label>otřes</Blunt.label>
+  <Blunt.deathMessage>{0} bylHISCAP umlácenHISCAP k smrti.</Blunt.deathMessage>
 
-	<Flame.label>oheň</Flame.label>
-	<Flame.deathMessage>{0} byl upálen.</Flame.deathMessage>
+  <Stab.label>bodnutí</Stab.label>
+  <Stab.deathMessage>{0} bylHISCAP ubodánHISCAP k smrti.</Stab.deathMessage>
+
+  <Bullet.label>střela</Bullet.label>
+  <Bullet.deathMessage>{0} bylHISCAP zastřelenHISCAP.</Bullet.deathMessage>
+
+  <Arrow.label>šíp</Arrow.label>
+  <Arrow.deathMessage>{0} bylHISCAP zastřelenHISCAP šípem.</Arrow.deathMessage>
+
+  <Scratch.label>škrábanec</Scratch.label>
+  <Scratch.deathMessage>{0} bylHISCAP uškrábánHISCAP k smrti,</Scratch.deathMessage>
+
+  <Bite.label>kousanec</Bite.label>
+  <Bite.deathMessage>{0} bylHISCAP ukousánHISCAP k smrti.</Bite.deathMessage>
+
+  <ToxicBite.label>toxický kousanec</ToxicBite.label>
+  <ToxicBite.deathMessage>{0}  bylHISCAP usmrcenHISCAP toxickým kousnutím.</ToxicBite.deathMessage>
+
+  <Bomb.label>exploze</Bomb.label>
+  <Bomb.deathMessage>{0} bylHISCAP zabitHISCAP explozí</Bomb.deathMessage>
+
+  <Flame.label>spálení</Flame.label>
+  <Flame.deathMessage>{0} bylHISCAP upálenHISCAP k smrti.</Flame.deathMessage>
 
 
   <!-- Burn is like Flame, but doesn't ignite anything -->
 
-  <Burn.label>oheň</Burn.label>
-  <Burn.deathMessage>{0} uhořel.</Burn.deathMessage>
+  <Burn.label>spálení ohněm</Burn.label>
+  <Burn.deathMessage>{0} bylHISCAP upálenHISCAP k smrti.</Burn.deathMessage>
 
-	<Frostbite.labeloOmrzliny</Frostbite.label>
-	<Frostbite.deathMessage>{0} proměnil se v rampouch.</Frostbite.deathMessage>
+  <Frostbite.label>omrzlina</Frostbite.label>
+  <Frostbite.deathMessage>{0} podlehlHISCAP omrzlinám.</Frostbite.deathMessage>
 
 
   <!-- Surgical cut should not harm outer layers.
        This makes it possible to remove inner organs without harming outer body parts -->
 
-	<SurgicalCut.label>chirurgický řez</SurgicalCut.label>
-	<SurgicalCut.deathMessage>{0} zemřel, protože se  doktorovi smekla ruka.</SurgicalCut.deathMessage>
+  <SurgicalCut.label>chirurgické pořezání</SurgicalCut.label>
+  <SurgicalCut.deathMessage>{0} zemřelHISCAP během operace.</SurgicalCut.deathMessage>
 
 
   <!-- Execution cut
        This makes it possible to distinguish execution damage from others -->
 
-	<ExecutionCut.label>poprava</ExecutionCut.label>
-	<ExecutionCut.deathMessage>{0} byl popraven.</ExecutionCut.deathMessage>
+  <ExecutionCut.label>popravčí pořazání</ExecutionCut.label>
+  <ExecutionCut.deathMessage>{0} bylHISCAP popravenHISCAP.</ExecutionCut.deathMessage>
 
- <!-- © 2014-2017 Last Battalion & Project-Triad - Translate Group, Všechna práva na překlad vyhrazena| Kontakt v README | Právo na využívání Ludeon Studios -->
-  <!-- © 2014-2017 Last Battalion & Project-Triad - Translate Group, All rights to translate reserves| Contacts in README | Rights to use belongs to Ludeon Studios-->
 
 </LanguageData>
