@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <ArmorRating_Blunt.label>Odolnost zbroje - tupé</ArmorRating_Blunt.label>
@@ -15,16 +15,20 @@
 
   <Insulation_Cold.label>Izolace zbroje - chlad</Insulation_Cold.label>
   <Insulation_Cold.description>Hodnota izolace, na kolik tento oděv chrání nositele před nízkou teplotou při nošení.</Insulation_Cold.description>
-                                
+
   <Insulation_Heat.label>Izolace zbroje - teplo</Insulation_Heat.label>
   <Insulation_Heat.description>Hodnota izolace, na kolik tento oděv chrání nositele před vysokou teplotou při nošení.</Insulation_Heat.description>
 
-  <PersonalShieldEnergyMax.label>Maximální energie štítu</PersonalShieldEnergyMax.label>
-  <PersonalShieldEnergyMax.description>Maxiální energie osobního štítu, kterou může mít najednou. Více energie může absorbovat větší poškození.</PersonalShieldEnergyMax.description>
+  <EnergyShieldEnergyMax.label>Maximální energie štítu</EnergyShieldEnergyMax.label>
+  <EnergyShieldEnergyMax.description>Maximální energie štítu v opasku, kterou může mít najednou. Více energie může absorbovat větší poškození.</EnergyShieldEnergyMax.description>
 
-  <PersonalShieldRechargeRate.label>Rychlost nabíjení štítu</PersonalShieldRechargeRate.label>
-  <PersonalShieldRechargeRate.description>Rychlost, jakou štít získává energii, pokud není rozbitý.</PersonalShieldRechargeRate.description>
-  <PersonalShieldRechargeRate.formatString>{0}/s</PersonalShieldRechargeRate.formatString>
+  <EnergyShieldRechargeRate.label>Rychlost nabíjení štítu</EnergyShieldRechargeRate.label>
+  <EnergyShieldRechargeRate.description>Rychlost, jakou štít získává energii, pokud není rozbitý.</EnergyShieldRechargeRate.description>
+  <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
+
+  <SmokepopBeltRadius.label>Dosah opasku s kouř. clonou</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.description>Oblast, kterou zakryje kouř při detonaci opasku.</SmokepopBeltRadius.description>
+  <SmokepopBeltRadius.formatString>{0} buněk</SmokepopBeltRadius.formatString>
 
 
 </LanguageData>

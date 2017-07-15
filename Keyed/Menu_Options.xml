@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Audiovisuals -->
@@ -9,17 +9,18 @@
 
   <!-- Gameplay -->
   <EdgeScreenScroll>Posun u okraje obrazovky myší</EdgeScreenScroll>
-  <PauseOnLoad>Pauza po nahrání hry</PauseOnLoad>
+  <PauseOnLoad>Pauza po načtení hry</PauseOnLoad>
   <PauseOnUrgentLetter>Pauza při naléhavé zprávě</PauseOnUrgentLetter>
   <CustomCursor>Uživatelský kurzor</CustomCursor>
-  <UIScale>Měřítko uživ. rozhraní</UIScale>
+  <HatsShownOnlyOnMap>Odebrat klobouky na HUD</HatsShownOnlyOnMap>
+  <UIScale>Měřítko uživatelského rozhraní</UIScale>
   <KeyboardConfig>Nastavit rozložení kláves</KeyboardConfig>
   <ChooseLanguage>Vybrat jazyk</ChooseLanguage>
   <ResetAdaptiveTutor>Vynulovat výukového pomocníka</ResetAdaptiveTutor>
   <AdaptiveTutorIsReset>Lektor je vynulován. Všechny lekce se teď budeš učit znova od nuly.</AdaptiveTutorIsReset>
   <RunInBackground>Běh na pozadí</RunInBackground>
   <DevelopmentMode>Vývojářský režim</DevelopmentMode>
-  <ResetModsConfigOnCrash>Autonastavení modifikací při pádu</ResetModsConfigOnCrash>
+  <ResetModsConfigOnCrash>Autonastavení módů při pádu</ResetModsConfigOnCrash>
   <LogVerbose>Podrobné zaznamenávání</LogVerbose>
   <OpenSaveGameDataFolder>Otevřít složku s uloženými pozicemi</OpenSaveGameDataFolder>
   <NamesYouWantToSee>Jména hráčem vytvořených postav, které chceš vidět:</NamesYouWantToSee>
@@ -27,21 +28,28 @@
   <TypeFirstNickOrLastName>Napiš křestní jméno, přezdívku nebo příjmení.</TypeFirstNickOrLastName>
   <MessageAlreadyPreferredName>Toto jméno již v seznamu upřednostňovaných je.</MessageAlreadyPreferredName>
   <ChangeStoryteller>Vybrat vypravěče</ChangeStoryteller>
-  <AutosaveInterval>Interval autoukládání</AutosaveInterval>
+  <AutosaveInterval>Interval autouložení</AutosaveInterval>
   <TemperatureMode>Teplotní režim</TemperatureMode>
   <ShowRealtimeClock>Ukazovat skutečný čas</ShowRealtimeClock>
   <MaxNumberOfPlayerHomes>Maximální počet kolonií: {0}</MaxNumberOfPlayerHomes>
   <PlantWindSway>Kývání rostlin ve větru</PlantWindSway>
   <MaxPermadeathAutosaveIntervalInfo>Maximální interval automatického ukládání v režimu trvalé smrti je {0} den.</MaxPermadeathAutosaveIntervalInfo>
+  <ModSettings>Nastavení módů</ModSettings>
 
   <!-- Resolution -->
   <Resolution>Rozlišení</Resolution>
   <Fullscreen>Celá obrazovka</Fullscreen>
 
-  <!-- Privacy-->
+  <!-- Privacy -->
   <Privacy>Soukromí</Privacy>
   <UserName>Uživatelské jméno</UserName>
   <ChooseHistoryUploadPref>Upřednostnění nahrávání herních dat</ChooseHistoryUploadPref>
   <AboutHistoryUpload>Herní data pomáhají vývojářům při ladění hry. Pokud souhlasíš, tvé informace budou zasílány každé {0} herní dny (a v několika ostatních výjimečných případech jako je konec hry) na server hry RimWorld a pak analyzovány. Nahraná herní data obsahují pouze statistiky a záznamy historie vztahující se ke hře - nejsou posílány žádné soukromé informace s výjimkou uživatelského jména, což znamená, že jsou naprosto anonymní.</AboutHistoryUpload>
-  
+
+  <!-- Mods -->
+  <SelectMod>Vybrat mód...</SelectMod>
+  <NoConfigurableMods>Nejsou načteny žádné nastavitelné módy.</NoConfigurableMods>
+
+  <!-- Privacy-->
+
 </LanguageData>

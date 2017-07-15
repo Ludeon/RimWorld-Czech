@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- [prisoner_possessive] jeho,její , [prisoner_objective] ho,ji , [prisoner_pronoun] -ý,-á,-é -->
 
   <Captured.label>zajmutí osoby</Captured.label>
   <Captured.rulePack.rulesStrings.0>tale_noun->tom, jak byla zatčena osoba, která se jmenuje [prisoner_nameShortDef]</Captured.rulePack.rulesStrings.0>
@@ -43,7 +41,7 @@
 
   <Hunted.label>ulovení zvířete</Hunted.label>
   <Hunted.rulePack.rulesStrings.0>tale_noun->tom, jak [hunter_nameShortDef] úspěšně uloví zvíře</Hunted.rulePack.rulesStrings.0>
-  <Hunted.rulePack.rulesStrings.1>image->zvíře, konkrétně [prey_nameFull], je loveno osobou, která se jmenuje [hunter_nameFull], přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.1>
+  <Hunted.rulePack.rulesStrings.1>image->zvíře, konkrétně [prey_nameFull], je lovené osobou, která se jmenuje [hunter_nameFull], přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.1>
   <Hunted.rulePack.rulesStrings.2>image->[hunter_nameFull] sleduje zvíře, v tomto případě to je [prey_nameFull], z bezpečné vzdálenosti, přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.2>
   <Hunted.rulePack.rulesStrings.3>image->[hunter_nameFull] loví zvíře, kterým je [prey_nameFull], přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.3>
   <Hunted.rulePack.rulesStrings.4>circumstance_phrase->[prey_nameShortDef] odpočívá</Hunted.rulePack.rulesStrings.4>
@@ -60,7 +58,7 @@
   <DidSurgery.rulePack.rulesStrings.3>image->[surgeon_nameFull] provádí řez na osobě, která se jmenuje [patient_nameFull], během chirurgického zákroku, přičemž [circumstance_group]</DidSurgery.rulePack.rulesStrings.3>
   <DidSurgery.rulePack.rulesStrings.4>circumstance_phrase->se operovaná osoba třese strachem</DidSurgery.rulePack.rulesStrings.4>
   <DidSurgery.rulePack.rulesStrings.5>circumstance_phrase->[surgeon_nameShortDef] stojí v kaluži krve</DidSurgery.rulePack.rulesStrings.5>
-  <DidSurgery.rulePack.rulesStrings.6>circumstance_phrase->je operovaná osoba obklopena desivě vypadajícími chirurgickými nástroji</DidSurgery.rulePack.rulesStrings.6>
+  <DidSurgery.rulePack.rulesStrings.6>circumstance_phrase->je operovaná osoba obklopena děsivě vypadajícími chirurgickými nástroji</DidSurgery.rulePack.rulesStrings.6>
   <DidSurgery.rulePack.rulesStrings.7>circumstance_phrase->je osoba operovaná s improvizovanými, ale zato efektivními nástroji</DidSurgery.rulePack.rulesStrings.7>
   <DidSurgery.rulePack.rulesStrings.8>desc_sentence->[surgeon_nameShortDef] se během zákroku nadměrně potí.</DidSurgery.rulePack.rulesStrings.8>
   <DidSurgery.rulePack.rulesStrings.9>desc_sentence->[surgeon_nameShortDef] se nesmírně soustředí na svůj úkol.</DidSurgery.rulePack.rulesStrings.9>
@@ -109,7 +107,7 @@
   <KidnappedColonist.rulePack.rulesStrings.11>desc_sentence->Zdá se, že [victim_nameShortDef] veškeré snahy o úprk naprosto vzdává.</KidnappedColonist.rulePack.rulesStrings.11>
   <KidnappedColonist.rulePack.rulesStrings.12>desc_sentence->[victim_nameShortDef] má zavřené oči a vypadá, že se snaží modlit za zásah vyšší moci.</KidnappedColonist.rulePack.rulesStrings.12>
   <KidnappedColonist.rulePack.rulesStrings.13>desc_sentence->[victim_nameShortDef] je připraven[victim_pronoun] vzdorovat.</KidnappedColonist.rulePack.rulesStrings.13>
-  <KidnappedColonist.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef] kříčí vztekle hrůzou.</KidnappedColonist.rulePack.rulesStrings.14>
+  <KidnappedColonist.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef] křičí vztekle hrůzou.</KidnappedColonist.rulePack.rulesStrings.14>
   <KidnappedColonist.rulePack.rulesStrings.15>desc_sentence->Zdá se, že [victim_nameShortDef] je zcela zničen[victim_pronoun] a vyčerpan[victim_pronoun].</KidnappedColonist.rulePack.rulesStrings.15>
   <KidnappedColonist.rulePack.rulesStrings.16>desc_sentence->Zdá se, že [victim_nameShortDef] je těžce zraněn[victim_pronoun].</KidnappedColonist.rulePack.rulesStrings.16>
 
@@ -156,7 +154,7 @@
   <KilledBy.rulePack.rulesStrings.23>desc_sentence->Zdá se, že [killer_nameShortDef] vypadá spokojeně s touto situací.</KilledBy.rulePack.rulesStrings.23>
   <KilledBy.rulePack.rulesStrings.24>desc_sentence->Zdá se, že [killer_nameShortDef] se cítí jako vítěz.</KilledBy.rulePack.rulesStrings.24>
 
-  <SoldPrisoner.label>prodání věžně</SoldPrisoner.label>
+  <SoldPrisoner.label>prodání vězně</SoldPrisoner.label>
   <SoldPrisoner.rulePack.rulesStrings.0>tale_noun->tom, jak kolonie prodala otrokářům vězně, který je známý jako [prisoner_nameShortDef]</SoldPrisoner.rulePack.rulesStrings.0>
   <SoldPrisoner.rulePack.rulesStrings.1>image->[trader_nameFull] kupuje vězně, který se jmenuje [prisoner_nameFull], od osoby, která je známá jako [seller_nameFull], přičemž [circumstance_group]</SoldPrisoner.rulePack.rulesStrings.1>
   <SoldPrisoner.rulePack.rulesStrings.2>image->[seller_nameFull] prodává vězně, který se jmenuje [prisoner_nameFull], otrokáři, který si říká [trader_nameFull], přičemž [circumstance_group]</SoldPrisoner.rulePack.rulesStrings.2>
@@ -205,7 +203,7 @@
   <TrainedAnimal.rulePack.rulesStrings.25>desc_sentence->[animal_nameShortDef] reprezentuje hromadu vražedného elektrického nářadí.</TrainedAnimal.rulePack.rulesStrings.25>
   <TrainedAnimal.rulePack.rulesStrings.26>desc_sentence->[animal_nameShortDef] má na jedné polovině těla [color]ou a na druhé polovině [color]ou barvu.</TrainedAnimal.rulePack.rulesStrings.26>
   <TrainedAnimal.rulePack.rulesStrings.27>desc_sentence->[animal_nameShortDef] má pokryté tělo šupinami.</TrainedAnimal.rulePack.rulesStrings.27>
-  <TrainedAnimal.rulePack.rulesStrings.28>desc_sentence->[human_nameShortDef] má na obraze [quantity] ruk.</TrainedAnimal.rulePack.rulesStrings.28>
+  <TrainedAnimal.rulePack.rulesStrings.28>desc_sentence->[human_nameShortDef] má na obraze [quantity] rukou.</TrainedAnimal.rulePack.rulesStrings.28>
   <TrainedAnimal.rulePack.rulesStrings.29>desc_sentence->[human_nameShortDef] vypadá jako nějaké zvíře.</TrainedAnimal.rulePack.rulesStrings.29>
 
   <KilledColonist.label>zabití člena kolonie</KilledColonist.label>
@@ -227,5 +225,7 @@
   <TradedWith.rulePack.rulesStrings.11>desc_sentence->[seller_nameShortDef] přepočítává své peníze.</TradedWith.rulePack.rulesStrings.11>
   <TradedWith.rulePack.rulesStrings.12>desc_sentence->[buyer_nameShortDef] předává prodané zboží.</TradedWith.rulePack.rulesStrings.12>
 
+
+  <!-- [prisoner_possessive] jeho,její , [prisoner_objective] ho,ji , [prisoner_pronoun] -ý,-á,-é -->
 
 </LanguageData>

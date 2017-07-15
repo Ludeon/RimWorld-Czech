@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Main menu -->
-  <LearnToPlay>Tutoriál</LearnToPlay>
+  <!--=========== Main menu ==========-->
+  <Tutorial>Tutoriál</Tutorial>
   <NewColony>Nová kolonie</NewColony>
   <BackToGame>Zpátky do hry</BackToGame>
   <ReviewScenario>Přezkoumat scénář</ReviewScenario>
   <Save>Uložit hru</Save>
   <LoadGame>Načíst hru</LoadGame>
   <Options>Nastavení</Options>
-  <Mods>Modifikace</Mods>
+  <Mods>Módy</Mods>
   <Credits>Tvůrci</Credits>
   <QuitToMainMenu>Odejít do hl. nabídky</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Uložit a do hl. nabídky</SaveAndQuitToMainMenu>
@@ -25,12 +25,11 @@
   <BuySoundtrack>Koupit Soundtrack</BuySoundtrack>
   <CreateWorld>Vytvořit svět</CreateWorld>
 
-  <!-- Create/review world -->
-
+  <!--=========== Create/review world ================-->
   <ReviewWorld>Mapa světa</ReviewWorld>
   <WorldGenerate>Vygenerovat</WorldGenerate>
   <WorldSaveAndFinish>Uložit a ukončit</WorldSaveAndFinish>
-  <Reset>Znovu nastavit</Reset>
+  <Reset>Resetovat</Reset>
   <PlanetCoverage>Pokrytí světa</PlanetCoverage>
   <PlanetRainfall>Celkové množství srážek</PlanetRainfall>
   <PlanetTemperature>Celková teplota</PlanetTemperature>
@@ -43,30 +42,27 @@
   <WorldSeed>Základ</WorldSeed>
   <RandomizeSeed>Náhodný základ</RandomizeSeed>
   <PlanetCoverageTip>Planeta má vždy stejný průměr, ale protože je mnohem větší, než je pro hru nutné, nebudeme vytvářet celý povrch, protože by to mohlo trvat velmi dlouhou dobu. Toto je procento z plochy, kterou chceš vytvořit.</PlanetCoverageTip>
-  
-  <!-- Select world -->
+  <WorldFactionsTab>Frakce</WorldFactionsTab>
 
+  <!--=========== Select world ===================-->
   <SelectWorld>Vybrat svět</SelectWorld>
   <WorldChooseButton>Vybrat</WorldChooseButton>
   <NoWorldsFilesFound>Nenalezena žádná data světa. Nejdříve vytvoř nový svět.</NoWorldsFilesFound>
 
-  <!-- Version info -->
-
+  <!--=========== Version info ==========-->
   <BuildNowAvailable>Je dostupná verze {0}. Na Ludeon.com najdeš další informace.</BuildNowAvailable>
   <BuildUpToDate>Tato verze je aktuální.</BuildUpToDate>
   <ErrorGettingVersionInfo>Při pokusu o ověření verze se vyskytla chyba: {0}</ErrorGettingVersionInfo>
   <LoadingVersionInfo>Nahrávám informace o verzi...</LoadingVersionInfo>
 
-  <!-- World generator -->
-
+  <!--=========== World generator =========-->
   <GenerateWorld>Vygenerovat svět</GenerateWorld>
 
-  <!-- Mods config -->
-
+  <!--=========== Mods config ==========-->
   <OpenSteamWorkshop>Otevřít Steam Workshop</OpenSteamWorkshop>
-  <GetModsFromForum>Získat modifikace z fóra</GetModsFromForum>
-  <OpenModsDataFolder>Otevřít složku s modofikacemi</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Jsi si jistý, že chceš deaktivovat jádro hry? Hra nebude fungovat, dokud nebudeš mít jiné modifikace, které nahradí VŠECHNY funkce jádra.\n\nRada: jiné modifikace mohou přepsat Defs jádra, pokud používají stejné jméno Def.</ConfirmDisableCoreMod>
+  <GetModsFromForum>Získat módy z fóra</GetModsFromForum>
+  <OpenModsDataFolder>Otevřít složku s módy</OpenModsDataFolder>
+  <ConfirmDisableCoreMod>Jsi si jistý, že chceš deaktivovat jádro hry? Hra nebude fungovat, dokud nebudeš mít jiné módy, které nahradí VŠECHNY funkce jádra.\n\nRada: jiné módy mohou přepsat Defs jádra, pokud používají stejné jméno Def.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Jsi si jistý, že chceš smazat všechna data z {0}?</ConfirmDeleteMod>
   <Unsubscribe>Odhlásit odběr</Unsubscribe>
   <ConfirmUnsubscribe>Jsi si jistý, že chceš odhlásit odběr z {0}?</ConfirmUnsubscribe>
@@ -80,21 +76,19 @@
   <Downloading>Nahráváme</Downloading>
   <Source>Zdroj</Source>
   <ModTargetVersion>Pro verzi: {0}</ModTargetVersion>
-  <ModNotMadeForThisVersion>Tato modifikace není určena pro aktuální verzi RimWorldu a pravděpodobně nebude správně fungovat.</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Tato modifikace vyžaduje cílovou verzi ve správném formátu v souboru About.xml. Měla by vypadat nějak takto: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
-    <DragToReorder>Přetáhni pro změnu pořadí</DragToReorder>
-	
+  <ModNotMadeForThisVersion>Tento mód není určen pro aktuální verzi RimWorldu a pravděpodobně nebude správně fungovat.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Tento mód vyžaduje cílovou verzi ve správném formátu v souboru About.xml. Měla by vypadat nějak takto: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Přetáhni pro změnu pořadí</DragToReorder>
+
   <!--=========== Select scenario =============-->
-  
   <ChooseScenario>Vybrat scénář</ChooseScenario>
   <ScenariosCustom>Přizpůsobit</ScenariosCustom>
   <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
   <ScenarioEditor>Editor scénáře</ScenarioEditor>
   <Delete>Smazat</Delete>
-  
+
   <!--============ Scenario editor ===============-->
-  
-  <Seed>Zdroj</Seed>
+  <Seed>Základ</Seed>
   <Load>Načíst</Load>
   <EditMode>Režim úprav</EditMode>
   <Summary>Shrnutí</Summary>
@@ -105,17 +99,14 @@
   <Incompatible>Nekompatibilní</Incompatible>
   <TooMany>Příliš mnoho (max {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>Vzhledem k tomu, že autorem jsi ty, může toto být na Workshopu aktualizováno.</CanBeUpdatedOnWorkshop>
-  
 
-  <!-- Select storyteller -->
-
+  <!--=========== Select storyteller ==========-->
   <ChooseAIStoryteller>Vyber si UI vypravěče</ChooseAIStoryteller>
-  <HowStorytellersWork>UI vypravěč vytváří události jako pirátské nájezdy, shozy surovin nebo útoky zvířat. Jejich rozhodnutí budou ovlivňovat osudy kolonie. Toto nastavení můžeš kdykoliv změnit.</HowStorytellersWork>
+  <HowStorytellersWork>UI vypravěč vytváří události jako pirátské nájezdy, shony surovin nebo útoky zvířat. Jejich rozhodnutí budou ovlivňovat osudy kolonie. Toto nastavení můžeš kdykoliv změnit.</HowStorytellersWork>
   <MustChooseDifficulty>Zvol si nastavení obtížnosti, prosím.</MustChooseDifficulty>
   <Difficulty>Obtížnost</Difficulty>
 
-  <!-- Landing site select -->
-
+  <!--=========== Landing site select =========-->
   <SelectLandingSite>Zvol si místo přistání</SelectLandingSite>
   <SelectRandomSite>Vybrat náhodné místo</SelectRandomSite>
   <SelectSite>Vybrat místo</SelectSite>
@@ -123,9 +114,14 @@
   <CannotLandBiome>V tomto biomu nemůžeš přistát: {0}</CannotLandBiome>
   <BiomeNotImplemented>Biom není dostupný</BiomeNotImplemented>
   <CannotLandImpassableMountains>Nemůžeš přistát v neprůchodných horách.</CannotLandImpassableMountains>
-  <BaseAlreadyThere>Tam už mají základnu {0}.</BaseAlreadyThere>
+  <BaseAlreadyThere>Zde už má základnu frakce {0}.</BaseAlreadyThere>
+  <YourBaseAlreadyThere>Už zde máš základnu.</YourBaseAlreadyThere>
+  <TileOccupied>Toto políčko je již obsazeno.</TileOccupied>
+  <FactionBaseAdjacent>Osady nemohou spolu přímo sousedit.</FactionBaseAdjacent>
   <Biome>Biom</Biome>
   <Terrain>Krajina</Terrain>
+  <Road>Silnice</Road>
+  <River>Řeka</River>
   <Elevation>Nadmořská výška</Elevation>
   <Fertility>Úrodnost</Fertility>
   <AvgTemp>Průměrná teplota</AvgTemp>
@@ -142,9 +138,10 @@
   <MovementTimeNow>Aktuální posun hodin</MovementTimeNow>
   <MovementTimeSummer>Letní čas</MovementTimeSummer>
   <MovementTimeWinter>Zimní čas</MovementTimeWinter>
+  <AnimalsCanGrazeNow>Zvířata se nyní mohou pást</AnimalsCanGrazeNow>
 
-  <!-- Character chooser -->
 
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Vytvořit postavy</CreateCharacters>
   <FirstNameDesc>Křestní jméno postavy.\n\nToto jméno se bude zobrazovat jen v určitých nabídkách.</FirstNameDesc>
   <ShortIdentifierDesc>Přezdívka postavy.\n\nToto jméno se bude zobrazovat vždy. Může být stejné jako křestní nebo příjmení, nebo i naprosto odlišné zcela jiná přezdívka.</ShortIdentifierDesc>
@@ -165,23 +162,20 @@
   <Health>Zdraví</Health>
   <Relations>Vztahy</Relations>
 
-  <!-- Misc -->
-
+  <!--=========== Misc ==========-->
   <Start>Zahájit</Start>
-  <Advanced>Rozšířené</Advanced>
+  <Advanced>Pokročilé</Advanced>
   <Next>Další</Next>
   <Back>Zpět</Back>
-
   <Gameplay>Hratelnost</Gameplay>
-
   <ConfirmQuit>Jsi si jistý, že chceš skončit?\nNeuložený postup bude ztracen.</ConfirmQuit>
-
   <EveryoneNeedsValidName>Každá osoba musí mít platné jméno.</EveryoneNeedsValidName>
   <Quit>Odejít</Quit>
   <Ignore>Ignorovat</Ignore>
-  
+
   <!--============ Progress bar==============-->
   <GeneratingWorld>Vytvářím svět</GeneratingWorld>
+  <GeneratingPlanet>Vytvářím planetu</GeneratingPlanet>
   <GeneratingMap>Vytvářím mapu</GeneratingMap>
   <GeneratingMapForNewEncounter>Vytvářím mapu pro nová setkání</GeneratingMapForNewEncounter>
 

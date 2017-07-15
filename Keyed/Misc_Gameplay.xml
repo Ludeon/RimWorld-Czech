@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Various -->
+  <HitPointsBasic>životnost</HitPointsBasic>
   <WorkLeft>Zbývá práce</WorkLeft>
   <Contents>Obsahuje</Contents>
   <ContainedResources>Obsažené suroviny</ContainedResources>
   <ForPrisonerUse>Pro vězně</ForPrisonerUse>
   <ForColonistUse>Pro kolonisty</ForColonistUse>
-  <MedicalBed>Lékařská</MedicalBed>
-  <Owner>Majitel</Owner>
-  <Owners>Majitelé</Owners>
+  <MedicalBed>Zdravotnická</MedicalBed>
+  <Owner>Vlastník</Owner>
+  <Owners>Vlastníci</Owners>
   <AssignedColonist>Přidělený kolonista</AssignedColonist>
   <Nobody>Nikdo</Nobody>
   <Unowned>Bez vlastníka</Unowned>
-  <DeadTime>{0} po smrti.</DeadTime>
+  <DeadTime>Po smrti {0}.</DeadTime>
   <WalkSpeed>rychlost chůze {0}</WalkSpeed>
   <FertShort>úrodnost půdy</FertShort>
   <DyingLower>umírá</DyingLower>
@@ -24,7 +25,7 @@
   <FreshMissingBodyPart>čerstvé</FreshMissingBodyPart>
   <DevelopedImmunityLower>vyvinula se imunita</DevelopedImmunityLower>
   <NeedsTendingNow>Potřebuje ošetření</NeedsTendingNow>
-  <NextTreatmentIn>Bude potřebovat ošetření za {0}</NextTreatmentIn>
+  <NextTendIn>Bude potřebovat ošetření za {0}</NextTendIn>
   <MissingMedicalBillIngredient>chybí {0}</MissingMedicalBillIngredient>
   <Immunity>Imunita</Immunity>
   <Race>Rasa</Race>
@@ -37,11 +38,11 @@
   <Rename>Přejmenovat</Rename>
   <RenameColonist>Přejmenovat kolonistu</RenameColonist>
   <UnknownLower>neznámý</UnknownLower>
-  <On>Zap</On>
-  <Off>Vyp</Off>
+  <On>Zapnuto</On>
+  <Off>Vypnuto</Off>
   <PowerSwitch_Power>Napájení</PowerSwitch_Power>
   <JoyTolerances>Tolerance radosti</JoyTolerances>
-  <MilkFullness>Naplnění mlékem</MilkFullness>
+  <MilkFullness>Naplněná mlékem</MilkFullness>
   <WoolGrowth>Růst srsti</WoolGrowth>
   <EggProgress>Tvorba vejce</EggProgress>
   <Fertilized>Oplodněná</Fertilized>
@@ -49,10 +50,10 @@
   <SkillTooLow>vyžaduje {0} na úrovni {2}, máš {1}</SkillTooLow>
   <Freezing>Mrzne</Freezing>
   <Overheating>Přehřátí</Overheating>
-  <RuinedByTemperature>Zničený teplotou.</RuinedByTemperature>
+  <RuinedByTemperature>Zničené teplotou.</RuinedByTemperature>
   <CorpsePercentMissing>Chybějící části těla</CorpsePercentMissing>
-  <HiveReproducesIn>Množí se</HiveReproducesIn>
-  <BrokenDown>Zlomený</BrokenDown>
+  <HiveReproducesIn>Rozmnoží se za</HiveReproducesIn>
+  <BrokenDown>Rozbité</BrokenDown>
   <BondBrackets>(pouto)</BondBrackets>
   <Fuel>Palivo</Fuel>
   <FuelLevelGizmoLabel>Palivo</FuelLevelGizmoLabel>
@@ -63,34 +64,36 @@
   <TimePassed>uplynulý čas</TimePassed>
   <CurrentRadius>současný poloměr</CurrentRadius>
   <RadiusExpandsIn>poloměr se zvětší za</RadiusExpandsIn>
-  <Permanent>trvalý</Permanent>
+  <Permanent>trvalé</Permanent>
   <CaravanResting>Odpočívá.</CaravanResting>
-  <CaravanEstimatedTimeToDestination>Odhadovaný čas do cíle: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Zbývající čas do cíle: {0} dnů</CaravanEstimatedTimeToDestination>
   <CaravanImmobilizedByMass>Nepojízdná: přetížena.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Došly potraviny.</CaravanOutOfFood>
   <CaravanDaysOfFood>Zásoby potravin na: {0} dnů</CaravanDaysOfFood>
+  <CaravanDaysOfFoodRot>Zásoby potravin na: {0}, zkazí se za {1} dnů</CaravanDaysOfFoodRot>
   <CaravanMemberMentalBreak>Zastavila kvůli: {0} se psychicky zhroutil.</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>Zastavila kvůli: všichni mrtví.</AllCaravanMembersDowned>
+  <AllCaravanMembersMentalBreak>Zastavila kvůli: všichni jsou psychicky zhroucení.</AllCaravanMembersMentalBreak>
   <CaravanTraveling>Cestuje.</CaravanTraveling>
   <CaravanWaiting>Čeká.</CaravanWaiting>
   <CaravanHoursPerTile>h/políčko</CaravanHoursPerTile>
   <CaravanBaseMovementTime>Základní pohyblivost</CaravanBaseMovementTime>
-  <CurrentTileMovementTime>Současna pohyblivost na políčko</CurrentTileMovementTime>
+  <CurrentTileMovementTime>Aktuální pohyblivost na políčko</CurrentTileMovementTime>
   <Temperature>Teplota</Temperature>
   <BadTemperature>špatná teplota</BadTemperature>
   <IdealFermentingTemperature>Ideální teplota kvašení</IdealFermentingTemperature>
-  <DrugEffectMultiplier>{0} násobitel účinku</DrugEffectMultiplier>
-  <CaravanVisiting>Navštěvuje {0}.</CaravanVisiting>
-  <CaravanEntering>Vstupuje {0}.</CaravanEntering>
-  <CaravanAttacking>Útočí {0}.</CaravanAttacking>
+  <DrugEffectMultiplier>Násobitel účinku ({0}): {1}</DrugEffectMultiplier>
+  <CaravanVisiting>Navštěvuje: {0}</CaravanVisiting>
+  <CaravanEntering>Vstupuje do: {0}</CaravanEntering>
+  <CaravanAttacking>Útočí na: {0}</CaravanAttacking>
   <WasWornByCorpse>Svlečeno z mrtvoly.</WasWornByCorpse>
   <WornByCorpseChar>D</WornByCorpseChar>
   <DeterioratingDueToBeingUnroofed>Zhoršuje se, protože není pod střechou.</DeterioratingDueToBeingUnroofed>
   <Map>Mapa</Map>
-  <ForceExitAndRemoveMapCountdown>{0} hodin do odchodu</ForceExitAndRemoveMapCountdown>
-  <ForceExitAndRemoveMapCountdownTip>Tví kolonisté automaticky shromáždí karavanu a opustí tuto oblast po {0} hodinách.</ForceExitAndRemoveMapCountdownTip>
-  <Room>Pokoj</Room>
-  <BeautyHere>Krása prostředí je zde</BeautyHere>
+  <ForceExitAndRemoveMapCountdown>{0} do odchodu</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>Tví kolonisté automaticky shromáždí karavanu a opustí tuto oblast za: {0}.</ForceExitAndRemoveMapCountdownTip>
+  <Room>Místnost</Room>
+  <BeautyHere>Vzhled prostředí v tomto místě</BeautyHere>
   <NoPower>Bez elektřiny</NoPower>
   <WorkSpeedPenalty>Postih k rychlosti práce</WorkSpeedPenalty>
   <DisabledCommand>VYPNUTO</DisabledCommand>
@@ -101,20 +104,40 @@
   <TransportPodInGroupHasSomethingLeftToLoad>probíhá nakládání</TransportPodInGroupHasSomethingLeftToLoad>
   <TransportPodDestinationBeyondMaximumRange>Mimo maximální dosah</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>Nedostatek paliva</TransportPodNotEnoughFuel>
-  <FactionBaseTrader>{0} z {1}</FactionBaseTrader>
-  
+  <SettlementTrader>{0} z frakce {1}</SettlementTrader>
+  <RoomSurgerySuccessChanceFactor>Šance na úspěšnou operaci v této místnosti</RoomSurgerySuccessChanceFactor>
+  <RoomInfectionChanceFactor>Šance na náchylnost k infekci v této místnosti</RoomInfectionChanceFactor>
+  <VentClosed>Uzavřena</VentClosed>
+  <WornBy>opotřebeno od {0}</WornBy>
+  <EquippedBy>vybaveno od {0}</EquippedBy>
+  <QuestTargetDestroyInspectString>{0} to chce zničit.\n    Odměna: {1}.</QuestTargetDestroyInspectString>
+  <WorldObjectTimeout>Zbývající čas: {0}</WorldObjectTimeout>
+  <LongRangeMineralScannerEfficiency>Účinnost: {0}</LongRangeMineralScannerEfficiency>
+  <ItemStashContents>Obsahuje: {0}.</ItemStashContents>
+  <SomeItemStashContents>Obsahuje pár věcí: {0}.</SomeItemStashContents>
+  <ClickToSortByThisColumn>Kliknutím seřadit dle tohoto sloupce.</ClickToSortByThisColumn>
+  <WorkPriorityShiftClickTip>Shift + Klik: Zvýšit prioritu (všem)\nShift + Pravý klik: Snížit prioritu (všem)</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + Klik: Povolit vše\nShift + Pravý klik: Vypnout vše</WorkPriorityShiftClickEnableDisableTip>
+  <AllowedAreaShiftClickTip>Shift + Klik: Nastavit všem Domovská oblast\nShift + Pravý klik: Nastavit všem Bez omezení</AllowedAreaShiftClickTip>
+  <CheckboxShiftClickTip>Shift + Klik: Označit vše\nShift + Pravý klik: Zrušit vše</CheckboxShiftClickTip>
+  <KnownSiteThreat>Hrozba: {0}.</KnownSiteThreat>
+  <KnownSiteThreats>Hrozby: {0}.</KnownSiteThreats>
+  <KnownSiteThreatsNone>Hrozby: žádné.</KnownSiteThreatsNone>
+
   <!-- Fermentation barrel -->
   <ContainsWort>Obsahuje {0} / {1} mladiny.</ContainsWort>
   <ContainsBeer>Obsahuje {0} / {1} piva.</ContainsBeer>
-  <Fermented>Zkvašeno</Fermented>
+  <Fermented>Zkvašené</Fermented>
   <FermentationProgress>Pokrok: {0} (zbývá {1})</FermentationProgress>
   <FermentationBarrelOutOfIdealTemperature>Teplota není ideální. Rychlosti kvašení: {0}</FermentationBarrelOutOfIdealTemperature>
-  
+
   <!--TextMotes-->
   <Headshot>Trefa do hlavy</Headshot>
   <TextMote_TreatSuccess>Úspěšná léčba!\nšance {0}</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Léčba neúspěšná\nšance {0}</TextMote_TreatFailed>
-  <HarvestFailed>Sklizení\nneúspěšné</HarvestFailed>
+  <TextMote_HarvestFailed>Sklizení\nneúspěšné</TextMote_HarvestFailed>
+  <TextMote_YieldWasted>Výtěžek\npromarněné</TextMote_YieldWasted>
+  <TextMote_ProductWasted>Produkt\npromarněné</TextMote_ProductWasted>
   <TextMote_RecruitFail>Verbování neúspěšné!\nšance {0}</TextMote_RecruitFail>
   <TextMote_TameFail>Ochočení neúspěšné\nšance {0}</TextMote_TameFail>
   <TextMote_TameSuccess>Ochočen!\nšance {0}</TextMote_TameSuccess>
@@ -122,6 +145,8 @@
   <TextMote_TrainSuccess>Vycvičen: {0}\nšance {1}</TextMote_TrainSuccess>
   <TextMote_FixBrokenDownBuildingFail>Oprava\nneúspěšná</TextMote_FixBrokenDownBuildingFail>
   <TextMote_ConstructionFail>Výstavba\nneúspěšná</TextMote_ConstructionFail>
+  <TextMote_Dodge>Úhyb</TextMote_Dodge>
+  <TextMote_Tended>{0} ošetřen</TextMote_Tended>
 
   <!-- Areas -->
   <Home>Domovská</Home>
@@ -134,27 +159,27 @@
   <NewArea>Nová oblast</NewArea>
   <NewAreaAnimal>Nová oblast pro zvířata</NewAreaAnimal>
   <InvertArea>Převrátit</InvertArea>
-  
+
   <!-- Control -->
   <CannotOrderNonControlled>Nemůžeš dávat příkazy jednotkám, které neovládáš.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} není schopen násilí.</IsIncapableOfViolence>
   <IsIncapableOfViolenceShort>neschopen násilí</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0} není naverbován.</IsNotDrafted>
-  
+
   <!-- Snow -->
   <SnowNone>Bez sněhu</SnowNone>
   <SnowDusting>Sníh (poprašek)</SnowDusting>
   <SnowThin>Sníh (tenká vrstva)</SnowThin>
   <SnowMedium>Sníh (střední vrstva)</SnowMedium>
   <SnowThick>Sníh (silná vrstva)</SnowThick>
-  
+
   <!-- Turrets -->
-  <GunInstalled>Postavená</GunInstalled>
+  <GunInstalled>Nainstalován</GunInstalled>
   <MinimumRange>Minimální dostřel</MinimumRange>
   <CanFireIn>Může střílet za</CanFireIn>
   <ShellLoaded>Granát v komoře</ShellLoaded>
   <ShellNotLoaded>Nenabito</ShellNotLoaded>
-  
+
   <!-- Job reports -->
   <ReportHaulingTo>přenáší {0} do {1}.</ReportHaulingTo>
   <ReportHauling>přenáší {0}.</ReportHauling>
@@ -171,12 +196,13 @@
   <ReportStanding>stojí.</ReportStanding>
   <ReportExtinguishingFire>hasí oheň.</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>hasí oheň na {0}.</ReportExtinguishingFireOn>
-  
+
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Účastní se svatebního obřadu</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>Účastní se večírku</LordReportAttendingParty>
-  
-	<!-- Shooting report -->
+  <LordReportFormingCaravan>Formování karavany</LordReportFormingCaravan>
+
+  <!-- Shooting report -->
   <WeaponMissRadius>Okruh minutí zbraně</WeaponMissRadius>
   <ShootReportShooterAbility>Střelec</ShootReportShooterAbility>
   <ShootReportWeapon>Zbraň</ShootReportWeapon>
@@ -188,13 +214,15 @@
   <CoverThingBlocksPercentOfShots>{0} zastaví {1}</CoverThingBlocksPercentOfShots>
   <NoCoverLower>bez krytí</NoCoverLower>
   <Execution>Poprava</Execution>
-	
+
   <!-- Generated recipes -->
   <RecipeMake>vyrob {0}</RecipeMake>
   <RecipeMakeJobString>Vyrábí {0}.</RecipeMakeJobString>
   <RecipeAdminister>poskytnout {0}</RecipeAdminister>
   <RecipeAdministerJobString>Poskytuje {0}.</RecipeAdministerJobString>
-  
+  <TeetotalerUnhappy>abstinent bude nešťastný</TeetotalerUnhappy>
+  <ProsthophobeUnhappy>prostý člověk bude nešťastný</ProsthophobeUnhappy>
+
   <!-- Thoughts -->
   <ThoughtExpiresIn>Expiruje za: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>Začne expirovat za: {0}</ThoughtStartsExpiringIn>
@@ -213,23 +241,25 @@
   <Dead>Mrtvý</Dead>
   <Unconscious>V bezvědomí</Unconscious>
   <PainShock>V šoku z bolesti</PainShock>
+  <PainShockShort>V šoku</PainShockShort>
   <Incapacitated>Zneschopněný</Incapacitated>
   <InRestraints>V poutech (zpomalený pohyb)</InRestraints>
   <Carrying>Nese</Carrying>
+  <AffectedBy>Ovlivněný od:</AffectedBy>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\nKlávesová zkratka: {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
   <DefInfoTip>Zobrazit informace o tomto objektu.</DefInfoTip>
-  
+
   <!-- Hostility response -->
   <HostilityReponseTip>Změnit, jak bude kolonista reagovat na blízké nepřátele, když nebude ve vojenském náboru.</HostilityReponseTip>
   <HostilityResponseCurrentMode>Současný režim</HostilityResponseCurrentMode>
-  
-	<!-- like 'Blood of John' -->
-	<OfLower>z</OfLower>
 
-	<!-- Power readout -->
-	<PowerNotConnected>Není připojeno napájení.</PowerNotConnected>
+  <!-- like 'Blood of John' -->
+  <OfLower>z</OfLower>
+
+  <!-- Power readout -->
+  <PowerNotConnected>Není připojeno napájení.</PowerNotConnected>
   <PowerConnectedRateStored>Připojený výkon/uloženo: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>Potřebný příkon</PowerNeeded>
   <PowerOutput>Výstupní výkon</PowerOutput>
@@ -241,17 +271,17 @@
   <PowerConsumptionMode>Současná spotřeba energie</PowerConsumptionMode>
   <PowerConsumptionHigh>vysoká</PowerConsumptionHigh>
   <PowerConsumptionLow>nízká</PowerConsumptionLow>
-  
+
   <!-- Temperature readout -->
   <Indoors>Uvnitř</Indoors>
   <IndoorsUnroofed>Nezastřešeno</IndoorsUnroofed>
   <Outdoors>Venku</Outdoors>
-  
+
   <!--Rotting-->
-	<RotStateFresh>Čerstvé</RotStateFresh>
-	<RotStateRotting>Hnijící</RotStateRotting>
-	<RotStateDessicated>Vysušené</RotStateDessicated>
-	
+  <RotStateFresh>Čerstvé</RotStateFresh>
+  <RotStateRotting>Hnijící</RotStateRotting>
+  <RotStateDessicated>Vysušené</RotStateDessicated>
+
   <!-- Shooting tooltip -->
   <ShotBy>Šance na zásah</ShotBy>
   <CannotHit>nelze zasáhnout cíl.</CannotHit>
@@ -260,9 +290,9 @@
   <CurrentlyFrozen>Mražené (nezkazí se)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Nechlazené (zkazí se za {0})</NotRefrigerated>
-  <OverADecade>Více než deset let</OverADecade>
-  <LessThanADay>Méně než jeden den</LessThanADay>
-  
+  <OverADecade>více než deset let</OverADecade>
+  <LessThanADay>méně než jeden den</LessThanADay>
+
   <!-- Meal -->
   <Ingredients>Složení</Ingredients>
 
@@ -292,13 +322,13 @@
   <AllowAll>Povolit vše</AllowAll>
 
   <!-- ThingFilter -->
-	<HitPoints>Rozsah stavu životnosti {0}</HitPoints>
-	<AnyQuality>jakákoliv kvalita</AnyQuality>
-	<OnlyQuality>Pouze {0}</OnlyQuality>
+  <HitPoints>Rozsah stavu životnosti {0}</HitPoints>
+  <AnyQuality>jakákoliv kvalita</AnyQuality>
+  <OnlyQuality>Pouze {0}</OnlyQuality>
 
-	<!-- Mouseover indicator -->
+  <!-- Mouseover indicator -->
   <Undiscovered>Neobjevené</Undiscovered>
-  
+
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>Přepne viditelnost výukového pomocníka, když je prázdný.\n\nPokud je dostupná látka k výuce, je výukový pomocník viditelný vždy. Tento přepínač ho skryje, pokud není aktivní žádná látka k výuce.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Přepnout viditelnost oblastí.</ZoneVisibilityToggleButton>
@@ -317,9 +347,9 @@
   <FireOn>Oheň na {0}</FireOn>
   <Burning>Hoří</Burning>
   <FireSizeLower>velikost ohně {0}</FireSizeLower>
- 
-  <!-- Map conditions -->
-  <MapConditionsTip>Zvláštní podmínky, které právě teď ovlivňují oblast.</MapConditionsTip>
+
+  <!-- Game conditions -->
+  <GameConditionsTip>Zvláštní podmínky, které právě teď ovlivňují oblast.</GameConditionsTip>
   <TimeLeft>zbývající čas</TimeLeft>
   <ImpactDate>datum dopadu</ImpactDate>
 
@@ -334,15 +364,15 @@
   <MustPlaceOnSteamGeyser>Musí být umístěno přímo na gejzír páry.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Horká i studená strana klimatizace musí zůstat volná.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Obě strany musí zůstat volné, aby jimi mohl procházet vzduch.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Musí být umístěn tak,aby na všech tranách bylo volné místo.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>Musí být umístěn tak, aby na všech stranách bylo volné místo.</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>Musí být umístěn hned vedle doplňovače paliva u odpalovací rampy.</MustPlaceNearFuelingPort>
-	
-	<!-- Wind Turbine -->
+
+  <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Překáží</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Překáží střecha</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Cryptosleep casket -->
-  <CasketContains>Je v ní</CasketContains>
+  <CasketContains>Obsah</CasketContains>
   <CasketWarning>Varování!\n\nNAME je tvůj poslední volně stojící kolonista! Jestli HIM necháš vstoupit do té komory, nebudeš schopný dál pokračovat v hraní. Určitě chceš i přesto pokračovat?</CasketWarning>
 
   <!-- Ship launch report -->
@@ -353,7 +383,7 @@
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>Použití Neurotrenéra u {0} zvýšilo dovednost {1} z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
-  
+
   <!-- Minification -->
   <Installed>Nainstalováno</Installed>
   <NotInstalled>Nenainstalováno</NotInstalled>
@@ -361,7 +391,7 @@
   <!-- Art -->
   <Title>Název</Title>
   <Untitled>Bez názvu</Untitled>
-  
+
   <!-- Unfinished thing -->
   <UnfinishedItem>{0} nedokončeno</UnfinishedItem>
   <UnfinishedItemWithStuff>{0} {1} nedokončeno</UnfinishedItemWithStuff>
@@ -370,16 +400,16 @@
   <Quality>Kvalita</Quality>
   <QualityDescription>Kvalita předmětu značí, jak dobře byl vyroben.</QualityDescription>
   <QualityIs>Kvalita: {0}</QualityIs>
-    
+
   <!-- Mood descriptions -->
   <Mood_MentalState>psychický stav</Mood_MentalState>
   <Mood_AboutToBreak>těsně před zhroucením</Mood_AboutToBreak>
   <Mood_OnEdge>na hraně</Mood_OnEdge>
   <Mood_Stressed>ve stresu</Mood_Stressed>
   <Mood_Neutral>neutrální</Mood_Neutral>
-	<Mood_Content>spokojený</Mood_Content>
+  <Mood_Content>spokojený</Mood_Content>
   <Mood_Happy>šťastný</Mood_Happy>
-  
+
   <!-- Game over -->
   <GameOverEveryoneDead>Všichni jsou mrtví nebo pryč. Tento příběh skončil.\n\nPro rozvaliny tohoto místa možná najde využití někdo jiný.</GameOverEveryoneDead>
   <GameOverShipLaunched>Odstartoval jsi s lodí! Tito kolonisté unikli:\n\n{0}\nTito kolonisté tu byli ponecháni:\n\n{1}\nTvoje UI se teď pokusí navádět loď na bezpečné místo. Může ti najít vzkvétající planetu v tomto systému. Nebo může podniknout staletí trvající cestu k jiné hvězdě. Dokonce se může rozhodnout schovat se pod ledem asteroidu na několik tisíc let a čekat na někoho, kdo tu vybuduje nový zářný svět.\n\nTo zjistíš, až se probudíš.</GameOverShipLaunched>
@@ -387,34 +417,34 @@
   <GameOverArrivedAtJourneyDestination>Jak vcházíš na palubu lodi, posádka tě vítá s otevřenou náručí. Zdá se, že mají radost, že s sebou mohou vzít přinejmenším jednu další osobu.\n\nTito kolonisté unikli:\n\n{0}\nTito kolonisté tu byli ponecháni:\n\n{1}\nUI se teď pokusí navádět loď na bezpečné místo. Může ti najít vzkvétající planetu v tomto systému. Nebo může podniknout staletí trvající cestu k jiné hvězdě. Dokonce se může rozhodnout schovat se pod ledem asteroidu na několik tisíc let a čekat na někoho, kdo tu vybuduje nový zářný svět.\n\nKdyž vstupuješ do cryptospánkové komory, na okamžik zaváháš a cítíš se trochu nejistě ohledně toho, zda můžeš těmto lidem věřit.\n\nTo zjistíš, až se probudíš.</GameOverArrivedAtJourneyDestination>
   <GameOverKeepPlaying>Hrát dál</GameOverKeepPlaying>
   <GameOverMainMenu>Hlavní nabídka</GameOverMainMenu>
-  
+
   <!-- Generic lifespan -->
   <LifespanExpiry>Uplyne za:</LifespanExpiry>
-  
+
   <!-- Traps -->
   <TrapArmed>Nastražená</TrapArmed>
   <TrapNotArmed>Spuštěná</TrapNotArmed>
   <TrapRearmingCost>Náklady na opětovné nastražení: {0}</TrapRearmingCost>
-  
+
   <!-- Facilities -->
   <InactiveFacility>nečinný</InactiveFacility>
-  
+
   <!-- Hediffs growth modes -->
   <DiseaseGrowthModeChanged_Growing>{0} {1} teď roste.</DiseaseGrowthModeChanged_Growing>
   <DiseaseGrowthModeChanged_Stable>{0} {1} je nyní ustálený.</DiseaseGrowthModeChanged_Stable>
   <DiseaseGrowthModeChanged_Remission>{0} {1} se teď zmenšuje.</DiseaseGrowthModeChanged_Remission>
-  
+
   <!-- Marriage spot -->
-  <MarriageSpotUsable>Nyní použitelný.</MarriageSpotUsable>
-  <MarriageSpotNotUsable>Nepoužitelný: {0}.</MarriageSpotNotUsable>
-  <MarriageSpotNotStandable>zablokovaný</MarriageSpotNotStandable>
-  <MarriageSpotDangerous>příliš nebezpečný pro {0}</MarriageSpotDangerous>
-  <MarriageSpotForbidden>zakázaný pro {0}</MarriageSpotForbidden>
-  <MarriageSpotReserved>zamluvený</MarriageSpotReserved>
-  <MarriageSpotUnreachable>nedosažitelný pro {0}</MarriageSpotUnreachable>
+  <MarriageSpotUsable>Nyní použitelné.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>Nepoužitelné: {0}</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>zablokované</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>příliš nebezpečné pro {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>zakázané pro {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>zamluvené</MarriageSpotReserved>
+  <MarriageSpotUnreachable>nedosažitelné pro {0}</MarriageSpotUnreachable>
   <MarriageSpotInPrisonCell>ve vězeňské cele</MarriageSpotInPrisonCell>
   <NotEnjoyableOutsideTemperature>nepříjemná teplota</NotEnjoyableOutsideTemperature>
-  
+
   <!-- Colonist bar -->
   <ActivityIconMedicalRest>Zotavuje se</ActivityIconMedicalRest>
   <ActivityIconSleeping>Spí</ActivityIconSleeping>
@@ -426,11 +456,11 @@
   <!-- Maintainable -->
   <DueForMaintenance>Kvůli údržbě.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Zhoršuje se z důvodu nedostatečné údržby.</DeterioratingDueToLackOfMaintenance>
-  
+
   <!-- Deep drill -->
   <ProgressToNextLump>Pokrok k další hroudě</ProgressToNextLump>
   <ResourceBelow>Suroviny pod</ResourceBelow>
-  
+
   <!-- Learning helper -->
   <LearningHelper>Výukový pomocník</LearningHelper>
   <MarkLearned>Označ jako naučené</MarkLearned>
@@ -439,5 +469,26 @@
 
   <!-- Compass -->
   <CompassTip>Ukazuje, kterým směrem je sever. Kliknutím otáčej kamerou tak, aby byl severní pól nahoře.</CompassTip>
-  
+
+  <!-- Distance measure -->
+  <RoutePlannerButtonTip>Kliknutím přejdeš do režimu plánování, kde můžeš naplánovat cestu a vypočítat vzdálenost mezi záchytnými body trasy.</RoutePlannerButtonTip>
+  <RoutePlannerAddTwoOrMoreWaypoints>Přidej dva nebo více záchytných bodů.</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>Přidej jeden nebo více záchytných bodů.</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerEstTimeToFinalDest>Celkový čas trasy: {0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>Režim plánování používá výchozí rychlost karavany. Tvá rychlost se může lišit.</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>Výpočet pro: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Pravé tlačítko myši: Přidání / odstranění záchytných bodů.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressEscapeToExit>ESC: Ukončit režim plánování.</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Návrat do dialogu pro formování karavany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <EstimatedTimeToThisWaypoint>Zbývající čas do tohoto bodu: {0}</EstimatedTimeToThisWaypoint>
+  <EstimatedTimeToThisWaypointFromPrevious>Zbývající čas mezi tímto a předchozím bodem: {0}</EstimatedTimeToThisWaypointFromPrevious>
+
+  <!-- Outfits -->
+  <OutfitAnything>Cokoliv</OutfitAnything>
+  <OutfitWorker>Dělník</OutfitWorker>
+  <OutfitSoldier>Voják</OutfitSoldier>
+  <OutfitNudist>Nudista</OutfitNudist>
+
+  <!-- Map conditions -->
+
 </LanguageData>

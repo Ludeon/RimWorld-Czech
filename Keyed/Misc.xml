@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Autosaving>Automaticky ukládám...</Autosaving>
-
-  <GameStartDialog>Tři z vás jsou probuzeni v cryptospánkových komorách za zvuků sirén a trhajících se kovů. Sotva, co se dostanete do únikových modulů, je loď roztrhána na kusy. O něco později přistanete na této neznamé planetě.\n\nZatímco kolem vás dopadávaly kusy rozervané lodi, začali jste dělat plány, jak přežít.</GameStartDialog>
-  
+  <GameStartDialog>Tři z vás jsou probuzeni v cryptospánkových komorách za zvuků sirén a trhajících se kovů. Sotva, co se dostanete do únikových modulů, je loď roztrhána na kusy. O něco později přistanete na této neznámé planetě.\n\nZatímco kolem vás dopadávaly kusy rozervané lodi, začali jste dělat plány, jak přežít.</GameStartDialog>
   <Colony>Kolonie</Colony>
-
   <ChangeLanguageFromMainMenu>Jazyk lze změnit jen v hlavní nabídce.</ChangeLanguageFromMainMenu>
-
   <AndLower>a</AndLower>
-  <DisabledLower>vypnut</DisabledLower>
+  <DisabledLower>deaktivováno</DisabledLower>
+
 
   <VersionIndicator>Verze {0}</VersionIndicator>
   <DevelopmentBuildLower>Vývojářská verze</DevelopmentBuildLower>
-  <CompiledOn>Sestaveno {0}</CompiledOn>
+  <CompiledOn>Sestaveno dne {0}\nVerze češtiny v0.9b pro Alpha17</CompiledOn>
   <LoggedIntoSteamAs>Přihlášen na Steamu jako {0}</LoggedIntoSteamAs>
 
   <!-- General-use words -->
@@ -27,17 +24,18 @@
   <multiplier>Multiplikátor:</multiplier>
   <damage>Poškození:</damage>
   <radius>Poloměr:</radius>
-  <durationDays>Spustí se za (dní)</durationDays>
-  <intervalDays>Spustí se za (dní)</intervalDays>
+  <durationDays>Spustí se za (dnů)</durationDays>
+  <intervalDays>Spustí se za (dnů)</intervalDays>
   <repeat>Opakovat</repeat>
-  
-  <!-- Content generation -->
+  <default>Výchozí</default>
+
+  <!-- Content generation-->
 
   <MeatLabel>Maso z {0}</MeatLabel>
   <MeatDesc>Syrové maso z poražených zvířat. Může se z něj uvařit jídlo nebo také sníst syrové.</MeatDesc>
 
   <LeatherLabel>Kůže z {0}</LeatherLabel>
-  <LeatherDesc>Vyčišněná, usušená a stažená kůže. Dobrý tradiční materiál, ze kterého se dá vyrábět oblečení a batohy.</LeatherDesc>
+  <LeatherDesc>Vyčištěná, usušená a stažená kůže. Dobrý tradiční materiál, ze kterého se dá vyrábět oblečení a batohy.</LeatherDesc>
 
   <CorpseLabel>{0} (mrtvola)</CorpseLabel>
   <CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
@@ -53,15 +51,10 @@
   <BlueprintLabelExtra> (plán)</BlueprintLabelExtra>
   <FrameLabelExtra> (ve výstavbě)</FrameLabelExtra>
 
+
   <!-- For things made of stuff, e.g. "Stone bed" -->
-
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
-
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
-
-  <!-- To express ownership. -->
-
-  <!-- For example Jack's Bedroom -->
 
   <SomeonesRoom>{1} patří {0}</SomeonesRoom>
   <CouplesRoom>{2} patří {0} a {1}</CouplesRoom>
@@ -69,7 +62,6 @@
   <VariousLabel>(různé)</VariousLabel>
 
   <!-- History events -->
-
   <ColonistDied>Kolonista zemřel</ColonistDied>
 
   <!-- Rotation -->
@@ -77,5 +69,8 @@
   <South>Jih</South>
   <West>Západ</West>
   <East>Východ</East>
-  
+
+
+  <!-- Content generation -->
+
 </LanguageData>

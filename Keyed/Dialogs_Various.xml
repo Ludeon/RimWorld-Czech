@@ -1,39 +1,42 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
 
   <Confirm>Potvrdit</Confirm>
   <GoBack>Vrátit se</GoBack>
   <OK>Souhlas</OK>
-  
+
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>RimWorld byl aktualizován z verze {0} na verzi {1}.\n\nTo může způsobit, že uložené pozice a modifikace z předchozí verze přestanou pracovat.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>RimWorld byl aktualizován z verze {0} na verzi {1}.\n\n</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>To může způsobit, že uložené pozice a módy z předchozí verze přestanou pracovat.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Uložené pozice z předchozích verzí by měly být kompatibilní, nicméně některé módy mohou přestat pracovat.</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>Protože se jedná o verzi bez DRM ochrany, můžeš hru nainstalovat do dvou různých složek, abys mohl hrát jak starou, tak i novou verzi.</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Bety" (Betas).\n\n  1. V knihovně Steamu klikni pravým na RimWorld.\n  2. Klikni na Vlastnosti (Properties).\n  3. Klikni na záložku Bety (Betas).\n  4. Z roletové nabídky si vyber verzi, kterou chceš.\n\nStarší verze budou pravděpodobně z tohoto seznamu nakonec odstraněny - prostě jsme nechtěli odstřihnout hry ve vývoji.\n\nMěj na paměti, že když autoři modifikací aktualizují své modifikace na novou verzi hry, ty pravděpodobně přestanou pracovat ve staré verzi. Abys tomu zabránil, možná budeš chtít vypnout automatické aktualizace.</GameUpdatedToNewVersionSteam>
-  
+  <GameUpdatedToNewVersionSteam>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Bety" (Betas).\n\n  1. V knihovně Steamu klikni pravým na RimWorld.\n  2. Klikni na Vlastnosti (Properties).\n  3. Klikni na záložku Bety (Betas).\n  4. Z roletové nabídky si vyber verzi, kterou chceš.\n\nStarší verze budou pravděpodobně z tohoto seznamu nakonec odstraněny - prostě jsme nechtěli odstřihnout hry ve vývoji.\n\nMěj na paměti, že když autoři módů aktualizují své módy na novou verzi hry, ty pravděpodobně přestanou pracovat ve staré verzi. Abys tomu zabránil, můžeš vypnout automatické aktualizace.</GameUpdatedToNewVersionSteam>
+
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Obnoveno po chybách způsobených nekompatibilními nebo poškozenými modifikacemi</RecoveredFromErrorsDialogTitle>
-  <RecoveredFromErrorsText>Zdá se, některá z aktivních modifikací způsobila chyby.\n\nByli nekompatibilní navzájem, navrženy pro jinou verzi hry RimWorld, nebo poškozené.\n\nVšechny modifikace byly vypnuty a mohou být znovu aktivovány v dialogovém okně modifikací.</RecoveredFromErrorsText>
-  
+  <RecoveredFromErrorsDialogTitle>Obnoveno po chybách způsobených nekompatibilními nebo poškozenými módy</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Zdá se, některý z aktivních módů způsobil chyby.\n\nByli nekompatibilní navzájem, navrženy pro jinou verzi hry RimWorld, nebo poškozené.\n\nVšechny módy byly vypnuty a mohou být znovu aktivovány v dialogovém okně módů.</RecoveredFromErrorsText>
+
   <!-- Errors during loading -->
   <ErrorWhileLoadingAssetsTitle>Chyba při načítání prostředků</ErrorWhileLoadingAssetsTitle>
   <ErrorWhileLoadingAssets>Při načítání herních prostředků se vyskytla chyba. Pro další informace se podívej do záznamu o chybách.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>Hra v současné době běží s uživatelskými modifikacemi - ty mohly, ale také nemusely, způsobit tyto problémy.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>Hra v současné době běží s uživatelskými módy - ty mohly, ale také nemusely, způsobit tyto problémy.</ErrorWhileLoadingAssets_ModsInfo>
   <ErrorWhileGeneratingMapTitle>Chyba při vytváření mapy</ErrorWhileGeneratingMapTitle>
   <ErrorWhileGeneratingMap>Při vytváření nové mapy se vyskytla chyba. Pro další informace se podívej do záznamu o chybách.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Chyba při načítání mapy</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Při načítání mapy se vyskytla chyba. Pro další informace se podívej do záznamu o chybách.</ErrorWhileLoadingMap>
-  
+
   <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>Hra nedokázala zcela odstranit kód modifikací po vypnutých modifikacích, takže kód z vypnutých modifikací může být stále aktivní.\n\nPro čisté načtení modifikací se nyní doporučuje ukončit a znovu spustit hru.</ModWithAssemblyWasUnloaded>
-  
+  <ModsChanged>Seznam módů byl změněn. Hra se nyní automaticky restartuje.</ModsChanged>
+  <FailedToRestart>Při restartování hry se něco pokazilo. Hra nedokázala zcela odstranit kód módů po vypnutých módech, takže kód z vypnutých módů může být stále aktivní.\n\nPro čisté načtení módů se nyní doporučuje ukončit a znovu spustit hru.</FailedToRestart>
+  <Restarting>Restartování</Restarting>
+
   <!-- Missing Steam -->
-  <SteamClientMissing>Nepodařilo se zavést Steam API. Možné příčiny:\n\n-Steam neběží.\n-Spuštěno mimo Steam bez souboru steam_appid.txt na správném místě.\n-Spuštění s jiným oprávněním jak Steam klient (např. "jako správce").\n\nVe většině případů tento problém spraví restartování počítače.\n\nMůžeš hrát i tak, ale nebudou zaznamenávány žádné Steam stistiky a nebudou dostupné žádné Steam funkce.</SteamClientMissing>
-  
+  <SteamClientMissing>Nepodařilo se zavést Steam API. Možné příčiny:\n\n-Steam neběží.\n-Spuštěno mimo Steam bez souboru steam_appid.txt na správném místě.\n-Spuštění s jiným oprávněním jak Steam klient (např. "jako správce").\n\nVe většině případů tento problém spraví restartování počítače.\n\nMůžeš hrát i tak, ale nebudou zaznamenávány žádné Steam statistiky a nebudou dostupné žádné Steam funkce.</SteamClientMissing>
+
   <!-- Long events -->
   <InitializingInterface>Zavádím rozhraní</InitializingInterface>
   <UnloadingUnusedAssets>Čistím nepoužité prostředky</UnloadingUnusedAssets>
-  <LoadingAllActiveMods>Načítám všechny aktivní modifikace</LoadingAllActiveMods>
+  <LoadingAllActiveMods>Načítám všechny aktivní módy</LoadingAllActiveMods>
   <LoadingDefs>Načítám definice</LoadingDefs>
   <LoadingAssets>Načítám prostředky</LoadingAssets>
   <Initializing>Zavádím</Initializing>
@@ -42,7 +45,7 @@
   <InitializingGame>Zavádím mapu</InitializingGame>
   <SpawningAllThings>Vytvářím všechny věci</SpawningAllThings>
   <SpawningColonists>Vytvářím kolonisty</SpawningColonists>
-  
+
   <!-- Save/load -->
   <SaveGameButton>Uložit</SaveGameButton>
   <LoadGameButton>Načíst</LoadGameButton>
@@ -74,22 +77,22 @@
   <!-- Player faction and faction base naming -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>A dále si myslí, že si tu i chvíli pobudeme. Měli bychom pojmenovat i tuto kolonii. Jak se má kolonie nazývat?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <PlayerFactionAndBaseGainsName>Tvá frakce bude odteď známá jako {0} a tato kolonie jako {1}.</PlayerFactionAndBaseGainsName>
-  
+
   <!-- Renaming -->
   <NameIsInvalid>Zadej prosím platné jméno.</NameIsInvalid>
   <NameIsInUse>Toto jméno je už použito jinde.</NameIsInUse>
   <ZoneGainsName>Oblast se teď jmenuje {0}.</ZoneGainsName>
-  
+
   <!-- Pawn naming -->
   <PawnGainsName>Přezdívka kolonisty je teď {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Neshoda verzí</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Tato hra byla uložena verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení této uložené pozice může způsobovat chyby a pády hry.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Tato hra byla uložena na verzi {0}\nHra teď běží na verzi {1}\n\nNačtení této uložené pozice může způsobovat chyby a pády hry.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Soubor světa byl vytvořen verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení tohoto světa může způsobovat chyby a pády hry. Možná bys asi měl vytvořit celý nový svět od základu.</WorldFileVersionMismatch>
   <FileIncompatibleWarning>Tento soubor byl uložen verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení tohoto souboru může způsobovat chyby a pády hry.</FileIncompatibleWarning>
-  <ModsMismatchWarningTitle>Neshoda modifikací</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>Tento soubor byl uložen s odlišnou sadou aktivních modifikací než ty, které jsou spuštěny nyní. Tohle může, ale také nemusí, způsobovat problémy, v závislosti na tom, co tyto modifikace dělají.\n\nSoubor byl uložen s módy (v tomto pořadí):\n\n{0}\n\nTeď jsou spuštěny tyto módy (v tomto pořadí):\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningTitle>Neshoda módů</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Tento soubor byl uložen s odlišnou sadou aktivních módů než ty, které jsou spuštěny nyní. Tohle může, ale také nemusí, způsobovat problémy, v závislosti na tom, co tyto módy dělají.\n\nSoubor byl uložen s módy (v tomto pořadí):\n\n{0}\n\nTeď jsou spuštěny tyto módy (v tomto pořadí):\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Změnil jsi své nastavení obrazovky. Pracuje to nové správně?\n\nAutomatická změna zpět za {0}...</ConfirmResolutionChange>
@@ -98,16 +101,16 @@
 
   <!-- Research -->
   <Research>Výzkum</Research>
-  <Researched>Vyzkoumáno</Researched>
-  <Unresearched>Nevyzkoumáno</Unresearched>
-  <Finished>Dokončeno</Finished>
+  <Researched>Vyzkoumané</Researched>
+  <Unresearched>Nevyzkoumané</Unresearched>
+  <Finished>Dokončené</Finished>
   <InProgress>Probíhá</InProgress>
-  <Locked>Uzamčeno</Locked>
-  <ResearchMenuWithoutBench>Dokud nepostavíš VÝZKUMNOU STANICI, tví kolonisté nebudou schopní provádět výzkum.\n\nVýzkumné projekty si však můžeš prohlížet i nyní.</ResearchMenuWithoutBench>
+  <Locked>Uzamčené</Locked>
+  <ResearchMenuWithoutBench>Dokud nepostavíš VÝZKUMNÉ STANOVIŠTĚ, tví kolonisté nebudou schopni provádět výzkum.\n\nVýzkumné projekty si však můžeš prohlížet i nyní.</ResearchMenuWithoutBench>
   <ResearchPrerequisites>Předpoklady pro výzkum</ResearchPrerequisites>
-  <RequiredResearchBench>Vyžadována výzkumná stanice</RequiredResearchBench>
-  <RequiredResearchBenchFacilities>Vyžaduje zařízení výzkumné stanice</RequiredResearchBenchFacilities>
-  
+  <RequiredResearchBench>Vyžaduje stanoviště</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Vyžaduje vybavení ke stan.</RequiredResearchBenchFacilities>
+
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>Varování: Přistaneš ve zmrzlém prostředí. Přežití bude obtížné, ne-li téměř nemožné. Pokud nemáš v úmyslu čelit extrémní výzvě, zvol si jiné místo nebo roční dobu.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>Varování: Na větších mapách může výkon poklesnout. Absurdní velikost mapy nebyla testována a téměř jistě nebude chodit dobře.</MapSizePerformanceWarning>
@@ -128,29 +131,34 @@
   <SuspendedAllCaps>ZASTAVENO</SuspendedAllCaps>
   <RepeatCount>Opakuj: {0}</RepeatCount>
   <Forever>Navždy</Forever>
-	<Details>Detaily</Details>
+  <Details>Detaily</Details>
   <IngredientSearchRadius>Okruh hledání surovin</IngredientSearchRadius>
-  <CurrentlyHave>Momentálně k dispozici</CurrentlyHave>
+  <CurrentlyHave>Nyní máme</CurrentlyHave>
   <CountingProducts>Počet</CountingProducts>
   <Infinite>Nekonečně</Infinite>
   <AllowedSkillRange>Povolená dovednost {0}:</AllowedSkillRange>
-  
+
   <RecipeCannotHaveTargetCount>(Tento recept nemůže mít cílový počet, protože se skládá z rozmanitých nebo nepředvídatelných produktů.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Množství práce</WorkAmount>
   <MinimumSkills>Minimální dovednosti:</MinimumSkills>
   <BillRequires>Vyžaduje {0} {1}</BillRequires>
   <BillRequiresNutrition>Vyžaduje {0} výživy</BillRequiresNutrition>
   <BillRequiresMayVary>Poznámka: Maloobjemových surovin jako zlato je vyžadováno 20x tolik.</BillRequiresMayVary>
-  <ThisIsSmallVolume>Tohle je maloobjemová surovina. To znamená, že každá "jednotka" má pohou 1/20 normální suroviny. Takže abys splnil stejné požadavky na suroviny, budeš jí potřebovat 20x více než obvykle.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Tohle je maloobjemová surovina. To znamená, že každá "jednotka" má pouhou 1/20 normální suroviny. Takže abys splnil stejné požadavky na suroviny, budeš jí potřebovat 20x více než obvykle.</ThisIsSmallVolume>
   <UsableIngredients>suroviny</UsableIngredients>
-  <DoXTimes>Vyrob to X krát</DoXTimes>
-  <DoUntilYouHaveX>Vyráběj do X kusů</DoUntilYouHaveX>
-  <DoForever>Vyrábej stále</DoForever>
+  <DoXTimes>Proveď to X krát</DoXTimes>
+  <DoUntilYouHaveX>Prováděj do X kusů</DoUntilYouHaveX>
+  <DoForever>Prováděj stále</DoForever>
   <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Položit na podlahu</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>Zanést do nejlepšího skladiště</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>Zanést do nejbližšího skladiště</BillStoreMode_NearestStockpileAnyPriority>
-  
+  <BillStoreMode_BestStockpile>Odnést do nejlepšího skladiště</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Odnést do nejbližšího skladiště</BillStoreMode_NearestStockpileAnyPriority>
+
+  <PauseWhenSatisfied>Přestávka po splnění</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Zrušit přestávku, když budeme mít opět</UnpauseWhenYouHave>
+  <Paused>Přestávka</Paused>
+  <Unpause>Zrušit přestávku</Unpause>
+
   <!-- Info card -->
   <Damage>Poškození</Damage>
   <Accuracy>Přesnost</Accuracy>
@@ -185,7 +193,6 @@
   <CoverEffectiveness>Účinnost krytí</CoverEffectiveness>
   <CoverEffectivenessExplanation>Jak účinné poskytuje krytí, když je použit jako kryt při přestřelce. Vyšší procentní hodnota zablokuje více střel.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Činitel získávání zkušenosti</MedicineXpGainFactor>
-  <BodyPartEfficiency>Výkonnost části těla</BodyPartEfficiency>
   <MoodChange>Změna nálady</MoodChange>
   <Wildness>Divokost</Wildness>
   <WildnessExplanation>Divočejší tvorové se pochopitelně dají mnohem obtížněji ochočit, trénovat a ovládat.</WildnessExplanation>
@@ -195,7 +202,7 @@
   <MiscRecordsCategory>Různé</MiscRecordsCategory>
   <Addictiveness>Návykovost</Addictiveness>
   <PackAnimal>Nákladní zvíře</PackAnimal>
-  <PackAnimalExplanation>Ukazuje, zda je toto zvíře vhodné použít v karavně k přepravě nákladů na dlouhé vzdálenosti.</PackAnimalExplanation>
+  <PackAnimalExplanation>Ukazuje, zda je toto zvíře vhodné použít v karavaně k přepravě nákladů na dlouhé vzdálenosti.</PackAnimalExplanation>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>Kladná čísla znamenají nákup.\nZáporná čísla znamenají prodej.</PositiveBuysNegativeSells>
@@ -205,65 +212,73 @@
   <ColonyCount>Kolik kusů této položky má kolonie připraveno k prodeji.\n\nObchodníkům na orbitě lze prodat jen položky, které jsou venku a v blízkosti orbitálního obchodního majáku.</ColonyCount>
   <TraderCount>Kolik kusů této položky má obchodník k prodeji.</TraderCount>
   <AcceptButton>Přijmout</AcceptButton>
-  <ResetButton>Vynulovat</ResetButton>
+  <ResetButton>Resetovat</ResetButton>
   <CancelButton>Zrušit</CancelButton>
   <CloseButton>Zavřít</CloseButton>
   <YourTradeableSilver>Množství stříbra k obchodování: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>Můžeš obchodovat jen se stříbrem, které je poblíž orbitálního obchodního majáku a není pod střechou.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Můžeš obchodovat jen se stříbrem, které je poblíž orbitálního obchodního majáku a není pod střechou.</YourTradeableSilverTip>
   <TraderHasNoMore>Obchodník už toho víc nemá.</TraderHasNoMore>
   <ColonyHasNoMore>Nic dalšího k prodeji.</ColonyHasNoMore>
   <TraderWillNotTrade>S tímhle obchodník obchodovat nechce.</TraderWillNotTrade>
-  <NegotiatorTalkingImpaired>Tvůj vyjednávač {0} nemůže kvůli špatnému zdravotnímu stavu pořádně mluvit.\n\nTo bude mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednávače.</NegotiatorTalkingImpaired>
+  <Negotiator>Vyjednavač</Negotiator>
+  <NegotiatorTalkingImpaired>Tvůj vyjednavač {0} nemůže kvůli špatnému zdravotnímu stavu pořádně mluvit.\n\nTo bude mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednavače.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Obchodník nemá dostatek stříbra, aby plně pokryl tento obchod. Chceš pokračovat i tak?</ConfirmTraderShortFunds>
-  <SortBy>Setřídit podle</SortBy>
-	<TraderTypePrice>druh obchodníka</TraderTypePrice>
-	<Selling>prodej</Selling>
-	<Buying>nákup</Buying>
-	<ItemSellPriceFactor>násobitel prodejní ceny předmětu</ItemSellPriceFactor>
-	<DifficultyLevel>úroveň obtížnosti</DifficultyLevel>
-	<PostCurve>celková křivka dodatečného zpracování</PostCurve>
-	<YourNegotiatorBonus>Tvůj vyjednávací bonus</YourNegotiatorBonus>
-	<TradeWithFactionBaseBonus>Bonus za obchodování se základnou frakce</TradeWithFactionBaseBonus>
-	<minimum>minimum</minimum>
-	<FinalPrice>Konečná cena</FinalPrice>
+  <SortBy>Třídit dle</SortBy>
+  <TraderTypePrice>druh obchodníka</TraderTypePrice>
+  <Selling>prodej</Selling>
+  <Buying>nákup</Buying>
+  <ItemSellPriceFactor>násobitel prodejní ceny předmětu</ItemSellPriceFactor>
+  <DifficultyLevel>úroveň obtížnosti</DifficultyLevel>
+  <PostCurve>celková křivka dodatečného zpracování</PostCurve>
+  <YourNegotiatorBonus>Tvůj vyjednávací bonus</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Bonus za obchodování se základnou frakce</TradeWithFactionBaseBonus>
+  <minimum>minimum</minimum>
+  <FinalPrice>Konečná cena</FinalPrice>
   <TradeMassUsageTooltip>Výsledná užitná hmotnost a maximální nosnost.</TradeMassUsageTooltip>
-  
+
   <!-- Form caravan -->
-  <FormCaravan>Vytvořit karavanu</FormCaravan>
-  <FormCaravanColonyThingCountTip>Kolik této položky má kolonie připraveno k přeložení na karavanu.</FormCaravanColonyThingCountTip>
+  <FormCaravan>Formovat karavanu</FormCaravan>
+  <FormCaravanColonyThingCountTip>Kolik této položky má kolonie připraveno k naložení na karavanu.</FormCaravanColonyThingCountTip>
   <PawnsTab>Lidé a zvířata</PawnsTab>
-  <ItemsTab>Věci</ItemsTab>
+  <ItemsTab>Předměty</ItemsTab>
   <CaravanConfigTab>Uspořádání</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Musíš přiřadit alespoň jednoho kolonistu, který je při vědomí.</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>Nelze najít žádné platné místo k odchodu.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindExitSpot>Vybrané místo odchodu ({0}) je nepřístupné.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Nelze najít žádné platné místo ke sbalení karavany. Ujisti se, že místo pro odchod ({0}) bude přístupné.</CaravanCouldNotFindPackingSpot>
   <CaravanCouldNotFindReachableExitSpot>Varování: někteří z přidělených kolonistů nejsou schopni dostat se k místu odchodu.</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} je pro všechny přiřazené kolonisty nedosažitelné.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Žádný z přidělených kolonistů není schopen dostat se k {0}.</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>Žádný z přidělených kolonistů není schopen dostat se k {0}x {1}.</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>Karavana není schopná tolik unést.</TooBigCaravanMassUsage>
-  <CaravanMassUsageTooltip>Současná užitná hmotnost a maximální nosnost.\n\nUžitná hmostnost zahrnuje přiřazené zásoby karavany stejně jako nynější vybavení kolonistů.\n\nPokud užitná hmotnost překročí nosnost, nebudeš schopen vyslat karavanu.</CaravanMassUsageTooltip>
+  <CaravanMassUsageTooltip>Současná užitná hmotnost a maximální nosnost karavany.\n\nUžitná hmotnost zahrnuje přiřazené zásoby karavany stejně jako nynější vybavení kolonistů.\n\nPokud užitná hmotnost překročí nosnost, nebudeš schopen vyslat karavanu.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>Potraviny na {0} dnů</DaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfoRot>potraviny na {0} dnů, zkazí se za {1} dnů</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>Potraviny nikdy nedojdou</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Přibližný počet dnů, než karavaně dojdou potraviny.\n\nJsou brány v úvahu jak potraviny pro lidi, tak i pro zvířata a zobrazuje nejhorší možný scénář. To znamená, že po tolika dnech dojde jídlo alespoň jednomu člověku nebo zvířeti.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_CanEatLocalPlants>Na základě aktuálního ročního období, teploty a okolí je předpokladem, že by býložravci MOHLI jíst místní rostliny. To se však může kdykoli změnit.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>Na základě aktuálního ročního období, teploty a okolí je předpokladem, že by býložravci NEMOHLI jíst místní rostliny. To se však může kdykoli změnit.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
   <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo jen na {0} dnů. Velmi rychle vyhladoví.\n\nJsi si jistý, že tuto karavanu chceš vytvořit?</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.\n\nJsi si jistý, že tuto karavanu chceš vytvořit?</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>Velká část přiděleného jídla se brzy zkazí.\n\nJsi si jistý, že chceš vytvořit tuto karavanu?</CaravanFoodWillRotSoonWarningDialog>
   <NoExitDirectionForCaravanChosen>Musíš pro karavanu zvolit směr odchodu.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(není dostupný žádný směr odchodu)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Směr odchodu</ExitDirection>
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
-  <ItemWeightTip>Váha tohoto předmětu.</ItemWeightTip>
+  <ItemWeightTip>Hmotnost této položky.</ItemWeightTip>
   <MarketValueTip>Tržní cena</MarketValueTip>
+  <DaysUntilRotTip>Počet dnů, než se tato položka začne kazit na základě průměrné teploty v této oblasti.</DaysUntilRotTip>
   <MassCapacity>Maximální nosnost</MassCapacity>
   <Mass>Hmotnost</Mass>
-  <EquipmentAndApparelMass>Hmotnost výbavení a oděvů</EquipmentAndApparelMass>
+  <EquipmentAndApparelMass>Hmotnost vybavení a oděvů</EquipmentAndApparelMass>
   <InventoryMass>Hmotnost inventáře</InventoryMass>
   <CaravanFormationProcessStarted>Tví kolonisté teď poberou přiřazené předměty a co nejrychleji opustí oblast.</CaravanFormationProcessStarted>
   <ReformCaravan>Upravit karavanu</ReformCaravan>
   <ColonistsSection>Kolonisté</ColonistsSection>
   <PrisonersSection>Vězni</PrisonersSection>
   <AnimalsSection>Zvířata</AnimalsSection>
-  
+  <EstimatedTimeToDestinationButton>Zbývající čas do cíle</EstimatedTimeToDestinationButton>
+
   <!-- Split caravan -->
   <SplitCaravan>Rozdělit karavanu</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Musíš ponechat alespoň jednoho kolonistu při vědomí.</SourceCaravanMustHaveAtLeastOneColonist>
@@ -271,7 +286,7 @@
   <CaravanSplitDestLabel>Nová</CaravanSplitDestLabel>
   <SplitCaravanThingCountTip>Kolik této položky má karavana připraveno k předání nové karavaně.</SplitCaravanThingCountTip>
   <SplitCaravanMassUsageTooltip>Současná užitná hmotnost a maximální nosnost.</SplitCaravanMassUsageTooltip>
-  
+
   <!-- Load transporters -->
   <LoadTransporters>Naložit {0}</LoadTransporters>
   <TooBigTransportersMassUsage>Přidělení lidé a předměty jsou pro nákladní moduly příliš těžcí.</TooBigTransportersMassUsage>
@@ -280,36 +295,36 @@
   <TransporterItemIsUnreachableSingle>Mezi nákladními moduly a {0} nevede žádná cesta.</TransporterItemIsUnreachableSingle>
   <TransporterItemIsUnreachableMulti>Mezi nákladními moduly a {0}x {1} nevede žádná cesta.</TransporterItemIsUnreachableMulti>
   <TransportersMassUsageTooltip>Současná užitná hmotnost a maximální nosnost.\n\nPokud užitná hmotnost překročí nosnost, nebudeš schopen vyslat nákladní moduly.</TransportersMassUsageTooltip>
-  
+
   <!-- Comms -->
   <SocialSkillIs>Dovednost socializace: {0}</SocialSkillIs>
-  
+
   <!--Research-->
   <ResearchFinished>Výzkum dokončen: {0}</ResearchFinished>
   <ResearchScreen>Obrazovka výzkumu</ResearchScreen>
-  
+
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Chceš nahrát své záznamy herních dat na server RimWorldu, abys pomohl vývojářům vyladit hru? Pokud souhlasíš, tvá data budou nahrávána každé {0} dny (a v jiných výjimečných případech jajko třeba konec hry). Nastavení soukromí lze změnit později v nabídce nastavení.</HistoryUploadMessage>
+  <HistoryUploadMessage>Chceš nahrát své záznamy herních dat na server RimWorldu, abys pomohl vývojářům vyladit hru? Pokud souhlasíš, tvá data budou nahrávána každé {0} dny (a v jiných výjimečných případech jako třeba konec hry). Nastavení soukromí lze změnit později v nabídce nastavení.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>I když je historie odesílána anonymně, můžeš připojit své jméno.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Povolit nahrávání herních dat</HistoryUploadYes>
   <HistoryUploadNo>Nepovolit nahrávání herních dat</HistoryUploadNo>
   <HistoryUploadYesOnce>Nahrát pouze tentokrát</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Tentokrát nenahrávat, zeptej se mě později</HistoryUploadNoOnce>
-	
+
   <!-- Outfit management -->
-  <Outfit>Oblečení</Outfit>
-  <SelectOutfit>Vybrat oblečení...</SelectOutfit>
-  <NewOutfit>Nové oblečení</NewOutfit>
-  <DeleteOutfit>Smazat oblečení...</DeleteOutfit>
-  <OutfitInUse>Oblečení používá {0}.</OutfitInUse>
-  <NoOutfitSelected>Není vybráno žádné oblečení</NoOutfitSelected>
-  
+  <Outfit>Výstroj</Outfit>
+  <SelectOutfit>Vybrat výstroj...</SelectOutfit>
+  <NewOutfit>Nová výstroj</NewOutfit>
+  <DeleteOutfit>Smazat výstroj...</DeleteOutfit>
+  <OutfitInUse>Výstroj používá {0}.</OutfitInUse>
+  <NoOutfitSelected>Není vybrána žádná výstroj</NoOutfitSelected>
+
   <!-- Drug policy management -->
   <DrugPolicy>Drogová politika</DrugPolicy>
   <SelectDrugPolicy>Vybrat politiku...</SelectDrugPolicy>
   <NewDrugPolicy>Nová politika</NewDrugPolicy>
   <DeleteDrugPolicy>Smazat politiku...</DeleteDrugPolicy>
-  <DrugPolicyInUse>Drogovou politiku použává {0}.</DrugPolicyInUse>
+  <DrugPolicyInUse>Drogovou politiku používá {0}.</DrugPolicyInUse>
   <SocialDrugs>Společenské drogy</SocialDrugs>
   <NoDrugs>Žádné drogy</NoDrugs>
   <OneDrinkPerDay>Jeden nápoj denně</OneDrinkPerDay>
@@ -320,7 +335,7 @@
   <DrugUsageColumnLabel>Dávkování</DrugUsageColumnLabel>
   <FrequencyColumnLabel>Četnost</FrequencyColumnLabel>
   <MoodThresholdColumnLabel>Pouze při náladě pod</MoodThresholdColumnLabel>
-  <JoyThresholdColumnLabel>Pouze když zábava klesne pod</JoyThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Pouze když radost klesne pod</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>Vzít do inventáře</TakeToInventoryColumnLabel>
   <NoDrugsBrackets>(žádné drogy)</NoDrugsBrackets>
   <EveryDay>Každý den</EveryDay>
@@ -333,27 +348,38 @@
   <FrequencyColumnDesc>Jak často se kolonisté mají pokoušet užívat tuto drogu.</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>Kolonisté si vezmou tuto drogu jen když jejich úroveň nálady klesne pod tuto hranici.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>Kolonisté si vezmou tuto drogu jen když jejich úroveň radosti klesne pod tuto hranici.</JoyThresholdColumnDesc>
-  <TakeToInventoryColumnDesc>Množství drogy, které si vezmou navíc, když si ji berou pro svoji spotřebun, aby se vyhnuli častému navštěvování skladiště s drogou.</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>Množství drogy, které si vezmou navíc, když si ji berou pro svoji potřebu, aby se vyhnuli častému navštěvování skladiště s drogou.</TakeToInventoryColumnDesc>
   <DrugUsageTipForAddiction>Kvůli závislosti\n\nUžívej tuto drogu k uspokojení potřeb již vzniklé závislosti.\n\nDokonce i když je jejich užívání zakázáno, mohou některé postavy se zvláštními vlastnostmi nebo při psychickém zhroucení drogy užívat i tak.</DrugUsageTipForAddiction>
-  <DrugUsageTipForJoy>Pro radost\n\nUžívej tuto drogu pro radost či ze společenských důvodů.\n\nDokonce i když je jejich užívání zakázáno, mohou některé postavy se zvláštními vlastnostmi nebo při psychickém zhroucení drogy užívat i tak.</DrugUsageTipForJoy>  
+  <DrugUsageTipForJoy>Pro radost\n\nUžívej tuto drogu pro radost či ze společenských důvodů.\n\nDokonce i když je jejich užívání zakázáno, mohou některé postavy se zvláštními vlastnostmi nebo při psychickém zhroucení drogy užívat i tak.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Pravidelně\n\nUžívej tuto drogu podle předem stanoveného plánu, když jsou splněny specifické podmínky.</DrugUsageTipScheduled>
-  
+
+  <!-- Medical settings -->
+  <MedGroupDefaults>Norma</MedGroupDefaults>
+  <MedGroupColonist>Kolonista</MedGroupColonist>
+  <MedGroupImprisonedColonist>Uvězněný kolonista</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Zvíře kolonie</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Neutrální zvíře</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Neutrální frakce</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Nepřátelská frakce</MedGroupHostileFaction>
+
   <!-- Growing -->
-  <NoGrowerCanPlant>Pro výsatbu {0} potřebuje dovednost {1} v Zemědělství.\n\nŽádný ze tvých zemědělců tuto dovednost nemá, takže tato rostlina nemůže být zasazena.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>Pro výsadbu {0} potřebuje dovednost {1} v Zemědělství.\n\nŽádný ze tvých zemědělců tuto dovednost nemá, takže tato rostlina nemůže být zasazena.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <ConfirmAbandonHomeWithColonyPawns>V této oblasti jsou nějací tví kolonisté nebo zvířata. Jsi si jistý, že je tu chceš nechat?\n\nNásledující lidé a zvířata tu budou zanecháni:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
-  
+  <ConfirmAbandonHomeNegativeThoughts>Opuštění {0} způsobí, že následující lidé budou mít tyto myšlenky:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Všichni:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>V této oblasti jsou stále ještě zanecháni nějací vězni nebo zvířata a tohle je jediná karavana, ke které se mohou v této chvíli připojit.\n\nPokud karavanu přesuneš, nebudou schopni oblast opustit, dokud se nevrátíš. Vězni se pokusí utéct a zvířata tu na tbe budou čekat.\n\nPokud se rozhodneš počkat, pokusí se ke tvé karavaně co nejrychleji připojit.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmLeavePrisonersOrAnimalsBehind>
-  
+  <ConfirmLeavePrisonersOrAnimalsBehind>V této oblasti jsou stále ještě zanecháni nějací vězni nebo zvířata a tohle je jediná karavana, ke které se mohou v této chvíli připojit.\n\nPokud karavanu přesuneš, nebudou schopni oblast opustit, dokud se nevrátíš. Vězni se pokusí utéct a zvířata tu na tebe budou čekat.\n\nPokud se rozhodneš počkat, pokusí se ke tvé karavaně co nejrychleji připojit.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmLeavePrisonersOrAnimalsBehind>
+
   <!-- Abandon pawn -->
   <ConfirmAbandonPawnDialog>Chceš tu doopravdy nechat {0}?</ConfirmAbandonPawnDialog>
   <ConfirmAbandonPawnDialog_LeftToDie>{0} s největší pravděpodobností zemře.</ConfirmAbandonPawnDialog_LeftToDie>
   <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} si s sebou vezme následující předměty:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
   <ConfirmAbandonPawnDialog_AllColonistsThoughts>Všichni kolonisté si budou myslet následující:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
   <ConfirmAbandonPawnDialog_IndividualThoughts>Když tu {0} necháš napospas osudu, způsobí to, že následující lidé si budou myslet toto:</ConfirmAbandonPawnDialog_IndividualThoughts>
-  
+
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Skupina modulů není zcela naložena. Chybí {0}. Odstartovat i tak?</ConfirmSendNotCompletelyLoadedPods>
 

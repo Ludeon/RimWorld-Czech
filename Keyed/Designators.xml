@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <DesignatorCancel>Zrušit</DesignatorCancel>
@@ -7,8 +7,8 @@
   <DesignatorCutPlants>Posekat rostliny</DesignatorCutPlants>
   <DesignatorCutPlantsDesc>Označí rostliny, které mají být odstraněny. Rostlina bude odstraněna úplně a jakékoliv jídlo nebo suroviny budou sklizeny.</DesignatorCutPlantsDesc>
 
-  <DesignatorDeconstruct><DesignatorDeconstruct>Rozebrat</DesignatorDeconstruct></DesignatorDeconstruct>
-  <DesignatorDeconstructDesc>Označí objekty, které mají být rezebrané. Část surovin dostaneš zpět.</DesignatorDeconstructDesc>
+  <DesignatorDeconstruct>Rozebrat</DesignatorDeconstruct>
+  <DesignatorDeconstructDesc>Označí objekty, které mají být rozebrané. Část surovin dostaneš zpět.</DesignatorDeconstructDesc>
 
   <DesignatorUninstall>Odinstalovat</DesignatorUninstall>
   <DesignatorUninstallDesc>Označí objekty, které mají být odinstalovány, aby mohly být přeneseny na jiné místo nebo prodány.</DesignatorUninstallDesc>
@@ -30,7 +30,7 @@
   <DesignatorMineDesc>Označí oblasti se skalami, které mají být vytěženy.</DesignatorMineDesc>
 
   <DesignatorSmoothFloor>Vyhladit povrch</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Označí hrubé kamenné povrchy, které mají být uhlazeny.</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothFloorDesc>Označí hrubé kamenné povrchy, které mají být vyhlazeny.</DesignatorSmoothFloorDesc>
 
   <DesignatorPlan>Naplánovat</DesignatorPlan>
   <DesignatorPlanDesc>Umístí značky plánu. Tyto značky slouží pouze jako výpomoc při plánování výstavby tvojí kolonie.</DesignatorPlanDesc>
@@ -39,35 +39,29 @@
   <DesignatorPlanRemoveDesc>Odstraní značky plánu.</DesignatorPlanRemoveDesc>
 
   <DesignatorAreaHomeExpand>Rozšířit domovskou oblast</DesignatorAreaHomeExpand>
-  <DesignatorAreaHomeExpandDesc>Jen v takto označené oblasti lze opravovat předměty, uklízet pdlahy nebo hasit požáry.</DesignatorAreaHomeExpandDesc>
-
+  <DesignatorAreaHomeExpandDesc>Jen v takto označené oblasti lze opravovat předměty, uklízet podlahy nebo hasit požáry.</DesignatorAreaHomeExpandDesc>
   <DesignatorAreaHomeClear>Odstranit domovskou oblast</DesignatorAreaHomeClear>
   <DesignatorAreaHomeClearDesc>Odstraní část domovské oblasti. Kolonisté už v ní nemohou uklízet, opravovat nebo hasit požáry.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorAreaBuildRoofExpand>Rozšířit střechu</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpand>Rozšířit oblast se střechou</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>Zřídí oblast, ve které kolonisté postaví střechy.</DesignatorAreaBuildRoofExpandDesc>
-
-  <DesignatorAreaBuildRoofClear>Odstranit střechu</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>Odstraní části oblasti, ve které kolonisté zřídíli střechy. Stávající střechy zůstanou na místě, ale kolonisté tam nebudou stavět žádné nové.</DesignatorAreaBuildRoofClearDesc>
+  <DesignatorAreaBuildRoofClear>Odstranit oblast se střechou</DesignatorAreaBuildRoofClear>
+  <DesignatorAreaBuildRoofClearDesc>Odstraní části oblasti, ve které kolonisté zřídili střechy. Stávající střechy zůstanou na místě, ale kolonisté tam nebudou stavět žádné nové.</DesignatorAreaBuildRoofClearDesc>
 
   <DesignatorAreaNoRoofExpand>Rozšířit oblast\nbez střechy</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>Zřídí oblast, ve které kolonisté strhnou existující střechy. (Výjimka: Hory, protože ty strhnout nelze.)</DesignatorAreaNoRoofExpandDesc>
-
   <DesignatorAreaNoRoofClear>Odstranit oblast\nbez střechy</DesignatorAreaNoRoofClear>
   <DesignatorAreaNoRoofClearDesc>Odstraní části oblasti, ve které kolonisté strhnou stávající střechy. (Výjimka: Hory, protože ty strhnout nelze.)</DesignatorAreaNoRoofClearDesc>
 
   <DesignatorAreaSnowClearExpand>Rozšířit oblast\npro úklid sněhu</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>Zřídí oblast, ve které se kolonisté budou snažit odklízet případný sníh.</DesignatorAreaSnowClearExpandDesc>
-
   <DesignatorAreaSnowClearClear>Odstranit oblast\npro úklid sněhu</DesignatorAreaSnowClearClear>
   <DesignatorAreaSnowClearClearDesc>Odstraní oblast, která je určena k odklízení sněhu. V této oblasti se už kolonisté nebudou snažit udržovat ho bez sněhu.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorExpandAreaAllowed>Rozšířit povolenou oblast</DesignatorExpandAreaAllowed>
   <DesignatorExpandAreaAllowedDesc>Rozšíří povolenou oblast.\n\nPovolené oblasti jsou určená území, která lze kolonistům přiřadit. Kolonisté omezí svoji práci i svoje potřeby jen na tuto oblast.</DesignatorExpandAreaAllowedDesc>
-
   <DesignatorClearAreaAllowed>Odstranit povolenou oblast</DesignatorClearAreaAllowed>
   <DesignatorClearAreaAllowedDesc>Zmenší povolenou oblast.\n\nPovolené oblasti jsou určená území, která lze kolonistům přiřadit. Kolonisté omezí svoji práci i svoje potřeby jen na tuto oblast.</DesignatorClearAreaAllowedDesc>
-
   <ManageAreas>Spravovat oblasti...</ManageAreas>
 
   <DesignatorGrowingZoneDesc>Zřídí oblast, ve které se tví kolonisté budou snažit pěstovat určitý druh rostliny.</DesignatorGrowingZoneDesc>
@@ -100,13 +94,13 @@
   <DesignatorTame>Ochočit</DesignatorTame>
   <DesignatorTameDesc>Označí divoká zvířata, která mají být ochočena.</DesignatorTameDesc>
 
-  <!-- Failure messages -->
 
+  <!-- Failure messages -->
   <UnchosenStuff>Není zvolený materiál</UnchosenStuff>
   <TooCloseToMapEdge>Příliš blízko okraje mapy.</TooCloseToMapEdge>
   <OutOfBounds>Mimo mapu.</OutOfBounds>
   <CannotPlaceInUndiscovered>Umístění objektů do neobjevených oblastí není možné.</CannotPlaceInUndiscovered>
-  <InteractionSpotBlocked>Bod interakce je blokován {0}.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>Bod interakce blokuje {0}.</InteractionSpotBlocked>
   <InteractionSpotOutOfBounds>Bod interakce je za ohraničením.</InteractionSpotOutOfBounds>
   <InteractionSpotWillBeBlocked>Bod interakce bude blokován předmětem {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bude blokovat bod interakce předmětu {1}.</WouldBlockInteractionSpot>
@@ -116,15 +110,17 @@
   <IdenticalBlueprintExists>Tento plán se zde již nachází.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Tento povrch je příliš nestabilní.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Prostor je již obsazen.</SpaceAlreadyOccupied>
+  <SpaceBeingSmoothed>Prostor již bude vyhlazen.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Lze použít jen na podlahu, kterou lze odstranit.</TerrainMustBeRemovable>
 
-  <!-- Mouse attachments -->
 
+  <!-- Mouse attachments -->
   <ExpandOrCreateZone>Rozšířit {0} nebo\nvytvořit {1}</ExpandOrCreateZone>
   <CreateNewZone>Vytvoří {0}</CreateNewZone>
 
-  <!-- Desc helpers -->
 
+  <!-- Desc helpers -->
   <TransmitsPower>Vede elektřinu</TransmitsPower>
+
 
 </LanguageData>

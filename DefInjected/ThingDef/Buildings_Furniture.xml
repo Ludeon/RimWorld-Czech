@@ -1,81 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Beds -->
 
-  <SleepingSpot.label>Místo na spaní (člověk)</SleepingSpot.label>
+  <SleepingSpot.label>místo na spaní (člověk)</SleepingSpot.label>
   <SleepingSpot.description>Označuje místo na zemi, kde mohou spát lidé. Nijak zvlášť pohodlné.</SleepingSpot.description>
+  <SleepingSpot_Blueprint.label>místo na spaní (člověk) (plán)</SleepingSpot_Blueprint.label>
+  <SleepingSpot_Frame.label>místo na spaní (člověk) (ve výstavbě)</SleepingSpot_Frame.label>
+  <SleepingSpot_Frame.description>Označuje místo na zemi, kde mají spát lidé. Nijak zvlášť pohodlné.</SleepingSpot_Frame.description>
 
-  <Bed.label>Postel</Bed.label>
+  <Bed.label>postel</Bed.label>
   <Bed.description>Pohodlná matrace s ložním prádlem na rámu. Dobré místo k odpočinku.</Bed.description>
+  <Bed_Blueprint.label>postel (plán)</Bed_Blueprint.label>
+  <Bed_Blueprint_Install.label>postel (plán)</Bed_Blueprint_Install.label>
+  <Bed_Frame.label>postel (ve výstavbě)</Bed_Frame.label>
+  <Bed_Frame.description>Pohodlná matrace s ložním prádlem na rámu. Dobré místo k odpočinku.</Bed_Frame.description>
 
-  <DoubleBed.label>Dvojlůžko</DoubleBed.label>
+  <DoubleBed.label>dvojlůžko</DoubleBed.label>
   <DoubleBed.description>Jednoduché dvojlůžko s dostatkem místa pro dva.</DoubleBed.description>
+  <DoubleBed_Blueprint.label>Dvojlůžko (plán)</DoubleBed_Blueprint.label>
+  <DoubleBed_Blueprint_Install.label>dvojlůžko (plán)</DoubleBed_Blueprint_Install.label>
+  <DoubleBed_Frame.label>dvojlůžko (ve výstavbě)</DoubleBed_Frame.label>
+  <DoubleBed_Frame.description>Jednoduché dvojlůžko s dostatkem místa pro dva.</DoubleBed_Frame.description>
 
-  <RoyalBed.label>Královská postel</RoyalBed.label>
+  <RoyalBed.label>královská postel</RoyalBed.label>
   <RoyalBed.description>Luxusní, zlatem zdobená postel vhodná i pro šlechtice. Velmi hezká a pohodlná s dostatkem místa pro dva.</RoyalBed.description>
+  <RoyalBed_Blueprint.label>královská postel (plán)</RoyalBed_Blueprint.label>
+  <RoyalBed_Blueprint_Install.label>královská postel (plán)</RoyalBed_Blueprint_Install.label>
+  <RoyalBed_Frame.label>královská postel (ve výstavbě)</RoyalBed_Frame.label>
+  <RoyalBed_Frame.description>Luxusní, zlatem zdobená postel vhodná i pro šlechtice. Velmi hezká a pohodlná s dostatkem místa pro dva.</RoyalBed_Frame.description>
 
-  <HospitalBed.label>Nemocniční lůžko</HospitalBed.label>
+  <HospitalBed.label>nemocniční lůžko</HospitalBed.label>
   <HospitalBed.description>Postel speciálně navržená pro ošetřování zraněných lidí. Zvyšuje pravděpodobnost úspěchu lékařských ošetření i operací.</HospitalBed.description>
+  <HospitalBed_Blueprint.label>nemocniční lůžko (plán)</HospitalBed_Blueprint.label>
+  <HospitalBed_Blueprint_Install.label>nemocniční lůžko (plán)</HospitalBed_Blueprint_Install.label>
+  <HospitalBed_Frame.label>nemocniční lůžko (ve výstavbě)</HospitalBed_Frame.label>
+  <HospitalBed_Frame.description>Postel speciálně navržená pro ošetřování zraněných lidí. Zvyšuje pravděpodobnost úspěchu lékařských ošetření i operací.</HospitalBed_Frame.description>
+
 
   <!-- Animal beds -->
 
-  <AnimalSleepingSpot.label>Místo na spaní (zvíře)</AnimalSleepingSpot.label>
+  <AnimalSleepingSpot.label>místo na spaní (zvíře)</AnimalSleepingSpot.label>
   <AnimalSleepingSpot.description>Označuje místo na zemi, kde mají spát zvířata.</AnimalSleepingSpot.description>
+  <AnimalSleepingSpot_Blueprint.label>místo na spaní (zvíře) (plán)</AnimalSleepingSpot_Blueprint.label>
+  <AnimalSleepingSpot_Frame.label>místo na spaní (zvíře) (ve výstavbě)</AnimalSleepingSpot_Frame.label>
+  <AnimalSleepingSpot_Frame.description>Označuje místo na zemi, kde mají spát zvířata.</AnimalSleepingSpot_Frame.description>
 
-  <AnimalSleepingBox.label>Krabice (zvíře)</AnimalSleepingBox.label>
+  <AnimalSleepingBox.label>krabice (zvíře)</AnimalSleepingBox.label>
   <AnimalSleepingBox.description>Malá krabice, ve které mohou spát zvířata. Vhodná pro menší zvířata jako např. slepice, kočky a malí psi.</AnimalSleepingBox.description>
+  <AnimalSleepingBox_Blueprint.label>krabice (zvíře) (plán)</AnimalSleepingBox_Blueprint.label>
+  <AnimalSleepingBox_Blueprint_Install.label>krabice (zvíře) (plán)</AnimalSleepingBox_Blueprint_Install.label>
+  <AnimalSleepingBox_Frame.label>krabice (zvíře) (ve výstavbě)</AnimalSleepingBox_Frame.label>
+  <AnimalSleepingBox_Frame.description>Malá krabice, ve které mohou spát zvířata. Vhodná pro menší zvířata jako např. slepice, kočky a malí psi.</AnimalSleepingBox_Frame.description>
 
-  <AnimalBed.label>Pelíšek (zvíře)</AnimalBed.label>
+  <AnimalBed.label>pelíšek (zvíře)</AnimalBed.label>
   <AnimalBed.description>Měkká postýlka, ve které mohou spát zvířata. Vhodná pro všechny druhy zvířat.</AnimalBed.description>
+  <AnimalBed_Blueprint.label>pelíšek (zvíře) (plán)</AnimalBed_Blueprint.label>
+  <AnimalBed_Blueprint_Install.label>pelíšek (zvíře) (plán)</AnimalBed_Blueprint_Install.label>
+  <AnimalBed_Frame.label>pelíšek (zvíře) (ve výstavbě)</AnimalBed_Frame.label>
+  <AnimalBed_Frame.description>Měkká postýlka, ve které mohou spát zvířata. Vhodná pro všechny druhy zvířat.</AnimalBed_Frame.description>
+
 
   <!-- Basic domestic furniture -->
 
-  <Stool.label>Stolička</Stool.label>
+  <Stool.label>stolička</Stool.label>
   <Stool.description>Prostý povrch, na kterém se dá sedět.</Stool.description>
+  <Stool_Blueprint.label>stolička (plán)</Stool_Blueprint.label>
+  <Stool_Blueprint_Install.label>stolička (plán)</Stool_Blueprint_Install.label>
+  <Stool_Frame.label>stolička (ve výstavbě)</Stool_Frame.label>
+  <Stool_Frame.description>Prostý povrch, na kterém se dá sedět.</Stool_Frame.description>
 
-  <DiningChair.label>Židle</DiningChair.label>
+  <DiningChair.label>židle</DiningChair.label>
   <DiningChair.description>Pohodlná a dobře vypadající židle pro posezení u stolu.</DiningChair.description>
+  <DiningChair_Blueprint.label>židle (plán)</DiningChair_Blueprint.label>
+  <DiningChair_Blueprint_Install.label>židle (plán)</DiningChair_Blueprint_Install.label>
+  <DiningChair_Frame.label>židle (ve výstavbě)</DiningChair_Frame.label>
+  <DiningChair_Frame.description>Pohodlná a dobře vypadající židle pro posezení u stolu.</DiningChair_Frame.description>
 
-  <Armchair.label>Křeslo</Armchair.label>
+  <Armchair.label>křeslo</Armchair.label>
   <Armchair.description>Velké, měkké a pohodlné křeslo. Skvělé pro odpočinek.</Armchair.description>
+  <Armchair_Blueprint.label>křeslo (plán)</Armchair_Blueprint.label>
+  <Armchair_Blueprint_Install.label>křeslo (plán)</Armchair_Blueprint_Install.label>
+  <Armchair_Frame.label>křeslo (ve výstavbě)</Armchair_Frame.label>
+  <Armchair_Frame.description>Velké, měkké a pohodlné křeslo. Skvělé pro odpočinek.</Armchair_Frame.description>
+
 
   <!-- Table base -->
-  <TableShort.label>Malý stůl</TableShort.label>
+
+  <TableShort.label>malý stůl</TableShort.label>
   <TableShort.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableShort.description>
+  <TableShort_Blueprint.label>malý stůl (plán)</TableShort_Blueprint.label>
+  <TableShort_Blueprint_Install.label>malý stůl (plán)</TableShort_Blueprint_Install.label>
+  <TableShort_Frame.label>malý stůl (ve výstavbě)</TableShort_Frame.label>
+  <TableShort_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableShort_Frame.description>
 
-  <TableLong.label>Velký stůl</TableLong.label>
+  <TableLong.label>velký stůl</TableLong.label>
   <TableLong.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableLong.description>
+  <TableLong_Blueprint.label>velký stůl (plán)</TableLong_Blueprint.label>
+  <TableLong_Blueprint_Install.label>velký stůl (plán)</TableLong_Blueprint_Install.label>
+  <TableLong_Frame.label>velký stůl (ve výstavbě)</TableLong_Frame.label>
+  <TableLong_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableLong_Frame.description>
 
-  <PlantPot.label>Květináč</PlantPot.label>
+  <PlantPot.label>květináč</PlantPot.label>
   <PlantPot.description>Sem můžeš vysadit květiny pro zlepšení nálady opodál stojících lidí.</PlantPot.description>
-  
-  
+  <PlantPot_Blueprint.label>květináč (plán)</PlantPot_Blueprint.label>
+  <PlantPot_Blueprint_Install.label>květináč (plán)</PlantPot_Blueprint_Install.label>
+  <PlantPot_Frame.label>květináč (ve výstavbě)</PlantPot_Frame.label>
+  <PlantPot_Frame.description>Sem můžeš vysadit květiny pro zlepšení nálady opodál stojících lidí.</PlantPot_Frame.description>
+
+
   <!-- Lighting -->
 
-  <TorchLamp.label>Pochodeň</TorchLamp.label>
+  <TorchLamp.label>pochodeň</TorchLamp.label>
   <TorchLamp.description>Dřevěná pochodeň, která osvětluje okolí. Lze ji automaticky doplňovat dřevem. Vydává malé množství tepla.</TorchLamp.description>
+  <TorchLamp_Blueprint.label>pochodeň (plán)</TorchLamp_Blueprint.label>
+  <TorchLamp_Frame.label>pochodeň (ve výstavbě)</TorchLamp_Frame.label>
+  <TorchLamp_Frame.description>Dřevěná pochodeň, která osvětluje okolí. Lze ji automaticky doplňovat dřevem. Vydává malé množství tepla.</TorchLamp_Frame.description>
 
-  <StandingLamp.label>Lampa</StandingLamp.label>
+  <StandingLamp.label>lampa</StandingLamp.label>
   <StandingLamp.description>Stojací lampa, která osvětluje okolí.</StandingLamp.description>
+  <StandingLamp_Blueprint.label>lampa (plán)</StandingLamp_Blueprint.label>
+  <StandingLamp_Blueprint_Install.label>lampa (plán)</StandingLamp_Blueprint_Install.label>
+  <StandingLamp_Frame.label>lampa (ve výstavbě)</StandingLamp_Frame.label>
+  <StandingLamp_Frame.description>Stojací lampa, která osvětluje okolí.</StandingLamp_Frame.description>
 
-  <StandingLamp_Red.label>Lampa (červená)</StandingLamp_Red.label>
+  <StandingLamp_Red.label>lampa (červená)</StandingLamp_Red.label>
   <StandingLamp_Red.description>Stojací lampa, která osvětluje okolí červeným světlem.</StandingLamp_Red.description>
+  <StandingLamp_Red_Blueprint.label>lampa (červená) (plán)</StandingLamp_Red_Blueprint.label>
+  <StandingLamp_Red_Blueprint_Install.label>lampa (červená) (plán)</StandingLamp_Red_Blueprint_Install.label>
+  <StandingLamp_Red_Frame.label>lampa (červená) (ve výstavbě)</StandingLamp_Red_Frame.label>
+  <StandingLamp_Red_Frame.description>Stojací lampa, která osvětluje okolí červeným světlem.</StandingLamp_Red_Frame.description>
 
-  <StandingLamp_Green.label>Lampa (zelená)</StandingLamp_Green.label>
+  <StandingLamp_Green.label>lampa (zelená)</StandingLamp_Green.label>
   <StandingLamp_Green.description>Stojací lampa, která osvětluje okolí zeleným světlem.</StandingLamp_Green.description>
+  <StandingLamp_Green_Blueprint.label>lampa (zelená) (plán)</StandingLamp_Green_Blueprint.label>
+  <StandingLamp_Green_Blueprint_Install.label>lampa (zelená) (plán)</StandingLamp_Green_Blueprint_Install.label>
+  <StandingLamp_Green_Frame.label>lampa (zelená) (ve výstavbě)</StandingLamp_Green_Frame.label>
+  <StandingLamp_Green_Frame.description>Stojací lampa, která osvětluje okolí zeleným světlem.</StandingLamp_Green_Frame.description>
 
-  <StandingLamp_Blue.label>Lampa (modrá)</StandingLamp_Blue.label>
+  <StandingLamp_Blue.label>lampa (modrá)</StandingLamp_Blue.label>
   <StandingLamp_Blue.description>Stojací lampa, která osvětluje okolí modrým světlem.</StandingLamp_Blue.description>
+  <StandingLamp_Blue_Blueprint.label>lampa (modrá) (plán)</StandingLamp_Blue_Blueprint.label>
+  <StandingLamp_Blue_Blueprint_Install.label>lampa (modrá) (plán)</StandingLamp_Blue_Blueprint_Install.label>
+  <StandingLamp_Blue_Frame.label>lampa (modrá) (ve výstavbě)</StandingLamp_Blue_Frame.label>
+  <StandingLamp_Blue_Frame.description>Stojací lampa, která osvětluje okolí modrým světlem.</StandingLamp_Blue_Frame.description>
 
-  <SunLamp.label>Umělé slunce</SunLamp.label>
-  <SunLamp.description>Osvětluje okolí tak silně, že při tom mohou růst i rostliny. Vyžaduje velmi mnoho energie.</SunLamp.description>
+  <SunLamp.label>umělé slunce</SunLamp.label>
+  <SunLamp.description>Osvětluje okolí tak silně, že při tom mohou růst i rostliny. Vyžaduje velmi mnoho energie. Automaticky se na noc vypne.</SunLamp.description>
+  <SunLamp.comps.3.offMessage>Vypnuto pro odpočinek rostlin</SunLamp.comps.3.offMessage>
+  <SunLamp_Blueprint.label>umělé slunce (plán)</SunLamp_Blueprint.label>
+  <SunLamp_Blueprint_Install.label>umělé slunce (plán)</SunLamp_Blueprint_Install.label>
+  <SunLamp_Frame.label>umělé slunce (ve výstavbě)</SunLamp_Frame.label>
+  <SunLamp_Frame.description>Osvětluje okolí tak silně, že při tom mohou růst i rostliny. Vyžaduje velmi mnoho energie. Automaticky se na noc vypne.</SunLamp_Frame.description>
 
-  
+
   <!-- Storage -->
 
-  <EquipmentRack.label>Police</EquipmentRack.label>
-  <EquipmentRack.description>Zde uskladněné vybavení se neničí, dokonce i když je venku.</EquipmentRack.description>
+  <Shelf.label>police</Shelf.label>
+  <Shelf.description>Zde uskladněné vybavení se neničí, dokonce i když je venku.</Shelf.description>
+  <Shelf_Blueprint.label>police (plán)</Shelf_Blueprint.label>
+  <Shelf_Blueprint_Install.label>police (plán)</Shelf_Blueprint_Install.label>
+  <Shelf_Frame.label>police (ve výstavbě)</Shelf_Frame.label>
+  <Shelf_Frame.description>Zde uskladněné vybavení se neničí, dokonce i když je venku.</Shelf_Frame.description>
 
-  
+
 </LanguageData>

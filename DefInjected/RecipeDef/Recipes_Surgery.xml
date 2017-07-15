@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- removing body parts -->
 
   <RemoveBodyPart.label>odstranit část těla</RemoveBodyPart.label>
-  <RemoveBodyPart.description>Odstranění časti těla.</RemoveBodyPart.description>
+  <RemoveBodyPart.description>Odstranění části těla.</RemoveBodyPart.description>
   <RemoveBodyPart.jobString>Odstraňuje část těla.</RemoveBodyPart.jobString>
 
   <RemoveMechanoidBodyPart.label>odstranit část mechanoida</RemoveMechanoidBodyPart.label>
@@ -12,11 +12,18 @@
   <RemoveMechanoidBodyPart.jobString>Odstraňuje část mechanoida.</RemoveMechanoidBodyPart.jobString>
 
 
+  <!-- Anesthetize -->
+
+  <Anesthetize.label>provést anestezii</Anesthetize.label>
+  <Anesthetize.description>Provede uspání tvora pomocí anestetik.</Anesthetize.description>
+  <Anesthetize.jobString>Provádí anestezii.</Anesthetize.jobString>
+
+
   <!-- Euthanasia -->
 
-  <Euthanize.label>provést eutanazii</Euthanize.label>
-  <Euthanize.description>Provede eutanazii.</Euthanize.description>
-  <Euthanize.jobString>Provadí eutanazii.</Euthanize.jobString>
+  <Euthanize.label>provést eutanazii podřezáním</Euthanize.label>
+  <Euthanize.description>Provede eutanazii podřezáním.</Euthanize.description>
+  <Euthanize.jobString>Provádí eutanazii podřezáním.</Euthanize.jobString>
 
   <ShutDownMechanoid.label>vypnout mechanoida</ShutDownMechanoid.label>
   <ShutDownMechanoid.description>Vypne mechanoida.</ShutDownMechanoid.description>
@@ -29,32 +36,6 @@
   <ExciseCarcinoma.description>Odstraní nádor.</ExciseCarcinoma.description>
   <ExciseCarcinoma.jobString>Odstraňuje nádor.</ExciseCarcinoma.jobString>
   <ExciseCarcinoma.successfullyRemovedHediffMessage>U pacienta {1} byl úspěšně s pomocí {0} odstraněn nádor.</ExciseCarcinoma.successfullyRemovedHediffMessage>
-  
- <!-- Administration -->
- 
-  <Administer_Beer.label>Poskytnout pivo</Administer_Beer.label>
-	<Administer_Beer.jobString>Poskytuje pivo.</Administer_Beer.jobString> 
-
-	<Administer_GoJuice.label>Poskytnout Šťávu Go</Administer_GoJuice.label>
-	<Administer_GoJuice.jobString>Poskytuje Šťávu Go.</Administer_GoJuice.jobString> 
-
-	<Administer_Luciferium.label>Poskytnout Luciferium</Administer_Luciferium.label> 
-	<Administer_Luciferium.jobString>Poskytuje Luciferium.</Administer_Luciferium.jobString> 
-
-	<Administer_Penoxycyline.label>Poskytnout Penoxycylin</Administer_Penoxycyline.label> 
-	<Administer_Penoxycyline.jobString>Poskytuje Penoxycylin.</Administer_Penoxycyline.jobString>
-
-	<Administer_Flake.label>Poskytnout Vločku</Administer_Flake.label>
-	<Administer_Flake.jobString>Poskytuje Vločku.</Administer_Flake.jobString>
-
-	<Administer_Yayo.label>Poskytnout Jájo</Administer_Yayo.label>
-	<Administer_Yayo.jobString>Poskytuje Jájo.</Administer_Yayo.jobString>
-
-	<Administer_SmokeleafJoint.label>Poskytnout joint</Administer_SmokeleafJoint.label>
-	<Administer_SmokeleafJoint.jobString>Poskytuje joint.</Administer_SmokeleafJoint.jobString>
-
-	<Administer_WakeUp.label>Poskytnout Budíček</Administer_WakeUp.label>
-	<Administer_WakeUp.jobString>Poskytuje Budíček.</Administer_WakeUp.jobString>
 
 
 </LanguageData>

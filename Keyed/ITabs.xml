@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
@@ -18,7 +18,8 @@
   <TabRecords>Záznamy</TabRecords>
   <TabArt>Umění</TabArt>
   <TabSocial>Vztahy</TabSocial>
-  
+
+
   <!-- Bills tab  -->
   <AddBill>Přidat úkol</AddBill>
   <RecipeRequiresSkills>Recept {0} vyžaduje dovednosti uvedené níže. Tyto dovednosti nemá žádný ze tvých kolonistů, takže tento úkol nikdo neudělá.</RecipeRequiresSkills>
@@ -26,6 +27,7 @@
   <SuspendedCaps>ZASTAVENO</SuspendedCaps>
   <BoundWorkerIs>Pracovník: {0}</BoundWorkerIs>
   <PlantVerb>sázení</PlantVerb>
+
 
   <!-- Guest/prisoner tab -->
   <RecruitmentDifficulty>Obtížnost naverbování</RecruitmentDifficulty>
@@ -38,11 +40,14 @@
   <PrisonerAttemptRecruit>Rozhovor a verbování</PrisonerAttemptRecruit>
   <PrisonerRelease>Propustit</PrisonerRelease>
   <PrisonerExecution>Popravit</PrisonerExecution>
-  <ConsideredGuilty>Pravděpodobně vinný (vyprší za {0})</ConsideredGuilty>
+  <ConsideredGuilty>Považován za vinného (vyprší za {0})</ConsideredGuilty>
+
 
   <!-- Medical - general -->
   <MoveSpeed>Rychlost pohybu</MoveSpeed>
   <Efficiency>Účinnost</Efficiency>
+  <PartEfficiency>Účinnost části</PartEfficiency>
+  <BodyPartEfficiency>Účinnost části těla</BodyPartEfficiency>
   <MissingBodyPart>Není</MissingBodyPart>
   <DestroyedBodyPart>Zničeno</DestroyedBodyPart>
   <ShatteredBodyPart>Roztříštěno</ShatteredBodyPart>
@@ -72,7 +77,9 @@
   <Tiredness>Únava</Tiredness>
   <PainFactor>Bolest</PainFactor>
   <PreventsInfection>Zabraňuje infekci</PreventsInfection>
-  
+  <SelfTend>Sebe-ošetření</SelfTend>
+  <SelfTendTip>Pokud je sebe-ošetření zapnuto, {0} se bude o své zranění automaticky starat, ale pouze se {1} normální účinností.</SelfTendTip>
+
 
   <!-- Medical - Body and activities condition -->
   <None>Žádný</None>
@@ -97,19 +104,20 @@
   <CannotTrainTooSmall>Pro tento výcvik je zvíře příliš malé.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <NoRelationships>(žádné vztahy)</NoRelationships>
   <Kidnapped>Unesený</Kidnapped>
+  <Missing>Nezvěstný</Missing>
   <Slave>Otrok</Slave>
   <FactionLeader>Vůdce frakce</FactionLeader>
   <OpinionOf>Mínění o {0}</OpinionOf>
   <SomeonesOpinionOfMe>Mínění o mně ({0})</SomeonesOpinionOfMe>
   <IAmDead>Jsem po smrti</IAmDead>
   <IAmPsychopath>Jsem psychopat</IAmPsychopath>
-  
+
   <!-- Gear tab -->
-  <AverageArmor>Průměrná zbroj</AverageArmor>
+  <AverageArmor>Hodnoty zbroje</AverageArmor>
   <MassCarried>Nesená hmotnost: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Příjemný rozsah teplot</ComfyTemperatureRange>
   <ArmorBlunt>Tupé</ArmorBlunt>

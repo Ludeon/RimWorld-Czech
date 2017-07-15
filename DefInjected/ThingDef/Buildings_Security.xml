@@ -1,33 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Sandbags.label>Pytle s pískem</Sandbags.label>
+  <Sandbags.label>pytle s pískem</Sandbags.label>
   <Sandbags.description>Poskytuje krytí při ostřelování.</Sandbags.description>
-	
-  <TurretGun.label>Improviz. kanón</TurretGun.label>
-  <TurretGun.description>Improvizované zařízení, které automaticky střílí na nepřátele v blízkém okolí. Poznámka: Poškození může způsobit výbuch. Na koleni spíchnutá řídící umělá inteligence není nijak zvlášť inteligentní a nelze ji ani ovládat přímo, takže si dávej pozor na sřelbu do vlastních řad.</TurretGun.description>
+  <Sandbags_Blueprint.label>pytle s pískem (plán)</Sandbags_Blueprint.label>
+  <Sandbags_Frame.label>pytle s pískem (ve výstavbě)</Sandbags_Frame.label>
+  <Sandbags_Frame.description>Poskytuje krytí při ostřelování.</Sandbags_Frame.description>
 
-  <Bullet_TurretImprovised.label>Náboj do improvizovaného kanónu</Bullet_TurretImprovised.label>
-  <Gun_TurretImprovised.label>Improvizovaný kanón</Gun_TurretImprovised.label>
-  <Gun_TurretImprovised.description>Podomácku vyrobený kanón, který byl přimontován na improvizovanou děleckou věž.</Gun_TurretImprovised.description>
 
-  <Turret_MortarBomb.label>Minomet</Turret_MortarBomb.label>
+  <!-- Improvised turret -->
+
+  <TurretGun.label>improviz. kanón</TurretGun.label>
+  <TurretGun.description>Improvizované zařízení, které automaticky střílí na nepřátele v blízkém okolí. Poznámka: Poškození může způsobit výbuch. Na koleni spíchnutá řídící umělá inteligence není nijak zvlášť inteligentní a nelze ji ani ovládat přímo, takže si dávej pozor na střelbu do vlastních řad.</TurretGun.description>
+  <TurretGun_Blueprint.label>improviz. kanón (plán)</TurretGun_Blueprint.label>
+  <TurretGun_Blueprint_Install.label>improviz. kanón (plán)</TurretGun_Blueprint_Install.label>
+  <TurretGun_Frame.label>improviz. kanón (ve výstavbě)</TurretGun_Frame.label>
+  <TurretGun_Frame.description>Improvizované zařízení, které automaticky střílí na nepřátele v blízkém okolí. Poznámka: Poškození může způsobit výbuch. Na koleni spíchnutá řídící umělá inteligence není nijak zvlášť inteligentní a nelze ji ani ovládat přímo, takže si dávej pozor na střelbu do vlastních řad.</TurretGun_Frame.description>
+
+  <Bullet_TurretImprovised.label>náboj do improvizovaného kanónu</Bullet_TurretImprovised.label>
+
+  <Gun_TurretImprovised.label>improvizovaný kanón</Gun_TurretImprovised.label>
+  <Gun_TurretImprovised.description>Podomácku vyrobený kanón, který byl přimontován na improvizovanou střeleckou věž.</Gun_TurretImprovised.description>
+
+
+  <!-- Mortar bomb turret -->
+
+  <Turret_MortarBomb.label>minomet</Turret_MortarBomb.label>
   <Turret_MortarBomb.description>Minomet, který vystřeluje výbušné dělostřelecké granáty. Musí být obsluhován kolonistou. Poznámka: Poškození může způsobit výbuch.</Turret_MortarBomb.description>
+  <Turret_MortarBomb_Blueprint.label>minomet (plán)</Turret_MortarBomb_Blueprint.label>
+  <Turret_MortarBomb_Blueprint_Install.label>minomet (plán)</Turret_MortarBomb_Blueprint_Install.label>
+  <Turret_MortarBomb_Frame.label>minomet (ve výstavbě)</Turret_MortarBomb_Frame.label>
+  <Turret_MortarBomb_Frame.description>Minomet, který vystřeluje výbušné dělostřelecké granáty. Musí být obsluhován kolonistou. Poznámka: Poškození může způsobit výbuch.</Turret_MortarBomb_Frame.description>
 
-  <Turret_MortarIncendiary.label>Minomet (zápalný)</Turret_MortarIncendiary.label>
+  <Artillery_MortarBomb.label>minomet</Artillery_MortarBomb.label>
+  <Artillery_MortarBomb.description>Vrhač výbušných dělostřeleckých granátů. Vystřeluje přes zdi výbušné projektily. Velmi nepřesný, ale s vysokým dostřelem.</Artillery_MortarBomb.description>
+
+  <Bullet_MortarBomb.label>dělostřelecký granát</Bullet_MortarBomb.label>
+
+
+  <!-- Mortar incendiary turret -->
+
+  <Turret_MortarIncendiary.label>minomet (zápalný)</Turret_MortarIncendiary.label>
   <Turret_MortarIncendiary.description>Minomet, který vystřeluje zápalné dělostřelecké granáty. Musí být obsluhován kolonistou. Poznámka: Poškození může způsobit výbuch.</Turret_MortarIncendiary.description>
+  <Turret_MortarIncendiary_Blueprint.label>minomet (zápalný) (plán)</Turret_MortarIncendiary_Blueprint.label>
+  <Turret_MortarIncendiary_Blueprint_Install.label>minomet (zápalný) (plán)</Turret_MortarIncendiary_Blueprint_Install.label>
+  <Turret_MortarIncendiary_Frame.label>minomet (zápalný) (ve výstavbě)</Turret_MortarIncendiary_Frame.label>
+  <Turret_MortarIncendiary_Frame.description>Minomet, který vystřeluje zápalné dělostřelecké granáty. Musí být obsluhován kolonistou. Poznámka: Poškození může způsobit výbuch.</Turret_MortarIncendiary_Frame.description>
 
-  <Turret_MortarEMP.label>Minomet (EMP)</Turret_MortarEMP.label>
+  <Artillery_MortarIncendiary.label>minomet (zápalný)</Artillery_MortarIncendiary.label>
+  <Artillery_MortarIncendiary.description>Vrhač zápalných dělostřeleckých granátů. Vystřeluje přes zdi zápalné projektily. Velmi nepřesný, ale s vysokým dostřelem.</Artillery_MortarIncendiary.description>
+
+  <Bullet_MortarIncendiary.label>zápalný dělostřelecký granát</Bullet_MortarIncendiary.label>
+
+
+  <!-- Mortar EMP -->
+
+  <Turret_MortarEMP.label>minomet (EMP)</Turret_MortarEMP.label>
   <Turret_MortarEMP.description>Minomet, který vystřeluje EMP dělostřelecké granáty. Musí být obsluhován kolonistou. Poznámka: Poškození může způsobit výbuch.</Turret_MortarEMP.description>
+  <Turret_MortarEMP_Blueprint.label>minomet (EMP) (plán)</Turret_MortarEMP_Blueprint.label>
+  <Turret_MortarEMP_Blueprint_Install.label>minomet (EMP) (plán)</Turret_MortarEMP_Blueprint_Install.label>
+  <Turret_MortarEMP_Frame.label>minomet (EMP) (ve výstavbě)</Turret_MortarEMP_Frame.label>
+  <Turret_MortarEMP_Frame.description>Minomet, který vystřeluje EMP dělostřelecké granáty. Musí být obsluhován kolonistou. Poznámka: Poškození může způsobit výbuch.</Turret_MortarEMP_Frame.description>
+
+  <Artillery_MortarEMP.label>minomet (EMP)</Artillery_MortarEMP.label>
+  <Artillery_MortarEMP.description>Vrhač EMP dělostřeleckých granátů. Vystřeluje přes zdi EMP projektily. Velmi nepřesný, ale s vysokým dostřelem.</Artillery_MortarEMP.description>
+
+  <Bullet_MortarEMP.label>EMP dělostřelecký granát</Bullet_MortarEMP.label>
 
 
-  <TrapDeadfall.label>Padací past</TrapDeadfall.label>
+  <!-- Traps -->
+
+  <TrapDeadfall.label>padací past</TrapDeadfall.label>
   <TrapDeadfall.description>Volně visící závaží s ostny, které je zajištěno citlivou spouští. Když oběť o spoušť zavadí, závaží se uvolní a spadne oběti na hlavu nebo na tělo.</TrapDeadfall.description>
+  <TrapDeadfall_Blueprint.label>padací past (plán)</TrapDeadfall_Blueprint.label>
+  <TrapDeadfall_Frame.label>padací past (ve výstavbě)</TrapDeadfall_Frame.label>
+  <TrapDeadfall_Frame.description>Volně visící závaží s ostny, které je zajištěno citlivou spouští. Když oběť o spoušť zavadí, závaží se uvolní a spadne oběti na hlavu nebo na tělo.</TrapDeadfall_Frame.description>
 
-  <TrapIEDBomb.label>Improviz. výbušnina</TrapIEDBomb.label>
+  <TrapIEDBomb.label>improviz. výbušnina</TrapIEDBomb.label>
   <TrapIEDBomb.description>Dělostřelecký granát připojený k podomácku vyrobené spoušti. Pokud o spoušť někdo zavadí, granát vybuchne. Spoušť vlastní výroby má náhodné zpoždění, které případně umožní hbitému protivníkovi uniknout.</TrapIEDBomb.description>
+  <TrapIEDBomb_Blueprint.label>improviz. výbušnina (plán)</TrapIEDBomb_Blueprint.label>
+  <TrapIEDBomb_Frame.label>improviz. výbušnina (ve výstavbě)</TrapIEDBomb_Frame.label>
+  <TrapIEDBomb_Frame.description>Dělostřelecký granát připojený k podomácku vyrobené spoušti. Pokud o spoušť někdo zavadí, granát vybuchne. Spoušť vlastní výroby má náhodné zpoždění, které případně umožní hbitému protivníkovi uniknout.</TrapIEDBomb_Frame.description>
 
-  <TrapIEDIncendiary.label>Improviz. zápalná výbušnina</TrapIEDIncendiary.label>
+  <TrapIEDIncendiary.label>improviz. zápalná výbušnina</TrapIEDIncendiary.label>
   <TrapIEDIncendiary.description>Výbušná látka smíchaná s pastou urychlující hoření a spojená s chemickým spouštěčem. Když někdo o spoušť zavadí, směs se zapálí a zapálené palivo se rozstříkne. Vzhledem k tomu, ze není potřeba zapálit něco vysoce výbušného, je chemická spoušť jednodušší a spolehlivější, než většina ostatních.</TrapIEDIncendiary.description>
+  <TrapIEDIncendiary_Blueprint.label>improviz. zápalná bomba (plán)</TrapIEDIncendiary_Blueprint.label>
+  <TrapIEDIncendiary_Frame.label>improviz. zápalná bomba (ve výstavbě)</TrapIEDIncendiary_Frame.label>
+  <TrapIEDIncendiary_Frame.description>Výbušná látka smíchaná s pastou urychlující hoření a spojená s chemickým spouštěčem. Když někdo o spoušť zavadí, směs se zapálí a zapálené palivo se rozstříkne. Vzhledem k tomu, ze není potřeba zapálit něco vysoce výbušného, je chemická spoušť jednodušší a spolehlivější, než většina ostatních.</TrapIEDIncendiary_Frame.description>
+
 
 </LanguageData>

@@ -1,32 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-	<WorkSpeedGlobal.label>rychlost práce (globální)</WorkSpeedGlobal.label>
-	<WorkSpeedGlobal.description>Násobitel ovlivňující rychlost veškerých činností.</WorkSpeedGlobal.description>
-	
-	<MiningSpeed.label>rychlost těžby</MiningSpeed.label>
-	<MiningSpeed.description>Rychlost, jakou tato osoba těží suroviny.</MiningSpeed.description>
-	
-	<SmoothingSpeed.label>rychlost vyhlazovaní pohlad</SmoothingSpeed.label>
-	<SmoothingSpeed.description>Rychlost, jakou tato osoba vyhlazuje podlahy.</SmoothingSpeed.description>
-	
-	<ResearchSpeed.label>rychlost výzkumu</ResearchSpeed.label>
-	<ResearchSpeed.description>Rychlost, jakou tato osoba provádí výzkum.</ResearchSpeed.description>
-	
-	<ConstructionSpeed.label>rychlost stavby</ConstructionSpeed.label>
-	<ConstructionSpeed.description>Rychlost, jakou tato osoba buduje a opravuje stavby.</ConstructionSpeed.description>
-	
-	<PlantWorkSpeed.label>rychlost sázení</PlantWorkSpeed.label>
-	<PlantWorkSpeed.description>Rychlost, jakou tato osoba sází a sklízí plodiny.</PlantWorkSpeed.description>
-  
-  <HarvestFailChance.label>šance na selhání při sklizni</HarvestFailChance.label>
-  <HarvestFailChance.description>Šance, že tato osoba nechtěně zničí plodinu namísto úspěšného pokusu.</HarvestFailChance.description>
 
-  <ConstructFailChance.label>šance na selhání při konstrukci</ConstructFailChance.label>
-  <ConstructFailChance.description>Šance, že tato osoba selže při konstrukci nečeho, přijde o čas i materiál.</ConstructFailChance.description>
+  <WorkSpeedGlobal.label>rychlost práce (globální)</WorkSpeedGlobal.label>
+  <WorkSpeedGlobal.description>Násobitel ovlivňující rychlost veškerých činností.</WorkSpeedGlobal.description>
 
-  <FixBrokenDownBuildingFailChance.label>šance na selhání při opravě</FixBrokenDownBuildingFailChance.label>
-  <FixBrokenDownBuildingFailChance.description>Šance, že tato osoba selže při opravě poškozené stavby.</FixBrokenDownBuildingFailChance.description>
+  <MiningSpeed.label>rychlost těžby</MiningSpeed.label>
+  <MiningSpeed.description>Rychlost, jakou tato osoba těží suroviny.</MiningSpeed.description>
+
+  <MiningYield.label>výnos z těžby</MiningYield.label>
+  <MiningYield.description>Procentuální výnos, který těžař obdrží. To platí jak pro klasickou těžbu krumpáčem, tak pro hlubinnou těžbu vrtákem. Tohle neovlivní těžbu kamení.</MiningYield.description>
+
+  <SmoothingSpeed.label>rychlost vyhlazovaní podlah</SmoothingSpeed.label>
+  <SmoothingSpeed.description>Rychlost, jakou tato osoba vyhlazuje podlahy.</SmoothingSpeed.description>
+
+  <ResearchSpeed.label>rychlost výzkumu</ResearchSpeed.label>
+  <ResearchSpeed.description>Rychlost, jakou tato osoba provádí výzkum.</ResearchSpeed.description>
+
+  <AnimalGatherSpeed.label>rychlost práce se zvěří</AnimalGatherSpeed.label>
+  <AnimalGatherSpeed.description>Rychlost, jakou tato osoba dojí, stříhá a provádí další práce při získávání produktů ze zvířete.</AnimalGatherSpeed.description>
+
+  <AnimalGatherYield.label>výnos ze zvířete</AnimalGatherYield.label>
+  <AnimalGatherYield.description>Procentuální výnos, který někdo obdrží, když stříhá, dojí, nebo provádí další práce spojené se získáním produktů z živého zvířete. Vyšší procento redukuje šanci na plýtvání produkty.</AnimalGatherYield.description>
+
+  <PlantWorkSpeed.label>rychlost sázení</PlantWorkSpeed.label>
+  <PlantWorkSpeed.description>Rychlost, jakou tato osoba sází a sklízí plodiny.</PlantWorkSpeed.description>
+
+  <PlantHarvestYield.label>výnos ze sklizně</PlantHarvestYield.label>
+  <PlantHarvestYield.description>Výnos, který někdo obdrží při sklizni plodin. Nízké výnosy dávají šanci, že tato osoba neúmyslně přijde o sklizeň.</PlantHarvestYield.description>
+
+  <ConstructionSpeed.label>rychlost stavby</ConstructionSpeed.label>
+  <ConstructionSpeed.description>Rychlost, jakou tato osoba buduje a opravuje stavby.</ConstructionSpeed.description>
+
+  <ConstructSuccessChance.label>šance na úspěch při konstrukci</ConstructSuccessChance.label>
+  <ConstructSuccessChance.description>Šance, jakou tato osoba uspěje při konstrukci něčeho. Selhání znamená plýtvání časem a materiálem.</ConstructSuccessChance.description>
+
+  <FixBrokenDownBuildingSuccessChance.label>šance na úspěšnou opravu</FixBrokenDownBuildingSuccessChance.label>
+  <FixBrokenDownBuildingSuccessChance.description>Šance, jakou tato osoba úspěšně opraví poškozené stavby použitím komponentu. Selhání znamená plýtvání časem a materiálem. Toto je aplikováno pouze na poruchy, nikoliv na běžné poškození např. střelbou.</FixBrokenDownBuildingSuccessChance.description>
 
 
 </LanguageData>

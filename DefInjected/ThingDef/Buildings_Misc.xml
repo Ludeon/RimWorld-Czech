@@ -1,60 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  
-  <OrbitalTradeBeacon.label>Orbitální obchodní maják</OrbitalTradeBeacon.label>
+  <OrbitalTradeBeacon.label>orbitální obchodní maják</OrbitalTradeBeacon.label>
   <OrbitalTradeBeacon.description>Potřebný pro obchodování s obchodníky na orbitě.\nMůžeš prodávat jen zboží, které se nachází v dosahu orbitálního obchodního majáku. Dá se umístit i do uzavřených prostor.</OrbitalTradeBeacon.description>
+  <OrbitalTradeBeacon_Blueprint.label>orbitální obchodní maják (plán)</OrbitalTradeBeacon_Blueprint.label>
+  <OrbitalTradeBeacon_Blueprint_Install.label>orbitální obchodní maják (plán)</OrbitalTradeBeacon_Blueprint_Install.label>
+  <OrbitalTradeBeacon_Frame.label>orbitální obchodní maják (ve výstavbě)</OrbitalTradeBeacon_Frame.label>
+  <OrbitalTradeBeacon_Frame.description>Potřebný pro obchodování s obchodníky na orbitě.\nMůžeš prodávat jen zboží, které se nachází v dosahu orbitálního obchodního majáku. Dá se umístit i do uzavřených prostor.</OrbitalTradeBeacon_Frame.description>
 
-  <CommsConsole.label>Vysílačka</CommsConsole.label>
+  <CommsConsole.label>vysílačka</CommsConsole.label>
   <CommsConsole.description>Umožňuje rádiový kontakt o obchodníky na orbitě, stejně jako s ostatními frakcemi kvůli obchodu či diplomacii.</CommsConsole.description>
-  
-  <!-- Facilities -->
+  <CommsConsole_Blueprint.label>vysílačka (plán)</CommsConsole_Blueprint.label>
+  <CommsConsole_Frame.label>vysílačka (ve výstavbě)</CommsConsole_Frame.label>
+  <CommsConsole_Frame.description>Umožňuje rádiový kontakt o obchodníky na orbitě, stejně jako s ostatními frakcemi kvůli obchodu či diplomacii.</CommsConsole_Frame.description>
 
-  <MultiAnalyzer.label>Multifunkční analyzátor</MultiAnalyzer.label>
-  <MultiAnalyzer.description>Zvyšuje rychlost výzkumu. Musí být umístěn vedle špičkového výzkumného stanoviště. K výzkumnému stanovišti lze připojit jen jeden multifunkční analyzátor.</MultiAnalyzer.description>
-
-  <VitalsMonitor.label>Monitor životních funkcí</VitalsMonitor.label>
-  <VitalsMonitor.description>Zlepšuje kvalitu ošetření pacienta. Musí být umístěn vedle nemocniční postele. Nemocniční postel může být spojena jen s jedním monitorem životních funkcí.</VitalsMonitor.description>
-
-  <ToolCabinet.label>Skříň na nářadí</ToolCabinet.label>
-  <ToolCabinet.description>Zvyšuje rychlost práce. Musí být umístěna vedle pracovního stolu. K pracovnímu stolu lze přiřadit jen dvě skříně na nářadí.</ToolCabinet.description>
-
-  <FirefoamPopper.label>Hasící přístroj</FirefoamPopper.label>
+  <FirefoamPopper.label>hasící přístroj</FirefoamPopper.label>
   <FirefoamPopper.description>Když toto zařízení přijde do styku s ohněm, nebo je spuštěno ručně, rozstříkne kolem sebe v kruhovém poli hasící pěnu.</FirefoamPopper.description>
   <FirefoamPopper.comps.1.useLabel>Spustit hasící přístroj</FirefoamPopper.comps.1.useLabel>
+  <FirefoamPopper_Blueprint.label>hasící přístroj (plán)</FirefoamPopper_Blueprint.label>
+  <FirefoamPopper_Blueprint_Install.label>hasící přístroj (plán)</FirefoamPopper_Blueprint_Install.label>
+  <FirefoamPopper_Frame.label>hasící přístroj (ve výstavbě)</FirefoamPopper_Frame.label>
+  <FirefoamPopper_Frame.description>Když toto zařízení přijde do styku s ohněm, nebo je spuštěno ručně, rozstříkne kolem sebe v kruhovém poli hasící pěnu.</FirefoamPopper_Frame.description>
 
-  <MoisturePump.label>Odvodňovací pumpa</MoisturePump.label>
+  <MoisturePump.label>odvodňovací pumpa</MoisturePump.label>
   <MoisturePump.description>Velmi pomalu odstraňuje vlhkost z okolního terénu a přeměňuje bažiny a mělčiny na suchou zem. Na hlubokou vodu nemá žádný vliv.</MoisturePump.description>
+  <MoisturePump_Blueprint.label>odvodňovací pumpa (plán)</MoisturePump_Blueprint.label>
+  <MoisturePump_Frame.label>odvodňovací pumpa (ve výstavbě)</MoisturePump_Frame.label>
+  <MoisturePump_Frame.description>Velmi pomalu odstraňuje vlhkost z okolního terénu a přeměňuje bažiny a mělčiny na suchou zem. Na hlubokou vodu nemá žádný vliv.</MoisturePump_Frame.description>
 
-  <GroundPenetratingScanner.label>Hloubkový skener</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.label>hloubkový snímač</GroundPenetratingScanner.label>
   <GroundPenetratingScanner.description>Směrem dolů nastavený radar, který je vybaven sonarem a magnetickým snímačem. Umožňuje nacházet (ale ne určovat) hluboko v zemi ukrytá ložiska surovin. Vyžaduje značné množství elektrické energie.</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner_Blueprint.label>hloubkový snímač (plán)</GroundPenetratingScanner_Blueprint.label>
+  <GroundPenetratingScanner_Frame.label>hloubkový snímač (ve výstavbě)</GroundPenetratingScanner_Frame.label>
+  <GroundPenetratingScanner_Frame.description>Směrem dolů nastavený radar, který je vybaven sonarem a magnetickým snímačem. Umožňuje nacházet (ale ne určovat) hluboko v zemi ukrytá ložiska surovin. Vyžaduje značné množství elektrické energie.</GroundPenetratingScanner_Frame.description>
 
-  <PodLauncher.label>Odpalovací rampa</PodLauncher.label>
+  <LongRangeMineralScanner.label>snímač minerálů s dlouhým dosahem</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.description>Automaticky detekuje drahocenné minerály jako zlato nebo jadeit, ale nikoliv ve kterých byl snímač postaven. Hroudy se najdou v průměru jednou za 30 dnů v okruhu 30 buněk. Stavba více než jednoho snímače ve stejných nebo blízkých oblastí nemá žádný vyšší vliv.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner_Blueprint.label>snímač minerálů s dlouhým dosahem (plán)</LongRangeMineralScanner_Blueprint.label>
+  <LongRangeMineralScanner_Frame.label>snímač minerálů s dlouhým dosahem (ve výstavbě)</LongRangeMineralScanner_Frame.label>
+  <LongRangeMineralScanner_Frame.description>Automaticky detekuje drahocenné minerály jako zlato nebo jadeit, ale nikoliv ve kterých byl snímač postaven. Hroudy se najdou v průměru jednou za 30 dnů v okruhu 30 buněk. Stavba více než jednoho snímače ve stejných nebo blízkých oblastí nemá žádný vyšší vliv.</LongRangeMineralScanner_Frame.description>
+
+
+  <!-- Transport pods -->
+
+  <PodLauncher.label>odpalovací rampa</PodLauncher.label>
   <PodLauncher.description>Zařízení sloužící k dotankovávání a startování modulů. Z odpalovacích ramp mohou startovat i skupiny modulů současně, musí být však umístěny hned vedle sebe.</PodLauncher.description>
-  
-  <TransportPod.label>Přepravní modul</TransportPod.label>
+  <PodLauncher_Blueprint.label>odpalovací rampa (modul)(plán)</PodLauncher_Blueprint.label>
+  <PodLauncher_Frame.label>odpalovací rampa (modul) (ve výstavbě)</PodLauncher_Frame.label>
+  <PodLauncher_Frame.description>Zařízení sloužící k dotankovávání a startování modulů. Z odpalovacích ramp mohou startovat i skupiny modulů současně, musí být však umístěny hned vedle sebe.</PodLauncher_Frame.description>
+
+  <TransportPod.label>přepravní modul</TransportPod.label>
   <TransportPod.description>Odpalovatelný přepravní modul pro nízkoorbitální cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Dá se použít pro přepravu zboží, překvapivé útoky nebo pro vyslání posil do probíhajících konfliktů. Ke startu je potřeba odpalovací rampa.</TransportPod.description>
-  
-  <!-- =================================================== -->
+  <TransportPod_Blueprint.label>přepravní modul (plán)</TransportPod_Blueprint.label>
+  <TransportPod_Frame.label>přepravní modul (ve výstavbě)</TransportPod_Frame.label>
+  <TransportPod_Frame.description>Odpalovatelný přepravní modul pro nízkoorbitální cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Dá se použít pro přepravu zboží, překvapivé útoky nebo pro vyslání posil do probíhajících konfliktů. Ke startu je potřeba odpalovací rampa.</TransportPod_Frame.description>
 
-  <Grave.label>Hrob</Grave.label>
+
+  <!-- Facilities -->
+
+  <MultiAnalyzer.label>multifunkční analyzátor</MultiAnalyzer.label>
+  <MultiAnalyzer.description>Zvyšuje rychlost výzkumu. Musí být umístěn vedle špičkového výzkumného stanoviště. K výzkumnému stanovišti lze připojit jen jeden multifunkční analyzátor.</MultiAnalyzer.description>
+  <MultiAnalyzer_Blueprint.label>multifunkční analyzátor (plán)</MultiAnalyzer_Blueprint.label>
+  <MultiAnalyzer_Blueprint_Install.label>multifunkční analyzátor (plán)</MultiAnalyzer_Blueprint_Install.label>
+  <MultiAnalyzer_Frame.label>multifunkční analyzátor (ve výstavbě)</MultiAnalyzer_Frame.label>
+  <MultiAnalyzer_Frame.description>Zvyšuje rychlost výzkumu. Musí být umístěn vedle špičkového výzkumného stanoviště. K výzkumnému stanovišti lze připojit jen jeden multifunkční analyzátor.</MultiAnalyzer_Frame.description>
+
+  <VitalsMonitor.label>monitor životních funkcí</VitalsMonitor.label>
+  <VitalsMonitor.description>Zlepšuje kvalitu ošetření pacienta. Musí být umístěn vedle postele pro lékařské účely. Každá taková postel může být spojena jen s jedním monitorem životních funkcí.</VitalsMonitor.description>
+  <VitalsMonitor_Blueprint.label>monitor životních funkcí (plán)</VitalsMonitor_Blueprint.label>
+  <VitalsMonitor_Blueprint_Install.label>monitor životních funkcí (plán)</VitalsMonitor_Blueprint_Install.label>
+  <VitalsMonitor_Frame.label>monitor životních funkcí (ve výstavbě)</VitalsMonitor_Frame.label>
+  <VitalsMonitor_Frame.description>Zlepšuje kvalitu ošetření pacienta. Musí být umístěn vedle postele pro lékařské účely. Každá taková postel může být spojena jen s jedním monitorem životních funkcí.</VitalsMonitor_Frame.description>
+
+  <ToolCabinet.label>skříň na nářadí</ToolCabinet.label>
+  <ToolCabinet.description>Zvyšuje rychlost práce. Musí být umístěna vedle pracovního stolu. K pracovnímu stolu lze přiřadit jen dvě skříně na nářadí.</ToolCabinet.description>
+  <ToolCabinet_Blueprint.label>skříň na nářadí (plán)</ToolCabinet_Blueprint.label>
+  <ToolCabinet_Blueprint_Install.label>skříň na nářadí (plán)</ToolCabinet_Blueprint_Install.label>
+  <ToolCabinet_Frame.label>skříň na nářadí (ve výstavbě)</ToolCabinet_Frame.label>
+  <ToolCabinet_Frame.description>Zvyšuje rychlost práce. Musí být umístěna vedle pracovního stolu. K pracovnímu stolu lze přiřadit jen dvě skříně na nářadí.</ToolCabinet_Frame.description>
+
+
+  <!-- Graves -->
+
+  <Grave.label>hrob</Grave.label>
   <Grave.description>Pohřbi mrtvé do hrobů a dopřej jim důstojné místo k poslednímu odpočinku. Kolonisté hroby navštěvují kvůli meditativnímu rozjímání.</Grave.description>
+  <Grave_Blueprint.label>hrob (plán)</Grave_Blueprint.label>
+  <Grave_Frame.label>hrob (ve výstavbě)</Grave_Frame.label>
+  <Grave_Frame.description>Pohřbi mrtvé do hrobů a dopřej jim důstojné místo k poslednímu odpočinku. Kolonisté hroby navštěvují kvůli meditativnímu rozjímání.</Grave_Frame.description>
 
-  <Sarcophagus.label>Sarkofág</Sarcophagus.label>
+  <Sarcophagus.label>sarkofág</Sarcophagus.label>
   <Sarcophagus.description>Zdobená pohřební schránka pro ctěné mrtvé.</Sarcophagus.description>
+  <Sarcophagus_Blueprint.label>sarkofág (plán)</Sarcophagus_Blueprint.label>
+  <Sarcophagus_Frame.label>sarkofág (ve výstavbě)</Sarcophagus_Frame.label>
+  <Sarcophagus_Frame.description>Zdobená pohřební schránka pro ctěné mrtvé.</Sarcophagus_Frame.description>
 
-  <!-- Cryptosleep casket -->
 
-  <CryptosleepCasket.label>Cryptospánk. komora</CryptosleepCasket.label>
+  <!-- Cryptosleep caskets -->
+
+  <CryptosleepCasket.label>cryptospánk. komora</CryptosleepCasket.label>
   <CryptosleepCasket.description>Kapsle s vlastním napájením, která je navržena tak, aby udržovala člověka ve stavu zpomalených životních funkcí po mnoho let.</CryptosleepCasket.description>
+  <CryptosleepCasket_Blueprint.label>cryptospánk. komora (plán)</CryptosleepCasket_Blueprint.label>
+  <CryptosleepCasket_Frame.label>cryptospánk. komora (ve výstavbě)</CryptosleepCasket_Frame.label>
+  <CryptosleepCasket_Frame.description>Kapsle s vlastním napájením, která je navržena tak, aby udržovala člověka ve stavu zpomalených životních funkcí po mnoho let.</CryptosleepCasket_Frame.description>
 
-  <AncientCryptosleepCasket.label>Starodávná cryptospánková komora</AncientCryptosleepCasket.label>
+  <AncientCryptosleepCasket.label>starodávná cryptospánková komora</AncientCryptosleepCasket.label>
   <AncientCryptosleepCasket.description>Cryptospánková komora z dávných dob. Kdo ví, co je uvnitř?</AncientCryptosleepCasket.description>
-  
-  <MarriageSpot.label>Svatební místo</MarriageSpot.label>
-  <MarriageSpot.description>Označuje místo, kde se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</MarriageSpot.description>
 
-  <PartySpot.label>Místo na večírky</PartySpot.label>
-  <PartySpot.description>Označuje místo, kde se budou konat večírky. Večírky se odehrávají kolem tohoto místa.</PartySpot.description>
+
+  <!-- Spots -->
+
+  <MarriageSpot.label>místo pro svatbu</MarriageSpot.label>
+  <MarriageSpot.description>Určuje místo, kde se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</MarriageSpot.description>
+  <MarriageSpot_Blueprint.label>místo pro svatbu (plán)</MarriageSpot_Blueprint.label>
+  <MarriageSpot_Frame.label>místo pro svatbu (ve výstavbě)</MarriageSpot_Frame.label>
+  <MarriageSpot_Frame.description>Určuje místo, kde se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</MarriageSpot_Frame.description>
+
+  <PartySpot.label>místo pro večírek</PartySpot.label>
+  <PartySpot.description>Určuje místo, kde se budou konat večírky. Večírky se odehrávají kolem tohoto místa.</PartySpot.description>
+  <PartySpot_Blueprint.label>místo pro večírek (plán)</PartySpot_Blueprint.label>
+  <PartySpot_Frame.label>místo pro večírek (ve výstavbě)</PartySpot_Frame.label>
+  <PartySpot_Frame.description>Určuje místo, kde se budou konat večírky. Večírky se odehrávají kolem tohoto místa.</PartySpot_Frame.description>
+
+  <CaravanPackingSpot.label>místo pro formování karavan</CaravanPackingSpot.label>
+  <CaravanPackingSpot.description>Určuje místo, kde se budou formovat karavany.</CaravanPackingSpot.description>
+  <CaravanPackingSpot_Blueprint.label>místo pro formování karavan (plán)</CaravanPackingSpot_Blueprint.label>
+  <CaravanPackingSpot_Frame.label>místo pro formování karavan (ve výstavbě)</CaravanPackingSpot_Frame.label>
+  <CaravanPackingSpot_Frame.description>Určuje místo, kde se budou formovat karavany.</CaravanPackingSpot_Frame.description>
+
 
 </LanguageData>

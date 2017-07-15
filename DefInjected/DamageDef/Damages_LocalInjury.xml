@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Cut.label>pořezání</Cut.label>
   <Cut.deathMessage>{0} zemřelHISCAP na pořezání.</Cut.deathMessage>
+
+
+  <!-- Surgical cut: Makes it possible to remove inner organs without harming outer body parts -->
+
+  <SurgicalCut.label>chirurgické pořezání</SurgicalCut.label>
+  <SurgicalCut.deathMessage>{0} zemřelHISCAP během operace.</SurgicalCut.deathMessage>
+
+
+  <!-- Execution cut: Makes it possible to distinguish execution damage from others -->
+
+  <ExecutionCut.label>podřezání</ExecutionCut.label>
+  <ExecutionCut.deathMessage>{0} bylHISCAP podřezánHISCAP.</ExecutionCut.deathMessage>
 
   <Crush.label>rozdrcení</Crush.label>
   <Crush.deathMessage>{0} zemřelHISCAP na rozdrcení.</Crush.deathMessage>
@@ -42,20 +54,6 @@
 
   <Frostbite.label>omrzlina</Frostbite.label>
   <Frostbite.deathMessage>{0} podlehlHISCAP omrzlinám.</Frostbite.deathMessage>
-
-
-  <!-- Surgical cut should not harm outer layers.
-       This makes it possible to remove inner organs without harming outer body parts -->
-
-  <SurgicalCut.label>chirurgické pořezání</SurgicalCut.label>
-  <SurgicalCut.deathMessage>{0} zemřelHISCAP během operace.</SurgicalCut.deathMessage>
-
-
-  <!-- Execution cut
-       This makes it possible to distinguish execution damage from others -->
-
-  <ExecutionCut.label>popravčí pořazání</ExecutionCut.label>
-  <ExecutionCut.deathMessage>{0} bylHISCAP popravenHISCAP.</ExecutionCut.deathMessage>
 
 
 </LanguageData>

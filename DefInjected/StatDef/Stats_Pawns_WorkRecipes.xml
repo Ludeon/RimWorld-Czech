@@ -1,28 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Artistic recipes - speed not affected by skill. -->
+  <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
-  <SculptingSpeed.label>rychost výroby soch</SculptingSpeed.label>
-  <SculptingSpeed.description>Rychlost, jakou tato osoba modeluje sochy.</SculptingSpeed.description>
+  <SculptingSpeed.label>rychlost výroby soch</SculptingSpeed.label>
+  <SculptingSpeed.description>Rychlost, jakou tato osoba modeluje sochy. Poznámka: Úroveň dovednosti ovlivňuje kvalitu vytvořených soch, nikoliv rychlost výroby soch.</SculptingSpeed.description>
 
   <TailoringSpeed.label>rychlost šití</TailoringSpeed.label>
-  <TailoringSpeed.description>Rychlost, jakou tato osoba vyrábí oblečení.</TailoringSpeed.description>
+  <TailoringSpeed.description>Rychlost, jakou tato osoba vyrábí oblečení. Poznámka: Úroveň dovednosti ovlivňuje kvalitu ušitých oděvů, nikoliv rychlost šití.</TailoringSpeed.description>
 
   <SmithingSpeed.label>rychlost kování</SmithingSpeed.label>
-  <SmithingSpeed.description>Rychlost, jakou tato osoba ková nebo vyrábí zbraně, stroje, munici, a nástroje.</SmithingSpeed.description>
+  <SmithingSpeed.description>Rychlost, jakou tato osoba kove nebo vyrábí zbraně, stroje, munici, a nástroje. Poznámka: Úroveň dovednosti ovlivňuje kvalitu vytvořených věcí, nikoliv rychlost kování.</SmithingSpeed.description>
+
+
+  <!-- Production recipes - speed affected by skill because there is no output quality -->
 
   <DrugProductionSpeed.label>rychlost produkce léčiv</DrugProductionSpeed.label>
   <DrugProductionSpeed.description>Rychlost, jakou tato osoba produkuje léčiva.</DrugProductionSpeed.description>
 
   <StonecuttingSpeed.label>rychlost řezání kamene</StonecuttingSpeed.label>
   <StonecuttingSpeed.description>Rychlost, jakou tato osoba řeže hrubý kámen v bloky.</StonecuttingSpeed.description>
-
-  <SmeltingSpeed.label>rychlost tavení</SmeltingSpeed.label>
-  <SmeltingSpeed.description>Rychlost, jakou tato osoba přetavuje věci.</SmeltingSpeed.description>
-
-
-  <!-- Production recipes - speed affected by skill. -->
 
   <CookSpeed.label>rychlost vaření</CookSpeed.label>
   <CookSpeed.description>Rychlost, jakou tato osoba připravuje pokrmy.</CookSpeed.description>
@@ -39,11 +36,20 @@
   <ButcheryMechanoidSpeed.label>rychlost rozebírání mechanoida</ButcheryMechanoidSpeed.label>
   <ButcheryMechanoidSpeed.description>Rychlost, jakou tato osoba dokáže rozebrat mechanoida.</ButcheryMechanoidSpeed.description>
 
-  <ButcheryFleshEfficiency.label>efektvita porcování masa</ButcheryFleshEfficiency.label>
+  <MechanoidOperationSuccessChance.label>šance na úspěch operace mechanoida</MechanoidOperationSuccessChance.label>
+  <MechanoidOperationSuccessChance.description>Pravděpodobnost, jakou tato osoba uspěje při pokusu provést operaci na mechanoidovi. Neúspěchy mohou vyústit v jednoduchém promarnění času, nebo dokonce ke katastrofickým škodám na subjektu.</MechanoidOperationSuccessChance.description>
+
+  <ButcheryFleshEfficiency.label>efektivita porcování masa</ButcheryFleshEfficiency.label>
   <ButcheryFleshEfficiency.description>Násobitel množství masa vyprodukovaného při porcování bytostí.</ButcheryFleshEfficiency.description>
 
   <ButcheryMechanoidEfficiency.label>efektivita rozebírání mechanoida</ButcheryMechanoidEfficiency.label>
   <ButcheryMechanoidEfficiency.description>Násobitel množství získaných materiálů, když osoba rozebírá neaktivního mechanoida.</ButcheryMechanoidEfficiency.description>
+
+
+  <!-- Dumb recipes - not affected by skill because there's no skill component -->
+
+  <SmeltingSpeed.label>rychlost tavení</SmeltingSpeed.label>
+  <SmeltingSpeed.description>Rychlost, jakou tato osoba přetavuje věci. Poznámka: Vzhledem k tomu, že je to práce pro hloupé, jeho rychlost není ovlivněna žádnou dovedností.</SmeltingSpeed.description>
 
 
 </LanguageData>
