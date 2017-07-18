@@ -1,7 +1,6 @@
-RimWorld-Czech
-===============
+# RimWorld-Czech - version 0.9b
 
-A Czech translation for RimWorld.
+A Czech translation for RimWorld alpha 17.
 
 See this page for license info:
 
@@ -10,30 +9,26 @@ http://ludeon.com/forums/index.php?topic=2933.0
 Nález chyb hlašte zde / For bugtrace: 
 https://prekladyher.eu/preklady/rimworld.324/
 
-A Czech translation for RimWorld alpha 17.
-============================
 
 
-Czech Translation Team:
-=======================
-
+# Czech Translation Team:
 Translation Coordinator:
--Galoth
+* Galoth
 
 Translation:
--Azarian
--Galoth
--Morticinus
+* Azarian
+* Galoth
+* Morticinus
 
 Correction:
--Morticinus
--Galoth
+* Morticinus
+* Galoth
 
 Test:
--Morticinus
--Galoth
--Barbar
+* Morticinus
+* Galoth
+* Barbar
 
 Special thanks:
--Leffi
--Aladalar
+* Leffi
+* Aladalar
