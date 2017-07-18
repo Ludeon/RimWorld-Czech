@@ -11,7 +11,7 @@ https://prekladyher.eu/preklady/rimworld.324/
 
 
 
-# Czech Translation Team:
+# Czech Translation Team (active since alpha 16):
 Translation Coordinator:
 * Galoth
 
@@ -32,3 +32,13 @@ Test:
 Special thanks:
 * Leffi
 * Aladalar
+
+# Czech Translation Contributors (inactive):
+* Mentoska
+* LolmenCz
+* ExZoT4EvEr
+* GreenstoneStudio
+* HexagonCo
+* Aladalar 
+* Tuxenus
+* and others
