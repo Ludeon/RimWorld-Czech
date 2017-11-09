@@ -1,6 +1,6 @@
-# RimWorld-Czech - version 0.9c
+# RimWorld-Czech - version 0.9c (alpha 17)
 
-A Czech translation for RimWorld alpha 17.
+A Czech translation for RimWorld.
 
 See this page for license info:
 
