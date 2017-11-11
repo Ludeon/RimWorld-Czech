@@ -1,28 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- In-game camera -->
 
-  <MapDollyUp.label>Nahoru</MapDollyUp.label>
-  <MapDollyDown.label>Dolů</MapDollyDown.label>
-  <MapDollyLeft.label>Doleva</MapDollyLeft.label>
-  <MapDollyRight.label>Doprava</MapDollyRight.label>
-  <MapZoomIn.label>Přiblížit</MapZoomIn.label>
-  <MapZoomOut.label>Oddálit</MapZoomOut.label>
+  <MapDollyUp.label>nahoru</MapDollyUp.label>
+  <MapDollyDown.label>dolů</MapDollyDown.label>
+  <MapDollyLeft.label>doleva</MapDollyLeft.label>
+  <MapDollyRight.label>doprava</MapDollyRight.label>
+  <MapZoomIn.label>přiblížit</MapZoomIn.label>
+  <MapZoomOut.label>oddálit</MapZoomOut.label>
 
 
   <!-- Map play -->
 
-  <TakeScreenshot.label>Pořídit snímek obrazovky</TakeScreenshot.label>
-  <ToggleScreenshotMode.label>Přepnout na režim snímku obrazovky</ToggleScreenshotMode.label>
-  <SelectNextInCell.label>Vybere další věc v políčku</SelectNextInCell.label>
-  <TogglePause.label>Zastavit/obnovit hru</TogglePause.label>
-  <TimeSpeedNormal.label>Rychlost hry: normální</TimeSpeedNormal.label>
-  <TimeSpeedFast.label>Rychlost hry: rychlá</TimeSpeedFast.label>
-  <TimeSpeedSuperfast.label>Rychlost hry: velmi rychlá</TimeSpeedSuperfast.label>
-  <TimeSpeedUltrafast.label>Rychlost hry: ultra rychlá (debug)</TimeSpeedUltrafast.label>
-  <PreviousColonist.label>Předchozí kolonista</PreviousColonist.label>
-  <NextColonist.label>Následující kolonista</NextColonist.label>
+  <TakeScreenshot.label>pořídit snímek obrazovky</TakeScreenshot.label>
+  <ToggleScreenshotMode.label>přepnout na režim snímku obrazovky</ToggleScreenshotMode.label>
+  <SelectNextInCell.label>vybere další věc v buňce</SelectNextInCell.label>
+  <TogglePause.label>zastavit/obnovit hru</TogglePause.label>
+  <TimeSpeedNormal.label>rychlost hry: normální</TimeSpeedNormal.label>
+  <TimeSpeedFast.label>rychlost hry: rychlá</TimeSpeedFast.label>
+  <TimeSpeedSuperfast.label>rychlost hry: velmi rychlá</TimeSpeedSuperfast.label>
+  <TimeSpeedUltrafast.label>rychlost hry: ultra rychlá (debug)</TimeSpeedUltrafast.label>
+  <PreviousColonist.label>předchozí kolonista</PreviousColonist.label>
+  <NextColonist.label>následující kolonista</NextColonist.label>
 
 
   <!-- Misc (re-used) -->
@@ -43,30 +43,35 @@
 
   <!-- Selection special -->
 
-  <CommandTogglePower.label>Přepnout energie</CommandTogglePower.label>
-  <CommandItemForbid.label>Přepnout zakázat</CommandItemForbid.label>
-  <CommandColonistDraft.label>Přepnout naverbovat/propustit</CommandColonistDraft.label>
-  <ModifierIncrement10x.label>přírůstek 10x</ModifierIncrement10x.label>
-  <ModifierIncrement100x.label>přírůstek 100x</ModifierIncrement100x.label>
+  <CommandTogglePower.label>přepnout napájení</CommandTogglePower.label>
+  <CommandItemForbid.label>přepnout zakázat/povolit</CommandItemForbid.label>
+  <CommandColonistDraft.label>přepnout naverbovat/propustit</CommandColonistDraft.label>
 
 
   <!-- Architect: Common -->
 
-  <DesignatorCancel.label>Zrušit</DesignatorCancel.label>
-  <DesignatorDeconstruct.label>Rozebrat</DesignatorDeconstruct.label>
-  <DesignatorRotateLeft.label>Otočit předmětem doleva</DesignatorRotateLeft.label>
-  <DesignatorRotateRight.label>Otočit předmětem doprava</DesignatorRotateRight.label>
+  <DesignatorCancel.label>zrušit</DesignatorCancel.label>
+  <DesignatorDeconstruct.label>rozebrat</DesignatorDeconstruct.label>
+  <DesignatorRotateLeft.label>otočit doleva</DesignatorRotateLeft.label>
+  <DesignatorRotateRight.label>otočit doprava</DesignatorRotateRight.label>
+
+
+  <!-- Modifiers -->
+
+  <ModifierIncrement10x.label>přírůstek 10x</ModifierIncrement10x.label>
+  <ModifierIncrement100x.label>přírůstek 100x</ModifierIncrement100x.label>
+  <QueueOrder.label>příkazová fronta</QueueOrder.label>
 
 
   <!-- Debug -->
 
-  <TickOnce.label>Posunout čas o jeden tik</TickOnce.label>
-  <ToggleGodMode.label>Přepnout God mód</ToggleGodMode.label>
-  <ToggleDebugLog.label>Zobrazit debugovací log</ToggleDebugLog.label>
-  <ToggleDebugActionsMenu.label>Zobrazit debugovací menu akcí</ToggleDebugActionsMenu.label>
-  <ToggleDebugLogMenu.label>Zobrazit debugovací menu logu</ToggleDebugLogMenu.label>
-  <ToggleDebugInspector.label>Zobrazit debugovacího inspektora</ToggleDebugInspector.label>
-  <ToggleDebugSettingsMenu.label>Zobrazit debugovací menu nastavení</ToggleDebugSettingsMenu.label>
+  <TickOnce.label>posunout čas o jeden tik</TickOnce.label>
+  <ToggleGodMode.label>přepnout God mód</ToggleGodMode.label>
+  <ToggleDebugLog.label>zobrazit debugovací log</ToggleDebugLog.label>
+  <ToggleDebugActionsMenu.label>zobrazit debugovací menu akcí</ToggleDebugActionsMenu.label>
+  <ToggleDebugLogMenu.label>zobrazit debugovací menu logu</ToggleDebugLogMenu.label>
+  <ToggleDebugInspector.label>zobrazit debugovacího inspektora</ToggleDebugInspector.label>
+  <ToggleDebugSettingsMenu.label>zobrazit debugovací menu nastavení</ToggleDebugSettingsMenu.label>
 
 
 </LanguageData>
