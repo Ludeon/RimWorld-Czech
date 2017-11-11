@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Mental breaks: extreme -->
@@ -24,7 +24,25 @@
   <BingingDrugExtreme.label>extrémní touha na drogu</BingingDrugExtreme.label>
   <BingingDrugExtreme.baseInspectLine>Psychický stav: Extrémní touha na {0}</BingingDrugExtreme.baseInspectLine>
 
+  <Jailbreaker.label>nabádá vězně k útěku</Jailbreaker.label>
+  <Jailbreaker.beginLetter>{0} má psychickou poruchu a jde přimět vězně k útěku.</Jailbreaker.beginLetter>
+  <Jailbreaker.beginLetterLabel>Rozbíječ okovů</Jailbreaker.beginLetterLabel>
+  <Jailbreaker.recoveryMessage>{0} už nenabádá vězně k útěku.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.baseInspectLine>Psychický stav: Rozbíječ okovů</Jailbreaker.baseInspectLine>
 
+  <Slaughterer.label>jatka</Slaughterer.label>
+  <Slaughterer.beginLetter>{0} má psychickou poruchu a jde ventilovat svůj hněv na našich zvířatech.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetterLabel>Jatka</Slaughterer.beginLetterLabel>
+  <Slaughterer.recoveryMessage>{0} už neporáží náhodně zvířata.</Slaughterer.recoveryMessage>
+  <Slaughterer.baseInspectLine>Psychický stav: Jatka</Slaughterer.baseInspectLine>
+
+  <MurderousRage.label>vražedný vztek</MurderousRage.label>
+  <MurderousRage.beginLetter>{0} má vztek, že by vraždilHISCAP. Jde zabít osobu {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetterLabel>Vražedný vztek</MurderousRage.beginLetterLabel>
+  <MurderousRage.recoveryMessage>{0} už nemá vražedný vztek.</MurderousRage.recoveryMessage>
+  <MurderousRage.baseInspectLine>Psychický stav: Vražedný vztek</MurderousRage.baseInspectLine>
+  
+  
   <!-- Mental breaks: major -->
 
   <BingingDrugMajor.label>silná touha na drogu</BingingDrugMajor.label>
@@ -36,7 +54,37 @@
   <WanderPsychotic.recoveryMessage>{0} už nebloudí v psychóze.</WanderPsychotic.recoveryMessage>
   <WanderPsychotic.baseInspectLine>Psychický stav: Bloudění v psychóze</WanderPsychotic.baseInspectLine>
 
+  <Tantrum.label>rapl</Tantrum.label>
+  <Tantrum.beginLetter>{0} má zachvaty vzteku.</Tantrum.beginLetter>
+  <Tantrum.beginLetterLabel>Rapl</Tantrum.beginLetterLabel>
+  <Tantrum.recoveryMessage>{0} už nemá záchvaty vzteku.</Tantrum.recoveryMessage>
+  <Tantrum.baseInspectLine>Psychický stav: Rapl</Tantrum.baseInspectLine>
 
+  <TargetedTantrum.label>rapl</TargetedTantrum.label>
+  <TargetedTantrum.beginLetter>{0} má zachvaty vzteku.\n\nJde zničit: {1}</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetterLabel>Rapl</TargetedTantrum.beginLetterLabel>
+  <TargetedTantrum.recoveryMessage>{0} už nemá záchvaty vzteku.</TargetedTantrum.recoveryMessage>
+  <TargetedTantrum.baseInspectLine>Psychický stav: Rapl</TargetedTantrum.baseInspectLine>
+
+  <BedroomTantrum.label>rapl</BedroomTantrum.label>
+  <BedroomTantrum.beginLetter>{0} má zachvaty vzteku. Jde ničit nábytek ve svém pokoji.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetterLabel>Rapl</BedroomTantrum.beginLetterLabel>
+  <BedroomTantrum.recoveryMessage>{0} už nemá záchvaty vzteku.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.baseInspectLine>Psychický stav: Rapl</BedroomTantrum.baseInspectLine>
+
+  <SadisticRage.label>sadistický vztek</SadisticRage.label>
+  <SadisticRage.beginLetter>{0} má touhu způsobovat jiným bolest. Proto jde svůj hněv ventilovat na vězních.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetterLabel>Sadistický vztek</SadisticRage.beginLetterLabel>
+  <SadisticRage.recoveryMessage>{0} už nemá sadistický vztek.</SadisticRage.recoveryMessage>
+  <SadisticRage.baseInspectLine>Psychický stav: Sadistický vztek</SadisticRage.baseInspectLine>
+
+  <CorpseObsession.label>posedlý mrtvolami</CorpseObsession.label>
+  <CorpseObsession.beginLetter>{0} je posedlHE mrtvolami. Jde vyhrabat nějaký hrob.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetterLabel>Posedlý mrtvolami</CorpseObsession.beginLetterLabel>
+  <CorpseObsession.recoveryMessage>{0} už není posedlHE mrtvolami.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.baseInspectLine>Psychický stav: Posedlý mrtvolami</CorpseObsession.baseInspectLine>
+  
+  
   <!-- Mental breaks: minor -->
 
   <BingingFood.label>touha na jídlo</BingingFood.label>
@@ -57,5 +105,17 @@
   <WanderOwnRoom.recoveryMessage>{0} už se neukrývá ve své místnosti.</WanderOwnRoom.recoveryMessage>
   <WanderOwnRoom.baseInspectLine>Psychický stav: Ukrývání se v místnosti</WanderOwnRoom.baseInspectLine>
 
+  <InsultingSpree.label>urážlivé řádění</InsultingSpree.label>
+  <InsultingSpree.beginLetter>{0} jde všechny urážet.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetterLabel>Urážlivé řádění</InsultingSpree.beginLetterLabel>
+  <InsultingSpree.recoveryMessage>{0} přestalHISCAP všechny urážet.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.baseInspectLine>Psychický stav: Urážlivé řádění</InsultingSpree.baseInspectLine>
 
+  <TargetedInsultingSpree.label>urážlivé řádění</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.beginLetter>{0} jde urážet osobu {1}.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetterLabel>Urážlivé řádění</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage>{0} přestalHISCAP urážet.</TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.baseInspectLine>Psychický stav: Urážlivé řádění vůči osobě {0}</TargetedInsultingSpree.baseInspectLine>
+  
+  
 </LanguageData>
