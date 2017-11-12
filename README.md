@@ -11,31 +11,30 @@ https://prekladyher.eu/preklady/rimworld.324/
 
 # WE ARE WORKING ON UPDATING TO ALPHA 18
 
-# Czech Translation Team (active since alpha 16):
-completely new translation
+# Czech Translation Team (active since alpha 16)
+### *completely new translation*
 
+### Translation Coordinator:
+- Galoth
 
+### Translation:
+- Azarian
+- Galoth
+- Morticinus
 
-Translation Coordinator:
-* Galoth
+### Correction:
+- Morticinus
+- Galoth
 
-Translation:
-* Azarian
-* Galoth
-* Morticinus
+### Test:
+- Morticinus
+- Galoth
+- Barbar
 
-Correction:
-* Morticinus
-* Galoth
+### Special thanks:
+- Leffi
+- Aladalar
 
-Test:
-* Morticinus
-* Galoth
-* Barbar
-
-Special thanks:
-* Leffi
-* Aladalar
-
-INACTIVE Czech Translation Contributors (before alpha 16):
-Mentoska, LolmenCz, ExZoT4EvEr, GreenstoneStudio, HexagonCo, Aladalar, Tuxenus and others
+---
+*INACTIVE Czech Translation Contributors (before alpha 16):
+- Mentoska, LolmenCz, ExZoT4EvEr, GreenstoneStudio, HexagonCo, Aladalar, Tuxenus and others*
