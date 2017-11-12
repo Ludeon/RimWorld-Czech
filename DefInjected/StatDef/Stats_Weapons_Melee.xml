@@ -1,23 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MeleeWeapon_DamageAmount.label>poškození na blízko</MeleeWeapon_DamageAmount.label>
-  <MeleeWeapon_DamageAmount.description>Poškození na zásah v boji na blízko.</MeleeWeapon_DamageAmount.description>
+  <MeleeWeapon_AverageDPS.label>poškození na blízko za sekundu</MeleeWeapon_AverageDPS.label>
+  <MeleeWeapon_AverageDPS.description>Poškození v boji na blízko za sekundu, pokud všechny útoky zasáhly.</MeleeWeapon_AverageDPS.description>
 
-  <MeleeWeapon_Cooldown.label>obnova útoku na blízko</MeleeWeapon_Cooldown.label>
-  <MeleeWeapon_Cooldown.description>Jak dlouho trvá po útoku, než je možné opět zaútočit zbraní na blízko.</MeleeWeapon_Cooldown.description>
-  <MeleeWeapon_Cooldown.formatString>{0}s</MeleeWeapon_Cooldown.formatString>
-
-
+  <MeleeWeapon_DamageMultiplier.label>násobitel poškození na blízko</MeleeWeapon_DamageMultiplier.label>
+  <MeleeWeapon_DamageMultiplier.description>Násobitel poškození aplikovaný v boji na blízko.</MeleeWeapon_DamageMultiplier.description>
+    
+ 
   <!-- Damage multipliers should be stats on stuffs only -->
 
+  <MeleeWeapon_CooldownMultiplier.label>obnova útoku na blízko</MeleeWeapon_CooldownMultiplier.label>
+  <MeleeWeapon_CooldownMultiplier.description>Násobitel prodlevy útoku s předměty vyrobené z tohoto materiálu.</MeleeWeapon_CooldownMultiplier.description>
+  
   <SharpDamageMultiplier.label>Poranění na blízko (ostré)</SharpDamageMultiplier.label>
-  <SharpDamageMultiplier.description>Násobitel na poškození s ostrými útoky, jako jsou pořezání nebo bodnutí způsobené věcmi z tohoto materiálu.</SharpDamageMultiplier.description>
+  <SharpDamageMultiplier.description>Násobitel na poškození s ostrými útoky, jako jsou pořezání nebo bodnutí způsobené předměty vyrobené z tohoto materiálu.</SharpDamageMultiplier.description>
 
   <BluntDamageMultiplier.label>Poranění na blízko (tupé)</BluntDamageMultiplier.label>
-  <BluntDamageMultiplier.description>Násobitel na poškození s tupými útoky způsobené věcmi z tohoto materiálu.</BluntDamageMultiplier.description>
+  <BluntDamageMultiplier.description>Násobitel na poškození s tupými útoky způsobené předměty vyrobené z tohoto materiálu.</BluntDamageMultiplier.description>
 
-
-  <!-- Damage multipliers should be stats on stuffs only-->
 
 </LanguageData>
