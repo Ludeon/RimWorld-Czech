@@ -14,6 +14,8 @@ https://prekladyher.eu/preklady/rimworld.324/
 # Czech Translation Team (active since alpha 16):
 completely new translation
 
+
+
 Translation Coordinator:
 * Galoth
 
