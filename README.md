@@ -36,5 +36,6 @@ https://prekladyher.eu/preklady/rimworld.324/
 - Aladalar
 
 ---
-*INACTIVE Czech Translation Contributors (before alpha 16):
-- Mentoska, LolmenCz, ExZoT4EvEr, GreenstoneStudio, HexagonCo, Aladalar, Tuxenus and others*
+
+*INACTIVE Czech Translation Contributors (before alpha 16):*
+- *Mentoska, LolmenCz, ExZoT4EvEr, GreenstoneStudio, HexagonCo, Aladalar, Tuxenus and others*
