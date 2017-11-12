@@ -12,6 +12,8 @@ https://prekladyher.eu/preklady/rimworld.324/
 # WE ARE WORKING ON UPDATING TO ALPHA 18
 
 # Czech Translation Team (active since alpha 16):
+- completely new translation
+
 Translation Coordinator:
 * Galoth
 
@@ -33,12 +35,5 @@ Special thanks:
 * Leffi
 * Aladalar
 
-# Czech Translation Contributors (inactive):
-* Mentoska
-* LolmenCz
-* ExZoT4EvEr
-* GreenstoneStudio
-* HexagonCo
-* Aladalar 
-* Tuxenus
-* and others
+INACTIVE Czech Translation Contributors (before alpha 16):
+Mentoska, LolmenCz, ExZoT4EvEr, GreenstoneStudio, HexagonCo, Aladalar, Tuxenus and others
