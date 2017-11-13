@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Beds -->
@@ -36,6 +36,20 @@
   <HospitalBed_Blueprint_Install.label>nemocniční lůžko (plán)</HospitalBed_Blueprint_Install.label>
   <HospitalBed_Frame.label>nemocniční lůžko (ve výstavbě)</HospitalBed_Frame.label>
   <HospitalBed_Frame.description>Postel speciálně navržená pro ošetřování zraněných lidí. Zvyšuje pravděpodobnost úspěchu lékařských ošetření i operací.</HospitalBed_Frame.description>
+
+  <Bedroll.label>spacák</Bedroll.label>
+  <Bedroll.description>Jednoduché lůžko, které leží na podlaze, obvykle z látky nebo kůže, často lemované kožešinou. Je lehké a může být srolováno pro snadnou přepravu, ale není to tak pohodlné jako typická postel.</Bedroll.description>
+  <Bedroll_Blueprint.label>spacák (plán)</Bedroll_Blueprint.label>
+  <Bedroll_Blueprint_Install.label>spacák (plán)</Bedroll_Blueprint_Install.label>
+  <Bedroll_Frame.label>spacák (ve výstavbě)</Bedroll_Frame.label>
+  <Bedroll_Frame.description>Jednoduché lůžko, které leží na podlaze, obvykle z látky nebo kůže, často lemované kožešinou. Je lehké a může být srolováno pro snadnou přepravu, ale není to tak pohodlné jako typická postel.</Bedroll_Frame.description>
+
+  <BedrollDouble.label>spacák pro dva</BedrollDouble.label>
+  <BedrollDouble.description>Jednoduché lůžko pro dva, které leží na podlaze, obvykle z látky nebo kůže, často lemované kožešinou. Je lehké a může být srolováno pro snadnou přepravu, ale není to tak pohodlné jako typická postel.</BedrollDouble.description>
+  <BedrollDouble_Blueprint.label>spacák pro dva (plán)</BedrollDouble_Blueprint.label>
+  <BedrollDouble_Blueprint_Install.label>spacák pro dva (plán)</BedrollDouble_Blueprint_Install.label>
+  <BedrollDouble_Frame.label>spacák pro dva (ve výstavbě)</BedrollDouble_Frame.label>
+  <BedrollDouble_Frame.description>Jednoduché lůžko pro dva, které leží na podlaze, obvykle z látky nebo kůže, často lemované kožešinou. Je lehké a může být srolováno pro snadnou přepravu, ale není to tak pohodlné jako typická postel.</BedrollDouble_Frame.description>
 
 
   <!-- Animal beds -->
@@ -87,20 +101,41 @@
 
   <!-- Table base -->
 
-  <TableShort.label>malý stůl</TableShort.label>
-  <TableShort.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableShort.description>
-  <TableShort_Blueprint.label>malý stůl (plán)</TableShort_Blueprint.label>
-  <TableShort_Blueprint_Install.label>malý stůl (plán)</TableShort_Blueprint_Install.label>
-  <TableShort_Frame.label>malý stůl (ve výstavbě)</TableShort_Frame.label>
-  <TableShort_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableShort_Frame.description>
+  <EndTable.label>noční stolek</EndTable.label>
+  <EndTable.description>Malý noční stolek. Působí na okolní postele, které dělá trochu pohodlnějšími. Musí být umístěny přímo vedle hlavy. Umístění více než jednoho stolku v blízkosti stejné postele nebude mít žádný další účinek.</EndTable.description>
+  <EndTable_Blueprint.label>stolek (plán)</EndTable_Blueprint.label>
+  <EndTable_Blueprint.label>stolek (plán)</EndTable_Blueprint.label>
+  <EndTable_Frame.label>stolek (ve výstavbě)</EndTable_Frame.label>
+  <EndTable_Frame.description>Malý noční stolek. Působí na okolní postele, které dělá trochu pohodlnějšími. Musí být umístěny přímo vedle hlavy. Umístění více než jednoho stolku v blízkosti stejné postele nebude mít žádný další účinek.</EndTable_Frame.description>
 
-  <TableLong.label>velký stůl</TableLong.label>
-  <TableLong.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableLong.description>
-  <TableLong_Blueprint.label>velký stůl (plán)</TableLong_Blueprint.label>
-  <TableLong_Blueprint_Install.label>velký stůl (plán)</TableLong_Blueprint_Install.label>
-  <TableLong_Frame.label>velký stůl (ve výstavbě)</TableLong_Frame.label>
-  <TableLong_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</TableLong_Frame.description>
+  <Table1x2c.label>stůl (1x2)</Table1x2c.label>
+  <Table1x2c.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table1x2c.description>
+  <Table1x2c_Blueprint.label>stůl (1x2) (plán)</Table1x2c_Blueprint.label>
+  <Table1x2c_Blueprint_Install.label>stůl (1x2) (plán)</Table1x2c_Blueprint_Install.label>
+  <Table1x2c_Frame.label>stůl (1x2) (ve výstavbě)</Table1x2c_Frame.label>
+  <Table1x2c_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table1x2c_Frame.description>
 
+  <Table2x2c.label>stůl (2x2)</Table2x2c.label>
+  <Table2x2c.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table2x2c.description>
+  <Table2x2c_Blueprint.label>stůl (2x2) (plán)</Table2x2c_Blueprint.label>
+  <Table2x2c_Blueprint_Install.label>stůl (2x2) (plán)</Table2x2c_Blueprint_Install.label>
+  <Table2x2c_Frame.label>stůl (2x2) (ve výstavbě)</Table2x2c_Frame.label>
+  <Table2x2c_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table2x2c_Frame.description>
+
+  <Table2x4c.label>stůl (2x4)</Table2x4c.label>
+  <Table2x4c.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table2x4c.description>
+  <Table2x4c_Blueprint.label>stůl (2x4) (plán)</Table2x4c_Blueprint.label>
+  <Table2x4c_Blueprint_Install.label>stůl (2x4) (plán)</Table2x4c_Blueprint_Install.label>
+  <Table2x4c_Frame.label>stůl (2x4) (ve výstavbě)</Table2x4c_Frame.label>
+  <Table2x4c_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table2x4c_Frame.description>
+
+  <Table3x3c.label>stůl (3x3)</Table3x3c.label>
+  <Table3x3c.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table3x3c.description>
+  <Table3x3c_Blueprint.label>stůl (3x3) (plán)</Table3x3c_Blueprint.label>
+  <Table3x3c_Blueprint_Install.label>stůl (3x3) (plán)</Table3x3c_Blueprint_Install.label>
+  <Table3x3c_Frame.label>stůl (3x3) (ve výstavbě)</Table3x3c_Frame.label>
+  <Table3x3c_Frame.description>Když jsou židle otočené směrem k němu, mohou na něm lidé jíst.</Table3x3c_Frame.description>  
+  
   <PlantPot.label>květináč</PlantPot.label>
   <PlantPot.description>Sem můžeš vysadit květiny pro zlepšení nálady opodál stojících lidí.</PlantPot.description>
   <PlantPot_Blueprint.label>květináč (plán)</PlantPot_Blueprint.label>
@@ -162,6 +197,16 @@
   <Shelf_Blueprint_Install.label>police (plán)</Shelf_Blueprint_Install.label>
   <Shelf_Frame.label>police (ve výstavbě)</Shelf_Frame.label>
   <Shelf_Frame.description>Zde uskladněné vybavení se neničí, dokonce i když je venku.</Shelf_Frame.description>
+
+
+  <!-- Dressers -->
+
+  <Dresser.label>skříň</Dresser.label>
+  <Dresser.description>Poskytuje malý komfortní bonus všem blízkým postelím. Umístění více než jedné skříně v blízkosti stejné postele nebude mít žádný další účinek.</Dresser.description>
+  <Dresser_Blueprint.label>skříň (plán)</Dresser_Blueprint.label>
+  <Dresser_Blueprint_Install.label>skříň (plán)</Dresser_Blueprint_Install.label>
+  <Dresser_Frame.label>skříň (ve výstavbě)</Dresser_Frame.label>
+  <Dresser_Frame.description>Poskytuje malý komfortní bonus všem blízkým postelím. Umístění více než jedné skříně v blízkosti stejné postele nebude mít žádný další účinek.</Dresser_Frame.description>
 
 
 </LanguageData>
