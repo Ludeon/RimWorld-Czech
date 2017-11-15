@@ -1,10 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Bullet_Pistol.label>náboj do pistole</Bullet_Pistol.label>
+  <Bullet_Revolver.label>náboj do revolveru</Bullet_Revolver.label>
 
-  <Gun_Pistol.label>pistole</Gun_Pistol.label>
-  <Gun_Pistol.description>Starožitná automatická pistole. Malé poškození, krátký dostřel, střílí však rychle.</Gun_Pistol.description>
+  <Gun_Revolver.label>revolver</Gun_Revolver.label>
+  <Gun_Revolver.description>Starožitný vzorek dvojčinné revolveru. Poněkud slabé poškození, střední dostřel, ale střílí rychle.</Gun_Revolver.description>
+  <Gun_Revolver.tools.0.label>rukojeť</Gun_Revolver.tools.0.label>
+  <Gun_Revolver.tools.1.label>hlaveň</Gun_Revolver.tools.1.label>
+
+  <Bullet_Autopistol.label>náboj do automatické pistole</Bullet_Autopistol.label>
+
+  <Gun_Autopistol.label>automatická pistole</Gun_Autopistol.label>
+  <Gun_Autopistol.description>Starožitná automatická pistole. Malé poškození, krátký dostřel, střílí však rychle.</Gun_Autopistol.description>
+  <Gun_Autopistol.tools.0.label>rukojeť</Gun_Autopistol.tools.0.label>
+  <Gun_Autopistol.tools.1.label>hlaveň</Gun_Autopistol.tools.1.label>
 
 
   <!-- T-9 incendiary launcher -->
@@ -13,32 +22,42 @@
 
   <Gun_IncendiaryLauncher.label>zápalný odpalovač</Gun_IncendiaryLauncher.label>
   <Gun_IncendiaryLauncher.description>Odpalovač zápalných nábojů. Zapálí cíl.</Gun_IncendiaryLauncher.description>
-
+  <Gun_IncendiaryLauncher.tools.0.label>pažba</Gun_IncendiaryLauncher.tools.0.label>
+  <Gun_IncendiaryLauncher.tools.1.label>hlaveň</Gun_IncendiaryLauncher.tools.1.label>
+  
   <Bullet_PumpShotgun.label>náboj do pumpovací brokovnice</Bullet_PumpShotgun.label>
 
   <Gun_PumpShotgun.label>pumpovací brokovnice</Gun_PumpShotgun.label>
   <Gun_PumpShotgun.description>Starožitný vzhled. Smrtící, ale má velmi krátký dostřel.</Gun_PumpShotgun.description>
-
-  <Bullet_ChainShotgun.label>náboj do automatické brokovnice</Bullet_ChainShotgun.label>
-
+  <Gun_PumpShotgun.tools.0.label>pažba</Gun_PumpShotgun.tools.0.label>
+  <Gun_PumpShotgun.tools.1.label>hlaveň</Gun_PumpShotgun.tools.1.label>
+  
   <Gun_ChainShotgun.label>automatická brokovnice</Gun_ChainShotgun.label>
   <Gun_ChainShotgun.description>Plně automatická brokovnice . Krátký dostřel a velmi nízká přesnost, ale mimořádně nebezpečná.</Gun_ChainShotgun.description>
-
+  <Gun_ChainShotgun.tools.0.label>pažba</Gun_ChainShotgun.tools.0.label>
+  <Gun_ChainShotgun.tools.1.label>hlaveň</Gun_ChainShotgun.tools.1.label>
+  
   <Bullet_BoltActionRifle.label>náboj do opakovací pušky</Bullet_BoltActionRifle.label>
 
   <Gun_BoltActionRifle.label>opakovací puška</Gun_BoltActionRifle.label>
   <Gun_BoltActionRifle.description>Starobylý vzorek opakovací pušky. Dobrý dostřel, dobrá síla, nízká rychlost střelby.</Gun_BoltActionRifle.description>
-
+  <Gun_BoltActionRifle.tools.0.label>pažba</Gun_BoltActionRifle.tools.0.label>
+  <Gun_BoltActionRifle.tools.1.label>hlaveň</Gun_BoltActionRifle.tools.1.label>
+  
   <Bullet_MachinePistol.label>náboj do lehkého samopalu</Bullet_MachinePistol.label>
 
   <Gun_MachinePistol.label>lehký samopal</Gun_MachinePistol.label>
   <Gun_MachinePistol.description>Miniaturní samopal. Nízký dostřel i průraznost, vysoká rychlost střelby. Velmi rychlý na míření i střelbu.</Gun_MachinePistol.description>
-
+  <Gun_MachinePistol.tools.0.label>rukojeť</Gun_MachinePistol.tools.0.label>
+  <Gun_MachinePistol.tools.1.label>hlaveň</Gun_MachinePistol.tools.1.label>
+  
   <Bullet_HeavySMG.label>náboj do těžkého samopalu</Bullet_HeavySMG.label>
 
   <Gun_HeavySMG.label>těžký samopal</Gun_HeavySMG.label>
   <Gun_HeavySMG.description>Kompaktní vrhač olova s velkou ráží. Krátký dostřel, ale vysoká průraznost a dobré ovládání.</Gun_HeavySMG.description>
-
+  <Gun_HeavySMG.tools.0.label>rukojeť</Gun_HeavySMG.tools.0.label>
+  <Gun_HeavySMG.tools.1.label>hlaveň</Gun_HeavySMG.tools.1.label>
+  
 
   <!-- LMG -->
 
@@ -46,12 +65,16 @@
 
   <Gun_LMG.label>lehký kulomet</Gun_LMG.label>
   <Gun_LMG.description>Lehký kulomet.</Gun_LMG.description>
-
+  <Gun_LMG.tools.0.label>pažba</Gun_LMG.tools.0.label>
+  <Gun_LMG.tools.1.label>hlaveň</Gun_LMG.tools.1.label>
+  
   <Bullet_AssaultRifle.label>náboj do útočné pušky</Bullet_AssaultRifle.label>
 
   <Gun_AssaultRifle.label>útočná puška</Gun_AssaultRifle.label>
   <Gun_AssaultRifle.description>Útočná puška pro boj v poli i ve městě. Vystřeluje salvu o třech nábojích. Dobrý dostřel, nízká průraznost, vysoká rychlost střelby.</Gun_AssaultRifle.description>
-
+  <Gun_AssaultRifle.tools.0.label>pažba</Gun_AssaultRifle.tools.0.label>
+  <Gun_AssaultRifle.tools.1.label>hlaveň</Gun_AssaultRifle.tools.1.label>
+  
 
   <!-- Charge rifle -->
 
@@ -59,12 +82,16 @@
 
   <Gun_ChargeRifle.label>energetická puška</Gun_ChargeRifle.label>
   <Gun_ChargeRifle.description>Zbraň, která vystřeluje energetické náboje.</Gun_ChargeRifle.description>
-
+  <Gun_ChargeRifle.tools.0.label>pažba</Gun_ChargeRifle.tools.0.label>
+  <Gun_ChargeRifle.tools.1.label>hlaveň</Gun_ChargeRifle.tools.1.label>
+  
   <Bullet_SniperRifle.label>náboj do odstřelovací pušky</Bullet_SniperRifle.label>
 
   <Gun_SniperRifle.label>odstřelovací puška</Gun_SniperRifle.label>
   <Gun_SniperRifle.description>Starožitná vojenská odstřelovací puška. Jednoranná, vysoký dostřel, přesnost i průraznost.</Gun_SniperRifle.description>
-
+  <Gun_SniperRifle.tools.0.label>pažba</Gun_SniperRifle.tools.0.label>
+  <Gun_SniperRifle.tools.1.label>hlaveň</Gun_SniperRifle.tools.1.label>
+  
 
   <!-- Minigun -->
 
@@ -72,6 +99,7 @@
 
   <Gun_Minigun.label>rotační kulomet</Gun_Minigun.label>
   <Gun_Minigun.description>Plně automatická vícehlavňová zbraň s vysokou rychlostí střelby. Vyráběný mechanoidy.</Gun_Minigun.description>
+  <Gun_Minigun.tools.0.label>hlavně</Gun_Minigun.tools.0.label>
 
 
   <!-- Non-producible -->
@@ -80,11 +108,13 @@
 
   <Gun_TripleRocket.label>trojhlavňový raketomet</Gun_TripleRocket.label>
   <Gun_TripleRocket.description>Jednorázový raketomet, který v rychlém sledu vystřelí tři rakety.</Gun_TripleRocket.description>
-
+  <Gun_TripleRocket.tools.0.label>hlaveň</Gun_TripleRocket.tools.0.label>
+  
   <Bullet_DoomsdayRocket.label>raketa soudného dne</Bullet_DoomsdayRocket.label>
 
   <Gun_DoomsdayRocket.label>raketomet soudného dne</Gun_DoomsdayRocket.label>
   <Gun_DoomsdayRocket.description>Jednorázový raketomet pro rychlý protiútok.</Gun_DoomsdayRocket.description>
+  <Gun_DoomsdayRocket.tools.0.label>hlaveň</Gun_DoomsdayRocket.tools.0.label>
 
 
   <!-- Mechanoid weapons -->
@@ -93,16 +123,19 @@
 
   <Gun_ChargeLance.label>energetické kopí</Gun_ChargeLance.label>
   <Gun_ChargeLance.description>Zbraň, která vystřeluje energetické náboje za pomoci kolejnicového systému. Jednotlivé energetické střely vystřeluje vysokou rychlostí.</Gun_ChargeLance.description>
-
+  <Gun_ChargeLance.tools.0.label>hlaveň</Gun_ChargeLance.tools.0.label>
+  
   <Bullet_InfernoCannon.label>náboj do pekelného děla</Bullet_InfernoCannon.label>
 
   <Gun_InfernoCannon.label>pekelné dělo</Gun_InfernoCannon.label>
   <Gun_InfernoCannon.description>Dělostřelectvo se zápalnými náboji v kapesním vydání. Vyráběný mechanoidy.</Gun_InfernoCannon.description>
-
+  <Gun_InfernoCannon.tools.0.label>hlaveň</Gun_InfernoCannon.tools.0.label>
+  
   <Bullet_ChargeBlasterHeavy.label>náboj do energetického vrhače</Bullet_ChargeBlasterHeavy.label>
 
   <Gun_ChargeBlasterHeavy.label>těžký energetický vrhač</Gun_ChargeBlasterHeavy.label>
   <Gun_ChargeBlasterHeavy.description>Těžký vrhač, který vystřeluje energetické střely. Dokáže poskytnout krycí palbu přes celou oblast. Vyráběný mechanoidy.</Gun_ChargeBlasterHeavy.description>
-
+  <Gun_ChargeBlasterHeavy.tools.0.label>hlaveň</Gun_ChargeBlasterHeavy.tools.0.label>
+  
 
 </LanguageData>
