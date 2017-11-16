@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Forbid -->
@@ -27,8 +27,8 @@
   <CommandToggleDraftDesc>Přepne vojenský nábor.\n\nOdvedení lidé přijímají rozkazy a bojují. Nebudou pracovat, jíst ani spát.</CommandToggleDraftDesc>
   <IsIncapped>{0} nemůže chodit.</IsIncapped>
 
-  <CommandFireAtWillLabel>Povolit střelbu</CommandFireAtWillLabel>
-  <CommandFireAtWillDesc>Přepne povolení ke střelbě.\n\nPokud je vypnuta, postava nebude automaticky střílet na vzdálené cíle. Nevztahuje se na boj na blízko.</CommandFireAtWillDesc>
+  <CommandFireAtWillLabel>Střílet dle libosti</CommandFireAtWillLabel>
+  <CommandFireAtWillDesc>Přepne povolení ke střelbě.\n\nPokud je vypnuto, postava nebude automaticky střílet na vzdálené cíle. Nevztahuje se na boj na blízko.</CommandFireAtWillDesc>
 
   <CommandClearPrioritizedWork>Zrušit\nprioritu</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Zruší jakoukoliv upřednostněnou činnost, kterou jsi přidělil. Postava se vrátí ke své obvyklé samostatné činnosti.</CommandClearPrioritizedWorkDesc>
@@ -82,15 +82,21 @@
   <CommandStopForceAttack>Zastavit vynucený útok</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Zastaví vynucené útočení a umožní věži střílet dle vlastního uvážení.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>Momentálně neprobíhá žádný vynucený útok.</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>Vytáhnout munici</CommandExtractShell>
+  <CommandExtractShellDesc>Vytáhne současnou munici tak, aby mohla být nahrazena jinou municí.</CommandExtractShellDesc>
+  <CommandExtractShellFailNoShell>Není vložena žádná munice.</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>Cíl za hranicí maximálního dostřelu.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>Cíl pod hranicí minimálního dostřelu.</MessageTargetBelowMinimumRange>
-
+  <MessageTurretWontFireBecauseHoldFire>Varování: Minomet nebude střílet, protože má nastaveno "Nestřílet!".</MessageTurretWontFireBecauseHoldFire>
+  
   <!-- Ship computer core -->
   <CommandShipLaunch>Vypustit loď</CommandShipLaunch>
   <CommandShipLaunchDesc>Zahájit startovací sekvenci se současným uspořádáním lodi.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Ukázat předstartovní zprávu</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Zobraz zprávu o připravenosti o schopnosti lodi ke startu.</CommandShipLaunchReportDesc>
-
+  <CommandShipStartup>Odstartovat loď</CommandShipStartup>
+  <CommandShipStartupDesc>Probudí hibernující komponenty lodi.</CommandShipStartupDesc>
+  
   <!-- Pod -->
   <CommandPodEject>Vysunout spáče</CommandPodEject>
   <CommandPodEjectDesc>Probuď osobu z cryptospánku a vysuň ho ven.</CommandPodEjectDesc>
@@ -134,8 +140,12 @@
   <CommandSquadAttack>Zaútočit</CommandSquadAttack>
   <CommandSquadAttackDesc>Rozkaž vybraným kolonistům, aby zaútočili na vybrané cíle.</CommandSquadAttackDesc>
 
+  <!-- Melee attack -->
+  <CommandMeleeAttack>Zaútočit nablízko</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>Rozkaž vybraným kolonistům, aby zaútočili na vybrané cíle pouze pěstmi a zbraněmi na blízko.</CommandMeleeAttackDesc>
+  
   <!-- Hold fire -->
-  <CommandHoldFire>Nestřílet</CommandHoldFire>
+  <CommandHoldFire>Nestřílet!</CommandHoldFire>
   <CommandHoldFireDesc>Ukonči jakýkoliv probíhající útok.</CommandHoldFireDesc>
 
   <!-- Select plant to grow -->
@@ -162,8 +172,9 @@
 
   <!-- Merge caravan -->
   <CommandMergeCaravans>Sloučit</CommandMergeCaravans>
-  <CommandMergeCaravansDesc>Spoj označené karavany.</CommandMergeCaravansDesc>
-
+  <CommandMergeCaravansDesc>Sloučí vybrané karavany.</CommandMergeCaravansDesc>
+  <CommandMergeCaravansFailCaravansNotSelected>Vyber všechny karavany, které mají být sloučeny. Karavany musí být blízko sebe.</CommandMergeCaravansFailCaravansNotSelected>
+ 
   <!-- Settle -->
   <CommandSettle>Osídlit</CommandSettle>
   <CommandSettleDesc>Usaď se v této oblasti. Tví kolonisté do této oblasti vstoupí a ty si budeš moct postavit nový domov.</CommandSettleDesc>
