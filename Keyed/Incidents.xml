@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <LetterLabelAnimalInsanitySingle>Šílené zvíře</LetterLabelAnimalInsanitySingle>
@@ -7,7 +7,7 @@
   <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nVypadá to, že mnoho zvířat v oblasti to dohnalo k nepříčetnosti.\n\nDruh zvířete: {0}</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Plíseň na poli</LetterLabelCropBlight>
-  <CropBlight>Tvou úrodu zničila záhadná plíseň.</CropBlight>
+  <CropBlight>Kolonista si všiml plísně na tvé úrodě! Měl bys posekat nebo spálit plodiny napadené plísní dříve, než se rozšíří.</CropBlight>
 
   <LetterLabelMiracleHeal>Zázrak</LetterLabelMiracleHeal>
   <MiracleHeal>{0} právě zažilHISCAP zázračné uzdravení!</MiracleHeal>
@@ -31,7 +31,9 @@
   <CargoPodCrash>Všiml sis, že nedaleko dopadl shluk nákladních modulů.\n\nMožná v jejich troskách najdeš něco užitečného.</CargoPodCrash>
 
   <AnElectricalConduit>Elektrické vedení</AnElectricalConduit>
-  <ShortCircuit>Závada v elektrické síti způsobila zkrat.\n\nVeškerých {1} Wd energie v připojených bateriích se vybilo v elektrickém výbuchu.</ShortCircuit>
+  <ShortCircuit>Závada v elektrické síti způsobila zkrat.\n\nPříčina problému: {0}</ShortCircuit>
+  <ShortCircuitStartedFire>Závada v elektrické síti způsobila zkrat, který způsobil požár.\n\nPříčina problému: {0}</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>Veškerých {0} Wd energie v připojených bateriích se vybilo v elektrickém výbuchu.</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>Toto velké množství energie vytvořilo výbuch značných rozměrů.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>To je fakt obrovský výbuch. No páni.</ShortCircuitWasHuge>
 
@@ -118,8 +120,12 @@
   <RansomDemand_Accept>Přijmout</RansomDemand_Accept>
   <RansomDemand_Reject>Odmítnout</RansomDemand_Reject>
 
-  <!-- Journey -->
-  <JourneyOffer>Přátelská UI ze tvé minulosti jménem Charlon Whitestone ti poslal zprávu!\n\nProzradil ti, že má na této planetě ukrytou kosmickou loď a posílá ti její souřadnice.\n\nPokud k té lodi docestuješ, Charlon tě vyzvedne z tohoto okrajového světa vzhůru ke hvězdám.</JourneyOffer>
+  <!-- Journey-related -->
+  <JourneyOffer>Přátelská UI ze tvé minulosti jménem Charlon Whitestone ti poslal zprávu!\n\nProzradil ti, že má na této planetě ukrytou vesmírnou loď a posílá ti její souřadnice.\n\nVesmírná loď je v současnosti v módu hluboké hibernace. Jakmile k ní dorazíš, budeš ji muset nastartovat, a poté ji bránit před nájezdníky, kteří se ji budou snažit zmocnit dřív, než bude dokončena startovací sekvence.\n\nPokud se ti podaří odlepit loď od země, Charlon tě vezme z tohoto okrajového světa vzhůru ke hvězdám.</JourneyOffer>
+  <EscapeShipFoundLabel>Loď nalezena</EscapeShipFoundLabel>
+  <EscapeShipFound>Dosáhl jsi souřadnic, které ti Charlon Whitestone poslal, a objevil jsi ukrytou vesmírnou loď.\n\nLodní reaktor je stále v módu hluboké hibernace, takže ještě nemůže vzlétnout. Můžeš ji nastartovat interakcí s jádrem počítače.\n\nCharlon Whitestone tě varuje, že startovací proces bude trvat kolem 15 dnů, a energetický podpis bude detekovatelný z obrovské vzdálenosti. Tento druh energetického podpisu naznačuje mezihvězdný letový výkon a přiláká gangy zoufalých lupičů a lovců pokladů. Ujisti se, že tvá obrana je skvěle připravena.</EscapeShipFound>
+  <EscapeShipLostLabel>Loď zničena</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone ti poslal zprávu.\n\nVidí, že jsi ztratil kontrolu nad lodí. Aby zamezil tomu, že se loď dostane do špatných rukou, je nucen spustit vlastní destrukční mechanismus lodi. Z lodě je teď kráter.\n\nMusíš najít jiný způsob, jak se dostat z této planety.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Setkání karavan ({0})</CaravanMeetingTitle>
@@ -127,7 +133,8 @@
   <CaravanMeeting_Trade>Obchodovat</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Zaútočit</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Pokračovat v cestě</CaravanMeeting_MoveOn>
-
+  <CaravanMeeting_TradeIncapable>žádný člen tvé karavany není schopen obchodu</CaravanMeeting_TradeIncapable>
+  
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Poptávka karavany</LetterLabelCaravanRequest>
   <LetterCaravanRequest>Nedaleká osada, {0}, tě kontaktovala se speciální obchodní nabídkou. Rádi by od nás koupili:\n\n  {1}\n\nNa oplátku nám nabízí:\n\n  {2}\n\nTato nabídka vyprší za: {3}\n\nPokud chceš provést obchod, pošli karavanu s požadovanými zásobami. Tuto nabídku můžete zobrazit výběrem {0} na mapě světa.</LetterCaravanRequest>
@@ -146,8 +153,7 @@
   <ItemStashQuestFeeDemand>{0} je ochoten nám sdělit místo skrýše výměnou za {1} stříbra.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Naneštěstí, {0} netuší kdo nebo co - jestli vůbec někdo - by mohl tuto skrýš chránit.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} říká, že skrýš je nechráněná.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0} říká, že v okolí je nepřátelská základna.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} říká, že skrýš je obklopena nepřátelskými věžemi.</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0} říká, že v okolí skrýše se pohybuje lidožravá smečka zvířat.</ItemStashSitePart_Manhunters>
+  <ItemStashSitePart_Part>{0} říká, že {1}.</ItemStashSitePart_Part>
+
 
 </LanguageData>
