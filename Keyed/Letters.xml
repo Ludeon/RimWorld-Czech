@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <JumpToLocation>Přejít do oblasti</JumpToLocation>
@@ -16,7 +16,7 @@
   <ColonyGoodwill>Pověst kolonie</ColonyGoodwill>
   <Neutral>Neutrální</Neutral>
 
-  <ShortCircuitRain>{0} v dešti zkratoval a způsobil požár.</ShortCircuitRain>
+  <ShortCircuitRain>V dešti zkratovalo elektrické zařízení a způsobilo požár.\n\nZařízení, které zkrat způsobilo:\n\n- {0}</ShortCircuitRain>
 
   <LetterLabelAreaRevealed>Odhalena nová oblast</LetterLabelAreaRevealed>
   <AreaRevealed>Byla odhalena nová oblast.</AreaRevealed>
@@ -30,6 +30,8 @@
   <RecruitSuccess>{0} se povedlo naverbovat {1} (šance {2}).</RecruitSuccess>
   <RecruitFail>{0} se nepovedlo naverbovat {1} (šance {2}).</RecruitFail>
 
+  <RelatedPawnInvolvedInQuest>NAME je {1} osoby jménem {0}. Pokud NAME zemře, {0} bude trpět dlouhodobým smutkem. Nicméně, pokud bude osoba NAME zachráněnHISCAP, {0} bude pociťovat dlouhodobé štěstí.</RelatedPawnInvolvedInQuest>
+
   <LetterLabelBirthday>Narozeniny</LetterLabelBirthday>
   <BirthdayChronological>Dneska {0} slaví své chronologické narozeniny! Biologický věk {1} je {3} let.\n\nChronologicky {1} právě završil {2}.\n\nVšimni si, že když lidé v cryptospánku nestárnou, chronologické narozeniny jsou odlišné od těch biologických.</BirthdayChronological>
   <BirthdayBiologicalAgeInjuries>{0} dosáhl biologického věku {1} let.\n\nBohužel v důsledku stárnutí {0} získal následující onemocnění:\n{2}</BirthdayBiologicalAgeInjuries>
@@ -37,6 +39,10 @@
   <LetterLabelNewDisease>Nemoc</LetterLabelNewDisease>
   <NewDisease>Nemoc: {1}\n\n{0} onemocnělHISCAP. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostalHISCAP řádnou péči a v posteli strávilHISCAP tolik času, jak to jen půjde.</NewDisease>
   <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{0} onemocnělHISCAP. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostalHISCAP řádnou péči a v posteli strávilHISCAP tolik času, jak to jen půjde.</NewPartDisease>
+
+  <PawnWasFormerlyColonist>{0} byl dříve součástí tvé frakce.</PawnWasFormerlyColonist>
+  <PawnHasTheseRelationshipsWithColonists>{0} má tyto vztahy s kolonisty:</PawnHasTheseRelationshipsWithColonists>
+  <PrisonerRescueTimeout>Kemp zmizí za {0} dnů. Pokud si tuto příležitost necháš ujít, {1} se ti už znovu neozve.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Starodávné nebezpečí</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>Jak se {0} přiblížil k starodávné zdi, zaplavil HIM zlověstný pocit. Není si jistý proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
@@ -154,6 +160,31 @@
   <LetterLabelFoundPreciousLump>Drahocenné minerály nalezeny</LetterLabelFoundPreciousLump>
   <LetterFoundPreciousLump>Tvůj snímač minerálů s dlouhým dosahem nalezl nedaleko hroudu drahocenných zdrojů.\n\nNevíme kdo nebo co - jestli vůbec někdo - by mohl tuto hroudu chránit.</LetterFoundPreciousLump>
 
-  <!--<LetterRelatedPawnsTradingWithFactionBase>Základna frakce prodává lidi, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsTradingWithFactionBase>-->
+  <!-- Sleeping mechanoids -->
+  <LetterLabelSleepingMechanoids>Spící mechanoidi</LetterLabelSleepingMechanoids>
+  <LetterSleepingMechanoids>V této oblasti je několik nepřátelských spících mechanoidů.\n\nBuď opatrný, protože mechanoidi se mohou nebo nemusí probudit, když se k nim přiblížíš.</LetterSleepingMechanoids>
+
+  <!-- Ambush -->
+  <LetterLabelAmbushInExistingMap>Přepadení</LetterLabelAmbushInExistingMap>
+  <LetterAmbushInExistingMap>Tvůj {0} byl přepaden!</LetterAmbushInExistingMap>
+  
+  <!-- Peace talks -->
+  <LetterLabelPeaceTalks_Disaster>Mírové rozhovory (katastrofa)</LetterLabelPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Rozhovory dopadly katastrofálně. Delegáti sotva překonali své počáteční pozdravy, hned nato se diskuze strhla v samé urážky a obvinění.\n\nPoté co předčasně tvá karavana začala odcházet, {0} z frakce {1} karavanu dopadli a zaútočili na ni!\n\nVztahy s frakcí {1}: {2}</LetterPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Backfire>Mírové rozhovory (selhání)</LetterLabelPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Rozhovory selhaly. Navzdory obchodování s některými laskavostmi delegáti nedosáhli žádného pokroku v podstatných otázkách a více výroků bylo interpretováno jako urážky.\n\nVztahy s frakcí {0}: {1}</LetterPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_TalksFlounder>Mírové rozhovory (patová situace)</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>Rozhovory se zmítaly. Delegátům se sice podařilo komunikovat jasně a se základním respektem, ale nebyli schopni učinit pokrok v žádné skutečné záležitosti.\n\nVztahy s frakcí {0} zůstaly beze změny.</LetterPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_Success>Mírové rozhovory (úspěch)</LetterLabelPeaceTalks_Success>
+  <LetterPeaceTalks_Success>Rozhovory byly úspěšné. Delegáti dosáhli nového vzájemného porozumění v několika podstatných otázkách.\n\nVztahy s frakcí {0} se zlepšily o {1}.</LetterPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Triumph>Mírové rozhovory (triumf)</LetterLabelPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Rozhovory byly velkým triumfem! Delegáti se rychle spojili na osobní úrovni a dospěli ke skutečnému pohledu na názor těch nejobtížnějších témat.\n\nVztahy s frakcí {0} se zlepšily o {1}.\n\nNež tvá karavana odešla, {0} ti dali dárek:\n\n-{2}</LetterPeaceTalks_Triumph>
+  <PeaceTalksSocialXPGain>{0}, jakožto tvůj vyjednavač, ziskává {1} zkušeností k dovednosti Socializace.</PeaceTalksSocialXPGain>
+
+  <!-- Run wild mental break -->
+  <LetterRunWildMentalBreak>{0} po dlouhém rozhodování opouští tvou frakci a jde žít se zvířaty.</LetterRunWildMentalBreak>
+
+  <!-- Catatonic mental break -->
+  <LetterCatatonicMentalBreak>{0} má katatonický kolaps, který bude trvat několik dnů.</LetterCatatonicMentalBreak>   
 
 </LanguageData>
