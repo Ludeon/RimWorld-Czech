@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <!-- Missing body part -->
 
   <MissingBodyPart.label>chybějící část těla</MissingBodyPart.label>
+  <MissingBodyPart.labelNoun>chybějící část těla</MissingBodyPart.labelNoun>
 
 
   <!-- Injuries -->
@@ -13,7 +14,8 @@
   <Misc.comps.0.labelTendedWellInner>sešité</Misc.comps.0.labelTendedWellInner>
   <Misc.comps.0.labelSolidTendedWell>vyztužené</Misc.comps.0.labelSolidTendedWell>
   <Misc.injuryProps.destroyedLabel>zničené</Misc.injuryProps.destroyedLabel>
-
+  <Misc.labelNoun>zranění</Misc.labelNoun>
+  
   <Burn.label>popálenina</Burn.label>
   <Burn.comps.0.labelTendedWell>obvázané</Burn.comps.0.labelTendedWell>
   <Burn.comps.0.labelTendedWellInner>sešité</Burn.comps.0.labelTendedWellInner>
@@ -21,20 +23,23 @@
   <Burn.comps.2.oldLabel>jizva po popálenině</Burn.comps.2.oldLabel>
   <Burn.injuryProps.destroyedLabel>zničené ohněm</Burn.injuryProps.destroyedLabel>
   <Burn.injuryProps.destroyedOutLabel>vypálené</Burn.injuryProps.destroyedOutLabel>
-
+  <Burn.labelNoun>popálenina</Burn.labelNoun>
+  
   <Crush.label>rozdrcení</Crush.label>
   <Crush.comps.0.labelTendedWell>obvázané</Crush.comps.0.labelTendedWell>
   <Crush.comps.0.labelTendedWellInner>sešité</Crush.comps.0.labelTendedWellInner>
   <Crush.comps.0.labelSolidTendedWell>vyztužené</Crush.comps.0.labelSolidTendedWell>
   <Crush.comps.2.oldLabel>jizva po rozdrcení</Crush.comps.2.oldLabel>
   <Crush.injuryProps.destroyedLabel>rozdrcené</Crush.injuryProps.destroyedLabel>
-
+  <Crush.labelNoun>rozdrcení</Crush.labelNoun>
+  
   <Crack.label>zlomenina</Crack.label>
   <Crack.comps.0.labelTendedWell>obvázané</Crack.comps.0.labelTendedWell>
   <Crack.comps.0.labelTendedWellInner>sešité</Crack.comps.0.labelTendedWellInner>
   <Crack.comps.0.labelSolidTendedWell>vyztužené</Crack.comps.0.labelSolidTendedWell>
   <Crack.injuryProps.destroyedLabel>roztříštěné</Crack.injuryProps.destroyedLabel>
-
+  <Crack.labelNoun>zlomenina</Crack.labelNoun>
+  
   <Cut.label>pořezání</Cut.label>
   <Cut.comps.0.labelTendedWell>obvázané</Cut.comps.0.labelTendedWell>
   <Cut.comps.0.labelTendedWellInner>sešité</Cut.comps.0.labelTendedWellInner>
@@ -42,13 +47,15 @@
   <Cut.comps.2.oldLabel>jizva po pořezání</Cut.comps.2.oldLabel>
   <Cut.injuryProps.destroyedLabel>odříznuté</Cut.injuryProps.destroyedLabel>
   <Cut.injuryProps.destroyedOutLabel>vyříznuté</Cut.injuryProps.destroyedOutLabel>
-
+  <Cut.labelNoun>pořezání</Cut.labelNoun>
+  
   <SurgicalCut.label>chirurgické pořezání</SurgicalCut.label>
   <SurgicalCut.comps.0.labelTendedWell>obvázané</SurgicalCut.comps.0.labelTendedWell>
   <SurgicalCut.comps.0.labelTendedWellInner>sešité</SurgicalCut.comps.0.labelTendedWellInner>
   <SurgicalCut.comps.0.labelSolidTendedWell>vyztužené</SurgicalCut.comps.0.labelSolidTendedWell>
   <SurgicalCut.comps.1.oldLabel>jizva po pořezání</SurgicalCut.comps.1.oldLabel>
-
+  <SurgicalCut.labelNoun>chirurgické pořezání</SurgicalCut.labelNoun>
+  
   <Scratch.label>podrápání</Scratch.label>
   <Scratch.comps.0.labelTendedWell>obvázané</Scratch.comps.0.labelTendedWell>
   <Scratch.comps.0.labelTendedWellInner>sešité</Scratch.comps.0.labelTendedWellInner>
@@ -56,7 +63,8 @@
   <Scratch.comps.2.oldLabel>jizva po drápech</Scratch.comps.2.oldLabel>
   <Scratch.injuryProps.destroyedLabel>odpárané</Scratch.injuryProps.destroyedLabel>
   <Scratch.injuryProps.destroyedOutLabel>vydrápané</Scratch.injuryProps.destroyedOutLabel>
-
+  <Scratch.labelNoun>drápanec</Scratch.labelNoun>
+  
   <Bite.label>pokousání</Bite.label>
   <Bite.comps.0.labelTendedWell>obvázané</Bite.comps.0.labelTendedWell>
   <Bite.comps.0.labelTendedWellInner>sešité</Bite.comps.0.labelTendedWellInner>
@@ -64,7 +72,8 @@
   <Bite.comps.2.oldLabel>jizva po pokousání</Bite.comps.2.oldLabel>
   <Bite.injuryProps.destroyedLabel>ukousnuté</Bite.injuryProps.destroyedLabel>
   <Bite.injuryProps.destroyedOutLabel>rozkousané</Bite.injuryProps.destroyedOutLabel>
-
+  <Bite.labelNoun>kousanec</Bite.labelNoun>
+  
   <Stab.label>bodnutí</Stab.label>
   <Stab.comps.0.labelTendedWell>obvázané</Stab.comps.0.labelTendedWell>
   <Stab.comps.0.labelTendedWellInner>sešité</Stab.comps.0.labelTendedWellInner>
@@ -72,7 +81,8 @@
   <Stab.comps.2.oldLabel>jizva po bodnutí</Stab.comps.2.oldLabel>
   <Stab.injuryProps.destroyedLabel>odříznuté</Stab.injuryProps.destroyedLabel>
   <Stab.injuryProps.destroyedOutLabel>vybodnuté</Stab.injuryProps.destroyedOutLabel>
-
+  <Stab.labelNoun>bodné zranění</Stab.labelNoun>
+  
   <Gunshot.label>střelná rána</Gunshot.label>
   <Gunshot.comps.0.labelTendedWell>obvázané</Gunshot.comps.0.labelTendedWell>
   <Gunshot.comps.0.labelTendedWellInner>sešité</Gunshot.comps.0.labelTendedWellInner>
@@ -81,7 +91,8 @@
   <Gunshot.comps.2.instantlyOldLabel>trvalé střelné zranění</Gunshot.comps.2.instantlyOldLabel>
   <Gunshot.injuryProps.destroyedLabel>ustřelené</Gunshot.injuryProps.destroyedLabel>
   <Gunshot.injuryProps.destroyedOutLabel>vystřelené</Gunshot.injuryProps.destroyedOutLabel>
-
+  <Gunshot.labelNoun>střelné zranění</Gunshot.labelNoun>
+  
   <Shredded.label>zraněno výbuchem</Shredded.label>
   <Shredded.comps.0.labelTendedWell>obvázané</Shredded.comps.0.labelTendedWell>
   <Shredded.comps.0.labelTendedWellInner>sešité</Shredded.comps.0.labelTendedWellInner>
@@ -89,13 +100,15 @@
   <Shredded.comps.2.oldLabel>jizva po výbuchu</Shredded.comps.2.oldLabel>
   <Shredded.injuryProps.destroyedLabel>utržené výbuchem</Shredded.injuryProps.destroyedLabel>
   <Shredded.injuryProps.destroyedOutLabel>poškozené výbuchem</Shredded.injuryProps.destroyedOutLabel>
-
+  <Shredded.labelNoun>zraněno výbuchem</Shredded.labelNoun>
+  
   <Bruise.label>pohmožděnina</Bruise.label>
   <Bruise.comps.0.labelTendedWell>obvázané</Bruise.comps.0.labelTendedWell>
   <Bruise.comps.0.labelTendedWellInner>sešité</Bruise.comps.0.labelTendedWellInner>
   <Bruise.comps.0.labelSolidTendedWell>vyztužené</Bruise.comps.0.labelSolidTendedWell>
   <Bruise.injuryProps.destroyedLabel>zničené</Bruise.injuryProps.destroyedLabel>
-
+  <Bruise.labelNoun>pohmožděnina</Bruise.labelNoun>
+  
   <Frostbite.label>omrzlina</Frostbite.label>
   <Frostbite.comps.0.labelTendedWell>obvázané</Frostbite.comps.0.labelTendedWell>
   <Frostbite.comps.0.labelTendedWellInner>sešité</Frostbite.comps.0.labelTendedWellInner>
