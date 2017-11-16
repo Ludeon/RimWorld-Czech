@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Confirm>Potvrdit</Confirm>
@@ -63,7 +63,9 @@
   <SaveIsUnknownFormat>Uložená data jsou v neznámém formátu a téměř jistě se nenačtou správně.</SaveIsUnknownFormat>
   <ProblemSavingFile>Při ukládání souboru se vyskytl problém {0}:\n\n{1}\n\nPro více informací si prohlédni chybový protokol.</ProblemSavingFile>
   <LoadAnyway>Přesto načíst</LoadAnyway>
-
+  <ChangeLoadedMods>Načíst seznam módů z uložené pozice</ChangeLoadedMods>
+  <MissingMods>Některé módy nejsou k dispozici a je třeba je nainstalovat</MissingMods>
+  
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0} si myslí, že bys měl svoji frakci pojmenovat. Jak se má tvá frakce nazývat?</NamePlayerFactionMessage>
   <PlayerFactionGainsName>Tvá frakce bude odteď známá jako {0}.</PlayerFactionGainsName>
@@ -146,13 +148,7 @@
   <BillRequiresMayVary>Poznámka: Maloobjemových surovin jako zlato je vyžadováno 20x tolik.</BillRequiresMayVary>
   <ThisIsSmallVolume>Tohle je maloobjemová surovina. To znamená, že každá "jednotka" má pouhou 1/20 normální suroviny. Takže abys splnil stejné požadavky na suroviny, budeš jí potřebovat 20x více než obvykle.</ThisIsSmallVolume>
   <UsableIngredients>suroviny</UsableIngredients>
-  <DoXTimes>Proveď to X krát</DoXTimes>
-  <DoUntilYouHaveX>Prováděj do X kusů</DoUntilYouHaveX>
-  <DoForever>Prováděj stále</DoForever>
   <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
-  <BillStoreMode_DropOnFloor>Položit na podlahu</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>Odnést do nejlepšího skladiště</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>Odnést do nejbližšího skladiště</BillStoreMode_NearestStockpileAnyPriority>
 
   <PauseWhenSatisfied>Přestávka po splnění</PauseWhenSatisfied>
   <UnpauseWhenYouHave>Zrušit přestávku, když budeme mít opět</UnpauseWhenYouHave>
@@ -203,7 +199,14 @@
   <Addictiveness>Návykovost</Addictiveness>
   <PackAnimal>Nákladní zvíře</PackAnimal>
   <PackAnimalExplanation>Ukazuje, zda je toto zvíře vhodné použít v karavaně k přepravě nákladů na dlouhé vzdálenosti.</PackAnimalExplanation>
-
+  <Skill>Dovednost</Skill>
+  <SurgerySuccessChanceFactor>Násobitel úspěšnosti</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>Vyžaduje postel</SurgeryRequireBed>
+  <WorkSpeedStat>Pracovní rychlost ovlivněna</WorkSpeedStat>
+  <EfficiencyStat>Výstupní množství ovlivněno</EfficiencyStat>
+  <ConstructionSkillRequired>Vyžadována úroveň Konstrukce</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>Vyžaduje tuto úroveň dovednosti Konstrukce za účelem vybudování.</ConstructionSkillRequiredExplanation>
+  
   <!-- Trade -->
   <PositiveBuysNegativeSells>Kladná čísla znamenají nákup.\nZáporná čísla znamenají prodej.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Cena, kterou zaplatíš při nákupu.</BuyPriceDesc>
@@ -221,7 +224,9 @@
   <ColonyHasNoMore>Nic dalšího k prodeji.</ColonyHasNoMore>
   <TraderWillNotTrade>S tímhle obchodník obchodovat nechce.</TraderWillNotTrade>
   <Negotiator>Vyjednavač</Negotiator>
-  <NegotiatorTalkingImpaired>Tvůj vyjednavač {0} nemůže kvůli špatnému zdravotnímu stavu pořádně mluvit.\n\nTo bude mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednavače.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>Tvůj vyjednavač {0} kvůli špatnému zdravotnímu špatně mluví.</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>Tvůj vyjednavač {0} kvůli špatnému zdravotnímu špatně slyší.</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>To bude mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednavače.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>Obchodník nemá dostatek stříbra, aby plně pokryl tento obchod. Chceš pokračovat i tak?</ConfirmTraderShortFunds>
   <SortBy>Třídit dle</SortBy>
   <TraderTypePrice>druh obchodníka</TraderTypePrice>
@@ -258,9 +263,11 @@
   <DaysWorthOfFoodTooltip>Přibližný počet dnů, než karavaně dojdou potraviny.\n\nJsou brány v úvahu jak potraviny pro lidi, tak i pro zvířata a zobrazuje nejhorší možný scénář. To znamená, že po tolika dnech dojde jídlo alespoň jednomu člověku nebo zvířeti.</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodTooltip_CanEatLocalPlants>Na základě aktuálního ročního období, teploty a okolí je předpokladem, že by býložravci MOHLI jíst místní rostliny. To se však může kdykoli změnit.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
   <DaysWorthOfFoodTooltip_CantEatLocalPlants>Na základě aktuálního ročního období, teploty a okolí je předpokladem, že by býložravci NEMOHLI jíst místní rostliny. To se však může kdykoli změnit.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-  <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo jen na {0} dnů. Velmi rychle vyhladoví.\n\nJsi si jistý, že tuto karavanu chceš vytvořit?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.\n\nJsi si jistý, že tuto karavanu chceš vytvořit?</DaysWorthOfFoodWarningDialog_NoFood>
-  <CaravanFoodWillRotSoonWarningDialog>Velká část přiděleného jídla se brzy zkazí.\n\nJsi si jistý, že chceš vytvořit tuto karavanu?</CaravanFoodWillRotSoonWarningDialog>
+  <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo jen na {0} dnů. Velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog_NoFood>
+  <CaravanFoodWillRotSoonWarningDialog>Velká část přiděleného jídla se brzy zkazí.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>Nemáš žádné členy karavany schopné diplomacie nebo obchodování.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Opravdu chceš vytvořit tuto karavanu?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>Musíš pro karavanu zvolit směr odchodu.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(není dostupný žádný směr odchodu)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Směr odchodu</ExitDirection>
@@ -278,7 +285,8 @@
   <PrisonersSection>Vězni</PrisonersSection>
   <AnimalsSection>Zvířata</AnimalsSection>
   <EstimatedTimeToDestinationButton>Zbývající čas do cíle</EstimatedTimeToDestinationButton>
-
+  <AbandonButton>Zanechat</AbandonButton>
+  
   <!-- Split caravan -->
   <SplitCaravan>Rozdělit karavanu</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Musíš ponechat alespoň jednoho kolonistu při vědomí.</SourceCaravanMustHaveAtLeastOneColonist>
@@ -374,11 +382,11 @@
   <ConfirmLeavePrisonersOrAnimalsBehind>V této oblasti jsou stále ještě zanecháni nějací vězni nebo zvířata a tohle je jediná karavana, ke které se mohou v této chvíli připojit.\n\nPokud karavanu přesuneš, nebudou schopni oblast opustit, dokud se nevrátíš. Vězni se pokusí utéct a zvířata tu na tebe budou čekat.\n\nPokud se rozhodneš počkat, pokusí se ke tvé karavaně co nejrychleji připojit.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmLeavePrisonersOrAnimalsBehind>
 
   <!-- Abandon pawn -->
-  <ConfirmAbandonPawnDialog>Chceš tu doopravdy nechat {0}?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0} s největší pravděpodobností zemře.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} si s sebou vezme následující předměty:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Všichni kolonisté si budou myslet následující:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>Když tu {0} necháš napospas osudu, způsobí to, že následující lidé si budou myslet toto:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  <ConfirmBanishPawnDialog>Opravdu se chceš zbavit {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} s největší pravděpodobností zemře.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{0} si s sebou vezme následující předměty:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Všichni kolonisté si budou myslet následující:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Když tu {0} necháš napospas osudu, způsobí to, že následující lidé si budou myslet toto:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Skupina modulů není zcela naložena. Chybí {0}. Odstartovat i tak?</ConfirmSendNotCompletelyLoadedPods>
