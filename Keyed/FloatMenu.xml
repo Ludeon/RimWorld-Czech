@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <CallOnRadio>Zavolej! - {0}</CallOnRadio>
@@ -19,6 +19,7 @@
   <IncapableOfViolenceLower>neschopen násilí</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} není naverbován</IsNotDraftedLower>
   <CannotOrderNonControlledLower>nelze dávat příkazy neovládaným jednotkám</CannotOrderNonControlledLower>
+  <CannotAttackSelf>nelze útočit na sebe</CannotAttackSelf>
 
   <OrderManThing>Obsluhuj! - {0}</OrderManThing>
 
@@ -39,6 +40,7 @@
   <NoUsableFood>žádné použitelné jídlo</NoUsableFood>
   <NoFood>žádné jídlo</NoFood>
   <AnimalsSkillTooLow>dovednost Zvířata je příliš nízká</AnimalsSkillTooLow>
+  <ConstructionSkillTooLow>dovednost Konstrukce je příliš nízká</ConstructionSkillTooLow>
   <NoComponentsToRepair>chybí komponenty</NoComponentsToRepair>
   <NoFuelToRefuel>chybí {0}</NoFuelToRefuel>
   <NoWort>chybí mladina</NoWort>
@@ -46,7 +48,11 @@
   <NoFoodToFillHopper>žádné vhodné jídlo</NoFoodToFillHopper>
   <SelfTendDisabled>sebe-ošetření vypnuto</SelfTendDisabled>
   <ReservedForPrisoners>vyhrazeno pro vězně</ReservedForPrisoners>
-
+  <CannotReach>nemůže dosáhnout</CannotReach>
+  <NotSurgeryReady>není připraven k operaci</NotSurgeryReady>
+  <CantSowCavePlantBecauseOfLight>příliš světla</CantSowCavePlantBecauseOfLight>
+  <CantSowCavePlantBecauseUnroofed>chybí střecha</CantSowCavePlantBecauseUnroofed>
+  
   <ConsumeThing>Sněz! - {0}</ConsumeThing>
 
   <CannotGoNoPath>Nelze sem jít, protože sem nevede žádná cesta.</CannotGoNoPath>
@@ -120,7 +126,9 @@
 
   <EnterMap>Vstoupit - {0}</EnterMap>
   <VisitSettlement>Navštívit - {0}</VisitSettlement>
+  <VisitPeaceTalks>Navštívit - {0}</VisitPeaceTalks>
   <VisitSite>Navštívit - {0}</VisitSite>
+  <VisitEscapeShip>Navštívit - {0}</VisitEscapeShip>
   <AttackSite>Zaútočit - {0}</AttackSite>
   <AttackSettlement>Zaútočit - {0}</AttackSettlement>
 
@@ -158,7 +166,5 @@
 
   <AddWaypoint>Přidat nový záchytný bod sem</AddWaypoint>
   <RemoveWaypoint>Smazat tento záchytný bod</RemoveWaypoint>
-
-  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc-->
 
 </LanguageData>
