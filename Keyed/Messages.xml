@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <MessageSiegersAssaulting>Na kolonii právě útočí obléhající {0} z frakce {1}.</MessageSiegersAssaulting>
@@ -75,10 +75,11 @@
 
   <MessageInvoluntarySleep>{0} zkolaboval v důsledku extrémního vyčerpání.</MessageInvoluntarySleep>
 
-  <MessageMedicalOperationFailureMinor>{0} mírně selhal, když operoval {1}.</MessageMedicalOperationFailureMinor>
-  <MessageMedicalOperationFailureCatastrophic>{0} katastrofálně selhal, když operoval {1}.</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureRidiculous>{0} směšným způsobem selhal, když operoval {1}.</MessageMedicalOperationFailureRidiculous>
-
+  <MessageMedicalOperationFailureMinor>{0} mírně selhal, když operoval pacienta {1}.</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureCatastrophic>{0} katastrofálně selhal, když operoval pacienta {1}.</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureRidiculous>{0} směšným způsobem selhal, když operoval pacienta {1}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{0} se při operaci dopustil fatální chyby, když operoval pacienta {1}, kvůli speciálním výzvám: {2}</MessageMedicalOperationFailureFatal>
+  
   <MessageMedicalOperationWillAngerFaction>Tato operace rozhněvá {0}.</MessageMedicalOperationWillAngerFaction>
 
   <MessagePawnExitMapRelationsGain>Protože {0} opustil mapu zdravý, vztah s frakcí {1} se zlepšil o {2}.</MessagePawnExitMapRelationsGain>
@@ -133,6 +134,8 @@
 
   <MessageNoLongerBingingOnDrug>{0} už tolik netouží po {1}.</MessageNoLongerBingingOnDrug>
 
+  <MessageNoLongerOnTargetedInsultingSpree>{0} už cíleně neuráží osobu {1}.</MessageNoLongerOnTargetedInsultingSpree>
+
   <MessageRottedAwayInStorage>{0} shnilo ve skladišti.</MessageRottedAwayInStorage>
 
   <MessageFoodPoisoning>{0} se přiotrávil z jídla. Může za to {1}.</MessageFoodPoisoning>
@@ -145,9 +148,13 @@
 
   <MessageMaxPlanetCoveragePerformanceWarning>Varování: Vytváření celé planety může trvat velice dlouhou dobu.</MessageMaxPlanetCoveragePerformanceWarning>
 
-  <MessagePlantDiedOfCold>Rostlina zemřela kvůli chladu. ({0})</MessagePlantDiedOfCold>
-  <MessagePlantDiedOfRot>Rostlina shnila, protože ji nikdo nesklidil. ({0})</MessagePlantDiedOfRot>
-
+  <MessagePlantDiedOfCold>Rostlina uhynula kvůli chladu. ({0})</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>Rostlina shnila, protože se včas nesklidila. ({0}).</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_ExposedToLight>Rostlina uhynula, protože byla vystavena světlu. ({0})</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot>Rostlina shnila ({0})</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>Rostlina uhynula kvůli jedu. ({0})</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>Rostlina zplesnivela. ({0})</MessagePlantDiedOfBlight>
+  
   <MessagePawnBeingBurned>{0} byl popálen přehřátým vzduchem!</MessagePawnBeingBurned>
 
   <MessageAccidentalOverdose>{0} se náhodně předávkoval, když jedl {1}!</MessageAccidentalOverdose>
@@ -196,7 +203,7 @@
 
   <MessageReformedCaravan>Karavana byla seskupena.</MessageReformedCaravan>
 
-  <MessageCantAbandonLastColonist>Posledního kolonistu nemůžeš opustit.</MessageCantAbandonLastColonist>
+  <MessageCantBanishLastColonist>Posledního kolonisty se nemůžeš zbavit.</MessageCantBanishLastColonist>
 
   <MessageCantEquipIncapableOfViolence>Nelze vybavit: {0} není schopen násilí.</MessageCantEquipIncapableOfViolence>
   <MessageCantEquipIncapableOfManipulation>Nelze vybavit: neschopný.</MessageCantEquipIncapableOfManipulation>
@@ -223,9 +230,35 @@
 
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Žádný z tvých dozorců není schopen násilí. Poprava nebude provedena.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
 
-  <MessageSiteCountdownBecauseNoMoreEnemies>Zneškodnil si všechny nepřátele. Během {0}, bude karavana automaticky přeformována.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <MessageSiteCountdownBecauseNoMoreEnemies>Zneškodnil jsi všechny nepřátele. Během {0}, bude karavana automaticky přeformována.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>Během {0}, bude karavana automaticky přeformována. Karavanu můžeš nyní přeformovat na obrazovce Mapa světa.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-  <!--<MessageCaravanIsVisitingFaction>{0} dorazila do oblasti {1}.</MessageCaravanIsVisitingFaction>-->
+  <MessageCantBanishDownedPawn>{0} nemůže být vyhnánHISCAP, protože nemůže chodit.</MessageCantBanishDownedPawn>
+
+  <MessageSleepingPawnsWokenUp>{0} se probudilHISCAP.</MessageSleepingPawnsWokenUp>
+
+  <MessageCompSpawnerSpawnedItem>Předmět vytvořen: {0}</MessageCompSpawnerSpawnedItem>
+
+  <MessageHediffCuredByItem>Vyléčený zdravotní problém: {0}</MessageHediffCuredByItem>
+  <MessageBodyPartCuredByItem>Obnovena část těla: {0}</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>Získána technologie: {0}</MessageResearchProjectFinishedByItem>
+
+  <MessagePawnResurrected>{0} byl přiveden zpět k životu!</MessagePawnResurrected>
+
+  <MessageFailedToRescueRelative>Selhal jsi při záchraně osoby {0}. {1} odteď trpí dlouhodobým smutkem.</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>Uspěl jsi při záchraně osoby {0}. {1} odteď pociťuje dlouhodobé štěstí.</MessageRescuedRelative>
+
+  <MessagePrisonerRescued>NAME je zachráněnHISCAP a připojilHISCAP se k tvé kolonii.</MessagePrisonerRescued>
+
+  <MessageTornadoLeftMap>Tornádo opustilo mapu.</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>Tornádo se rozptýlilo.</MessageTornadoDissipated>
+
+  <MessagePeaceTalksNoDiplomat>Žádný diplomat není při vědomí.</MessagePeaceTalksNoDiplomat>
+
+  <MessageWarningCavePlantsExposedToLight>Varování: {0} při vystavení světla nemůže žít.</MessageWarningCavePlantsExposedToLight>
+
+  <MessageTargetedTantrumChangedTarget>{0} nemůže dosáhnout na {1}, takže HIS hněv je přesměrován na {2}.</MessageTargetedTantrumChangedTarget>
+
+  <MessageTargetedInsultingSpreeChangedTarget>{0} se nemůže dostat k osobě {1}, takže HIS hněv odteď schytá {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
 </LanguageData>
