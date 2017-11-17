@@ -53,6 +53,8 @@
   <RuinedByTemperature>Zničené teplotou.</RuinedByTemperature>
   <CorpsePercentMissing>Chybějící části těla</CorpsePercentMissing>
   <HiveReproducesIn>Rozmnoží se za</HiveReproducesIn>
+  <DormantHiveNotReproducing>Hibernace: nemnoží se</DormantHiveNotReproducing>
+  <NextSpawnedItemIn>Next {0} in</NextSpawnedItemIn>
   <BrokenDown>Rozbité</BrokenDown>
   <BondBrackets>(pouto)</BondBrackets>
   <Fuel>Palivo</Fuel>
@@ -79,6 +81,7 @@
   <CaravanHoursPerTile>h/políčko</CaravanHoursPerTile>
   <CaravanBaseMovementTime>Základní pohyblivost</CaravanBaseMovementTime>
   <CurrentTileMovementTime>Aktuální pohyblivost na políčko</CurrentTileMovementTime>
+  <StealthFactor>Utajenost</StealthFactor>
   <Temperature>Teplota</Temperature>
   <BadTemperature>špatná teplota</BadTemperature>
   <IdealFermentingTemperature>Ideální teplota kvašení</IdealFermentingTemperature>
@@ -123,6 +126,12 @@
   <KnownSiteThreat>Hrozba: {0}.</KnownSiteThreat>
   <KnownSiteThreats>Hrozby: {0}.</KnownSiteThreats>
   <KnownSiteThreatsNone>Hrozby: žádné.</KnownSiteThreatsNone>
+  <SkillRequirements>Požadavky na dovednosti</SkillRequirements>
+  <Products>Produkty</Products>
+  <DeepDrillExhausted>Zdroje pod hlubinnou vrtačkou byly vyčerpány.</DeepDrillExhausted>
+  <Relationship>{0} z {1}</Relationship>
+  <Prisoner>Vězeň</Prisoner>
+  <Refugee>Uprchlík</Refugee>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Obsahuje {0} / {1} mladiny.</ContainsWort>
@@ -183,6 +192,7 @@
   <!-- Job reports -->
   <ReportHaulingTo>přenáší {0} do {1}.</ReportHaulingTo>
   <ReportHauling>přenáší {0}.</ReportHauling>
+  <ReportHaulingUnknown>hauling.</ReportHaulingUnknown>  
   <ReportSleeping>spí.</ReportSleeping>
   <ReportResting>odpočívá.</ReportResting>
   <WatchingSunrise>pozoruje východ slunce</WatchingSunrise>
@@ -190,13 +200,15 @@
   <WatchingSunset>pozoruje západ slunce</WatchingSunset>
   <Stargazing>pozoruje hvězdy</Stargazing>
   <WatchingEclipse>pozoruje zatmění</WatchingEclipse>
+  <WatchingAurora>pozoruje polární záři.</WatchingAurora>
   <UsingVerb>používá {0} na {1}.</UsingVerb>
   <AreaLower>oblast</AreaLower>
   <ReportCowering>ukrývá se.</ReportCowering>
   <ReportStanding>stojí.</ReportStanding>
   <ReportExtinguishingFire>hasí oheň.</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>hasí oheň na {0}.</ReportExtinguishingFireOn>
-
+  <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
+  
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Účastní se svatebního obřadu</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>Účastní se večírku</LordReportAttendingParty>
@@ -246,7 +258,8 @@
   <InRestraints>V poutech (zpomalený pohyb)</InRestraints>
   <Carrying>Nese</Carrying>
   <AffectedBy>Ovlivněno od:</AffectedBy>
-
+  <Queued>Ve frontě</Queued>
+  
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\nKlávesová zkratka: {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
   <DefInfoTip>Zobrazit informace o tomto objektu.</DefInfoTip>
@@ -265,7 +278,8 @@
   <PowerOutput>Výstupní výkon</PowerOutput>
   <PowerBatteryStored>Uloženo</PowerBatteryStored>
   <PowerBatteryEfficiency>Účinnost</PowerBatteryEfficiency>
-
+  <SelfDischarging>Samo-vybíjení</SelfDischarging>
+  
   <!-- Temperature control -->
   <TargetTemperature>Cílová teplota</TargetTemperature>
   <PowerConsumptionMode>Současná spotřeba energie</PowerConsumptionMode>
@@ -311,7 +325,9 @@
   <GrowYearRound>Po celý rok</GrowYearRound>
   <GrowSeasonHereNow>Vegetační období je právě teď.</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>Nemůže růst (nevhodná sezónní teplota).</CannotGrowBadSeasonTemperature>
-
+  <Blighted>Napadené plísní</Blighted>
+  <DyingBecauseExposedToLight>Umírá, protože je vystavené světlu</DyingBecauseExposedToLight>
+  
   <!-- Zones -->
   <Zone>Oblast</Zone>
   <GrowingZone>Pole</GrowingZone>
@@ -340,6 +356,7 @@
   <ShowRoofOverlayToggleButton>Přepnout viditelnost střech.</ShowRoofOverlayToggleButton>
   <LockNorthUpToggleButton>Zamknout otáčení kamery tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
   <UsePlanetDayNightSystemToggleButton>Přepnout systém osvětlení den/noc.</UsePlanetDayNightSystemToggleButton>
+  <ShowExpandingIconsToggleButton>Toggle displaying expanding icons instead of the regular icons for distant objects.</ShowExpandingIconsToggleButton>
   <ExpandingIconsToggleButton>Přepnout pro vzdálené objekty zobrazování rozklikávacích ikon namísto běžných ikon.</ExpandingIconsToggleButton>
 
   <!-- Fire -->
@@ -379,10 +396,16 @@
   <ShipReportCannotLaunch>Nelze odstartovat.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Připravena ke startu.</ShipReportCanLaunch>
   <ShipReportMissingPart>Chybí kriticky důležitá součást</ShipReportMissingPart>
+  <ShipReportMissingPartRequires>Požadavky</ShipReportMissingPartRequires>
   <ShipReportNoFullPods>Cryptospánkové komory nejsou obsazené</ShipReportNoFullPods>
-
+  <ShipReportHibernating>Komponent v hibernaci</ShipReportHibernating>
+  <ShipReportNotReady>Komponent není připraven</ShipReportNotReady>
+  <HibernateWarning>Charlon Whitestone je připraven spustit sekvenci na probuzení reaktoru z hluboké hibernace.\n\nVaruje tě, že tento proces bude trvat asi 15 dnů a energetický podpis bude detekovatelný z velké vzdálenosti. Tento druh energetického podpisu naznačuje mezihvězdný letový výkon a přiláká gangy zoufalých lupičů a lovců pokladů. Ujisti se, že tvá obrana je skvěle připravena.</HibernateWarning>
+  <HibernateCompleteLabel>Reaktor připraven</HibernateCompleteLabel>
+  <HibernateComplete>Charlon Whitestone právě dokončil sekvenci na probuzení reaktoru z hluboké hibernace. Reaktor je nyní připraven ke startu.</HibernateComplete>
+  
   <!-- Neurotrainer -->
-  <NeurotrainerUsed>Použití Neurotrenéra u {0} zvýšilo dovednost {1} z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
+  <NeurotrainerUsed>Použití neuro-trénovacího mechanitího séra u {0} zvýšilo dovednost {1} z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
   <Installed>Nainstalováno</Installed>
@@ -489,6 +512,8 @@
   <OutfitSoldier>Voják</OutfitSoldier>
   <OutfitNudist>Nudista</OutfitNudist>
 
-  <!-- Map conditions -->
+  <!-- Hibernatable -->
+  <HibernatableHibernating>Hibernace</HibernatableHibernating>
+  <HibernatableStartingUp>Uvedení do provozu</HibernatableStartingUp>
 
 </LanguageData>
