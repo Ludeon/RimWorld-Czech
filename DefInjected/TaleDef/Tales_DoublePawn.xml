@@ -2,7 +2,7 @@
 <LanguageData>
 
   <Captured.label>zajmutí osoby</Captured.label>
-  <Captured.rulePack.rulesStrings.0>tale_noun->tom, jak byla zatčena osoba, která se jmenuje [prisoner_nameShortDef]</Captured.rulePack.rulesStrings.0>
+  <Captured.rulePack.rulesStrings.0>tale_noun->tom, jak byl[prisoner_pronoun] [prisoner_nameShortDef] zatčen[prisoner_pronoun]</Captured.rulePack.rulesStrings.0>
   <Captured.rulePack.rulesStrings.1>image->[capturer_nameFull] zatýká osobu, která se jmenuje [prisoner_nameFull], přičemž [circumstance_group]</Captured.rulePack.rulesStrings.1>
   <Captured.rulePack.rulesStrings.2>image->[capturer_nameFull] zavazuje ruce osobě, která se jmenuje [prisoner_nameFull], přičemž [circumstance_group]</Captured.rulePack.rulesStrings.2>
   <Captured.rulePack.rulesStrings.3>image->[capturer_nameFull] mlátí osobu, která se jmenuje [prisoner_nameFull], během zatýkání, přičemž [circumstance_group]</Captured.rulePack.rulesStrings.3>
@@ -14,7 +14,7 @@
   <Captured.rulePack.rulesStrings.9>circumstance_phrase->má zjevnou radost z úlovku</Captured.rulePack.rulesStrings.9>
   <Captured.rulePack.rulesStrings.10>circumstance_phrase->se [capturer_nameShortDef] chechtá s dominancí</Captured.rulePack.rulesStrings.10>
   <Captured.rulePack.rulesStrings.11>desc_sentence->[capturer_nameShortDef] se dívá zajatci do očí s pocitem převahy.</Captured.rulePack.rulesStrings.11>
-  <Captured.rulePack.rulesStrings.12>desc_sentence->[prisoner_nameShortDef] je zraněn[prisoner_pronoun] a zdá se, že [prisoner_objective] to docela bolí.</Captured.rulePack.rulesStrings.12>
+  <Captured.rulePack.rulesStrings.12>desc_sentence->[prisoner_nameShortDef] má zranění a zdá se, že [prisoner_objective] to docela bolí.</Captured.rulePack.rulesStrings.12>
   <Captured.rulePack.rulesStrings.13>desc_sentence->Zdá se, že se [prisoner_nameShortDef] smiřuje se svým osudem.</Captured.rulePack.rulesStrings.13>
   <Captured.rulePack.rulesStrings.14>desc_sentence->[prisoner_nameShortDef] vrčí zuřivostí z porážky.</Captured.rulePack.rulesStrings.14>
   <Captured.rulePack.rulesStrings.15>desc_sentence->[capturer_nameShortDef] si tleská kvůli podmanění si zajaté osoby.</Captured.rulePack.rulesStrings.15>
@@ -25,7 +25,7 @@
   <Captured.rulePack.rulesStrings.20>desc_sentence->[capturer_nameShortDef] kope do zajaté osoby bez zjevného důvodu.</Captured.rulePack.rulesStrings.20>
 
   <Recruited.label>verbování osoby</Recruited.label>
-  <Recruited.rulePack.rulesStrings.0>tale_noun->tom, jak byla naverbována osoba, která se jmenuje [joiner_nameShortDef]</Recruited.rulePack.rulesStrings.0>
+  <Recruited.rulePack.rulesStrings.0>tale_noun->tom, jak byl[joiner_pronoun] [joiner_nameShortDef] naverbován[joiner_pronoun]</Recruited.rulePack.rulesStrings.0>
   <Recruited.rulePack.rulesStrings.1>image->[recruiter_nameFull] verbuje osobu, která se jmenuje [joiner_nameFull], [circumstance_group]</Recruited.rulePack.rulesStrings.1>
   <Recruited.rulePack.rulesStrings.2>image->[recruiter_nameFull] vítá osobu, která se jmenuje [joiner_nameFull], jako budoucího člena kolonie, [circumstance_group]</Recruited.rulePack.rulesStrings.2>
   <Recruited.rulePack.rulesStrings.3>image->[recruiter_nameFull] mluví přesvědčivě k osobě, která se jmenuje [joiner_nameFull], [circumstance_group]</Recruited.rulePack.rulesStrings.3>
@@ -40,7 +40,7 @@
   <Recruited.rulePack.rulesStrings.12>desc_sentence->Zdá se, že [joiner_nameShortDef] bude přínosem pro kolonii.</Recruited.rulePack.rulesStrings.12>
 
   <Hunted.label>ulovení zvířete</Hunted.label>
-  <Hunted.rulePack.rulesStrings.0>tale_noun->tom, jak [hunter_nameShortDef] úspěšně uloví zvíře</Hunted.rulePack.rulesStrings.0>
+  <Hunted.rulePack.rulesStrings.0>tale_noun->tom, jak [hunter_nameShortDef] úspěšně ulovil[hunter_pronoun] zvíře</Hunted.rulePack.rulesStrings.0>
   <Hunted.rulePack.rulesStrings.1>image->zvíře, konkrétně [prey_nameFull], je lovené osobou, která se jmenuje [hunter_nameFull], přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.1>
   <Hunted.rulePack.rulesStrings.2>image->[hunter_nameFull] sleduje zvíře, v tomto případě to je [prey_nameFull], z bezpečné vzdálenosti, přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.2>
   <Hunted.rulePack.rulesStrings.3>image->[hunter_nameFull] loví zvíře, kterým je [prey_nameFull], přičemž [circumstance_group]</Hunted.rulePack.rulesStrings.3>
@@ -52,7 +52,7 @@
   <Hunted.rulePack.rulesStrings.9>desc_sentence->[prey_nameShortDef] se rozhlíží kolem, jako by něco nebylo v pořádku.</Hunted.rulePack.rulesStrings.9>
 
   <DidSurgery.label>provedení chirurgického zákroku</DidSurgery.label>
-  <DidSurgery.rulePack.rulesStrings.0>tale_noun->tom, jak se [patient_nameShortDef] podrobuje chirurgickému zákroku</DidSurgery.rulePack.rulesStrings.0>
+  <DidSurgery.rulePack.rulesStrings.0>tale_noun->tom, jak se [patient_nameShortDef] podrobyl[patient_pronoun] chirurgickému zákroku</DidSurgery.rulePack.rulesStrings.0>
   <DidSurgery.rulePack.rulesStrings.1>image->[surgeon_nameFull] uspává osobu, která se jmenuje [patient_nameFull], pomocí anestetik, přičemž [circumstance_group]</DidSurgery.rulePack.rulesStrings.1>
   <DidSurgery.rulePack.rulesStrings.2>image->[surgeon_nameFull] se hrbí nad osobou, která se jmenuje [patient_nameFull], během chirurgického zákroku, přičemž [circumstance_group]</DidSurgery.rulePack.rulesStrings.2>
   <DidSurgery.rulePack.rulesStrings.3>image->[surgeon_nameFull] provádí řez na osobě, která se jmenuje [patient_nameFull], během chirurgického zákroku, přičemž [circumstance_group]</DidSurgery.rulePack.rulesStrings.3>
@@ -66,7 +66,7 @@
   <DidSurgery.rulePack.rulesStrings.11>desc_sentence->[patient_nameShortDef] se svíjí v bolestivých křečích.</DidSurgery.rulePack.rulesStrings.11>
 
   <ExecutedPrisoner.label>poprava vězně</ExecutedPrisoner.label>
-  <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->tom, jak jde [prisoner_nameShortDef] na popravu</ExecutedPrisoner.rulePack.rulesStrings.0>
+  <ExecutedPrisoner.rulePack.rulesStrings.0>tale_noun->tom, jak byl[prisoner_pronoun] [prisoner_nameShortDef] popraven[prisoner_pronoun]</ExecutedPrisoner.rulePack.rulesStrings.0>
   <ExecutedPrisoner.rulePack.rulesStrings.1>image->[warden_nameFull] vykonává popravu osoby, která se jmenuje [prisoner_nameFull], přičemž [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.1>
   <ExecutedPrisoner.rulePack.rulesStrings.2>image->[warden_nameFull] uvádí na smrt osobu, která se jmenuje [prisoner_nameFull], přičemž [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.2>
   <ExecutedPrisoner.rulePack.rulesStrings.3>image->[warden_nameFull] připravuje osobu, která se jmenuje [prisoner_nameFull], na smrt, přičemž [circumstance_group]</ExecutedPrisoner.rulePack.rulesStrings.3>
@@ -93,7 +93,7 @@
   <ExecutedPrisoner.rulePack.rulesStrings.24>desc_sentence->[prisoner_nameShortDef] je připraven[prisoner_pronoun] vzdorovat.</ExecutedPrisoner.rulePack.rulesStrings.24>
 
   <KidnappedColonist.label>únos kolonisty</KidnappedColonist.label>
-  <KidnappedColonist.rulePack.rulesStrings.0>tale_noun->tom, jak byla unesena osoba, která se jmenuje [victim_nameShortDef]</KidnappedColonist.rulePack.rulesStrings.0>
+  <KidnappedColonist.rulePack.rulesStrings.0>tale_noun->tom, jak byl[victim_pronoun] [victim_nameShortDef] unesen[victim_pronoun]</KidnappedColonist.rulePack.rulesStrings.0>
   <KidnappedColonist.rulePack.rulesStrings.1>image->[kidnapper_nameFull] odvádí osobu, která se jmenuje [victim_nameFull], pryč směrem k místu, kde se nachází frakce známá jako [kidnapper_factionName], přičemž [circumstance_group]</KidnappedColonist.rulePack.rulesStrings.1>
   <KidnappedColonist.rulePack.rulesStrings.2>image->[kidnapper_nameFull] z frakce [kidnapper_factionName] unáší osobu, která se jmenuje [victim_nameFull], přičemž [circumstance_group]</KidnappedColonist.rulePack.rulesStrings.2>
   <KidnappedColonist.rulePack.rulesStrings.3>image->[kidnapper_nameFull] unáší osobu, která se jmenuje [victim_nameFull], přičemž [circumstance_group]</KidnappedColonist.rulePack.rulesStrings.3>
@@ -108,18 +108,18 @@
   <KidnappedColonist.rulePack.rulesStrings.12>desc_sentence->[victim_nameShortDef] má zavřené oči a vypadá, že se snaží modlit za zásah vyšší moci.</KidnappedColonist.rulePack.rulesStrings.12>
   <KidnappedColonist.rulePack.rulesStrings.13>desc_sentence->[victim_nameShortDef] je připraven[victim_pronoun] vzdorovat.</KidnappedColonist.rulePack.rulesStrings.13>
   <KidnappedColonist.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef] křičí vztekle hrůzou.</KidnappedColonist.rulePack.rulesStrings.14>
-  <KidnappedColonist.rulePack.rulesStrings.15>desc_sentence->Zdá se, že [victim_nameShortDef] je zcela zničen[victim_pronoun] a vyčerpan[victim_pronoun].</KidnappedColonist.rulePack.rulesStrings.15>
+  <KidnappedColonist.rulePack.rulesStrings.15>desc_sentence->Zdá se, že [victim_nameShortDef] je vyčerpáním zcela zničen[victim_pronoun].</KidnappedColonist.rulePack.rulesStrings.15>
   <KidnappedColonist.rulePack.rulesStrings.16>desc_sentence->Zdá se, že [victim_nameShortDef] je těžce zraněn[victim_pronoun].</KidnappedColonist.rulePack.rulesStrings.16>
 
   <TamedAnimal.label>ochočení zvířete</TamedAnimal.label>
-  <TamedAnimal.rulePack.rulesStrings.0>tale_noun->tom, jak [human_nameShortDef] úspěšně ochočí zvíře</TamedAnimal.rulePack.rulesStrings.0>
+  <TamedAnimal.rulePack.rulesStrings.0>tale_noun->tom, jak [human_nameShortDef] úspěšně ochočil[human_pronoun] zvíře</TamedAnimal.rulePack.rulesStrings.0>
   <TamedAnimal.rulePack.rulesStrings.1>image->se [human_nameFull] snaží zkrotit zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</TamedAnimal.rulePack.rulesStrings.1>
   <TamedAnimal.rulePack.rulesStrings.2>image->[human_nameFull] nabízí zvířeti, kterým je [animal_nameFull], kousek jídla, přičemž [circumstance_group]</TamedAnimal.rulePack.rulesStrings.2>
   <TamedAnimal.rulePack.rulesStrings.3>image->[human_nameFull] něco šeptá směrem k plachému zvířeti, kterým je [animal_nameFull], přičemž [circumstance_group]</TamedAnimal.rulePack.rulesStrings.3>
   <TamedAnimal.rulePack.rulesStrings.4>image->[human_nameFull] uklidňuje divoké zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</TamedAnimal.rulePack.rulesStrings.4>
-  <TamedAnimal.rulePack.rulesStrings.5>circumstance_phrase->se snaží být velmi opatrn[human_pronoun]</TamedAnimal.rulePack.rulesStrings.5>
+  <TamedAnimal.rulePack.rulesStrings.5>circumstance_phrase->se snaží velmi opatrně přibližovat</TamedAnimal.rulePack.rulesStrings.5>
   <TamedAnimal.rulePack.rulesStrings.6>circumstance_phrase->se na zvíře usmívá</TamedAnimal.rulePack.rulesStrings.6>
-  <TamedAnimal.rulePack.rulesStrings.7>circumstance_phrase->je vyčerpan[human_pronoun], ale šťastn[human_pronoun]</TamedAnimal.rulePack.rulesStrings.7>
+  <TamedAnimal.rulePack.rulesStrings.7>circumstance_phrase->vypadá vyčerpaně, ale šťastně</TamedAnimal.rulePack.rulesStrings.7>
   <TamedAnimal.rulePack.rulesStrings.8>desc_sentence->[animal_nameShortDef] vydává agresivní zvuky.</TamedAnimal.rulePack.rulesStrings.8>
   <TamedAnimal.rulePack.rulesStrings.9>desc_sentence->[animal_nameShortDef] vypadá ospale a omámeně láskou.</TamedAnimal.rulePack.rulesStrings.9>
   <TamedAnimal.rulePack.rulesStrings.10>desc_sentence->Zdá se, že je [animal_nameShortDef] v jakémsi hypnotickém stavu.</TamedAnimal.rulePack.rulesStrings.10>
@@ -128,41 +128,41 @@
   <TamedAnimal.rulePack.rulesStrings.13>desc_sentence->[human_nameShortDef] vysílá silný impulz lásky směrem ke zvířeti.</TamedAnimal.rulePack.rulesStrings.13>
 
   <KilledBy.label>smrt</KilledBy.label>
-  <KilledBy.rulePack.rulesStrings.0>tale_noun->tom, jak [killer_nameShortDef] zabíjí osobu známou jako [victim_nameShortDef]</KilledBy.rulePack.rulesStrings.0>
-  <KilledBy.rulePack.rulesStrings.1>tale_noun->tom, jak osoba známá jako [victim_nameShortDef] je zavražděna. Vrahem je [killer_nameShortDef]</KilledBy.rulePack.rulesStrings.1>
-  <KilledBy.rulePack.rulesStrings.2>tale_noun->tom, jak [victim_nameShortDef] přichází o život. Vrah je známý jako [killer_nameShortDef]</KilledBy.rulePack.rulesStrings.2>
-  <KilledBy.rulePack.rulesStrings.3>tale_noun->tom, jak byla usmrcena osoba známá jako [victim_nameShortDef]</KilledBy.rulePack.rulesStrings.3>
-  <KilledBy.rulePack.rulesStrings.4>image->osoba, známá jako [victim_nameFull], je zabita vrahem, který si říká [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.4>
-  <KilledBy.rulePack.rulesStrings.5>image->osoba, známá jako [victim_nameFull], je zavražděna zabijákem, který si říká [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.5>
-  <KilledBy.rulePack.rulesStrings.6>image->osoba, známá jako [victim_nameFull], je usmrcena vrahem, který si říká [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.6>
-  <KilledBy.rulePack.rulesStrings.7>image->osoba, známá jako [victim_nameFull], je brutálním způsobem zabita vrahem, který si říká [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.7>
-  <KilledBy.rulePack.rulesStrings.8>image->osoba, která si říká [victim_nameFull], je zabita velmi surovým způsobem, přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.8>
+  <KilledBy.rulePack.rulesStrings.0>tale_noun->tom, jak zabiják, kterým je [killer_nameShortDef], zabil svou oběť</KilledBy.rulePack.rulesStrings.0>
+  <KilledBy.rulePack.rulesStrings.1>tale_noun->tom, jak oběť, kterou je [victim_nameShortDef], byla zavražděna</KilledBy.rulePack.rulesStrings.1>
+  <KilledBy.rulePack.rulesStrings.2>tale_noun->tom, jak oběť, kterou je [victim_nameShortDef], přišla o život</KilledBy.rulePack.rulesStrings.2>
+  <KilledBy.rulePack.rulesStrings.3>tale_noun->tom, jak byla usmrcena oběť, kterou je [victim_nameShortDef]</KilledBy.rulePack.rulesStrings.3>
+  <KilledBy.rulePack.rulesStrings.4>image->oběť, kterou je [victim_nameFull], je zabita zabijákem, kterým je [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.4>
+  <KilledBy.rulePack.rulesStrings.5>image->oběť, kterou je [victim_nameFull], je zavražděna zabijákem, kterým je [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.5>
+  <KilledBy.rulePack.rulesStrings.6>image->oběť, kterou je [victim_nameFull], je usmrcena zabijákem, kterým je [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.6>
+  <KilledBy.rulePack.rulesStrings.7>image->oběť, kterou je [victim_nameFull], je brutálním způsobem zabita zabijákem, kterým je [killer_nameFull], přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.7>
+  <KilledBy.rulePack.rulesStrings.8>image->oběť, kterou je [victim_nameFull], je zabita velmi surovým způsobem, přičemž [circumstance_group]</KilledBy.rulePack.rulesStrings.8>
   <KilledBy.rulePack.rulesStrings.9>circumstance_phrase->[killer_nameShortDef] necítí sebemenší lítost</KilledBy.rulePack.rulesStrings.9>
   <KilledBy.rulePack.rulesStrings.10>circumstance_phrase->to bylo provedeno velmi chladnokrevně</KilledBy.rulePack.rulesStrings.10>
-  <KilledBy.rulePack.rulesStrings.11>circumstance_phrase->to bylo provedeno s vášní</KilledBy.rulePack.rulesStrings.11>
+  <KilledBy.rulePack.rulesStrings.11>circumstance_phrase->to bylo provedeno s velkou vášní</KilledBy.rulePack.rulesStrings.11>
   <KilledBy.rulePack.rulesStrings.12>circumstance_phrase->to bylo provedeno rychle a efektivně</KilledBy.rulePack.rulesStrings.12>
-  <KilledBy.rulePack.rulesStrings.13>circumstance_phrase->to bylo provedeno bez jakýchkoliv emocí a výrazu na vrahově tváři</KilledBy.rulePack.rulesStrings.13>
+  <KilledBy.rulePack.rulesStrings.13>circumstance_phrase->to bylo provedeno bez jakýchkoliv emocí</KilledBy.rulePack.rulesStrings.13>
   <KilledBy.rulePack.rulesStrings.14>circumstance_phrase->to nebylo vůbec nutné</KilledBy.rulePack.rulesStrings.14>
   <KilledBy.rulePack.rulesStrings.15>circumstance_phrase->to bylo provedeno velice zbaběle</KilledBy.rulePack.rulesStrings.15>
   <KilledBy.rulePack.rulesStrings.16>desc_sentence->Západ slunce v pozadí symbolicky dodává skvělý efekt této události.</KilledBy.rulePack.rulesStrings.16>
-  <KilledBy.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] zvířat přihlíží tomuto masakru. Jsou to [animal]i.</KilledBy.rulePack.rulesStrings.17>
+  <KilledBy.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] [animal]ů přihlíží tomuto masakru.</KilledBy.rulePack.rulesStrings.17>
   <KilledBy.rulePack.rulesStrings.18>desc_sentence->[outlander] tiše pozorují událost. Jsou vidět [side_position].</KilledBy.rulePack.rulesStrings.18>
   <KilledBy.rulePack.rulesStrings.19>desc_sentence->[victim_nameShortDef] leží v kaluži krve.</KilledBy.rulePack.rulesStrings.19>
   <KilledBy.rulePack.rulesStrings.20>desc_sentence->[victim_nameShortDef] má oči vykresleny bez života.</KilledBy.rulePack.rulesStrings.20>
   <KilledBy.rulePack.rulesStrings.21>desc_sentence->[killer_nameShortDef] cení své zuby.</KilledBy.rulePack.rulesStrings.21>
-  <KilledBy.rulePack.rulesStrings.22>desc_sentence->Zdá se, že [killer_nameShortDef] je velmi spokojen[killer_pronoun].</KilledBy.rulePack.rulesStrings.22>
+  <KilledBy.rulePack.rulesStrings.22>desc_sentence->Zdá se, že [killer_nameShortDef] vypadá velmi spokojeně.</KilledBy.rulePack.rulesStrings.22>
   <KilledBy.rulePack.rulesStrings.23>desc_sentence->Zdá se, že [killer_nameShortDef] vypadá zoufale z toho, co se stalo.</KilledBy.rulePack.rulesStrings.23>
   <KilledBy.rulePack.rulesStrings.24>desc_sentence->Zdá se, že [killer_nameShortDef] vypadá spokojeně s touto situací.</KilledBy.rulePack.rulesStrings.24>
   <KilledBy.rulePack.rulesStrings.25>desc_sentence->Zdá se, že [killer_nameShortDef] se cítí jako vítěz.</KilledBy.rulePack.rulesStrings.25>
  
   <SoldPrisoner.label>prodání vězně</SoldPrisoner.label>
-  <SoldPrisoner.rulePack.rulesStrings.0>tale_noun->tom, jak kolonie prodala otrokářům vězně, který je známý jako [prisoner_nameShortDef]</SoldPrisoner.rulePack.rulesStrings.0>
+  <SoldPrisoner.rulePack.rulesStrings.0>tale_noun->tom, jak byl[prisoner_pronoun] [prisoner_nameShortDef] prodán[prisoner_pronoun] obchodníkovi</SoldPrisoner.rulePack.rulesStrings.0>
   <SoldPrisoner.rulePack.rulesStrings.1>image->[trader_nameFull] kupuje vězně, který se jmenuje [prisoner_nameFull], od osoby, která je známá jako [seller_nameFull], přičemž [circumstance_group]</SoldPrisoner.rulePack.rulesStrings.1>
   <SoldPrisoner.rulePack.rulesStrings.2>image->[seller_nameFull] prodává vězně, který se jmenuje [prisoner_nameFull], otrokáři, který si říká [trader_nameFull], přičemž [circumstance_group]</SoldPrisoner.rulePack.rulesStrings.2>
   <SoldPrisoner.rulePack.rulesStrings.3>circumstance_phrase->s tím ostatní v kolonii nesouhlasí</SoldPrisoner.rulePack.rulesStrings.3>
   <SoldPrisoner.rulePack.rulesStrings.4>circumstance_phrase->[seller_nameShortDef] přepočítává své peníze</SoldPrisoner.rulePack.rulesStrings.4>
   <SoldPrisoner.rulePack.rulesStrings.5>circumstance_phrase->[prisoner_nameShortDef] žalostně naříká</SoldPrisoner.rulePack.rulesStrings.5>
-  <SoldPrisoner.rulePack.rulesStrings.6>circumstance_phrase->[prisoner_nameShortDef] je zklaman[prisoner_pronoun]</SoldPrisoner.rulePack.rulesStrings.6>
+  <SoldPrisoner.rulePack.rulesStrings.6>circumstance_phrase->[prisoner_nameShortDef] má zklamaný výraz ve své tváři</SoldPrisoner.rulePack.rulesStrings.6>
   <SoldPrisoner.rulePack.rulesStrings.7>desc_sentence->[trader_nameShortDef] se ďábelsky usmívá.</SoldPrisoner.rulePack.rulesStrings.7>
   <SoldPrisoner.rulePack.rulesStrings.8>desc_sentence->[seller_nameShortDef] se šíleně směje.</SoldPrisoner.rulePack.rulesStrings.8>
   <SoldPrisoner.rulePack.rulesStrings.9>desc_sentence->[seller_nameShortDef] neochotně předává vězně otrokáři.</SoldPrisoner.rulePack.rulesStrings.9>
@@ -171,7 +171,7 @@
   <SoldPrisoner.rulePack.rulesStrings.12>desc_sentence->[prisoner_nameShortDef] již střádá plány, jak se pomstí.</SoldPrisoner.rulePack.rulesStrings.12>
   <SoldPrisoner.rulePack.rulesStrings.13>desc_sentence->[prisoner_nameShortDef] pláče.</SoldPrisoner.rulePack.rulesStrings.13>
   <SoldPrisoner.rulePack.rulesStrings.14>desc_sentence->[prisoner_nameShortDef] plive do obličeje osobě, která [prisoner_objective] prodala otrokáři.</SoldPrisoner.rulePack.rulesStrings.14>
-  <SoldPrisoner.rulePack.rulesStrings.15>desc_sentence->[prisoner_nameShortDef] je znázorněn[prisoner_pronoun] jako přirostl[prisoner_pronoun] k zemi.</SoldPrisoner.rulePack.rulesStrings.15>
+  <SoldPrisoner.rulePack.rulesStrings.15>desc_sentence->[prisoner_nameShortDef] je znázorněn[prisoner_pronoun] jako by přirostl[prisoner_pronoun] k zemi.</SoldPrisoner.rulePack.rulesStrings.15>
   <SoldPrisoner.rulePack.rulesStrings.16>desc_sentence->[seller_nameShortDef] vráží řetězy, kterými je vězeň spoután, do rukou kupce.</SoldPrisoner.rulePack.rulesStrings.16>
   <SoldPrisoner.rulePack.rulesStrings.17>desc_sentence->Vzduchem prostupuje vánek beznaděje z této situace.</SoldPrisoner.rulePack.rulesStrings.17>
 
@@ -192,7 +192,7 @@
   <TrainedAnimal.rulePack.rulesStrings.13>circumstance_phrase->ostatní kolonisté dělají mnohem užitečnější práci</TrainedAnimal.rulePack.rulesStrings.13>
   <TrainedAnimal.rulePack.rulesStrings.14>desc_sentence->[human_nameShortDef] vypadá potěšeně.</TrainedAnimal.rulePack.rulesStrings.14>
   <TrainedAnimal.rulePack.rulesStrings.15>desc_sentence->[human_nameShortDef] se přitom usmívá.</TrainedAnimal.rulePack.rulesStrings.15>
-  <TrainedAnimal.rulePack.rulesStrings.16>desc_sentence->[human_nameShortDef] je z toho unaven[human_pronoun].</TrainedAnimal.rulePack.rulesStrings.16>
+  <TrainedAnimal.rulePack.rulesStrings.16>desc_sentence->[human_nameShortDef] je z toho všeho unaven[human_pronoun].</TrainedAnimal.rulePack.rulesStrings.16>
   <TrainedAnimal.rulePack.rulesStrings.17>desc_sentence->[human_nameShortDef] hrozivě zatíná své pěsti.</TrainedAnimal.rulePack.rulesStrings.17>
   <TrainedAnimal.rulePack.rulesStrings.18>desc_sentence->[human_nameShortDef] upřeně zírá zvířeti do očí se soustředěným výrazem na [human_possessive] tváři.</TrainedAnimal.rulePack.rulesStrings.18>
   <TrainedAnimal.rulePack.rulesStrings.19>desc_sentence->[animal_nameShortDef] vypadá zmateně.</TrainedAnimal.rulePack.rulesStrings.19>
@@ -226,7 +226,5 @@
   <TradedWith.rulePack.rulesStrings.11>desc_sentence->[seller_nameShortDef] přepočítává své peníze.</TradedWith.rulePack.rulesStrings.11>
   <TradedWith.rulePack.rulesStrings.12>desc_sentence->[buyer_nameShortDef] předává prodané zboží.</TradedWith.rulePack.rulesStrings.12>
 
-
-  <!-- [prisoner_possessive] jeho,její , [prisoner_objective] ho,ji , [prisoner_pronoun] -ý,-á,-é -->
 
 </LanguageData>
