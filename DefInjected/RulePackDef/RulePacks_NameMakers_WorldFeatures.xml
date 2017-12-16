@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <NamerUtility.rulePack.rulesStrings.0>name->[standardname]</NamerUtility.rulePack.rulesStrings.0>
-  <NamerUtility.rulePack.rulesStrings.1>name(p=0.05)->[naturaladjective][suffix] [storyname]</NamerUtility.rulePack.rulesStrings.1>
+  <NamerUtility.rulePack.rulesStrings.0>name->[standardname]</NamerUtility.rulePack.rulesStrings.0>                       //   [metaprefix][standardname]
+  <NamerUtility.rulePack.rulesStrings.1>name(p=0.05)->[naturaladjective][suffix] [storyname]</NamerUtility.rulePack.rulesStrings.1>               //   [storyname][suffix]
  
   <NamerUtility.rulePack.rulesStrings.2>standardname->[prefix][suffix]</NamerUtility.rulePack.rulesStrings.2>
  
   <NamerUtility.rulePack.rulesStrings.3>metaprefix(p=10)-></NamerUtility.rulePack.rulesStrings.3>
   <NamerUtility.rulePack.rulesStrings.4>metaprefix->[direction]</NamerUtility.rulePack.rulesStrings.4>
-  <NamerUtility.rulePack.rulesStrings.5>metaprefix->[direction]</NamerUtility.rulePack.rulesStrings.5>
+  <NamerUtility.rulePack.rulesStrings.5>metaprefix->[direction]</NamerUtility.rulePack.rulesStrings.5>                                            //   [derivative] 
  
   <NamerUtility.rulePack.rulesStrings.6>derivative->velk</NamerUtility.rulePack.rulesStrings.6>
   <NamerUtility.rulePack.rulesStrings.7>derivative->velk</NamerUtility.rulePack.rulesStrings.7>
@@ -23,10 +23,10 @@
   <NamerUtility.rulePack.rulesStrings.15>prefix(p=0.2)->[color]o[animal]í [derivative]</NamerUtility.rulePack.rulesStrings.15>
   <NamerUtility.rulePack.rulesStrings.16>prefix(p=0.3)->[animal]í [naturaladjective]</NamerUtility.rulePack.rulesStrings.16>
   <NamerUtility.rulePack.rulesStrings.17>prefix(p=0.2)->[animal]í [naturaladjective]</NamerUtility.rulePack.rulesStrings.17>
-  <NamerUtility.rulePack.rulesStrings.18>prefix(p=0.3)->[direction] [animal]í [naturaladjective]</NamerUtility.rulePack.rulesStrings.18>
-  <NamerUtility.rulePack.rulesStrings.19>prefix(p=0.2)->[direction] [animal]í [color]</NamerUtility.rulePack.rulesStrings.19>
+  <NamerUtility.rulePack.rulesStrings.18>prefix(p=0.3)->[direction] [animal]í [naturaladjective]</NamerUtility.rulePack.rulesStrings.18>          //   [bodypart]
+  <NamerUtility.rulePack.rulesStrings.19>prefix(p=0.2)->[direction] [animal]í [color]</NamerUtility.rulePack.rulesStrings.19>                     //   [bodypart]
   <NamerUtility.rulePack.rulesStrings.20>prefix->[color]o[naturalobject]</NamerUtility.rulePack.rulesStrings.20>
-  <NamerUtility.rulePack.rulesStrings.21>prefix->[naturaladjective]</NamerUtility.rulePack.rulesStrings.21>
+  <NamerUtility.rulePack.rulesStrings.21>prefix->[naturaladjective]</NamerUtility.rulePack.rulesStrings.21>                                       //   [bodypart]
   <NamerUtility.rulePack.rulesStrings.22>prefix(p=2)->[tribalword]ov</NamerUtility.rulePack.rulesStrings.22>
   <NamerUtility.rulePack.rulesStrings.23>prefix(p=2)->[outlanderword]ov</NamerUtility.rulePack.rulesStrings.23>
   
@@ -71,7 +71,7 @@
   <NamerUtility.rulePack.rulesStrings.62>storyname->[subject] [storyderivative] léčka</NamerUtility.rulePack.rulesStrings.62>
   <NamerUtility.rulePack.rulesStrings.63>storyname->[subject] [storyderivative] prohra</NamerUtility.rulePack.rulesStrings.63>
   <NamerUtility.rulePack.rulesStrings.64>storyname->[subject] [storyderivative] porážka</NamerUtility.rulePack.rulesStrings.64>
-  <NamerUtility.rulePack.rulesStrings.65>storyname(p=0.5)->[animal]í [gore]</NamerUtility.rulePack.rulesStrings.65>
+  <NamerUtility.rulePack.rulesStrings.65>storyname(p=0.5)->[animal]í hromada [gore]</NamerUtility.rulePack.rulesStrings.65>
   <NamerUtility.rulePack.rulesStrings.66>storyname->[animal]í [bodypart]</NamerUtility.rulePack.rulesStrings.66>
   
   <NamerUtility.rulePack.rulesStrings.67>storyderivative-></NamerUtility.rulePack.rulesStrings.67>
