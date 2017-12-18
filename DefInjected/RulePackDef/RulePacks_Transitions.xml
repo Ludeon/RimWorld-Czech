@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Transition_Include.rulePack.rulesStrings.0>duetoa->z důvodu</Transition_Include.rulePack.rulesStrings.0>
+  <Transition_Include.rulePack.rulesStrings.1>duetoa(p=0.5)->kvůli</Transition_Include.rulePack.rulesStrings.1>
+  <Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->díky</Transition_Include.rulePack.rulesStrings.2>
+  <Transition_Include.rulePack.rulesStrings.3>subject_definite->[subject_labelDefinite]</Transition_Include.rulePack.rulesStrings.3>
+  <Transition_Include.rulePack.rulesStrings.4>subject_definite->[subject_nameShortDef]</Transition_Include.rulePack.rulesStrings.4>
+
+  <Transition_Downed.rulePack.rulesStrings.0>logentry->[culpritHediff_labelNoun]: - u oběti ([subject_definite]) to zapříčinilo [collapsemeta].</Transition_Downed.rulePack.rulesStrings.0>
+  <Transition_Downed.rulePack.rulesStrings.1>logentry->[culpritHediff_labelNoun] ([culpritHediff_target_label]): - u oběti ([subject_definite]) to zapříčinilo [collapsemeta].</Transition_Downed.rulePack.rulesStrings.1>
+  <Transition_Downed.rulePack.rulesStrings.2>logentry->[subject_definite] [collapsedmeta] [duetoa]: [culpritHediff_labelNoun].</Transition_Downed.rulePack.rulesStrings.2>
+  <Transition_Downed.rulePack.rulesStrings.3>logentry->[subject_definite] [collapsedmeta] [duetoa]: [culpritHediff_labelNoun] v oblasti: [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.3>
+  <Transition_Downed.rulePack.rulesStrings.4>logentry->[subject_definite] [collapsedmeta] [duetoa]: [culpritHediff_labelNoun] v této části: [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.4>
+  <Transition_Downed.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_definite] [collapsedmeta].</Transition_Downed.rulePack.rulesStrings.5>
+  <Transition_Downed.rulePack.rulesStrings.6>collapse->zhroucení</Transition_Downed.rulePack.rulesStrings.6>
+  <Transition_Downed.rulePack.rulesStrings.7>collapse->omdlení</Transition_Downed.rulePack.rulesStrings.7>
+  <Transition_Downed.rulePack.rulesStrings.8>collapse->upadnutí</Transition_Downed.rulePack.rulesStrings.8>
+  <Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->přerušení obvodů</Transition_Downed.rulePack.rulesStrings.9>
+  <Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->zhroucení systému</Transition_Downed.rulePack.rulesStrings.10>
+  <Transition_Downed.rulePack.rulesStrings.11>collapse(subject_flesh==Mechanoid)->opakované resetování</Transition_Downed.rulePack.rulesStrings.11>
+  <Transition_Downed.rulePack.rulesStrings.12>collapse(subject_flesh==Mechanoid)->zamrznutí systému</Transition_Downed.rulePack.rulesStrings.12>
+  <Transition_Downed.rulePack.rulesStrings.13>collapsed->zhroutil[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.13>
+  <Transition_Downed.rulePack.rulesStrings.14>collapsed->sesypal[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.14>
+  <Transition_Downed.rulePack.rulesStrings.15>collapsed->složil[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.15>
+  <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh!=Mechanoid)->zhroutil[subject_pronoun], protože byly přerušeny [subject_possessive] obvody, a taky</Transition_Downed.rulePack.rulesStrings.16>
+  <Transition_Downed.rulePack.rulesStrings.17>collapsed(subject_flesh==Mechanoid)->sesypal[subject_pronoun], protože se zhroutil [subject_possessive] systém, a taky</Transition_Downed.rulePack.rulesStrings.17>
+  <Transition_Downed.rulePack.rulesStrings.18>collapsed(subject_flesh==Mechanoid)->zhroutil[subject_pronoun], protože [subject_possessive] systém se opakovaně resetoval, a taky</Transition_Downed.rulePack.rulesStrings.18>
+  <Transition_Downed.rulePack.rulesStrings.19>collapsed(subject_flesh==Mechanoid)->zastavil[subject_pronoun], protože [subject_possessive] systém zamrznul, a taky</Transition_Downed.rulePack.rulesStrings.19>
+  <Transition_Downed.rulePack.rulesStrings.20>helplessly->bezmocn</Transition_Downed.rulePack.rulesStrings.20>
+  <Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->nevědom</Transition_Downed.rulePack.rulesStrings.21>
+  <Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->zmožen</Transition_Downed.rulePack.rulesStrings.22>
+  <Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->slab</Transition_Downed.rulePack.rulesStrings.23>
+  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->neprůbojn</Transition_Downed.rulePack.rulesStrings.24>
+  <Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->nekontrolovateln</Transition_Downed.rulePack.rulesStrings.25>
+  <Transition_Downed.rulePack.rulesStrings.26>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.26>
+  <Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[helplessly]é [collapse]</Transition_Downed.rulePack.rulesStrings.27>
+  <Transition_Downed.rulePack.rulesStrings.28>collapsedmeta->se [collapsed]</Transition_Downed.rulePack.rulesStrings.28>
+  <Transition_Downed.rulePack.rulesStrings.29>collapsedmeta(p=0.5)->se [helplessly]ě [collapsed]</Transition_Downed.rulePack.rulesStrings.29>
+
+  <Transition_DiedInclude.rulePack.rulesStrings.0>logentry(p=1.5)->[culpritHediff_labelNoun]: - u oběti ([subject_definite]) to zapříčinilo [die].</Transition_DiedInclude.rulePack.rulesStrings.0>
+  <Transition_DiedInclude.rulePack.rulesStrings.1>logentry(p=1.5)->[culpritHediff_labelNoun] ([culpritHediff_target_label]): - u oběti ([subject_definite]) to zapříčinilo [die].</Transition_DiedInclude.rulePack.rulesStrings.1>
+  <Transition_DiedInclude.rulePack.rulesStrings.2>logentry->[subject_definite] [died] [duetoa]: [culpritHediff_labelNoun][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.2>
+  <Transition_DiedInclude.rulePack.rulesStrings.3>logentry->[subject_definite] [died] [duetoa]: [culpritHediff_labelNoun] v oblasti: [culpritHediff_target_label][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.3>
+  <Transition_DiedInclude.rulePack.rulesStrings.4>logentry->[subject_definite] [died] [duetoa]: [culpritHediff_labelNoun] v této části: [culpritHediff_target_label][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.4>
+  <Transition_DiedInclude.rulePack.rulesStrings.5>logentry->[subject_definite] [died].</Transition_DiedInclude.rulePack.rulesStrings.5>
+  <Transition_DiedInclude.rulePack.rulesStrings.6>logentry->[subject_definite] [died][flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.6>
+
+  <Transition_Died.rulePack.rulesStrings.0>die(p=2)->smrt</Transition_Died.rulePack.rulesStrings.0>
+  <Transition_Died.rulePack.rulesStrings.1>die->úmrtí</Transition_Died.rulePack.rulesStrings.1>
+  <Transition_Died.rulePack.rulesStrings.2>die->skon</Transition_Died.rulePack.rulesStrings.2>
+  <Transition_Died.rulePack.rulesStrings.3>die(subject_flesh!=Mechanoid,p=0.5)->podlehnutí svému zranění</Transition_Died.rulePack.rulesStrings.3>
+  <Transition_Died.rulePack.rulesStrings.4>die(subject_flesh==Mechanoid,p=0.5)->vypnutí</Transition_Died.rulePack.rulesStrings.4>
+  <Transition_Died.rulePack.rulesStrings.5>die(subject_flesh==Mechanoid,p=0.5)->vyřazení funkčnosti</Transition_Died.rulePack.rulesStrings.5>
+  <Transition_Died.rulePack.rulesStrings.6>died(p=2)->zemřel[subject_pronoun]</Transition_Died.rulePack.rulesStrings.6>
+  <Transition_Died.rulePack.rulesStrings.7>died->zahynul[subject_pronoun]</Transition_Died.rulePack.rulesStrings.7>
+  <Transition_Died.rulePack.rulesStrings.8>died(subject_flesh!=Mechanoid)->byl[subject_pronoun] zničen[subject_pronoun]</Transition_Died.rulePack.rulesStrings.8>
+  <Transition_Died.rulePack.rulesStrings.9>died(subject_flesh==Mechanoid)->byl[subject_pronoun] vypnut[subject_pronoun]</Transition_Died.rulePack.rulesStrings.9>
+  <Transition_Died.rulePack.rulesStrings.10>died(subject_flesh==Mechanoid)->byl[subject_pronoun] vyřazen[subject_pronoun] z funkčnosti</Transition_Died.rulePack.rulesStrings.10>
+
+  <Transition_DiedExplosive.rulePack.rulesStrings.0>die(p=3)->explozi [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
+  <Transition_DiedExplosive.rulePack.rulesStrings.1>die(p=3)->explozi [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
+  <Transition_DiedExplosive.rulePack.rulesStrings.2>die->detonaci [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.2>
+  <Transition_DiedExplosive.rulePack.rulesStrings.3>die->detonaci [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
+  <Transition_DiedExplosive.rulePack.rulesStrings.4>die->výbuch [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
+  <Transition_DiedExplosive.rulePack.rulesStrings.5>die->výbuch [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
+  <Transition_DiedExplosive.rulePack.rulesStrings.6>died(p=3)->explodoval[subject_pronoun] [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.6>
+  <Transition_DiedExplosive.rulePack.rulesStrings.7>died->detonoval[subject_pronoun] [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.7>
+  <Transition_DiedExplosive.rulePack.rulesStrings.8>died->vybouchl[subject_pronoun] [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.8>
+  <Transition_DiedExplosive.rulePack.rulesStrings.9>flavor(p=0.2)->v chemické [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.9>
+  <Transition_DiedExplosive.rulePack.rulesStrings.10>flavor->v [color]é [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.10>
+  <Transition_DiedExplosive.rulePack.rulesStrings.11>flavor->v obrovské [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.11>
+  <Transition_DiedExplosive.rulePack.rulesStrings.12>flavor(p=4)->v [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.12>
+  <Transition_DiedExplosive.rulePack.rulesStrings.13>flavor(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
+  <Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, přičemž byly [everywhere] roztroušeny [pieces] všeho možného</Transition_DiedExplosive.rulePack.rulesStrings.14>
+  <Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(subject_flesh!=Mechanoid,p=2)->, přičemž byly [everywhere] roztroušeny zbytky [gore]</Transition_DiedExplosive.rulePack.rulesStrings.15>
+  <Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix(subject_flesh!=Mechanoid)->, přičemž tam zbyla jen malá hromada [gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
+  <Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->, přičemž tam zůstal jen malý kráter</Transition_DiedExplosive.rulePack.rulesStrings.17>
+  <Transition_DiedExplosive.rulePack.rulesStrings.18>flavorsuffix(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.18>
+  <Transition_DiedExplosive.rulePack.rulesStrings.19>fireball(p=3)->ohnivé kouli</Transition_DiedExplosive.rulePack.rulesStrings.19>
+  <Transition_DiedExplosive.rulePack.rulesStrings.20>fireball->plamenné kouli</Transition_DiedExplosive.rulePack.rulesStrings.20>
+  <Transition_DiedExplosive.rulePack.rulesStrings.21>fireball->ohnivé vlně</Transition_DiedExplosive.rulePack.rulesStrings.21>
+  <Transition_DiedExplosive.rulePack.rulesStrings.22>fireball->pekelné kouli</Transition_DiedExplosive.rulePack.rulesStrings.22>
+  <Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->kousky</Transition_DiedExplosive.rulePack.rulesStrings.23>
+  <Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->úlomky</Transition_DiedExplosive.rulePack.rulesStrings.24>
+  <Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->všude kolem</Transition_DiedExplosive.rulePack.rulesStrings.25>
+  <Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->široko daleko</Transition_DiedExplosive.rulePack.rulesStrings.26>
+
+
+</LanguageData>
