@@ -16,14 +16,14 @@
   <Transition_Downed.rulePack.rulesStrings.6>collapse->zhroucení</Transition_Downed.rulePack.rulesStrings.6>
   <Transition_Downed.rulePack.rulesStrings.7>collapse->omdlení</Transition_Downed.rulePack.rulesStrings.7>
   <Transition_Downed.rulePack.rulesStrings.8>collapse->upadnutí</Transition_Downed.rulePack.rulesStrings.8>
-  <Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->přerušení obvodů</Transition_Downed.rulePack.rulesStrings.9>
+  <Transition_Downed.rulePack.rulesStrings.9>collapse(subject_flesh!=Mechanoid)->zhroucení</Transition_Downed.rulePack.rulesStrings.9>
   <Transition_Downed.rulePack.rulesStrings.10>collapse(subject_flesh==Mechanoid)->zhroucení systému</Transition_Downed.rulePack.rulesStrings.10>
   <Transition_Downed.rulePack.rulesStrings.11>collapse(subject_flesh==Mechanoid)->opakované resetování</Transition_Downed.rulePack.rulesStrings.11>
   <Transition_Downed.rulePack.rulesStrings.12>collapse(subject_flesh==Mechanoid)->zamrznutí systému</Transition_Downed.rulePack.rulesStrings.12>
   <Transition_Downed.rulePack.rulesStrings.13>collapsed->zhroutil[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.13>
   <Transition_Downed.rulePack.rulesStrings.14>collapsed->sesypal[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.14>
   <Transition_Downed.rulePack.rulesStrings.15>collapsed->složil[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.15>
-  <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh!=Mechanoid)->zhroutil[subject_pronoun], protože byly přerušeny [subject_possessive] obvody, a taky</Transition_Downed.rulePack.rulesStrings.16>
+  <Transition_Downed.rulePack.rulesStrings.16>collapsed(subject_flesh!=Mechanoid)->zhroutil[subject_pronoun]</Transition_Downed.rulePack.rulesStrings.16>
   <Transition_Downed.rulePack.rulesStrings.17>collapsed(subject_flesh==Mechanoid)->sesypal[subject_pronoun], protože se zhroutil [subject_possessive] systém, a taky</Transition_Downed.rulePack.rulesStrings.17>
   <Transition_Downed.rulePack.rulesStrings.18>collapsed(subject_flesh==Mechanoid)->zhroutil[subject_pronoun], protože [subject_possessive] systém se opakovaně resetoval, a taky</Transition_Downed.rulePack.rulesStrings.18>
   <Transition_Downed.rulePack.rulesStrings.19>collapsed(subject_flesh==Mechanoid)->zastavil[subject_pronoun], protože [subject_possessive] systém zamrznul, a taky</Transition_Downed.rulePack.rulesStrings.19>
@@ -31,7 +31,7 @@
   <Transition_Downed.rulePack.rulesStrings.21>helplessly(subject_flesh!=Mechanoid)->nevědom</Transition_Downed.rulePack.rulesStrings.21>
   <Transition_Downed.rulePack.rulesStrings.22>helplessly(subject_flesh!=Mechanoid)->zmožen</Transition_Downed.rulePack.rulesStrings.22>
   <Transition_Downed.rulePack.rulesStrings.23>helplessly(subject_flesh!=Mechanoid)->slab</Transition_Downed.rulePack.rulesStrings.23>
-  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->neprůbojn</Transition_Downed.rulePack.rulesStrings.24>
+  <Transition_Downed.rulePack.rulesStrings.24>helplessly(subject_flesh!=Mechanoid)->chatrn</Transition_Downed.rulePack.rulesStrings.24>
   <Transition_Downed.rulePack.rulesStrings.25>helplessly(subject_flesh==Mechanoid)->nekontrolovateln</Transition_Downed.rulePack.rulesStrings.25>
   <Transition_Downed.rulePack.rulesStrings.26>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.26>
   <Transition_Downed.rulePack.rulesStrings.27>collapsemeta(p=0.5)->[helplessly]é [collapse]</Transition_Downed.rulePack.rulesStrings.27>
@@ -54,7 +54,7 @@
   <Transition_Died.rulePack.rulesStrings.5>die(subject_flesh==Mechanoid,p=0.5)->vyřazení funkčnosti</Transition_Died.rulePack.rulesStrings.5>
   <Transition_Died.rulePack.rulesStrings.6>died(p=2)->zemřel[subject_pronoun]</Transition_Died.rulePack.rulesStrings.6>
   <Transition_Died.rulePack.rulesStrings.7>died->zahynul[subject_pronoun]</Transition_Died.rulePack.rulesStrings.7>
-  <Transition_Died.rulePack.rulesStrings.8>died(subject_flesh!=Mechanoid)->byl[subject_pronoun] zničen[subject_pronoun]</Transition_Died.rulePack.rulesStrings.8>
+  <Transition_Died.rulePack.rulesStrings.8>died(subject_flesh!=Mechanoid)->skonal[subject_pronoun]</Transition_Died.rulePack.rulesStrings.8>
   <Transition_Died.rulePack.rulesStrings.9>died(subject_flesh==Mechanoid)->byl[subject_pronoun] vypnut[subject_pronoun]</Transition_Died.rulePack.rulesStrings.9>
   <Transition_Died.rulePack.rulesStrings.10>died(subject_flesh==Mechanoid)->byl[subject_pronoun] vyřazen[subject_pronoun] z funkčnosti</Transition_Died.rulePack.rulesStrings.10>
 
