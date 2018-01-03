@@ -6,7 +6,7 @@ See this page for license info:
 
 http://ludeon.com/forums/index.php?topic=2933.0
 
-Pokud někdo chce vypomoci s překladem, ať nás prosím nejprve kontaktuje na fóru:
+### Pokud někdo chce vypomoci s překladem, ať nás prosím nejprve kontaktuje na fóru:
 - https://prekladyher.eu/tema/rimworld.1209/
 
 Nález chyb hlašte zde / For bugtrace: 
