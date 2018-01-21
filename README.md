@@ -16,7 +16,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - https://prekladyher.eu/preklady/rimworld.324/
 
 # TRANSLATION - 100% DONE (8 January, 2018)
-- Czech translation: v0.10.b18 (Rimworld v0.18.1722)
+- Czech translation: v0.11.b18 (Rimworld v0.18.1722)
 
 # Czech Translation Team (active since alpha 16)
 ### *completely new translation*
