@@ -10,7 +10,7 @@
   <LetterCropBlight>Kolonista si všiml plísně na tvé úrodě! Měl bys posekat nebo spálit plodiny napadené plísní dříve, než se rozšíří.</LetterCropBlight>
 
   <LetterLabelMiracleHeal>Zázrak</LetterLabelMiracleHeal>
-  <MiracleHeal>{0} právě zažilHE zázračné uzdravení!</MiracleHeal>
+  <MiracleHeal>{0} právě zažil[PAWN_pronoun] zázračné uzdravení!</MiracleHeal>
 
   <!-- Enemy raids -->
   <EnemyRaidWalkIn>Do okolí dorazila nepřátelská skupina. Jsou to {0} z frakce {1}.</EnemyRaidWalkIn>
@@ -43,7 +43,7 @@
   <GroupTravelersPassing>Kolem prochází skupina cestovatelů z frakce {0}.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Návštěvník</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Kolonii navštívilHE {2} z frakce {1}.\n\nJe známHISCAP jako {0}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>Kolonii navštívil[PAWN_pronoun] {2} z frakce {1}.\n\nJe znám[PAWN_possessive] jako {0}.{3}{4}</SingleVisitorArrives>
   <SingleVisitorArrivesTraderInfo>\n\nZdá se, že má pár věcí na prodej.</SingleVisitorArrivesTraderInfo>
   <SingleVisitorArrivesLeaderInfo>\n\nJe to vůdce frakce.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Návštěvníci</LetterLabelGroupVisitorsArrive>
@@ -53,7 +53,7 @@
   <VisitorsLeaving>Návštěva z frakce {0} odchází.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Poutník se přidal</LetterLabelWandererJoin>
-  <WandererJoin>Poblíž byl spatřen potulný {0}. Jmenuje se NAME a právě se připojilHE ke kolonii. Je to {1}.</WandererJoin>
+  <WandererJoin>Poblíž byl spatřen potulný {0}. Jmenuje se [PAWN_nameDef] a právě se připojil[PAWN_pronoun] ke kolonii. Je to {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Lidožravá smečka</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravé zvěře. Budou se potulovat po krajině a lovit lidské maso.\n\nNemohou procházet dveřmi, takže když zůstaneš za zdmi, měl bys být v bezpečí. Nebudou útočit na vypnuté věže, takže pokud chceš své věže zachránit, vypni je.\n\nOblast opustí za několik dnů.\n\nDruh zvěře: {0}</ManhunterPackArrived>
@@ -87,7 +87,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Pronásledovaný uprchlík ({0})</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Z nedaleké oblasti tě volá {0}. Je pronásledovánHE skupinou známou jako {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii.\n\nJe známHISCAP jako {1} a HIS biologický věk je {4} let.\n\nVarování - pokud HIM přijmeš, budeš muset odrazit útok, protože HIM {2} pronásledují.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Z nedaleké oblasti tě volá {0}. Je pronásledován[PAWN_pronoun] skupinou známou jako {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii.\n\nJe znám[PAWN_possessive] jako {1} a [PAWN_possessive] biologický věk je {4} let.\n\nVarování - pokud [PAWN_objective] přijmeš, budeš muset odrazit útok, protože [PAWN_objective] {2} pronásledují.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Nabídnout bezpečí</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Zprávu ignorovat</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Ještě než jsi přerušil spojení, tak jsi slyšel skrze malý reproduktor, jak {0} křičí\nv panice.</RefugeeChasedRejected>
@@ -116,7 +116,7 @@
 
   <!-- Ransom demand -->
   <RansomDemandTitle>Požadování výkupného ({0})</RansomDemandTitle>
-  <RansomDemand>{1} tě zkontaktovali vysílačkou. Drží bývalého člena kolonie jménem {0} kvůli výkupnému.\n\nJsou ochotní HIM propustit zpátky k tobě výměnou za {2} kusů stříbra.</RansomDemand>
+  <RansomDemand>{1} tě zkontaktovali vysílačkou. Drží bývalého člena kolonie jménem {0} kvůli výkupnému.\n\nJsou ochotní [PAWN_objective] propustit zpátky k tobě výměnou za {2} kusů stříbra.</RansomDemand>
   <RansomDemand_Accept>Přijmout</RansomDemand_Accept>
   <RansomDemand_Reject>Odmítnout</RansomDemand_Reject>
 

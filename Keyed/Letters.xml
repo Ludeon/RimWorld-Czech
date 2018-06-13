@@ -30,22 +30,22 @@
   <RecruitSuccess>{0} se povedlo naverbovat {1} (šance {2}).</RecruitSuccess>
   <RecruitFail>{0} se nepovedlo naverbovat {1} (šance {2}).</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME je {1} osoby jménem {0}. Pokud NAME zemře, {0} bude trpět dlouhodobým smutkem. Nicméně, pokud bude osoba NAME zachráněnHE, {0} bude pociťovat dlouhodobé štěstí.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] je {1} osoby jménem {0}. Pokud [PAWN_nameDef] zemře, {0} bude trpět dlouhodobým smutkem. Nicméně, pokud bude osoba [PAWN_nameDef] zachráněn[PAWN_pronoun], {0} bude pociťovat dlouhodobé štěstí.</RelatedPawnInvolvedInQuest>
 
   <LetterLabelBirthday>Narozeniny</LetterLabelBirthday>
   <BirthdayChronological>Dneska {0} slaví své chronologické narozeniny! Biologický věk {1} je {3} let.\n\nChronologicky {1} právě završil {2}.\n\nVšimni si, že když lidé v cryptospánku nestárnou, chronologické narozeniny jsou odlišné od těch biologických.</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>{0} dosáhlHE biologického věku {1} let.\n\nBohužel v důsledku stárnutí {0} získalHE následující onemocnění:\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>{0} dosáhl[PAWN_pronoun] biologického věku {1} let.\n\nBohužel v důsledku stárnutí {0} získal[PAWN_pronoun] následující onemocnění:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <LetterLabelNewDisease>Nemoc</LetterLabelNewDisease>
-  <NewDisease>Nemoc: {1}\n\n{0} onemocnělHE. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostalHE řádnou péči a v posteli strávilHE tolik času, jak to jen půjde.</NewDisease>
-  <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{0} onemocnělHE. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostalHE řádnou péči a v posteli strávilHE tolik času, jak to jen půjde.</NewPartDisease>
+  <NewDisease>Nemoc: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen půjde.</NewDisease>
+  <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen půjde.</NewPartDisease>
 
   <PawnWasFormerlyColonist>{0} byl dříve součástí tvé frakce.</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0} má tyto vztahy s kolonisty:</PawnHasTheseRelationshipsWithColonists>
   <PrisonerRescueTimeout>Kemp zmizí za {0} dnů. Pokud si tuto příležitost necháš ujít, {1} se ti už znovu neozve.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Starodávné nebezpečí</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>Jak se {0} přiblížilHE k starodávné zdi, zaplavil HIM zlověstný pocit. Není si jistý proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
+  <AncientShrineWarning>Jak se {0} přiblížil[PAWN_pronoun] k starodávné zdi, zaplavil [PAWN_objective] zlověstný pocit. Není si jistý proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
 
   <StruckMineable>Narazili jsme na {0}!</StruckMineable>
 
@@ -82,8 +82,8 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>Karavana prodává lidi, kteří mají vztah s některým z tvých kolonistů nebo vězňů:</LetterRelatedPawnsTradingWithOtherCaravan>
 
   <RelationshipAppendedLetterSuffix>(vztah)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME je v nějakém vztahu s někým z tvé kolonie. Je to {1} osoby jménem {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME je v nějakém vztahu s tvým vězněm. Je to {1} vězně jménem {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] je v nějakém vztahu s někým z tvé kolonie. Je to {1} osoby jménem {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] je v nějakém vztahu s tvým vězněm. Je to {1} vězně jménem {0}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Milostný poměr</LetterLabelAffair>
@@ -120,7 +120,7 @@
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>Závislost na {0}</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} si vyvinulHE závislost na {1}.\n\nOdteď bude potřebovat pravidelnou dávku, která je viditelná v HIS záložce Potřeby. Bude automaticky konzumovat tuto drogu, aby uspokojilHE HIS potřebu. Pokud se HECAP nedostane drogy, dostaví se abstinenční příznaky.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} si vyvinul[PAWN_pronoun] závislost na {1}.\n\nOdteď bude potřebovat pravidelnou dávku, která je viditelná v [PAWN_possessive] záložce Potřeby. Bude automaticky konzumovat tuto drogu, aby uspokojil[PAWN_pronoun] [PAWN_possessive] potřebu. Pokud se [PAWN_pronoun] nedostane drogy, dostaví se abstinenční příznaky.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <LetterLabelDrugBinge>Touha na {0}</LetterLabelDrugBinge>

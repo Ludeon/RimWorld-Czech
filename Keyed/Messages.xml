@@ -111,7 +111,7 @@
   <MessageMarriageCeremonyAfterPartyFinished>Svatební obřad {0} a {1} skončil.</MessageMarriageCeremonyAfterPartyFinished>
 
   <MessageNewBondRelation>Mezi {0} a {1} se vytvořilo pouto.</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>Mezi {0} a {1} se vytvořilo pouto. {0} HIM pojmenoval {2}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>Mezi {0} a {1} se vytvořilo pouto. {0} [PAWN_objective] pojmenoval {2}.</MessageNewBondRelationNewName>
 
   <MessageBondedAnimalMentalBreak>{0} se psychicky zhroutil, protože {1} zemřel.</MessageBondedAnimalMentalBreak>
   <MessageNamedBondedAnimalMentalBreak>{0} jménem {1} se psychicky zhroutil, protože {2} zemřel.</MessageNamedBondedAnimalMentalBreak>
@@ -175,7 +175,7 @@
 
   <MessageOldWoundHealed>Kvůli {0} se {1} {2} uzdravil.</MessageOldWoundHealed>
 
-  <MessageRescueeJoined>Jelikož jsi HIM zachránil, tak se {0} připojilHE ke tvé skupině!</MessageRescueeJoined>
+  <MessageRescueeJoined>Jelikož jsi [PAWN_objective] zachránil, tak se {0} připojil[PAWN_pronoun] ke tvé skupině!</MessageRescueeJoined>
 
   <MessageAttackedCaravanIsNowHostile>Protože jsi zaútočil na karavanu patřící frakci {0}, je teď k tobě tato frakce nepřátelská.</MessageAttackedCaravanIsNowHostile>
   <MessageFactionPawnCrushed>Frakce {0} přišla o lidi kvůli kolapsu střechy. Vztahy s frakcí: {1}</MessageFactionPawnCrushed>
@@ -233,9 +233,9 @@
   <MessageSiteCountdownBecauseNoMoreEnemies>Zneškodnil jsi všechny nepřátele. Karavana bude automaticky přeformována za {0}.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>Karavana bude automaticky přeformována za {0}. Můžeš ji také přeformovat ihned na obrazovce Mapa světa.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-  <MessageCantBanishDownedPawn>{0} nemůže být vyhnánHE, protože nemůže chodit.</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>{0} nemůže být vyhnán[PAWN_pronoun], protože nemůže chodit.</MessageCantBanishDownedPawn>
 
-  <MessageSleepingPawnsWokenUp>{0} se probudilHE.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>{0} se probudil[PAWN_pronoun].</MessageSleepingPawnsWokenUp>
 
   <MessageCompSpawnerSpawnedItem>Předmět vytvořen: {0}</MessageCompSpawnerSpawnedItem>
 
@@ -248,7 +248,7 @@
   <MessageFailedToRescueRelative>Selhal jsi při záchraně osoby {0}. {1} odteď trpí dlouhodobým smutkem.</MessageFailedToRescueRelative>
   <MessageRescuedRelative>Uspěl jsi při záchraně osoby {0}. {1} odteď pociťuje dlouhodobé štěstí.</MessageRescuedRelative>
 
-  <MessagePrisonerRescued>NAME je zachráněnHE a připojilHE se k tvé kolonii.</MessagePrisonerRescued>
+  <MessagePrisonerRescued>[PAWN_nameDef] je zachráněn[PAWN_pronoun] a připojil[PAWN_pronoun] se k tvé kolonii.</MessagePrisonerRescued>
 
   <MessageTornadoLeftMap>Tornádo opustilo mapu.</MessageTornadoLeftMap>
   <MessageTornadoDissipated>Tornádo se rozptýlilo.</MessageTornadoDissipated>
@@ -257,8 +257,8 @@
 
   <MessageWarningCavePlantsExposedToLight>Varování: {0} při vystavení světla nemůže žít.</MessageWarningCavePlantsExposedToLight>
 
-  <MessageTargetedTantrumChangedTarget>{0} nemůže dosáhnout na {1}, takže HIS hněv je přesměrován na {2}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{0} nemůže dosáhnout na {1}, takže [PAWN_possessive] hněv je přesměrován na {2}.</MessageTargetedTantrumChangedTarget>
 
-  <MessageTargetedInsultingSpreeChangedTarget>{0} se nemůže dostat k osobě {1}, takže HIS hněv odteď schytá {2}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{0} se nemůže dostat k osobě {1}, takže [PAWN_possessive] hněv odteď schytá {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
 </LanguageData>
