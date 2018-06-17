@@ -29,8 +29,8 @@
   <DesignatorMine>Těžit</DesignatorMine>
   <DesignatorMineDesc>Označí oblasti se skalami, které mají být vytěženy.</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>Vyhladit povrch</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Označí hrubé kamenné povrchy, které mají být vyhlazeny.</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothSurface>Vyhladit povrch</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Označí hrubé kamenné povrchy a zdi, které mají být vyhlazeny.</DesignatorSmoothSurfaceDesc>
 
   <DesignatorPlan>Naplánovat</DesignatorPlan>
   <DesignatorPlanDesc>Umístí značky plánu. Tyto značky slouží pouze jako výpomoc při plánování výstavby tvojí kolonie.</DesignatorPlanDesc>
@@ -38,17 +38,23 @@
   <DesignatorPlanRemove>Odstranit plány</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Odstraní značky plánu.</DesignatorPlanRemoveDesc>
 
+  <DesignatorForbid>Zakázat</DesignatorForbid>
+  <DesignatorForbidDesc>Označí předměty jako zakázané. Kolonisté nebudou moci manipulovat s těmito předměty.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Povolit</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Označí předměty jako povolené. Kolonisté budou moci manipulovat s těmito předměty.</DesignatorUnforbidDesc>
+
   <DesignatorAreaHomeExpand>Rozšířit domovskou oblast</DesignatorAreaHomeExpand>
-  <DesignatorAreaHomeExpandDesc>Jen v takto označené oblasti lze opravovat předměty, uklízet podlahy nebo hasit požáry.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeExpandDesc>Jen v domovské oblasti budou kolonisté opravovat objekty, uklízet podlahy nebo hasit požáry.</DesignatorAreaHomeExpandDesc>
   <DesignatorAreaHomeClear>Odstranit domovskou oblast</DesignatorAreaHomeClear>
-  <DesignatorAreaHomeClearDesc>Odstraní část domovské oblasti. Kolonisté už v ní nemohou uklízet, opravovat nebo hasit požáry.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>Odstraní domovskou oblast. Kolonisté již zde nebudou uklízet podlahy, opravovat objekty nebo hasit požáry.</DesignatorAreaHomeClearDesc>
 
   <DesignatorAreaBuildRoofExpand>Rozšířit oblast se střechou</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>Kolonisté postaví v této oblasti střechy.</DesignatorAreaBuildRoofExpandDesc>
 
   <DesignatorAreaNoRoofExpand>Rozšířit oblast bez střechy</DesignatorAreaNoRoofExpand>
-  <DesignatorAreaNoRoofExpandDesc>Kolonisté strhnou v této oblasti střechy. (vyjma hory nad hlavou, protože tu strhnout nelze.)</DesignatorAreaNoRoofExpandDesc>
-
+  <DesignatorAreaNoRoofExpandDesc>Kolonisté strhnou v této oblasti střechy. (kromě hory nad hlavou, protože tu strhnout nelze).</DesignatorAreaNoRoofExpandDesc>
+  
   <DesignatorAreaIgnoreRoofExpand>Ignorovat střechy</DesignatorAreaIgnoreRoofExpand>
   <DesignatorAreaIgnoreRoofExpandDesc>Kolonisté budou ignorovat střechy v této oblasti.</DesignatorAreaIgnoreRoofExpandDesc>
   
@@ -70,16 +76,22 @@
   <DesignatorZoneCreateStorageDumpingDesc>Zřídí oblast, do které budou tví kolonisté ukládat odpad.\nTímto příkazem lze rozšířit i již existující skládku.</DesignatorZoneCreateStorageDumpingDesc>
 
   <DesignatorZoneDelete>Odstranit oblasti</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Odstranit oblast</DesignatorZoneDeleteSingular>  
   <DesignatorZoneDeleteDesc>Odstraní oblasti, jako např. skladiště nebo skládky.</DesignatorZoneDeleteDesc>
+
+  <DesignatorZoneExpand>Rozšířit oblast</DesignatorZoneExpand>
 
   <DesignatorClaim>Převzít</DesignatorClaim>
   <DesignatorClaimDesc>Zabere neutrální stavby pro tvoji kolonii. Mezi to spadají např. starobylé rozvaliny nebo opuštěné obléhací stavby. Zabrané stavby mohou kolonisté opravovat a používat.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Odstranit podlahu</DesignatorRemoveFloor>
-  <DesignatorRemoveFloorDesc>Odstraní podlahy, aby se odkryla pod ní ležící zem.</DesignatorRemoveFloorDesc>
+  <DesignatorRemoveFloorDesc>Odstraní podlahy, což odhalí terén vespod.</DesignatorRemoveFloorDesc>
 
+  <DesignatorRemoveBridge>Odstranit most</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Odstraní mosty, což odhalí terén vespod.</DesignatorRemoveBridgeDesc>
+  
   <DesignatorStrip>Svléknout</DesignatorStrip>
-  <DesignatorStripDesc>Označí mrtvoly a zraněné, kteří mají být zbavení oblečení.</DesignatorStripDesc>
+  <DesignatorStripDesc>Označí mrtvoly a zraněné, kteří mají být svlečeni.</DesignatorStripDesc>
 
   <DesignatorRearmTrap>Znovu nastražit past</DesignatorRearmTrap>
   <DesignatorRearmTrapDesc>Označí spuštěnou past, která má být znovu nastražena.</DesignatorRearmTrapDesc>
@@ -104,13 +116,14 @@
   <InteractionSpotWillBeBlocked>Bod interakce bude blokován předmětem {0}.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} bude blokovat bod interakce předmětu {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Na tomto místě se již nachází {0}.</TerrainIsAlready>
-  <TerrainBeingSmoothed>Tento povrch už je označený pro vyhlazení.</TerrainBeingSmoothed>
+  <SurfaceBeingSmoothed>Tento povrch už je označený pro vyhlazení.</SurfaceBeingSmoothed>  
   <IdenticalThingExists>Tento objekt se zde již nachází.</IdenticalThingExists>
   <IdenticalBlueprintExists>Tento plán se zde již nachází.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Tento povrch je příliš nestabilní.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Prostor je již obsazen.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>Prostor již bude vyhlazen.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Lze použít jen na podlahu, kterou lze odstranit.</TerrainMustBeRemovable>
+  <MustBeOnMovingWater>Vodní kolo musí být na pohybující se vodě.</MustBeOnMovingWater>
 
 
   <!-- Mouse attachments -->
@@ -120,6 +133,8 @@
 
   <!-- Desc helpers -->
   <TransmitsPower>Vede elektřinu</TransmitsPower>
-  <ConstructionNeeded>Vyžaduje úroveň Konstrukce</ConstructionNeeded>
-  
+  <ConstructionNeeded>Vyžadována Konstrukce</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>Žádní tví {0} nemají tuto úroveň dovednosti.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Všichni tví {0}, kteří mají tuto úroveň dovednosti, nemají přidělenou činnost {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+    
 </LanguageData>
