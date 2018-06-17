@@ -29,13 +29,24 @@
   <!-- Animals tab -->
   <Master>Páníček</Master>
   <PregnantIconDesc>Těhotná ({0} / {1})</PregnantIconDesc>
+  <BondedTo>Pouto k</BondedTo>
+  
+  <!-- Wildlife tab -->
+  <IsPredator>This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people.</IsPredator>
 
   <!-- Factions tab -->
-  <Hostile>Nepřátelský</Hostile>
+  <Hostile>Nepřítel</Hostile>
+  <Ally>Spojenec</Ally>  
   <DefeatedLower>poražený</DefeatedLower>
   <HostileTo>Nepřátelský vůči {0}</HostileTo>
-  <CurrentGoodwill>Současná reputace s touto frakcí.</CurrentGoodwill>
-
+  <CurrentGoodwill>Současná reputace a vztahy s touto frakcí.</CurrentGoodwill>
+  <CurrentGoodwillTip_PermanentEnemy>Tato frakce je trvale nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Vztahy s nimi se z jakéhokoli důvodu nikdy nezlepší.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>Tato frakce je spojenecká. Pošlou bojovníky, aby vám pomohli, pokud budou moci. Pokud vztahy klesnou pod {0}, stanou se neutrálními.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>Tato frakce je neutrální. Budou s tebou svobodně obchodovat a mluvit. Pokud vztahy klesnou pod {0}, stanou se nepřátelskými. Pokud naopak vztahy stoupnou nad {1}, stanou se spojenci a začnou se aktivně podílet na pomoci tvé frakci.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>Tato frakce je nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Pokud vztahy stoupnou nad {0}, stanou se neutrálními.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>Tato frakce má přirozený rozsah reputace mezi {0} a {1}. Pokud je reputace nad {1}, poklesne o {3} za den. Pokud je reputace pod {0}, stoupne o {2} za den.</CurrentGoodwillTip_NaturalGoodwill>
+  
+  
   <!-- Social tab -->
   <Friend>Přítel</Friend>
   <Rival>Rival</Rival>
@@ -43,6 +54,7 @@
 
   <!-- History tab - subtabs -->
   <Graph>Graf</Graph>
+  <Messages>Zprávy</Messages>  
   <Statistics>Statistiky</Statistics>
 
   <!-- History tab - Graphs -->
@@ -51,9 +63,14 @@
   <Last100Days>Posledních 100 dnů</Last100Days>
   <Last300Days>Posledních 300 dnů</Last300Days>
   <AllDays>Všechny</AllDays>
-  <Day>Den</Day>
   <Value>Hodnota</Value>
   <External>Vnější</External>
+
+  <!-- History tab - Messages -->
+  <ShowLetters>Zobrazit dopisy</ShowLetters>
+  <ShowMessages>Zobrazit zprávy</ShowMessages>
+  <PinArchivableTip>Připne nebo odepne tuto zprávu.\n\nNejstarší neodepnuté zprávy budou automaticky odstraněny ze seznamu po dosažení limitu {0} zpráv.</PinArchivableTip>
+  <NoMessages>žádné zprávy</NoMessages>
 
   <!-- History tab - Statistics -->
   <Playtime>Herní doba</Playtime>
@@ -61,6 +78,7 @@
   <ThisMapColonyWealthTotal>Majetek kolonie (tato mapa)</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>Majetek kolonie (věci) (tato mapa)</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>Majetek kolonie (budovy) (tato mapa)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>Majetek kolonie (zvířata) (tato mapa)</ThisMapColonyWealthTameAnimals>
   <NumThreatBigs>Hlavní hrozby</NumThreatBigs>
   <NumEnemyRaids>Nepřátelských nájezdů</NumEnemyRaids>
   <ThisMapDamageTaken>Utrpěné škody (tato mapa)</ThisMapDamageTaken>
