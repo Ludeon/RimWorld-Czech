@@ -2,30 +2,38 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0} vychrlí do mikrofonu pár nadávek a ukončí spojení.</FactionGreetingHostile>
-  <FactionGreetingWary>{0} obezřetně pozdraví {1} a zeptá se [PAWN_objective], co potřebuje.</FactionGreetingWary>
-  <FactionGreetingWarm>{0} vřele pozdraví {1} a zeptá se, jak se kolonii daří.</FactionGreetingWarm>
+  <FactionGreetingHostileAppreciative>{0} požaduje, abys učinil gesto dobré vůle, například přinést dar [PAWN_possessive] osadě nebo propustit [PAWN_possessive] zajaté nezraněné lidi. Do té doby s tebou nebude chtít mluvit.\n\nUraženým hlasem ukončuje spojení.</FactionGreetingHostileAppreciative>
+  <FactionGreetingWary>{0} obezřetně zdraví {1} a ptá se, co potřebuje.</FactionGreetingWary>
+  <FactionGreetingWarm>{0} vřele zdraví {1} a ptá se, jakpak může pomoci.</FactionGreetingWarm>
 
   <Disconnect>Přerušit spojení</Disconnect>
 
   <!-- gift offer -->
   <OfferGift>Nabídnout dar</OfferGift>
-  <NeedSilverLaunchable>U obchodních majáků potřebuješ mít {0} stříbra</NeedSilverLaunchable>
-  <NotEnoughSilver>Nedostatek stříbra</NotEnoughSilver>
-  <SilverForGoodwill>{0} stříbra za {1} bodů dobré pověsti</SilverForGoodwill>
-  <SilverGiftSent>{0} ti děkuje.\n\n(Pověst zlepšena o {1}).</SilverGiftSent>
+  <MustBeAlly>musí být spojenec</MustBeAlly>
+  <NeedGoodwill>vyžaduje {0} reputace</NeedGoodwill>
+  <NeedSilverLaunchable>vyžaduje {0} stříbra poblíž obchodních majáků</NeedSilverLaunchable>
+  <NotEnoughSilver>nedostatek stříbra</NotEnoughSilver>
+  <SilverForGoodwill>{0} stříbra za {1} reputace</SilverForGoodwill>
+  <SilverGiftSent>{0} ti děkuje.\n\n(Reputace zlepšena o {1}).</SilverGiftSent>
 
   <!-- trade caravan request -->
-  <RequestTrader>Vyžádat si obchodní karavanu (náklady: {0} stříbra)</RequestTrader>
+  <RequestTrader>Vyžádat si obchodní karavanu (náklady: {0} reputace)</RequestTrader>
   <ChooseTraderKind>{0} se tě ptá, jaký druh karavany chceš.</ChooseTraderKind>
   <TraderSent>{0} souhlasí, že ti pošle obchodní karavanu. Dorazí za několik dnů.</TraderSent>
   <WaitTime>Počkej {0}</WaitTime>
 
+  <!-- AI core request -->
+  <RequestAICoreInformation>Vyžádat si souřadnice umístění {0} (náklady: {1} stříbra)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} posílá požadované informace a přeje ti hodně štěstí.</RequestAICoreInformationResult>
+  <NoKnownAICore>žádná další známá místa</NoKnownAICore>
 
   <!-- military aid request -->
-  <RequestMilitaryAid>Vyžádat si okamžitou vojenskou pomoc (náklady: {0} bodů pověsti).</RequestMilitaryAid>
+  <RequestMilitaryAid>Vyžádat si okamžitou vojenskou pomoc (náklady: {0} reputace).</RequestMilitaryAid>
   <MilitaryAidConfirmMutualEnemy>{0} ti nepomůže bojovat s jinými frakcemi, které nejsou jejich nepřátelé. To zahrnuje i ty, které tě v současné době ohrožují, {1}. Chceš i přesto zavolat o pomoc?</MilitaryAidConfirmMutualEnemy>
   <CallConfirm>Ano, i přesto přivolat.</CallConfirm>
   <CallCancel>Ne, zapomeň na to.</CallCancel>
-  <MilitaryAidSent>{0} souhlasí, že pošle bojovníky, aby ti pomohli.</MilitaryAidSent>
-
+  <MilitaryAidSent>{0} souhlasí, že ti pošle bojovníky na pomoc.</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} se omlouvá a říká, že nebudou schopni dorazit včas.\n\n(Technologická úroveň frakce je příliš nízká pro použití přepravních modulů)</CantSendMilitaryAidInTime>
+  
 </LanguageData>
