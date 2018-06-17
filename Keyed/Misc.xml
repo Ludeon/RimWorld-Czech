@@ -29,15 +29,21 @@
   <repeat>Opakovat</repeat>
   <default>Výchozí</default>
   <distance>Vzdálenost</distance>
-  
+  <YesUppercase>ANO</YesUppercase>
+  <NoUppercase>NE</NoUppercase>
+  <kg>kg</kg>
+  <Day>Den</Day>
+  <day>den</day>
+  <Default>Výchozí</Default>
+  <Average>Průměrný</Average>
+    
   <!-- Content generation-->
 
   <MeatLabel>Maso z {0}</MeatLabel>
-  <MeatDesc>Syrové maso z poražených zvířat. Může se z něj uvařit jídlo nebo také sníst syrové.</MeatDesc>
-
-  <LeatherLabel>Kůže z {0}</LeatherLabel>
-  <LeatherDesc>Vyčištěná, usušená a stažená kůže. Dobrý tradiční materiál, ze kterého se dá vyrábět oblečení a batohy.</LeatherDesc>
-
+  <MeatDesc>Syrové maso z pořážky. Může se z něj uvařit jídlo nebo také sníst syrové.</MeatDesc>
+  <MeatInsectDesc>Syrové maso z pořážky. Pokud je to nutné, může se z něj uvařit jídlo nebo také sníst syrové. Nesmírně nechutné.</MeatInsectDesc>
+  <MeatHumanDesc>Syrové maso z pořážky. Může se z něj uvařit jídlo nebo také sníst syrové, i když většině lidí se tento nápad nelíbí.</MeatHumanDesc>
+  
   <CorpseLabel>{0} (mrtvola)</CorpseLabel>
   <CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
   <DeadLabel>{0} (mrtvý)</DeadLabel>
@@ -52,7 +58,9 @@
   <BlueprintLabelExtra> (plán)</BlueprintLabelExtra>
   <FrameLabelExtra> (ve výstavbě)</FrameLabelExtra>
 
-
+  <FactionUnaffiliated>Nepřidruženo</FactionUnaffiliated>
+  
+  
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
