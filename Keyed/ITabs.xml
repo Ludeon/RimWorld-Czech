@@ -19,7 +19,8 @@
   <TabRecords>Evidence</TabRecords>
   <TabArt>Umění</TabArt>
   <TabSocial>Vztahy</TabSocial>
-  <TabCombat>Záznamy</TabCombat>
+  <TabLog>Záznamy</TabLog>
+  <TabFormingCaravan>Karavana</TabFormingCaravan>
 
 
   <!-- Bills tab  -->
@@ -28,7 +29,15 @@
   <MinimumSkill>Min dovednost</MinimumSkill>
   <SuspendedCaps>ZASTAVENO</SuspendedCaps>
   <BoundWorkerIs>Pracovník: {0}</BoundWorkerIs>
-  <PlantVerb>sázení</PlantVerb>
+  <PlantVerb>Sázení</PlantVerb>
+  <ClipboardBillNotAvailableHere>Zkopírovaný příkaz nelze vložit zde.</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>Posunout nahoru</ReorderBillUpTip>
+  <ReorderBillDownTip>Posunout dolů</ReorderBillDownTip>
+  <DeleteBillTip>Smazat</DeleteBillTip>
+  <CopyBillTip>Zkopírovat do schránky</CopyBillTip>
+  <SuspendBillTip>Pozastavit</SuspendBillTip>
+  <PasteBillTip>Vložit</PasteBillTip>
+  <PasteBillTip_LimitReached>Nelze přidat více</PasteBillTip_LimitReached>
 
 
   <!-- Guest/prisoner tab -->
@@ -57,7 +66,7 @@
   <WholeBody>Celé tělo</WholeBody>
   <DataProcessing>Zpracovávání dat</DataProcessing>
   <Communication>Komunikace</Communication>
-  <Affects>ovlivňuje</Affects>
+  <Affects>Ovlivňuje</Affects>
   <BleedingRate>Krvácení</BleedingRate>
   <TimeToDeath>Smrt za {0}</TimeToDeath>
   <WontBleedOutSoon>žádné bezprostřední nebezpečí</WontBleedOutSoon>
@@ -65,9 +74,9 @@
   <MedicalOperationsShort>Operace ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modifikací ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Lékařských zákroků</MedicalOperations>
-  <Amputate>Amputovat</Amputate>
-  <Harvest>Vyjmout</Harvest>
-  <RemoveOrgan>Odstranit</RemoveOrgan>
+  <Amputate>amputovat</Amputate>
+  <HarvestOrgan>vyjmout</HarvestOrgan>
+  <RemoveOrgan>odstranit</RemoveOrgan>
   <MemoryLower>paměť</MemoryLower>
   <SocialInteractionsLower>sociální komunikace</SocialInteractionsLower>
   <HungerRate>Míra hladu</HungerRate>
@@ -96,8 +105,8 @@
 
 
   <!-- Training tab-->
-  <TrainableIntelligence>Inteligence pro výcvik</TrainableIntelligence>
-  <CannotTrainNotSmartEnough>Vyžaduje inteligenci pro výcvik {0}.</CannotTrainNotSmartEnough>
+  <Trainability>Trénovatelnost</Trainability>
+  <CannotTrainNotSmartEnough>Vyžaduje trénovatelnost {0}.</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>Pro tento výcvik je zvíře příliš malé.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
@@ -114,12 +123,35 @@
   <IAmPsychopath>Jsem psychopat</IAmPsychopath>
 
   <!-- Gear tab -->
-  <AverageArmor>Hodnoty zbroje</AverageArmor>
+  <OverallArmor>Celková zbroj</OverallArmor>
   <MassCarried>Nesená hmotnost: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Příjemný rozsah teplot</ComfyTemperatureRange>
   <ArmorBlunt>Tupé</ArmorBlunt>
   <ArmorSharp>Ostré</ArmorSharp>
   <ArmorHeat>Horko</ArmorHeat>
-  <ArmorElectric>Elektřina</ArmorElectric>
+
+  <!-- Log tab -->
+  <ShowAll>Zobrazit vše</ShowAll>
+  <ShowCombat>Zobrazit boj</ShowCombat>
+  <ShowSocial>Zobrazit socializaci</ShowSocial>
+  <NoRecentEntries>žádné nové zápisy</NoRecentEntries>
+  <CopyLogTip>Zkopírovat záznamy do schránky.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>Shromažďování zvířat</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Shromažďování zvířat (čekání)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>Shromažďování předmětů</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>Shromažďování předmětů (čekání)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>Shromažďování otroků</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>Shromažďování otroků (čekání)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>Odchod</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>Odchod (čekání)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>Čekání</FormingCaravanStatus_Waiting>
+  <CaravanMembers>Členové</CaravanMembers>
+  <CaravanAnimals>Zvířata</CaravanAnimals>
+  <ItemsToLoad>Předměty k naložení</ItemsToLoad>
+  <LoadedItems>Naložené předměty</LoadedItems>
+  <PackAnimalsCountLower>nákladní zvířata</PackAnimalsCountLower>
+  <InMentalStateCountLower>psychické zhroucení</InMentalStateCountLower>
 
 </LanguageData>
