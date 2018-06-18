@@ -10,6 +10,8 @@
   <LoadGame>Načíst hru</LoadGame>
   <Options>Nastavení</Options>
   <Mods>Módy</Mods>
+  <SaveTranslationReport>Uložit hlášení k překladu</SaveTranslationReport>
+  <GeneratingTranslationReport>Vytvářím hlášení k překladu</GeneratingTranslationReport> 
   <Credits>Tvůrci</Credits>
   <QuitToMainMenu>Odejít do hl. menu</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Uložit a odejít do hl. menu</SaveAndQuitToMainMenu>
@@ -62,6 +64,7 @@
   <OpenSteamWorkshop>Otevřít Steam Workshop</OpenSteamWorkshop>
   <GetModsFromForum>Získat módy z fóra</GetModsFromForum>
   <OpenModsDataFolder>Otevřít složku s módy</OpenModsDataFolder>
+  <ShowModsDataLocation>Zobrazit umístění dat s módy</ShowModsDataLocation>
   <ConfirmDisableCoreMod>Jsi si jistý, že chceš deaktivovat jádro hry? Hra nebude fungovat, dokud nebudeš mít jiné módy, které nahradí VŠECHNY funkce jádra.\n\nRada: jiné módy mohou přepsat Defs jádra, pokud používají stejné jméno Def.</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Jsi si jistý, že chceš smazat všechna data z {0}?</ConfirmDeleteMod>
   <Unsubscribe>Odhlásit odběr</Unsubscribe>
@@ -95,7 +98,7 @@
   <AddPart>Přidat záznam</AddPart>
   <TextFieldsMustBeFilled>Všechna textová pole musí být vyplněna.</TextFieldsMustBeFilled>
   <ConfirmSteamWorkshopUpload>Jsi si jistý, že toto chceš nahrát na Steam Workshop?\n\nMusíš souhlasit se smluvními podmínkami Steam Workshopu. Smluvní podmínky najdeš tady:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
-  <ConfirmContentAuthor>Zjevně můžeš nahrát pouze to, co jsi sám vytvořil.\n\nVytvoři jsi tento obsah ty sám?</ConfirmContentAuthor>
+  <ConfirmContentAuthor>Zjevně můžeš nahrát pouze to, co jsi sám vytvořil.\n\nVytvořil jsi tento obsah ty sám?</ConfirmContentAuthor>
   <Incompatible>Nekompatibilní</Incompatible>
   <TooMany>Příliš mnoho (max {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>Vzhledem k tomu, že autorem jsi ty, může toto být na Workshopu aktualizováno.</CanBeUpdatedOnWorkshop>
@@ -119,14 +122,12 @@
   <TileOccupied>Toto políčko je již obsazeno.</TileOccupied>
   <FactionBaseAdjacent>Osady nemohou spolu přímo sousedit.</FactionBaseAdjacent>
   <Biome>Biom</Biome>
-  <Terrain>Krajina</Terrain>
+  <Terrain>Terén</Terrain>
   <Road>Silnice</Road>
   <River>Řeka</River>
   <Elevation>Nadmořská výška</Elevation>
   <Fertility>Úrodnost</Fertility>
   <AvgTemp>Průměrná teplota</AvgTemp>
-  <AvgSummerTemp>Teplota v létě</AvgSummerTemp>
-  <AvgWinterTemp>Teplota v zimě</AvgWinterTemp>
   <Rainfall>Srážky</Rainfall>
   <SpecialFeatures>Speciální funkce</SpecialFeatures>
   <HasCoast0>Severní pobřeží</HasCoast0>
@@ -137,19 +138,19 @@
   <FactionBase>Základna frakce</FactionBase>
   <StoneTypesHere>Druhy kamene</StoneTypesHere>
   <TimeZone>Časové pásmo</TimeZone>
-  <MovementTimeNow>Aktuální posun hodin</MovementTimeNow>
-  <MovementTimeSummer>Letní čas</MovementTimeSummer>
-  <MovementTimeWinter>Zimní čas</MovementTimeWinter>
+  <MovementDifficulty>Obtížnost pohybu</MovementDifficulty>
   <AnimalsCanGrazeNow>Zvířata se nyní mohou pást</AnimalsCanGrazeNow>
   <AverageDiseaseFrequency>Průměrná frekvence nemocí</AverageDiseaseFrequency>
   <PerYear>ročně</PerYear>
+  <Forageability>Schopnost spásání</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>Žádná z vybraných osob nemůže vykonávat následující činnosti:\n\n{0}\n\nTo může zapříčinit, že hra bude obtížnější než obvykle. Jste si jistý, že chcete pokračovat?</ConfirmRequiredWorkTypeDisabledForEveryone>
   
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Vytvořit postavy</CreateCharacters>
-  <FirstNameDesc>Křestní jméno postavy.\n\nToto jméno se bude zobrazovat jen v určitých nabídkách.</FirstNameDesc>
-  <ShortIdentifierDesc>Přezdívka postavy.\n\nToto jméno se bude zobrazovat vždy. Může být stejné jako křestní nebo příjmení, nebo i naprosto odlišné zcela jiná přezdívka.</ShortIdentifierDesc>
-  <LastNameDesc>Příjmení postavy.\n\nToto jméno se bude zobrazovat jen v určitých nabídkách.</LastNameDesc>
+  <FirstNameDesc>Křestní jméno postavy.\n\nZobrazuje se jen v určitých nabídkách.</FirstNameDesc>
+  <ShortIdentifierDesc>Přezdívka postavy.\n\nZobrazuje se vždy. Může být stejné jako křestní jméno nebo příjmení, nebo zcela jiná přezdívka.</ShortIdentifierDesc>
+  <LastNameDesc>Příjmení postavy.\n\nZobrazuje se jen v určitých nabídkách.</LastNameDesc>
   <Randomize>Náhodně</Randomize>
   <AgeIndicator>Stáří {0}</AgeIndicator>
   <Backstory>Minulost</Backstory>
@@ -160,6 +161,7 @@
   <NoneLower>Nic</NoneLower>
   <Adulthood>Dospělost</Adulthood>
   <Childhood>Dětství</Childhood>
+  <Current>Aktuálně</Current>
   <Male>muž</Male>
   <Female>žena</Female>
   <Pain>Bolest</Pain>
@@ -177,6 +179,7 @@
   <Gameplay>Hratelnost</Gameplay>
   <ConfirmQuit>Jsi si jistý, že chceš skončit?\nNeuložený postup bude ztracen.</ConfirmQuit>
   <EveryoneNeedsValidName>Každá osoba musí mít platné jméno.</EveryoneNeedsValidName>
+  <RequiredWorkTypeDisabledForEveryone>Žádná z vybraných osob nemůže vykonávat následující činnosti</RequiredWorkTypeDisabledForEveryone>
   <Quit>Odejít</Quit>
   <Ignore>Ignorovat</Ignore>
 
