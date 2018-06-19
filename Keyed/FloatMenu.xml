@@ -32,14 +32,20 @@
   <NotInHomeArea>není v domovské oblasti</NotInHomeArea>
   <BurningLower>hoří</BurningLower>
   <NoEmptyPlaceLower>není nastavené volné místo pro uskladnění</NoEmptyPlaceLower>
+  <NoMergeTarget>žádná dostupná hromádka pro sloučení</NoMergeTarget>
   <AlreadyFilledLower>již naplněno</AlreadyFilledLower>
   <MissingMaterials>chybí materiály</MissingMaterials>
-  <MissingSkill>příliš nízká dovednost</MissingSkill>
-  <NoEmptyGraveLower>není nastavený žádný volný hrob na uložení</NoEmptyGraveLower>
+  <UnderRequiredSkill>pod požadovanou dovedností {0}</UnderRequiredSkill>
+  <UnderAllowedSkill>pod povolenou dovedností {0}</UnderAllowedSkill>
+  <AboveAllowedSkill>nad povolenou dovedností {0}</AboveAllowedSkill>
+  <MissingRequiredSkillLevel>chybí požadovaná úroveň dovednosti</MissingRequiredSkillLevel>
   <AnimalInteractedTooRecently>interakce se zvířetem proběhla před příliš krátkou dobou</AnimalInteractedTooRecently>
   <NoUsableFood>žádné použitelné jídlo</NoUsableFood>
   <NoFood>žádné jídlo</NoFood>
   <AnimalsSkillTooLow>dovednost Zvířata je příliš nízká</AnimalsSkillTooLow>
+  <CantInteractAnimalDowned>zvíře ochromeno</CantInteractAnimalDowned>
+  <CantInteractAnimalAsleep>zvíře spí</CantInteractAnimalAsleep>
+  <CantInteractAnimalBusy>zvíře zaneprázdněno</CantInteractAnimalBusy>
   <ConstructionSkillTooLow>dovednost Konstrukce je příliš nízká</ConstructionSkillTooLow>
   <NoComponentsToRepair>chybí komponenty</NoComponentsToRepair>
   <NoFuelToRefuel>chybí {0}</NoFuelToRefuel>
@@ -50,9 +56,11 @@
   <ReservedForPrisoners>vyhrazeno pro vězně</ReservedForPrisoners>
   <CannotReach>nemůže dosáhnout</CannotReach>
   <NotSurgeryReady>není připraven k operaci</NotSurgeryReady>
+  <SkillDisabled>neschopen zručnosti</SkillDisabled>
   <CantSowCavePlantBecauseOfLight>příliš světla</CantSowCavePlantBecauseOfLight>
   <CantSowCavePlantBecauseUnroofed>chybí střecha</CantSowCavePlantBecauseUnroofed>
-  
+  <IncapableOfDeconstruction>neschopen rozebírat</IncapableOfDeconstruction>
+    
   <ConsumeThing>Sněz! - {0}</ConsumeThing>
 
   <CannotGoNoPath>Nelze sem jít, protože sem nevede žádná cesta.</CannotGoNoPath>
@@ -76,7 +84,7 @@
   <NoNonPrisonerBed>Není dostupná žádná volná nevězeňská postel.</NoNonPrisonerBed>
   <NoAnimalBed>Není dostupný žádný volný pelíšek pro zvíře.</NoAnimalBed>
   <Reserved>Vyhrazeno někým jiným.</Reserved>
-  <ReservedBy>Vyhrazeno pro {0}.</ReservedBy>
+  <ReservedBy>Vyhrazeno pro {0}</ReservedBy>
   <IsReservedBy>{0} (je vyhrazeno pro {1}).</IsReservedBy>
   <TooHeavy>Příliš těžké.</TooHeavy>
 
@@ -88,7 +96,8 @@
   <Equip>Vybav se! - {0}</Equip>
   <EquipWarningBrawler>(rváč bude nešťastný)</EquipWarningBrawler>
   <CannotEquip>Nelze se vybavit. - {0}</CannotEquip>
-
+  <CannotManThing>Nelze obsluhovat. - {0}</CannotManThing>
+  
   <ForceWear>Vynuceně obleč! - {0}</ForceWear>
   <CannotWear>Nelze si obléct. - {0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>chybějící části těla.</CannotWearBecauseOfMissingBodyParts>
@@ -98,18 +107,27 @@
   <PickUp>Zvedni! - {0}</PickUp>
   <PickUpAll>Zvedni! - {0} (vše)</PickUpAll>
   <PickUpSome>Zvedni! - {0} (část)</PickUpSome>
-  <PickUpCount>Zvedni! - {0} x{{0}}</PickUpCount>
+  <PickUpCount>Zvedni {0} x{{0}}</PickUpCount>
 
-  <CannotGiveToPackAnimal>Nelze dát na nákladní zvíře {0}</CannotGiveToPackAnimal>
-  <CannotGiveToPackAnimalAll>Nelze dát na nákladní zvíře {0} (vše)</CannotGiveToPackAnimalAll>
-  <GiveToPackAnimal>Dej na nákladní zvíře! {0}</GiveToPackAnimal>
-  <GiveToPackAnimalAll>Dej na nákladní zvíře! {0} (vše)</GiveToPackAnimalAll>
-  <GiveToPackAnimalSome>Dej na nákladní zvíře...! {0}</GiveToPackAnimalSome>
-  <GiveToPackAnimalCount>Vezmi! {0} {{0}} ks</GiveToPackAnimalCount>
+  <CannotGiveToPackAnimal>Nelze dát na nákladní zvíře. - {0}</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>Nelze dát na nákladní zvíře. - {0} (vše)</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Dej na nákladní zvíře! - {0}</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Dej na nákladní zvíře! - {0} (vše)</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Dej na nákladní zvíře! - {0} (část)</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Vezmi {0} x{{0}}</GiveToPackAnimalCount>
 
+  <CannotLoadIntoCaravan>Nelze naložit na karavanu {0}</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravanAll>Nelze naložit na karavanu {0} (vše)</CannotLoadIntoCaravanAll>
+  <LoadIntoCaravan>Nalož na karavanu! {0}</LoadIntoCaravan>
+  <LoadIntoCaravanAll>Nalož na karavanu! {0} (vše)</LoadIntoCaravanAll>
+  <LoadIntoCaravanSome>Nalož na karavanu! {0} (část)</LoadIntoCaravanSome>
+  <LoadIntoCaravanCount>Nalož {0} x{{0}}</LoadIntoCaravanCount>
+  <OverweightLower>přetíženo</OverweightLower>
+  
   <CannotCarryToExit>Nelze naložit a opustit oblast. {0}</CannotCarryToExit>
   <CarryToExit>Nalož a opusť oblast! {0}</CarryToExit>
-
+  <CarryToExitAndCapture>Zajmi a opusť oblast! {0}</CarryToExitAndCapture>
+  
   <Strip>Svlékni! - {0}</Strip>
   <CannotStrip>Nelze svléct. {0}</CannotStrip>
 
@@ -119,7 +137,7 @@
 
   <UseMedicalBed>Odpočívej až do uzdravení!</UseMedicalBed>
   <NotInjured>Není zraněný</NotInjured>
-  <SomeoneElseSleeping>Obsazeno</SomeoneElseSleeping>
+  <SomeoneElseSleeping>Obsazeno. {0}</SomeoneElseSleeping>
 
   <TradeWith>Obchoduj! - {0}</TradeWith>
   <CannotTrade>Nelze obchodovat.</CannotTrade>
@@ -127,10 +145,11 @@
   <EnterMap>Vstoupit - {0}</EnterMap>
   <VisitSettlement>Navštívit - {0}</VisitSettlement>
   <VisitPeaceTalks>Navštívit - {0}</VisitPeaceTalks>
-  <VisitSite>Navštívit - {0}</VisitSite>
   <VisitEscapeShip>Navštívit - {0}</VisitEscapeShip>
-  <AttackSite>Zaútočit - {0}</AttackSite>
   <AttackSettlement>Zaútočit - {0}</AttackSettlement>
+  <ApproachSite>Přiblížit - {0}</ApproachSite>
+  <ApproachingSite>Přiblížit - {0}</ApproachingSite>
+  <OfferGifts>Nabídnout dary</OfferGifts>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Vstup do cryptospánkové komory!</EnterCryptosleepCasket>
@@ -138,33 +157,57 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>Nelze {0} - {1}</CannotGenericWork>
+  <CannotGenericWorkCustom>Nelze {0}</CannotGenericWorkCustom>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotMissingHealthActivities>Nelze upřednostnit (není způsobilý {0})</CannotMissingHealthActivities>
-
+    
+  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
   <CannotGenericAlreadyAm>Již provádí činnost {0}. - {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>Nelze upřednostnit, protože nikdy nebude dělat činnost {0}.</CannotPrioritizeWorkTypeDisabled>
 
   <CannotPrioritizeWorkGiverDisabled>Nelze upřednostnit, protože: "{0}" je deaktivováno.</CannotPrioritizeWorkGiverDisabled>
-
+  <WillNever>{0} je deaktivováno</WillNever>
+  
   <CannotPrioritizeNotAssignedToWorkType>Nelze upřednostnit, protože nemá přidělenou činnost {0}.</CannotPrioritizeNotAssignedToWorkType>
+  <NotAssigned>není přidělena činnost</NotAssigned>
 
   <CannotPrioritizeResearch>Nelze upřednostnit, protože výzkum je dlouhodobý úkol.</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>Nelze upřednostnit ({0} je zakázáno)</CannotPrioritizeForbidden>
-  <CannotPrioritizeForbiddenOutsideAllowedArea>Nelze upřednostnit ({0} se nachází mimo povolenou oblast)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <CannotPrioritizeCellForbidden>Nelze upřednostnit (zakázáno)</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Mimo povolenou oblast</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Prioritně {0} - {1}</PrioritizeGeneric>
 
   <DropAtEdge>Provést výsadek na okraji</DropAtEdge>
   <DropInCenter>Provést výsadek uprostřed</DropInCenter>
-
+  <AttackAndDropAtEdge>Zaútočit - {0}: Provést výsadek na okraji</AttackAndDropAtEdge>
+  <AttackAndDropInCenter>Zaútočit - {0}: Provést výsadek uprostřed</AttackAndDropInCenter>
+  
   <VomitingLower>zvracení</VomitingLower>
   <NotInterruptibleLower>není přerušitelné</NotInterruptibleLower>
 
   <AddWaypoint>Přidat nový záchytný bod sem</AddWaypoint>
   <RemoveWaypoint>Smazat tento záchytný bod</RemoveWaypoint>
+
+  <RemoveAllDesignations>Zrušit všechna označení</RemoveAllDesignations>
+  <DesignateAll>Označit vše</DesignateAll>
+  <CountToDesignate>{0} ovlivněno</CountToDesignate>
+  <ForbidAllItems>Zakázat všechny předměty</ForbidAllItems>
+  <UnforbidAllItems>Povolit všechny předměty</UnforbidAllItems>
+  <RearmAllTraps>Nastražit všechny pasti</RearmAllTraps>
+
+  <!-- Transport pods -->
+  <LandInExistingMap>Přiblížit a vybrat místo přistání - {0}</LandInExistingMap>
+  <TransportPodsContentsWillBeLost>Obsah bude ztracen</TransportPodsContentsWillBeLost>
+  <FormCaravanHere>Vytvořit zde karavanu</FormCaravanHere>
+  <GiveToCaravan>Poskytnout podporu: {0}</GiveToCaravan>
+  <GiveGiftViaTransportPods>Nabídnout jako dar frakci {0} ({1} reputace)</GiveGiftViaTransportPods>
+
+  <!-- Rescue quest -->
+  <FreePrisoner>Osvobodit vězně</FreePrisoner>
+  <OfferHelp>Nabídnout pomoc</OfferHelp>
 
 </LanguageData>
