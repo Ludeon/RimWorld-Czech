@@ -1,15 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Sand.label>písek</Sand.label>
-  <Soil.label>půda</Soil.label>
-  <MarshyTerrain.label>mokřady</MarshyTerrain.label>
-  <SoilRich.label>úrodná půda</SoilRich.label>
-  <Mud.label>bahno</Mud.label>
-  <Marsh.label>bažina</Marsh.label>
-  <Gravel.label>štěrk</Gravel.label>
-  <MossyTerrain.label>mech</MossyTerrain.label>
-  <Ice.label>led</Ice.label>
+  <!-- Standard soils -->
 
+  <Soil.label>půda</Soil.label>
+  <Soil.tools.0.label>bláto</Soil.tools.0.label>
+
+  <MossyTerrain.label>mechem pokrytá půda</MossyTerrain.label>
+
+  <MarshyTerrain.label>bažinatá půda</MarshyTerrain.label>
+  <MarshyTerrain.tools.0.label>bahno</MarshyTerrain.tools.0.label>
+
+
+  <!-- Rich soils -->
+
+  <SoilRich.label>úrodná půda</SoilRich.label>
+  <SoilRich.tools.0.label>bláto</SoilRich.tools.0.label>
+
+
+  <!-- Poor soils -->
+
+  <Gravel.label>kamenitá půda</Gravel.label>
+  <Gravel.tools.0.label>štěrk</Gravel.tools.0.label>
+
+
+  <!-- Sand -->
+
+  <Sand.label>písek</Sand.label>
+  <Sand.tools.0.label>písek</Sand.tools.0.label>
+
+  <SoftSand.label>jemný písek</SoftSand.label>
+  <SoftSand.tools.0.label>písek</SoftSand.tools.0.label>
+
+
+  <!-- Infertile ground -->
+
+  <Mud.label>bahno</Mud.label>
+  <Mud.tools.0.label>bahno</Mud.tools.0.label>
+
+  <Marsh.label>bažina</Marsh.label>
+  <Marsh.tools.0.label>bahno</Marsh.tools.0.label>
+
+
+  <!-- Ice -->
+
+  <Ice.label>led</Ice.label>
+  
 
 </LanguageData>
