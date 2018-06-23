@@ -13,10 +13,10 @@
   <RandomizeCharacter.rejectInputMessage>Zkus nejprve vytvořit náhodnou postavu, prosím.</RandomizeCharacter.rejectInputMessage>
 
   <AcceptStartingPawns.text>Skvělé!\n\nPokud chceš, vytvoř víc náhodných postav, ale nesnaž se vytvořit perfektní. Každý má své nedostatky, a díky tomu je příběh mnohem zajímavější!\n\nPostavy můžeš též přejmenovávat kliknutím na jejich jména.\n\nAž budeš připraven, klikni na ZAHÁJIT.</AcceptStartingPawns.text>
-  <MapCameraDolly.text>Tady jsi na povrchu planety!\n\nTeď se pokus pohnout kamerou.\n\nPoužij klávesy {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}, nebo stiskni a táhni prostředním tlačítkem myši.\n\nVyzkoušej si to hned teď!</MapCameraDolly.text>
-  <MapCameraZoom.text>Skvělé!\n\nPřibližovat a oddalovat pohled kamery můžeš také kolečkem myši, nebo klávesami {Key:MapZoomIn} a {Key:MapZoomOut}.\n\nVyzkoušej si to hned teď!</MapCameraZoom.text>
+  <MapCameraDolly.text>Tady jsi na povrchu planety!\n\nTeď se pokus pohnout kamerou.\n\nPoužij klávesy {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}, nebo stiskni a táhni prostředním tlačítkem myši.\n\nVyzkoušej si to hned teď!</MapCameraDolly.text>
+  <MapCameraZoom.text>Skvělé!\n\nPřibližovat a oddalovat pohled kamery můžeš také kolečkem myši, nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out}.\n\nVyzkoušej si to hned teď!</MapCameraZoom.text>
   <Pause.text>Čas můžeš pozastavovat.\n\nTo znamená, že nikdy nemusíš spěchat. Hru můžeš vždycky pozastavit a s vydáváním příkazů si dát načas.\n\nZkus si hru pozastavit klávesou {Key:TogglePause}, nebo použitím tlačítek na ovládání času vpravo dole obrazovky.</Pause.text>
-  <TimeControls.text>Čas můžeš také urychlovat.\n\nZkus si ovládat čas klávesami {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, a {Key:TimeSpeedSuperfast}, nebo použitím tlačítek na ovládání času vpravo dole obrazovky.</TimeControls.text>
+  <TimeControls.text>Čas můžeš také urychlovat.\n\nZkus si ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast}, nebo použitím tlačítek na ovládání času vpravo dole obrazovky.</TimeControls.text>
 
   <MakeStockpile.text>Skvělé!\n\nTeď vytvoř skladiště, aby tví kolonisté věděli, kam ukládat předměty.\n\n1. Klikni na záložku ARCHITEKT vlevo dole.\n2. Klikni na kategorii ZÓNY.\n3. Vyber nástroj SKLADIŠTĚ.\n4. Klikni a tažením myši vytvoř čtverec tak, jak je označeno na mapě.</MakeStockpile.text>
   <MakeStockpile.rejectInputMessage>Vytvoř skladiště ve vyznačené oblasti, prosím.</MakeStockpile.rejectInputMessage>
@@ -36,7 +36,7 @@
   <BuildRoomDoor.rejectInputMessage>Postav dřevěné dveře na jedné ze zdí tvé místnosti, prosím.</BuildRoomDoor.rejectInputMessage>
   <BuildRoomDoor.onMapInstruction>Na jedné ze zdí postav dveře</BuildRoomDoor.onMapInstruction>
 
-  <BuildBeds.text>Tví kolonisté teď tuto místnost postaví!\n\nTeď potřebují něco, kde by mohli spát. Dovnitř místnosti umísti tři POSTELE.\n\nNajdeš je v kategorii NÁBYTEK.</BuildBeds.text>
+  <BuildBeds.text>Tví kolonisté teď tuto místnost postaví!\n\nTeď potřebují něco, kde by mohli spát. Dovnitř místnosti umísti tři POSTELE.\n\nNajdeš je v kategorii NÁBYTEK. Pomocí kláves {Key:Designator_RotateLeft} a {Key:Designator_RotateRight} můžeš libovolně otáčet s předměty.</BuildBeds.text>
   <BuildBeds.rejectInputMessage>Postav uvnitř místnosti dřevěné postele, prosím.</BuildBeds.rejectInputMessage>
   <BuildBeds.onMapInstruction>Uvnitř místnosti postav tři postele</BuildBeds.onMapInstruction>
 
@@ -48,11 +48,11 @@
   <BuildAnimalSleepingSpot.rejectInputMessage>Umísti dovnitř místnosti místo na spaní pro zvířata, prosím.</BuildAnimalSleepingSpot.rejectInputMessage>
   <BuildAnimalSleepingSpot.onMapInstruction>Postav uvnitř místnosti\nmísto na spaní pro zvířata</BuildAnimalSleepingSpot.onMapInstruction>
 
-  <BuildHorseshoesPin.text>Tví kolonisté potřebují zdroje zábavy, jinak budou časem smutní.\n\nPostav venku poblíž místnosti TYČ NA PODKOVY.</BuildHorseshoesPin.text>
+  <BuildHorseshoesPin.text>Tví kolonisté potřebují zdroje zábavy, jinak budou časem smutní.\n\nPostav venku nedaleko místnosti TYČ NA PODKOVY.</BuildHorseshoesPin.text>
   <BuildHorseshoesPin.rejectInputMessage>Umísti někde mimo místnost tyč na podkovy, prosím.</BuildHorseshoesPin.rejectInputMessage>
   <BuildHorseshoesPin.onMapInstruction>Postav mimo místnost\ntyč na podkovy</BuildHorseshoesPin.onMapInstruction>
 
-  <MakeGrowingZone.text>Dům je postaven!\n\nTví kolonisté budou potřebovat něco k jídlu, takže umísti POLE tam, kde je to vyznačeno na mapě.</MakeGrowingZone.text>
+  <MakeGrowingZone.text>Dům je postaven!\n\nTví kolonisté budou potřebovat něco k jídlu, takže umísti POLE tam, kde je to vyznačeno na mapě.\n\nTo je místo, kde si tví kolonisté budou zasévat úrodu.</MakeGrowingZone.text>
   <MakeGrowingZone.rejectInputMessage>Udělej pole tam, kde je to vyznačeno na mapě, prosím.</MakeGrowingZone.rejectInputMessage>
   <MakeGrowingZone.onMapInstruction>Sem umísti pole, prosím\n(táhni myší od rohu k rohu)</MakeGrowingZone.onMapInstruction>
 
@@ -115,7 +115,7 @@
   <UndraftAll.text>Úspěch! Teď u všech svých kolonistů zruš vojenský nábor použitím stejného tlačítka jako předtím.\n\nTo jim umožní návrat k jejich naplánovaným úkolům.</UndraftAll.text>
   <UndraftAll.rejectInputMessage>Zruš vojenský nábor svých kolonistů, prosím.</UndraftAll.rejectInputMessage>
 
-  <ChooseStoryteller.text>Tohle je konec výuky!\n\nJe tu toho ještě spoustu k učení, a to včetně vězňů, lovu, obchodu, ochočování zvířat a mnoho dalšího. Základy už ale máš.\n\nBěhem této výuky byly vypnuty náhodné události.\n\nK započetí skutečné hry:\n\n1. Vpravo dole otevři záložku MENU.\n2. Vyber NASTAVENÍ.\n3. Klikni na VYBRAT VYPRAVĚČE.\n4. Vyber si vypravěče a obtížnost, která se ti líbí.\n\nPřeji ti hodně štěstí i zábavy.</ChooseStoryteller.text>
+  <ChooseStoryteller.text>Tohle je konec výuky!\n\nJe tu toho ještě spoustu k učení, a to včetně vězňů, lovu, obchodu, ochočování zvířat a mnoho dalšího. Základy už ale máš.\n\nBěhem této výuky byly vypnuty náhodné události.\n\nK započetí skutečné hry:\n\n1. Vpravo dole otevři záložku NABÍDKA.\n2. Vyber NASTAVENÍ.\n3. Klikni na VYBRAT VYPRAVĚČE.\n4. Vyber si vypravěče a obtížnost, která se ti líbí.\n\nPřeji ti hodně štěstí i zábavy.</ChooseStoryteller.text>
   <ChooseStoryteller.rejectInputMessage>Abys ukončil tuto výuku, vyber si vypravěče v nabídce Nastavení, prosím.</ChooseStoryteller.rejectInputMessage>
 
 
