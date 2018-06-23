@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <QuestBanditCamp.label>Příležitost: Tábor banditů</QuestBanditCamp.label>
-  <QuestBanditCamp.letterText>{0}, {1} z frakce {2}, ti poslal zprávu.\n\nZdá se, že bandité z blízkého tábora napadají jejich karavany. Žádá tě, abys je zastavil - to znamená eliminaci všech nepřátel a střeleckých věží.\n\nPokud uspěješ, vztahy s nimi se zlepší a pošlou ti tuto odměnu:\n\n{3}</QuestBanditCamp.letterText>
-  <QuestBanditCamp.letterLabel>Příležitost: Tábor banditů</QuestBanditCamp.letterLabel>
+  <Quest_TradeRequest.label>Mise: Požadavek obchodu</Quest_TradeRequest.label>
 
-  <QuestItemStash.label>Příležitost: Tajná skrýš</QuestItemStash.label>
-  <QuestItemStash.letterText>{0}, {1} z frakce {2}, ti poslal zprávu.\n\nDozvěděl ses o vzácné sbírce předmětů nedaleko odsud.\n\nKolekce obsahuje:\n\n{3}\n\nBohužel tam nevydrží dlouho - ostatní získají kořist za {4} dnů, pokud si nepospíšíš.\n\nCennosti přitahují nebezpečí, takže se měj na pozoru.\n\n{5}</QuestItemStash.letterText>
-  <QuestItemStash.letterLabel>Příležitost: Tajná skrýš</QuestItemStash.letterLabel>
+  <Quest_BanditCamp.label>Mise: Tábor banditů</Quest_BanditCamp.label>
+  <Quest_BanditCamp.letterText>{0}, {1} z frakce {2}, ti poslal zprávu.\n\nZdá se, že bandité z blízkého tábora napadají jejich karavany. Žádá tě, abys je zastavil - to znamená eliminaci všech nepřátel a střeleckých věží.\n\nPokud uspěješ, vztahy s nimi se zlepší a pošlou ti tuto odměnu:\n\n{3}</Quest_BanditCamp.letterText>
+  <Quest_BanditCamp.letterLabel>Mise: Tábor banditů</Quest_BanditCamp.letterLabel>
 
-  <QuestDownedRefugee.label>Příležitost: Zneschopněný uprchlík</QuestDownedRefugee.label>
-  <QuestDownedRefugee.letterText>{0} tě zkontaktoval[PAWN_pronoun] skrze vysílačku s žádostí o pomoc. Je zraněn[PAWN_possessive] a nemůže se hýbat. Bez tvé pomoci zemře během {1} dnů.\n\nMohlo by to tam být nebezpečné, tak pozor.</QuestDownedRefugee.letterText>
-  <QuestDownedRefugee.letterLabel>Příležitost: Zneschopněný uprchlík</QuestDownedRefugee.letterLabel>
-
-  <QuestPrisonerWillingToJoin.label>Příležitost: Záchrana zajatce</QuestPrisonerWillingToJoin.label>
-  <QuestPrisonerWillingToJoin.letterText>Zajatci, který je držen frakcí známou jako {0}, se povedlo ukrást vysílačku a zavolat ti!\n\n[PAWN_nameDef] je zadržován[PAWN_pronoun] v dobře střeženém kempu poblíž naší kolonie. Zachraň [PAWN_objective], a přidá se k tvé kolonii. Je [PAWN_pronoun] {1} let a je známý jako {2}.</QuestPrisonerWillingToJoin.letterText>
-  <QuestPrisonerWillingToJoin.letterLabel>Příležitost: Záchrana zajatce</QuestPrisonerWillingToJoin.letterLabel>
-
-  <QuestPeaceTalks.label>Příležitost: Mírové rozhovory</QuestPeaceTalks.label>
-  <QuestPeaceTalks.letterText>[PAWN_nameDef], {0} z frakce {1}, ti poslal zprávu. Chce s tebou mluvit v nedaleké oblasti.\n\nJe to skvělá příležitost jak zlepšit vztahy s touto frakcí, ale pozor - špatný vyjednavač může udělat více škody než užitku.\n\nNabídka vyprší za {2} dnů.</QuestPeaceTalks.letterText>
-  <QuestPeaceTalks.letterLabel>Příležitost: Mírové rozhovory</QuestPeaceTalks.letterLabel>
+  <Quest_ItemStash.label>Mise: Tajná skrýš</Quest_ItemStash.label>
+  <Quest_ItemStash.letterText>{0}, {1} z frakce {2}, ti poslal zprávu.\n\Informoval tě o vzácné sbírce předmětů nedaleko odsud.\n\nKolekce obsahuje:\n\n{3}\n\nBohužel tam ale nevydrží dlouho, takže pokud si nepospíšíš, ostatní získají kořist za {4} dnů.\n\nCennosti přitahují nebezpečí, takže se měj na pozoru.\n\n{5}</Quest_ItemStash.letterText>
+  <Quest_ItemStash.letterLabel>Mise: Tajná skrýš</Quest_ItemStash.letterLabel>
 
 
+  <!-- Used as a utility incident def for the core-requesting faction option -->
+
+  <Quest_ItemStashAICore.label>Mise: Tajná skrýš (jádro UI)</Quest_ItemStashAICore.label>
+  <Quest_ItemStashAICore.letterText>{0}, {1} z frakce {2}, ti poslal zprávu.\n\Informoval tě o vzácné sbírce předmětů nedaleko odsud.\n\nKolekce obsahuje:\n\n{3}\n\nBohužel tam ale nevydrží dlouho, takže pokud si nepospíšíš, ostatní získají kořist za {4} dnů.\n\nCennosti přitahují nebezpečí, takže se měj na pozoru.\n\n{5}</Quest_ItemStashAICore.letterText>
+  <Quest_ItemStashAICore.letterLabel>Mise: Tajná skrýš</Quest_ItemStashAICore.letterLabel> 
+ 
+  <Quest_DownedRefugee.label>Mise: Zneschopněný uprchlík</Quest_DownedRefugee.label>
+  <Quest_DownedRefugee.letterText>[PAWN_nameDef] tě zkontaktoval[PAWN_pronoun] skrze vysílačku s žádostí o pomoc. Má zranění a nemůže se hýbat. Bez tvé pomoci zemře během {0} dnů.\n\n[PAWN_nameDef] je {2} a má {1} let. Slibuje, že se k tobě přidá, pokud [PAWN_objective] zachráníš.\n\nMohlo by to tam být nebezpečné, tak pozor.</Quest_DownedRefugee.letterText>
+  <Quest_DownedRefugee.letterLabel>Mise: Zneschopněný uprchlík</Quest_DownedRefugee.letterLabel>
+
+  <Quest_PrisonerRescue.label>Mise: Záchrana zajatce</Quest_PrisonerRescue.label>
+  <Quest_PrisonerRescue.letterText>Zajatci, který je držen frakcí známou jako {0}, se povedlo ukrást vysílačku a zavolat ti!\n\n[PAWN_nameDef] je zadržován[PAWN_pronoun] v blízkém dobře střeženém kempu. Zachraň [PAWN_objective], a přidá se ke tvé kolonii. [PAWN_nameDef] je {2} a má {1} let.</Quest_PrisonerRescue.letterText>
+  <Quest_PrisonerRescue.letterLabel>Mise: Záchrana zajatce</Quest_PrisonerRescue.letterLabel>
+
+  <Quest_PeaceTalks.label>Mise: Mírové rozhovory</Quest_PeaceTalks.label>
+  <Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} z frakce {1}, ti poslal zprávu. Chce s tebou mluvit v nedaleké oblasti.\n\nJe to skvělá příležitost jak zlepšit vztahy s touto frakcí, ale pozor - špatný vyjednavač může udělat více škody než užitku.\n\nNabídka vyprší za {2} dnů.</Quest_PeaceTalks.letterText>
+  <Quest_PeaceTalks.letterLabel>Mise: Mírové rozhovory</Quest_PeaceTalks.letterLabel>
+
+
+  <!-- Main quests -->
+
+  <Quest_JourneyOffer.label>Mise: Úniková vesmírná loď</Quest_JourneyOffer.label>
+  
+  
 </LanguageData>
