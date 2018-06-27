@@ -2,13 +2,13 @@
 <LanguageData>
 
   <DoorOpenSpeed.label>rychlost otevírání dveří</DoorOpenSpeed.label>
-  <DoorOpenSpeed.description>Rychlost, jakou se otevírají dveře.</DoorOpenSpeed.description>
+  <DoorOpenSpeed.description>Rychlost, jakou se otevírají dveře. Pomalé dveře zpomalí každého, kdo jimi prochází.</DoorOpenSpeed.description>
 
   <BedRestEffectiveness.label>efektivita odpočinku</BedRestEffectiveness.label>
   <BedRestEffectiveness.description>Jak rychle lidé nabírají při spánku odpočinek.</BedRestEffectiveness.description>
 
   <TrapMeleeDamage.label>poškození způsobené pastí</TrapMeleeDamage.label>
-  <TrapMeleeDamage.description>Kolik past obvykle způsobí poškození. Skutečné poškození se může poněkud lišit.</TrapMeleeDamage.description>
+  <TrapMeleeDamage.description>Kolik škody v průměru past obvykle způsobí. Skutečné škody se v každém případě náhodně mění.</TrapMeleeDamage.description>
 
   <TrapSpringChance.label>šance spuštění pasti</TrapSpringChance.label>
   <TrapSpringChance.description>S jakou pravděpodobností se na pasti aktivuje pružina, když přes ni projde neuvědomělá bytost.</TrapSpringChance.description>
@@ -26,11 +26,14 @@
   <WorkTableWorkSpeedFactor.label>faktor rychlosti práce</WorkTableWorkSpeedFactor.label>
   <WorkTableWorkSpeedFactor.description>Rychlost práce je násobena touto hodnotou.</WorkTableWorkSpeedFactor.description>
 
-  <EntertainmentStrengthFactor.label>faktor množství zábavy</EntertainmentStrengthFactor.label>
-  <EntertainmentStrengthFactor.description>Jak efektivně tento předmět zabaví lidi a způsobuje jim radost.</EntertainmentStrengthFactor.description>
+  <WorkTableEfficiencyFactor.label>faktor efektivity práce</WorkTableEfficiencyFactor.label>
+  <WorkTableEfficiencyFactor.description>Efektivita práce je násobena touto hodnotou.</WorkTableEfficiencyFactor.description>
+  
+  <JoyGainFactor.label>síla relaxace</JoyGainFactor.label>
+  <JoyGainFactor.description>Jak efektivně tento předmět zabaví lidi a naplní potřebu relaxace.</JoyGainFactor.description>
 
   <SurgerySuccessChanceFactor.label>faktor úspěchu operace</SurgerySuccessChanceFactor.label>
-  <SurgerySuccessChanceFactor.description>Násobitel šance, s jakou se uspěje s operací provedenou zde. Šance chirurgické úspěšnosti jsou ovlivněny také chirurgem a použitými léky.</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>Násobitel šance, s jakou se uspěje s operací provedenou zde. Šance chirurgické úspěšnosti je ovlivněna mnoha dalšími faktory, včetně schopnosti chirurga a použitými léky.</SurgerySuccessChanceFactor.description>
   <SurgerySuccessChanceFactor.parts.0.customLabel>Čistota pokoje</SurgerySuccessChanceFactor.parts.0.customLabel>
   
 
