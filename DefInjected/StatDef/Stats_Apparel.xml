@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ArmorRating_Blunt.label>Odolnost zbroje - tupé</ArmorRating_Blunt.label>
-  <ArmorRating_Blunt.description>Hodnota odolnosti zbroje proti tupým poškozením jako jsou útoky kyjem, padající kameny, a výbuchy.</ArmorRating_Blunt.description>
-
+  <StuffEffectMultiplierInsulation_Cold.label>Izolace - chlad - násobitel účinnosti materiálu</StuffEffectMultiplierInsulation_Cold.label>
+  <StuffEffectMultiplierInsulation_Heat.label>Izolace - teplo - násobitel účinnosti materiálu</StuffEffectMultiplierInsulation_Heat.label>
+  <StuffEffectMultiplierArmor.label>Zbroj - násobitel účinnosti materiálu</StuffEffectMultiplierArmor.label>
+  
   <ArmorRating_Sharp.label>Odolnost zbroje - ostré</ArmorRating_Sharp.label>
   <ArmorRating_Sharp.description>Hodnota odolnosti zbroje proti ostrým poškozením jako jsou projektily, bodnutí nožem, a zvířecí pokousání.</ArmorRating_Sharp.description>
+
+  <ArmorRating_Blunt.label>Odolnost zbroje - tupé</ArmorRating_Blunt.label>
+  <ArmorRating_Blunt.description>Hodnota odolnosti zbroje proti tupým poškozením jako jsou údery kyjem, padající kameny, a výbuchy.</ArmorRating_Blunt.description>
 
   <ArmorRating_Heat.label>Odolnost zbroje - tepelné</ArmorRating_Heat.label>
   <ArmorRating_Heat.description>Hodnota odolnosti zbroje proti tepelným poškozením souvisejícím s popálením.</ArmorRating_Heat.description>
 
-  <ArmorRating_Electric.label>Odolnost zbroje - elektrické</ArmorRating_Electric.label>
-  <ArmorRating_Electric.description>Hodnota odolnosti zbroje proti elektrickým poškozením jako jsou EMP výboje.</ArmorRating_Electric.description>
-
   <Insulation_Cold.label>Izolace zbroje - chlad</Insulation_Cold.label>
-  <Insulation_Cold.description>Hodnota izolace, na kolik tento oděv chrání nositele před nízkou teplotou při nošení.</Insulation_Cold.description>
+  <Insulation_Cold.description>Hodnota izolace, o kolik tento oděv vylepší minimální příjemnou teplotu nositele. Vyšší hodnoty umožňují přežívat při chladnějších teplotách.</Insulation_Cold.description>
 
   <Insulation_Heat.label>Izolace zbroje - teplo</Insulation_Heat.label>
-  <Insulation_Heat.description>Hodnota izolace, na kolik tento oděv chrání nositele před vysokou teplotou při nošení.</Insulation_Heat.description>
+  <Insulation_Heat.description>Hodnota izolace, o kolik tento oděv vylepší maximální příjemnou teplotu nositele. Vyšší hodnoty umožňují přežívat při teplejších teplotách.</Insulation_Heat.description>
 
   <EnergyShieldEnergyMax.label>Maximální energie štítu</EnergyShieldEnergyMax.label>
-  <EnergyShieldEnergyMax.description>Maximální energie štítu v opasku, kterou může mít najednou. Více energie může absorbovat větší poškození.</EnergyShieldEnergyMax.description>
+  <EnergyShieldEnergyMax.description>Maximální energie štítu v opasku, kterou může mít najednou. Více energie může absorbovat více škod.</EnergyShieldEnergyMax.description>
 
   <EnergyShieldRechargeRate.label>Rychlost nabíjení štítu</EnergyShieldRechargeRate.label>
   <EnergyShieldRechargeRate.description>Rychlost, jakou štít získává energii, pokud není rozbitý.</EnergyShieldRechargeRate.description>
@@ -30,5 +31,9 @@
   <SmokepopBeltRadius.description>Oblast, kterou zakryje kouř při detonaci opasku.</SmokepopBeltRadius.description>
   <SmokepopBeltRadius.formatString>{0} buněk</SmokepopBeltRadius.formatString>
 
-
+  <EquipDelay.label>Prodleva při vybavení se</EquipDelay.label>
+  <EquipDelay.description>Čas potřebný k vybavení se nebo odložení tohoto předmětu.</EquipDelay.description>
+  <EquipDelay.formatString>{0}s</EquipDelay.formatString>
+  
+  
 </LanguageData>
