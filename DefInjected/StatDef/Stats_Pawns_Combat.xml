@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Shooting -->
+  <!-- Melee -->
 
   <MeleeDPS.label>poškození na blízko za sekundu</MeleeDPS.label>
   <MeleeDPS.description>Průměrné poškození za sekundu v boji na blízko. Tento parametr ignoruje obranu cíle jako je úhyb a zbroj.</MeleeDPS.description>
 
+  <MeleeArmorPenetration.label>průraznost zbroje zblízka</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.description>Průměrná průraznost zbroje od všech útoků z blízka. Tato statistika zahrnuje aktuálně používanou zbraň.</MeleeArmorPenetration.description>
+
   <MeleeHitChance.label>šance zásahu na blízko</MeleeHitChance.label>
   <MeleeHitChance.description>Základní šance zásahu cíle v boji na blízko. Cíl se může vyhnout i v případě, že zasáhneš.</MeleeHitChance.description>
 
-  <MeleeDodgeChance.label>šance úhybu na blízko</MeleeDodgeChance.label>
-  <MeleeDodgeChance.description>Základní šance vyhnout se útoku na blízko, který by jinak zasáhl cíl. Charaktery se nebudou vyhýbat, pokud míří nebo střílí zbraní na dálku.</MeleeDodgeChance.description>
+  <MeleeDodgeChance.label>šance vyhnutí se na blízko</MeleeDodgeChance.label>
+  <MeleeDodgeChance.description>Základní šance vyhnout se útoku na blízko, který by jinak zasáhl cíl. Postavy se nebudou vyhýbat, pokud míří nebo střílí zbraní na dálku.</MeleeDodgeChance.description>
+
+
+  <!-- Shooting -->
 
   <ShootingAccuracy.label>přesnost střelby</ShootingAccuracy.label>
-  <ShootingAccuracy.description>Základní šance úspěšného zásahu střelbou na buňku vzdálenosti. Šanci na zásah také ovlivňuje cíl, krytí, a okolní podmínky, a může být zobrazeno výběrem střelce a přejetím myší na cíl.</ShootingAccuracy.description>
+  <ShootingAccuracy.description>Základní šance úspěšného zásahu střelbou na buňku vzdálenosti. Šanci na zásah ovlivňuje mnoho dalších faktorů. Šanci na zásah můžeš zobrazit tím, že vybereš střelce a najedeš ukazatelem myši na cíl.</ShootingAccuracy.description>
 
   <AimingDelayFactor.label>faktor zpoždění střely</AimingDelayFactor.label>
   <AimingDelayFactor.description>Jak dlouho trvá vystřelit po zaměření cíle.</AimingDelayFactor.description>
