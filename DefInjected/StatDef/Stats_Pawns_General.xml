@@ -3,19 +3,25 @@
 
   <MoveSpeed.label>rychlost pohybu</MoveSpeed.label>
   <MoveSpeed.description>Rychlost pohybu po světě v buňkách za sekundu.</MoveSpeed.description>
-  <MoveSpeed.formatString>{0} buněk/s</MoveSpeed.formatString>
+  <MoveSpeed.formatString>{0} buňek/s</MoveSpeed.formatString>
 
   <MentalBreakThreshold.label>práh psychického zhroucení</MentalBreakThreshold.label>
-  <MentalBreakThreshold.description>Čím déle zůstává nálada pod touto úrovni, tím více hrozí psychické zhroucení.</MentalBreakThreshold.description>
+  <MentalBreakThreshold.description>Čím déle zůstává nálada pod touto úrovni, tím více hrozí psychické zhroucení. Závažnost psychického zhroucení závisí na tom, jak moc nízko pod prahem je.</MentalBreakThreshold.description>
 
   <PsychicSensitivity.label>psychická citlivost</PsychicSensitivity.label>
-  <PsychicSensitivity.description>Násobitel vlivu psychických jevů, které ovlivňují tuto osobu.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>Násobitel vlivu psychických jevů, které ovlivňují tuto osobu. Velmi citliví lidé trpí o to více z negativních psychických jevů, a naopak více těží z pozitivních jevů.</PsychicSensitivity.description>
 
   <ToxicSensitivity.label>toxická citlivost</ToxicSensitivity.label>
-  <ToxicSensitivity.description>Násobitel vlivu nahromaděných toxických látek této osoby.</ToxicSensitivity.description>
+  <ToxicSensitivity.description>Násobitel vlivu nahromaděných toxických látek tohoto stvoření.</ToxicSensitivity.description>
 
   <GlobalLearningFactor.label>faktor učení</GlobalLearningFactor.label>
-  <GlobalLearningFactor.description>Globální efektivita učení pro všechny dovednosti.</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>Násobitel rychlosti učení pro všechny dovednosti.</GlobalLearningFactor.description>
+
+  <HungerRateMultiplier.label>rychlost vyhladovění</HungerRateMultiplier.label>
+  <HungerRateMultiplier.description>Násobitel, jak rychle stvoření začne hladovět.</HungerRateMultiplier.description>
+
+  <RestRateMultiplier.label>rychlost odpočinku</RestRateMultiplier.label>
+  <RestRateMultiplier.description>Násobitel, jak rychle stvoření nabírá odpočinek při spánku.</RestRateMultiplier.description>
 
   <EatingSpeed.label>rychlost konzumace jídla</EatingSpeed.label>
   <EatingSpeed.description>Násobitel rychlosti konzumace jídla.</EatingSpeed.description>
@@ -30,19 +36,22 @@
   <ImmunityGainSpeed.description>Rychlost, s jakou tato postava získává imunitu vůči nemocem. Pokud je hodnota příliš nízká, postava může zemřít na nemoc před rozvinutím imunity.</ImmunityGainSpeed.description>
 
   <CarryingCapacity.label>kapacita nošení</CarryingCapacity.label>
-  <CarryingCapacity.description>Množství věcí, které tato bytost dokáže nést v rukou, ústech nebo jiným způsobem.</CarryingCapacity.description>
+  <CarryingCapacity.description>Množství věcí, které toto stvoření dokáže nést v rukou, ústech nebo jiným způsobem. Tato kapacita není aplikována na schopnost přepravovat náklad na dlouhých trasách po mapě světa.</CarryingCapacity.description>
 
   <MeatAmount.label>množství masa</MeatAmount.label>
-  <MeatAmount.description>Množství masa, které je možné získat při zpracování této bytosti na porcovacím stole.</MeatAmount.description>
+  <MeatAmount.description>Množství masa získatelné při bourání tohoto stvoření.</MeatAmount.description>
 
   <LeatherAmount.label>množství kůže</LeatherAmount.label>
-  <LeatherAmount.description>Množství kůže, které je možné získat při zpracování této bytosti na porcovacím stole.</LeatherAmount.description>
+  <LeatherAmount.description>Množství kůže získatelné při bourání tohoto stvoření.</LeatherAmount.description>
 
   <MinimumHandlingSkill.label>minimální dovednost Zvířata</MinimumHandlingSkill.label>
-  <MinimumHandlingSkill.description>Tato bytost nemůže být ochočena, vycvičena, a ovládána někým s menší dovedností, než je tato hodnota.</MinimumHandlingSkill.description>
+  <MinimumHandlingSkill.description>Tato bytost nemůže být ochočena, vycvičena, a ovládána někým, kdo má nižší dovednost Zvířata, než je tato hodnota.</MinimumHandlingSkill.description>
 
   <PainShockThreshold.label>práh bolesti</PainShockThreshold.label>
-  <PainShockThreshold.description>Bod, při kterém je tato bytost poslána k zemi kvůli bolesti.</PainShockThreshold.description>
+  <PainShockThreshold.description>Úroveň bolesti, při němž je toto stvoření posláno k zemi.</PainShockThreshold.description>
   
+  <ForagedNutritionPerDay.label>nasbírané množství potravy</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.description>Množství jídla, které může tato osoba automaticky nasbírat za den při cestování s karavanou.</ForagedNutritionPerDay.description>
   
+    
 </LanguageData>
