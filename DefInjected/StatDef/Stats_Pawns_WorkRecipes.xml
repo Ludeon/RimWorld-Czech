@@ -3,50 +3,47 @@
 
   <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
-  <SculptingSpeed.label>rychlost výroby soch</SculptingSpeed.label>
-  <SculptingSpeed.description>Rychlost, jakou tato osoba modeluje sochy. Poznámka: Úroveň dovednosti ovlivňuje kvalitu vytvořených soch, nikoliv rychlost výroby soch.</SculptingSpeed.description>
+  <SculptingSpeed.label>rychlost tvoření soch</SculptingSpeed.label>
+  <SculptingSpeed.description>Rychlost, jakou tato osoba tvoří sochy.\n\nTohle ovlivňuje pouze rychlost tvoření soch, nikoliv jejich kvalitu. Kvalita je určena uměleckou dovedností sochaře.</SculptingSpeed.description>
 
   <TailoringSpeed.label>rychlost šití</TailoringSpeed.label>
-  <TailoringSpeed.description>Rychlost, jakou tato osoba vyrábí oblečení. Poznámka: Úroveň dovednosti ovlivňuje kvalitu ušitých oděvů, nikoliv rychlost šití.</TailoringSpeed.description>
+  <TailoringSpeed.description>Rychlost, jakou tato osoba vyrábí oblečení.\n\nTohle ovlivňuje pouze rychlost výroby oblečení, nikoliv jejich kvalitu. Kvalita je určena dovedností krejčího.</TailoringSpeed.description>
 
   <SmithingSpeed.label>rychlost kování</SmithingSpeed.label>
-  <SmithingSpeed.description>Rychlost, jakou tato osoba kove nebo vyrábí zbraně, stroje, munici, a nástroje. Poznámka: Úroveň dovednosti ovlivňuje kvalitu vytvořených věcí, nikoliv rychlost kování.</SmithingSpeed.description>
+  <SmithingSpeed.description>Rychlost, jakou tato osoba vyrábí zbraně, stroje a munici.\n\nTohle ovlivňuje pouze rychlost výroby předmětů, nikoliv jejich kvalitu. Kvalita je určena dovedností řemeslníka.</SmithingSpeed.description>
 
 
   <!-- Production recipes - speed affected by skill because there is no output quality -->
 
-  <DrugProductionSpeed.label>rychlost produkce léčiv</DrugProductionSpeed.label>
-  <DrugProductionSpeed.description>Rychlost, jakou tato osoba produkuje léčiva.</DrugProductionSpeed.description>
+  <DrugProductionSpeed.label>rychlost produkce léčiv/drog</DrugProductionSpeed.label>
+  <DrugProductionSpeed.description>Rychlost, jakou tato osoba produkuje léčiva nebo drogy.</DrugProductionSpeed.description>
 
   <CookSpeed.label>rychlost vaření</CookSpeed.label>
   <CookSpeed.description>Rychlost, jakou tato osoba připravuje pokrmy.</CookSpeed.description>
 
   <FoodPoisonChance.label>šance otravy jídla</FoodPoisonChance.label>
-  <FoodPoisonChance.description>Šance, jakou tato postava nechtěně otráví jídlo při vaření.</FoodPoisonChance.description>
+  <FoodPoisonChance.description>Šance, jakou tato postava neuvědoměle otráví jídlo při vaření. Otrávené jídlo dočasně oslabí každého, kdo ho pozře.</FoodPoisonChance.description>
 
   <BrewingSpeed.label>rychlost vaření piva</BrewingSpeed.label>
   <BrewingSpeed.description>Rychlost, jakou tato osoba vaří pivo.</BrewingSpeed.description>
 
   <ButcheryFleshSpeed.label>rychlost porcování masa</ButcheryFleshSpeed.label>
-  <ButcheryFleshSpeed.description>Rychlost, jakou tato osoba porcuje čerstvé bytosti.</ButcheryFleshSpeed.description>
+  <ButcheryFleshSpeed.description>Rychlost, jakou tato osoba porcuje maso tvora.</ButcheryFleshSpeed.description>
 
   <ButcheryMechanoidSpeed.label>rychlost rozebírání mechanoida</ButcheryMechanoidSpeed.label>
   <ButcheryMechanoidSpeed.description>Rychlost, jakou tato osoba dokáže rozebrat mechanoida.</ButcheryMechanoidSpeed.description>
 
-  <MechanoidOperationSuccessChance.label>šance na úspěch operace mechanoida</MechanoidOperationSuccessChance.label>
-  <MechanoidOperationSuccessChance.description>Pravděpodobnost, jakou tato osoba uspěje při pokusu provést operaci na mechanoidovi. Neúspěchy mohou vyústit v jednoduchém promarnění času, nebo dokonce ke katastrofickým škodám na subjektu.</MechanoidOperationSuccessChance.description>
-
   <ButcheryFleshEfficiency.label>efektivita porcování masa</ButcheryFleshEfficiency.label>
-  <ButcheryFleshEfficiency.description>Násobitel množství masa vyprodukovaného při porcování bytostí.</ButcheryFleshEfficiency.description>
+  <ButcheryFleshEfficiency.description>Množství vyprodukovaného masa při porcování tvorů. Skutečné množství je ovlivněno velikostí tvora.</ButcheryFleshEfficiency.description>
 
   <ButcheryMechanoidEfficiency.label>efektivita rozebírání mechanoida</ButcheryMechanoidEfficiency.label>
-  <ButcheryMechanoidEfficiency.description>Násobitel množství získaných materiálů, když osoba rozebírá neaktivního mechanoida.</ButcheryMechanoidEfficiency.description>
+  <ButcheryMechanoidEfficiency.description>Množství materiálů, které tato osoba získá při rozložení neaktivního mechanoida. Skutečné množství je ovlivněno velikostí mechanoida.</ButcheryMechanoidEfficiency.description>
 
 
   <!-- Dumb recipes - not affected by skill because there's no skill component -->
 
   <SmeltingSpeed.label>rychlost tavení</SmeltingSpeed.label>
-  <SmeltingSpeed.description>Rychlost, jakou tato osoba taví věci. Poznámka: Vzhledem k tomu, že je to práce pro hloupé, jeho rychlost není ovlivněna žádnou dovedností.</SmeltingSpeed.description>
+  <SmeltingSpeed.description>Rychlost, jakou tato osoba taví věci.\n\nVzhledem k tomu, že je to práce pro hlupáky, tak rychlost tavení není ovlivněna žádnou dovedností.</SmeltingSpeed.description>
 
 
 </LanguageData>
