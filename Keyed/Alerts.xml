@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ClickToJumpToProblem>Kliknutím zobraz problém</ClickToJumpToProblem>
+  <ClickToJumpToProblem>Kliknutím zobrazíš problém</ClickToJumpToProblem>
 
   <BreakRiskMinor>Riziko psychického zhroucení (malé)</BreakRiskMinor>
   <BreakRiskMajor>Riziko psychického zhroucení (velké)</BreakRiskMajor>
@@ -35,7 +35,7 @@
   <NoMedicineDesc>Ve skladišti už nemáš žádná léčiva.\n\nNakup více léčiv u obchodníků.</NoMedicineDesc>
 
   <NeedColonistBeds>Potřebuješ postele</NeedColonistBeds>
-  <NeedColonistBedsDesc>Máš více kolonistů než postelí. Ostatní by si také chtěli lehnout.\n\nVyrob další postele, nebo změň vězeňskou na normální.\n\nPokud nemáš zdroje na jejich výrobu, tak alespoň někam umísťi místa na spaní, která jsou zdarma.</NeedColonistBedsDesc>
+  <NeedColonistBedsDesc>Máš více kolonistů než postelí. Ostatní by si také chtěli lehnout.\n\nVyrob další postele, nebo změň vězeňskou na normální.\n\nPokud nemáš prostředky na jejich výrobu, tak alespoň někam umísti místa na spaní, která jsou zdarma.</NeedColonistBedsDesc>
 
   <HunterLacksWeapon>Lovec nemá stř. zbraň</HunterLacksWeapon>
   <HunterLacksWeaponDesc>Kolonista přiřazený jako lovec nemá zbraň na dálku.\n\nNebude lovit, dokud nějakou nedostane.</HunterLacksWeaponDesc>
@@ -59,14 +59,21 @@
   <NeedFoodHopperDesc>Sice máš dávkovač nutriční pasty, ale nemáš žádnou násypku.\n\nPro práci dávkovače potřebuješ násypky, které obsahují syrové jídlo.\n\nPostav násypku vedle dávkovače.</NeedFoodHopperDesc>
 
   <NeedMealSource>Potřebuješ zdroj jídla</NeedMealSource>
-  <NeedMealSourceDesc>Nemůžeš žádným způsobem ze surovin vyrobit pořádné jídlo.\n\nPostav sporák, ohniště nebo dávkovač nutriční pasty.\n\n(Nesmí být ve vězeňské cele. Tam by ho kolonisté nemohli používat.)</NeedMealSourceDesc>
+  <NeedMealSourceDesc>Nemáš žádnou možnost, jak bys připravil pořádné pokrmy ze syrových potravin.\n\nPostav sporák, ohniště nebo dávkovač nutriční pasty.\n\n(Nesmí být ve vězeňské cele, protože by ho kolonisté nemohli používat.)</NeedMealSourceDesc>
 
-  <NeedJoySource>Potřebuješ zdroj zábavy</NeedJoySource>
-  <NeedJoySourceDesc>Tví kolonisté si potřebují občas trochu vydechnout, ale není tu k tomu žádná možnost.\n\nPomoz tak, že jim postavíš tyč na podkovy, šachový stolek, nebo jim dopřej čokoládu, nebo jiné zdroje relaxace.</NeedJoySourceDesc>
+  <NeedJoySource>Potřebuješ rozmanitost relaxace</NeedJoySource>
+  <NeedJoySourceDesc>{1} nemá k dispozici dostatek různorodých typů relaxace. Na aktuální úrovni očekávání ({2}) {0} nestačí, kolonisté jich vyžadují {3}, aby zůstali spokojeni. Zajisti jim větší rozmanitost relaxačních aktivit.\n\n{4}\n\n{5}\n\nPoznámka: Můžeš si zkontrolovat typ relaxace u některých předmětů na stránce statistik, která je dostupná po kliknutí na tlačítko 'i' v okně předmětu.</NeedJoySourceDesc>
+  <AvailableRecreationTypes>Dostupné typy relaxací</AvailableRecreationTypes>
+  <MissingRecreationTypes>Chybějící typy relaxací</MissingRecreationTypes>
+  <CurrentExpectationsAndRecreation>Na aktuální úrovni očekávání ({0}), každá tolerance klesá o {1} za den, pokud je vzhůru.\n\nDoporučený počet typů relaxací: {2}</CurrentExpectationsAndRecreation>
+  <bored>již nezabaví</bored>
 
+  <Boredom>Nuda</Boredom>
+  <BoredomDesc>Tito lidé buď vyžadují relaxační aktivity, a nebo by je měli dle rozvrhu provádět, ale jsou již znuděni z každého dostupného zdroje relaxace:\n\n{0}\n\nZajisti jim větší rozmanitost relaxačních aktivit.\n\nAktuálně dostupné typy relaxací pro {1}:\n\n{2}</BoredomDesc>
+                     
   <NeedBatteries>Potřebuješ baterie</NeedBatteries>
   <NeedBatteriesDesc>Máš sice solární nebo větrný generátor, ale žádné baterie. To znamená, že o elektřinu přijdeš pokaždé, když zapadne slunce nebo přestane foukat vítr.\n\nPostav jednu nebo dvě baterie, aby sis zajistil stálý přísun elektrické energie.</NeedBatteriesDesc>
-
+                          
   <BrawlerHasRangedWeapon>Rváč má zbraň na dálku</BrawlerHasRangedWeapon>
   <BrawlerHasRangedWeaponDesc>Jeden z tvých kolonistů má hlavní rys Rváč, přičemž má zbraň na dálku. To ho dělá velice nešťastným.</BrawlerHasRangedWeaponDesc>
 
