@@ -3,11 +3,11 @@
 
   <ClickToJumpToProblem>Kliknutím zobrazíš problém</ClickToJumpToProblem>
 
-  <BreakRiskMinor>Riziko psychického zhroucení (malé)</BreakRiskMinor>
-  <BreakRiskMajor>Riziko psychického zhroucení (velké)</BreakRiskMajor>
-  <BreakRiskExtreme>Riziko psychického zhroucení (extrémní)</BreakRiskExtreme>
-  <BreakRiskMinorDesc>Tito kolonisté mají špatnou náladu a mohou každým okamžikem utrpět lehké psychické zhroucení:\n\n{0}</BreakRiskMinorDesc>
-  <BreakRiskMajorDesc>Tito kolonisté jsou velmi rozmrzelí a mohou každým okamžikem utrpět těžké psychické zhroucení:\n\n{0}</BreakRiskMajorDesc>
+  <BreakRiskMinor>Menší riziko zhroucení</BreakRiskMinor>
+  <BreakRiskMajor>Vážné riziko zhroucení</BreakRiskMajor>
+  <BreakRiskExtreme>Extrémní riziko zhroucení</BreakRiskExtreme>
+  <BreakRiskMinorDesc>Tito kolonisté mají špatnou náladu a mohou každým okamžikem utrpět menší psychické zhroucení:\n\n{0}</BreakRiskMinorDesc>
+  <BreakRiskMajorDesc>Tito kolonisté mají velmi špatnou náladu a mohou každým okamžikem utrpět vážné psychické zhroucení:\n\n{0}</BreakRiskMajorDesc>
   <BreakRiskExtremeDesc>Tito kolonisté jsou pod velmi silným tlakem a mohou každou chvíli utrpět extrémní (a potenciálně násilné) psychické zhroucení:\n\n{0}</BreakRiskExtremeDesc>
   <BreakRiskDescEnding>Zkontroluj jejich záložku Potřeby, abys zjistil, co je trápí.\n\nAby se kolonisté cítili lépe, můžeš jim v tom pomoci tím, že jim připravíš nějaké fantastické jídlo, dáš jim více hodin denně na relaxaci, přičemž jim poskytneš lepší zdroje relaxace, umístíš je do příjemně hezkého prostředí, dopřeješ jim pití alkoholu a kouření, a ještě mnohem více.</BreakRiskDescEnding>
 
@@ -19,26 +19,26 @@
   <NeedDefensesDesc>Už tu nějakou dobu jsi a určitě jsi byl také pravděpodobně odhalen. Brzy tě mohou začít napadat piráti.\n\nMěl bys připravit obranu, jako jsou pytle s pískem nebo pasti.</NeedDefensesDesc>
 
   <NeedDoctor>Potřebuješ doktora</NeedDoctor>
-  <NeedDoctorDesc>Tito kolonisté potřebují lékařské ošetření. Musí o ně být postaráno, ale není tu žádný doktor:\n\n{0}\nPřiděl některému ze zdravých kolonistů druh činnosti Doktor. Když o rány nebude postaráno, mohou způsobit trvalá poškození.</NeedDoctorDesc>
+  <NeedDoctorDesc>Tito kolonisté potřebují lékařskou péči, ale nemáš žádné zdravé kolonisty přidělené jako doktory:\n\n{0}\nPřiděl některému zdravému kolonistovi druh činnosti Doktor. Pokud rány nebudou léčeny, nemusí se řádně zahojit, a mohou se stát trvalými.</NeedDoctorDesc>
 
   <NeedMiner>Potřebuješ horníka</NeedMiner>
-  <NeedMinerDesc>Sice máš navolenou akci těžby, ale není nikdo, kdo by pracoval.\n\nPřiřaď někomu činnost Horník.</NeedMinerDesc>
+  <NeedMinerDesc>Sice jsi určil, které horniny mají být vytěženy, ale nemáš žádného kolonistu, který by prováděl práci horníka.\n\nPřiděl některému kolonistovi druh činnosti Horník.</NeedMinerDesc>
 
   <NeedWarden>Potřebuješ dozorce</NeedWarden>
-  <NeedWardenDesc>Máš vězně, ale nemáš člověka, co by je hlídal.\n\nPřiřaď někomu činnost Dozorce.</NeedWardenDesc>
+  <NeedWardenDesc>Máš vězně, ale nemáš žádného kolonistu, který by prováděl práci dozorce.\n\nPřiděl některému kolonistovi druh činnosti Dozorce.</NeedWardenDesc>
 
   <LowFood>Nízký stav jídla</LowFood>
-  <LowFoodDesc>Máš nebezpečně málo potravin.\n\nHodnota plných ukazatelů ve skladišti: {0}\nKolonisté a vězni dostávající jídlo: {1}\nDenní hodnota potravin ve skladišti: {2}\n\nAbys získal jídlo, něco vypěstuj, kup, najdi nebo zabij.</LowFoodDesc>
+  <LowFoodDesc>Máš nebezpečně málo jídla.\n\n    Počet naplnění ukazatelů ve skladišti: {0}\n    Kolonistů a vězňů dostávající jídlo: {1}\n    Počet dnů do vyčerpání rezerv: {2}\n\nAbys získal jídlo, něco vypěstuj, kup, najdi nebo zabij.</LowFoodDesc>
 
   <LowMedicine>Nízký stav léčiv</LowMedicine>
-  <LowMedicineDesc>Ve skladišti už máš jen {0} ks léčiv.\n\nNakup více léčiv u obchodníků.</LowMedicineDesc>
-  <NoMedicineDesc>Ve skladišti už nemáš žádná léčiva.\n\nNakup více léčiv u obchodníků.</NoMedicineDesc>
+  <LowMedicineDesc>Ve skladišti už máš jen {0}ks léčiv.\n\nNakup u obchodníků více léčiv.</LowMedicineDesc>
+  <NoMedicineDesc>Ve skladišti už nemáš žádná léčiva.\n\nNakup u obchodníků více léčiv.</NoMedicineDesc>
 
   <NeedColonistBeds>Potřebuješ postele</NeedColonistBeds>
   <NeedColonistBedsDesc>Máš více kolonistů než postelí. Ostatní by si také chtěli lehnout.\n\nVyrob další postele, nebo změň vězeňskou na normální.\n\nPokud nemáš prostředky na jejich výrobu, tak alespoň někam umísti místa na spaní, která jsou zdarma.</NeedColonistBedsDesc>
 
   <HunterLacksWeapon>Lovec nemá stř. zbraň</HunterLacksWeapon>
-  <HunterLacksWeaponDesc>Kolonista přiřazený jako lovec nemá zbraň na dálku.\n\nNebude lovit, dokud nějakou nedostane.</HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>Kolonista je přidělený jako lovec, ale nemá zbraň na dálku.\n\nNebude lovit, dokud nějakou nedostane.</HunterLacksWeaponDesc>
 
   <AlertTatteredApparel>Roztrhané oblečení</AlertTatteredApparel>
   <AlertTatteredApparelDesc>Tito kolonisté nosí roztrhané oblečení a jsou kvůli tomu nespokojení:\n\n{0}\nDej jim oblečení, které není tak silně poškozené.\n\nOblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</AlertTatteredApparelDesc>
@@ -46,17 +46,17 @@
   <AlertUnhappyNudity>Nešťastní naháči</AlertUnhappyNudity>
   <AlertUnhappyNudityDesc>Tito kolonisté jsou nazí a nejsou z toho zrovna šťastní:\n\n{0}\nSežeň jim nějaké oblečení.\n\nOblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</AlertUnhappyNudityDesc>
 
-  <Starvation>Hladomor</Starvation>
-  <StarvationDesc>Tito kolonisté umírají hlady:\n\n{0}\nSežeň jim nějaké jídlo.</StarvationDesc>
+  <Starvation>Hladovění</Starvation>
+  <StarvationDesc>Tito kolonisté hladoví:\n\n{0}\nSežeň jim nějaké jídlo.</StarvationDesc>
 
   <StarvationAnimals>Hladovění zvířat</StarvationAnimals>
-  <StarvationAnimalsDesc>Tato zvířata v kolonii umírají hlady:\n\n{0}\nSežeň jim nějakou potravu.</StarvationAnimalsDesc>
+  <StarvationAnimalsDesc>Tato zvířata patřící kolonii hladoví:\n\n{0}\nSežeň jim nějakou potravu.</StarvationAnimalsDesc>
 
   <Exhaustion>Vyčerpání</Exhaustion>
-  <ExhaustionDesc>Tito kolonisté si opravdu potřebují odpočinout:\n\n{0}\nDopřej jim trochu odpočinku. Potřebují postel určenou pro kolonisty. Také se ujisti, že je nemáš ve vojenském náboru.</ExhaustionDesc>
+  <ExhaustionDesc>Tito kolonisté jsou vyčerpaní a potřebují si odpočinout:\n\n{0}\nDopřej jim trochu odpočinku. Potřebují postel určenou pro kolonisty. Také se ujisti, že je nemáš ve vojenském náboru.</ExhaustionDesc>
 
   <NeedFoodHopper>Potřebuješ násypku</NeedFoodHopper>
-  <NeedFoodHopperDesc>Sice máš dávkovač nutriční pasty, ale nemáš žádnou násypku.\n\nPro práci dávkovače potřebuješ násypky, které obsahují syrové jídlo.\n\nPostav násypku vedle dávkovače.</NeedFoodHopperDesc>
+  <NeedFoodHopperDesc>Máš dávkovač nutriční pasty, ale bez připojené násypky.\n\nPro práci dávkovače potřebuješ připojit násypku, která bude naplněná syrovými potravinami.\n\nPostav násypku přiléhající k dávkovači.</NeedFoodHopperDesc>
 
   <NeedMealSource>Potřebuješ zdroj jídla</NeedMealSource>
   <NeedMealSourceDesc>Nemáš žádnou možnost, jak bys připravil pořádné pokrmy ze syrových potravin.\n\nPostav sporák, ohniště nebo dávkovač nutriční pasty.\n\n(Nesmí být ve vězeňské cele, protože by ho kolonisté nemohli používat.)</NeedMealSourceDesc>
@@ -75,22 +75,22 @@
   <NeedBatteriesDesc>Máš sice solární nebo větrný generátor, ale žádné baterie. To znamená, že o elektřinu přijdeš pokaždé, když zapadne slunce nebo přestane foukat vítr.\n\nPostav jednu nebo dvě baterie, aby sis zajistil stálý přísun elektrické energie.</NeedBatteriesDesc>
                           
   <BrawlerHasRangedWeapon>Rváč má zbraň na dálku</BrawlerHasRangedWeapon>
-  <BrawlerHasRangedWeaponDesc>Jeden z tvých kolonistů má hlavní rys Rváč, přičemž má zbraň na dálku. To ho dělá velice nešťastným.</BrawlerHasRangedWeaponDesc>
+  <BrawlerHasRangedWeaponDesc>Jeden z tvých kolonistů má hlavní rys Rváč, přičemž má zbraň na dálku. Je z toho velmi nešťastný.</BrawlerHasRangedWeaponDesc>
 
   <ShieldUserHasRangedWeapon>Osoba se štítem má zbraň na dálku</ShieldUserHasRangedWeapon>
   <ShieldUserHasRangedWeaponDesc>Jeden z tvých kolonistů má opasek s energoštítem, přičemž má zbraň na dálku. Nebude moci ze své zbraně střílet skrze štít (kromě na cíle, které jsou v blízkosti doteku).</ShieldUserHasRangedWeaponDesc>
 
   <NeedResearchProject>Potřebuješ výzkum</NeedResearchProject>
-  <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený žádný projekt.\n\nOtevři menu Výzkum a vyber si projekt.</NeedResearchProjectDesc>
+  <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený žádný projekt.\n\nOtevři záložku Výzkum a vyber si projekt.</NeedResearchProjectDesc>
 
   <ColonistsIdle>Nečinní kolonisté: {0}</ColonistsIdle>
   <ColonistsIdleDesc>Tito kolonisté se poflakují:\n\n{0}\nMěl bys jim najít něco produktivního.</ColonistsIdleDesc>
 
   <ColonistNeedsTreatment>Kolonista potřebuje ošetřit</ColonistNeedsTreatment>
-  <ColonistNeedsTreatmentDesc>Tito kolonisté si žádají lékařskou péči. Bez ní mohou umřít, nebo budou mít trvalé následky.\n\n{0}\nPošli je do zdravotnické postele.\n\n(Nejprve nastav postel jako Zdravotnická a poté do ní přivěď raněného tak, že vybereš raněného kolonistu a klikneš pravým tlačítkem na zdravotnickou postel.)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>Tito kolonisté potřebují lékařskou péči. Bez ní mohou zemřít, nebo budou mít trvalé následky.\n\n{0}\nPošli je do zdravotnické postele.\n\n(Nejprve vyber postel a nastav ji jako zdravotnickou. Poté vyber raněného kolonistu a pravým tlačítkem myši klikni na zdravotnickou postel, čímž se kolonista stane pacientem.)</ColonistNeedsTreatmentDesc>
 
   <AlertHypothermia>Podchlazení</AlertHypothermia>
-  <AlertHypothermiaDesc>Tito kolonisté trpí podchlazením.\n\n{0}\nMožná by jim to chtělo dát teplé oblečení a ve vnitřních prostorách zatopit.</AlertHypothermiaDesc>
+  <AlertHypothermiaDesc>Tito kolonisté trpí podchlazením.\n\n{0}\nUjisti se, že jejich oblečení je vhodné pro toto období a vnitřní prostory jsou správně vyhřívané.</AlertHypothermiaDesc>
 
   <PatientsAwaitingMedicalOperation>Pacientů čeká na operaci: {0}</PatientsAwaitingMedicalOperation>
   <PatientsAwaitingMedicalOperationDesc>Tito pacienti čekají na chirurgický zákrok:\n\n{0}\nUjisti se, že máš k dispozici potřebný lékařský materiál, stejně tak i doktora.</PatientsAwaitingMedicalOperationDesc>
@@ -98,18 +98,18 @@
   <FireInHomeArea>Hoří!</FireInHomeArea>
   <FireInHomeAreaDesc>V domovské oblasti hoří.</FireInHomeAreaDesc>
 
-  <PawnsWithLifeThreateningDisease>Závažná nemoc</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>Tito lidé jsou v ohrožení života:\n\n{0}\nUjisti se, že se jim dostane té nejlepší možné lékařské péče.</PawnsWithLifeThreateningDiseaseDesc>
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>Tito kolonisté jsou v ohrožení života:\n\n{0}\nPokud je to možné, zvaž raději amputaci nebo nahrazení infikované končetiny, než je nechat umřít.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+  <PawnsWithLifeThreateningDisease>Lékařská pohotovost</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>Tito lidé jsou v ohrožení života z důvodu závažného zdravotního stavu:\n\n{0}\nUjisti se, že se jim dostane té nejlepší možné lékařské péče.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>Tito lidé jsou v ohrožení života z důvodu závažného zdravotního stavu:\n\n{0}\nPokud je to možné, zvaž raději amputaci nebo nahrazení infikované končetiny s cílem udržet kolonisty naživu.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <BilliardsNeedsSpace>Kulečníkový stůl potřebuje prostor</BilliardsNeedsSpace>
-  <BilliardsNeedsSpaceDesc>U jednoho ze tvých kulečníkových stolů je překážka. To znemožňuje jeho používání kolonisty.\n\nAby se kulečníkový stůl dal používat, musí mít kolem sebe volné místo.</BilliardsNeedsSpaceDesc>
+  <BilliardsNeedsSpaceDesc>Jeden ze tvých kulečníkových stolů přiléhá k překážce, která znemožňuje kolonistům jeho použití.\n\nKulečníkový stůl potřebuje kolem sebe volný prostor na všech stranách, aby byl použitelný.</BilliardsNeedsSpaceDesc>
 
   <HunterHasShieldAndRangedWeapon>Lovec má štít a zbraň na dálku</HunterHasShieldAndRangedWeapon>
   <HunterHasShieldAndRangedWeaponDesc>Jeden z tvých lovců používá zbraň na dálku a přitom nosí opasek s energoštítem, který znemožňuje střelbu.\n\nDokud mu ten štít neodebereš, nebude schopen lovit.</HunterHasShieldAndRangedWeaponDesc>
 
   <NeedWarmClothes>Potřebuješ teplé oblečení</NeedWarmClothes>
-  <NeedWarmClothesDesc1>Minimálně {0} z tvých kolonistů nebude mít v chladném ročním období žádné teplé oblečení.</NeedWarmClothesDesc1>
+  <NeedWarmClothesDesc1>Nejméně {0} z tvých kolonistů nebude mít v chladném ročním období žádné teplé oblečení.</NeedWarmClothesDesc1>
   <NeedWarmClothesDesc1All>Ani jeden z tvých kolonistů nebude mít v chladném ročním období žádné teplé oblečení.</NeedWarmClothesDesc1All>
   <NeedWarmClothesDesc2>Venkovní teplota dosáhne {0}.\n\nTeplé oblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</NeedWarmClothesDesc2>
 
