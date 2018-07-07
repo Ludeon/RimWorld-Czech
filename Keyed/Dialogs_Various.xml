@@ -3,8 +3,9 @@
 
   <Confirm>Potvrdit</Confirm>
   <GoBack>Zpět</GoBack>
-  <OK>Souhlas</OK>
-
+  <OK>OK</OK>
+  <Close>Zavřít</Close>
+  
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld byl aktualizován z verze {0} na verzi {1}.\n\n</GameUpdatedToNewVersionInitial>
   <GameUpdatedToNewVersionSavesIncompatible>To může způsobit, že uložené pozice a módy z předchozí verze přestanou pracovat.</GameUpdatedToNewVersionSavesIncompatible>
@@ -34,16 +35,16 @@
   <SteamClientMissing>Nepodařilo se zavést Steam API. Možné příčiny:\n\n-Steam neběží.\n-Spuštěno mimo Steam bez souboru steam_appid.txt na správném místě.\n-Spuštění s jiným oprávněním jak Steam klient (např. "jako správce").\n\nVe většině případů tento problém spraví restartování počítače.\n\nMůžeš hrát i tak, ale nebudou zaznamenávány žádné Steam statistiky a nebudou dostupné žádné Steam funkce.</SteamClientMissing>
 
   <!-- Long events -->
-  <InitializingInterface>Zavádím rozhraní</InitializingInterface>
+  <InitializingInterface>Inicializuji rozhraní</InitializingInterface>
   <UnloadingUnusedAssets>Čistím nepoužité prostředky</UnloadingUnusedAssets>
   <LoadingAllActiveMods>Načítám všechny aktivní módy</LoadingAllActiveMods>
   <LoadingDefs>Načítám definice</LoadingDefs>
   <LoadingAssets>Načítám prostředky</LoadingAssets>
-  <Initializing>Zavádím</Initializing>
+  <Initializing>Inicializuji</Initializing>
   <LoadingWorld>Načítám svět</LoadingWorld>
   <LoadingMap>Načítám mapu</LoadingMap>
-  <InitializingGame>Zavádím mapu</InitializingGame>
-  <SpawningAllThings>Vytvářím všechny věci</SpawningAllThings>
+  <InitializingGame>Zahajuji hru</InitializingGame>
+  <SpawningAllThings>Vytvářím věci</SpawningAllThings>
   <SpawningColonists>Vytvářím kolonisty</SpawningColonists>
 
   <!-- Save/load -->
@@ -67,26 +68,27 @@
   <MissingMods>Některé módy nejsou k dispozici a je třeba je nainstalovat</MissingMods>
   
   <!-- Player faction naming -->
-  <NamePlayerFactionMessage>{0} si myslí, že bys měl svoji frakci pojmenovat. Jak se má tvá frakce nazývat?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>{0} si myslí, že bys měl dát této frakci nějaké jméno. Jak by se tvá frakce měla nazývat?</NamePlayerFactionMessage>
   <PlayerFactionGainsName>Tvá frakce bude odteď známá jako {0}.</PlayerFactionGainsName>
-  <PlayerFactionNameIsInvalid>Tohle jméno není platné.</PlayerFactionNameIsInvalid>
+  <PlayerFactionNameIsInvalid>Tohle jméno je neplatné.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
-  <NamePlayerFactionBaseMessage>Vypadá to, že si tu chvíli pobudete. {0} si myslí, že bychom měli tuto kolonii pojmenovat. Jak se má kolonie nazývat?</NamePlayerFactionBaseMessage>
-  <PlayerFactionBaseGainsName>Tato komunita bude odteď známá jako {0}.</PlayerFactionBaseGainsName>
-  <PlayerFactionBaseNameIsInvalid>Tohle jméno není platné.</PlayerFactionBaseNameIsInvalid>
+  <NamePlayerFactionBaseMessage>Vypadá to, že tu na nějakou dobu zůstaneš. {0} si myslí, že bys měl dát této komunitě nějaké jméno. Jak by se tato komunita měla nazývat?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>Tato komunita je odteď známá jako {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>Tohle jméno je neplatné.</PlayerFactionBaseNameIsInvalid>
 
   <!-- Player faction and faction base naming -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>A dále si myslí, že si tu i chvíli pobudeme. Měli bychom pojmenovat i tuto kolonii. Jak se má kolonie nazývat?</NamePlayerFactionBaseMessage_NameFactionContinuation>
-  <PlayerFactionAndBaseGainsName>Tvá frakce bude odteď známá jako {0} a tato kolonie jako {1}.</PlayerFactionAndBaseGainsName>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>A dále si myslí, že tu na nějakou dobu zůstaneš, a proto bys měl dát této komunitě nějaké jméno. Jak by se tato komunita měla nazývat?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Tvá frakce je odteď známá jako {0}, a tato komunita jako {1}.</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>Zadej prosím platné jméno.</NameIsInvalid>
   <NameIsInUse>Toto jméno je už použito jinde.</NameIsInUse>
-  <ZoneGainsName>Oblast se teď jmenuje {0}.</ZoneGainsName>
+  <ZoneGainsName>Oblast se odteď jmenuje {0}.</ZoneGainsName>
 
   <!-- Pawn naming -->
-  <PawnGainsName>Přezdívka kolonisty je teď {0}.</PawnGainsName>
+  <PawnGainsName>Přezdívka této osoby je odteď {0}. [PAWN_possessive] titul je {1}.</PawnGainsName>
+  <AnimalGainsName>Zvíře se odteď jmenuje {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Neshoda verzí</VersionMismatch>
@@ -101,6 +103,9 @@
   <ResolutionKeep>Zachovat</ResolutionKeep>
   <ResolutionRevert>Vrátit zpět</ResolutionRevert>
 
+  <!-- Confirm permanently disable dev mode -->
+  <ConfirmPermanentlyDisableDevMode>Opravdu chceš trvale vypnout vývojářský režim na tomto počítači?</ConfirmPermanentlyDisableDevMode>
+
   <!-- Research -->
   <Research>Výzkum</Research>
   <Researched>Vyzkoumané</Researched>
@@ -114,32 +119,36 @@
   <RequiredResearchBenchFacilities>Vyžaduje vybavení ke stan.</RequiredResearchBenchFacilities>
 
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>Varování: Přistaneš ve zmrzlém prostředí. Přežití bude obtížné, ne-li téměř nemožné. Pokud nemáš v úmyslu čelit extrémní výzvě, zvol si jiné místo nebo roční dobu.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>Varování: Na větších mapách může poklesnout výkon hry. Absurdní velikost mapy nebyla testována a téměř jistě nebude chodit dobře.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>Varování: Přistaneš ve zmrzlém prostředí. Přežití bude obtížné, ne-li téměř nemožné. Pokud nemáš v úmyslu čelit extrémní výzvě, zvol si jiné místo nebo roční období.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Hra je určena pro hraní na středně velkých mapách. Tyto velikosti poskytují dostatek místa!\n\nVelké mapy nezhoršují pouze výkon - ve skutečnosti narušují design hry. UI dělá hloupá rozhodnutí a herní rovnováha bude zhoršena různými způsoby. Tyto velikosti jsou zahrnuty pouze z důvodů tradice a testování, nepoužívej je bez zvláštního důvodu.</MapSizePerformanceWarning>
   <MapSize>Velikost mapy</MapSize>
   <MapSizeDesc>{0}x{0} ({1} buněk)</MapSizeDesc>
   <MapSizeSmall>Malá</MapSizeSmall>
   <MapSizeMedium>Střední</MapSizeMedium>
   <MapSizeLarge>Velká</MapSizeLarge>
-  <MapSizeExtreme>Absurdní</MapSizeExtreme>
-  <MapStartSeason>Počáteční roční období:</MapStartSeason>
+  <MapSizeExtreme>Extrémní (test)</MapSizeExtreme>
+  <MapStartSeason>Startovní sezóna</MapStartSeason>
   <MapStartSeasonDefault>Automaticky</MapStartSeasonDefault>
+  <Notice>Upozornění</Notice>
   <PermadeathMode>Režim trvalé smrti</PermadeathMode>
   <PermadeathModeInfo>V režimu trvalé smrti máš jen jednu uloženou pozici a ukládat můžeš jen při ukončení hry. Hru nemůžeš načítat, abys napravil své omyly a když kolonie vymře, bude po všem.\n\nTakto bylo zamýšleno, aby se RimWorld hrál, každý dramatický zvrat - ať už šťastný či tragický - bude mít plný dopad.</PermadeathModeInfo>
 
   <!-- Bill config -->
-  <Suspended>Zastaveno</Suspended>
-  <NotSuspended>Nezastaveno</NotSuspended>
-  <SuspendedAllCaps>ZASTAVENO</SuspendedAllCaps>
-  <RepeatCount>Opakuj: {0}</RepeatCount>
+  <Suspended>Pozastaveno</Suspended>
+  <NotSuspended>Nepozastaveno</NotSuspended>
+  <SuspendedAllCaps>POZASTAVENO</SuspendedAllCaps>
+  <RepeatCount>Počet opakování: {0}</RepeatCount>
   <Forever>Navždy</Forever>
   <Details>Detaily</Details>
-  <IngredientSearchRadius>Okruh hledání surovin</IngredientSearchRadius>
+  <IngredientSearchRadius>Poloměr hledání surovin</IngredientSearchRadius>
   <CurrentlyHave>Nyní máme</CurrentlyHave>
   <CountingProducts>Počet</CountingProducts>
   <Infinite>Nekonečně</Infinite>
   <AllowedSkillRange>Povolená dovednost {0}:</AllowedSkillRange>
-
+  <IncompatibleLower>nekompatibilní</IncompatibleLower>
+  <AnyWorker>Každý pracovník</AnyWorker>
+  <Unlimited>Neomezený</Unlimited>
+  
   <RecipeCannotHaveTargetCount>(Tento recept nemůže mít cílový počet, protože se skládá z rozmanitých nebo nepředvídatelných produktů.)</RecipeCannotHaveTargetCount>
   <WorkAmount>Množství práce</WorkAmount>
   <MinimumSkills>Minimální dovednosti:</MinimumSkills>
@@ -150,13 +159,21 @@
   <UsableIngredients>suroviny</UsableIngredients>
   <BillRepeatTargetCountShort>Do {0}</BillRepeatTargetCountShort>
 
-  <PauseWhenSatisfied>Přestávka po splnění</PauseWhenSatisfied>
-  <UnpauseWhenYouHave>Zrušit přestávku, když budeme mít opět</UnpauseWhenYouHave>
+  <PauseWhenSatisfied>Přestávka po splnění poptávky</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Zrušit přestávku při</UnpauseWhenYouHave>
   <Paused>Přestávka</Paused>
   <Unpause>Zrušit přestávku</Unpause>
 
+  <IncludeEquipped>Počet vybavených</IncludeEquipped>
+  <IncludeTainted>Počet znečištěných</IncludeTainted>
+  <LimitToAllowedStuff>Pouze povolené ingredience</LimitToAllowedStuff>
+  <IncludeFromAll>Hledat všude</IncludeFromAll>
+  <IncludeSpecific>Hledat v {0}</IncludeSpecific>
+  
   <!-- Info card -->
   <Damage>Poškození</Damage>
+  <ArmorPenetration>Průraznost zbroje</ArmorPenetration>
+  <ArmorPenetrationExplanation>Průraznost zbroje je hodnota zbroje, kterou tato zbraň ignoruje při každém zásahu.\n\nPokud je průraznost vyšší, než je hodnota zbroje cíle, tak to znamená, jako kdyby cíl neměl zbroj. V opačném případě, zbroj cíle je snížena dle hodnoty průraznosti.</ArmorPenetrationExplanation>
   <Accuracy>Přesnost</Accuracy>
   <BurstShotCount>Počet střel v dávce</BurstShotCount>
   <WarmupTime>Příprava</WarmupTime>
@@ -164,41 +181,50 @@
   <CooldownTime>Znovupoužití</CooldownTime>
   <BurstShotFireRate>Kadence</BurstShotFireRate>
   <Range>Dostřel</Range>
-  <GrowsWild>Planá</GrowsWild>
+  <StoppingPower>Zastavující účinek</StoppingPower>
+  <StoppingPowerExplanation>Zásahy z této zbraně způsobí zavrávorání cíle a zpomalí jeho pohyb na několik sekund. Cíle s velikostí těla větší, než je zastavující účinek, nebudou ovlivněny.</StoppingPowerExplanation> 
+  <DirectHitChance>Šance na přímý zásah</DirectHitChance>
+  <MissRadius>Poloměr minutí</MissRadius>
+  <GrowsWild>Roste planě</GrowsWild>
   <Harvestable>Skliditelné</Harvestable>
   <LimitedLifespan>Omezená délka života</LimitedLifespan>
   <GrowingTime>Doba růstu</GrowingTime>
-  <GrowingTimeDesc>Rostliny rostou jen část dne a pouze když na ně svítí světlo. Tato statistika měří dobu, kterou rostlina potřebuje k dosažení plné velikosti. Vlastní skutečná doba růstu bude zpravidla asi dvakrát tak dlouhá. Růst rostlin taktéž zpomaluje nízká teplota.</GrowingTimeDesc>
+  <HarvestYield>Výnos sklizně</HarvestYield>
+  <GrowingTimeDesc>Rostliny rostou jen část dne, a to pouze, když na ně svítí světlo. Tato statistika měří dobu, kterou rostlina potřebuje k dosažení plné velikosti. Skutečná doba růstu bude zpravidla asi dvakrát tak dlouhá. Růst rostlin taktéž zpomalují nízké teploty.</GrowingTimeDesc>
   <Days>dnů</Days>
   <MinGrowingSkillToSow>Min. zemědělská dov. k setbě</MinGrowingSkillToSow>
-  <FertilityRequirement>Požadavek na úrodnost</FertilityRequirement>
-  <FertilitySensitivity>Citlivost na úrodnost</FertilitySensitivity>
+  <FertilityRequirement>Požadavek na úrodnost půdy</FertilityRequirement>
+  <FertilitySensitivity>Citlivost na úrodnost půdy</FertilitySensitivity>
   <LightRequirement>Požadavek na světlo</LightRequirement>
   <Attributes>Vlastnosti</Attributes>
   <LifeSpan>Délka života</LifeSpan>
   <Nutrition>Výživa</Nutrition>
-  <Joy>Radost</Joy>
+  <Joy>Relaxace</Joy>
   <FoodQuality>Kvalita jídla</FoodQuality>
   <WalkSpeedProperty>Rychlost chůze</WalkSpeedProperty>
   <MinFoodQuality>Min. kvalita jídla</MinFoodQuality>
   <Diet>Strava</Diet>
+  <LeatherType>Typ kůže</LeatherType>
   <BodySize>Velikost těla</BodySize>
   <RecruitDifficulty>Obtížnost naverbování</RecruitDifficulty>
   <MarketValue>Základní cena</MarketValue>
-  <Covers>Kryje části těla</Covers>
+  <Covers>Zakrývá</Covers>
+  <Layer>Vrstva</Layer>
   <CoverEffectiveness>Účinnost krytí</CoverEffectiveness>
   <CoverEffectivenessExplanation>Jak účinné poskytuje krytí, když je použit jako kryt při přestřelce. Vyšší procentní hodnota zablokuje více střel.</CoverEffectivenessExplanation>
-  <MedicineXpGainFactor>Činitel získávání zkušenosti</MedicineXpGainFactor>
+  <MedicineXpGainFactor>Faktor získávání zkušeností</MedicineXpGainFactor>
   <MoodChange>Změna nálady</MoodChange>
   <Wildness>Divokost</Wildness>
   <WildnessExplanation>Divočejší tvorové se pochopitelně dají mnohem obtížněji ochočit, trénovat a ovládat.</WildnessExplanation>
+  <TrainingDecayInterval>Interval degradace výcviku</TrainingDecayInterval>
+  <TamenessWillNotDecay>Krotkost nikdy nedegraduje.</TamenessWillNotDecay> 
   <AnimalFilthRate>Míra zašpinění zvířetem</AnimalFilthRate>
   <AnimalFilthRateExplanation>Když se zvířata pohybují po postavených podlahách, zanechávají za sebou špínu. Tohle je průměrné množství takovéto špíny na {0} buněk, po kterých tento tvor přešel.\n\nVětší či méně se mazlíčkům podobající zvířata produkují více špíny.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Času stráveno</TimeRecordsCategory>
-  <MiscRecordsCategory>Různé</MiscRecordsCategory>
+  <MiscRecordsCategory>Ostatní</MiscRecordsCategory>
   <Addictiveness>Návykovost</Addictiveness>
   <PackAnimal>Nákladní zvíře</PackAnimal>
-  <PackAnimalExplanation>Ukazuje, zda je toto zvíře vhodné použít v karavaně k přepravě nákladů na dlouhé vzdálenosti.</PackAnimalExplanation>
+  <PackAnimalExplanation>Zda je toto zvíře vhodné použít v karavaně k přepravě položek na dlouhé vzdálenosti.</PackAnimalExplanation>
   <Skill>Dovednost</Skill>
   <SurgerySuccessChanceFactor>Násobitel úspěšnosti</SurgerySuccessChanceFactor>
   <SurgeryRequireBed>Vyžaduje postel</SurgeryRequireBed>
@@ -206,13 +232,20 @@
   <EfficiencyStat>Výstupní množství ovlivněno</EfficiencyStat>
   <ConstructionSkillRequired>Vyžadována úroveň Konstrukce</ConstructionSkillRequired>
   <ConstructionSkillRequiredExplanation>Vyžaduje tuto úroveň dovednosti Konstrukce za účelem vybudování.</ConstructionSkillRequiredExplanation>
-  
+  <NuzzleInterval>Interval tulení</NuzzleInterval>
+  <NuzzleIntervalExplanation>Jak často průměrně se bude zvíře tulit s přátelskými kolonisty.\n\nTulení je chování sdílené mnoha živočišnými druhy, kde zvíře tlačí nos nebo tlamu proti příteli jako známku náklonnosti. Většině lidí tohle připadá roztomilé a po určitou dobu jim to přidá na dobré náladě.</NuzzleIntervalExplanation>
+  <HarmedRevengeChance>Šance pomsty při poranění</HarmedRevengeChance>
+  <HarmedRevengeChanceExplanation>Šance, že se tento tvor bude mstít, pokud bude zraněn střelbou útočníka.\n\nTato šance se zvyšuje, pokud je útočník blíž. Pokud je napaden z velmi blízké vzdálenosti, šance je třikrát vyšší.\n\nTato šance se uplatní pokaždé, když dojde k zásahu tvora, takže při pomalejší střelbě s vyšším poškozením je nižší pravděpodobnost, že se aktivuje.\n\nAby se minimalizovala šance, že se tvor pomstí, útoč výhradně se zbraněmi na dálku s nižší kadencí.</HarmedRevengeChanceExplanation>
+  <TameFailedRevengeChance>Šance pomsty při neúspěchu ochočení</TameFailedRevengeChance>
+  <TerrainRequirement>Požadavky na terén</TerrainRequirement>
+  <Supports>Schopnost nosníku unést</Supports>
+    
   <!-- Trade -->
   <PositiveBuysNegativeSells>Kladná čísla znamenají nákup.\nZáporná čísla znamenají prodej.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Cena, kterou zaplatíš při nákupu.</BuyPriceDesc>
   <SellPriceDesc>Cena, kterou dostaneš při prodeji.</SellPriceDesc>
   <PriceTypeDesc>Za tuto položku je cena {0}.</PriceTypeDesc>
-  <ColonyCount>Kolik kusů této položky má kolonie připraveno k prodeji.\n\nObchodníkům na orbitě lze prodat jen položky, které jsou venku a v blízkosti orbitálního obchodního majáku.</ColonyCount>
+  <ColonyCount>Kolik kusů této položky má kolonie připravených k prodeji.\n\nObchodníkům na orbitě lze prodat jen položky, které jsou v blízkosti orbitálního obchodního majáku a nejsou pod střechou.</ColonyCount>
   <TraderCount>Kolik kusů této položky má obchodník k prodeji.</TraderCount>
   <AcceptButton>Přijmout</AcceptButton>
   <ResetButton>Resetovat</ResetButton>
@@ -222,10 +255,10 @@
   <YourTradeableSilverTip>Můžeš obchodovat jen se stříbrem, které je poblíž orbitálního obchodního majáku a není pod střechou.</YourTradeableSilverTip>
   <TraderHasNoMore>Obchodník už toho víc nemá.</TraderHasNoMore>
   <ColonyHasNoMore>Nic dalšího k prodeji.</ColonyHasNoMore>
-  <TraderWillNotTrade>S tímhle obchodník obchodovat nechce.</TraderWillNotTrade>
+  <TraderWillNotTrade>Obchodník tohle není ochotný odkoupit.</TraderWillNotTrade>
   <Negotiator>Vyjednavač</Negotiator>
-  <NegotiatorTalkingImpaired>Tvůj vyjednavač {0} kvůli špatnému zdravotnímu špatně mluví.</NegotiatorTalkingImpaired>
-  <NegotiatorHearingImpaired>Tvůj vyjednavač {0} kvůli špatnému zdravotnímu špatně slyší.</NegotiatorHearingImpaired>
+  <NegotiatorTalkingImpaired>Tvůj vyjednavač {0} špatně mluví, protože na tom není zrovna dobře.</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>Tvůj vyjednavač {0} špatně slyší, protože na tom není zrovna dobře.</NegotiatorHearingImpaired>
   <NegotiatorCapacityImpaired>To bude mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednavače.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>Obchodník nemá dostatek stříbra, aby plně pokryl tento obchod. Chceš pokračovat i tak?</ConfirmTraderShortFunds>
   <SortBy>Třídit dle</SortBy>
@@ -239,70 +272,89 @@
   <TradeWithFactionBaseBonus>Bonus za obchodování se základnou frakce</TradeWithFactionBaseBonus>
   <minimum>minimum</minimum>
   <FinalPrice>Konečná cena</FinalPrice>
-  <TradeMassUsageTooltip>Výsledná užitná hmotnost a maximální nosnost.</TradeMassUsageTooltip>
+  <GiftModeTip>Režim daru - nabídka darů {0}.</GiftModeTip>
+  <TradeModeTip>Vrátit se do režimu obchodu.</TradeModeTip>
+
+  <!-- Sellable items -->
+  <SellableItemsTitle>Věci, které tento obchodník chce koupit</SellableItemsTitle>
+  <PawnsTabShort>Stvoření</PawnsTabShort>
 
   <!-- Form caravan -->
-  <FormCaravan>Formování karavany</FormCaravan>
-  <FormCaravanColonyThingCountTip>Kolik této položky má kolonie připraveno k naložení na karavanu.</FormCaravanColonyThingCountTip>
+  <FormCaravan>Vytvoření karavany</FormCaravan>
+  <FormCaravanColonyThingCountTip>Dostupný počet, který je možný odeslat pomocí karavany.</FormCaravanColonyThingCountTip>
   <PawnsTab>Lidé a zvířata</PawnsTab>
   <ItemsTab>Předměty</ItemsTab>
-  <CaravanConfigTab>Uspořádání</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Musíš přiřadit alespoň jednoho kolonistu, který je při vědomí.</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>Vybrané místo odchodu ({0}) je nepřístupné.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindPackingSpot>Nelze najít žádné platné místo ke sbalení karavany. Ujisti se, že místo pro odchod ({0}) bude přístupné.</CaravanCouldNotFindPackingSpot>
-  <CaravanCouldNotFindReachableExitSpot>Varování: někteří z přidělených kolonistů nejsou schopni dostat se k místu odchodu.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindExitSpot>Vybrané místo pro odchod ({0}) je nepřístupné.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Nelze najít žádné platné místo ke shromáždění karavany. Ujisti se, že vybrané místo pro odchod ({0}) bude přístupné.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindReachableExitSpot>Varování: Někteří z přiřazených kolonistů nejsou schopni se dostat k místu odchodu ({0}).</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>{0} je pro všechny přiřazené kolonisty nedosažitelné.</CaravanPawnIsUnreachable>
-  <CaravanItemIsUnreachableSingle>Žádný z přidělených kolonistů není schopen dostat se k {0}.</CaravanItemIsUnreachableSingle>
-  <CaravanItemIsUnreachableMulti>Žádný z přidělených kolonistů není schopen dostat se k {0}x {1}.</CaravanItemIsUnreachableMulti>
-  <TooBigCaravanMassUsage>Karavana není schopná tolik unést.</TooBigCaravanMassUsage>
-  <CaravanMassUsageTooltip>Současná užitná hmotnost a maximální nosnost karavany.\n\nUžitná hmotnost zahrnuje přiřazené zásoby karavany stejně jako nynější vybavení kolonistů.\n\nPokud užitná hmotnost překročí nosnost, nebudeš schopen vyslat karavanu.</CaravanMassUsageTooltip>
-  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-  <DaysWorthOfFoodInfo>Potraviny na {0} dnů</DaysWorthOfFoodInfo>
-  <DaysWorthOfFoodInfoRot>potraviny na {0} dnů, zkazí se za {1} dnů</DaysWorthOfFoodInfoRot>
-  <InfiniteDaysWorthOfFoodInfo>Potraviny nikdy nedojdou</InfiniteDaysWorthOfFoodInfo>
-  <DaysWorthOfFoodTooltip>Přibližný počet dnů, než karavaně dojdou potraviny.\n\nJsou brány v úvahu jak potraviny pro lidi, tak i pro zvířata a zobrazuje nejhorší možný scénář. To znamená, že po tolika dnech dojde jídlo alespoň jednomu člověku nebo zvířeti.</DaysWorthOfFoodTooltip>
-  <DaysWorthOfFoodTooltip_CanEatLocalPlants>Na základě aktuálního ročního období, teploty a okolí je předpokladem, že by býložravci MOHLI jíst místní rostliny. To se však může kdykoli změnit.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-  <DaysWorthOfFoodTooltip_CantEatLocalPlants>Na základě aktuálního ročního období, teploty a okolí je předpokladem, že by býložravci NEMOHLI jíst místní rostliny. To se však může kdykoli změnit.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
-  <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo jen na {0} dnů. Velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
+  <CaravanItemIsUnreachableSingle>Žádný z přiřazených kolonistů se není schopen dostat k {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Žádný z přiřazených kolonistů se není schopen dostat k {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>Karavana toho tolik neunese.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Zahrnuje přenášené předměty včetně těch, kterými jsou ostatní vybaveni. Karavana cestuje rychleji, jestliže toho nese méně, než je maximální nosnost.</CaravanMassUsageTooltip>
+  <CaravanVisibilityTip>Viditelnost značí, jak moc je karavana nápadná.\n\nNásobí šanci, že tvá karavana bude spatřena nepřáteli.\n\nViditelnost nemá vliv na schopnost nalezení věcí, které bys chtěl.\n\nViditelnost je založena na celkové velikosti těla všech lidí a zvířat v karavaně.</CaravanVisibilityTip>
+  <DaysWorthOfFood>Potravinové rezervy</DaysWorthOfFood>
+  <DaysWorthOfFoodInfoRot>shnije za {0}</DaysWorthOfFoodInfoRot>
+  <InfiniteDaysWorthOfFoodInfo>Neomezené</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>Přibližný počet dnů, než bude alespoň jeden člověk nebo zvíře bez potravy. Lidé a různé druhy zvířat potřebují odlišné druhy potravy, takže někdo může zůstat bez potravy dříve než ostatní. Tato hodnota se vypočte přesněji, jakmile bude vybrána trasa.\n\nOvlivňující faktory:\n - nesený druh jídla a jeho množství\n - příslušníci karavany a jejich typ stravy\n - rychlost sběru potravy\n - zda se zvířata mohou pást\n - čas do zkažení potravin\n - teplé počasí urychlí kažení potravin</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(je zohledněn pouze první bod trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo pouze na {0} dnů. Poté rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog_NoFood>
-  <CaravanFoodWillRotSoonWarningDialog>Velká část přiděleného jídla se brzy zkazí.</CaravanFoodWillRotSoonWarningDialog>
-  <CaravanIncapableOfSocial>Nemáš žádné členy karavany schopné diplomacie nebo obchodování.</CaravanIncapableOfSocial>
+  <ForagedFoodPerDayTip>Průměrné množství potravy, které lidé nasbírají za den. Tato hodnota se změní, jakmile přicestuješ do jiného biomu, který má odlišné výnosy při sběru potravy.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDay>Nasbíráno potravy za den</ForagedFoodPerDay>
+  <CaravanFoodWillRotSoonWarningDialog>Velká část potravinových rezerv karavany se brzy zkazí.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>Nemáš žádné příslušníky karavany schopné diplomacie nebo obchodování.</CaravanIncapableOfSocial>
   <CaravanAreYouSure>Opravdu chceš vytvořit tuto karavanu?</CaravanAreYouSure>
-  <NoExitDirectionForCaravanChosen>Musíš pro karavanu zvolit směr odchodu.</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(není dostupný žádný směr odchodu)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>Směr odchodu</ExitDirection>
-  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <MessageMustChooseRouteFirst>Nejdříve musíš vybrat pro karavanu trasu.</MessageMustChooseRouteFirst>
+  <MessageNoValidExitTile>Tvá karavana není schopna opustit oblast. Ujisti se, že alespoň jedna strana oblasti je přístupná.</MessageNoValidExitTile>
   <ItemWeightTip>Hmotnost této položky.</ItemWeightTip>
   <MarketValueTip>Tržní cena</MarketValueTip>
   <DaysUntilRotTip>Počet dnů, než se tato položka začne kazit na základě průměrné teploty v této oblasti.</DaysUntilRotTip>
+  <ItemNutritionTip>Kolik výživy poskytuje toto jídlo.\n\nPro srovnání: dospělý člověk potřebuje {0} výživy denně.</ItemNutritionTip>
+  <AnimalCanGrazeTip>Toto zvíře může spásat potravu z prostředí, ve kterém se nachází, namísto toho, aby jedla nesené zásoby potravy. Pastva je možná pouze u některých biomů a teplotních rozmezí.</AnimalCanGrazeTip>
+  <NutritionForagedPerDayTip>Výživy shromážděné za den. Skutečné množsví nasbírané potravy je také ovlivněné možností sběru v daném biomu.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionEatenPerDayTip>Výživy spotřebované za den. Pro srovnání, prosté pokrmy mají {0} výživy.\n\nMůže jíst: {2}\n\nLegenda:\n{1}.</NutritionEatenPerDayTip>
+  <MassCarriedSimple>Nesená hmotnost</MassCarriedSimple>
   <MassCapacity>Maximální nosnost</MassCapacity>
   <Mass>Hmotnost</Mass>
   <EquipmentAndApparelMass>Hmotnost vybavení a oděvů</EquipmentAndApparelMass>
   <InventoryMass>Hmotnost inventáře</InventoryMass>
-  <CaravanFormationProcessStarted>Tví kolonisté teď poberou přiřazené předměty a co nejrychleji opustí oblast.</CaravanFormationProcessStarted>
+  <CaravanFormationProcessStarted>Tví kolonisté nyní shromáždí položky a opustí oblast.</CaravanFormationProcessStarted>
   <ReformCaravan>Upravit karavanu</ReformCaravan>
   <ColonistsSection>Kolonisté</ColonistsSection>
   <PrisonersSection>Vězni</PrisonersSection>
+  <CaptureSection>Zajetí</CaptureSection>
   <AnimalsSection>Zvířata</AnimalsSection>
-  <EstimatedTimeToDestinationButton>Zbývající čas do cíle</EstimatedTimeToDestinationButton>
+  <ChooseRouteButton>Vybrat trasu</ChooseRouteButton>
   <AbandonButton>Zanechat</AbandonButton>
-  
+  <CaravanMovementSpeed>Rychlost pohybu</CaravanMovementSpeed>
+  <TilesPerDay>buněk/den</TilesPerDay>
+  <CaravanMovementSpeedTip>Rychlost pohybu závisí na průměrné rychlosti všech lidí a zvířat, na nesené hmotnosti, a na obtížnosti pohybu terénem.</CaravanMovementSpeedTip>
+  <AnimalsWillBeAbleToGraze>Zvířata se budou moci pást</AnimalsWillBeAbleToGraze>
+  <AnimalsCanGraze>Zvířata se pasou</AnimalsCanGraze>
+  <PossibleToGrazeFor>(dalších {0} dnů)</PossibleToGrazeFor>
+  <PossibleToGrazeForever>(navždy)</PossibleToGrazeForever>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfTemp>(příliš zima dalších {0} dnů)</CantGrazeBecauseOfTemp>
+  <TotalNutrition>Celková výživa</TotalNutrition>
+  <CaravanNotMoving>Žádný pohyb</CaravanNotMoving>
+  <ForagedNutritionPerDay>Shromážděno výživy denně</ForagedNutritionPerDay>
+  <FactionType>Typ frakce</FactionType>
+  <TotalBodySize>Celková velikost karavany</TotalBodySize>
+    
   <!-- Split caravan -->
   <SplitCaravan>Rozdělit karavanu</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Musíš ponechat alespoň jednoho kolonistu při vědomí.</SourceCaravanMustHaveAtLeastOneColonist>
-  <CaravanSplitSourceLabel>Nynější</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>Nová</CaravanSplitDestLabel>
-  <SplitCaravanThingCountTip>Kolik této položky má karavana připraveno k předání nové karavaně.</SplitCaravanThingCountTip>
-  <SplitCaravanMassUsageTooltip>Současná užitná hmotnost a maximální nosnost.</SplitCaravanMassUsageTooltip>
+  <SplitCaravanThingCountTip>Kolik této položky má karavana připraveno k přeložení na novou karavanu.</SplitCaravanThingCountTip>
 
   <!-- Load transporters -->
   <LoadTransporters>Naložit {0}</LoadTransporters>
-  <TooBigTransportersMassUsage>Přidělení lidé a předměty jsou pro nákladní moduly příliš těžcí.</TooBigTransportersMassUsage>
+  <TooBigTransportersMassUsage>Přidělení lidé a předměty jsou pro nákladní moduly příliš těžké.</TooBigTransportersMassUsage>
   <CantSendEmptyTransportPods>Nemůžeš vyslat prázdné nákladní moduly.</CantSendEmptyTransportPods>
   <PawnCantReachTransporters>{0} se nemůže dostat k nákladním modulům.</PawnCantReachTransporters>
   <TransporterItemIsUnreachableSingle>Mezi nákladními moduly a {0} nevede žádná cesta.</TransporterItemIsUnreachableSingle>
   <TransporterItemIsUnreachableMulti>Mezi nákladními moduly a {0}x {1} nevede žádná cesta.</TransporterItemIsUnreachableMulti>
-  <TransportersMassUsageTooltip>Současná užitná hmotnost a maximální nosnost.\n\nPokud užitná hmotnost překročí nosnost, nebudeš schopen vyslat nákladní moduly.</TransportersMassUsageTooltip>
 
   <!-- Comms -->
   <SocialSkillIs>Dovednost socializace: {0}</SocialSkillIs>
@@ -342,8 +394,8 @@
   <DrugColumnLabel>Droga</DrugColumnLabel>
   <DrugUsageColumnLabel>Dávkování</DrugUsageColumnLabel>
   <FrequencyColumnLabel>Četnost</FrequencyColumnLabel>
-  <MoodThresholdColumnLabel>Pouze při náladě pod</MoodThresholdColumnLabel>
-  <JoyThresholdColumnLabel>Pouze když radost klesne pod</JoyThresholdColumnLabel>
+  <MoodThresholdColumnLabel>Pouze když\nnálada\nklesne pod</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Pouze když\nrelaxace\nklesne pod</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>Vzít do inventáře</TakeToInventoryColumnLabel>
   <NoDrugsBrackets>(žádné drogy)</NoDrugsBrackets>
   <EveryDay>Každý den</EveryDay>
@@ -354,11 +406,11 @@
   <DrugNameColumnDesc>Jméno drogy.</DrugNameColumnDesc>
   <DrugUsageColumnDesc>Jakým způsobem je užívání drogy povoleno.</DrugUsageColumnDesc>
   <FrequencyColumnDesc>Jak často se kolonisté mají pokoušet užívat tuto drogu.</FrequencyColumnDesc>
-  <MoodThresholdColumnDesc>Kolonisté si vezmou tuto drogu jen když jejich úroveň nálady klesne pod tuto hranici.</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>Kolonisté si vezmou tuto drogu jen když jejich úroveň radosti klesne pod tuto hranici.</JoyThresholdColumnDesc>
-  <TakeToInventoryColumnDesc>Množství drogy, které si vezmou navíc, když si ji berou pro svoji potřebu, aby se vyhnuli častému navštěvování skladiště s drogou.</TakeToInventoryColumnDesc>
+  <MoodThresholdColumnDesc>Kolonisté si vezmou tuto drogu, pouze když jejich úroveň nálady klesne pod tuto hranici.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Kolonisté si vezmou tuto drogu, pouze když jejich úroveň relaxace klesne pod tuto hranici.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>Množství drogy, které si vezmou navíc, když si ji berou pro svou potřebu, aby se vyhnuli častému navštěvování skladiště s drogou.</TakeToInventoryColumnDesc>
   <DrugUsageTipForAddiction>Kvůli závislosti\n\nUžívej tuto drogu k uspokojení potřeb již vzniklé závislosti.\n\nDokonce i když je jejich užívání zakázáno, mohou některé postavy se zvláštními vlastnostmi nebo při psychickém zhroucení drogy užívat i tak.</DrugUsageTipForAddiction>
-  <DrugUsageTipForJoy>Pro radost\n\nUžívej tuto drogu pro radost či ze společenských důvodů.\n\nDokonce i když je jejich užívání zakázáno, mohou některé postavy se zvláštními vlastnostmi nebo při psychickém zhroucení drogy užívat i tak.</DrugUsageTipForJoy>
+  <DrugUsageTipForJoy>Pro relaxaci\n\nUžívej tuto drogu pro relaxaci či ze společenských důvodů.\n\nDokonce i když je jejich užívání zakázáno, mohou některé postavy se zvláštními vlastnostmi nebo při psychickém zhroucení drogy užívat i tak.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Pravidelně\n\nUžívej tuto drogu podle předem stanoveného plánu, když jsou splněny specifické podmínky.</DrugUsageTipScheduled>
 
   <!-- Medical settings -->
@@ -371,24 +423,27 @@
   <MedGroupHostileFaction>Nepřátelská frakce</MedGroupHostileFaction>
 
   <!-- Growing -->
-  <NoGrowerCanPlant>Pro výsadbu {0} potřebuje dovednost {1} v Zemědělství.\n\nŽádný ze tvých zemědělců tuto dovednost nemá, takže tato rostlina nemůže být zasazena.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>{0} vyžaduje úroveň {1} v dovednosti Zemědělství.\n\nŽádný ze tvých zemědělců tuto úroveň dovednosti nemá, takže tato rostlina nemůže být zasazena.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
-  <ConfirmAbandonHomeWithColonyPawns>V této oblasti jsou nějací tví kolonisté nebo zvířata. Jsi si jistý, že je tu chceš nechat?\n\nNásledující lidé a zvířata tu budou zanecháni:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
-  <ConfirmAbandonHomeNegativeThoughts>Opuštění {0} způsobí, že následující lidé budou mít tyto myšlenky:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeWithColonyPawns>V této oblasti zůstávají někteří z tvých kolonistů nebo zvířat. Jsi si jistý, že je chceš opustit?\n\nTýká se to těchto lidí a zvířat:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>Pokud tu {0} zůstane, bude to navždy, a tito lidé získají tyto myšlenky:</ConfirmAbandonHomeNegativeThoughts>
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Všichni:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>V této oblasti jsou stále ještě zanecháni nějací vězni nebo zvířata a tohle je jediná karavana, ke které se mohou v této chvíli připojit.\n\nPokud karavanu přesuneš, nebudou schopni oblast opustit, dokud se nevrátíš. Vězni se pokusí utéct a zvířata tu na tebe budou čekat.\n\nPokud se rozhodneš počkat, pokusí se ke tvé karavaně co nejrychleji připojit.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmMoveAutoJoinableCaravan>Některá zvířata nebo vězni se pokoušejí připojit k této karavaně.\n\nPokud ji přesuneš, už nebudou moci se připojit.\n\nZvířata, vězni, a kolonisté v bezvědomí, kteří byli ponecháni v oblasti některým z kolonistů, jsou považováni za opuštěné a mohou být zajmuti nepřáteli.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmMoveAutoJoinableCaravan>
 
   <!-- Abandon pawn -->
   <ConfirmBanishPawnDialog>Opravdu se chceš zbavit {0}?</ConfirmBanishPawnDialog>
   <ConfirmBanishPawnDialog_LeftToDie>{0} s největší pravděpodobností zemře.</ConfirmBanishPawnDialog_LeftToDie>
-  <ConfirmBanishPawnDialog_Items>{0} si s sebou vezme následující předměty:</ConfirmBanishPawnDialog_Items>
-  <ConfirmBanishPawnDialog_AllColonistsThoughts>Všichni kolonisté si budou myslet následující:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_Items>{0} si ponechá tyto předměty:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Všichni kolonisté získají tyto myšlenky:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <ConfirmBanishPawnDialog_IndividualThoughts>Když tu {0} necháš napospas osudu, způsobí to, že následující lidé si budou myslet toto:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Skupina modulů není zcela naložena. Chybí {0}. Odstartovat i tak?</ConfirmSendNotCompletelyLoadedPods>
+
+  <!-- Settle near a faction base -->
+  <ConfirmSettleNearFactionBase>Vzhledem k tomu, že tato oblast je pouze {0} buňky od základny jiné frakce, budou mít pocit, že zasahuješ na jejich území. Vztahy s takovými frakcemi se budou zhoršovat každých {1} dnů.\n\nPřesto to tam chceš osídlit?</ConfirmSettleNearFactionBase>
 
 </LanguageData>
