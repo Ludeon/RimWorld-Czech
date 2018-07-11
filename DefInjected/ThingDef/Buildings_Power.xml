@@ -2,47 +2,65 @@
 <LanguageData>
 
   <PowerConduit.label>elektrický kabel</PowerConduit.label>
-  <PowerConduit.description>Rozvádí energii ke spotřebičům. Lze ho pokládat do zdí a jiných předmětů.</PowerConduit.description>
-  <PowerConduit_Blueprint.label>elektrický kabel (plán)</PowerConduit_Blueprint.label>
-  <PowerConduit_Frame.label>elektrický kabel (ve výstavbě)</PowerConduit_Frame.label>
-  <PowerConduit_Frame.description>Rozvádí energii ke spotřebičům. Lze ho pokládat do zdí a jiných předmětů.</PowerConduit_Frame.description>
+  <PowerConduit.description>Svazek elektrických kabelů určený pro rozvody elektrické energie. Může být umístěn pod zdmi a jinými předměty.</PowerConduit.description>
+  <Blueprint_PowerConduit.label>elektrický kabel (plán)</Blueprint_PowerConduit.label>
+  <Frame_PowerConduit.label>elektrický kabel (ve výstavbě)</Frame_PowerConduit.label>
+  <Frame_PowerConduit.description>Svazek elektrických kabelů určený pro rozvody elektrické energie. Může být umístěn pod zdmi a jinými předměty.</Frame_PowerConduit.description>
+
+  <WaterproofConduit.label>vodotěsný elektrický kabel</WaterproofConduit.label>
+  <WaterproofConduit.description>Izolované elektrické kabely určené pro rozvody elektrické energie vedené přes mělkou vodu.</WaterproofConduit.description>
+  <Blueprint_WaterproofConduit.label>vodotěsný elektrický kabel (plán)</Blueprint_WaterproofConduit.label>
+  <Frame_WaterproofConduit.label>vodotěsný elektrický kabel (ve výstavbě)</Frame_WaterproofConduit.label>
+  <Frame_WaterproofConduit.description>Izolované elektrické kabely určené pro rozvody elektrické energie vedené přes mělkou vodu.</Frame_WaterproofConduit.description>
 
   <PowerSwitch.label>spínač</PowerSwitch.label>
-  <PowerSwitch.description>Vypíná nebo zapíná energii.</PowerSwitch.description>
-  <PowerSwitch_Blueprint.label>spínač (plán)</PowerSwitch_Blueprint.label>
-  <PowerSwitch_Frame.label>spínač (ve výstavbě)</PowerSwitch_Frame.label>
-  <PowerSwitch_Frame.description>Vypíná nebo zapíná energii.</PowerSwitch_Frame.description>
+  <PowerSwitch.description>Přepíná přívod elektrické energie mezi stavy zap/vyp.</PowerSwitch.description>
+  <Blueprint_PowerSwitch.label>spínač (plán)</Blueprint_PowerSwitch.label>
+  <Frame_PowerSwitch.label>spínač (ve výstavbě)</Frame_PowerSwitch.label>
+  <Frame_PowerSwitch.description>Přepíná přívod elektrické energie mezi stavy zap/vyp.</Frame_PowerSwitch.description>
 
-  <WoodFiredGenerator.label>dřevo-spalující generátor</WoodFiredGenerator.label>
-  <WoodFiredGenerator.description>Produkuje elektrickou energii spalováním dřevěného paliva. Musí se ručně doplňovat.</WoodFiredGenerator.description>
-  <WoodFiredGenerator_Blueprint.label>dřevo-spalující generátor (plán)</WoodFiredGenerator_Blueprint.label>
-  <WoodFiredGenerator_Frame.label>dřevo-spalující generátor (ve výstavbě)</WoodFiredGenerator_Frame.label>
-  <WoodFiredGenerator_Frame.description>Produkuje elektrickou energii spalováním dřevěného paliva. Musí se ručně doplňovat.</WoodFiredGenerator_Frame.description>
+  <WoodFiredGenerator.label>generátor na dřevěné palivo</WoodFiredGenerator.label>
+  <WoodFiredGenerator.description>Produkuje elektrickou energii spalováním dřeva. Dřevo se musí pravidelně ručně doplňovat.</WoodFiredGenerator.description>
+  <Blueprint_WoodFiredGenerator.label>generátor na dřevěné palivo (plán)</Blueprint_WoodFiredGenerator.label>
+  <Frame_WoodFiredGenerator.label>generátor na dřevěné palivo (ve výstavbě)</Frame_WoodFiredGenerator.label>
+  <Frame_WoodFiredGenerator.description>Produkuje elektrickou energii spalováním dřeva. Dřevo se musí pravidelně ručně doplňovat.</Frame_WoodFiredGenerator.description>
 
   <ChemfuelPoweredGenerator.label>generátor na chemické palivo</ChemfuelPoweredGenerator.label>
-  <ChemfuelPoweredGenerator.description>Produkuje elektrickou energii spalováním chemického paliva. Musí se ručně doplňovat.</ChemfuelPoweredGenerator.description>
-  <ChemfuelPoweredGenerator_Blueprint.label>generátor na chemické palivo (plán)</ChemfuelPoweredGenerator_Blueprint.label>
-  <ChemfuelPoweredGenerator_Frame.label>generátor na chemické palivo (ve výstavbě)</ChemfuelPoweredGenerator_Frame.label>
-  <ChemfuelPoweredGenerator_Frame.description>Produkuje elektrickou energii spalováním chemického paliva. Musí se ručně doplňovat.</ChemfuelPoweredGenerator_Frame.description>  
+  <ChemfuelPoweredGenerator.description>Produkuje elektrickou energii spalováním chemického paliva. Palivo se musí pravidelně ručně doplňovat.</ChemfuelPoweredGenerator.description>
+  <Blueprint_ChemfuelPoweredGenerator.label>generátor na chemické palivo (plán)</Blueprint_ChemfuelPoweredGenerator.label>
+  <Frame_ChemfuelPoweredGenerator.label>generátor na chemické palivo (ve výstavbě)</Frame_ChemfuelPoweredGenerator.label>
+  <Frame_ChemfuelPoweredGenerator.description>Produkuje elektrickou energii spalováním chemického paliva. Palivo se musí pravidelně ručně doplňovat.</Frame_ChemfuelPoweredGenerator.description>  
   
+  <WindTurbine.label>větrná turbína</WindTurbine.label>
+  <WindTurbine.description>Větrem poháněný elektrický generátor. Pro zajištění optimálního proudění vzduchu vyžaduje před i za sebou velkou volnou plochu.</WindTurbine.description>
+  <Blueprint_WindTurbine.label>větrná turbína (plán)</Blueprint_WindTurbine.label>
+  <Frame_WindTurbine.label>větrná turbína (ve výstavbě)</Frame_WindTurbine.label>
+  <Frame_WindTurbine.description>Větrem poháněný elektrický generátor. Pro zajištění optimálního proudění vzduchu vyžaduje před i za sebou velkou volnou plochu.</Frame_WindTurbine.description>
+
   <Battery.label>baterie</Battery.label>
-  <Battery.description>Ukládá energii, když je jí přebytek a zase ji vydává, když chybí. Varování - když navlhnou nebo se přehřejí, mohou nabité baterie vybuchnout.</Battery.description>
-  <Battery_Blueprint.label>baterie (plán)</Battery_Blueprint.label>
-  <Battery_Blueprint_Install.label>baterie (plán)</Battery_Blueprint_Install.label>
-  <Battery_Frame.label>baterie (ve výstavbě)</Battery_Frame.label>
-  <Battery_Frame.description>Ukládá energii, když je jí přebytek a zase ji vydává, když chybí. Varování - když navlhnou nebo se přehřejí, mohou nabité baterie vybuchnout.</Battery_Frame.description>
+  <Battery.description>Uchovává elektrickou energii pro pozdější použití. Nabité baterie explodují, pokud jsou vystaveny dešti nebo požáru.</Battery.description>
+  <Blueprint_Battery.label>baterie (plán)</Blueprint_Battery.label>
+  <Blueprint_Install_Battery.label>baterie (plán)</Blueprint_Install_Battery.label>
+  <Frame_Battery.label>baterie (ve výstavbě)</Frame_Battery.label>
+  <Frame_Battery.description>Uchovává elektrickou energii pro pozdější použití. Nabité baterie explodují, pokud jsou vystaveny dešti nebo požáru.</Frame_Battery.description>
 
   <SolarGenerator.label>solární generátor</SolarGenerator.label>
-  <SolarGenerator.description>Vyrábí energii ze slunečního svitu. Ve tmě nevyrábí.</SolarGenerator.description>
-  <SolarGenerator_Blueprint.label>solární generátor (plán)</SolarGenerator_Blueprint.label>
-  <SolarGenerator_Frame.label>solární generátor (ve výstavbě)</SolarGenerator_Frame.label>
-  <SolarGenerator_Frame.description>Vyrábí energii ze slunečního svitu. Ve tmě nevyrábí.</SolarGenerator_Frame.description>
+  <SolarGenerator.description>Produkuje elektrickou energii ze slunečního záření. Nefunguje za tmy nebo ani pod umělým světlem.</SolarGenerator.description>
+  <Blueprint_SolarGenerator.label>solární generátor (plán)</Blueprint_SolarGenerator.label>
+  <Frame_SolarGenerator.label>solární generátor (ve výstavbě)</Frame_SolarGenerator.label>
+  <Frame_SolarGenerator.description>Produkuje elektrickou energii ze slunečního záření. Nefunguje za tmy nebo ani pod umělým světlem.</Frame_SolarGenerator.description>
 
   <GeothermalGenerator.label>geotermální elektrárna</GeothermalGenerator.label>
-  <GeothermalGenerator.description>Vyrábí energii za pomoci parních gejzírů. Musí být umístěn nad gejzír páry.</GeothermalGenerator.description>
-  <GeothermalGenerator_Blueprint.label>geotermální elektrárna (plán)</GeothermalGenerator_Blueprint.label>
-  <GeothermalGenerator_Frame.label>geotermální elektrárna (ve výstavbě)</GeothermalGenerator_Frame.label>
-  <GeothermalGenerator_Frame.description>Vyrábí energii za pomoci parních gejzírů. Musí být umístěn nad gejzír páry.</GeothermalGenerator_Frame.description>
+  <GeothermalGenerator.description>Produkuje elektrickou energii z geotermálních parních gejzírů. Musí být umístěn nad gejzír páry.</GeothermalGenerator.description>
+  <Blueprint_GeothermalGenerator.label>geotermální elektrárna (plán)</Blueprint_GeothermalGenerator.label>
+  <Frame_GeothermalGenerator.label>geotermální elektrárna (ve výstavbě)</Frame_GeothermalGenerator.label>
+  <Frame_GeothermalGenerator.description>Produkuje elektrickou energii z geotermálních parních gejzírů. Musí být umístěn nad gejzír páry.</Frame_GeothermalGenerator.description>
+
+  <WatermillGenerator.label>vodní elektrárna</WatermillGenerator.label>
+  <WatermillGenerator.description>Produkuje elektrickou energii využitím proudu řeky. Vodní kolo musí být umístěno na pohybující se vodě. Pokud jsou vodní kola umístěna příliš blízko sebe, vzniknou turbulence, které sníží produkci elektrické energie.</WatermillGenerator.description>
+  <Blueprint_WatermillGenerator.label>vodní elektrárna (plán)</Blueprint_WatermillGenerator.label>
+  <Frame_WatermillGenerator.label>vodní elektrárna (ve výstavbě)</Frame_WatermillGenerator.label>
+  <Frame_WatermillGenerator.description>Produkuje elektrickou energii využitím proudu řeky. Vodní kolo musí být umístěno na pohybující se vodě. Pokud jsou vodní kola umístěna příliš blízko sebe, vzniknou turbulence, které sníží produkci elektrické energie.</Frame_WatermillGenerator.description>
 
 
 </LanguageData>
