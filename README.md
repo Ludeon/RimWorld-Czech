@@ -36,10 +36,10 @@ http://ludeon.com/forums/index.php?topic=2933.0
 ### Test:
 - Morticinus
 - Galoth
-- Barbar
 
 ### Special thanks:
 - Leffi
+- Barbar
 - Aladalar
 
 ---
