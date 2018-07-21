@@ -41,6 +41,7 @@
 
 
   <!-- Guest/prisoner tab -->
+  <RecruitmentResistance>Zbývající odpor</RecruitmentResistance>
   <RecruitmentDifficulty>Obtížnost naverbování</RecruitmentDifficulty>
   <GetsFood>Dostává jídlo</GetsFood>
   <DoctorsCare>Lékařská péče</DoctorsCare>
@@ -62,7 +63,7 @@
   <InPain>Má bolesti</InPain>
   <PainLevel>Bolest</PainLevel>
   <Injured>Zraněný</Injured>
-  <NoInjuries>(bez zranění)</NoInjuries>
+  <NoHealthConditions>žádné zdravotní problémy</NoHealthConditions>  
   <WholeBody>Celé tělo</WholeBody>
   <DataProcessing>Zpracovávání dat</DataProcessing>
   <Communication>Komunikace</Communication>
@@ -107,7 +108,7 @@
   <!-- Training tab-->
   <Trainability>Cvičitelnost</Trainability>
   <CannotTrainNotSmartEnough>Vyžaduje cvičitelnost {0}.</CannotTrainNotSmartEnough>
-  <CannotTrainTooSmall>Pro tento výcvik je zvíře příliš malé.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{0} se pro tento výcvik nehodí. Zvíře je příliš malé.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
 
