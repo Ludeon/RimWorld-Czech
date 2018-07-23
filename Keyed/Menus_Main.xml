@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!--=========== Main menu ==========-->
+  <!-- Main menu -->
   <Tutorial>Tutoriál</Tutorial>
   <NewColony>Nová kolonie</NewColony>
   <BackToGame>Zpátky do hry</BackToGame>
@@ -29,12 +29,15 @@
   <BuySoundtrack>Koupit Soundtrack</BuySoundtrack>
   <CreateWorld>Vytvořit svět</CreateWorld>
 
-  <!--=========== Main menu translations info window ===========-->
+  <!-- Main menu translations info window -->
   <TranslationThanks>Veškeré překlady hry RimWorld jsou vytvořené fanoušky. Tento překlad vytvořili následující vynikající dobrovolníci.\n\nKoordinátor\n- Galoth\n\nPřekladatel, tester, korektor\n- Morticinus\n\nPřekladatel\n- Azarian\n</TranslationThanks>
   <TranslationHowToContribute>I ty můžeš přispět. Kliknutím níže se dozvíš více informací (otevře webový prohlížeč).</TranslationHowToContribute>
   <LearnMore>Další informace</LearnMore>
 
-  <!--=========== Create/review world ================-->
+  <!-- Main menu dev build -->
+  <DevBuildWarning>Varování: Tohle je nestabilní vývojářské sestavení. To znamená, že zkoušíme designové experimenty a technický vývoj.\n\nNěkteré věci mohou být dočasně záměrně nevybalancovány. Jedná se o klasickou metodu vývoje, při které můžeme jít daleko za limity rovnováhy, abychom ji lépe porozuměli. Tyto informace pak můžeme využít k určení finálních balančních bodů.\n\nMůže zde být také spousta chyb, včetně těch, které rozbijí hru. Kompatibilita uložených pozic může být kdykoliv pozastavena.\n\nPokud se vším souhlasíš, děkuji za testování! Pokud nechceš experimentovat, hrej prosím poslední stabilní verzi.</DevBuildWarning>
+
+  <!-- Create/review world -->
   <ReviewWorld>Mapa světa</ReviewWorld>
   <WorldGenerate>Vygenerovat</WorldGenerate>
   <WorldSaveAndFinish>Uložit a ukončit</WorldSaveAndFinish>
@@ -53,21 +56,21 @@
   <PlanetCoverageTip>Planeta má vždy stejný průměr, ale protože je mnohem větší, než je pro hru nutné, nebudeme vytvářet celý povrch, protože by to mohlo trvat velmi dlouhou dobu. Toto je procento z plochy, kterou chceš vytvořit.</PlanetCoverageTip>
   <WorldFactionsTab>Frakce</WorldFactionsTab>
 
-  <!--=========== Select world ===================-->
+  <!-- Select world -->
   <SelectWorld>Vybrat svět</SelectWorld>
   <WorldChooseButton>Vybrat</WorldChooseButton>
   <NoWorldsFilesFound>Nenalezena žádná data světa. Nejdříve vytvoř nový svět.</NoWorldsFilesFound>
 
-  <!--=========== Version info ==========-->
+  <!-- Version info -->
   <BuildNowAvailable>Je dostupná verze {0}. Na Ludeon.com najdeš další informace.</BuildNowAvailable>
   <BuildUpToDate>Tato verze je aktuální.</BuildUpToDate>
   <ErrorGettingVersionInfo>Při pokusu o ověření verze se vyskytla chyba: {0}</ErrorGettingVersionInfo>
   <LoadingVersionInfo>Nahrávám informace o verzi...</LoadingVersionInfo>
 
-  <!--=========== World generator =========-->
+  <!-- World generator -->
   <GenerateWorld>Vygenerovat svět</GenerateWorld>
 
-  <!--=========== Mods config ==========-->
+  <!-- Mods config -->
   <OpenSteamWorkshop>Otevřít Steam Workshop</OpenSteamWorkshop>
   <GetModsFromForum>Získat módy z fóra</GetModsFromForum>
   <OpenModsDataFolder>Otevřít složku s módy</OpenModsDataFolder>
@@ -90,14 +93,14 @@
   <MessageModNeedsWellFormattedTargetVersion>Tento mód vyžaduje cílovou verzi ve správném formátu v souboru About.xml. Měla by vypadat nějak takto: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
   <DragToReorder>Přetáhni pro změnu pořadí</DragToReorder>
 
-  <!--=========== Select scenario =============-->
+  <!-- Select scenario -->
   <ChooseScenario>Vybrat scénář</ChooseScenario>
   <ScenariosCustom>Přizpůsobit</ScenariosCustom>
   <ScenariosSteamWorkshop>Steam Workshop</ScenariosSteamWorkshop>
   <ScenarioEditor>Editor scénáře</ScenarioEditor>
   <Delete>Smazat</Delete>
 
-  <!--============ Scenario editor ===============-->
+  <!-- Scenario editor -->
   <Seed>Základ</Seed>
   <Load>Načíst</Load>
   <EditMode>Režim úprav</EditMode>
@@ -110,7 +113,7 @@
   <TooMany>Příliš mnoho (max {0}): </TooMany>
   <CanBeUpdatedOnWorkshop>Vzhledem k tomu, že autorem jsi ty, může toto být na Workshopu aktualizováno.</CanBeUpdatedOnWorkshop>
 
-  <!--=========== Select storyteller ==========-->
+  <!-- Select storyteller -->
   <ChooseAIStoryteller>Vyber si UI vypravěče</ChooseAIStoryteller>
   <HowStorytellersWork>UI vypravěč vytváří události jako pirátské nájezdy, shozy surovin nebo útoky zvířat. Jejich rozhodnutí budou ovlivňovat osudy kolonie.</HowStorytellersWork>
   <MustChooseDifficulty>Zvol si nastavení obtížnosti, prosím.</MustChooseDifficulty>
@@ -122,7 +125,7 @@
 	<ReloadAnytimeModeInfo>Hru můžeš libovolně ukládat a načítat.\n\nNení to špatná volba, pokud se stále tuto hru učíš, nebo ti vyhovuje tento herní styl, nebo používáš módy, které mohou nějakým způsobem narušit hru, a nebo se chceš jen vyhnout režimu nenapravitelného osudu.</ReloadAnytimeModeInfo>
   <CanChangeStorytellerSettingsDuringPlay>Vypravěče a obtížnost můžeš kdykoliv změnit.</CanChangeStorytellerSettingsDuringPlay>
 
-  <!--=========== Landing site select =========-->
+  <!-- Landing site select -->
   <SelectLandingSite>Zvol si místo přistání</SelectLandingSite>
   <SelectRandomSite>Vybrat náhodné místo</SelectRandomSite>
   <SelectSite>Vybrat místo</SelectSite>
@@ -159,7 +162,7 @@
   <ConfirmRequiredWorkTypeDisabledForEveryone>Žádná z vybraných osob nemůže vykonávat následující činnosti:\n\n{0}\n\nTo může zapříčinit, že hra bude obtížnější než obvykle. Jste si jistý, že chcete pokračovat?</ConfirmRequiredWorkTypeDisabledForEveryone>
   
 
-  <!--=========== Character chooser ==========-->
+  <!-- Character chooser -->
   <CreateCharacters>Vytvořit postavy</CreateCharacters>
   <FirstNameDesc>Křestní jméno postavy.\n\nZobrazuje se jen v určitých nabídkách.</FirstNameDesc>
   <ShortIdentifierDesc>Přezdívka postavy.\n\nZobrazuje se vždy. Může být stejné jako křestní jméno nebo příjmení, nebo zcela jiná přezdívka.</ShortIdentifierDesc>
@@ -186,7 +189,7 @@
   <StartingPawnsSelected>Vybrané</StartingPawnsSelected>
   <StartingPawnsLeftBehind>Ponechat bokem</StartingPawnsLeftBehind>
   
-  <!--=========== Misc ==========-->
+  <!-- Misc -->
   <Start>Zahájit</Start>
   <Advanced>Pokročilé</Advanced>
   <Next>Další</Next>
@@ -198,7 +201,7 @@
   <Quit>Odejít</Quit>
   <Ignore>Ignorovat</Ignore>
 
-  <!--============ Progress bar==============-->
+  <!-- Progress bar -->
   <GeneratingWorld>Vytvářím svět</GeneratingWorld>
   <GeneratingPlanet>Vytvářím planetu</GeneratingPlanet>
   <GeneratingMap>Vytvářím mapu</GeneratingMap>
