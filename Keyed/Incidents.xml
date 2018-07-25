@@ -13,19 +13,16 @@
   <MiracleHeal>{0} právě zažil[PAWN_pronoun] zázračné uzdravení!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Do okolí dorazila nepřátelská skupina. Jsou to {0} z frakce {1}.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Do okolí dorazila ve výsadkových modulech nepřátelská skupina. Jsou to {0} z frakce {1}.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Přímo na hlavu se ti snesla nepřátelská skupina. Jsou to {0} z frakce {1}!</EnemyRaidCenterDrop>
-  <EnemyRaidLeaderPresent>{1} je vůdce frakce.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Jeden z {0} - {1}, je lídrem frakce.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Do okolí dorazila přátelská skupina. Jsou to {0} z frakce {1}.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Nedaleko přistála z orbity přátelská skupina. Jsou to {0} z frakce {1}.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Přímo na hlavu ti přistála přátelská skupina. Jsou to {0} z frakce {1}!</FriendlyRaidCenterDrop>
-  <FriendlyRaidLeaderPresent>{1} je vůdce frakce.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Jeden z {0} - {1}, je lídrem frakce.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Únikový modul</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>Všiml sis, že nedaleko tvrdě dopadl únikový modul.\n\nPokud někdo ten náraz přežil, bude těžce zraněný.\n\nMůžeš je zachránit a pak je nechat jít svojí cestou, nebo je zajmout a přemluvit je, aby zůstali, nebo je zotročit.</RefugeePodCrash>
+  <RefugeePodCrash>[PAWN_title] jménem [PAWN_nameDef] havaroval[PAWN_pronoun] v únikovém modulu poblíž. Pokud ten náraz přežil[PAWN_pronoun], bude mít pravděpodobně vážné zranění.</RefugeePodCrash>
+  <RefugeePodCrash_NonHostileOrFactionless>Můžeš [PAWN_objective] zachránit a nechat [PAWN_objective] jít svou cestou, nebo [PAWN_objective] můžeš zajmout a pokusit se [PAWN_objective] naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví.</RefugeePodCrash_NonHostileOrFactionless>
+  <RefugeePodCrash_Hostile>Můžeš [PAWN_objective] zajmout a pokusit se [PAWN_objective] naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví. [PAWN_nameDef] je z frakce [PAWN_factionName].</RefugeePodCrash_Hostile>
+	<RefugeePodCrash_NonHostile>Poznámka: [PAWN_nameDef] je z frakce [PAWN_factionName]. Pokud se rozhodneš [PAWN_objective] zajmout, tak se naštvou, zatímco jestli [PAWN_objective] záchráníš a vyléčíš, vztahy s [PAWN_possessive] frakcí se zlepší.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Nákladní moduly</LetterLabelCargoPodCrash>
   <CargoPodCrash>Všiml sis, že nedaleko dopadl shluk nákladních modulů.\n\nMožná v jejich troskách najdeš něco užitečného.</CargoPodCrash>
@@ -33,7 +30,7 @@
   <AnElectricalConduit>Elektrické vedení</AnElectricalConduit>
   <ShortCircuit>Závada v elektrické síti způsobila zkrat.\n\nPříčina problému: {0}</ShortCircuit>
   <ShortCircuitStartedFire>Závada v elektrické síti způsobila zkrat, který způsobil požár.\n\nPříčina problému: {0}</ShortCircuitStartedFire>
-  <ShortCircuitDischargedEnergy>Veškerých {0} Wd energie v připojených bateriích se vybilo v elektrickém výbuchu.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Veškerých {0} Wd energie v připojených bateriích se vybilo elektrickým výbuchem.</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>Toto velké množství energie vytvořilo výbuch značných rozměrů.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>To je fakt obrovský výbuch. No páni.</ShortCircuitWasHuge>
 
@@ -43,30 +40,26 @@
   <GroupTravelersPassing>Kolem prochází skupina cestovatelů z frakce {0}.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Návštěvník</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Kolonii navštívil[PAWN_pronoun] {2} z frakce {1}. Je to {0}.\n\n{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>Kolonii navštívil[PAWN_pronoun] {2} z frakce {1}.\n\nJe to {0}.{3}{4}</SingleVisitorArrives>
   <SingleVisitorArrivesTraderInfo>\n\nZdá se, že má pár věcí na prodej.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nJe to vůdce frakce.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nJe to lídrem frakce.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Návštěvníci</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Kolonii navštívila skupina z frakce {0}.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nZdá se, že mají pár věcí na prodej.</GroupVisitorsArriveTraderInfo>
-  <GroupVisitorsArriveLeaderInfo>\n\nJeden z návštěvníků, konkrétně {0}, je vůdce frakce.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nJeden z návštěvníků, konkrétně {0}, je lídrem frakce.</GroupVisitorsArriveLeaderInfo>
   <VisitorsLeaving>Návštěva z frakce {0} odchází.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Poutník se přidal</LetterLabelWandererJoin>
-  <WandererJoin>Poblíž byl spatřen potulný {0}. Jmenuje se [PAWN_nameDef] a právě se připojil[PAWN_pronoun] ke kolonii. Je to {1}.</WandererJoin>
+  <WandererJoin>Poblíž byl spatřen potulný {0}. Je to {1} jménem [PAWN_nameDef] a právě se přidal[PAWN_pronoun] ke kolonii. Chtěl[PAWN_pronoun] by něčím přispět, z vlastní vůle však neodejde. Pokud nechceš, aby zůstal[PAWN_pronoun], můžeš [PAWN_objective] vyhostit, prodat do otroctví, nebo prostě zabít. Nicméně ostatní kolonisté z toho mohou být znepokojeni.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Lidožravá smečka</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravé zvěře. Budou se potulovat po krajině a lovit lidské maso.\n\nNemohou procházet dveřmi, takže když zůstaneš za zdmi, měl bys být v bezpečí. Nebudou útočit na vypnuté věže, takže pokud chceš své věže zachránit, vypni je.\n\nOblast opustí za několik dnů.\n\nDruh zvěře: {0}</ManhunterPackArrived>
+  <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravé zvěře. Budou se potulovat po krajině a lovit lidské maso.\n\nNezaútočí na dveře, pokud neuvidí, že někdo nimi prošel. Skryj se uvnitř a budeš v bezpečí. Nebudou útočit na vypnuté střelecké věže, takže pokud chceš své věže zachránit, vypni je.\n\nOblast opustí během jednoho až dvou dnů. Můžeš se schovat a vyčkat, nebo s nimi bojovat.\n\nDruh zvěře: {0}</ManhunterPackArrived>
 
   <!-- Crashed ship part-->
-  <MessageAnimalInsanityPulse>Starobylá stavba vyslala psychický impuls, který dohnal zvířata v okolí k šílenství.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>Havarovaná část lodi vyslala soustředěný psychický impuls, který dohnal osobu jménem {0} k nepříčetnosti.</LetterShipPartDroveColonistInsane>
+  <MessageAnimalInsanityPulse>Starodávná stavba vyslala psychický impuls, který dohnal zvířata v okolí k šílenství.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>Havarovaná část lodě vyslala soustředěný psychický impuls, který dohnal osobu jménem {0} k nepříčetnosti.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>Probudilo se před {0} dny</AwokeDaysAgo>
   <PsychicDroneLevel>Úroveň psychického bzučení: {0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>Nízká</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>Střední</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Vysoká</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>Extrémní</PsychicDroneLevelExtreme>
   <LetterLabelPsychicDroneLevelIncreased>Bzučení zintenzivnělo</LetterLabelPsychicDroneLevelIncreased>
   <LetterPsychicDroneLevelIncreased>Havarovaná část lodi teď vyzařuje ještě silnější druh psychického bzučení. Každý člověku podobný tvor v oblasti se teď cítí mnohem více neklidný, vyděšený a paranoidní.</LetterPsychicDroneLevelIncreased>
 
@@ -76,18 +69,18 @@
 
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Psychické bzučení</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>Každý, kdo je {0}, sebou škubl bolestí!\n\nSilně na ně působí jakési vzdálené zařízení nenávisti. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dnů bude nálada některých lidí o dost horší.</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Každý, kdo je {0}, sebou škubl bolestí!\n\nSilně na ně působí jakési vzdálené zařízení nenávisti. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dnů bude nálada některých lidí o dost horší.\n\nÚroveň psychického bzučení: {1}</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Psychické uklidnění</LetterLabelPsychicSoothe>
   <LetterIncidentPsychicSoothe>Každý, kdo je {0}, se spokojeně usmívá!\n\nSilně na ně působí jakési vzdálené zařízení štěstí. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dnů bude nálada některých lidí o dost lepší.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>Alfa Bobři!</LetterLabelBeaversArrived>
-  <BeaversArrived>Právě dorazila skupina hladových alfa bobrů.\n\nPokus se je zlikvidovat dřív, než zdecimují všechny stromy v kraji do posledního.</BeaversArrived>
+  <BeaversArrived>Právě dorazila smečka hladových alfa bobrů.\n\nPokus se je zlikvidovat dřív, než zdecimují všechny stromy v kraji do posledního.</BeaversArrived>
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Pronásledovaný uprchlík ({0})</RefugeeChasedTitle>
-  <RefugeeChasedInitial>Z nedaleké oblasti tě volá {0}. Je pronásledován[PAWN_pronoun] skupinou známou jako {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii.\n\nJe znám[PAWN_possessive] jako {1} a [PAWN_possessive] biologický věk je {4} let.\n\nVarování - pokud [PAWN_objective] přijmeš, budeš muset odrazit útok, protože [PAWN_objective] {2} pronásledují.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>[PAWN_title] jménem [PAWN_nameDef] ti volá z nedaleké oblasti. Je pronásledován[PAWN_pronoun] skupinou {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii. [PAWN_nameDef] říká, že má {4} let, ale že nemá zrovna čas podat o sobě více informací.\n\nVarování - pokud nabídku přijmeš, budeš se muset vypořádat se skupinou {2}, kterou má za zády.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Nabídnout bezpečí</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Zprávu ignorovat</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Ještě než jsi přerušil spojení, tak jsi slyšel skrze malý reproduktor, jak {0} křičí\nv panice.</RefugeeChasedRejected>
@@ -112,24 +105,24 @@
 
   <!-- Building breaks down -->
   <LetterLabelBuildingBrokenDown>Porucha: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Jeden ze tvých přístrojů se porouchal. Nebude fungovat, dokud to nepřijde opravit nějaký kolonista s pracovním zařazením Stavitel.\n\nPorouchané zařízení: {0}</LetterBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Jeden z tvých přístrojů se porouchal. Nebude fungovat, dokud to nepřijde opravit nějaký kolonista s pracovním zařazením Stavitel.\n\nPorouchané zařízení: {0}</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
   <RansomDemandTitle>Požadování výkupného ({0})</RansomDemandTitle>
-  <RansomDemand>{1} tě zkontaktovali vysílačkou. Drží bývalého člena kolonie jménem {0} kvůli výkupnému.\n\nJsou ochotní [PAWN_objective] propustit zpátky k tobě výměnou za {2} kusů stříbra.</RansomDemand>
+  <RansomDemand>{1} tě zkontaktovali skrze vysílačku. Drží bývalého člena kolonie jménem {0} kvůli výkupnému.\n\nJsou ochotni [PAWN_objective] propustit, aby se mohl[PAWN_pronoun] vrátit k tobě, ale pouze výměnou za {2} stříbra.</RansomDemand>
   <RansomDemand_Accept>Přijmout</RansomDemand_Accept>
-  <RansomDemand_Reject>Odmítnout</RansomDemand_Reject>
+  <RansomDemand_Reject>Zamítnout</RansomDemand_Reject>
 
   <!-- Journey-related -->
-  <JourneyOffer>Přátelská UI ze tvé minulosti jménem Charlon Whitestone ti poslal zprávu!\n\nProzradil ti, že má na této planetě ukrytou vesmírnou loď a posílá ti její souřadnice.\n\nVesmírná loď je v současnosti v módu hluboké hibernace. Jakmile k ní dorazíš, budeš ji muset nastartovat, a poté ji bránit před nájezdníky, kteří se ji budou snažit zmocnit dřív, než bude dokončena startovací sekvence.\n\nPokud se ti podaří odlepit loď od země, Charlon tě vezme z tohoto okrajového světa vzhůru ke hvězdám.</JourneyOffer>
+  <JourneyOffer>Přátelská UI z tvé minulosti jménem Charlon Whitestone ti poslal zprávu!\n\nProzradil ti, že má na této planetě ukrytou vesmírnou loď a posílá ti její souřadnice.\n\nVesmírná loď je v současnosti v módu hluboké hibernace. Jakmile k ní dorazíš, budeš ji muset nastartovat, a poté ji bránit před nájezdníky, kteří se ji budou snažit zmocnit dřív, než bude dokončena startovací sekvence.\n\nPokud se ti podaří odlepit loď od země, Charlon tě vezme z tohoto okrajového světa vzhůru ke hvězdám.</JourneyOffer>
   <EscapeShipFoundLabel>Loď nalezena</EscapeShipFoundLabel>
-  <EscapeShipFound>Dosáhl jsi souřadnic, které ti Charlon Whitestone poslal, a objevil jsi ukrytou vesmírnou loď.\n\nLodní reaktor je stále v módu hluboké hibernace, takže ještě nemůže vzlétnout. Můžeš ji nastartovat interakcí s jádrem počítače.\n\nCharlon Whitestone tě varuje, že startovací proces bude trvat kolem 15 dnů, a energetický podpis bude detekovatelný z obrovské vzdálenosti. Tento druh energetického podpisu naznačuje mezihvězdný letový výkon a přiláká gangy zoufalých lupičů a lovců pokladů. Ujisti se, že tvá obrana je skvěle připravena.</EscapeShipFound>
+  <EscapeShipFound>Dosáhl jsi souřadnic, které ti Charlon Whitestone poslal, a objevil jsi ukrytou vesmírnou loď.\n\nLodní reaktor je stále v režimu hluboké hibernace, takže ještě nemůže vzlétnout. Můžeš ji nastartovat interakcí s jádrem počítače.\n\nCharlon Whitestone tě varuje, že tento startovací proces zabere asi 15 dnů, a jeho energetický podpis bude detekovatelný z velké vzdálenosti. Tento druh energetického podpisu naznačuje mezihvězdný letový výkon a jistě přiláká gangy zoufalých lupičů a roje smrtících mechanoidů.\n\nBudeš napadán intenzitou, jakou jsi ještě neviděl. Ujisti se, že tvá obrana je skvěle připravena.</EscapeShipFound>
   <EscapeShipLostLabel>Loď zničena</EscapeShipLostLabel>
   <EscapeShipLost>Charlon Whitestone ti poslal zprávu.\n\nVidí, že jsi ztratil kontrolu nad lodí. Aby zamezil tomu, že se loď dostane do špatných rukou, je nucen spustit vlastní destrukční mechanismus lodi. Z lodě je teď kráter.\n\nMusíš najít jiný způsob, jak se dostat z této planety.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Setkání karavan ({0})</CaravanMeetingTitle>
-  <CaravanMeeting>Tvá karavana se poklidně setkala s karavanou z frakce {0}.\n\nJejich karavana se skládá z:\n\n{1}</CaravanMeeting>
+  <CaravanMeeting>{0} se poklidně setkala s karavanou z frakce {1}.\n\nJejich karavana se skládá z:\n\n{2}</CaravanMeeting>
   <CaravanMeeting_Trade>Obchodovat</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Zaútočit</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Pokračovat v cestě</CaravanMeeting_MoveOn>
@@ -139,21 +132,18 @@
   <LetterLabelCaravanRequest>Poptávka karavany</LetterLabelCaravanRequest>
   <LetterCaravanRequest>Nedaleká osada, {0}, tě kontaktovala se speciální obchodní nabídkou.\n\nRádi by od tebe koupili:\n\n  {1}\n\nNa oplátku ti nabízí:\n\n  {2}\n\nTato nabídka vyprší za: {3}\n\nPokud chceš provést obchod, pošli karavanu s požadovanými zásobami. Tuto nabídku můžete zobrazit výběrem {0} na mapě světa.</LetterCaravanRequest>
   <CaravanRequestInfo>Poptávka: {0}, Odměna: {1} ({2} zbývá)</CaravanRequestInfo>
+  <NormalQualityOrBetter>Normální kvalita nebo lepší</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
   <CaravanDemandTitle>Požadování výpalného ({0})</CaravanDemandTitle>
   <CaravanDemand>Tvá karavana byla přepadena skupinou známou jako {3} z frakce {0}.\n\nPočet nepřátel: {1}\n\nZaútočí, pokud jim neodevzdáš:\n\n{2}</CaravanDemand>
   <CaravanDemand_Give>Odevzdat a jít dál</CaravanDemand_Give>
-  <CaravanDemand_Fight>Odmítnout a bojovat</CaravanDemand_Fight>
+  <CaravanDemand_Fight>Zamítnout a bojovat</CaravanDemand_Fight>
 
-  <!-- Temporary item stash -->
-  <ItemStashQuestTitle>Příležitost: Tajná skrýš</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Přijmout</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>Odmítnout</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>{0} je ochoten ti sdělit místo skrýše výměnou za {1} stříbra.</ItemStashQuestFeeDemand>
-  <ItemStashSitePart_Unknown>Naneštěstí, {0} netuší kdo nebo co - jestli vůbec někdo - by mohl tuto skrýš chránit.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} říká, že skrýš je nechráněná.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} říká, že {1}.</ItemStashSitePart_Part>
-
+  <!-- Site no longer hostile -->
+  <LetterLabelSiteNoLongerHostile>Mise již není k dispozici</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostileMulti>Mise již nejsou k dispozici</LetterLabelSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostile>Protože už nejsi nepřátelský vůči frakci {0}, {1} již není k dispozici.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostileMulti>Protože už nejsi nepřátelský vůči frakci {0}, tyto oblasti již nejsou k dispozici</LetterSiteNoLongerHostileMulti>
 
 </LanguageData>
