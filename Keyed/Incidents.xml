@@ -19,9 +19,9 @@
   <FriendlyRaidLeaderPresent>Jeden z {0} - {1}, je lídrem frakce.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Únikový modul</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>[PAWN_title] jménem [PAWN_nameDef] havaroval[PAWN_pronoun] v únikovém modulu poblíž. Pokud ten náraz přežil[PAWN_pronoun], bude mít pravděpodobně vážné zranění.</RefugeePodCrash>
-  <RefugeePodCrash_NonHostileOrFactionless>Můžeš [PAWN_objective] zachránit a nechat [PAWN_objective] jít svou cestou, nebo [PAWN_objective] můžeš zajmout a pokusit se [PAWN_objective] naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>Můžeš [PAWN_objective] zajmout a pokusit se [PAWN_objective] naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví. [PAWN_nameDef] je z frakce [PAWN_factionName].</RefugeePodCrash_Hostile>
+  <RefugeePodCrash>[PAWN_title] jménem [PAWN_nameDef] havaroval[PAWN_pronoun] v únikovém modulu poblíž. Pokud ten náraz přežil[PAWN_pronoun], bude mít pravděpodobně vážné zranění.\n\nV závislosti na [PAWN_possessive] frakci [PAWN_objective] můžeš buď zachránit a doufat, že se přidá k tobě, nebo [PAWN_objective] můžeš zajmout a poté se pokusit naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví.</RefugeePodCrash>
+  <RefugeePodCrash_NonHostileOrFactionless>Můžeš [PAWN_objective] zachránit a nechat [PAWN_objective] jít svou cestou, nebo [PAWN_objective] můžeš zajmout a pokusit se naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví.</RefugeePodCrash_NonHostileOrFactionless>
+  <RefugeePodCrash_Hostile>Můžeš [PAWN_objective] zajmout a pokusit se naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví. [PAWN_nameDef] je z frakce [PAWN_factionName].</RefugeePodCrash_Hostile>
 	<RefugeePodCrash_NonHostile>Poznámka: [PAWN_nameDef] je z frakce [PAWN_factionName]. Pokud se rozhodneš [PAWN_objective] zajmout, tak se naštvou, zatímco jestli [PAWN_objective] záchráníš a vyléčíš, vztahy s [PAWN_possessive] frakcí se zlepší.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Nákladní moduly</LetterLabelCargoPodCrash>
@@ -80,7 +80,7 @@
 
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Pronásledovaný uprchlík ({0})</RefugeeChasedTitle>
-  <RefugeeChasedInitial>[PAWN_title] jménem [PAWN_nameDef] ti volá z nedaleké oblasti. Je pronásledován[PAWN_pronoun] skupinou {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii. [PAWN_nameDef] říká, že má {4} let, ale že nemá zrovna čas podat o sobě více informací.\n\nVarování - pokud nabídku přijmeš, budeš se muset vypořádat se skupinou {2}, kterou má za zády.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>[PAWN_title] jménem [PAWN_nameDef] ti volá z nedaleké oblasti. Je pronásledován[PAWN_pronoun] skupinou {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii. [PAWN_nameDef] říká, že má {4} let, ale že zrovna nemá čas podat o sobě více informací.\n\nVarování - pokud nabídku přijmeš, budeš se muset vypořádat se skupinou {2}, kterou má za zády. Jejich skupina je složena z:\n\n{5}</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Nabídnout bezpečí</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Zprávu ignorovat</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Ještě než jsi přerušil spojení, tak jsi slyšel skrze malý reproduktor, jak {0} křičí\nv panice.</RefugeeChasedRejected>
@@ -130,8 +130,8 @@
   
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Poptávka karavany</LetterLabelCaravanRequest>
-  <LetterCaravanRequest>Nedaleká osada, {0}, tě kontaktovala se speciální obchodní nabídkou.\n\nRádi by od tebe koupili:\n\n  {1}\n\nNa oplátku ti nabízí:\n\n  {2}\n\nTato nabídka vyprší za: {3}\n\nPokud chceš provést obchod, pošli karavanu s požadovanými zásobami. Tuto nabídku můžete zobrazit výběrem {0} na mapě světa.</LetterCaravanRequest>
-  <CaravanRequestInfo>Poptávka: {0}, Odměna: {1} ({2} zbývá)</CaravanRequestInfo>
+  <LetterCaravanRequest>Nedaleká osada, {0}, tě kontaktovala se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  {1} (hodnota {2})\n\nNa oplátku ti nabízí:\n\n  {3} (hodnota {4})\n\nTato nabídka vyprší za: {5}\n\nPokud chceš provést obchod, pošli karavanu s požadovanými zásobami. Odhadovaná doba cesty je {6}. Tuto nabídku můžeš zobrazit výběrem {0} na mapě světa.</LetterCaravanRequest>
+  <CaravanRequestInfo>Poptávka: {0} ({3}), Odměna: {1} ({4}) ({2} zbývá)</CaravanRequestInfo>
   <NormalQualityOrBetter>Normální kvalita nebo lepší</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
