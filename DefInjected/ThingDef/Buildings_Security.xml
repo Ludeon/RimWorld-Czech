@@ -12,9 +12,9 @@
 
   <Turret_MiniTurret.label>miniaturní kanón</Turret_MiniTurret.label>
   <Turret_MiniTurret.description>Malá automatická střelecká věž určená na kratší vzdálenosti. Po intenzivním používání bude při údržbě vyžadovat ocel nutnou k výměně hlavně. Pokud je poškozena, může explodovat. Její řídící jednotka umělé inteligence není nijak zvlášť inteligentní a nelze ji ani ovládat přímo, takže je nutné dávat si pozor na střelbu do vlastních řad.</Turret_MiniTurret.description>
-  <Turret_MiniTurret.comps.5.fuelGizmoLabel>Životnost hlavně</Turret_MiniTurret.comps.5.fuelGizmoLabel>
-  <Turret_MiniTurret.comps.5.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_MiniTurret.comps.5.fuelLabel>
-  <Turret_MiniTurret.comps.5.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_MiniTurret.comps.5.outOfFuelMessage>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
+  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
   <Blueprint_Turret_MiniTurret.label>miniaturní kanón (plán)</Blueprint_Turret_MiniTurret.label>
   <Blueprint_Install_Turret_MiniTurret.label>miniaturní kanón (plán)</Blueprint_Install_Turret_MiniTurret.label>
   <Frame_Turret_MiniTurret.label>miniaturní kanón (ve výstavbě)</Frame_Turret_MiniTurret.label>
@@ -30,9 +30,9 @@
 
   <Turret_Autocannon.label>těžký kanón</Turret_Autocannon.label>
   <Turret_Autocannon.description>Automatická střelecká věž většího kalibru. Její velká ráže dokáže způsobit značné škody na větší vzdálenosti, zato ale vyžaduje časté a drahé výměny hlavně. Nemůže střílet na blízké cíle, a pokud je poškozena, může explodovat.</Turret_Autocannon.description>
-  <Turret_Autocannon.comps.5.fuelGizmoLabel>Životnost hlavně</Turret_Autocannon.comps.5.fuelGizmoLabel>
-  <Turret_Autocannon.comps.5.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_Autocannon.comps.5.fuelLabel>
-  <Turret_Autocannon.comps.5.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_Autocannon.comps.5.outOfFuelMessage>
+  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
+  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
   <Blueprint_Turret_Autocannon.label>těžký kanón (plán)</Blueprint_Turret_Autocannon.label>
   <Frame_Turret_Autocannon.label>těžký kanón (ve výstavbě)</Frame_Turret_Autocannon.label>
   <Frame_Turret_Autocannon.description>Automatická střelecká věž většího kalibru. Její velká ráže dokáže způsobit značné škody na větší vzdálenosti, zato ale vyžaduje časté a drahé výměny hlavně. Nemůže střílet na blízké cíle, a pokud je poškozena, může explodovat.</Frame_Turret_Autocannon.description>
@@ -47,9 +47,9 @@
 
   <Turret_Sniper.label>odstřelovací kanón</Turret_Sniper.label>
   <Turret_Sniper.description>Automatická odstřelovací střelecká věž určená na velmi velké vzdálenosti. Její vysokorychlostní uranové střely dokáží způsobit velmi značné škody i na velmi velké vzdálenosti, zato ale vyžaduje časté a drahé výměny hlavně. Je přesnější na větších vzdálenostech, a nemůže střílet na blízké cíle. Pokud je poškozena, může explodovat.</Turret_Sniper.description>
-  <Turret_Sniper.comps.5.fuelGizmoLabel>Životnost hlavně</Turret_Sniper.comps.5.fuelGizmoLabel>
-  <Turret_Sniper.comps.5.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_Sniper.comps.5.fuelLabel>
-  <Turret_Sniper.comps.5.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_Sniper.comps.5.outOfFuelMessage>
+  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
+  <Turret_Sniper.comps.CompRefuelable.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_Sniper.comps.CompRefuelable.fuelLabel>
+  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   <Blueprint_Turret_Sniper.label>odstřelovací kanón (plán)</Blueprint_Turret_Sniper.label>
   <Frame_Turret_Sniper.label>odstřelovací kanón (ve výstavbě)</Frame_Turret_Sniper.label>
   <Frame_Turret_Sniper.description>Automatická odstřelovací střelecká věž určená na velmi velké vzdálenosti. Její vysokorychlostní uranové střely dokáží způsobit velmi značné škody i na velmi velké vzdálenosti, zato ale vyžaduje časté a drahé výměny hlavně. Je přesnější na větších vzdálenostech, a nemůže střílet na blízké cíle. Pokud je poškozena, může explodovat.</Frame_Turret_Sniper.description>
@@ -76,10 +76,10 @@
   <!-- Traps -->
 
   <TrapDeadfall.label>padací past</TrapDeadfall.label>
-  <TrapDeadfall.description>Sada pěti hrotů na prkně, které je napnuto a opatřené citlivou spouští. Když je narušena spoušť, napnutá past se uvolní a zasáhne svou oběť. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pasti. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapDeadfall.description>
+  <TrapDeadfall.description>Sada pěti hrotů na napnutém prkně, které je opatřeno citlivou spouští. Když je narušena spoušť, napnutá past se uvolní a zasáhne svou oběť. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pasti. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapDeadfall.description>
   <Blueprint_TrapDeadfall.label>padací past (plán)</Blueprint_TrapDeadfall.label>
   <Frame_TrapDeadfall.label>padací past (ve výstavbě)</Frame_TrapDeadfall.label>
-  <Frame_TrapDeadfall.description>Sada pěti hrotů na prkně, které je napnuto a opatřené citlivou spouští. Když je narušena spoušť, napnutá past se uvolní a zasáhne svou oběť. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pasti. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</Frame_TrapDeadfall.description>
+  <Frame_TrapDeadfall.description>Sada pěti hrotů na napnutém prkně, které je opatřeno citlivou spouští. Když je narušena spoušť, napnutá past se uvolní a zasáhne svou oběť. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pasti. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</Frame_TrapDeadfall.description>
 
   <TrapIED_HighExplosive.label>tříštivotrhavé IED</TrapIED_HighExplosive.label>
   <TrapIED_HighExplosive.description>Dělostřelecký granát připojený k podomácku vyrobené spoušti. Pokud někdo o spoušť zavadí, granát exploduje. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pasti. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_HighExplosive.description>
