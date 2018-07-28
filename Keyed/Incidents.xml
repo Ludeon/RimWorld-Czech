@@ -3,7 +3,7 @@
 
   <LetterLabelAnimalInsanitySingle>Šílené zvíře ({0})</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>Místní {0} šílí. Zaútočí na každého, koho uvidí.</AnimalInsanitySingle>
-  <LetterLabelAnimalInsanityMultiple>Šílená zvířata!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>Šílená zvířata ({0})</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nVypadá to, že mnoho zvířat v oblasti to dohnalo k nepříčetnosti.\n\nDruh zvěře: {0}</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Plíseň na poli</LetterLabelCropBlight>
@@ -19,10 +19,10 @@
   <FriendlyRaidLeaderPresent>Jeden z {0} - {1}, je lídrem frakce.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Únikový modul</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>[PAWN_title] jménem [PAWN_nameDef] havaroval[PAWN_pronoun] v únikovém modulu poblíž. Pokud ten náraz přežil[PAWN_pronoun], bude mít pravděpodobně vážné zranění.\n\nV závislosti na [PAWN_possessive] frakci [PAWN_objective] můžeš buď zachránit a doufat, že se přidá k tobě, nebo [PAWN_objective] můžeš zajmout a poté se pokusit naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví.</RefugeePodCrash>
-  <RefugeePodCrash_NonHostileOrFactionless>Můžeš [PAWN_objective] zachránit a nechat [PAWN_objective] jít svou cestou, nebo [PAWN_objective] můžeš zajmout a pokusit se naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>Můžeš [PAWN_objective] zajmout a pokusit se naverbovat, a nebo [PAWN_objective] můžeš využít pro účel otroctví. [PAWN_nameDef] je z frakce [PAWN_factionName].</RefugeePodCrash_Hostile>
-	<RefugeePodCrash_NonHostile>Poznámka: [PAWN_nameDef] je z frakce [PAWN_factionName]. Pokud se rozhodneš [PAWN_objective] zajmout, tak se naštvou, zatímco jestli [PAWN_objective] záchráníš a vyléčíš, vztahy s [PAWN_possessive] frakcí se zlepší.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash>[PAWN_title] jménem [PAWN_nameDef] havaroval[PAWN_pronoun] v únikovém modulu poblíž. Pokud ten náraz přežil[PAWN_pronoun], bude mít pravděpodobně vážné zranění.</RefugeePodCrash>
+  <RefugeePodCrash_Factionless>[PAWN_nameDef] nepatří k žádné frakci. Můžeš [PAWN_objective] zachránit a doufat, že se k tobě přidá, a nebo [PAWN_objective] můžeš zajmout pro účely náboru nebo otroctví.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Hostile>[PAWN_nameDef] patří k nepřátelské frakci [PAWN_factionName]. Můžeš [PAWN_objective] zajmout pro účely náboru nebo otroctví.</RefugeePodCrash_Hostile>
+	<RefugeePodCrash_NonHostile>[PAWN_nameDef] patří k frakci [PAWN_factionName]. Pokud [PAWN_objective] zachráníš, může se k tobě přidat. V opačném případě se vrátí domů, kde bude šířit dobrou pověst tvé frakce.\n\nMůžeš [PAWN_objective] také zajmout pro účely náboru nebo otroctví, to ale vyvolá hněv v [PAWN_possessive] frakci.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Nákladní moduly</LetterLabelCargoPodCrash>
   <CargoPodCrash>Všiml sis, že nedaleko dopadl shluk nákladních modulů.\n\nMožná v jejich troskách najdeš něco užitečného.</CargoPodCrash>
@@ -36,15 +36,15 @@
 
   <TraderArrival>Nedaleko prolétá obchodní loď. Je to {1}.\n\nNázev společnosti: {0}</TraderArrival>
 
-  <SingleTravelerPassing>{0} z frakce {1} prochází kolem. Jmenuje se {2}.</SingleTravelerPassing>
+  <SingleTravelerPassing>Kolem prochází {0} z frakce {1}. Jmenuje se {2}.</SingleTravelerPassing>
   <GroupTravelersPassing>Kolem prochází skupina cestovatelů z frakce {0}.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Návštěvník</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>Kolonii navštívil[PAWN_pronoun] {2} z frakce {1}.\n\nJe to {0}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>Kolonii jde navštívit {0} z frakce {1}.\n\nJmenuje se {2}.{3}{4}</SingleVisitorArrives>
   <SingleVisitorArrivesTraderInfo>\n\nZdá se, že má pár věcí na prodej.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nJe to lídrem frakce.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nJe lídrem frakce.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Návštěvníci</LetterLabelGroupVisitorsArrive>
-  <GroupVisitorsArrive>Kolonii navštívila skupina z frakce {0}.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArrive>Kolonii jde navštívit skupina z frakce {0}.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nZdá se, že mají pár věcí na prodej.</GroupVisitorsArriveTraderInfo>
   <GroupVisitorsArriveLeaderInfo>\n\nJeden z návštěvníků, konkrétně {0}, je lídrem frakce.</GroupVisitorsArriveLeaderInfo>
   <VisitorsLeaving>Návštěva z frakce {0} odchází.</VisitorsLeaving>
@@ -58,18 +58,18 @@
   <!-- Crashed ship part-->
   <MessageAnimalInsanityPulse>Starodávná stavba vyslala psychický impuls, který dohnal zvířata v okolí k šílenství.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>Havarovaná část lodě vyslala soustředěný psychický impuls, který dohnal osobu jménem {0} k nepříčetnosti.</LetterShipPartDroveColonistInsane>
-  <AwokeDaysAgo>Probudilo se před {0} dny</AwokeDaysAgo>
-  <PsychicDroneLevel>Úroveň psychického bzučení: {0}</PsychicDroneLevel>
+  <AwokeDaysAgo>Probudila se před {0} dny</AwokeDaysAgo>
+  <PsychicDroneLevel>Psychické bzučení: {0}</PsychicDroneLevel>
   <LetterLabelPsychicDroneLevelIncreased>Bzučení zintenzivnělo</LetterLabelPsychicDroneLevelIncreased>
-  <LetterPsychicDroneLevelIncreased>Havarovaná část lodi teď vyzařuje ještě silnější druh psychického bzučení. Každý člověku podobný tvor v oblasti se teď cítí mnohem více neklidný, vyděšený a paranoidní.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>Havarovaná část lodě teď vyzařuje ještě silnější druh psychického bzučení. Každý člověku podobný tvor v oblasti se teď cítí mnohem více neklidný, vyděšený a paranoidní.</LetterPsychicDroneLevelIncreased>
 
   <!-- Agent revealed -->
-  <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
-  <LetterAgentRevealed>{0} byl odhalen jako agent tvého nepřítele {1}.\n\nTeď se pokoušejí uniknout.</LetterAgentRevealed>
+  <LetterLabelAgentRevealed>Špion</LetterLabelAgentRevealed>
+  <LetterAgentRevealed>{0} byl odhalen jako špion tvého nepřítele {1}.\n\nPrávě se pokouší uniknout.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Psychické bzučení</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>Každý, kdo je {0}, sebou škubl bolestí!\n\nSilně na ně působí jakési vzdálené zařízení nenávisti. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dnů bude nálada některých lidí o dost horší.\n\nÚroveň psychického bzučení: {1}</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Každý, kdo je {0}, sebou škubl bolestí!\n\nSilně na ně působí jakési vzdálené zařízení nenávisti. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dnů bude nálada některých lidí o dost horší.\n\nPsychické bzučení: {1}</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Psychické uklidnění</LetterLabelPsychicSoothe>
   <LetterIncidentPsychicSoothe>Každý, kdo je {0}, se spokojeně usmívá!\n\nSilně na ně působí jakési vzdálené zařízení štěstí. Mocný psychický šum vysílá po celém kraji na frekvenci, která, jak se zdá, ovlivňuje pouze jedno pohlaví. Po několik dnů bude nálada některých lidí o dost lepší.</LetterIncidentPsychicSoothe>
@@ -136,7 +136,7 @@
 
   <!-- Caravan demand -->
   <CaravanDemandTitle>Požadování výpalného ({0})</CaravanDemandTitle>
-  <CaravanDemand>Tvá karavana byla přepadena skupinou známou jako {3} z frakce {0}.\n\nPočet nepřátel: {1}\n\nZaútočí, pokud jim neodevzdáš:\n\n{2}</CaravanDemand>
+  <CaravanDemand>{0} byla přepadena skupinou {4} z frakce {1}.\n\nPočet nepřátel: {2}\n\nZaútočí, pokud jim neodevzdáš:\n\n{3}</CaravanDemand>
   <CaravanDemand_Give>Odevzdat a jít dál</CaravanDemand_Give>
   <CaravanDemand_Fight>Zamítnout a bojovat</CaravanDemand_Fight>
 
