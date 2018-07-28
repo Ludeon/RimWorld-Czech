@@ -57,7 +57,7 @@
   <AnimalManhunterFromTaming>Rozzuřené zvíře útočí, protože ses ho pokusil ochočit! Je to {0}.</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>Ostatní zvířata ({0}) v okolí to také rozzuřilo!</AnimalManhunterOthers>
 
-  <LetterFriendlyTrapSprungLabel>{0} šlápnul do pasti</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{0} šlápl do pasti</LetterFriendlyTrapSprungLabel>
   <LetterFriendlyTrapSprung>{0} náhodou šlápl do pasti a ta ho zranila.</LetterFriendlyTrapSprung>
 
   <LetterHealthComplications>U {0} se vyvinul následující zdravotní stav:\n\n  {1}\n\nJe to následek:\n\n  {2}</LetterHealthComplications>
@@ -100,7 +100,6 @@
   <LetterLabelAffair>Milostný poměr</LetterLabelAffair>
   <LetterAffair>{0}, který je v manželském svazku s {1}, si začal aférku s {2}.</LetterAffair>
   <LetterLabelNewLovers>Noví milenci</LetterLabelNewLovers>
-  <LetterNewLovers>{0} a {1} se dali dohromady a jsou teď milenci.</LetterNewLovers>
   <LetterNoLongerLovers>Mezi {0} a {1} už není žádný vztah.</LetterNoLongerLovers>
   <LetterLabelBreakup>Rozchod</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>Svatba na spadnutí!</LetterLabelAcceptedProposal>
@@ -155,7 +154,7 @@
   
   <!-- Faction base defeated -->
   <LetterLabelFactionBaseDefeated>Základna byla zničena</LetterLabelFactionBaseDefeated>
-  <LetterFactionBaseDefeated>Nepřátelská základna {0} byla zničena.\n\nKaravana se automaticky shromáždí za {0}. Můžeš ji také shromáždit hned, a to tak, že na obrazovce mapy světa vybereš zničenou osadu a klikneš na příkaz 'Upravit karavanu'.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Nepřátelská základna {0} byla zničena.\n\nKaravana se automaticky shromáždí za {1}. Můžeš ji také shromáždit hned, a to tak, že na obrazovce mapy světa vybereš zničenou osadu a klikneš na příkaz 'Upravit karavanu'.</LetterFactionBaseDefeated>
   <LetterFactionBaseDefeated_FactionDestroyed>Tohle byla poslední základna patřící frakci {0}, což znamená, že tato frakce už neexistuje.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
@@ -164,7 +163,7 @@
 
   <!-- Found lump of precious resources -->
   <LetterLabelFoundPreciousLump>Drahocenné minerály nalezeny</LetterLabelFoundPreciousLump>
-  <LetterFoundPreciousLump>Tvůj snímač minerálů s dlouhým dosahem nalezl nedaleko hroudu, která je bohatá na {0}.\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní vytěží hroudu za {4} dnů.\n\n{2}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>{3}, za pomoci snímače minerálů s dlouhým dosahem, nachází drahocennou hroudu ({0}).\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní vytěží tuto hroudu za {1} dnů.\n\n{3} říká, že{2}.</LetterFoundPreciousLump>
 
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>Léčka</LetterLabelAmbushInExistingMap>
@@ -224,5 +223,9 @@
 
   <!-- Player entered site (generic label) -->
   <LetterLabelPlayerEnteredNewSiteGeneric>Dorazili do oblasti</LetterLabelPlayerEnteredNewSiteGeneric>
-  
+
+  <!-- Predator hunting colonist -->
+  <LetterLabelPredatorHuntingColonist>{0} loví {1}</LetterLabelPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{0} jde z hladu ulovit nějakou kořist! Zdá se, že kořistí bude {1}.</LetterPredatorHuntingColonist>
+
 </LanguageData>
