@@ -53,8 +53,8 @@
   <StruckMineable>Narazili jsme na {0}!</StruckMineable>
 
   <LetterLabelAnimalManhunterRevenge>{0} se mstí</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>Rozzuřené zvíře útočí poté, co bylo zraněno! Je to {0}.</AnimalManhunterFromDamage>
-  <AnimalManhunterFromTaming>Rozzuřené zvíře útočí, protože ses ho pokusil ochočit! Je to {0}.</AnimalManhunterFromTaming>
+  <AnimalManhunterFromDamage>[PAWN_indefinite] útočí po utrpění zranění!\n\nBude se pokoušet ulovit nějaké humanoidní stvoření, které mu zkříží cestu. Uklidní se, jakmile půjde spát.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>[PAWN_indefinite] útočí kvůli zpackanému pokusu o krocení!</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>Ostatní zvířata ({0}) v okolí to také rozzuřilo!</AnimalManhunterOthers>
 
   <LetterFriendlyTrapSprungLabel>{0} šlápl do pasti</LetterFriendlyTrapSprungLabel>
@@ -83,7 +83,7 @@
   <LetterLabelNoticedRelatedPawns>Příbuzenský vztah</LetterLabelNoticedRelatedPawns>
   <LetterRelatedPawnsRaidEnemy>V této příchozí skupině {1} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů.\n\nMěj na paměti, že i když jsou příbuzní, budou na sebe i tak útočit z důvodu špatných vztahů s touto frakcí.\n\nTito lidé jsou:</LetterRelatedPawnsRaidEnemy>
   <LetterRelatedPawnsRaidFriendly>V této příchozí přátelské skupině {1} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>V této příchozí skupině {1} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>V této příchozí skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>Obchodník na orbitě prodává lidi, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsTradeShip>
   <LetterRelatedPawnsTradingWithSettlement>Osada prodává lidi, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsTradingWithSettlement>
   <LetterRelatedPawnsTradingWithOtherCaravan>Karavana prodává lidi, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsTradingWithOtherCaravan>
@@ -105,7 +105,7 @@
   <LetterLabelAcceptedProposal>Svatba na spadnutí!</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>Odmítnutí sňatku</LetterLabelRejectedProposal>
   <LetterAcceptedProposal>V určitém okamžiku následujících dnů či ročních obdobích uspořádají svatební obřad a pozvou na něj všechny kolonisty. Jestli chceš určit, kde se obřad bude konat, tak zvaž umístění místa pro svatbu.</LetterAcceptedProposal>
-  <LetterRejectedProposal>{1} odmítá návrh k sňatku od {0}. Z toho bude mít {0} špatný den.</LetterRejectedProposal>
+  <LetterRejectedProposal>{0} bude kvůli tomu pociťovat smutek.</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <LetterLabelRelationsChange_Hostile>Nepřátelé: {0}</LetterLabelRelationsChange_Hostile>
