@@ -9,7 +9,7 @@
   <ReorderCharacters.text>Nyní si můžeš vybrat postavy!\n\nKliknutím v levé části si vyber z dostupných postav. Pokud najdeš postavu, která se ti líbí, přetáhni ji do horní části s označením VYBRANÉ.</ReorderCharacters.text>
   <ReorderCharacters.rejectInputMessage>Zkus nejprve výběr postavy, prosím.</ReorderCharacters.rejectInputMessage>
   
-  <RandomizeCharacter.text>Teď se pustíme do vytváření postav!\n\nZkus náhodný výběr postavy tlačítkem NÁHODNĚ.</RandomizeCharacter.text>
+  <RandomizeCharacter.text>Pokud se ti postavy nelíbí, můžeš vygenerovat nové!\n\nZkus náhodný výběr postavy tlačítkem NÁHODNĚ.</RandomizeCharacter.text>
   <RandomizeCharacter.rejectInputMessage>Zkus nejprve vytvořit náhodnou postavu, prosím.</RandomizeCharacter.rejectInputMessage>
 
   <AcceptStartingPawns.text>Skvělé!\n\nPokud chceš, vytvoř víc náhodných postav, ale nesnaž se vytvořit perfektní. Každý má své nedostatky, a díky tomu je příběh mnohem zajímavější!\n\nPostavy můžeš též přejmenovávat kliknutím na jejich jména.\n\nAž budeš připraven, klikni na ZAHÁJIT.</AcceptStartingPawns.text>
@@ -64,9 +64,9 @@
   <EquipWeapons.rejectInputMessage>Nech své kolonisty vybavit zbraněmi, prosím.</EquipWeapons.rejectInputMessage>
   <EquipWeapons.onMapInstruction>Vybav se tímhle</EquipWeapons.onMapInstruction>
 
-  <BuildFueledStove.text>Výtečně!\n\nTeď potřebuješ udělat sporák, abys uvařil jídlo.\n\nPostav uvnitř místnosti SPORÁK NA PALIVO.</BuildFueledStove.text>
-  <BuildFueledStove.rejectInputMessage>Uvnitř místnosti, kterou jsi již zbudoval předtím, postav sporák na palivo, prosím.</BuildFueledStove.rejectInputMessage>
-  <BuildFueledStove.onMapInstruction>Postav uvnitř místnosti sporák na palivo</BuildFueledStove.onMapInstruction>
+  <BuildFueledStove.text>Výtečně!\n\nTeď potřebuješ udělat sporák, abys uvařil jídlo.\n\nPostav uvnitř místnosti SPORÁK NA TUHÁ PALIVA.</BuildFueledStove.text>
+  <BuildFueledStove.rejectInputMessage>Uvnitř místnosti, kterou jsi již zbudoval předtím, postav sporák na tuhá paliva, prosím.</BuildFueledStove.rejectInputMessage>
+  <BuildFueledStove.onMapInstruction>Postav uvnitř místnosti sporák na tuhá paliva</BuildFueledStove.onMapInstruction>
 
   <AddBillSimpleMeal.text>Musíš kolonistům říct, co mají vařit.\n\nPříkazy, co vařit, jsou přidány do samotného sporáku. Jakmile bude vytvořený úkol, budou tuto práci kolonisté provádět automaticky.\n\n1. Počkej, až bude sporák postaven.\n2. Klikni na sporák, abys ho vybral.\n3. Otevři záložku ÚKOLY.\n4. Klikni na PŘIDAT ÚKOL.\n5. V kontextové nabídce vyber UVAŘIT PROSTÉ JÍDLO.\n6. Klikej na tlačítko +, abys zvýšil počet na 10.\n\nNezapoměň, že můžeš zrychlit čas, pokud stavba trvá moc dlouho.\n\nMůžeš také vybrat kolonistu a kliknout pravým tlačítkem myši na sporák, abys upřednostnil jeho výstavbu.</AddBillSimpleMeal.text>
   <AddBillSimpleMeal.rejectInputMessage>Přidej ke sporáku úkol na uvaření prostých jídel, prosím.</AddBillSimpleMeal.rejectInputMessage>
@@ -74,7 +74,7 @@
 
   <MineSteel.text>Teď už si tví kolonisté budou vařit nějaké to jídlo! Mňam!\n\nJako další budeš chtít těžit nějaké ty minerály. Nedaleko tvé základny jsem vytvořil trochu oceli k vytěžení.\n\nVyber příkaz TĚŽIT a přetáhni kurzor myši přes ložiska oceli, abys je označil k těžbě.</MineSteel.text>
   <MineSteel.rejectInputMessage>Použij na stlačenou ocel příkaz 'těžit', prosím.</MineSteel.rejectInputMessage>
-  <MineSteel.onMapInstruction>Všechno tohle označ\npro těžbu</MineSteel.onMapInstruction>
+  <MineSteel.onMapInstruction>Tohle všechno označ\npro těžbu</MineSteel.onMapInstruction>
 
   <ChopTrees.text>Budeš také chtít natěžit nějaké to dřevo. Označ několik stromů k pokácení.\n\nVyber příkaz POKÁCET a označ 10 stromů k pokácení.\n\n(Tip pro profesionály: Přes stromy můžeš přetáhnout rámeček, abys jich označil víc najednou.)</ChopTrees.text>
   <ChopTrees.rejectInputMessage>Přetáhni přes několik stromů rámeček s příkazem 'pokácet', prosím.</ChopTrees.rejectInputMessage>
@@ -82,7 +82,7 @@
   <OpenMainTabWork.text>Můžeš určovat, jaký druh činnosti bude konkrétní kolonista vykonávat.\n\nNa spodní straně obrazovky otevři záložku ČINNOSTI.</OpenMainTabWork.text>
   <OpenMainTabWork.rejectInputMessage>Otevři záložku 'Činnosti', prosím.</OpenMainTabWork.rejectInputMessage>
 
-  <ChangeWorkSettings.text>Pomocí zaškrtávacích políček můžeš určovat, kdo bude určitý druh činnosti vykonávat. Kolonisté budou plnit úkoly v pořadí zleva doprava.\n\nTeď si zkus změnit některá nastavení.\n\nPozor - Kolonisté budou následovat své pracovní priority, i kdyby to znamenalo, že budou dělat hlouposti! Ve hře RimWorld je chytré nastavení režimu činností klíčem k úspěchu. Takže nastavuj činnosti pečlivě a často je kontroluj!</ChangeWorkSettings.text>
+  <ChangeWorkSettings.text>Pomocí zaškrtávacích políček můžeš určovat, kdo bude určitý druh činnosti vykonávat. Kolonisté budou plnit úkoly v pořadí zleva doprava.\n\nTeď si zkus změnit některá nastavení.\n\nPozor - Kolonisté budou následovat své pracovní priority, i kdyby to znamenalo, že budou dělat hlouposti! Ve hře RimWorld je chytré nastavení režimu činností důležitým klíčem k úspěchu. Takže nastavuj činnosti pečlivě a často je kontroluj!</ChangeWorkSettings.text>
   <ChangeWorkSettings.rejectInputMessage>Otevři záložku 'Činnosti', prosím, a změň některá nastavení.</ChangeWorkSettings.rejectInputMessage>
 
   <BuildSimpleResearchBench.text>Abys postupoval vpřed, budeš potřebovat vyzkoumat nové technologie.\n\nPostav uvnitř místnosti dřevěné JEDNODUCHÉ VÝZKUMNÉ STANOVIŠTĚ.</BuildSimpleResearchBench.text>
@@ -98,11 +98,11 @@
   <ExpandAreaHome.text>Jako další se naučíš, jak rozšířit DOMOVSKOU OBLAST.\n\nKolonisté čistí podlahy a hasí požáry jen v domovské oblasti a požáry nebo špínu vně ní ignorují.\n\nDomovská oblast se automaticky rozšiřuje tím, jak stavíš věci, ale můžeš ji rozšiřovat i ručně.\n\nVyber nástroj ROZŠÍŘIT DOMOVSKOU OBLAST a tažením na mapě vyznač novou oblast.</ExpandAreaHome.text>
   <ExpandAreaHome.rejectInputMessage>Rozšiř o kousek domovskou oblast, prosím, jen tak na zkoušku.</ExpandAreaHome.rejectInputMessage>
 
-  <ExpandAreaBuildRoof.text>Příkaz ROZŠÍŘIT STŘECHU určuje, kde se tví kolonisté pokusí postavit střechu.\n\nZaplní se automaticky pokaždé, když tví kolonisté postaví novou uzavřenou místnost.\n\nVyber nástroj ROZŠÍŘIT STŘECHU a tažením vytvoř před domem tvar přístřešku nad vchodem.</ExpandAreaBuildRoof.text>
+  <ExpandAreaBuildRoof.text>Příkaz ROZŠÍŘIT OBLAST SE STŘECHOU určuje, kde se tví kolonisté pokusí postavit střechu.\n\nZaplní se automaticky pokaždé, když tví kolonisté postaví novou uzavřenou místnost.\n\nVyber nástroj ROZŠÍŘIT OBLAST SE STŘECHOU a tažením vytvoř před domem tvar přístřešku nad vchodem.</ExpandAreaBuildRoof.text>
   <ExpandAreaBuildRoof.rejectInputMessage>Rozšiř o kousek oblast se střechou, prosím, jen tak na zkoušku.</ExpandAreaBuildRoof.rejectInputMessage>
 
   <BuildSandbags.text>Skvělé! Teď jsi uvedl do chodu základní kolonii! Časem tvoji kolonii budou napadat nepřátelé. Nastal čas se na to připravit.\n\nVyber PYTLE S PÍSKEM a na označeném místě je tažením umísti.</BuildSandbags.text>
-  <BuildSandbags.rejectInputMessage>Postav na zvýrazněném místě pytle s pískem, prosím.</BuildSandbags.rejectInputMessage>
+  <BuildSandbags.rejectInputMessage>Stavěj pytle s pískem pouze na zvýrazněném místě, prosím.</BuildSandbags.rejectInputMessage>
   <BuildSandbags.onMapInstruction>Tady postav pytle s pískem</BuildSandbags.onMapInstruction>
 
   <FinishSandbags.text>Teď počkej, dokud nebudou postaveny všechny tvoje stavby.\n\nZvaž použití záložky ČINNOSTI, abys přidělil více kolonistů na druh činnosti STAVITEL.\n\nTaké si můžeš zrychlit čas, aby sis ukrátil čekání.\n\nAž bude všechno postaveno, pošlu ti sem útočníka, aby prověřil tvoji obranu!</FinishSandbags.text>
@@ -115,7 +115,7 @@
   <UndraftAll.text>Úspěch! Teď u všech svých kolonistů zruš vojenský nábor použitím stejného tlačítka jako předtím.\n\nTo jim umožní návrat k jejich naplánovaným úkolům.</UndraftAll.text>
   <UndraftAll.rejectInputMessage>Zruš vojenský nábor svých kolonistů, prosím.</UndraftAll.rejectInputMessage>
 
-  <ChooseStoryteller.text>Tohle je konec výuky!\n\nJe tu toho ještě spoustu k učení, a to včetně vězňů, lovu, obchodu, ochočování zvířat a mnoho dalšího. Základy už ale máš.\n\nBěhem této výuky byly vypnuty náhodné události.\n\nK započetí skutečné hry:\n\n1. Vpravo dole otevři záložku NABÍDKA.\n2. Vyber NASTAVENÍ.\n3. Klikni na VYBRAT VYPRAVĚČE.\n4. Vyber si vypravěče a obtížnost, která se ti líbí.\n\nPřeji ti hodně štěstí i zábavy.</ChooseStoryteller.text>
+  <ChooseStoryteller.text>Tohle je konec výuky!\n\nJe tu toho ještě spoustu k učení, a to včetně vězňů, lovu, obchodu, ochočování zvířat a mnoho dalšího. Základy už ale máš.\n\nBěhem této výuky byly vypnuty náhodné události.\n\nK započetí skutečné hry:\n\n1. Vpravo dole otevři záložku NABÍDKA.\n2. Vyber NASTAVENÍ.\n3. Klikni na NASTAVENÍ VYPRAVĚČE.\n4. Vyber si vypravěče a obtížnost, která se ti líbí.\n\nPřeji ti hodně štěstí i zábavy.</ChooseStoryteller.text>
   <ChooseStoryteller.rejectInputMessage>Abys ukončil tuto výuku, vyber si vypravěče v nabídce Nastavení, prosím.</ChooseStoryteller.rejectInputMessage>
 
 
