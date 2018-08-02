@@ -38,8 +38,8 @@
   <BirthdayBiologicalAgeInjuries>{0} dosáhl[PAWN_pronoun] biologického věku {1} let.\n\nBohužel {0} získal[PAWN_pronoun] následující choroby z důvodu stárnutí:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <LetterLabelNewDisease>Nemoc</LetterLabelNewDisease>
-  <NewDisease>Nemoc: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen bude možné.</NewDisease>
-  <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš lékařskou postel i doktora. Zajisti, aby {2} dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen bude možné.</NewPartDisease>
+  <NewDisease>Nemoc: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby {2} dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen bude možné.</NewDisease>
+  <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby {2} dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen bude možné.</NewPartDisease>
   <NewDiseaseAnimal>U zvířete ({0}) se vyvinula nemoc: {1}</NewDiseaseAnimal>
   <NewPartDiseaseAnimal>U zvířete ({0}) se vyvinula nemoc: {3} Nález infekce: {1}</NewPartDiseaseAnimal>
   
@@ -227,5 +227,10 @@
   <!-- Predator hunting colonist -->
   <LetterLabelPredatorHuntingColonist>{0} loví {1}</LetterLabelPredatorHuntingColonist>
   <LetterPredatorHuntingColonist>{0} jde z hladu ulovit nějakou kořist! Zdá se, že kořistí bude {1}.</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <LetterDisease_Blocked>{0} blokuje {1} na: {2}.</LetterDisease_Blocked>
+  <LetterLabelTraitDisease>Nemoc ({0})</LetterLabelTraitDisease>
+  <LetterTraitDisease>Nemoc: {1}\n\n{0} onemocněl[PAWN_pronoun]. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby dostal[PAWN_pronoun] řádnou péči a v posteli strávil[PAWN_pronoun] tolik času, jak to jen bude možné.</LetterTraitDisease>
 
 </LanguageData>
