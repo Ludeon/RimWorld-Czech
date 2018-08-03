@@ -1,311 +1,303 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>
-        <li>r_name->[standardname]</li>
-        <li>r_name(p=0.05)->[naturaladjective][terrain_word] [storyname]</li>
-
-        <li>standardname->[narrative_name][terrain_word]</li>
-
-        <li>metaprefix(p=10)-></li>
-        <li>metaprefix->[Direction]</li>
-        <li>metaprefix->[Direction]</li>
-
-        <li>basic_adjective->velk</li>
-        <li>basic_adjective->velk</li>
-        <li>basic_adjective->mal</li>
-        <li>basic_adjective->obrovsk</li>
-        <li>basic_adjective->nov</li>
-        <li>basic_adjective->star</li>
-        
-        <li>narrative_name(p=12)->[WordTribal]ov</li>
-        <li>narrative_name(p=12)->[PlaceOutlander]ov</li>
-        <li>narrative_name->[Color]o[NaturalObject]</li>
-        <li>narrative_name->[AdjectiveNatural]</li>
-        <li>narrative_name->[Animal]í [Color]</li>
-        <li>narrative_name->[Color]</li>
-        <li>narrative_name->[Animal]í [basic_adjective]</li>
-        <li>narrative_name->[Animal]í [AdjectiveNatural]</li>
-        <li>narrative_name->[Animal]í [AdjectiveNatural]</li>
-        <li>narrative_name->[Direction] [Animal]í [Color]</li>
-        <li>narrative_name->[Direction] [Animal]í [AdjectiveNatural]</li>
-        <li>narrative_name->[Color]o[Animal]í [basic_adjective]</li>
-
-        <li>storyname(p=50)->[subject] [maybe_basic_adjective] [story_result]</li>
-        <li>storyname(p=2)->[animal]í [bodypart] [BodyPart]</li>
-        <li>storyname->[animal]í hromada [Gore]</li>
-
-        <li>maybe_basic_adjective-></li>
-        <li>maybe_basic_adjective(p=0.1)->[basic_adjective]á</li>
-
-        <li>subject(p=5)->[NamePerson] a</li>
-        <li>subject->[Animal]í</li>
-        <li>subject->[WordTribal]ova</li>
-        <li>subject->[PlaceOutlander]ova</li>
-
-        <li>story_result->pošetilost</li>
-        <li>story_result->neřest</li>
-        <li>story_result->nepřítečnost</li>
-        <li>story_result->důvěra</li>
-        <li>story_result->chyba</li>
-        <li>story_result->vada</li>
-        <li>story_result->iluze</li>
-        <li>story_result->náhoda</li>
-        <li>story_result->rozkoš</li>
-        <li>story_result->prosperita</li>
-        <li>story_result->hrdost</li>
-        <li>story_result->perla</li>
-        <li>story_result->cena</li>
-        <li>story_result->odměna</li>
-        <li>story_result->čest</li>
-        <li>story_result->prémie</li>
-        <li>story_result->trofej</li>
-        <li>story_result->ješitnost</li>
-        <li>story_result->arogance</li>
-        <li>story_result->póza</li>
-        <li>story_result->ztráta</li>
-        <li>story_result->záruka</li>
-        <li>story_result->havárie</li>
-        <li>story_result->destrukce</li>
-        <li>story_result->potopa</li>
-        <li>story_result->troska</li>
-        <li>story_result->ruina</li>
-        <li>story_result->zkáza</li>
-        <li>story_result->záhuba</li>
-        <li>story_result->smrt</li>
-        <li>story_result->výslužba</li>
-        <li>story_result->výhra</li>
-        <li>story_result->dohra</li>
-        <li>story_result->přetvářka</li>
-        <li>story_result->lest</li>
-        <li>story_result->léčka</li>
-        <li>story_result->prohra</li>
-        <li>story_result->porážka</li>
-  </WorldFeatureNamerCommon.rulePack.rulesStrings>
-
-
-  <NamerMountainRange.rulePack.rulesStrings>
-        <li>standardname(p=0.2)->[metaprefix] hora [WordTribal]</li>
-
-        <li>terrain_word(p=5)->é hory</li>
-        <li>terrain_word(p=2)->é pásmo</li>
-        <li>terrain_word->é vrcholy</li>
-        <li>terrain_word->é kopce</li>
-        <li>terrain_word->é útesy</li>
-  </NamerMountainRange.rulePack.rulesStrings>
-
-  <NamerArchipelago.rulePack.rulesStrings>
-        <li>standardname(p=0.2)->[metaprefix] ostrůvek [Animal]ů</li>
-
-        <li>terrain_word(p=4)->é ostrovy</li>
-        <li>terrain_word(p=3)->é ostrůvky</li>
-        <li>terrain_word(p=3)->é souostroví</li>
-        <li>terrain_word->ý útes</li>
-        <li>terrain_word->ý atol</li>
-        <li>terrain_word->é skály</li>
-        <li>terrain_word->é ostrůvky</li>
-        <li>terrain_word->ý vrchol</li>
-        <li>terrain_word->é okovy</li>
-  </NamerArchipelago.rulePack.rulesStrings>
-
-  <NamerIsland.rulePack.rulesStrings>
-        <li>standardname(p=0.2)->[metaprefix] ostrůvek [WordTribal]</li>
-
-        <li>terrain_word(p=4)->ý ostrov</li>
-        <li>terrain_word(p=2)->ý ostrůvek</li>
-        <li>terrain_word->ý útes</li>
-        <li>terrain_word->ý atol</li>
-        <li>terrain_word->á skála</li>
-        <li>terrain_word->ý ostrůvek</li>
-        <li>terrain_word->ý vrchol</li>
-  </NamerIsland.rulePack.rulesStrings>
-
-  <NamerPeninsula.rulePack.rulesStrings>
-        <li>standardname(p=0.2)->[metaprefix] vrchol [PlaceOutlander]</li>
-        <li>standardname(p=0.2)->[metaprefix] mys [WordTribal]</li>
-
-        <li>terrain_word(p=5)->ý poloostrov</li>
-        <li>terrain_word(p=2)->ý vrchol</li>
-        <li>terrain_word->ý mys</li>
-        <li>terrain_word->ý výběžek</li>
-        <li>terrain_word->ý maják</li>
-  </NamerPeninsula.rulePack.rulesStrings>
-
-  <NamerBay.rulePack.rulesStrings>
-        <li>standardname(p=0.2)->[metaprefix] záliv [NamePerson]</li>
-
-        <li>terrain_word(p=6)->á zátoka</li>
-        <li>terrain_word->á zátoka</li>
-        <li>terrain_word->ý záliv</li>
-        <li>terrain_word->é kotviště</li>
-        <li>terrain_word->á laguna</li>
-  </NamerBay.rulePack.rulesStrings>
-
-  <NamerLake.rulePack.rulesStrings>
-        <li>standardname->[metaprefix] jezero [WordTribal]</li>
-
-        <li>terrain_word(p=6)->é jezero</li>
-        <li>terrain_word->é moře</li>
-        <li>terrain_word->ý rybník</li>
-        <li>terrain_word->á nádrž</li>
-        <li>terrain_word->ý rezervoár</li>
-        <li>terrain_word(p=0.3)->á louže</li>
-        <li>terrain_word(p=0.3)->á laguna</li>
-        <li>terrain_word(p=0.3)->é jezero</li>
-  </NamerLake.rulePack.rulesStrings>
-
-  <NamerSea.rulePack.rulesStrings>
-        <li>standardname(p=0.1)->[metaprefix] [PlaceOutlander]ovo jezero</li>
-
-        <li>terrain_word(p=6)->é moře</li>
-        <li>terrain_word->ý oceán</li>
-        <li>terrain_word->é jezero</li>
-  </NamerSea.rulePack.rulesStrings>
-
-  <NamerOcean.rulePack.rulesStrings>
-        <li>standardname(p=0.4)->[ocean_adjective]ý oceán [NamePerson]</li>
-
-        <li>ocean_adjective->modr</li>
-        <li>ocean_adjective->bíl</li>
-        <li>ocean_adjective->šed</li>
-        <li>ocean_adjective->čist</li>
-        <li>ocean_adjective->větrn</li>
-        <li>ocean_adjective->bouřliv</li>
-        <li>ocean_adjective->klidn</li>
-        <li>ocean_adjective->širok</li>
-        <li>ocean_adjective->nekonečn</li>
-        <li>ocean_adjective->mělk</li>
-        <li>ocean_adjective->tich</li>
-        <li>ocean_adjective->zvlněn</li>
-        <li>ocean_adjective->mírn</li>
-
-        <li>terrain_word(p=6)->ý oceán</li>
-        <li>terrain_word(p=3)->é moře</li>
-        <li>terrain_word->[ocean_adjective]é moře</li>
-  </NamerOcean.rulePack.rulesStrings>
- 
-  <NamerDesert.rulePack.rulesStrings>
-        <li>standardname(p=0.4)->[desert_adjective]á poušť [NamePerson]</li>
-
-        <li>desert_adjective->rovn</li>
-        <li>desert_adjective->bíl</li>
-        <li>desert_adjective->nekonečn</li>
-        <li>desert_adjective->krut</li>
-        <li>desert_adjective->vyprahl</li>
-        <li>desert_adjective->vyschl</li>
-        <li>desert_adjective->dlouh</li>
-        <li>desert_adjective->spálen</li>
-        <li>desert_adjective->slunn</li>
-        <li>desert_adjective->oslniv</li>
-        <li>desert_adjective->hork</li>
-        <li>desert_adjective->zpocen</li>
-        <li>desert_adjective->písčit</li>
-        <li>desert_adjective->skalnat</li>
-
-        <li>terrain_word(p=6)->á poušť</li>
-        <li>terrain_word->á náhorní plošina</li>
-        <li>terrain_word->á nížina</li>
-        <li>terrain_word->á pánev</li>
-        <li>terrain_word->é [desert_adjective]é pustiny</li>
-        <li>terrain_word->á pustina</li>
-        <li>terrain_word->á planina</li>
-  </NamerDesert.rulePack.rulesStrings>
- 
-  <NamerSwamp.rulePack.rulesStrings>
-        <li>standardname(p=0.1)->[metaprefix] slatiniště [Animal]ů</li>
-        <li>standardname(p=0.3)->[swamp_adjective]á bažina [WordTribal]</li>
-
-        <li>swamp_adjective->vlhk</li>
-        <li>swamp_adjective->parn</li>
-        <li>swamp_adjective->dusn</li>
-        <li>swamp_adjective->shnil</li>
-        <li>swamp_adjective->hnilobn</li>
-        <li>swamp_adjective->zarostl</li>
-        <li>swamp_adjective->spleten</li>
-        <li>swamp_adjective->vinn</li>
-        <li>swamp_adjective->trnit</li>
-
-        <li>terrain_word(p=6)->ý močál</li>
-        <li>terrain_word->á pánev</li>
-        <li>terrain_word->é [swamp_adjective]é mokřady</li>
-        <li>terrain_word->é stojaté vody</li>
-        <li>terrain_word->é rašeliniště</li>
-        <li>terrain_word->á bažina</li>
-        <li>terrain_word->é slatiniště</li>
-  </NamerSwamp.rulePack.rulesStrings>
- 
-  <NamerTropicalRainforest.rulePack.rulesStrings>
-        <li>standardname(p=0.3)->[rainforest_adjective]á džungle [Animal]ů</li>
-
-        <li>rainforest_adjective->vlhk</li>
-        <li>rainforest_adjective->parn</li>
-        <li>rainforest_adjective->dusn</li>
-        <li>rainforest_adjective->zarostl</li>
-        <li>rainforest_adjective->spleten</li>
-        <li>rainforest_adjective->vinn</li>
-        <li>rainforest_adjective->trnit</li>
-
-        <li>terrain_word(p=6)->ý tropický deštný prales</li>
-        <li>terrain_word(p=3)->á džungle</li>
-        <li>terrain_word->ý prales</li>
-        <li>terrain_word->á háj</li>
-        <li>terrain_word->ý tropický deštný les</li>
-        <li>terrain_word->ý [rainforest_adjective]ý tropický deštný prales</li>
-  </NamerTropicalRainforest.rulePack.rulesStrings>
-   
-  <NamerForest.rulePack.rulesStrings>
-        <li>terrain_word(p=6)->ý les</li>
-        <li>terrain_word->ý háj</li>
-        <li>terrain_word->á lesní krajina</li>
-        <li>terrain_word->é lesy</li>
-  </NamerForest.rulePack.rulesStrings>
   
-  <NamerBorealForest.rulePack.rulesStrings>
-        <li>terrain_word(p=6)->ý les</li>
-        <li>terrain_word(p=3)->á tajga</li>
-        <li>terrain_word->ý háj</li>
-        <li>terrain_word->á lesní krajina</li>
-        <li>terrain_word->ý prales</li>
-        <li>terrain_word->é lesy</li>
-        <li>terrain_word->é husté lesy</li>
-  </NamerBorealForest.rulePack.rulesStrings>
-   
-  <NamerAridShrubland.rulePack.rulesStrings>
-        <li>terrain_word(p=4)->á buš</li>
-        <li>terrain_word(p=4)->á savana</li>
-        <li>terrain_word(p=2)->á náhorní plošina</li>
-        <li>terrain_word(p=2)->á houština</li>
-        <li>terrain_word->á poušť</li>
-        <li>terrain_word->á buš</li>
-        <li>terrain_word->á polopoušť</li>
-        <li>terrain_word->á planina</li>
-  </NamerAridShrubland.rulePack.rulesStrings>
-   
-  <NamerIceSheet.rulePack.rulesStrings>
-        <li>terrain_word->ý ledový příkrov</li>
-        <li>terrain_word->ý ledový prostor</li>
-        <li>terrain_word(p=0.5)->ý úsek</li>
-        <li>terrain_word(p=0.3)->é pole</li>
-        <li>terrain_word(p=0.3)->ý příkrov</li>
-        <li>terrain_word(p=0.3)->é zmrzlé pole</li>
-        <li>terrain_word(p=0.3)->á plošina</li>
-        <li>terrain_word(p=0.3)->á zamrzlá plocha</li>
-  </NamerIceSheet.rulePack.rulesStrings>
-
-  <NamerTundra.rulePack.rulesStrings>
-        <li>terrain_word(p=4)->á náhorní plošina</li>
-        <li>terrain_word(p=4)->á planina</li>
-        <li>terrain_word(p=2)->á tajga</li>
-        <li>terrain_word->á lesotundra</li>
-        <li>terrain_word->á tajga</li>
-        <li>terrain_word->á rovina</li>
-        <li>terrain_word->á buš</li>
-        <li>terrain_word->á pustina</li>
-        <li>terrain_word->á planina</li>
-        <li>terrain_word->á tundra</li>
-        <li>terrain_word->á prérie</li>
-        <li>terrain_word->á nížina</li>
-  </NamerTundra.rulePack.rulesStrings>
-
-
+  <!-- EN:
+    <li>standardname(p=0.2)->isle [narrative_name]</li>
+    <li>terrain_word(p=4)->islands</li>
+    <li>terrain_word(p=3)->isles</li>
+    <li>terrain_word(p=3)->archipelago</li>
+    <li>terrain_word->reef</li>
+    <li>terrain_word->atoll</li>
+    <li>terrain_word->rocks</li>
+    <li>terrain_word->islets</li>
+    <li>terrain_word->points</li>
+    <li>terrain_word->chain</li>
+  -->
+  <NamerArchipelago.rulePack.rulesStrings>TODO</NamerArchipelago.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=4)->shrubland</li>
+    <li>terrain_word(p=4)->scrubland</li>
+    <li>terrain_word(p=2)->plateau</li>
+    <li>terrain_word(p=2)->scrub</li>
+    <li>terrain_word->desert</li>
+    <li>terrain_word->bush</li>
+    <li>terrain_word->brush</li>
+    <li>terrain_word->barrens</li>
+  -->
+  <NamerAridShrubland.rulePack.rulesStrings>TODO</NamerAridShrubland.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.2)->gulf of [narrative_name]</li>
+    <li>terrain_word(p=6)->bay</li>
+    <li>terrain_word->bight</li>
+    <li>terrain_word->gulf</li>
+    <li>terrain_word->anchorage</li>
+    <li>terrain_word->cove</li>
+  -->
+  <NamerBay.rulePack.rulesStrings>TODO</NamerBay.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=6)->forest</li>
+    <li>terrain_word(p=3)->taiga</li>
+    <li>terrain_word->grove</li>
+    <li>terrain_word->woodland</li>
+    <li>terrain_word->woods</li>
+    <li>terrain_word->tangle</li>
+    <li>terrain_word->thicket</li>
+  -->
+  <NamerBorealForest.rulePack.rulesStrings>TODO</NamerBorealForest.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.4)->[desert_adjective] [narrative_name]</li>
+    <li>desert_adjective->flat</li>
+    <li>desert_adjective->white</li>
+    <li>desert_adjective->endless</li>
+    <li>desert_adjective->heartless</li>
+    <li>desert_adjective->parched</li>
+    <li>desert_adjective->dry</li>
+    <li>desert_adjective->long</li>
+    <li>desert_adjective->sunburned</li>
+    <li>desert_adjective->sunny</li>
+    <li>desert_adjective->dazzling</li>
+    <li>desert_adjective->hot</li>
+    <li>desert_adjective->sweaty</li>
+    <li>desert_adjective->sandy</li>
+    <li>desert_adjective->rocky</li>
+    <li>terrain_word(p=6)->desert</li>
+    <li>terrain_word->plateau</li>
+    <li>terrain_word->flats</li>
+    <li>terrain_word->basin</li>
+    <li>terrain_word->wastes</li>
+    <li>terrain_word->wasteland</li>
+    <li>terrain_word->barrens</li>
+  -->
+  <NamerDesert.rulePack.rulesStrings>TODO</NamerDesert.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=6)->forest</li>
+    <li>terrain_word->grove</li>
+    <li>terrain_word->woodland</li>
+    <li>terrain_word->thicket</li>
+  -->
+  <NamerForest.rulePack.rulesStrings>TODO</NamerForest.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word->sheet</li>
+    <li>terrain_word->expanse</li>
+    <li>terrain_word(p=0.5)->reach</li>
+    <li>terrain_word(p=0.3)->field</li>
+    <li>terrain_word(p=0.3)->span</li>
+    <li>terrain_word(p=0.3)->field</li>
+    <li>terrain_word(p=0.3)->stretch</li>
+    <li>terrain_word(p=0.3)->tract</li>
+  -->
+  <NamerIceSheet.rulePack.rulesStrings>TODO</NamerIceSheet.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.2)->isle [narrative_name]</li>
+    <li>terrain_word(p=4)->island</li>
+    <li>terrain_word(p=2)->isle</li>
+    <li>terrain_word->reef</li>
+    <li>terrain_word->atoll</li>
+    <li>terrain_word->rock</li>
+    <li>terrain_word->islet</li>
+    <li>terrain_word->point</li>
+  -->
+  <NamerIsland.rulePack.rulesStrings>TODO</NamerIsland.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname->lake [narrative_name]</li>
+    <li>terrain_word(p=6)->lake</li>
+    <li>terrain_word->sea</li>
+    <li>terrain_word->pond</li>
+    <li>terrain_word->basin</li>
+    <li>terrain_word->reservoir</li>
+    <li>terrain_word(p=0.3)->puddle</li>
+    <li>terrain_word(p=0.3)->lagoon</li>
+    <li>terrain_word(p=0.3)->loch</li>
+  -->
+  <NamerLake.rulePack.rulesStrings>TODO</NamerLake.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.2)->mount [narrative_name]</li>
+    <li>terrain_word(p=5)->mountains</li>
+    <li>terrain_word(p=2)->range</li>
+    <li>terrain_word->peaks</li>
+    <li>terrain_word->hills</li>
+    <li>terrain_word->cliffs</li>
+  -->
+  <NamerMountainRange.rulePack.rulesStrings>TODO</NamerMountainRange.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
+    <li>ocean_adjective->blue</li>
+    <li>ocean_adjective->white</li>
+    <li>ocean_adjective->gray</li>
+    <li>ocean_adjective->clear</li>
+    <li>ocean_adjective->windy</li>
+    <li>ocean_adjective->stormy</li>
+    <li>ocean_adjective->calm</li>
+    <li>ocean_adjective->broad</li>
+    <li>ocean_adjective->endless</li>
+    <li>ocean_adjective->flat</li>
+    <li>ocean_adjective->still</li>
+    <li>ocean_adjective->wavy</li>
+    <li>ocean_adjective->gentle</li>
+    <li>terrain_word(p=6)->ocean</li>
+    <li>terrain_word(p=3)->sea</li>
+    <li>terrain_word->expanse</li>
+  -->
+  <NamerOcean.rulePack.rulesStrings>TODO</NamerOcean.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.2)->point [narrative_name]</li>
+    <li>standardname(p=0.2)->cape [narrative_name]</li>
+    <li>terrain_word(p=5)->peninsula</li>
+    <li>terrain_word(p=2)->point</li>
+    <li>terrain_word->cape</li>
+    <li>terrain_word->headland</li>
+    <li>terrain_word->horn</li>
+  -->
+  <NamerPeninsula.rulePack.rulesStrings>TODO</NamerPeninsula.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.1)->lake [narrative_name]</li>
+    <li>terrain_word(p=6)->sea</li>
+    <li>terrain_word->ocean</li>
+    <li>terrain_word->lake</li>
+  -->
+  <NamerSea.rulePack.rulesStrings>TODO</NamerSea.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.1)->fen [narrative_name]</li>
+    <li>standardname(p=0.3)->[swamp_adjective] [narrative_name]</li>
+    <li>swamp_adjective->wet</li>
+    <li>swamp_adjective->steamy</li>
+    <li>swamp_adjective->choking</li>
+    <li>swamp_adjective->rotten</li>
+    <li>swamp_adjective->rotting</li>
+    <li>swamp_adjective->overgrown</li>
+    <li>swamp_adjective->tangled</li>
+    <li>swamp_adjective->viny</li>
+    <li>swamp_adjective->thorny</li>
+    <li>terrain_word(p=6)->swamp</li>
+    <li>terrain_word->basin</li>
+    <li>terrain_word->wetlands</li>
+    <li>terrain_word->bayou</li>
+    <li>terrain_word->bog</li>
+    <li>terrain_word->marsh</li>
+    <li>terrain_word->fen</li>
+  -->
+  <NamerSwamp.rulePack.rulesStrings>TODO</NamerSwamp.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>standardname(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+    <li>rainforest_adjective->wet</li>
+    <li>rainforest_adjective->steamy</li>
+    <li>rainforest_adjective->choking</li>
+    <li>rainforest_adjective->overgrown</li>
+    <li>rainforest_adjective->tangled</li>
+    <li>rainforest_adjective->viny</li>
+    <li>rainforest_adjective->thorny</li>
+    <li>terrain_word(p=6)->rainforest</li>
+    <li>terrain_word(p=3)->jungle</li>
+    <li>terrain_word->forest</li>
+    <li>terrain_word->grove</li>
+    <li>terrain_word->woodland</li>
+    <li>terrain_word->tangle</li>
+  -->
+  <NamerTropicalRainforest.rulePack.rulesStrings>TODO</NamerTropicalRainforest.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>terrain_word(p=4)->plateau</li>
+    <li>terrain_word(p=4)->barrens</li>
+    <li>terrain_word(p=2)->taiga</li>
+    <li>terrain_word->scrub</li>
+    <li>terrain_word->shrubland</li>
+    <li>terrain_word->scrubland</li>
+    <li>terrain_word->bush</li>
+    <li>terrain_word->brush</li>
+    <li>terrain_word->barrens</li>
+    <li>terrain_word->expanse</li>
+    <li>terrain_word->prairie</li>
+    <li>terrain_word->flats</li>
+  -->
+  <NamerTundra.rulePack.rulesStrings>TODO</NamerTundra.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_name->[metaprefix] [standardname]</li>
+    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
+    <li>standardname->[narrative_name] [terrain_word]</li>
+    <li>metaprefix(p=10)-></li>
+    <li>metaprefix->[Direction]</li>
+    <li>metaprefix->[basic_adjective]</li>
+    <li>basic_adjective->great</li>
+    <li>basic_adjective->greater</li>
+    <li>basic_adjective->lesser</li>
+    <li>basic_adjective->grand</li>
+    <li>basic_adjective->new</li>
+    <li>basic_adjective->old</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[Color][NaturalObject]</li>
+    <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
+    <li>narrative_name->[Animal]</li>
+    <li>narrative_name->[Color]</li>
+    <li>narrative_name->[Color][Animal]</li>
+    <li>narrative_name->[AdjectiveNatural][Animal]</li>
+    <li>narrative_name->[Animal][BodyPart]</li>
+    <li>narrative_name->[Color] [Animal]</li>
+    <li>narrative_name->[AdjectiveNatural] [Animal]</li>
+    <li>narrative_name->[Animal] [BodyPart]</li>
+    <li>storyname(p=50)->[subject]'s [maybe_basic_adjective] [story_result]</li>
+    <li>storyname(p=2)->[subject]'s [BodyPart]</li>
+    <li>storyname->[subject]'s [Gore]</li>
+    <li>maybe_basic_adjective-></li>
+    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->folly</li>
+    <li>story_result->vice</li>
+    <li>story_result->lunacy</li>
+    <li>story_result->mistake</li>
+    <li>story_result->fault</li>
+    <li>story_result->misstep</li>
+    <li>story_result->delusion</li>
+    <li>story_result->joy</li>
+    <li>story_result->delight</li>
+    <li>story_result->wonder</li>
+    <li>story_result->pride</li>
+    <li>story_result->jewel</li>
+    <li>story_result->prize</li>
+    <li>story_result->bounty</li>
+    <li>story_result->honor</li>
+    <li>story_result->jackpot</li>
+    <li>story_result->trophy</li>
+    <li>story_result->conceit</li>
+    <li>story_result->arrogance</li>
+    <li>story_result->stand</li>
+    <li>story_result->loss</li>
+    <li>story_result->debt</li>
+    <li>story_result->collapse</li>
+    <li>story_result->destruction</li>
+    <li>story_result->cataclysm</li>
+    <li>story_result->ruin</li>
+    <li>story_result->ruination</li>
+    <li>story_result->undoing</li>
+    <li>story_result->downfall</li>
+    <li>story_result->end</li>
+    <li>story_result->retirement</li>
+    <li>story_result->achievement</li>
+    <li>story_result->finale</li>
+    <li>story_result->bluff</li>
+    <li>story_result->ruse</li>
+    <li>story_result->deception</li>
+    <li>story_result->facade</li>
+    <li>story_result->fraud</li>
+  -->
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  
 </LanguageData>
