@@ -11,15 +11,15 @@
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
-    <li>r_name(p=9)->[nearnameinitial]</li>
-    <li>r_name(p=3)->[maybe_direction][PoliticalUnionOutlanderUni] [PlaceOutlander]</li>
-    <li>r_name->[maybe_direction][PoliticalAdjectiveMas] [PoliticalUnionOutlanderMas] [PlaceOutlander]</li>
-    <li>r_name->[maybe_direction][PoliticalAdjectiveFem] [PoliticalUnionOutlanderFem] [PlaceOutlander]</li>
-    <li>r_name->[maybe_direction][PoliticalAdjectiveNeu] [PoliticalUnionOutlanderNeu] [PlaceOutlander]</li>
-    <li>r_name(p=3)->[PoliticalUnionOutlanderUni] [nearnameinitial]</li>
-    <li>r_name->[PoliticalAdjectiveMas] [PoliticalUnionOutlanderMas] [nearnameinitial]</li>
-    <li>r_name->[PoliticalAdjectiveFem] [PoliticalUnionOutlanderFem] [nearnameinitial]</li>
-    <li>r_name->[PoliticalAdjectiveNeu] [PoliticalUnionOutlanderNeu] [nearnameinitial]</li>
+    <li>r_name(p=3)->[nearnameinitial]</li>
+    <li>r_name->[maybe_direction][PoliticalUnionOutlanderUni] [PlaceOutlander]</li>
+    <li>r_name(p=0.33)->[maybe_direction][PoliticalAdjectiveMas] [PoliticalUnionOutlanderMas] [PlaceOutlander]</li>
+    <li>r_name(p=0.33)->[maybe_direction][PoliticalAdjectiveFem] [PoliticalUnionOutlanderFem] [PlaceOutlander]</li>
+    <li>r_name(p=0.33)->[maybe_direction][PoliticalAdjectiveNeu] [PoliticalUnionOutlanderNeu] [PlaceOutlander]</li>
+    <li>r_name->[PoliticalUnionOutlanderUni] [nearnameinitial]</li>
+    <li>r_name(p=0.33)->[PoliticalAdjectiveMas] [PoliticalUnionOutlanderMas] [nearnameinitial]</li>
+    <li>r_name(p=0.33)->[PoliticalAdjectiveFem] [PoliticalUnionOutlanderFem] [nearnameinitial]</li>
+    <li>r_name(p=0.33)->[PoliticalAdjectiveNeu] [PoliticalUnionOutlanderNeu] [nearnameinitial]</li>
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[DirectionUni]í [PlaceOutlander]</li>
     <li>maybe_direction(p=3)-></li>
@@ -55,7 +55,39 @@
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
-  <NamerFactionPirate.rulePack.rulesStrings>TODO</NamerFactionPirate.rulePack.rulesStrings>
+  <NamerFactionPirate.rulePack.rulesStrings>
+    <li>r_name->[AnimalBadassPlu]</li>
+    <li>r_name->[GroupNameUni] [AnimalBadassPluGen]</li>
+    <li>r_name->[AdjectiveAnimalBadassPlu] [ConceptBadassUni]</li>
+    <li>r_name->The [PersonBadass]s of [ConceptBadass]</li>
+    <li>r_name->[PersonBadassPlu]</li>
+    <li>r_name->[EnemyPlu]</li>
+    <li>r_name->[GroupNameUni] [WeaponGenPluUni]</li>
+    <li>r_name->[WeaponPlu]</li>
+    <li>r_name->[WeaponUni] [AnimalBadassPluGen]</li>
+    <li>r_name->The [WeaponUni] [Enemy]s</li>
+    <li>r_name->The [ColorBadassUni] [Weapon]s</li>
+    <li>r_name->[ColorBadassUni]í [AnimalBadassPlu]</li>
+    <li>r_name->[ColorBadassUni]í [PersonBadassPlu]</li>
+    <li>r_name->[ColorBadassUni]í [EnemyPlu]</li>
+    <li>r_name->The [PersonBadass] [GroupNameUni]</li>
+    <li>r_name->The [Enemy] [Enemy]s</li>
+    <li>r_name(p=0.33)->[AdjectiveBadassMas] [GroupNameMas]</li>
+    <li>r_name(p=0.33)->[AdjectiveBadassFem] [GroupNameFem]</li>
+    <li>r_name(p=0.33)->[AdjectiveBadassNeu] [GroupNameNeu]</li>
+    <li>r_name->[AdjectiveBadassPlu] [AnimalBadassPlu]</li>
+    <li>r_name->[AdjectiveBadassPlu] [EnemyPlu]</li>
+    <li>r_name->[AdjectiveBadassPlu] [PersonBadassPlu]</li>
+    <li>r_name->The [PersonAlly]s of [ConceptBadass]</li>
+    <li>r_name(p=0.4)->[eaters] [GorePluGen]</li>
+    <li>r_name->[NamePerson] a [EnemyPlu]</li>
+    <li>r_name->[NamePerson] od [AnimalBadassPluGen]</li>
+    <li>r_name->[NamePerson] a [WeaponPlu]</li>
+    <li>r_name->[GroupNameUni] u [WeaponGenUni]</li>
+    <li>r_name->[GroupNameUni] [ConceptBadassUni]</li>
+    <li>eaters->Požírači</li>
+    <li>eaters->Pojídači</li>
+  </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[tribalworld] [political_union_tribal]</li>
@@ -199,16 +231,16 @@
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>r_name(p=8)->[WordTribal]</li>
-    <li>r_name(p=2)->[ColorUni]ý [WordTribal]</li>
-    <li>r_name->[ColorUni]á [WordTribal]</li>
-    <li>r_name->[ColorUni]ý [TerrainFeatureMas]</li>
-    <li>r_name->[ColorUni]á [TerrainFeatureFem]</li>
-    <li>r_name->[ColorUni]é [TerrainFeatureNeu]</li>
-    <li>r_name->[maybe_community_tribal]u [ColorUni]ého [TerrainFeatureMasGen]</li>
-    <li>r_name->[maybe_community_tribal]u [ColorUni]é [TerrainFeatureFemGen]</li>
-    <li>r_name->[maybe_community_tribal]u [ColorUni]ého [TerrainFeatureNeuGen]</li>
-    <li>r_name(p=3)->[TerrainFeatureUni] [WordTribal]</li>
+    <li>r_name(p=2)->[WordTribal]</li>
+    <li>r_name(p=0.5)->[ColorUni]ý [WordTribal]</li>
+    <li>r_name(p=0.5)->[ColorUni]á [WordTribal]</li>
+    <li>r_name(p=0.33)->[ColorUni]ý [TerrainFeatureMas]</li>
+    <li>r_name(p=0.33)->[ColorUni]á [TerrainFeatureFem]</li>
+    <li>r_name(p=0.33)->[ColorUni]é [TerrainFeatureNeu]</li>
+    <li>r_name(p=0.33)->[maybe_community_tribal]u [ColorUni]ého [TerrainFeatureMasGen]</li>
+    <li>r_name(p=0.33)->[maybe_community_tribal]u [ColorUni]é [TerrainFeatureFemGen]</li>
+    <li>r_name(p=0.33)->[maybe_community_tribal]u [ColorUni]ého [TerrainFeatureNeuGen]</li>
+    <li>r_name->[TerrainFeatureUni] [WordTribal]</li>
     <li>maybe_community_tribal->[community_tribal] </li>
     <li>maybe_community_tribal-></li>
     <li>community_tribal(p=2)->osada</li>
