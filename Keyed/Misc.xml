@@ -1,83 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Autosaving -->
   <Autosaving>Automaticky ukládám...</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
   <GameStartDialog>Tři z vás jsou probuzeni v cryptospánkových komorách za zvuků sirén a trhajících se kovů. Sotva, co se dostanete do únikových modulů, je loď roztrhána na kusy. O něco později přistanete na této neznámé planetě.\n\nZatímco kolem vás dopadávaly kusy rozervané lodi, začali jste dělat plány, jak přežít.</GameStartDialog>
+  <!-- EN: Colony -->
   <Colony>Kolonie</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
   <ChangeLanguageFromMainMenu>Jazyk lze změnit jen na obrazovce Nastavení z hlavního menu.</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
   <AndLower>a</AndLower>
+  <!-- EN: disabled -->
   <DisabledLower>deaktivováno</DisabledLower>
 
-
+  <!-- EN: Version {0} -->
   <VersionIndicator>Verze {0}</VersionIndicator>
+  <!-- EN: development build -->
   <DevelopmentBuildLower>Vývojářské sestavení</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
   <CompiledOn>Sestaveno dne {0}\nTato verze čestiny nemusí být aktuální!\nAktuální verzi češtiny hledej na www.prekladyher.eu</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>Přihlášen na Steamu jako {0}</LoggedIntoSteamAs>
 
   <!-- General-use words -->
+  <!-- EN: Yes -->
   <Yes>Ano</Yes>
+  <!-- EN: No -->
   <No>Ne</No>
+  <!-- EN: min -->
   <min>min</min>
+  <!-- EN: max -->
   <max>max</max>
+  <!-- EN: chance -->
   <chance>Šance:</chance>
+  <!-- EN: context -->
   <context>Souvislost:</context>
+  <!-- EN: multiplier -->
   <multiplier>Multiplikátor:</multiplier>
+  <!-- EN: damage -->
   <damage>Poškození:</damage>
+  <!-- EN: radius -->
   <radius>Poloměr:</radius>
+  <!-- EN: duration (days) -->
   <durationDays>Spustí se za (dnů)</durationDays>
+  <!-- EN: interval (days) -->
   <intervalDays>Spustí se za (dnů)</intervalDays>
+  <!-- EN: repeat -->
   <repeat>Opakovat</repeat>
+  <!-- EN: default -->
   <default>Výchozí</default>
+  <!-- EN: distance -->
   <distance>Vzdálenost</distance>
+  <!-- EN: YES -->
   <YesUppercase>ANO</YesUppercase>
+  <!-- EN: NO -->
   <NoUppercase>NE</NoUppercase>
+  <!-- EN: kg -->
   <kg>kg</kg>
+  <!-- EN: Day -->
   <Day>Den</Day>
+  <!-- EN: day -->
   <day>den</day>
+  <!-- EN: Default -->
   <Default>Výchozí</Default>
+  <!-- EN: Average -->
   <Average>Průměrně</Average>
-    
-  <!-- Content generation-->
 
-  <MeatLabel>Maso z {0}</MeatLabel>
-  <MeatDesc>Syrové maso z pořážky. Může se z něj uvařit jídlo nebo také sníst syrové.</MeatDesc>
-  <MeatInsectDesc>Syrové maso z pořážky. Pokud je to nutné, může se z něj uvařit jídlo nebo také sníst syrové. Nesmírně nechutné.</MeatInsectDesc>
-  <MeatHumanDesc>Syrové maso z pořážky. Může se z něj uvařit jídlo nebo také sníst syrové, i když většině lidí se tento nápad nelíbí.</MeatHumanDesc>
+  <!-- Content generation-->
   
+  <!-- EN: {0} meat -->
+  <MeatLabel>Maso z {0}</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
+  <MeatDesc>Syrové maso z porážky. Může se z něj uvařit jídlo nebo také sníst syrové.</MeatDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
+  <MeatInsectDesc>Syrové maso z porážky. Pokud je to nutné, může se z něj uvařit jídlo nebo také sníst syrové. Nesmírně nechutné.</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
+  <MeatHumanDesc>Syrové maso z porážky. Může se z něj uvařit jídlo nebo také sníst syrové, i když většině lidí se tento nápad nelíbí.</MeatHumanDesc>
+
+  <!-- EN: {0} corpse -->
   <CorpseLabel>{0} (mrtvola)</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
+  <!-- EN: {0} (dead) -->
   <DeadLabel>{0} (mrtvý)</DeadLabel>
 
+  <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>Drsný {0}</RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
   <RoughStoneTerrainDesc>Drsný, přírodní povrch z {0}.</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>Nahrubo otesaný {0}</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
   <RoughHewnStoneTerrainDesc>Nahrubo otesaný povrch z {0}.</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>Hladký {0}</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
   <SmoothStoneTerrainDesc>Vyhlazený přírodní povrch z {0}.</SmoothStoneTerrainDesc>
 
+  <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (plán)</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
   <FrameLabelExtra> (ve výstavbě)</FrameLabelExtra>
 
+  <!-- EN: Unaffiliated -->
   <FactionUnaffiliated>Nepřidruženo</FactionUnaffiliated>
-  
-  
+
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
 
+  <!-- EN: {0}'s {1} -->
   <SomeonesRoom>{1} patří {0}</SomeonesRoom>
+  <!-- EN: {0} and {1}'s {2} -->
   <CouplesRoom>{2} patří {0} a {1}</CouplesRoom>
-
+  
+  <!-- EN: (various) -->
   <VariousLabel>(různé)</VariousLabel>
 
   <!-- History events -->
+  <!-- EN: Colonist died -->
   <ColonistDied>Kolonista zemřel</ColonistDied>
-
+  
   <!-- Rotation -->
+  <!-- EN: North -->
   <North>Sever</North>
+  <!-- EN: South -->
   <South>Jih</South>
+  <!-- EN: West -->
   <West>Západ</West>
+  <!-- EN: East -->
   <East>Východ</East>
-
   
 </LanguageData>

@@ -1,80 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Electricity.label>elektřina</Electricity.label>
-  <Electricity.description>Umožní výrobu elektrické energie, která je díky své síle využitelná ke stovkám účelům.</Electricity.description>
-
-  <Batteries.label>baterie</Batteries.label>
-  <Batteries.description>Umožní výrobu baterií, které slouží k uložení elektrické energie.</Batteries.description>
-
-  <BiofuelRefining.label>rafinace chemického paliva</BiofuelRefining.label>
-  <BiofuelRefining.description>Umožní výstavbu rafinerií, které slouží k výrobě chemického paliva z biologické hmoty, jako je dřevo nebo jiné organické složky.</BiofuelRefining.description>
-
-  <WatermillGenerator.label>vodní elektrárna</WatermillGenerator.label>
-  <WatermillGenerator.description>Umožní výstavbu vodních elektráren na řekách, které zajistí nepřetržitý přísun elektrické energie.</WatermillGenerator.description>
-
-  <NutrientPaste.label>nutriční pasta</NutrientPaste.label>
-  <NutrientPaste.description>Umožní výrobu dávkovačů nutriční pasty, které efektivně produkují jedlé pokrmy vyrobené ze syrových potravin bohatých na živiny, přičemž nevyžadují obsluhu.</NutrientPaste.description>
-
-  <SolarPanels.label>solární panely</SolarPanels.label>
-  <SolarPanels.description>Umožní výstavbu solárních panelů na výrobu elektrické energie.</SolarPanels.description>
-
+  
+  <!-- EN: air conditioning -->
   <AirConditioning.label>klimatizace</AirConditioning.label>
+  <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
   <AirConditioning.description>Umožní výrobu klimatizace, aby se lidé za tropického počasí mohli cítit pohodlně, nebo aby si mohli vybudovat chladírny, ve kterých mohou skladovat zboží podléhající zkáze.</AirConditioning.description>
-
+  
+  <!-- EN: autodoor -->
   <Autodoors.label>automatické dveře</Autodoors.label>
+  <!-- EN: Build autodoors which automatically open when someone approaches, without slowing anyone down. -->
   <Autodoors.description>Umožní výrobu automatických dveří, které se otevřou, jakmile k nim někdo přistoupí a dokonce nezpomalí jejich průchod jako klasické dveře.</Autodoors.description>
-
-  <Hydroponics.label>hydroponie</Hydroponics.label>
-  <Hydroponics.description>Umožní výrobu hydroponických nádrží pro rychlé pěstování plodin v interiéru bez ohledu na terén nebo venkovní počasí.</Hydroponics.description>
-
-  <TubeTelevision.label>CRT Televizor</TubeTelevision.label>
-  <TubeTelevision.description>Umožní výrobu klasických televizorů s katodovou trubicí určených pro relaxační sledování kanálů.</TubeTelevision.description>
-
-  <PackagedSurvivalMeal.label>nouzové potravinové balíčky</PackagedSurvivalMeal.label>
-  <PackagedSurvivalMeal.description>Umožní výrobu balených pokrmů pro přežití, které se nikdy nezkazí. Jsou skvělé na cesty.</PackagedSurvivalMeal.description>
-
+  
+  <!-- EN: battery -->
+  <Batteries.label>baterie</Batteries.label>
+  <!-- EN: Build batteries for storing electricity. -->
+  <Batteries.description>Umožní výrobu baterií, které slouží k uložení elektrické energie.</Batteries.description>
+  
+  <!-- EN: biofuel refining -->
+  <BiofuelRefining.label>rafinace chemického paliva</BiofuelRefining.label>
+  <!-- EN: Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs. -->
+  <BiofuelRefining.description>Umožní výstavbu rafinerií, které slouží k výrobě chemického paliva z biologické hmoty, jako je dřevo nebo jiné organické složky.</BiofuelRefining.description>
+  
+  <!-- EN: blowback operation -->
+  <BlowbackOperation.label>zbraně s dynamickým závěrem</BlowbackOperation.label>
+  <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
+  <BlowbackOperation.description>Umožní výrobu méně účinných zbraní s dynamickým závěrem, jako jsou automatické pistole a lehké samopaly.</BlowbackOperation.description>
+  
+  <!-- EN: electricity -->
+  <Electricity.label>elektřina</Electricity.label>
+  <!-- EN: Harness the power of electricity for a hundred different tasks. -->
+  <Electricity.description>Umožní výrobu elektrické energie, která je díky své síle využitelná ke stovkám účelům.</Electricity.description>
+  
+  <!-- EN: firefoam -->
   <Firefoam.label>protipožární pěna</Firefoam.label>
+  <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
   <Firefoam.description>Umožní výrobu protipožárních zařízení, které při kontaktu s ohněm automaticky rozprsknou protipožární pěnu do okolí.</Firefoam.description>
-
-  <IEDs.label>improvizované výbušniny</IEDs.label>
-  <IEDs.description>Umožní výrobu improvizovaných pastí ze všech druhů dělostřeleckých granátů.</IEDs.description>
-
+  
+  <!-- EN: flak armor -->
+  <FlakArmor.label>střepinová zbroj</FlakArmor.label>
+  <!-- EN: Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly. -->
+  <FlakArmor.description>Umožní výrobu oblečení se všitými kovovými pláty, které mají odolat střelám a explozím. Tato těžká zbroj docela zpomaluje pohyb.</FlakArmor.description>
+  
+  <!-- EN: gas operation -->
+  <GasOperation.label>zbraně s odběrem prachových plynů</GasOperation.label>
+  <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
+  <GasOperation.description>Umožní výrobu velmi účinných zbraní, jako jsou pumpovací brokovnice, lehké kulomety a těžké samopaly.</GasOperation.description>
+  
+  <!-- EN: geothermal power -->
   <GeothermalPower.label>geotermální elektrárna</GeothermalPower.label>
+  <!-- EN: Build geothermal power plants on top of steam geysers, for uninterrupted power. -->
   <GeothermalPower.description>Umožní výstavbu geotermálních elektráren nad gejzíry s párou, které poskytují nepřetržitý přísun elektrické energie.</GeothermalPower.description>
-
+  
+  <!-- EN: gunsmithing -->
+  <Gunsmithing.label>palné zbraně</Gunsmithing.label>
+  <!-- EN: Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers. -->
+  <Gunsmithing.description>Umožní výrobu ručně ovládaných zbraní, jako jsou revolvery, pumpovací brokovnice, opakovací pušky a zápalné odpalovače.</Gunsmithing.description>
+  
+  <!-- EN: gun turrets -->
+  <GunTurrets.label>miniaturní kanón</GunTurrets.label>
+  <!-- EN: Produce simple automated gun turrets. -->
+  <GunTurrets.description>Umožní výrobu střeleckých věží, které jsou vybavené automatickým miniaturním kanónem.</GunTurrets.description>
+  
+  <!-- EN: hydroponics -->
+  <Hydroponics.label>hydroponie</Hydroponics.label>
+  <!-- EN: Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside. -->
+  <Hydroponics.description>Umožní výrobu hydroponických nádrží pro rychlé pěstování plodin v interiéru bez ohledu na terén nebo venkovní počasí.</Hydroponics.description>
+  
+  <!-- EN: IEDs -->
+  <IEDs.label>improvizované výbušniny</IEDs.label>
+  <!-- EN: Build improvised traps from any kind of mortar shell. -->
+  <IEDs.description>Umožní výrobu improvizovaných pastí ze všech druhů dělostřeleckých granátů.</IEDs.description>
+  
+  <!-- EN: machining -->
+  <Machining.label>obrábění</Machining.label>
+  <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to disassemble dead mechanoids for resources. -->
+  <Machining.description>Umožní výstavbu obráběcích stolů, které slouží k výrobě zbraní, granátů, střepinových vest, a k demontáži neaktivních mechanoidů kvůli surovinám.</Machining.description>
+  
+  <!-- EN: mortars -->
+  <Mortars.label>minomety</Mortars.label>
+  <!-- EN: Build mortars which can lob shells long distances - even over walls. -->
+  <Mortars.description>Umožní výrobu minometů, které dokáží bombardovat cíle na velké vzdálenosti - dokonce i přes zdi.</Mortars.description>
+  
+  <!-- EN: nutrient paste -->
+  <NutrientPaste.label>nutriční pasta</NutrientPaste.label>
+  <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
+  <NutrientPaste.description>Umožní výrobu dávkovačů nutriční pasty, které efektivně produkují jedlé pokrmy vyrobené ze syrových potravin bohatých na živiny, přičemž nevyžadují obsluhu.</NutrientPaste.description>
+  
+  <!-- EN: packaged survival meal -->
+  <PackagedSurvivalMeal.label>nouzové potravinové balíčky</PackagedSurvivalMeal.label>
+  <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
+  <PackagedSurvivalMeal.description>Umožní výrobu balených pokrmů pro přežití, které se nikdy nezkazí. Jsou skvělé na cesty.</PackagedSurvivalMeal.description>
+  
+  <!-- EN: prosthetics -->
+  <Prosthetics.label>protetika</Prosthetics.label>
+  <!-- EN: Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach. -->
+  <Prosthetics.description>Umožní výrobu levných protetických částí těla, které slouží jako náhrady ztracených končetin. Vyžaduje zkušeného doktora, aby se daly správně připevnit.</Prosthetics.description>
+  
+  <!-- EN: smokepop belts -->
+  <SmokepopBelt.label>opasek s kouřovou clonou</SmokepopBelt.label>
+  <!-- EN: Build smokepop belts which generate an automatic defensive smokescreen when the user is shot. -->
+  <SmokepopBelt.description>Umožní výrobu opasků s dýmovnicemi, které, pokud je jejich nositel zasažen střelou, automaticky vytvoří obrannou kouřovou clonu.</SmokepopBelt.description>
+  
+  <!-- EN: solar panel -->
+  <SolarPanels.label>solární panely</SolarPanels.label>
+  <!-- EN: Build solar panels for electricity generation. -->
+  <SolarPanels.description>Umožní výstavbu solárních panelů na výrobu elektrické energie.</SolarPanels.description>
+  
+  <!-- EN: sterile materials -->
   <SterileMaterials.label>sterilní materiály</SterileMaterials.label>
+  <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
   <SterileMaterials.description>Umožní výstavbu sterilních dlaždic, které slouží k vytvoření bezpečnějších a čistějších prostor pro účinnější léčbu, výzkum a vaření.</SterileMaterials.description>
   
-
-  <!-- Machining and its children sub-tier -->
-
-  <Machining.label>obrábění</Machining.label>
-  <Machining.description>Umožní výstavbu obráběcích stolů, které slouží k výrobě zbraní, granátů, střepinových vest, a k demontáži neaktivních mechanoidů kvůli surovinám.</Machining.description>
-
-  <SmokepopBelt.label>opasek s kouřovou clonou</SmokepopBelt.label>
-  <SmokepopBelt.description>Umožní výrobu opasků s dýmovnicemi, které, pokud je jejich nositel zasažen střelou, automaticky vytvoří obrannou kouřovou clonu.</SmokepopBelt.description>
-
-  <Prosthetics.label>protetika</Prosthetics.label>
-  <Prosthetics.description>Umožní výrobu levných protetických částí těla, které slouží jako náhrady ztracených končetin. Vyžaduje zkušeného doktora, aby se daly správně připevnit.</Prosthetics.description>
-
-  <Gunsmithing.label>palné zbraně</Gunsmithing.label>
-  <Gunsmithing.description>Umožní výrobu ručně ovládaných zbraní, jako jsou revolvery, pumpovací brokovnice, opakovací pušky a zápalné odpalovače.</Gunsmithing.description>
-
-  <FlakArmor.label>střepinová zbroj</FlakArmor.label>
-  <FlakArmor.description>Umožní výrobu oblečení se všitými kovovými pláty, které mají odolat střelám a explozím. Tato těžká zbroj docela zpomaluje pohyb.</FlakArmor.description>
-
-  <Mortars.label>minomety</Mortars.label>
-  <Mortars.description>Umožní výrobu minometů, které dokáží bombardovat cíle na velké vzdálenosti - dokonce i přes zdi.</Mortars.description>
-
-  <BlowbackOperation.label>zbraně s dynamickým závěrem</BlowbackOperation.label>
-  <BlowbackOperation.description>Umožní výrobu méně účinných zbraní s dynamickým závěrem, jako jsou automatické pistole, lehké a těžké samopaly.</BlowbackOperation.description>
-
-  <GasOperation.label>zbraně s odběrem prachových plynů</GasOperation.label>
-  <GasOperation.description>Umožní výrobu velmi účinných zbraní, jako jsou pumpovací brokovnice a lehké kulomety.</GasOperation.description>
-
-  <GunTurrets.label>miniaturní kanón</GunTurrets.label>
-  <GunTurrets.description>Umožní výrobu střeleckých věží, které jsou vybavené automatickým miniaturním kanónem.</GunTurrets.description>
-
-
+  <!-- EN: tube television -->
+  <TubeTelevision.label>CRT Televizor</TubeTelevision.label>
+  <!-- EN: Produce tube televisions for recreational watching. -->
+  <TubeTelevision.description>Umožní výrobu klasických televizorů s katodovou trubicí určených pro relaxační sledování kanálů.</TubeTelevision.description>
+  
+  <!-- EN: watermill generator -->
+  <WatermillGenerator.label>vodní elektrárna</WatermillGenerator.label>
+  <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
+  <WatermillGenerator.description>Umožní výstavbu vodních elektráren na řekách, které zajistí nepřetržitý přísun elektrické energie.</WatermillGenerator.description>
+  
 </LanguageData>

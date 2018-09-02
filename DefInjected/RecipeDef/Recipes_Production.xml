@@ -1,41 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Make_StoneBlocksAny.label>vyrobit všechny druhy bloků</Make_StoneBlocksAny.label>
-  <Make_StoneBlocksAny.description>Opracuje kusy kamene na použitelné kamenné bloky.</Make_StoneBlocksAny.description>
-  <Make_StoneBlocksAny.jobString>Opracovává kámen v bloky.</Make_StoneBlocksAny.jobString>
-
-  <ExtractMetalFromSlag.label>tavit ocelový kus šrotu</ExtractMetalFromSlag.label>
-  <ExtractMetalFromSlag.description>Použije teplo a silné elektromagnety k extrakci použitelného kovu z ocelového kusu šrotu.</ExtractMetalFromSlag.description>
-  <ExtractMetalFromSlag.jobString>Taví ocelový kus šrotu.</ExtractMetalFromSlag.jobString>
-
-  <SmeltWeapon.label>tavit zbraň</SmeltWeapon.label>
-  <SmeltWeapon.description>Použije teplo a silné elektromagnety k rozebrání zbraní na užitečné suroviny.</SmeltWeapon.description>
-  <SmeltWeapon.jobString>Taví zbraň.</SmeltWeapon.jobString>
-
+  
+  <!-- EN: destroy weapon -->
   <DestroyWeapon.label>zničit zbraň</DestroyWeapon.label>
+  <!-- EN: Use heat to destroy unwanted weapons. This process is faster than smelting, and works on non-smeltable items, but yields no resources. -->
   <DestroyWeapon.description>Použije teplo teplo na zničení nechtěných zbraní. Je to rychlejší než klasické tavení, a funguje i na netavitelné předměty, ale bohužel bez získání surovin.</DestroyWeapon.description>
+  <!-- EN: Destroying weapon. -->
   <DestroyWeapon.jobString>Likviduje zbraň.</DestroyWeapon.jobString>
-
-  <Make_ChemfuelFromWood.label>vyrobit palivo ze dřeva</Make_ChemfuelFromWood.label>
-  <Make_ChemfuelFromWood.description>Vyrobí dávku chemického paliva extrakcí a následnou kondenzací dřevěného plynu ze špalků dřeva.</Make_ChemfuelFromWood.description>
-  <Make_ChemfuelFromWood.jobString>Rafinuje palivo ze dřeva</Make_ChemfuelFromWood.jobString>
-
+  
+  <!-- EN: smelt metal from slag -->
+  <ExtractMetalFromSlag.label>tavit ocelový kus šrotu</ExtractMetalFromSlag.label>
+  <!-- EN: Use heat and strong electromagnets to extract useful metal from slag chunks. -->
+  <ExtractMetalFromSlag.description>Použije teplo a silné elektromagnety k extrakci použitelného kovu z ocelového kusu šrotu.</ExtractMetalFromSlag.description>
+  <!-- EN: Smelting metal from slag. -->
+  <ExtractMetalFromSlag.jobString>Taví ocelový kus šrotu.</ExtractMetalFromSlag.jobString>
+  
+  <!-- EN: make chemfuel from organics -->
   <Make_ChemfuelFromOrganics.label>vyrobit palivo z organických surovin</Make_ChemfuelFromOrganics.label>
+  <!-- EN: Make a batch of chemfuel by extracting biofuel from organic feedstocks. -->
   <Make_ChemfuelFromOrganics.description>Vyrobí dávku chemického paliva extrakcí biopaliva z organických surovin.</Make_ChemfuelFromOrganics.description>
+  <!-- EN: Refining chemfuel from organics. -->
   <Make_ChemfuelFromOrganics.jobString>Rafinuje palivo z organických surovin.</Make_ChemfuelFromOrganics.jobString>
-
+  
+  <!-- EN: make chemfuel from wood -->
+  <Make_ChemfuelFromWood.label>vyrobit palivo ze dřeva</Make_ChemfuelFromWood.label>
+  <!-- EN: Make a batch of chemfuel by extracting and condensing wood gas from logs. -->
+  <Make_ChemfuelFromWood.description>Vyrobí dávku chemického paliva extrakcí a následnou kondenzací dřevěného plynu ze špalků dřeva.</Make_ChemfuelFromWood.description>
+  <!-- EN: Refining chemfuel from wood. -->
+  <Make_ChemfuelFromWood.jobString>Rafinuje palivo ze dřeva</Make_ChemfuelFromWood.jobString>
+  
+  <!-- EN: make component -->
   <Make_ComponentIndustrial.label>vyrobit komponent</Make_ComponentIndustrial.label>
+  <!-- EN: Make a component. -->
   <Make_ComponentIndustrial.description>Vyrobí komponent.</Make_ComponentIndustrial.description>
+  <!-- EN: Making component. -->
   <Make_ComponentIndustrial.jobString>Vyrábí komponent.</Make_ComponentIndustrial.jobString>
-
+  
+  <!-- EN: make advanced component -->
   <Make_ComponentSpacer.label>vyrobit pokročilý komponent</Make_ComponentSpacer.label>
+  <!-- EN: Make an advanced component. -->
   <Make_ComponentSpacer.description>Vyrobí pokročilý komponent.</Make_ComponentSpacer.description>
+  <!-- EN: Making advanced component. -->
   <Make_ComponentSpacer.jobString>Vyrábí pokročilý komponent.</Make_ComponentSpacer.jobString>
   
+  <!-- EN: make patchleather -->
   <Make_Patchleather.label>vyrobit kombinovanou kůži</Make_Patchleather.label>
+  <!-- EN: Combine various types of leather to create weak patchleather. -->
   <Make_Patchleather.description>Zkombinuje různé druhy kůží a vytvoří z nich slabou kombinovanou kůži.</Make_Patchleather.description>
+  <!-- EN: Making patchleather. -->
   <Make_Patchleather.jobString>Vyrábí kombinovanou kůži.</Make_Patchleather.jobString>
   
-    
+  <!-- EN: make any stone blocks -->
+  <Make_StoneBlocksAny.label>vyrobit všechny druhy bloků</Make_StoneBlocksAny.label>
+  <!-- EN: Cut rock chunks into usable stone blocks. -->
+  <Make_StoneBlocksAny.description>Opracuje kusy kamene na použitelné kamenné bloky.</Make_StoneBlocksAny.description>
+  <!-- EN: Cutting stone blocks from chunk. -->
+  <Make_StoneBlocksAny.jobString>Opracovává kámen v bloky.</Make_StoneBlocksAny.jobString>
+  
+  <!-- EN: smelt weapon -->
+  <SmeltWeapon.label>tavit zbraň</SmeltWeapon.label>
+  <!-- EN: Use heat and strong electromagnets to break down weapons into useful resources. -->
+  <SmeltWeapon.description>Použije teplo a silné elektromagnety k rozebrání zbraní na užitečné suroviny.</SmeltWeapon.description>
+  <!-- EN: Smelting weapon. -->
+  <SmeltWeapon.jobString>Taví zbraň.</SmeltWeapon.jobString>
+  
 </LanguageData>

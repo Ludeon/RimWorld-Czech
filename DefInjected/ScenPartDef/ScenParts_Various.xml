@@ -1,50 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- player pawn filters -->
-
-  <GameStartDialog.label>startovní herní dialog</GameStartDialog.label>
-  <PawnFilter_Age.label>povolené věkové rozpětí</PawnFilter_Age.label>
-
-
-  <!-- player pawn modifier -->
-
-  <OnPawnDeathExplode.label>bytosti po smrti explodují</OnPawnDeathExplode.label>
-  <ForcedTrait.label>vynucený rys postavy</ForcedTrait.label>
-  <ForcedHediff.label>vynucený zdravotní stav</ForcedHediff.label>
-  <Naked.label>nahota</Naked.label> 
-  <SetNeedLevel.label>startovní úroveň potřeby</SetNeedLevel.label>
-  <StartingResearch.label>dokončený výzkum</StartingResearch.label>
-  <GameCondition_Planetkiller.label>planetovražedná zbraň zničí svět</GameCondition_Planetkiller.label>
-
-
-  <!-- rules changes -->
-
-  <Rule_DisallowDesignator_ZoneAdd_Growing.label>nemožnost zasévat</Rule_DisallowDesignator_ZoneAdd_Growing.label>
-  <Rule_DisallowDesignator_ZoneAdd_Growing.description>Nemožnost zasévat rostliny na zemi.</Rule_DisallowDesignator_ZoneAdd_Growing.description>
-
-  <Rule_DisallowDesignator_Mine.label>nemožnost těžit</Rule_DisallowDesignator_Mine.label>
-  <Rule_DisallowDesignator_Mine.description>Nemožnost těžit suroviny.</Rule_DisallowDesignator_Mine.description>
-
-  <Rule_DisallowDesignator_Hunt.label>nemožnost lovit</Rule_DisallowDesignator_Hunt.label>
-  <Rule_DisallowDesignator_Hunt.description>Nemožnost lovit zvěř.</Rule_DisallowDesignator_Hunt.description>
-
-  <Rule_DisallowDesignator_Tame.label>nemožnost ochočovat</Rule_DisallowDesignator_Tame.label>
-  <Rule_DisallowDesignator_Tame.description>Nemožnost ochočovat zvířata.</Rule_DisallowDesignator_Tame.description>
-
-  <StatFactor.label>multiplikátor statistik</StatFactor.label>
-
-
-  <!-- grouped -->
-
-  <DisableIncident.label>zakázat událost</DisableIncident.label>
+  
+  <!-- EN: create incident -->
   <CreateIncident.label>vytvořit událost</CreateIncident.label>
-  <Rule_DisallowBuilding.label>nemožnost stavět věc</Rule_DisallowBuilding.label>
+  
+  <!-- EN: disable incident -->
+  <DisableIncident.label>zakázat událost</DisableIncident.label>
+  
+  <!-- EN: forced health condition -->
+  <ForcedHediff.label>vynucený zdravotní stav</ForcedHediff.label>
+  
+  <!-- EN: forced trait -->
+  <ForcedTrait.label>vynucený rys postavy</ForcedTrait.label>
+  
+  <!-- EN: planetkiller weapon incoming -->
+  <GameCondition_Planetkiller.label>planetovražedná zbraň zničí svět</GameCondition_Planetkiller.label>
+  
+  <!-- EN: game start dialog -->
+  <GameStartDialog.label>startovní herní dialog</GameStartDialog.label>
+  
+  <!-- EN: naked -->
+  <Naked.label>nahota</Naked.label>
+  
+  <!-- EN: characters explode on death -->
+  <OnPawnDeathExplode.label>bytosti po smrti explodují</OnPawnDeathExplode.label>
+  
+  <!-- EN: allowed age range -->
+  <PawnFilter_Age.label>povolené věkové rozpětí</PawnFilter_Age.label>
+  
+  <!-- EN: permanent game condition -->
   <PermanentGameCondition.label>permanentní podmínka mapy</PermanentGameCondition.label>
-  <StartingAnimal.label>začínat se zvířetem</StartingAnimal.label>
-  <StartingThing_Defined.label>předmět: na startu</StartingThing_Defined.label>
-  <ScatterThingsNearPlayerStart.label>předmět: poblíž startu</ScatterThingsNearPlayerStart.label>
+  
+  <!-- EN: disallow building -->
+  <Rule_DisallowBuilding.label>nemožnost stavět věc</Rule_DisallowBuilding.label>
+  
+  <!-- EN: cannot hunt -->
+  <Rule_DisallowDesignator_Hunt.label>nemožnost lovit</Rule_DisallowDesignator_Hunt.label>
+  <!-- EN: Cannot hunt. -->
+  <Rule_DisallowDesignator_Hunt.description>Nemožnost lovit zvěř.</Rule_DisallowDesignator_Hunt.description>
+  
+  <!-- EN: cannot mine -->
+  <Rule_DisallowDesignator_Mine.label>nemožnost těžit</Rule_DisallowDesignator_Mine.label>
+  <!-- EN: Cannot mine. -->
+  <Rule_DisallowDesignator_Mine.description>Nemožnost těžit suroviny.</Rule_DisallowDesignator_Mine.description>
+  
+  <!-- EN: cannot tame -->
+  <Rule_DisallowDesignator_Tame.label>nemožnost ochočovat</Rule_DisallowDesignator_Tame.label>
+  <!-- EN: Cannot tame animals. -->
+  <Rule_DisallowDesignator_Tame.description>Nemožnost ochočovat zvířata.</Rule_DisallowDesignator_Tame.description>
+  
+  <!-- EN: cannot sow -->
+  <Rule_DisallowDesignator_ZoneAdd_Growing.label>nemožnost zasévat</Rule_DisallowDesignator_ZoneAdd_Growing.label>
+  <!-- EN: Cannot sow plants on the ground. -->
+  <Rule_DisallowDesignator_ZoneAdd_Growing.description>Nemožnost zasévat rostliny na zemi.</Rule_DisallowDesignator_ZoneAdd_Growing.description>
+  
+  <!-- EN: scattered randomly -->
   <ScatterThingsAnywhere.label>předmět: daleko od startu</ScatterThingsAnywhere.label>
-
-
+  
+  <!-- EN: start near -->
+  <ScatterThingsNearPlayerStart.label>předmět: poblíž startu</ScatterThingsNearPlayerStart.label>
+  
+  <!-- EN: set need level -->
+  <SetNeedLevel.label>startovní úroveň potřeby</SetNeedLevel.label>
+  
+  <!-- EN: start with animal(s) -->
+  <StartingAnimal.label>začínat se zvířetem</StartingAnimal.label>
+  
+  <!-- EN: start with research -->
+  <StartingResearch.label>dokončený výzkum</StartingResearch.label>
+  
+  <!-- EN: start with -->
+  <StartingThing_Defined.label>předmět: na startu</StartingThing_Defined.label>
+  
+  <!-- EN: stat multiplier -->
+  <StatFactor.label>multiplikátor statistik</StatFactor.label>
+  
 </LanguageData>

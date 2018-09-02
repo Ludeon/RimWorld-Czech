@@ -1,32 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Cut.label>pořezání</Cut.label>
-  <Cut.deathMessage>{0} zemřel[PAWN_pronoun] na pořezání.</Cut.deathMessage>
-
-  <Crush.label>rozdrcení</Crush.label>
-  <Crush.deathMessage>{0} zemřel[PAWN_pronoun] na rozdrcení.</Crush.deathMessage>
-
-  <Blunt.label>otřes</Blunt.label>
-  <Blunt.deathMessage>{0} byl[PAWN_pronoun] umlácen[PAWN_pronoun] k smrti.</Blunt.deathMessage>
-
-
-  <!-- Damage types are the same as Blunt, but behaves like stabbing; intended for things like rifle barrels -->
-
-  <Poke.label>otřes</Poke.label>
-  <Poke.deathMessage>{0} byl[PAWN_pronoun] umlácen[PAWN_pronoun] k smrti.</Poke.deathMessage>
-
-  <Stab.label>bodnutí</Stab.label>
-  <Stab.deathMessage>{0} byl[PAWN_pronoun] ubodán[PAWN_pronoun].</Stab.deathMessage>
-
-  <Scratch.label>škrábanec</Scratch.label>
-  <Scratch.deathMessage>{0} byl[PAWN_pronoun] roztrhán[PAWN_pronoun].</Scratch.deathMessage>
-
+  
+  <!-- EN: bite -->
   <Bite.label>kousanec</Bite.label>
+  <!-- EN: {0} has been bitten to death. -->
   <Bite.deathMessage>{0} byl[PAWN_pronoun] ukousán[PAWN_pronoun] k smrti.</Bite.deathMessage>
-
+  
+  <!-- EN: blunt -->
+  <Blunt.label>otřes</Blunt.label>
+  <!-- EN: {0} has been beaten to death. -->
+  <Blunt.deathMessage>{0} byl[PAWN_pronoun] umlácen[PAWN_pronoun] k smrti.</Blunt.deathMessage>
+  
+  <!-- EN: crush -->
+  <Crush.label>rozdrcení</Crush.label>
+  <!-- EN: {0} has been crushed to death. -->
+  <Crush.deathMessage>{0} zemřel[PAWN_pronoun] na rozdrcení.</Crush.deathMessage>
+  
+  <!-- EN: cut -->
+  <Cut.label>pořezání</Cut.label>
+  <!-- EN: {0} has been cut to death. -->
+  <Cut.deathMessage>{0} zemřel[PAWN_pronoun] na pořezání.</Cut.deathMessage>
+  
+  <!-- EN: blunt -->
+  <Poke.label>otřes</Poke.label>
+  <!-- EN: {0} has been beaten to death. -->
+  <Poke.deathMessage>{0} byl[PAWN_pronoun] umlácen[PAWN_pronoun] k smrti.</Poke.deathMessage>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>škrábanec</Scratch.label>
+  <!-- EN: {0} has been torn to death. -->
+  <Scratch.deathMessage>{0} byl[PAWN_pronoun] roztrhán[PAWN_pronoun].</Scratch.deathMessage>
+  
+  <!-- EN: stab -->
+  <Stab.label>bodnutí</Stab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <Stab.deathMessage>{0} byl[PAWN_pronoun] ubodán[PAWN_pronoun].</Stab.deathMessage>
+  
+  <!-- EN: toxic bite -->
   <ToxicBite.label>toxický kousanec</ToxicBite.label>
+  <!-- EN: {0} has been bitten to death. -->
   <ToxicBite.deathMessage>{0}  byl[PAWN_pronoun] usmrcen[PAWN_pronoun] toxickým kousnutím.</ToxicBite.deathMessage>
-
-
+  
 </LanguageData>

@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Temporary hack; ranged weapons need to use the old pre-flavorful-combat system to avoid a rebalance cascade. -->
-
-  <RangedStab.label>bodnutí</RangedStab.label>
-  <RangedStab.deathMessage>{0} zemřel[PAWN_pronoun] na probodnutí.</RangedStab.deathMessage>
-
-  <Bullet.label>kulka</Bullet.label>
-  <Bullet.deathMessage>{0} byl[PAWN_pronoun] zastřelen[PAWN_pronoun].</Bullet.deathMessage>
-
+  
+  <!-- EN: arrow -->
   <Arrow.label>šíp</Arrow.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <Arrow.deathMessage>{0} byl[PAWN_pronoun] zastřelen[PAWN_pronoun] šípem.</Arrow.deathMessage>
-
+  
+  <!-- EN: arrow -->
   <ArrowHighVelocity.label>šíp</ArrowHighVelocity.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <ArrowHighVelocity.deathMessage>{0} byl[PAWN_pronoun] zastřelen[PAWN_pronoun] šípem.</ArrowHighVelocity.deathMessage>
-
-
+  
+  <!-- EN: bullet -->
+  <Bullet.label>kulka</Bullet.label>
+  <!-- EN: {0} has been shot to death. -->
+  <Bullet.deathMessage>{0} byl[PAWN_pronoun] zastřelen[PAWN_pronoun].</Bullet.deathMessage>
+  
+  <!-- EN: stab -->
+  <RangedStab.label>bodnutí</RangedStab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <RangedStab.deathMessage>{0} zemřel[PAWN_pronoun] na probodnutí.</RangedStab.deathMessage>
+  
 </LanguageData>

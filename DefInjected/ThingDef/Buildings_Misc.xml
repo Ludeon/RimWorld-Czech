@@ -1,131 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <OrbitalTradeBeacon.label>orbitální obchodní maják</OrbitalTradeBeacon.label>
-  <OrbitalTradeBeacon.description>Potřebný pro obchodování na orbitě. Obchodníkům na orbitě můžeš prodávat pouze zboží, které se nachází v dosahu orbitálního obchodního majáku. Může být umístěn uvnitř.</OrbitalTradeBeacon.description>
-  <Blueprint_OrbitalTradeBeacon.label>orbitální obchodní maják (plán)</Blueprint_OrbitalTradeBeacon.label>
-  <Blueprint_Install_OrbitalTradeBeacon.label>orbitální obchodní maják (plán)</Blueprint_Install_OrbitalTradeBeacon.label>
-  <Frame_OrbitalTradeBeacon.label>orbitální obchodní maják (ve výstavbě)</Frame_OrbitalTradeBeacon.label>
-  <Frame_OrbitalTradeBeacon.description>Potřebný pro obchodování na orbitě. Obchodníkům na orbitě můžeš prodávat pouze zboží, které se nachází v dosahu orbitálního obchodního majáku. Může být umístěn uvnitř.</Frame_OrbitalTradeBeacon.description>
-
-  <CommsConsole.label>radiostanice</CommsConsole.label>
-  <CommsConsole.description>Umožňuje rádiový kontakt s ostatními frakcemi a obchodníky na orbitě.</CommsConsole.description>
-  <Blueprint_CommsConsole.label>radiostanice (plán)</Blueprint_CommsConsole.label>
-  <Frame_CommsConsole.label>radiostanice (ve výstavbě)</Frame_CommsConsole.label>
-  <Frame_CommsConsole.description>Umožňuje rádiový kontakt s ostatními frakcemi a obchodníky na orbitě.</Frame_CommsConsole.description>
-
-  <FirefoamPopper.label>protipožární zařízení</FirefoamPopper.label>
-  <FirefoamPopper.description>Když detekuje oheň, tak se toto bezpečnostní zařízení rozprskne a rozpráší kolem sebe v kruhovém poli protipožární pěnu. Lze také spustit manuálně.</FirefoamPopper.description>
-  <FirefoamPopper.comps.1.useLabel>Spustit hasící přístroj</FirefoamPopper.comps.1.useLabel>
-  <Blueprint_FirefoamPopper.label>protipožární zařízení (plán)</Blueprint_FirefoamPopper.label>
-  <Blueprint_Install_FirefoamPopper.label>protipožární zařízení (plán)</Blueprint_Install_FirefoamPopper.label>
-  <Frame_FirefoamPopper.label>protipožární zařízení (ve výstavbě)</Frame_FirefoamPopper.label>
-  <Frame_FirefoamPopper.description>Když detekuje oheň, tak se toto bezpečnostní zařízení rozprskne a rozpráší kolem sebe v kruhovém poli protipožární pěnu. Lze také spustit manuálně.</Frame_FirefoamPopper.description>
-
-  <MoisturePump.label>odvodňovací pumpa</MoisturePump.label>
-  <MoisturePump.description>Velmi pomalu vyrovnává vlhkost z okolního terénu a přeměňuje bažiny a mělčiny na suchou zem, a také přeměňuje jemný písek na normální písek. Na hlubokou vodu nemá žádný vliv.</MoisturePump.description>
-  <Blueprint_MoisturePump.label>odvodňovací pumpa (plán)</Blueprint_MoisturePump.label>
-  <Frame_MoisturePump.label>odvodňovací pumpa (ve výstavbě)</Frame_MoisturePump.label>
-  <Frame_MoisturePump.description>Velmi pomalu vyrovnává vlhkost z okolního terénu a přeměňuje bažiny a mělčiny na suchou zem, a také přeměňuje jemný písek na normální písek. Na hlubokou vodu nemá žádný vliv.</Frame_MoisturePump.description>
-
-  <GroundPenetratingScanner.label>hloubkový snímač</GroundPenetratingScanner.label>
-  <GroundPenetratingScanner.description>Směrem dolů směřující radar vybavený sonarem a magnetickým snímačem, který umožňuje nacházet (ale ne určovat) hluboko v zemi ukrytá ložiska minerálů. Vyžaduje značné množství elektrické energie.</GroundPenetratingScanner.description>
-  <Blueprint_GroundPenetratingScanner.label>hloubkový snímač (plán)</Blueprint_GroundPenetratingScanner.label>
-  <Frame_GroundPenetratingScanner.label>hloubkový snímač (ve výstavbě)</Frame_GroundPenetratingScanner.label>
-  <Frame_GroundPenetratingScanner.description>Směrem dolů směřující radar vybavený sonarem a magnetickým snímačem, který umožňuje nacházet (ale ne určovat) hluboko v zemi ukrytá ložiska minerálů. Vyžaduje značné množství elektrické energie.</Frame_GroundPenetratingScanner.description>
-
-  <LongRangeMineralScanner.label>snímač minerálů s dlouhým dosahem</LongRangeMineralScanner.label>
-  <LongRangeMineralScanner.description>Automaticky detekuje drahocenné minerály, jako je zlato nebo jadeit, v destinacích po celé planetě. Hroudy najde v průměru jednou za 30 dnů v okruhu 30 buněk na mapě světa. Budování více než jednoho snímače ve stejném nebo blízkém okolí má zanedbatelný nebo žádný účinek.</LongRangeMineralScanner.description>
-  <Blueprint_LongRangeMineralScanner.label>snímač minerálů s dlouhým dosahem (plán)</Blueprint_LongRangeMineralScanner.label>
-  <Frame_LongRangeMineralScanner.label>snímač minerálů s dlouhým dosahem (ve výstavbě)</Frame_LongRangeMineralScanner.label>
-  <Frame_LongRangeMineralScanner.description>Automaticky detekuje drahocenné minerály, jako je zlato nebo jadeit, v destinacích po celé planetě. Hroudy najde v průměru jednou za 30 dnů v okruhu 30 buněk na mapě světa. Budování více než jednoho snímače ve stejném nebo blízkém okolí má zanedbatelný nebo žádný účinek.</Frame_LongRangeMineralScanner.description>
-
-
-  <!-- Transport pods -->
-
-  <PodLauncher.label>odpalovací rampa</PodLauncher.label>
-  <PodLauncher.description>Zařízení pro doplňování paliva a odpálení jednoho přepravního modulu. Z odpalovacích ramp mohou startovat i skupiny modulů současně, musí být však umístěny hned vedle sebe.</PodLauncher.description>
-  <Blueprint_PodLauncher.label>odpalovací rampa (modul)(plán)</Blueprint_PodLauncher.label>
-  <Frame_PodLauncher.label>odpalovací rampa (modul) (ve výstavbě)</Frame_PodLauncher.label>
-  <Frame_PodLauncher.description>Zařízení pro doplňování paliva a odpálení jednoho přepravního modulu. Z odpalovacích ramp mohou startovat i skupiny modulů současně, musí být však umístěny hned vedle sebe.</Frame_PodLauncher.description>
-
-  <TransportPod.label>přepravní modul</TransportPod.label>
-  <TransportPod.description>Odpalovatelný přepravní modul pro suborbitální cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Dá se použít pro zasílání darů, k přepravě osob nebo zásob, k provádění překvapivých útoků nebo pro vyslání posil do probíhajících konfliktů.</TransportPod.description>
-  <Blueprint_TransportPod.label>přepravní modul (plán)</Blueprint_TransportPod.label>
-  <Frame_TransportPod.label>přepravní modul (ve výstavbě)</Frame_TransportPod.label>
-  <Frame_TransportPod.description>Odpalovatelný přepravní modul pro suborbitální cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Dá se použít pro zasílání darů, k přepravě osob nebo zásob, k provádění překvapivých útoků nebo pro vyslání posil do probíhajících konfliktů.</Frame_TransportPod.description>
-
-
-  <!-- Facilities -->
-
-  <MultiAnalyzer.label>multifunkční analyzátor</MultiAnalyzer.label>
-  <MultiAnalyzer.description>Pokud je umístěn nedaleko špičkového výzkumného stanoviště, tak zvyšuje rychlost výzkumu a také odemyká nové výzkumné projekty. Každé výzkumné stanoviště může využívat jen jeden multifunkční analyzátor.</MultiAnalyzer.description>
-  <Blueprint_MultiAnalyzer.label>multifunkční analyzátor (plán)</Blueprint_MultiAnalyzer.label>
-  <Blueprint_Install_MultiAnalyzer.label>multifunkční analyzátor (plán)</Blueprint_Install_MultiAnalyzer.label>
-  <Frame_MultiAnalyzer.label>multifunkční analyzátor (ve výstavbě)</Frame_MultiAnalyzer.label>
-  <Frame_MultiAnalyzer.description>Pokud je umístěn nedaleko špičkového výzkumného stanoviště, tak zvyšuje rychlost výzkumu a také odemyká nové výzkumné projekty. Každé výzkumné stanoviště může využívat jen jeden multifunkční analyzátor.</Frame_MultiAnalyzer.description>
-
-  <VitalsMonitor.label>monitor životních funkcí</VitalsMonitor.label>
-  <VitalsMonitor.description>Pokud je umístěn přímo vedle nemocničního lůžka, tak zvyšuje kvalitu lékařské péče, šanci na úspěch při operaci, a rychlost získávání imunity. Funguje pouze pro nemocniční lůžka - normální postele nebudou mít žádný přínos. Připojení více než jednoho monitoru životních funkcí ke stejnému lůžku nebude mít žádný další účinek.</VitalsMonitor.description>
-  <Blueprint_VitalsMonitor.label>monitor životních funkcí (plán)</Blueprint_VitalsMonitor.label>
-  <Blueprint_Install_VitalsMonitor.label>monitor životních funkcí (plán)</Blueprint_Install_VitalsMonitor.label>
-  <Frame_VitalsMonitor.label>monitor životních funkcí (ve výstavbě)</Frame_VitalsMonitor.label>
-  <Frame_VitalsMonitor.description>Pokud je umístěn přímo vedle nemocničního lůžka, tak zvyšuje kvalitu lékařské péče, šanci na úspěch při operaci, a rychlost získávání imunity. Funguje pouze pro nemocniční lůžka - normální postele nebudou mít žádný přínos. Připojení více než jednoho monitoru životních funkcí ke stejnému lůžku nebude mít žádný další účinek.</Frame_VitalsMonitor.description>
-
-  <ToolCabinet.label>skříň na nářadí</ToolCabinet.label>
-  <ToolCabinet.description>Zvyšuje rychlost práce, pokud je umístěna v blízkosti pracovního stolu. K jednomu pracovnímu stolu je možné přidělit až dvě skříně na nářadí.</ToolCabinet.description>
-  <Blueprint_ToolCabinet.label>skříň na nářadí (plán)</Blueprint_ToolCabinet.label>
-  <Blueprint_Install_ToolCabinet.label>skříň na nářadí (plán)</Blueprint_Install_ToolCabinet.label>
-  <Frame_ToolCabinet.label>skříň na nářadí (ve výstavbě)</Frame_ToolCabinet.label>
-  <Frame_ToolCabinet.description>Zvyšuje rychlost práce, pokud je umístěna v blízkosti pracovního stolu. K jednomu pracovnímu stolu je možné přidělit až dvě skříně na nářadí.</Frame_ToolCabinet.description>
-
-
-  <!-- Graves -->
-
-  <Grave.label>hrob</Grave.label>
-  <Grave.description>Slušné místo posledního odpočinku. Kolonisté budou navštěvovat hroby kvůli meditativnímu rozjímání.</Grave.description>
-  <Blueprint_Grave.label>hrob (plán)</Blueprint_Grave.label>
-  <Frame_Grave.label>hrob (ve výstavbě)</Frame_Grave.label>
-  <Frame_Grave.description>Slušné místo posledního odpočinku. Kolonisté budou navštěvovat hroby kvůli meditativnímu rozjímání.</Frame_Grave.description>
-
-  <Sarcophagus.label>sarkofág</Sarcophagus.label>
-  <Sarcophagus.description>Zdobená pohřební schránka pro ctěné mrtvé.</Sarcophagus.description>
-  <Blueprint_Sarcophagus.label>sarkofág (plán)</Blueprint_Sarcophagus.label>
-  <Frame_Sarcophagus.label>sarkofág (ve výstavbě)</Frame_Sarcophagus.label>
-  <Frame_Sarcophagus.description>Zdobená pohřební schránka pro ctěné mrtvé.</Frame_Sarcophagus.description>
-
-
-  <!-- Cryptosleep caskets -->
-
-  <CryptosleepCasket.label>cryptospánk. komora</CryptosleepCasket.label>
-  <CryptosleepCasket.description>Komora s vlastním napájením, která je navržena tak, aby udržovala člověka ve stavu zpomalených životních funkcí po mnoho let.</CryptosleepCasket.description>
-  <Blueprint_CryptosleepCasket.label>cryptospánková komora (plán)</Blueprint_CryptosleepCasket.label>
-  <Frame_CryptosleepCasket.label>cryptospánková komora (ve výstavbě)</Frame_CryptosleepCasket.label>
-  <Frame_CryptosleepCasket.description>Komora s vlastním napájením, která je navržena tak, aby udržovala člověka ve stavu zpomalených životních funkcí po mnoho let.</Frame_CryptosleepCasket.description>
-
+  
+  <!-- EN: ancient cryptosleep casket -->
   <AncientCryptosleepCasket.label>starodávná cryptospánková komora</AncientCryptosleepCasket.label>
+  <!-- EN: This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain? -->
   <AncientCryptosleepCasket.description>Tato cryptospánková komora vypadá, jako by tu byla již velmi dlouho. Kdo ví, co je uvnitř?</AncientCryptosleepCasket.description>
-
-
-  <!-- Spots -->
-
-  <MarriageSpot.label>místo pro svatbu</MarriageSpot.label>
-  <MarriageSpot.description>Určuje místo, na kterém se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</MarriageSpot.description>
-  <Blueprint_MarriageSpot.label>místo pro svatbu (plán)</Blueprint_MarriageSpot.label>
-  <Frame_MarriageSpot.label>místo pro svatbu (ve výstavbě)</Frame_MarriageSpot.label>
-  <Frame_MarriageSpot.description>Určuje místo, na kterém se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</Frame_MarriageSpot.description>
-
-  <PartySpot.label>místo pro večírek</PartySpot.label>
-  <PartySpot.description>Určuje místo, na kterém se budou konat večírky.</PartySpot.description>
-  <Blueprint_PartySpot.label>místo pro večírek (plán)</Blueprint_PartySpot.label>
-  <Frame_PartySpot.label>místo pro večírek (ve výstavbě)</Frame_PartySpot.label>
-  <Frame_PartySpot.description>Určuje místo, na kterém se budou konat večírky.</Frame_PartySpot.description>
-
+  
+  <!-- EN: caravan packing spot -->
   <CaravanPackingSpot.label>místo pro sbalení karavany</CaravanPackingSpot.label>
+  <!-- EN: Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process. -->
   <CaravanPackingSpot.description>Určuje místo, na kterém se budou vytvářet karavany. Umísti jej nedaleko svých zásob, abys urychlil proces nakládání karavany.</CaravanPackingSpot.description>
-  <Blueprint_CaravanPackingSpot.label>místo pro sbalení karavany (plán)</Blueprint_CaravanPackingSpot.label>
-  <Frame_CaravanPackingSpot.label>místo pro sbalení karavany (ve výstavbě)</Frame_CaravanPackingSpot.label>
-  <Frame_CaravanPackingSpot.description>Určuje místo, na kterém se budou vytvářet karavany. Umísti jej nedaleko svých zásob, abys urychlil proces nakládání karavany.</Frame_CaravanPackingSpot.description>
-
-
+  
+  <!-- EN: comms console -->
+  <CommsConsole.label>radiostanice</CommsConsole.label>
+  <!-- EN: Allows radio contact with other factions and orbital traders. -->
+  <CommsConsole.description>Umožňuje rádiový kontakt s ostatními frakcemi a obchodníky na orbitě.</CommsConsole.description>
+  
+  <!-- EN: cryptosleep casket -->
+  <CryptosleepCasket.label>cryptospánk. komora</CryptosleepCasket.label>
+  <!-- EN: A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years. -->
+  <CryptosleepCasket.description>Komora s vlastním napájením, která je navržena tak, aby udržovala člověka ve stavu zpomalených životních funkcí po mnoho let.</CryptosleepCasket.description>
+  
+  <!-- EN: firefoam popper -->
+  <FirefoamPopper.label>protipožární zařízení</FirefoamPopper.label>
+  <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
+  <FirefoamPopper.description>Když detekuje oheň, tak se toto bezpečnostní zařízení rozprskne a rozpráší kolem sebe v kruhovém poli protipožární pěnu. Lze také spustit manuálně.</FirefoamPopper.description>
+  <!-- EN: Trigger firefoam popper -->
+  <FirefoamPopper.comps.CompUsable.useLabel>Spustit hasící přístroj</FirefoamPopper.comps.CompUsable.useLabel>
+  
+  <!-- EN: grave -->
+  <Grave.label>hrob</Grave.label>
+  <!-- EN: A decent final resting place. Colonists will visit full graves to gain meditative joy. -->
+  <Grave.description>Slušné místo posledního odpočinku. Kolonisté budou navštěvovat hroby kvůli meditativnímu rozjímání.</Grave.description>
+  
+  <!-- EN: ground-penetrating scanner -->
+  <GroundPenetratingScanner.label>hloubkový snímač</GroundPenetratingScanner.label>
+  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
+  <GroundPenetratingScanner.description>Směrem dolů směřující radar vybavený sonarem a magnetickým snímačem, který umožňuje nacházet (ale ne určovat) hluboko v zemi ukrytá ložiska minerálů. Vyžaduje značné množství elektrické energie.</GroundPenetratingScanner.description>
+  
+  <!-- EN: long-range mineral scanner -->
+  <LongRangeMineralScanner.label>snímač minerálů s dlouhým dosahem</LongRangeMineralScanner.label>
+  <!-- EN: Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill. -->
+  <LongRangeMineralScanner.description>Může být použit výzkumníky k odhalení specifického druhu minerálu napříč celou planetou. Čas potřebný k nalezení zdroje je poněkud náhodný a závisí na dovednosti výzkumníka.</LongRangeMineralScanner.description>
+  
+  <!-- EN: marriage spot -->
+  <MarriageSpot.label>místo pro svatbu</MarriageSpot.label>
+  <!-- EN: Designates a spot where marriage ceremonies will take place. Spectators can watch from either side. -->
+  <MarriageSpot.description>Určuje místo, na kterém se budou konat svatební obřady. Zúčastnění mohou obřad sledovat z obou stran.</MarriageSpot.description>
+  
+  <!-- EN: moisture pump -->
+  <MoisturePump.label>odvodňovací pumpa</MoisturePump.label>
+  <!-- EN: Very slowly equalizes moisture in nearby terrain, converting marshes or shallow water into dry ground, and soft sand into normal sand. Does not affect deep water. -->
+  <MoisturePump.description>Velmi pomalu vyrovnává vlhkost z okolního terénu a přeměňuje bažiny a mělčiny na suchou zem, a také přeměňuje jemný písek na normální písek. Na hlubokou vodu nemá žádný vliv.</MoisturePump.description>
+  
+  <!-- EN: multi-analyzer -->
+  <MultiAnalyzer.label>multifunkční analyzátor</MultiAnalyzer.label>
+  <!-- EN: Increases research speed when placed near hi-tech research bench and unlocks new research projects. Each research bench can only use one multi-analyzer. -->
+  <MultiAnalyzer.description>Pokud je umístěn nedaleko špičkového výzkumného stanoviště, tak zvyšuje rychlost výzkumu a také odemyká nové výzkumné projekty. Každé výzkumné stanoviště může využívat jen jeden multifunkční analyzátor.</MultiAnalyzer.description>
+  
+  <!-- EN: orbital trade beacon -->
+  <OrbitalTradeBeacon.label>orbitální obchodní maják</OrbitalTradeBeacon.label>
+  <!-- EN: Required for orbital trading. You can only sell goods to orbital traders if they're near an orbital trade beacon. Can be placed indoors. -->
+  <OrbitalTradeBeacon.description>Potřebný pro obchodování na orbitě. Obchodníkům na orbitě můžeš prodávat pouze zboží, které se nachází v dosahu orbitálního obchodního majáku. Může být umístěn uvnitř.</OrbitalTradeBeacon.description>
+  
+  <!-- EN: party spot -->
+  <PartySpot.label>místo pro večírek</PartySpot.label>
+  <!-- EN: Designates a spot for throwing parties. -->
+  <PartySpot.description>Určuje místo, na kterém se budou konat večírky.</PartySpot.description>
+  
+  <!-- EN: pod launcher -->
+  <PodLauncher.label>odpalovací rampa</PodLauncher.label>
+  <!-- EN: A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other. -->
+  <PodLauncher.description>Zařízení pro doplňování paliva a odpálení jednoho přepravního modulu. Z odpalovacích ramp mohou startovat i skupiny modulů současně, musí být však umístěny hned vedle sebe.</PodLauncher.description>
+  
+  <!-- EN: sarcophagus -->
+  <Sarcophagus.label>sarkofág</Sarcophagus.label>
+  <!-- EN: An ornamented burial receptacle for the honored dead. -->
+  <Sarcophagus.description>Zdobená pohřební schránka pro ctěné mrtvé.</Sarcophagus.description>
+  
+  <!-- EN: tool cabinet -->
+  <ToolCabinet.label>skříň na nářadí</ToolCabinet.label>
+  <!-- EN: Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets. -->
+  <ToolCabinet.description>Zvyšuje rychlost práce, pokud je umístěna v blízkosti pracovního stolu. K jednomu pracovnímu stolu je možné přidělit až dvě skříně na nářadí.</ToolCabinet.description>
+  
+  <!-- EN: transport pod -->
+  <TransportPod.label>přepravní modul</TransportPod.label>
+  <!-- EN: A launchable sub-orbital cargo pod capable of carrying people, items, or animals. Can be used for sending gifts, transporting people or supplies, surprise attacks, or reinforcing battles. -->
+  <TransportPod.description>Odpalovatelný přepravní modul pro suborbitální cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Dá se použít pro zasílání darů, k přepravě osob nebo zásob, k provádění překvapivých útoků nebo pro vyslání posil do probíhajících konfliktů.</TransportPod.description>
+  
+  <!-- EN: vitals monitor -->
+  <VitalsMonitor.label>monitor životních funkcí</VitalsMonitor.label>
+  <!-- EN: Increases medical tend quality, surgery success chance, and immunity gain speed when placed directly adjacent to a hospital bed. Only works for hospital beds - normal beds will not benefit. Attaching more than one vitals monitor to the same bed will have no effect. -->
+  <VitalsMonitor.description>Pokud je umístěn přímo vedle nemocničního lůžka, tak zvyšuje kvalitu lékařské péče, šanci na úspěch při operaci, a rychlost získávání imunity. Funguje pouze pro nemocniční lůžka - normální postele nebudou mít žádný přínos. Připojení více než jednoho monitoru životních funkcí ke stejnému lůžku nebude mít žádný další účinek.</VitalsMonitor.description>
+  
 </LanguageData>

@@ -1,145 +1,244 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Firefighter.label>Hasič</Firefighter.label>
-  <Firefighter.description>Hasí požáry v kolonii.</Firefighter.description>
-  <Firefighter.labelShort>Hasič</Firefighter.labelShort>
-  <Firefighter.pawnLabel>Hasič</Firefighter.pawnLabel>
-  <Firefighter.gerundLabel>Hasič</Firefighter.gerundLabel>
-  <Firefighter.verb>Hasí</Firefighter.verb>
-
-  <Patient.label>Pacient</Patient.label>
-  <Patient.description>Chodí pro ošetření do postele, pokud je jeho zdravotní stav bezprostředně život ohrožující.</Patient.description>
-  <Patient.labelShort>Pacient</Patient.labelShort>
-  <Patient.pawnLabel>Pacient</Patient.pawnLabel>
-  <Patient.gerundLabel>Pacient</Patient.gerundLabel>
-  <Patient.verb>Léčí se</Patient.verb>
-
-  <Doctor.label>Doktor</Doctor.label>
-  <Doctor.description>Ošetřuje nemocné, přináší jim jídlo, povzbuzuje je, a provádí naplánované operace. Doktoři pečují o kolonisty a vězně.</Doctor.description>
-  <Doctor.labelShort>Doktor</Doctor.labelShort>
-  <Doctor.pawnLabel>Doktor</Doctor.pawnLabel>
-  <Doctor.gerundLabel>Doktor</Doctor.gerundLabel>
-  <Doctor.verb>Ošetřuje</Doctor.verb>
-
-  <PatientBedRest.label>Zotavení</PatientBedRest.label>
-  <PatientBedRest.description>Zotavuje se v posteli do úplného uzdravení, přičemž jeho zdravotní problémy nejsou život ohrožující.</PatientBedRest.description>
-  <PatientBedRest.labelShort>Zotavení</PatientBedRest.labelShort>
-  <PatientBedRest.pawnLabel>Zotavení</PatientBedRest.pawnLabel>
-  <PatientBedRest.gerundLabel>Zotavení</PatientBedRest.gerundLabel>
-  <PatientBedRest.verb>Zotavuje se</PatientBedRest.verb>
-
+  
+  <Art.label>Umělec</Art.label>
+  <!-- EN: Create beautiful works of art from raw materials. -->
+  <Art.description>Vytváří překrásná díla z různých materiálů.</Art.description>
+  <!-- EN: art -->
+  <Art.gerundLabel>Umělec</Art.gerundLabel>
+  <!-- EN: Art -->
+  <Art.labelShort>Umělec</Art.labelShort>
+  <!-- EN: Artist -->
+  <Art.pawnLabel>Umělec</Art.pawnLabel>
+  <!-- EN: Do art at -->
+  <Art.verb>Tvoří</Art.verb>
+  
   <BasicWorker.label>Nádeník</BasicWorker.label>
+  <!-- EN: Unskilled and easy tasks. Release prisoners and flick switches on machines. -->
   <BasicWorker.description>Snadné úkoly pro méně kvalifikované. Propouští vězně a přepíná spínače na strojích.</BasicWorker.description>
-  <BasicWorker.labelShort>Nádeník</BasicWorker.labelShort>
-  <BasicWorker.pawnLabel>Nádeník</BasicWorker.pawnLabel>
+  <!-- EN: dealing with -->
   <BasicWorker.gerundLabel>Nádeník</BasicWorker.gerundLabel>
+  <!-- EN: Basic -->
+  <BasicWorker.labelShort>Nádeník</BasicWorker.labelShort>
+  <!-- EN: Worker -->
+  <BasicWorker.pawnLabel>Nádeník</BasicWorker.pawnLabel>
+  <!-- EN: Deal with -->
   <BasicWorker.verb>Vyřizuje</BasicWorker.verb>
   
-  <Warden.label>Dozorce</Warden.label>
-  <Warden.description>Stará se o vězně, přičemž je krmí, komunikuje s nimi, a pokouší se je naverbovat.</Warden.description>
-  <Warden.labelShort>Dozorce</Warden.labelShort>
-  <Warden.pawnLabel>Dozorce</Warden.pawnLabel>
-  <Warden.gerundLabel>Dozorce</Warden.gerundLabel>
-  <Warden.verb>Dohlíží</Warden.verb>
-
-  <Handling.label>Trenér</Handling.label>
-  <Handling.description>Ochočuje, trénuje, získává zvířecí produkty a jatečně poráží zvířata.</Handling.description>
-  <Handling.labelShort>Trenér</Handling.labelShort>
-  <Handling.pawnLabel>Trenér</Handling.pawnLabel>
-  <Handling.gerundLabel>Trenér</Handling.gerundLabel>
-  <Handling.verb>Trénuje</Handling.verb>
-
-  <Cooking.label>Kuchař</Cooking.label>
-  <Cooking.description>Připravuje pokrmy a provádí činnosti řezníka.</Cooking.description>
-  <Cooking.labelShort>Kuchař</Cooking.labelShort>
-  <Cooking.pawnLabel>Kuchař</Cooking.pawnLabel>
-  <Cooking.gerundLabel>Kuchař</Cooking.gerundLabel>
-  <Cooking.verb>Vaří</Cooking.verb>
-
-  <Hunting.label>Lovec</Hunting.label>
-  <Hunting.description>Zabíjí zvířata, která jsou určena k lovu.</Hunting.description>
-  <Hunting.labelShort>Lovec</Hunting.labelShort>
-  <Hunting.pawnLabel>Lovec</Hunting.pawnLabel>
-  <Hunting.gerundLabel>Lovec</Hunting.gerundLabel>
-  <Hunting.verb>Loví</Hunting.verb>
-
-  <Construction.label>Stavitel</Construction.label>
-  <Construction.description>Staví naplánované objekty a opravuje poškozené věci.</Construction.description>
-  <Construction.labelShort>Stavitel</Construction.labelShort>
-  <Construction.pawnLabel>Stavitel</Construction.pawnLabel>
-  <Construction.gerundLabel>Stavitel</Construction.gerundLabel>
-  <Construction.verb>Staví</Construction.verb>
-
-  <Growing.label>Farmář</Growing.label>
-  <Growing.description>Sází semínka, sklízí úrodu a vyhledává na výpravách planné rostliny s jedlými plody.</Growing.description>
-  <Growing.labelShort>Farmář</Growing.labelShort>
-  <Growing.pawnLabel>Farmář</Growing.pawnLabel>
-  <Growing.gerundLabel>Farmář</Growing.gerundLabel>
-  <Growing.verb>Farmaří</Growing.verb>
-
-  <Mining.label>Horník</Mining.label>
-  <Mining.description>Provádí výkopové práce, včetně hlubinného vrtání.</Mining.description>
-  <Mining.labelShort>Horník</Mining.labelShort>
-  <Mining.pawnLabel>Horník</Mining.pawnLabel>
-  <Mining.gerundLabel>Horník</Mining.gerundLabel>
-  <Mining.verb>Těží</Mining.verb>
-
-  <PlantCutting.label>Lesník</PlantCutting.label>
-  <PlantCutting.description>Kácí nebo seká naplánované rostliny.</PlantCutting.description>
-  <PlantCutting.labelShort>Lesník</PlantCutting.labelShort>
-  <PlantCutting.pawnLabel>Lesník</PlantCutting.pawnLabel>
-  <PlantCutting.gerundLabel>Lesník</PlantCutting.gerundLabel>
-  <PlantCutting.verb>Kácí</PlantCutting.verb>
-
-  <Smithing.label>Kovář</Smithing.label>
-  <Smithing.description>Vyrábí zbraně a nářadí ze surovin, a to buď jako kovář nebo obráběním.</Smithing.description>
-  <Smithing.labelShort>Kovář</Smithing.labelShort>
-  <Smithing.pawnLabel>Kovář</Smithing.pawnLabel>
-  <Smithing.gerundLabel>Kovář</Smithing.gerundLabel>
-  <Smithing.verb>Kove</Smithing.verb>
-
-  <Tailoring.label>Krejčí</Tailoring.label>
-  <Tailoring.description>Šije oblečení z různých materiálů.</Tailoring.description>
-  <Tailoring.labelShort>Krejčí</Tailoring.labelShort>
-  <Tailoring.pawnLabel>Krejčí</Tailoring.pawnLabel>
-  <Tailoring.gerundLabel>Krejčí</Tailoring.gerundLabel>
-  <Tailoring.verb>Šije</Tailoring.verb>
-
-  <Art.label>Umělec</Art.label>
-  <Art.description>Vytváří překrásná díla z různých materiálů.</Art.description>
-  <Art.labelShort>Umělec</Art.labelShort>
-  <Art.pawnLabel>Umělec</Art.pawnLabel>
-  <Art.gerundLabel>Umělec</Art.gerundLabel>
-  <Art.verb>Tvoří</Art.verb>
-
-  <Crafting.label>Řemeslník</Crafting.label>
-  <Crafting.description>Provádí nenáročné práce na pracovních stolech. To zahrnuje opracovávání kamene, tavení kovů, atd.</Crafting.description>
-  <Crafting.labelShort>Řemeslník</Crafting.labelShort>
-  <Crafting.pawnLabel>Řemeslník</Crafting.pawnLabel>
-  <Crafting.gerundLabel>Řemeslník</Crafting.gerundLabel>
-  <Crafting.verb>Vyrábí</Crafting.verb>
-
-  <Hauling.label>Nosič</Hauling.label>
-  <Hauling.description>Přenáší věci tam, kam je zrovna potřeba.</Hauling.description>
-  <Hauling.labelShort>Nosič</Hauling.labelShort>
-  <Hauling.pawnLabel>Nosič</Hauling.pawnLabel>
-  <Hauling.gerundLabel>Nosič</Hauling.gerundLabel>
-  <Hauling.verb>Přenáší</Hauling.verb>
-
   <Cleaning.label>Uklízeč</Cleaning.label>
+  <!-- EN: Clear snow and clean the floor in the home area. -->
   <Cleaning.description>Uklízí sníh a čistí podlahy ve své domovské oblasti.</Cleaning.description>
-  <Cleaning.labelShort>Uklízeč</Cleaning.labelShort>
-  <Cleaning.pawnLabel>Uklízeč</Cleaning.pawnLabel>
+  <!-- EN: cleaning -->
   <Cleaning.gerundLabel>Uklízeč</Cleaning.gerundLabel>
+  <!-- EN: Clean -->
+  <Cleaning.labelShort>Uklízeč</Cleaning.labelShort>
+  <!-- EN: Cleaner -->
+  <Cleaning.pawnLabel>Uklízeč</Cleaning.pawnLabel>
+  <!-- EN: Clean -->
   <Cleaning.verb>Uklízí</Cleaning.verb>
-
+  
+  <Construction.label>Stavitel</Construction.label>
+  <!-- EN: Build things that you've designated, and fix damaged or broken-down buildings. -->
+  <Construction.description>Staví naplánované objekty a opravuje poškozené věci.</Construction.description>
+  <!-- EN: constructing -->
+  <Construction.gerundLabel>Stavitel</Construction.gerundLabel>
+  <!-- EN: Construct -->
+  <Construction.labelShort>Stavitel</Construction.labelShort>
+  <!-- EN: Constructor -->
+  <Construction.pawnLabel>Stavitel</Construction.pawnLabel>
+  <!-- EN: Construct -->
+  <Construction.verb>Staví</Construction.verb>
+  
+  <Cooking.label>Kuchař</Cooking.label>
+  <!-- EN: Prepare meals and butcher meat. -->
+  <Cooking.description>Připravuje pokrmy a provádí činnosti řezníka.</Cooking.description>
+  <!-- EN: cooking -->
+  <Cooking.gerundLabel>Kuchař</Cooking.gerundLabel>
+  <!-- EN: Cook -->
+  <Cooking.labelShort>Kuchař</Cooking.labelShort>
+  <!-- EN: Cook -->
+  <Cooking.pawnLabel>Kuchař</Cooking.pawnLabel>
+  <!-- EN: Cook -->
+  <Cooking.verb>Vaří</Cooking.verb>
+  
+  <Crafting.label>Řemeslník</Crafting.label>
+  <!-- EN: Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more. -->
+  <Crafting.description>Provádí nenáročné práce na pracovních stolech. To zahrnuje opracovávání kamene, tavení kovů, atd.</Crafting.description>
+  <!-- EN: crafting -->
+  <Crafting.gerundLabel>Řemeslník</Crafting.gerundLabel>
+  <!-- EN: Craft -->
+  <Crafting.labelShort>Řemeslník</Crafting.labelShort>
+  <!-- EN: Crafter -->
+  <Crafting.pawnLabel>Řemeslník</Crafting.pawnLabel>
+  <!-- EN: Craft at -->
+  <Crafting.verb>Vyrábí</Crafting.verb>
+  
+  <Doctor.label>Doktor</Doctor.label>
+  <!-- EN: Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners. -->
+  <Doctor.description>Ošetřuje nemocné, přináší jim jídlo, povzbuzuje je, a provádí naplánované operace. Doktoři pečují o kolonisty a vězně.</Doctor.description>
+  <!-- EN: doctoring -->
+  <Doctor.gerundLabel>Doktor</Doctor.gerundLabel>
+  <!-- EN: Doctor -->
+  <Doctor.labelShort>Doktor</Doctor.labelShort>
+  <!-- EN: Doctor -->
+  <Doctor.pawnLabel>Doktor</Doctor.pawnLabel>
+  <!-- EN: Care for -->
+  <Doctor.verb>Ošetřuje</Doctor.verb>
+  
+  <Firefighter.label>Hasič</Firefighter.label>
+  <!-- EN: Extinguish fires in the colony. -->
+  <Firefighter.description>Hasí požáry v kolonii.</Firefighter.description>
+  <!-- EN: firefighting -->
+  <Firefighter.gerundLabel>Hasič</Firefighter.gerundLabel>
+  <!-- EN: Firefight -->
+  <Firefighter.labelShort>Hasič</Firefighter.labelShort>
+  <!-- EN: Firefighter -->
+  <Firefighter.pawnLabel>Hasič</Firefighter.pawnLabel>
+  <!-- EN: Extinguish -->
+  <Firefighter.verb>Hasí</Firefighter.verb>
+  
+  <Growing.label>Farmář</Growing.label>
+  <!-- EN: Plant seeds, harvest crops, and forage for wild plants. -->
+  <Growing.description>Sází semínka, sklízí úrodu a vyhledává na výpravách planné rostliny s jedlými plody.</Growing.description>
+  <!-- EN: growing -->
+  <Growing.gerundLabel>Farmář</Growing.gerundLabel>
+  <!-- EN: Grow -->
+  <Growing.labelShort>Farmář</Growing.labelShort>
+  <!-- EN: Grower -->
+  <Growing.pawnLabel>Farmář</Growing.pawnLabel>
+  <!-- EN: Grow -->
+  <Growing.verb>Farmaří</Growing.verb>
+  
+  <Handling.label>Trenér</Handling.label>
+  <!-- EN: Tame, train, harvest resources from and slaughter animals. -->
+  <Handling.description>Ochočuje, trénuje, získává zvířecí produkty a jatečně poráží zvířata.</Handling.description>
+  <!-- EN: handling -->
+  <Handling.gerundLabel>Trenér</Handling.gerundLabel>
+  <!-- EN: Handle -->
+  <Handling.labelShort>Trenér</Handling.labelShort>
+  <!-- EN: Handler -->
+  <Handling.pawnLabel>Trenér</Handling.pawnLabel>
+  <!-- EN: Handle -->
+  <Handling.verb>Trénuje</Handling.verb>
+  
+  <Hauling.label>Nosič</Hauling.label>
+  <!-- EN: Carry things to where they need to be. -->
+  <Hauling.description>Přenáší věci tam, kam je zrovna potřeba.</Hauling.description>
+  <!-- EN: hauling -->
+  <Hauling.gerundLabel>Nosič</Hauling.gerundLabel>
+  <!-- EN: Haul -->
+  <Hauling.labelShort>Nosič</Hauling.labelShort>
+  <!-- EN: Hauler -->
+  <Hauling.pawnLabel>Nosič</Hauling.pawnLabel>
+  <!-- EN: Haul -->
+  <Hauling.verb>Přenáší</Hauling.verb>
+  
+  <Hunting.label>Lovec</Hunting.label>
+  <!-- EN: Kill animals which are designated to be hunted. -->
+  <Hunting.description>Zabíjí zvířata, která jsou určena k lovu.</Hunting.description>
+  <!-- EN: hunting -->
+  <Hunting.gerundLabel>Lovec</Hunting.gerundLabel>
+  <!-- EN: Hunt -->
+  <Hunting.labelShort>Lovec</Hunting.labelShort>
+  <!-- EN: Hunter -->
+  <Hunting.pawnLabel>Lovec</Hunting.pawnLabel>
+  <!-- EN: Hunt -->
+  <Hunting.verb>Loví</Hunting.verb>
+  
+  <Mining.label>Horník</Mining.label>
+  <!-- EN: Digging and drilling. -->
+  <Mining.description>Provádí výkopové práce, včetně hlubinného vrtání.</Mining.description>
+  <!-- EN: mining -->
+  <Mining.gerundLabel>Horník</Mining.gerundLabel>
+  <!-- EN: Mine -->
+  <Mining.labelShort>Horník</Mining.labelShort>
+  <!-- EN: Miner -->
+  <Mining.pawnLabel>Horník</Mining.pawnLabel>
+  <!-- EN: Mine -->
+  <Mining.verb>Těží</Mining.verb>
+  
+  <Patient.label>Pacient</Patient.label>
+  <!-- EN: Go to a medical bed for treatment if you have an immediately life-threatening health condition. -->
+  <Patient.description>Chodí pro ošetření do postele, pokud je jeho zdravotní stav bezprostředně život ohrožující.</Patient.description>
+  <!-- EN: patienting -->
+  <Patient.gerundLabel>Pacient</Patient.gerundLabel>
+  <!-- EN: Patient -->
+  <Patient.labelShort>Pacient</Patient.labelShort>
+  <!-- EN: Patient -->
+  <Patient.pawnLabel>Pacient</Patient.pawnLabel>
+  <!-- EN: Become patient -->
+  <Patient.verb>Léčí se</Patient.verb>
+  
+  <PatientBedRest.label>Zotavení</PatientBedRest.label>
+  <!-- EN: Rest in bed to recuperate from not-immediately-life-threatening medical problems. -->
+  <PatientBedRest.description>Zotavuje se v posteli do úplného uzdravení, přičemž jeho zdravotní problémy nejsou život ohrožující.</PatientBedRest.description>
+  <!-- EN: resting in bed -->
+  <PatientBedRest.gerundLabel>Zotavení</PatientBedRest.gerundLabel>
+  <!-- EN: Bed rest -->
+  <PatientBedRest.labelShort>Zotavení</PatientBedRest.labelShort>
+  <!-- EN: Bed rester -->
+  <PatientBedRest.pawnLabel>Zotavení</PatientBedRest.pawnLabel>
+  <!-- EN: Become patient -->
+  <PatientBedRest.verb>Zotavuje se</PatientBedRest.verb>
+  
+  <PlantCutting.label>Lesník</PlantCutting.label>
+  <!-- EN: Cut or harvest plants as designated. -->
+  <PlantCutting.description>Kácí nebo seká naplánované rostliny.</PlantCutting.description>
+  <!-- EN: plant cutting -->
+  <PlantCutting.gerundLabel>Lesník</PlantCutting.gerundLabel>
+  <!-- EN: Plant cut -->
+  <PlantCutting.labelShort>Lesník</PlantCutting.labelShort>
+  <!-- EN: Plant cutter -->
+  <PlantCutting.pawnLabel>Lesník</PlantCutting.pawnLabel>
+  <!-- EN: Cut -->
+  <PlantCutting.verb>Kácí</PlantCutting.verb>
+  
   <Research.label>Výzkumník</Research.label>
+  <!-- EN: Perform research work. -->
   <Research.description>Provádí výzkumné práce.</Research.description>
-  <Research.labelShort>Výzkumník</Research.labelShort>
-  <Research.pawnLabel>Výzkumník</Research.pawnLabel>
+  <!-- EN: researching -->
   <Research.gerundLabel>Výzkumník</Research.gerundLabel>
+  <!-- EN: Research -->
+  <Research.labelShort>Výzkumník</Research.labelShort>
+  <!-- EN: Researcher -->
+  <Research.pawnLabel>Výzkumník</Research.pawnLabel>
+  <!-- EN: Research at -->
   <Research.verb>Zkoumá</Research.verb>
-
-
+  
+  <Smithing.label>Kovář</Smithing.label>
+  <!-- EN: Create weapons and tools from raw materials, either as a blacksmith or by machining. -->
+  <Smithing.description>Vyrábí zbraně a nářadí ze surovin, a to buď jako kovář nebo obráběním.</Smithing.description>
+  <!-- EN: smithing -->
+  <Smithing.gerundLabel>Kovář</Smithing.gerundLabel>
+  <!-- EN: Smith -->
+  <Smithing.labelShort>Kovář</Smithing.labelShort>
+  <!-- EN: Smith -->
+  <Smithing.pawnLabel>Kovář</Smithing.pawnLabel>
+  <!-- EN: Smith at -->
+  <Smithing.verb>Kove</Smithing.verb>
+  
+  <Tailoring.label>Krejčí</Tailoring.label>
+  <!-- EN: Create apparel from raw materials. -->
+  <Tailoring.description>Šije oblečení z různých materiálů.</Tailoring.description>
+  <!-- EN: tailoring -->
+  <Tailoring.gerundLabel>Krejčí</Tailoring.gerundLabel>
+  <!-- EN: Tailor -->
+  <Tailoring.labelShort>Krejčí</Tailoring.labelShort>
+  <!-- EN: Tailor -->
+  <Tailoring.pawnLabel>Krejčí</Tailoring.pawnLabel>
+  <!-- EN: Tailor at -->
+  <Tailoring.verb>Šije</Tailoring.verb>
+  
+  <Warden.label>Dozorce</Warden.label>
+  <!-- EN: Manage, feed, chat with, and recruit prisoners. -->
+  <Warden.description>Stará se o vězně, přičemž je krmí, komunikuje s nimi, a pokouší se je naverbovat.</Warden.description>
+  <!-- EN: wardening -->
+  <Warden.gerundLabel>Dozorce</Warden.gerundLabel>
+  <!-- EN: Warden -->
+  <Warden.labelShort>Dozorce</Warden.labelShort>
+  <!-- EN: Warden -->
+  <Warden.pawnLabel>Dozorce</Warden.pawnLabel>
+  <!-- EN: Handle -->
+  <Warden.verb>Dohlíží</Warden.verb>
+  
 </LanguageData>

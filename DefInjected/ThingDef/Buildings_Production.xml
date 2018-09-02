@@ -1,180 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <CraftingSpot.label>pracovní místo</CraftingSpot.label>
-  <CraftingSpot.description>Místo, na kterém je možné vyrobit jednoduché věci, jako jsou nože nebo luky. Kvůli nedostatku nástrojů je produkce poměrně pomalá.</CraftingSpot.description>
-  <Blueprint_CraftingSpot.label>pracovní místo (plán)</Blueprint_CraftingSpot.label>
-  <Frame_CraftingSpot.label>pracovní místo (ve výstavbě)</Frame_CraftingSpot.label>
-  <Frame_CraftingSpot.description>Místo, na kterém je možné vyrobit jednoduché věci, jako jsou nože nebo luky. Kvůli nedostatku nástrojů je produkce poměrně pomalá.</Frame_CraftingSpot.description>
-
-  <ButcherSpot.label>porcovací místo</ButcherSpot.label>
-  <ButcherSpot.description>Místo na zpracování tvorů. Kvůli nedostatku vybavení je výtěžek pouze 70% masa a kůže z každého zpracovaného stvoření.</ButcherSpot.description>
-  <Blueprint_ButcherSpot.label>porcovací místo (plán)</Blueprint_ButcherSpot.label>
-  <Frame_ButcherSpot.label>porcovací místo (ve výstavbě)</Frame_ButcherSpot.label>
-  <Frame_ButcherSpot.description>Místo na zpracování tvorů. Kvůli nedostatku vybavení je výtěžek pouze 70% masa a kůže z každého zpracovaného stvoření.</Frame_ButcherSpot.description>
-
-
-  <!-- Work tables -->
-
-  <TableSculpting.label>sochařský stůl</TableSculpting.label>
-  <TableSculpting.description>Pracovní stůl s vybavením určeným pro umělecké sochařství.</TableSculpting.description>
-  <Blueprint_TableSculpting.label>sochařský stůl (plán)</Blueprint_TableSculpting.label>
-  <Blueprint_Install_TableSculpting.label>sochařský stůl (plán)</Blueprint_Install_TableSculpting.label>
-  <Frame_TableSculpting.label>sochařský stůl (ve výstavbě)</Frame_TableSculpting.label>
-  <Frame_TableSculpting.description>Pracovní stůl s vybavením určeným pro umělecké sochařství.</Frame_TableSculpting.description>
-
-  <TableButcher.label>řeznický stůl</TableButcher.label>
-  <TableButcher.description>Pevný stůl, na kterém se porcují mrtví tvorové na kusy syrového masa.</TableButcher.description>
-  <Blueprint_TableButcher.label>řeznický stůl (plán)</Blueprint_TableButcher.label>
-  <Blueprint_Install_TableButcher.label>řeznický stůl (plán)</Blueprint_Install_TableButcher.label>
-  <Frame_TableButcher.label>řeznický stůl (ve výstavbě)</Frame_TableButcher.label>
-  <Frame_TableButcher.description>Pevný stůl, na kterém se porcují mrtví tvorové na kusy syrového masa.</Frame_TableButcher.description>
-
-  <HandTailoringBench.label>ruční krejčovský stůl</HandTailoringBench.label>
-  <HandTailoringBench.description>Pracovní stůl určený pro ruční šití oděvů. Funguje pouze na 50% rychlosti oproti elektrickému krejčovskému stolu.</HandTailoringBench.description>
-  <Blueprint_HandTailoringBench.label>ruční krejčovský stůl (plán)</Blueprint_HandTailoringBench.label>
-  <Blueprint_Install_HandTailoringBench.label>ruční krejčovský stůl (plán)</Blueprint_Install_HandTailoringBench.label>
-  <Frame_HandTailoringBench.label>ruční krejčovský stůl (ve výstavbě)</Frame_HandTailoringBench.label>
-  <Frame_HandTailoringBench.description>Pracovní stůl určený pro ruční šití oděvů. Funguje pouze na 50% rychlosti oproti elektrickému krejčovskému stolu.</Frame_HandTailoringBench.description>
-
-  <ElectricTailoringBench.label>elektrický krejčovský stůl</ElectricTailoringBench.label>
-  <ElectricTailoringBench.description>Pracovní stůl vybavený šicím strojem pro rychlé šití oděvů. Může fungovat bez elektrické energie, ale pouze při 50% běžné rychlosti.</ElectricTailoringBench.description>
-  <Blueprint_ElectricTailoringBench.label>elektrický krejčovský stůl (plán)</Blueprint_ElectricTailoringBench.label>
-  <Blueprint_Install_ElectricTailoringBench.label>elektrický krejčovský stůl (plán)</Blueprint_Install_ElectricTailoringBench.label>
-  <Frame_ElectricTailoringBench.label>elektrický krejčovský stůl (ve výstavbě)</Frame_ElectricTailoringBench.label>
-  <Frame_ElectricTailoringBench.description>Pracovní stůl vybavený šicím strojem pro rychlé šití oděvů. Může fungovat bez elektrické energie, ale pouze při 50% běžné rychlosti.</Frame_ElectricTailoringBench.description>
-
-  <FueledSmithy.label>kovárna na tuhá paliva</FueledSmithy.label>
-  <FueledSmithy.description>Dřevem poháněná stanice určená pro kování nástrojů a zbraní bez mechanických částí.</FueledSmithy.description>
-  <Blueprint_FueledSmithy.label>kovárna na tuhá paliva (plán)</Blueprint_FueledSmithy.label>
-  <Blueprint_Install_FueledSmithy.label>kovárna na tuhá paliva (plán)</Blueprint_Install_FueledSmithy.label>
-  <Frame_FueledSmithy.label>kovárna na tuhá paliva (ve výstavbě)</Frame_FueledSmithy.label>
-  <Frame_FueledSmithy.description>Dřevem poháněná stanice určená pro kování nástrojů a zbraní bez mechanických částí.</Frame_FueledSmithy.description>
-
-  <ElectricSmithy.label>kovárna na elektřinu</ElectricSmithy.label>
-  <ElectricSmithy.description>Elektřinou poháněná stanice určená pro kování nástrojů a zbraní bez mechanických částí.</ElectricSmithy.description>
-  <Blueprint_ElectricSmithy.label>kovárna na elektřinu (plán)</Blueprint_ElectricSmithy.label>
-  <Blueprint_Install_ElectricSmithy.label>kovárna na elektřinu (plán)</Blueprint_Install_ElectricSmithy.label>
-  <Frame_ElectricSmithy.label>kovárna na elektřinu (ve výstavbě)</Frame_ElectricSmithy.label>
-  <Frame_ElectricSmithy.description>Elektřinou poháněná stanice určená pro kování nástrojů a zbraní bez mechanických částí.</Frame_ElectricSmithy.description>
-
-  <TableMachining.label>obráběcí stůl</TableMachining.label>
-  <TableMachining.description>Pracovní stanice určená pro sestavování mechanismů, jako jsou zbraně a munice, nebo rozebírání mrtvých mechanoidů.</TableMachining.description>
-  <Blueprint_TableMachining.label>obráběcí stůl (plán)</Blueprint_TableMachining.label>
-  <Blueprint_Install_TableMachining.label>obráběcí stůl (plán)</Blueprint_Install_TableMachining.label>
-  <Frame_TableMachining.label>obráběcí stůl (ve výstavbě)</Frame_TableMachining.label>
-  <Frame_TableMachining.description>Pracovní stanice určená pro sestavování mechanismů, jako jsou zbraně a munice, nebo rozebírání mrtvých mechanoidů.</Frame_TableMachining.description>
-
-  <ElectricStove.label>sporák na elektřinu</ElectricStove.label>
-  <ElectricStove.description>Elektrický sporák s připojenou pracovní deskou pro přípravu pokrmů.</ElectricStove.description>
-  <Blueprint_ElectricStove.label>sporák na elektřinu (plán)</Blueprint_ElectricStove.label>
-  <Blueprint_Install_ElectricStove.label>sporák na elektřinu (plán)</Blueprint_Install_ElectricStove.label>
-  <Frame_ElectricStove.label>sporák na elektřinu (ve výstavbě)</Frame_ElectricStove.label>
-  <Frame_ElectricStove.description>Elektrický sporák s připojenou pracovní deskou pro přípravu pokrmů.</Frame_ElectricStove.description>
-
-  <FueledStove.label>sporák na tuhá paliva</FueledStove.label>
-  <FueledStove.description>Dřevem poháněný sporák s připojenou pracovní deskou pro přípravu pokrmů.</FueledStove.description>
-  <Blueprint_FueledStove.label>sporák na tuhá paliva (plán)</Blueprint_FueledStove.label>
-  <Blueprint_Install_FueledStove.label>sporák na tuhá paliva (plán)</Blueprint_Install_FueledStove.label>
-  <Frame_FueledStove.label>sporák na tuhá paliva (ve výstavbě)</Frame_FueledStove.label>
-  <Frame_FueledStove.description>Dřevem poháněný sporák s připojenou pracovní deskou pro přípravu pokrmů.</Frame_FueledStove.description>
-
-  <TableStonecutter.label>stůl kameníka</TableStonecutter.label>
-  <TableStonecutter.description>Pracovní stůl vybavený pilami a dláty určený pro opracovávání kusů kamene na použitelné kamenné bloky.</TableStonecutter.description>
-  <Blueprint_TableStonecutter.label>stůl kameníka (plán)</Blueprint_TableStonecutter.label>
-  <Blueprint_Install_TableStonecutter.label>stůl kameníka (plán)</Blueprint_Install_TableStonecutter.label>
-  <Frame_TableStonecutter.label>stůl kameníka (ve výstavbě)</Frame_TableStonecutter.label>
-  <Frame_TableStonecutter.description>Pracovní stůl vybavený pilami a dláty určený pro opracovávání kusů kamene na použitelné kamenné bloky.</Frame_TableStonecutter.description>
-
-  <Brewery.label>pivovar</Brewery.label>
-  <Brewery.description>Pracovní stanice s veškerým vybavením potřebným k míchání mladiny pro výrobu piva. Mladina se musí nechat zkvasit, aby se nakonec stala pivem.</Brewery.description>
-  <Blueprint_Brewery.label>pivovar (plán)</Blueprint_Brewery.label>
-  <Blueprint_Install_Brewery.label>pivovar (plán)</Blueprint_Install_Brewery.label>
-  <Frame_Brewery.label>pivovar (ve výstavbě)</Frame_Brewery.label>
-  <Frame_Brewery.description>Pracovní stanice s veškerým vybavením potřebným k míchání mladiny pro výrobu piva. Mladina se musí nechat zkvasit, aby se nakonec stala pivem.</Frame_Brewery.description>
-
-  <DrugLab.label>zdravotnická laboratoř</DrugLab.label>
-  <DrugLab.description>Pracovní stůl vybavený různými nádobami, ohřívači a měřícím zařízením určeným pro výrobu různých léčiv a drog.</DrugLab.description>
-  <Blueprint_DrugLab.label>zdravotnická laboratoř (plán)</Blueprint_DrugLab.label>
-  <Blueprint_Install_DrugLab.label>zdravotnická laboratoř (plán)</Blueprint_Install_DrugLab.label>
-  <Frame_DrugLab.label>zdravotnická laboratoř (ve výstavbě)</Frame_DrugLab.label>
-  <Frame_DrugLab.description>Pracovní stůl vybavený různými nádobami, ohřívači a měřícím zařízením určeným pro výrobu různých léčiv a drog.</Frame_DrugLab.description>
-
-  <ElectricSmelter.label>tavicí pec na elektřinu</ElectricSmelter.label>
-  <ElectricSmelter.description>Z ocelových kusů šrotu a různých jiných kovových předmětů extrahuje kov. Spotřebovává značné množství elektrické energie.</ElectricSmelter.description>
-  <Blueprint_ElectricSmelter.label>tavicí pec na elektřinu (plán)</Blueprint_ElectricSmelter.label>
-  <Blueprint_Install_ElectricSmelter.label>tavicí pec na elektřinu (plán)</Blueprint_Install_ElectricSmelter.label>
-  <Frame_ElectricSmelter.label>tavicí pec na elektřinu (ve výstavbě)</Frame_ElectricSmelter.label>
-  <Frame_ElectricSmelter.description>Z ocelových kusů šrotu a různých jiných kovových předmětů extrahuje kov. Spotřebovává značné množství elektrické energie.</Frame_ElectricSmelter.description>
-
+  
+  <!-- EN: biofuel refinery -->
   <BiofuelRefinery.label>rafinérie na výrobu biopaliv</BiofuelRefinery.label>
+  <!-- EN: Refines biological matter like wood or plant matter into chemfuel. -->
   <BiofuelRefinery.description>Rafinuje biologickou hmotu, jako je dřevo nebo rostlinná hmota na chemické palivo.</BiofuelRefinery.description>
-  <Blueprint_BiofuelRefinery.label>rafinérie na výrobu biopaliv (plán)</Blueprint_BiofuelRefinery.label>
-  <Frame_BiofuelRefinery.label>rafinérie na výrobu biopaliv (ve výstavbě)</Frame_BiofuelRefinery.label>
-  <Frame_BiofuelRefinery.description>Rafinuje biologickou hmotu, jako je dřevo nebo rostlinná hmota na chemické palivo.</Frame_BiofuelRefinery.description>
-
-  <FabricationBench.label>montážní stroj</FabricationBench.label>
-  <FabricationBench.description>Poloautomatický montážní stroj vybavený pokročilými nástroji určených pro sestavování technologických zázraků z jednodušších materiálů.</FabricationBench.description>
-  <Blueprint_FabricationBench.label>montážní stroj (plán)</Blueprint_FabricationBench.label>
-  <Frame_FabricationBench.label>montážní stroj (ve výstavbě)</Frame_FabricationBench.label>
-  <Frame_FabricationBench.description>Poloautomatický montážní stroj vybavený pokročilými nástroji určených pro sestavování technologických zázraků z jednodušších materiálů.</Frame_FabricationBench.description>
-
-
-  <!-- Non-standard work buildings -->
-
-  <SimpleResearchBench.label>jednoduché výzkumné stanoviště</SimpleResearchBench.label>
-  <SimpleResearchBench.description>Jednoduché pracovní stanoviště s psacími potřebami a jednoduchými měřicími přístroji. Tady pracují výzkumníci na objevování nových věcí.</SimpleResearchBench.description>
-  <Blueprint_SimpleResearchBench.label>jednoduché výzkumné stanoviště (plán)</Blueprint_SimpleResearchBench.label>
-  <Blueprint_Install_SimpleResearchBench.label>jednoduché výzkumné stanoviště (plán)</Blueprint_Install_SimpleResearchBench.label>
-  <Frame_SimpleResearchBench.label>jednoduché výzkumné stanoviště (ve výstavbě)</Frame_SimpleResearchBench.label>
-  <Frame_SimpleResearchBench.description>Jednoduché pracovní stanoviště s psacími potřebami a jednoduchými měřicími přístroji. Tady pracují výzkumníci na objevování nových věcí.</Frame_SimpleResearchBench.description>
-
-  <HiTechResearchBench.label>špičkové výzkumné stanoviště</HiTechResearchBench.label>
-  <HiTechResearchBench.description>Špičkově vybavené stanoviště s počítači a elektronickým měřícím zařízením. Umožňuje rychlejší výzkum a odhalí pokročilé výzkumné projekty.</HiTechResearchBench.description>
-  <Blueprint_HiTechResearchBench.label>špičkové výzkumné stanoviště (plán)</Blueprint_HiTechResearchBench.label>
-  <Frame_HiTechResearchBench.label>špičkové výzkumné stanoviště (ve výstavbě)</Frame_HiTechResearchBench.label>
-  <Frame_HiTechResearchBench.description>Špičkově vybavené stanoviště s počítači a elektronickým měřícím zařízením. Umožňuje rychlejší výzkum a odhalí pokročilé výzkumné projekty.</Frame_HiTechResearchBench.description>
-
-  <ElectricCrematorium.label>elektrické krematorium</ElectricCrematorium.label>
-  <ElectricCrematorium.description>Obrovské kamenné krematorium, ve kterém je možné spálit mrtvoly za pomoci extrémně vysokých teplot.</ElectricCrematorium.description>
-  <Blueprint_ElectricCrematorium.label>elektrické krematorium (plán)</Blueprint_ElectricCrematorium.label>
-  <Frame_ElectricCrematorium.label>elektrické krematorium (ve výstavbě)</Frame_ElectricCrematorium.label>
-  <Frame_ElectricCrematorium.description>Obrovské kamenné krematorium, ve kterém je možné spálit mrtvoly za pomoci extrémně vysokých teplot.</Frame_ElectricCrematorium.description>
-
-  <HydroponicsBasin.label>hydroponická nádrž</HydroponicsBasin.label>
-  <HydroponicsBasin.description>Umělá výživná lázeň určená pro pěstování rostlin. Čerpadla, která zásobují rostliny živinami, musí fungovat nepřetržitě; rostliny uhynou, pokud je odříznuta od elektrické energie.</HydroponicsBasin.description>
-  <Blueprint_HydroponicsBasin.label>hydroponická nádrž (plán)</Blueprint_HydroponicsBasin.label>
-  <Frame_HydroponicsBasin.label>hydroponická nádrž (ve výstavbě)</Frame_HydroponicsBasin.label>
-  <Frame_HydroponicsBasin.description>Umělá výživná lázeň určená pro pěstování rostlin. Čerpadla, která zásobují rostliny živinami, musí fungovat nepřetržitě; rostliny uhynou, pokud je odříznuta od elektrické energie.</Frame_HydroponicsBasin.description>
-
-  <FermentingBarrel.label>kvasný sud</FermentingBarrel.label>
-  <FermentingBarrel.description>Sud určený ke kvašení surové mladiny, ze které poté vznikne pivo.</FermentingBarrel.description>
-  <Blueprint_FermentingBarrel.label>kvasný sud (plán)</Blueprint_FermentingBarrel.label>
-  <Blueprint_Install_FermentingBarrel.label>kvasný sud (plán)</Blueprint_Install_FermentingBarrel.label>
-  <Frame_FermentingBarrel.label>kvasný sud (ve výstavbě)</Frame_FermentingBarrel.label>
-  <Frame_FermentingBarrel.description>Sud určený ke kvašení surové mladiny, ze které poté vznikne pivo.</Frame_FermentingBarrel.description>
-
+  
+  <!-- EN: brewery -->
+  <Brewery.label>pivovar</Brewery.label>
+  <!-- EN: A work station with all the equipment needed mix wort for beer production. Wort must be fermented to finally become beer. -->
+  <Brewery.description>Pracovní stanice s veškerým vybavením potřebným k míchání mladiny pro výrobu piva. Mladina se musí nechat zkvasit, aby se nakonec stala pivem.</Brewery.description>
+  
+  <!-- EN: butcher spot -->
+  <ButcherSpot.label>porcovací místo</ButcherSpot.label>
+  <!-- EN: A place for butchering animals. Due to the lack of equipment, butchering here yields only 70% of the meat and leather of each creature. -->
+  <ButcherSpot.description>Místo na zpracování tvorů. Kvůli nedostatku vybavení je výtěžek pouze 70% masa a kůže z každého zpracovaného stvoření.</ButcherSpot.description>
+  
+  <!-- EN: crafting spot -->
+  <CraftingSpot.label>pracovní místo</CraftingSpot.label>
+  <!-- EN: A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools. -->
+  <CraftingSpot.description>Místo, na kterém je možné vyrobit jednoduché věci, jako jsou nože nebo luky. Kvůli nedostatku nástrojů je produkce poměrně pomalá.</CraftingSpot.description>
+  
+  <!-- EN: deep drill -->
   <DeepDrill.label>hlubinná vrtačka</DeepDrill.label>
+  <!-- EN: A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources. This drill will yield stone chunks if no resources are present. Can be repositioned freely. -->
   <DeepDrill.description>Souprava vrtacího zařízení určená pro těžbu nerostů, které jsou ukryté hluboko pod povrchem. Pro odhalení nerostů použij hloubkový snímač. Tato vrtačka bude produkovat pouze kusy kamene, pokud nebudou k dispozici žádné zdroje. Může být libovolně přemístěna.</DeepDrill.description>
-  <Blueprint_DeepDrill.label>hlubinná vrtačka (plán)</Blueprint_DeepDrill.label>
-  <Blueprint_Install_DeepDrill.label>hlubinná vrtačka (plán)</Blueprint_Install_DeepDrill.label>
-  <Frame_DeepDrill.label>hlubinná vrtačka (ve výstavbě)</Frame_DeepDrill.label>
-  <Frame_DeepDrill.description>Souprava vrtacího zařízení určená pro těžbu nerostů, které jsou ukryté hluboko pod povrchem. Pro odhalení nerostů použij hloubkový snímač. Tato vrtačka bude produkovat pouze kusy kamene, pokud nebudou k dispozici žádné zdroje. Může být libovolně přemístěna.</Frame_DeepDrill.description>
-
-
-  <!-- Nutrient dispenser -->
-
-  <NutrientPasteDispenser.label>dávkovač nutriční pasty</NutrientPasteDispenser.label>
-  <NutrientPasteDispenser.description>Stroj, který syntetizuje jedlou nutriční pastu z organických surovin umístěných v přilehlých násypkách. Spotřebovává méně surovin i času než jiné způsoby přípravy pokrmů - nutriční pastu pochopitelně nikdo nemá rád. Kromě hrubé rostlinné hmoty, jako je seno, přijímá všechny druhy syrových potravin.</NutrientPasteDispenser.description>
-  <Blueprint_NutrientPasteDispenser.label>dávkovač nutriční pasty (plán)</Blueprint_NutrientPasteDispenser.label>
-  <Frame_NutrientPasteDispenser.label>dávkovač nutriční pasty (ve výstavbě)</Frame_NutrientPasteDispenser.label>
-  <Frame_NutrientPasteDispenser.description>Stroj, který syntetizuje jedlou nutriční pastu z organických surovin umístěných v přilehlých násypkách. Spotřebovává méně surovin i času než jiné způsoby přípravy pokrmů - nutriční pastu pochopitelně nikdo nemá rád. Kromě hrubé rostlinné hmoty, jako je seno, přijímá všechny druhy syrových potravin.</Frame_NutrientPasteDispenser.description>
-
+  
+  <!-- EN: drug lab -->
+  <DrugLab.label>zdravotnická laboratoř</DrugLab.label>
+  <!-- EN: A work bench equipped with containers, heaters, and measurement devices for producing various drugs. -->
+  <DrugLab.description>Pracovní stůl vybavený různými nádobami, ohřívači a měřícím zařízením určeným pro výrobu různých léčiv a drog.</DrugLab.description>
+  
+  <!-- EN: electric crematorium -->
+  <ElectricCrematorium.label>elektrické krematorium</ElectricCrematorium.label>
+  <!-- EN: A huge stone crematorium which vaporizes corpses with extremely high temperatures. -->
+  <ElectricCrematorium.description>Obrovské kamenné krematorium, ve kterém je možné spálit mrtvoly za pomoci extrémně vysokých teplot.</ElectricCrematorium.description>
+  
+  <!-- EN: electric smelter -->
+  <ElectricSmelter.label>tavicí pec na elektřinu</ElectricSmelter.label>
+  <!-- EN: Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power. -->
+  <ElectricSmelter.description>Z ocelových kusů šrotu a různých jiných kovových předmětů extrahuje kov. Spotřebovává značné množství elektrické energie.</ElectricSmelter.description>
+  
+  <!-- EN: electric smithy -->
+  <ElectricSmithy.label>kovárna na elektřinu</ElectricSmithy.label>
+  <!-- EN: An electric-powered station for smithing non-mechanical weapons and tools. -->
+  <ElectricSmithy.description>Elektřinou poháněná stanice určená pro kování nástrojů a zbraní bez mechanických částí.</ElectricSmithy.description>
+  
+  <!-- EN: electric stove -->
+  <ElectricStove.label>sporák na elektřinu</ElectricStove.label>
+  <!-- EN: An electrically-powered stove with an attached countertop for preparing meals. -->
+  <ElectricStove.description>Elektrický sporák s připojenou pracovní deskou pro přípravu pokrmů.</ElectricStove.description>
+  
+  <!-- EN: electric tailor bench -->
+  <ElectricTailoringBench.label>elektrický krejčovský stůl</ElectricTailoringBench.label>
+  <!-- EN: A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 50% of normal speed. -->
+  <ElectricTailoringBench.description>Pracovní stůl vybavený šicím strojem pro rychlé šití oděvů. Může fungovat bez elektrické energie, ale pouze při 50% běžné rychlosti.</ElectricTailoringBench.description>
+  
+  <!-- EN: fabrication bench -->
+  <FabricationBench.label>montážní stroj</FabricationBench.label>
+  <!-- EN: A workbench equipped with advanced tools for producing technological marvels from simpler materials. -->
+  <FabricationBench.description>Poloautomatický montážní stroj vybavený pokročilými nástroji určených pro sestavování technologických zázraků z jednodušších materiálů.</FabricationBench.description>
+  
+  <!-- EN: fermenting barrel -->
+  <FermentingBarrel.label>kvasný sud</FermentingBarrel.label>
+  <!-- EN: A barrel for fermenting raw wort into beer. -->
+  <FermentingBarrel.description>Sud určený ke kvašení surové mladiny, ze které poté vznikne pivo.</FermentingBarrel.description>
+  
+  <!-- EN: fueled smithy -->
+  <FueledSmithy.label>kovárna na tuhá paliva</FueledSmithy.label>
+  <!-- EN: A wood-fueled station for smithing non-mechanical weapons and tools. -->
+  <FueledSmithy.description>Dřevem poháněná stanice určená pro kování nástrojů a zbraní bez mechanických částí.</FueledSmithy.description>
+  
+  <!-- EN: fueled stove -->
+  <FueledStove.label>sporák na tuhá paliva</FueledStove.label>
+  <!-- EN: A wood-fueled stove with an attached countertop for preparing meals. -->
+  <FueledStove.description>Dřevem poháněný sporák s připojenou pracovní deskou pro přípravu pokrmů.</FueledStove.description>
+  
+  <!-- EN: hand tailor bench -->
+  <HandTailoringBench.label>ruční krejčovský stůl</HandTailoringBench.label>
+  <!-- EN: A workbench for tailoring clothes by hand. Works at 50% of the speed of an electric tailoring bench. -->
+  <HandTailoringBench.description>Pracovní stůl určený pro ruční šití oděvů. Funguje pouze na 50% rychlosti oproti elektrickému krejčovskému stolu.</HandTailoringBench.description>
+  
+  <!-- EN: hi-tech research bench -->
+  <HiTechResearchBench.label>špičkové výzkumné stanoviště</HiTechResearchBench.label>
+  <!-- EN: A high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects. -->
+  <HiTechResearchBench.description>Špičkově vybavené stanoviště s počítači a elektronickým měřícím zařízením. Umožňuje rychlejší výzkum a odhalí pokročilé výzkumné projekty.</HiTechResearchBench.description>
+  
+  <!-- EN: hopper -->
   <Hopper.label>násypka</Hopper.label>
+  <!-- EN: Holds resources for use by machines like nutrient paste dispensers. -->
   <Hopper.description>Zásobník surovin určený pro stroje, jako jsou například dávkovače nutriční pasty.</Hopper.description>
-  <Blueprint_Hopper.label>násypka (plán)</Blueprint_Hopper.label>
-  <Frame_Hopper.label>násypka (ve výstavbě)</Frame_Hopper.label>
-  <Frame_Hopper.description>Zásobník surovin určený pro stroje, jako jsou například dávkovače nutriční pasty.</Frame_Hopper.description>
-
-
+  
+  <!-- EN: hydroponics basin -->
+  <HydroponicsBasin.label>hydroponická nádrž</HydroponicsBasin.label>
+  <!-- EN: An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut. -->
+  <HydroponicsBasin.description>Umělá výživná lázeň určená pro pěstování rostlin. Čerpadla, která zásobují rostliny živinami, musí fungovat nepřetržitě; rostliny uhynou, pokud je odříznuta od elektrické energie.</HydroponicsBasin.description>
+  
+  <!-- EN: nutrient paste dispenser -->
+  <NutrientPasteDispenser.label>dávkovač nutriční pasty</NutrientPasteDispenser.label>
+  <!-- EN: A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay. -->
+  <NutrientPasteDispenser.description>Stroj, který syntetizuje jedlou nutriční pastu z organických surovin umístěných v přilehlých násypkách. Spotřebovává méně surovin i času než jiné způsoby přípravy pokrmů - nutriční pastu pochopitelně nikdo nemá rád. Kromě hrubé rostlinné hmoty, jako je seno, přijímá všechny druhy syrových potravin.</NutrientPasteDispenser.description>
+  
+  <!-- EN: simple research bench -->
+  <SimpleResearchBench.label>jednoduché výzkumné stanoviště</SimpleResearchBench.label>
+  <!-- EN: A simple bench with writing implements and simple measurement devices. Researchers work here to discover new things. -->
+  <SimpleResearchBench.description>Jednoduché pracovní stanoviště s psacími potřebami a jednoduchými měřicími přístroji. Tady pracují výzkumníci na objevování nových věcí.</SimpleResearchBench.description>
+  
+  <!-- EN: butcher table -->
+  <TableButcher.label>řeznický stůl</TableButcher.label>
+  <!-- EN: A heavy table for butchering dead creatures into pieces of raw meat. -->
+  <TableButcher.description>Pevný stůl, na kterém se porcují mrtví tvorové na kusy syrového masa.</TableButcher.description>
+  
+  <!-- EN: machining table -->
+  <TableMachining.label>obráběcí stůl</TableMachining.label>
+  <!-- EN: A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids. -->
+  <TableMachining.description>Pracovní stanice určená pro sestavování mechanismů, jako jsou zbraně a munice, nebo rozebírání mrtvých mechanoidů.</TableMachining.description>
+  
+  <!-- EN: sculptor's table -->
+  <TableSculpting.label>sochařský stůl</TableSculpting.label>
+  <!-- EN: A workbench equipped for artistic sculpting. -->
+  <TableSculpting.description>Pracovní stůl s vybavením určeným pro umělecké sochařství.</TableSculpting.description>
+  
+  <!-- EN: stonecutter's table -->
+  <TableStonecutter.label>stůl kameníka</TableStonecutter.label>
+  <!-- EN: A work table with saws and chisels for cutting stone chunks into usable blocks. -->
+  <TableStonecutter.description>Pracovní stůl vybavený pilami a dláty určený pro opracovávání kusů kamene na použitelné kamenné bloky.</TableStonecutter.description>
+  
 </LanguageData>

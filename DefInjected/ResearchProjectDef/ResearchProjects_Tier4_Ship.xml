@@ -1,25 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: starflight basics -->
   <ShipBasics.label>základy vesmírného letu</ShipBasics.label>
+  <!-- EN: Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system. -->
   <ShipBasics.description>Umožní sestrojení strukturálních a podpůrných prvků vesmírné lodě. Toto je první krok při budování vesmírné lodě, která poslouží k opuštění této sluneční soustavy.</ShipBasics.description>
-  <ShipBasics.discoveredLetterTitle>Poznámka: Odstartování vesmírné lodi</ShipBasics.discoveredLetterTitle>
+  <!-- EN: Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nMany desperate souls want off this planet. Ship reactors take 15 days to charge up. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive. -->
   <ShipBasics.discoveredLetterText>Únik z této planety - konečně zažít svobodu a možná i návrat domů.\n\nAle také neuvěřitelné nebezpečí.\n\nSpousta dalších zoufalých duší bude také chtít z této planety pryč. Lodnímu reaktoru potrvá 15 dnů, než se nastartuje. Jakmile reaktor zahájí tento startovací proces, energetický podpis bude detekovatelný tisíce kilometrů daleko. Nájezdníci se budou sjíždět a napadat tě ve vlnách takovou intenzitou, jakou jsi ještě nezažil. Tento energetický podpis přiláká také mechanoidy. Proč? To zůstává záhadou.\n\nDokud nenastartuješ lodní reaktor, bude to v pohodě, ale jakmile to uděláš, bude to divoké. Budeš potřebovat spousty zásob, zbraní, a obranu proti náporu nepřátel, pokud chceš uniknout živý.</ShipBasics.discoveredLetterText>
-
-  <ShipCryptosleep.label>vakuové cryptospánkové komory</ShipCryptosleep.label>
-  <ShipCryptosleep.description>Umožní výrobu tvrzených lodních cryptospánkových komor, které jsou dostatečně odolné vůči působení vzduchoprázdna. Jsou určené k přepravě osob na roky trvající cestě mezi hvězdami.</ShipCryptosleep.description>
-
-  <ShipReactor.label>reaktor vesmírné lodě</ShipReactor.label>
-  <ShipReactor.description>Umožní výstavbu jaderného reaktoru s vysokou životností k napájení vesmírné lodě. Poznámka: Tyto reaktory mají dlouhý startovací proces, který jistě přiláká nájezdníky.</ShipReactor.description>
-
-  <ShipEngine.label>pohon Johnson-Tanaka</ShipEngine.label>
-  <ShipEngine.description>Umožní sestrojení lodního pohonu Johnson-Tanaka. Pohon JT dokáže popostrčit loď na jiné hvězdy využitím kvantové sféry a přenosu hybnosti ke vzdáleným hvězdám. Samozřejmě to trvá mnoho let, než se kamkoliv dostane, ale je to stejné jako u všech vesmírných lodí.</ShipEngine.description>
-
+  <!-- EN: About: Launching the ship -->
+  <ShipBasics.discoveredLetterTitle>Poznámka: Odstartování vesmírné lodi</ShipBasics.discoveredLetterTitle>
+  
+  <!-- EN: AI persuasion -->
   <ShipComputerCore.label>přesvědčování UI</ShipComputerCore.label>
+  <!-- EN: Build a reward-signal system to persuade an existing AI persona core into serving as a ship's AI captain. Since people sleep during interstellar travel, an AI core is necessary to handle the complex decisions of a years-long starflight. -->
   <ShipComputerCore.description>Umožní výrobu signálního systému odměn, který bude přesvědčovat stávající osobnostní jádro UI, aby sloužilo jako kapitán vesmírné lodě. Vzhledem k tomu, že lidé během mezihvězdného letu spí, jádro UI je nezbytné pro zvládnutí komplexních rozhodnutí mnohaletého letu.</ShipComputerCore.description>
-
+  
+  <!-- EN: vacuum cryptosleep casket -->
+  <ShipCryptosleep.label>vakuové cryptospánkové komory</ShipCryptosleep.label>
+  <!-- EN: Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars. -->
+  <ShipCryptosleep.description>Umožní výrobu tvrzených lodních cryptospánkových komor, které jsou dostatečně odolné vůči působení vzduchoprázdna. Jsou určené k přepravě osob na roky trvající cestě mezi hvězdami.</ShipCryptosleep.description>
+  
+  <!-- EN: Johnson-Tanaka drive -->
+  <ShipEngine.label>pohon Johnson-Tanaka</ShipEngine.label>
+  <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
+  <ShipEngine.description>Umožní sestrojení lodního pohonu Johnson-Tanaka. Pohon JT dokáže popostrčit loď na jiné hvězdy využitím kvantové sféry a přenosu hybnosti ke vzdáleným hvězdám. Samozřejmě to trvá mnoho let, než se kamkoliv dostane, ale je to stejné jako u všech vesmírných lodí.</ShipEngine.description>
+  
+  <!-- EN: starship reactor -->
+  <ShipReactor.label>reaktor vesmírné lodě</ShipReactor.label>
+  <!-- EN: Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders. -->
+  <ShipReactor.description>Umožní výstavbu jaderného reaktoru s vysokou životností k napájení vesmírné lodě. Poznámka: Tyto reaktory mají dlouhý startovací proces, který jistě přiláká nájezdníky.</ShipReactor.description>
+  
+  <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>senzory vesmírného letu</ShipSensorCluster.label>
+  <!-- EN: Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance. -->
   <ShipSensorCluster.description>Umožní sestrojení senzorů s velkým dosahem pro vesmírnou loď. Tyto senzory jsou nezbytné pro navigaci, komunikaci a vyhýbání se hrozbám.</ShipSensorCluster.description>
   
-
 </LanguageData>

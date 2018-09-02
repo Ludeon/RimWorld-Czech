@@ -1,337 +1,643 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MinedValuable.label>těžba žíly bohaté na surovinu</MinedValuable.label>
-	<MinedValuable.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] těžil[pawn_pronoun] žílu bohatou na [material_label]</li>
-		<li>image->[pawn_nameFull] pracuje se svými těžebními nástroji na kusu kamene obsahující [material_label], přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] drží kus kamene obsahující [material_label], přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] opírá o kus kamene obsahující [material_label], přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] koordinuje výkopový tým na těžbu žíly bohaté na [material_label], přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] pečlivě prohlíží žílu bohatou na [material_label], přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->se ohromně potí</li>
-		<li>circumstance_phrase->má [friendlyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->má [friendlyadjective]ý výraz</li>
-		<li>circumstance_phrase->se hlasitě směje</li>
-		<li>circumstance_phrase->má spokojený výraz ve své tváři</li>
-		<li>desc_sentence->Asistuje tomu [quantity_adjphrase] spojenců. Jsou to známí [ally].</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů se poklidně prochází kolem.</li>
-		<li>desc_sentence->V dálce je vidět [community].</li>
-		<li>desc_sentence->[quantity_adjphrase] dalších žil je vidět v dálce.</li>
-		<li>desc_sentence->V dáli je vidět [terrainfeature].</li>
-		<li>desc_sentence->[pawn_nameShortDef] má od práce zpocené a zašpiněné celé tělo.</li>
-	</MinedValuable.rulePack.rulesStrings>
-
-  <CompletedLongConstructionProject.label>dokončení dlouhodobého stavebního projektu</CompletedLongConstructionProject.label>
-	<CompletedLongConstructionProject.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] dokončil[pawn_pronoun] práce na svém projektu '[object_label]'</li>
-		<li>image->[pawn_nameFull] sestavuje složitou součást uvnitř svého projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] snaží vyleštit upatlaný povrch na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] pokouší vyladit poslední detaily na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] podepisuje na svůj projekt zvaný '[object_label]', přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->s viditelným zájmem sleduje svou práci</li>
-		<li>circumstance_phrase->si neustále otírá pot ze svého čela</li>
-		<li>circumstance_phrase->celé [pawn_possessive] tělo kypí špínou</li>
-		<li>circumstance_phrase->se s hrdostí usmívá</li>
-		<li>circumstance_phrase->oplývá spokojeným výrazem ve své tváři</li>
-		<li>desc_sentence->[pawn_nameShortDef] je znázorněn[pawn_pronoun] mnohem menší než je samotný projekt '[object_label]'.</li>
-		<li>desc_sentence->[object_label] slabě září [color]ou barvou.</li>
-		<li>desc_sentence->Zdá se, že [object_label] působí velmi dobře propracovaným dojmem.</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si s obdivem prohlíží [pawn_possessive] projekt '[object_label]'.</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
-	</CompletedLongConstructionProject.rulePack.rulesStrings>
-
-  <CompletedLongCraftingProject.label>dokončení dlouhodobé výroby projektu</CompletedLongCraftingProject.label>
-	<CompletedLongCraftingProject.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] dokončil[pawn_pronoun] práce na svém projektu '[object_label]'</li>
-		<li>image->[pawn_nameFull] sestavuje složitou součást uvnitř svého projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] snaží vyleštit upatlaný povrch na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] pokouší vyladit poslední detaily na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] podepisuje na svůj projekt zvaný '[object_label]', přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->s viditelným zájmem sleduje svou práci</li>
-		<li>circumstance_phrase->si neustále otírá pot ze svého čela</li>
-		<li>circumstance_phrase->celé [pawn_possessive] tělo kypí špínou</li>
-		<li>circumstance_phrase->se s hrdostí usmívá</li>
-		<li>circumstance_phrase->oplývá spokojeným výrazem ve své tváři</li>
-		<li>desc_sentence->[object_label] slabě září [color]ou barvou.</li>
-		<li>desc_sentence->Zdá se, že [object_label] působí velmi dobře propracovaným dojmem.</li>
-		<li>desc_sentence->[pawn_nameShortDef] zvedá svůj výrobek bez sebemenší námahy.</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si s obdivem prohlíží [object_label].</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
-	</CompletedLongCraftingProject.rulePack.rulesStrings>
-
+  
+  <!-- EN: attended party -->
   <AttendedParty.label>účast na večírku</AttendedParty.label>
-	<AttendedParty.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak se [attender_nameShortDef] zúčastnil[attender_pronoun] večírku, který organizoval[organizer_pronoun] [organizer_nameShortDef]</li>
-		<li>tale_noun->tom, jak se [attender_nameShortDef] bavil[attender_pronoun] na párty, který pořádal[organizer_pronoun] [organizer_nameShortDef]</li>
-		<li>image->[attender_nameFull] vede konverzaci s osobou [organizer_nameFull], přičemž [circumstance_group]</li>
-		<li>image->si [attender_nameFull] vychutnává drink s osobou [organizer_nameFull], přičemž [circumstance_group]</li>
-		<li>image->se [attender_nameFull] baví s osobou [organizer_nameFull], přičemž [circumstance_group]</li>
-		<li>image->[organizer_nameFull] vítá osobu [attender_nameFull], přičemž [circumstance_group]</li>
-		<li>image->[organizer_nameFull] jde představit osobu [attender_nameFull] svým přátelům, přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->se doširoka smějí</li>
-		<li>circumstance_phrase->se něčemu smějí</li>
-		<li>circumstance_phrase->se jejich úsměv zdá být poněkud [friendlyverb]ý</li>
-		<li>circumstance_phrase->se bouřlivě smějí</li>
-		<li>circumstance_phrase->k sobě mají [friendlyadjective]ý přístup</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], jsou zapojeni do konverzace.</li>
-		<li>desc_sentence->Místo je zdobeno v [color]ých a [color]ých barvách.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů si hraje poblíž.</li>
-	</AttendedParty.rulePack.rulesStrings>
-
-  <Meditated.label>meditace</Meditated.label>
-	<Meditated.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] meditoval[pawn_pronoun]</li>
-		<li>image->[pawn_nameFull] sedí pod stromem v [tree]ém lese a [circumstance_group]</li>
-		<li>image->[pawn_nameFull] v tichosti vysedává a [circumstance_group]</li>
-		<li>image->[pawn_nameFull] hledí do dálky a [circumstance_group]</li>
-		<li>image->[pawn_nameFull] zavírá své oči a [circumstance_group]</li>
-		<li>circumstance_phrase->kolem sebe vyzařuje klid</li>
-		<li>circumstance_phrase->poklidně se usmívá</li>
-		<li>circumstance_phrase->má [friendlyverb]ý úsměv</li>
-		<li>circumstance_phrase->[pawn_possessive] postava mírně září</li>
-		<li>circumstance_phrase->je obklopen[pawn_pronoun] [color]ou aurou</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si [pawn_objective] prohlíží.</li>
-		<li>desc_sentence->Obklopuje [pawn_objective] [quantity_adjphrase] [animal]ů.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů poklidně odpočívá.</li>
-		<li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], je šokováno z této děsivé scény.</li>
-	</Meditated.rulePack.rulesStrings>
-
-  <Prayed.label>modlitba</Prayed.label>
-	<Prayed.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak se [pawn_nameShortDef] modlil[pawn_pronoun]</li>
-		<li>tale_noun->tom, jak se [pawn_nameShortDef] modlil[pawn_pronoun] k vyšší moci</li>
-		<li>image->[pawn_nameFull] hledí do dálky a [circumstance_group]</li>
-		<li>image->[pawn_nameFull] zavírá své oči a [circumstance_group]</li>
-		<li>image->[pawn_nameFull] spíná své ruce a [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] dívá směrem k nebi a [circumstance_group]</li>
-		<li>circumstance_phrase->kolem sebe vyzařuje klid</li>
-		<li>circumstance_phrase->v tichosti si něco mumlá</li>
-		<li>circumstance_phrase->má nadějný výraz ve své tváři</li>
-		<li>circumstance_phrase->[pawn_possessive] postava mírně září</li>
-		<li>circumstance_phrase->je obklopen[pawn_pronoun] [color]ou aurou</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si [pawn_objective] prohlíží.</li>
-		<li>desc_sentence->Obklopuje [pawn_objective] [quantity_adjphrase] [animal]ů.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů poklidně odpočívá.</li>
-		<li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], je šokováno z této děsivé scény.</li>
-	</Prayed.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
+    <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
+    <li>image->[ATTENDER_nameFull] having a conversation with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] getting a drink from [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] chatting with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] welcoming [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] introducing [ATTENDER_nameFull] to a friend [circumstance_group]</li>
+    <li>circumstance_phrase->with a broad grin</li>
+    <li>circumstance_phrase->with a laugh</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] smile</li>
+    <li>circumstance_phrase->while laughing uproariously</li>
+    <li>circumstance_phrase->while [AdjectiveFriendly]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are involved in the conversation.</li>
+    <li>desc_sentence->The area is decorated with [Color] and [Color].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+  -->
+  <AttendedParty.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak se [attender_nameShortDef] zúčastnil[attender_pronoun] večírku, který organizoval[organizer_pronoun] [organizer_nameShortDef]</li>
+    <li>tale_noun->tom, jak se [attender_nameShortDef] bavil[attender_pronoun] na párty, který pořádal[organizer_pronoun] [organizer_nameShortDef]</li>
+    <li>image->[attender_nameFull] vede konverzaci s osobou [organizer_nameFull], přičemž [circumstance_group]</li>
+    <li>image->si [attender_nameFull] vychutnává drink s osobou [organizer_nameFull], přičemž [circumstance_group]</li>
+    <li>image->se [attender_nameFull] baví s osobou [organizer_nameFull], přičemž [circumstance_group]</li>
+    <li>image->[organizer_nameFull] vítá osobu [attender_nameFull], přičemž [circumstance_group]</li>
+    <li>image->[organizer_nameFull] jde představit osobu [attender_nameFull] svým přátelům, přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->se doširoka smějí</li>
+    <li>circumstance_phrase->se něčemu smějí</li>
+    <li>circumstance_phrase->se jejich úsměv zdá být poněkud [friendlyverb]ý</li>
+    <li>circumstance_phrase->se bouřlivě smějí</li>
+    <li>circumstance_phrase->k sobě mají [friendlyadjective]ý přístup</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], jsou zapojeni do konverzace.</li>
+    <li>desc_sentence->Místo je zdobeno v [color]ých a [color]ých barvách.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů si hraje poblíž.</li>
+  </AttendedParty.rulePack.rulesStrings>
+  
+  <!-- EN: built snowman -->
   <BuiltSnowman.label>stavění sněhuláka</BuiltSnowman.label>
-	<BuiltSnowman.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] stavěl[pawn_pronoun] sněhuláka</li>
-		<li>tale_noun->tom, jak si [pawn_nameShortDef] hrál[pawn_pronoun] se sněhem</li>
-		<li>image->[pawn_nameFull] dělá sněhovou kouli, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] kutálí po zemi obrovskou kouli ze sněhu, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] se snaží naaranžovat zeleninu, kterou je například [vegetable], do tvaru obličeje, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] leží na sněhu, přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->má na sobě oblečeno [quantity_adjphrase] kožichů</li>
-		<li>circumstance_phrase->[pawn_objective] zakrývá mírná sněhová vánice</li>
-		<li>circumstance_phrase->[pawn_possessive] přátelé staví pevnost</li>
-		<li>circumstance_phrase->[pawn_possessive] přátelé staví sněhovou rodinku</li>
-		<li>desc_sentence->V pozadí září [color]á polární záře.</li>
-		<li>desc_sentence->V dálce je [community] pokrytá sněhem.</li>
-		<li>desc_sentence->Pole, na kterém se pěstuje [vegetable], je kvůli sněhu sotva viditelné.</li>
-		<li>desc_sentence->Sněhem pokrytá [terrainfeature] je vidět v dálce.</li>
-	</BuiltSnowman.rulePack.rulesStrings>
-
-  <VisitedGrave.label>návštěva hrobu</VisitedGrave.label>
-	<VisitedGrave.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] navštívil[pawn_pronoun] hrob s vyrytým jménem [corpse_nameShortDef]</li>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] navštívil[pawn_pronoun] hrob, na kterém je vyryté jméno [corpse_nameShortDef]</li>
-		<li>image->[pawn_nameFull] stojí vedle hrobu, ve kterém je pochován[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->[pawn_nameFull] sedí vedle hrobu, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] naklání nad hrob, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->si [pawn_nameFull] čte epitaf na náhrobku, pod kterým je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->si [pawn_nameFull] prohlíží umělecky zpracovaný pomník, u kterého je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->je zahlcen[pawn_pronoun] myšlenkami</li>
-		<li>circumstance_phrase->zírá do dálky, kde se nachází [terrainfeature]</li>
-		<li>circumstance_phrase->si tiše něco mumlá k pomníku</li>
-		<li>desc_sentence->V pozadí září [color]á polární záře.</li>
-		<li>desc_sentence->V dálce je [community] pokrytá sněhem.</li>
-		<li>desc_sentence->[corpse_nameShortDef], jakožto duch, má na scénu [friendlyadjective]ý výraz.</li>
-		<li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [friendlyadjective]ý výraz.</li>
-		<li>desc_sentence->[corpse_nameShortDef], jakožto duch, zírá na scénu [angstyadjective]ým výrazem v obličeji.</li>
-		<li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [angstyadjective]ý výraz.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
-	</VisitedGrave.rulePack.rulesStrings>
-
-  <PlayedGame.label>hraní hry</PlayedGame.label>
-	<PlayedGame.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] použil[pawn_pronoun] [object_label] k relaxaci</li>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] použil[pawn_pronoun] [object_label] ke hraní her</li>
-		<li>image->[pawn_nameFull] čeká v křesle [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] naklání nad [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] sedí [circumstance_group]</li>
-		<li>image->[pawn_nameFull] vyhrává [circumstance_group]</li>
-		<li>image->[pawn_nameFull] prohrává [circumstance_group]</li>
-		<li>circumstance_phrase->a přitom docela srší energií</li>
-		<li>circumstance_phrase->a přitom kypí naprosto klidným výrazem</li>
-		<li>circumstance_phrase->a přitom plánuje svůj další postup</li>
-		<li>circumstance_phrase->a přitom si lehce masíruje svá zápěstí</li>
-		<li>circumstance_phrase->a přitom má [angstyverb]ě [angstyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->a přitom zírá [angstyadjective]ým pohledem</li>
-		<li>circumstance_phrase->a přitom se tváří [angstyverb]ě</li>
-		<li>desc_sentence->V pozadí září [color]á polární záře.</li>
-		<li>desc_sentence->V dálce je dobře vidět [community].</li>
-		<li>desc_sentence->V dálce je dobře vidět [terrainfeature].</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], také hrají nějaké hry.</li>
-		<li>desc_sentence->Nedaleko si hraje [quantity_adjphrase] [animal]ů.</li>
-		<li>desc_sentence->[pawn_nameShortDef] září díky [color]é auře, kterou má kolem svého těla.</li>
-		<li>desc_sentence->[pawn_nameShortDef] při hře používá rafinované triky.</li>
-		<li>desc_sentence->[pawn_nameShortDef] se tyčí nad celou scénou.</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], se zhroutili po tvrdé porážce.</li>
-	</PlayedGame.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] building a snowman</li>
+    <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
+    <li>image->[PAWN_nameFull] forming a snowball [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling a giant ball of snow on the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] arranging [Vegetable]s into a rough human face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lying down in the snow [circumstance_group]</li>
+    <li>circumstance_phrase->while enveloped in [Quantity_adjphrase] parkas</li>
+    <li>circumstance_phrase->while obscured in a light snowstorm</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a fort</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a snowman family</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A field of [Vegetable]s is barely visible through the snow.</li>
+    <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
+  -->
+  <BuiltSnowman.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] stavěl[pawn_pronoun] sněhuláka</li>
+    <li>tale_noun->tom, jak si [pawn_nameShortDef] hrál[pawn_pronoun] se sněhem</li>
+    <li>image->[pawn_nameFull] dělá sněhovou kouli, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] kutálí po zemi obrovskou kouli ze sněhu, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] se snaží naaranžovat zeleninu, kterou je například [vegetable], do tvaru obličeje, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] leží na sněhu, přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->má na sobě oblečeno [quantity_adjphrase] kožichů</li>
+    <li>circumstance_phrase->[pawn_objective] zakrývá mírná sněhová vánice</li>
+    <li>circumstance_phrase->[pawn_possessive] přátelé staví pevnost</li>
+    <li>circumstance_phrase->[pawn_possessive] přátelé staví sněhovou rodinku</li>
+    <li>desc_sentence->V pozadí září [color]á polární záře.</li>
+    <li>desc_sentence->V dálce je [community] pokrytá sněhem.</li>
+    <li>desc_sentence->Pole, na kterém se pěstuje [vegetable], je kvůli sněhu sotva viditelné.</li>
+    <li>desc_sentence->Sněhem pokrytá [terrainfeature] je vidět v dálce.</li>
+  </BuiltSnowman.rulePack.rulesStrings>
+  
+  <!-- EN: buried corpse -->
   <BuriedCorpse.label>pohřbívání těla</BuriedCorpse.label>
-	<BuriedCorpse.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] pohřbil[pawn_pronoun] mrtvé tělo osoby známé jako [corpse_nameShortDef]</li>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] uložil[pawn_pronoun] do hrobu zesnulou osobu známou jako [corpse_nameShortDef]</li>
-		<li>image->[pawn_nameFull] stojí vedle hrobu, ve kterém je pochován[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->[pawn_nameFull] sedí vedle hrobu, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] naklání nad hrob, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->[pawn_nameFull] ryje nápis na náhrobek, u kterého je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->[pawn_nameFull] kreslí obrázek na náhrobek, u kterého je pochován[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>image->[pawn_nameFull] ukládá tělo do hrobu k dlouhému odpočinku, u kterého je napsáno jméno [corpse_nameFull], a přitom [circumstance_group]</li>
-		<li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->je zahlcen[corpse_pronoun] myšlenkami</li>
-		<li>circumstance_phrase->zírá do dálky, kde se nachází [terrainfeature]</li>
-		<li>circumstance_phrase->si tiše něco mumlá k pomníku</li>
-		<li>desc_sentence->V pozadí září [color]á polární záře.</li>
-		<li>desc_sentence->V dálce je [community] pokrytá sněhem.</li>
-		<li>desc_sentence->[corpse_nameShortDef], jakožto duch, má na scénu [friendlyadjective]ý výraz.</li>
-		<li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [friendlyadjective]ý výraz.</li>
-		<li>desc_sentence->[corpse_nameShortDef], jakožto duch, zírá na scénu [angstyadjective]ým výrazem v obličeji</li>
-		<li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [angstyadjective]ý výraz.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
-	</BuriedCorpse.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
+    <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
+    <li>image->[DIGGER_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] scribing text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] drawing art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] placing [CORPSE_nameFull]'s body within a grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <BuriedCorpse.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] pohřbil[pawn_pronoun] mrtvé tělo osoby známé jako [corpse_nameShortDef]</li>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] uložil[pawn_pronoun] do hrobu zesnulou osobu známou jako [corpse_nameShortDef]</li>
+    <li>image->[pawn_nameFull] stojí vedle hrobu, ve kterém je pochován[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->[pawn_nameFull] sedí vedle hrobu, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] naklání nad hrob, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->[pawn_nameFull] ryje nápis na náhrobek, u kterého je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->[pawn_nameFull] kreslí obrázek na náhrobek, u kterého je pochován[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->[pawn_nameFull] ukládá tělo do hrobu k dlouhému odpočinku, u kterého je napsáno jméno [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->je zahlcen[corpse_pronoun] myšlenkami</li>
+    <li>circumstance_phrase->zírá do dálky, kde se nachází [terrainfeature]</li>
+    <li>circumstance_phrase->si tiše něco mumlá k pomníku</li>
+    <li>desc_sentence->V pozadí září [color]á polární záře.</li>
+    <li>desc_sentence->V dálce je [community] pokrytá sněhem.</li>
+    <li>desc_sentence->[corpse_nameShortDef], jakožto duch, má na scénu [friendlyadjective]ý výraz.</li>
+    <li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [friendlyadjective]ý výraz.</li>
+    <li>desc_sentence->[corpse_nameShortDef], jakožto duch, zírá na scénu [angstyadjective]ým výrazem v obličeji</li>
+    <li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [angstyadjective]ý výraz.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
+  </BuriedCorpse.rulePack.rulesStrings>
+  
+  <!-- EN: completed long construction project -->
+  <CompletedLongConstructionProject.label>dokončení dlouhodobého stavebního projektu</CompletedLongConstructionProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] appears to tower above [PAWN_nameDef].</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongConstructionProject.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] dokončil[pawn_pronoun] práce na svém projektu '[object_label]'</li>
+    <li>image->[pawn_nameFull] sestavuje složitou součást uvnitř svého projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] snaží vyleštit upatlaný povrch na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] pokouší vyladit poslední detaily na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] podepisuje na svůj projekt zvaný '[object_label]', přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->s viditelným zájmem sleduje svou práci</li>
+    <li>circumstance_phrase->si neustále otírá pot ze svého čela</li>
+    <li>circumstance_phrase->celé [pawn_possessive] tělo kypí špínou</li>
+    <li>circumstance_phrase->se s hrdostí usmívá</li>
+    <li>circumstance_phrase->oplývá spokojeným výrazem ve své tváři</li>
+    <li>desc_sentence->[pawn_nameShortDef] je znázorněn[pawn_pronoun] mnohem menší než je samotný projekt '[object_label]'.</li>
+    <li>desc_sentence->[object_label] slabě září [color]ou barvou.</li>
+    <li>desc_sentence->Zdá se, že [object_label] působí velmi dobře propracovaným dojmem.</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si s obdivem prohlíží [pawn_possessive] projekt '[object_label]'.</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
+  </CompletedLongConstructionProject.rulePack.rulesStrings>
+  
+  <!-- EN: completed long crafting project -->
+  <CompletedLongCraftingProject.label>dokončení dlouhodobé výroby projektu</CompletedLongCraftingProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] assembling a complicated apparatus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[PAWN_nameDef] lifts the [OBJECT_label] seemingly without effort.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the device.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongCraftingProject.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] dokončil[pawn_pronoun] práce na svém projektu '[object_label]'</li>
+    <li>image->[pawn_nameFull] sestavuje složitou součást uvnitř svého projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] snaží vyleštit upatlaný povrch na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] pokouší vyladit poslední detaily na svém projektu zvaném '[object_label]', přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] podepisuje na svůj projekt zvaný '[object_label]', přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->s viditelným zájmem sleduje svou práci</li>
+    <li>circumstance_phrase->si neustále otírá pot ze svého čela</li>
+    <li>circumstance_phrase->celé [pawn_possessive] tělo kypí špínou</li>
+    <li>circumstance_phrase->se s hrdostí usmívá</li>
+    <li>circumstance_phrase->oplývá spokojeným výrazem ve své tváři</li>
+    <li>desc_sentence->[object_label] slabě září [color]ou barvou.</li>
+    <li>desc_sentence->Zdá se, že [object_label] působí velmi dobře propracovaným dojmem.</li>
+    <li>desc_sentence->[pawn_nameShortDef] zvedá svůj výrobek bez sebemenší námahy.</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si s obdivem prohlíží [object_label].</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
+  </CompletedLongCraftingProject.rulePack.rulesStrings>
+  
+  <!-- EN: entered cryptosleep -->
   <EnteredCryptosleep.label>uvedení sebe do cryptospánku</EnteredCryptosleep.label>
-	<EnteredCryptosleep.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak se [pawn_nameShortDef] uvedl[pawn_pronoun] ke cryptospánku</li>
-		<li>image->[pawn_nameFull] leží v cryptospánkové komoře, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] otevírá prázdnou cryptospánkovou komoru, přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] zavírá uvnitř cryptospánkové komory, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] sleduje skrze sklo cryptospánkové komory svět, který se chystá opustit, přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->je zahlcen[pawn_pronoun] myšlenkami</li>
-		<li>circumstance_phrase->zároveň zírá do dálky, kde se nachází [terrainfeature]</li>
-		<li>circumstance_phrase->si zároveň něco pro sebe mumlá</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
-		<li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], se blíží k této oblasti.</li>
-		<li>desc_sentence->[pawn_nameShortDef] ze sebe vyzařuje odhodlanost.</li>
-		<li>desc_sentence->[pawn_nameShortDef] je viditelně zraněn[pawn_pronoun].</li>
-		<li>desc_sentence->V pozadí září [color]á polární záře.</li>
-		<li>desc_sentence->[quantity_adjphrase] již zabraných cryptospánkových komor obklopuje tuto scénu.</li>
-	</EnteredCryptosleep.rulePack.rulesStrings>
-
-  <PutIntoCryptosleep.label>uvedení někoho do cryptospánku</PutIntoCryptosleep.label>
-	<PutIntoCryptosleep.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] uložil[pawn_pronoun] bytost, kterou je [sleeper_nameShortDef], do cryptospánkové komory</li>
-		<li>image->[pawn_nameFull] vkládá bytost, kterou je [sleeper_nameShortDef], do cryptospánkové komory, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] otevírá prázdnou cryptospánkovou komoru pro bytost, kterou je [sleeper_nameShortDef], přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] zavírá bytost, kterou je [sleeper_nameShortDef], uvnitř cryptospánkové komory, přičemž [circumstance_group]</li>
-		<li>image->[sleeper_nameShortDef] pozoruje skrze okno cryptospánkové komory, jak se [pawn_nameFull] vzdaluje pryč, přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->má [friendlyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->má [badassadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->je [pawn_nameShortDef] zahlcen[pawn_pronoun] myšlenkami</li>
-		<li>circumstance_phrase->zároveň zírá do dálky, kde se nachází [terrainfeature]</li>
-		<li>circumstance_phrase->je mezi nima viditelné napětí</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
-		<li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], se blíží k této oblasti.</li>
-		<li>desc_sentence->[pawn_nameShortDef] ze sebe vyzařuje odhodlanost.</li>
-		<li>desc_sentence->Obloha je šedá a zamračená.</li>
-		<li>desc_sentence->[sleeper_nameShortDef] je viditelně zraněn[pawn_pronoun].</li>
-		<li>desc_sentence->[sleeper_nameShortDef] vypadá vyčerpaně.</li>
-		<li>desc_sentence->V pozadí září [color]á polární záře.</li>
-		<li>desc_sentence->[quantity_adjphrase] již zabraných cryptospánkových komor obklopuje tuto scénu.</li>
-	</PutIntoCryptosleep.rulePack.rulesStrings>
-
-  <Stripped.label>svlečení</Stripped.label>
-	<Stripped.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [stripper_nameShortDef] svklékl[stripper_pronoun] osobu známou jako [stripped_nameShortDef]</li>
-		<li>image->[stripper_nameFull] na veřejném místě svléká osobu jménem [stripped_nameFull][circumstance_group]</li>
-		<li>image->[stripper_nameFull] odstraňuje oblečení z osoby jménem [stripped_nameFull][circumstance_group]</li>
-		<li>image->[stripper_nameFull] drží v náruči různé oblečení, kde jedním z nich je [apparel]. Hned naproti pak stojí svlečená osoba [stripped_nameFull][circumstance_group]</li>
-		<li>image->[stripper_nameFull] trpělivě čeká, než si [stripped_nameFull] svlékne své veškeré oblečení[circumstance_group]</li>
-		<li>circumstance_phrase->, a to z neznámému důvodu</li>
-		<li>circumstance_phrase-> bez náznaku hanby</li>
-		<li>circumstance_phrase->, zatímco jiní se dívají</li>
-		<li>circumstance_phrase->, a to bez zjevného důvodu</li>
-		<li>circumstance_phrase->, zatímco zmatená zvířata koukají opodál</li>
-		<li>desc_sentence->[stripped_nameShortDef] srší viditelným vzrušením.</li>
-		<li>desc_sentence->[stripped_nameShortDef] má tělo pokryté nevysvětlitelnou vlhkostí.</li>
-		<li>desc_sentence->[stripped_nameShortDef] intenzivně dýchá bez zjevného důvodu.</li>
-		<li>desc_sentence->[stripped_nameShortDef] si hladí houští.</li>
-		<li>desc_sentence->[stripped_nameShortDef] má [angstyadjective]ý výraz ve své tváři.</li>
-	</Stripped.rulePack.rulesStrings>
-
-  <GainedMasterSkillWithPassion.label>získání mistrovské dovednostní úrovně se spalující vášní</GainedMasterSkillWithPassion.label>
-	<GainedMasterSkillWithPassion.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak se [pawn_nameShortDef] stal[pawn_pronoun] mistrem v dovednosti [skill_label]</li>
-		<li>image->[pawn_nameFull] trénuje dovednost [skill_label], přičemž [circumstance_group]</li>
-		<li>image->si [pawn_nameFull] čte tlustospis k dovednosti [skill_label], přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] školí na dovednosti [skill_label], přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] horečně pracuje, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] dokončuje projekt, přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->má [friendlyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->má radostný výraz ve své tváři</li>
-		<li>circumstance_phrase->má [friendlyverb]ý úsměv</li>
-		<li>circumstance_phrase->předvádí dosti bujarý křik</li>
-		<li>circumstance_phrase->celé [pawn_possessive] tělo je zpocené</li>
-		<li>circumstance_phrase->vypadá docela unaveně</li>
-		<li>desc_sentence->[quantity_adjphrase] neúspěšných experimentů obklopuje hlavní scénu.</li>
-		<li>desc_sentence->[quantity_adjphrase] knih je roztroušeno kolem hlavní scény.</li>
-		<li>desc_sentence->[pawn_possessive] zkušenosti jsou viditelné na [pawn_possessive] provedené práci.</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů kouká s úžasem na [pawn_possessive] práci.</li>
-		<li>desc_sentence->[quantity_adjphrase] éterických duchů starých mistrů [pawn_objective] sleduje ze shora.</li>
-	</GainedMasterSkillWithPassion.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
+    <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] opening an empty cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to themselves</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[PAWN_nameDef] radiates determination.</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <EnteredCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak se [pawn_nameShortDef] uvedl[pawn_pronoun] ke cryptospánku</li>
+    <li>image->[pawn_nameFull] leží v cryptospánkové komoře, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] otevírá prázdnou cryptospánkovou komoru, přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] zavírá uvnitř cryptospánkové komory, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] sleduje skrze sklo cryptospánkové komory svět, který se chystá opustit, přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->je zahlcen[pawn_pronoun] myšlenkami</li>
+    <li>circumstance_phrase->zároveň zírá do dálky, kde se nachází [terrainfeature]</li>
+    <li>circumstance_phrase->si zároveň něco pro sebe mumlá</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
+    <li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], se blíží k této oblasti.</li>
+    <li>desc_sentence->[pawn_nameShortDef] ze sebe vyzařuje odhodlanost.</li>
+    <li>desc_sentence->[pawn_nameShortDef] je viditelně zraněn[pawn_pronoun].</li>
+    <li>desc_sentence->V pozadí září [color]á polární záře.</li>
+    <li>desc_sentence->[quantity_adjphrase] již zabraných cryptospánkových komor obklopuje tuto scénu.</li>
+  </EnteredCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill -->
   <GainedMasterSkillWithoutPassion.label>získání mistrovské dovednostní úrovně</GainedMasterSkillWithoutPassion.label>
-	<GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak se [pawn_nameShortDef] stal[pawn_pronoun] mistrem v dovednosti [skill_label]</li>
-		<li>image->[pawn_nameFull] trénuje dovednost [skill_label], přičemž [circumstance_group]</li>
-		<li>image->si [pawn_nameFull] čte tlustospis k dovednosti [skill_label], přičemž [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] školí na dovednost [skill_label], přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] horečně pracuje, přičemž [circumstance_group]</li>
-		<li>image->[pawn_nameFull] dokončuje projekt, přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->celé [pawn_possessive] tělo je zpocené</li>
-		<li>circumstance_phrase->vypadá docela unaveně</li>
-		<li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
-		<li>circumstance_phrase->má unuděný výraz ve své tváři</li>
-		<li>desc_sentence->[quantity_adjphrase] neúspěšných experimentů obklopuje hlavní scénu.</li>
-		<li>desc_sentence->[quantity_adjphrase] knih je roztroušeno kolem hlavní scény.</li>
-		<li>desc_sentence->[pawn_possessive] zkušenosti jsou viditelné na [pawn_possessive] provedené práci.</li>
-		<li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]ů kouká s úžasem na [pawn_possessive] práci.</li>
-		<li>desc_sentence->[quantity_adjphr[quantity_adjphrase] éterických duchů starých mistrů [pawn_objective] sleduje ze shora.</li>
-	</GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training in [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->with a bored expression</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak se [pawn_nameShortDef] stal[pawn_pronoun] mistrem v dovednosti [skill_label]</li>
+    <li>image->[pawn_nameFull] trénuje dovednost [skill_label], přičemž [circumstance_group]</li>
+    <li>image->si [pawn_nameFull] čte tlustospis k dovednosti [skill_label], přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] školí na dovednost [skill_label], přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] horečně pracuje, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] dokončuje projekt, přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->celé [pawn_possessive] tělo je zpocené</li>
+    <li>circumstance_phrase->vypadá docela unaveně</li>
+    <li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->má unuděný výraz ve své tváři</li>
+    <li>desc_sentence->[quantity_adjphrase] neúspěšných experimentů obklopuje hlavní scénu.</li>
+    <li>desc_sentence->[quantity_adjphrase] knih je roztroušeno kolem hlavní scény.</li>
+    <li>desc_sentence->[pawn_possessive] zkušenosti jsou viditelné na [pawn_possessive] provedené práci.</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů kouká s úžasem na [pawn_possessive] práci.</li>
+    <li>desc_sentence->[quantity_adjphr[quantity_adjphrase] éterických duchů starých mistrů [pawn_objective] sleduje ze shora.</li>
+  </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill with passion -->
+  <GainedMasterSkillWithPassion.label>získání mistrovské dovednostní úrovně se spalující vášní</GainedMasterSkillWithPassion.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training for [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->with a joyous expression</li>
+    <li>circumstance_phrase->while [VerbFriendly]</li>
+    <li>circumstance_phrase->with an exuberant shout</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>desc_sentence->The subject is surrounded by the results of [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The subject is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithPassion.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak se [pawn_nameShortDef] stal[pawn_pronoun] mistrem v dovednosti [skill_label]</li>
+    <li>image->[pawn_nameFull] trénuje dovednost [skill_label], přičemž [circumstance_group]</li>
+    <li>image->si [pawn_nameFull] čte tlustospis k dovednosti [skill_label], přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] školí na dovednosti [skill_label], přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] horečně pracuje, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] dokončuje projekt, přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->má [friendlyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->má radostný výraz ve své tváři</li>
+    <li>circumstance_phrase->má [friendlyverb]ý úsměv</li>
+    <li>circumstance_phrase->předvádí dosti bujarý křik</li>
+    <li>circumstance_phrase->celé [pawn_possessive] tělo je zpocené</li>
+    <li>circumstance_phrase->vypadá docela unaveně</li>
+    <li>desc_sentence->[quantity_adjphrase] neúspěšných experimentů obklopuje hlavní scénu.</li>
+    <li>desc_sentence->[quantity_adjphrase] knih je roztroušeno kolem hlavní scény.</li>
+    <li>desc_sentence->[pawn_possessive] zkušenosti jsou viditelné na [pawn_possessive] provedené práci.</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], hledí s úžasem na [pawn_possessive] práci.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů kouká s úžasem na [pawn_possessive] práci.</li>
+    <li>desc_sentence->[quantity_adjphrase] éterických duchů starých mistrů [pawn_objective] sleduje ze shora.</li>
+  </GainedMasterSkillWithPassion.rulePack.rulesStrings>
+  
+  <!-- EN: increased menagerie -->
   <IncreasedMenagerie.label>zvětšení zvěřince</IncreasedMenagerie.label>
-	<IncreasedMenagerie.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [human_nameShortDef] rekrutoval[human_pronoun] další zvíře do své rozrůstající se [animalgroup]y</li>
-		<li>tale_noun->tom, jak [human_nameShortDef] nabíral[human_pronoun] další zvíře do své rozrůstající se [animalgroup]y</li>
-		<li>tale_noun->tom, jak [human_nameShortDef] přijmul[human_pronoun] další zvíře do své rozrůstající se [animalgroup]y</li>
-		<li>tale_noun->tom, jak byl[human_pronoun] [human_nameShortDef] obklopen[human_pronoun] svou rozrůstající se [animalgroup]ou</li>
-		<li>tale_noun->tom, jak [human_nameShortDef] ochočoval[human_pronoun] zvíře, kterým je [animal_nameShortDef]</li>
-		<li>image->[human_nameFull] ochočuje zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
-		<li>image->[human_nameFull] nabízí kousek jídla zvířeti, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
-		<li>image->[human_nameFull] šeptá na plaché zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
-		<li>image->[human_nameFull] uklidňuje divoké zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
-		<li>circumstance_phrase->se snaží velmi opatrně přibližovat</li>
-		<li>circumstance_phrase->se na zvíře usmívá</li>
-		<li>circumstance_phrase->vypadá vyčerpaně, ale šťastně</li>
-		<li>circumstance_phrase->má za sebou svou [animalgroup]u zvířat</li>
-		<li>desc_sentence->[human_nameShortDef] je obklopen[human_pronoun] nespočetným množstvím [animal]ů.</li>
-		<li>desc_sentence->[animal_nameShortDef] se přibližuje k místu, kde je [animalgroup]a příbuzných zvířat, aby se k ní zvíře také připojilo.</li>
-		<li>desc_sentence->Hlavní scéna je obklopena velkým množstvím [animal]ů a [animal]ů.</li>
-		<li>desc_sentence->Řada s nespočetným množstvím [animal]ů čeká, až je také [human_nameShortDef] ochočí.</li>
-	</IncreasedMenagerie.rulePack.rulesStrings>
-
-
-    <!-- BuriedCorpse.label - zatim hazi ve hre chybu, nebot autori maji spatne nadefinovane 0.18.1722 -->
-
-
+  <!-- EN:
+    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->with great care and caution</li>
+    <li>circumstance_phrase->with a smile</li>
+    <li>circumstance_phrase->while exhausted but happy</li>
+    <li>circumstance_phrase->with a [AnimalGroup] in the background</li>
+    <li>desc_sentence->[HUMAN_nameDef] is surrounded by uncountable [Animal]s.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is moving to join a [AnimalGroup] of its kin.</li>
+    <li>desc_sentence->The scene is packed with [Animal]s and [Animal]s.</li>
+    <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
+  -->
+  <IncreasedMenagerie.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [human_nameShortDef] rekrutoval[human_pronoun] další zvíře do své rozrůstající se [animalgroup]y</li>
+    <li>tale_noun->tom, jak [human_nameShortDef] nabíral[human_pronoun] další zvíře do své rozrůstající se [animalgroup]y</li>
+    <li>tale_noun->tom, jak [human_nameShortDef] přijmul[human_pronoun] další zvíře do své rozrůstající se [animalgroup]y</li>
+    <li>tale_noun->tom, jak byl[human_pronoun] [human_nameShortDef] obklopen[human_pronoun] svou rozrůstající se [animalgroup]ou</li>
+    <li>tale_noun->tom, jak [human_nameShortDef] ochočoval[human_pronoun] zvíře, kterým je [animal_nameShortDef]</li>
+    <li>image->[human_nameFull] ochočuje zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
+    <li>image->[human_nameFull] nabízí kousek jídla zvířeti, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
+    <li>image->[human_nameFull] šeptá na plaché zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
+    <li>image->[human_nameFull] uklidňuje divoké zvíře, kterým je [animal_nameFull], přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->se snaží velmi opatrně přibližovat</li>
+    <li>circumstance_phrase->se na zvíře usmívá</li>
+    <li>circumstance_phrase->vypadá vyčerpaně, ale šťastně</li>
+    <li>circumstance_phrase->má za sebou svou [animalgroup]u zvířat</li>
+    <li>desc_sentence->[human_nameShortDef] je obklopen[human_pronoun] nespočetným množstvím [animal]ů.</li>
+    <li>desc_sentence->[animal_nameShortDef] se přibližuje k místu, kde je [animalgroup]a příbuzných zvířat, aby se k ní zvíře také připojilo.</li>
+    <li>desc_sentence->Hlavní scéna je obklopena velkým množstvím [animal]ů a [animal]ů.</li>
+    <li>desc_sentence->Řada s nespočetným množstvím [animal]ů čeká, až je také [human_nameShortDef] ochočí.</li>
+  </IncreasedMenagerie.rulePack.rulesStrings>
+  
+  <!-- EN: meditated -->
+  <Meditated.label>meditace</Meditated.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] meditating</li>
+    <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting quietly, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->with a tranquil smile</li>
+    <li>circumstance_phrase->with a [VerbFriendly] smile</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_pronoun].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Meditated.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] meditoval[pawn_pronoun]</li>
+    <li>image->[pawn_nameFull] sedí pod stromem v [tree]ém lese a [circumstance_group]</li>
+    <li>image->[pawn_nameFull] v tichosti vysedává a [circumstance_group]</li>
+    <li>image->[pawn_nameFull] hledí do dálky a [circumstance_group]</li>
+    <li>image->[pawn_nameFull] zavírá své oči a [circumstance_group]</li>
+    <li>circumstance_phrase->kolem sebe vyzařuje klid</li>
+    <li>circumstance_phrase->poklidně se usmívá</li>
+    <li>circumstance_phrase->má [friendlyverb]ý úsměv</li>
+    <li>circumstance_phrase->[pawn_possessive] postava mírně září</li>
+    <li>circumstance_phrase->je obklopen[pawn_pronoun] [color]ou aurou</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si [pawn_objective] prohlíží.</li>
+    <li>desc_sentence->Obklopuje [pawn_objective] [quantity_adjphrase] [animal]ů.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů poklidně odpočívá.</li>
+    <li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], je šokováno z této děsivé scény.</li>
+  </Meditated.rulePack.rulesStrings>
+  
+  <!-- EN: mined valuable -->
+  <MinedValuable.label>těžba žíly bohaté na surovinu</MinedValuable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] holding up a chunk of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] resting against a wall of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordinating an excavation team against a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] carefully inspecting a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>circumstance_phrase->sweating heavily</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->smiling proudly</li>
+    <li>circumstance_phrase->a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s assist.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
+    <li>desc_sentence->There is a [Community] in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
+    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <MinedValuable.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] těžil[pawn_pronoun] žílu bohatou na [material_label]</li>
+    <li>image->[pawn_nameFull] pracuje se svými těžebními nástroji na kusu kamene obsahující [material_label], přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] drží kus kamene obsahující [material_label], přičemž [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] opírá o kus kamene obsahující [material_label], přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] koordinuje výkopový tým na těžbu žíly bohaté na [material_label], přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] pečlivě prohlíží žílu bohatou na [material_label], přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->se ohromně potí</li>
+    <li>circumstance_phrase->má [friendlyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->má [friendlyadjective]ý výraz</li>
+    <li>circumstance_phrase->se hlasitě směje</li>
+    <li>circumstance_phrase->má spokojený výraz ve své tváři</li>
+    <li>desc_sentence->Asistuje tomu [quantity_adjphrase] spojenců. Jsou to známí [ally].</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů se poklidně prochází kolem.</li>
+    <li>desc_sentence->V dálce je vidět [community].</li>
+    <li>desc_sentence->[quantity_adjphrase] dalších žil je vidět v dálce.</li>
+    <li>desc_sentence->V dáli je vidět [terrainfeature].</li>
+    <li>desc_sentence->[pawn_nameShortDef] má od práce zpocené a zašpiněné celé tělo.</li>
+  </MinedValuable.rulePack.rulesStrings>
+  
+  <!-- EN: played game -->
+  <PlayedGame.label>hraní hry</PlayedGame.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] waiting in a chair, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting next to the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] winning at a [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] losing at a [OBJECT_label], [circumstance_group]</li>
+    <li>circumstance_phrase->tense with energy</li>
+    <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
+    <li>circumstance_phrase->planning [PAWN_possessive] next action</li>
+    <li>circumstance_phrase->gently massaging [PAWN_possessive] wrists</li>
+    <li>circumstance_phrase->[angstyverb] with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is visible.</li>
+    <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are playing as well.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+    <li>desc_sentence->[PAWN_nameDef] is glowing with a [Color] aura.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s features are exaggerated.</li>
+    <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
+  -->
+  <PlayedGame.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] použil[pawn_pronoun] [object_label] k relaxaci</li>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] použil[pawn_pronoun] [object_label] ke hraní her</li>
+    <li>image->[pawn_nameFull] čeká v křesle [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] naklání nad [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] sedí [circumstance_group]</li>
+    <li>image->[pawn_nameFull] vyhrává [circumstance_group]</li>
+    <li>image->[pawn_nameFull] prohrává [circumstance_group]</li>
+    <li>circumstance_phrase->a přitom docela srší energií</li>
+    <li>circumstance_phrase->a přitom kypí naprosto klidným výrazem</li>
+    <li>circumstance_phrase->a přitom plánuje svůj další postup</li>
+    <li>circumstance_phrase->a přitom si lehce masíruje svá zápěstí</li>
+    <li>circumstance_phrase->a přitom má [angstyverb]ě [angstyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->a přitom zírá [angstyadjective]ým pohledem</li>
+    <li>circumstance_phrase->a přitom se tváří [angstyverb]ě</li>
+    <li>desc_sentence->V pozadí září [color]á polární záře.</li>
+    <li>desc_sentence->V dálce je dobře vidět [community].</li>
+    <li>desc_sentence->V dálce je dobře vidět [terrainfeature].</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], také hrají nějaké hry.</li>
+    <li>desc_sentence->Nedaleko si hraje [quantity_adjphrase] [animal]ů.</li>
+    <li>desc_sentence->[pawn_nameShortDef] září díky [color]é auře, kterou má kolem svého těla.</li>
+    <li>desc_sentence->[pawn_nameShortDef] při hře používá rafinované triky.</li>
+    <li>desc_sentence->[pawn_nameShortDef] se tyčí nad celou scénou.</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], se zhroutili po tvrdé porážce.</li>
+  </PlayedGame.rulePack.rulesStrings>
+  
+  <!-- EN: prayed -->
+  <Prayed.label>modlitba</Prayed.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] praying</li>
+    <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clasping [PAWN_possessive] hands and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking into the sky and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->whispering softly</li>
+    <li>circumstance_phrase->wearing a hopeful expression</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_pronoun].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Prayed.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak se [pawn_nameShortDef] modlil[pawn_pronoun]</li>
+    <li>tale_noun->tom, jak se [pawn_nameShortDef] modlil[pawn_pronoun] k vyšší moci</li>
+    <li>image->[pawn_nameFull] hledí do dálky a [circumstance_group]</li>
+    <li>image->[pawn_nameFull] zavírá své oči a [circumstance_group]</li>
+    <li>image->[pawn_nameFull] spíná své ruce a [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] dívá směrem k nebi a [circumstance_group]</li>
+    <li>circumstance_phrase->kolem sebe vyzařuje klid</li>
+    <li>circumstance_phrase->v tichosti si něco mumlá</li>
+    <li>circumstance_phrase->má nadějný výraz ve své tváři</li>
+    <li>circumstance_phrase->[pawn_possessive] postava mírně září</li>
+    <li>circumstance_phrase->je obklopen[pawn_pronoun] [color]ou aurou</li>
+    <li>desc_sentence->[quantity_adjphrase] osob, kterými jsou [outlander], si [pawn_objective] prohlíží.</li>
+    <li>desc_sentence->Obklopuje [pawn_objective] [quantity_adjphrase] [animal]ů.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů poklidně odpočívá.</li>
+    <li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], je šokováno z této děsivé scény.</li>
+  </Prayed.rulePack.rulesStrings>
+  
+  <!-- EN: put into cryptosleep -->
+  <PutIntoCryptosleep.label>uvedení někoho do cryptospánku</PutIntoCryptosleep.label>
+  <!-- EN:
+    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
+    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] opening an empty cryptosleep casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
+    <li>circumstance_phrase(p=3)->with a [AdjectiveAny] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->with visible tension between the two</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[CARRIER_nameDef] radiates determination.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] looks exhausted.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <PutIntoCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] uložil[pawn_pronoun] bytost, kterou je [sleeper_nameShortDef], do cryptospánkové komory</li>
+    <li>image->[pawn_nameFull] vkládá bytost, kterou je [sleeper_nameShortDef], do cryptospánkové komory, přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] otevírá prázdnou cryptospánkovou komoru pro bytost, kterou je [sleeper_nameShortDef], přičemž [circumstance_group]</li>
+    <li>image->[pawn_nameFull] zavírá bytost, kterou je [sleeper_nameShortDef], uvnitř cryptospánkové komory, přičemž [circumstance_group]</li>
+    <li>image->[sleeper_nameShortDef] pozoruje skrze okno cryptospánkové komory, jak se [pawn_nameFull] vzdaluje pryč, přičemž [circumstance_group]</li>
+    <li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->má [friendlyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->má [badassadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->je [pawn_nameShortDef] zahlcen[pawn_pronoun] myšlenkami</li>
+    <li>circumstance_phrase->zároveň zírá do dálky, kde se nachází [terrainfeature]</li>
+    <li>circumstance_phrase->je mezi nima viditelné napětí</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
+    <li>desc_sentence->[quantity_adjphrase] nepřátel, kterými jsou [enemy], se blíží k této oblasti.</li>
+    <li>desc_sentence->[pawn_nameShortDef] ze sebe vyzařuje odhodlanost.</li>
+    <li>desc_sentence->Obloha je šedá a zamračená.</li>
+    <li>desc_sentence->[sleeper_nameShortDef] je viditelně zraněn[pawn_pronoun].</li>
+    <li>desc_sentence->[sleeper_nameShortDef] vypadá vyčerpaně.</li>
+    <li>desc_sentence->V pozadí září [color]á polární záře.</li>
+    <li>desc_sentence->[quantity_adjphrase] již zabraných cryptospánkových komor obklopuje tuto scénu.</li>
+  </PutIntoCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: stripped -->
+  <Stripped.label>svlečení</Stripped.label>
+  <!-- EN:
+    <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
+    <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] removing the clothes of [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] holding an armful of [Apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [STRIPPED_possessive] clothes [circumstance_group]</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is fondling a shrub.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
+  -->
+  <Stripped.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [stripper_nameShortDef] svklékl[stripper_pronoun] osobu známou jako [stripped_nameShortDef]</li>
+    <li>image->[stripper_nameFull] na veřejném místě svléká osobu jménem [stripped_nameFull][circumstance_group]</li>
+    <li>image->[stripper_nameFull] odstraňuje oblečení z osoby jménem [stripped_nameFull][circumstance_group]</li>
+    <li>image->[stripper_nameFull] drží v náruči různé oblečení, kde jedním z nich je [apparel]. Hned naproti pak stojí svlečená osoba [stripped_nameFull][circumstance_group]</li>
+    <li>image->[stripper_nameFull] trpělivě čeká, než si [stripped_nameFull] svlékne své veškeré oblečení[circumstance_group]</li>
+    <li>circumstance_phrase->, a to z neznámému důvodu</li>
+    <li>circumstance_phrase-> bez náznaku hanby</li>
+    <li>circumstance_phrase->, zatímco jiní se dívají</li>
+    <li>circumstance_phrase->, a to bez zjevného důvodu</li>
+    <li>circumstance_phrase->, zatímco zmatená zvířata koukají opodál</li>
+    <li>desc_sentence->[stripped_nameShortDef] srší viditelným vzrušením.</li>
+    <li>desc_sentence->[stripped_nameShortDef] má tělo pokryté nevysvětlitelnou vlhkostí.</li>
+    <li>desc_sentence->[stripped_nameShortDef] intenzivně dýchá bez zjevného důvodu.</li>
+    <li>desc_sentence->[stripped_nameShortDef] si hladí houští.</li>
+    <li>desc_sentence->[stripped_nameShortDef] má [angstyadjective]ý výraz ve své tváři.</li>
+  </Stripped.rulePack.rulesStrings>
+  
+  <!-- EN: visited grave -->
+  <VisitedGrave.label>návštěva hrobu</VisitedGrave.label>
+  <!-- EN:
+    <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
+    <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
+    <li>image->[VISITOR_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] reading the text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] looking at the art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <VisitedGrave.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] navštívil[pawn_pronoun] hrob s vyrytým jménem [corpse_nameShortDef]</li>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] navštívil[pawn_pronoun] hrob, na kterém je vyryté jméno [corpse_nameShortDef]</li>
+    <li>image->[pawn_nameFull] stojí vedle hrobu, ve kterém je pochován[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->[pawn_nameFull] sedí vedle hrobu, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] naklání nad hrob, ve kterém je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->si [pawn_nameFull] čte epitaf na náhrobku, pod kterým je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>image->si [pawn_nameFull] prohlíží umělecky zpracovaný pomník, u kterého je pohřben[corpse_pronoun] [corpse_nameFull], a přitom [circumstance_group]</li>
+    <li>circumstance_phrase->má [angstyadjective]ý výraz ve své tváři</li>
+    <li>circumstance_phrase->je zahlcen[pawn_pronoun] myšlenkami</li>
+    <li>circumstance_phrase->zírá do dálky, kde se nachází [terrainfeature]</li>
+    <li>circumstance_phrase->si tiše něco mumlá k pomníku</li>
+    <li>desc_sentence->V pozadí září [color]á polární záře.</li>
+    <li>desc_sentence->V dálce je [community] pokrytá sněhem.</li>
+    <li>desc_sentence->[corpse_nameShortDef], jakožto duch, má na scénu [friendlyadjective]ý výraz.</li>
+    <li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [friendlyadjective]ý výraz.</li>
+    <li>desc_sentence->[corpse_nameShortDef], jakožto duch, zírá na scénu [angstyadjective]ým výrazem v obličeji.</li>
+    <li>desc_sentence->[pawn_nameShortDef] a [corpse_nameShortDef] stojí hned vedle sebe, přičemž je [corpse_nameShortDef] znázorněn[corpse_pronoun] jako duch, který má [angstyadjective]ý výraz.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]ů odpočívá nedaleko hlavní scény.</li>
+  </VisitedGrave.rulePack.rulesStrings>
+  
 </LanguageData>

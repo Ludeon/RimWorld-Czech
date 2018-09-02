@@ -1,73 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Pure stuffs: Basics -->
-
-  <Silver.label>stříbro</Silver.label>
-  <Silver.description>Tento kov se většinou používá jako komoditní měna. Může se také použít k výrobě dekorativních předmětů.</Silver.description>
-  <Silver.stuffProps.stuffAdjective>ze stříbra</Silver.stuffProps.stuffAdjective>
-
-  <Gold.label>zlato</Gold.label>
-  <Gold.description>Nejsvůdnější ze všech kovů je právě zlato. Ačkoliv je příliš měkké, nemá mnoho praktických využití, ale zato je překvapivě krásné a nikdy neztratí lesk. Zemřely miliony lidí při pokusech zahnat nekonečnou žízeň po zlatě.</Gold.description>
-  <Gold.stuffProps.stuffAdjective>ze zlata</Gold.stuffProps.stuffAdjective>
-
-  <Steel.label>ocel</Steel.label>
-  <Steel.description>Kovová slitina železa a uhlíku, která se využívá při výstavbě různých druhů konstrukcí a při výrobě zbraní a strojů.</Steel.description>
-  <Steel.stuffProps.stuffAdjective>z ocele</Steel.stuffProps.stuffAdjective>
-
-  <Plasteel.label>plastocel</Plasteel.label>
-  <Plasteel.description>Technologicky pokročilý konstrukční materiál, který je určený převážně pro vesmírné účely. Plastocel je díky své jedinečné molekulární struktuře extrémně silná.</Plasteel.description>
-  <Plasteel.stuffProps.stuffAdjective>z plastocele</Plasteel.stuffProps.stuffAdjective>
-
-  <WoodLog.label>dřevo</WoodLog.label>
-  <WoodLog.description>Dřevo ze stromů nebo jiných vláknitých rostlin. Je užitečné při výstavbě konstrukcí a při výrobě zbraní. Také se hodí jako tuhé palivo pro ohniště a generátory, a může být rafinací přeměněno na chemické palivo. V případě nouze se dá dřevo využít jako zbraň nebo náhrada nohy.</WoodLog.description>
-  <WoodLog.stuffProps.stuffAdjective>ze dřeva</WoodLog.stuffProps.stuffAdjective>
-
-  <Uranium.label>uran</Uranium.label>
-  <Uranium.description>Tmavý těžký kov. I přes jeho velmi známé využití jako palivo v jaderných zařízeních, jeho extrémní hustota a tvrdost z něj dělají dobrý materiál pro výrobu některých primitivních zbraní a zbrojí.</Uranium.description>
-  <Uranium.stuffProps.stuffAdjective>z uranu</Uranium.stuffProps.stuffAdjective>
-
-  <Jade.label>jadeit</Jade.label>
-  <Jade.description>Tvrdý zelený kámen. Kvůli své kráse a vzácnosti se jadeit často využívá k výrobě ozdob a dekorací. Jeho tvrdost a hustota z něj dělají dobrý materiál pro tupé zbraně.</Jade.description>
-  <Jade.stuffProps.stuffAdjective>z jadeitu</Jade.stuffProps.stuffAdjective>
-
-
-  <!-- Pure stuffs: Fabric, leather, etc -->
-
+  
+  <!-- EN: cloth -->
   <Cloth.label>látka</Cloth.label>
+  <!-- EN: Cloth woven from organic fibers. -->
   <Cloth.description>Látka utkaná z organických vláken.</Cloth.description>
   <Cloth.stuffProps.stuffAdjective>z látky</Cloth.stuffProps.stuffAdjective>
-
-  <Synthread.label>syntetické vlákno</Synthread.label>
-  <Synthread.description>Syntetická tkanina určená k výrobě běžných oděvů. Je měkká, lehká, pevná a dobře izoluje.</Synthread.description>
-  <Synthread.stuffProps.stuffAdjective>ze syntetického vlákna</Synthread.stuffProps.stuffAdjective>
-
+  
+  <!-- EN: devilstrand -->
   <DevilstrandCloth.label>ďáblovo vlákno</DevilstrandCloth.label>
+  <!-- EN: Fabric spun from microfibers extracted from devilstrand mushrooms. It is very tough, good at insulating, and protects exceptionally well against flame. -->
   <DevilstrandCloth.description>Látka spředená z mikrovláken extrahovaných z ďáblových hub. Je velice odolná, dobře izoluje a obzvláště dobře chrání před plameny.</DevilstrandCloth.description>
   <DevilstrandCloth.stuffProps.stuffAdjective>z ďáblova vlákna</DevilstrandCloth.stuffProps.stuffAdjective>
-
+  
+  <!-- EN: gold -->
+  <Gold.label>zlato</Gold.label>
+  <!-- EN: The most seductive metal of them all. While it is too soft to be of much practical use, it is strikingly beautiful and never tarnishes. Millions have died in attempting to feed the endless human thirst for gold. -->
+  <Gold.description>Nejsvůdnější ze všech kovů je právě zlato. Ačkoliv je příliš měkké, nemá mnoho praktických využití, ale zato je překvapivě krásné a nikdy neztratí lesk. Zemřely miliony lidí při pokusech zahnat nekonečnou žízeň po zlatě.</Gold.description>
+  <!-- EN: golden -->
+  <Gold.stuffProps.stuffAdjective>ze zlata</Gold.stuffProps.stuffAdjective>
+  
+  <!-- EN: hyperweave -->
   <Hyperweave.label>nanovlákno</Hyperweave.label>
+  <!-- EN: Nano-fibers woven into sheets molecule-by-molecule using specialized production mechanites. While it flexes freely most of the time, it stiffens to absorb blows as they land, and is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures. -->
   <Hyperweave.description>Nanovlákna utkaná z molekuly na molekulu využitím speciálních výrobních mechanitů. Ačkoliv při běžném nošení volně plandá, tak při nárazu ztuhne a absorbuje určité škody, což znamená, že je neuvěřitelně těžké tuto tkaninu prolomit. Tajemství jeho výroby je známo pouze těm nejpokročilejším kulturám vyspělých světů.</Hyperweave.description>
   <Hyperweave.stuffProps.stuffAdjective>z nanovlákna</Hyperweave.stuffProps.stuffAdjective>
-
-
-  <!-- Wool -->
-
-  <WoolMegasloth.label>lenochodí vlna</WoolMegasloth.label>
-  <WoolMegasloth.description>I když je poněkud hrubá, tak její dlouhá vlákna jsou velice pevná. Je také mimořádně teplá.</WoolMegasloth.description>
-  <WoolMegasloth.stuffProps.stuffAdjective>z lenochodí vlny</WoolMegasloth.stuffProps.stuffAdjective>
-
-  <WoolMuffalo.label>můvolí vlna</WoolMuffalo.label>
-  <WoolMuffalo.description>Hebká, lehká a poskytuje velmi dobrou izolaci. Oblečení z můvolí vlny dokáže tělo udržet v teple i za velmi chladných podmínek.</WoolMuffalo.description>
-  <WoolMuffalo.stuffProps.stuffAdjective>z můvolí vlny</WoolMuffalo.stuffProps.stuffAdjective>
-
-  <WoolCamel.label>velbloudí vlna</WoolCamel.label>
-  <WoolCamel.description>Oblečení z velbloudí vlny obvykle nosí poutníci v poušti, aby se chránili před horkem. Díky svým termostatickým vlastnostem poskytuje vynikající tepelnou izolaci.</WoolCamel.description>
-  <WoolCamel.stuffProps.stuffAdjective>z velbloudí vlny</WoolCamel.stuffProps.stuffAdjective>
-
+  
+  <!-- EN: jade -->
+  <Jade.label>jadeit</Jade.label>
+  <!-- EN: A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. Its hardness and density also makes it a good material for blunt weapons. -->
+  <Jade.description>Tvrdý zelený kámen. Kvůli své kráse a vzácnosti se jadeit často využívá k výrobě ozdob a dekorací. Jeho tvrdost a hustota z něj dělají dobrý materiál pro tupé zbraně.</Jade.description>
+  <Jade.stuffProps.stuffAdjective>z jadeitu</Jade.stuffProps.stuffAdjective>
+  
+  <!-- EN: plasteel -->
+  <Plasteel.label>plastocel</Plasteel.label>
+  <!-- EN: Advanced spacer tech structural material. Plasteel is extremely strong due to its unique molecular structure. -->
+  <Plasteel.description>Technologicky pokročilý konstrukční materiál, který je určený převážně pro vesmírné účely. Plastocel je díky své jedinečné molekulární struktuře extrémně silná.</Plasteel.description>
+  <Plasteel.stuffProps.stuffAdjective>z plastocele</Plasteel.stuffProps.stuffAdjective>
+  
+  <!-- EN: silver -->
+  <Silver.label>stříbro</Silver.label>
+  <!-- EN: This metal is mostly used as a commodity currency. It can also be used for making decorations. -->
+  <Silver.description>Tento kov se většinou používá jako komoditní měna. Může se také použít k výrobě dekorativních předmětů.</Silver.description>
+  <Silver.stuffProps.stuffAdjective>ze stříbra</Silver.stuffProps.stuffAdjective>
+  
+  <!-- EN: steel -->
+  <Steel.label>ocel</Steel.label>
+  <!-- EN: An iron-carbon metal alloy used for building a huge variety of structures, weapons, and machines. -->
+  <Steel.description>Kovová slitina železa a uhlíku, která se využívá při výstavbě různých druhů konstrukcí a při výrobě zbraní a strojů.</Steel.description>
+  <Steel.stuffProps.stuffAdjective>z ocele</Steel.stuffProps.stuffAdjective>
+  
+  <!-- EN: synthread -->
+  <Synthread.label>syntetické vlákno</Synthread.label>
+  <!-- EN: Spacer-tech synthetic fabric designed for making ordinary clothes. It is soft, light, strong, and insulates well. -->
+  <Synthread.description>Syntetická tkanina určená k výrobě běžných oděvů. Je měkká, lehká, pevná a dobře izoluje.</Synthread.description>
+  <Synthread.stuffProps.stuffAdjective>ze syntetického vlákna</Synthread.stuffProps.stuffAdjective>
+  
+  <!-- EN: uranium -->
+  <Uranium.label>uran</Uranium.label>
+  <!-- EN: An dark, heavy metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain weapons, armor, and ammunition. -->
+  <Uranium.description>Tmavý těžký kov. I přes jeho velmi známé využití jako palivo v jaderných zařízeních, jeho extrémní hustota a tvrdost z něj dělají dobrý materiál pro výrobu některých primitivních zbraní a zbrojí.</Uranium.description>
+  <Uranium.stuffProps.stuffAdjective>z uranu</Uranium.stuffProps.stuffAdjective>
+  
+  <!-- EN: wood -->
+  <WoodLog.label>dřevo</WoodLog.label>
+  <!-- EN: Wood from trees or other fibrous plants. Useful for building structures and weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a piece of wood can be used as a weapon or a leg. -->
+  <WoodLog.description>Dřevo ze stromů nebo jiných vláknitých rostlin. Je užitečné při výstavbě konstrukcí a při výrobě zbraní. Také se hodí jako tuhé palivo pro ohniště a generátory, a může být rafinací přeměněno na chemické palivo. V případě nouze se dá dřevo využít jako zbraň nebo náhrada nohy.</WoodLog.description>
+  <!-- EN: wooden -->
+  <WoodLog.stuffProps.stuffAdjective>ze dřeva</WoodLog.stuffProps.stuffAdjective>
+  <!-- EN: log -->
+  <WoodLog.tools.log.label>TODO</WoodLog.tools.log.label>
+  
+  <!-- EN: alpaca wool -->
   <WoolAlpaca.label>alpačí vlna</WoolAlpaca.label>
+  <!-- EN: The remarkably soft wool of an alpaca. It is very warm. -->
   <WoolAlpaca.description>Neuvěřitelně hebká vlna z alpaky. Je velmi teplá.</WoolAlpaca.description>
   <WoolAlpaca.stuffProps.stuffAdjective>z alpačí vlny</WoolAlpaca.stuffProps.stuffAdjective>
-
-
+  
+  <!-- EN: camelhair -->
+  <WoolCamel.label>velbloudí vlna</WoolCamel.label>
+  <!-- EN: Camelhair clothing is usually worn by desert travelers to protect them from the heat. It provides excellent heat insulation due to its thermostatic properties. -->
+  <WoolCamel.description>Oblečení z velbloudí vlny obvykle nosí poutníci v poušti, aby se chránili před horkem. Díky svým termostatickým vlastnostem poskytuje vynikající tepelnou izolaci.</WoolCamel.description>
+  <WoolCamel.stuffProps.stuffAdjective>z velbloudí vlny</WoolCamel.stuffProps.stuffAdjective>
+  
+  <!-- EN: megasloth wool -->
+  <WoolMegasloth.label>lenochodí vlna</WoolMegasloth.label>
+  <!-- EN: While somewhat coarse, megasloth wool's long fibers make it very strong. It is exceptionally warm. -->
+  <WoolMegasloth.description>I když je poněkud hrubá, tak její dlouhá vlákna jsou velice pevná. Je také mimořádně teplá.</WoolMegasloth.description>
+  <WoolMegasloth.stuffProps.stuffAdjective>z lenochodí vlny</WoolMegasloth.stuffProps.stuffAdjective>
+  
+  <!-- EN: muffalo wool -->
+  <WoolMuffalo.label>můvolí vlna</WoolMuffalo.label>
+  <!-- EN: Soft, light and provides very good insulation. Muffalo wool clothes can keep the body warm even in very cold conditions. -->
+  <WoolMuffalo.description>Hebká, lehká a poskytuje velmi dobrou izolaci. Oblečení z můvolí vlny dokáže tělo udržet v teple i za velmi chladných podmínek.</WoolMuffalo.description>
+  <WoolMuffalo.stuffProps.stuffAdjective>z můvolí vlny</WoolMuffalo.stuffProps.stuffAdjective>
+  
 </LanguageData>

@@ -1,53 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Common to various mechanoids -->
-
-  <MechanicalNeck.label>krk</MechanicalNeck.label>
-  <MechanicalHead.label>hlava</MechanicalHead.label>
+  
+  <!-- EN: artificial brain -->
   <ArtificialBrain.label>umělý mozek</ArtificialBrain.label>
-  <Reactor.label>reaktor</Reactor.label>
-  <FluidReprocessor.label>cirkulační zařízení</FluidReprocessor.label>
-  <SightSensor.label>senzor zraku</SightSensor.label>
-  <HearingSensor.label>senzor sluchu</HearingSensor.label>
-  <SmellSensor.label>seznor čichu</SmellSensor.label>
-  <MechanicalShoulder.label>rameno</MechanicalShoulder.label>
-  <MechanicalArm.label>paže</MechanicalArm.label>
-  <MechanicalHand.label>ruka</MechanicalHand.label>
-  <MechanicalFinger.label>prst</MechanicalFinger.label>
-  <MechanicalLeg.label>noha</MechanicalLeg.label>
-  <MechanicalFoot.label>chodidlo</MechanicalFoot.label>
-
-
-  <!-- Human-like specific (lancer, scyther) -->
-
-  <MechanicalThorax.label>torax</MechanicalThorax.label>
-
-
-  <!-- Scyther specific -->
-
+  
+  <!-- EN: blade -->
   <Blade.label>čepel</Blade.label>
-
-
-  <!-- Centipede specific -->
-
-  <MechanicalCentipedeBodyFirstRing.label>první článek</MechanicalCentipedeBodyFirstRing.label>
-  <MechanicalCentipedeBodyFirstRing.labelShort>článek</MechanicalCentipedeBodyFirstRing.labelShort>
-
-  <MechanicalCentipedeBodySecondRing.label>druhý článek</MechanicalCentipedeBodySecondRing.label>
-  <MechanicalCentipedeBodySecondRing.labelShort>článek</MechanicalCentipedeBodySecondRing.labelShort>
-
-  <MechanicalCentipedeBodyThirdRing.label>třetí článek</MechanicalCentipedeBodyThirdRing.label>
-  <MechanicalCentipedeBodyThirdRing.labelShort>článek</MechanicalCentipedeBodyThirdRing.labelShort>
-
-  <MechanicalCentipedeBodyFourthRing.label>čtvrtý článek</MechanicalCentipedeBodyFourthRing.label>
-  <MechanicalCentipedeBodyFourthRing.labelShort>článek</MechanicalCentipedeBodyFourthRing.labelShort>
-
+  
+  <!-- EN: fluid reprocessor -->
+  <FluidReprocessor.label>cirkulační zařízení</FluidReprocessor.label>
+  
+  <!-- EN: sound sensor -->
+  <HearingSensor.label>senzor sluchu</HearingSensor.label>
+  
+  <!-- EN: arm -->
+  <MechanicalArm.label>paže</MechanicalArm.label>
+  
+  <!-- EN: fifth body ring -->
   <MechanicalCentipedeBodyFifthRing.label>pátý článek</MechanicalCentipedeBodyFifthRing.label>
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodyFifthRing.labelShort>článek</MechanicalCentipedeBodyFifthRing.labelShort>
-
+  
+  <!-- EN: first body ring -->
+  <MechanicalCentipedeBodyFirstRing.label>první článek</MechanicalCentipedeBodyFirstRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFirstRing.labelShort>článek</MechanicalCentipedeBodyFirstRing.labelShort>
+  
+  <!-- EN: fourth body ring -->
+  <MechanicalCentipedeBodyFourthRing.label>čtvrtý článek</MechanicalCentipedeBodyFourthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFourthRing.labelShort>článek</MechanicalCentipedeBodyFourthRing.labelShort>
+  
+  <!-- EN: second body ring -->
+  <MechanicalCentipedeBodySecondRing.label>druhý článek</MechanicalCentipedeBodySecondRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySecondRing.labelShort>článek</MechanicalCentipedeBodySecondRing.labelShort>
+  
+  <!-- EN: sixth body ring -->
   <MechanicalCentipedeBodySixthRing.label>šestý článek</MechanicalCentipedeBodySixthRing.label>
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodySixthRing.labelShort>článek</MechanicalCentipedeBodySixthRing.labelShort>
-
-
+  
+  <!-- EN: third body ring -->
+  <MechanicalCentipedeBodyThirdRing.label>třetí článek</MechanicalCentipedeBodyThirdRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyThirdRing.labelShort>článek</MechanicalCentipedeBodyThirdRing.labelShort>
+  
+  <!-- EN: finger -->
+  <MechanicalFinger.label>prst</MechanicalFinger.label>
+  
+  <!-- EN: foot -->
+  <MechanicalFoot.label>chodidlo</MechanicalFoot.label>
+  
+  <!-- EN: hand -->
+  <MechanicalHand.label>ruka</MechanicalHand.label>
+  
+  <!-- EN: head -->
+  <MechanicalHead.label>hlava</MechanicalHead.label>
+  
+  <!-- EN: leg -->
+  <MechanicalLeg.label>noha</MechanicalLeg.label>
+  
+  <!-- EN: neck -->
+  <MechanicalNeck.label>krk</MechanicalNeck.label>
+  
+  <!-- EN: shoulder -->
+  <MechanicalShoulder.label>rameno</MechanicalShoulder.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThorax.label>torax</MechanicalThorax.label>
+  
+  <!-- EN: reactor -->
+  <Reactor.label>reaktor</Reactor.label>
+  
+  <!-- EN: visual sensor -->
+  <SightSensor.label>senzor zraku</SightSensor.label>
+  
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>seznor čichu</SmellSensor.label>
+  
 </LanguageData>

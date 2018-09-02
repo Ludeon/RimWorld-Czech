@@ -1,79 +1,145 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Item hauling -->
-
-  <HaulToCell.reportString>přenáší: TargetA</HaulToCell.reportString>
-  <HaulToContainer.reportString>přenáší: TargetA</HaulToContainer.reportString>
-
-
-  <!-- Special hauling -->
-
-  <Steal.reportString>krade: TargetA</Steal.reportString>
-  <Kidnap.reportString>unáší: TargetA</Kidnap.reportString>
-  <CarryDownedPawnToExit.reportString>odnáší: TargetA</CarryDownedPawnToExit.reportString>
-
-
-  <!-- Pawn hauling -->
-
-  <Rescue.reportString>zachraňuje: TargetA</Rescue.reportString>
-  <CarryToCryptosleepCasket.reportString>přenáší do cryptospánkové komory: TargetA</CarryToCryptosleepCasket.reportString>
-  <Capture.reportString>zajímá: TargetA</Capture.reportString>
+  
+  <!-- EN: arresting TargetA. -->
   <Arrest.reportString>zatýká: TargetA</Arrest.reportString>
-  <ReleasePrisoner.reportString>propouští: TargetA</ReleasePrisoner.reportString>
-  <EscortPrisonerToBed.reportString>eskortuje vězně: TargetA</EscortPrisonerToBed.reportString>
-  <TakeWoundedPrisonerToBed.reportString>ošetřuje zraněného vězně: TargetA</TakeWoundedPrisonerToBed.reportString>
-  <TakeToBedToOperate.reportString>přenáší do postele: TargetA</TakeToBedToOperate.reportString>
-
-
-  <!-- Animal handling -->
-
-  <Slaughter.reportString>poráží: TargetA</Slaughter.reportString>
-  <Milk.reportString>dojí: TargetA</Milk.reportString>
-  <Shear.reportString>stříhá: TargetA</Shear.reportString>
-  <Tame.reportString>ochočuje: TargetA</Tame.reportString>
-  <Train.reportString>trénuje: TargetA</Train.reportString>
-
-
-  <!-- Construction and repair -->
-
-  <PlaceNoCostFrame.reportString>připravuje: TargetA</PlaceNoCostFrame.reportString>
-  <FinishFrame.reportString>dokončuje: TargetA</FinishFrame.reportString>
-  <Deconstruct.reportString>rozebírá: TargetA</Deconstruct.reportString>
-  <Uninstall.reportString>odinstalovává: TargetA</Uninstall.reportString>
-  <Repair.reportString>opravuje: TargetA</Repair.reportString>
-  <FixBrokenDownBuilding.reportString>vyměňuje poškozený komponent: TargetA</FixBrokenDownBuilding.reportString>
+  
+  <!-- EN: building roof. -->
   <BuildRoof.reportString>staví střechu.</BuildRoof.reportString>
-  <RemoveRoof.reportString>odstraňuje střechu.</RemoveRoof.reportString>
-
-
-  <!-- Medical -->
-
-  <FeedPatient.reportString>krmí: TargetB (TargetA)</FeedPatient.reportString>
-  <TendPatient.reportString>ošetřuje: TargetA</TendPatient.reportString>
-
-
-  <!-- Misc -->
-
-  <DeliverFood.reportString>krmí: TargetB (TargetA)</DeliverFood.reportString>
-  <DoBill.reportString>vyřizuje objednávku s: TargetA</DoBill.reportString>
-  <OperateDeepDrill.reportString>těží pomocí: TargetA</OperateDeepDrill.reportString>
-  <OperateScanner.reportString>skenuje pomocí: TargetA</OperateScanner.reportString>
+  
+  <!-- EN: capturing TargetA. -->
+  <Capture.reportString>zajímá: TargetA</Capture.reportString>
+  
+  <!-- EN: carrying TargetA. -->
+  <CarryDownedPawnToExit.reportString>odnáší: TargetA</CarryDownedPawnToExit.reportString>
+  
+  <!-- EN: carrying TargetA to cryptosleep casket. -->
+  <CarryToCryptosleepCasket.reportString>přenáší do cryptospánkové komory: TargetA</CarryToCryptosleepCasket.reportString>
+  
+  <!-- EN: cleaning TargetA. -->
   <Clean.reportString>uklízí: TargetA</Clean.reportString>
-  <Research.reportString>provádí výzkum.</Research.reportString>
-  <Hunt.reportString>loví: TargetA</Hunt.reportString>
-  <UseCommsConsole.reportString>používá radiostanici.</UseCommsConsole.reportString>
-  <Mine.reportString>těží: TargetA</Mine.reportString>
-  <SmoothFloor.reportString>vyhlazuje podlahu.</SmoothFloor.reportString>
-  <RemoveFloor.reportString>odstraňuje podlahu.</RemoveFloor.reportString>
-  <SmoothWall.reportString>vyhlazuje stěnu.</SmoothWall.reportString>
-  <Sow.reportString>zasévá: TargetA</Sow.reportString>
-  <Harvest.reportString>sklízí: TargetA</Harvest.reportString>
-  <HarvestDesignated.reportString>sklízí: TargetA</HarvestDesignated.reportString>
+  
+  <!-- EN: cutting TargetA. -->
   <CutPlant.reportString>seká: TargetA</CutPlant.reportString>
+  
+  <!-- EN: cutting TargetA. -->
   <CutPlantDesignated.reportString>seká: TargetA</CutPlantDesignated.reportString>
+  
+  <!-- EN: deconstructing TargetA. -->
+  <Deconstruct.reportString>rozebírá: TargetA</Deconstruct.reportString>
+  
+  <!-- EN: feeding TargetA to TargetB. -->
+  <DeliverFood.reportString>krmí: TargetB (TargetA)</DeliverFood.reportString>
+  
+  <!-- EN: doing bill at TargetA. -->
+  <DoBill.reportString>vyřizuje objednávku s: TargetA</DoBill.reportString>
+  
+  <!-- EN: escorting prisoner TargetA. -->
+  <EscortPrisonerToBed.reportString>eskortuje vězně: TargetA</EscortPrisonerToBed.reportString>
+  
+  <!-- EN: feeding TargetA to TargetB. -->
+  <FeedPatient.reportString>krmí: TargetB (TargetA)</FeedPatient.reportString>
+  
+  <!-- EN: building TargetA. -->
+  <FinishFrame.reportString>dokončuje: TargetA</FinishFrame.reportString>
+  
+  <!-- EN: replacing broken components in TargetA. -->
+  <FixBrokenDownBuilding.reportString>vyměňuje poškozený komponent: TargetA</FixBrokenDownBuilding.reportString>
+  
+  <!-- EN: harvesting TargetA. -->
+  <Harvest.reportString>sklízí: TargetA</Harvest.reportString>
+  
+  <!-- EN: harvesting TargetA. -->
+  <HarvestDesignated.reportString>sklízí: TargetA</HarvestDesignated.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToCell.reportString>přenáší: TargetA</HaulToCell.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToContainer.reportString>přenáší: TargetA</HaulToContainer.reportString>
+  
+  <!-- EN: hunting TargetA. -->
+  <Hunt.reportString>loví: TargetA</Hunt.reportString>
+  
+  <!-- EN: kidnapping TargetA. -->
+  <Kidnap.reportString>unáší: TargetA</Kidnap.reportString>
+  
+  <!-- EN: milking TargetA. -->
+  <Milk.reportString>dojí: TargetA</Milk.reportString>
+  
+  <!-- EN: digging at TargetA. -->
+  <Mine.reportString>těží: TargetA</Mine.reportString>
+  
+  <!-- EN: drilling at TargetA. -->
+  <OperateDeepDrill.reportString>těží pomocí: TargetA</OperateDeepDrill.reportString>
+  
+  <!-- EN: scanning at TargetA. -->
+  <OperateScanner.reportString>skenuje pomocí: TargetA</OperateScanner.reportString>
+  
+  <!-- EN: building TargetA. -->
+  <PlaceNoCostFrame.reportString>připravuje: TargetA</PlaceNoCostFrame.reportString>
+  
+  <!-- EN: attempting to recruit TargetA. -->
   <PrisonerAttemptRecruit.reportString>pokouší se naverbovat: TargetA</PrisonerAttemptRecruit.reportString>
+  
+  <!-- EN: executing TargetA. -->
   <PrisonerExecution.reportString>popravuje: TargetA</PrisonerExecution.reportString>
-
-
+  
+  <!-- EN: releasing TargetA. -->
+  <ReleasePrisoner.reportString>propouští: TargetA</ReleasePrisoner.reportString>
+  
+  <!-- EN: removing floor. -->
+  <RemoveFloor.reportString>odstraňuje podlahu.</RemoveFloor.reportString>
+  
+  <!-- EN: removing roof. -->
+  <RemoveRoof.reportString>odstraňuje střechu.</RemoveRoof.reportString>
+  
+  <!-- EN: repairing TargetA. -->
+  <Repair.reportString>opravuje: TargetA</Repair.reportString>
+  
+  <!-- EN: rescuing TargetA. -->
+  <Rescue.reportString>zachraňuje: TargetA</Rescue.reportString>
+  
+  <!-- EN: researching. -->
+  <Research.reportString>provádí výzkum.</Research.reportString>
+  
+  <!-- EN: shearing TargetA. -->
+  <Shear.reportString>stříhá: TargetA</Shear.reportString>
+  
+  <!-- EN: slaughtering TargetA. -->
+  <Slaughter.reportString>poráží: TargetA</Slaughter.reportString>
+  
+  <!-- EN: smoothing floor. -->
+  <SmoothFloor.reportString>vyhlazuje podlahu.</SmoothFloor.reportString>
+  
+  <!-- EN: smoothing wall. -->
+  <SmoothWall.reportString>vyhlazuje stěnu.</SmoothWall.reportString>
+  
+  <!-- EN: sowing TargetA. -->
+  <Sow.reportString>zasévá: TargetA</Sow.reportString>
+  
+  <!-- EN: stealing TargetA. -->
+  <Steal.reportString>krade: TargetA</Steal.reportString>
+  
+  <!-- EN: taking TargetA to bed. -->
+  <TakeToBedToOperate.reportString>přenáší do postele: TargetA</TakeToBedToOperate.reportString>
+  
+  <!-- EN: taking wounded prisoner TargetA. -->
+  <TakeWoundedPrisonerToBed.reportString>ošetřuje zraněného vězně: TargetA</TakeWoundedPrisonerToBed.reportString>
+  
+  <!-- EN: taming TargetA. -->
+  <Tame.reportString>ochočuje: TargetA</Tame.reportString>
+  
+  <!-- EN: tending to TargetA. -->
+  <TendPatient.reportString>ošetřuje: TargetA</TendPatient.reportString>
+  
+  <!-- EN: training TargetA. -->
+  <Train.reportString>trénuje: TargetA</Train.reportString>
+  
+  <!-- EN: uninstalling TargetA. -->
+  <Uninstall.reportString>odinstalovává: TargetA</Uninstall.reportString>
+  
+  <!-- EN: using comms console. -->
+  <UseCommsConsole.reportString>používá radiostanici.</UseCommsConsole.reportString>
+  
 </LanguageData>

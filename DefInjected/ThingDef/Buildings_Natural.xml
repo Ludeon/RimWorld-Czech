@@ -1,44 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Simple mineables -->
-
+  
+  <!-- EN: collapsed rocks -->
   <CollapsedRocks.label>zřícená skála</CollapsedRocks.label>
+  <!-- EN: Collapsed rocks, packed tightly enough to hold up a roof. -->
   <CollapsedRocks.description>Skála, která se sice zřítila, ale je i přesto dost silná na to, aby unesla střechu.</CollapsedRocks.description>
-
-
-  <!-- Resource rocks -->
-
-  <MineableSteel.label>stlačená ocel</MineableSteel.label>
-  <MineableSteel.description>Pozůstatky zřícené starodávné stavby. Je bohatá na ocel.</MineableSteel.description>
-
-  <MineableSilver.label>stříbrná ruda</MineableSilver.label>
-  <MineableSilver.description>Hornina obsahující kousky stříbra.</MineableSilver.description>
-
-  <MineableGold.label>zlatá ruda</MineableGold.label>
-  <MineableGold.description>Hornina obsahující kousky zlata.</MineableGold.description>
-
-  <MineableUranium.label>uranová ruda</MineableUranium.label>
-  <MineableUranium.description>Hornina obsahující kousky uranu.</MineableUranium.description>
-
-  <MineablePlasteel.label>stlačená plastocel</MineablePlasteel.label>
-  <MineablePlasteel.description>Starodávné stlačené sutiny bohaté na plastocel.</MineablePlasteel.description>
-
-  <MineableJade.label>jadeitová ruda</MineableJade.label>
-  <MineableJade.description>Hornina obsahující kousky jadeitu.</MineableJade.description>
-
-  <MineableComponentsIndustrial.label>stlačené komponenty</MineableComponentsIndustrial.label>
-  <MineableComponentsIndustrial.description>Starodávné stroje, které byly v průběhu času stlačeny. Mohou být vytěženy a rozebrány na užitečné komponenty.</MineableComponentsIndustrial.description>
-
-  <SteamGeyser.label>gejzír páry</SteamGeyser.label>
-  <SteamGeyser.description>Přírodní zdroj vysokotlaké páry. Tento parní výkon mohou využívat geotermální generátory. Místnost postavená přes gejzír se rychle přehřeje.</SteamGeyser.description>
-
-  <Hive.label>hnízdo</Hive.label>
-  <Hive.description>Hnízdo obřích brouků. Pokud je aktivní, budou z něj v průběhu času vylézat další brouci, a ten bude tvořit další úly, ale také ceněné hmyzí želé.</Hive.description>
-
+  
+  <!-- EN: glow pod -->
   <GlowPod.label>zářící kokon</GlowPod.label>
+  <!-- EN: A bioluminescent pod produced by giant insects. Glows under its own light for a long time, then dies. -->
   <GlowPod.description>Bioluminiscenční kokon vyprodukovaný obřím broukem. Po dlouhou dobu svítí vlastním světlem, pak zanikne.</GlowPod.description>
-  <Blueprint_Install_GlowPod.label>zářící kokon (plán)</Blueprint_Install_GlowPod.label>
-
-
+  
+  <!-- EN: hive -->
+  <Hive.label>hnízdo</Hive.label>
+  <!-- EN: A hive of giant insects. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly. -->
+  <Hive.description>Hnízdo obřích brouků. Pokud je aktivní, budou z něj v průběhu času vylézat další brouci, a ten bude tvořit další úly, ale také ceněné hmyzí želé.</Hive.description>
+  
+  <!-- EN: compacted machinery -->
+  <MineableComponentsIndustrial.label>stlačené komponenty</MineableComponentsIndustrial.label>
+  <!-- EN: Ancient machinery, compacted over time. Can be mined for useful components. -->
+  <MineableComponentsIndustrial.description>Starodávné stroje, které byly v průběhu času stlačeny. Mohou být vytěženy a rozebrány na užitečné komponenty.</MineableComponentsIndustrial.description>
+  
+  <!-- EN: gold ore -->
+  <MineableGold.label>zlatá ruda</MineableGold.label>
+  <!-- EN: Rock containing bits of gold. -->
+  <MineableGold.description>Hornina obsahující kousky zlata.</MineableGold.description>
+  
+  <!-- EN: jade -->
+  <MineableJade.label>jadeitová ruda</MineableJade.label>
+  <!-- EN: Rock containing bits of jade. -->
+  <MineableJade.description>Hornina obsahující kousky jadeitu.</MineableJade.description>
+  
+  <!-- EN: compacted plasteel -->
+  <MineablePlasteel.label>stlačená plastocel</MineablePlasteel.label>
+  <!-- EN: Ancient compacted rubble rich in plasteel. -->
+  <MineablePlasteel.description>Starodávné stlačené sutiny bohaté na plastocel.</MineablePlasteel.description>
+  
+  <!-- EN: silver ore -->
+  <MineableSilver.label>stříbrná ruda</MineableSilver.label>
+  <!-- EN: Rock containing bits of silver. -->
+  <MineableSilver.description>Hornina obsahující kousky stříbra.</MineableSilver.description>
+  
+  <!-- EN: compacted steel -->
+  <MineableSteel.label>stlačená ocel</MineableSteel.label>
+  <!-- EN: The remains of some ancient, collapsed structure. Rich in steel. -->
+  <MineableSteel.description>Pozůstatky zřícené starodávné stavby. Je bohatá na ocel.</MineableSteel.description>
+  
+  <!-- EN: uranium ore -->
+  <MineableUranium.label>uranová ruda</MineableUranium.label>
+  <!-- EN: Rock containing bits of uranium. -->
+  <MineableUranium.description>Hornina obsahující kousky uranu.</MineableUranium.description>
+  
+  <!-- EN: steam geyser -->
+  <SteamGeyser.label>gejzír páry</SteamGeyser.label>
+  <!-- EN: A natural source of high-pressure steam. Geothermal generators can harness the steam power. Rooms built over this will rapidly cook. -->
+  <SteamGeyser.description>Přírodní zdroj vysokotlaké páry. Tento parní výkon mohou využívat geotermální generátory. Místnost postavená přes gejzír se rychle přehřeje.</SteamGeyser.description>
+  
 </LanguageData>

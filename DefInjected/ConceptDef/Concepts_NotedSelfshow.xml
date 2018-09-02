@@ -1,109 +1,174 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Concepts taught through the learning readout, with no opportunity needed -->
-
-  <CameraDolly.label>Pohyb kamery</CameraDolly.label>
-  <CameraDolly.helpText>Pohybuj kamerou stisknutím a tažením TLAČÍTKA MYŠI 3 (prostřední tlačítko) nebo klávesami {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
-
-  <CameraZoom.label>Přiblížení/oddálení kamery</CameraZoom.label>
-  <CameraZoom.helpText>Přibližuj a oddaluj pohled KOLEČKEM MYŠI nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out}.</CameraZoom.helpText>
-
-  <TimeControls.label>Ovládání času</TimeControls.label>
-  <TimeControls.helpText>Čas můžeš urychlit.\n\nZkus si ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast} nebo ovládáním času vpravo dole.</TimeControls.helpText>
-
-  <Pause.label>Pozastavování hry</Pause.label>
-  <Pause.helpText>Abys hru pozastavil a zase spustil, stiskni {Key:TogglePause}.\n\nPři pozastavené hře můžeš vydávat příkazy.\n\nZapamatuj si tohle: když začne být rušno, stačí stisknout {Key:TogglePause}!</Pause.helpText>
-
-  <Stockpiles.label>Skladiště</Stockpiles.label>
-  <Stockpiles.helpText>Tví kolonisté potřebují někam ukládat věci. Vyhraď jim SKLADIŠTĚ na uskladňování věcí.\n\nSkladiště najdeš v sekci ZÓNY v nabídce ARCHITEKT vlevo dole.</Stockpiles.helpText>
-
-  <Forbidding.label>Zakázat a povolit</Forbidding.label>
-  <Forbidding.helpText>Kolonisté nebudou zacházet s předměty, které jsou označené jako ZAKÁZÁNO.\n\nZakázané předměty jsou označené malým červeným X. Abys ho povolil, vyber zakázaný předmět a použij příkaz dole Povolit.</Forbidding.helpText>
-
-  <GrowingFood.label>Pole pro pěstování</GrowingFood.label>
-  <GrowingFood.helpText>Aby sis vypěstoval jídlo, umísti POLE za použití nabídky Architekt.\n\nPole se dají umisťovat jen na vhodnou půdu pro pěstování.</GrowingFood.helpText>
-
-  <EquippingWeapons.label>Vybavování zbraněmi</EquippingWeapons.label>
-  <EquippingWeapons.helpText>Tví kolonisté sem dorazili s několika zbraněmi. Vybav je jimi!\n\nVyber každého kolonistu a klikni pravým tlačítkem myši na zbraň, kterou je chceš vybavit.</EquippingWeapons.helpText>
-
+  
+  <!-- EN: Alerts -->
   <Alerts.label>Výstrahy</Alerts.label>
+  <!-- EN: The alerts at the right edge of the screen tell you about issue that need your attention.\n\nKeep an eye on the alerts. -->
   <Alerts.helpText>Výstrahy u pravého okraje obrazovky ti říkají o potížích, které si vyžadují tvou pozornost.\n\nVýstrahy bedlivě sleduj.</Alerts.helpText>
-
-  <Mining.label>Těžba</Mining.label>
-  <Mining.helpText>Můžeš určit, kde těžit, otevřením nabídky ARCHITEKT a vybráním podnabídky PŘÍKAZY.\n\nZ některých těžitelných bloků lze získat OCEL, ZLATO, PLASTOCEL a jiné užitečné materiály.</Mining.helpText>
-
-  <WorkTab.label>Nastavení činnosti</WorkTab.label>
-  <WorkTab.helpText>Každému kolonistovi můžeš nastavit pracovní priority v nabídce ČINNOSTI, která se nachází na obrazovce vlevo dole.\n\nVždy budou provádět činnosti nejvyšší priority, kterou dokážou najít.\n\nPokud není na určitý druh činnosti nikdo přidělen, nebo pokud jsou kolonisté zaneprázdněni činnostmi s vyšší prioritou, tato činnost nebude nikdy vykonána.</WorkTab.helpText>
-
-  <ForbiddingDoors.label>Zakázané dveře</ForbiddingDoors.label>
-  <ForbiddingDoors.helpText>Procházení dveřmi můžeš ZAKÁZAT, takže se skrze ně nedostanou ani kolonisté, ani ochočená zvířata.\n\nVšimni si, že toto není zámek dveří. Dveře jsou zamčené vždy, takže jimi nepřátelé volně neprojdou. Zakázání prostě přikáže tvým kolonistům, aby tyto dveře nepoužívali. Kolonisté, kteří se zblázní, těmito dveřmi projdou i tak.</ForbiddingDoors.helpText>
-
-  <CoverAndShooting.label>Krytí a střelba</CoverAndShooting.label>
-  <CoverAndShooting.helpText>Nejdůležitější věc při boji na dálku je používat krytí.\n\nKrytí funguje jen tehdy, když se ho kolonisté dotýkají a stojí mezi tvým kolonistou a nepřítelem.\n\nKolonisty také můžeš umístit za rohy zdí. Kvůli střelbě se zpoza nich vykloní.\n\nJako krytí lze využít většinu věcí, ale některé jsou lepší než jiné. Schovávání se za stromem je lepší než nic, ale schovávání se za pytli s pískem je lepší než krytí za stromem.</CoverAndShooting.helpText>
-
-  <FormCaravan.label>Vytváření karavan</FormCaravan.label>
-  <FormCaravan.helpText>Můžeš vytvořit karavanu, abys vyslal skupinu lidí, kteří pak budou cestovat po celé planetě!\n\nV nabídce MAPA SVĚTA vyber svou domovskou základnu a klikni na tlačítko "Vytvořit karavanu".</FormCaravan.helpText>
-
-  <AnimalTaming.label>Ochočování zvířat</AnimalTaming.label>
-  <AnimalTaming.helpText>Pomocí příkazu OCHOČIT můžeš zadat kolonistům, aby ochočovali divoká zvířata.\n\nKolonisté nabídnou zvířeti jídlo a pokusí se ho ochočit.\n\nDej si pozor: některá zvířata mohou při neúspěšném pokusu o ochočení reagovat agresivně.</AnimalTaming.helpText>
-
-  <AnimalTraining.label>Výcvik zvířat</AnimalTraining.label>
-  <AnimalTraining.helpText>V záložce VÝCVIK můžeš ochočenému zvířeti určit, aby bylo cvičeno v určitých dovednostech.\n\nZvířata nelze cvičit nepřetržitě. Mezi jednotlivými tréninky musí být časový odstup.</AnimalTraining.helpText>
-
-  <InfoCard.label>Informační karty</InfoCard.label>
-  <InfoCard.helpText>Informační karta zobrazuje podrobné statistiky o jakémkoliv předmětu, osobě nebo stavbě.\n\nVyber osobu nebo předmět a otevři jejich informační kartu pomocí tlačítka 'i' v podokně náhledu.</InfoCard.helpText>
-
-  <StorageTab.label>Záložka Skladiště</StorageTab.label>
-  <StorageTab.helpText>Skladiště a skladištní budovy si můžeš přizpůsobovat tak, že je vybereš a na horní straně podokna náhledu vlevo dole otevřeš záložku SKLADIŠTĚ.\n\nNa záložce skladiště daného skladovacího prostoru můžeš rozbalovat kategorie, abys povolil nebo zakázal konkrétní předměty. Stačí kliknout na trojúhelníky vlevo od názvů kategorií.\n\nMůžeš také měnit PRIORITU skladiště. Kolonisté budou nejprve plnit skladiště s vyšší prioritou a budou přesouvat předměty ze skladiště s nižší prioritou do toho s vyšší prioritou.</StorageTab.helpText>
-
-  <HomeArea.label>Domovská oblast</HomeArea.label>
-  <HomeArea.helpText>DOMOVSKÁ OBLAST říká kolonistům, jakou oblast mají uklízet a kde mají hasit požáry.\n\nVymez DOMOVSKOU OBLAST v kategorii Zóny v nabídce Architekt.</HomeArea.helpText>
-
-  <SpoilageAndFreezers.label>Kažení potravin a mrazáky</SpoilageAndFreezers.label>
-  <SpoilageAndFreezers.helpText>Většina potravin se po relativně krátké době zkazí.\n\nAbys tomu zabránil, můžeš postavit mrazicí box.\n\nAbys postavil mrazák, postav uzavřenou místnost a do zdí umísti jednu nebo dvě klimatizace. Nastav klimatizaci na zápornou cílovou teplotu.\n\nMražená jídla se nikdy nezkazí.</SpoilageAndFreezers.helpText>
-
-  <Deterioration.label>Zvětrávání předmětů</Deterioration.label>
-  <Deterioration.helpText>Předměty ponechané venku budou pomalu zvětrávat.\n\nJestli chceš uchovávat předměty dlouhodobě, dávej je pod zastřešenou místnost.</Deterioration.helpText>
-
-  <HostilityResponse.label>Režimy reakcí na nepřátele</HostilityResponse.label>
-  <HostilityResponse.helpText>Můžeš uzpůsobit, jak budou kolonisté automaticky reagovat na hrozby, jako jsou třeba dravá zvířata.\n\nV nabídce PŘIDĚLOVÁNÍ si vybírej z režimů ÚTĚK, ÚTOK a IGNOROVAT.</HostilityResponse.helpText>
-
+  
+  <!-- EN: Allowed areas -->
   <AllowedAreas.label>Povolené oblasti</AllowedAreas.label>
+  <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
   <AllowedAreas.helpText>Kolonistům a zvířatům v kolonii mohou být přiděleny POVOLENÉ OBLASTI. Ty jim znemožní chodit do míst mimo jejich povolenou oblast.\n\nLze to použít například pro zabránění kolonistům, aby chodili ven z budov.\n\nMůžeš vytvářet mnoho povolených oblastí a přiřazovat je různým kolonistům a zvířatům.\n\nNa záložce OMEZENÍ můžeš povolené oblasti vytvářet, mazat a přidělovat.\n\nV nabídce Architekt můžeš povolené oblasti namalovat do mapy za použití příkazů ROZŠÍŘIT POVOLENOU OBLAST a ODSTRANIT POVOLENOU OBLAST.</AllowedAreas.helpText>
-
-  <MedicalOperations.label>Lékařské operace</MedicalOperations.label>
-  <MedicalOperations.helpText>Abys zadal lékařské operace, jako třeba vyjímání orgánů nebo implantace umělých končetin, otevři záložku ZDRAVÍ daného kolonisty a pak přepni na podzáložku OPERACE.</MedicalOperations.helpText>
-
-  <TimeAssignments.label>Časový rozvrh</TimeAssignments.label>
-  <TimeAssignments.helpText>V záložce OMEZENÍ můžeš upravovat, jaké aktivity by kolonisté měli provádět v určitých časových úsecích.</TimeAssignments.helpText>
-
-  <ManualWorkPriorities.label>Manuální priority činností</ManualWorkPriorities.label>
-  <ManualWorkPriorities.helpText>Jedna z nejdůležitějších součástí RimWorldu je vybrat kolonistům dobré nastavení činností.\n\nŠpatné nastavení činností může způsobit, že důležitá práce nebude dlouhou dobu dokončena, zatímco kolonisté budou plýtvat časem na nevýznamné úkoly.\n\nAbys získal lepší kontrolu nad tím, co tví kolonisté dělají, můžeš použít režim "Manuální priority" na záložce ČINNOSTI.\n\nV tomto režimu má každý kolonista pro každý druh činnosti číslo označující její prioritu. Kolonista bude provádět činnosti priority 1 zleva doprava, pak činnosti priority 2 zleva doprava a tak dále.\n\nPro velkou, dobře automatizovanou kolonii je inteligentní používání tohoto nastavení klíčové.</ManualWorkPriorities.helpText>
-
-  <GettingMoreTraders.label>Získání dalších obchodníků</GettingMoreTraders.label>
-  <GettingMoreTraders.helpText>S čím více frakcemi budeš mít přátelské vztahy, tím více obchodních karavan tě přijede navštívit.\n\nPokud nemáš žádné spojence, nikdy k tobě žádná karavana nepřijede!\n\nMůžeš také spojencům zaplatit, aby ti poslali obchodní karavanu, a to tak, že jim zavoláš pomocí radiostanice.</GettingMoreTraders.helpText>
-
-  <InspectRoomStats.label>Prohlížení statistik pokoje</InspectRoomStats.label>
-  <InspectRoomStats.helpText>Použitím přepínače ZOBRAZOVÁNÍ STATISTIKY PROSTŘEDÍ v pravém dolním rohu si můžeš prohlížet působivost, bohatství a krásu jednotlivých pokojů.</InspectRoomStats.helpText>
-
-  <Outfits.label>Výstroj</Outfits.label>
-  <Outfits.helpText>Kolonisté se budou automaticky pokoušet nosit nejnovější oblečení nejvyšší kvality, které dokážou najít.\n\nNení potřeba kolonistům ručně přidělovat každý kus oblečení (i když můžeš, jestli chceš).\n\nAbys kolonistům určil omezení, jak se mají oblékat, otevři PŘIDĚLOVÁNÍ a použij dialogové okno "Spravovat výstroje", ve kterém můžeš navrhovat nové styly oblékání a pak je kolonistům přidělit.</Outfits.helpText>
-
-  <FirePreparation.label>Požární prevence</FirePreparation.label>
-  <FirePreparation.helpText>Požár dokáže velmi snadno spálit celou kolonii na popel. Abys ho porazil, musíš se na něj připravit dřív, než propukne.\n\nTyto konstrukční prvky mohou přispět ke snížení škod způsobených požáry:\n\n1. Místo postavení jedné superbudovy stavěj samostatné budovy s rozestupy mezi nimi.\n\n2. Používej méně hořlavé materiály. Dřevo je levné a staví se z něj rychle, je ale velmi hořlavé.\n\n3. Stavěj požární průseky, které zastaví přírodní požáry blížící se ke tvé základně. Pás betonové podlahy široký 3 až 4 políčka obvykle zastaví i sílící požár.</FirePreparation.helpText>
-
-  <HistoryTab.label>Záložka Historie</HistoryTab.label>
-  <HistoryTab.helpText>V záložce HISTORIE na spodní straně obrazovky si můžeš prohlížet záznamy o majetku kolonie, jak se měnily v průběhu času.</HistoryTab.helpText>
-
+  
+  <!-- EN: Animal taming -->
+  <AnimalTaming.label>Ochočování zvířat</AnimalTaming.label>
+  <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
+  <AnimalTaming.helpText>Pomocí příkazu OCHOČIT můžeš zadat kolonistům, aby ochočovali divoká zvířata.\n\nKolonisté nabídnou zvířeti jídlo a pokusí se ho ochočit.\n\nDej si pozor: některá zvířata mohou při neúspěšném pokusu o ochočení reagovat agresivně.</AnimalTaming.helpText>
+  
+  <!-- EN: Animal training -->
+  <AnimalTraining.label>Výcvik zvířat</AnimalTraining.label>
+  <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
+  <AnimalTraining.helpText>V záložce VÝCVIK můžeš ochočenému zvířeti určit, aby bylo cvičeno v určitých dovednostech.\n\nZvířata nelze cvičit nepřetržitě. Mezi jednotlivými tréninky musí být časový odstup.</AnimalTraining.helpText>
+  
+  <!-- EN: Camera dolly -->
+  <CameraDolly.label>Pohyb kamery</CameraDolly.label>
+  <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
+  <CameraDolly.helpText>Pohybuj kamerou stisknutím a tažením TLAČÍTKA MYŠI 3 (prostřední tlačítko) nebo klávesami {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  
+  <!-- EN: Camera zoom -->
+  <CameraZoom.label>Přiblížení/oddálení kamery</CameraZoom.label>
+  <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
+  <CameraZoom.helpText>Přibližuj a oddaluj pohled KOLEČKEM MYŠI nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out}.</CameraZoom.helpText>
+  
+  <!-- EN: Clicking messages -->
   <ClickingMessages.label>Naklikávací zprávy</ClickingMessages.label>
+  <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
   <ClickingMessages.helpText>Na oznámení v levém horním rohu obrazovky můžeš kliknout, abys okamžitě přesunul kameru na předmět zprávy.</ClickingMessages.helpText>
-
-  <ShotAccuracyTooltip.label>Popisek přesnosti střelby</ShotAccuracyTooltip.label>
-  <ShotAccuracyTooltip.helpText>Můžeš zobrazit přesné výpočty skrývající se za přesností střelby.\n\nAbys to mohl udělat, vyber střelce a pak přesuň myš nad cíl. Popisek ukáže pravděpodobnost zásahu a rozpis různých činitelů, které se podílejí na pravděpodobnosti zásahu.</ShotAccuracyTooltip.helpText>
-
+  
+  <!-- EN: Cover and shooting -->
+  <CoverAndShooting.label>Krytí a střelba</CoverAndShooting.label>
+  <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
+  <CoverAndShooting.helpText>Nejdůležitější věc při boji na dálku je používat krytí.\n\nKrytí funguje jen tehdy, když se ho kolonisté dotýkají a stojí mezi tvým kolonistou a nepřítelem.\n\nKolonisty také můžeš umístit za rohy zdí. Kvůli střelbě se zpoza nich vykloní.\n\nJako krytí lze využít většinu věcí, ale některé jsou lepší než jiné. Schovávání se za stromem je lepší než nic, ale schovávání se za pytli s pískem je lepší než krytí za stromem.</CoverAndShooting.helpText>
+  
+  <!-- EN: Item deterioration -->
+  <Deterioration.label>Zvětrávání předmětů</Deterioration.label>
+  <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
+  <Deterioration.helpText>Předměty ponechané venku budou pomalu zvětrávat.\n\nJestli chceš uchovávat předměty dlouhodobě, dávej je pod zastřešenou místnost.</Deterioration.helpText>
+  
+  <!-- EN: Equipping weapons -->
+  <EquippingWeapons.label>Vybavování zbraněmi</EquippingWeapons.label>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
+  <EquippingWeapons.helpText>Tví kolonisté sem dorazili s několika zbraněmi. Vybav je jimi!\n\nVyber každého kolonistu a klikni pravým tlačítkem myši na zbraň, kterou je chceš vybavit.</EquippingWeapons.helpText>
+  
+  <!-- EN: Fire preparation -->
+  <FirePreparation.label>Požární prevence</FirePreparation.label>
+  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
+  <FirePreparation.helpText>Požár dokáže velmi snadno spálit celou kolonii na popel. Abys ho porazil, musíš se na něj připravit dřív, než propukne.\n\nTyto konstrukční prvky mohou přispět ke snížení škod způsobených požáry:\n\n1. Místo postavení jedné superbudovy stavěj samostatné budovy s rozestupy mezi nimi.\n\n2. Používej méně hořlavé materiály. Dřevo je levné a staví se z něj rychle, je ale velmi hořlavé.\n\n3. Stavěj požární průseky, které zastaví přírodní požáry blížící se ke tvé základně. Pás betonové podlahy široký 3 až 4 políčka obvykle zastaví i sílící požár.</FirePreparation.helpText>
+  
+  <!-- EN: Forbid and unforbid -->
+  <Forbidding.label>Zakázat a povolit</Forbidding.label>
+  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to UNFORBID it. -->
+  <Forbidding.helpText>Kolonisté nebudou zacházet s předměty, které jsou označené jako ZAKÁZÁNO.\n\nZakázané předměty jsou označené malým červeným X. Abys ho povolil, vyber zakázaný předmět a použij příkaz dole Povolit.</Forbidding.helpText>
+  
+  <!-- EN: Forbidding doors -->
+  <ForbiddingDoors.label>Zakázané dveře</ForbiddingDoors.label>
+  <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
+  <ForbiddingDoors.helpText>Procházení dveřmi můžeš ZAKÁZAT, takže se skrze ně nedostanou ani kolonisté, ani ochočená zvířata.\n\nVšimni si, že toto není zámek dveří. Dveře jsou zamčené vždy, takže jimi nepřátelé volně neprojdou. Zakázání prostě přikáže tvým kolonistům, aby tyto dveře nepoužívali. Kolonisté, kteří se zblázní, těmito dveřmi projdou i tak.</ForbiddingDoors.helpText>
+  
+  <!-- EN: Forming caravans -->
+  <FormCaravan.label>Vytváření karavan</FormCaravan.label>
+  <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
+  <FormCaravan.helpText>Můžeš vytvořit karavanu, abys vyslal skupinu lidí, kteří pak budou cestovat po celé planetě!\n\nV nabídce MAPA SVĚTA vyber svou domovskou základnu a klikni na tlačítko "Vytvořit karavanu".</FormCaravan.helpText>
+  
+  <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Ochrana před střelbou do vlastních</FriendlyFireSafety.label>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>Střelba do vlastních se nikdy nestane, pokud je střelec blízko svého spojence.\n\nMůžeš například bezpečně umístit kolonistu s mečem hned před kolonistu se střelnou zbraní. Střelec bude střílet přes rameno svého přítele.\n\nTohle je dobrý způsob, jak zkombinovat bojovníky na blízko a na dálku.</FriendlyFireSafety.helpText>
-
-
+  
+  <!-- EN: Getting more traders -->
+  <GettingMoreTraders.label>Získání dalších obchodníků</GettingMoreTraders.label>
+  <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
+  <GettingMoreTraders.helpText>S čím více frakcemi budeš mít přátelské vztahy, tím více obchodních karavan tě přijede navštívit.\n\nPokud nemáš žádné spojence, nikdy k tobě žádná karavana nepřijede!\n\nMůžeš také spojencům zaplatit, aby ti poslali obchodní karavanu, a to tak, že jim zavoláš pomocí radiostanice.</GettingMoreTraders.helpText>
+  
+  <!-- EN: Growing zones -->
+  <GrowingFood.label>Pole pro pěstování</GrowingFood.label>
+  <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
+  <GrowingFood.helpText>Aby sis vypěstoval jídlo, umísti POLE za použití nabídky Architekt.\n\nPole se dají umisťovat jen na vhodnou půdu pro pěstování.</GrowingFood.helpText>
+  
+  <!-- EN: History tab -->
+  <HistoryTab.label>Záložka Historie</HistoryTab.label>
+  <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
+  <HistoryTab.helpText>V záložce HISTORIE na spodní straně obrazovky si můžeš prohlížet záznamy o majetku kolonie, jak se měnily v průběhu času.</HistoryTab.helpText>
+  
+  <!-- EN: Home area -->
+  <HomeArea.label>Domovská oblast</HomeArea.label>
+  <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
+  <HomeArea.helpText>DOMOVSKÁ OBLAST říká kolonistům, jakou oblast mají uklízet a kde mají hasit požáry.\n\nVymez DOMOVSKOU OBLAST v kategorii Zóny v nabídce Architekt.</HomeArea.helpText>
+  
+  <!-- EN: Hostility response modes -->
+  <HostilityResponse.label>Režimy reakcí na nepřátele</HostilityResponse.label>
+  <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
+  <HostilityResponse.helpText>Můžeš uzpůsobit, jak budou kolonisté automaticky reagovat na hrozby, jako jsou třeba dravá zvířata.\n\nV nabídce PŘIDĚLOVÁNÍ si vybírej z režimů ÚTĚK, ÚTOK a IGNOROVAT.</HostilityResponse.helpText>
+  
+  <!-- EN: Info card -->
+  <InfoCard.label>Informační karty</InfoCard.label>
+  <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
+  <InfoCard.helpText>Informační karta zobrazuje podrobné statistiky o jakémkoliv předmětu, osobě nebo stavbě.\n\nVyber osobu nebo předmět a otevři jejich informační kartu pomocí tlačítka 'i' v podokně náhledu.</InfoCard.helpText>
+  
+  <!-- EN: Room stats inspector -->
+  <InspectRoomStats.label>Prohlížení statistik pokoje</InspectRoomStats.label>
+  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
+  <InspectRoomStats.helpText>Použitím přepínače ZOBRAZOVÁNÍ STATISTIKY PROSTŘEDÍ v pravém dolním rohu si můžeš prohlížet působivost, bohatství a krásu jednotlivých pokojů.</InspectRoomStats.helpText>
+  
+  <!-- EN: Manual work priorities -->
+  <ManualWorkPriorities.label>Manuální priority činností</ManualWorkPriorities.label>
+  <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
+  <ManualWorkPriorities.helpText>Jedna z nejdůležitějších součástí RimWorldu je vybrat kolonistům dobré nastavení činností.\n\nŠpatné nastavení činností může způsobit, že důležitá práce nebude dlouhou dobu dokončena, zatímco kolonisté budou plýtvat časem na nevýznamné úkoly.\n\nAbys získal lepší kontrolu nad tím, co tví kolonisté dělají, můžeš použít režim "Manuální priority" na záložce ČINNOSTI.\n\nV tomto režimu má každý kolonista pro každý druh činnosti číslo označující její prioritu. Kolonista bude provádět činnosti priority 1 zleva doprava, pak činnosti priority 2 zleva doprava a tak dále.\n\nPro velkou, dobře automatizovanou kolonii je inteligentní používání tohoto nastavení klíčové.</ManualWorkPriorities.helpText>
+  
+  <!-- EN: Medical operations -->
+  <MedicalOperations.label>Lékařské operace</MedicalOperations.label>
+  <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
+  <MedicalOperations.helpText>Abys zadal lékařské operace, jako třeba vyjímání orgánů nebo implantace umělých končetin, otevři záložku ZDRAVÍ daného kolonisty a pak přepni na podzáložku OPERACE.</MedicalOperations.helpText>
+  
+  <!-- EN: Mining -->
+  <Mining.label>Těžba</Mining.label>
+  <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
+  <Mining.helpText>Můžeš určit, kde těžit, otevřením nabídky ARCHITEKT a vybráním podnabídky PŘÍKAZY.\n\nZ některých těžitelných bloků lze získat OCEL, ZLATO, PLASTOCEL a jiné užitečné materiály.</Mining.helpText>
+  
+  <!-- EN: Outfits -->
+  <Outfits.label>Výstroj</Outfits.label>
+  <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage outfits" dialog box to design a new outfit, and then assign the outfit to colonists. -->
+  <Outfits.helpText>Kolonisté se budou automaticky pokoušet nosit nejnovější oblečení nejvyšší kvality, které dokážou najít.\n\nNení potřeba kolonistům ručně přidělovat každý kus oblečení (i když můžeš, jestli chceš).\n\nAbys kolonistům určil omezení, jak se mají oblékat, otevři PŘIDĚLOVÁNÍ a použij dialogové okno "Spravovat výstroje", ve kterém můžeš navrhovat nové styly oblékání a pak je kolonistům přidělit.</Outfits.helpText>
+  
+  <!-- EN: Pausing -->
+  <Pause.label>Pozastavování hry</Pause.label>
+  <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
+  <Pause.helpText>Abys hru pozastavil a zase spustil, stiskni {Key:TogglePause}.\n\nPři pozastavené hře můžeš vydávat příkazy.\n\nZapamatuj si tohle: když začne být rušno, stačí stisknout {Key:TogglePause}!</Pause.helpText>
+  
+  <!-- EN: Shot accuracy tooltip -->
+  <ShotAccuracyTooltip.label>Popisek přesnosti střelby</ShotAccuracyTooltip.label>
+  <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
+  <ShotAccuracyTooltip.helpText>Můžeš zobrazit přesné výpočty skrývající se za přesností střelby.\n\nAbys to mohl udělat, vyber střelce a pak přesuň myš nad cíl. Popisek ukáže pravděpodobnost zásahu a rozpis různých činitelů, které se podílejí na pravděpodobnosti zásahu.</ShotAccuracyTooltip.helpText>
+  
+  <!-- EN: Spoilage and freezers -->
+  <SpoilageAndFreezers.label>Kažení potravin a mrazáky</SpoilageAndFreezers.label>
+  <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
+  <SpoilageAndFreezers.helpText>Většina potravin se po relativně krátké době zkazí.\n\nAbys tomu zabránil, můžeš postavit mrazicí box.\n\nAbys postavil mrazák, postav uzavřenou místnost a do zdí umísti jednu nebo dvě klimatizace. Nastav klimatizaci na zápornou cílovou teplotu.\n\nMražená jídla se nikdy nezkazí.</SpoilageAndFreezers.helpText>
+  
+  <!-- EN: Stockpiles -->
+  <Stockpiles.label>Skladiště</Stockpiles.label>
+  <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
+  <Stockpiles.helpText>Tví kolonisté potřebují někam ukládat věci. Vyhraď jim SKLADIŠTĚ na uskladňování věcí.\n\nSkladiště najdeš v sekci ZÓNY v nabídce ARCHITEKT vlevo dole.</Stockpiles.helpText>
+  
+  <!-- EN: Storage tab -->
+  <StorageTab.label>Záložka Skladiště</StorageTab.label>
+  <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
+  <StorageTab.helpText>Skladiště a skladištní budovy si můžeš přizpůsobovat tak, že je vybereš a na horní straně podokna náhledu vlevo dole otevřeš záložku SKLADIŠTĚ.\n\nNa záložce skladiště daného skladovacího prostoru můžeš rozbalovat kategorie, abys povolil nebo zakázal konkrétní předměty. Stačí kliknout na trojúhelníky vlevo od názvů kategorií.\n\nMůžeš také měnit PRIORITU skladiště. Kolonisté budou nejprve plnit skladiště s vyšší prioritou a budou přesouvat předměty ze skladiště s nižší prioritou do toho s vyšší prioritou.</StorageTab.helpText>
+  
+  <!-- EN: Time assignments -->
+  <TimeAssignments.label>Časový rozvrh</TimeAssignments.label>
+  <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
+  <TimeAssignments.helpText>V záložce OMEZENÍ můžeš upravovat, jaké aktivity by kolonisté měli provádět v určitých časových úsecích.</TimeAssignments.helpText>
+  
+  <!-- EN: Time controls -->
+  <TimeControls.label>Ovládání času</TimeControls.label>
+  <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.helpText>Čas můžeš urychlit.\n\nZkus si ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast} nebo ovládáním času vpravo dole.</TimeControls.helpText>
+  
+  <!-- EN: Work settings -->
+  <WorkTab.label>Nastavení činnosti</WorkTab.label>
+  <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
+  <WorkTab.helpText>Každému kolonistovi můžeš nastavit pracovní priority v nabídce ČINNOSTI, která se nachází na obrazovce vlevo dole.\n\nVždy budou provádět činnosti nejvyšší priority, kterou dokážou najít.\n\nPokud není na určitý druh činnosti nikdo přidělen, nebo pokud jsou kolonisté zaneprázdněni činnostmi s vyšší prioritou, tato činnost nebude nikdy vykonána.</WorkTab.helpText>
+  
 </LanguageData>

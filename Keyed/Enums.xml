@@ -1,174 +1,298 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- glow -->
+  <!-- Glow -->
+  <!-- EN: Dark -->
   <Dark>Ve tmě</Dark>
+  <!-- EN: Lit -->
   <Lit>Osvětlené</Lit>
+  <!-- EN: Brightly lit -->
   <LitBrightly>Jasně osvětlené</LitBrightly>
-
-  <!-- history upload pref -->
+  
+  <!-- History upload pref -->
+  <!-- EN: Undecided -->
   <Unspecified>Ještě váhám</Unspecified>
+  <!-- EN: Allow -->
   <Always>Povolit</Always>
+  <!-- EN: Do not allow -->
   <Never>Nepovolit</Never>
-
+  
   <!-- Price types -->
+  <!-- EN: very cheap -->
   <PriceTypeVeryCheap>velmi levné</PriceTypeVeryCheap>
+  <!-- EN: cheap -->
   <PriceTypeCheap>levné</PriceTypeCheap>
+  <!-- EN: normal -->
   <PriceTypeNormal>normální</PriceTypeNormal>
+  <!-- EN: expensive -->
   <PriceTypeExpensive>drahé</PriceTypeExpensive>
+  <!-- EN: exorbitant -->
   <PriceTypeExorbitant>přemrštěné</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
+  <!-- EN: unstored -->
   <StoragePriorityUnstored>neskladovat</StoragePriorityUnstored>
+  <!-- EN: low -->
   <StoragePriorityLow>nízká</StoragePriorityLow>
+  <!-- EN: normal -->
   <StoragePriorityNormal>normální</StoragePriorityNormal>
+  <!-- EN: preferred -->
   <StoragePriorityPreferred>přednostní</StoragePriorityPreferred>
+  <!-- EN: important -->
   <StoragePriorityImportant>důležité</StoragePriorityImportant>
+  <!-- EN: critical -->
   <StoragePriorityCritical>kriticky důležité</StoragePriorityCritical>
 
   <!-- Food type flags -->
+  <!-- EN: vegetables -->
   <FoodTypeFlags_VegetableOrFruit>zelenina</FoodTypeFlags_VegetableOrFruit>
+  <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>syrové maso</FoodTypeFlags_Meat>
+  <!-- EN: corpses -->
   <FoodTypeFlags_Corpse>mrtvoly</FoodTypeFlags_Corpse>
+  <!-- EN: seeds -->
   <FoodTypeFlags_Seed>semena</FoodTypeFlags_Seed>
+  <!-- EN: animal products -->
   <FoodTypeFlags_AnimalProduct>živočišné produkty</FoodTypeFlags_AnimalProduct>
+  <!-- EN: live plants -->
   <FoodTypeFlags_Plant>živé rostliny</FoodTypeFlags_Plant>
+  <!-- EN: live trees -->
   <FoodTypeFlags_Tree>živé stromy</FoodTypeFlags_Tree>
+  <!-- EN: meals -->
   <FoodTypeFlags_Meal>pokrmy</FoodTypeFlags_Meal>
+  <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>zpracované potraviny</FoodTypeFlags_Processed>
+  <!-- EN: liquor -->
   <FoodTypeFlags_Liquor>lihoviny</FoodTypeFlags_Liquor>
+  <!-- EN: kibble -->
   <FoodTypeFlags_Kibble>granule</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
+  <!-- EN: awful -->
   <QualityCategory_Awful>strašná - 0</QualityCategory_Awful>
+  <!-- EN: poor -->
   <QualityCategory_Poor>mizerná - 1</QualityCategory_Poor>
+  <!-- EN: normal -->
   <QualityCategory_Normal>běžná - 2</QualityCategory_Normal>
+  <!-- EN: good -->
   <QualityCategory_Good>dobrá - 3</QualityCategory_Good>
+  <!-- EN: excellent -->
   <QualityCategory_Excellent>excelentní - 4</QualityCategory_Excellent>
+  <!-- EN: masterwork -->
   <QualityCategory_Masterwork>mistrovská - 5</QualityCategory_Masterwork>
+  <!-- EN: legendary -->
   <QualityCategory_Legendary>legendární - 6</QualityCategory_Legendary>
+  <!-- EN: awfl -->
   <QualityCategoryShort_Awful>str (0)</QualityCategoryShort_Awful>
+  <!-- EN: poor -->
   <QualityCategoryShort_Poor>miz (1)</QualityCategoryShort_Poor>
+  <!-- EN: norm -->
   <QualityCategoryShort_Normal>běž (2)</QualityCategoryShort_Normal>
+  <!-- EN: good -->
   <QualityCategoryShort_Good>dob (3)</QualityCategoryShort_Good>
+  <!-- EN: exc -->
   <QualityCategoryShort_Excellent>exc (4)</QualityCategoryShort_Excellent>
+  <!-- EN: mast -->
   <QualityCategoryShort_Masterwork>mis (5)</QualityCategoryShort_Masterwork>
+  <!-- EN: legd -->
   <QualityCategoryShort_Legendary>leg (6)</QualityCategoryShort_Legendary>
-
+  
   <!-- Hunger -->
+  <!-- EN: Starving -->
   <HungerLevel_Starving>Umírá hlady</HungerLevel_Starving>
+  <!-- EN: Urgently hungry -->
   <HungerLevel_UrgentlyHungry>Značně hladový</HungerLevel_UrgentlyHungry>
+  <!-- EN: Hungry -->
   <HungerLevel_Hungry>Hladový</HungerLevel_Hungry>
+  <!-- EN: Fed -->
   <HungerLevel_Fed>Sytý</HungerLevel_Fed>
 
   <!-- -Fatigue -->
+  <!-- EN: Exhausted -->
   <HungerLevel_Exhausted>Vyčerpaný</HungerLevel_Exhausted>
+  <!-- EN: Very tired -->
   <HungerLevel_VeryTired>Velmi unavený</HungerLevel_VeryTired>
+  <!-- EN: Tired -->
   <HungerLevel_Tired>Unavený</HungerLevel_Tired>
+  <!-- EN: Rested -->
   <HungerLevel_Rested>Odpočinutý</HungerLevel_Rested>
 
   <!-- Hilliness -->
+  <!-- EN: flat -->
   <Hilliness_Flat>rovina</Hilliness_Flat>
+  <!-- EN: small hills -->
   <Hilliness_SmallHills>malé kopce</Hilliness_SmallHills>
+  <!-- EN: large hills -->
   <Hilliness_LargeHills>velké kopce</Hilliness_LargeHills>
+  <!-- EN: mountainous -->
   <Hilliness_Mountainous>hornatá</Hilliness_Mountainous>
+  <!-- EN: impassable -->
   <Hilliness_Impassable>neprůchodná</Hilliness_Impassable>
-
+  
   <!-- Steam workshop interaction -->
+  <!-- EN: Creating -->
   <WorkshopInteractStage_CreatingItem>Vytváří</WorkshopInteractStage_CreatingItem>
+  <!-- EN: Submitting -->
   <WorkshopInteractStage_SubmittingItem>Podrobuje se</WorkshopInteractStage_SubmittingItem>
+  <!-- EN: Invalid -->
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Neplatný</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <!-- EN: Preparing config data -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Připravuji konfigurační data</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <!-- EN: Preparing content files -->
   <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>Připravuji soubory s obsahem</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <!-- EN: Uploading content -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>Nahrávám obsah</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <!-- EN: Uploading preview file -->
   <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Nahrávám soubor s náhledem</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <!-- EN: Committing changes -->
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Provádím změny</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
+  <!-- EN: local folder -->
   <ContentSource_LocalFolder>místní složka</ContentSource_LocalFolder>
+  <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
-
+  
   <!-- Medical care category -->
+  <!-- EN: No medical care -->
   <MedicalCareCategory_NoCare>Bez lékařské péče</MedicalCareCategory_NoCare>
+  <!-- EN: Doctor care, but no medicine -->
   <MedicalCareCategory_NoMeds>Lékařská péče bez léků</MedicalCareCategory_NoMeds>
+  <!-- EN: Herbal medicine or worse -->
   <MedicalCareCategory_HerbalOrWorse>Bylinné léky nebo horší</MedicalCareCategory_HerbalOrWorse>
+  <!-- EN: Industrial-tech medicine or worse -->
   <MedicalCareCategory_NormalOrWorse>Průmyslové léky nebo horší</MedicalCareCategory_NormalOrWorse>
+  <!-- EN: Best quality medicine -->
   <MedicalCareCategory_Best>Lékařská péče nejlepší kvality</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
+  <!-- EN: Ignore -->
   <HostilityResponseMode_Ignore>Ignorovat</HostilityResponseMode_Ignore>
+  <!-- EN: Attack -->
   <HostilityResponseMode_Attack>Útok</HostilityResponseMode_Attack>
+  <!-- EN: Flee -->
   <HostilityResponseMode_Flee>Útěk</HostilityResponseMode_Flee>
-
+  
   <!-- HediffGrowthMode -->
+  <!-- EN: growing -->
   <HediffGrowthMode_Growing>roste</HediffGrowthMode_Growing>
+  <!-- EN: stable -->
   <HediffGrowthMode_Stable>stabilní</HediffGrowthMode_Stable>
+  <!-- EN: remission -->
   <HediffGrowthMode_Remission>polevuje</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
+  <!-- EN: animal -->
   <TechLevel_Animal>\n- zvířecí</TechLevel_Animal>
+  <!-- EN: neolithic -->
   <TechLevel_Neolithic>\n- neolitická</TechLevel_Neolithic>
+  <!-- EN: medieval -->
   <TechLevel_Medieval>\n- středověká</TechLevel_Medieval>
+  <!-- EN: industrial -->
   <TechLevel_Industrial>\n- průmyslová</TechLevel_Industrial>
+  <!-- EN: spacer -->
   <TechLevel_Spacer>\n- vesmírná</TechLevel_Spacer>
+  <!-- EN: ultra -->
   <TechLevel_Ultra>\n- ultra</TechLevel_Ultra>
+  <!-- EN: archotech -->
   <TechLevel_Archotech>\n- archotecká</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
+  <!-- EN: Standing -->
   <PlayerPawnsArriveMethod_Standing>Na zemi</PlayerPawnsArriveMethod_Standing>
+  <!-- EN: Drop pods -->
   <PlayerPawnsArriveMethod_DropPods>V únikových modulech</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
+  <!-- EN: all characters -->
   <PawnGenerationContext_All>všechny postavy</PawnGenerationContext_All>
+  <!-- EN: player starting characters -->
   <PawnGenerationContext_PlayerStarter>postavy ovládané hráčem</PawnGenerationContext_PlayerStarter>
+  <!-- EN: non-player characters -->
   <PawnGenerationContext_NonPlayer>postavy neovládané hráčem</PawnGenerationContext_NonPlayer>
-
+  
   <!-- Animal name display mode -->
+  <!-- EN: Show animal names -->
   <ShowAnimalNames>Ukaž jména zvířat</ShowAnimalNames>
+  <!-- EN: Tame (named only) -->
   <AnimalNameDisplayMode_TameNamed>Ochočená (pojm.)</AnimalNameDisplayMode_TameNamed>
+  <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Ochočená (vše)</AnimalNameDisplayMode_TameAll>
-
+  
   <!-- Temperature -->
+  <!-- EN: Celsius -->
   <Celsius>Celsius</Celsius>
+  <!-- EN: Fahrenheit -->
   <Fahrenheit>Fahrenheit</Fahrenheit>
+  <!-- EN: Kelvin -->
   <Kelvin>Kelvin</Kelvin>
-
+  
   <!-- Direction8Way -->
+  <!-- EN: N -->
   <Direction8Way_North_Short>S</Direction8Way_North_Short>
+  <!-- EN: NE -->
   <Direction8Way_NorthEast_Short>SV</Direction8Way_NorthEast_Short>
+  <!-- EN: E -->
   <Direction8Way_East_Short>V</Direction8Way_East_Short>
+  <!-- EN: SE -->
   <Direction8Way_SouthEast_Short>JV</Direction8Way_SouthEast_Short>
+  <!-- EN: S -->
   <Direction8Way_South_Short>J</Direction8Way_South_Short>
+  <!-- EN: SW -->
   <Direction8Way_SouthWest_Short>JZ</Direction8Way_SouthWest_Short>
+  <!-- EN: W -->
   <Direction8Way_West_Short>Z</Direction8Way_West_Short>
+  <!-- EN: NW -->
   <Direction8Way_NorthWest_Short>SZ</Direction8Way_NorthWest_Short>
-
+  
   <!-- Diet category -->
+  <!-- EN: Never eats -->
   <DietCategory_NeverEats>Žádné jídlo</DietCategory_NeverEats>
+  <!-- EN: Herbivorous -->
   <DietCategory_Herbivorous>Býložravec</DietCategory_Herbivorous>
+  <!-- EN: Dendrovorous -->
   <DietCategory_Dendrovorous>Dřevožravec</DietCategory_Dendrovorous>
+  <!-- EN: Ovivorous -->
   <DietCategory_Ovivorous>Vejcožravec</DietCategory_Ovivorous>
+  <!-- EN: Omnivorous -->
   <DietCategory_Omnivorous>Všežravec</DietCategory_Omnivorous>
+  <!-- EN: Carnivorous -->
   <DietCategory_Carnivorous>Masožravec</DietCategory_Carnivorous>
+  <!-- EN: - -->
   <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <!-- EN: H -->
   <DietCategory_Herbivorous_Short>B</DietCategory_Herbivorous_Short>
+  <!-- EN: D -->
   <DietCategory_Dendrovorous_Short>D</DietCategory_Dendrovorous_Short>
+  <!-- EN: Ov -->
   <DietCategory_Ovivorous_Short>Ve</DietCategory_Ovivorous_Short>
+  <!-- EN: O -->
   <DietCategory_Omnivorous_Short>Vš</DietCategory_Omnivorous_Short>
+  <!-- EN: C -->
   <DietCategory_Carnivorous_Short>M</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
+  <!-- EN: incompetent cook -->
   <FoodPoisonCause_IncompetentCook>nekompetentní kuchař</FoodPoisonCause_IncompetentCook>
+  <!-- EN: dirty cooking area -->
   <FoodPoisonCause_FilthyKitchen>špinavý prostor pro vaření</FoodPoisonCause_FilthyKitchen>
+  <!-- EN: rotten food -->
   <FoodPoisonCause_Rotten>zkažené jídlo</FoodPoisonCause_Rotten>
+  <!-- EN: dangerous food type -->
   <FoodPoisonCause_DangerousFoodType>nebezpečný druh jídla</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
+  <!-- EN: none -->
   <PsychicDroneLevel_None>žádná úroveň</PsychicDroneLevel_None>
+  <!-- EN: medium -->
   <PsychicDroneLevel_GoodMedium>střední úroveň</PsychicDroneLevel_GoodMedium>
+  <!-- EN: low -->
   <PsychicDroneLevel_BadLow>nízká úroveň</PsychicDroneLevel_BadLow>
+  <!-- EN: medium -->
   <PsychicDroneLevel_BadMedium>střední úroveň</PsychicDroneLevel_BadMedium>
+  <!-- EN: high -->
   <PsychicDroneLevel_BadHigh>vysoká úroveň</PsychicDroneLevel_BadHigh>
+  <!-- EN: extreme -->
   <PsychicDroneLevel_BadExtreme>extrémní úroveň</PsychicDroneLevel_BadExtreme>
 
 </LanguageData>

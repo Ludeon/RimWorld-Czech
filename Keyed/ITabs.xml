@@ -1,158 +1,289 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
+  <!-- EN: Bills -->
   <TabBills>Úkoly</TabBills>
+  <!-- EN: Growing -->
   <TabGrowing>Pěstování</TabGrowing>
-  <TabCharacter>Postava</TabCharacter>
+  <!-- EN: Bio -->
+  <TabCharacter>Bio</TabCharacter>
+  <!-- EN: Training -->
   <TabTraining>Výcvik</TabTraining>
+  <!-- EN: Prisoner -->
   <TabPrisoner>Vězeň</TabPrisoner>
+  <!-- EN: Guest -->
   <TabGuest>Host</TabGuest>
+  <!-- EN: Gear -->
   <TabGear>Výbava</TabGear>
+  <!-- EN: Needs -->
   <TabNeeds>Potřeby</TabNeeds>
+  <!-- EN: Storage -->
   <TabStorage>Skladiště</TabStorage>
+  <!-- EN: Shells -->
   <TabShells>Munice</TabShells>
+  <!-- EN: Health -->
   <TabHealth>Zdraví</TabHealth>
+  <!-- EN: Race -->
   <TabRace>Rasa</TabRace>
+  <!-- EN: Basics -->
   <TabBasics>Základy</TabBasics>
+  <!-- EN: Stats -->
   <TabStats>Statistiky</TabStats>
+  <!-- EN: Records -->
   <TabRecords>Evidence</TabRecords>
+  <!-- EN: Art -->
   <TabArt>Umění</TabArt>
+  <!-- EN: Social -->
   <TabSocial>Vztahy</TabSocial>
+  <!-- EN: Log -->
   <TabLog>Záznamy</TabLog>
+  <!-- EN: Caravan -->
   <TabFormingCaravan>Karavana</TabFormingCaravan>
-
+  <!-- EN: Contents -->
+  <TabTransporterContents>Obsah</TabTransporterContents>
 
   <!-- Bills tab  -->
+  <!-- EN: Add bill -->
   <AddBill>Přidat úkol</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
   <RecipeRequiresSkills>Recept {0} vyžaduje dovednosti uvedené níže. Tyto dovednosti nemá žádný z tvých kolonistů, takže tento úkol nikdo neprovede.</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
   <MinimumSkill>Min dovednost</MinimumSkill>
+  <!-- EN: SUSPENDED -->
   <SuspendedCaps>ZASTAVENO</SuspendedCaps>
+  <!-- EN: Worker: {0} -->
   <BoundWorkerIs>Pracovník: {0}</BoundWorkerIs>
+  <!-- EN: Plant -->
   <PlantVerb>Sázení</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here. -->
   <ClipboardBillNotAvailableHere>Zkopírovaný příkaz nelze vložit zde.</ClipboardBillNotAvailableHere>
+  <!-- EN: Move up -->
   <ReorderBillUpTip>Posunout nahoru</ReorderBillUpTip>
+  <!-- EN: Move down -->
   <ReorderBillDownTip>Posunout dolů</ReorderBillDownTip>
+  <!-- EN: Delete -->
   <DeleteBillTip>Smazat</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
   <CopyBillTip>Zkopírovat do schránky</CopyBillTip>
+  <!-- EN: Suspend -->
   <SuspendBillTip>Pozastavit</SuspendBillTip>
+  <!-- EN: Paste -->
   <PasteBillTip>Vložit</PasteBillTip>
+  <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>Nelze přidat více</PasteBillTip_LimitReached>
 
-
   <!-- Guest/prisoner tab -->
+  <!-- EN: Resistance remaining -->
   <RecruitmentResistance>Zbývající vzdor</RecruitmentResistance>
+  <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Obtížnost verbování</RecruitmentDifficulty>
+  <!-- EN: Gets food -->
   <GetsFood>Dostává jídlo</GetsFood>
+  <!-- EN: Doctors care -->
   <DoctorsCare>Lékařská péče</DoctorsCare>
+  <!-- EN: Gets medicine -->
   <GetsMedicine>Dostává léky</GetsMedicine>
+  <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>Pokusit se verbovat</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>Považován za vinného (vyprší za {0})</ConsideredGuilty>
 
-
   <!-- Medical - general -->
+  <!-- EN: Move speed -->
   <MoveSpeed>Rychlost pohybu</MoveSpeed>
+  <!-- EN: Efficiency -->
   <Efficiency>Účinnost</Efficiency>
+  <!-- EN: Part efficiency -->
   <PartEfficiency>Účinnost části</PartEfficiency>
+  <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>Účinnost části těla</BodyPartEfficiency>
+  <!-- EN: Gone -->
   <MissingBodyPart>Není</MissingBodyPart>
+  <!-- EN: Destroyed -->
   <DestroyedBodyPart>Zničeno</DestroyedBodyPart>
+  <!-- EN: Shattered -->
   <ShatteredBodyPart>Roztříštěno</ShatteredBodyPart>
+  <!-- EN: Removed -->
   <RemovedBodyPart>Odstraněno</RemovedBodyPart>
+  <!-- EN: Healthy -->
   <Healthy>Zdravý</Healthy>
+  <!-- EN: In pain -->
   <InPain>Má bolesti</InPain>
+  <!-- EN: Pain -->
   <PainLevel>Bolest</PainLevel>
+  <!-- EN: Injured -->
   <Injured>Zraněný</Injured>
-  <NoHealthConditions>žádné zdravotní problémy</NoHealthConditions>  
+  <!-- EN: no health conditions -->
+  <NoHealthConditions>žádné zdravotní problémy</NoHealthConditions>
+  <!-- EN: Whole body -->
   <WholeBody>Celé tělo</WholeBody>
+  <!-- EN: Data processing -->
   <DataProcessing>Zpracovávání dat</DataProcessing>
+  <!-- EN: Communication -->
   <Communication>Komunikace</Communication>
+  <!-- EN: Affects -->
   <Affects>Ovlivňuje</Affects>
+  <!-- EN: Bleeding -->
   <BleedingRate>Krvácení</BleedingRate>
+  <!-- EN: death in {0} -->
   <TimeToDeath>Smrt za {0}</TimeToDeath>
+  <!-- EN: no immediate danger -->
   <WontBleedOutSoon>žádné bezprostřední nebezpečí</WontBleedOutSoon>
+  <!-- EN: Overview -->
   <HealthOverview>Přehled</HealthOverview>
+  <!-- EN: Operations ({0}) -->
   <MedicalOperationsShort>Operace ({0})</MedicalOperationsShort>
+  <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>Modifikací ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Medical operations -->
   <MedicalOperations>Lékařských zákroků</MedicalOperations>
+  <!-- EN: amputate -->
   <Amputate>amputovat</Amputate>
+  <!-- EN: harvest -->
   <HarvestOrgan>vyjmout</HarvestOrgan>
+  <!-- EN: remove -->
   <RemoveOrgan>odstranit</RemoveOrgan>
+  <!-- EN: memory -->
   <MemoryLower>paměť</MemoryLower>
+  <!-- EN: social interactions -->
   <SocialInteractionsLower>sociální komunikace</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
   <HungerRate>Míra hladu</HungerRate>
+  <!-- EN: Tiredness -->
   <Tiredness>Únava</Tiredness>
+  <!-- EN: Pain -->
   <PainFactor>Bolest</PainFactor>
+  <!-- EN: Prevents infection -->
   <PreventsInfection>Zabraňuje infekci</PreventsInfection>
+  <!-- EN: Self-tend -->
   <SelfTend>Sebeošetření</SelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>Pokud je sebeošetření zapnuto, {0} se bude o své zranění automaticky starat, ale pouze se {1} normální účinností.</SelfTendTip>
-
-
+  
   <!-- Medical - Body and activities condition -->
+  <!-- EN: None -->
   <None>Žádný</None>
+  <!-- EN: Very poor -->
   <VeryPoor>Vel. špatný</VeryPoor>
+  <!-- EN: Poor -->
   <Poor>Špatný</Poor>
+  <!-- EN: Weakened -->
   <Weakened>Oslabený</Weakened>
+  <!-- EN: OK -->
   <GoodCondition>V pořádku</GoodCondition>
+  <!-- EN: Enhanced -->
   <Enhanced>Vylepšený</Enhanced>
+  <!-- EN: Seriously impaired -->
   <SeriouslyImpaired>Vážně pošk.</SeriouslyImpaired>
+  <!-- EN: Impaired -->
   <Impaired>Poškozený</Impaired>
+  <!-- EN: Slightly impaired -->
   <SlightlyImpaired>Lehce pošk.</SlightlyImpaired>
+  <!-- EN: None -->
   <NoPain>Žádná</NoPain>
+  <!-- EN: Little -->
   <LittlePain>Malá</LittlePain>
+  <!-- EN: Medium -->
   <MediumPain>Střední</MediumPain>
+  <!-- EN: Severe -->
   <SeverePain>Silná</SeverePain>
+  <!-- EN: Extreme -->
   <ExtremePain>Nesmírná</ExtremePain>
 
-
-  <!-- Training tab-->
+  <!-- Training tab -->
+  <!-- EN: Trainability -->
   <Trainability>Cvičitelnost</Trainability>
+  <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>Vyžaduje cvičitelnost {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: {0} is too small to train this. -->
   <CannotTrainTooSmall>{0} se pro tento výcvik nehodí. Zvíře je příliš malé.</CannotTrainTooSmall>
 
+  <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
-
+  
   <!-- Social tab -->
+  <!-- EN: (no relationships) -->
   <NoRelationships>(žádné příbuzenské vztahy)</NoRelationships>
+  <!-- EN: Kidnapped -->
   <Kidnapped>Unesený</Kidnapped>
+  <!-- EN: Missing -->
   <Missing>Nezvěstný</Missing>
+  <!-- EN: Slave -->
   <Slave>Otrok</Slave>
+  <!-- EN: Faction leader -->
   <FactionLeader>Vůdce frakce</FactionLeader>
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>Mínění o {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>Mínění o mně ({0})</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
   <IAmDead>Jsem po smrti</IAmDead>
+  <!-- EN: I'm a psychopath -->
   <IAmPsychopath>Jsem psychopat</IAmPsychopath>
-
+  
   <!-- Gear tab -->
+  <!-- EN: Overall armor -->
   <OverallArmor>Celková hodnota zbroje (odolnosti)</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>Nesená hmotnost: {0} / {1} kg</MassCarried>
+  <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>Příjemný rozsah teplot</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
   <ArmorBlunt>Tupé škody</ArmorBlunt>
+  <!-- EN: Sharp -->
   <ArmorSharp>Ostré škody</ArmorSharp>
+  <!-- EN: Heat -->
   <ArmorHeat>Tepelné škody</ArmorHeat>
-
+  
   <!-- Log tab -->
+  <!-- EN: Show all -->
   <ShowAll>Zobrazit vše</ShowAll>
+  <!-- EN: Show combat -->
   <ShowCombat>Souboje</ShowCombat>
+  <!-- EN: Show social -->
   <ShowSocial>Socializace</ShowSocial>
+  <!-- EN: no recent entries -->
   <NoRecentEntries>žádné nové záznamy</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>Zkopírovat záznamy do schránky.</CopyLogTip>
 
   <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
   <FormingCaravanStatus_GatheringAnimals>Shromažďování zvířat</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
   <FormingCaravanStatus_GatheringAnimals_Pause>Shromažďování zvířat (čekání)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>Shromažďování předmětů</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>Shromažďování předmětů (čekání)</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering slaves -->
   <FormingCaravanStatus_GatheringSlaves>Shromažďování otroků</FormingCaravanStatus_GatheringSlaves>
+  <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>Shromažďování otroků (čekání)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>Odchod</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
   <FormingCaravanStatus_Leaving_Pause>Odchod (čekání)</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>Čekání</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
   <CaravanMembers>Členové</CaravanMembers>
+  <!-- EN: Animals -->
   <CaravanAnimals>Zvířata</CaravanAnimals>
+  <!-- EN: Items to load -->
   <ItemsToLoad>Předměty k naložení</ItemsToLoad>
+  <!-- EN: Loaded items -->
   <LoadedItems>Naložené předměty</LoadedItems>
+  <!-- EN: pack animals -->
   <PackAnimalsCountLower>nákladní zvířata</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
   <InMentalStateCountLower>psychické zhroucení</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <!-- EN: Remove {{0}}x {0} -->
+  <RemoveSliderText>Odstranit {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Do you really want to remove {0}? -->
+  <ConfirmRemoveItemDialog>Opravdu chceš odstranit {0}?</ConfirmRemoveItemDialog>
 
 </LanguageData>

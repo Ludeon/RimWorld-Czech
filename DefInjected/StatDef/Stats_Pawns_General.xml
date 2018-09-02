@@ -1,57 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MoveSpeed.label>rychlost pohybu</MoveSpeed.label>
-  <MoveSpeed.description>Rychlost pohybu po světě v buňkách za sekundu.</MoveSpeed.description>
-  <MoveSpeed.formatString>{0} buňek/s</MoveSpeed.formatString>
-
-  <MentalBreakThreshold.label>práh psychického zhroucení</MentalBreakThreshold.label>
-  <MentalBreakThreshold.description>Čím déle zůstává nálada pod touto úrovni, tím více hrozí psychické zhroucení. Závažnost psychického zhroucení závisí na tom, jak moc nízko pod prahem je.</MentalBreakThreshold.description>
-
-  <PsychicSensitivity.label>psychická citlivost</PsychicSensitivity.label>
-  <PsychicSensitivity.description>Násobitel vlivu psychických jevů, které ovlivňují tuto osobu. Velmi citliví lidé trpí o to více z negativních psychických jevů, a naopak více těží z pozitivních jevů.</PsychicSensitivity.description>
-
-  <ToxicSensitivity.label>toxická citlivost</ToxicSensitivity.label>
-  <ToxicSensitivity.description>Násobitel vlivu nahromaděných toxických látek tohoto stvoření.</ToxicSensitivity.description>
-
-  <GlobalLearningFactor.label>faktor učení</GlobalLearningFactor.label>
-  <GlobalLearningFactor.description>Násobitel rychlosti učení pro všechny dovednosti.</GlobalLearningFactor.description>
-
-  <HungerRateMultiplier.label>rychlost vyhladovění</HungerRateMultiplier.label>
-  <HungerRateMultiplier.description>Násobitel, jak rychle stvoření začne hladovět.</HungerRateMultiplier.description>
-
-  <RestRateMultiplier.label>rychlost odpočinku</RestRateMultiplier.label>
-  <RestRateMultiplier.description>Násobitel, jak rychle stvoření nabírá odpočinek při spánku.</RestRateMultiplier.description>
-
-  <EatingSpeed.label>rychlost konzumace jídla</EatingSpeed.label>
-  <EatingSpeed.description>Násobitel rychlosti konzumace jídla.</EatingSpeed.description>
-
-  <ComfyTemperatureMin.label>minimální snesitelná teplota</ComfyTemperatureMin.label>
-  <ComfyTemperatureMin.description>Pod touto teplotou budou postavy nešťastné. Výrazně pod touto teplotou se bude rozvíjet podchlazení a omrzliny, a eventuálně zemřou.</ComfyTemperatureMin.description>
-
-  <ComfyTemperatureMax.label>maximální snesitelná teplota</ComfyTemperatureMax.label>
-  <ComfyTemperatureMax.description>Nad touto teplotou budou postavy nešťastné. Výrazně nad touto teplotou se bude rozvíjet úpal, a eventuálně zemřou.</ComfyTemperatureMax.description>
-
-  <ImmunityGainSpeed.label>rychlost vytvoření imunity</ImmunityGainSpeed.label>
-  <ImmunityGainSpeed.description>Rychlost, jakou tato postava získává imunitu vůči nemocem. Pokud je hodnota příliš nízká, postava může zemřít na nemoc před rozvinutím imunity.</ImmunityGainSpeed.description>
-
-  <CarryingCapacity.label>kapacita nošení</CarryingCapacity.label>
-  <CarryingCapacity.description>Množství věcí, které toto stvoření dokáže nést v rukou, ústech nebo jiným způsobem. Tato kapacita není aplikována na schopnost přepravovat náklad na dlouhých trasách po mapě světa.</CarryingCapacity.description>
-
-  <MeatAmount.label>množství masa</MeatAmount.label>
-  <MeatAmount.description>Množství masa získatelné při bourání tohoto stvoření.</MeatAmount.description>
-
-  <LeatherAmount.label>množství kůže</LeatherAmount.label>
-  <LeatherAmount.description>Množství kůže získatelné při bourání tohoto stvoření.</LeatherAmount.description>
-
-  <MinimumHandlingSkill.label>minimální dovednost Zvířata</MinimumHandlingSkill.label>
-  <MinimumHandlingSkill.description>Tato bytost nemůže být ochočena, vycvičena, a ovládána někým, kdo má nižší dovednost Zvířata, než je tato hodnota.</MinimumHandlingSkill.description>
-
-  <PainShockThreshold.label>práh bolesti</PainShockThreshold.label>
-  <PainShockThreshold.description>Úroveň bolesti, při němž je toto stvoření posláno k zemi.</PainShockThreshold.description>
   
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>kapacita nošení</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>Množství věcí, které toto stvoření dokáže nést v rukou, ústech nebo jiným způsobem. Tato kapacita není aplikována na schopnost přepravovat náklad na dlouhých trasách po mapě světa.</CarryingCapacity.description>
+  
+  <!-- EN: Maximum comfortable temperature -->
+  <ComfyTemperatureMax.label>maximální snesitelná teplota</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>Nad touto teplotou budou postavy nešťastné. Výrazně nad touto teplotou se bude rozvíjet úpal, a eventuálně zemřou.</ComfyTemperatureMax.description>
+  
+  <!-- EN: Minimum comfortable temperature -->
+  <ComfyTemperatureMin.label>minimální snesitelná teplota</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>Pod touto teplotou budou postavy nešťastné. Výrazně pod touto teplotou se bude rozvíjet podchlazení a omrzliny, a eventuálně zemřou.</ComfyTemperatureMin.description>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>rychlost konzumace jídla</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>Násobitel rychlosti konzumace jídla.</EatingSpeed.description>
+  
+  <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>nasbírané množství potravy</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
   <ForagedNutritionPerDay.description>Množství jídla, které může tato osoba automaticky nasbírat za den při cestování s karavanou.</ForagedNutritionPerDay.description>
   
-    
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>faktor učení</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>Násobitel rychlosti učení pro všechny dovednosti.</GlobalLearningFactor.description>
+  
+  <!-- EN: hunger rate multiplier -->
+  <HungerRateMultiplier.label>rychlost vyhladovění</HungerRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
+  <HungerRateMultiplier.description>Násobitel, jak rychle stvoření začne hladovět.</HungerRateMultiplier.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>rychlost vytvoření imunity</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>Rychlost, jakou tato postava získává imunitu vůči nemocem. Pokud je hodnota příliš nízká, postava může zemřít na nemoc před rozvinutím imunity.</ImmunityGainSpeed.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>množství kůže</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>Množství kůže získatelné při bourání tohoto stvoření.</LeatherAmount.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>množství masa</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>Množství masa získatelné při bourání tohoto stvoření.</MeatAmount.description>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>práh psychického zhroucení</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>Čím déle zůstává nálada pod touto úrovni, tím více hrozí psychické zhroucení. Závažnost psychického zhroucení závisí na tom, jak moc nízko pod prahem je.</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>minimální dovednost Zvířata</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>Tato bytost nemůže být ochočena, vycvičena, a ovládána někým, kdo má nižší dovednost Zvířata, než je tato hodnota.</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>rychlost pohybu</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>Rychlost pohybu po světě v buňkách za sekundu.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>{0} buňek/s</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>práh bolesti</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>Úroveň bolesti, při němž je toto stvoření posláno k zemi.</PainShockThreshold.description>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>psychická citlivost</PsychicSensitivity.label>
+  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <PsychicSensitivity.description>Násobitel vlivu psychických jevů, které ovlivňují tuto osobu. Velmi citliví lidé trpí o to více z negativních psychických jevů, a naopak více těží z pozitivních jevů.</PsychicSensitivity.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>rychlost odpočinku</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>Násobitel, jak rychle stvoření nabírá odpočinek při spánku.</RestRateMultiplier.description>
+  
+  <!-- EN: toxic sensitivity -->
+  <ToxicSensitivity.label>toxická citlivost</ToxicSensitivity.label>
+  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
+  <ToxicSensitivity.description>Násobitel vlivu nahromaděných toxických látek tohoto stvoření.</ToxicSensitivity.description>
+  
 </LanguageData>

@@ -1,119 +1,200 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Click to jump to problem -->
   <ClickToJumpToProblem>Kliknutím zobrazíš problém</ClickToJumpToProblem>
 
+  <!-- EN: Minor break risk -->
   <BreakRiskMinor>Menší riziko zhroucení</BreakRiskMinor>
+  <!-- EN: Major break risk -->
   <BreakRiskMajor>Vážné riziko zhroucení</BreakRiskMajor>
+  <!-- EN: Extreme break risk -->
   <BreakRiskExtreme>Extrémní riziko zhroucení</BreakRiskExtreme>
+  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0} -->
   <BreakRiskMinorDesc>Tito kolonisté mají špatnou náladu a mohou každým okamžikem utrpět menší psychické zhroucení:\n\n{0}</BreakRiskMinorDesc>
+  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
   <BreakRiskMajorDesc>Tito kolonisté mají velmi špatnou náladu a mohou každým okamžikem utrpět vážné psychické zhroucení:\n\n{0}</BreakRiskMajorDesc>
+  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
   <BreakRiskExtremeDesc>Tito kolonisté jsou pod velmi silným tlakem a mohou každou chvíli utrpět extrémní (a potenciálně násilné) psychické zhroucení:\n\n{0}</BreakRiskExtremeDesc>
+  <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>Zkontroluj jejich záložku Potřeby, abys zjistil, co je trápí.\n\nAby se kolonisté cítili lépe, můžeš jim v tom pomoci tím, že jim připravíš nějaké fantastické jídlo, dáš jim více hodin denně na relaxaci, přičemž jim poskytneš lepší zdroje relaxace, umístíš je do příjemně hezkého prostředí, dopřeješ jim pití alkoholu a kouření, a ještě mnohem více.</BreakRiskDescEnding>
-
+  
+  <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>Kolonista potřebuje zachránit</ColonistNeedsRescue>
+  <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>Kolonisté potřebují zachránit</ColonistsNeedRescue>
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
   <ColonistsNeedRescueDesc>Tito kolonisté leží na zemi v bezvědomí:\n\n{0}\nPošli k němu jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni pravým tlačítkem na oběť a vyber Zachraň!)</ColonistsNeedRescueDesc>
 
+  <!-- EN: Need defenses -->
   <NeedDefenses>Potřebuješ obranu</NeedDefenses>
+  <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
   <NeedDefensesDesc>Už tu nějakou dobu jsi a určitě jsi byl také pravděpodobně odhalen. Brzy tě mohou začít napadat piráti.\n\nMěl bys připravit obranu, jako jsou pytle s pískem nebo pasti.</NeedDefensesDesc>
 
+  <!-- EN: Need doctor -->
   <NeedDoctor>Potřebuješ doktora</NeedDoctor>
+  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
   <NeedDoctorDesc>Tito kolonisté potřebují lékařskou péči, ale nemáš žádné zdravé kolonisty přidělené jako doktory:\n\n{0}\nPřiděl některému zdravému kolonistovi druh činnosti Doktor. Pokud rány nebudou léčeny, nemusí se řádně zahojit, a mohou se stát trvalými.</NeedDoctorDesc>
 
+  <!-- EN: Need miner -->
   <NeedMiner>Potřebuješ horníka</NeedMiner>
+  <!-- EN: You have designated some rocks to be mined, but no colonist has the Mining work type.\n\nAssign a colonist the Mining work type. -->
   <NeedMinerDesc>Sice jsi určil, které horniny mají být vytěženy, ale nemáš žádného kolonistu, který by prováděl práci horníka.\n\nPřiděl některému kolonistovi druh činnosti Horník.</NeedMinerDesc>
 
+  <!-- EN: Need warden -->
   <NeedWarden>Potřebuješ dozorce</NeedWarden>
+  <!-- EN: You have a prisoner, but no colonist has the Warden work type.\n\nAssign a colonist the Warden work type. -->
   <NeedWardenDesc>Máš vězně, ale nemáš žádného kolonistu, který by prováděl práci dozorce.\n\nPřiděl některému kolonistovi druh činnosti Dozorce.</NeedWardenDesc>
 
+  <!-- EN: Low food -->
   <LowFood>Nízký stav jídla</LowFood>
+  <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
   <LowFoodDesc>Máš nebezpečně málo jídla.\n\n    Počet naplnění ukazatelů ve skladišti: {0}\n    Kolonistů a vězňů dostávající jídlo: {1}\n    Počet dnů do vyčerpání rezerv: {2}\n\nAbys získal jídlo, něco vypěstuj, kup, najdi nebo zabij.</LowFoodDesc>
 
+  <!-- EN: Low medicine -->
   <LowMedicine>Nízký stav léčiv</LowMedicine>
+  <!-- EN: You only have {0} medications left in storage.\n\nBuy more medicine from traders. -->
   <LowMedicineDesc>Ve skladišti už máš jen {0}ks léčiv.\n\nNakup u obchodníků více léčiv.</LowMedicineDesc>
+  <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
   <NoMedicineDesc>Ve skladišti už nemáš žádná léčiva.\n\nNakup u obchodníků více léčiv.</NoMedicineDesc>
-
+  
+  <!-- EN: Need colonist beds -->
   <NeedColonistBeds>Potřebuješ postele</NeedColonistBeds>
+  <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>Máš více kolonistů než postelí. Ostatní by si také chtěli lehnout.\n\nVyrob další postele, nebo změň vězeňskou na normální.\n\nPokud nemáš prostředky na jejich výrobu, tak alespoň někam umísti místa na spaní, která jsou zdarma.</NeedColonistBedsDesc>
 
+  <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Lovec nemá stř. zbraň</HunterLacksWeapon>
+  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
   <HunterLacksWeaponDesc>Kolonista je přidělený jako lovec, ale nemá zbraň na dálku.\n\nNebude lovit, dokud nějakou nedostane.</HunterLacksWeaponDesc>
 
+  <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roztrhané oblečení</AlertTatteredApparel>
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
   <AlertTatteredApparelDesc>Tito kolonisté nosí roztrhané oblečení a jsou kvůli tomu nespokojení:\n\n{0}\nDej jim oblečení, které není tak silně poškozené.\n\nOblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</AlertTatteredApparelDesc>
 
+  <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>Nešťastní naháči</AlertUnhappyNudity>
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
   <AlertUnhappyNudityDesc>Tito kolonisté jsou nazí a nejsou z toho zrovna šťastní:\n\n{0}\nSežeň jim nějaké oblečení.\n\nOblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</AlertUnhappyNudityDesc>
 
+  <!-- EN: Starvation -->
   <Starvation>Hladovění</Starvation>
+  <!-- EN: These colonists are starving:\n\n{0}\nGet them some food. -->
   <StarvationDesc>Tito kolonisté hladoví:\n\n{0}\nSežeň jim nějaké jídlo.</StarvationDesc>
 
+  <!-- EN: Animal starvation -->
   <StarvationAnimals>Hladovění zvířat</StarvationAnimals>
+  <!-- EN: These colony animals are starving:\n\n{0}\nGet them some food. -->
   <StarvationAnimalsDesc>Tato zvířata patřící kolonii hladoví:\n\n{0}\nSežeň jim nějakou potravu.</StarvationAnimalsDesc>
 
+  <!-- EN: Exhaustion -->
   <Exhaustion>Vyčerpání</Exhaustion>
+  <!-- EN: These colonists are exhausted and need rest:\n\n{0}\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
   <ExhaustionDesc>Tito kolonisté jsou vyčerpaní a potřebují si odpočinout:\n\n{0}\nDopřej jim trochu odpočinku. Potřebují postel určenou pro kolonisty. Také se ujisti, že je nemáš ve vojenském náboru.</ExhaustionDesc>
 
+  <!-- EN: Need food hopper -->
   <NeedFoodHopper>Potřebuješ násypku</NeedFoodHopper>
+  <!-- EN: You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser. -->
   <NeedFoodHopperDesc>Máš dávkovač nutriční pasty, ale bez připojené násypky.\n\nPro práci dávkovače potřebuješ připojit násypku, která bude naplněná syrovými potravinami.\n\nPostav násypku přiléhající k dávkovači.</NeedFoodHopperDesc>
 
+  <!-- EN: Need meal source -->
   <NeedMealSource>Potřebuješ zdroj jídla</NeedMealSource>
+  <!-- EN: You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) -->
   <NeedMealSourceDesc>Nemáš žádnou možnost, jak bys připravil pořádné pokrmy ze syrových potravin.\n\nPostav sporák, ohniště nebo dávkovač nutriční pasty.\n\n(Nesmí být ve vězeňské cele, protože by ho kolonisté nemohli používat.)</NeedMealSourceDesc>
 
+  <!-- EN: Need recreation variety -->
   <NeedJoySource>Potřebuješ rozmanitost relaxace</NeedJoySource>
+  <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
   <NeedJoySourceDesc>{1} nemá k dispozici dostatek různorodých typů relaxace. Na aktuální úrovni očekávání ({2}) {0} nestačí, kolonisté jich vyžadují {3}, aby zůstali spokojeni. Zajisti jim větší rozmanitost relaxačních aktivit.\n\n{4}\n\n{5}\n\nPoznámka: Můžeš si zkontrolovat typ relaxace u některých předmětů na stránce statistik, která je dostupná po kliknutí na tlačítko 'i' v okně předmětu.</NeedJoySourceDesc>
+  <!-- EN: Available recreation types -->
   <AvailableRecreationTypes>Dostupné typy relaxací</AvailableRecreationTypes>
+  <!-- EN: Missing recreation types -->
   <MissingRecreationTypes>Chybějící typy relaxací</MissingRecreationTypes>
+  <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
   <CurrentExpectationsAndRecreation>Na aktuální úrovni očekávání ({0}), každá tolerance klesá o {1} za den, pokud je vzhůru.\n\nDoporučený počet typů relaxací: {2}</CurrentExpectationsAndRecreation>
+  <!-- EN: bored -->
   <bored>již nezabaví</bored>
 
+  <!-- EN: Boredom -->
   <Boredom>Nuda</Boredom>
+  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {1}:\n\n{2} -->
   <BoredomDesc>Tito lidé buď vyžadují relaxační aktivity, a nebo by je měli dle rozvrhu provádět, ale jsou již znuděni z každého dostupného zdroje relaxace:\n\n{0}\n\nZajisti jim větší rozmanitost relaxačních aktivit.\n\nAktuálně dostupné typy relaxací pro {1}:\n\n{2}</BoredomDesc>
-                     
+
+  <!-- EN: Need batteries -->
   <NeedBatteries>Potřebuješ baterie</NeedBatteries>
+  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
   <NeedBatteriesDesc>Máš sice solární nebo větrný generátor, ale žádné baterie. To znamená, že o elektřinu přijdeš pokaždé, když zapadne slunce nebo přestane foukat vítr.\n\nPostav jednu nebo dvě baterie, aby sis zajistil stálý přísun elektrické energie.</NeedBatteriesDesc>
-                          
+
+  <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Rváč má zbraň na dálku</BrawlerHasRangedWeapon>
+  <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
   <BrawlerHasRangedWeaponDesc>Jeden z tvých kolonistů má hlavní rys Rváč, přičemž má zbraň na dálku. Je z toho velmi nešťastný.</BrawlerHasRangedWeaponDesc>
 
+  <!-- EN: Shield user has ranged weapon -->
   <ShieldUserHasRangedWeapon>Osoba se štítem má zbraň na dálku</ShieldUserHasRangedWeapon>
+  <!-- EN: One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them). -->
   <ShieldUserHasRangedWeaponDesc>Jeden z tvých kolonistů má opasek s energoštítem, přičemž má zbraň na dálku. Nebude moci ze své zbraně střílet skrze štít (kromě na cíle, které jsou v blízkosti doteku).</ShieldUserHasRangedWeaponDesc>
 
+  <!-- EN: Need research project -->
   <NeedResearchProject>Potřebuješ výzkum</NeedResearchProject>
+  <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený žádný projekt.\n\nOtevři záložku Výzkum a vyber si projekt.</NeedResearchProjectDesc>
-
+  
+  <!-- EN: {0} colonists idle -->
   <ColonistsIdle>Nečinní kolonisté: {0}</ColonistsIdle>
+  <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Tito kolonisté se poflakují:\n\n{0}\nMěl bys jim najít něco produktivního.</ColonistsIdleDesc>
 
+  <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Kolonista potřebuje ošetřit</ColonistNeedsTreatment>
+  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Tito kolonisté potřebují lékařskou péči. Bez ní mohou zemřít, nebo budou mít trvalé následky.\n\n{0}\nPošli je do zdravotnické postele.\n\n(Nejprve vyber postel a nastav ji jako zdravotnickou. Poté vyber raněného kolonistu a pravým tlačítkem myši klikni na zdravotnickou postel, čímž se kolonista stane pacientem.)</ColonistNeedsTreatmentDesc>
 
+  <!-- EN: Hypothermia -->
   <AlertHypothermia>Podchlazení</AlertHypothermia>
+  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>Tito kolonisté trpí podchlazením.\n\n{0}\nUjisti se, že jejich oblečení je vhodné pro toto období a vnitřní prostory jsou správně vyhřívané.</AlertHypothermiaDesc>
-
+  
+  <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>Pacientů čeká na operaci: {0}</PatientsAwaitingMedicalOperation>
+  <!-- EN: These patients await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>Tito pacienti čekají na chirurgický zákrok:\n\n{0}\nUjisti se, že máš k dispozici potřebný lékařský materiál, stejně tak i doktora.</PatientsAwaitingMedicalOperationDesc>
 
+  <!-- EN: Fire! -->
   <FireInHomeArea>Hoří!</FireInHomeArea>
+  <!-- EN: There is a fire in the home area. -->
   <FireInHomeAreaDesc>V domovské oblasti hoří.</FireInHomeAreaDesc>
 
+  <!-- EN: Medical emergency -->
   <PawnsWithLifeThreateningDisease>Lékařská pohotovost</PawnsWithLifeThreateningDisease>
+  <!-- EN: People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical care possible. -->
   <PawnsWithLifeThreateningDiseaseDesc>Tito lidé jsou v ohrožení života z důvodu závažného zdravotního stavu:\n\n{0}\nUjisti se, že se jim dostane té nejlepší možné lékařské péče.</PawnsWithLifeThreateningDiseaseDesc>
+  <!-- EN: People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
   <PawnsWithLifeThreateningDiseaseAmputationDesc>Tito lidé jsou v ohrožení života z důvodu závažného zdravotního stavu:\n\n{0}\nPokud je to možné, zvaž raději amputaci nebo nahrazení infikované končetiny s cílem udržet kolonisty naživu.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
+  <!-- EN: Billiards needs space -->
   <BilliardsNeedsSpace>Kulečníkový stůl potřebuje prostor</BilliardsNeedsSpace>
+  <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Jeden ze tvých kulečníkových stolů přiléhá k překážce, která znemožňuje kolonistům jeho použití.\n\nKulečníkový stůl potřebuje kolem sebe volný prostor na všech stranách, aby byl použitelný.</BilliardsNeedsSpaceDesc>
 
+  <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Lovec má štít a zbraň na dálku</HunterHasShieldAndRangedWeapon>
+  <!-- EN: One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed. -->
   <HunterHasShieldAndRangedWeaponDesc>Jeden z tvých lovců používá zbraň na dálku a přitom nosí opasek s energoštítem, který znemožňuje střelbu.\n\nDokud mu ten štít neodebereš, nebude schopen lovit.</HunterHasShieldAndRangedWeaponDesc>
 
+  <!-- EN: Need warm clothes -->
   <NeedWarmClothes>Potřebuješ teplé oblečení</NeedWarmClothes>
+  <!-- EN: At least {0} of your colonists will lack warm clothes when the cold season comes. -->
   <NeedWarmClothesDesc1>Nejméně {0} z tvých kolonistů nebude mít v chladném ročním období žádné teplé oblečení.</NeedWarmClothesDesc1>
+  <!-- EN: All of your colonists will lack warm clothes when the cold season comes. -->
   <NeedWarmClothesDesc1All>Ani jeden z tvých kolonistů nebude mít v chladném ročním období žádné teplé oblečení.</NeedWarmClothesDesc1All>
+  <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
   <NeedWarmClothesDesc2>Venkovní teplota dosáhne {0}.\n\nTeplé oblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</NeedWarmClothesDesc2>
-
+  
+  <!-- EN: Immobile caravan -->
   <ImmobileCaravan>Nepojízdná karavana</ImmobileCaravan>
+  <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>Jedna z tvých karavan je neschopná pohybu, protože toho veze příliš mnoho.\n\nZnovu rozpohybovat karavanu můžeš tak, že se vzdáš některých předmětů v záložce PŘEDMĚTY.</ImmobileCaravanDesc>
-
+  
 </LanguageData>

@@ -1,74 +1,169 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- General -->
-
-  <Goto.reportString>přesunuje se.</Goto.reportString>
-  <Follow.reportString>následuje: TargetA.</Follow.reportString>
-  <FollowClose.reportString>následuje: TargetA.</FollowClose.reportString>
-  <GotoSafeTemperature.reportString>hledá místo s bezpečnější teplotou.</GotoSafeTemperature.reportString>
-  <GotoWander.reportString>toulá se.</GotoWander.reportString>
-  <Wait.reportString>čeká.</Wait.reportString>
-  <Wait_MaintainPosture.reportString>čeká.</Wait_MaintainPosture.reportString>
-  <Wait_Downed.reportString>je v bezvědomí.</Wait_Downed.reportString>
-  <Wait_SafeTemperature.reportString>čeká v místě s bezpečnější teplotou.</Wait_SafeTemperature.reportString>
-  <Wait_Wander.reportString>čeká.</Wait_Wander.reportString>
-  <Wait_Combat.reportString>vyhlíží cíle.</Wait_Combat.reportString>
-  <AttackStatic.reportString>útočí na: TargetA</AttackStatic.reportString>
+  
+  <!-- EN: melee attacking TargetA. -->
   <AttackMelee.reportString>útočí na blízko na: TargetA</AttackMelee.reportString>
-  <SocialFight.reportString>rve se s: TargetA</SocialFight.reportString>
-  <UseVerbOnThing.reportString>něco dělá.</UseVerbOnThing.reportString>
-  <Equip.reportString>vybavuje se: TargetA</Equip.reportString>
-  <TakeInventory.reportString>bere: TargetA</TakeInventory.reportString>
-  <GiveToPackAnimal.reportString>bere: TargetA</GiveToPackAnimal.reportString>
-  <Wear.reportString>obléká si: TargetA</Wear.reportString>
-  <RemoveApparel.reportString>vysvléká si: TargetA</RemoveApparel.reportString>
-  <DropEquipment.reportString>odhazuje: TargetA</DropEquipment.reportString>
-  <Strip.reportString>svléká: TargetA</Strip.reportString>
-  <Open.reportString>otevírá: TargetA</Open.reportString>
-  <RearmTurret.reportString>provádí údržbu: TargetA.</RearmTurret.reportString>
-  <RearmTurretAtomic.reportString>provádí údržbu: TargetA.</RearmTurretAtomic.reportString>
-  <Refuel.reportString>doplňuje palivo: TargetA</Refuel.reportString>
-  <RefuelAtomic.reportString>doplňuje palivo: TargetA.</RefuelAtomic.reportString>
-  <FillFermentingBarrel.reportString>plní: TargetA</FillFermentingBarrel.reportString>
-  <TakeBeerOutOfFermentingBarrel.reportString>stáčí pivo z: TargetA</TakeBeerOutOfFermentingBarrel.reportString>
-  <UnloadInventory.reportString>vykládá: TargetA</UnloadInventory.reportString>
-  <UnloadYourInventory.reportString>vykládá zásoby.</UnloadYourInventory.reportString>
-  <ManTurret.reportString>obsluhuje minomet.</ManTurret.reportString>
-  <EnterCryptosleepCasket.reportString>otevírá cryptospánkovou komoru.</EnterCryptosleepCasket.reportString>
-  <UseNeurotrainer.reportString>aplikuje neurotrénovací mechanití sérum.</UseNeurotrainer.reportString>
-  <UseArtifact.reportString>aktivuje artefakt.</UseArtifact.reportString>
-  <UseItem.reportString>používá: TargetA</UseItem.reportString>
-  <TriggerFirefoamPopper.reportString>spouští hasící přístroj.</TriggerFirefoamPopper.reportString>
-  <ClearSnow.reportString>uklízí sníh.</ClearSnow.reportString>
-  <Vomit.reportString>zvrací.</Vomit.reportString>
-  <Flick.reportString>přepíná spínač.</Flick.reportString>
-  <TradeWithPawn.reportString>obchoduje s: TargetA</TradeWithPawn.reportString>
-  <Flee.reportString>utíká.</Flee.reportString>
-  <FleeAndCower.reportString>utíká.</FleeAndCower.reportString>
-  <EnterTransporter.reportString>vstupuje do: TargetA</EnterTransporter.reportString>
-  <Resurrect.reportString>oživuje: TargetA</Resurrect.reportString>
-  <Insult.reportString>uráží: TargetA</Insult.reportString>
-  <HaulCorpseToPublicPlace.reportString>nese: TargetA</HaulCorpseToPublicPlace.reportString>
-  <InducePrisonerToEscape.reportString>nabádá k útěku: TargetA</InducePrisonerToEscape.reportString>
-
-
-  <!-- Fire -->
-
-  <Ignite.reportString>podpaluje: TargetA</Ignite.reportString>
+  
+  <!-- EN: attacking TargetA. -->
+  <AttackStatic.reportString>útočí na: TargetA</AttackStatic.reportString>
+  
+  <!-- EN: beating fire out. -->
   <BeatFire.reportString>hasí oheň.</BeatFire.reportString>
+  
+  <!-- EN: clearing snow. -->
+  <ClearSnow.reportString>uklízí sníh.</ClearSnow.reportString>
+  
+  <!-- EN: dropping TargetA. -->
+  <DropEquipment.reportString>odhazuje: TargetA</DropEquipment.reportString>
+  
+  <!-- EN: entering cryptosleep casket. -->
+  <EnterCryptosleepCasket.reportString>otevírá cryptospánkovou komoru.</EnterCryptosleepCasket.reportString>
+  
+  <!-- EN: entering TargetA. -->
+  <EnterTransporter.reportString>vstupuje do: TargetA</EnterTransporter.reportString>
+  
+  <!-- EN: equipping TargetA. -->
+  <Equip.reportString>vybavuje se: TargetA</Equip.reportString>
+  
+  <!-- EN: extinguishing self. -->
   <ExtinguishSelf.reportString>hasí sebe.</ExtinguishSelf.reportString>
-
-
-  <!-- Need satisfaction -->
-
+  
+  <!-- EN: filling TargetA. -->
+  <FillFermentingBarrel.reportString>plní: TargetA</FillFermentingBarrel.reportString>
+  
+  <!-- EN: fleeing. -->
+  <Flee.reportString>utíká.</Flee.reportString>
+  
+  <!-- EN: fleeing. -->
+  <FleeAndCower.reportString>utíká.</FleeAndCower.reportString>
+  
+  <!-- EN: flicking switch. -->
+  <Flick.reportString>přepíná spínač.</Flick.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <Follow.reportString>následuje: TargetA.</Follow.reportString>
+  
+  <!-- EN: following TargetA. -->
+  <FollowClose.reportString>následuje: TargetA.</FollowClose.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <GiveToPackAnimal.reportString>bere: TargetA</GiveToPackAnimal.reportString>
+  
+  <!-- EN: moving. -->
+  <Goto.reportString>přesunuje se.</Goto.reportString>
+  
+  <!-- EN: seeking safe temperature. -->
+  <GotoSafeTemperature.reportString>hledá místo s bezpečnější teplotou.</GotoSafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <GotoWander.reportString>toulá se.</GotoWander.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulCorpseToPublicPlace.reportString>přenáší: TargetA</HaulCorpseToPublicPlace.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToTransporter.reportString>přenáší: TargetA</HaulToTransporter.reportString>
+  
+  <!-- EN: igniting TargetA. -->
+  <Ignite.reportString>podpaluje: TargetA</Ignite.reportString>
+  
+  <!-- EN: inducing TargetA to escape. -->
+  <InducePrisonerToEscape.reportString>nabádá k útěku: TargetA</InducePrisonerToEscape.reportString>
+  
+  <!-- EN: consuming TargetA. -->
   <Ingest.reportString>konzumuje: TargetA</Ingest.reportString>
+  
+  <!-- EN: insulting TargetA. -->
+  <Insult.reportString>uráží: TargetA</Insult.reportString>
+  
+  <!-- EN: lying down. -->
   <LayDown.reportString>leží.</LayDown.reportString>
-
-
-  <!-- Love -->
-
+  
+  <!-- EN: lovin'. -->
   <Lovin.reportString>souloží.</Lovin.reportString>
-
-
+  
+  <!-- EN: operating turret. -->
+  <ManTurret.reportString>obsluhuje minomet.</ManTurret.reportString>
+  
+  <!-- EN: opening TargetA. -->
+  <Open.reportString>otevírá: TargetA</Open.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurret.reportString>provádí údržbu: TargetA.</RearmTurret.reportString>
+  
+  <!-- EN: rearming TargetA. -->
+  <RearmTurretAtomic.reportString>provádí údržbu: TargetA.</RearmTurretAtomic.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <Refuel.reportString>doplňuje palivo: TargetA</Refuel.reportString>
+  
+  <!-- EN: refueling TargetA. -->
+  <RefuelAtomic.reportString>doplňuje palivo: TargetA.</RefuelAtomic.reportString>
+  
+  <!-- EN: removing TargetA. -->
+  <RemoveApparel.reportString>vysvléká si: TargetA</RemoveApparel.reportString>
+  
+  <!-- EN: resurrecting TargetA. -->
+  <Resurrect.reportString>oživuje: TargetA</Resurrect.reportString>
+  
+  <!-- EN: fighting with TargetA. -->
+  <SocialFight.reportString>rve se s: TargetA</SocialFight.reportString>
+  
+  <!-- EN: stripping TargetA. -->
+  <Strip.reportString>svléká: TargetA</Strip.reportString>
+  
+  <!-- EN: taking beer out of TargetA. -->
+  <TakeBeerOutOfFermentingBarrel.reportString>stáčí pivo z: TargetA</TakeBeerOutOfFermentingBarrel.reportString>
+  
+  <!-- EN: taking TargetA. -->
+  <TakeInventory.reportString>bere: TargetA</TakeInventory.reportString>
+  
+  <!-- EN: trading with TargetA. -->
+  <TradeWithPawn.reportString>obchoduje s: TargetA</TradeWithPawn.reportString>
+  
+  <!-- EN: triggering firefoam popper. -->
+  <TriggerFirefoamPopper.reportString>spouští hasící přístroj.</TriggerFirefoamPopper.reportString>
+  
+  <!-- EN: unloading TargetA. -->
+  <UnloadInventory.reportString>vykládá: TargetA</UnloadInventory.reportString>
+  
+  <!-- EN: unloading inventory. -->
+  <UnloadYourInventory.reportString>vykládá zásoby.</UnloadYourInventory.reportString>
+  
+  <!-- EN: activating artifact. -->
+  <UseArtifact.reportString>aktivuje artefakt.</UseArtifact.reportString>
+  
+  <!-- EN: using TargetA. -->
+  <UseItem.reportString>používá: TargetA</UseItem.reportString>
+  
+  <!-- EN: using neurotrainer. -->
+  <UseNeurotrainer.reportString>aplikuje neurotrénovací mechanití sérum.</UseNeurotrainer.reportString>
+  
+  <!-- EN: Doing something. -->
+  <UseVerbOnThing.reportString>něco dělá.</UseVerbOnThing.reportString>
+  
+  <!-- EN: vomiting. -->
+  <Vomit.reportString>zvrací.</Vomit.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait.reportString>čeká.</Wait.reportString>
+  
+  <!-- EN: watching for targets. -->
+  <Wait_Combat.reportString>vyhlíží cíle.</Wait_Combat.reportString>
+  
+  <!-- EN: downed. -->
+  <Wait_Downed.reportString>je v bezvědomí.</Wait_Downed.reportString>
+  
+  <!-- EN: standing. -->
+  <Wait_MaintainPosture.reportString>čeká.</Wait_MaintainPosture.reportString>
+  
+  <!-- EN: waiting in safe temperature. -->
+  <Wait_SafeTemperature.reportString>čeká v místě s bezpečnější teplotou.</Wait_SafeTemperature.reportString>
+  
+  <!-- EN: wandering. -->
+  <Wait_Wander.reportString>čeká.</Wait_Wander.reportString>
+  
+  <!-- EN: wearing TargetA. -->
+  <Wear.reportString>obléká si: TargetA</Wear.reportString>
+  
 </LanguageData>

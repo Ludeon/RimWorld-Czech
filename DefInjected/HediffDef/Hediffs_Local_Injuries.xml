@@ -1,134 +1,240 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Missing body part -->
-
-  <MissingBodyPart.label>chybějící část těla</MissingBodyPart.label>
-  <MissingBodyPart.labelNoun>chybějící část těla</MissingBodyPart.labelNoun>
-  <MissingBodyPart.labelNounPretty>chybějící {1}</MissingBodyPart.labelNounPretty>
-
-  <!-- Injuries -->
-
-  <Misc.label>ostatní</Misc.label>
-  <Misc.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Misc.comps.HediffComp_TendDuration.labelTendedWell>
-  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Misc.injuryProps.destroyedLabel>zničené</Misc.injuryProps.destroyedLabel>
-  <Misc.labelNoun>zranění</Misc.labelNoun>
-  <Misc.labelNounPretty>{0} na {1}</Misc.labelNounPretty>
   
-  <Burn.label>popálenina</Burn.label>
-  <Burn.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Burn.comps.HediffComp_TendDuration.labelTendedWell>
-  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po popálenině</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Burn.injuryProps.destroyedLabel>zničené ohněm</Burn.injuryProps.destroyedLabel>
-  <Burn.injuryProps.destroyedOutLabel>vypálené</Burn.injuryProps.destroyedOutLabel>
-  <Burn.labelNoun>popálenina</Burn.labelNoun>
-  <Burn.labelNounPretty>{0} na {1}</Burn.labelNounPretty>
-  
-  <Crush.label>rozdrcení</Crush.label>
-  <Crush.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Crush.comps.HediffComp_TendDuration.labelTendedWell>
-  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>jizva po rozdrcení</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Crush.injuryProps.destroyedLabel>rozdrcené</Crush.injuryProps.destroyedLabel>
-  <Crush.labelNoun>rozdrcení</Crush.labelNoun>
-  <Crush.labelNounPretty>{0} na {1}</Crush.labelNounPretty>
-  
-  <Crack.label>zlomenina</Crack.label>
-  <Crack.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>trvalé následky po zlomenině</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Crack.injuryProps.destroyedLabel>roztříštěné</Crack.injuryProps.destroyedLabel>
-  <Crack.labelNoun>zlomenina</Crack.labelNoun>
-  <Crack.labelNounPretty>{0} na {1}</Crack.labelNounPretty>
-  
-  <Cut.label>pořezání</Cut.label>
-  <Cut.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Cut.comps.HediffComp_TendDuration.labelTendedWell>
-  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Cut.comps.HediffComp_GetsPermanent.permanentLabel>jizva po pořezání</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Cut.injuryProps.destroyedLabel>odříznuté</Cut.injuryProps.destroyedLabel>
-  <Cut.injuryProps.destroyedOutLabel>vyříznuté</Cut.injuryProps.destroyedOutLabel>
-  <Cut.labelNoun>pořezání</Cut.labelNoun>
-  <Cut.labelNounPretty>{0} na {1}</Cut.labelNounPretty>
-  
-  <SurgicalCut.label>chirurgické pořezání</SurgicalCut.label>
-  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>obvázané</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
-  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <SurgicalCut.comps.1.permanentLabel>jizva po pořezání</SurgicalCut.comps.1.permanentLabel>
-  <SurgicalCut.labelNoun>chirurgické pořezání</SurgicalCut.labelNoun>
-  <SurgicalCut.labelNounPretty>{0} na {1}</SurgicalCut.labelNounPretty>
-  
-  <Scratch.label>podrápání</Scratch.label>
-  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
-  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>jizva po drápech</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Scratch.injuryProps.destroyedLabel>odpárané</Scratch.injuryProps.destroyedLabel>
-  <Scratch.injuryProps.destroyedOutLabel>vydrápané</Scratch.injuryProps.destroyedOutLabel>
-  <Scratch.labelNoun>drápanec</Scratch.labelNoun>
-  <Scratch.labelNounPretty>{0} na {1}</Scratch.labelNounPretty>
-  
+  <!-- EN: bite -->
   <Bite.label>pokousání</Bite.label>
-  <Bite.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Bite.comps.HediffComp_TendDuration.labelTendedWell>
-  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: set -->
   <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: bite scar -->
   <Bite.comps.HediffComp_GetsPermanent.permanentLabel>jizva po kousnutí</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Bitten off -->
   <Bite.injuryProps.destroyedLabel>ukousnuté</Bite.injuryProps.destroyedLabel>
+  <!-- EN: Bitten out -->
   <Bite.injuryProps.destroyedOutLabel>rozkousané</Bite.injuryProps.destroyedOutLabel>
+  <!-- EN: a bite wound -->
   <Bite.labelNoun>kousanec</Bite.labelNoun>
+  <!-- EN: {0} in the {1} -->
   <Bite.labelNounPretty>{0} na {1}</Bite.labelNounPretty>
   
-  <Stab.label>bodnutí</Stab.label>
-  <Stab.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Stab.comps.HediffComp_TendDuration.labelTendedWell>
-  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Stab.comps.HediffComp_GetsPermanent.permanentLabel>jizva po bodnutí</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Stab.injuryProps.destroyedLabel>odříznuté</Stab.injuryProps.destroyedLabel>
-  <Stab.injuryProps.destroyedOutLabel>vybodnuté</Stab.injuryProps.destroyedOutLabel>
-  <Stab.labelNoun>bodné zranění</Stab.labelNoun>
-  <Stab.labelNounPretty>{0} na {1}</Stab.labelNounPretty>
-  
-  <Gunshot.label>střelná rána</Gunshot.label>
-  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
-  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>staré střelné zranění</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>trvalé střelné zranění</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
-  <Gunshot.injuryProps.destroyedLabel>ustřelené</Gunshot.injuryProps.destroyedLabel>
-  <Gunshot.injuryProps.destroyedOutLabel>vystřelené</Gunshot.injuryProps.destroyedOutLabel>
-  <Gunshot.labelNoun>střelné zranění</Gunshot.labelNoun>
-  <Gunshot.labelNounPretty>{0} na {1}</Gunshot.labelNounPretty>
-  
-  <Shredded.label>zranění výbuchem</Shredded.label>
-  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
-  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
-  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>jizva po výbuchu</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
-  <Shredded.injuryProps.destroyedLabel>utržené výbuchem</Shredded.injuryProps.destroyedLabel>
-  <Shredded.injuryProps.destroyedOutLabel>poškozené výbuchem</Shredded.injuryProps.destroyedOutLabel>
-  <Shredded.labelNoun>zranění výbuchem</Shredded.labelNoun>
-  <Shredded.labelNounPretty>{0} na {1}</Shredded.labelNounPretty>
-  
+  <!-- EN: bruise -->
   <Bruise.label>pohmožděnina</Bruise.label>
-  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
-  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: set -->
   <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>zničené</Bruise.injuryProps.destroyedLabel>
+  <!-- EN: a bruise -->
   <Bruise.labelNoun>pohmožděnina</Bruise.labelNoun>
+  <!-- EN: {0} in the {1} -->
   <Bruise.labelNounPretty>{0} na {1}</Bruise.labelNounPretty>
   
+  <!-- EN: burn -->
+  <Burn.label>popálenina</Burn.label>
+  <!-- EN: set -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: burn scar -->
+  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po popálenině</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <Burn.injuryProps.destroyedLabel>zničené ohněm</Burn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <Burn.injuryProps.destroyedOutLabel>vypálené</Burn.injuryProps.destroyedOutLabel>
+  <!-- EN: a burn -->
+  <Burn.labelNoun>popálenina</Burn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Burn.labelNounPretty>{0} na {1}</Burn.labelNounPretty>
+  
+  <!-- EN: crack -->
+  <Crack.label>zlomenina</Crack.label>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent crack -->
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>trvalé následky po zlomenině</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shattered -->
+  <Crack.injuryProps.destroyedLabel>roztříštěné</Crack.injuryProps.destroyedLabel>
+  <!-- EN: a crack wound -->
+  <Crack.labelNoun>zlomenina</Crack.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crack.labelNounPretty>{0} na {1}</Crack.labelNounPretty>
+  
+  <!-- EN: crush -->
+  <Crush.label>rozdrcení</Crush.label>
+  <!-- EN: set -->
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: mangled scar -->
+  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>jizva po rozdrcení</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Crushed -->
+  <Crush.injuryProps.destroyedLabel>rozdrcené</Crush.injuryProps.destroyedLabel>
+  <!-- EN: a crush wound -->
+  <Crush.labelNoun>rozdrcení</Crush.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crush.labelNounPretty>{0} na {1}</Crush.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <Cut.label>pořezání</Cut.label>
+  <!-- EN: set -->
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: cut scar -->
+  <Cut.comps.HediffComp_GetsPermanent.permanentLabel>jizva po pořezání</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Cut.injuryProps.destroyedLabel>odříznuté</Cut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Cut.injuryProps.destroyedOutLabel>vyříznuté</Cut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <Cut.labelNoun>pořezání</Cut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Cut.labelNounPretty>{0} na {1}</Cut.labelNounPretty>
+  
+  <!-- EN: frostbite -->
   <Frostbite.label>omrzlina</Frostbite.label>
-  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
-  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: set -->
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>jizva po omrzlině</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
   <Frostbite.injuryProps.destroyedLabel>zničené mrazem</Frostbite.injuryProps.destroyedLabel>
+  <!-- EN: {0} in the {1} -->
   <Frostbite.labelNounPretty>{0} na {1}</Frostbite.labelNounPretty>
-
-
+  
+  <!-- EN: gunshot -->
+  <Gunshot.label>střelná rána</Gunshot.label>
+  <!-- EN: set -->
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent gunshot injury -->
+  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>trvalé střelné zranění</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old gunshot -->
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>staré střelné zranění</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shot off -->
+  <Gunshot.injuryProps.destroyedLabel>ustřelené</Gunshot.injuryProps.destroyedLabel>
+  <!-- EN: Shot out -->
+  <Gunshot.injuryProps.destroyedOutLabel>vystřelené</Gunshot.injuryProps.destroyedOutLabel>
+  <!-- EN: a gunshot wound -->
+  <Gunshot.labelNoun>střelné zranění</Gunshot.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Gunshot.labelNounPretty>{0} na {1}</Gunshot.labelNounPretty>
+  
+  <!-- EN: misc -->
+  <Misc.label>ostatní</Misc.label>
+  <!-- EN: set -->
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Misc.injuryProps.destroyedLabel>zničené</Misc.injuryProps.destroyedLabel>
+  <!-- EN: an injury -->
+  <Misc.labelNoun>zranění</Misc.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Misc.labelNounPretty>{0} na {1}</Misc.labelNounPretty>
+  
+  <!-- EN: missing body part -->
+  <MissingBodyPart.label>chybějící část těla</MissingBodyPart.label>
+  <!-- EN: a missing body part -->
+  <MissingBodyPart.labelNoun>chybějící část těla</MissingBodyPart.labelNoun>
+  <!-- EN: missing a {1} -->
+  <MissingBodyPart.labelNounPretty>chybějící {1}</MissingBodyPart.labelNounPretty>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>podrápání</Scratch.label>
+  <!-- EN: set -->
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scratch scar -->
+  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>jizva po drápech</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Scratch.injuryProps.destroyedLabel>odpárané</Scratch.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Scratch.injuryProps.destroyedOutLabel>vydrápané</Scratch.injuryProps.destroyedOutLabel>
+  <!-- EN: a scratch -->
+  <Scratch.labelNoun>drápanec</Scratch.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Scratch.labelNounPretty>{0} na {1}</Scratch.labelNounPretty>
+  
+  <!-- EN: shredded -->
+  <Shredded.label>zranění výbuchem</Shredded.label>
+  <!-- EN: set -->
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: shredded scar -->
+  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>jizva po výbuchu</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Shredded.injuryProps.destroyedLabel>utržené výbuchem</Shredded.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Shredded.injuryProps.destroyedOutLabel>poškozené výbuchem</Shredded.injuryProps.destroyedOutLabel>
+  <!-- EN: a shredded wound -->
+  <Shredded.labelNoun>zranění výbuchem</Shredded.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Shredded.labelNounPretty>{0} na {1}</Shredded.labelNounPretty>
+  
+  <!-- EN: stab -->
+  <Stab.label>bodnutí</Stab.label>
+  <!-- EN: set -->
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>obvázané</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: stab scar -->
+  <Stab.comps.HediffComp_GetsPermanent.permanentLabel>jizva po bodnutí</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Stab.injuryProps.destroyedLabel>odříznuté</Stab.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Stab.injuryProps.destroyedOutLabel>vybodnuté</Stab.injuryProps.destroyedOutLabel>
+  <!-- EN: a stab wound -->
+  <Stab.labelNoun>bodné zranění</Stab.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Stab.labelNounPretty>{0} na {1}</Stab.labelNounPretty>
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>chirurgické pořezání</SurgicalCut.label>
+  <!-- EN: set -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>obvázané</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>sešité</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: surgical scar -->
+  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>jizva po pořezání</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a surgical cut -->
+  <SurgicalCut.labelNoun>chirurgické pořezání</SurgicalCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <SurgicalCut.labelNounPretty>{0} na {1}</SurgicalCut.labelNounPretty>
+  
 </LanguageData>

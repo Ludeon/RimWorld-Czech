@@ -1,283 +1,457 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Forbid -->
+  <!-- EN: Forbid -->
   <CommandForbid>Povolit\n\n\n\n\nZakázat</CommandForbid>
+  <!-- EN: Forbidden - colonists will not interact with this. -->
   <CommandForbiddenDesc>Zakázáno - kolonisté s tímto nebudou manipulovat.</CommandForbiddenDesc>
+  <!-- EN: Not forbidden - colonists may interact with this. -->
   <CommandNotForbiddenDesc>Povoleno - kolonisté s tímto mohou manipulovat.</CommandNotForbiddenDesc>
 
   <!-- Power -->
+  <!-- EN: Toggle power -->
   <CommandTogglePowerLabel>Přepnout napájení</CommandTogglePowerLabel>
+  <!-- EN: Toggle power. -->
   <CommandTogglePowerDesc>Přepne napájení.</CommandTogglePowerDesc>
-
+  
+  <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>Energii vyp/zap</CommandDesignateTogglePowerLabel>
+  <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
   <CommandDesignateTogglePowerDesc>Označí tuto věc, aby u ní došlo k přepnutí napájení. Brzy přijde nějaký kolonista a přepne spínač.</CommandDesignateTogglePowerDesc>
-
+  
+  <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Přepojit</CommandTryReconnectLabel>
+  <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
   <CommandTryReconnectDesc>Zkusí připojit k jiné napájecí síti v dosahu zařízení. Toto je užitečné v případě, že je zařízení připojeno k síti bez napájení, ale v dosahu je jiná síť pod proudem.</CommandTryReconnectDesc>
 
+  <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>Shromažďovací místo</CommandGatherSpotToggleLabel>
+  <!-- EN: Active - colonists will gather around this object. -->
   <CommandGatherSpotToggleDescActive>Aktivní - kolonisté se budou shromažďovat kolem tohoto předmětu.</CommandGatherSpotToggleDescActive>
+  <!-- EN: Inactive - colonists will not gather around this object. -->
   <CommandGatherSpotToggleDescInactive>Neaktivní - kolonisté se nebudou shromažďovat kolem tohoto předmětu.</CommandGatherSpotToggleDescInactive>
-
-
+  
   <!-- Drafting -->
+  <!-- EN: Draft -->
   <CommandDraftLabel>Naverbovat</CommandDraftLabel>
+  <!-- EN: Undraft -->
   <CommandUndraftLabel>Propustit</CommandUndraftLabel>
+  <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Přepne vojenský nábor.\n\nNaverbovaní lidé přijímají rozkazy a bojují. Nebudou pracovat, jíst ani spát.</CommandToggleDraftDesc>
+  <!-- EN: {0} cannot walk. -->
   <IsIncapped>{0} nemůže chodit.</IsIncapped>
 
+  <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Střílet dle libosti</CommandFireAtWillLabel>
+  <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
   <CommandFireAtWillDesc>Přepne povolení ke střelbě.\n\nPokud je vypnuto, postava nebude automaticky střílet na vzdálené cíle. Nevztahuje se na boj na blízko.</CommandFireAtWillDesc>
-
+  
+  <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Zrušit\nprioritu</CommandClearPrioritizedWork>
+  <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
   <CommandClearPrioritizedWorkDesc>Zruší jakoukoliv upřednostněnou činnost, kterou jsi přidělil. Postava se vrátí ke své obvyklé samostatné činnosti.</CommandClearPrioritizedWorkDesc>
-
+  
+  <!-- EN: Cancel -->
   <CommandCancelConstructionLabel>Zrušit</CommandCancelConstructionLabel>
+  <!-- EN: Cancel this construction. -->
   <CommandCancelConstructionDesc>Zruší tuto výstavbu.</CommandCancelConstructionDesc>
 
+  <!-- EN: Get out of bed -->
   <CommandGetOutOfBedLabel>Vstaň z postele</CommandGetOutOfBedLabel>
+  <!-- EN: Get out of current bed. -->
   <CommandGetOutOfBedDesc>Vstane ze současné postele.</CommandGetOutOfBedDesc>
 
+  <!-- EN: Set owner -->
   <CommandBedSetOwnerLabel>Nastavit vlastníka</CommandBedSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>Přidělí tuto postel konkrétnímu kolonistovi.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Přiřadit kolonistu</CommandGraveAssignColonistLabel>
+  <!-- EN: Assign this grave to be owned by a specific colonist. -->
   <CommandGraveAssignColonistDesc>Přiřadí tento hrob konkrétnímu kolonistovi.</CommandGraveAssignColonistDesc>
+  <!-- EN: Assign -->
   <BuildingAssign>Přiřadit</BuildingAssign>
+  <!-- EN: Reassign -->
   <BuildingReassign>Znovu přiřadit</BuildingReassign>
+  <!-- EN: Unassign -->
   <BuildingUnassign>Zrušit přiřazení</BuildingUnassign>
+  <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>Vězeňská</CommandBedSetForPrisonersLabel>
+  <!-- EN: Whether beds in this room should be used by prisoners. -->
   <CommandBedSetForPrisonersDesc>Určí, zdali mají být postele v této místnosti používány vězni.</CommandBedSetForPrisonersDesc>
+  <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
   <CommandBedSetForPrisonersFailOutdoors>Venkovní postele nelze nastavit jako vězeňské.</CommandBedSetForPrisonersFailOutdoors>
+  <!-- EN: Medical -->
   <CommandBedSetAsMedicalLabel>Zdravotnická</CommandBedSetAsMedicalLabel>
+  <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>Určí, zdali má být tato postel využívána pro lékařské účely.</CommandBedSetAsMedicalDesc>
+  <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOnPrisonerBedWarning>Zapnutí vězeňského režimu ovlivní celou místnost (protože kolonisté nemohou spát v jedné místnosti s vězni).\n\nTito lidé ztratí nárok na své postele:</TurningOnPrisonerBedWarning>
+  <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOffPrisonerBedWarning>Vypnutí vězeňského režimu ovlivní celou místnost (protože kolonisté nemohou spát v jedné místnosti s vězni).\n\nTito lidé ztratí nárok na své postele:</TurningOffPrisonerBedWarning>
+  <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Určitě to chceš udělat?</AreYouSure>
 
+  <!-- EN: Detonate -->
   <CommandDetonateLabel>Odpálit</CommandDetonateLabel>
+  <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Začne odpočítávat do výbuchu.</CommandDetonateDesc>
 
+  <!-- EN: Rename -->
   <CommandRenameZoneLabel>Přejmenovat</CommandRenameZoneLabel>
+  <!-- EN: Rename this zone. -->
   <CommandRenameZoneDesc>Přejmenuje tuto oblast.</CommandRenameZoneDesc>
 
+  <!-- EN: Hide -->
   <CommandHideZoneLabel>Skrýt</CommandHideZoneLabel>
+  <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>Zviditelnit</CommandUnhideZoneLabel>
+  <!-- EN: Hide/unhide this zone. -->
   <CommandHideZoneDesc>Skryje/zviditelní tuto oblast.</CommandHideZoneDesc>
 
+  <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Smazat</CommandDeleteZoneLabel>
+  <!-- EN: Delete this zone. -->
   <CommandDeleteZoneDesc>Smaže tuto oblast.</CommandDeleteZoneDesc>
 
+  <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Kopírovat nastavení</CommandCopyZoneSettingsLabel>
+  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>Zkopíruje nastavení této oblasti do schránky, abys ho mohl přenést na jinou oblast.</CommandCopyZoneSettingsDesc>
 
+  <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Vložit nastavení</CommandPasteZoneSettingsLabel>
+  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>Přepíše nastavení této oblasti tím, které sis předtím uložil do schránky.</CommandPasteZoneSettingsDesc>
 
+  <!-- EN: Allow sowing -->
   <CommandAllowSow>Povolit setí</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Pokud je toto vypnuto, kolonisté v této oblasti nikdy nebudou provádět setbu rostlin. Přesto je však budou sklízet.</CommandAllowSowDesc>
 
   <!-- Artillery -->
+  <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>Nastavit vynucený cíl</CommandSetForceAttackTarget>
+  <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
   <CommandSetForceAttackTargetDesc>Nastaví cíl, na který musí věž nepřetržitě střílet tak dlouho, jak to bude možné.</CommandSetForceAttackTargetDesc>
+  <!-- EN: Stop forced attack -->
   <CommandStopForceAttack>Zastavit vynucený útok</CommandStopForceAttack>
+  <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
   <CommandStopForceAttackDesc>Zastaví vynucené útočení a umožní věži střílet dle vlastního uvážení.</CommandStopForceAttackDesc>
+  <!-- EN: Not currently force-attacking. -->
   <CommandStopAttackFailNotForceAttacking>Momentálně neprobíhá žádný vynucený útok.</CommandStopAttackFailNotForceAttacking>
+  <!-- EN: Extract shell -->
   <CommandExtractShell>Vytáhnout munici</CommandExtractShell>
+  <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
   <CommandExtractShellDesc>Vytáhne současnou munici tak, aby mohla být nahrazena jinou municí.</CommandExtractShellDesc>
+  <!-- EN: Target beyond maximum range. -->
   <MessageTargetBeyondMaximumRange>Cíl za hranicí maximálního dostřelu.</MessageTargetBeyondMaximumRange>
+  <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>Cíl pod hranicí minimálního dostřelu.</MessageTargetBelowMinimumRange>
+  <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
   <MessageTurretWontFireBecauseHoldFire>Varování: Minomet nebude střílet, protože má nastaveno "Nestřílet!".</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
+  <!-- EN: Launch ship -->
   <CommandShipLaunch>Zahájit start lodě</CommandShipLaunch>
+  <!-- EN: Start the ship launch sequence with the current configuration. -->
   <CommandShipLaunchDesc>Zahájí startovací sekvenci se současnou konfigurací lodě.</CommandShipLaunchDesc>
+  <!-- EN: Show launch report -->
   <CommandShipLaunchReport>Ukázat hlášení ke startu</CommandShipLaunchReport>
+  <!-- EN: Show a readiness report about the ship's launch capability. -->
   <CommandShipLaunchReportDesc>Zobrazí podrobné hlášení, zda je loď schopna odstartovat.</CommandShipLaunchReportDesc>
+  <!-- EN: Start ship -->
   <CommandShipStartup>Nastartovat lodní reaktor</CommandShipStartup>
+  <!-- EN: Wake up hibernating ship components. -->
   <CommandShipStartupDesc>Probudí z hibernace komponenty lodě.</CommandShipStartupDesc>
-  
+
   <!-- Pod -->
+  <!-- EN: Eject sleeper -->
   <CommandPodEject>Vysunout spáče</CommandPodEject>
+  <!-- EN: Wake up the cryptosleeper and eject them. -->
   <CommandPodEjectDesc>Probudí osobu z cryptospánku a vysune ho ven.</CommandPodEjectDesc>
+  <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>Uvnitř nikdo není.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
+  <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Průchod zakázán</CommandToggleDoorForbid>
+  <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
   <CommandToggleDoorForbidDesc>Pokud je průchod dveřmi zakázán, kolonisté ani spojenci se skrze ně nedostanou. Neovlivní to chování nepřátel ani zvířat vůči těmto dveřím.</CommandToggleDoorForbidDesc>
+  <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>Stále otevřené</CommandToggleDoorHoldOpen>
+  <!-- EN: When active, your colonists will not close the door after passing through. -->
   <CommandToggleDoorHoldOpenDesc>Po aktivování nebudou tví kolonisté po průchodu tyto dveře za sebou zavírat.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
+  <!-- EN: Reset -->
   <CommandResetTemp>Resetovat</CommandResetTemp>
+  <!-- EN: Reset the target temperature to room temperature. -->
   <CommandResetTempDesc>Resetuje cílovou teplotu na pokojovou teplotu.</CommandResetTempDesc>
+  <!-- EN: Raise the target temperature. -->
   <CommandRaiseTempDesc>Zvýší cílovou teplotu.</CommandRaiseTempDesc>
+  <!-- EN: Lower the target temperature. -->
   <CommandLowerTempDesc>Sníží cílovou teplotu.</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
+  <!-- EN: Install -->
   <CommandInstall>Namontovat</CommandInstall>
+  <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
   <CommandInstallDesc>Tento předmět je v současné době zabalen kvůli uskladnění a přepravě. Použij tento příkaz, abys namontoval tento předmět na vybrané místo.</CommandInstallDesc>
+  <!-- EN: Reinstall at... -->
   <CommandReinstall>Přemontovat jinam</CommandReinstall>
+  <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>Označí tento předmět, aby byl odmontován a přemontován někam jinam.</CommandReinstallDesc>
-
+  
   <!-- Trade beacon -->
+  <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
   <CommandMakeBeaconStockpileDesc>Vytvoř skladiště kolem této stavby, které bude přesně odpovídat tvaru dosahu tohoto majáku.</CommandMakeBeaconStockpileDesc>
+  <!-- EN: Create stockpile -->
   <CommandMakeBeaconStockpileLabel>Vytvořit skladiště</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
+  <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
   <CommandSunLampMakeGrowingZoneDesc>Vytvoř kolem této stavby oblast pro výsev, která bude přesně odpovídat tvaru dosvitu lampy.</CommandSunLampMakeGrowingZoneDesc>
+  <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>Vytvořit oblast setby</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
+  <!-- EN: Auto Rearm -->
   <CommandAutoRearm>Automaticky nastražit</CommandAutoRearm>
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Pokud je toto zapnuto, past se po spuštění automaticky sama naplánuje pro znovunastražení.</CommandAutoRearmDesc>
-
-  <!-- Animal control -->
-  <CommandReleaseAnimalsLabel>Vypustit zvěř</CommandReleaseAnimalsLabel>
-  <CommandReleaseAnimalsDesc>Když je toto zapnuté, ovládaná zvířata jsou vyslána kupředu, aby zaútočila na vzdálené cíle. Při vypnutí zůstávají u svých pánů a střeží je.</CommandReleaseAnimalsDesc>
-
-  <!-- Squad attack -->
-  <CommandSquadAttack>Zaútočit</CommandSquadAttack>
-  <CommandSquadAttackDesc>Rozkáže vybraným kolonistům, aby zaútočili na vybrané cíle.</CommandSquadAttackDesc>
-
-  <!-- Melee attack -->
-  <CommandMeleeAttack>Zaútočit na blízko</CommandMeleeAttack>
-  <CommandMeleeAttackDesc>Rozkáže vybraným kolonistům, aby zaútočili na vybrané cíle pouze pěstmi a zbraněmi na blízko.</CommandMeleeAttackDesc>
   
+  <!-- Animal control -->
+  <!-- EN: Release animals -->
+  <CommandReleaseAnimalsLabel>Vypustit zvěř</CommandReleaseAnimalsLabel>
+  <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
+  <CommandReleaseAnimalsDesc>Když je toto zapnuté, ovládaná zvířata jsou vyslána kupředu, aby zaútočila na vzdálené cíle. Při vypnutí zůstávají u svých pánů a střeží je.</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
+  <CommandReleaseAnimalsFail_NoAnimals>Žádná zvířata nejsou k dispozici.</CommandReleaseAnimalsFail_NoAnimals>
+  
+  <!-- Squad attack -->
+  <!-- EN: Attack -->
+  <CommandSquadAttack>Zaútočit</CommandSquadAttack>
+  <!-- EN: Order selected colonists to attack designated target. -->
+  <CommandSquadAttackDesc>Rozkáže vybraným kolonistům, aby zaútočili na vybrané cíle.</CommandSquadAttackDesc>
+  
+  <!-- Melee attack -->
+  <!-- EN: Melee attack -->
+  <CommandMeleeAttack>Zaútočit na blízko</CommandMeleeAttack>
+  <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
+  <CommandMeleeAttackDesc>Rozkáže vybraným kolonistům, aby zaútočili na vybrané cíle pouze pěstmi a zbraněmi na blízko.</CommandMeleeAttackDesc>
+
   <!-- Hold fire -->
+  <!-- EN: Hold fire -->
   <CommandHoldFire>Nestřílet!</CommandHoldFire>
+  <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Ukončí jakýkoliv probíhající útok.</CommandHoldFireDesc>
-
+  
   <!-- Select plant to grow -->
+  <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Vybrat rostlinu pro pěstování</CommandSelectPlantToGrowMulti>
+  <!-- EN: Plant: {0} -->
   <CommandSelectPlantToGrow>Rostlina: {0}</CommandSelectPlantToGrow>
+  <!-- EN: Determine which plant should be sown here. -->
   <CommandSelectPlantToGrowDesc>Určí, jaká rostlina se tu má pěstovat.</CommandSelectPlantToGrowDesc>
-
+  
   <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Zacíleno na</CommandSelectMineralToScanFor>
 
   <!-- Build copy -->
+  <!-- EN: Build copy -->
   <CommandBuildCopy>Postavit kopii</CommandBuildCopy>
+  <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Postaví kopii tohoto objektu.</CommandBuildCopyDesc>
-
+  
   <!-- Form caravan -->
+  <!-- EN: Form caravan -->
   <CommandFormCaravan>Vytvořit karavanu</CommandFormCaravan>
+  <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Utvoří skupinu kolonistů schopných cestovat do nových oblastí. Kolonisté shromáždí určené zásoby a doprovodná zvířata, opustí současnou oblast a budou očekávat další příkazy.</CommandFormCaravanDesc>
-
+  
   <!-- Reform caravan -->
+  <!-- EN: Reform caravan -->
   <CommandReformCaravan>Upravit karavanu</CommandReformCaravan>
+  <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
   <CommandReformCaravanDesc>Upraví skupinu kolonistů. Kolonisté opustí současnou oblast a budou očekávat další příkazy.</CommandReformCaravanDesc>
+  <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>V této oblasti jsou stále ještě nějací nepřátelé.</CommandReformCaravanFailHostilePawns>
-
+  
   <!-- Split caravan -->
+  <!-- EN: Split -->
   <CommandSplitCaravan>Rozdělit</CommandSplitCaravan>
+  <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
   <CommandSplitCaravanDesc>Rozdělí tuto karavanu na dvě. Karavany mohou být později znovu sloučeny do jedné, pokud budou blízko u sebe.</CommandSplitCaravanDesc>
-
+  
   <!-- Merge caravan -->
+  <!-- EN: Merge -->
   <CommandMergeCaravans>Sloučit</CommandMergeCaravans>
+  <!-- EN: Merge selected caravans. -->
   <CommandMergeCaravansDesc>Sloučí vybrané karavany.</CommandMergeCaravansDesc>
+  <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Vyber všechny karavany, které mají být sloučeny. Karavany musí být blízko sebe.</CommandMergeCaravansFailCaravansNotSelected>
- 
+  
   <!-- Settle -->
+  <!-- EN: Settle -->
   <CommandSettle>Osídlit</CommandSettle>
+  <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
   <CommandSettleDesc>Osídlit tuto oblast. Tví kolonisté do této oblasti vstoupí a ty si budeš moci vybudovat nový domov.</CommandSettleDesc>
+  <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>Tvá frakce může mít jen jednu základnu.</CommandSettleFailAlreadyHaveBase>
+  <!-- EN: Reached maximum number of colonies. -->
   <CommandSettleFailReachedMaximumNumberOfBases>Dosáhl jsi maximálního počtu kolonií.</CommandSettleFailReachedMaximumNumberOfBases>
+  <!-- EN: There isn't anybody there to claim the area. -->
   <CommandSettleFailNoColonists>Není tam nikdo, kdo by si nárokoval tuto oblast.</CommandSettleFailNoColonists>
+  <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>V této oblasti jsou nepřátelé.</CommandSettleFailEnemies>
-
+  
   <!-- Abandon home -->
+  <!-- EN: Abandon -->
   <CommandAbandonHome>Opustit</CommandAbandonHome>
+  <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>Opustit tuto oblast. Oblast se stane nepřístupnou a už nebude možné se vrátit zpět. Po opuštění svého domova budeš moci nařídit jedné z tvých karavan, aby se usídlila v nové oblasti.</CommandAbandonHomeDesc>
+  <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>Jsou tam všichni tví kolonisté.</CommandAbandonHomeFailAllColonistsThere>
-
+  
   <!-- Cancel forming caravan -->
+  <!-- EN: Cancel forming caravan -->
   <CommandCancelFormingCaravan>Zrušit vytváření karavany</CommandCancelFormingCaravan>
+  <!-- EN: Terminate the caravan formation process. -->
   <CommandCancelFormingCaravanDesc>Ukončí průběh vytváření karavany.</CommandCancelFormingCaravanDesc>
 
   <!-- Remove from caravan -->
+  <!-- EN: Remove from caravan -->
   <CommandRemoveFromCaravan>Odebrat z karavany</CommandRemoveFromCaravan>
+  <!-- EN: Remove this person or animal from the caravan. -->
   <CommandRemoveFromCaravanDesc>Odstraní tuto osobu nebo zvíře z karavany.</CommandRemoveFromCaravanDesc>
-
+  
   <!-- Add to caravan -->
+  <!-- EN: Add to caravan -->
   <CommandAddToCaravan>Přidat na karavanu</CommandAddToCaravan>
+  <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Přidá tuto osobu nebo zvíře do karavany.</CommandAddToCaravanDesc>
-
+  
   <!-- Show map -->
+  <!-- EN: Zoom in -->
   <CommandShowMap>Přiblížit</CommandShowMap>
+  <!-- EN: Zoom in on this area. -->
   <CommandShowMapDesc>Přiblíží na tuto oblast.</CommandShowMapDesc>
-
+  
   <!-- Trade -->
+  <!-- EN: Trade -->
   <CommandTrade>Obchodovat</CommandTrade>
+  <!-- EN: Trade with this faction. -->
   <CommandTradeDesc>Obchodovat s touto frakcí.</CommandTradeDesc>
+  <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>Není tu žádný vyjednavač, který by byl schopný, nebo při vědomí či nezlomený.</CommandTradeFailNoNegotiator>
 
   <!-- Offer gifts -->
+  <!-- EN: Offer gifts -->
   <CommandOfferGifts>Nabídnout dary</CommandOfferGifts>
+  <!-- EN: Offer gifts to this faction. -->
   <CommandOfferGiftsDesc>Nabídnout dary této frakci.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
+  <!-- EN: Fulfill trade offer -->
   <CommandFulfillTradeOffer>Splnit obchodní nabídku</CommandFulfillTradeOffer>
+  <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
   <CommandFulfillTradeOfferDesc>Splnění požadavku osady na zboží a vyzvednutí odměny.</CommandFulfillTradeOfferDesc>
+  <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Tvá karavana musí mít {0} ke splnění této obchodní nabídky.</CommandFulfillTradeOfferFailInsufficient>
+  <!-- EN: Offer {0} for {1}? -->
   <CommandFulfillTradeOfferConfirm>Nabídnout {0} za {1}?</CommandFulfillTradeOfferConfirm>
-
+  
   <!-- Take off -->
+  <!-- EN: Take off -->
   <CommandTakeOff>Vzlétnout</CommandTakeOff>
+  <!-- EN: Get on board the ship and escape the planet. -->
   <CommandTakeOffDesc>Dostat se na palubu lodi a uprchnout z planety.</CommandTakeOffDesc>
+  <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>Určitě chceš s lodí odstartovat?\n\nZ planety unikne každý v této oblasti. Všichni ostatní tu budou ponecháni napospas osudu.</CommandTakeOffConfirmation>
-
+  
   <!-- Set target fuel level -->
+  <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Nastavit cílovou hladinu paliva</CommandSetTargetFuelLevel>
+  <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Nastaví cílovou hladinu paliva. Kolonisté se pokusí toto naplnit až do nastavené výše hladiny paliva.</CommandSetTargetFuelLevelDesc>
-
+  
   <!-- Cancel load -->
+  <!-- EN: Cancel load -->
   <CommandCancelLoad>Zrušit nakládání</CommandCancelLoad>
+  <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Zruší nakládání osob nebo předmětů a všechno již naložené bude vyházeno ven.</CommandCancelLoadDesc>
-
+  
   <!-- Launch group -->
+  <!-- EN: Launch group -->
   <CommandLaunchGroup>Vyslat skupinu</CommandLaunchGroup>
+  <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
   <CommandLaunchGroupDesc>Zahájí zaměřovací proceduru pro odstartování skupiny přepravních modulů. Dalším krokem bude zvolit cíl. Moduly poté vzlétnou a společně přistanou.</CommandLaunchGroupDesc>
+  <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Některý z přepravních modulů v této nákladní skupině není připojen k doplňovači paliva.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <!-- EN: Some pod launchers in this group have no fuel. -->
   <CommandLaunchGroupFailNoFuel>Některá z odpalovacích ramp v této skupině nemá palivo.</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Some pod launchers are under a roof. -->
   <CommandLaunchGroupFailUnderRoof>Některá z odpalovacích ramp je pod střechou.</CommandLaunchGroupFailUnderRoof>
-
+  
   <!-- Load transporter -->
+  <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>Naložit startovací skupinu {0}</CommandLoadTransporter>
+  <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>Určí vybrané přepravní moduly jako startovací skupinu. Otevře nakládací dialog, aby ses mohl rozhodnout, kdo a co má být naloženo dovnitř.</CommandLoadTransporterDesc>
+  <!-- EN: The transport pod is not connected to a fueling port. -->
   <CommandLoadTransporterFailNotConnectedToFuelingPort>Přepravní modul není připojen k doplňovači paliva.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>Odpalovací rampa nemá palivo.</CommandLoadTransporterFailNoFuel>
-
+  
   <!-- Select previous transporter -->
+  <!-- EN: Select previous in launch group -->
   <CommandSelectPreviousTransporter>Vybrat předchozí ve startovací skupině</CommandSelectPreviousTransporter>
+  <!-- EN: Select previous transport pod in this launch group. -->
   <CommandSelectPreviousTransporterDesc>Vybere předchozí přepravní modul v této startovací skupině.</CommandSelectPreviousTransporterDesc>
-
+  
   <!-- Select all transporters -->
+  <!-- EN: Select launch group -->
   <CommandSelectAllTransporters>Vybrat startovací skupinu</CommandSelectAllTransporters>
+  <!-- EN: Select all transport pods in this launch group. -->
   <CommandSelectAllTransportersDesc>Vybere všechny přepravní moduly v této startovací skupině.</CommandSelectAllTransportersDesc>
-
+  
   <!-- Select next transporter -->
+  <!-- EN: Select next in launch group -->
   <CommandSelectNextTransporter>Vybrat následující ve startovací skupině</CommandSelectNextTransporter>
+  <!-- EN: Select next transport pod in this launch group. -->
   <CommandSelectNextTransporterDesc>Vybere následující přepravní modul v této startovací skupině.</CommandSelectNextTransporterDesc>
-
+  
   <!-- Vent -->
+  <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>Přenastavit ventilaci</CommandDesignateOpenCloseVentLabel>
+  <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
   <CommandDesignateOpenCloseVentDesc>Nastaví tuto ventilaci na otevřený nebo uzavřený režim. Kolonista brzy přijde splnit tento požadavek.</CommandDesignateOpenCloseVentDesc>
-
+  
   <!-- Remove waypoint -->
+  <!-- EN: Remove -->
   <CommandRemoveWaypointLabel>Odstranit</CommandRemoveWaypointLabel>
+  <!-- EN: Remove this waypoint. -->
   <CommandRemoveWaypointDesc>Odstraní tento záchytný bod.</CommandRemoveWaypointDesc>
 
   <!-- Pause caravan -->
+  <!-- EN: Rest -->
   <CommandPauseCaravan>Odpočinout</CommandPauseCaravan>
-  <CommandToggleCaravanPauseDesc>Zahájí nebo ukončí odpočinek. To má následující výhody:\n\n  - Lidé mohou vzájemně komunikovat\n  - Hledat potravu {0}x rychleji\n  - Viditelnost násobena {1}</CommandToggleCaravanPauseDesc>
-
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
+  <CommandToggleCaravanPauseDesc>Zahájí odpočinek. To má následující výhody:\n\n  - Lidé mohou vzájemně komunikovat\n  - Hledat potravu {0}x rychleji\n  - Viditelnost násobena {1}</CommandToggleCaravanPauseDesc>
+  
   <!-- Show sellable items -->
+  <!-- EN: Show what will buy -->
   <CommandShowSellableItems>Ukázat poptávku zboží</CommandShowSellableItems>
+  <!-- EN: Show everything this trader wants to buy. -->
   <CommandShowSellableItemsDesc>Ukáže vše, co chce tento obchodník koupit.</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
+  <!-- EN: Attack -->
   <CommandAttackSettlement>Zaútočit</CommandAttackSettlement>
+  <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Zahájí útok na tuto osadu.</CommandAttackSettlementDesc>
 
 </LanguageData>

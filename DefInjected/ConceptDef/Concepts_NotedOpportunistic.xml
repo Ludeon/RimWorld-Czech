@@ -1,61 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Concepts taught through the learning readout, when opportunities arise -->
-
-  <ReformCaravan.label>Upravování karavan</ReformCaravan.label>
-  <ReformCaravan.helpText>Po střetnutí můžeš karavanu znovu snadno upravit použitím příkazu UPRAVIT KARAVANU na obrazovce mapy světa.</ReformCaravan.helpText>
-
-  <Rescuing.label>Zachraňování</Rescuing.label>
-  <Rescuing.helpText>Abys zachránil zraněnou osobu, vyber zdravého kolonistu a klikni pravým tlačítkem myši na zraněnou osobu.\n\nPokud zachráníš osobu, která není tvým kolonistou, nemusí se pak k tobě přidat. Po uzdravení muže prostě odejít pryč. Pokud chceš mít jistotu, že se k tobě přidají, zajmi je a přemluv.</Rescuing.helpText>
-
-  <Capturing.label>Zajímání</Capturing.label>
-  <Capturing.helpText>Pokud nepřítel leží zraněný na zemi, ale není mrtvý, můžeš ho ZAJMOUT.\n\nAbys někoho zajal, vyber kolonistu, klikni pravým tlačítkem myši na zneschopněného nepřítele a vyber příkaz Zajmi!\n\nBudeš potřebovat postel navíc určenou pro vězně.</Capturing.helpText>
-
-  <ShieldBelts.label>Opasek s energoštítem</ShieldBelts.label>
-  <ShieldBelts.helpText>Opasek s energoštítem zastaví útoky na dálku, a to jak dovnitř, tak i ven. V boji na blízko nemají žádný účinek.\n\nAbys opasek s energoštítem překonal, soustřeď na nositele opasku palbu, nebo bojuj zblízka.</ShieldBelts.helpText>
-
-  <InteractingWithTraders.label>Obchodování s obchodníky</InteractingWithTraders.label>
-  <InteractingWithTraders.helpText>S lidmi, kteří mají nad hlavou znak ?, můžeš mluvit.\n\nVyber kolonistu a klikni pravým tlačítkem myši na postavu s ? nad hlavou.</InteractingWithTraders.helpText>
-
-  <Drafting.label>Naverbování na boj</Drafting.label>
-  <Drafting.helpText>Abys v boji ovládal kolonisty přímo, naber je tím, že je vybereš a stiskneš tlačítko NAVERBOVAT.\n\nNaverbovaní kolonisté budou dělat jen to, co jim řekneš a mohou dělat jen věci související s bojem. Ti se zbraněmi je budou používat, pokud to bude možné.\n\nNenechávej kolonisty naverbované napořád - budou mít hlad a nebudou šťastní.</Drafting.helpText>
-
-  <BuildOrbitalTradeBeacon.label>Postav orbitální obchodní maják</BuildOrbitalTradeBeacon.label>
-  <BuildOrbitalTradeBeacon.helpText>Abys poslal předměty nebo stříbro obchodníkům na orbitě, musíš postavit ORBITÁLNÍ OBCHODNÍ MAJÁK a v jeho blízkosti postavit skladiště s předměty.</BuildOrbitalTradeBeacon.helpText>
-
+  
+  <!-- EN: Animals don't attack doors -->
   <AnimalsDontAttackDoors.label>Zvířata neútočí na dveře</AnimalsDontAttackDoors.label>
+  <!-- EN: Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you. -->
   <AnimalsDontAttackDoors.helpText>Lidožravá zvířata obecně nebudou útočit na dveře nebo vypnuté věže.\n\nMůžeš jim uniknout útěkem dovnitř nebo za zeď. Počkají si ale na tebe.</AnimalsDontAttackDoors.helpText>
-
+  
+  <!-- EN: Bills tab -->
   <BillsTab.label>Záložka úkolů</BillsTab.label>
+  <!-- EN: To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher. -->
   <BillsTab.helpText>Aby kolonista pracoval u pracovního stolu, vyber tento stůl a otevři záložku Úkoly. Tady můžeš určit, jaká jídla vařit, jaké předměty vyrábět, jaká zvířata porcovat.</BillsTab.helpText>
-
-  <OpeningComms.label>Používání radiostanice</OpeningComms.label>
-  <OpeningComms.helpText>Abys navázal komunikaci, vyber kolonistu a klikni pravým tlačítkem myši na radiostanici.</OpeningComms.helpText>
-
-  <DrugAddiction.label>Závislost na drogách</DrugAddiction.label>
-  <DrugAddiction.helpText>Touhy svých kolonistů po drogách si můžeš prohlížet na jejich záložce Potřeby.\n\nPokud jejich úroveň potřeby klesne na nulu, jejich závislost se změní na "absťák", který může mít různé vedlejší negativní příznaky.\n\nPo dostatečně dlouhé době na absťáku však jejich závislost skončí a jejich potřeba brát drogy se vytratí.</DrugAddiction.helpText>
-
-  <DrugPolicies.label>Drogová politika</DrugPolicies.label>
-  <DrugPolicies.helpText>Kolonistům můžeš přidělit, aby brali konkrétní drogy podle předem určeného rozvrhu. Můžeš jim například určit, aby pravidelně užívali léky proti malárii, nebo aby si dali každý den pivo, aby zůstali šťastní.\n\nOtevři nabídku PŘIDĚLOVÁNÍ a klikni na tlačítko "Spravovat drogovou politiku". Vytvoř novou drogovou politiku. Pak tuto politiku můžeš přidělit kolonistům.\n\nKolonisté mohou i tak brát drogy, které nejsou v jejich politice. Můžeš jim říct, co mají dělat, ale i oni sami si jdou za svými vlastními touhami!</DrugPolicies.helpText>
-
-  <TVForSickPeople.label>TV pro nemocné</TVForSickPeople.label>
-  <TVForSickPeople.helpText>Nemocní mohou při ležení v posteli sledovat televizi.</TVForSickPeople.helpText>
-
-  <PrisonerTab.label>Záložka Vězeň</PrisonerTab.label>
-  <PrisonerTab.helpText>Podívej se na záložku Vězeň u svých vězňů, abys nastavil, jak s nimi bude zacházeno.\n\nMůžeš nastavit, jestli mají být přemlouvání, aby se k tobě přidali, jestli mají být přehlíženi nebo popraveni, jestli budou dostávat jídlo a jaká jim bude dopřávána lékařská péče.\n\nS vězni přichází do kontaktu kolonista s přidělenou činností Dozorce.</PrisonerTab.helpText>
-
-  <SetGrowingZonePlant.label>Nastav, jaké rostliny pěstovat</SetGrowingZonePlant.label>
-  <SetGrowingZonePlant.helpText>Můžeš nastavit, jaké rostliny na pole vysazovat. Dokonce můžeš pěstovat i stromy!\n\nStačí jen vybrat pole a kliknout na tlačítko "Rostlina".</SetGrowingZonePlant.helpText>
-
-  <DrugBurning.label>Spalování drog</DrugBurning.label>
-  <DrugBurning.helpText>Drogy mohou být užitečné, mohou ale vést ke škodlivým závislostem.\n\nPokud ve své kolonii drogy nechceš, máš možnost je spálit v ohništi.</DrugBurning.helpText>
-
+  
+  <!-- EN: Build orbital trade beacon -->
+  <BuildOrbitalTradeBeacon.label>Postav orbitální obchodní maják</BuildOrbitalTradeBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <BuildOrbitalTradeBeacon.helpText>Abys poslal předměty nebo stříbro obchodníkům na orbitě, musíš postavit ORBITÁLNÍ OBCHODNÍ MAJÁK a v jeho blízkosti postavit skladiště s předměty.</BuildOrbitalTradeBeacon.helpText>
+  
+  <!-- EN: Capturing -->
+  <Capturing.label>Zajímání</Capturing.label>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpText>Pokud nepřítel leží zraněný na zemi, ale není mrtvý, můžeš ho ZAJMOUT.\n\nAbys někoho zajal, vyber kolonistu, klikni pravým tlačítkem myši na zneschopněného nepřítele a vyber příkaz Zajmi!\n\nBudeš potřebovat postel navíc určenou pro vězně.</Capturing.helpText>
+  
+  <!-- EN: Door opening speeds -->
   <DoorOpenSpeed.label>Rychlost otevírání dveří</DoorOpenSpeed.label>
+  <!-- EN: Doors open at different speeds depending on what they're made of.\n\nWarning: Stone doors open very slowly. Anyone passing through will be significantly slowed down. -->
   <DoorOpenSpeed.helpText>Dveře se otevírají různými rychlostmi v závislosti na tom, z čeho jsou vyrobeny.\n\nVarování: Kamenné dveře se otvírají velmi pomalu. Každý, kdo prochází, bude výrazně zpomalen.</DoorOpenSpeed.helpText>
-
+  
+  <!-- EN: Drafting for combat -->
+  <Drafting.label>Naverbování na boj</Drafting.label>
+  <!-- EN: To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.\n\nA drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy. -->
+  <Drafting.helpText>Abys v boji ovládal kolonisty přímo, naber je tím, že je vybereš a stiskneš tlačítko NAVERBOVAT.\n\nNaverbovaní kolonisté budou dělat jen to, co jim řekneš a mohou dělat jen věci související s bojem. Ti se zbraněmi je budou používat, pokud to bude možné.\n\nNenechávej kolonisty naverbované napořád - budou mít hlad a nebudou šťastní.</Drafting.helpText>
+  
+  <!-- EN: Drug addiction -->
+  <DrugAddiction.label>Závislost na drogách</DrugAddiction.label>
+  <!-- EN: You can inspect your colonists' desire to take a drug in their Needs tab.\n\nAs long as their need level is at zero, their addiction changes to a "withdrawal" state which can have various negative side effects.\n\nHowever, after long enough in withdrawal, their addiction will end and the drug need will disappear. -->
+  <DrugAddiction.helpText>Touhy svých kolonistů po drogách si můžeš prohlížet na jejich záložce Potřeby.\n\nPokud jejich úroveň potřeby klesne na nulu, jejich závislost se změní na "absťák", který může mít různé vedlejší negativní příznaky.\n\nPo dostatečně dlouhé době na absťáku však jejich závislost skončí a jejich potřeba brát drogy se vytratí.</DrugAddiction.helpText>
+  
+  <!-- EN: Drug burning -->
+  <DrugBurning.label>Spalování drog</DrugBurning.label>
+  <!-- EN: Drugs can be useful, but can also lead to harmful addictions.\n\nIf you want to avoid drugs in your colony, you have the option of burning them at a campfire. -->
+  <DrugBurning.helpText>Drogy mohou být užitečné, mohou ale vést ke škodlivým závislostem.\n\nPokud ve své kolonii drogy nechceš, máš možnost je spálit v ohništi.</DrugBurning.helpText>
+  
+  <!-- EN: Drug policies -->
+  <DrugPolicies.label>Drogová politika</DrugPolicies.label>
+  <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take anti-malaria drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
+  <DrugPolicies.helpText>Kolonistům můžeš přidělit, aby brali konkrétní drogy podle předem určeného rozvrhu. Můžeš jim například určit, aby pravidelně užívali léky proti malárii, nebo aby si dali každý den pivo, aby zůstali šťastní.\n\nOtevři nabídku PŘIDĚLOVÁNÍ a klikni na tlačítko "Spravovat drogovou politiku". Vytvoř novou drogovou politiku. Pak tuto politiku můžeš přidělit kolonistům.\n\nKolonisté mohou i tak brát drogy, které nejsou v jejich politice. Můžeš jim říct, co mají dělat, ale i oni sami si jdou za svými vlastními touhami!</DrugPolicies.helpText>
+  
+  <!-- EN: Interacting with traders -->
+  <InteractingWithTraders.label>Obchodování s obchodníky</InteractingWithTraders.label>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head. -->
+  <InteractingWithTraders.helpText>S lidmi, kteří mají nad hlavou znak ?, můžeš mluvit.\n\nVyber kolonistu a klikni pravým tlačítkem myši na postavu s ? nad hlavou.</InteractingWithTraders.helpText>
+  
+  <!-- EN: Using the comms console -->
+  <OpeningComms.label>Používání radiostanice</OpeningComms.label>
+  <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
+  <OpeningComms.helpText>Abys navázal komunikaci, vyber kolonistu a klikni pravým tlačítkem myši na radiostanici.</OpeningComms.helpText>
+  
+  <!-- EN: Prisoner tab -->
+  <PrisonerTab.label>Záložka Vězeň</PrisonerTab.label>
+  <!-- EN: Look in a prisoner's 'Prisoner' tab to set how they'll be treated.\n\nYou can set whether they'll be recruited, ignored or executed, whether they eat, and what kind of medical care they get.\n\nColonists with the Warden work type will interact with the prisoner. -->
+  <PrisonerTab.helpText>Podívej se na záložku Vězeň u svých vězňů, abys nastavil, jak s nimi bude zacházeno.\n\nMůžeš nastavit, jestli mají být přemlouvání, aby se k tobě přidali, jestli mají být přehlíženi nebo popraveni, jestli budou dostávat jídlo a jaká jim bude dopřávána lékařská péče.\n\nS vězni přichází do kontaktu kolonista s přidělenou činností Dozorce.</PrisonerTab.helpText>
+  
+  <!-- EN: Order queueing -->
   <QueueOrders.label>Fronta příkazů</QueueOrders.label>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
   <QueueOrders.helpText>Při zadávání úkolů svým kolonistům můžeš nastavit frontu s více příkazy za sebou, a to podržením tlačítka "SHIFT". Tohle platí i v případě zadávání příkazů kolonistům, kteří nejsou v režimu naverbování.</QueueOrders.helpText>
-
-
+  
+  <!-- EN: Reforming caravans -->
+  <ReformCaravan.label>Upravování karavan</ReformCaravan.label>
+  <!-- EN: After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view. -->
+  <ReformCaravan.helpText>Po střetnutí můžeš karavanu znovu snadno upravit použitím příkazu UPRAVIT KARAVANU na obrazovce mapy světa.</ReformCaravan.helpText>
+  
+  <!-- EN: Rescuing -->
+  <Rescuing.label>Zachraňování</Rescuing.label>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and the right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpText>Abys zachránil zraněnou osobu, vyber zdravého kolonistu a klikni pravým tlačítkem myši na zraněnou osobu.\n\nPokud zachráníš osobu, která není tvým kolonistou, nemusí se pak k tobě přidat. Po uzdravení muže prostě odejít pryč. Pokud chceš mít jistotu, že se k tobě přidají, zajmi je a přemluv.</Rescuing.helpText>
+  
+  <!-- EN: Set what plant to grow -->
+  <SetGrowingZonePlant.label>Nastav, jaké rostliny pěstovat</SetGrowingZonePlant.label>
+  <!-- EN: You can set what to plant in a growing zone. You can even grow trees!\n\nJust select the growing zone, open the Growing tab, and click the 'plant' button. -->
+  <SetGrowingZonePlant.helpText>Můžeš nastavit, jaké rostliny na pole vysazovat. Dokonce můžeš pěstovat i stromy!\n\nStačí jen vybrat pole a kliknout na tlačítko "Rostlina".</SetGrowingZonePlant.helpText>
+  
+  <!-- EN: Shield belts -->
+  <ShieldBelts.label>Opasek s energoštítem</ShieldBelts.label>
+  <!-- EN: Shield belts stop ranged attacks from coming in or out. They have no effect on melee attacks.\n\nTo fight against shield belts, either concentrate a lot of gunfire on the target, or fight hand-to-hand. -->
+  <ShieldBelts.helpText>Opasek s energoštítem zastaví útoky na dálku, a to jak dovnitř, tak i ven. V boji na blízko nemají žádný účinek.\n\nAbys opasek s energoštítem překonal, soustřeď na nositele opasku palbu, nebo bojuj zblízka.</ShieldBelts.helpText>
+  
+  <!-- EN: TV for sick people -->
+  <TVForSickPeople.label>TV pro nemocné</TVForSickPeople.label>
+  <!-- EN: Sick people can watch TV while laying in bed. -->
+  <TVForSickPeople.helpText>Nemocní mohou při ležení v posteli sledovat televizi.</TVForSickPeople.helpText>
+  
 </LanguageData>

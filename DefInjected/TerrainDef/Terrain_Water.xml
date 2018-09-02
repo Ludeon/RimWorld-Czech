@@ -1,34 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Deep -->
-
-  <WaterDeep.label>hluboká voda</WaterDeep.label>
-  <WaterDeep.tools.0.label>voda</WaterDeep.tools.0.label>
-
-  <WaterOceanDeep.label>hluboká voda oceánu</WaterOceanDeep.label>
-  <WaterOceanDeep.tools.0.label>voda</WaterOceanDeep.tools.0.label>
-
-
-  <!-- Chest-deep -->
-
-  <WaterMovingChestDeep.label>voda po prsa v pohybu</WaterMovingChestDeep.label>
-  <WaterMovingChestDeep.tools.0.label>voda</WaterMovingChestDeep.tools.0.label>
-
-
-  <!-- Shallow -->
-
-  <WaterShallow.label>mělká voda</WaterShallow.label>
-  <WaterShallow.tools.0.label>voda</WaterShallow.tools.0.label>
-
-  <WaterOceanShallow.label>mělká voda oceánu</WaterOceanShallow.label>
-  <WaterOceanShallow.tools.0.label>voda</WaterOceanShallow.tools.0.label>
-
-  <WaterMovingShallow.label>mělká voda v pohybu</WaterMovingShallow.label>
-  <WaterMovingShallow.tools.0.label>voda</WaterMovingShallow.tools.0.label>
   
+  <!-- EN: marsh -->
   <Marsh.label>bažina</Marsh.label>
-  <Marsh.tools.0.label>bahno</Marsh.tools.0.label>  
+  <!-- EN: water -->
+  <Marsh.tools.water.label>voda</Marsh.tools.water.label>
+  <!-- EN: mud -->
+  <Marsh.tools.mud.label>bahno</Marsh.tools.mud.label>
   
-
+  <!-- EN: deep water -->
+  <WaterDeep.label>hluboká voda</WaterDeep.label>
+  <!-- EN: water -->
+  <WaterDeep.tools.water.label>voda</WaterDeep.tools.water.label>
+  
+  <!-- EN: chest-deep moving water -->
+  <WaterMovingChestDeep.label>voda po prsa v pohybu</WaterMovingChestDeep.label>
+  <!-- EN: water -->
+  <WaterMovingChestDeep.tools.water.label>voda</WaterMovingChestDeep.tools.water.label>
+  
+  <!-- EN: shallow moving water -->
+  <WaterMovingShallow.label>mělká voda v pohybu</WaterMovingShallow.label>
+  <!-- EN: water -->
+  <WaterMovingShallow.tools.water.label>voda</WaterMovingShallow.tools.water.label>
+  
+  <!-- EN: deep ocean water -->
+  <WaterOceanDeep.label>hluboká voda oceánu</WaterOceanDeep.label>
+  <!-- EN: water -->
+  <WaterOceanDeep.tools.water.label>voda</WaterOceanDeep.tools.water.label>
+  
+  <!-- EN: shallow ocean water -->
+  <WaterOceanShallow.label>mělká voda oceánu</WaterOceanShallow.label>
+  <!-- EN: water -->
+  <WaterOceanShallow.tools.water.label>voda</WaterOceanShallow.tools.water.label>
+  
+  <!-- EN: shallow water -->
+  <WaterShallow.label>mělká voda</WaterShallow.label>
+  <!-- EN: water -->
+  <WaterShallow.tools.water.label>voda</WaterShallow.tools.water.label>
+  
 </LanguageData>

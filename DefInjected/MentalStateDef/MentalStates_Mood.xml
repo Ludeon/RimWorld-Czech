@@ -1,121 +1,189 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Mental breaks: extreme -->
-
-  <Berserk.label>zuřivost</Berserk.label>
-  <Berserk.beginLetter>{0} začal[PAWN_pronoun] zuřit!\n\nZaútočí na každého, koho spatří.</Berserk.beginLetter>
-  <Berserk.beginLetterLabel>Zuřivost</Berserk.beginLetterLabel>
-  <Berserk.recoveryMessage>{0} přestal[PAWN_pronoun] zuřit.</Berserk.recoveryMessage>
-  <Berserk.baseInspectLine>Psychický stav: Zuřivost</Berserk.baseInspectLine>
-
-  <FireStartingSpree.label>žhářské řádění</FireStartingSpree.label>
-  <FireStartingSpree.beginLetter>{0} začal[PAWN_pronoun] řádit s ohněm.\n\nBude se chvíli potloukat po okolí a náhodně zakládat požáry.</FireStartingSpree.beginLetter>
-  <FireStartingSpree.beginLetterLabel>Žhářské řádění</FireStartingSpree.beginLetterLabel>
-  <FireStartingSpree.recoveryMessage>{0} přestal[PAWN_pronoun] podpalovat okolí.</FireStartingSpree.recoveryMessage>
-  <FireStartingSpree.baseInspectLine>Psychický stav: Žhářské řádění</FireStartingSpree.baseInspectLine>
-
-  <Binging_DrugExtreme.label>extrémní touha na drogu</Binging_DrugExtreme.label>
-  <Binging_DrugExtreme.baseInspectLine>Psychický stav: Extrémní touha na {0}</Binging_DrugExtreme.baseInspectLine>
-
-  <Jailbreaker.label>nabádá vězně k útěku</Jailbreaker.label>
-  <Jailbreaker.beginLetter>{0} se psychicky zhroutil[PAWN_pronoun] a jde přimět vězně k útěku.</Jailbreaker.beginLetter>
-  <Jailbreaker.beginLetterLabel>Rozbíječ okovů</Jailbreaker.beginLetterLabel>
-  <Jailbreaker.recoveryMessage>{0} přestal[PAWN_pronoun] nabádat vězně k útěku.</Jailbreaker.recoveryMessage>
-  <Jailbreaker.baseInspectLine>Psychický stav: Rozbíječ okovů</Jailbreaker.baseInspectLine>
-
-  <Slaughterer.label>jatka</Slaughterer.label>
-  <Slaughterer.beginLetter>{0} se psychicky zhroutil[PAWN_pronoun] a jde si vylít svůj hněv na tvých zvířatech.</Slaughterer.beginLetter>
-  <Slaughterer.beginLetterLabel>Jatka</Slaughterer.beginLetterLabel>
-  <Slaughterer.recoveryMessage>{0} přestal[PAWN_pronoun] náhodně porážet zvířata.</Slaughterer.recoveryMessage>
-  <Slaughterer.baseInspectLine>Psychický stav: Jatka</Slaughterer.baseInspectLine>
-
-  <MurderousRage.label>vražedný vztek</MurderousRage.label>
-  <MurderousRage.beginLetter>{0} je vzteky bez sebe, že by vraždil[PAWN_pronoun].\n\nRozhodl[PAWN_pronoun] se zabít {1}.</MurderousRage.beginLetter>
-  <MurderousRage.beginLetterLabel>Vražedný vztek</MurderousRage.beginLetterLabel>
-  <MurderousRage.recoveryMessage>{0} se uklidnil[PAWN_pronoun] a už nikoho netouží zabít.</MurderousRage.recoveryMessage>
-  <MurderousRage.baseInspectLine>Psychický stav: Vražedný vztek</MurderousRage.baseInspectLine>
   
-  <GiveUpExit.label>vzdává to a odchází</GiveUpExit.label>
-  <GiveUpExit.beginLetter>{0} to vzdává s touto komunitou.\n\nRozhodl[PAWN_pronoun] se odejít a najít si lepší život jinde.</GiveUpExit.beginLetter>
-  <GiveUpExit.beginLetterLabel>Vzdává to a odchází</GiveUpExit.beginLetterLabel>
-  <GiveUpExit.recoveryMessage>{0} změnil[PAWN_pronoun] názor svého srdce a vrací se do kolonie.</GiveUpExit.recoveryMessage>
-  <GiveUpExit.baseInspectLine>Psychický stav: Vzdává to a odchází</GiveUpExit.baseInspectLine>
-
-    
-  <!-- Mental breaks: major -->
-
-  <Binging_DrugMajor.label>silná touha na drogu</Binging_DrugMajor.label>
-  <Binging_DrugMajor.baseInspectLine>Psychický stav: Silná touha na {0}</Binging_DrugMajor.baseInspectLine>
-
-  <Wander_Psychotic.label>bloudění v psychóze</Wander_Psychotic.label>
-  <Wander_Psychotic.beginLetter>{0} začal[PAWN_pronoun] bloudit v psychóze.</Wander_Psychotic.beginLetter>
-  <Wander_Psychotic.beginLetterLabel>Bloudění v psychóze</Wander_Psychotic.beginLetterLabel>
-  <Wander_Psychotic.recoveryMessage>{0} přestal[PAWN_pronoun] bloudit v psychóze.</Wander_Psychotic.recoveryMessage>
-  <Wander_Psychotic.baseInspectLine>Psychický stav: Bloudění v psychóze</Wander_Psychotic.baseInspectLine>
-
-  <Tantrum.label>rapl</Tantrum.label>
-  <Tantrum.beginLetter>{0} začal[PAWN_pronoun] mít záchvaty vzteku.\n\nBude náhodně ničit nábytek, předměty a stavby.</Tantrum.beginLetter>
-  <Tantrum.beginLetterLabel>Rapl</Tantrum.beginLetterLabel>
-  <Tantrum.recoveryMessage>{0} přestal[PAWN_pronoun] mít záchvaty vzteku.</Tantrum.recoveryMessage>
-  <Tantrum.baseInspectLine>Psychický stav: Rapl</Tantrum.baseInspectLine>
-
-  <TargetedTantrum.label>rapl</TargetedTantrum.label>
-  <TargetedTantrum.beginLetter>{0} začala[PAWN_pronoun] mít záchvaty vzteku.\n\nJde zničit: {1}</TargetedTantrum.beginLetter>
-  <TargetedTantrum.beginLetterLabel>Rapl</TargetedTantrum.beginLetterLabel>
-  <TargetedTantrum.recoveryMessage>{0} přestal[PAWN_pronoun] mít záchvaty vzteku.</TargetedTantrum.recoveryMessage>
-  <TargetedTantrum.baseInspectLine>Psychický stav: Rapl</TargetedTantrum.baseInspectLine>
-
+  <!-- EN: tantrum -->
   <BedroomTantrum.label>rapl</BedroomTantrum.label>
+  <!-- EN: Mental state: Tantrum -->
+  <BedroomTantrum.baseInspectLine>Psychický stav: Rapl</BedroomTantrum.baseInspectLine>
+  <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
   <BedroomTantrum.beginLetter>{0} začala[PAWN_pronoun] mít záchvaty vzteku.\n\nJde ničit nábytek ve svém pokoji.</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>Rapl</BedroomTantrum.beginLetterLabel>
+  <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} přestal[PAWN_pronoun] mít záchvaty vzteku.</BedroomTantrum.recoveryMessage>
-  <BedroomTantrum.baseInspectLine>Psychický stav: Rapl</BedroomTantrum.baseInspectLine>
-
-  <SadisticRage.label>sadistický vztek</SadisticRage.label>
-  <SadisticRage.beginLetter>{0} chce ostatním způsobovat bolest.\n\Jde si vylít svůj hněv na vězních.</SadisticRage.beginLetter>
-  <SadisticRage.beginLetterLabel>Sadistický vztek</SadisticRage.beginLetterLabel>
-  <SadisticRage.recoveryMessage>{0} se uklidnil[PAWN_pronoun] a už nechce ostatním způsobovat bolest.</SadisticRage.recoveryMessage>
-  <SadisticRage.baseInspectLine>Psychický stav: Sadistický vztek</SadisticRage.baseInspectLine>
-
+  
+  <!-- EN: berserk -->
+  <Berserk.label>zuřivost</Berserk.label>
+  <!-- EN: Mental state: Berserk -->
+  <Berserk.baseInspectLine>Psychický stav: Zuřivost</Berserk.baseInspectLine>
+  <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
+  <Berserk.beginLetter>{0} začal[PAWN_pronoun] zuřit!\n\nZaútočí na každého, koho spatří.</Berserk.beginLetter>
+  <Berserk.beginLetterLabel>Zuřivost</Berserk.beginLetterLabel>
+  <!-- EN: {0}'s berserk rage has come to an end. -->
+  <Berserk.recoveryMessage>{0} přestal[PAWN_pronoun] zuřit.</Berserk.recoveryMessage>
+  
+  <!-- EN: binging on drug -->
+  <Binging_DrugExtreme.label>extrémní touha na drogu</Binging_DrugExtreme.label>
+  <!-- EN: Mental state: Binging on {0} -->
+  <Binging_DrugExtreme.baseInspectLine>Psychický stav: Extrémní touha na {0}</Binging_DrugExtreme.baseInspectLine>
+  
+  <!-- EN: binging on drug -->
+  <Binging_DrugMajor.label>silná touha na drogu</Binging_DrugMajor.label>
+  <!-- EN: Mental state: Binging on {0} -->
+  <Binging_DrugMajor.baseInspectLine>Psychický stav: Silná touha na {0}</Binging_DrugMajor.baseInspectLine>
+  
+  <!-- EN: binging on food -->
+  <Binging_Food.label>touha na jídlo</Binging_Food.label>
+  <!-- EN: Mental state: Pigging out -->
+  <Binging_Food.baseInspectLine>Psychický stav: Touha na jídlo</Binging_Food.baseInspectLine>
+  <!-- EN: {0} is pigging out on food. -->
+  <Binging_Food.beginLetter>{0} začal[PAWN_pronoun] toužit po jídle.</Binging_Food.beginLetter>
+  <!-- EN: food binge -->
+  <Binging_Food.beginLetterLabel>Touha na jídlo</Binging_Food.beginLetterLabel>
+  <!-- EN: {0} is no longer pigging out on food. -->
+  <Binging_Food.recoveryMessage>{0} přestal[PAWN_pronoun] toužit po jídle.</Binging_Food.recoveryMessage>
+  
+  <!-- EN: corpse obsession -->
   <CorpseObsession.label>posedlost mrtvolami</CorpseObsession.label>
+  <!-- EN: Mental state: Corpse obsession -->
+  <CorpseObsession.baseInspectLine>Psychický stav: Posedlost mrtvolami</CorpseObsession.baseInspectLine>
+  <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
   <CorpseObsession.beginLetter>{0} se vnitřně zlomil[PAWN_pronoun] a vyvinul[PAWN_pronoun] si posedlost mrtvolami.\n\nJde vyhrabat mrtvolu a vystavit ji všem na oči.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>Posedlost mrtvolami</CorpseObsession.beginLetterLabel>
+  <!-- EN: {0} is no longer having a corpse obsession. -->
   <CorpseObsession.recoveryMessage>{0} přestal[PAWN_pronoun] dychtit po mrtvole.</CorpseObsession.recoveryMessage>
-  <CorpseObsession.baseInspectLine>Psychický stav: Posedlost mrtvolami</CorpseObsession.baseInspectLine>
   
+  <!-- EN: fire starting spree -->
+  <FireStartingSpree.label>žhářské řádění</FireStartingSpree.label>
+  <!-- EN: Mental state: Fire starting spree -->
+  <FireStartingSpree.baseInspectLine>Psychický stav: Žhářské řádění</FireStartingSpree.baseInspectLine>
+  <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
+  <FireStartingSpree.beginLetter>{0} začal[PAWN_pronoun] řádit s ohněm.\n\nBude se chvíli potloukat po okolí a náhodně zakládat požáry.</FireStartingSpree.beginLetter>
+  <FireStartingSpree.beginLetterLabel>Žhářské řádění</FireStartingSpree.beginLetterLabel>
+  <!-- EN: {0} is no longer on a fire starting spree. -->
+  <FireStartingSpree.recoveryMessage>{0} přestal[PAWN_pronoun] podpalovat okolí.</FireStartingSpree.recoveryMessage>
   
-  <!-- Mental breaks: minor -->
-
-  <Binging_Food.label>touha na jídlo</Binging_Food.label>
-  <Binging_Food.beginLetter>{0} začal[PAWN_pronoun] toužit po jídle.</Binging_Food.beginLetter>
-  <Binging_Food.beginLetterLabel>Touha na jídlo</Binging_Food.beginLetterLabel>
-  <Binging_Food.recoveryMessage>{0} přestal[PAWN_pronoun] toužit po jídle.</Binging_Food.recoveryMessage>
-  <Binging_Food.baseInspectLine>Psychický stav: Touha na jídlo</Binging_Food.baseInspectLine>
-
-  <Wander_Sad.label>sklíčené bloudění</Wander_Sad.label>
-  <Wander_Sad.beginLetter>{0} se zhroutil[PAWN_pronoun] a začal[PAWN_pronoun] sklíčeně bloudit.</Wander_Sad.beginLetter>
-  <Wander_Sad.beginLetterLabel>Sklíčené bloudění</Wander_Sad.beginLetterLabel>
-  <Wander_Sad.recoveryMessage>{0} přestal[PAWN_pronoun] sklíčeně bloudit.</Wander_Sad.recoveryMessage>
-  <Wander_Sad.baseInspectLine>Psychický stav: Sklíčené bloudění</Wander_Sad.baseInspectLine>
-
-  <Wander_OwnRoom.label>samota</Wander_OwnRoom.label>
-  <Wander_OwnRoom.beginLetter>{0} se začal[PAWN_pronoun] ukrývat ve svém pokoji.</Wander_OwnRoom.beginLetter>
-  <Wander_OwnRoom.beginLetterLabel>Ukrývání se v pokoji</Wander_OwnRoom.beginLetterLabel>
-  <Wander_OwnRoom.recoveryMessage>{0} se přestal[PAWN_pronoun] ukrývat ve svém pokoji.</Wander_OwnRoom.recoveryMessage>
-  <Wander_OwnRoom.baseInspectLine>Psychický stav: Ukrývání se v pokoji</Wander_OwnRoom.baseInspectLine>
-
+  <!-- EN: giving up and leaving -->
+  <GiveUpExit.label>vzdává to a odchází</GiveUpExit.label>
+  <!-- EN: Mental state: Given up and leaving -->
+  <GiveUpExit.baseInspectLine>Psychický stav: Vzdává to a odchází</GiveUpExit.baseInspectLine>
+  <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
+  <GiveUpExit.beginLetter>{0} to vzdává s touto komunitou.\n\nRozhodl[PAWN_pronoun] se odejít a najít si lepší život jinde.</GiveUpExit.beginLetter>
+  <!-- EN: gave up -->
+  <GiveUpExit.beginLetterLabel>Vzdává to a odchází</GiveUpExit.beginLetterLabel>
+  <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
+  <GiveUpExit.recoveryMessage>{0} změnil[PAWN_pronoun] názor svého srdce a vrací se do kolonie.</GiveUpExit.recoveryMessage>
+  
+  <!-- EN: insulting spree -->
   <InsultingSpree.label>urážlivé řádění</InsultingSpree.label>
+  <!-- EN: Mental state: Insulting spree -->
+  <InsultingSpree.baseInspectLine>Psychický stav: Urážlivé řádění</InsultingSpree.baseInspectLine>
+  <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
   <InsultingSpree.beginLetter>{0} začal[PAWN_pronoun] urážlivě řádit.\n\nBude chodit kolem a náhodně bude urážet ostatní.</InsultingSpree.beginLetter>
   <InsultingSpree.beginLetterLabel>Urážlivé řádění</InsultingSpree.beginLetterLabel>
+  <!-- EN: {0} is no longer on an insulting spree. -->
   <InsultingSpree.recoveryMessage>{0} přestal[PAWN_pronoun] ostatní urážet.</InsultingSpree.recoveryMessage>
-  <InsultingSpree.baseInspectLine>Psychický stav: Urážlivé řádění</InsultingSpree.baseInspectLine>
-
+  
+  <!-- EN: inducing prisoner to escape -->
+  <Jailbreaker.label>nabádá vězně k útěku</Jailbreaker.label>
+  <!-- EN: Mental state: Jailbreaker -->
+  <Jailbreaker.baseInspectLine>Psychický stav: Rozbíječ okovů</Jailbreaker.baseInspectLine>
+  <!-- EN: {0} has a mental breakdown and is going to induce prisoners to escape. -->
+  <Jailbreaker.beginLetter>{0} se psychicky zhroutil[PAWN_pronoun] a jde přimět vězně k útěku.</Jailbreaker.beginLetter>
+  <!-- EN: jailbreaker -->
+  <Jailbreaker.beginLetterLabel>Rozbíječ okovů</Jailbreaker.beginLetterLabel>
+  <!-- EN: {0} is no longer inducing prisoners to escape. -->
+  <Jailbreaker.recoveryMessage>{0} přestal[PAWN_pronoun] nabádat vězně k útěku.</Jailbreaker.recoveryMessage>
+  
+  <!-- EN: murderous rage -->
+  <MurderousRage.label>vražedný vztek</MurderousRage.label>
+  <!-- EN: Mental state: Murderous rage -->
+  <MurderousRage.baseInspectLine>Psychický stav: Vražedný vztek</MurderousRage.baseInspectLine>
+  <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
+  <MurderousRage.beginLetter>{0} je vzteky bez sebe, že by vraždil[PAWN_pronoun].\n\nRozhodl[PAWN_pronoun] se zabít {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetterLabel>Vražedný vztek</MurderousRage.beginLetterLabel>
+  <!-- EN: {0} is no longer in a murderous rage. -->
+  <MurderousRage.recoveryMessage>{0} se uklidnil[PAWN_pronoun] a už nikoho netouží zabít.</MurderousRage.recoveryMessage>
+  
+  <!-- EN: sadistic rage -->
+  <SadisticRage.label>sadistický vztek</SadisticRage.label>
+  <!-- EN: Mental state: Sadistic rage -->
+  <SadisticRage.baseInspectLine>Psychický stav: Sadistický vztek</SadisticRage.baseInspectLine>
+  <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
+  <SadisticRage.beginLetter>{0} chce ostatním způsobovat bolest.\n\Jde si vylít svůj hněv na vězních.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetterLabel>Sadistický vztek</SadisticRage.beginLetterLabel>
+  <!-- EN: {0} is no longer in a sadistic rage. -->
+  <SadisticRage.recoveryMessage>{0} se uklidnil[PAWN_pronoun] a už nechce ostatním způsobovat bolest.</SadisticRage.recoveryMessage>
+  
+  <!-- EN: slaughterer -->
+  <Slaughterer.label>jatka</Slaughterer.label>
+  <!-- EN: Mental state: Slaughterer -->
+  <Slaughterer.baseInspectLine>Psychický stav: Jatka</Slaughterer.baseInspectLine>
+  <!-- EN: {0} has a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
+  <Slaughterer.beginLetter>{0} se psychicky zhroutil[PAWN_pronoun] a jde si vylít svůj hněv na tvých zvířatech.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetterLabel>Jatka</Slaughterer.beginLetterLabel>
+  <!-- EN: {0} is no longer slaughtering random animals. -->
+  <Slaughterer.recoveryMessage>{0} přestal[PAWN_pronoun] náhodně porážet zvířata.</Slaughterer.recoveryMessage>
+  
+  <!-- EN: tantrum -->
+  <Tantrum.label>rapl</Tantrum.label>
+  <!-- EN: Mental state: Tantrum -->
+  <Tantrum.baseInspectLine>Psychický stav: Rapl</Tantrum.baseInspectLine>
+  <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
+  <Tantrum.beginLetter>{0} začal[PAWN_pronoun] mít záchvaty vzteku.\n\nBude náhodně ničit nábytek, předměty a stavby.</Tantrum.beginLetter>
+  <Tantrum.beginLetterLabel>Rapl</Tantrum.beginLetterLabel>
+  <!-- EN: {0} is no longer having a tantrum. -->
+  <Tantrum.recoveryMessage>{0} přestal[PAWN_pronoun] mít záchvaty vzteku.</Tantrum.recoveryMessage>
+  
+  <!-- EN: insulting spree -->
   <TargetedInsultingSpree.label>urážlivé řádění</TargetedInsultingSpree.label>
+  <!-- EN: Mental state: Insulting spree against {0} -->
+  <TargetedInsultingSpree.baseInspectLine>Psychický stav: Urážlivé řádění vůči {0}</TargetedInsultingSpree.baseInspectLine>
+  <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
   <TargetedInsultingSpree.beginLetter>{0} se rozzlobil[PAWN_pronoun] na {1}.\n\nSvou oběť bude neustále pronásledovat a chrlit na ni urážky.</TargetedInsultingSpree.beginLetter>
   <TargetedInsultingSpree.beginLetterLabel>Urážlivé řádění</TargetedInsultingSpree.beginLetterLabel>
   <TargetedInsultingSpree.recoveryMessage>{0} přestal[PAWN_pronoun] urážet.</TargetedInsultingSpree.recoveryMessage>
-  <TargetedInsultingSpree.baseInspectLine>Psychický stav: Urážlivé řádění vůči {0}</TargetedInsultingSpree.baseInspectLine>
   
+  <!-- EN: tantrum -->
+  <TargetedTantrum.label>rapl</TargetedTantrum.label>
+  <!-- EN: Mental state: Tantrum -->
+  <TargetedTantrum.baseInspectLine>Psychický stav: Rapl</TargetedTantrum.baseInspectLine>
+  <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
+  <TargetedTantrum.beginLetter>{0} začala[PAWN_pronoun] mít záchvaty vzteku.\n\nJde zničit: {1}</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetterLabel>Rapl</TargetedTantrum.beginLetterLabel>
+  <!-- EN: {0} is no longer having a tantrum. -->
+  <TargetedTantrum.recoveryMessage>{0} přestal[PAWN_pronoun] mít záchvaty vzteku.</TargetedTantrum.recoveryMessage>
+  
+  <!-- EN: sitting alone -->
+  <Wander_OwnRoom.label>samota</Wander_OwnRoom.label>
+  <!-- EN: Mental state: Hiding in room -->
+  <Wander_OwnRoom.baseInspectLine>Psychický stav: Ukrývání se v pokoji</Wander_OwnRoom.baseInspectLine>
+  <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
+  <Wander_OwnRoom.beginLetter>{0} se začal[PAWN_pronoun] ukrývat ve svém pokoji.</Wander_OwnRoom.beginLetter>
+  <!-- EN: hide in room -->
+  <Wander_OwnRoom.beginLetterLabel>Ukrývání se v pokoji</Wander_OwnRoom.beginLetterLabel>
+  <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
+  <Wander_OwnRoom.recoveryMessage>{0} se přestal[PAWN_pronoun] ukrývat ve svém pokoji.</Wander_OwnRoom.recoveryMessage>
+  
+  <!-- EN: wandering in psychosis -->
+  <Wander_Psychotic.label>bloudění v psychóze</Wander_Psychotic.label>
+  <!-- EN: Mental state: Psychotic wandering -->
+  <Wander_Psychotic.baseInspectLine>Psychický stav: Bloudění v psychóze</Wander_Psychotic.baseInspectLine>
+  <!-- EN: {0} is wandering around in a psychotic state. -->
+  <Wander_Psychotic.beginLetter>{0} začal[PAWN_pronoun] bloudit v psychóze.</Wander_Psychotic.beginLetter>
+  <!-- EN: daze -->
+  <Wander_Psychotic.beginLetterLabel>Bloudění v psychóze</Wander_Psychotic.beginLetterLabel>
+  <!-- EN: {0} is no longer wandering in a psychotic state. -->
+  <Wander_Psychotic.recoveryMessage>{0} přestal[PAWN_pronoun] bloudit v psychóze.</Wander_Psychotic.recoveryMessage>
+  
+  <!-- EN: sad wandering -->
+  <Wander_Sad.label>sklíčené bloudění</Wander_Sad.label>
+  <!-- EN: Mental state: Sad wandering -->
+  <Wander_Sad.baseInspectLine>Psychický stav: Sklíčené bloudění</Wander_Sad.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around in sadness. -->
+  <Wander_Sad.beginLetter>{0} se zhroutil[PAWN_pronoun] a začal[PAWN_pronoun] sklíčeně bloudit.</Wander_Sad.beginLetter>
+  <!-- EN: sad wander -->
+  <Wander_Sad.beginLetterLabel>Sklíčené bloudění</Wander_Sad.beginLetterLabel>
+  <!-- EN: {0} is no longer wandering in sadness. -->
+  <Wander_Sad.recoveryMessage>{0} přestal[PAWN_pronoun] sklíčeně bloudit.</Wander_Sad.recoveryMessage>
   
 </LanguageData>

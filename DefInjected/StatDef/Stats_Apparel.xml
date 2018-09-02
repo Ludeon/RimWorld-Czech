@@ -1,39 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <StuffEffectMultiplierInsulation_Cold.label>Izolace - chlad - násobitel účinnosti materiálu</StuffEffectMultiplierInsulation_Cold.label>
-  <StuffEffectMultiplierInsulation_Heat.label>Izolace - teplo - násobitel účinnosti materiálu</StuffEffectMultiplierInsulation_Heat.label>
-  <StuffEffectMultiplierArmor.label>Zbroj - násobitel účinnosti materiálu</StuffEffectMultiplierArmor.label>
   
-  <ArmorRating_Sharp.label>Odolnost zbroje - ostré</ArmorRating_Sharp.label>
-  <ArmorRating_Sharp.description>Hodnota odolnosti zbroje proti ostrým poškozením, jako jsou projektily, bodnutí nožem, exploze, a zvířecí pokousání.\n\nJe to procentuální šance, že útok bude ovlivněn zbrojí. Jakmile dojde k poškození, je zde 50% šance, že bude zcela odkloněno, a 50% šance, že bude částečně absorbováno a přeměněno na poloviční poškození tupého úderu. Mnoho útoků je ovlivněno průrazností zbroje, která může částečně zrušit tuto hodnotu zbroje.</ArmorRating_Sharp.description>
-
+  <!-- EN: Armor - Blunt -->
   <ArmorRating_Blunt.label>Odolnost zbroje - tupé</ArmorRating_Blunt.label>
+  <!-- EN: The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Blunt.description>Hodnota odolnosti zbroje proti tupým poškozením, jako jsou pěsti, údery kyjem, a padající kameny.\n\nJe to procentuální šance, že útok bude ovlivněn zbrojí. Jakmile dojde k poškození, je zde 50% šance, že bude zcela odkloněno, a 50% šance, že bude částečně absorbováno a poškození bude o polovinu redukováno. Mnoho útoků je ovlivněno průrazností zbroje, která může částečně zrušit tuto hodnotu zbroje.</ArmorRating_Blunt.description>
-
+  
+  <!-- EN: Armor - Heat -->
   <ArmorRating_Heat.label>Odolnost zbroje - tepelné</ArmorRating_Heat.label>
+  <!-- EN: The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
   <ArmorRating_Heat.description>Hodnota odolnosti zbroje proti tepelným poškozením, jako jsou popáleniny.\n\nJe to procentuální šance, že útok bude ovlivněn zbrojí. Jakmile dojde k poškození, je zde 50% šance, že bude zcela odkloněno, a 50% šance, že bude částečně absorbováno a poškození bude o polovinu redukováno. Některé útoky mohou být ovlivněny průrazností zbroje, která může částečně zrušit tuto hodnotu zbroje.</ArmorRating_Heat.description>
-
-  <Insulation_Cold.label>Izolace zbroje - chlad</Insulation_Cold.label>
-  <Insulation_Cold.description>Hodnota izolace, o kolik tento oděv vylepší minimální příjemnou teplotu nositele. Vyšší hodnoty umožňují přežívat při chladnějších teplotách.</Insulation_Cold.description>
-
-  <Insulation_Heat.label>Izolace zbroje - teplo</Insulation_Heat.label>
-  <Insulation_Heat.description>Hodnota izolace, o kolik tento oděv vylepší maximální příjemnou teplotu nositele. Vyšší hodnoty umožňují přežívat při teplejších teplotách.</Insulation_Heat.description>
-
+  
+  <!-- EN: Armor - Sharp -->
+  <ArmorRating_Sharp.label>Odolnost zbroje - ostré</ArmorRating_Sharp.label>
+  <!-- EN: The chance to affect sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value. The remaining armor rating is then compared against a random number from 0 to 100.\n\n    -If the random number is under half the armor rating, the damage deflects harmlessly.\n    -If the random number is over half the armor rating, but not higher than the armor rating, the damage is mitigated. This means it is converted into blunt damage and reduced by half.\n    -If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in. -->
+  <ArmorRating_Sharp.description>Hodnota odolnosti zbroje proti ostrým poškozením, jako jsou projektily, bodnutí nožem, exploze, a zvířecí pokousání.\n\nJe to procentuální šance, že útok bude ovlivněn zbrojí. Jakmile dojde k poškození, je zde 50% šance, že bude zcela odkloněno, a 50% šance, že bude částečně absorbováno a přeměněno na poloviční poškození tupého úderu. Mnoho útoků je ovlivněno průrazností zbroje, která může částečně zrušit tuto hodnotu zbroje.</ArmorRating_Sharp.description>
+  
+  <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>Maximální energie štítu</EnergyShieldEnergyMax.label>
+  <!-- EN: The maximum energy a shield belt can have at one time. More energy absorbs more damage. -->
   <EnergyShieldEnergyMax.description>Maximální energie štítu v opasku, kterou může mít najednou. Více energie může absorbovat více škod.</EnergyShieldEnergyMax.description>
-
+  
+  <!-- EN: Shield recharge rate -->
   <EnergyShieldRechargeRate.label>Rychlost nabíjení štítu</EnergyShieldRechargeRate.label>
+  <!-- EN: The rate at which a shield gains energy as long as it is not broken. -->
   <EnergyShieldRechargeRate.description>Rychlost, jakou štít získává energii, pokud není rozbitý.</EnergyShieldRechargeRate.description>
+  <!-- EN: {0}/s -->
   <EnergyShieldRechargeRate.formatString>{0}/s</EnergyShieldRechargeRate.formatString>
-
-  <SmokepopBeltRadius.label>Dosah opasku s kouř. clonou</SmokepopBeltRadius.label>
-  <SmokepopBeltRadius.description>Oblast, kterou zakryje kouř při detonaci opasku.</SmokepopBeltRadius.description>
-  <SmokepopBeltRadius.formatString>{0} buněk</SmokepopBeltRadius.formatString>
-
+  
+  <!-- EN: equip delay -->
   <EquipDelay.label>Prodleva při vybavení se</EquipDelay.label>
+  <!-- EN: The time it takes to equip and unequip this item. -->
   <EquipDelay.description>Čas potřebný k vybavení se nebo odložení tohoto předmětu.</EquipDelay.description>
+  <!-- EN: {0} s -->
   <EquipDelay.formatString>{0}s</EquipDelay.formatString>
   
+  <!-- EN: Insulation - Cold -->
+  <Insulation_Cold.label>Izolace zbroje - chlad</Insulation_Cold.label>
+  <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature. Greater values allow surviving in colder temperatures. -->
+  <Insulation_Cold.description>Hodnota izolace, o kolik tento oděv vylepší minimální příjemnou teplotu nositele. Vyšší hodnoty umožňují přežívat při chladnějších teplotách.</Insulation_Cold.description>
+  
+  <!-- EN: Insulation - Heat -->
+  <Insulation_Heat.label>Izolace zbroje - teplo</Insulation_Heat.label>
+  <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature. Greater values allow surviving in warmer temperatures. -->
+  <Insulation_Heat.description>Hodnota izolace, o kolik tento oděv vylepší maximální příjemnou teplotu nositele. Vyšší hodnoty umožňují přežívat při teplejších teplotách.</Insulation_Heat.description>
+  
+  <!-- EN: Smokepop belt radius -->
+  <SmokepopBeltRadius.label>Dosah opasku s kouř. clonou</SmokepopBeltRadius.label>
+  <!-- EN: The area obscured when a smokepop belt detonates. -->
+  <SmokepopBeltRadius.description>Oblast, kterou zakryje kouř při detonaci opasku.</SmokepopBeltRadius.description>
+  <!-- EN: {0} c -->
+  <SmokepopBeltRadius.formatString>{0} buněk</SmokepopBeltRadius.formatString>
+  
+  <!-- EN: Armor - Material effect multiplier -->
+  <StuffEffectMultiplierArmor.label>Zbroj - násobitel účinnosti materiálu</StuffEffectMultiplierArmor.label>
+  
+  <!-- EN: Insulation - Cold - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Cold.label>Izolace - chlad - násobitel účinnosti materiálu</StuffEffectMultiplierInsulation_Cold.label>
+  
+  <!-- EN: Insulation - Heat - Material effect multiplier -->
+  <StuffEffectMultiplierInsulation_Heat.label>Izolace - teplo - násobitel účinnosti materiálu</StuffEffectMultiplierInsulation_Heat.label>
   
 </LanguageData>

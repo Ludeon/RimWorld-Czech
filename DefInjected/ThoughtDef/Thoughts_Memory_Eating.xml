@@ -1,52 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Basic quality thoughts -->
-
-  <AteLavishMeal.stages.0.label>jedl bohaté jídlo</AteLavishMeal.stages.0.label>
-  <AteLavishMeal.stages.0.description>Tohle bohaté jídlo bylo tak vydatné a chutné. Potěšení pro mé tělo i duši.</AteLavishMeal.stages.0.description>
-
-  <AteFineMeal.stages.0.label>jedl chutné jídlo</AteFineMeal.stages.0.label>
-  <AteFineMeal.stages.0.description>Jedl jsem chutné jídlo. Hm, mňam!</AteFineMeal.stages.0.description>
-
-  <AteAwfulMeal.stages.0.label>jedl hnusné jídlo</AteAwfulMeal.stages.0.label>
-  <AteAwfulMeal.stages.0.description>Musel jsem jíst hnusné jídlo bez chuti. Vím, že mě udržuje při životě, ale tuhle břečku fakt nikdo jíst nechce.</AteAwfulMeal.stages.0.description>
-
-  <AteRawFood.stages.0.label>jedl syrové jídlo</AteRawFood.stages.0.label>
-  <AteRawFood.stages.0.description>Musel jsem jíst syrové jídlo. Měli bychom si to nejdříve uvařit, než to budeme jíst. Nejsme přece zvířata!</AteRawFood.stages.0.description>
-
-  <AteKibble.stages.0.label>jedl granule pro zvířata</AteKibble.stages.0.label>
-  <AteKibble.stages.0.description>Musel jsem jíst granule pro zvířata. Je to jako bych už ani nebyl člověk.</AteKibble.stages.0.description>
-
-  <AteCorpse.stages.0.label>jedl mrtvého tvora</AteCorpse.stages.0.label>
-  <AteCorpse.stages.0.description>Jedl jsem mrtvého tvora za syrova, aniž by byl naporcovaný, natož uvařený.</AteCorpse.stages.0.description>
-
-
-  <!-- Special nature thoughts -->
-
-  <AteHumanlikeMeatDirect.stages.0.label>kanibalismus (syrové)</AteHumanlikeMeatDirect.stages.0.label>
-  <AteHumanlikeMeatDirect.stages.0.description>Jedl jsem maso jiného člověka, syrové, jako nějaké zvíře. To je moje noční můra.</AteHumanlikeMeatDirect.stages.0.description>
-
-  <AteHumanlikeMeatDirectCannibal.stages.0.label>kanibalismus (syrové)</AteHumanlikeMeatDirectCannibal.stages.0.label>
-  <AteHumanlikeMeatDirectCannibal.stages.0.description>Jedl jsem maso jiného člověka, syrové, jako nějaké zvíře. Bylo tak... šťavnaté.</AteHumanlikeMeatDirectCannibal.stages.0.description>
-
-  <AteHumanlikeMeatAsIngredient.stages.0.label>kanibalismus (vařené)</AteHumanlikeMeatAsIngredient.stages.0.label>
-  <AteHumanlikeMeatAsIngredient.stages.0.description>Jedl jsem jídlo, ve kterém byla jako jedna z přísad lidské maso. To je hrozné.</AteHumanlikeMeatAsIngredient.stages.0.description>
-
-  <AteHumanlikeMeatAsIngredientCannibal.stages.0.label>kanibalismus (vařené)</AteHumanlikeMeatAsIngredientCannibal.stages.0.label>
-  <AteHumanlikeMeatAsIngredientCannibal.stages.0.description>Jedl jsem pokrm uvařený z lidského masa. Jak lahodné. Kéž bych k tomu měl i fazole a Chianti.</AteHumanlikeMeatAsIngredientCannibal.stages.0.description>
-
-  <AteInsectMeatDirect.stages.0.label>jedl syrové hmyzí maso</AteInsectMeatDirect.stages.0.label>
-  <AteInsectMeatDirect.stages.0.description>Jedl jsem syrové šedé slizké hmyzí maso. Asi to bylo to nejhnusnější, co jsem kdy v životě jedl.</AteInsectMeatDirect.stages.0.description>
-
-  <AteInsectMeatAsIngredient.stages.0.label>jedl uvařené hmyzí maso</AteInsectMeatAsIngredient.stages.0.label>
-  <AteInsectMeatAsIngredient.stages.0.description>Jedl jsem jídlo uvařené ze slizkého šedého hmyzího masa. Koření sice částečně překrylo chuť, ale byly v něm žlázy a měchýře plné tekutin, které jsem nedokázal identifikovat.</AteInsectMeatAsIngredient.stages.0.description>
-
-
-  <!-- Rotten state thoughts -->
-
-  <AteRottenFood.stages.0.label>jedl zkažené jídlo</AteRottenFood.stages.0.label>
-  <AteRottenFood.stages.0.description>Jedl jsem hnusné hnijící jídlo. Rozpadalo se mi přímo v puse - ale ne tím příjemným způsobem!</AteRottenFood.stages.0.description>
-
-
+  
+  <!-- EN: ate awful meal -->
+  <AteAwfulMeal.stages.ate_awful_meal.label>jedl hnusné jídlo</AteAwfulMeal.stages.ate_awful_meal.label>
+  <!-- EN: I had to eat a disgusting, tasteless meal. I know it keeps you alive, but nobody wants to swallow that glop. -->
+  <AteAwfulMeal.stages.ate_awful_meal.description>Musel jsem jíst hnusné jídlo bez chuti. Vím, že mě udržuje při životě, ale tuhle břečku fakt nikdo jíst nechce.</AteAwfulMeal.stages.ate_awful_meal.description>
+  
+  <!-- EN: ate corpse -->
+  <AteCorpse.stages.ate_corpse.label>jedl mrtvého tvora</AteCorpse.stages.ate_corpse.label>
+  <!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it. -->
+  <AteCorpse.stages.ate_corpse.description>Jedl jsem mrtvého tvora za syrova, aniž by byl naporcovaný, natož uvařený.</AteCorpse.stages.ate_corpse.description>
+  
+  <!-- EN: ate fine meal -->
+  <AteFineMeal.stages.ate_fine_meal.label>jedl chutné jídlo</AteFineMeal.stages.ate_fine_meal.label>
+  <!-- EN: I ate a really tasty fine meal. Yum! -->
+  <AteFineMeal.stages.ate_fine_meal.description>Jedl jsem chutné jídlo. Hm, mňam!</AteFineMeal.stages.ate_fine_meal.description>
+  
+  <!-- EN: cooked cannibalism -->
+  <AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>kanibalismus (vařené)</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.label>
+  <!-- EN: I ate a meal made from the meat of another human. This is horrible. -->
+  <AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>Jedl jsem jídlo, ve kterém byla jako jedna z přísad lidské maso. To je hrozné.</AteHumanlikeMeatAsIngredient.stages.cooked_cannibalism.description>
+  
+  <!-- EN: cooked cannibalism -->
+  <AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>kanibalismus (vařené)</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.label>
+  <!-- EN: I ate a meal made from the meat of another human. So pleasurable. If only I had some fava beans and a nice chianti. -->
+  <AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>Jedl jsem pokrm uvařený z lidského masa. Jak lahodné. Kéž bych k tomu měl i fazole a Chianti.</AteHumanlikeMeatAsIngredientCannibal.stages.cooked_cannibalism.description>
+  
+  <!-- EN: raw cannibalism -->
+  <AteHumanlikeMeatDirect.stages.raw_cannibalism.label>kanibalismus (syrové)</AteHumanlikeMeatDirect.stages.raw_cannibalism.label>
+  <!-- EN: I ate the meat of another human, raw, like an animal. This is a nightmare. -->
+  <AteHumanlikeMeatDirect.stages.raw_cannibalism.description>Jedl jsem maso jiného člověka, syrové, jako nějaké zvíře. To je moje noční můra.</AteHumanlikeMeatDirect.stages.raw_cannibalism.description>
+  
+  <!-- EN: raw cannibalism -->
+  <AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>kanibalismus (syrové)</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.label>
+  <!-- EN: I ate the meat of another human, raw, like an animal. It was so... succulent. -->
+  <AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>Jedl jsem maso jiného člověka, syrové, jako nějaké zvíře. Bylo tak... šťavnaté.</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>
+  
+  <!-- EN: ate cooked insect meat -->
+  <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>jedl uvařené hmyzí maso</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>
+  <!-- EN: I ate a meal cooked from gray, slimy insect meat. The seasoning partly covered the taste, but there were glands and fluid pockets in there that I can't identify. -->
+  <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.description>Jedl jsem jídlo uvařené ze slizkého šedého hmyzího masa. Koření sice částečně překrylo chuť, ale byly v něm žlázy a měchýře plné tekutin, které jsem nedokázal identifikovat.</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.description>
+  
+  <!-- EN: ate insect meat -->
+  <AteInsectMeatDirect.stages.ate_insect_meat.label>jedl syrové hmyzí maso</AteInsectMeatDirect.stages.ate_insect_meat.label>
+  <!-- EN: I ate some gray, slimy insect meat. It was, possibly, the most disgusting thing I've ever tasted. -->
+  <AteInsectMeatDirect.stages.ate_insect_meat.description>Jedl jsem syrové šedé slizké hmyzí maso. Asi to bylo to nejhnusnější, co jsem kdy v životě jedl.</AteInsectMeatDirect.stages.ate_insect_meat.description>
+  
+  <!-- EN: ate kibble -->
+  <AteKibble.stages.ate_kibble.label>jedl granule pro zvířata</AteKibble.stages.ate_kibble.label>
+  <!-- EN: I had to eat animal kibble. It's like I don't get to be human any more. -->
+  <AteKibble.stages.ate_kibble.description>Musel jsem jíst granule pro zvířata. Je to jako bych už ani nebyl člověk.</AteKibble.stages.ate_kibble.description>
+  
+  <!-- EN: ate lavish meal -->
+  <AteLavishMeal.stages.ate_lavish_meal.label>jedl bohaté jídlo</AteLavishMeal.stages.ate_lavish_meal.label>
+  <!-- EN: That lavish meal was amazing. It nourished my body and my soul. -->
+  <AteLavishMeal.stages.ate_lavish_meal.description>Tohle bohaté jídlo bylo tak vydatné a chutné. Potěšení pro mé tělo i duši.</AteLavishMeal.stages.ate_lavish_meal.description>
+  
+  <!-- EN: ate raw food -->
+  <AteRawFood.stages.ate_raw_food.label>jedl syrové jídlo</AteRawFood.stages.ate_raw_food.label>
+  <!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not animals. -->
+  <AteRawFood.stages.ate_raw_food.description>Musel jsem jíst syrové jídlo. Měli bychom si to nejdříve uvařit, než to budeme jíst. Nejsme přece zvířata!</AteRawFood.stages.ate_raw_food.description>
+  
+  <!-- EN: ate rotten food -->
+  <AteRottenFood.stages.ate_rotten_food.label>jedl zkažené jídlo</AteRottenFood.stages.ate_rotten_food.label>
+  <!-- EN: I ate some disgusting, putrid food. It was melting in my mouth - but not in a good way. -->
+  <AteRottenFood.stages.ate_rotten_food.description>Jedl jsem hnusné hnijící jídlo. Rozpadalo se mi přímo v puse - ale ne tím příjemným způsobem!</AteRottenFood.stages.ate_rotten_food.description>
+  
 </LanguageData>

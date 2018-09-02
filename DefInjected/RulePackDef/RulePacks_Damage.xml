@@ -1,87 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<Damage_Bomb.rulePack.rulesStrings>
-		<li>damaged_past(p=2)->poranění výbuchem</li>
-		<li>damaged_past(p=2)->poranění explozí</li>
-		<li>damaged_past->poranění</li>
-		<li>damaged_past->poškození</li>
-		<li>damaged_past->zranění</li>
-		<li>damaged_past->ublížení</li>
-		<li>destroyed_past->roztříštění</li>
-		<li>destroyed_past->rozdrcení</li>
-		<li>destroyed_past->zruinování</li>
-		<li>destroyed_past->zničení</li>
-		<li>destroyed_past->zničení výbuchem</li>
-	</Damage_Bomb.rulePack.rulesStrings>
-
-	<Damage_Flame.rulePack.rulesStrings>
-		<li>damaged_past(p=2)->ožehnutí</li>
-		<li>damaged_past(p=2)->sežehnutí</li>
-		<li>damaged_past(p=2)->popálení</li>
-		<li>damaged_past(p=2)->opuchliny</li>
-		<li>damaged_past(p=2)->vznícení</li>
-		<li>damaged_past(p=2)->spálení</li>
-		<li>damaged_past->poranění</li>
-		<li>damaged_past->poškození</li>
-		<li>damaged_past->zranění</li>
-		<li>damaged_past->ublížení</li>
-		<li>damaged_present(p=2)->ožehnutí</li>
-		<li>damaged_present(p=2)->sežehnutí</li>
-		<li>damaged_present(p=2)->popálení</li>
-		<li>damaged_present(p=2)->opuchliny</li>
-		<li>damaged_present(p=2)->vznícení</li>
-		<li>damaged_present(p=2)->spálení</li>
-		<li>damaged_present->poranění</li>
-		<li>damaged_present->poškození</li>
-		<li>damaged_present->zranění</li>
-		<li>damaged_present->ublížení</li>
-		<li>destroyed_past->kremaci</li>
-		<li>destroyed_past->zpopelnění</li>
-		<li>destroyed_past->spálení</li>
-		<li>destroyed_past->zruinování</li>
-		<li>destroyed_past->zničení</li>
-		<li>destroyed_past->detonaci</li>
-		<li>destroyed_present->kremaci</li>
-		<li>destroyed_present->zpopelnění</li>
-		<li>destroyed_present->spálení</li>
-		<li>destroyed_present->zruinování</li>
-		<li>destroyed_present->zničení</li>
-		<li>destroyed_present->detonaci</li>
-	</Damage_Flame.rulePack.rulesStrings>
-
-
-  <!-- Weird damage types that don't really destroy anything -->
-
-	<Damage_Extinguish.rulePack.rulesStrings>
-		<li>damaged_past->přidušení protipožární pěnou</li>
-		<li>damaged_past->potřísnění protipožární pěnou</li>
-		<li>damaged_past->zapěnění protipožární pěnou</li>
-		<li>damaged_past->prudké zchlazení protipožární pěnou</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_Extinguish.rulePack.rulesStrings>
-
-	<Damage_Stun.rulePack.rulesStrings>
-		<li>damaged_past->omráčení</li>
-		<li>damaged_past->zmatení</li>
-		<li>damaged_past->znehybnění</li>
-		<li>damaged_past->imobilizování</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_Stun.rulePack.rulesStrings>
-
-	<Damage_EMP.rulePack.rulesStrings>
-		<li>damaged_past->elektrizování</li>
-		<li>damaged_past->šok</li>
-		<li>damaged_past->otřesení</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_EMP.rulePack.rulesStrings>
-
-	<Damage_Smoke.rulePack.rulesStrings>
-		<li>damaged_past->zakouření</li>
-		<li>damaged_past->zamlžení</li>
-		<li>damaged_past->zadýmení</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_Smoke.rulePack.rulesStrings>
-
-
+  
+  <!-- EN:
+    <li>damaged_past(p=2)->blasted</li>
+    <li>damaged_past(p=2)->exploded</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->hurt</li>
+    <li>destroyed_past->shattered</li>
+    <li>destroyed_past->crushed</li>
+    <li>destroyed_past->obliterated</li>
+    <li>destroyed_past->annihilated</li>
+    <li>destroyed_past->detonated</li>
+  -->
+  <Damage_Bomb.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->poranění výbuchem</li>
+    <li>damaged_past(p=2)->poranění explozí</li>
+    <li>damaged_past->poranění</li>
+    <li>damaged_past->poškození</li>
+    <li>damaged_past->zranění</li>
+    <li>damaged_past->ublížení</li>
+    <li>destroyed_past->roztříštění</li>
+    <li>destroyed_past->rozdrcení</li>
+    <li>destroyed_past->zruinování</li>
+    <li>destroyed_past->zničení</li>
+    <li>destroyed_past->zničení výbuchem</li>
+  </Damage_Bomb.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->electrified</li>
+    <li>damaged_past->shocked</li>
+    <li>damaged_past->zapped</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_EMP.rulePack.rulesStrings>
+    <li>damaged_past->elektrizování</li>
+    <li>damaged_past->šok</li>
+    <li>damaged_past->otřesení</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_EMP.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->extinguished</li>
+    <li>damaged_past->swamped</li>
+    <li>damaged_past->foamed</li>
+    <li>damaged_past->quenched</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_Extinguish.rulePack.rulesStrings>
+    <li>damaged_past->přidušení protipožární pěnou</li>
+    <li>damaged_past->potřísnění protipožární pěnou</li>
+    <li>damaged_past->zapěnění protipožární pěnou</li>
+    <li>damaged_past->prudké zchlazení protipožární pěnou</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Extinguish.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past(p=2)->blasted</li>
+    <li>damaged_past(p=2)->scorched</li>
+    <li>damaged_past(p=2)->burned</li>
+    <li>damaged_past(p=2)->blistered</li>
+    <li>damaged_past(p=2)->ignited</li>
+    <li>damaged_past(p=2)->seared</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->hurt</li>
+    <li>damaged_present(p=2)->blasting</li>
+    <li>damaged_present(p=2)->scorching</li>
+    <li>damaged_present(p=2)->burning</li>
+    <li>damaged_present(p=2)->blistering</li>
+    <li>damaged_present(p=2)->igniting</li>
+    <li>damaged_present(p=2)->searing</li>
+    <li>damaged_present->injuring</li>
+    <li>damaged_present->damaging</li>
+    <li>damaged_present->wounding</li>
+    <li>damaged_present->hurting</li>
+    <li>destroyed_past->cremated</li>
+    <li>destroyed_past->incinerated</li>
+    <li>destroyed_past->charred</li>
+    <li>destroyed_past->obliterated</li>
+    <li>destroyed_past->annihilated</li>
+    <li>destroyed_past->detonated</li>
+    <li>destroyed_present->cremating</li>
+    <li>destroyed_present->incinerating</li>
+    <li>destroyed_present->charring</li>
+    <li>destroyed_present->obliterating</li>
+    <li>destroyed_present->annihilating</li>
+    <li>destroyed_present->detonating</li>
+  -->
+  <Damage_Flame.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->ožehnutí</li>
+    <li>damaged_past(p=2)->sežehnutí</li>
+    <li>damaged_past(p=2)->popálení</li>
+    <li>damaged_past(p=2)->opuchliny</li>
+    <li>damaged_past(p=2)->vznícení</li>
+    <li>damaged_past(p=2)->spálení</li>
+    <li>damaged_past->poranění</li>
+    <li>damaged_past->poškození</li>
+    <li>damaged_past->zranění</li>
+    <li>damaged_past->ublížení</li>
+    <li>damaged_present(p=2)->ožehnutí</li>
+    <li>damaged_present(p=2)->sežehnutí</li>
+    <li>damaged_present(p=2)->popálení</li>
+    <li>damaged_present(p=2)->opuchliny</li>
+    <li>damaged_present(p=2)->vznícení</li>
+    <li>damaged_present(p=2)->spálení</li>
+    <li>damaged_present->poranění</li>
+    <li>damaged_present->poškození</li>
+    <li>damaged_present->zranění</li>
+    <li>damaged_present->ublížení</li>
+    <li>destroyed_past->kremaci</li>
+    <li>destroyed_past->zpopelnění</li>
+    <li>destroyed_past->spálení</li>
+    <li>destroyed_past->zruinování</li>
+    <li>destroyed_past->zničení</li>
+    <li>destroyed_past->detonaci</li>
+    <li>destroyed_present->kremaci</li>
+    <li>destroyed_present->zpopelnění</li>
+    <li>destroyed_present->spálení</li>
+    <li>destroyed_present->zruinování</li>
+    <li>destroyed_present->zničení</li>
+    <li>destroyed_present->detonaci</li>
+  </Damage_Flame.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->smoked</li>
+    <li>damaged_past->fogged</li>
+    <li>damaged_past->clouded</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_Smoke.rulePack.rulesStrings>
+    <li>damaged_past->zakouření</li>
+    <li>damaged_past->zamlžení</li>
+    <li>damaged_past->zadýmení</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Smoke.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->stunned</li>
+    <li>damaged_past->confused</li>
+    <li>damaged_past->stopped</li>
+    <li>damaged_past->dizzied</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_Stun.rulePack.rulesStrings>
+    <li>damaged_past->omráčení</li>
+    <li>damaged_past->zmatení</li>
+    <li>damaged_past->znehybnění</li>
+    <li>damaged_past->imobilizování</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Stun.rulePack.rulesStrings>
+  
 </LanguageData>

@@ -1,20 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <TameAnimalChance.label>šance ochočení zvířete</TameAnimalChance.label>
-  <TameAnimalChance.description>Základní šance této osoby na úspěšné ochočení zvířete na daný pokus. Skutečná šance je také ovlivněna divokostí zvířete. Neúspěšný pokus o ochočení může vyprovokovat zvíře k útoku, obzvláště platí pro nebezpečnější zvířata.</TameAnimalChance.description>
-
-  <TrainAnimalChance.label>šance vytrénovaní zvířete</TrainAnimalChance.label>
-  <TrainAnimalChance.description>Základní šance této osoby dělat pokroky při trénování zvířete k danému pokusu. Skutečná šance pro daný pokus bude záviset také na divokosti zvířete, jeho poutu k trenérovi, a tak dále.</TrainAnimalChance.description>
-
-  <SocialImpact.label>dopad konverzací</SocialImpact.label>
-  <SocialImpact.description>Násobitel, jak moc rétorické schopnosti této osoby ovlivní ostatní.</SocialImpact.description>
-
+  
+  <!-- EN: negotiation ability -->
   <NegotiationAbility.label>schopnost vyjednávání</NegotiationAbility.label>
+  <!-- EN: How effective this person is as a negotiator. This affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
   <NegotiationAbility.description>Jak efektivní je tato osoba jako vyjednavač. Tohle ovlivňuje rychlost náboru vězňů, dopad na vztahy s frakcemi při darování darů, a také výsledek mírových rozhovorů.</NegotiationAbility.description>
-
+  
+  <!-- EN: social impact -->
+  <SocialImpact.label>dopad konverzací</SocialImpact.label>
+  <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
+  <SocialImpact.description>Násobitel, jak moc rétorické schopnosti této osoby ovlivní ostatní.</SocialImpact.description>
+  
+  <!-- EN: tame animal chance -->
+  <TameAnimalChance.label>šance ochočení zvířete</TameAnimalChance.label>
+  <!-- EN: The base chance this person will successfully tame an animal on any given attempt. The actual chance is also affected by the animal's wildness. Failed tame attempt can induce animal attacks, especially for more vicious animals. -->
+  <TameAnimalChance.description>Základní šance této osoby na úspěšné ochočení zvířete na daný pokus. Skutečná šance je také ovlivněna divokostí zvířete. Neúspěšný pokus o ochočení může vyprovokovat zvíře k útoku, obzvláště platí pro nebezpečnější zvířata.</TameAnimalChance.description>
+  
+  <!-- EN: trade price improvement -->
   <TradePriceImprovement.label>smlouvání o tržní ceně</TradePriceImprovement.label>
+  <!-- EN: When this person acts as a trade negotiator, buy and sell prices are improved by this percentage. -->
   <TradePriceImprovement.description>Když tato osoba vyjednává o obchodu jako vyjednavač, nákupní a prodejní ceny jsou zlepšeny tímto procentem.</TradePriceImprovement.description>
-
-
+  
+  <!-- EN: train animal chance -->
+  <TrainAnimalChance.label>šance vytrénovaní zvířete</TrainAnimalChance.label>
+  <!-- EN: The base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on. -->
+  <TrainAnimalChance.description>Základní šance této osoby dělat pokroky při trénování zvířete k danému pokusu. Skutečná šance pro daný pokus bude záviset také na divokosti zvířete, jeho poutu k trenérovi, a tak dále.</TrainAnimalChance.description>
+  
 </LanguageData>

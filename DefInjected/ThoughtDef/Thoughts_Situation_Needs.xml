@@ -1,80 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <NeedFood.stages.0.label>mám hlad</NeedFood.stages.0.label>
-  <NeedFood.stages.0.description>Mám opravdový hlad.</NeedFood.stages.0.description>
-  <NeedFood.stages.1.label>mám velký hlad</NeedFood.stages.1.label>
-  <NeedFood.stages.1.description>Ta bolest z hladu v žaludku se těžko přehlíží.</NeedFood.stages.1.description>
-  <NeedFood.stages.2.label>podvýživa</NeedFood.stages.2.label>
-  <NeedFood.stages.2.description>Už je to tak dlouho, co jsem naposledy jedl. Motá se mi hlava a těžko se soustředím. Mé tělo začíná chřadnout.</NeedFood.stages.2.description>
-  <NeedFood.stages.3.label>těžká podvýživa</NeedFood.stages.3.label>
-  <NeedFood.stages.3.description>Cítím, jak mé tělo chřadne. Žaludek mě bolí jako nikdy předtím.</NeedFood.stages.3.description>
-  <NeedFood.stages.4.label>hladovění</NeedFood.stages.4.label>
-  <NeedFood.stages.4.description>Stěží dokážu myslet na něco jiného než na jídlo. Zbyly ze mě jen kosti potažené kůží. Umírám?</NeedFood.stages.4.description>
-  <NeedFood.stages.5.label>pokročilé hladovění</NeedFood.stages.5.label>
-  <NeedFood.stages.5.description>Stěží se můžu hýbat nebo dokázat myslet na něco jiného než na jídlo. Žaludek mě bolí jako nikdy předtím. Mám pocit, jako bych měl omdlít.</NeedFood.stages.5.description>
-  <NeedFood.stages.6.label>extrémní hladovění</NeedFood.stages.6.label>
-  <NeedFood.stages.6.description>Jídlo... jídlo... cokoliv... prosím...</NeedFood.stages.6.description>
-
-  <NeedRest.stages.0.label>ospalost</NeedRest.stages.0.label>
-  <NeedRest.stages.0.description>Už nějakou dobu jsem nespal. Je těžké udržet si soustředěnost.</NeedRest.stages.0.description>
-  <NeedRest.stages.1.label>únava</NeedRest.stages.1.label>
-  <NeedRest.stages.1.description>Jsem tak unavený. Chci si jen lehnout a na pár minut si odpočinout...</NeedRest.stages.1.description>
-  <NeedRest.stages.2.label>vyčerpání</NeedRest.stages.2.label>
-  <NeedRest.stages.2.description>Jsem tak vyčerpaný, že se sotva udržím na nohou. Na víčkách mám snad závaží. Nech mě spát...</NeedRest.stages.2.description>
-
-  <NeedJoy.stages.0.label>naprosto nedostatečná relaxace</NeedJoy.stages.0.label>
-  <NeedJoy.stages.0.description>Už je to tak dávno, co jsem se něčím zabavil ve svém volném čase.</NeedJoy.stages.0.description>
-  <NeedJoy.stages.1.label>nedostatečná relaxace</NeedJoy.stages.1.label>
-  <NeedJoy.stages.1.description>Potřebujeme více variací relaxačních aktivit, a potřebuji čas, abych si je užil. Tohle místo je opravdu nudné.</NeedJoy.stages.1.description>
-  <NeedJoy.stages.2.label>dostatečná relaxace</NeedJoy.stages.2.label>
-  <NeedJoy.stages.2.description>Potřebujeme více variací relaxačních aktivit, a potřebuji čas, abych si je užil.</NeedJoy.stages.2.description>
-  <NeedJoy.stages.3.label>uspokojivě dostatečná relaxace</NeedJoy.stages.3.label>
-  <NeedJoy.stages.3.description>Měl jsem skvělou příležitost využít svůj čas k různým věcem, které mě baví.</NeedJoy.stages.3.description>
-  <NeedJoy.stages.4.label>naprosto dostatečná relaxace</NeedJoy.stages.4.label>
-  <NeedJoy.stages.4.description>Já si to tu fakt užívám, tohle miluju!</NeedJoy.stages.4.description>
-
-  <NeedComfort.stages.0.label>nepohodlí</NeedComfort.stages.0.label>
-  <NeedComfort.stages.0.description>Nedávno jsem pocítil nepohodlí. Potřebujeme tu mít něco měkkého na posezení.</NeedComfort.stages.0.description>
-  <NeedComfort.stages.1.label>pohodlí</NeedComfort.stages.1.label>
-  <NeedComfort.stages.1.description>Nedávno jsem pocítil pohodlí.</NeedComfort.stages.1.description>
-  <NeedComfort.stages.2.label>docela pohodlí</NeedComfort.stages.2.label>
-  <NeedComfort.stages.2.description>Nedávno jsem pocítil velké pohodlí.</NeedComfort.stages.2.description>
-  <NeedComfort.stages.3.label>mimořádné pohodlí</NeedComfort.stages.3.label>
-  <NeedComfort.stages.3.description>Nedávno jsem pocítil mimořádné pohodlí. To místo je tak měkoučké!</NeedComfort.stages.3.description>
-  <NeedComfort.stages.4.label>luxusní pohodlí</NeedComfort.stages.4.label>
-  <NeedComfort.stages.4.description>Odpočívám na nebeských oblacích.</NeedComfort.stages.4.description>
-
-  <NeedBeauty.stages.0.label>ohavné prostředí</NeedBeauty.stages.0.label>
-  <NeedBeauty.stages.0.description>Tohle místo je nesnesitelně groteskní. Už se na to nemůžu dívat.</NeedBeauty.stages.0.description>
-  <NeedBeauty.stages.1.label>ošklivé prostředí</NeedBeauty.stages.1.label>
-  <NeedBeauty.stages.1.description>Tohle místo je opravdu ošklivé. Kéž bych se už na to nemusel nikdy podívat.</NeedBeauty.stages.1.description>
-  <NeedBeauty.stages.2.label>nevzhledné prostředí</NeedBeauty.stages.2.label>
-  <NeedBeauty.stages.2.description>Tohle místo je trochu nevzhledné. Kéž bych se už na to všechno nemusel dívat.</NeedBeauty.stages.2.description>
-  <NeedBeauty.stages.3.label>pěkné prostředí</NeedBeauty.stages.3.label>
-  <NeedBeauty.stages.3.description>Tohle místo vypadá hezky.</NeedBeauty.stages.3.description>
-  <NeedBeauty.stages.4.label>překrásné prostředí</NeedBeauty.stages.4.label>
-  <NeedBeauty.stages.4.description>Tohle místo se mi opravdu líbí. Je překrásné.</NeedBeauty.stages.4.description>
-  <NeedBeauty.stages.5.label>úžasné prostředí</NeedBeauty.stages.5.label>
-  <NeedBeauty.stages.5.description>Tohle místo je překrásné. Povzbuzuje mě a učí mě milovat život.</NeedBeauty.stages.5.description>
-
-  <NeedRoomSize.stages.0.label>omezený interiér</NeedRoomSize.stages.0.label>
-  <NeedRoomSize.stages.0.description>Tento prostor je tak mrňavý. Cítím se zde jako krysa v kleci.</NeedRoomSize.stages.0.description>
-  <NeedRoomSize.stages.1.label>stísněný interiér</NeedRoomSize.stages.1.label>
-  <NeedRoomSize.stages.1.description>Tento pokoj je příliš malý. Kéž bych měl více prostoru k pohybu a možnost se pořádně nadechnout.</NeedRoomSize.stages.1.description>
-  <NeedRoomSize.stages.2.label>prostorný interiér</NeedRoomSize.stages.2.label>
-  <NeedRoomSize.stages.2.description>Tento pokoj je tak rozsáhlý, cítím se volný.</NeedRoomSize.stages.2.description>
-
-  <NeedOutdoors.stages.0.label>pohřben v podzemí</NeedOutdoors.stages.0.label>
-  <NeedOutdoors.stages.0.description>Byl jsem v podzemí příliš dlouho. Mám pocit, že váha této hory mě rozdrtí. Potřebuji vidět oblohu a cítit vítr.</NeedOutdoors.stages.0.description>
-  <NeedOutdoors.stages.1.label>uvězněn v podzemí</NeedOutdoors.stages.1.label>
-  <NeedOutdoors.stages.1.description>Jak dlouho jsem v podzemí? Musím se dostat na čerstvý vzduch a strávit nějaký čas pod oblohou.</NeedOutdoors.stages.1.description>
-  <NeedOutdoors.stages.2.label>ponorková nemoc</NeedOutdoors.stages.2.label>
-  <NeedOutdoors.stages.2.description>Strávil jsem tak dlouhou dobu uvnitř, že mám pocit, že mě zamáčkne střecha. Potřebuji se dostat ven a spatřit oblohu.</NeedOutdoors.stages.2.description>
-  <NeedOutdoors.stages.3.label>uvězněn uvnitř</NeedOutdoors.stages.3.label>
-  <NeedOutdoors.stages.3.description>Už je to dlouho, co jsem naposledy viděl oblohu.</NeedOutdoors.stages.3.description>
-  <NeedOutdoors.stages.4.label>zaklíněn uvnitř</NeedOutdoors.stages.4.label>
-  <NeedOutdoors.stages.4.description>Chtěl bych jít ven a nadýchat se čerstvého vzduchu.</NeedOutdoors.stages.4.description>
   
+  <!-- EN: hideous environment -->
+  <NeedBeauty.stages.hideous_environment.label>ohavné prostředí</NeedBeauty.stages.hideous_environment.label>
+  <!-- EN: This place is unbearably grotesque. I can't look at this any more. -->
+  <NeedBeauty.stages.hideous_environment.description>Tohle místo je nesnesitelně groteskní. Už se na to nemůžu dívat.</NeedBeauty.stages.hideous_environment.description>
+  <!-- EN: ugly environment -->
+  <NeedBeauty.stages.ugly_environment.label>ošklivé prostředí</NeedBeauty.stages.ugly_environment.label>
+  <!-- EN: This place is really ugly. I wish I didn't have to look at this any more. -->
+  <NeedBeauty.stages.ugly_environment.description>Tohle místo je opravdu ošklivé. Kéž bych se už na to nemusel nikdy podívat.</NeedBeauty.stages.ugly_environment.description>
+  <!-- EN: unsightly environment -->
+  <NeedBeauty.stages.unsightly_environment.label>nevzhledné prostředí</NeedBeauty.stages.unsightly_environment.label>
+  <!-- EN: This place is kind of unsightly. I wish I didn't have to look at all this. -->
+  <NeedBeauty.stages.unsightly_environment.description>Tohle místo je trochu nevzhledné. Kéž bych se už na to všechno nemusel dívat.</NeedBeauty.stages.unsightly_environment.description>
+  <!-- EN: pretty environment -->
+  <NeedBeauty.stages.pretty_environment.label>pěkné prostředí</NeedBeauty.stages.pretty_environment.label>
+  <!-- EN: This place looks nice. -->
+  <NeedBeauty.stages.pretty_environment.description>Tohle místo vypadá hezky.</NeedBeauty.stages.pretty_environment.description>
+  <!-- EN: beautiful environment -->
+  <NeedBeauty.stages.beautiful_environment.label>překrásné prostředí</NeedBeauty.stages.beautiful_environment.label>
+  <!-- EN: I really like this place. It's beautiful. -->
+  <NeedBeauty.stages.beautiful_environment.description>Tohle místo se mi opravdu líbí. Je překrásné.</NeedBeauty.stages.beautiful_environment.description>
+  <!-- EN: gorgeous environment -->
+  <NeedBeauty.stages.gorgeous_environment.label>úžasné prostředí</NeedBeauty.stages.gorgeous_environment.label>
+  <!-- EN: This place is beautiful. It lifts me up and makes me love life. -->
+  <NeedBeauty.stages.gorgeous_environment.description>Tohle místo je překrásné. Povzbuzuje mě a učí mě milovat život.</NeedBeauty.stages.gorgeous_environment.description>
+  
+  <!-- EN: uncomfortable -->
+  <NeedComfort.stages.uncomfortable.label>nepohodlí</NeedComfort.stages.uncomfortable.label>
+  <!-- EN: I've been kind of uncomfortable recently. We need to get something soft to sit on around here. -->
+  <NeedComfort.stages.uncomfortable.description>Nedávno jsem pocítil nepohodlí. Potřebujeme tu mít něco měkkého na posezení.</NeedComfort.stages.uncomfortable.description>
+  <!-- EN: comfortable -->
+  <NeedComfort.stages.comfortable.label>pohodlí</NeedComfort.stages.comfortable.label>
+  <!-- EN: I've been comfortable recently. -->
+  <NeedComfort.stages.comfortable.description>Nedávno jsem pocítil pohodlí.</NeedComfort.stages.comfortable.description>
+  <!-- EN: quite comfortable -->
+  <NeedComfort.stages.quite_comfortable.label>docela pohodlí</NeedComfort.stages.quite_comfortable.label>
+  <!-- EN: I've been very comfortable recently. -->
+  <NeedComfort.stages.quite_comfortable.description>Nedávno jsem pocítil velké pohodlí.</NeedComfort.stages.quite_comfortable.description>
+  <!-- EN: extremely comfortable -->
+  <NeedComfort.stages.extremely_comfortable.label>mimořádné pohodlí</NeedComfort.stages.extremely_comfortable.label>
+  <!-- EN: I've been extremely comfortable recently. This place is so cushy! -->
+  <NeedComfort.stages.extremely_comfortable.description>Nedávno jsem pocítil mimořádné pohodlí. To místo je tak měkoučké!</NeedComfort.stages.extremely_comfortable.description>
+  <!-- EN: luxuriantly comfortable -->
+  <NeedComfort.stages.luxuriantly_comfortable.label>luxusní pohodlí</NeedComfort.stages.luxuriantly_comfortable.label>
+  <!-- EN: I am resting on clouds of heaven. -->
+  <NeedComfort.stages.luxuriantly_comfortable.description>Odpočívám na nebeských oblacích.</NeedComfort.stages.luxuriantly_comfortable.description>
+  
+  <!-- EN: hungry -->
+  <NeedFood.stages.hungry.label>mám hlad</NeedFood.stages.hungry.label>
+  <!-- EN: I'm really hungry. -->
+  <NeedFood.stages.hungry.description>Mám opravdový hlad.</NeedFood.stages.hungry.description>
+  <!-- EN: ravenously hungry -->
+  <NeedFood.stages.ravenously_hungry.label>mám velký hlad</NeedFood.stages.ravenously_hungry.label>
+  <!-- EN: These hunger pangs are hard to ignore. -->
+  <NeedFood.stages.ravenously_hungry.description>Ta bolest z hladu v žaludku se těžko přehlíží.</NeedFood.stages.ravenously_hungry.description>
+  <!-- EN: malnourished -->
+  <NeedFood.stages.malnourished.label>podvýživa</NeedFood.stages.malnourished.label>
+  <!-- EN: It's been so long since I ate. I'm all fuzzy and it's hard to focus. My body is starting to waste away. -->
+  <NeedFood.stages.malnourished.description>Už je to tak dlouho, co jsem naposledy jedl. Motá se mi hlava a těžko se soustředím. Mé tělo začíná chřadnout.</NeedFood.stages.malnourished.description>
+  <!-- EN: badly malnourished -->
+  <NeedFood.stages.badly_malnourished.label>těžká podvýživa</NeedFood.stages.badly_malnourished.label>
+  <!-- EN: I can feel my body wasting away. My stomach hurts like never before. -->
+  <NeedFood.stages.badly_malnourished.description>Cítím, jak mé tělo chřadne. Žaludek mě bolí jako nikdy předtím.</NeedFood.stages.badly_malnourished.description>
+  <!-- EN: starving -->
+  <NeedFood.stages.starving.label>hladovění</NeedFood.stages.starving.label>
+  <!-- EN: I can barely think about anything but food. My skin is stretching over my bones. Am I going to die? -->
+  <NeedFood.stages.starving.description>Stěží dokážu myslet na něco jiného než na jídlo. Zbyly ze mě jen kosti potažené kůží. Umírám?</NeedFood.stages.starving.description>
+  <!-- EN: advanced starvation -->
+  <NeedFood.stages.advanced_starvation.label>pokročilé hladovění</NeedFood.stages.advanced_starvation.label>
+  <!-- EN: I can barely move or think about anything but food. My stomach hurts like never before. I feel like I'm going to pass out. -->
+  <NeedFood.stages.advanced_starvation.description>Stěží se můžu hýbat nebo dokázat myslet na něco jiného než na jídlo. Žaludek mě bolí jako nikdy předtím. Mám pocit, jako bych měl omdlít.</NeedFood.stages.advanced_starvation.description>
+  <!-- EN: extreme starvation -->
+  <NeedFood.stages.extreme_starvation.label>extrémní hladovění</NeedFood.stages.extreme_starvation.label>
+  <!-- EN: Food... food... anything... please... -->
+  <NeedFood.stages.extreme_starvation.description>Jídlo... jídlo... cokoliv... prosím...</NeedFood.stages.extreme_starvation.description>
+  
+  <!-- EN: recreation-starved -->
+  <NeedJoy.stages.recreationstarved.label>naprosto nedostatečná relaxace</NeedJoy.stages.recreationstarved.label>
+  <!-- EN: It's been so long since I did anything for fun on my own time. -->
+  <NeedJoy.stages.recreationstarved.description>Už je to tak dávno, co jsem se něčím zabavil ve svém volném čase.</NeedJoy.stages.recreationstarved.description>
+  <!-- EN: recreation-deprived -->
+  <NeedJoy.stages.recreationdeprived.label>nedostatečná relaxace</NeedJoy.stages.recreationdeprived.label>
+  <!-- EN: We need more variation in recreation activities, and I need time to enjoy them. This place is really dull. -->
+  <NeedJoy.stages.recreationdeprived.description>Potřebujeme více variací relaxačních aktivit, a potřebuji čas, abych si je užil. Tohle místo je opravdu nudné.</NeedJoy.stages.recreationdeprived.description>
+  <!-- EN: recreation unfulfilled -->
+  <NeedJoy.stages.recreation_unfulfilled.label>dostatečná relaxace</NeedJoy.stages.recreation_unfulfilled.label>
+  <!-- EN: We need more variation in the recreation activities, and I need time to enjoy them. -->
+  <NeedJoy.stages.recreation_unfulfilled.description>Potřebujeme více variací relaxačních aktivit, a potřebuji čas, abych si je užil.</NeedJoy.stages.recreation_unfulfilled.description>
+  <!-- EN: recreation satisfied -->
+  <NeedJoy.stages.recreation_satisfied.label>uspokojivě dostatečná relaxace</NeedJoy.stages.recreation_satisfied.label>
+  <!-- EN: I've been having a great time doing various things I like to do. -->
+  <NeedJoy.stages.recreation_satisfied.description>Měl jsem skvělou příležitost využít svůj čas k různým věcem, které mě baví.</NeedJoy.stages.recreation_satisfied.description>
+  <!-- EN: recreation fully satisfied -->
+  <NeedJoy.stages.recreation_fully_satisfied.label>naprosto dostatečná relaxace</NeedJoy.stages.recreation_fully_satisfied.label>
+  <!-- EN: I've been enjoying myself so much, I love it! -->
+  <NeedJoy.stages.recreation_fully_satisfied.description>Já si to tu fakt užívám, tohle miluju!</NeedJoy.stages.recreation_fully_satisfied.description>
+  
+  <!-- EN: entombed underground -->
+  <NeedOutdoors.stages.entombed_underground.label>pohřben v podzemí</NeedOutdoors.stages.entombed_underground.label>
+  <!-- EN: I've been underground too long. I feel like the weight of this mountain is crushing me. I need to see the sky and feel the wind. -->
+  <NeedOutdoors.stages.entombed_underground.description>Byl jsem v podzemí příliš dlouho. Mám pocit, že váha této hory mě rozdrtí. Potřebuji vidět oblohu a cítit vítr.</NeedOutdoors.stages.entombed_underground.description>
+  <!-- EN: trapped underground -->
+  <NeedOutdoors.stages.trapped_underground.label>uvězněn v podzemí</NeedOutdoors.stages.trapped_underground.label>
+  <!-- EN: How long have I been underground? I need to get out in the fresh air and spend some time under the sky. -->
+  <NeedOutdoors.stages.trapped_underground.description>Jak dlouho jsem v podzemí? Musím se dostat na čerstvý vzduch a strávit nějaký čas pod oblohou.</NeedOutdoors.stages.trapped_underground.description>
+  <!-- EN: cabin fever -->
+  <NeedOutdoors.stages.cabin_fever.label>ponorková nemoc</NeedOutdoors.stages.cabin_fever.label>
+  <!-- EN: I've spent so long indoors I feel like the roof is pressing in. I need to get out and see the sky. -->
+  <NeedOutdoors.stages.cabin_fever.description>Strávil jsem tak dlouhou dobu uvnitř, že mám pocit, že mě zamáčkne střecha. Potřebuji se dostat ven a spatřit oblohu.</NeedOutdoors.stages.cabin_fever.description>
+  <!-- EN: trapped indoors -->
+  <NeedOutdoors.stages.trapped_indoors.label>uvězněn uvnitř</NeedOutdoors.stages.trapped_indoors.label>
+  <!-- EN: It's been too long since I've seen the sky. -->
+  <NeedOutdoors.stages.trapped_indoors.description>Už je to dlouho, co jsem naposledy viděl oblohu.</NeedOutdoors.stages.trapped_indoors.description>
+  <!-- EN: stuck indoors -->
+  <NeedOutdoors.stages.stuck_indoors.label>zaklíněn uvnitř</NeedOutdoors.stages.stuck_indoors.label>
+  <!-- EN: I'd like to go outside and get some fresh air. -->
+  <NeedOutdoors.stages.stuck_indoors.description>Chtěl bych jít ven a nadýchat se čerstvého vzduchu.</NeedOutdoors.stages.stuck_indoors.description>
+  
+  <!-- EN: drowsy -->
+  <NeedRest.stages.drowsy.label>ospalost</NeedRest.stages.drowsy.label>
+  <!-- EN: I haven't slept in a while. It's hard to keep focus. -->
+  <NeedRest.stages.drowsy.description>Už nějakou dobu jsem nespal. Je těžké udržet si soustředěnost.</NeedRest.stages.drowsy.description>
+  <!-- EN: tired -->
+  <NeedRest.stages.tired.label>únava</NeedRest.stages.tired.label>
+  <!-- EN: I'm so tired. I just want to lay down and rest for a few minutes... -->
+  <NeedRest.stages.tired.description>Jsem tak unavený. Chci si jen lehnout a na pár minut si odpočinout...</NeedRest.stages.tired.description>
+  <!-- EN: exhausted -->
+  <NeedRest.stages.exhausted.label>vyčerpání</NeedRest.stages.exhausted.label>
+  <!-- EN: I'm so exhausted I can barely stand. My eyelids have lead weights on them. Let me sleep... -->
+  <NeedRest.stages.exhausted.description>Jsem tak vyčerpaný, že se sotva udržím na nohou. Na víčkách mám snad závaží. Nech mě spát...</NeedRest.stages.exhausted.description>
+  
+  <!-- EN: confined interior -->
+  <NeedRoomSize.stages.confined_interior.label>omezený interiér</NeedRoomSize.stages.confined_interior.label>
+  <!-- EN: This space is so tiny. I feel like a rat in a cage. -->
+  <NeedRoomSize.stages.confined_interior.description>Tento prostor je tak mrňavý. Cítím se zde jako krysa v kleci.</NeedRoomSize.stages.confined_interior.description>
+  <!-- EN: cramped interior -->
+  <NeedRoomSize.stages.cramped_interior.label>stísněný interiér</NeedRoomSize.stages.cramped_interior.label>
+  <!-- EN: This room is too small. I wish I had more space to move around and breathe. -->
+  <NeedRoomSize.stages.cramped_interior.description>Tento pokoj je příliš malý. Kéž bych měl více prostoru k pohybu a možnost se pořádně nadechnout.</NeedRoomSize.stages.cramped_interior.description>
+  <!-- EN: spacious interior -->
+  <NeedRoomSize.stages.spacious_interior.label>prostorný interiér</NeedRoomSize.stages.spacious_interior.label>
+  <!-- EN: This room is so expansive, I feel free. -->
+  <NeedRoomSize.stages.spacious_interior.description>Tento pokoj je tak rozsáhlý, cítím se volný.</NeedRoomSize.stages.spacious_interior.description>
   
 </LanguageData>

@@ -1,58 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Beam -->
-
+  
+  <!-- EN: ship structural beam -->
   <Ship_Beam.label>lodní nosník</Ship_Beam.label>
+  <!-- EN: A structural beam around which a starship can be constructed. Includes all the necessary conduits and transit pipes for communications, power, and materials transport. -->
   <Ship_Beam.description>Strukturální nosník, kolem kterého může být postavena vesmírná loď. Zahrnuje veškeré rozvody včetně elektrické energie a tranzitní potrubí pro komunikaci a přepravu materiálů mezi jednotlivými segmenty.</Ship_Beam.description>
-  <Blueprint_Ship_Beam.label>lodní nosník (plán)</Blueprint_Ship_Beam.label>
-  <Frame_Ship_Beam.label>lodní nosník (ve výstavbě)</Frame_Ship_Beam.label>
-  <Frame_Ship_Beam.description>Strukturální nosník, kolem kterého může být postavena vesmírná loď. Zahrnuje veškeré rozvody včetně elektrické energie a tranzitní potrubí pro komunikaci a přepravu materiálů mezi jednotlivými segmenty.</Frame_Ship_Beam.description>
-
-
-  <!-- Cryptosleep casket -->
-
-  <Ship_CryptosleepCasket.label>lodní cryptospánk. komora</Ship_CryptosleepCasket.label>
-  <Ship_CryptosleepCasket.description>Cryptospánková tvrzená komora, která chrání před nástrahami vesmíru. Je schopná udržet člověka po celá staletí v cryptospánku a ochránit ho při opětovném vstupu do atmosféry.</Ship_CryptosleepCasket.description>
-  <Blueprint_Ship_CryptosleepCasket.label>lodní cryptospánková komora (plán)</Blueprint_Ship_CryptosleepCasket.label>
-  <Frame_Ship_CryptosleepCasket.label>lodní cryptospánková komora (ve výstavbě)</Frame_Ship_CryptosleepCasket.label>
-  <Frame_Ship_CryptosleepCasket.description>Cryptospánková tvrzená komora, která chrání před nástrahami vesmíru. Je schopná udržet člověka po celá staletí v cryptospánku a ochránit ho při opětovném vstupu do atmosféry.</Frame_Ship_CryptosleepCasket.description>
-
-
-  <!-- Computer core -->
-
+  
+  <!-- EN: ship computer core -->
   <Ship_ComputerCore.label>lodní počítačové jádro</Ship_ComputerCore.label>
+  <!-- EN: A computer core housing an AI persona who can guide a starship through any challenge during a multi-decade starflight. -->
   <Ship_ComputerCore.description>Počítačové jádro s nadlidskou UI, které je schopné navádět vesmírnou loď skrze jakékoliv výzvy během několika desetiletí svého letu.</Ship_ComputerCore.description>
-  <Blueprint_Ship_ComputerCore.label>lodní počítačové jádro (plán)</Blueprint_Ship_ComputerCore.label>
-  <Frame_Ship_ComputerCore.label>lodní počítačové jádro (ve výstavbě)</Frame_Ship_ComputerCore.label>
-  <Frame_Ship_ComputerCore.description>Počítačové jádro s nadlidskou UI, které je schopné navádět vesmírnou loď skrze jakékoliv výzvy během několika desetiletí svého letu.</Frame_Ship_ComputerCore.description>
-
-
-  <!-- Reactor -->
-
-  <Ship_Reactor.label>lodní reaktor</Ship_Reactor.label>
-  <Ship_Reactor.description>Napájí loď na své cestě mezi hvězdami. Ke startu vyžaduje dlouhý startovací proces, který pravděpodobně přiláká nájezdníky.</Ship_Reactor.description>
-  <Blueprint_Ship_Reactor.label>lodní reaktor (plán)</Blueprint_Ship_Reactor.label>
-  <Frame_Ship_Reactor.label>lodní reaktor (ve výstavbě)</Frame_Ship_Reactor.label>
-  <Frame_Ship_Reactor.description>Napájí loď na své cestě mezi hvězdami. Ke startu vyžaduje dlouhý startovací proces, který pravděpodobně přiláká nájezdníky.</Frame_Ship_Reactor.description>
-
-
-  <!-- Engine -->
-
+  
+  <!-- EN: ship cryptosleep casket -->
+  <Ship_CryptosleepCasket.label>lodní cryptospánk. komora</Ship_CryptosleepCasket.label>
+  <!-- EN: A cryptosleep casket hardened against the dangers of space. Capable of maintaining a person in cryptosleep for centuries and surviving atmospheric re-entry. -->
+  <Ship_CryptosleepCasket.description>Cryptospánková tvrzená komora, která chrání před nástrahami vesmíru. Je schopná udržet člověka po celá staletí v cryptospánku a ochránit ho při opětovném vstupu do atmosféry.</Ship_CryptosleepCasket.description>
+  
+  <!-- EN: ship engine -->
   <Ship_Engine.label>lodní motor</Ship_Engine.label>
+  <!-- EN: A reactionless Johnson-Tanaka drive capable of launching a ship into orbit, and crawling across the vast expanses between stars. -->
   <Ship_Engine.description>Nereaktivní pohon Johnson-Tanaka, který je schopný dostat vesmírnou loď na oběžnou dráhu a poté se s ní vydat napříč vesmírem mezi hvězdami.</Ship_Engine.description>
-  <Blueprint_Ship_Engine.label>lodní motor (plán)</Blueprint_Ship_Engine.label>
-  <Frame_Ship_Engine.label>lodní motor (ve výstavbě)</Frame_Ship_Engine.label>
-  <Frame_Ship_Engine.description>Nereaktivní pohon Johnson-Tanaka, který je schopný dostat vesmírnou loď na oběžnou dráhu a poté se s ní vydat napříč vesmírem mezi hvězdami.</Frame_Ship_Engine.description>
-
-
-  <!-- Sensor cluster -->
-
+  
+  <!-- EN: ship reactor -->
+  <Ship_Reactor.label>lodní reaktor</Ship_Reactor.label>
+  <!-- EN: Powers a ship on its journey between stars. Takeoff requires a long powerup process that is likely to attract raiders. -->
+  <Ship_Reactor.description>Napájí loď na své cestě mezi hvězdami. Ke startu vyžaduje dlouhý startovací proces, který pravděpodobně přiláká nájezdníky.</Ship_Reactor.description>
+  
+  <!-- EN: sensor cluster -->
   <Ship_SensorCluster.label>svazek lodních senzorů</Ship_SensorCluster.label>
+  <!-- EN: A multi-function sensor module. Can scan and signal across the void for communications, threat detection, deception, jamming, and other purposes. -->
   <Ship_SensorCluster.description>Multifunkční senzorový modul. Může skenovat signál napříč prázdnotou kvůli komunikaci, detekci hrozeb, falešným zprávám, rušičkám, a dalším účelům.</Ship_SensorCluster.description>
-  <Blueprint_Ship_SensorCluster.label>svazek lodních senzorů (plán)</Blueprint_Ship_SensorCluster.label>
-  <Frame_Ship_SensorCluster.label>svazek lodních senzorů (ve výstavbě)</Frame_Ship_SensorCluster.label>
-  <Frame_Ship_SensorCluster.description>Multifunkční senzorový modul. Může skenovat signál napříč prázdnotou kvůli komunikaci, detekci hrozeb, falešným zprávám, rušičkám, a dalším účelům.</Frame_Ship_SensorCluster.description>
-
-
+  
 </LanguageData>

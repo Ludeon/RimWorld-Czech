@@ -1,44 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <WorkSpeedGlobal.label>globální rychlost práce</WorkSpeedGlobal.label>
-  <WorkSpeedGlobal.description>Násobitel rychlosti postavy při provádění jakékoliv činnosti.</WorkSpeedGlobal.description>
-
-  <MiningSpeed.label>rychlost těžby</MiningSpeed.label>
-  <MiningSpeed.description>Rychlost, jakou tato osoba těží suroviny.</MiningSpeed.description>
-
-  <MiningYield.label>výnos z těžby</MiningYield.label>
-  <MiningYield.description>Procentuální podíl vytěžených zdrojů, které horník při těžbě vyprodukuje. To platí jak pro klasickou těžbu krumpáčem, tak pro hlubinnou těžbu vrtákem. Tohle neovlivní těžbu kusů kamene k dalšímu zpracování.</MiningYield.description>
-
-  <SmoothingSpeed.label>rychlost vyhlazovaní povrchu</SmoothingSpeed.label>
-  <SmoothingSpeed.description>Násobitel rychlosti, jakou tato osoba vyhlazuje hrubé kamenné podlahy a stěny.</SmoothingSpeed.description>
-
-  <ResearchSpeed.label>rychlost výzkumu</ResearchSpeed.label>
-  <ResearchSpeed.description>Rychlost, jakou tato osoba provádí výzkum.</ResearchSpeed.description>
-
+  
+  <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>rychlost práce se zvěří</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
   <AnimalGatherSpeed.description>Rychlost, jakou tato osoba dojí, stříhá a provádí další práce při získávání produktů ze zvířete.</AnimalGatherSpeed.description>
-
+  
+  <!-- EN: animal gather yield -->
   <AnimalGatherYield.label>výnos ze zvířete</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal. Higher percentages reduce the chance of wasting the product. -->
   <AnimalGatherYield.description>Procentuální výnos, který někdo obdrží, když stříhá, dojí, nebo provádí další práce spojené se získáním produktů z živého zvířete. Vyšší procento redukuje šanci na plýtvání produkty.</AnimalGatherYield.description>
-
-  <PlantWorkSpeed.label>rychlost setí roslin</PlantWorkSpeed.label>
-  <PlantWorkSpeed.description>Rychlost, jakou tato osoba zasévá a sklízí rostliny.</PlantWorkSpeed.description>
-
-  <PlantHarvestYield.label>výnos ze sklizně</PlantHarvestYield.label>
-  <PlantHarvestYield.description>Výnos, který osoba obdrží při sklizni rostlin. Nízké výnosy dávají šanci, že tato osoba neúmyslně přijde o sklizeň.</PlantHarvestYield.description>
-
-  <HuntingStealth.label>utajenost při lovu</HuntingStealth.label>
-  <HuntingStealth.description>Tento atribut snižuje šanci, že lovená zvěř zaútočí na lovce. Hodnota 0% znamená žádné snížení. Hodnota 100% znamená, že zvěř nikdy nezaútočí.</HuntingStealth.description>
-
+  
+  <!-- EN: construction speed -->
   <ConstructionSpeed.label>rychlost stavby</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
   <ConstructionSpeed.description>Rychlost, jakou tato osoba staví a opravuje stavby.</ConstructionSpeed.description>
-
+  
+  <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>šance na úspěch při konstrukci</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something. Failing means wasting time and resources. -->
   <ConstructSuccessChance.description>Šance, jakou tato osoba uspěje při konstrukci něčeho. Selhání znamená plýtvání časem a materiálem.</ConstructSuccessChance.description>
-
+  
+  <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>šance na úspěšnou opravu</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage. -->
   <FixBrokenDownBuildingSuccessChance.description>Šance, jakou tato osoba úspěšně opraví poškozené stavby použitím komponentu. Selhání znamená plýtvání časem a materiálem. Toto je aplikováno pouze na poruchy, nikoliv na běžné poškození např. střelbou.</FixBrokenDownBuildingSuccessChance.description>
-
-
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>maskovací schopnost při lovu</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter. A 0% score means no reduction. A 100% score means animals never attack. -->
+  <HuntingStealth.description>Tento atribut snižuje šanci, že lovená zvěř zaútočí na lovce. Hodnota 0% znamená žádné snížení. Hodnota 100% znamená, že zvěř nikdy nezaútočí.</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>rychlost těžby</MiningSpeed.label>
+  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
+  <MiningSpeed.description>Rychlost, jakou tato osoba těží suroviny.</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>výnos z těžby</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks. -->
+  <MiningYield.description>Procentuální podíl vytěžených zdrojů, které horník při těžbě vyprodukuje. To platí jak pro klasickou těžbu krumpáčem, tak pro hlubinnou těžbu vrtákem. Tohle neovlivní těžbu kusů kamene k dalšímu zpracování.</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>výnos ze sklizně</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>Výnos, který osoba obdrží při sklizni rostlin. Nízké výnosy dávají šanci, že tato osoba neúmyslně přijde o sklizeň.</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>rychlost setí roslin</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>Rychlost, jakou tato osoba zasévá a sklízí rostliny.</PlantWorkSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>rychlost výzkumu</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>Rychlost, jakou tato osoba provádí výzkum.</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>rychlost vyhlazovaní povrchu</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>Násobitel rychlosti, jakou tato osoba vyhlazuje hrubé kamenné podlahy a stěny.</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>globální rychlost práce</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>Násobitel rychlosti postavy při provádění jakékoliv činnosti.</WorkSpeedGlobal.description>
+  
 </LanguageData>

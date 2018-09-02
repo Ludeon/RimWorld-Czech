@@ -1,22 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Note: You cannot reorder elements in this without destroying saved trainability data; see DefMap<>.ExposeData(). -->
-
-  <Obedience.label>poslušnost</Obedience.label>
-  <Obedience.description>Zvíře může být přiděleno páníčkovi, kterého bude následovat a bránit.</Obedience.description>
-
-  <Release.label>vypuštění</Release.label>
-  <Release.description>Zvíře může být vypuštěno k útoku na vzdálené cíle, ne jen bránit svého páníčka.</Release.description>
-
-  <Rescue.label>záchrana</Rescue.label>
-  <Rescue.description>Zvíře může zachraňovat zraněné spojence a odvléci je do bezpečí.</Rescue.description>
-
-  <Haul.label>přenášení</Haul.label>
-  <Haul.description>Zvíře bude občas náhodně přenášet předměty (ačkoliv se mu nemůže přikázat jaké).</Haul.description>
-
-  <Tameness.label>krotkost</Tameness.label>
-  <Tameness.description>Zvíře se může naučit být součástí tvé kolonie.</Tameness.description>
   
+  <!-- EN: haul -->
+  <Haul.label>přenášení</Haul.label>
+  <!-- EN: The animal will randomly haul items from time to time (though it can't be directed to haul specific items). -->
+  <Haul.description>Zvíře bude občas náhodně přenášet předměty (ačkoliv se mu nemůže přikázat jaké).</Haul.description>
+  
+  <!-- EN: obedience -->
+  <Obedience.label>poslušnost</Obedience.label>
+  <!-- EN: The animal can be assigned a master who it will follow and defend. -->
+  <Obedience.description>Zvíře může být přiděleno páníčkovi, kterého bude následovat a bránit.</Obedience.description>
+  
+  <!-- EN: release -->
+  <Release.label>vypuštění</Release.label>
+  <!-- EN: The animal can be released to attack distant targets instead of just defending its master. -->
+  <Release.description>Zvíře může být vypuštěno k útoku na vzdálené cíle, ne jen bránit svého páníčka.</Release.description>
+  
+  <!-- EN: rescue -->
+  <Rescue.label>záchrana</Rescue.label>
+  <!-- EN: The animal will rescue wounded allies and drag them to safety. -->
+  <Rescue.description>Zvíře může zachraňovat zraněné spojence a odvléci je do bezpečí.</Rescue.description>
+  
+  <!-- EN: tameness -->
+  <Tameness.label>krotkost</Tameness.label>
+  <!-- EN: The animal can learn to consider itself a member of your colony. -->
+  <Tameness.description>Zvíře se může naučit být součástí tvé kolonie.</Tameness.description>
   
 </LanguageData>

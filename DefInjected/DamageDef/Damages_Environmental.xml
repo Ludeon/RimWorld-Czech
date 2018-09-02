@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Flame.label>spálení</Flame.label>
-  <Flame.deathMessage>{0} byl[PAWN_pronoun] upálen[PAWN_pronoun].</Flame.deathMessage>
-
-
-  <!-- Burn is like Flame, but doesn't ignite anything -->
-
+  
+  <!-- EN: burn -->
   <Burn.label>spálení ohněm</Burn.label>
+  <!-- EN: {0} has burned to death. -->
   <Burn.deathMessage>{0} byl[PAWN_pronoun] upálen[PAWN_pronoun].</Burn.deathMessage>
-
+  
+  <!-- EN: flame -->
+  <Flame.label>spálení</Flame.label>
+  <!-- EN: {0} has burned to death. -->
+  <Flame.deathMessage>{0} byl[PAWN_pronoun] upálen[PAWN_pronoun].</Flame.deathMessage>
+  
+  <!-- EN: frostbite -->
   <Frostbite.label>omrzlina</Frostbite.label>
+  <!-- EN: {0} has succumbed to frostbite. -->
   <Frostbite.deathMessage>{0} podlehl[PAWN_pronoun] omrzlinám.</Frostbite.deathMessage>
-
+  
+  <!-- EN: scratch -->
   <TornadoScratch.label>škrábanec</TornadoScratch.label>
+  <!-- EN: {0} has been killed by a tornado. -->
   <TornadoScratch.deathMessage>{0} byl[PAWN_pronoun] zabit[PAWN_pronoun] tornádem.</TornadoScratch.deathMessage>
-
-
+  
 </LanguageData>

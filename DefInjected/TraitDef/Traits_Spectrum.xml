@@ -1,79 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <SpeedOffset.degreeDatas.slowpoke.label>loudavec</SpeedOffset.degreeDatas.slowpoke.label>
-  <SpeedOffset.degreeDatas.slowpoke.description>[PAWN_nameDef] se vždy loudá za ostatními, ať se jde kamkoliv.</SpeedOffset.degreeDatas.slowpoke.description>
-  <SpeedOffset.degreeDatas.fast_walker.label>rychlý chodec</SpeedOffset.degreeDatas.fast_walker.label>
-  <SpeedOffset.degreeDatas.fast_walker.description>[PAWN_nameDef] vždy někam rád[PAWN_pronoun] chodí, a to rychleji než většina lidí.</SpeedOffset.degreeDatas.fast_walker.description>
-  <SpeedOffset.degreeDatas.jogger.label>běžec</SpeedOffset.degreeDatas.jogger.label>
-  <SpeedOffset.degreeDatas.jogger.description>[PAWN_nameDef] se vždy pohybuje s pocitem naléhavosti - a to tolik, že ostatní často nedokáží držet krok.</SpeedOffset.degreeDatas.jogger.description>
-
-  <DrugDesire.degreeDatas.chemical_fascination.label>narkoman</DrugDesire.degreeDatas.chemical_fascination.label>
-  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef] je intenzivně okouzlen[PAWN_pronoun] chemickými látkami. Spotřebuje jich mnohem více, a pokud již nemá vypěstovanou závislost na nějaké droze nebo má uspokojenou touhu, půjde i po tvrdých drogách. Bude ignorovat směrnice, že se nesmí užívat drogy.</DrugDesire.degreeDatas.chemical_fascination.description>
-  <DrugDesire.degreeDatas.chemical_interest.label>příznivec drog</DrugDesire.degreeDatas.chemical_interest.label>
-  <DrugDesire.degreeDatas.chemical_interest.description>[PAWN_nameDef] má neobvyklý zájem o chemické látky. Spotřebuje jich mnohem více, a pokud již nemá vypěstovanou závislost na nějaké droze nebo má uspokojenou touhu, půjde i po společenských drogách. Bude ignorovat směrnice, že se nesmí užívat drogy.</DrugDesire.degreeDatas.chemical_interest.description>
-  <DrugDesire.degreeDatas.teetotaler.label>abstinent</DrugDesire.degreeDatas.teetotaler.label>
-  <DrugDesire.degreeDatas.teetotaler.description>[PAWN_nameDef] opovrhuje myšlenkou získávat potěšení pomocí chemikálií, a proto se vyhýbá alkoholu a veškerým drogám.</DrugDesire.degreeDatas.teetotaler.description>
-
-  <NaturalMood.degreeDatas.sanguine.label>dobrá nálada</NaturalMood.degreeDatas.sanguine.label>
-  <NaturalMood.degreeDatas.sanguine.description>[PAWN_nameDef] má přirozeně pozitivní náladu téměř po celou dobu nezávisle na tom, co se děje kolem.</NaturalMood.degreeDatas.sanguine.description>
-  <NaturalMood.degreeDatas.optimist.label>optimista</NaturalMood.degreeDatas.optimist.label>
-  <NaturalMood.degreeDatas.optimist.description>[PAWN_nameDef] má přirozený optimistický pohled o životě. Jen velmi zřídka si nechá někým zkazit náladu.</NaturalMood.degreeDatas.optimist.description>
-  <NaturalMood.degreeDatas.pessimist.label>pesimista</NaturalMood.degreeDatas.pessimist.label>
-  <NaturalMood.degreeDatas.pessimist.description>[PAWN_nameDef] má tendenci sledovat jen špatné věci v životě.</NaturalMood.degreeDatas.pessimist.description>
-  <NaturalMood.degreeDatas.depressive.label>deprese</NaturalMood.degreeDatas.depressive.label>
-  <NaturalMood.degreeDatas.depressive.description>[PAWN_nameDef] se cítí trvale nešťastně. Má potíže s udržením dobré nálady, i když je všechno v pořádku.</NaturalMood.degreeDatas.depressive.description>
-
-  <Nerves.degreeDatas.ironwilled.label>nervy z oceli</Nerves.degreeDatas.ironwilled.label>
-  <Nerves.degreeDatas.ironwilled.description>[PAWN_nameDef] má pevnou vůli. Ta je jako [PAWN_possessive] osobní štít. Pokračuje dál v dobrém i zlém přesto, že se ostatní už zhroutili.</Nerves.degreeDatas.ironwilled.description>
-  <Nerves.degreeDatas.steadfast.label>psychická odolnost</Nerves.degreeDatas.steadfast.label>
-  <Nerves.degreeDatas.steadfast.description>[PAWN_nameDef] má silnou psychickou odolnost. Napětí, které by položilo většinu lidí, ustojí.</Nerves.degreeDatas.steadfast.description>
-  <Nerves.degreeDatas.nervous.label>nervozita</Nerves.degreeDatas.nervous.label>
-  <Nerves.degreeDatas.nervous.description>[PAWN_nameDef] má tendenci se pod tlakem sesypat.</Nerves.degreeDatas.nervous.description>
-  <Nerves.degreeDatas.volatile.label>psychicky nalomený</Nerves.degreeDatas.volatile.label>
-  <Nerves.degreeDatas.volatile.description>[PAWN_nameDef] má neustále napjatou náladu. Bývá vždy první, kdo se zhroutí při každé složitější situaci.</Nerves.degreeDatas.volatile.description>
-
-  <Neurotic.degreeDatas.neurotic.label>neurotický</Neurotic.degreeDatas.neurotic.label>
-  <Neurotic.degreeDatas.neurotic.description>[PAWN_nameDef] je rád[PAWN_pronoun], když má věci dokončené. Bude pracovat tvrději než ostatní, ale [PAWN_possessive] nervy [PAWN_objective] mohou brzo zradit.</Neurotic.degreeDatas.neurotic.description>
-  <Neurotic.degreeDatas.very_neurotic.label>velmi neurotický</Neurotic.degreeDatas.very_neurotic.label>
-  <Neurotic.degreeDatas.very_neurotic.description>[PAWN_nameDef] se cítí neustále nervózní ze všeho, co musí ještě stihnout dokončit. Proto bude velmi tvrdě pracovat, aby dosáhl[PAWN_pronoun] svého cíle, ale také velmi snadno vyhoří.</Neurotic.degreeDatas.very_neurotic.description>
-
-  <Industriousness.degreeDatas.industrious.label>pracovitý</Industriousness.degreeDatas.industrious.label>
-  <Industriousness.degreeDatas.industrious.description>[PAWN_nameDef] nemá problém vydržet u jedné činnosti plně soustředěn[PAWN_pronoun]. Díky tomu také provede práci mnohem rychleji než průměrný člověk.</Industriousness.degreeDatas.industrious.description>
-  <Industriousness.degreeDatas.hard_worker.label>tvrdě pracující</Industriousness.degreeDatas.hard_worker.label>
-  <Industriousness.degreeDatas.hard_worker.description>[PAWN_nameDef] je dříč od přírody a úkoly dělá daleko rychleji než většina ostatních.</Industriousness.degreeDatas.hard_worker.description>
-  <Industriousness.degreeDatas.lazy.label>lenoch</Industriousness.degreeDatas.lazy.label>
-  <Industriousness.degreeDatas.lazy.description>[PAWN_nameDef] je tak trochu lenoch.</Industriousness.degreeDatas.lazy.description>
-  <Industriousness.degreeDatas.slothful.label>povaleč</Industriousness.degreeDatas.slothful.label>
-  <Industriousness.degreeDatas.slothful.description>[PAWN_nameDef] miluje lenost a nesnáší práci. Chodí pomalu a zřídkakdy vydrží se soustředěním pracovat.</Industriousness.degreeDatas.slothful.description>
-
-  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>psychicky přecitlivělý</PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>
-  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>[PAWN_nameDef] má mysl jako ladičku. Je extrémně senzitivní na psychické jevy.</PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>
-  <PsychicSensitivity.degreeDatas.psychically_sensitive.label>psychicky citlivý</PsychicSensitivity.degreeDatas.psychically_sensitive.label>
-  <PsychicSensitivity.degreeDatas.psychically_sensitive.description>[PAWN_nameDef] má mysl neobyčejně citlivou na psychické jevy.</PsychicSensitivity.degreeDatas.psychically_sensitive.description>
-  <PsychicSensitivity.degreeDatas.psychically_dull.label>psychicky matný</PsychicSensitivity.degreeDatas.psychically_dull.label>
-  <PsychicSensitivity.degreeDatas.psychically_dull.description>[PAWN_nameDef] má mysl psychicky rozladěnou oproti ostatním. Není tak ovlivněn[PAWN_pronoun] psychickými jevy.</PsychicSensitivity.degreeDatas.psychically_dull.description>
-  <PsychicSensitivity.degreeDatas.psychically_deaf.label>psychicky hluchý</PsychicSensitivity.degreeDatas.psychically_deaf.label>
-  <PsychicSensitivity.degreeDatas.psychically_deaf.description>[PAWN_nameDef] má mysl pracující na odlišné psychické frekvenci než všichni ostatní. Není prostě ovlivněn[PAWN_pronoun] psychickými jevy.</PsychicSensitivity.degreeDatas.psychically_deaf.description>
-
-  <ShootingAccuracy.degreeDatas.careful_shooter.label>ostrostřelec</ShootingAccuracy.degreeDatas.careful_shooter.label>
-  <ShootingAccuracy.degreeDatas.careful_shooter.description>[PAWN_nameDef] potřebuje více času na zaměření cíle. Střílí sice pomaleji než ostatní, ale s vyšší přesností.</ShootingAccuracy.degreeDatas.careful_shooter.description>
-  <ShootingAccuracy.degreeDatas.triggerhappy.label>šťastný střelec</ShootingAccuracy.degreeDatas.triggerhappy.label>
-  <ShootingAccuracy.degreeDatas.triggerhappy.description>Prásk! Prásk! Prásk! [PAWN_nameDef] strašně rád[PAWN_pronoun] mačká spoušť. Střílí sice rychleji než ostatní, ale s nižší přesností.</ShootingAccuracy.degreeDatas.triggerhappy.description>
-
+  
+  <!-- EN: beautiful -->
   <Beauty.degreeDatas.beautiful.label>překrásný</Beauty.degreeDatas.beautiful.label>
+  <!-- EN: [PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth. -->
   <Beauty.degreeDatas.beautiful.description>[PAWN_nameDef] má výjimečně krásnou tvář. S exotickým, přesto důvěrně známým obličejem. Lidem se líbí dříve, než otevře pusu.</Beauty.degreeDatas.beautiful.description>
+  <!-- EN: pretty -->
   <Beauty.degreeDatas.pretty.label>hezký</Beauty.degreeDatas.pretty.label>
+  <!-- EN: [PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective]. -->
   <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] má hezkou tvář, což předurčuje k tomu, že [PAWN_objective] ostatní lidé mají rádi.</Beauty.degreeDatas.pretty.description>
+  <!-- EN: ugly -->
   <Beauty.degreeDatas.ugly.label>škaredý</Beauty.degreeDatas.ugly.label>
+  <!-- EN: [PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions. -->
   <Beauty.degreeDatas.ugly.description>[PAWN_nameDef] má poněkud ošklivou tvář. Toto maličko odpuzuje ostatní během sociální interakce.</Beauty.degreeDatas.ugly.description>
+  <!-- EN: staggeringly ugly -->
   <Beauty.degreeDatas.staggeringly_ugly.label>strašlivě škaredý</Beauty.degreeDatas.staggeringly_ugly.label>
+  <!-- EN: [PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing. -->
   <Beauty.degreeDatas.staggeringly_ugly.description>[PAWN_nameDef] má neskutečně ošklivou tvář. V obličeji vypadá jako kříženec mezi kresbou netalentovaného dítěte, kusu mrtvého plodu v dóze formaldehydu, a kusu moderního umění. Jedinci musí vyvinout vědomé úsilí, aby se [PAWN_pronoun] podívali do obličeje, zatímco s nima konverzuje.</Beauty.degreeDatas.staggeringly_ugly.description>
-
+  
+  <!-- EN: chemical fascination -->
+  <DrugDesire.degreeDatas.chemical_fascination.label>narkoman</DrugDesire.degreeDatas.chemical_fascination.label>
+  <!-- EN: [PAWN_nameDef] has an intense fascination with chemical sources of enjoyment. [PAWN_pronoun] will consume much more of them and, if not already addicted to any drug and satisfied, will sometimes go on hard drug binges. [PAWN_pronoun] will ignore directives to not use pleasurable drugs. -->
+  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef] je intenzivně okouzlen[PAWN_pronoun] chemickými látkami. Spotřebuje jich mnohem více, a pokud již nemá vypěstovanou závislost na nějaké droze nebo má uspokojenou touhu, půjde i po tvrdých drogách. Bude ignorovat směrnice, že se nesmí užívat drogy.</DrugDesire.degreeDatas.chemical_fascination.description>
+  <!-- EN: chemical interest -->
+  <DrugDesire.degreeDatas.chemical_interest.label>příznivec drog</DrugDesire.degreeDatas.chemical_interest.label>
+  <!-- EN: [PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. [PAWN_pronoun] will consume more of them and, if not already addicted to any drug and satisfied, will sometimes go on social drug binges. [PAWN_pronoun] will ignore directives to not use pleasurable drugs. -->
+  <DrugDesire.degreeDatas.chemical_interest.description>[PAWN_nameDef] má neobvyklý zájem o chemické látky. Spotřebuje jich mnohem více, a pokud již nemá vypěstovanou závislost na nějaké droze nebo má uspokojenou touhu, půjde i po společenských drogách. Bude ignorovat směrnice, že se nesmí užívat drogy.</DrugDesire.degreeDatas.chemical_interest.description>
+  <!-- EN: teetotaler -->
+  <DrugDesire.degreeDatas.teetotaler.label>abstinent</DrugDesire.degreeDatas.teetotaler.label>
+  <!-- EN: [PAWN_nameDef] abhors the idea of gaining pleasure from chemicals, and avoids alcohol and pleasurable drugs. -->
+  <DrugDesire.degreeDatas.teetotaler.description>[PAWN_nameDef] opovrhuje myšlenkou získávat potěšení pomocí chemikálií, a proto se vyhýbá alkoholu a veškerým drogám.</DrugDesire.degreeDatas.teetotaler.description>
+  
+  <!-- EN: super-immune -->
   <Immunity.degreeDatas.superimmune.label>silná imunita</Immunity.degreeDatas.superimmune.label>
+  <!-- EN: [PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others. -->
   <Immunity.degreeDatas.superimmune.description>[PAWN_nameDef] má přirozeně silný imunitní systém. Díky tomu získá imunitu mnohem rychleji než normální člověk a může přežít onemocnění, která by jiné zabila.</Immunity.degreeDatas.superimmune.description>
+  <!-- EN: sickly -->
   <Immunity.degreeDatas.sickly.label>slabá imunita</Immunity.degreeDatas.sickly.label>
+  <!-- EN: [PAWN_nameDef] has an awful immune system. [PAWN_pronoun] gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by. -->
   <Immunity.degreeDatas.sickly.description>[PAWN_nameDef] má slabý imunitní systém. Onemocní častěji, než je obvyklé, a často dostane nemoc, kterou v kolonii ještě nikdo neměl.</Immunity.degreeDatas.sickly.description>
-
-
+  
+  <!-- EN: industrious -->
+  <Industriousness.degreeDatas.industrious.label>pracovitý</Industriousness.degreeDatas.industrious.label>
+  <!-- EN: [PAWN_nameDef] has an easy time staying on-task and focused, and gets things done much faster than the average person. -->
+  <Industriousness.degreeDatas.industrious.description>[PAWN_nameDef] nemá problém vydržet u jedné činnosti plně soustředěn[PAWN_pronoun]. Díky tomu také provede práci mnohem rychleji než průměrný člověk.</Industriousness.degreeDatas.industrious.description>
+  <!-- EN: hard worker -->
+  <Industriousness.degreeDatas.hard_worker.label>tvrdě pracující</Industriousness.degreeDatas.hard_worker.label>
+  <!-- EN: [PAWN_nameDef] is a natural hard worker and will finish tasks faster than most. -->
+  <Industriousness.degreeDatas.hard_worker.description>[PAWN_nameDef] je dříč od přírody a úkoly dělá daleko rychleji než většina ostatních.</Industriousness.degreeDatas.hard_worker.description>
+  <!-- EN: lazy -->
+  <Industriousness.degreeDatas.lazy.label>lenoch</Industriousness.degreeDatas.lazy.label>
+  <!-- EN: [PAWN_nameDef] is a little bit lazy. -->
+  <Industriousness.degreeDatas.lazy.description>[PAWN_nameDef] je tak trochu lenoch.</Industriousness.degreeDatas.lazy.description>
+  <!-- EN: slothful -->
+  <Industriousness.degreeDatas.slothful.label>povaleč</Industriousness.degreeDatas.slothful.label>
+  <!-- EN: [PAWN_nameDef] loves idleness and hates anything productive. [PAWN_pronoun] moves slowly and rarely stays focused on a task. -->
+  <Industriousness.degreeDatas.slothful.description>[PAWN_nameDef] miluje lenost a nesnáší práci. Chodí pomalu a zřídkakdy vydrží se soustředěním pracovat.</Industriousness.degreeDatas.slothful.description>
+  
+  <!-- EN: sanguine -->
+  <NaturalMood.degreeDatas.sanguine.label>dobrá nálada</NaturalMood.degreeDatas.sanguine.label>
+  <!-- EN: [PAWN_nameDef] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is. -->
+  <NaturalMood.degreeDatas.sanguine.description>[PAWN_nameDef] má přirozeně pozitivní náladu téměř po celou dobu nezávisle na tom, co se děje kolem.</NaturalMood.degreeDatas.sanguine.description>
+  <!-- EN: optimist -->
+  <NaturalMood.degreeDatas.optimist.label>optimista</NaturalMood.degreeDatas.optimist.label>
+  <!-- EN: [PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down. -->
+  <NaturalMood.degreeDatas.optimist.description>[PAWN_nameDef] má přirozený optimistický pohled o životě. Jen velmi zřídka si nechá někým zkazit náladu.</NaturalMood.degreeDatas.optimist.description>
+  <!-- EN: pessimist -->
+  <NaturalMood.degreeDatas.pessimist.label>pesimista</NaturalMood.degreeDatas.pessimist.label>
+  <!-- EN: [PAWN_nameDef] tends to look on the bad side of life. -->
+  <NaturalMood.degreeDatas.pessimist.description>[PAWN_nameDef] má tendenci sledovat jen špatné věci v životě.</NaturalMood.degreeDatas.pessimist.description>
+  <!-- EN: depressive -->
+  <NaturalMood.degreeDatas.depressive.label>deprese</NaturalMood.degreeDatas.depressive.label>
+  <!-- EN: [PAWN_nameDef] is perenially unhappy. [PAWN_pronoun] has trouble sustaining a good mood even when everything is fine. -->
+  <NaturalMood.degreeDatas.depressive.description>[PAWN_nameDef] se cítí trvale nešťastně. Má potíže s udržením dobré nálady, i když je všechno v pořádku.</NaturalMood.degreeDatas.depressive.description>
+  
+  <!-- EN: iron-willed -->
+  <Nerves.degreeDatas.ironwilled.label>nervy z oceli</Nerves.degreeDatas.ironwilled.label>
+  <!-- EN: [PAWN_nameDef]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before. -->
+  <Nerves.degreeDatas.ironwilled.description>[PAWN_nameDef] má pevnou vůli. Ta je jako [PAWN_possessive] osobní štít. Pokračuje dál v dobrém i zlém přesto, že se ostatní už zhroutili.</Nerves.degreeDatas.ironwilled.description>
+  <!-- EN: steadfast -->
+  <Nerves.degreeDatas.steadfast.label>psychická odolnost</Nerves.degreeDatas.steadfast.label>
+  <!-- EN: [PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people. -->
+  <Nerves.degreeDatas.steadfast.description>[PAWN_nameDef] má silnou psychickou odolnost. Napětí, které by položilo většinu lidí, ustojí.</Nerves.degreeDatas.steadfast.description>
+  <!-- EN: nervous -->
+  <Nerves.degreeDatas.nervous.label>nervozita</Nerves.degreeDatas.nervous.label>
+  <!-- EN: [PAWN_nameDef] tends to crack under pressure. -->
+  <Nerves.degreeDatas.nervous.description>[PAWN_nameDef] má tendenci se pod tlakem sesypat.</Nerves.degreeDatas.nervous.description>
+  <!-- EN: volatile -->
+  <Nerves.degreeDatas.volatile.label>psychicky nalomený</Nerves.degreeDatas.volatile.label>
+  <!-- EN: [PAWN_nameDef] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation. -->
+  <Nerves.degreeDatas.volatile.description>[PAWN_nameDef] má neustále napjatou náladu. Bývá vždy první, kdo se zhroutí při každé složitější situaci.</Nerves.degreeDatas.volatile.description>
+  
+  <!-- EN: neurotic -->
+  <Neurotic.degreeDatas.neurotic.label>neurotický</Neurotic.degreeDatas.neurotic.label>
+  <!-- EN: [PAWN_nameDef] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective]. -->
+  <Neurotic.degreeDatas.neurotic.description>[PAWN_nameDef] je rád[PAWN_pronoun], když má věci dokončené. Bude pracovat tvrději než ostatní, ale [PAWN_possessive] nervy [PAWN_objective] mohou brzo zradit.</Neurotic.degreeDatas.neurotic.description>
+  <!-- EN: very neurotic -->
+  <Neurotic.degreeDatas.very_neurotic.label>velmi neurotický</Neurotic.degreeDatas.very_neurotic.label>
+  <!-- EN: [PAWN_nameDef] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective]. -->
+  <Neurotic.degreeDatas.very_neurotic.description>[PAWN_nameDef] se cítí neustále nervózní ze všeho, co musí ještě stihnout dokončit. Proto bude velmi tvrdě pracovat, aby dosáhl[PAWN_pronoun] svého cíle, ale také velmi snadno vyhoří.</Neurotic.degreeDatas.very_neurotic.description>
+  
+  <!-- EN: psychically hypersensitive -->
+  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>psychicky přecitlivělý</PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>
+  <!-- EN: [PAWN_nameDef]'s mind is like a psychic tuning fork. [PAWN_pronoun] is extremely sensitive to psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>[PAWN_nameDef] má mysl jako ladičku. Je extrémně senzitivní na psychické jevy.</PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>
+  <!-- EN: psychically sensitive -->
+  <PsychicSensitivity.degreeDatas.psychically_sensitive.label>psychicky citlivý</PsychicSensitivity.degreeDatas.psychically_sensitive.label>
+  <!-- EN: [PAWN_nameDef]'s mind is unusually sensitive to psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_sensitive.description>[PAWN_nameDef] má mysl neobyčejně citlivou na psychické jevy.</PsychicSensitivity.degreeDatas.psychically_sensitive.description>
+  <!-- EN: psychically dull -->
+  <PsychicSensitivity.degreeDatas.psychically_dull.label>psychicky matný</PsychicSensitivity.degreeDatas.psychically_dull.label>
+  <!-- EN: [PAWN_nameDef]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_dull.description>[PAWN_nameDef] má mysl psychicky rozladěnou oproti ostatním. Není tak ovlivněn[PAWN_pronoun] psychickými jevy.</PsychicSensitivity.degreeDatas.psychically_dull.description>
+  <!-- EN: psychically deaf -->
+  <PsychicSensitivity.degreeDatas.psychically_deaf.label>psychicky hluchý</PsychicSensitivity.degreeDatas.psychically_deaf.label>
+  <!-- EN: [PAWN_nameDef]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_deaf.description>[PAWN_nameDef] má mysl pracující na odlišné psychické frekvenci než všichni ostatní. Není prostě ovlivněn[PAWN_pronoun] psychickými jevy.</PsychicSensitivity.degreeDatas.psychically_deaf.description>
+  
+  <!-- EN: careful shooter -->
+  <ShootingAccuracy.degreeDatas.careful_shooter.label>ostrostřelec</ShootingAccuracy.degreeDatas.careful_shooter.label>
+  <!-- EN: [PAWN_nameDef] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy. -->
+  <ShootingAccuracy.degreeDatas.careful_shooter.description>[PAWN_nameDef] potřebuje více času na zaměření cíle. Střílí sice pomaleji než ostatní, ale s vyšší přesností.</ShootingAccuracy.degreeDatas.careful_shooter.description>
+  <!-- EN: trigger-happy -->
+  <ShootingAccuracy.degreeDatas.triggerhappy.label>šťastný střelec</ShootingAccuracy.degreeDatas.triggerhappy.label>
+  <!-- EN: Pew! Pew! Pew! [PAWN_nameDef] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately. -->
+  <ShootingAccuracy.degreeDatas.triggerhappy.description>Prásk! Prásk! Prásk! [PAWN_nameDef] strašně rád[PAWN_pronoun] mačká spoušť. Střílí sice rychleji než ostatní, ale s nižší přesností.</ShootingAccuracy.degreeDatas.triggerhappy.description>
+  
+  <!-- EN: slowpoke -->
+  <SpeedOffset.degreeDatas.slowpoke.label>loudavec</SpeedOffset.degreeDatas.slowpoke.label>
+  <!-- EN: [PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere. -->
+  <SpeedOffset.degreeDatas.slowpoke.description>[PAWN_nameDef] se vždy loudá za ostatními, ať se jde kamkoliv.</SpeedOffset.degreeDatas.slowpoke.description>
+  <!-- EN: fast walker -->
+  <SpeedOffset.degreeDatas.fast_walker.label>rychlý chodec</SpeedOffset.degreeDatas.fast_walker.label>
+  <!-- EN: [PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people. -->
+  <SpeedOffset.degreeDatas.fast_walker.description>[PAWN_nameDef] vždy někam rád[PAWN_pronoun] chodí, a to rychleji než většina lidí.</SpeedOffset.degreeDatas.fast_walker.description>
+  <!-- EN: jogger -->
+  <SpeedOffset.degreeDatas.jogger.label>běžec</SpeedOffset.degreeDatas.jogger.label>
+  <!-- EN: [PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up. -->
+  <SpeedOffset.degreeDatas.jogger.description>[PAWN_nameDef] se vždy pohybuje s pocitem naléhavosti - a to tolik, že ostatní často nedokáží držet krok.</SpeedOffset.degreeDatas.jogger.description>
+  
 </LanguageData>

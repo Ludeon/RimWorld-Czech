@@ -1,94 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Work tab -->
+  <!-- EN: Manual priorities -->
   <ManualPriorities>Manuální priority</ManualPriorities>
+  <!-- EN: higher priority -->
   <HigherPriority>vyšší priorita</HigherPriority>
+  <!-- EN: lower priority -->
   <LowerPriority>nižší priorita</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
   <RelevantSkills>Související dovednosti: {0}\nPrůměr souvisejících dovedností: {1} / {2}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Kliknutím skočíš na:</ClickToJumpTo>
+  <!-- EN: {0} cannot do this kind of work. -->
   <CannotDoThisWork>{0} nemůže tento druh činnosti vykonávat.</CannotDoThisWork>
+  <!-- EN: (none) -->
   <NoneBrackets>(nic)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Tento kolonista není schopen vykonávat jakoukoliv práci tohoto druhu z důvodu svého zdravotního stavu.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Varování: průměr příslušné dovednosti je velmi nízký.</SelectedWorkTypeWithVeryBadSkill>
   
   <!-- Assign tab -->
+  <!-- EN: Manage outfits -->
   <ManageOutfits>Spravovat výstroje</ManageOutfits>
+  <!-- EN: Clear forced -->
   <ClearForcedApparel>Zruš vynucené</ClearForcedApparel>
+  <!-- EN: forced -->
   <ApparelForcedLower>vynucené</ApparelForcedLower>
+  <!-- EN: Forced apparel -->
   <ForcedApparel>Vynucený oděv</ForcedApparel>
+  <!-- EN: Edit... -->
   <AssignTabEdit>Upravit...</AssignTabEdit>
+  <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Spravovat drogovou politiku</ManageDrugPolicies>
-
+  
   <!-- Restrictions tab -->
+  <!-- EN: Copy -->
   <Copy>Kopírovat</Copy>
+  <!-- EN: Paste -->
   <Paste>Vložit</Paste>
+  <!-- EN: Allowed area -->
   <AllowedArea>Povolená oblast</AllowedArea>
-
+  
   <!-- Animals tab -->
+  <!-- EN: Master -->
   <Master>Páníček</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Těhotná ({0} / {1})</PregnantIconDesc>
+  <!-- EN: Bonded to -->
   <BondedTo>Pouto k</BondedTo>
   
   <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Toto stvoření je predátor. Pokud bude hladový, bude lovit menší stvoření - možná včetně lidí.</IsPredator>
-
+  
   <!-- Factions tab -->
+  <!-- EN: Hostile -->
   <Hostile>Nepřátelé</Hostile>
-  <Ally>Spojenci</Ally>  
+  <!-- EN: Ally -->
+  <Ally>Spojenci</Ally>
+  <!-- EN: defeated -->
   <DefeatedLower>poražení</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
   <HostileTo>Nepřátelští vůči frakci {0}</HostileTo>
+  <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>Současná prestiž a vztahy s touto frakcí.</CurrentGoodwillTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Tato frakce je trvale nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Vztahy s nimi se z jakéhokoliv důvodu nikdy nezlepší.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Tato frakce je spojenecká. Budou ti posílat své bojovníky na pomoc, jestliže budou moci. Pokud vztahy klesnou pod hodnotu {0}, stanou se neutrálními.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
   <CurrentGoodwillTip_Neutral>Tato frakce je neutrální. Budou s tebou svobodně obchodovat a mluvit. Pokud vztahy klesnou pod hodnotu {0}, stanou se nepřátelskými. Jestliže naopak vztahy vzrostou nad hodnotu {1}, stanou se spojenci a začnou se aktivně podílet na pomoci tvé frakci.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Tato frakce je nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Pokud vztahy vzrostou nad hodnotu {0}, stanou se neutrálními.</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
   <CurrentGoodwillTip_NaturalGoodwill>Tato frakce má přirozený rozsah hodnot prestiže od {0} do {1}:\n\n- pokud je prestiž nad hodnotou {1}, bude klesat o {3} za den.\n- pokud je prestiž pod hodnotou {0}, bude růst o {2} za den.</CurrentGoodwillTip_NaturalGoodwill>
   
-  
   <!-- Social tab -->
+  <!-- EN: Friend -->
   <Friend>Přítel</Friend>
+  <!-- EN: Rival -->
   <Rival>Rival</Rival>
+  <!-- EN: Acquaintance -->
   <Acquaintance>Známost</Acquaintance>
-
+  
   <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
   <Graph>Graf</Graph>
-  <Messages>Zprávy</Messages>  
+  <!-- EN: Messages -->
+  <Messages>Zprávy</Messages>
+  <!-- EN: Statistics -->
   <Statistics>Statistiky</Statistics>
-
+  
   <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
   <SelectGraph>Vybrat graf</SelectGraph>
+  <!-- EN: Last 30 days -->
   <Last30Days>Posledních 30 dnů</Last30Days>
+  <!-- EN: Last 100 days -->
   <Last100Days>Posledních 100 dnů</Last100Days>
+  <!-- EN: Last 300 days -->
   <Last300Days>Posledních 300 dnů</Last300Days>
+  <!-- EN: All -->
   <AllDays>Všechny dny</AllDays>
+  <!-- EN: Value -->
   <Value>Hodnota</Value>
+  <!-- EN: External -->
   <External>Vnější</External>
 
   <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
   <ShowLetters>Zobrazit dopisy</ShowLetters>
+  <!-- EN: Show messages -->
   <ShowMessages>Zobrazit zprávy</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Připne nebo odepne tuto zprávu.\n\nNejstarší neodepnuté zprávy budou automaticky odstraněny ze seznamu po dosažení limitu {0} zpráv.</PinArchivableTip>
+  <!-- EN: no messages -->
   <NoMessages>žádné zprávy</NoMessages>
 
   <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
   <Playtime>Herní doba</Playtime>
+  <!-- EN: Storyteller -->
   <Storyteller>Vypravěč</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>Majetek kolonie (tato mapa)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
   <ThisMapColonyWealthItems>Majetek kolonie (předměty) (tato mapa)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
   <ThisMapColonyWealthBuildings>Majetek kolonie (stavby) (tato mapa)</ThisMapColonyWealthBuildings>
-  <ThisMapColonyWealthTameAnimals>Majetek kolonie (zvířata) (tato mapa)</ThisMapColonyWealthTameAnimals>
+  <!-- EN: Colony wealth (people and animals) (this map) -->
+  <ThisMapColonyWealthColonistsAndTameAnimals>Majetek kolonie (lidé a zvířata) (tato mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <!-- EN: Major threats -->
   <NumThreatBigs>Závažných hrozeb</NumThreatBigs>
+  <!-- EN: Enemy raids -->
   <NumEnemyRaids>Nepřátelských nájezdů</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
   <ThisMapDamageTaken>Utrpěných škod (tato mapa)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
   <ColonistsKilled>Zabitých kolonistů</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
   <ColonistsLaunched>Vyslaných kolonistů do vesmíru</ColonistsLaunched>
 
   <!-- Research tab -->
+  <!-- EN: project tech level -->
   <ProjectTechLevel>tech. úroveň projektu</ProjectTechLevel>
+  <!-- EN: your tech level -->
   <YourTechLevel>tvá tech. úroveň</YourTechLevel>
+  <!-- EN: cost multiplier -->
   <ResearchCostMultiplier>násobitel ceny</ResearchCostMultiplier>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>Základní cena projektu {0} bodů se díky tvé technologické úrovni dostává na {1} bodů.</ResearchCostComparison>
-
+  
 </LanguageData>

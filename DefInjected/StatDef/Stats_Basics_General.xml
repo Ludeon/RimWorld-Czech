@@ -1,46 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MaxHitPoints.label>maximální životnost</MaxHitPoints.label>
-  <MaxHitPoints.description>Maximum životnosti objektu. Toto představuje, jaké poškození snese, než bude zničen.</MaxHitPoints.description>
-
-  <Mass.label>hmotnost</Mass.label>
-  <Mass.description>Fyzická hmotnost objektu.</Mass.description>
-  <Mass.formatString>{0}kg</Mass.formatString>
-
-  <MarketValue.label>tržní cena</MarketValue.label>
-  <MarketValue.description>Tržní cena objektu. Aktuální obchodní cena bude dále přizpůsobena dle vyjednávacích dovedností, vzájemnému vztahu, a ostatním souvisejícím faktorům.</MarketValue.description>
-  <MarketValue.formatString>${0}</MarketValue.formatString>
-
-  <SellPriceFactor.label>násobitel prodejní ceny</SellPriceFactor.label>
-  <SellPriceFactor.description>Násobitel ceny, za kterou můžete prodat předměty.</SellPriceFactor.description>
-
-  <Flammability.label>hořlavost</Flammability.label>
-  <Flammability.description>Jak snadno objekt začne hořet a jak rychle bude oheň růst.</Flammability.description>
-
-  <WorkToMake.label>množství práce pro dokončení</WorkToMake.label>
-  <WorkToMake.description>Základní množství práce, které je potřebné k výrobě předmětu, jakmile jsou shromážděny všechny materiály.</WorkToMake.description>
-
-  <DeteriorationRate.label>rychlost zvětrávání</DeteriorationRate.label>
-  <DeteriorationRate.description>Rychlost, jakou tento objekt podléhá povětrnostním vlivům, když je ponechán venku, a to průměrným poškozením životnosti za den. Rychlost zvětrávání je také ovlivněna věcmi, jako je nepříznivé počasí, pokud se nenachází pod střechou, toxickým spadem, nebo je ponechán v mělké vodě.</DeteriorationRate.description>
-  <DeteriorationRate.formatString>{0}/den</DeteriorationRate.formatString>
-
+  
+  <!-- EN: beauty -->
   <Beauty.label>vzhled</Beauty.label>
+  <!-- EN: How enjoyable an object is to look at. Beautiful objects fulfill characters' need for beauty. -->
   <Beauty.description>Jak příjemný je objekt na pohled. Krásné objekty zvýší postavám potřebu vzhled prostředí</Beauty.description>
-
+  
+  <!-- EN: cleanliness -->
   <Cleanliness.label>čistota</Cleanliness.label>
+  <!-- EN: How much an object contributes to an area's cleanliness score. -->
   <Cleanliness.description>Nakolik tento objekt přispívá na čistotě prostředí.</Cleanliness.description>
-
+  
+  <!-- EN: comfort -->
   <Comfort.label>komfort</Comfort.label>
+  <!-- EN: How comfortable an object is to sit or lay on. Using comfortable objects fulfills a character's need for comfort. -->
   <Comfort.description>Jak pohodlný je objekt na sezení, nebo ležení. Užívání pohodlnějších objektů zvýší postavám potřebu komfort.</Comfort.description>
-
-  <Nutrition.label>výživa</Nutrition.label>
-  <Nutrition.description>Jak výživné je toto jídlo.</Nutrition.description>
-
+  
+  <!-- EN: deterioration rate -->
+  <DeteriorationRate.label>rychlost zvětrávání</DeteriorationRate.label>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day. Deterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
+  <DeteriorationRate.description>Rychlost, jakou tento objekt podléhá povětrnostním vlivům, když je ponechán venku, a to průměrným poškozením životnosti za den. Rychlost zvětrávání je také ovlivněna věcmi, jako je nepříznivé počasí, pokud se nenachází pod střechou, toxickým spadem, nebo je ponechán v mělké vodě.</DeteriorationRate.description>
+  <!-- EN: {0} / day -->
+  <DeteriorationRate.formatString>{0}/den</DeteriorationRate.formatString>
+  
+  <!-- EN: flammability -->
+  <Flammability.label>hořlavost</Flammability.label>
+  <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
+  <Flammability.description>Jak snadno objekt začne hořet a jak rychle bude oheň růst.</Flammability.description>
+  
+  <!-- EN: food poison chance -->
   <FoodPoisonChanceFixedHuman.label>šance na otravu jídlem</FoodPoisonChanceFixedHuman.label>
+  <!-- EN: The chance this food will cause food poisoning. -->
   <FoodPoisonChanceFixedHuman.description>Šance, že toto jídlo způsobí otravu jídlem.</FoodPoisonChanceFixedHuman.description>
   
+  <!-- EN: market value -->
+  <MarketValue.label>tržní cena</MarketValue.label>
+  <!-- EN: The market value of an object. The actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
+  <MarketValue.description>Tržní cena objektu. Aktuální obchodní cena bude dále přizpůsobena dle vyjednávacích dovedností, vzájemnému vztahu, a ostatním souvisejícím faktorům.</MarketValue.description>
+  <!-- EN: ${0} -->
+  <MarketValue.formatString>${0}</MarketValue.formatString>
+  
+  <!-- EN: mass -->
+  <Mass.label>hmotnost</Mass.label>
+  <!-- EN: The physical mass of an object. -->
+  <Mass.description>Fyzická hmotnost objektu.</Mass.description>
+  <!-- EN: {0} kg -->
+  <Mass.formatString>{0}kg</Mass.formatString>
+  
+  <!-- EN: max hit points -->
+  <MaxHitPoints.label>maximální životnost</MaxHitPoints.label>
+  <!-- EN: The maximum hit points of an object. This represents how much damage it can take before being destroyed. -->
+  <MaxHitPoints.description>Maximum životnosti objektu. Toto představuje, jaké poškození snese, než bude zničen.</MaxHitPoints.description>
+  
+  <!-- EN: nutrition -->
+  <Nutrition.label>výživa</Nutrition.label>
+  <!-- EN: How nutritious this food is. -->
+  <Nutrition.description>Jak výživné je toto jídlo.</Nutrition.description>
+  
+  <!-- EN: sell price multiplier -->
+  <SellPriceFactor.label>násobitel prodejní ceny</SellPriceFactor.label>
+  <!-- EN: A multiplier on the price at which you can sell items. -->
+  <SellPriceFactor.description>Násobitel ceny, za kterou můžete prodat předměty.</SellPriceFactor.description>
+  
+  <!-- EN: shooting accuracy -->
   <ShootingAccuracyTurret.label>přesnost střelby</ShootingAccuracyTurret.label>
+  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyTurret.description>Základní šance úspěšného zásahu střelbou na buňku vzdálenosti. Šanci na zásah ovlivňuje mnoho dalších faktorů. Šanci na zásah můžeš zobrazit tím, že vybereš střelce a najedeš ukazatelem myši na cíl.</ShootingAccuracyTurret.description>
-
+  
+  <!-- EN: work to make -->
+  <WorkToMake.label>množství práce pro dokončení</WorkToMake.label>
+  <!-- EN: The base amount of work it takes to make an item, once all materials are gathered. -->
+  <WorkToMake.description>Základní množství práce, které je potřebné k výrobě předmětu, jakmile jsou shromážděny všechny materiály.</WorkToMake.description>
+  
 </LanguageData>

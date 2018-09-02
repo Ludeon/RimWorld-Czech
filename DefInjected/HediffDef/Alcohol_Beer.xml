@@ -1,31 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <AlcoholHigh.label>alkoholové opojení</AlcoholHigh.label>
-  <AlcoholHigh.stages.0.label>teplo</AlcoholHigh.stages.0.label>
-  <AlcoholHigh.stages.1.label>podnapilost</AlcoholHigh.stages.1.label>
-  <AlcoholHigh.stages.2.label>opilost</AlcoholHigh.stages.2.label>
-  <AlcoholHigh.stages.3.label>na šrot</AlcoholHigh.stages.3.label>
-  <AlcoholHigh.stages.4.label>zatmění</AlcoholHigh.stages.4.label>
-  <AlcoholHigh.labelNoun>opilost</AlcoholHigh.labelNoun>
   
-  <Hangover.label>kocovina</Hangover.label>
-  <Hangover.stages.0.label>nepatrná</Hangover.stages.0.label>
-  <Hangover.stages.1.label>silná</Hangover.stages.1.label>
-  <Hangover.stages.2.label>bušení</Hangover.stages.2.label>
-  <Hangover.labelNoun>kocovina</Hangover.labelNoun>
-
-
-  <!-- Alcohol addiction -->
-
-  <AlcoholTolerance.label>snášenlivost alkoholu</AlcoholTolerance.label>
-  <AlcoholTolerance.stages.0.label>malá</AlcoholTolerance.stages.0.label>
-  <AlcoholTolerance.stages.1.label>malá</AlcoholTolerance.stages.1.label>
-  <AlcoholTolerance.stages.2.label>velká</AlcoholTolerance.stages.2.label>
-  <AlcoholTolerance.stages.3.label>masivní</AlcoholTolerance.stages.3.label>
-
+  <!-- EN: alcohol addiction -->
   <AlcoholAddiction.label>závislost na alkoholu</AlcoholAddiction.label>
-  <AlcoholAddiction.stages.1.label>abstinence</AlcoholAddiction.stages.1.label>
-
-
+  <!-- EN: withdrawal -->
+  <AlcoholAddiction.stages.withdrawal.label>abstinence</AlcoholAddiction.stages.withdrawal.label>
+  
+  <!-- EN: alcohol -->
+  <AlcoholHigh.label>alkoholové opojení</AlcoholHigh.label>
+  <!-- EN: drunkenness -->
+  <AlcoholHigh.labelNoun>opilost</AlcoholHigh.labelNoun>
+  <!-- EN: warm -->
+  <AlcoholHigh.stages.warm.label>teplo</AlcoholHigh.stages.warm.label>
+  <!-- EN: tipsy -->
+  <AlcoholHigh.stages.tipsy.label>podnapilost</AlcoholHigh.stages.tipsy.label>
+  <!-- EN: drunk -->
+  <AlcoholHigh.stages.drunk.label>opilost</AlcoholHigh.stages.drunk.label>
+  <!-- EN: hammered -->
+  <AlcoholHigh.stages.hammered.label>na šrot</AlcoholHigh.stages.hammered.label>
+  <!-- EN: blackout -->
+  <AlcoholHigh.stages.blackout.label>zatmění</AlcoholHigh.stages.blackout.label>
+  
+  <!-- EN: alcohol tolerance -->
+  <AlcoholTolerance.label>snášenlivost alkoholu</AlcoholTolerance.label>
+  <!-- EN: small -->
+  <AlcoholTolerance.stages.small-0.label>malá</AlcoholTolerance.stages.small-0.label>
+  <!-- EN: small -->
+  <AlcoholTolerance.stages.small-1.label>malá</AlcoholTolerance.stages.small-1.label>
+  <!-- EN: large -->
+  <AlcoholTolerance.stages.large.label>velká</AlcoholTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <AlcoholTolerance.stages.massive.label>masivní</AlcoholTolerance.stages.massive.label>
+  
+  <!-- EN: hangover -->
+  <Hangover.label>kocovina</Hangover.label>
+  <!-- EN: a hangover -->
+  <Hangover.labelNoun>kocovina</Hangover.labelNoun>
+  <!-- EN: slight -->
+  <Hangover.stages.slight.label>nepatrná</Hangover.stages.slight.label>
+  <!-- EN: strong -->
+  <Hangover.stages.strong.label>silná</Hangover.stages.strong.label>
+  <!-- EN: pounding -->
+  <Hangover.stages.pounding.label>bušení</Hangover.stages.pounding.label>
+  
 </LanguageData>

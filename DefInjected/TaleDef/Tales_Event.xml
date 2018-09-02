@@ -1,82 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <LaunchedShip.label>odstartování lodi</LaunchedShip.label>
-	<LaunchedShip.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] unikl[pawn_pronoun] z planety</li>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] vzlétl[pawn_pronoun] s kosmickou lodí</li>
-		<li>image->[pawn_nameFull] v mžiku uvádí loď ke vzletu přímo ke hvězdám [circumstance_group]</li>
-		<li>image->[pawn_nameFull] míří s lodí k nebi [circumstance_group]</li>
-		<li>image->[pawn_nameFull] zrychluje loď na únikovou rychlost [circumstance_group]</li>
-		<li>image->[pawn_nameFull] startuje a pilotuje raketu [circumstance_group]</li>
-		<li>circumstance_phrase->z míst, kde se nachází [terrainfeature]</li>
-		<li>circumstance_phrase->s neuvěřitelnou silou</li>
-		<li>circumstance_phrase->se současným rozvířením prachu a kamení</li>
-		<li>circumstance_phrase->s dramaticky hořícími raketovými motory</li>
-		<li>circumstance_phrase->s precizním odtržením od povrchu</li>
-		<li>desc_sentence->[pawn_nameShortDef] se přitom napjatě soustředí na ovládací prvky kosmické lodi.</li>
-		<li>desc_sentence->[pawn_nameShortDef] má zavřené oči a vypadá sebejistě.</li>
-		<li>desc_sentence->[pawn_nameShortDef] asi spí, [pawn_possessive] oči jsou s poklidným dojmem zavřené.</li>
-		<li>desc_sentence->[pawn_nameShortDef] se směje s pochmurnou náladou.</li>
-		<li>desc_sentence->Zdá se, že [pawn_nameShortDef] má celou situaci plně pod kontrolou.</li>
-		<li>desc_sentence->Za zádí lodi se táhne dlouhá ohnivá čára.</li>
-		<li>desc_sentence->Nedalecí [animal]i hledí dosti překvapeně.</li>
-		<li>desc_sentence->[animal]i prchají ve strachu pryč od místa startu.</li>
-		<li>desc_sentence->V pozadí je vidět [terrainfeature].</li>
-		<li>desc_sentence->[outlander] tiše pozorují vše z dálky.</li>
-	</LaunchedShip.rulePack.rulesStrings>
-
-  <SocialFight.label>sociální rvačka</SocialFight.label>
-	<SocialFight.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawna_nameShortDef] [fight_name_present] [pawnb_nameShortDef]</li>
-		<li>image->[pawna_nameFull] neustále uráží [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->se [pawna_nameFull] posmívá [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] vyhrožuje [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] zastrašuje [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] útočí na [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] napadá [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] mlátí [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] kope do [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] popichuje [pawnb_nameFull] [circumstance_group]</li>
-		<li>fight_name_present->napadl[pawna_pronoun] osobu, kterou byl[pawnb_pronoun]</li>
-		<li>fight_name_present->zaútočil[pawna_pronoun] na osobu, kterou byl[pawnb_pronoun]</li>
-		<li>fight_name_present->bojoval[pawna_pronoun] s osobou, kterou byl[pawnb_pronoun]</li>
-		<li>circumstance_phrase->a zároveň [pawna_nameShortDef] schytává [pawnb_possessive] urážky</li>
-		<li>circumstance_phrase->a zároveň [pawna_nameShortDef] schytává [pawnb_possessive] posměch</li>
-		<li>circumstance_phrase->a přitom [pawna_nameShortDef] schytává [pawnb_possessive] výhružky</li>
-		<li>circumstance_phrase->a přitom se [pawna_objective] [pawnb_nameShortDef] snaží zastrašit</li>
-		<li>circumstance_phrase->a naopak [pawna_nameShortDef] schytává [pawnb_possessive] útoky</li>
-		<li>circumstance_phrase->a zároveň [pawna_nameShortDef] čelí neustálému napadání</li>
-		<li>circumstance_phrase->a přitom [pawna_nameShortDef] schytává rány pěstí</li>
-		<li>circumstance_phrase->a zároveň [pawna_nameShortDef] schytává pár kopanců</li>
-		<li>circumstance_phrase->a přitom se [pawnb_nameShortDef] zmůže jen na zbabělé krčení</li>
-		<li>desc_sentence->[target] vypadá, že ničeho nelituje.</li>
-		<li>desc_sentence->[target] je vzteky bez sebe.</li>
-		<li>desc_sentence->[target] neprojevuje žádné emoce ani výraz.</li>
-		<li>desc_sentence->[target] má na celém těle znázorněné různé vnitřnosti.</li>
-		<li>desc_sentence->[target] zuřivě křičí.</li>
-		<li>desc_sentence->[target] má na těle viditelné zranění.</li>
-		<li>desc_sentence->[target] má kolem očí [color]ou záři.</li>
-		<li>target->[pawna_nameShortDef]</li>
-		<li>target->[pawnb_nameShortDef]</li>
-	</SocialFight.rulePack.rulesStrings>
-
+  
+  <!-- EN: collapse dodged -->
   <CollapseDodged.label>vyhnutí se padajícímu stropu</CollapseDodged.label>
-	<CollapseDodged.rulePack.rulesStrings>
-		<li>tale_noun->tom, jak [pawn_nameShortDef] uskočil[pawn_pronoun] před řítícím se stropem</li>
-		<li>tale_noun->tom, jak byl[pawn_pronoun] [pawn_nameShortDef] málem rozdrcen[pawn_pronoun] padajícími objekty</li>
-		<li>image->[pawn_nameFull] uskakuje pryč od hroutících se stropů, které [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] jen těsně vyhýbá zasypání hroudami kamenů, které [circumstance_group]</li>
-		<li>image->se [pawn_nameFull] vyhýbá padajícím kamenům ze stropu, které [circumstance_group]</li>
-		<li>image->[pawn_nameFull] uniká jisté smrti od řítících se balvanů, které [circumstance_group]</li>
-		<li>circumstance_phrase->poté zakryly vše troskami a prachem</li>
-		<li>circumstance_phrase->rozdrtily vše, co jim přišlo do cesty</li>
-		<li>circumstance_phrase->dopadly s neuvěřitelnou silou</li>
-		<li>desc_sentence->[pawn_nameShortDef] se vypětím sil při úskoku zpotil[pawn_pronoun].</li>
-		<li>desc_sentence->[pawn_nameShortDef] z toho má vyděšený výraz.</li>
-		<li>desc_sentence->[pawn_nameShortDef] má různě po těle škrábance a mírně krvácí.</li>
-		<li>desc_sentence->[pawn_nameShortDef] ztrácí svou rovnováhu.</li>
-	</CollapseDodged.rulePack.rulesStrings>
-
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] dodging a cave-in</li>
+    <li>tale_noun->[PAWN_nameDef] nearly crushed by falling objects</li>
+    <li>image->[PAWN_nameFull] leaping away from a collapse of debris [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] narrowly avoiding a cave-in [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avoiding a falling ceiling [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avoiding certain death by a falling rock [circumstance_group]</li>
+    <li>circumstance_phrase->that vanishes behind a curtain of debris and dust</li>
+    <li>circumstance_phrase->that pulverizes everything beneath it</li>
+    <li>circumstance_phrase->which impacts with incredible force</li>
+    <li>desc_sentence->[PAWN_pronoun] is sweating with exertion.</li>
+    <li>desc_sentence->[PAWN_pronoun] appears to be terrified.</li>
+    <li>desc_sentence->[PAWN_pronoun] is scratched and bleeding.</li>
+    <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
+  -->
+  <CollapseDodged.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] uskočil[pawn_pronoun] před řítícím se stropem</li>
+    <li>tale_noun->tom, jak byl[pawn_pronoun] [pawn_nameShortDef] málem rozdrcen[pawn_pronoun] padajícími objekty</li>
+    <li>image->[pawn_nameFull] uskakuje pryč od hroutících se stropů, které [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] jen těsně vyhýbá zasypání hroudami kamenů, které [circumstance_group]</li>
+    <li>image->se [pawn_nameFull] vyhýbá padajícím kamenům ze stropu, které [circumstance_group]</li>
+    <li>image->[pawn_nameFull] uniká jisté smrti od řítících se balvanů, které [circumstance_group]</li>
+    <li>circumstance_phrase->poté zakryly vše troskami a prachem</li>
+    <li>circumstance_phrase->rozdrtily vše, co jim přišlo do cesty</li>
+    <li>circumstance_phrase->dopadly s neuvěřitelnou silou</li>
+    <li>desc_sentence->[pawn_nameShortDef] se vypětím sil při úskoku zpotil[pawn_pronoun].</li>
+    <li>desc_sentence->[pawn_nameShortDef] z toho má vyděšený výraz.</li>
+    <li>desc_sentence->[pawn_nameShortDef] má různě po těle škrábance a mírně krvácí.</li>
+    <li>desc_sentence->[pawn_nameShortDef] ztrácí svou rovnováhu.</li>
+  </CollapseDodged.rulePack.rulesStrings>
+  
+  <!-- EN: launched ship -->
+  <LaunchedShip.label>odstartování lodi</LaunchedShip.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] escaping the planet</li>
+    <li>tale_noun->[PAWN_nameDef] taking off in a spaceship</li>
+    <li>image->[PAWN_nameFull] being launched towards the stars [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] racing towards the heavens [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] accelerating to escape velocity [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] piloting a rocket [circumstance_group]</li>
+    <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+    <li>circumstance_phrase->with incredible force</li>
+    <li>circumstance_phrase->in a plume of dust and rocks</li>
+    <li>circumstance_phrase->with rockets firing dramatically</li>
+    <li>circumstance_phrase->in a precision takeoff</li>
+    <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+    <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks confident.</li>
+    <li>desc_sentence->[PAWN_pronoun] is sleeping, [PAWN_possessive] eyes closed peacefully.</li>
+    <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be fully in control of the situation.</li>
+    <li>desc_sentence->There is a flame trail licking off the back of the ship.</li>
+    <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+    <li>desc_sentence->A [Animal] is fleeing the launch in fear.</li>
+    <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
+  -->
+  <LaunchedShip.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] unikl[pawn_pronoun] z planety</li>
+    <li>tale_noun->tom, jak [pawn_nameShortDef] vzlétl[pawn_pronoun] s kosmickou lodí</li>
+    <li>image->[pawn_nameFull] v mžiku uvádí loď ke vzletu přímo ke hvězdám [circumstance_group]</li>
+    <li>image->[pawn_nameFull] míří s lodí k nebi [circumstance_group]</li>
+    <li>image->[pawn_nameFull] zrychluje loď na únikovou rychlost [circumstance_group]</li>
+    <li>image->[pawn_nameFull] startuje a pilotuje raketu [circumstance_group]</li>
+    <li>circumstance_phrase->z míst, kde se nachází [terrainfeature]</li>
+    <li>circumstance_phrase->s neuvěřitelnou silou</li>
+    <li>circumstance_phrase->se současným rozvířením prachu a kamení</li>
+    <li>circumstance_phrase->s dramaticky hořícími raketovými motory</li>
+    <li>circumstance_phrase->s precizním odtržením od povrchu</li>
+    <li>desc_sentence->[pawn_nameShortDef] se přitom napjatě soustředí na ovládací prvky kosmické lodi.</li>
+    <li>desc_sentence->[pawn_nameShortDef] má zavřené oči a vypadá sebejistě.</li>
+    <li>desc_sentence->[pawn_nameShortDef] asi spí, [pawn_possessive] oči jsou s poklidným dojmem zavřené.</li>
+    <li>desc_sentence->[pawn_nameShortDef] se směje s pochmurnou náladou.</li>
+    <li>desc_sentence->Zdá se, že [pawn_nameShortDef] má celou situaci plně pod kontrolou.</li>
+    <li>desc_sentence->Za zádí lodi se táhne dlouhá ohnivá čára.</li>
+    <li>desc_sentence->Nedalecí [animal]i hledí dosti překvapeně.</li>
+    <li>desc_sentence->[animal]i prchají ve strachu pryč od místa startu.</li>
+    <li>desc_sentence->V pozadí je vidět [terrainfeature].</li>
+    <li>desc_sentence->[outlander] tiše pozorují vše z dálky.</li>
+  </LaunchedShip.rulePack.rulesStrings>
+  
+  <!-- EN: social fight -->
+  <SocialFight.label>sociální rvačka</SocialFight.label>
+  <!-- EN:
+    <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
+    <li>image->[INITIATOR_nameFull] insulting [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] taunting [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] threatening [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] intimidating [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] attacking [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] assaulting [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] punching [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] kicking [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] cowering from [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>fight_name_present->assaulting</li>
+    <li>fight_name_present->attacking</li>
+    <li>fight_name_present->fighting</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] insults [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] taunts [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] threatens [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] intimidates [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] attacks [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] assaults [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] punches [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] kicks [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] cowers from [INITIATOR_objective]</li>
+    <li>desc_sentence->[target] appears without remorse.</li>
+    <li>desc_sentence->[target] is consumed with passionate rage.</li>
+    <li>desc_sentence->[target] has no emotion or expression.</li>
+    <li>desc_sentence->[target]'s body is covered in [Gore].</li>
+    <li>desc_sentence->[target] is screaming furiously.</li>
+    <li>desc_sentence->[target] is visibly wounded.</li>
+    <li>desc_sentence->[target]'s eyes are glowing [Color].</li>
+    <li>target->[INITIATOR_nameDef]</li>
+    <li>target->[RESPONDER_nameDef]</li>
+  -->
+  <SocialFight.rulePack.rulesStrings>
+    <li>tale_noun->tom, jak [pawna_nameShortDef] [fight_name_present] [pawnb_nameShortDef]</li>
+    <li>image->[pawna_nameFull] neustále uráží [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->se [pawna_nameFull] posmívá [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] vyhrožuje [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] zastrašuje [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] útočí na [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] napadá [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] mlátí [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] kope do [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] popichuje [pawnb_nameFull] [circumstance_group]</li>
+    <li>fight_name_present->napadl[pawna_pronoun] osobu, kterou byl[pawnb_pronoun]</li>
+    <li>fight_name_present->zaútočil[pawna_pronoun] na osobu, kterou byl[pawnb_pronoun]</li>
+    <li>fight_name_present->bojoval[pawna_pronoun] s osobou, kterou byl[pawnb_pronoun]</li>
+    <li>circumstance_phrase->a zároveň [pawna_nameShortDef] schytává [pawnb_possessive] urážky</li>
+    <li>circumstance_phrase->a zároveň [pawna_nameShortDef] schytává [pawnb_possessive] posměch</li>
+    <li>circumstance_phrase->a přitom [pawna_nameShortDef] schytává [pawnb_possessive] výhružky</li>
+    <li>circumstance_phrase->a přitom se [pawna_objective] [pawnb_nameShortDef] snaží zastrašit</li>
+    <li>circumstance_phrase->a naopak [pawna_nameShortDef] schytává [pawnb_possessive] útoky</li>
+    <li>circumstance_phrase->a zároveň [pawna_nameShortDef] čelí neustálému napadání</li>
+    <li>circumstance_phrase->a přitom [pawna_nameShortDef] schytává rány pěstí</li>
+    <li>circumstance_phrase->a zároveň [pawna_nameShortDef] schytává pár kopanců</li>
+    <li>circumstance_phrase->a přitom se [pawnb_nameShortDef] zmůže jen na zbabělé krčení</li>
+    <li>desc_sentence->[target] vypadá, že ničeho nelituje.</li>
+    <li>desc_sentence->[target] je vzteky bez sebe.</li>
+    <li>desc_sentence->[target] neprojevuje žádné emoce ani výraz.</li>
+    <li>desc_sentence->[target] má na celém těle znázorněné různé vnitřnosti.</li>
+    <li>desc_sentence->[target] zuřivě křičí.</li>
+    <li>desc_sentence->[target] má na těle viditelné zranění.</li>
+    <li>desc_sentence->[target] má kolem očí [color]ou záři.</li>
+    <li>target->[pawna_nameShortDef]</li>
+    <li>target->[pawnb_nameShortDef]</li>
+  </SocialFight.rulePack.rulesStrings>
+  
 </LanguageData>
