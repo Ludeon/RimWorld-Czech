@@ -82,8 +82,8 @@
   <CorpseLabel>{0} (mrtvola)</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
-  <!-- EN: {0} (dead) -->
-  <DeadLabel>{0} (mrtvý)</DeadLabel>
+  <!-- EN: {1_label} (dead) -->
+  <DeadLabel>{1_label} (mrtvý)</DeadLabel>
 
   <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>Drsný {0}</RoughStoneTerrainLabel>
@@ -111,10 +111,10 @@
   <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
 
-  <!-- EN: {0}'s {1} -->
-  <SomeonesRoom>{1} patří {0}</SomeonesRoom>
-  <!-- EN: {0} and {1}'s {2} -->
-  <CouplesRoom>{2} patří {0} a {1}</CouplesRoom>
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <SomeonesRoom>{1} patří {PAWN_labelShort}</SomeonesRoom>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
+  <CouplesRoom>{2} patří {PAWN1_labelShort} a {PAWN2_labelShort}</CouplesRoom>
   
   <!-- EN: (various) -->
   <VariousLabel>(různé)</VariousLabel>
