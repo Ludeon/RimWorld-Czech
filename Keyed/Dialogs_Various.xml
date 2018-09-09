@@ -149,8 +149,8 @@
   <ZoneGainsName>Oblast se odteď jmenuje {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>Přezdívka této osoby je odteď {0}. [PAWN_possessive] titul je {1}.</PawnGainsName>
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>Přezdívka této osoby je odteď {0}. {PAWN_possessive} titul je {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Zvíře se odteď jmenuje {0}.</AnimalGainsName>
 
@@ -468,10 +468,10 @@
   <TraderWillNotTrade>Obchodník tohle není ochotný odkoupit.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Vyjednavač</Negotiator>
-  <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>Tvůj vyjednavač {0} špatně mluví, protože na tom není zrovna dobře.</NegotiatorTalkingImpaired>
-  <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Tvůj vyjednavač {0} špatně slyší, protože na tom není zrovna dobře.</NegotiatorHearingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>Tvůj vyjednavač {1_labelShort} špatně mluví, protože na tom není zrovna dobře.</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>Tvůj vyjednavač {1_labelShort} špatně slyší, protože na tom není zrovna dobře.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>To bude mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednavače.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -526,8 +526,8 @@
   <CaravanCouldNotFindPackingSpot>Nelze najít žádné platné místo ke shromáždění karavany. Ujisti se, že vybrané místo pro odchod ({0}) bude přístupné.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Varování: Někteří z přiřazených kolonistů nejsou schopni se dostat k místu odchodu ({0}).</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {0} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{0} je pro všechny přiřazené kolonisty nedosažitelné.</CaravanPawnIsUnreachable>
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
+  <CaravanPawnIsUnreachable>{1_labelShort} je pro všechny přiřazené kolonisty nedosažitelné.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Žádný z přiřazených kolonistů se není schopen dostat k {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -546,8 +546,8 @@
   <InfiniteDaysWorthOfFoodInfo>Neomezené</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Přibližný počet dnů, než bude alespoň jeden člověk nebo zvíře bez potravy. Lidé a různé druhy zvířat potřebují odlišné druhy potravy, takže někdo může zůstat bez potravy dříve než ostatní. Tato hodnota se vypočte přesněji, jakmile bude vybrána trasa.\n\nOvlivňující faktory:\n - nesený druh jídla a jeho množství\n - příslušníci karavany a jejich typ stravy\n - rychlost sběru potravy\n - zda se zvířata mohou pást\n - čas do zkažení potravin\n - teplé počasí urychlí kažení potravin</DaysWorthOfFoodTooltip>
-  <!-- EN: \n(only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(je zohledněn pouze první bod trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <!-- EN: (only the first waypoint is taken into account) -->
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(je zohledněn pouze první bod trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo pouze na {0} dnů. Poté rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -652,12 +652,12 @@
   <TooBigTransportersMassUsage>Přidělení lidé a předměty jsou pro nákladní moduly příliš těžké.</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>Nemůžeš vyslat prázdné nákladní moduly.</CantSendEmptyTransportPods>
-  <!-- EN: {0} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0} se nemůže dostat k nákladním modulům.</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort} se nemůže dostat k přepravním modulům.</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
-  <TransporterItemIsUnreachableSingle>Mezi nákladními moduly a {0} nevede žádná cesta.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableSingle>Mezi přepravními moduly a {0} nevede žádná cesta.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
-  <TransporterItemIsUnreachableMulti>Mezi nákladními moduly a {0}x {1} nevede žádná cesta.</TransporterItemIsUnreachableMulti>
+  <TransporterItemIsUnreachableMulti>Mezi přepravními moduly a {0}x {1} nevede žádná cesta.</TransporterItemIsUnreachableMulti>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -796,20 +796,20 @@
   <ConfirmMoveAutoJoinableCaravan>Některá zvířata nebo vězni se pokoušejí připojit k této karavaně.\n\nPokud ji přesuneš, už nebudou moci se připojit.\n\nZvířata, vězni, a kolonisté v bezvědomí, kteří byli ponecháni v oblasti některým z kolonistů, jsou považováni za opuštěné a mohou být zajmuti nepřáteli.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
-  <!-- EN: Do you really want to banish {0}? -->
-  <ConfirmBanishPawnDialog>Opravdu se chceš zbavit {0}?</ConfirmBanishPawnDialog>
-  <!-- EN: {0} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0} s největší pravděpodobností zemře.</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>{0} si ponechá tyto předměty:</ConfirmBanishPawnDialog_Items>
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>Opravdu se chceš zbavit {1_label}?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} s největší pravděpodobností zemře.</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} si ponechá tyto předměty:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Všichni kolonisté získají tyto myšlenky:</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>Když tu {0} necháš napospas osudu, způsobí to, že následující lidé si budou myslet toto:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>Když tu {1_labelShort} necháš napospas osudu, způsobí to, že následující lidé si budou myslet toto:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Skupina modulů není zcela naložena. Chybí {0}. Odstartovat i tak?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>Skupina modulů není zcela naložena. Chybí {1_labelShort}. Odstartovat i tak?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->

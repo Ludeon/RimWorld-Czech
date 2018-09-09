@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
-  <FactionGreetingHostile>{0} vychrlí do mikrofonu pár nadávek a ukončí spojení.</FactionGreetingHostile>
-  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of [PAWN_possessive] settlements or releasing [PAWN_possessive] faction's prisoners unharmed. Until then, [PAWN_pronoun] is unwilling to talk.\n\nMuttering an insult, [PAWN_pronoun] disconnects. -->
-  <FactionGreetingHostileAppreciative>{0} požaduje, abys učinil gesto dobré vůle, například přinést dar [PAWN_possessive] osadě nebo propustit [PAWN_possessive] zajaté nezraněné lidi. Do té doby s tebou nebude chtít mluvit.\n\nUraženým hlasem ukončuje spojení.</FactionGreetingHostileAppreciative>
-  <!-- EN: {0} greets {1} warily and asks what business you want to handle. -->
-  <FactionGreetingWary>{0} obezřetně zdraví {1} a ptá se, co potřebuje.</FactionGreetingWary>
-  <!-- EN: {0} greets {1} warmly and asks what [PAWN_pronoun] can do to help you. -->
-  <FactionGreetingWarm>{0} vřele zdraví {1} a ptá se, jakpak může pomoci.</FactionGreetingWarm>
+  <FactionGreetingHostile>{0} vychrlí do mikrofonu pár nadávek a přeruší spojení.</FactionGreetingHostile>
+  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
+  <FactionGreetingHostileAppreciative>{0} požaduje, abys učinil gesto dobré vůle, například přinést dary {0_possessive} osadám nebo propustit {0_possessive} zajaté nezraněné lidi. Do té doby s tebou nebude chtít mluvit.\n\n{0_gender ? Zamumlal : Zamumlala} ještě pár urážek a poté {0_gender ? přerušil : přerušila} spojení.</FactionGreetingHostileAppreciative>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warily and asks what business you want to handle. -->
+  <FactionGreetingWary>{0} obezřetně zdraví {NEGOTIATOR_labelShort} a ptá se, co potřebuje.</FactionGreetingWary>
+  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
+  <FactionGreetingWarm>{0} vřele zdraví {NEGOTIATOR_labelShort} a ptá se, jakpak může pomoci.</FactionGreetingWarm>
 
   <!-- EN: Disconnect -->
   <Disconnect>Přerušit spojení</Disconnect>

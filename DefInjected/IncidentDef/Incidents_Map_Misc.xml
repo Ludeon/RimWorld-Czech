@@ -99,14 +99,14 @@
   <WandererJoin.label>poutník se připojil</WandererJoin.label>
   <!-- EN: Wanderer joins -->
   <WandererJoin.letterLabel>Poutník se připojil</WandererJoin.letterLabel>
-  <!-- EN: A [PAWN_kind] named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a [PAWN_title].\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>[PAWN_kind] jménem [PAWN_nameDef] dorazil[PAWN_pronoun] a připojil[PAWN_pronoun] se ke kolonii. Je to [PAWN_title].\n\nChtěl[PAWN_pronoun] by něčím přispět, z vlastní vůle však neodejde. Pokud nechceš, aby zůstal[PAWN_pronoun], můžeš [PAWN_objective] vyhostit, prodat do otroctví, nebo prostě zabít. Nicméně ostatní kolonisté z toho mohou být znepokojeni.</WandererJoin.letterText>
+  <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
+  <WandererJoin.letterText>{PAWN_kind} jménem {PAWN_nameDef} {PAWN_gender ? dorazil : dorazila} a {PAWN_gender ? připojil : připojila} se ke kolonii. Je to {PAWN_title}.\n\n{PAWN_gender ? Chtěla : Chtěla} by něčím přispět, z vlastní vůle však neodejde. Pokud nechceš, aby {PAWN_gender ? zůstal : zůstala}, můžeš [PAWN_objective] vyhostit, prodat do otroctví, nebo prostě zabít. Nicméně ostatní kolonisté z toho mohou být znepokojeni.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>divoch bloudí oblastí</WildManWandersIn.label>
   <!-- EN: Wild man wanders in -->
   <WildManWandersIn.letterLabel>Divoch bloudí oblastí</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
-  <WildManWandersIn.letterText>Člověk žijící mezi divokými zvířaty se zatoulal do této oblasti. [PAWN_possessive] dřívější jméno bylo {0}.\n\nMůžeš se [PAWN_objective] pokusit ochočit.</WildManWandersIn.letterText>
+  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame {PAWN_objective}. -->
+  <WildManWandersIn.letterText>Člověk žijící mezi divokými zvířaty se zatoulal do této oblasti. {PAWN_possessive} dřívější jméno bylo {0}.\n\nMůžeš se {PAWN_objective} pokusit ochočit.</WildManWandersIn.letterText>
   
 </LanguageData>
