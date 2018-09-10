@@ -256,10 +256,10 @@
   <RoomInfectionChanceFactor>Šance na náchylnost k infekci v této místnosti</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Uzavřena</VentClosed>
-  <!-- EN: worn by {0} -->
-  <WornBy>nosí {0}</WornBy>
-  <!-- EN: equipped by {0} -->
-  <EquippedBy>vybaven {0}</EquippedBy>
+  <!-- EN: worn by {1_labelShort} -->
+  <WornBy>nosí {1_labelShort}</WornBy>
+  <!-- EN: equipped by {1_labelShort} -->
+  <EquippedBy>vybaven {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>Členové frakce {0} je chtějí zničit.\n    Odměna: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: Time left: {0} -->
@@ -320,8 +320,8 @@
   <NoDietCategoryLetter>Bez značky</NoDietCategoryLetter>
   <!-- EN: Expires in -->
   <ExpiresIn>Expiruje během</ExpiresIn>
-  <!-- EN: {0}'s caravan -->
-  <CaravanLeaderCaravanName>Karavana {0}</CaravanLeaderCaravanName>
+  <!-- EN: {1_labelShort}'s caravan -->
+  <CaravanLeaderCaravanName>Karavana {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Důvod</Reason>
   <!-- EN: Relations with {0} -->
@@ -428,12 +428,12 @@
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Nemůžeš dávat příkazy postavám, které neovládáš.</CannotOrderNonControlled>
-  <!-- EN: {0} is incapable of violence. -->
-  <IsIncapableOfViolence>{0} není schopen násilí.</IsIncapableOfViolence>
+  <!-- EN: {1_labelShort} is incapable of violence. -->
+  <IsIncapableOfViolence>{1_labelShort} není {1_gender ? schopen : schopna} násilí.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>neschopen násilí</IsIncapableOfViolenceShort>
-  <!-- EN: {0} is not drafted. -->
-  <IsNotDrafted>{0} není naverbován.</IsNotDrafted>
+  <!-- EN: {1_labelShort} is not drafted. -->
+  <IsNotDrafted>{1_labelShort} není {1_gender ? naverbován : naverbována}.</IsNotDrafted>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -458,16 +458,16 @@
   <CannotFire>Nemůže vystřelit</CannotFire>
   <!-- EN: roofed -->
   <Roofed>zastřešeno</Roofed>
-  <!-- EN: Shell loaded: {0} -->
-  <ShellLoaded>Nabito v komoře: {0}</ShellLoaded>
+  <!-- EN: Shell loaded: {1_label} -->
+  <ShellLoaded>Nabito v komoře: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Nenabito</ShellNotLoaded>
 
   <!-- Job reports -->
-  <!-- EN: hauling {0} to {1}. -->
-  <ReportHaulingTo>přenáší {0} do: {1}</ReportHaulingTo>
-  <!-- EN: hauling {0}. -->
-  <ReportHauling>přenáší {0}.</ReportHauling>
+  <!-- EN: hauling {THING_label} to {DESTINATION}. -->
+  <ReportHaulingTo>přenáší {THING_label} do: {DESTINATION}</ReportHaulingTo>
+  <!-- EN: hauling {1_label}. -->
+  <ReportHauling>přenáší {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>přenáší.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
@@ -496,8 +496,8 @@
   <ReportStanding>stojí.</ReportStanding>
   <!-- EN: extinguishing fire. -->
   <ReportExtinguishingFire>hasí oheň.</ReportExtinguishingFire>
-  <!-- EN: extinguishing fire on {0}. -->
-  <ReportExtinguishingFireOn>pokouší se uhasit {0}.</ReportExtinguishingFireOn>
+  <!-- EN: extinguishing fire on {TARGET_label}. -->
+  <ReportExtinguishingFireOn>pokouší se uhasit {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
 
@@ -526,8 +526,8 @@
   <Weather>Počasí</Weather>
   <!-- EN: Cover -->
   <ShootingCover>Krytí</ShootingCover>
-  <!-- EN: {0} stops {1} -->
-  <CoverThingBlocksPercentOfShots>{0} zastaví {1}</CoverThingBlocksPercentOfShots>
+  <!-- EN: {COVER_label} stops {1} -->
+  <CoverThingBlocksPercentOfShots>{COVER_label} zastaví {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>bez krytí</NoCoverLower>
   <!-- EN: Execution -->
@@ -562,12 +562,12 @@
   <MentalBreakThresholdMinor>Práh menšího zhroucení</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
-  <!-- EN: {0} {1} -->
-  <PawnMainDescGendered>{0}: {1}</PawnMainDescGendered>
+  <!-- EN: {PAWN_gender} {1} -->
+  <PawnMainDescGendered>{PAWN_gender}: {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} - {1}</PawnMainDescFactionedWrap>
-  <!-- EN: {1} {0} -->
-  <PawnMainDescLifestageWrap>{1} - {0}</PawnMainDescLifestageWrap>
+  <!-- EN: {2_lifeStageAdjective} {0} -->
+  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} - {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Frakce</Faction>
   <!-- EN: Equipped -->
@@ -666,8 +666,8 @@
   <LessThanADay>méně než jeden den</LessThanADay>
 
   <!-- Shooting tooltip -->
-  <!-- EN: Shot by {0} -->
-  <ShotBy>{0} zasáhne cíl s šancí</ShotBy>
+  <!-- EN: Shot by {1_labelShort} -->
+  <ShotBy>{1_labelShort} zasáhne cíl s šancí</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit>Nelze zasáhnout cíl.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
@@ -772,8 +772,8 @@
   <!-- Fire -->
   <!-- EN: Fire -->
   <Fire>Oheň</Fire>
-  <!-- EN: Fire on {0} -->
-  <FireOn>Oheň na {0}</FireOn>
+  <!-- EN: Fire on {1_label} -->
+  <FireOn>Oheň na {1_label}</FireOn>
   <!-- EN: Burning -->
   <Burning>Hoří</Burning>
   <!-- EN: fire size {0} -->
@@ -828,8 +828,8 @@
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
   <CasketContains>Obsah</CasketContains>
-  <!-- EN: Warning!\n\n[PAWN_nameDef] is your last free-standing colonist! If you let [PAWN_objective] step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Varování!\n\n[PAWN_nameDef] je tvůj poslední volně stojící kolonista! Jestli [PAWN_objective] necháš vstoupit do té komory, nebudeš schopný dál pokračovat v hraní. Určitě chceš i přesto pokračovat?</CasketWarning>
+  <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
+  <CasketWarning>Varování!\n\n{PAWN_nameDef} je tvůj poslední volně stojící kolonista! Jestli {PAWN_objective} necháš vstoupit do té komory, nebudeš schopný dál pokračovat v hraní. Opravdu to chceš provést?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -856,8 +856,8 @@
   <HibernateWarningStandalonePacifist>Lodní reaktor je připraven k uvedení do provozu. Tento proces zabere asi 15 dnů.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: {0} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>Použití neurotrénovacího mechanitího séra u {0} zvýšilo dovednost {1} z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
+  <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
+  <NeurotrainerUsed>{USER_labelShort} {USER_gender ? použil : použila} neurotrénovací mechanití sérum, což {USER_gender ? mu : jí} zlepšilo dovednost {1} z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -924,12 +924,12 @@
   <InactiveFacility>neaktivní</InactiveFacility>
 
   <!-- Hediffs growth modes -->
-  <!-- EN: {0}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>{0} {1} nyní roste.</DiseaseGrowthModeChanged_Growing>
-  <!-- EN: {0}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>{0} {1} je nyní stabilní.</DiseaseGrowthModeChanged_Stable>
-  <!-- EN: {0}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>{0} {1} nyní polevuje.</DiseaseGrowthModeChanged_Remission>
+  <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
+  <DiseaseGrowthModeChanged_Growing>{1} se právě rozrůstá. ({PAWN_labelShort})</DiseaseGrowthModeChanged_Growing>
+  <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
+  <DiseaseGrowthModeChanged_Stable>{1} je nyní stabilní. ({PAWN_labelShort})</DiseaseGrowthModeChanged_Stable>
+  <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
+  <DiseaseGrowthModeChanged_Remission>{1} právě ustupuje. ({PAWN_labelShort})</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
@@ -938,14 +938,14 @@
   <MarriageSpotNotUsable>Nepoužitelné: {0}</MarriageSpotNotUsable>
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>zablokované</MarriageSpotNotStandable>
-  <!-- EN: too dangerous for {0} -->
-  <MarriageSpotDangerous>příliš nebezpečné pro {0}</MarriageSpotDangerous>
-  <!-- EN: forbidden for {0} -->
-  <MarriageSpotForbidden>zakázané pro {0}</MarriageSpotForbidden>
+  <!-- EN: too dangerous for {1_labelShort} -->
+  <MarriageSpotDangerous>příliš nebezpečné pro {1_labelShort}</MarriageSpotDangerous>
+  <!-- EN: forbidden for {1_labelShort} -->
+  <MarriageSpotForbidden>zakázané pro {1_labelShort}</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>zamluvené</MarriageSpotReserved>
-  <!-- EN: unreachable for {0} -->
-  <MarriageSpotUnreachable>nedosažitelné pro {0}</MarriageSpotUnreachable>
+  <!-- EN: unreachable for {1_labelShort} -->
+  <MarriageSpotUnreachable>nedosažitelné pro {1_labelShort}</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>ve vězeňské cele</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
