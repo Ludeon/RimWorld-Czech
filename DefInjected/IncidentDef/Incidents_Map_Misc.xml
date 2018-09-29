@@ -104,9 +104,9 @@
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>divoch bloudí oblastí</WildManWandersIn.label>
-  <!-- EN: Wild man wanders in -->
-  <WildManWandersIn.letterLabel>Divoch bloudí oblastí</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame {PAWN_objective}. -->
-  <WildManWandersIn.letterText>Člověk žijící mezi divokými zvířaty se zatoulal do této oblasti. {PAWN_possessive} dřívější jméno bylo {0}.\n\nMůžeš se {PAWN_objective} pokusit ochočit.</WildManWandersIn.letterText>
+  <!-- EN: {PAWN_kind} wanders in -->
+  <WildManWandersIn.letterLabel>{PAWN_kind} bloudí oblastí</WildManWandersIn.letterLabel>
+  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
+  <WildManWandersIn.letterText>Do této oblasti se {PAWN_gender ? zatoulal : zatoulala} {PAWN_gender} žijící mezi divokými zvířaty. Dříve {PAWN_gender ? mu : ji} říkali {0}.\n\nMůžeš se {PAWN_objective} pokusit ochočit nebo zadržet.</WildManWandersIn.letterText>
   
 </LanguageData>
