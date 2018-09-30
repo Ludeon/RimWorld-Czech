@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Mad {ANIMAL_labelShort} -->
+  <LetterLabelAnimalInsanitySingle>Zuřící {0}</LetterLabelAnimalInsanitySingle>
+  <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
+  <AnimalInsanitySingle>Zdejší {ANIMAL_label} zuří. Zaútočí na každého, koho spatří.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanitySingle>Šílené zvíře ({0})</LetterLabelAnimalInsanitySingle>
-  <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Místní {0} šílí. Zaútočí na každého, koho uvidí.</AnimalInsanitySingle>
-  <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>Šílená zvířata ({0})</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>Zuřící {0}</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nVypadá to, že mnoho zvířat v oblasti to dohnalo k nepříčetnosti.\n\nDruh zvěře: {0}</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nZdá se, že mnoho zvířat v oblasti to dohnalo k nepříčetnosti.\n\nDruh zvěře: {0}</AnimalInsanityMultiple>
 
   <!-- EN: Blight -->
   <LetterLabelCropBlight>Plíseň na poli</LetterLabelCropBlight>
@@ -21,23 +21,23 @@
   <MiracleHeal>{0} právě zažil[PAWN_pronoun] zázračné uzdravení!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Jeden z {0} - {1}, je lídrem frakce.</EnemyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <EnemyRaidLeaderPresent>{LEADER_gender ? Jeden : Jedna} {LEADER_gender} ze skupiny {LEADER_factionPawnsPlural}, {LEADER_gender ? který : která} si říká {LEADER_labelShort}, je {LEADER_gender ? lídrem : vůdkyní} jejich frakce.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Jeden z {0} - {1}, je lídrem frakce.</FriendlyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <FriendlyRaidLeaderPresent>{LEADER_gender ? Jeden : Jedna} {LEADER_gender} ze skupiny {LEADER_factionPawnsPlural}, {LEADER_gender ? který : která} si říká {LEADER_labelShort}, je {LEADER_gender ? lídrem : vůdkyní} jejich frakce.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Zřícení přepravního modulu</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
-  <RefugeePodCrash>[PAWN_title] jménem [PAWN_nameDef] havaroval[PAWN_pronoun] poblíž v přepravním modulu. Pokud ten náraz přežil[PAWN_pronoun], bude mít pravděpodobně vážné zranění.</RefugeePodCrash>
-  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>[PAWN_nameDef] nepatří k žádné frakci. Můžeš [PAWN_objective] zachránit a doufat, že se k tobě přidá, a nebo [PAWN_objective] můžeš zajmout pro účely náboru nebo otroctví.</RefugeePodCrash_Factionless>
-  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>[PAWN_nameDef] patří k nepřátelské frakci [PAWN_factionName]. Můžeš [PAWN_objective] zajmout pro účely náboru nebo otroctví.</RefugeePodCrash_Hostile>
-  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
-  <RefugeePodCrash_NonHostile>[PAWN_nameDef] patří k frakci [PAWN_factionName]. Pokud [PAWN_objective] zachráníš, může se k tobě přidat. V opačném případě se vrátí domů, kde bude šířit dobrou pověst tvé frakce.\n\nMůžeš [PAWN_objective] také zajmout pro účely náboru nebo otroctví, to ale vyvolá hněv v [PAWN_possessive] frakci.</RefugeePodCrash_NonHostile>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
+  <RefugeePodCrash>{PAWN_titleIndef} jménem {PAWN_nameDef} {PAWN_gender ? havaroval : havarovala} poblíž se svým přepravním modulem. Pokud ten náraz {PAWN_gender ? přežil : přežila}, bude pravděpodobně vážně {PAWN_gender ? zraněný : zraněná}.</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} nepatří k žádné frakci. Můžeš {PAWN_objective} zachránit a doufat, že se k tobě přidá, a nebo {PAWN_objective} můžeš zajmout pro účely náboru či otroctví.</RefugeePodCrash_Factionless>
+  <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Hostile>{PAWN_nameDef} patří k nepřátelské frakci {PAWN_factionName}. Můžeš {PAWN_objective} zajmout pro účely náboru či otroctví.</RefugeePodCrash_Hostile>
+  <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} patří k frakci {PAWN_factionName}. Pokud {PAWN_objective} zachráníš, může se k tobě přidat. V opačném případě se vrátí domů, kde bude šířit dobrou pověst tvé frakci.\n\nMůžeš {PAWN_objective} také zajmout pro účely náboru či otroctví, to ale vyvolá hněv v {PAWN_possessive} frakci.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Nákladní moduly</LetterLabelCargoPodCrash>
@@ -60,27 +60,27 @@
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
   <TraderArrival>Nedaleko prolétá obchodní loď. Je to {1}.\n\nNázev společnosti: {0}</TraderArrival>
 
-  <!-- EN: A {0} from {1} is passing by. [PAWN_pronoun] is named {2}. -->
-  <SingleTravelerPassing>Kolem prochází {0} z frakce {1}. Jmenuje se {2}.</SingleTravelerPassing>
+  <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
+  <SingleTravelerPassing>Kolem prochází {PAWN_title} z frakce {1}. Jmenuje se {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Kolem prochází skupina cestovatelů z frakce {0}.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Návštěvník</LetterLabelSingleVisitorArrives>
-  <!-- EN: A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4} -->
-  <SingleVisitorArrives>Kolonii jde navštívit {0} z frakce {1}.\n\nJmenuje se {2}.{3}{4}</SingleVisitorArrives>
-  <!-- EN: \n\n[PAWN_pronoun] seems to have a few items to trade. -->
+  <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
+  <SingleVisitorArrives>Kolonii přichází navštívit {PAWN_title} z frakce {1}.\n\nJmenuje se {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\nZdá se, že má pár věcí na prodej.</SingleVisitorArrivesTraderInfo>
-  <!-- EN: \n\n[PAWN_pronoun] is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\nJe lídrem frakce.</SingleVisitorArrivesLeaderInfo>
+  <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
+  <SingleVisitorArrivesLeaderInfo>{PAWN_nameDef} je v té frakci {PAWN_gender ? lídrem : vůdkyní}.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Návštěvníci</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
-  <GroupVisitorsArrive>Kolonii jde navštívit skupina z frakce {0}.{1}{2}</GroupVisitorsArrive>
-  <!-- EN: \n\nThey seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>\n\nZdá se, že mají pár věcí na prodej.</GroupVisitorsArriveTraderInfo>
-  <!-- EN: \n\nOne of the visitors - {0}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nJeden z návštěvníků, konkrétně {0}, je lídrem frakce.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArrive>Kolonii přichází navštívit skupina návštěvníků z frakce {0}.{1}{2}</GroupVisitorsArrive>
+  <!-- EN: They seem to have a few items to trade. -->
+  <GroupVisitorsArriveTraderInfo>Zdá se, že mají pár věcí na prodej.</GroupVisitorsArriveTraderInfo>
+  <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
+  <GroupVisitorsArriveLeaderInfo>{1_gender ? Jeden : Jedna} {1_gender} ze skupiny návštěvníků, {1_gender ? který : která} si říká {1_labelShort}, je {1_gender ? lídrem : vůdkyní} jejich frakce.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Návštěva z frakce {0} odchází.</VisitorsLeaving>
 
@@ -129,24 +129,24 @@
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Pronásledovaný uprchlík ({0})</RefugeeChasedTitle>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>[PAWN_title] jménem [PAWN_nameDef] ti volá z nedaleké oblasti. Je pronásledován[PAWN_pronoun] skupinou {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii. [PAWN_nameDef] říká, že má {4} let, ale že zrovna nemá čas podat o sobě více informací.\n\nVarování - pokud nabídku přijmeš, budeš se muset vypořádat se skupinou {2}, kterou má za zády. Jejich skupina je složena z:\n\n{5}</RefugeeChasedInitial>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
+  <RefugeeChasedInitial>{PAWN_titleIndef} jménem {PAWN_nameDef} ti volá z nedaleké oblasti. Je {PAWN_gender ? pronásledovaný : pronásledovaná} skupinou {2} z frakce {3}!\n\nŽádá tě o ochranu a nabízí ti, že se přidá ke tvé kolonii. {PAWN_nameDef} říká, že má {4} let, ale zrovna nemá čas o sobě podat více informací.\n\nVarování - pokud nabídku přijmeš, budeš se muset vypořádat se skupinou {2}, kterou má za zády. Jejich skupinu tvoří:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Nabídnout bezpečí</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>Zprávu ignorovat</RefugeeChasedInitial_Reject>
-  <!-- EN: {0} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>Ještě než jsi přerušil spojení, tak jsi slyšel skrze malý reproduktor, jak {0} křičí\nv panice.</RefugeeChasedRejected>
+  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
+  <RefugeeChasedRejected>{1_labelShort} zoufale {1_gender ? křičel : křičela} z drobného chrastícího reproduktoru, dokud si nepřerušil spojení.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <!-- EN: {0} self-tamed -->
-  <LetterLabelAnimalSelfTame>Samovolné ochočení: {0}</LetterLabelAnimalSelfTame>
+  <!-- EN: {1_kind} self-tamed -->
+  <LetterLabelAnimalSelfTame>Samovolné ochočení: {1_kind}</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
-  <LetterAnimalSelfTame>Samovolné ochočení zvířete.\n\nDruh zvířete: {0}</LetterAnimalSelfTame>
-  <!-- EN: {0} has become tame. It is now designated {1}. -->
-  <LetterAnimalSelfTameAndNameNumerical>Samovolné ochočení zvířete.\n\nDruh zvířete: {0}\n\nKolonisté ho označili jako {1}.</LetterAnimalSelfTameAndNameNumerical>
-  <!-- EN: {0} has become tame. Colonists have decided to name it {1}. -->
-  <LetterAnimalSelfTameAndName>Samovolné ochočení zvířete.\n\nDruh zvířete: {0}\n\nKolonisté ho pojmenovali jako {1}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTame>Došlo k samovolnému ochočení zvířete.\n\nDruh zvířete: {0}</LetterAnimalSelfTame>
+  <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndNameNumerical>Došlo k samovolnému ochočení zvířete.\n\nDruh zvířete: {0}\n\nZvíře dostalo označení {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndName>Došlo k samovolnému ochočení zvířete.\n\nDruh zvířete: {0}\n\nKolonisté se rozhodli, že budou zvířeti říkat {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -169,8 +169,8 @@
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Požadování výkupného ({0})</RansomDemandTitle>
-  <!-- EN: {1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} tě zkontaktovali skrze vysílačku. Drží bývalého člena kolonie jménem {0} kvůli výkupnému.\n\nJsou ochotni [PAWN_objective] propustit, aby se mohl[PAWN_pronoun] vrátit k tobě, ale pouze výměnou za {2} stříbra.</RansomDemand>
+  <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
+  <RansomDemand>Někdo z frakce {1} tě zkontaktoval skrze vysílačku. Říká, že kvůli výkupnému zadržují {PAWN_gender ? tvého : tvou} {PAWN_gender ? bývalého : bývalou} {PAWN_gender ? člena : členku} kolonie jménem {PAWN_labelShort}.\n\nJsou ochotni {PAWN_objective} propustit, aby se k tobě {PAWN_gender ? mohl : mohla} vrátit, ale pouze výměnou za {2} stříbra.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Přijmout</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -206,11 +206,13 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Poptávka karavany</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Nedaleká osada, {0}, tě kontaktovala se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  {1} (hodnota {2})\n\nNa oplátku ti nabízí:\n\n  {3} (hodnota {4})\n\nTato nabídka vyprší za: {5}\n\nPokud chceš provést obchod, pošli karavanu s požadovanými zásobami. Odhadovaná doba cesty je {6}. Tuto nabídku můžeš zobrazit výběrem {0} na mapě světa.</LetterCaravanRequest>
+  <LetterCaravanRequest>Nedaleká osada, {0}, tě zkontaktovala se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  {1} (hodnota {2})\n\nNa oplátku ti nabízí:\n\n  {3} (hodnota {4})\n\nTato nabídka vyprší za: {5}\n\nPokud chceš provést obchod, pošli karavanu s požadovanými zásobami. Odhadovaná doba cesty je {6}. Tuto nabídku můžeš zobrazit výběrem '{0}' na mapě světa.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
   <CaravanRequestInfo>Poptávka: {0} ({3}), Odměna: {1} ({4}) ({2} zbývá)</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>normální kvalita nebo lepší</NormalQualityOrBetter>
+  <!-- EN: not tainted -->
+  <NotTainted>nepoškozené</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
