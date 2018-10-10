@@ -134,7 +134,7 @@
 
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {patient.LabelShort}. -->
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
   <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureRidiculous>
@@ -280,7 +280,7 @@
   <MessageSettledInExistingMap>Úspěšně ses usídlil v nové oblasti.</MessageSettledInExistingMap>
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>{PAWN_labelShort} se {1_gender ? uzdravil : uzdravila}. {PAWN_possessive} {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
+  <MessagePermanentWoundHealed>{PAWN_labelShort} se {PAWN_gender ? uzdravil : uzdravila}. {PAWN_possessive} {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
 
   <!-- EN: Since you rescued {!_objective}, {1_labelShort} has joined your group! -->
   <MessageRescueeJoined>Sotva {1_gender ? byl : byla} {1_labelShort} zachráněna, {1_gender ? přidal : přidala} se ke tvé skupině!</MessageRescueeJoined>
