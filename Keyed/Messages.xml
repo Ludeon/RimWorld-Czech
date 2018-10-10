@@ -9,7 +9,7 @@
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
   <MessageRaidersDetectedEarlyAssault>Skupina {0} z frakce {1} tě odhalila, a proto zahájila předčasně útok.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>Skupina {0} z frakce {1} se rozhodla odejít, ale nejdříve se pokusí někoho unést, kdo nebude klást odpor.</MessageRaidersKidnapping>
+  <MessageRaidersKidnapping>Skupina {0} z frakce {1} se rozhodla odejít, ale nejdříve se pokusí někoho, kdo nebude klást odpor, unést.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>Skupina {0} z frakce {1} se rozhodla odejít, ale nejdříve se pokusí ukrást vše, co jim přijde vhod.</MessageRaidersStealing>
 
@@ -32,8 +32,8 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>Skupina {0} z frakce {1} opouští oblast z důvodu nebezpečné teploty.</MessageVisitorsDangerousTemperature>
 
-  <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>{0}, který nosil {1}, se rozpadl na cucky.</MessageWornApparelDeterioratedAway>
+  <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
+  <MessageWornApparelDeterioratedAway>Část výstroje ({0}), kterou {1_nameFull} {1_gender ? nosil : nosila}, se rozpadla na cucky.</MessageWornApparelDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Nastává {0}.</MessageSeasonBegun>
@@ -45,43 +45,43 @@
   <MessageNeedBeaconToTradeWithShip>Potřebuješ orbitální obchodní maják, abys mohl obchodovat s lodí.</MessageNeedBeaconToTradeWithShip>
 
   <!-- EN: Bill complete: {0}. -->
-  <MessageBillComplete>Úkol splněn: {0}.</MessageBillComplete>
+  <MessageBillComplete>Úkol '{0}' byl dokončen.</MessageBillComplete>
 
-  <!-- EN: {0} is fully healed. -->
-  <MessageFullyHealed>{0} se zcela uzdravil.</MessageFullyHealed>
+  <!-- EN: {1_label} is fully healed. -->
+  <MessageFullyHealed>{1_label} se zcela {1_gender ? uzdravil : uzdravila}.</MessageFullyHealed>
 
-  <!-- EN: Prisoner {0} is escaping. -->
-  <MessagePrisonerIsEscaping>Vězeň jménem {0} se pokouší utéct.</MessagePrisonerIsEscaping>
+  <!-- EN: Prisoner {1_labelShort} is escaping. -->
+  <MessagePrisonerIsEscaping>{1_gender ? Vězeň : Vězeňkyně} {1_labelShort} uniká.</MessagePrisonerIsEscaping>
 
-  <!-- EN: {0} found no nearby unreserved shells for {1}. -->
-  <MessageOutOfNearbyShellsFor>{0} nenašel v okolí žádné vyhrazené dělostřelecké granáty pro {1}.</MessageOutOfNearbyShellsFor>
+  <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort} {PAWN_gender ? nenašel : nenašla} v okolí žádné vyhrazené dělostřelecké granáty pro {GUN_label}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
-  <MessageAnimalsGoPsychoHunted>Varování: {0} mají {1} šanci, že se při zranění uděleným z dálky začnou bránit. Šance je vyšší, pokud je lovec blíže, a nižší, pokud má slušnou maskovací schopnost.</MessageAnimalsGoPsychoHunted>
-  <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Varování: {0} mohou po neúspěšném pokusu o ochočení zaútočit (šance {1}).</MessageAnimalManhuntsOnTameFailed>
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+  <MessageAnimalsGoPsychoHunted>Varování: {ANIMAL_kindBasePlural} mají {1} šanci, že se při zranění uděleným z dálky začnou bránit. Šance je vyšší, pokud je lovec blíže, a nižší, pokud má slušnou maskovací schopnost.</MessageAnimalsGoPsychoHunted>
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
+  <MessageAnimalManhuntsOnTameFailed>Varování: {ANIMAL_kindBasePlural} mohou po neúspěšném pokusu o ochočení zaútočit (šance {1}).</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nový rekrut</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <MessageRecruitSuccess>{0} se podařilo naverbovat vězně jménem {1} s šancí {2}.</MessageRecruitSuccess>
-  <!-- EN: {0} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{0} se podařilo ochočit zvíře {1} s šancí {2}.</MessageTameSuccess>
-  <!-- EN: {0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}. -->
-  <MessageTameAndNameSuccess>{0} se podařilo ochočit zvíře {1} s šancí {2}. Zvíře dostalo jméno {3}</MessageTameAndNameSuccess>
+  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
+  <MessageRecruitSuccess>{RECRUITER_nameFull} úspěšně {RECRUITER_gender ? naverboval : naverbovala} vězně jménem {1} (šance byla {2}).</MessageRecruitSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
+  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) (šance byla {2}).</MessageTameSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) s šancí {2} a zrovna mu {RECRUITER_gender ? dal : dala} jméno {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
-  <MessageColonyCannotAfford>Kolonie si tento obchod nemůže dovolit.</MessageColonyCannotAfford>
+  <MessageColonyCannotAfford>Kolonie si tuto transakci nemůže dovolit.</MessageColonyCannotAfford>
   <!-- EN: You do not have enough silver ready to trade. -->
-  <MessageColonyNotEnoughSilver>Nemáš dost připraveného stříbra pro obchod.</MessageColonyNotEnoughSilver>
+  <MessageColonyNotEnoughSilver>K uskutečnění tohoto obchodu nemáš dostatek stříbra.</MessageColonyNotEnoughSilver>
 
   <!-- EN: Critical alert: {0} -->
   <MessageCriticalAlert>Kritická výstraha: {0}</MessageCriticalAlert>
 
   <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Ke sklizni musíš označit dostatečně vzrostlé rostliny.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestable>Musíš označit dostatečně vzrostlé rostliny, které lze sklidit.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>K pokácení musíš určit dostatečně vzrostlé rostliny, ze kterých je dřevo.</MessageMustDesignateHarvestableWood>
+  <MessageMustDesignateHarvestableWood>Musíš označit dostatečně vzrostlé rostliny, ze kterých se získává dřevo.</MessageMustDesignateHarvestableWood>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Musíš označit rostliny.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -111,56 +111,56 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Musíš označit zakázané předměty.</MessageMustDesignateUnforbiddable>
 
-  <!-- EN: {0} has refused to be arrested! -->
-  <MessageRefusedArrest>{0} se odmítá nechat zatknout!</MessageRefusedArrest>
+  <!-- EN: {1_labelShort} has refused to be arrested! -->
+  <MessageRefusedArrest>{1_labelShort} {1_gender ? odmítl : odmítla} být {1_gender ? zadržen : zadržena}!</MessageRefusedArrest>
   
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>Nejsou k dispozici žádné zdravotnické postele.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Nejsou k dispozici žádná místa pro zvířata, na kterých by mohla spát.</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {1}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>K operaci bude zapotřebí {0} nebo lepší léky. V současnosti má ale {1} nastavený režim '{2}'.</MessageTooLowMedCare>
+  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
+  <MessageTooLowMedCare>K operaci bude potřeba {0} nebo lepší. V současnosti má {PAWN_labelShort} nastavený režim '{2}'.</MessageTooLowMedCare>
   
-  <!-- EN: {0} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{0} zemřel[PAWN_pronoun].\n\nPříčina: {1}</PawnDiedBecauseOf>
-  <!-- EN: {0} has died. -->
-  <PawnDied>{0} zemřel[PAWN_pronoun].</PawnDied>
+  <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
+  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}</PawnDiedBecauseOf>
+  <!-- EN: {1_labelShort} has died. -->
+  <PawnDied>{1_labelShort} {1_gender ? zemřel : zemřela}.</PawnDied>
 
-  <!-- EN: {0} is no longer incapable of walking. -->
-  <MessageNoLongerDowned>{0} může opět chodit.</MessageNoLongerDowned>
+  <!-- EN: {1_label} is no longer incapable of walking. -->
+  <MessageNoLongerDowned>{1_label} může opět chodit.</MessageNoLongerDowned>
 
-  <!-- EN: {0} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{0} zkolaboval v důsledku extrémního vyčerpání.</MessageInvoluntarySleep>
+  <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
+  <MessageInvoluntarySleep>{1_labelShort} v důsledku extrémního vyčerpání {1_gender ? zkolaboval : zkolabovala}.</MessageInvoluntarySleep>
 
-  <!-- EN: {0} has failed in a minor way while operating on {1}. -->
-  <MessageMedicalOperationFailureMinor>{0} mírně selhal, když operoval pacienta {1}.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {0} has failed catastrophically while operating on {1}. -->
-  <MessageMedicalOperationFailureCatastrophic>{0} katastrofálně selhal, když operoval pacienta {1}.</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {0} has failed in a ridiculous way while operating on {1}. -->
-  <MessageMedicalOperationFailureRidiculous>{0} směšným způsobem selhal, když operoval pacienta {1}.</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {0} has committed a fatal error while operating on {1} because of the special challenges of: {2} -->
-  <MessageMedicalOperationFailureFatal>{0} se při operaci dopustil fatální chyby, když operoval pacienta {1}, kvůli speciálním výzvám: {2}</MessageMedicalOperationFailureFatal>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureMinor>
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {patient.LabelShort}. -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureCatastrophic>
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureRidiculous>
+  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} fatální chyby kvůli zvláštním výzvám: {2}\n\nPokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureFatal>
 
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Tato operace vyvolá ve frakci {0} hněv.</MessageMedicalOperationWillAngerFaction>
 
   <!-- EN: {0} has miscarried due to starvation. -->
-  <MessageMiscarriedStarvation>{0} potratila kvůli vyhladovění.</MessageMiscarriedStarvation>
+  <MessageMiscarriedStarvation>{0} kvůli vyhladovění potratila.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} potratila kvůli špatnému zdravotnímu stavu.</MessageMiscarriedPoorHealth>
+  <MessageMiscarriedPoorHealth>{0} kvůli špatnému zdravotnímu stavu potratila.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} porodila.</MessageGaveBirth>
 
-  <!-- EN: {0} has named {1} {2} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{0} pojmenoval {1} jménem {2} poté, co se k němu přitulil.</MessageNuzzledPawnGaveNameTo>
+  <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
+  <MessageNuzzledPawnGaveNameTo>Zdá se, že {1} bude pěkný mazel. Poté, co se zvíře přitulilo, mu {NAMER_nameFull} {NAMER_gender ? začal : začala} říkat {NAMEE_nameFull}.</MessageNuzzledPawnGaveNameTo>
 
-  <!-- EN: No handler can tame {0} (requires level {1} in {2}, best handler {3} has {4}). -->
-  <MessageNoHandlerSkilledEnough>Žádný trenér nemůže ochočit {0} (vyžadována dovednost {2} na úrovni {1}; nejlepším trenérem je aktuálně {3} - má úroveň {4}).</MessageNoHandlerSkilledEnough>
+  <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
+  <MessageNoHandlerSkilledEnough>Žádný trenér nedokáže tohle zvíře ochočit ({ANIMAL_kindBase} vyžaduje dovednost {2} na úrovni {1}; {HANDLER_gender ? nejlepším : nejlepší} {HANDLER_gender ? trenérem : trenérkou} je aktuálně {HANDLER_labelShort}, {HANDLER_gender ? který : která} má úroveň {4}).</MessageNoHandlerSkilledEnough>
   
-  <!-- EN: {0} has been eaten by {1}. -->
-  <MessageEatenByPredator>{1} sežral {0}.</MessageEatenByPredator>
-  <!-- EN: {0} is being attacked by {1}! -->
-  <MessageAttackedByPredator>{0} útočí na {1}!</MessageAttackedByPredator>
+  <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
+  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? byl : byla} {EATEN_gender ? sežrán : sežrána} nebezpečným zvířetem ({PREDATOR}).</MessageEatenByPredator>
+  <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
+  <MessageAttackedByPredator>{PREY_labelShort} {PREY_gender ? byl : byla} {PREY_gender ? napaden : napadena} nebezpečným zvířetem ({PREDATOR})!</MessageAttackedByPredator>
   
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Kolonie brouků se samovolně reprodukovala.</MessageHiveReproduced>
@@ -168,39 +168,39 @@
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>Obchodní karavana z frakce {0} odchází.</MessageTraderCaravanLeaving>
   
-  <!-- EN: {0} is dead. -->
-  <MessageCantSelectDeadPawn>{0} je po smrti.</MessageCantSelectDeadPawn>
-  <!-- EN: {0} is off the map. -->
-  <MessageCantSelectOffMapPawn>{0} je mimo mapu.</MessageCantSelectOffMapPawn>
+  <!-- EN: {1_labelShort} is dead. -->
+  <MessageCantSelectDeadPawn>{1_labelShort} je {1_gender ? mrtvý : mrtvá}.</MessageCantSelectDeadPawn>
+  <!-- EN: {1_labelShort} is off the map. -->
+  <MessageCantSelectOffMapPawn>{1_labelShort} je mimo mapu.</MessageCantSelectOffMapPawn>
   
-  <!-- EN: {0} started a social fight with {1}. -->
-  <MessageSocialFight>{0} a {1} se začali prát. Podněcovatelem rvačky je {0}.</MessageSocialFight>
+  <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
+  <MessageSocialFight>{PAWN1_labelShort} a {PAWN2_labelShort} se začali prát. První ránu {PAWN1_gender ? udělil : udělila} {PAWN1_labelShort}.</MessageSocialFight>
   
-  <!-- EN: Colonists are gathering to celebrate {0} and {1}’s marriage. -->
-  <MessageNewMarriageCeremony>Kolonisté se scházejí, aby oslavili sňatek, při kterém se {0} a {1} stanou manželi.</MessageNewMarriageCeremony>
-  <!-- EN: {0} and {1} are beginning their marriage ceremony! -->
-  <MessageMarriageCeremonyStarts>{0} a {1} zahajují svůj svatební obřad!</MessageMarriageCeremonyStarts>
-  <!-- EN: The marriage ceremony for {0} and {1} has been called off. -->
-  <MessageMarriageCeremonyCalledOff>Svatební obřad, při kterém se měli vzít {0} a {1}, byl odvolán.</MessageMarriageCeremonyCalledOff>
-  <!-- EN: {0} and {1} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>{0} a {1} uzavřeli manželství. Kolonisté nyní tuto událost řádně oslaví.</MessageNewlyMarried>
-  <!-- EN: The marriage ceremony for {0} and {1} has finished. -->
-  <MessageMarriageCeremonyAfterPartyFinished>Svatební slavnost, kterou {0} a {1} uspořádali, je nyní u konce.</MessageMarriageCeremonyAfterPartyFinished>
+  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}’s marriage. -->
+  <MessageNewMarriageCeremony>Kolonisté se scházejí, aby oslavili sňatek, při kterém se {PAWN1_labelShort} a {PAWN2_labelShort} stanou manželi.</MessageNewMarriageCeremony>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
+  <MessageMarriageCeremonyStarts>{PAWN1_labelShort} a {PAWN2_labelShort} zahajují svůj svatební obřad!</MessageMarriageCeremonyStarts>
+  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
+  <MessageMarriageCeremonyCalledOff>Svatební obřad, při kterém měli {PAWN1_labelShort} a {PAWN2_labelShort} uzavřít sňatek, byl odvolán.</MessageMarriageCeremonyCalledOff>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
+  <MessageNewlyMarried>{PAWN1_labelShort} a {PAWN2_labelShort} uzavřeli manželství. Kolonisté nyní tuto událost řádně oslaví.</MessageNewlyMarried>
+  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
+  <MessageMarriageCeremonyAfterPartyFinished>Svatební slavnost, kterou {PAWN1_labelShort} a {PAWN2_labelShort} uspořádali, je nyní u konce.</MessageMarriageCeremonyAfterPartyFinished>
   
-  <!-- EN: {0} and {1} have formed a bond. -->
-  <MessageNewBondRelation>Mezi {0} a {1} se vytvořilo pouto.</MessageNewBondRelation>
-  <!-- EN: {0} and {1} have formed a bond. {0} has named [PAWN_objective] {2}. -->
-  <MessageNewBondRelationNewName>Mezi {0} a {1} se vytvořilo pouto. {0} [PAWN_objective] pojmenoval jako {2}.</MessageNewBondRelationNewName>
+  <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
+  <MessageNewBondRelation>Mezi {HUMAN_labelShort} a {ANIMAL_labelShort} se vytvořilo pouto.</MessageNewBondRelation>
+  <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
+  <MessageNewBondRelationNewName>Mezi {HUMAN_labelShort} a {1} se vytvořilo pouto. {HUMAN_labelShort} {HUMAN_gender ? dal : dala} zvířeti jméno {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
-  <!-- EN: {0} has a mental break because of {1}'s death. -->
-  <MessageBondedAnimalMentalBreak>Jelikož je {1} po smrti, {0} se začíná psychicky hroutit.</MessageBondedAnimalMentalBreak>
-  <!-- EN: {0} named {1} has a mental break because of {2}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>Jelikož je {2} po smrti, {0} jménem {1} se začíná psychicky hroutit.</MessageNamedBondedAnimalMentalBreak>
-  <!-- EN: {0} animals have a mental break because of {1}'s death. -->
-  <MessageBondedAnimalsMentalBreak>Jelikož je {1} po smrti, zvířata, celkem {0}, se psychicky zhroutila.</MessageBondedAnimalsMentalBreak>
+  <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
+  <MessageBondedAnimalMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, {ANIMAL} se začíná psychicky hroutit.</MessageBondedAnimalMentalBreak>
+  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
+  <MessageNamedBondedAnimalMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, {ANIMAL_kindIndef} jménem {ANIMAL_label} se začíná psychicky hroutit.</MessageNamedBondedAnimalMentalBreak>
+  <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
+  <MessageBondedAnimalsMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, zvířata (celkem {0}) se psychicky zhroutila.</MessageBondedAnimalsMentalBreak>
   
-  <!-- EN: {0} has successfully removed {1}'s {2}. -->
-  <MessageSuccessfullyRemovedHediff>{0} úspěšně odstranil {1} {2}.</MessageSuccessfullyRemovedHediff>
+  <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} úspěšně {SURGEON_gender ? odstranil : odstranila} {HEDIFF} pacientovi jménem {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Nedaleko dopadly kusy vesmírné lodě. Můžeš je rozebrat, abys získal nějaké suroviny.</MessageShipChunkDrop>
@@ -213,29 +213,29 @@
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Některé položky nešlo prodat z důvodu: </MessageCannotSellItemsReason>
 
-  <!-- EN: {1} failed while constructing {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{1} selhal při výstavbě {0}. Některé suroviny byly promrhány.</MessageConstructionFailed>
+  <!-- EN: {WORKER_labelShort} failed while constructing {0}. Some resources have been wasted. -->
+  <MessageConstructionFailed>Některé suroviny na {0} byly promrhány, protože {WORKER_labelShort} při výstavbě {WORKER_gender ? selhal : selhala}.</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Snímek obrazovky byl uložen jako: {0}</MessageScreenshotSavedAs>
   
-  <!-- EN: {0} and {1} are no longer social fighting. -->
-  <MessageNoLongerSocialFighting>{0} a {1} se přestali prát.</MessageNoLongerSocialFighting>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
+  <MessageNoLongerSocialFighting>{PAWN1_labelShort} a {PAWN2_labelShort} se přestali prát.</MessageNoLongerSocialFighting>
   
-  <!-- EN: {0} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{0} už tolik netouží po {1}.</MessageNoLongerBingingOnDrug>
+  <!-- EN: {2_labelShort} is no longer binging on {1}. -->
+  <MessageNoLongerBingingOnDrug>{2_labelShort} {2_gender ? přestal : přestala} nekontrolovatelně užívat {1}.</MessageNoLongerBingingOnDrug>
 
-  <!-- EN: {0} is no longer on an insulting spree against {1}. -->
-  <MessageNoLongerOnTargetedInsultingSpree>{0} už cíleně neuráží osobu jménem {1}.</MessageNoLongerOnTargetedInsultingSpree>
+  <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
+  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} {PAWN_gender ? přestal : přestala} cíleně urážet svou oběť jménem {TARGET_label}.</MessageNoLongerOnTargetedInsultingSpree>
 
-  <!-- EN: {0} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{0} shnilo ve skladišti.</MessageRottedAwayInStorage>
+  <!-- EN: {1_label} has rotted away in storage. -->
+  <MessageRottedAwayInStorage>Ve skladišti shnilo: {1_label}</MessageRottedAwayInStorage>
   
-  <!-- EN: {0} has gotten food poisoning from: {1}. Cause: {2}. -->
-  <MessageFoodPoisoning>{0} jeví známky otravy jídlem. {1} je původcem otravy. Příčina: {2}.</MessageFoodPoisoning>
+  <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
+  <MessageFoodPoisoning>{PAWN_labelShort} jeví známky otravy jídlem. Původcem otravy je {FOOD_labelShort}. Příčina: {2}.</MessageFoodPoisoning>
   
   <!-- EN: {0} has been removed from the caravan. -->
-  <MessagePawnLostWhileFormingCaravan>{0} byl[PAWN_pronoun] odstraněn[PAWN_pronoun] z karavany.</MessagePawnLostWhileFormingCaravan>
+  <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? byl : byla} {0_gender ? odstraněn : odstraněna} z karavany.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>Průběh shromažďování karavany byl přerušen.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
@@ -252,44 +252,38 @@
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>Rostlina uhynula kvůli chladu. ({0})</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>Rostlina shnila, protože se včas nesklidila. ({0}).</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>Rostlina shnila, protože se včas nesklidila. ({0})</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>Rostlina uhynula, protože byla vystavena světlu. ({0})</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>Rostlina shnila ({0})</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>Rostlina shnila. ({0})</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>Rostlina uhynula kvůli jedu. ({0})</MessagePlantDiedOfPoison>
-  <!-- EN: {0} has died because of blight. -->
-  <MessagePlantDiedOfBlight>Rostlina zplesnivěla. ({0})</MessagePlantDiedOfBlight>
+  <!-- EN: {1_label} has died because of blight. -->
+  <MessagePlantDiedOfBlight>Rostlina uhynula kvůli plísni. ({0})</MessagePlantDiedOfBlight>
 
-  <!-- EN: {0} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>{0} byl popálen přehřátým vzduchem!</MessagePawnBeingBurned>
+  <!-- EN: {1_labelShort} is being burned by superheated air! -->
+  <MessagePawnBeingBurned>{1_labelShort} {1_gender ? byl : byla} {1_gender ? popálen : popálena} přehřátým vzduchem!</MessagePawnBeingBurned>
 
-  <!-- EN: {0} has accidentally overdosed while consuming {1}! -->
-  <MessageAccidentalOverdose>{0} se náhodou předávkoval, když jedl {1}!</MessageAccidentalOverdose>
+  <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
+  <MessageAccidentalOverdose>{INGESTER} se nechtěně {INGESTER_gender ? předávkoval : předávkovala}, neboť {INGESTER_gender ? snědl : snědla} {DRUG_labelShort}!</MessageAccidentalOverdose>
   
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} dorazila na místo určení.</MessageCaravanArrivedAtDestination>
   
-  <!-- EN: {0} has arrived in {1}. -->
-  <MessageCaravanIsVisitingSettlement>{0} dorazila do oblasti {1}.</MessageCaravanIsVisitingSettlement>
-  
-  <!-- EN: {0} has arrived in {1}. -->
-  <MessageCaravanEnteredWorldObject>{0} dorazila do oblasti {1}.</MessageCaravanEnteredWorldObject>
-  
-  <!-- EN: {0} has left the area and formed a caravan. -->
-  <MessagePawnLeftMapAndCreatedCaravan>{0} opouští oblast. Byla vytvořena karavana.</MessagePawnLeftMapAndCreatedCaravan>
+  <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
+  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} {1_gender ? opustil : opustila} oblast a {1_gender ? zformoval : zformovala} karavanu.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Tvá zvířata se k ní připojí.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
   <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>Úspěšně ses usídlil v nové oblasti.</MessageSettledInExistingMap>
   
-  <!-- EN: {1}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>{1} se uzdravil[PAWN_pronoun]. [PAWN_possessive] {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
+  <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
+  <MessagePermanentWoundHealed>{PAWN_labelShort} se {1_gender ? uzdravil : uzdravila}. {PAWN_possessive} {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
 
-  <!-- EN: Since you rescued [PAWN_objective], {0} has joined your group! -->
-  <MessageRescueeJoined>{0} se připojil[PAWN_pronoun] ke tvé skupině, protože jsi [PAWN_objective] zachránil!</MessageRescueeJoined>
+  <!-- EN: Since you rescued {!_objective}, {1_labelShort} has joined your group! -->
+  <MessageRescueeJoined>Sotva {1_gender ? byl : byla} {1_labelShort} zachráněna, {1_gender ? přidal : přidala} se ke tvé skupině!</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>K některým přepravním modulům se nelze dostat.</MessageTransporterUnreachable>
@@ -314,8 +308,8 @@
   <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>Tví kolonisté dokončili nakládání přepravních modulů.</MessageFinishedLoadingTransporters>
 
-  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({0}). -->
-  <MessageCantLoadMoreIntoTransporters>Tvá skupina {1} nemůže dokončit nakládání přepravních modulů, protože některé předměty nebo lidé se stali nedostupnými ({0}).</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoTransporters>Tvá skupina {1} nemůže dokončit nakládání přepravních modulů, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Zvolené místo určení je neplatné.</MessageTransportPodsDestinationIsInvalid>
@@ -328,16 +322,16 @@
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>Posledního kolonisty se nemůžeš zbavit.</MessageCantBanishLastColonist>
   
-  <!-- EN: Cannot equip: {0} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>Nelze vybavit: {0} není schopen násilí.</MessageCantEquipIncapableOfViolence>
+  <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
+  <MessageCantEquipIncapableOfViolence>Nelze se vybavit: {1_labelShort} není {1_gender ? schopen : schopna} násilí.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: incapable. -->
-  <MessageCantEquipIncapableOfManipulation>Nelze vybavit: neschopný.</MessageCantEquipIncapableOfManipulation>
+  <MessageCantEquipIncapableOfManipulation>Nelze se vybavit: neschopný.</MessageCantEquipIncapableOfManipulation>
   
-  <!-- EN: Because they are bonded, slaughtering {0} will make {1} unhappy. -->
-  <MessageSlaughteringBondedAnimal>Pokud půjde {0} na porážku, {1} pocítí smutek, protože je mezi nimi pouto.</MessageSlaughteringBondedAnimal>
+  <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
+  <MessageSlaughteringBondedAnimal>{DESIGNATED_labelShort} a {BONDED_labelShort} jsou vzájemně propojeni silným poutem. Pokud to zvíře necháš zabít, {BONDED_labelShort} z toho bude {BONDED_gender ? nešťastný : nešťastná}.</MessageSlaughteringBondedAnimal>
   
-  <!-- EN: {0} has run out of food ({1}). -->
-  <MessageCaravanRanOutOfFood>{0} nemá dostatek potravin ({1}).</MessageCaravanRanOutOfFood>
+  <!-- EN: {0} has run out of food ({PAWN_label}). -->
+  <MessageCaravanRanOutOfFood>{0} nemá dostatek potravin ({PAWN_label}).</MessageCaravanRanOutOfFood>
 
   <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Abys vytvořil karavanu, vyber svou vlastní kolonii nebo místo, kde jsou tví lidé.</MessageSelectOwnBaseToFormCaravan>
@@ -351,10 +345,10 @@
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Skupina {0} z frakce {1} byla napadena tvou skupinou {2}.</MessageDefendersAttacking>
 
-  <!-- EN: To self-tend, {0} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Pro sebeošetření, musí mít {0} přidělenou činnost doktor.</MessageSelfTendUnsatisfied>
-  <!-- EN: {0} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{0} není schopen provádět činnosti doktora, proto se nemůže sám ošetřit.</MessageCannotSelfTendEver>
+  <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
+  <MessageSelfTendUnsatisfied>Pro sebeošetření, musí mít {1_labelShort} přidělenou činnost doktor.</MessageSelfTendUnsatisfied>
+  <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
+  <MessageCannotSelfTendEver>{1_labelShort} nikdy nebude {1_gender ? schopen : schopna} pracovat jako {1_gender ? doktor : doktorka}, proto se {1_gender ? sám : sama} nikdy neošetří.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>Toto políčko je neprůchozí</MessageCantAddWaypointBecauseImpassable>
@@ -373,11 +367,11 @@
   <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
   <MessageSiteCountdownBecauseNoEnemiesInitially>Karavana se automaticky shromáždí za {0}. Můžeš ji také shromáždit hned na obrazovce mapy světa.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-  <!-- EN: Cannot banish {0} since [PAWN_pronoun] cannot walk. -->
-  <MessageCantBanishDownedPawn>{0} nemůže být vyhnán[PAWN_pronoun], protože nemůže chodit.</MessageCantBanishDownedPawn>
+  <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
+  <MessageCantBanishDownedPawn>Jelikož {1_labelShort} nemůže chodit, nemůžeš {1_gender ? ho : ji} vyhostit.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} se probudil[PAWN_pronoun].</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>{0} se {0_gender ? probudil : probudila}.</MessageSleepingPawnsWokenUp>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Vyrobený předmět: {0}</MessageCompSpawnerSpawnedItem>
@@ -390,12 +384,12 @@
   <MessageResearchProjectFinishedByItem>Získána technologie: {0}</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
-  <MessagePawnResurrected>{0} je opět naživu!</MessagePawnResurrected>
+  <MessagePawnResurrected>{0} {0_gender ? byl : byla} {0_gender ? přiveden : přivedena} zpět k životu!</MessagePawnResurrected>
 
-  <!-- EN: You have failed to rescue {0}. This will make {1} sad. -->
-  <MessageFailedToRescueRelative>Selhal jsi při záchraně osoby jménem {0}. Odteď bude {1} trpět dlouhodobým smutkem.</MessageFailedToRescueRelative>
-  <!-- EN: You have rescued {0}. This will make {1} happy. -->
-  <MessageRescuedRelative>Uspěl jsi při záchraně osoby jménem {0}. Odteď bude {1} pociťovat dlouhodobé štěstí.</MessageRescuedRelative>
+  <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
+  <MessageFailedToRescueRelative>Selhal jsi při záchranné misi. {PAWN_labelShort} bude pravděpodobně po smrti. Kvůli tomu bude {RELATIVE_labelShort} trpět dlouhodobým smutkem.</MessageFailedToRescueRelative>
+  <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
+  <MessageRescuedRelative>Uspěl jsi při záchranné misi. {PAWN_labelShort} {PAWN_gender ? byl : byla} {PAWN_gender ? zachráněn : zachráněna}. Díky tomu bude {RELATIVE_labelShort} pociťovat dlouhodobé štěstí.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>Tornádo opustilo mapu.</MessageTornadoLeftMap>
@@ -408,14 +402,14 @@
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
   <MessageWarningCavePlantsExposedToLight>Varování: {0} při vystavení světla uhyne.</MessageWarningCavePlantsExposedToLight>
 
-  <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
-  <MessageTargetedTantrumChangedTarget>{0} se rozhodl[PAWN_pronoun] přesměrovat svůj hněv, neboť {1} je mimo [PAWN_possessive] dosah. Teď to schytá {2}.</MessageTargetedTantrumChangedTarget>
+  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} se {PAWN_gender ? rozhodl : rozhodla} přesměrovat svůj hněv, neboť se {OLDTARGET_labelShort} {OLDTARGET_gender ? dostal : dostala} mimo {PAWN_possessive} dosah. Nyní to schytá {TARGET_labelShort}.</MessageTargetedTantrumChangedTarget>
 
-  <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{0} se rozhodl[PAWN_pronoun] přesměrovat svůj hněv, neboť {1} je mimo [PAWN_possessive] dosah. Teď to schytá {2}.</MessageTargetedInsultingSpreeChangedTarget>
+  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} se {PAWN_gender ? rozhodl : rozhodla} přesměrovat svůj hněv, neboť se {OLDTARGET_labelShort} {OLDTARGET_gender ? dostal : dostala} mimo {PAWN_possessive} dosah. Nyní to schytá {TARGET_labelShort}.</MessageTargetedInsultingSpreeChangedTarget>
 
-  <!-- EN: {0} has decided to redirect [PAWN_possessive] anger at {1}. -->
-  <MessageMurderousRageChangedTarget>{0} se rozhodl[PAWN_pronoun] přesměrovat svůj hněv. Teď to schytá {1}.</MessageMurderousRageChangedTarget>
+  <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort} se {PAWN_gender ? rozhodl : rozhodla} přesměrovat svůj hněv. Nyní to schytá {TARGET_labelShort}.</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} nemůže růst pod střechou.</MessagePlantIncompatibleWithRoof>
@@ -425,42 +419,44 @@
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>Karavana se automaticky bude přesunovat k prvnímu záchytnému bodu.</MessageChoseRoute>
 
-  <!-- EN: {0} has created a {1}. -->
-  <MessageCraftedMasterwork>{0} se povedlo vytvořit {1}.</MessageCraftedMasterwork>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
+  <MessageCraftedMasterwork>{WORKER_labelShort} {WORKER_gender ? vytvořil : vytvořila} mistrovské dílo ({CRAFTED_labelShort}).</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid>Chceš-li opustit oblast, použij příkaz 'Upravit karavanu' na mapě světa.</MessagePlayerTriedToLeaveMapViaExitGrid>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Chceš-li opustit oblast, použij příkaz 'Upravit karavanu' na mapě světa.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <!-- EN: You can't leave the map now. -->
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Nyní nemůžeš mapu opustit.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
   <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>Vztahy s frakcí {0} se změnily z {1} na {2}.</MessageGoodwillChanged>
   <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
   <MessageGoodwillChangedWithReason>Vztahy s frakcí {0} se změnily z {1} na {2} ({3}).</MessageGoodwillChangedWithReason>
-  <!-- EN: attacked {0} -->
-  <GoodwillChangedReason_AttackedPawn>napadení ({0})</GoodwillChangedReason_AttackedPawn>
-  <!-- EN: used {0} on {1} -->
-  <GoodwillChangedReason_UsedItem>použití {0} na {1}</GoodwillChangedReason_UsedItem>
+  <!-- EN: attacked {1_labelShort} -->
+  <GoodwillChangedReason_AttackedPawn>{1_labelShort} {1_gender ? byl : byla} {1_gender ? napaden : napadena}</GoodwillChangedReason_AttackedPawn>
+  <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
+  <GoodwillChangedReason_UsedItem>použití {ITEM_labelShort} na {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>odebrání orgánu ({0})</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>zbytečně namontováno ({0})</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
-  <!-- EN: captured {0} -->
-  <GoodwillChangedReason_CapturedPawn>zajmutí ({0})</GoodwillChangedReason_CapturedPawn>
-  <!-- EN: {0} crushed -->
-  <GoodwillChangedReason_PawnCrushed>rozdrcení ({0})</GoodwillChangedReason_PawnCrushed>
-  <!-- EN: {0} died -->
-  <GoodwillChangedReason_PawnDied>smrt ({0})</GoodwillChangedReason_PawnDied>
+  <!-- EN: captured {1_labelShort} -->
+  <GoodwillChangedReason_CapturedPawn>{1_labelShort} {1_gender ? byl : byla} {1_gender ? zajat : zajata}</GoodwillChangedReason_CapturedPawn>
+  <!-- EN: {1_labelShort} crushed -->
+  <GoodwillChangedReason_PawnCrushed>{1_labelShort} {1_gender ? byl : byla} {1_gender ? rozdrcen : rozdrcena}</GoodwillChangedReason_PawnCrushed>
+  <!-- EN: {1_labelShort} died -->
+  <GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? zemřel : zemřela}</GoodwillChangedReason_PawnDied>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>uskutečněný obchod</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>napadení karavany</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: natural tendency to reach {0} over time -->
   <GoodwillChangedReason_NaturallyOverTime>přirozená změna prestiže v průběhu času na {0}</GoodwillChangedReason_NaturallyOverTime>
-  <!-- EN: {0} exited the map healthy -->
-  <GoodwillChangedReason_ExitedMapHealthy>opuštění mapy bez zranění ({0})</GoodwillChangedReason_ExitedMapHealthy>
-  <!-- EN: tended to {0} -->
-  <GoodwillChangedReason_Tended>opatrování ({0})</GoodwillChangedReason_Tended>
+  <!-- EN: {1_labelShort} exited the map healthy -->
+  <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} {1_gender ? opustil : opustila} mapu {1_gender ? zdravý : zdravá}</GoodwillChangedReason_ExitedMapHealthy>
+  <!-- EN: tended to {1_labelShort} -->
+  <GoodwillChangedReason_Tended>{1_labelShort} {1_gender ? byl : byla} {1_gender ? ošetřen : ošetřena}</GoodwillChangedReason_Tended>
   <!-- EN: received a gift -->
-  <GoodwillChangedReason_ReceivedGift>obdrželi dar</GoodwillChangedReason_ReceivedGift>
+  <GoodwillChangedReason_ReceivedGift>obdržení daru</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
   <GoodwillChangedReason_FulfilledTradeRequest>splnění obchodní nabídky</GoodwillChangedReason_FulfilledTradeRequest>
 
@@ -468,7 +464,7 @@
   <MessageGiftGivenButNotAppreciated>Frakce {0} přijala tvůj dar, ale nijak to neocenila.</MessageGiftGivenButNotAppreciated>
 
   <!-- EN: The caravan is already encumbered and can't carry anything else. -->
-  <MessageCantGiveGiftBecauseCantCarryEncumbered>Karavana je již zatížena a neunese nic dalšího.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <MessageCantGiveGiftBecauseCantCarryEncumbered>Karavana je již zatížena a nic dalšího neunese.</MessageCantGiveGiftBecauseCantCarryEncumbered>
   <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
   <MessageCantGiveGiftBecauseCantCarry>Karavana toho tolik neunese. Tyto dary váží celkem {0}, ale karavana zvládne unést pouze {1}.</MessageCantGiveGiftBecauseCantCarry>
 
@@ -478,22 +474,22 @@
   <MessageFormedCaravan_Orders>Zadání</MessageFormedCaravan_Orders>
 
   <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
-  <MessageBillValidationStoreZoneDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze uskladnit, protože skladiště jménem {2} bylo odstraněno.</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze uskladnit do skladiště s názvem {2}, neboť bylo odstraněno.</MessageBillValidationStoreZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
-  <MessageBillValidationStoreZoneUnavailable>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze uskladnit, protože skladiště jménem {2} je nedostupné.</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationStoreZoneUnavailable>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze uskladnit do skladiště s názvem {2}, neboť je nedostupné.</MessageBillValidationStoreZoneUnavailable>
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
-  <MessageBillValidationPawnUnavailable>{0} již nebude provádět úkol '{1}', ke kterému je zapotřebí '{2}', protože bylo odstraněno omezení.</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationPawnUnavailable>{0} už nebude provádět úkol '{1}', ke kterému je zapotřebí '{2}', protože bylo odstraněno omezení.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat do skladiště jménem {2}, protože bylo odstraněno.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat do skladiště s názvem {2}, neboť bylo odstraněno.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat do skladiště jménem {2}, protože je nedostupné.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationIncludeZoneUnavailable>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat do skladiště s názvem {2}, neboť je nedostupné.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze všechny uskladnit do skladiště jménem {2}.</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneInsufficient>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze uskladnit všechny do skladiště s názvem {2}.</MessageBillValidationStoreZoneInsufficient>
 
-  <!-- EN: Because of a lack of taming maintenance, {0} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Z důvodu nedostatečné péče o zachování ochočení, se {0} vrací do volné přírody.</MessageAnimalReturnedWild>
-  <!-- EN: Due to a lack of maintenance training, {0} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>Z důvodu nedostatečné péče o zachování výcviku, {0} ztrácí dovednost: {1}</MessageAnimalLostSkill>
+  <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
+  <MessageAnimalReturnedWild>Z důvodu nedostatečné péče o zachování krotkosti, se {1_labelShort} vrací do volné přírody.</MessageAnimalReturnedWild>
+  <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
+  <MessageAnimalLostSkill>Z důvodu nedostatečné péče o zachování výcviku, ztrácí {ANIMAL_labelShort} dovednost: {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>Hlášení k překladu bylo uloženo do {0}</MessageTranslationReportSaved>
@@ -504,11 +500,11 @@
   <!-- EN: You can't re-enter for another {0} days. -->
   <MessageEnterCooldownBlocksEntering>Vstoupit znovu můžeš až za {0} dnů.</MessageEnterCooldownBlocksEntering>
 
-  <!-- EN: {0} is hunting {1} for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{0} se pokouší kvůli potravě ulovit kořist, kterou je {1}!</MessagePredatorHuntingPlayerAnimal>
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} se kvůli potravě pokusí ulovit nějakou kořist ({PREY_definite})!</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
-  <MessagePrisonerResistanceBroken>{1} úspěšně prolamuje psychologickou odolnost u vězně jménem {0}.</MessagePrisonerResistanceBroken>
+  <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
+  <MessagePrisonerResistanceBroken>{WARDEN_labelShort} {PAWN_gender ? dokázal : dokázala} prolomit zbývající vzdor u {PRISONER_gender ? vězně : vězeňkyně} jménem {PRISONER_labelShort}.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Od tohoto okamžiku mohou pokusy o verbování začít.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
@@ -520,7 +516,10 @@
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Jeden z překladových souborů ({0}) nelze načíst. Všechny chyby při analýze XML musí být nejprve vyřešeny.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
-  <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
-  <MessageCapturingWillAngerFaction>Varování: Bude-li [PAWN_nameDef] zajat[PAWN_pronoun], v [PAWN_possessive] frakci [PAWN_factionName] to vyvolá hněv.</MessageCapturingWillAngerFaction>
+  <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
+  <MessageCapturingWillAngerFaction>Varování: Bude-li {PAWN_nameDef} {PAWN_gender ? zajat : zajata}, v {PAWN_possessive} frakci {PAWN_factionName} to vyvolá hněv.</MessageCapturingWillAngerFaction>
+
+  <!-- EN: Cannot shoot in melee. -->
+  <MessageCantShootInMelee>Na krátkou vzdálenost nemůže střílet.</MessageCantShootInMelee>
 
 </LanguageData>
