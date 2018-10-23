@@ -471,6 +471,8 @@
   -->
   <TalkTopicsUtility.rulePack.rulesFiles>
     <li>talktopicheavyfile->Words/Nouns/TalkTopics_Heavy</li>
+    <li>talktopicheavyfileLoc->Words/Nouns/TalkTopics_Heavy_Locative</li>
+    <li>talktopicheavyfileIns->Words/Nouns/TalkTopics_Heavy_Instrumental</li>
     <li>talktopiclightfile->Words/Nouns/TalkTopics_Light</li>
     <li>talktopiclightfileLoc->Words/Nouns/TalkTopics_Light_Locative</li>
 
@@ -517,10 +519,17 @@
   <TalkTopicsUtility.rulePack.rulesStrings>
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>
+
     <li>TalkTopicHeavy->[talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile]</li>
+
+    <li>TalkTopicHeavyLoc->[talktopicheavyfileLoc]</li>
+    <li>TalkTopicHeavyLoc(p=0.08)->propojení mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyLoc(p=0.08)->spojení mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyLoc(p=0.08)->vztahu mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
     <li>TalkTopicLight->[Vegetable]s</li>
     <li>TalkTopicLight->eating [Vegetable]s</li>
