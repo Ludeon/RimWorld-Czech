@@ -64,6 +64,7 @@
     <li>ColorBadassNeu->Words/Nouns/Colors_Badass_Neuter</li>
 
     <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>VegetableUniAcc->Words/Nouns/Vegetables_UniversalAccusative</li>
     <li>VegetablePluGen->Words/Nouns/Vegetables_PluralGenitive</li>
     <li>VegetablePluAcc->Words/Nouns/Vegetables_PluralAccusative</li>
     <li>VegetablePluLoc->Words/Nouns/Vegetables_PluralLocative</li>
@@ -100,11 +101,12 @@
 
     <li>Weapon->Words/Nouns/Weapons</li>
     <li>WeaponUni->Words/Nouns/Weapons_Universal</li>
+    <li>WeaponUniGen->Words/Nouns/Weapons_UniversalGenitive</li>
+    <li>WeaponUniAcc->Words/Nouns/Weapons_UniversalAccusative</li>
     <li>WeaponPlu->Words/Nouns/Weapons_Plural</li>
     <li>WeaponPluGen->Words/Nouns/Weapons_PluralGenitive</li>
     <li>WeaponPluLoc->Words/Nouns/Weapons_PluralLocative</li>
     <li>WeaponWitPluIns->Words/Nouns/Weapons_WithPluralInstrumental</li>
-    <li>WeaponUniGen->Words/Nouns/Weapons_UniversalGenitive</li>
     <li>WeaponMasGen->Words/Nouns/Weapons_MasculineGenitive</li>
     <li>WeaponMasAcc->Words/Nouns/Weapons_MasculineAccusative</li>
     <li>WeaponFemGen->Words/Nouns/Weapons_FeminineGenitive</li>
@@ -148,6 +150,7 @@
     <li>PersonJobPluAcc->Words/Nouns/People_Jobs_PluralAccusative</li>
     <li>PersonJobPluLoc->Words/Nouns/People_Jobs_PluralLocative</li>
     <li>PersonJobPluIns->Words/Nouns/People_Jobs_PluralInstrumental</li>
+    <li>PersonJobWitPluIns->Words/Nouns/People_Jobs_WithPluralInstrumental</li>
     <li>PersonJobMasGen->Words/Nouns/People_Jobs_MasculineGenitive</li>
     <li>PersonJobMasAcc->Words/Nouns/People_Jobs_MasculineAccusative</li>
     <li>PersonJobFemGen->Words/Nouns/People_Jobs_FeminineGenitive</li>
@@ -174,7 +177,7 @@
     <li>EnemyFemAcc->Words/Nouns/Enemies_FeminineAccusative</li>
 
     <li>Apparel->Words/Nouns/Apparel</li>
-    <li>ApparelUniAcc->Words/Nouns/Apparel_UniversalAccusative</li>
+    <li>ApparelInLocWithIns->Words/Nouns/Apparel_InLocativeWithInstrumental</li>
     <li>ApparelPluGen->Words/Nouns/Apparel_PluralGenitive</li>
     <li>ApparelPluLoc->Words/Nouns/Apparel_PluralLocative</li>
     <li>ApparelMasGen->Words/Nouns/Apparel_MasculineGenitive</li>
@@ -337,65 +340,100 @@
     <li>CharacterPluIns(p=3)->[EnemyPluIns]</li>
     <li>CharacterPluIns->[MechanoidPluIns]</li>
 
+
     <li>CharacterGen_Solitary(p=6)->[PersonJobGen_Solitary]</li>
     <li>CharacterGen_Solitary(p=4)->[AnimalGen_Solitary]</li>
     <li>CharacterGen_Solitary(p=3)->[EnemyGen_Solitary]</li>
     <li>CharacterGen_Solitary->[MechanoidGen_Solitary]</li>
 
-    <li>PersonJobGen_Solitary->ého [PersonJobMasGen] [desc_pawnMasGen]</li>
-    <li>PersonJobGen_Solitary->é [PersonJobFemGen] [desc_pawnFemGen]</li>
-    <li>AnimalGen_Solitary(p=0.60)->ého [AnimalMasGen] [desc_pawnMasGen]</li>
-    <li>AnimalGen_Solitary(p=0.38)->é [AnimalFemGen] [desc_pawnFemGen]</li>
-    <li>AnimalGen_Solitary(p=0.02)->ého [AnimalNeuGen] [desc_pawnNeuGen]</li>
-    <li>EnemyGen_Solitary->ého [EnemyMasGen] [desc_pawnMasGen]</li>
-    <li>EnemyGen_Solitary->é [EnemyFemGen] [desc_pawnFemGen]</li>
-    <li>MechanoidGen_Solitary(p=0.86)->ého [MechanoidMasGen] [desc_pawnMasGen]</li>
-    <li>MechanoidGen_Solitary(p=0.14)->é [MechanoidFemGen] [desc_pawnFemGen]</li>
+    <li>PersonJobGen_Solitary->[desc_pawnMasGen_Solitary] [PersonJobMasGen]</li>
+    <li>PersonJobGen_Solitary->[desc_pawnFemGen_Solitary] [PersonJobFemGen]</li>
+    <li>AnimalGen_Solitary(p=0.60)->[desc_pawnMasGen_Solitary] [AnimalMasGen]</li>
+    <li>AnimalGen_Solitary(p=0.38)->[desc_pawnFemGen_Solitary] [AnimalFemGen]</li>
+    <li>AnimalGen_Solitary(p=0.02)->[desc_pawnNeuGen_Solitary] [AnimalNeuGen]</li>
+    <li>EnemyGen_Solitary->[desc_pawnMasGen_Solitary] [EnemyMasGen]</li>
+    <li>EnemyGen_Solitary->[desc_pawnFemGen_Solitary] [EnemyFemGen]</li>
+    <li>MechanoidGen_Solitary(p=0.86)->[desc_pawnMasGen_Solitary] [MechanoidMasGen]</li>
+    <li>MechanoidGen_Solitary(p=0.14)->[desc_pawnFemGen_Solitary] [MechanoidFemGen]</li>
 
     <li>CharacterAcc_Solitary(p=6)->[PersonJobAcc_Solitary]</li>
     <li>CharacterAcc_Solitary(p=4)->[AnimalAcc_Solitary]</li>
     <li>CharacterAcc_Solitary(p=3)->[EnemyAcc_Solitary]</li>
     <li>CharacterAcc_Solitary->[MechanoidAcc_Solitary]</li>
 
-    <li>PersonJobAcc_Solitary->ého [PersonJobMasAcc] [desc_pawnMasAcc]</li>
-    <li>PersonJobAcc_Solitary->ou [PersonJobFemAcc] [desc_pawnFemAcc]</li>
-    <li>AnimalAcc_Solitary(p=0.60)->ého [AnimalMasAcc] [desc_pawnMasAcc]</li>
-    <li>AnimalAcc_Solitary(p=0.38)->ou [AnimalFemAcc] [desc_pawnFemAcc]</li>
-    <li>AnimalAcc_Solitary(p=0.02)->é [AnimalNeuAcc] [desc_pawnNeuAcc]</li>
-    <li>EnemyAcc_Solitary->ého [EnemyMasAcc] [desc_pawnMasAcc]</li>
-    <li>EnemyAcc_Solitary->ou [EnemyFemAcc] [desc_pawnFemAcc]</li>
-    <li>MechanoidAcc_Solitary(p=0.86)->ého [MechanoidMasAcc] [desc_pawnMasAcc]</li>
-    <li>MechanoidAcc_Solitary(p=0.14)->ou [MechanoidFemAcc] [desc_pawnFemAcc]</li>
+    <li>PersonJobAcc_Solitary->[desc_pawnMasAcc_Solitary] [PersonJobMasAcc]</li>
+    <li>PersonJobAcc_Solitary->[desc_pawnFemAcc_Solitary] [PersonJobFemAcc]</li>
+    <li>AnimalAcc_Solitary(p=0.60)->[desc_pawnMasAcc_Solitary] [AnimalMasAcc]</li>
+    <li>AnimalAcc_Solitary(p=0.38)->[desc_pawnFemAcc_Solitary] [AnimalFemAcc]</li>
+    <li>AnimalAcc_Solitary(p=0.02)->[desc_pawnNeuAcc_Solitary] [AnimalNeuAcc]</li>
+    <li>EnemyAcc_Solitary->[desc_pawnMasAcc_Solitary] [EnemyMasAcc]</li>
+    <li>EnemyAcc_Solitary->[desc_pawnFemAcc_Solitary] [EnemyFemAcc]</li>
+    <li>MechanoidAcc_Solitary(p=0.86)->[desc_pawnMasAcc_Solitary] [MechanoidMasAcc]</li>
+    <li>MechanoidAcc_Solitary(p=0.14)->[desc_pawnFemAcc_Solitary] [MechanoidFemAcc]</li>
 
-    <li>CharacterGen_SurroundedBy(p=6)->[PersonJobGen_SurroundedBy]</li>
-    <li>CharacterGen_SurroundedBy(p=4)->[AnimalGen_SurroundedBy]</li>
-    <li>CharacterGen_SurroundedBy(p=3)->[EnemyGen_SurroundedBy]</li>
-    <li>CharacterGen_SurroundedBy->[MechanoidGen_SurroundedBy]</li>
 
-    <li>PersonJobGen_SurroundedBy->[PersonJobMasGen] [desc_pawnMasGen], který je obklopen</li>
-    <li>PersonJobGen_SurroundedBy->[PersonJobFemGen] [desc_pawnFemGen], která je obklopena</li>
-    <li>AnimalGen_SurroundedBy(p=0.60)->[AnimalMasGen] [desc_pawnMasGen], který je obklopen</li>
-    <li>AnimalGen_SurroundedBy(p=0.38)->[AnimalFemGen] [desc_pawnFemGen], která je obklopena</li>
-    <li>AnimalGen_SurroundedBy(p=0.02)->[AnimalNeuGen] [desc_pawnNeuGen], které je obklopeno</li>
-    <li>EnemyGen_SurroundedBy->[EnemyMasGen] [desc_pawnMasGen], který je obklopen</li>
-    <li>EnemyGen_SurroundedBy->[EnemyFemGen] [desc_pawnFemGen], která je obklopena</li>
-    <li>MechanoidGen_SurroundedBy(p=0.86)->[MechanoidMasGen] [desc_pawnMasGen], který je obklopen</li>
-    <li>MechanoidGen_SurroundedBy(p=0.14)->[MechanoidFemGen] [desc_pawnFemGen], která je obklopena</li>
+    <li>CharacterGen_Uni(p=6)->[PersonJobGen_Uni]</li>
+    <li>CharacterGen_Uni(p=4)->[AnimalGen_Uni]</li>
+    <li>CharacterGen_Uni(p=3)->[EnemyGen_Uni]</li>
+    <li>CharacterGen_Uni->[MechanoidGen_Uni]</li>
 
-    <li>CharacterAcc_SurroundedBy(p=6)->[PersonJobAcc_SurroundedBy]</li>
-    <li>CharacterAcc_SurroundedBy(p=4)->[AnimalAcc_SurroundedBy]</li>
-    <li>CharacterAcc_SurroundedBy(p=3)->[EnemyAcc_SurroundedBy]</li>
-    <li>CharacterAcc_SurroundedBy->[MechanoidAcc_SurroundedBy]</li>
+    <li>PersonJobGen_Uni->[PersonJobMasGen] [desc_pawnMasGen_Uni]</li>
+    <li>PersonJobGen_Uni->[PersonJobFemGen] [desc_pawnFemGen_Uni]</li>
+    <li>AnimalGen_Uni(p=0.60)->[AnimalMasGen] [desc_pawnMasGen_Uni]</li>
+    <li>AnimalGen_Uni(p=0.38)->[AnimalFemGen] [desc_pawnFemGen_Uni]</li>
+    <li>AnimalGen_Uni(p=0.02)->[AnimalNeuGen] [desc_pawnNeuGen_Uni]</li>
+    <li>EnemyGen_Uni->[EnemyMasGen] [desc_pawnMasGen_Uni]</li>
+    <li>EnemyGen_Uni->[EnemyFemGen] [desc_pawnFemGen_Uni]</li>
+    <li>MechanoidGen_Uni(p=0.86)->[MechanoidMasGen] [desc_pawnMasGen_Uni]</li>
+    <li>MechanoidGen_Uni(p=0.14)->[MechanoidFemGen] [desc_pawnFemGen_Uni]</li>
 
-    <li>PersonJobAcc_SurroundedBy->[PersonJobMasAcc] [desc_pawnMasAcc], který je obklopen</li>
-    <li>PersonJobAcc_SurroundedBy->[PersonJobFemAcc] [desc_pawnFemAcc], která je obklopena</li>
-    <li>AnimalAcc_SurroundedBy(p=0.60)->[AnimalMasAcc] [desc_pawnMasAcc], který je obklopen</li>
-    <li>AnimalAcc_SurroundedBy(p=0.38)->[AnimalFemAcc] [desc_pawnFemAcc], která je obklopena</li>
-    <li>AnimalAcc_SurroundedBy(p=0.02)->[AnimalNeuAcc] [desc_pawnNeuAcc], které je obklopeno</li>
-    <li>EnemyAcc_SurroundedBy->[EnemyMasAcc] [desc_pawnMasAcc], který je obklopen</li>
-    <li>EnemyAcc_SurroundedBy->[EnemyFemAcc] [desc_pawnFemAcc], která je obklopena</li>
-    <li>MechanoidAcc_SurroundedBy(p=0.86)->[MechanoidMasAcc] [desc_pawnMasAcc], který je obklopen</li>
-    <li>MechanoidAcc_SurroundedBy(p=0.14)->[MechanoidFemAcc] [desc_pawnFemAcc], která je obklopena</li>
+    <li>CharacterAcc_Uni(p=6)->[PersonJobAcc_Uni]</li>
+    <li>CharacterAcc_Uni(p=4)->[AnimalAcc_Uni]</li>
+    <li>CharacterAcc_Uni(p=3)->[EnemyAcc_Uni]</li>
+    <li>CharacterAcc_Uni->[MechanoidAcc_Uni]</li>
+
+    <li>PersonJobAcc_Uni->[PersonJobMasAcc] [desc_pawnMasAcc_Uni]</li>
+    <li>PersonJobAcc_Uni->[PersonJobFemAcc] [desc_pawnFemAcc_Uni]</li>
+    <li>AnimalAcc_Uni(p=0.60)->[AnimalMasAcc] [desc_pawnMasAcc_Uni]</li>
+    <li>AnimalAcc_Uni(p=0.38)->[AnimalFemAcc] [desc_pawnFemAcc_Uni]</li>
+    <li>AnimalAcc_Uni(p=0.02)->[AnimalNeuAcc] [desc_pawnNeuAcc_Uni]</li>
+    <li>EnemyAcc_Uni->[EnemyMasAcc] [desc_pawnMasAcc_Uni]</li>
+    <li>EnemyAcc_Uni->[EnemyFemAcc] [desc_pawnFemAcc_Uni]</li>
+    <li>MechanoidAcc_Uni(p=0.86)->[MechanoidMasAcc] [desc_pawnMasAcc_Uni]</li>
+    <li>MechanoidAcc_Uni(p=0.14)->[MechanoidFemAcc] [desc_pawnFemAcc_Uni]</li>
+
+
+    <li>CharacterGen_WearingApparel(p=6)->[PersonJobGen_WearingApparel]</li>
+    <li>CharacterGen_WearingApparel(p=4)->[AnimalGen_WearingApparel]</li>
+    <li>CharacterGen_WearingApparel(p=3)->[EnemyGen_WearingApparel]</li>
+    <li>CharacterGen_WearingApparel->[MechanoidGen_WearingApparel]</li>
+
+    <li>PersonJobGen_WearingApparel->[PersonJobMasGen] [ApparelInLocWithIns] [desc_pawnMasGen_WearingApparel]</li>
+    <li>PersonJobGen_WearingApparel->[PersonJobFemGen] [ApparelInLocWithIns] [desc_pawnFemGen_WearingApparel]</li>
+    <li>AnimalGen_WearingApparel(p=0.60)->[AnimalMasGen] [ApparelInLocWithIns] [desc_pawnMasGen_WearingApparel]</li>
+    <li>AnimalGen_WearingApparel(p=0.38)->[AnimalFemGen] [ApparelInLocWithIns] [desc_pawnFemGen_WearingApparel]</li>
+    <li>AnimalGen_WearingApparel(p=0.02)->[AnimalNeuGen] [ApparelInLocWithIns] [desc_pawnNeuGen_WearingApparel]</li>
+    <li>EnemyGen_WearingApparel->[EnemyMasGen] [ApparelInLocWithIns] [desc_pawnMasGen_WearingApparel]</li>
+    <li>EnemyGen_WearingApparel->[EnemyFemGen] [ApparelInLocWithIns] [desc_pawnFemGen_WearingApparel]</li>
+    <li>MechanoidGen_WearingApparel(p=0.86)->[MechanoidMasGen] [ApparelInLocWithIns] [desc_pawnMasGen_WearingApparel]</li>
+    <li>MechanoidGen_WearingApparel(p=0.14)->[MechanoidFemGen] [ApparelInLocWithIns] [desc_pawnFemGen_WearingApparel]</li>
+
+    <li>CharacterAcc_WearingApparel(p=6)->[PersonJobAcc_WearingApparel]</li>
+    <li>CharacterAcc_WearingApparel(p=4)->[AnimalAcc_WearingApparel]</li>
+    <li>CharacterAcc_WearingApparel(p=3)->[EnemyAcc_WearingApparel]</li>
+    <li>CharacterAcc_WearingApparel->[MechanoidAcc_WearingApparel]</li>
+
+    <li>PersonJobAcc_WearingApparel->[PersonJobMasAcc] [ApparelInLocWithIns] [desc_pawnMasAcc_WearingApparel]</li>
+    <li>PersonJobAcc_WearingApparel->[PersonJobFemAcc] [ApparelInLocWithIns] [desc_pawnFemAcc_WearingApparel]</li>
+    <li>AnimalAcc_WearingApparel(p=0.60)->[AnimalMasAcc] [ApparelInLocWithIns] [desc_pawnMasAcc_WearingApparel]</li>
+    <li>AnimalAcc_WearingApparel(p=0.38)->[AnimalFemAcc] [ApparelInLocWithIns] [desc_pawnFemAcc_WearingApparel]</li>
+    <li>AnimalAcc_WearingApparel(p=0.02)->[AnimalNeuAcc] [ApparelInLocWithIns] [desc_pawnNeuAcc_WearingApparel]</li>
+    <li>EnemyAcc_WearingApparel->[EnemyMasAcc] [ApparelInLocWithIns] [desc_pawnMasAcc_WearingApparel]</li>
+    <li>EnemyAcc_WearingApparel->[EnemyFemAcc] [ApparelInLocWithIns] [desc_pawnFemAcc_WearingApparel]</li>
+    <li>MechanoidAcc_WearingApparel(p=0.86)->[MechanoidMasAcc] [ApparelInLocWithIns] [desc_pawnMasAcc_WearingApparel]</li>
+    <li>MechanoidAcc_WearingApparel(p=0.14)->[MechanoidFemAcc] [ApparelInLocWithIns] [desc_pawnFemAcc_WearingApparel]</li>
+
+
 
     <li>Quantity_adjphrase->dvojice</li>
     <li>Quantity_adjphrase->trojice</li>
@@ -406,13 +444,14 @@
     <li>Quantity_adjphrase->osm</li>
     <li>Quantity_adjphrase->devět</li>
     <li>Quantity_adjphrase->deset</li>
-    <li>Quantity_adjphrase->mnoho</li>
-    <li>Quantity_adjphrase->soubor</li>
-    <li>Quantity_adjphrase->velké seskupení</li>
+    <li>Quantity_adjphrase->několik</li>
+    <li>Quantity_adjphrase->seskupení</li>
+    <li>Quantity_adjphrase->početné seskupení</li>
     <li>Quantity_adjphrase->desítky</li>
     <li>Quantity_adjphrase->stovky</li>
     <li>Quantity_adjphrase->asi tisíc</li>
     <li>Quantity_adjphrase->tisíce</li>
+
     <li>Quantity_adjphraseGen->dvojice</li>
     <li>Quantity_adjphraseGen->trojice</li>
     <li>Quantity_adjphraseGen->čtveřice</li>
@@ -422,13 +461,14 @@
     <li>Quantity_adjphraseGen->osmi</li>
     <li>Quantity_adjphraseGen->devíti</li>
     <li>Quantity_adjphraseGen->deseti</li>
-    <li>Quantity_adjphraseGen->mnoha</li>
-    <li>Quantity_adjphraseGen->souboru</li>
-    <li>Quantity_adjphraseGen->velkého seskupení</li>
+    <li>Quantity_adjphraseGen->několika</li>
+    <li>Quantity_adjphraseGen->skupiny</li>
+    <li>Quantity_adjphraseGen->početné skupiny</li>
     <li>Quantity_adjphraseGen->desítek</li>
     <li>Quantity_adjphraseGen->stovek</li>
     <li>Quantity_adjphraseGen->asi tisíce</li>
     <li>Quantity_adjphraseGen->tisíců</li>
+
     <li>Quantity_adjphraseAcc->dvojici</li>
     <li>Quantity_adjphraseAcc->trojici</li>
     <li>Quantity_adjphraseAcc->čtveřici</li>
@@ -438,13 +478,33 @@
     <li>Quantity_adjphraseAcc->osm</li>
     <li>Quantity_adjphraseAcc->devět</li>
     <li>Quantity_adjphraseAcc->deset</li>
-    <li>Quantity_adjphraseAcc->mnoho</li>
-    <li>Quantity_adjphraseAcc->soubor</li>
-    <li>Quantity_adjphraseAcc->velké seskupení</li>
+    <li>Quantity_adjphraseAcc->několik</li>
+    <li>Quantity_adjphraseAcc->skupinu</li>
+    <li>Quantity_adjphraseAcc->početnou skupinu</li>
     <li>Quantity_adjphraseAcc->desítky</li>
     <li>Quantity_adjphraseAcc->stovky</li>
     <li>Quantity_adjphraseAcc->asi tisíc</li>
     <li>Quantity_adjphraseAcc->tisíce</li>
+
+    <li>Quantity_adjphraseWithCharactersIns->s dvojicí [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s trojicí [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->se čtveřicí [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s pěti [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns->se šesti [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns->se sedmi [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns-> s osmi [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s devíti [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s deseti [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s několika [CharacterPluIns]</li>
+    <li>Quantity_adjphraseWithCharactersIns->se skupinou [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s početnou skupinou [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s desítkami [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->se stovkami [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s asi tisícem [CharacterPluGen]</li>
+    <li>Quantity_adjphraseWithCharactersIns->s tisíci [CharacterPluGen]</li>
+
+
+
     <li>Shape->triangle</li>
     <li>Shape->square</li>
     <li>Shape->rectangle</li>
