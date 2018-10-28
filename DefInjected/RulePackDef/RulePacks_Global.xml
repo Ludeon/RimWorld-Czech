@@ -246,6 +246,14 @@
     <li>AdjectiveNaturalFemGen->Words/Adjectives/Natural_FeminineGenitive</li>
     <li>AdjectiveNaturalFemAcc->Words/Adjectives/Natural_FeminineAccusative</li>
 
+    <li>AdverbAngsty->Words/Adverbs/Adverb_Angsty</li>
+
+    <li>AdverbBadass->Words/Adverbs/Adverb_Badass</li>
+
+    <li>AdverbFriendly->Words/Adverbs/Adverb_Friendly</li>
+
+    <li>AdverbNatural->Words/Adverbs/Adverb_Natural</li>
+
     <li>VerbFriendly->Words/Verbs/Friendly</li>
 
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
@@ -559,6 +567,10 @@
     <li>AdjectiveAnyFemAcc->[AdjectiveAngstyFemAcc]</li>
     <li>AdjectiveAnyFemAcc->[AdjectiveFriendlyFemAcc]</li>
     <li>AdjectiveAnyFemAcc->[AdjectiveNaturalFemAcc]</li>
+    <li>AdverbAny->[AdverbBadass]</li>
+    <li>AdverbAny->[AdverbAngsty]</li>
+    <li>AdverbAny->[AdverbFriendly]</li>
+    <li>AdverbAny->[AdverbNatural]</li>
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
