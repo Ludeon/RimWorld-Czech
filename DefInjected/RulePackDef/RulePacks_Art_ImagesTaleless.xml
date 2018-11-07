@@ -38,35 +38,365 @@
     <li>desc_pawn->covered in [Gore]</li>
   -->
   <TalelessImages.rulePack.rulesStrings>
-    <li>image->jsou [outlander] obklopeni dalšími postavami. V tomto případě to jsou [outlander]</li>
-    <li>image->[outlander] a [outlander] hrají hru [game]</li>
-    <li>image->[outlander] [subject_desc] a drží zbraň, podobnou jako [weapon]</li>
-    <li>image->osamělí [outlander] provádí nějaké činnosti</li>
-    <li>image->[adjective]í [outlander] nosí pěkné oblečení. Jejich společná výstroj doplňuje [apparel]</li>
-    <li>image->[outlander] jedí [vegetable]</li>
-    <li>image->[adjective]í [outlander] a [outlander] společně konzumují [vegetable]</li>
-    <li>image->[adjective]í [outlander] [subject_desc]</li>
-    <li>image->zhruba může vypadat [terrainfeature]</li>
-    <li>image->[animal]i hrají hru [game]</li>
-    <li>image->[adjective]í [animal]i nosí oblečení. V tomto případě to je [apparel]. Navíc se zdá, že zvířata [subject_desc]</li>
-    <li>image->mohou vypadat přírodní úkazy, například tato [terrainfeature]</li>
-    <li>image->může vypadat abstraktní pojetí konceptu '[concept]'</li>
-    <li>image->dokáže vypadat [community]</li>
-    <li>image->mohou zbraně, konkrétně [weapon], vylepšit vzhled tohoto umění</li>
-    <li>image->a co dokážou zbraně. Tady se jedná o zbraň, kterou je [weapon]</li>
-    <li>image->je možné zachytit stoly s miskami ovoce a zeleniny, kde nejvýraznějším je [vegetable]</li>
-    <li>image->málo známé celebrity, [personname] a [personname], [subject_desc]</li>
-    <li>image->[animal]i nosí oblečení, kterým je [apparel]</li>
-    <li>subject_desc->letí vzduchem</li>
-    <li>subject_desc->se vznáší ve vzduchu</li>
-    <li>subject_desc->stojí na zemi</li>
-    <li>subject_desc->se pohybují doleva</li>
-    <li>subject_desc->se pohybují doprava</li>
-    <li>subject_desc->sedí na stole</li>
-    <li>subject_desc->se dívají do zrcadla</li>
-    <li>subject_desc->leží na zemi</li>
-    <li>subject_desc->jezdí na zvířatech vypadajících jako [animal]i nosící nějaké oblečení. Pravděpodobně to bude [apparel]</li>
-    <li>subject_desc->se pohybují ke středu</li>
+    <li>image_gen->[CharacterGen_Solitary]</li>
+    <li>image_acc->[CharacterAcc_Solitary]</li>
+    <li>image_gen->[CharacterGen_Solitary] [near] [TerrainFeatureUniGen]</li>
+    <li>image_acc->[CharacterAcc_Solitary] [near] [TerrainFeatureUniGen]</li>
+    <li>image_gen->[CharacterGen_Solitary] [near] [CommunityUniGen]</li>
+    <li>image_acc->[CharacterAcc_Solitary] [near] [CommunityUniGen]</li>
+    <li>image_gen->[CharacterGen_Uni] je v [surroundedby] [CharacterPluGen]</li>
+    <li>image_acc->[CharacterAcc_Uni] je v [surroundedby] [CharacterPluGen]</li>
+    <li>image_gen->[CharacterPluGen], jak hrají [GameAcc]</li>
+    <li>image_acc->[CharacterPluAcc], jak hrají [GameAcc]</li>
+    <li>image_gen->[CharacterGen_Uni] hraje [GameAcc] [Quantity_adjphraseWithCharactersIns]</li>
+    <li>image_acc->[CharacterAcc_Uni] hraje [GameAcc] [Quantity_adjphraseWithCharactersIns]</li>
+    <li>image_gen->[CharacterGen_Uni] [holding] [WeaponUniAcc]</li>
+    <li>image_acc->[CharacterAcc_Uni] [holding] [WeaponUniAcc]</li>
+    <li>image_gen->[CharacterGen_Uni] [eating] [VegetableUniAcc]</li>
+    <li>image_acc->[CharacterAcc_Uni] [eating] [VegetableUniAcc]</li>
+    <li>image_gen->[Quantity_adjphraseGen] [PersonJobPluGen], jak [together] [PersonJobWitPluIns] [eatingplu] [VegetablePluAcc]</li>
+    <li>image_acc->[Quantity_adjphraseAcc] [PersonJobPluGen], jak [together] [PersonJobWitPluIns] [eatingplu] [VegetablePluAcc]</li>
+    <li>image_gen->nepříliš známé celebrity jménem [NamePerson] [desc_pawnGenCelebrity]</li>
+    <li>image_acc->nepříliš známou celebritu jménem [NamePerson] [desc_pawnAccCelebrity]</li>
+    <li>image_gen->[CharacterGen_WearingApparel]</li>
+    <li>image_acc->[CharacterAcc_WearingApparel]</li>
+    <li>image_gen(p=0.09)->[anyadj]ého [CommunityMasGen]</li>
+    <li>image_gen(p=0.64)->[anyadj]é [CommunityFemGen]</li>
+    <li>image_gen(p=0.27)->[anyadj]ého [CommunityNeuGen]</li>
+    <li>image_acc(p=0.09)->[anyadj]ý [CommunityMasAcc]</li>
+    <li>image_acc(p=0.64)->[anyadj]ou [CommunityFemAcc]</li>
+    <li>image_acc(p=0.27)->[anyadj]é [CommunityNeuAcc]</li>
+    <li>image_gen(p=0.46)->[anyadj]ého [TerrainFeatureMasGen]</li>
+    <li>image_gen(p=0.42)->[anyadj]é [TerrainFeatureFemGen]</li>
+    <li>image_gen(p=0.12)->[anyadj]ého [TerrainFeatureNeuGen]</li>
+    <li>image_acc(p=0.46)->[anyadj]ý [TerrainFeatureMasAcc]</li>
+    <li>image_acc(p=0.42)->[anyadj]ou [TerrainFeatureFemAcc]</li>
+    <li>image_acc(p=0.12)->[anyadj]é [TerrainFeatureNeuAcc]</li>
+    <li>image_gen(p=0.40)->[anyadj]ého [WeaponMasGen]</li>
+    <li>image_gen(p=0.49)->[anyadj]é [WeaponFemGen]</li>
+    <li>image_gen(p=0.11)->[anyadj]ého [WeaponNeuGen]</li>
+    <li>image_acc(p=0.40)->[anyadj]ý [WeaponMasAcc]</li>
+    <li>image_acc(p=0.49)->[anyadj]ou [WeaponFemAcc]</li>
+    <li>image_acc(p=0.11)->[anyadj]é [WeaponNeuAcc]</li>
+    <li>image_gen(p=0.67)->[anyadj]ého [TreeTypeMasGen]</li>
+    <li>image_gen(p=0.33)->[anyadj]é [TreeTypeFemGen]</li>
+    <li>image_acc(p=0.67)->[anyadj]ý [TreeTypeMasAcc]</li>
+    <li>image_acc(p=0.33)->[anyadj]ou [TreeTypeFemAcc]</li>
+    <li>image_gen(p=0.52)->[anyadj]ého [NaturalObjectMasGen]</li>
+    <li>image_gen(p=0.14)->[anyadj]é [NaturalObjectFemGen]</li>
+    <li>image_gen(p=0.34)->[anyadj]ého [NaturalObjectNeuGen]</li>
+    <li>image_acc(p=0.52)->[anyadj]ý [NaturalObjectMasAcc]</li>
+    <li>image_acc(p=0.14)->[anyadj]ou [NaturalObjectFemAcc]</li>
+    <li>image_acc(p=0.34)->[anyadj]é [NaturalObjectNeuAcc]</li>
+    <li>image_gen->[Quantity_adjphraseGen] [WeaponPluGen]</li>
+    <li>image_acc->[Quantity_adjphraseAcc] [WeaponPluGen]</li>
+    <li>image_gen->[Quantity_adjphraseGen] [VegetablePluGen]</li>
+    <li>image_acc->[Quantity_adjphraseAcc] [VegetablePluGen]</li>
+    <li>image_gen(p=0.38)->[anyadj]ého [ApparelMasGen]</li>
+    <li>image_gen(p=0.54)->[anyadj]é [ApparelFemGen]</li>
+    <li>image_gen(p=0.08)->[anyadj]ého [ApparelNeuGen]</li>
+    <li>image_acc(p=0.38)->[anyadj]ý [ApparelMasAcc]</li>
+    <li>image_acc(p=0.54)->[anyadj]ou [ApparelFemAcc]</li>
+    <li>image_acc(p=0.08)->[anyadj]é [ApparelNeuAcc]</li>
+    <li>image_gen->[ShapeAnyGen]</li>
+    <li>image_acc->[ShapeAnyAcc]</li>
+    <li>image_gen(p=0.44)->[ShapeMasGen] obklopeného [ShapePluIns]</li>
+    <li>image_gen(p=0.44)->[ShapeFemGen] obklopené [ShapePluIns]</li>
+    <li>image_gen(p=0.12)->[ShapeNeuGen] obklopeného [ShapePluIns]</li>
+    <li>image_acc(p=0.44)->[ShapeMasAcc] obklopený [ShapePluIns]</li>
+    <li>image_acc(p=0.44)->[ShapeFemAcc] obklopenou [ShapePluIns]</li>
+    <li>image_acc(p=0.12)->[ShapeNeuAcc] obklopené [ShapePluIns]</li>
+    <li>image_gen->abstraktního [rendering] [ConceptAnyUniGen]</li>
+    <li>image_acc->abstraktní [rendering] [ConceptAnyUniGen]</li>
+    <li>image_gen->[AdjectiveAnyFemGen] abstraktní [shapeform]y</li>
+    <li>image_acc->[AdjectiveAnyFemAcc] abstraktní [shapeform]u</li>
+
+
+
+    <li>desc_pawnMasGen_Solitary(p=12)->osamělého</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, vzduchem letícího</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, ve vzduchu visícího</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, směrem doprava přesouvajícího se</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, směrem doleva přesouvajícího se</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, na stole sedícího</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, přes krycí sklo viditelného</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, jako silueta vyjádřeného</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, na [AnimalUniLoc] [ApparelInLocWithIns] jedoucího</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, [AdverbAny] vypadajícího</li>
+    <li>desc_pawnMasGen_Solitary->osamělého, [GorePluIns] pokrytého</li>
+
+    <li>desc_pawnFemGen_Solitary(p=12)->osamělé</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, vzduchem letící</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, ve vzduchu visící</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, směrem doprava přesouvající se</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, směrem doleva přesouvající se</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, na stole sedící</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, přes krycí sklo viditelné</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, jako silueta vyjádřené</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, na [AnimalUniLoc] [ApparelInLocWithIns] jedoucí</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, [AdverbAny] vypadající</li>
+    <li>desc_pawnFemGen_Solitary->osamělé, [GorePluIns] pokryté</li>
+
+    <li>desc_pawnNeuGen_Solitary(p=12)->osamělého</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, vzduchem letícího</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, ve vzduchu visícího</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, směrem doprava přesouvajícího se</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, směrem doleva přesouvajícího se</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, na stole sedícího</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, přes krycí sklo viditelného</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, jako silueta vyjádřeného</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, na [AnimalUniLoc] [ApparelInLocWithIns] jedoucího</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, [AdverbAny] vypadajícího</li>
+    <li>desc_pawnNeuGen_Solitary->osamělého, [GorePluIns] pokrytého</li>
+
+    <li>desc_pawnMasAcc_Solitary(p=12)->osamělého</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, vzduchem letícího</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, ve vzduchu visícího</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, směrem doprava přesouvajícího se</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, směrem doleva přesouvajícího se</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, na stole sedícího</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, přes krycí sklo viditelného</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, jako silueta vyjádřeného</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, na [AnimalUniLoc] [ApparelInLocWithIns] jedoucího</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, [AdverbAny] vypadajícího</li>
+    <li>desc_pawnMasAcc_Solitary->osamělého, [GorePluIns] pokrytého</li>
+
+    <li>desc_pawnFemAcc_Solitary(p=12)->osamělou</li>
+    <li>desc_pawnFemAcc_Solitary->vzduchem letící</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, ve vzduchu visící</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, směrem doprava přesouvající se</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, směrem doleva přesouvající se</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, na stole sedící</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, přes krycí sklo viditelnou</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, jako silueta vyjádřenou</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, na [AnimalUniLoc] [ApparelInLocWithIns] jedoucí</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, [AdverbAny] vypadající</li>
+    <li>desc_pawnFemAcc_Solitary->osamělou, [GorePluIns] pokrytou</li>
+
+    <li>desc_pawnNeuAcc_Solitary(p=12)->osamělé</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, vzduchem letící</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, ve vzduchu visící</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, směrem doprava přesouvající se</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, směrem doleva přesouvající se</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, na stole sedící</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, přes krycí sklo viditelné</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, jako silueta vyjádřené</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, na [AnimalUniLoc] [ApparelInLocWithIns] jedoucí</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, [AdverbAny] vypadající</li>
+    <li>desc_pawnNeuAcc_Solitary->osamělé, [GorePluIns] pokryté</li>
+
+
+    <li>desc_pawnMasGen_Uni(p=12)->, který</li>
+    <li>desc_pawnMasGen_Uni->letícího vzduchem, přičemž</li>
+    <li>desc_pawnMasGen_Uni->visícího ve vzduchu, přičemž</li>
+    <li>desc_pawnMasGen_Uni->, který se přesouvá vpravo, a přitom</li>
+    <li>desc_pawnMasGen_Uni->, který se přesouvá vlevo, a přitom</li>
+    <li>desc_pawnMasGen_Uni->sedícího na stole, přičemž</li>
+    <li>desc_pawnMasGen_Uni->, kterého lze vidět za krycím sklem, jak</li>
+    <li>desc_pawnMasGen_Uni->vyjádřeného jako silueta, která</li>
+    <li>desc_pawnMasGen_Uni->jedoucího na [AnimalUniLoc] [ApparelInLocWithIns], a přitom</li>
+    <li>desc_pawnMasGen_Uni->, který vypadá [AdverbAny]. [moreover]</li>
+    <li>desc_pawnMasGen_Uni->pokrytého [GorePluIns], který</li>
+
+    <li>desc_pawnFemGen_Uni(p=12)->, která</li>
+    <li>desc_pawnFemGen_Uni->letící vzduchem, přičemž</li>
+    <li>desc_pawnFemGen_Uni->visící ve vzduchu, přičemž</li>
+    <li>desc_pawnFemGen_Uni->, která se přesouvá vpravo, a přitom</li>
+    <li>desc_pawnFemGen_Uni->, která se přesouvá vlevo, a přitom</li>
+    <li>desc_pawnFemGen_Uni->sedící na stole, přičemž</li>
+    <li>desc_pawnFemGen_Uni->, kterou lze vidět za krycím sklem, jak</li>
+    <li>desc_pawnFemGen_Uni->vyjádřené jako silueta, která</li>
+    <li>desc_pawnFemGen_Uni->jedoucí na [AnimalUniLoc] [ApparelInLocWithIns], a přitom</li>
+    <li>desc_pawnFemGen_Uni->, která vypadá [AdverbAny]. [moreover]</li>
+    <li>desc_pawnFemGen_Uni->pokryté [GorePluIns], která</li>
+
+    <li>desc_pawnNeuGen_Uni(p=12)->, které</li>
+    <li>desc_pawnNeuGen_Uni->letícího vzduchem, přičemž</li>
+    <li>desc_pawnNeuGen_Uni->visícího ve vzduchu, přičemž</li>
+    <li>desc_pawnNeuGen_Uni->, které se přesouvá vpravo, a přitom</li>
+    <li>desc_pawnNeuGen_Uni->, které se přesouvá vlevo, a přitom</li>
+    <li>desc_pawnNeuGen_Uni->sedícího na stole, přičemž</li>
+    <li>desc_pawnNeuGen_Uni->, které lze vidět za krycím sklem, jak</li>
+    <li>desc_pawnNeuGen_Uni->vyjádřeného jako silueta, která</li>
+    <li>desc_pawnNeuGen_Uni->jedoucího na [AnimalUniLoc] [ApparelInLocWithIns], a přitom</li>
+    <li>desc_pawnNeuGen_Uni->, které vypadá [AdverbAny]. [moreover]</li>
+    <li>desc_pawnNeuGen_Uni->pokrytého [GorePluIns], které</li>
+
+    <li>desc_pawnMasAcc_Uni(p=12)->, který</li>
+    <li>desc_pawnMasAcc_Uni->letícího vzduchem, přičemž</li>
+    <li>desc_pawnMasAcc_Uni->visícího ve vzduchu, přičemž</li>
+    <li>desc_pawnMasAcc_Uni->, který se přesouvá vpravo, a přitom</li>
+    <li>desc_pawnMasAcc_Uni->, který se přesouvá vlevo, a přitom</li>
+    <li>desc_pawnMasAcc_Uni->sedícího na stole, přičemž</li>
+    <li>desc_pawnMasAcc_Uni->, kterého lze vidět za krycím sklem, jak</li>
+    <li>desc_pawnMasAcc_Uni->vyjádřeného jako silueta, která</li>
+    <li>desc_pawnMasAcc_Uni->jedoucího na [AnimalUniLoc] [ApparelInLocWithIns], a přitom</li>
+    <li>desc_pawnMasAcc_Uni->, který vypadá [AdverbAny]. [moreover]</li>
+    <li>desc_pawnMasAcc_Uni->pokrytého [GorePluIns], který</li>
+
+    <li>desc_pawnFemAcc_Uni(p=12)->, která</li>
+    <li>desc_pawnFemAcc_Uni->letící vzduchem, přičemž</li>
+    <li>desc_pawnFemAcc_Uni->visící ve vzduchu, přičemž</li>
+    <li>desc_pawnFemAcc_Uni->, která se přesouvá vpravo, a přitom</li>
+    <li>desc_pawnFemAcc_Uni->, která se přesouvá vlevo, a přitom</li>
+    <li>desc_pawnFemAcc_Uni->sedící na stole, přičemž</li>
+    <li>desc_pawnFemAcc_Uni->, kterou lze vidět za krycím sklem, jak</li>
+    <li>desc_pawnFemAcc_Uni->vyjádřenou jako silueta, která</li>
+    <li>desc_pawnFemAcc_Uni->jedoucí na [AnimalUniLoc] [ApparelInLocWithIns], a přitom</li>
+    <li>desc_pawnFemAcc_Uni->, která vypadá [AdverbAny]. [moreover]</li>
+    <li>desc_pawnFemAcc_Uni->pokrytou [GorePluIns], která</li>
+
+    <li>desc_pawnNeuAcc_Uni(p=12)->, které</li>
+    <li>desc_pawnNeuAcc_Uni->letící vzduchem, přičemž</li>
+    <li>desc_pawnNeuAcc_Uni->visící ve vzduchu, přičemž</li>
+    <li>desc_pawnNeuAcc_Uni->, které se přesouvá vpravo, a přitom</li>
+    <li>desc_pawnNeuAcc_Uni->, které se přesouvá vlevo, a přitom</li>
+    <li>desc_pawnNeuAcc_Uni->sedící na stole, přičemž</li>
+    <li>desc_pawnNeuAcc_Uni->, které lze vidět za krycím sklem, jak</li>
+    <li>desc_pawnNeuAcc_Uni->vyjádřené jako silueta, která</li>
+    <li>desc_pawnNeuAcc_Uni->jedoucí na [AnimalUniLoc] [ApparelInLocWithIns], a přitom</li>
+    <li>desc_pawnNeuAcc_Uni->, které vypadá [AdverbAny]. [moreover]</li>
+    <li>desc_pawnNeuAcc_Uni->pokryté [GorePluIns], které</li>
+
+
+    <li>desc_pawnMasGen_WearingApparel(p=12)-></li>
+    <li>desc_pawnMasGen_WearingApparel->letícího vzduchem</li>
+    <li>desc_pawnMasGen_WearingApparel->visícího ve vzduchu</li>
+    <li>desc_pawnMasGen_WearingApparel->přesouvajícího se vpravo</li>
+    <li>desc_pawnMasGen_WearingApparel->přesouvajícího se vlevo</li>
+    <li>desc_pawnMasGen_WearingApparel->sedícího na stole</li>
+    <li>desc_pawnMasGen_WearingApparel->, kterého lze vidět za krycím sklem</li>
+    <li>desc_pawnMasGen_WearingApparel->, který je vyjádřen jako silueta</li>
+    <li>desc_pawnMasGen_WearingApparel->, který se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnMasGen_WearingApparel->, který vypadá [AdverbAny]</li>
+    <li>desc_pawnMasGen_WearingApparel->pokrytého [GorePluIns]</li>
+
+    <li>desc_pawnFemGen_WearingApparel(p=12)-></li>
+    <li>desc_pawnFemGen_WearingApparel->letící vzduchem</li>
+    <li>desc_pawnFemGen_WearingApparel->visící ve vzduchu</li>
+    <li>desc_pawnFemGen_WearingApparel->přesouvající se vpravo</li>
+    <li>desc_pawnFemGen_WearingApparel->přesouvající se vlevo</li>
+    <li>desc_pawnFemGen_WearingApparel->sedící na stole</li>
+    <li>desc_pawnFemGen_WearingApparel->, kterou lze vidět za krycím sklem</li>
+    <li>desc_pawnFemGen_WearingApparel->, která je vyjádřena jako silueta</li>
+    <li>desc_pawnFemGen_WearingApparel->, která se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnFemGen_WearingApparel->, která vypadá [AdverbAny]</li>
+    <li>desc_pawnFemGen_WearingApparel->pokryté [GorePluIns]</li>
+
+    <li>desc_pawnNeuGen_WearingApparel(p=12)-></li>
+    <li>desc_pawnNeuGen_WearingApparel->letícího vzduchem</li>
+    <li>desc_pawnNeuGen_WearingApparel->visícího ve vzduchu</li>
+    <li>desc_pawnNeuGen_WearingApparel->přesouvajícího se vpravo</li>
+    <li>desc_pawnNeuGen_WearingApparel->přesouvajícího se vlevo</li>
+    <li>desc_pawnNeuGen_WearingApparel->sedícího na stole</li>
+    <li>desc_pawnNeuGen_WearingApparel->, které lze vidět za krycím sklem</li>
+    <li>desc_pawnNeuGen_WearingApparel->, které je vyjádřeno jako silueta</li>
+    <li>desc_pawnNeuGen_WearingApparel->, které se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnNeuGen_WearingApparel->, které vypadá [AdverbAny]</li>
+    <li>desc_pawnNeuGen_WearingApparel->pokrytého [GorePluIns]</li>
+
+    <li>desc_pawnMasAcc_WearingApparel(p=12)-></li>
+    <li>desc_pawnMasAcc_WearingApparel->letícího vzduchem</li>
+    <li>desc_pawnMasAcc_WearingApparel->visícího ve vzduchu</li>
+    <li>desc_pawnMasAcc_WearingApparel->přesouvajícího se vpravo</li>
+    <li>desc_pawnMasAcc_WearingApparel->přesouvajícího se vlevo</li>
+    <li>desc_pawnMasAcc_WearingApparel->sedícího na stole</li>
+    <li>desc_pawnMasAcc_WearingApparel->, kterého lze vidět za krycím sklem</li>
+    <li>desc_pawnMasAcc_WearingApparel->, který je vyjádřen jako silueta</li>
+    <li>desc_pawnMasAcc_WearingApparel->, který se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnMasAcc_WearingApparel->, který vypadá [AdverbAny]</li>
+    <li>desc_pawnMasAcc_WearingApparel->pokrytého [GorePluIns]</li>
+
+    <li>desc_pawnFemAcc_WearingApparel(p=12)-></li>
+    <li>desc_pawnFemAcc_WearingApparel->letící vzduchem</li>
+    <li>desc_pawnFemAcc_WearingApparel->visící ve vzduchu</li>
+    <li>desc_pawnFemAcc_WearingApparel->přesouvající se vpravo</li>
+    <li>desc_pawnFemAcc_WearingApparel->přesouvající se vlevo</li>
+    <li>desc_pawnFemAcc_WearingApparel->sedící na stole</li>
+    <li>desc_pawnFemAcc_WearingApparel->, kterou lze vidět za krycím sklem</li>
+    <li>desc_pawnFemAcc_WearingApparel->, která je vyjádřena jako silueta</li>
+    <li>desc_pawnFemAcc_WearingApparel->, která se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnFemAcc_WearingApparel->, která vypadá [AdverbAny]</li>
+    <li>desc_pawnFemAcc_WearingApparel->pokrytou [GorePluIns]</li>
+
+    <li>desc_pawnNeuAcc_WearingApparel(p=12)-></li>
+    <li>desc_pawnNeuAcc_WearingApparel->letící vzduchem</li>
+    <li>desc_pawnNeuAcc_WearingApparel->visící ve vzduchu</li>
+    <li>desc_pawnNeuAcc_WearingApparel->přesouvající se vpravo</li>
+    <li>desc_pawnNeuAcc_WearingApparel->přesouvající se vlevo</li>
+    <li>desc_pawnNeuAcc_WearingApparel->sedící na stole</li>
+    <li>desc_pawnNeuAcc_WearingApparel->, které lze vidět za krycím sklem</li>
+    <li>desc_pawnNeuAcc_WearingApparel->, které je vyjádřeno jako silueta</li>
+    <li>desc_pawnNeuAcc_WearingApparel->, které se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnNeuAcc_WearingApparel->, které vypadá [AdverbAny]</li>
+    <li>desc_pawnNeuAcc_WearingApparel->pokryté [GorePluIns]</li>
+
+
+    <li>desc_pawnGenCelebrity(p=12)-></li>
+    <li>desc_pawnGenCelebrity->letící vzduchem</li>
+    <li>desc_pawnGenCelebrity->visící ve vzduchu</li>
+    <li>desc_pawnGenCelebrity->přesouvající se vpravo</li>
+    <li>desc_pawnGenCelebrity->přesouvající se vlevo</li>
+    <li>desc_pawnGenCelebrity->sedící na stole</li>
+    <li>desc_pawnGenCelebrity->, kterou lze vidět za krycím sklem</li>
+    <li>desc_pawnGenCelebrity->, která je vyjádřena jako silueta</li>
+    <li>desc_pawnGenCelebrity->, která se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnGenCelebrity->, která vypadá [AdverbAny]</li>
+    <li>desc_pawnGenCelebrity->pokryté [GorePluIns]</li>
+
+    <li>desc_pawnAccCelebrity(p=12)-></li>
+    <li>desc_pawnAccCelebrity->letící vzduchem</li>
+    <li>desc_pawnAccCelebrity->visící ve vzduchu</li>
+    <li>desc_pawnAccCelebrity->přesouvající se vpravo</li>
+    <li>desc_pawnAccCelebrity->přesouvající se vlevo</li>
+    <li>desc_pawnAccCelebrity->sedící na stole</li>
+    <li>desc_pawnAccCelebrity->, kterou lze vidět za krycím sklem</li>
+    <li>desc_pawnAccCelebrity->, která je vyjádřena jako silueta</li>
+    <li>desc_pawnAccCelebrity->, která se veze na [AnimalUniLoc] [ApparelInLocWithIns]</li>
+    <li>desc_pawnAccCelebrity->, která vypadá [AdverbAny]</li>
+    <li>desc_pawnAccCelebrity->pokrytou [GorePluIns]</li>
+
+
+
+    <li>rendering->ztvárnění</li>
+    <li>rendering->provedení</li>
+    <li>rendering->zpodobení</li>
+    <li>rendering->vyjádření</li>
+    <li>shapeform->form</li>
+    <li>shapeform->podob</li>
+    <li>anyadj->běžn</li>
+    <li>anyadj->obyčejn</li>
+    <li>anyadj->prost</li>
+    <li>anyadj->obvykl</li>
+    <li>anyadj->neobvykl</li>
+    <li>anyadj->nějak</li>
+    <li>anyadj->zajímav</li>
+    <li>near->nedaleko</li>
+    <li>near->v blízkosti</li>
+    <li>near->kousek od</li>
+    <li>near->poblíž</li>
+    <li>eating->jí</li>
+    <li>eating->baští</li>
+    <li>eating->konzumuje</li>
+    <li>eating->žere</li>
+    <li>eating->hltá</li>
+    <li>holding->drží</li>
+    <li>holding->svírá</li>
+    <li>together->společně</li>
+    <li>together->spolu</li>
+    <li>together->pospolu</li>
+    <li>together->pohromadě</li>
+    <li>eatingplu->jedí</li>
+    <li>eatingplu->baští</li>
+    <li>eatingplu->konzumují</li>
+    <li>eatingplu->žerou</li>
+    <li>eatingplu->hltají</li>
+    <li>surroundedby->obklíčení</li>
+    <li>surroundedby->obležení</li>
+    <li>surroundedby->obklopení</li>
+    <li>surroundedby->sevření</li>
+    <li>moreover->Mimoto</li>
+    <li>moreover->Kromě toho</li>
   </TalelessImages.rulePack.rulesStrings>
   
 </LanguageData>

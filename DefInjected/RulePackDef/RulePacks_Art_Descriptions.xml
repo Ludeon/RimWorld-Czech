@@ -10,12 +10,12 @@
     <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
   -->
   <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-    <li>art_description_root->[physical_description_root] [context_sentence]</li>
+    <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->[depiction] referuje na příběh o [tale_noun] k datu [date].</li>
-    <li>context_sentence->[depiction] se vztahuje na příběh o [tale_noun] k datu [date].</li>
-    <li>context_sentence->[depiction] vypráví příběh o [tale_noun] k datu [date].</li>
+    <li>context_sentence->[depiction] referuje na příběh o [tale_noun]. Příběh se datuje ke dni [DATE].</li>
+    <li>context_sentence->[depiction] se vztahuje na příběh o [tale_noun]. Událo se ke dni [DATE].</li>
+    <li>context_sentence->[depiction] vypráví příběh o [tale_noun]. Stalo se dne [DATE].</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -23,7 +23,7 @@
     <li>desc_sentence_group->[style_group]</li>
   -->
   <ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
-    <li>art_description_root->[physical_description_root]</li>
+    <li>r_art_description->[physical_description_root_Taleless]</li>
     <li>desc_sentence_group->[style_group]</li>
   </ArtDescriptionRoot_Taleless.rulePack.rulesStrings>
   
@@ -202,118 +202,663 @@
   -->
   <ArtDescriptionUtility_Global.rulePack.rulesStrings>
     <li>style_group->[artextra_clause]. [style_clause].</li>
-    <li>style_group->[style_clause]. [artextra_clause].</li>
-    <li>style_group->[artextra_clause], přestože [style_clause].</li>
-    <li>style_group->[artextra_clause], ačkoliv [style_clause].</li>
-    <li>artextra_clause->[quantity_adjphrase] zvířat lemuje obraz. Jsou to [animal]i</li>
-    <li>artextra_clause->[side_position] je vidět [community]</li>
-    <li>artextra_clause->[side_position] je vidět [terrainfeature]</li>
-    <li>artextra_clause->jsou tu [animal]i, které je možné vidět [side_position]</li>
-    <li>artextra_clause->tyto subjekty jsou v popředí, kde se nachází také [terrainfeature]</li>
-    <li>artextra_clause->scéna se odehrává v místě, kde se nachází [community]</li>
-    <li>artextra_clause->scéna vypadá, že probíhá na okraji místa, kde se nachází [community]</li>
-    <li>artextra_clause->smějící se [outlander] pozorují vše okolo</li>
-    <li>artextra_clause->scéna se odehrává uprostřed známé oblasti, kde se nachází také [community]. Dále je zde vidět [terrainfeature]</li>
-    <li>artextra_clause->spodní částí obrazu dominuje [terrainfeature]</li>
-    <li>artextra_clause->celé dílo je vyobrazeno pečlivým uspořádáním stovek zvířat, kde nejzajímavějšími jsou [animal]i</li>
-    <li>artextra_clause->jsou tu [outlander], které je možné vidět [side_position]</li>
-    <li>artextra_clause->jsou tu [animal]i, které je možné vidět [side_position]</li>
-    <li>artextra_clause->jsou zde mrtví [animal]i, které je možné vidět [side_position]</li>
-    <li>artextra_clause->[side_position] je vidět ztělesnění konceptu '[concept]'</li>
-    <li>artextra_clause->[animal]i, kteří jsou vidět [side_position], symbolizují koncept '[concept]'</li>
-    <li>artextra_clause->[quantity_adjphrase] postav vidíme na obrazu. Tyto osoby jsou [outlander] a jsou vidět [side_position]</li>
-    <li>artextra_clause->pokud přimhouříte oči, [composition] kompozice obrazu vytváří obrysy zvířat, kterými jsou [animal]i</li>
-    <li>style_clause->obraz vyjadřuje koncept '[concept]'</li>
-    <li>style_clause->práce je naplněna myšlenkou konceptu '[concept]' a je provedena [artstyle_adj]m stylem</li>
-    <li>style_clause->práce odpovídá konceptu '[concept]'</li>
-    <li>style_clause->v této práci je zahrnut [artstyle_adj] styl</li>
-    <li>style_clause->[artstyle_adj] styl na centrální scéně se střetává s decentním [artstyle_adj]m vyobrazením na pozadí</li>
-    <li>style_clause->práce má [artstyle_adj] styl i cítění a je tu krásně vidět [composition] struktura díla</li>
-    <li>style_clause->celková kompozice díla je [composition]</li>
-    <li>style_clause->styl díla je [artstyle_adj] s mírně [artstyle_adj]m elementem</li>
-    <li>style_clause->obraz totálně postrádá koncept '[concept]' a '[concept]'</li>
-    <li>style_clause->obraz nějakým způsobem vyjadřuje koncept '[concept]' a '[concept]'</li>
-    <li>style_clause->[composition] struktura obrazu je téměř v rozporu s jeho [artstyle_adj]m stylem</li>
-    <li>style_clause->práce je tónovaná odstíny [color]é a [color]é</li>
-    <li>style_clause->téměř každá [composition] část obrazu se jeví jako velmi dobrá volba umělce</li>
-    <li>depicts->líčí</li>
-    <li>depicts->ukazuje</li>
-    <li>depicts->představuje</li>
+    <li>style_group(p=6000)->[style_clause]. [artconjunction_artextra_clause].</li>
+    <li>style_group->[style_clause].</li>
+    <li>style_group->[artextra_clause].</li>
+    <li>style_group-></li>
+
+    <li>artconjunction_artextra_clause(p=6)->[artextra_clause]</li>
+    <li>artconjunction_artextra_clause->[artextra_clause], což dílu dodává zajímavý kontrast</li>
+    <li>artconjunction_artextra_clause->[artextra_clause], což dílu poskytlo konečný vzhled</li>
+    <li>artconjunction_artextra_clause->[artextra_clause], což dílu přidává více pestrosti</li>
+    <li>artconjunction_artextra_clause->[artextra_clause], což pro některé může být překvapivé</li>
+    <li>artconjunction_artextra_clause->[artextra_clause], což někteří mohou brát jako provokaci</li>
+    <li>artconjunction_artextra_clause->ačkoliv je to pro tento druh díla neobvyklé, [artextra_clause]</li>
+    <li>artconjunction_artextra_clause->ačkoliv by to čekal málokdo, [artextra_clause]</li>
+    <li>artconjunction_artextra_clause->[artextra_clause], což dílu přidává na vyjímečnosti</li>
+
+    <li>artextra_clause->obraz je lemován [subimagepluralIns]</li>
+    <li>artextra_clause->na okraji obrazu se nachází [subimagepluralNom]</li>
+    <li>artextra_clause->[side_position] se nachází [subimagesingleNom]</li>
+    <li>artextra_clause->jedním z témat v popředí [subimageanyNom_Is]</li>
+    <li>artextra_clause->spodní částí obrazu [subimageanyNom_IsDominated]</li>
+    <li>artextra_clause->scéna [anytakesplace] ve středu [CommunityUniGen]</li>
+    <li>artextra_clause->scéna [anytakesplace] na okraji [CommunityUniGen]</li>
+    <li>artextra_clause->scéna [anytakesplace] v nitru [CommunityUniGen] nedaleko [TerrainFeatureUniGen]</li>
+    <li>artextra_clause->[side_position] [idles] [CharacterNom]</li>
+    <li>artextra_clause->[side_position] [idles] [pawn_adj_CharacterNom]</li>
+    <li>artextra_clause->[side_position] lze vidět [Quantity_adjphraseAcc] [CharacterPluGen]</li>
+    <li>artextra_clause->[side_position] lze vidět [Quantity_adjphraseAcc] [pawn_adj_plural_CharacterPluGen]</li>
+    <li>artextra_clause->[side_position] [idles] [AnimalUniNom]</li>
+    <li>artextra_clause->pokud přimhouříš oči, [compositionFem] kompozice odhaluje obrysy [subimageanyGen]</li>
+    <li>artextra_clause->[anywatchesoverall] [emotional_expression] [anyhead] [pawn_adj_PersonJobUniGen]</li>
+    <li>artextra_clause->[anywatchesoverall] [pawn_adj_PersonJobUniNom_while_emotional_expression]</li>
+    <li>artextra_clause->[anywatchesoverall] [anyhead] [pawn_adj_PersonJobUniGen]</li>
+    <li>artextra_clause->celý obraz je vykreslen pečlivým uspořádáním [subimagepluralGen]</li>
+
+    <li>subimageanyNom->[subimagesingleNom]</li>
+    <li>subimageanyNom->[subimagepluralNom]</li>
+
+    <li>subimageanyNom_Is->je [subimagesingleNom]</li>
+    <li>subimageanyNom_Is->[subimagepluralNom_Is]</li>
+
+    <li>subimageanyNom_IsDominated->dominuje [subimagesingleNom]</li>
+    <li>subimageanyNom_IsDominated->[subimagepluralNom_IsDominated]</li>
+
+    <li>subimageanyGen->[subimagesingleGen]</li>
+    <li>subimageanyGen->[subimagepluralGen]</li>
+
+    <li>subimagesingleNom(p=4)->[CharacterNom]</li>
+    <li>subimagesingleNom->[TerrainFeatureUniNom]</li>
+    <li>subimagesingleNom->[CommunityUniNom]</li>
+    <li>subimagesingleNom->[TreeTypeUniNom]</li>
+    <li>subimagesingleNom->[VegetableUniNom]</li>
+    <li>subimagesingleNom(p=0.7)->[AnimalPluGenFixGrpNom]</li>
+    <li>subimagesingleNom(p=0.3)->[AnimalGroupNomExt] [AnimalPluGen]</li>
+
+    <li>subimagesingleGen(p=4)->[CharacterGen]</li>
+    <li>subimagesingleGen->[TerrainFeatureUniGen]</li>
+    <li>subimagesingleGen->[CommunityUniGen]</li>
+    <li>subimagesingleGen->[TreeTypeUniGen]</li>
+    <li>subimagesingleGen->[VegetableUniGen]</li>
+    <li>subimagesingleGen(p=0.7)->[AnimalPluGenFixGrpGen]</li>
+    <li>subimagesingleGen(p=0.3)->[AnimalGroupGenExt] [AnimalPluGen]</li>
+
+    <li>subimagepluralNom(p=3)->[Quantity_adjphraseNom] [CharacterPluGen]</li>
+    <li>subimagepluralNom->[Quantity_adjphraseNom] [VegetablePluGen]</li>
+    <li>subimagepluralNom->[Quantity_adjphraseNom] [ShapePluGen]</li>
+
+    <li>subimagepluralNom_Is(p=3)->[Quantity_adjphraseNom_Is] [CharacterPluGen]</li>
+    <li>subimagepluralNom_Is->[Quantity_adjphraseNom_Is] [VegetablePluGen]</li>
+    <li>subimagepluralNom_Is->[Quantity_adjphraseNom_Is] [ShapePluGen]</li>
+
+    <li>subimagepluralNom_IsDominated(p=3)->[Quantity_adjphraseNom_IsDominated] [CharacterPluGen]</li>
+    <li>subimagepluralNom_IsDominated->[Quantity_adjphraseNom_IsDominated] [VegetablePluGen]</li>
+    <li>subimagepluralNom_IsDominated->[Quantity_adjphraseNom_IsDominated] [ShapePluGen]</li>
+
+    <li>subimagepluralGen(p=3)->[Quantity_adjphraseGen] [CharacterPluGen]</li>
+    <li>subimagepluralGen->[Quantity_adjphraseGen] [VegetablePluGen]</li>
+    <li>subimagepluralGen->[Quantity_adjphraseGen] [ShapePluGen]</li>
+
+    <li>subimagepluralIns(p=3)->[Quantity_adjphraseCharactersIns]</li>
+    <li>subimagepluralIns->[Quantity_adjphraseVegetablesIns]</li>
+    <li>subimagepluralIns->[Quantity_adjphraseShapesIns]</li>
+
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+
+    <li>pawn_adj_PersonJobUniNom_while_emotional_expression->[pawn_adj_PersonJobMasNom]</li>
+    <li>pawn_adj_PersonJobUniNom_while_emotional_expression->[pawn_adj_PersonJobFemNom]</li>
+
+    <li>pawn_adj_PersonJobMasNom->mrtvý [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->umírající [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->zraněný [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->spící [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->stojící [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->sedící [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->šílený [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->mladý [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->starý [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] pokrytý [GorePluIns], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->ušpiněný [PersonJobMasNom], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] [ApparelInLocWithIns], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] [WeaponWitUniIns], který [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] pojídající [VegetableUniAcc], který [emotional_expression_verb]</li>
+
+    <li>pawn_adj_PersonJobFemNom->mrtvá [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->umírající [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->zraněná [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->spící [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->stojící [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->sedící [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->šílená [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->mladá [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->stará [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] pokrytá [GorePluIns], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->ušpiněná [PersonJobFemNom], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] [ApparelInLocWithIns], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] [WeaponWitUniIns], která [emotional_expression_verb]</li>
+    <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] pojídající [VegetableUniAcc], která [emotional_expression_verb]</li>
+
+    <li>pawn_adj_PersonJobUniGen->[pawn_adj_PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobUniGen->[pawn_adj_PersonJobFemGen]</li>
+
+    <li>pawn_adj_PersonJobMasGen->mrtvého [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->umírajícího [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->zraněného [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->spícího [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->stojícího [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->sedícího [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->šíleného [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->mladého [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->starého [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] pokrytého [GorePluIns]</li>
+    <li>pawn_adj_PersonJobMasGen->ušpiněného [PersonJobMasGen]</li>
+    <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] [ApparelInLocWithIns]</li>
+    <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] [WeaponWitUniIns]</li>
+    <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] pojídajícího [VegetableUniAcc]</li>
+
+    <li>pawn_adj_PersonJobFemGen->mrtvé [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->umírající [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->zraněné [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->spící [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->stojící [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->sedící [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->šílené [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->mladé [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->staré [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] pokryté [GorePluIns]</li>
+    <li>pawn_adj_PersonJobFemGen->ušpiněné [PersonJobFemGen]</li>
+    <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] [ApparelInLocWithIns]</li>
+    <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] [WeaponWitUniIns]</li>
+    <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] pojídající [VegetableUniAcc]</li>
+
+    <li>pawn_adj_CharacterNom->mrtv[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->umírající [CharacterNom]</li>
+    <li>pawn_adj_CharacterNom->zraněn[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->spící [CharacterNom]</li>
+    <li>pawn_adj_CharacterNom->huben[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->tlust[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->šílen[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->mlad[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->star[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->[GorePluIns] pokryt[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->ušpiněn[CharacterNom_AnyAdjective]</li>
+    <li>pawn_adj_CharacterNom->[CharacterNom] [ApparelInLocWithIns]</li>
+    <li>pawn_adj_CharacterNom->[CharacterNom] [WeaponWitUniIns]</li>
+    <li>pawn_adj_CharacterNom->[CharacterNom] pojídající [VegetableUniAcc]</li>
+
+    <li>pawn_adj_plural_CharacterPluGen->mrtvých [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->umírajících [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->zraněných [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->spících [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->stojících [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->sedících [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->šílených [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->mladých [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->starých [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] pokrytých [GorePluIns]</li>
+    <li>pawn_adj_plural_CharacterPluGen->ušpiněných [CharacterPluGen]</li>
+    <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] [ApparelInLocWithIns]</li>
+    <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] [WeaponWitPluIns]</li>
+    <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] pojídajících [VegetablePluAcc]</li>
+
+
+    <li>emotional_expression->usmívající se</li>
+    <li>emotional_expression->mračící se</li>
+    <li>emotional_expression->zlobící se</li>
+    <li>emotional_expression->smějící se</li>
+    <li>emotional_expression->upřeně zírající</li>
+    <li>emotional_expression->plačící</li>
+    <li>emotional_expression->křičící</li>
+    <li>emotional_expression->štěstím oplývající</li>
+
+    <li>emotional_expression_verb->se usmívá</li>
+    <li>emotional_expression_verb->se mračí</li>
+    <li>emotional_expression_verb->má rozzlobený výraz ve své tváři</li>
+    <li>emotional_expression_verb->se směje</li>
+    <li>emotional_expression_verb->upřeně zírá</li>
+    <li>emotional_expression_verb->pláče</li>
+    <li>emotional_expression_verb->křičí</li>
+    <li>emotional_expression_verb->oplývá štěstím</li>
+
+
+    <li>idles->sedí</li>
+    <li>idles->stojí</li>
+    <li>idles->vyčkává</li>
+    <li>idles->se usmívá</li>
+    <li>idles->leží</li>
+    <li>idles->pózuje</li>
+    <li>idles->se zjevuje</li>
+    <li>idles->se objevuje</li>
+    <li>idles->se pozvolna ztrácí</li>
+    <li>idles->se vznáší</li>
+
+
+    <li>side_position->kousek stranou</li>
+    <li>side_position->na pozadí</li>
+    <li>side_position->v dáli</li>
+    <li>side_position->v dolní části vyobrazení</li>
+    <li>side_position->v horní části vyobrazení</li>
+    <li>side_position->vlevo od hlavní scény</li>
+    <li>side_position->vpravo od hlavní scény</li>
+    <li>side_position->v okrajové části díla</li>
+    <li>side_position->v blízkosti hlavního subjektu</li>
+    <li>side_position->opodál od hlavního subjektu</li>
+    <li>side_position->pod hlavním subjektem</li>
+    <li>side_position->za ohniskem</li>
+
+
+    <li>style_clause->toto dílo [symbolizes]</li>
+    <li>artextra_clause->[subimagesingleNom] nacházející se [side_position] [symbolizes]</li>
+    <li>artextra_clause_conjuction->[subimagesingleNom] nacházející se [side_position] [symbolizes]</li>
+    <li>style_clause->toto dílo je inspirované myšlenkou [ConceptAnyGen] a je vyhotovené [artstyle_adjInStyleLoc]</li>
+    <li>style_clause->toto dílo je provedené [artstyle_adjInStyleLoc]</li>
+    <li>style_clause->[artstyle_adjStyleNom] na centrální scéně se střetává [artstyle_adjWithDepictionIns] pozadí</li>
+    <li>style_clause->toto dílo vykazuje [artstyle_adjFeelingAcc] a má [compositionGen] [anystructureUni]u</li>
+    <li>style_clause->celková [anycomposition] [anyofthisworkGen] je [compositionFem]</li>
+    <li>style_clause->styl [anyofthisworkGen] je [artstyle_adjMas] [artstyle_adjWithPluIns] [anyelements]</li>
+    <li>style_clause->toto [anyimage] díla nějakým způsobem vyjadřuje [ConceptAnyUniAcc] a [ConceptAnyUniAcc]</li>
+    <li>style_clause->toto [anyimage] díla [anyshows] [anycontrast] mezi [ConceptAnyUniIns] a [ConceptAnyUniIns]</li>
+    <li>style_clause->[compositionFem] [anystructureUni]a tohoto díla je téměř v rozporu s jeho [artstyle_adjStyleIns]</li>
+    <li>style_clause->toto dílo je stínované [ColorInUni]ých a [anytypecoloradverb] [ColorUni]ých odstínech</li>
+    <li>style_clause->téměř všechny tvary na [anyofthisworkLoc] se zdají být [compositionPlu]</li>
+
+
+    <li>symbolizes->symbolizuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes->, jak se zdá, symbolizuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes->představuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes->, jak se zdá, představuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes->, jak se zdá, vyjadřuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes->divákovi připomíná [ConceptAnyUniAcc]</li>
+    <li>symbolizes->vyjadřuje emoce [ConceptAnyUniGen]</li>
+    <li>symbolizes->je vyobrazené tak, aby divák myslel na [ConceptAnyUniAcc]</li>
+    <li>symbolizes->[anyrepresents] umělc[ConceptAnyPersonUniAcc]</li>
+    <li>symbolizes->naznačuje koncept [ConceptAnyUniGen]</li>
+
+
+    <li>depicts->vykresluje</li>
+    <li>depicts->znázorňuje</li>
+    <li>depicts->vyobrazuje</li>
     <li>depicts->připomíná</li>
     <li>depicts->ilustruje</li>
-    <li>depicts->reprezentuje</li>
-    <li>depicts->tvoří</li>
+    <li>depicts->představuje</li>
+    <li>depicts->napodobuje</li>
+
+
+    <li>depiction->vykreslení</li>
+    <li>depiction->obrázek</li>
     <li>depiction->vyobrazení</li>
-    <li>depiction->obraz</li>
-    <li>depiction->portrét</li>
-    <li>depiction->reprezentace</li>
+    <li>depiction->znázornění</li>
     <li>depiction->ilustrace</li>
-    <li>depiction->umělecké dílo</li>
-    <li>composition->trojúhelníková</li>
-    <li>composition->obdélníková</li>
-    <li>composition->čtvercová</li>
-    <li>composition->nevyvážená</li>
-    <li>composition->dobře vyvážená</li>
-    <li>composition->velmi dynamická</li>
-    <li>composition->velmi statická</li>
-    <li>artstyle_adj->neoriginální</li>
-    <li>artstyle_adj->prostý</li>
-    <li>artstyle_adj->realistický</li>
-    <li>artstyle_adj->surrealistický</li>
-    <li>artstyle_adj->klasický</li>
-    <li>artstyle_adj->moderní</li>
-    <li>artstyle_adj->symbolický</li>
-    <li>artstyle_adj->amatérsky atraktivní</li>
-    <li>artstyle_adj->detailně orientovaný</li>
-    <li>artstyle_adj->modulární</li>
-    <li>artstyle_adj->kubistický</li>
-    <li>artstyle_adj->impresionistický</li>
-    <li>artstyle_adj->expresionistický</li>
-    <li>artstyle_adj->fotografický</li>
-    <li>artstyle_adj->barokní</li>
-    <li>artstyle_adj->dadaistický</li>
-    <li>artstyle_adj->glitch-artistický</li>
-    <li>artstyle_adj->pixel-artistický</li>
-    <li>artstyle_adj->fauvistický</li>
-    <li>artstyle_adj->lidový</li>
-    <li>artstyle_adj->figurativní</li>
-    <li>artstyle_adj->klikatý</li>
-    <li>artstyle_adj->geometrický</li>
-    <li>artstyle_adj->abstraktní</li>
-    <li>artstyle_adj->hyper-realistický</li>
-    <li>artstyle_adj->pop-artistický</li>
-    <li>artstyle_adj->minimalistický</li>
-    <li>artstyle_adj->neoklasický</li>
-    <li>artstyle_adj->stínovaný</li>
-    <li>artstyle_adj->post-impresionistický</li>
-    <li>artstyle_adj->puristický</li>
-    <li>artstyle_adj->rokokový</li>
-    <li>artstyle_adj->románský</li>
-    <li>artstyle_adj->romantický</li>
-    <li>artstyle_adj->graffiti</li>
-    <li>artstyle_adj->erotický</li>
-    <li>artstyle_adj->smyslný</li>
-    <li>artstyle_adj->srdečný</li>
-    <li>idle_verb_progressive->sedí</li>
-    <li>idle_verb_progressive->stojí</li>
-    <li>idle_verb_progressive->čekají</li>
-    <li>idle_verb_progressive->se usmívají</li>
-    <li>idle_verb_progressive->kecají</li>
-    <li>idle_verb_progressive->pózují</li>
-    <li>idle_verb_progressive->se objevují</li>
-    <li>idle_verb_progressive->se ukazují</li>
-    <li>idle_verb_progressive->běží</li>
-    <li>idle_verb_progressive->leží</li>
-    <li>side_position->na spodní části obrazu</li>
-    <li>side_position->v blízkosti okraje obrazu</li>
-    <li>side_position->v pozadí</li>
-    <li>side_position->v dálce</li>
-    <li>side_position->v dolní části obrazu</li>
-    <li>side_position->v horní části obrazu</li>
-    <li>side_position->v místě pod hlavním tématem</li>
-    <li>side_position->za ohniskem</li>
-    <li>side_position->v levé části obrazu</li>
-    <li>side_position->na pravé straně hlavní scény</li>
+    <li>depiction->umělecké zhotovení</li>
+
+    <li>depiction_acc->vykreslení</li>
+    <li>depiction_acc->obrázek</li>
+    <li>depiction_acc->vyobrazení</li>
+    <li>depiction_acc->znázornění</li>
+    <li>depiction_acc->ilustraci</li>
+    <li>depiction_acc->umělecké zhotovení</li>
+
+    <li>depiction_uni->é vykreslení</li>
+    <li>depiction_uni->ý obrázek</li>
+    <li>depiction_uni->é vyobrazení</li>
+    <li>depiction_uni->é znázornění</li>
+    <li>depiction_uni->ou ilustraci</li>
+    <li>depiction_uni->é umělecké zhotovení</li>
+
+
+    <li>compositionMas->trojúhelníkový</li>
+    <li>compositionMas->obdélníkový</li>
+    <li>compositionMas->čtvercový</li>
+    <li>compositionMas->nesymetrický</li>
+    <li>compositionMas->dobře vyvážený</li>
+    <li>compositionMas->dynamický</li>
+    <li>compositionMas->statický</li>
+    <li>compositionMas->svislý</li>
+    <li>compositionMas->vodorovný</li>
+    <li>compositionMas->promyšlený</li>
+
+    <li>compositionFem->trojúhelníková</li>
+    <li>compositionFem->obdélníková</li>
+    <li>compositionFem->čtvercová</li>
+    <li>compositionFem->nesymetrická</li>
+    <li>compositionFem->dobře vyvážená</li>
+    <li>compositionFem->dynamická</li>
+    <li>compositionFem->statická</li>
+    <li>compositionFem->svislá</li>
+    <li>compositionFem->vodorovná</li>
+    <li>compositionFem->promyšlená</li>
+
+    <li>compositionPlu->trojúhelníkové</li>
+    <li>compositionPlu->obdélníkové</li>
+    <li>compositionPlu->čtvercové</li>
+    <li>compositionPlu->nesymetrické</li>
+    <li>compositionPlu->dobře vyvážené</li>
+    <li>compositionPlu->dynamické</li>
+    <li>compositionPlu->statické</li>
+    <li>compositionPlu->svislé</li>
+    <li>compositionPlu->vodorovné</li>
+    <li>compositionPlu->promyšlené</li>
+
+    <li>compositionGen->trojúhelníkovou</li>
+    <li>compositionGen->obdélníkovou</li>
+    <li>compositionGen->čtvercovou</li>
+    <li>compositionGen->nesymetrickou</li>
+    <li>compositionGen->dobře vyváženou</li>
+    <li>compositionGen->dynamickou</li>
+    <li>compositionGen->statickou</li>
+    <li>compositionGen->svislou</li>
+    <li>compositionGen->vodorovnou</li>
+    <li>compositionGen->promyšlenou</li>
+
+
+    <li>anytakesplace->se odehrává</li>
+    <li>anytakesplace->probíhá</li>
+
+    <li>anyhead->hlava</li>
+    <li>anyhead->tvář</li>
+    <li>anyhead->obličej</li>
+
+    <li>anywatchesoverall->na vše dohlíží</li>
+    <li>anywatchesoverall->veškeré dění kolem [anywatches]</li>
+    <li>anywatchesoverall->vše kolem [anywatches]</li>
+
+    <li>anywatches->pozoruje</li>
+    <li>anywatches->sleduje</li>
+
+    <li>anycomposition->kompozice</li>
+    <li>anycomposition->skladba</li>
+
+    <li>anyofthisworkGen->tohoto díla</li>
+    <li>anyofthisworkGen->této práce</li>
+
+    <li>anyofthisworkLoc->tomto díle</li>
+    <li>anyofthisworkLoc->této práci</li>
+
+    <li>anyimage->znázornění</li>
+    <li>anyimage->ztvárnění</li>
+    <li>anyimage->vyobrazení</li>
+    <li>anyimage->vyjádření</li>
+
+    <li>anyshows->ukazuje</li>
+    <li>anyshows->naznačuje</li>
+
+    <li>anycontrast->rozdíly</li>
+    <li>anycontrast->kontrasty</li>
+    <li>anycontrast->protiklady</li>
+    <li>anycontrast->odlišnosti</li>
+
+    <li>anystructureUni->struktur</li>
+    <li>anystructureUni->form</li>
+
+    <li>anyelements->elementy</li>
+    <li>anyelements->prvky</li>
+
+    <li>anyrepresents->reprezentuje</li>
+    <li>anyrepresents->představuje</li>
+    <li>anyrepresents->ztělesňuje</li>
+    <li>anyrepresents->znázorňuje</li>
+
+    <li>anytypecoloradverb->tmavě</li>
+    <li>anytypecoloradverb->světle</li>
+    <li>anytypecoloradverb->výrazně</li>
+    <li>anytypecoloradverb->křiklavě</li>
+
+
+    <li>artstyle_adjMas->neoriginální</li>
+    <li>artstyle_adjMas->prostý</li>
+    <li>artstyle_adjMas->komplexně realistický</li>
+    <li>artstyle_adjMas->surrealistický</li>
+    <li>artstyle_adjMas->klasický</li>
+    <li>artstyle_adjMas->moderní</li>
+    <li>artstyle_adjMas->symbolický</li>
+    <li>artstyle_adjMas->amatérský, nicméně i přesto atraktivní</li>
+    <li>artstyle_adjMas->zaměřený na detaily</li>
+    <li>artstyle_adjMas->modulární</li>
+    <li>artstyle_adjMas->kubistický</li>
+    <li>artstyle_adjMas->impresionistický</li>
+    <li>artstyle_adjMas->expresionistický</li>
+    <li>artstyle_adjMas->fotografický</li>
+    <li>artstyle_adjMas->barokní</li>
+    <li>artstyle_adjMas->dadaistický</li>
+    <li>artstyle_adjMas->glitch-artistický</li>
+    <li>artstyle_adjMas->pixel-artistický</li>
+    <li>artstyle_adjMas->fauvistický</li>
+    <li>artstyle_adjMas->lidový</li>
+    <li>artstyle_adjMas->figurativní</li>
+    <li>artstyle_adjMas->klikatý</li>
+    <li>artstyle_adjMas->geometrický</li>
+    <li>artstyle_adjMas->abstraktní</li>
+    <li>artstyle_adjMas->hyper-realistický</li>
+    <li>artstyle_adjMas->pop-artistický</li>
+    <li>artstyle_adjMas->minimalistický</li>
+    <li>artstyle_adjMas->neoklasický</li>
+    <li>artstyle_adjMas->stínovaný</li>
+    <li>artstyle_adjMas->post-impresionistický</li>
+    <li>artstyle_adjMas->puristický</li>
+    <li>artstyle_adjMas->rokokový</li>
+    <li>artstyle_adjMas->románský</li>
+    <li>artstyle_adjMas->romantický</li>
+    <li>artstyle_adjMas->graffiti</li>
+    <li>artstyle_adjMas->erotický</li>
+    <li>artstyle_adjMas->smyslný</li>
+    <li>artstyle_adjMas->srdečný</li>
+
+    <li>artstyle_adjInStyleLoc->v neoriginálním stylu</li>
+    <li>artstyle_adjInStyleLoc->v prostém stylu</li>
+    <li>artstyle_adjInStyleLoc->v komplexním realistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v surrealistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v klasickém [artstyle]u</li>
+    <li>artstyle_adjInStyleLoc->v moderním stylu</li>
+    <li>artstyle_adjInStyleLoc->v symbolickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v amatérském, nicméně i přesto atraktivním stylu</li>
+    <li>artstyle_adjInStyleLoc->ve stylu zaměřeném na detaily</li>
+    <li>artstyle_adjInStyleLoc->v modulárním stylu</li>
+    <li>artstyle_adjInStyleLoc->v kubistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v impresionistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v expresionistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->ve fotografickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v barokním stylu</li>
+    <li>artstyle_adjInStyleLoc->v dadaistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v glitch-artistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v pixel-artistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->ve fauvistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v lidovém stylu</li>
+    <li>artstyle_adjInStyleLoc->ve figurativním stylu</li>
+    <li>artstyle_adjInStyleLoc->v klikatém stylu</li>
+    <li>artstyle_adjInStyleLoc->v geometrickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v abstraktním stylu</li>
+    <li>artstyle_adjInStyleLoc->v hyper-realistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v pop-artistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v minimalistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v neoklasickém stylu</li>
+    <li>artstyle_adjInStyleLoc->ve stínovaném stylu</li>
+    <li>artstyle_adjInStyleLoc->v post-impresionistickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v puristickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v rokokovém stylu</li>
+    <li>artstyle_adjInStyleLoc->v románském stylu</li>
+    <li>artstyle_adjInStyleLoc->v romantickém stylu</li>
+    <li>artstyle_adjInStyleLoc->v graffiti stylu</li>
+    <li>artstyle_adjInStyleLoc->v erotickém stylu</li>
+    <li>artstyle_adjInStyleLoc->ve smyslném stylu</li>
+    <li>artstyle_adjInStyleLoc->v srdečném stylu</li>
+
+    <li>artstyle_adjStyleNom->neoriginální styl</li>
+    <li>artstyle_adjStyleNom->prostý styl</li>
+    <li>artstyle_adjStyleNom->komplexně realistický styl</li>
+    <li>artstyle_adjStyleNom->surrealistický styl</li>
+    <li>artstyle_adjStyleNom->klasický styl</li>
+    <li>artstyle_adjStyleNom->moderní styl</li>
+    <li>artstyle_adjStyleNom->symbolický styl</li>
+    <li>artstyle_adjStyleNom->amatérský, nicméně i přesto atraktivní styl</li>
+    <li>artstyle_adjStyleNom->styl zaměřený na detaily</li>
+    <li>artstyle_adjStyleNom->modulární styl</li>
+    <li>artstyle_adjStyleNom->kubistický styl</li>
+    <li>artstyle_adjStyleNom->impresionistický styl</li>
+    <li>artstyle_adjStyleNom->expresionistický styl</li>
+    <li>artstyle_adjStyleNom->fotografický styl</li>
+    <li>artstyle_adjStyleNom->barokní styl</li>
+    <li>artstyle_adjStyleNom->dadaistický styl</li>
+    <li>artstyle_adjStyleNom->glitch-artistický styl</li>
+    <li>artstyle_adjStyleNom->pixel-artistický styl</li>
+    <li>artstyle_adjStyleNom->fauvistický styl</li>
+    <li>artstyle_adjStyleNom->lidový styl</li>
+    <li>artstyle_adjStyleNom->figurativní styl</li>
+    <li>artstyle_adjStyleNom->klikatý styl</li>
+    <li>artstyle_adjStyleNom->geometrický styl</li>
+    <li>artstyle_adjStyleNom->abstraktní styl</li>
+    <li>artstyle_adjStyleNom->hyper-realistický styl</li>
+    <li>artstyle_adjStyleNom->pop-artistický styl</li>
+    <li>artstyle_adjStyleNom->minimalistický styl</li>
+    <li>artstyle_adjStyleNom->neoklasický styl</li>
+    <li>artstyle_adjStyleNom->stínovaný styl</li>
+    <li>artstyle_adjStyleNom->post-impresionistický styl</li>
+    <li>artstyle_adjStyleNom->puristický styl</li>
+    <li>artstyle_adjStyleNom->rokokový styl</li>
+    <li>artstyle_adjStyleNom->románský styl</li>
+    <li>artstyle_adjStyleNom->romantický styl</li>
+    <li>artstyle_adjStyleNom->graffiti styl</li>
+    <li>artstyle_adjStyleNom->erotický styl</li>
+    <li>artstyle_adjStyleNom->smyslný styl</li>
+    <li>artstyle_adjStyleNom->srdečný styl</li>
+  
+    <li>artstyle_adjWithDepictionIns->s neoriginálním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s prostým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s komplexně realistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->se surrealistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s klasickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s moderním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->se symbolickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s amatérským, nicméně i přesto atraktivním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s vyobrazením zaměřeného na detaily</li>
+    <li>artstyle_adjWithDepictionIns->s modulárním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s kubistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s impresionistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s expresionistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s fotografickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s barokním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s dadaistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s glitch-artistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s pixel-artistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s fauvistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s lidovým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s figurativním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s klikatým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s geometrickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s abstraktním vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s hyper-realistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s pop-artistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s minimalistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s neoklasickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->se stínovaným vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s post-impresionistickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s puristickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s rokokovým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s románským vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s romantickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s graffiti vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->s erotickým vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->se smyslným vyobrazením</li>
+    <li>artstyle_adjWithDepictionIns->se srdečným vyobrazením</li>
+
+    <li>artstyle_adjStyleIns->neoriginálním stylem</li>
+    <li>artstyle_adjStyleIns->prostým stylem</li>
+    <li>artstyle_adjStyleIns->komplexně realistickým stylem</li>
+    <li>artstyle_adjStyleIns->surrealistickým stylem</li>
+    <li>artstyle_adjStyleIns->klasickým stylem</li>
+    <li>artstyle_adjStyleIns->moderním stylem</li>
+    <li>artstyle_adjStyleIns->symbolickým stylem</li>
+    <li>artstyle_adjStyleIns->amatérským, nicméně i přesto atraktivním stylem</li>
+    <li>artstyle_adjStyleIns->stylem zaměřeném na detaily</li>
+    <li>artstyle_adjStyleIns->modulárním stylem</li>
+    <li>artstyle_adjStyleIns->kubistickým stylem</li>
+    <li>artstyle_adjStyleIns->impresionistickým stylem</li>
+    <li>artstyle_adjStyleIns->expresionistickým stylem</li>
+    <li>artstyle_adjStyleIns->fotografickým stylem</li>
+    <li>artstyle_adjStyleIns->barokním stylem</li>
+    <li>artstyle_adjStyleIns->dadaistickým stylem</li>
+    <li>artstyle_adjStyleIns->glitch-artistickým stylem</li>
+    <li>artstyle_adjStyleIns->pixel-artistickým stylem</li>
+    <li>artstyle_adjStyleIns->fauvistickým stylem</li>
+    <li>artstyle_adjStyleIns->lidovým stylem</li>
+    <li>artstyle_adjStyleIns->figurativním stylem</li>
+    <li>artstyle_adjStyleIns->klikatým stylem</li>
+    <li>artstyle_adjStyleIns->geometrickým stylem</li>
+    <li>artstyle_adjStyleIns->abstraktním stylem</li>
+    <li>artstyle_adjStyleIns->hyper-realistickým stylem</li>
+    <li>artstyle_adjStyleIns->pop-artistickým stylem</li>
+    <li>artstyle_adjStyleIns->minimalistickým stylem</li>
+    <li>artstyle_adjStyleIns->neoklasickým stylem</li>
+    <li>artstyle_adjStyleIns->stínovaným stylem</li>
+    <li>artstyle_adjStyleIns->post-impresionistickým stylem</li>
+    <li>artstyle_adjStyleIns->puristickým stylem</li>
+    <li>artstyle_adjStyleIns->rokokovým stylem</li>
+    <li>artstyle_adjStyleIns->románským stylem</li>
+    <li>artstyle_adjStyleIns->romantickým stylem</li>
+    <li>artstyle_adjStyleIns->graffiti stylem</li>
+    <li>artstyle_adjStyleIns->erotickým stylem</li>
+    <li>artstyle_adjStyleIns->smyslným stylem</li>
+    <li>artstyle_adjStyleIns->srdečným stylem</li>
+
+    <li>artstyle_adjFeelingAcc->neoriginální cítění</li>
+    <li>artstyle_adjFeelingIns->prosté cítění</li>
+    <li>artstyle_adjFeelingIns->komplexně realistické cítění</li>
+    <li>artstyle_adjFeelingIns->surrealistické cítění</li>
+    <li>artstyle_adjFeelingIns->klasické cítění</li>
+    <li>artstyle_adjFeelingIns->moderní cítění</li>
+    <li>artstyle_adjFeelingIns->symbolické cítění</li>
+    <li>artstyle_adjFeelingIns->amatérské, nicméně i přesto atraktivní cítění</li>
+    <li>artstyle_adjFeelingIns->cítění zaměřené na detaily</li>
+    <li>artstyle_adjFeelingIns->modulární cítění</li>
+    <li>artstyle_adjFeelingIns->kubistické cítění</li>
+    <li>artstyle_adjFeelingIns->impresionistické cítění</li>
+    <li>artstyle_adjFeelingIns->expresionistické cítění</li>
+    <li>artstyle_adjFeelingIns->fotografické cítění</li>
+    <li>artstyle_adjFeelingIns->barokní cítění</li>
+    <li>artstyle_adjFeelingIns->dadaistické cítění</li>
+    <li>artstyle_adjFeelingIns->glitch-artistické cítění</li>
+    <li>artstyle_adjFeelingIns->pixel-artistické cítění</li>
+    <li>artstyle_adjFeelingIns->fauvistické cítění</li>
+    <li>artstyle_adjFeelingIns->lidové cítění</li>
+    <li>artstyle_adjFeelingIns->figurativní cítění</li>
+    <li>artstyle_adjFeelingIns->klikaté cítění</li>
+    <li>artstyle_adjFeelingIns->geometrické cítění</li>
+    <li>artstyle_adjFeelingIns->abstraktní cítění</li>
+    <li>artstyle_adjFeelingIns->hyper-realistické cítění</li>
+    <li>artstyle_adjFeelingIns->pop-artistické cítění</li>
+    <li>artstyle_adjFeelingIns->minimalistické cítění</li>
+    <li>artstyle_adjFeelingIns->neoklasické cítění</li>
+    <li>artstyle_adjFeelingIns->stínované cítění</li>
+    <li>artstyle_adjFeelingIns->post-impresionistické cítění</li>
+    <li>artstyle_adjFeelingIns->puristické cítění</li>
+    <li>artstyle_adjFeelingIns->rokokové cítění</li>
+    <li>artstyle_adjFeelingIns->románské cítění</li>
+    <li>artstyle_adjFeelingIns->romantické cítění</li>
+    <li>artstyle_adjFeelingIns->graffiti cítění</li>
+    <li>artstyle_adjFeelingIns->erotické cítění</li>
+    <li>artstyle_adjFeelingIns->smyslné cítění</li>
+    <li>artstyle_adjFeelingIns->srdečné cítění</li>
+
+    <li>artstyle_adjWithPluInsIns->s neoriginálními</li>
+    <li>artstyle_adjWithPluIns->s prostými</li>
+    <li>artstyle_adjWithPluIns->s komplexně realistickými</li>
+    <li>artstyle_adjWithPluIns->se surrealistickými</li>
+    <li>artstyle_adjWithPluIns->s klasickými</li>
+    <li>artstyle_adjWithPluIns->s moderními</li>
+    <li>artstyle_adjWithPluIns->se symbolickými</li>
+    <li>artstyle_adjWithPluIns->s amatérskými, nicméně i přesto atraktivními</li>
+    <li>artstyle_adjWithPluIns->s na detaily zaměřenými</li>
+    <li>artstyle_adjWithPluIns->s modulárními</li>
+    <li>artstyle_adjWithPluIns->s kubistickými</li>
+    <li>artstyle_adjWithPluIns->s impresionistickými</li>
+    <li>artstyle_adjWithPluIns->s expresionistickými</li>
+    <li>artstyle_adjWithPluIns->s fotografickými</li>
+    <li>artstyle_adjWithPluIns->s barokními</li>
+    <li>artstyle_adjWithPluIns->s dadaistickými</li>
+    <li>artstyle_adjWithPluIns->s glitch-artistickými</li>
+    <li>artstyle_adjWithPluIns->s pixel-artistickými</li>
+    <li>artstyle_adjWithPluIns->s fauvistickými</li>
+    <li>artstyle_adjWithPluIns->s lidovými</li>
+    <li>artstyle_adjWithPluIns->s figurativními</li>
+    <li>artstyle_adjWithPluIns->s klikatými</li>
+    <li>artstyle_adjWithPluIns->s geometrickými</li>
+    <li>artstyle_adjWithPluIns->s abstraktními</li>
+    <li>artstyle_adjWithPluIns->s hyper-realistickými</li>
+    <li>artstyle_adjWithPluIns->s pop-artistickými</li>
+    <li>artstyle_adjWithPluIns->s minimalistickými</li>
+    <li>artstyle_adjWithPluIns->s neoklasickými</li>
+    <li>artstyle_adjWithPluIns->se stínovanými</li>
+    <li>artstyle_adjWithPluIns->s post-impresionistickými</li>
+    <li>artstyle_adjWithPluIns->s puristickými</li>
+    <li>artstyle_adjWithPluIns->s rokokovými</li>
+    <li>artstyle_adjWithPluIns->s románskými</li>
+    <li>artstyle_adjWithPluIns->s romantickými</li>
+    <li>artstyle_adjWithPluIns->s graffiti</li>
+    <li>artstyle_adjWithPluIns->s erotickými</li>
+    <li>artstyle_adjWithPluIns->se smyslnými</li>
+    <li>artstyle_adjWithPluIns->se srdečnými</li>
   </ArtDescriptionUtility_Global.rulePack.rulesStrings>
   
 </LanguageData>
