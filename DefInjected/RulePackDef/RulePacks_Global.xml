@@ -81,6 +81,7 @@
     <li>Animal->Words/Nouns/Animals</li>
     <li>AnimalUniLoc->Words/Nouns/Animals_UniversalLocative</li>
     <li>AnimalUniNom->Words/Nouns/Animals_UniversalNominative</li>
+    <li>AnimalPluNom->Words/Nouns/Animals_PluralNominative</li>
     <li>AnimalPluGen->Words/Nouns/Animals_PluralGenitive</li>
     <li>AnimalPluGenFixGrpNom->Words/Nouns/Animals_PluralGenitiveFixGroupNominative</li>
     <li>AnimalPluGenFixGrpGen->Words/Nouns/Animals_PluralGenitiveFixGroupGenitive</li>
@@ -127,6 +128,7 @@
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>TerrainFeatureUniNom->Words/Nouns/TerrainFeatures_UniversalNominative</li>
     <li>TerrainFeatureUniGen->Words/Nouns/TerrainFeatures_UniversalGenitive</li>
+    <li>TerrainFeatureUniAcc->Words/Nouns/TerrainFeatures_UniversalAccusative</li>
     <li>TerrainFeaturePluLoc->Words/Nouns/TerrainFeatures_PluralLocative</li>
     <li>TerrainFeatureMas->Words/Nouns/TerrainFeatures_Masculine</li>
     <li>TerrainFeatureMasGen->Words/Nouns/TerrainFeatures_MasculineGenitive</li>
@@ -513,6 +515,9 @@
     <li>MechanoidAcc_WearingApparel(p=0.86)->[MechanoidMasAcc] [ApparelInLocWithIns] [desc_pawnMasAcc_WearingApparel]</li>
     <li>MechanoidAcc_WearingApparel(p=0.14)->[MechanoidFemAcc] [ApparelInLocWithIns] [desc_pawnFemAcc_WearingApparel]</li>
 
+    <li>AnimalGen_AnyAdjective(p=0.60)->ho [AnimalMasGen]</li>
+    <li>AnimalGen_AnyAdjective(p=0.38)-> [AnimalFemGen]</li>
+    <li>AnimalGen_AnyAdjective(p=0.02)->ho [AnimalNeuGen]</li>
 
 
     <li>Quantity_adjphraseNom->dvojice</li>
@@ -750,6 +755,9 @@
     <li>ConceptAnyUniIns->[ConceptPositiveUniIns]</li>
     <li>ConceptAnyUniIns->[ConceptBadassUniIns]</li>
     <li>ConceptAnyUniIns->[ConceptAngstyUniIns]</li>
+
+    <li>PersonJobUniNom->[PersonJobMasNom]</li>
+    <li>PersonJobUniNom->[PersonJobFemNom]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
