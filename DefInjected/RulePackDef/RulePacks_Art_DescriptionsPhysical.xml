@@ -7,9 +7,13 @@
     <li>physical_description_root->An engraving on this furniture [depicts] [image]. [desc_sentence_group]</li>
   -->
   <ArtDescription_Furniture.rulePack.rulesStrings>
-    <li>physical_description_root_Taleless->Tento nábytek má vyryt[depiction_uni] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Tento nábytek nese [depiction_acc] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Rytina na tomto nábytku [depicts] [image_acc]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tento nábytek má vyryt[depictionUni] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tento nábytek nese [depictionAcc] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Rytina na tomto nábytku [depicts] [imageAcc_Taleless]. [desc_sentence_group]</li>
+
+    <li>physical_description_root_HasTale->Tento nábytek má vyryt[depictionUni_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Tento nábytek nese [depictionAcc_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Rytina na tomto nábytku [depicts] událost, při které [imageNom_HasTale]. [desc_sentence_group]</li>
   </ArtDescription_Furniture.rulePack.rulesStrings>
   
   <!-- EN:
@@ -19,10 +23,15 @@
     <li>physical_description_root->An engraving on this sarcophagus [depicts] [image]. [desc_sentence_group]</li>
   -->
   <ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
-    <li>physical_description_root_Taleless->Tento sarkofág má vyryt[depiction_uni] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Tento sarkofág nese [depiction_acc] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Tento sarkofág zdobí rytina [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Rytina na tomto sarkofágu [depicts] [image_acc]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tento sarkofág má vyryt[depictionUni] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tento sarkofág nese [depictionAcc] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tento sarkofág zdobí rytina [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Rytina na tomto sarkofágu [depicts] [imageAcc_Taleless]. [desc_sentence_group]</li>
+
+    <li>physical_description_root_HasTale->Tento sarkofág má vyryt[depictionUni_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Tento sarkofág nese [depictionAcc_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Tento sarkofág zdobí rytina, na které [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Rytina na tomto sarkofágu [depicts] událost, při které [imageNom_HasTale]. [desc_sentence_group]</li>
   </ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,17 +44,23 @@
     <li>sculpture->carving</li>
   -->
   <ArtDescription_Sculpture.rulePack.rulesStrings>
-    <li>physical_description_root_Taleless->[sculpture] [depicts] [image_acc]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->[sculpture] nese [depiction_acc] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Na [sculpture_locative] je [depiction] [image_gen]. [desc_sentence_group]</li>
-    <li>sculpture->Tato socha</li>
-    <li>sculpture->Tato práce</li>
-    <li>sculpture->Tento výtvor</li>
-    <li>sculpture->Tato řezba</li>
-    <li>sculpture_locative->této soše</li>
-    <li>sculpture_locative->této práci</li>
-    <li>sculpture_locative->tomto výtvoru</li>
-    <li>sculpture_locative->této řezbě</li>
+    <li>physical_description_root_Taleless->[sculptureNom_this] [depicts] [imageAcc_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->[sculptureNom_this] nese [depictionAcc] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Na [sculptureLoc_this] je [depictionNom] [imageGen_Taleless]. [desc_sentence_group]</li>
+
+    <li>physical_description_root_HasTale->[sculptureNom_this] [depicts] událost, při které [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->[sculptureNom_this] nese [depictionAcc_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Na [sculptureLoc_this] je [depictionNom_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+
+    <li>sculptureNom_this->Tato socha</li>
+    <li>sculptureNom_this->Tato práce</li>
+    <li>sculptureNom_this->Tento výtvor</li>
+    <li>sculptureNom_this->Tato řezba</li>
+
+    <li>sculptureLoc_this->této soše</li>
+    <li>sculptureLoc_this->této práci</li>
+    <li>sculptureLoc_this->tomto výtvoru</li>
+    <li>sculptureLoc_this->této řezbě</li>
   </ArtDescription_Sculpture.rulePack.rulesStrings>
   
   <!-- EN:
@@ -54,9 +69,13 @@
     <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
   -->
   <ArtDescription_WeaponGun.rulePack.rulesStrings>
-    <li>physical_description_root_Taleless->Tato zbraň má vyryt[depiction_uni] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Tato zbraň nese [depiction_acc] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Rytina na této zbrani [depicts] [image_acc]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tato zbraň má vyryt[depictionUni] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tato zbraň nese [depictionAcc] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Rytina na této zbrani [depicts] [imageAcc_Taleless]. [desc_sentence_group]</li>
+
+    <li>physical_description_root_HasTale->Tato zbraň má vyryt[depictionUni_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Tato zbraň nese [depictionAcc_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Rytina na této zbrani [depicts] událost, při které [imageNom_HasTale]. [desc_sentence_group]</li>
   </ArtDescription_WeaponGun.rulePack.rulesStrings>
   
   <!-- EN:
@@ -65,9 +84,13 @@
     <li>physical_description_root->An engraving on this weapon [depicts] [image]. [desc_sentence_group]</li>
   -->
   <ArtDescription_WeaponMelee.rulePack.rulesStrings>
-    <li>physical_description_root_Taleless->Tato zbraň má vyryt[depiction_uni] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Tato zbraň nese [depiction_acc] [image_gen]. [desc_sentence_group]</li>
-    <li>physical_description_root_Taleless->Rytina na této zbrani [depicts] [image_acc]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tato zbraň má vyryt[depictionUni] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Tato zbraň nese [depictionAcc] [imageGen_Taleless]. [desc_sentence_group]</li>
+    <li>physical_description_root_Taleless->Rytina na této zbrani [depicts] [imageAcc_Taleless]. [desc_sentence_group]</li>
+
+    <li>physical_description_root_HasTale->Tato zbraň má vyryt[depictionUni_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Tato zbraň nese [depictionAcc_which] [imageNom_HasTale]. [desc_sentence_group]</li>
+    <li>physical_description_root_HasTale->Rytina na této zbrani [depicts] událost, při které [imageNom_HasTale]. [desc_sentence_group]</li>
   </ArtDescription_WeaponMelee.rulePack.rulesStrings>
   
 </LanguageData>

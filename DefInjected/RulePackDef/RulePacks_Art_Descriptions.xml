@@ -10,12 +10,12 @@
     <li>context_sentence->This [depiction] tells the story of [tale_noun] on [DATE].</li>
   -->
   <ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
-    <li>r_art_description->[physical_description_root] [context_sentence]</li>
+    <li>r_art_description->[physical_description_root_HasTale] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->[depiction] referuje na příběh o [tale_noun]. Příběh se datuje ke dni [DATE].</li>
-    <li>context_sentence->[depiction] se vztahuje na příběh o [tale_noun]. Událo se ke dni [DATE].</li>
-    <li>context_sentence->[depiction] vypráví příběh o [tale_noun]. Stalo se dne [DATE].</li>
+    <li>context_sentence->[depictionNom_this] odkazuje na příběh o tom, jak [tale_noun]. Příběh se datuje ke dni [DATE].</li>
+    <li>context_sentence->[depictionNom_this] se týká příběhu o tom, jak [tale_noun]. Událo se ke dni [DATE].</li>
+    <li>context_sentence->[depictionNom_this] vypráví příběh o tom, jak [tale_noun]. Stalo se dne [DATE].</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -467,26 +467,54 @@
     <li>depicts->napodobuje</li>
 
 
-    <li>depiction->vykreslení</li>
-    <li>depiction->obrázek</li>
-    <li>depiction->vyobrazení</li>
-    <li>depiction->znázornění</li>
-    <li>depiction->ilustrace</li>
-    <li>depiction->umělecké zhotovení</li>
+    <li>depictionNom->vykreslení</li>
+    <li>depictionNom->obrázek</li>
+    <li>depictionNom->vyobrazení</li>
+    <li>depictionNom->znázornění</li>
+    <li>depictionNom->ilustrace</li>
+    <li>depictionNom->umělecké zhotovení</li>
 
-    <li>depiction_acc->vykreslení</li>
-    <li>depiction_acc->obrázek</li>
-    <li>depiction_acc->vyobrazení</li>
-    <li>depiction_acc->znázornění</li>
-    <li>depiction_acc->ilustraci</li>
-    <li>depiction_acc->umělecké zhotovení</li>
+    <li>depictionNom_this->toto vykreslení</li>
+    <li>depictionNom_this->tento obrázek</li>
+    <li>depictionNom_this->toto vyobrazení</li>
+    <li>depictionNom_this->toto znázornění</li>
+    <li>depictionNom_this->tato ilustrace</li>
+    <li>depictionNom_this->toto umělecké zhotovení</li>
 
-    <li>depiction_uni->é vykreslení</li>
-    <li>depiction_uni->ý obrázek</li>
-    <li>depiction_uni->é vyobrazení</li>
-    <li>depiction_uni->é znázornění</li>
-    <li>depiction_uni->ou ilustraci</li>
-    <li>depiction_uni->é umělecké zhotovení</li>
+    <li>depictionNom_which->vykreslení, na kterém</li>
+    <li>depictionNom_which->obrázek, na kterém</li>
+    <li>depictionNom_which->vyobrazení, na kterém</li>
+    <li>depictionNom_which->znázornění, na kterém</li>
+    <li>depictionNom_which->ilustrace, na které</li>
+    <li>depictionNom_which->umělecké zhotovení, na kterém</li>
+
+    <li>depictionAcc->vykreslení</li>
+    <li>depictionAcc->obrázek</li>
+    <li>depictionAcc->vyobrazení</li>
+    <li>depictionAcc->znázornění</li>
+    <li>depictionAcc->ilustraci</li>
+    <li>depictionAcc->umělecké zhotovení</li>
+
+    <li>depictionAcc_which->vykreslení, na kterém</li>
+    <li>depictionAcc_which->obrázek, na kterém</li>
+    <li>depictionAcc_which->vyobrazení, na kterém</li>
+    <li>depictionAcc_which->znázornění, na kterém</li>
+    <li>depictionAcc_which->ilustraci, na které</li>
+    <li>depictionAcc_which->umělecké zhotovení, na kterém</li>
+
+    <li>depictionUni->é vykreslení</li>
+    <li>depictionUni->ý obrázek</li>
+    <li>depictionUni->é vyobrazení</li>
+    <li>depictionUni->é znázornění</li>
+    <li>depictionUni->ou ilustraci</li>
+    <li>depictionUni->é umělecké zhotovení</li>
+
+    <li>depictionUni_which->é vykreslení, na kterém</li>
+    <li>depictionUni_which->ý obrázek, na kterém</li>
+    <li>depictionUni_which->é vyobrazení, na kterém</li>
+    <li>depictionUni_which->é znázornění, na kterém</li>
+    <li>depictionUni_which->ou ilustraci, na které</li>
+    <li>depictionUni_which->é umělecké zhotovení, na kterém</li>
 
 
     <li>compositionMas->trojúhelníkový</li>
