@@ -21,23 +21,26 @@
     <li>destroyed_present->breaking</li>
   -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
-    <li>damageSource->[roof] [collapsed] svou oběť ([recipient_nameShortDef])</li>
-    <li>roof->střecha</li>
-    <li>roof->střešní krytina</li>
-    <li>roof->stropní konstrukce</li>
-    <li>collapsed->se zřítila na</li>
-    <li>collapsed->spadla na</li>
-    <li>collapsed->zasypala</li>
-    <li>damaged_present->poškrábání</li>
-    <li>damaged_present->zasažení</li>
-    <li>damaged_present->zranění</li>
-    <li>damaged_present->pohmoždění</li>
-    <li>damaged_present->rozedření</li>
-    <li>destroyed_present->devastaci</li>
-    <li>destroyed_present->likvidaci</li>
-    <li>destroyed_present->zpustošení</li>
-    <li>destroyed_present->zničení</li>
-    <li>destroyed_present->zruinování</li>
+    <li>damage_source->[roof] oběti zranění</li>
+    <li>roof->střecha [collapsedFem]</li>
+    <li>roof->střešní krytina [collapsedFem]</li>
+    <li>roof->strop [collapsedMas]</li>
+    <li>collapsedMas->se zřítil a způsobil</li>
+    <li>collapsedMas->spadl a způsobil</li>
+    <li>collapsedMas->se propadl a způsobil</li>
+    <li>collapsedFem->se zřítila a způsobila</li>
+    <li>collapsedFem->spadla a způsobila</li>
+    <li>collapsedFem->se propadla a způsobila</li>
+    <li>damaged_present->pochroumané</li>
+    <li>damaged_present->pobité</li>
+    <li>damaged_present->pomlácené</li>
+    <li>damaged_present->pohmožděné</li>
+    <li>damaged_present->rozedřené</li>
+    <li>destroyed_present->roztříštěné</li>
+    <li>destroyed_present->rozdrcené</li>
+    <li>destroyed_present->zruinované</li>
+    <li>destroyed_present->zničené</li>
+    <li>destroyed_present->polámané</li>
   </DamageEvent_Ceiling.rulePack.rulesStrings>
   
   <!-- EN:
@@ -58,21 +61,21 @@
     <li>destroyed_present->cremating</li>
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
-    <li>damageSource->[fire] svou oběť ([recipient_nameShortDef])</li>
-    <li>fire(p=3)->oheň zasáhl</li>
-    <li>fire(p=3)->plameny zasáhly</li>
-    <li>fire(p=3)->požár zasáhl</li>
-    <li>fire->žár zasáhl</li>
-    <li>fire->výheň zasáhla</li>
-    <li>fire->pekelný oheň zasáhl</li>
-    <li>damaged_present->popálení</li>
-    <li>damaged_present->opečení</li>
-    <li>damaged_present->ožehnutí</li>
-    <li>damaged_present->sežehnutí</li>
-    <li>destroyed_present->spálení</li>
-    <li>destroyed_present->upražení</li>
-    <li>destroyed_present->rozvaření</li>
-    <li>destroyed_present->zpopelnění</li>
+    <li>damage_source->[fire] oběti popáleniny</li>
+    <li>fire(p=3)->oheň způsobil</li>
+    <li>fire(p=3)->plameny způsobily</li>
+    <li>fire(p=3)->požár způsobil</li>
+    <li>fire->žár způsobil</li>
+    <li>fire->výheň způsobila</li>
+    <li>fire->pekelný oheň způsobil</li>
+    <li>damaged_present->popálené</li>
+    <li>damaged_present->opečené</li>
+    <li>damaged_present->ožehnuté</li>
+    <li>damaged_present->sežehnuté</li>
+    <li>destroyed_present->zuhelnatěné</li>
+    <li>destroyed_present->seškvařené</li>
+    <li>destroyed_present->rozvařené</li>
+    <li>destroyed_present->zpopelněné</li>
   </DamageEvent_Fire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -82,10 +85,10 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>logentry->[damageSource]. To způsobilo [destroyed_present] těchto částí: [destroyed_targets].</li>
-    <li>logentry->[damageSource]. To způsobilo [destroyed_present] těchto částí: [destroyed_targets] a navíc [damaged_present]: [damaged_targets].</li>
-    <li>logentry(recipient_part_destroyed_count==0)->[damageSource]. To způsobilo [damaged_present] těchto částí: [damaged_targets].</li>
-    <li>logentry(p=0.1)->[damageSource].</li>
+    <li>r_logentry->[damage_source]. [RECIPIENT_nameDef] má [destroyed_present] tyto části: [destroyed_targets]</li>
+    <li>r_logentry->[damage_source]. [RECIPIENT_nameDef] má [destroyed_present] tyto části: [destroyed_targets] a k tomu [damaged_present] tyto: [damaged_targets]</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source]. [RECIPIENT_nameDef] má [damaged_present] tyto části: [damaged_targets]</li>
+    <li>r_logentry(p=0.1)->[damage_source]. (» [RECIPIENT_nameDef])</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
@@ -104,11 +107,11 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damageSource->[sky] nad obětí ([recipient_nameShortDef])</li>
-    <li>damageSource->Paprsek neuvěřitelné[power] způsobil své oběti ([recipient_nameShortDef]) [damaged_past]</li>
-    <li>damageSource->[light] pilíř světla způsobil své oběti ([recipient_nameShortDef]) [damaged_past]</li>
+    <li>damage_source->[sky] a mocný paprsek započal zkázu</li>
+    <li>damage_source->Paprsek neuvěřitelné[power] způsobil [damaged_past_powerbeam]</li>
+    <li>damage_source->[light] pilíř světla způsobil [damaged_past_powerbeam]</li>
     <li>sky->obloha se otevřela</li>
-    <li>sky->mračna se rozplynula</li>
+    <li>sky->mraky se rozplynuly</li>
     <li>sky->nebesa se rozevřela</li>
     <li>power-> síly</li>
     <li>power-> energie</li>
@@ -116,7 +119,7 @@
     <li>light->zářící</li>
     <li>light->žhavý</li>
     <li>light->ohnivý</li>
-    <li>light(p=0.2)->rozhžavený</li>
+    <li>light(p=0.2)->žhnoucí</li>
   </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
@@ -131,15 +134,15 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damageSource->[spiraling]ornádo [enveloped] svou oběť ([recipient_nameShortDef])</li>
-    <li>destroyed_present(p=3)->utrhnutí</li>
-    <li>spiraling->ničivé t</li>
-    <li>spiraling->kroužící t</li>
-    <li>spiraling->rotující t</li>
-    <li>spiraling(p=10)->t</li>
-    <li>enveloped(p=8)->se přehnalo přes</li>
-    <li>enveloped->pohltilo</li>
-    <li>enveloped->obklíčilo</li>
+    <li>damage_source->[spiraling] tornádo [enveloped] zranění</li>
+    <li>destroyed_present(p=3)->utržené</li>
+    <li>spiraling->roztočené</li>
+    <li>spiraling->kroužící</li>
+    <li>spiraling->rotující</li>
+    <li>spiraling(p=10)-></li>
+    <li>enveloped(p=8)->obklopilo oběť a způsobilo jí</li>
+    <li>enveloped->pohltilo oběť a způsobilo jí</li>
+    <li>enveloped->obehnalo oběť a způsobilo jí</li>
   </DamageEvent_Tornado.rulePack.rulesStrings>
   
   <!-- EN:
@@ -160,6 +163,27 @@
     <li>destroyed_present->eviscerating</li>
     <li>destroyed_present->exploding</li>
   -->
-  <DamageEvent_TrapSpike.rulePack.rulesStrings>TODO</DamageEvent_TrapSpike.rulePack.rulesStrings>
+  <DamageEvent_TrapSpike.rulePack.rulesStrings>
+    <li>damage_source->[spiketrap] zranění</li>
+    <li>spiketrap(p=3)->nějaká past s hroty [anytrapattack]</li>
+    <li>spiketrap(p=3)->past s hroty [anytrapattack]</li>
+    <li>spiketrap->hroty [anytrapattackPlu]</li>
+    <li>spiketrap->ostré hroty [anytrapattackPlu]</li>
+    <li>spiketrap->ostnatá past [anytrapattack]</li>
+    <li>anytrapattack->se zabodla do oběti a způsobila jí</li>
+    <li>anytrapattack->uděřila oběť a způsobila jí</li>
+    <li>anytrapattack->se vysmrštila směrem k oběti a způsobila jí</li>
+    <li>anytrapattackPlu->se zabodly do oběti a způsobily jí</li>
+    <li>anytrapattackPlu->udeřily oběť a způsobily jí</li>
+    <li>anytrapattackPlu->se vymrštily směrem k oběti a způsobily jí</li>
+    <li>damaged_present->proděravěné</li>
+    <li>damaged_present->probodnuté</li>
+    <li>damaged_present->propíchnuté</li>
+    <li>damaged_present->proražené</li>
+    <li>destroyed_present->odtržené</li>
+    <li>destroyed_present->roztrhané na cucky</li>
+    <li>destroyed_present->vykuchané</li>
+    <li>destroyed_present->rozškubané</li>
+  </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>
