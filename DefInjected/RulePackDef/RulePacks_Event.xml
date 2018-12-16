@@ -22,6 +22,38 @@
     <li>stumbled->wobbled</li>
     <li>stumbled->staggered</li>
   -->
-  <Event_Stun.rulePack.rulesStrings>TODO</Event_Stun.rulePack.rulesStrings>
+  <Event_Stun.rulePack.rulesStrings>
+    <li>r_logentry->[SUBJECT_definite] byl[SUBJECT_pronoun] útokem [stunned].</li>
+    <li>r_logentry->[SUBJECT_definite] byl[SUBJECT_pronoun] útokem, který provedl[INITIATOR_pronoun] [INITIATOR_definite], [stunned].</li>
+    <li>stunned(p=3)->omráčen[SUBJECT_pronoun]</li>
+    <li>stunned->ochromen[SUBJECT_pronoun]</li>
+    <li>stunned->omámen[SUBJECT_pronoun]</li>
+    <li>stunned->dezorientován[SUBJECT_pronoun]</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered].</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered_fromtheattack].</li>
+    <li>r_logentry->[SUBJECT_definite] [staggered_frominitiatorattack].</li>
+    <li>staggered(p=3)->zavrávoral[SUBJECT_pronoun]</li>
+    <li>staggered->klopýtl[SUBJECT_pronoun]</li>
+    <li>staggered->zakolísal[SUBJECT_pronoun]</li>
+    <li>staggered->se zakymácel[SUBJECT_pronoun]</li>
+    <li>staggered_fromtheattack(p=3)->kvůli útoku zavrávoral[SUBJECT_pronoun]</li>
+    <li>staggered_fromtheattack->kvůli útoku klopýtl[SUBJECT_pronoun]</li>
+    <li>staggered_fromtheattack->kvůli útoku zakolísal[SUBJECT_pronoun]</li>
+    <li>staggered_fromtheattack->se kvůli útoku zakymácel[SUBJECT_pronoun]</li>
+    <li>staggered_frominitiatorattack(p=3)->kvůli útoku, který provedl[INITIATOR_pronoun] [INITIATOR_definite], zavrávoral[SUBJECT_pronoun]</li>
+    <li>staggered_frominitiatorattack->kvůli útoku, který provedl[INITIATOR_pronoun] [INITIATOR_definite], klopýtl[SUBJECT_pronoun]</li>
+    <li>staggered_frominitiatorattack->kvůli útoku, který provedl[INITIATOR_pronoun] [INITIATOR_definite], zakolísal[SUBJECT_pronoun]</li>
+    <li>staggered_frominitiatorattack->se kvůli útoku, který provedl[INITIATOR_pronoun] [INITIATOR_definite], zakymácel[SUBJECT_pronoun]</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled_blearily].</li>
+    <li>r_logentry->[SUBJECT_definite] [stumbled_inconfusion].</li>
+    <li>stumbled_blearily(p=3)->s nepřítomným pohledem klopýtal[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_blearily->se s nepřítomným pohledem kymácel[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_blearily->se s nepřítomným pohledem potácel[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_blearily->s nepřítomným pohledem vrávoral[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_inconfusion(p=3)->zmateně klopýtal[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_inconfusion->se zmateně kymácel[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_inconfusion->se zmateně potácel[SUBJECT_pronoun] kolem</li>
+    <li>stumbled_inconfusion->zmateně vrávoral[SUBJECT_pronoun] kolem</li>
+  </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>
