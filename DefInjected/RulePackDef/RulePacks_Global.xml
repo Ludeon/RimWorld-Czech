@@ -81,6 +81,8 @@
     <li>Animal->Words/Nouns/Animals</li>
     <li>AnimalUniLoc->Words/Nouns/Animals_UniversalLocative</li>
     <li>AnimalUniNom->Words/Nouns/Animals_UniversalNominative</li>
+    <li>AnimalUniIns->Words/Nouns/Animals_UniversalInstrumental</li>
+    <li>AnimalToUniDat->Words/Nouns/Animals_ToUniversalDative</li>
     <li>AnimalPluNom->Words/Nouns/Animals_PluralNominative</li>
     <li>AnimalPluGen->Words/Nouns/Animals_PluralGenitive</li>
     <li>AnimalPluGenFixGrpNom->Words/Nouns/Animals_PluralGenitiveFixGroupNominative</li>
@@ -174,6 +176,16 @@
 
     <li>PersonFamily->Words/Nouns/People_Family</li>
     <li>PersonFamilyMyUniGen->Words/Nouns/People_Family_MyUniversalGenitive</li>
+    <li>PersonFamilyUniAcc->Words/Nouns/People_Family_UniversalAccusative</li>
+    <li>PersonFamilyInsTo->Words/Nouns/People_Family_InsultedTo</li>
+    <li>PersonFamilyMadNom->Words/Nouns/People_Family_MadefunofNominative</li>
+    <li>PersonFamilyMadGen->Words/Nouns/People_Family_MadefunofGenitive</li>
+    <li>PersonFamilyMadDat->Words/Nouns/People_Family_MadefunofDative</li>
+    <li>PersonFamilyMadAcc->Words/Nouns/People_Family_MadefunofAccusative</li>
+    <li>PersonFamilyMadLoc->Words/Nouns/People_Family_MadefunofLocative</li>
+    <li>PersonFamilyMadIns->Words/Nouns/People_Family_MadefunofInstrumental</li>
+
+    <li>PersonFamilyToWhi->Words/Nouns/People_Family_ToWhich</li>
 
     <li>PersonAlly->Words/Nouns/People_Allies</li>
 
@@ -188,6 +200,8 @@
     <li>EnemyPluLoc->Words/Nouns/Enemies_PluralLocative</li>
     <li>EnemyPluIns->Words/Nouns/Enemies_PluralInstrumental</li>
     <li>EnemyWitPluIns->Words/Nouns/Enemies_WithPluralInstrumental</li>
+    <li>EnemyUniIns->Words/Nouns/Enemies_UniversalInstrumental</li>
+    <li>EnemyToUniDat->Words/Nouns/Enemies_ToUniversalDative</li>
     <li>EnemyMasNom->Words/Nouns/Enemies_MasculineNominative</li>
     <li>EnemyMasGen->Words/Nouns/Enemies_MasculineGenitive</li>
     <li>EnemyMasAcc->Words/Nouns/Enemies_MasculineAccusative</li>
@@ -769,6 +783,8 @@
   -->
   <TalkTopicsUtility.rulePack.rulesFiles>
     <li>talktopicheavyfile->Words/Nouns/TalkTopics_Heavy</li>
+    <li>talktopicheavyfileNom->Words/Nouns/TalkTopics_Heavy_Nominative</li>
+    <li>talktopicheavyfileAcc->Words/Nouns/TalkTopics_Heavy_Accusative</li>
     <li>talktopicheavyfileLoc->Words/Nouns/TalkTopics_Heavy_Locative</li>
     <li>talktopicheavyfileIns->Words/Nouns/TalkTopics_Heavy_Instrumental</li>
     <li>talktopiclightfile->Words/Nouns/TalkTopics_Light</li>
@@ -823,9 +839,19 @@
     <li>TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile]</li>
 
+    <li>TalkTopicHeavyNom->[talktopicheavyfileNom]</li>
+    <li>TalkTopicHeavyNom(p=0.08)->souvislost mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyNom(p=0.08)->spojitost mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyNom(p=0.08)->vztah mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+
+    <li>TalkTopicHeavyAcc->[talktopicheavyfileAcc]</li>
+    <li>TalkTopicHeavyAcc(p=0.08)->souvislost mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyAcc(p=0.08)->spojitost mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyAcc(p=0.08)->vztah mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+
     <li>TalkTopicHeavyLoc->[talktopicheavyfileLoc]</li>
-    <li>TalkTopicHeavyLoc(p=0.08)->propojení mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
-    <li>TalkTopicHeavyLoc(p=0.08)->spojení mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyLoc(p=0.08)->souvislosti mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
+    <li>TalkTopicHeavyLoc(p=0.08)->spojitosti mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
     <li>TalkTopicHeavyLoc(p=0.08)->vztahu mezi [talktopicheavyfileIns] a [talktopicheavyfileIns]</li>
 
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
