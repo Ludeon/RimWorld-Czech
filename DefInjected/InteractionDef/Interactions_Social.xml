@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: chitchat -->
-  <Chitchat.label>TODO</Chitchat.label>
+  <Chitchat.label>povídání</Chitchat.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
@@ -20,10 +20,33 @@
     <li>commentedabout->commented about</li>
     <li>commentedabout->told a joke about</li>
   -->
-  <Chitchat.logRulesInitiator.rulesStrings>TODO</Chitchat.logRulesInitiator.rulesStrings>
+  <Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] a [RECIPIENT_nameDef] [talkedaboutPlu] [TalkTopicLightLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLightLoc].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLightLoc].</li>
+    <li>talkedaboutPlu(p=4)->si povídali o</li>
+    <li>talkedaboutPlu->si vyměnili pár slov o</li>
+    <li>talkedaboutPlu->mluvili o</li>
+    <li>talkedaboutPlu->klábosili o</li>
+    <li>talkedaboutPlu->hovořili o</li>
+    <li>talkedaboutPlu->žertovali o</li>
+    <li>talkedaboutPlu->vtipkovali o</li>
+    <li>talkedabout(p=4)->si povídal[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o</li>
+    <li>talkedabout->si vyměnil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] pár slov o</li>
+    <li>talkedabout->mluvil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o</li>
+    <li>talkedabout->klábosil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o</li>
+    <li>talkedabout->hovořil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o</li>
+    <li>talkedabout->žertoval[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o</li>
+    <li>talkedabout->vtipkoval[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o</li>
+    <li>commentedabout->řekl[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] něco o</li>
+    <li>commentedabout->řekl[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] pár slov o</li>
+    <li>commentedabout->sdělil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] několik slov o</li>
+    <li>commentedabout->hovořil[INITIATOR_pronoun] k osobě jménem [RECIPIENT_nameDef] o</li>
+    <li>commentedabout->vyprávěl[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] vtip o</li>
+  </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
-  <DeepTalk.label>TODO</DeepTalk.label>
+  <DeepTalk.label>hluboká konverzace</DeepTalk.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
@@ -39,10 +62,36 @@
     <li>talkedabout->connected on the topic of</li>
     <li>subject->[TalkTopicHeavy]</li>
   -->
-  <DeepTalk.logRulesInitiator.rulesStrings>TODO</DeepTalk.logRulesInitiator.rulesStrings>
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] a [RECIPIENT_nameDef] [talkedaboutPlu].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout].</li>
+    <li>talkedaboutPlu->přemýšleli o [subjectLoc]</li>
+    <li>talkedaboutPlu->si vyměnili své názory na [subjectAcc]</li>
+    <li>talkedaboutPlu->si vyměnili své představy o [subjectLoc]</li>
+    <li>talkedaboutPlu->sdíleli své názory na [subjectAcc]</li>
+    <li>talkedaboutPlu->se podělili o své mínění na [subjectAcc]</li>
+    <li>talkedaboutPlu->diskutovali na téma '[subjectNom]'</li>
+    <li>talkedaboutPlu->vedli upřímný rozhovor o [subjectLoc]</li>
+    <li>talkedaboutPlu->mluvili šeptem o [subjectLoc]</li>
+    <li>talkedaboutPlu->mluvili dopodrobna o [subjectLoc]</li>
+    <li>talkedaboutPlu->navázali na téma '[subjectNom]'</li>
+    <li>talkedabout->přemýšlel[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o [subjectLoc]</li>
+    <li>talkedabout->si vyměnil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] své názory na [subjectAcc]</li>
+    <li>talkedabout->si vyměnil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] své představy o [subjectLoc]</li>
+    <li>talkedabout->sdílel[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] své názory na [subjectAcc]</li>
+    <li>talkedabout->se podělil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o své mínění na [subjectAcc]</li>
+    <li>talkedabout->diskutoval[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] na téma '[subjectNom]'</li>
+    <li>talkedabout->vedl[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] upřímný rozhovor o [subjectLoc]</li>
+    <li>talkedabout->mluvil[INITIATOR_pronoun] šeptem s osobou jménem [RECIPIENT_nameDef] o [subjectLoc]</li>
+    <li>talkedabout->mluvil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] dopodrobna o [subjectLoc]</li>
+    <li>talkedabout->navázal[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] na téma '[subjectNom]'</li>
+    <li>subjectNom->[TalkTopicHeavyNom]</li>
+    <li>subjectAcc->[TalkTopicHeavyAcc]</li>
+    <li>subjectLoc->[TalkTopicHeavyLoc]</li>
+  </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
-  <Insult.label>TODO</Insult.label>
+  <Insult.label>urážka</Insult.label>
   <!-- EN:
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
     <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
@@ -62,10 +111,34 @@
     <li>insultcomparison(p=2)->[Animal]</li>
     <li>insultcomparison->[Enemy]</li>
   -->
-  <Insult.logRulesInitiator.rulesStrings>TODO</Insult.logRulesInitiator.rulesStrings>
+  <Insult.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted].</li>
+    <li>r_logentry->[INITIATOR_nameDef] přirovnal[INITIATOR_pronoun] [target] [insultcomparisonToDat].</li>
+    <li>r_logentry->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [target] [insultcomparisonIns].</li>
+    <li>targetInsulted(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetInsulted->osobu jménem [RECIPIENT_nameDef] tím, že se negativně vyjádřil[INITIATOR_pronoun] k [RECIPIENT_possessive] rodině, konkrétně [PersonFamilyToWhi] [PersonalCharacteristicUniAcc]</li>
+    <li>targetInsultedTo(p=4)->k osobě jménem [RECIPIENT_nameDef]. Negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetInsultedTo->[PersonFamilyInsTo] [PersonalCharacteristicUniAcc]</li>
+    <li>target(p=4)->osobu jménem [RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamilyUniAcc] osoby jménem [RECIPIENT_nameDef]</li>
+    <li>insulted(p=4)->urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->veřejně urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->nahlas urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->zjevně urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->bez okolků urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->hrubě urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->zjevně znemožnil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->pomluvil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->vychrlil[INITIATOR_pronoun] urážky směrem [targetInsultedTo]</li>
+    <li>insulted->zesměšnil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insultcomparisonToDat(p=2)->[AnimalToUniDat]</li>
+    <li>insultcomparisonToDat->[EnemyToUniDat]</li>
+    <li>insultcomparisonIns(p=2)->[AnimalUniIns]</li>
+    <li>insultcomparisonIns->[EnemyUniIns]</li>
+  </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
-  <KindWords.label>TODO</KindWords.label>
+  <KindWords.label>milá slova</KindWords.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
     <li>complimented(p=3)->complimented</li>
@@ -82,10 +155,25 @@
     <li>complimented->expressed appreciation for</li>
     <li>complimented->said good things about</li>
   -->
-  <KindWords.logRulesInitiator.rulesStrings>TODO</KindWords.logRulesInitiator.rulesStrings>
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc].</li>
+    <li>complimented(p=3)->chválil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->ocenil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->pochválil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->velebil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->opěvoval[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->obdivoval[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->vychvaloval[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->hezky okomentoval[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->vystihoval[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] jen dobré věci na</li>
+    <li>complimented->prohodil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] pár milých slov na</li>
+    <li>complimented->slovně ocenil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
+    <li>complimented->vyjádřil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] uznání za</li>
+    <li>complimented->řekl[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] pár hezkých slov na</li>
+  </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
-  <Slight.label>TODO</Slight.label>
+  <Slight.label>opovržení</Slight.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
@@ -103,6 +191,32 @@
     <li>madefunof->made a contemptuous remark about</li>
     <li>madefunof->offered a backhanded compliment about</li>
   -->
-  <Slight.logRulesInitiator.rulesStrings>TODO</Slight.logRulesInitiator.rulesStrings>
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof].</li>
+    <li>targetmadefunofNom(p=4)->[RECIPIENT_nameDef] oplývá. Řešil[INITIATOR_pronoun] zejména [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofNom->oplývá [PersonFamilyMadNom] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofGen(p=4)->z osoby jménem [RECIPIENT_nameDef]. Komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofGen->[PersonFamilyMadGen] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofDat(p=4)->osobě jménem [RECIPIENT_nameDef]. Nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofDat->[PersonFamilyMadDat] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofAcc(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofAcc->[PersonFamilyMadAcc] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofLoc(p=4)->k osobě jménem [RECIPIENT_nameDef]. Řešil[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofLoc->o [PersonFamilyMadLoc] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofIns(p=4)->osobou jménem [RECIPIENT_nameDef]. Nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>targetmadefunofIns->[PersonFamilyMadIns] [PersonalCharacteristicUniAcc]</li>
+    <li>madefunof->si dělal[INITIATOR_pronoun] srandu [targetmadefunofGen]</li>
+    <li>madefunof->znemožnil[INITIATOR_pronoun] [targetmadefunofAcc]</li>
+    <li>madefunof->lstivě opovrhoval[INITIATOR_pronoun] [targetmadefunofIns]</li>
+    <li>madefunof->lstivě zostudil[INITIATOR_pronoun] [targetmadefunofAcc]</li>
+    <li>madefunof->nepěkně mluvil[INITIATOR_pronoun] [targetmadefunofLoc]</li>
+    <li>madefunof->negativně mluvil[INITIATOR_pronoun] [targetmadefunofLoc]</li>
+    <li>madefunof->se vysmál[INITIATOR_pronoun] [targetmadefunofDat]</li>
+    <li>madefunof->se posmíval[INITIATOR_pronoun] [targetmadefunofDat]</li>
+    <li>madefunof->se nepřímo vyjádřil[INITIATOR_pronoun] ke špatným věcem, kterými [targetmadefunofNom]</li>
+    <li>madefunof->znevažoval[INITIATOR_pronoun] [targetmadefunofAcc]</li>
+    <li>madefunof->vychrlil[INITIATOR_pronoun] pohrdavé připomínky vůči [targetmadefunofDat]</li>
+    <li>madefunof->vyslovil[INITIATOR_pronoun] sarkastický kompliment vůči [targetmadefunofDat]</li>
+  </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>
