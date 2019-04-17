@@ -128,11 +128,11 @@
   <!-- EN: This happened because of poor mood. -->
   <MentalStateReason_Mood>Stalo se tak kvůli špatné náladě.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
-  <MentalStateReason_Trait>Stalo se tak kvůli tomuto rysu: {0}</MentalStateReason_Trait>
+  <MentalStateReason_Trait>Stalo se tak kvůli rysu {0}.</MentalStateReason_Trait>
   <!-- EN: This happened because of: {0}. -->
   <MentalStateReason_Hediff>Stalo se tak z důvodu: {0}</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>Stalo se tak, protože je {0_definite} po smrti.</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>Stalo se tak, protože {0_definite} {0_gender ? zemřel : zemřela}.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>Poslední událost byla</LastFactionRelationsEvent>
 
@@ -302,7 +302,7 @@
   <!-- EN: Peace talks flounder -->
   <LetterLabelPeaceTalks_TalksFlounder>Mírové rozhovory (patová situace)</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
-  <LetterPeaceTalks_TalksFlounder>Rozhovory se zmítaly. Delegátům se sice podařilo komunikovat jasně a se základním respektem, ale nebyli schopni učinit pokrok v žádném skutečném problému .\n\nVztahy s frakcí {0} zůstaly beze změny.</LetterPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>Rozhovory se zmítaly. Delegátům se sice podařilo komunikovat jasně a se základním respektem, ale nebyli schopni učinit pokrok v žádném skutečném problému.\n\nVztahy s frakcí {0} zůstaly beze změny.</LetterPeaceTalks_TalksFlounder>
   <!-- EN: Peace talks success -->
   <LetterLabelPeaceTalks_Success>Mírové rozhovory (úspěch)</LetterLabelPeaceTalks_Success>
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
