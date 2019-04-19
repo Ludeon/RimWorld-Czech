@@ -51,7 +51,7 @@
   <MessageFullyHealed>{1_label} se zcela {1_gender ? uzdravil : uzdravila}.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
-  <MessagePrisonerIsEscaping>{1_gender ? Vězeň : Vězeňkyně} {1_labelShort} uniká.</MessagePrisonerIsEscaping>
+  <MessagePrisonerIsEscaping>{1_gender ? Vězeň : Vězeňkyně} {1_labelShort} je na útěku.</MessagePrisonerIsEscaping>
 
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} {PAWN_gender ? nenašel : nenašla} v okolí žádné vyhrazené dělostřelecké granáty pro {GUN_label}.</MessageOutOfNearbyShellsFor>
@@ -266,7 +266,7 @@
   <MessagePawnBeingBurned>{1_labelShort} {1_gender ? byl : byla} {1_gender ? popálen : popálena} přehřátým vzduchem!</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
-  <MessageAccidentalOverdose>{INGESTER} se nechtěně {INGESTER_gender ? předávkoval : předávkovala}, neboť {INGESTER_gender ? snědl : snědla} {DRUG_labelShort}!</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{INGESTER} se {INGESTER_gender ? předávkoval : předávkovala}, když omylem {INGESTER_gender ? pozřel : pozřela} drogu zvanou {DRUG_labelShort}!</MessageAccidentalOverdose>
   
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} dorazila na místo určení.</MessageCaravanArrivedAtDestination>
@@ -283,7 +283,7 @@
   <MessagePermanentWoundHealed>{PAWN_labelShort} se {PAWN_gender ? uzdravil : uzdravila}. {PAWN_possessive} {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
 
   <!-- EN: {1_labelShort} has joined your group after being rescued! -->
-  <MessageRescueeJoined>{1_labelShort} se {1_gender ? připojil : připojila} ke tvé skupině hned, co {1_gender ? byl : byla} {1_gender ? zachráněn : zachráněna}!</MessageRescueeJoined>
+  <MessageRescueeJoined>{1_labelShort} se {1_gender ? připojil : připojila} ke tvé skupině poté, co {1_gender ? byl : byla} {1_gender ? zachráněn : zachráněna}!</MessageRescueeJoined>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>K některým přepravním modulům se nelze dostat.</MessageTransporterUnreachable>
