@@ -2,26 +2,35 @@
 <LanguageData>
   
   <!-- EN: breakup -->
-  <Breakup.label>TODO</Breakup.label>
+  <Breakup.label>rozpad vztahu</Breakup.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
-  <Breakup.logRulesInitiator.rulesStrings>TODO</Breakup.logRulesInitiator.rulesStrings>
+  <Breakup.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] požádal[INITIATOR_pronoun] osobu jménem [RECIPIENT_nameDef] o pauzu v jejich vztahu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] žádal[INITIATOR_pronoun] po osobě jménem [RECIPIENT_nameDef] více volnosti.</li>
+    <li>r_logentry->[INITIATOR_nameDef] sdělil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef], že takhle jejich vztah nebude nikdy fungovat.</li>
+    <li>r_logentry->[INITIATOR_nameDef] řekl[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef], že by bylo nejlepší poznat i jiné lidi.</li>
+  </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
-  <MarriageProposal.label>TODO</MarriageProposal.label>
+  <MarriageProposal.label>nabídka k sňatku</MarriageProposal.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
-  <MarriageProposal.logRulesInitiator.rulesStrings>TODO</MarriageProposal.logRulesInitiator.rulesStrings>
+  <MarriageProposal.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] navrhl[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] manželsví.</li>
+    <li>r_logentry->[INITIATOR_nameDef] přislíbil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] celoživotní věrnost.</li>
+    <li>r_logentry->[INITIATOR_nameDef] poklekl[INITIATOR_pronoun] před osobou jménem [RECIPIENT_nameDef] a řekl[INITIATOR_pronoun], že by chtěl[INITIATOR_pronoun] strávit celý svůj život v [RECIPIENT_possessive] blízkosti.</li>
+  </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
-  <RomanceAttempt.label>TODO</RomanceAttempt.label>
+  <RomanceAttempt.label>snaha o romantiku</RomanceAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
@@ -84,6 +93,124 @@
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
-  <RomanceAttempt.logRulesInitiator.rulesStrings>TODO</RomanceAttempt.logRulesInitiator.rulesStrings>
+  <RomanceAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed].</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] o flirt s osobou jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->flirtoval[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] získat přízeň osoby jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] romanticky zapůsobit na osobu jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] dvořit osobě jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->se dvořil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->zkusil[INITIATOR_pronoun] usilovat o osobu jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->se snažil[INITIATOR_pronoun] okouzlit osobu jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>wooed->usiloval[INITIATOR_pronoun] o přízeň osoby jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+
+    <li>wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
+    <li>wootactic->začal[INITIATOR_pronoun] vyprávět příběh o [TalkTopicAnyLoc]</li>
+    <li>wootactic->začal[INITIATOR_pronoun] vyprávět historku o [TalkTopicAnyLoc]</li>
+    <li>wootactic->začal[INITIATOR_pronoun] vtipkovat o [TalkTopicAnyLoc]</li>
+    <li>wootactic->začal[INITIATOR_pronoun] rozebírat téma o [TalkTopicAnyLoc]</li>
+    <li>wootactic(p=2)->[boasting]</li>
+    <li>wootactic->[RECIPIENT_objective] přirovnal[INITIATOR_pronoun] [romantic_adjToDat]</li>
+    <li>wootactic->[RECIPIENT_objective] popisoval[INITIATOR_pronoun] jako [romantic_adjAsDat]</li>
+
+    <li>boasting->se chlubil[INITIATOR_pronoun] sv[PersonalCharacteristicPosUniIns]</li>
+    <li>boasting->zmiňoval[INITIATOR_pronoun] sv[PersonalCharacteristicPosUniAcc]</li>
+    <li>boasting->vystihoval[INITIATOR_pronoun] jen pozitiva sv[PersonalCharacteristicPosUniGen]</li>
+    <li>boasting->zveličoval[INITIATOR_pronoun] sv[PersonalCharacteristicPosUniAcc]</li>
+    <li>boasting->mluvil[INITIATOR_pronoun] o sv[PersonalCharacteristicPosUniLoc]</li>
+    <li>boasting->poukazoval[INITIATOR_pronoun] na sv[PersonalCharacteristicPosUniAcc]</li>
+
+    <li>complimenting(p=3)->pochválil[INITIATOR_pronoun]</li>
+    <li>complimenting->rafinovaně pochválil[INITIATOR_pronoun]</li>
+    <li>complimenting->vychvaloval[INITIATOR_pronoun]</li>
+    <li>complimenting->vyzdvihoval[INITIATOR_pronoun]</li>
+    <li>complimenting->pozitivně vystihoval[INITIATOR_pronoun]</li>
+    <li>complimenting(p=2)->hravě a vtipnou formou komentoval[INITIATOR_pronoun]</li>
+    <li>complimenting->řekl[INITIATOR_pronoun] vtipnou narážku na</li>
+    <li>complimenting->vtipným a šibalským způsobem pochválil[INITIATOR_pronoun]</li>
+    <li>complimenting->šibalsky pokládal[INITIATOR_pronoun] otázky na</li>
+    <li>complimenting->radostně a vtipnou formou komentoval[INITIATOR_pronoun]</li>
+
+    <li>romantic_adjToDat->k překrásn[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k třpytiv[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k blyštiv[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k božsk[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k pozlacen[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k zářiv[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k dech berouc[romantic_nounToDat_i]</li>
+    <li>romantic_adjToDat->k okouzlujíc[romantic_nounToDat_i]</li>
+    <li>romantic_adjToDat->k oslniv[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->ke křehoučk[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k pěkn[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->ke skvostn[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k půvabn[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat->k nádhern[romantic_nounToDat_e]</li>
+    <li>romantic_adjToDat(p=3)->[AdjectiveBadassToUniDat_ei]</li>
+
+    <li>romantic_adjAsDat->překrásn[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->třpytiv[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->blyštiv[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->božsk[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->pozlacen[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->zářiv[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->dech berouc[romantic_nounAsDat_i]</li>
+    <li>romantic_adjAsDat->okouzlujíc[romantic_nounAsDat_i]</li>
+    <li>romantic_adjAsDat->oslniv[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->křehoučk[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->pěkn[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->skvostn[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->půvabn[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat->nádhern[romantic_nounAsDat_ou]</li>
+    <li>romantic_adjAsDat(p=3)->[AdjectiveBadassAsUniDat_oui]</li>
+
+    <li>romantic_nounToDat_e->é květině</li>
+    <li>romantic_nounToDat_e->ému pramenu</li>
+    <li>romantic_nounToDat_e->é řece</li>
+    <li>romantic_nounToDat_e->é hvězdě</li>
+    <li>romantic_nounToDat_e->ému měsíci</li>
+    <li>romantic_nounToDat_e->ému slunci</li>
+    <li>romantic_nounToDat_e->ému domu</li>
+    <li>romantic_nounToDat_e->é polární záři</li>
+    <li>romantic_nounToDat_e->[TreeTypeToUniDat_e]</li>
+    <li>romantic_nounToDat_e(p=2)->[TerrainFeatureToUniDat_e]</li>
+    <li>romantic_nounToDat_e(p=2)->[NaturalObjectToUniDat_e]</li>
+
+    <li>romantic_nounToDat_i->í květině</li>
+    <li>romantic_nounToDat_i->ímu pramenu</li>
+    <li>romantic_nounToDat_i->í řece</li>
+    <li>romantic_nounToDat_i->í hvězdě</li>
+    <li>romantic_nounToDat_i->ímu měsíci</li>
+    <li>romantic_nounToDat_i->ímu slunci</li>
+    <li>romantic_nounToDat_i->ímu domu</li>
+    <li>romantic_nounToDat_i->í polární záři</li>
+    <li>romantic_nounToDat_i->[TreeTypeToUniDat_i]</li>
+    <li>romantic_nounToDat_i(p=2)->[TerrainFeatureToUniDat_i]</li>
+    <li>romantic_nounToDat_i(p=2)->[NaturalObjectToUniDat_i]</li>
+
+    <li>romantic_nounAsDat_ou->ou květinu</li>
+    <li>romantic_nounAsDat_ou->ý pramen</li>
+    <li>romantic_nounAsDat_ou->ou řeku</li>
+    <li>romantic_nounAsDat_ou->ou hvězdu</li>
+    <li>romantic_nounAsDat_ou->ý měsíc</li>
+    <li>romantic_nounAsDat_ou->é slunce</li>
+    <li>romantic_nounAsDat_ou->ý dům</li>
+    <li>romantic_nounAsDat_ou->ou polární záři</li>
+    <li>romantic_nounAsDat_ou->[TreeTypeAsUniDat_ou]</li>
+    <li>romantic_nounAsDat_ou(p=2)->[TerrainFeatureAsUniDat_ou]</li>
+    <li>romantic_nounAsDat_ou(p=2)->[NaturalObjectAsUniDat_ou]</li>
+
+    <li>romantic_nounAsDat_i->í květinu</li>
+    <li>romantic_nounAsDat_i->í pramen</li>
+    <li>romantic_nounAsDat_i->í řeku</li>
+    <li>romantic_nounAsDat_i->í hvězdu</li>
+    <li>romantic_nounAsDat_i->í měsíc</li>
+    <li>romantic_nounAsDat_i->í slunce</li>
+    <li>romantic_nounAsDat_i->í dům</li>
+    <li>romantic_nounAsDat_i->í polární záři</li>
+    <li>romantic_nounAsDat_i->[TreeTypeAsUniDat_i]</li>
+    <li>romantic_nounAsDat_i(p=2)->[TerrainFeatureAsUniDat_i]</li>
+    <li>romantic_nounAsDat_i(p=2)->[NaturalObjectAsUniDat_i]</li>
+  </RomanceAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>
