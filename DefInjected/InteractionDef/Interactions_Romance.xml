@@ -94,16 +94,16 @@
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [wooed].</li>
-    <li>wooed->se pokusil[INITIATOR_pronoun] o flirt s osobou jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->flirtoval[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->se pokusil[INITIATOR_pronoun] získat přízeň osoby jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->se pokusil[INITIATOR_pronoun] romanticky zapůsobit na osobu jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->se pokusil[INITIATOR_pronoun] dvořit osobě jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->se dvořil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->zkusil[INITIATOR_pronoun] usilovat o osobu jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->se snažil[INITIATOR_pronoun] okouzlit osobu jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
-    <li>wooed->usiloval[INITIATOR_pronoun] o přízeň osoby jménem [RECIPIENT_nameDef] tak, že [wootactic]</li>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [wootactic].</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] o flirt s osobou jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->flirtoval[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] získat přízeň osoby jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] romanticky zapůsobit na osobu jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->se pokusil[INITIATOR_pronoun] dvořit osobě jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->se dvořil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->zkusil[INITIATOR_pronoun] usilovat o osobu jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->se snažil[INITIATOR_pronoun] okouzlit osobu jménem [RECIPIENT_nameDef] tak, že</li>
+    <li>wooed->usiloval[INITIATOR_pronoun] o přízeň osoby jménem [RECIPIENT_nameDef] tak, že</li>
 
     <li>wootactic(p=4)->[complimenting] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
     <li>wootactic->začal[INITIATOR_pronoun] vyprávět příběh o [TalkTopicAnyLoc]</li>
