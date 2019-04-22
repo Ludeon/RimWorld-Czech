@@ -130,6 +130,10 @@
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>TerrainFeatureUniNom->Words/Nouns/TerrainFeatures_UniversalNominative</li>
     <li>TerrainFeatureUniGen->Words/Nouns/TerrainFeatures_UniversalGenitive</li>
+    <li>TerrainFeatureToUniDat_e->Words/Nouns/TerrainFeatures_ToUniversalDative_e</li>
+    <li>TerrainFeatureToUniDat_i->Words/Nouns/TerrainFeatures_ToUniversalDative_i</li>
+    <li>TerrainFeatureAsUniDat_ou->Words/Nouns/TerrainFeatures_AsUniversalDative_ou</li>
+    <li>TerrainFeatureAsUniDat_i->Words/Nouns/TerrainFeatures_AsUniversalDative_i</li>
     <li>TerrainFeatureUniAcc->Words/Nouns/TerrainFeatures_UniversalAccusative</li>
     <li>TerrainFeaturePluLoc->Words/Nouns/TerrainFeatures_PluralLocative</li>
     <li>TerrainFeatureMas->Words/Nouns/TerrainFeatures_Masculine</li>
@@ -150,11 +154,19 @@
     <li>NaturalObjectFemAcc->Words/Nouns/NaturalObject_FeminineAccusative</li>
     <li>NaturalObjectNeuGen->Words/Nouns/NaturalObject_NeuterGenitive</li>
     <li>NaturalObjectNeuAcc->Words/Nouns/NaturalObject_NeuterAccusative</li>
+    <li>NaturalObjectToUniDat_e->Words/Nouns/NaturalObjectToUniversalDative_e</li>
+    <li>NaturalObjectToUniDat_i->Words/Nouns/NaturalObjectToUniversalDative_i</li>
+    <li>NaturalObjectAsUniDat_ou->Words/Nouns/NaturalObjectAsUniversalDative_ou</li>
+    <li>NaturalObjectAsUniDat_i->Words/Nouns/NaturalObjectAsUniversalDative_i</li>
 
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>TreeTypePluLoc->Words/Nouns/TreeTypes_PluralLocative</li>
     <li>TreeTypeUniNom->Words/Nouns/TreeTypes_UniversalNominative</li>
     <li>TreeTypeUniGen->Words/Nouns/TreeTypes_UniversalGenitive</li>
+    <li>TreeTypeToUniDat_e->Words/Nouns/TreeTypes_ToUniversalDative_e</li>
+    <li>TreeTypeToUniDat_i->Words/Nouns/TreeTypes_ToUniversalDative_i</li>
+    <li>TreeTypeAsUniDat_ou->Words/Nouns/TreeTypes_AsUniversalDative_ou</li>
+    <li>TreeTypeAsUniDat_i->Words/Nouns/TreeTypes_AsUniversalDative_i</li>
     <li>TreeTypeUniAcc->Words/Nouns/TreeTypes_UniversalAccusative</li>
     <li>TreeTypeMasGen->Words/Nouns/TreeTypes_MasculineGenitive</li>
     <li>TreeTypeMasAcc->Words/Nouns/TreeTypes_MasculineAccusative</li>
@@ -276,6 +288,8 @@
     <li>AdjectiveBadassFemGen->Words/Adjectives/Badass_FeminineGenitive</li>
     <li>AdjectiveBadassFemAcc->Words/Adjectives/Badass_FeminineAccusative</li>
     <li>AdjectiveBadassNeu->Words/Adjectives/Badass_Neuter</li>
+    <li>AdjectiveBadassToUniDat_ei->Words/Adjectives/Badass_ToUniversalDative_ei</li>
+    <li>AdjectiveBadassAsUniDat_oui->Words/Adjectives/Badass_AsUniversalDative_oui</li>
 
     <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
     <li>AdjectiveAngstyFemGen->Words/Adjectives/Angsty_FeminineGenitive</li>
@@ -300,10 +314,11 @@
     <li>VerbFriendly->Words/Verbs/Friendly</li>
 
     <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
-    <li>PersonalCharacteristicOfGen->Words/Nouns/PersonalCharacteristics_OfGenitive</li>
-    <li>PersonalCharacteristicOfPosGen->Words/Nouns/PersonalCharacteristics_OfPossessiveGenitive</li>
     <li>PersonalCharacteristicUniAcc->Words/Nouns/PersonalCharacteristics_UniversalAccusative</li>
-    <li>PersonalCharacteristicPosLoc->Words/Nouns/PersonalCharacteristics_PossessiveLocative</li>
+    <li>PersonalCharacteristicPosUniGen->Words/Nouns/PersonalCharacteristics_PossessiveUniversalGenitive</li>
+    <li>PersonalCharacteristicPosUniAcc->Words/Nouns/PersonalCharacteristics_PossessiveUniversalAccusative</li>
+    <li>PersonalCharacteristicPosUniLoc->Words/Nouns/PersonalCharacteristics_PossessiveUniversalLocative</li>
+    <li>PersonalCharacteristicPosUniIns->Words/Nouns/PersonalCharacteristics_PossessiveUniversalInstrumental</li>
 
     <li>PoliticalAdjectiveMas->Words/Adjectives/PoliticalUnions_Masculine</li>
     <li>PoliticalAdjectiveFem->Words/Adjectives/PoliticalUnions_Feminine</li>
@@ -775,6 +790,54 @@
 
     <li>PersonJobUniNom->[PersonJobMasNom]</li>
     <li>PersonJobUniNom->[PersonJobFemNom]</li>
+
+    <li>PersonalCharacteristic(p=0.15)->genitals</li>
+    <li>PersonalCharacteristic(p=0.15)->pubic hair</li>
+    <li>PersonalCharacteristic(p=0.15)->body hair</li>
+    <li>PersonalCharacteristic(p=0.15)->toilet habits</li>
+    <li>PersonalCharacteristic(p=0.15)->sexual prowess</li>
+    <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
+    <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
+
+    <li>PersonalCharacteristicUniAcc(p=0.15)->genitálie</li>
+    <li>PersonalCharacteristicUniAcc(p=0.15)->pubické ochlupení</li>
+    <li>PersonalCharacteristicUniAcc(p=0.15)->tělní ochlupení</li>
+    <li>PersonalCharacteristicUniAcc(p=0.15)->toaletní návyky</li>
+    <li>PersonalCharacteristicUniAcc(p=0.15)->sexuální zdatnost</li>
+    <li>PersonalCharacteristicUniAcc(p=0.15)->sexuální preference</li>
+    <li>PersonalCharacteristicUniAcc(p=0.15)->sexuální zkušenost</li>
+
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->ých genitálií</li>
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->ého pubického ochlupení</li>
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->ého tělního ochlupení</li>
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->ých toaletních návyků</li>
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->é sexuální zdatnosti</li>
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->ých sexuálních preferencí</li>
+    <li>PersonalCharacteristicPosUniGen(p=0.15)->é sexuální zkušenosti</li>
+
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->é genitálie</li>
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->é pubické ochlupení</li>
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->é tělní ochlupení</li>
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->é toaletní návyky</li>
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->ou sexuální zdatnost</li>
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->é sexuální preference</li>
+    <li>PersonalCharacteristicPosUniAcc(p=0.15)->ou sexuální zkušenost</li>
+
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->é genitálie</li>
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->é pubické ochlupení</li>
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->é tělní ochlupení</li>
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->é toaletní návyky</li>
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->ou sexuální zdatnost</li>
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->é sexuální preference</li>
+    <li>PersonalCharacteristicPosUniLoc(p=0.15)->ou sexuální zkušenost</li>
+
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ými genitáliemi</li>
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ým pubickým ochlupením</li>
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ým tělním ochlupením</li>
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ými toaletními návyky</li>
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ou sexuální zdatností</li>
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ými sexuálními preferencemi</li>
+    <li>PersonalCharacteristicPosUniIns(p=0.15)->ou sexuální zkušeností</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -833,6 +896,9 @@
   <TalkTopicsUtility.rulePack.rulesStrings>
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>
+
+    <li>TalkTopicAnyLoc->[TalkTopicLightLoc]</li>
+    <li>TalkTopicAnyLoc->[TalkTopicHeavyLoc]</li>
 
     <li>TalkTopicHeavy->[talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile]</li>
@@ -914,6 +980,11 @@
     <li>talktopicheavyfile(p=0.15)->seduction</li>
     <li>talktopicheavyfile(p=0.15)->animal sexuality</li>
     <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
+
+    <li>talktopicheavyfileLoc(p=0.15)->sexu</li>
+    <li>talktopicheavyfileLoc(p=0.15)->svádění</li>
+    <li>talktopicheavyfileLoc(p=0.15)->zvířecí sexualitě</li>
+    <li>talktopicheavyfileLoc(p=0.15)->sexuálních úchylkách</li>
   </TalkTopicsUtility.rulePack.rulesStrings>
   
 </LanguageData>
