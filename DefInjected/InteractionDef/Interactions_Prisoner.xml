@@ -40,45 +40,45 @@
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subjectLoc]. (» [RECIPIENT_nameDef])</li>
-    <li>r_logentry->[INITIATOR_nameDef] mluvil[INITIATOR_pronoun] o [subjectLoc]. (» [RECIPIENT_nameDef])</li>
-    <li>r_logentry->[INITIATOR_nameDef] začal[INITIATOR_pronoun] dopodrobna popisovat příběh o [subjectLoc]. (» [RECIPIENT_nameDef])</li>
-    <li>r_logentry->[INITIATOR_nameDef] nabádal[INITIATOR_pronoun] k tomu, aby [talkabout] [subjectLoc]. (» [RECIPIENT_nameDef])</li>
-    <li>r_logentry->[INITIATOR_nameDef] nabídl[INITIATOR_pronoun] možnost [talkaboutGen] [subjectLoc]. (» [RECIPIENT_nameDef])</li>
-    <li>r_logentry->[INITIATOR_nameDef] se zajímal[INITIATOR_pronoun] o [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]. (» [RECIPIENT_nameDef])</li>
-    <li>r_logentry->[INITIATOR_nameDef] se zeptal[INITIATOR_pronoun] na [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]. (» [RECIPIENT_nameDef])</li>
-    <li>toldastoryabout(p=2)->vyprávěl[INITIATOR_pronoun] příběh o</li>
-    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] zábavný příběh o</li>
-    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] upřímný příběh o</li>
-    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] starou historku o</li>
-    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] rodinnou historku o</li>
-    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] příběh z dětství o</li>
-    <li>toldastoryabout->řekl[INITIATOR_pronoun] vtipnou historku o</li>
-    <li>talkabout->mluvil[RECIPIENT_pronoun] o</li>
-    <li>talkabout->hovořil[RECIPIENT_pronoun] o</li>
-    <li>talkabout->vedl[RECIPIENT_pronoun] debatu o</li>
-    <li>talkabout->se zeptal[RECIPIENT_pronoun] na něco o</li>
-    <li>talkabout->přemýšlel[RECIPIENT_pronoun] o</li>
-    <li>talkabout->se pokusil[RECIPIENT_pronoun] najít společnou řeč o</li>
-    <li>talkaboutGen->říct něco o</li>
-    <li>talkaboutGen->mluvit o</li>
-    <li>talkaboutGen->vést debatu o</li>
-    <li>talkaboutGen->zeptat se na něco o</li>
-    <li>talkaboutGen->přemýšlet o</li>
-    <li>talkaboutGen->pokusit se najít společnou řeč o</li>
+    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subjectLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] o [subjectLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] podrobně rozebíral[INITIATOR_pronoun] s vězněm jménem [RECIPIENT_nameDef] vše o [subjectLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] nabádal[INITIATOR_pronoun] vězně jménem [RECIPIENT_nameDef] k tomu, aby [talkabout_encourage] [subjectLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] nabídl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] příležitost [talkabout_chance] [subjectLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] se zajímal[INITIATOR_pronoun] o vězně jménem [RECIPIENT_nameDef], konkrétně o [RECIPIENT_possessive] [PersonalCharacteristicUniAcc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] se zeptal[INITIATOR_pronoun] vězně jménem [RECIPIENT_nameDef] na [RECIPIENT_possessive] [PersonalCharacteristicUniAcc].</li>
+    <li>toldastoryabout(p=2)->vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] příběh o</li>
+    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] zábavný příběh o</li>
+    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] upřímný příběh o</li>
+    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] starou historku o</li>
+    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] rodinnou historku o</li>
+    <li>toldastoryabout->vyprávěl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] příběh z dětství o</li>
+    <li>toldastoryabout->řekl[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] vtipnou historku o</li>
+    <li>talkabout_encourage->mluvil[RECIPIENT_pronoun] o</li>
+    <li>talkabout_encourage->hovořil[RECIPIENT_pronoun] o</li>
+    <li>talkabout_encourage->vedl[RECIPIENT_pronoun] debatu o</li>
+    <li>talkabout_encourage->se zeptal[RECIPIENT_pronoun] na něco o</li>
+    <li>talkabout_encourage->přemýšlel[RECIPIENT_pronoun] o</li>
+    <li>talkabout_encourage->se pokusil[RECIPIENT_pronoun] najít společnou řeč o</li>
+    <li>talkabout_chance->říct něco o</li>
+    <li>talkabout_chance->hovořit o</li>
+    <li>talkabout_chance->vést debatu o</li>
+    <li>talkabout_chance->zeptat se na něco o</li>
+    <li>talkabout_chance->přemýšlet o</li>
+    <li>talkabout_chance->pokusit se najít společnou řeč o</li>
     <li>subjectLoc->této kolonii</li>
     <li>subjectLoc->této komunitě</li>
-    <li>subjectLoc->připojení se k této kolonii</li>
+    <li>subjectLoc->vstupu do této kolonie</li>
     <li>subjectLoc->změně strany</li>
     <li>subjectLoc->hledání přátel</li>
     <li>subjectLoc->poznávání nových tváří</li>
-    <li>subjectLoc->zvážení plánů</li>
-    <li>subjectLoc->přehodnocení loajality</li>
+    <li>subjectLoc->znovu zvážení svých záměrů</li>
+    <li>subjectLoc->přehodnocení své loajality</li>
     <li>subjectLoc->zdravotním stavu</li>
     <li>subjectLoc->budoucnosti</li>
-    <li>subjectLoc->propuštění</li>
+    <li>subjectLoc->svobodě volby</li>
     <li>subjectLoc(p=4)->[ConceptPositiveUniLoc]</li>
-    <li>subjectLoc(p=2)->sv[PersonalCharacteristicPosLoc]</li>
+    <li>subjectLoc(p=2)->sv[PersonalCharacteristicPosUniLoc]</li>
     <li>subjectLoc(p=8)->[TalkTopicLightLoc]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
@@ -91,14 +91,14 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] se zeptal[INITIATOR_pronoun], zda by se [RECIPIENT_nameDef] nechtěl[RECIPIENT_pronoun] k této komunitě připojit.</li>
-    <li>r_logentry->[INITIATOR_nameDef] nabídl[INITIATOR_pronoun] svému zajatci [goodthing]. Zároveň byl[RECIPIENT_pronoun] [RECIPIENT_nameDef] dotázán[RECIPIENT_pronoun], zda se nechce k této komunitě připojit.</li>
+    <li>r_logentryy->[INITIATOR_nameDef] se zeptal[INITIATOR_pronoun] vězně jménem [RECIPIENT_nameDef], zda by se nechtěl[RECIPIENT_pronoun] k této komunitě přidat.</li>
+    <li>r_logentry->[INITIATOR_nameDef] přislíbil[INITIATOR_pronoun] vězni jménem [RECIPIENT_nameDef] [goodthing], a zeptal[INITIATOR_pronoun] se [RECIPIENT_objective], zda by se nechtěl[RECIPIENT_pronoun] k této komunitě přidat.</li>
     <li>goodthing(p=15)->[ConceptPositiveUniAcc]</li>
-    <li>goodthing->čerstvé, osvěžující [VegetablePluAcc]</li>
+    <li>goodthingy->čerstvé, svěží [VegetablePluAcc]</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>podnícení k útěku z vězení</SparkJailbreak.label>
+  <SparkJailbreak.label>podnět k útěku z vězení</SparkJailbreak.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
@@ -110,21 +110,18 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] začal[INITIATOR_pronoun] mluvit o radosti [offreedom] a hned poté ukázal[INITIATOR_pronoun] způsob, jak je možné uniknout.</li>
-    <li>r_logentry->[INITIATOR_nameDef] začal[INITIATOR_pronoun] vyprávět o tom, jak krásn[TerrainFeatureJailbreak] je a zničehonic nabídl[INITIATOR_pronoun] svobodu.</li>
-    <li>r_logentry->[INITIATOR_nameDef] přislíbil[INITIATOR_pronoun] [freedom] tím, že nastínil[INITIATOR_pronoun] způsob, jakým může [RECIPIENT_nameDef] uniknout.</li>
-    <li>r_logentry->[INITIATOR_nameDef] oznámil[INITIATOR_pronoun], že ostraha je právě nepozorná, tím byl[RECIPIENT_pronoun] [RECIPIENT_nameDef] vyprovokován[RECIPIENT_pronoun] k útěku.</li>
-    <li>offreedom->ze svobody</li>
-    <li>offreedom->z příležitosti utéct</li>
-    <li>offreedom->z možnosti vrátit se domů</li>
-    <li>offreedom->z možnosti sebeurčení</li>
-    <li>freedom->možnost svobody</li>
-    <li>freedom->příležitost utéct</li>
-    <li>freedom->návrat domů</li>
-    <li>freedom->možnost sebeurčení</li>
-    <li>TerrainFeatureJailbreak(p=0.46)->ý ten [TerrainFeatureMas]</li>
-    <li>TerrainFeatureJailbreak(p=0.42)->á ta [TerrainFeatureFem]</li>
-    <li>TerrainFeatureJailbreak(p=0.12)->é to [TerrainFeatureNeu]</li>
+    <li>r_logentry->[INITIATOR_nameDef] mluvil[INITIATOR_pronoun] o radostném pocitu [freedomOfGen] a hned poté ukázal[INITIATOR_pronoun] způsoby, jak je možné uniknout.</li>
+    <li>r_logentry->[INITIATOR_nameDef] vyprávěl[INITIATOR_pronoun] o překrásných [TerrainFeaturePluLoc] tam venku a zničehonic nabídl[INITIATOR_pronoun] svobodu a možnost vše vidět na vlastní oči.</li>
+    <li>r_logentry->[INITIATOR_nameDef] nastínil[INITIATOR_pronoun], jakými způsoby by mohl[RECIPIENT_pronoun] [RECIPIENT_nameDef] uniknout, čímž přislíbil[INITIATOR_pronoun] [RECIPIENT_possessive] [freedomAcc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] dal[INITIATOR_pronoun] znamení, že ostraha je právě nepozorná, čímž byl[RECIPIENT_pronoun] [RECIPIENT_nameDef] vyprovokován[RECIPIENT_pronoun] k útěku.</li>
+    <li>freedomOfGen->ze svobody</li>
+    <li>freedomOfGen->z příležitosti žít svobodně</li>
+    <li>freedomOfGen->z možného návratu domů</li>
+    <li>freedomOfGen->z možného sebeurčení</li>
+    <li>freedomAcc->svobodu</li>
+    <li>freedomAcc->příležitost žít svobodně</li>
+    <li>freedomAcc->možnost vrátit se domů</li>
+    <li>freedomAcc->možnost sebeurčení</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
