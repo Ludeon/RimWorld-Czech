@@ -227,7 +227,7 @@
     <li>artextra_clause->scéna [anytakesplace] v nitru [CommunityUniGen] nedaleko [TerrainFeatureUniGen]</li>
     <li>artextra_clause->[side_position] [idles] [CharacterNom]</li>
     <li>artextra_clause->[side_position] [idles] [pawn_adj_CharacterNom]</li>
-    <li>artextra_clause->[side_position] lze vidět [Quantity_adjphraseAcc] [CharacterPluGen]</li>
+    <li>artextra_clause->[side_position] si lze povšimnout [Quantity_adjphraseGen] [CharacterPluGen]</li>
     <li>artextra_clause->[side_position] lze vidět [Quantity_adjphraseAcc] [pawn_adj_plural_CharacterPluGen]</li>
     <li>artextra_clause->[side_position] [idles] [AnimalUniNom]</li>
     <li>artextra_clause->pokud přimhouříš oči, [compositionFem] kompozice odhaluje obrysy [subimageanyGen]</li>
@@ -431,8 +431,7 @@
 
 
     <li>style_clause->toto dílo [symbolizes]</li>
-    <li>artextra_clause->[subimagesingleNom] nacházející se [side_position] [symbolizes]</li>
-    <li>artextra_clause_conjuction->[subimagesingleNom] nacházející se [side_position] [symbolizes]</li>
+    <li>artextra_clause->[subimagesingleNom], nacházející se [side_position], [symbolizes_2]</li>
     <li>style_clause->toto dílo je inspirované myšlenkou [ConceptAnyGen] a je vyhotovené [artstyle_adjInStyleLoc]</li>
     <li>style_clause->toto dílo je provedené [artstyle_adjInStyleLoc]</li>
     <li>style_clause->[artstyle_adjStyleNom] na centrální scéně se střetává [artstyle_adjWithDepictionIns] pozadí</li>
@@ -453,9 +452,21 @@
     <li>symbolizes->, jak se zdá, vyjadřuje [ConceptAnyUniAcc]</li>
     <li>symbolizes->divákovi připomíná [ConceptAnyUniAcc]</li>
     <li>symbolizes->vyjadřuje emoce [ConceptAnyUniGen]</li>
-    <li>symbolizes->je vyobrazené tak, aby divák myslel na [ConceptAnyUniAcc]</li>
+    <li>symbolizes->má záměrně takové vyobrazení, aby divák myslel na [ConceptAnyUniAcc]</li>
     <li>symbolizes->[anyrepresents] umělc[ConceptAnyPersonUniAcc]</li>
     <li>symbolizes->naznačuje koncept [ConceptAnyUniGen]</li>
+
+
+    <li>symbolizes_2->symbolizuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->vypadá, že symbolizuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->představuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->vypadá, že představuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->vypadá, že vyjadřuje [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->divákovi připomíná [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->vyjadřuje emoce [ConceptAnyUniGen]</li>
+    <li>symbolizes_2->u diváka způsobuje pomyšlení na [ConceptAnyUniAcc]</li>
+    <li>symbolizes_2->[anyrepresents] umělc[ConceptAnyPersonUniAcc]</li>
+    <li>symbolizes_2->naznačuje koncept [ConceptAnyUniGen]</li>
 
 
     <li>depicts->vykresluje</li>
