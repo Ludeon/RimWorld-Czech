@@ -42,7 +42,9 @@
   <TabFormingCaravan>Karavana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Obsah</TabTransporterContents>
-
+  <!-- EN: Contents -->
+  <TabCasketContents>Obsah</TabCasketContents>
+  
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>Přidat úkol</AddBill>
@@ -78,6 +80,24 @@
   <RecruitmentResistance>Zbývající vzdor</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Obtížnost verbování</RecruitmentDifficulty>
+  <!-- EN: Recruitment chance -->
+  <RecruitmentChance>Šance na naverbování</RecruitmentChance>
+  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
+  <RecruitmentChanceExplanation>Faktor obtížnosti verbování: {0}\nFaktor nálady: {1}\nKonečná základní šance: {2}</RecruitmentChanceExplanation>
+  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nPoslední pokus o verbování:\nNáborář: {3}\nFaktor schopnosti vyjednávání: {4}\nFaktor mínění: {5} ({6})\nKonečná šance pro {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <!-- EN: \nResistance reduction: {0} -->
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nSníženo vzdoru: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Relations gain on release -->
+  <PrisonerReleasePotentialRelationGains>Vztahy při propuštění</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>Zlepšení vztahů s frakcemi získáš od vězňové frakce, pokud jej propustíš. To je ovlivněno i zdravotním a duševním stavem vězně.</PrisonerReleaseRelationGainsDesc>
+  <!-- EN: Prison break interval -->
+  <PrisonBreakMTBDays>Interval pokusu o útěk z vězení</PrisonBreakMTBDays>
+  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <PrisonBreakMTBDaysDescription>Průměrný počet dnů mezi pokusy o útěk z vězení. Ovlivněno náladou, mobilitou a časem od posledního pokusu o útěk.\n\nToto číslo ignoruje čas strávený spaním, takže skutečný průměrný interval pokusu o útěk z vězení bude obvykle delší.</PrisonBreakMTBDaysDescription>
+  <!-- EN: Slave price -->
+  <SlavePrice>Cena pro otrokáře</SlavePrice>
   <!-- EN: Gets food -->
   <GetsFood>Dostává jídlo</GetsFood>
   <!-- EN: Doctors care -->
@@ -165,7 +185,7 @@
   <!-- EN: None -->
   <None>Žádný</None>
   <!-- EN: Very poor -->
-  <VeryPoor>Vel. špatný</VeryPoor>
+  <VeryPoor>Velmi špatný</VeryPoor>
   <!-- EN: Poor -->
   <Poor>Špatný</Poor>
   <!-- EN: Weakened -->
@@ -175,11 +195,11 @@
   <!-- EN: Enhanced -->
   <Enhanced>Vylepšený</Enhanced>
   <!-- EN: Seriously impaired -->
-  <SeriouslyImpaired>Vážně pošk.</SeriouslyImpaired>
+  <SeriouslyImpaired>Vážně poškozený</SeriouslyImpaired>
   <!-- EN: Impaired -->
   <Impaired>Poškozený</Impaired>
   <!-- EN: Slightly impaired -->
-  <SlightlyImpaired>Lehce pošk.</SlightlyImpaired>
+  <SlightlyImpaired>Lehce poškozený</SlightlyImpaired>
   <!-- EN: None -->
   <NoPain>Žádná</NoPain>
   <!-- EN: Little -->
@@ -194,7 +214,7 @@
   <!-- Training tab -->
   <!-- EN: Trainability -->
   <Trainability>Cvičitelnost</Trainability>
-  <!-- EN: Requires trainability {0}. -->
+  <!-- EN: Requires {0} trainability. -->
   <CannotTrainNotSmartEnough>Vyžaduje cvičitelnost {0}.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
   <CannotTrainTooSmall>{0} se pro tento výcvik nehodí. Zvíře je příliš malé.</CannotTrainTooSmall>
@@ -207,6 +227,8 @@
   <NoRelationships>(žádné příbuzenské vztahy)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Unesený</Kidnapped>
+  <!-- EN: Lent to {FACTION_name}, returns in {1} -->
+  <Lent>Poskytnutý frakci {FACTION_name}, navrácení během {1}</Lent>
   <!-- EN: Missing -->
   <Missing>Nezvěstný</Missing>
   <!-- EN: Slave -->
@@ -287,7 +309,17 @@
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
   <RemoveSliderText>Odstranit {{0}}x {0}</RemoveSliderText>
+  <!-- EN: Contained items -->
+  <ContainedItems>Obsažené položky</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Opravdu chceš odstranit {0}?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
+  <DismissQuest>Zamítne tento úkol a přesune jej do záložky historické.\n\nÚkol může být kdykoliv obnoven. Jeho zadání a expirační časy budou pokračovat jako obvykle. U zamítnutých úkolů nebudeš dostávat žádná oznámení.</DismissQuest>
+  <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
+  <UnDismissQuest>Obnoví tento úkol.\n\nÚkol bude navrácen do záložky dostupné nebo aktivní a jeho oznámení budou znovu povolena.</UnDismissQuest>
+  <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
+  <QuestDismissed>Tento úkol se nachází zde, protože byl zamítnut.\n\nMůžeš jej obnovit až do jeho expirace.</QuestDismissed>
 
 </LanguageData>
