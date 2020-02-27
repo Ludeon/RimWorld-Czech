@@ -12,11 +12,9 @@
   <AmbrosiaSprout.letterText>Poblíž se vynořil klíček záhadného ambrozového křoviska! Pokud počkáš, až rostlina vyroste, budeš ji moci sklidit pro příjemně lahodné a mírně návykové plody.</AmbrosiaSprout.letterText>
   
   <!-- EN: cold snap -->
-  <ColdSnap.label>studená fronta</ColdSnap.label>
+  <ColdSnap.label>prudké ochlazení</ColdSnap.label>
   <!-- EN: Cold snap -->
-  <ColdSnap.letterLabel>Studená fronta</ColdSnap.letterLabel>
-  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
-  <ColdSnap.letterText>Začala neobvyklá studená fronta.\n\nStudené fronty mohou způsobit lidem omrzliny, což může vést i ke smrti lidí. Vybuduj vyhřívaný prostor, abys mohl přežít, nos vhodné oblečení a pokus se o sklizeň plodin, než se mrazem zničí.</ColdSnap.letterText>
+  <ColdSnap.letterLabel>Prudké ochlazení</ColdSnap.letterLabel>
   
   <!-- EN: crop blight -->
   <CropBlight.label>plíseň</CropBlight.label>
@@ -28,15 +26,11 @@
   <Flashstorm.label>extrémní smršť blesků</Flashstorm.label>
   <!-- EN: Flashstorm -->
   <Flashstorm.letterLabel>Extrémní smršť blesků</Flashstorm.letterLabel>
-  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
-  <Flashstorm.letterText>Do malé oblasti udeří neobvykle vysoký počet blesků. V důsledku toho mohou vzniknout masivní požáry.</Flashstorm.letterText>
   
   <!-- EN: heat wave -->
-  <HeatWave.label>teplá fronta</HeatWave.label>
+  <HeatWave.label>vlna veder</HeatWave.label>
   <!-- EN: Heat wave -->
-  <HeatWave.letterLabel>Teplá fronta</HeatWave.letterLabel>
-  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
-  <HeatWave.letterText>Začala neobvyklá teplá fronta.\n\nTeplé fronty mohou způsobit lidem úpal, což může vést i k jejich rychlé smrti. Pro ochlazení zůstaň raději v budovách s klimatizací, nebo se schovej hluboko do jeskyní pod horou.</HeatWave.letterText>
+  <HeatWave.letterLabel>Vlna veder</HeatWave.letterLabel>
   
   <!-- EN: herd migration -->
   <HerdMigration.label>migrace stáda</HerdMigration.label>
@@ -63,9 +57,6 @@
   <!-- EN: Ransom demand -->
   <RansomDemand.letterLabel>Požadování výkupného</RansomDemand.letterLabel>
   
-  <!-- EN: chased refugee -->
-  <RefugeeChased.label>pronásledovaný uprchlík</RefugeeChased.label>
-  
   <!-- EN: transport pod crash -->
   <RefugeePodCrash.label>zřícení přepravního modulu</RefugeePodCrash.label>
   
@@ -85,22 +76,18 @@
   <ToxicFallout.label>toxický spad</ToxicFallout.label>
   <!-- EN: Toxic fallout -->
   <ToxicFallout.letterLabel>Toxický spad</ToxicFallout.letterLabel>
-  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
-  <ToxicFallout.letterText>Ze vzdáleného chemického požáru se po celém regionu rozšířil jedovatý mrak.\n\nKaždá osoba nebo stvoření, které není pod střechou, se pomalu otráví toxickým prachem, který se z atmosféry postupně usazuje.\n\nMůže to trvat několik dnů, nebo třeba i celou sezónu.</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>vulkanická zima</VolcanicWinter.label>
   <!-- EN: Volcanic winter -->
   <VolcanicWinter.letterLabel>Vulkanická zima</VolcanicWinter.letterLabel>
-  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
-  <VolcanicWinter.letterText>Vybuchl vzdálený supervulkán a do atmosféry chrlí miliony tun popela.\n\nPopílek v atmosféře odráží část slunečního záření, což má za následek pokles teploty. Rostliny budou trpět nedostatkem slunečního světla a případně i uhynou. Tento stav může pominout za několik týdnů, nebo vydržet i několik quadrumů.</VolcanicWinter.letterText>
   
   <!-- EN: wanderer join -->
   <WandererJoin.label>poutník se připojil</WandererJoin.label>
-  <!-- EN: Wanderer joins -->
-  <WandererJoin.letterLabel>Poutník se připojil</WandererJoin.letterLabel>
-  <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>{PAWN_kind} jménem {PAWN_nameDef} {PAWN_gender ? dorazil : dorazila} a {PAWN_gender ? připojil : připojila} se ke kolonii. Je to {PAWN_title}.\n\n{PAWN_gender ? Chtěl : Chtěla} by něčím přispět, z vlastní vůle však neodejde. Pokud nechceš, aby {PAWN_gender ? zůstal : zůstala}, můžeš {PAWN_objective} vyhostit, prodat do otroctví, nebo prostě zabít. Nicméně ostatní kolonisté z toho mohou být znepokojeni.</WandererJoin.letterText>
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <WandererJoin.letterLabel>{PAWN_gender ? Poutník : Poutnice} {PAWN_nameDef} se {PAWN_gender ? připojil : připojila}</WandererJoin.letterLabel>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
+  <WandererJoin.letterText>{PAWN_title} jménem {PAWN_nameDef} {PAWN_gender ? dorazil : dorazila} a {PAWN_gender ? připojil : připojila} se ke kolonii. Je to {PAWN_title}.\n\n{PAWN_gender ? Chtěl : Chtěla} by něčím přispět, z vlastní vůle však neodejde. Pokud nechceš, aby {PAWN_gender ? zůstal : zůstala}, můžeš {PAWN_objective} vyhostit, prodat do otroctví, nebo prostě zabít. Nicméně ostatní kolonisté z toho mohou být znepokojeni.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>divoch bloudí oblastí</WildManWandersIn.label>
