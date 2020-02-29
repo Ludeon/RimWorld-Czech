@@ -13,8 +13,18 @@
   
   <!-- EN: ascetic -->
   <Ascetic.degreeDatas.ascetic.label>asketa</Ascetic.degreeDatas.ascetic.label>
-  <!-- EN: {PAWN_nameDef} prefers to live in asceticism. {PAWN_pronoun} will be put in a poor mood if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw - and raw food won't bother {PAWN_objective} a bit. -->
-  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} dává přednost životu v askezi. Bude mít špatnou náladu vždy, pokud má ložnici, která je příliš působivá. Také nemusí lepší jídlo a raději bude jíst jídlo syrové. </Ascetic.degreeDatas.ascetic.description>
+  <!-- EN: {PAWN_nameDef} has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. {PAWN_pronoun} will become unhappy if if {PAWN_pronoun} has a bedroom that's too impressive. {PAWN_pronoun} also dislikes fancy food and prefers to eat raw. {PAWN_pronoun} never judges others by their appearance. -->
+  <Ascetic.degreeDatas.ascetic.description>{PAWN_nameDef} se {PAWN_gender ? vzdal : vzdala} fyzického pohodlí a potěšení ve prospěch prostého čistého životního stylu. Stane se {PAWN_gender ? nešťastným : nešťastnou}, pokud bude mít příliš působivou ložnici. Také nemusí přepychové jídlo a raději bude jíst to syrové. Nikdy nebude soudit ostatní podle jejich vzhledu.</Ascetic.degreeDatas.ascetic.description>
+  
+  <!-- EN: asexual -->
+  <Asexual.degreeDatas.asexual.label>asexuál</Asexual.degreeDatas.asexual.label>
+  <!-- EN: {PAWN_nameDef} has no sexual attraction to anyone at all. -->
+  <Asexual.degreeDatas.asexual.description>{PAWN_nameDef} je {PAWN_gender ? asexuál : asexuálka}. Nejeví sexuální zájem o žádné partnery.</Asexual.degreeDatas.asexual.description>
+  
+  <!-- EN: bisexual -->
+  <Bisexual.degreeDatas.bisexual.label>bisexuál</Bisexual.degreeDatas.bisexual.label>
+  <!-- EN: {PAWN_nameDef} is romantically attracted to both men and women. -->
+  <Bisexual.degreeDatas.bisexual.description>{PAWN_nameDef} je {PAWN_gender ? bisexuál : bisexuálka}. Jsou pro {PAWN_gender ? něj : ni} atraktivní partneři mužského i ženského pohlaví.</Bisexual.degreeDatas.bisexual.description>
   
   <!-- EN: bloodlust -->
   <Bloodlust.degreeDatas.bloodlust.label>krvežíznivost</Bloodlust.degreeDatas.bloodlust.label>
@@ -59,7 +69,7 @@
   <!-- EN: gay -->
   <Gay.degreeDatas.gay.label>homosexuál</Gay.degreeDatas.gay.label>
   <!-- EN: {PAWN_nameDef} is romantically attracted to people of {PAWN_possessive} own gender. -->
-  <Gay.degreeDatas.gay.description>{PAWN_nameDef} {PAWN_gender ? byl : byla} vždy zvláštní. Romanticky {PAWN_objective} přitahují lidé stejného pohlaví.</Gay.degreeDatas.gay.description>
+  <Gay.degreeDatas.gay.description>{PAWN_nameDef} je {PAWN_gender ? gay : lesbička}. Jsou pro {PAWN_gender ? něj : ni} atraktivní pouze partneři {PAWN_gender ? mužského : ženského} pohlaví.</Gay.degreeDatas.gay.description>
   
   <!-- EN: gourmand -->
   <Gourmand.degreeDatas.gourmand.label>gurmán</Gourmand.degreeDatas.gourmand.label>
@@ -83,8 +93,8 @@
   
   <!-- EN: kind -->
   <Kind.degreeDatas.kind.label>laskavost</Kind.degreeDatas.kind.label>
-  <!-- EN: {PAWN_nameDef} is a nice person. {PAWN_pronoun} has a tendency to brighten everyone else's day and never insults others. -->
-  <Kind.degreeDatas.kind.description>{PAWN_nameDef} je milý člověk. Dokáže rozzářit den všem ostatním a nikdy nikoho neurazí.</Kind.degreeDatas.kind.description>
+  <!-- EN: {PAWN_nameDef} is exceptionally kind. {PAWN_pronoun} has a special way of using kind words to brighten someone's day. {PAWN_pronoun} never insults others, and never judges people by their appearance. -->
+  <Kind.degreeDatas.kind.description>{PAWN_nameDef} je mimořádně {PAWN_gender ? laskavý : laskavá}. Využívá zvláštního způsobu, jak pomocí hezkých slov rozzářit něčí den. Nikdy nebude urážet ostatní a nikdy nebude soudit lidi podle jejich vzhledu.</Kind.degreeDatas.kind.description>
   
   <!-- EN: masochist -->
   <Masochist.degreeDatas.masochist.label>masochista</Masochist.degreeDatas.masochist.label>
@@ -121,10 +131,20 @@
   <!-- EN: {PAWN_nameDef} doesn't need as much sleep as the average person. Whether {PAWN_pronoun}'s sleeping on a bed or on the ground, {PAWN_pronoun} will be fully rested in about two thirds the usual time. -->
   <QuickSleeper.degreeDatas.quick_sleeper.description>{PAWN_nameDef} nepotřebuje tolik spánku jako průměrný člověk. Ať už spí v posteli nebo na zemi, vždy si vystačí asi se dvěma třetinami obvyklého času, aby {PAWN_gender ? nabral : nabrala} plné síly.</QuickSleeper.degreeDatas.quick_sleeper.description>
   
+  <!-- EN: slow learner -->
+  <SlowLearner.degreeDatas.slow_learner.label>pomalý student</SlowLearner.degreeDatas.slow_learner.label>
+  <!-- EN: {PAWN_nameDef} is slow on the uptake. {PAWN_pronoun} learns much slower than others. -->
+  <SlowLearner.degreeDatas.slow_learner.description>{PAWN_nameDef} velmi pomalu vstřebává vědomosti. Učí se mnohem pomaleji než ostatní.</SlowLearner.degreeDatas.slow_learner.description>
+  
   <!-- EN: too smart -->
   <TooSmart.degreeDatas.too_smart.label>příliš chytrý</TooSmart.degreeDatas.too_smart.label>
   <!-- EN: {PAWN_nameDef} is too smart for {PAWN_possessive} own good. {PAWN_pronoun} learns everything much faster than everyone, but can be quite eccentric. -->
   <TooSmart.degreeDatas.too_smart.description>{PAWN_nameDef} je vysoce inteligentní. Vše se učí daleko rychleji než ostatní, ale bývá docela výstřední.</TooSmart.degreeDatas.too_smart.description>
+  
+  <!-- EN: tortured artist -->
+  <TorturedArtist.degreeDatas.tortured_artist.label>utrápený umělec</TorturedArtist.degreeDatas.tortured_artist.label>
+  <!-- EN: {PAWN_nameDef} feels alienated and misunderstood by other human beings. {PAWN_pronoun} will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break. -->
+  <TorturedArtist.degreeDatas.tortured_artist.description>{PAWN_nameDef} se cítí {PAWN_gender ? odstrčený : odstrčená} a {PAWN_gender ? nepochopený : nepochopená} ostatními lidmi. Bude mít neustálý postih k náladě, ale existuje zde šance (50%), že se po psychickém zhroucení inspiruje v kreativitě.</TorturedArtist.degreeDatas.tortured_artist.description>
   
   <!-- EN: tough -->
   <Tough.degreeDatas.tough.label>houževnatost</Tough.degreeDatas.tough.label>
