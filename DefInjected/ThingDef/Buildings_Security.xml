@@ -1,114 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: mortar -->
-  <Artillery_Mortar.label>minomet</Artillery_Mortar.label>
-  <!-- EN: Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged. -->
-  <Artillery_Mortar.description>Minometný odpalovač. Vrhá dělostřelecké granáty vysoko přes zdi. Velmi nepřesný, ale s vysokým dostřelem.</Artillery_Mortar.description>
-  <!-- EN: mortar -->
-  <Artillery_Mortar.verbs.Verb_Shoot.label>minomet</Artillery_Mortar.verbs.Verb_Shoot.label>
-  
-  <!-- EN: autocannon shell -->
-  <Bullet_AutocannonTurret.label>střela z těžkého kanónu</Bullet_AutocannonTurret.label>
-  
-  <!-- EN: mini-turret bullet -->
-  <Bullet_MiniTurret.label>střela z miniaturního kanónu</Bullet_MiniTurret.label>
-  
-  <!-- EN: uranium slug -->
-  <Bullet_TurretSniper.label>uranová střela z odstřelovacího kanónu</Bullet_TurretSniper.label>
-  
-  <!-- EN: autocannon -->
-  <Gun_AutocannonTurret.label>těžký kanón</Gun_AutocannonTurret.label>
-  <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
-  <Gun_AutocannonTurret.description>Samonabíjecí kanón velké ráže určený k připevnění na střeleckou věž.</Gun_AutocannonTurret.description>
-  <!-- EN: autocannon -->
-  <Gun_AutocannonTurret.verbs.Verb_Shoot.label>těžký kanón</Gun_AutocannonTurret.verbs.Verb_Shoot.label>
-  
-  <!-- EN: mini-turret gun -->
-  <Gun_MiniTurret.label>miniaturní kanón</Gun_MiniTurret.label>
-  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
-  <Gun_MiniTurret.description>Jednoduchý automatický kanón určený k montáži na střeleckou věž.</Gun_MiniTurret.description>
-  <!-- EN: mini-turret gun -->
-  <Gun_MiniTurret.verbs.Verb_Shoot.label>miniaturní kanón</Gun_MiniTurret.verbs.Verb_Shoot.label>
-  
-  <!-- EN: uranium slug cannon -->
-  <Gun_TurretSniper.label>odstřelovací kanón</Gun_TurretSniper.label>
-  <!-- EN: A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets. -->
-  <Gun_TurretSniper.description>Samonabíjecí odstřelovací kanón určený k připevnění na střeleckou věž. Je přesný na jeho maximální dostřel, ale ne tak dobrý na zaměřování blízkých cílů.</Gun_TurretSniper.description>
-  <!-- EN: uranium slug cannon -->
-  <Gun_TurretSniper.verbs.Verb_Shoot.label>odstřelovací kanón</Gun_TurretSniper.verbs.Verb_Shoot.label>
+  <!-- EN: barricade -->
+  <Barricade.label>barikáda</Barricade.label>
+  <!-- EN: A waist-high barrier for use as cover from incoming shots. Barricades are ugly, but provide better cover than other low objects. -->
+  <Barricade.description>Po pas vysoká překážka využívaná jako krytí před přicházejícími střelami. Barikády jsou ošklivé, ale poskytují lepší krytí než jiné nízké objekty.</Barricade.description>
   
   <!-- EN: sandbags -->
   <Sandbags.label>pytle s pískem</Sandbags.label>
-  <!-- EN: Bags of locally-sourced dirt or sand held in place by steel rods. Sandbags are ugly, but provide excellent cover from ranged attacks. -->
-  <Sandbags.description>Pytle, které jsou naplněné hlínou nebo pískem z místních zdrojů, a které jsou zafixované na místě pomocí ocelových tyčí. Pytle s pískem jsou sice ošklivé, ale zato poskytují vynikající krytí proti střelbě z dálky.</Sandbags.description>
+  <!-- EN: Bags of locally-sourced dirt or sand, stacked for use as cover. Sandbags are ugly, but provide better cover than other low objects. -->
+  <Sandbags.description>Pytle naplněné hlínou nebo pískem z místních zdrojů, které jsou naskládané na sebe, aby poskytovaly krytí. Pytle s pískem jsou ošklivé, ale poskytují lepší krytí než jiné nízké objekty.</Sandbags.description>
   
   <!-- EN: IED antigrain warhead trap -->
   <TrapIED_AntigrainWarhead.label>antihmotové IED</TrapIED_AntigrainWarhead.label>
-  <!-- EN: An antimatter-powered antigrain warhead connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_AntigrainWarhead.description>Antihmotou poháněná bojová hlavice připojená ke spoušti, která se aktivuje dotekem. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_AntigrainWarhead.description>
+  <!-- EN: An antimatter-powered antigrain warhead connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_AntigrainWarhead.description>Antihmotou poháněná bojová hlavice připojená ke spoušti, která se aktivuje dotekem nebo po zásahu střelou. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_AntigrainWarhead.description>
   
   <!-- EN: IED EMP trap -->
   <TrapIED_EMP.label>EMP IED</TrapIED_EMP.label>
-  <!-- EN: A pair of EMP shells connected to a touch-activated trigger. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_EMP.description>Dvojice EMP granátů připojených ke spoušti, která se aktivuje dotekem. Jejich výbuch může na pár sekund paralyzovat mechanoidy. Může být spuštěna i těmi, na které nebude mít EMP vliv. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_EMP.description>
+  <!-- EN: A pair of EMP shells connected to a trigger which detonates on touch or bullet impact. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_EMP.description>Dvojice EMP granátů připojených ke spoušti, která se aktivuje dotekem nebo po zásahu střelou. Jejich výbuch může na pár sekund paralyzovat mechanoidy. Může být spuštěna i těmi, na které nebude mít EMP vliv. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_EMP.description>
   
   <!-- EN: IED firefoam trap -->
   <TrapIED_Firefoam.label>protipožární IED</TrapIED_Firefoam.label>
-  <!-- EN: A pair of firefoam shells connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Firefoam.description>Dvojice protipožárních granátů připojených ke spoušti, která se aktivuje dotekem. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_Firefoam.description>
+  <!-- EN: A pair of firefoam shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_Firefoam.description>Dvojice protipožárních granátů připojených ke spoušti, která se aktivuje dotekem nebo po zásahu střelou. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_Firefoam.description>
   
   <!-- EN: IED trap -->
   <TrapIED_HighExplosive.label>tříštivotrhavé IED</TrapIED_HighExplosive.label>
-  <!-- EN: A pair of high-explosive shells connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_HighExplosive.description>Dvojice tříštivotrhavých granátů připojených ke spoušti, která se aktivuje dotekem. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_HighExplosive.description>
+  <!-- EN: A pair of high-explosive shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_HighExplosive.description>Dvojice tříštivotrhavých granátů připojených ke spoušti, která se aktivuje dotekem nebo po zásahu střelou. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_HighExplosive.description>
   
   <!-- EN: IED incendiary trap -->
   <TrapIED_Incendiary.label>zápalné IED</TrapIED_Incendiary.label>
-  <!-- EN: A pair of incendiary shells connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_Incendiary.description>Dvojice zápalných granátů připojených ke spoušti, která se aktivuje dotekem. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_Incendiary.description>
+  <!-- EN: A pair of incendiary shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_Incendiary.description>Dvojice zápalných granátů připojených ke spoušti, která se aktivuje dotekem nebo po zásahu střelou. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_Incendiary.description>
   
   <!-- EN: spike trap -->
   <TrapSpike.label>past s hroty</TrapSpike.label>
-  <!-- EN: Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forthm and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <!-- EN: Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forth and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
   <TrapSpike.description>Pět hrotů, které jsou napnuty a připojeny k citlivé spoušti reagující na dotek. Jakmile oběť spoušť naruší, pružina hroty vymrští a zasáhne svou oběť. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapSpike.description>
-  
-  <!-- EN: autocannon turret -->
-  <Turret_Autocannon.label>těžký kanón</Turret_Autocannon.label>
-  <!-- EN: A heavy automatic turret. Its large-caliber shells do heavy damage over significant ranges, but its barrel must be refurbished after use. It cannot fire at close-up targets, and may explode when damaged. -->
-  <Turret_Autocannon.description>Automatická střelecká věž většího kalibru. Její velká ráže dokáže způsobit značné škody na větší vzdálenosti, zato ale vyžaduje po určité době renovaci hlavně. Nemůže střílet na blízké cíle, a pokud je poškozena, může explodovat.</Turret_Autocannon.description>
-  <!-- EN: Barrel durability -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_Autocannon.comps.CompRefuelable.fuelGizmoLabel>
-  <!-- EN: Shots until barrel change -->
-  <Turret_Autocannon.comps.CompRefuelable.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_Autocannon.comps.CompRefuelable.fuelLabel>
-  <!-- EN: Cannot shoot: Needs new barrel -->
-  <Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_Autocannon.comps.CompRefuelable.outOfFuelMessage>
-  
-  <!-- EN: mini-turret -->
-  <Turret_MiniTurret.label>miniaturní kanón</Turret_MiniTurret.label>
-  <!-- EN: A portable automatic turret. Requires steel to refurbish its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire. -->
-  <Turret_MiniTurret.description>Přenosná automatická střelecká věž. Po intenzivním používání bude vyžadovat ocel k renovaci hlavně. Pokud je poškozena, může explodovat. Její řídící jednotka umělé inteligence není nijak zvlášť inteligentní a nelze ji ani ovládat přímo, takže je nutné dávat si pozor na střelbu do vlastních řad.</Turret_MiniTurret.description>
-  <!-- EN: Barrel durability -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_MiniTurret.comps.CompRefuelable.fuelGizmoLabel>
-  <!-- EN: Shots until barrel change -->
-  <Turret_MiniTurret.comps.CompRefuelable.fuelLabel>Počet výstřelů před výměnou hlavně</Turret_MiniTurret.comps.CompRefuelable.fuelLabel>
-  <!-- EN: Cannot shoot: Needs new barrel -->
-  <Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_MiniTurret.comps.CompRefuelable.outOfFuelMessage>
-  
-  <!-- EN: mortar -->
-  <Turret_Mortar.label>minomet</Turret_Mortar.label>
-  <!-- EN: A manned mortar that launches all kinds of shells. While it can inflict devastating damage, the mortar's inherent inaccuracy makes it more useful for attacking large fortifications than groups of enemies in the field. -->
-  <Turret_Mortar.description>Minomet vyžadující obsluhu, který vystřeluje všechny druhy dělostřeleckých granátů. I když dokáže způsobit devastující škody, bude vhodnější jej používat kvůli nepřesnosti na velká opevnění, než na skupiny nepřátel v terénu.</Turret_Mortar.description>
-  
-  <!-- EN: uranium slug turret -->
-  <Turret_Sniper.label>odstřelovací kanón</Turret_Sniper.label>
-  <!-- EN: A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. -->
-  <Turret_Sniper.description>Automatická odstřelovací věž s velkým dostřelem schopná prorazit pancíř. Její ultra těžké uranové střely dokáží proniknout těžkou zbrojí i z velmi velké vzdálenosti, zato ale po určitém čase vyžaduje doplnění nového uranového střeliva. Je přesnější na větších vzdálenostech, a nemůže střílet na blízké cíle. Pokud je poškozena, může explodovat.</Turret_Sniper.description>
-  <!-- EN: Barrel durability -->
-  <Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>Počet výstřelů</Turret_Sniper.comps.CompRefuelable.fuelGizmoLabel>
-  <!-- EN: Shots until rearm -->
-  <Turret_Sniper.comps.CompRefuelable.fuelLabel>Počet výstřelů do přezbrojení</Turret_Sniper.comps.CompRefuelable.fuelLabel>
-  <!-- EN: Cannot shoot: Needs rearm -->
-  <Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>Nemůže střílet: Potřebuje novou hlaveň</Turret_Sniper.comps.CompRefuelable.outOfFuelMessage>
   
 </LanguageData>
