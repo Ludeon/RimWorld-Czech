@@ -1,6 +1,6 @@
 # RimWorld-Czech
 
-A Czech translation for RimWorld.
+A Czech translation for RimWorld Core and Royalty DLC.
 
 See this page for license info:
 
@@ -9,24 +9,22 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ---
 
-### Pokud někdo chce vypomoci s překladem, ať nás prosím nejprve kontaktuje na fóru:
+### Pokud chce někdo vypomoci s překladem, ať nás prosím nejdříve kontaktuje na fóru:
 - https://prekladyher.eu/tema/rimworld.1209/
 
 ### Nález chyb hlašte zde / For bugtrace: 
 - https://prekladyher.eu/preklady/rimworld.324/
 
-# TRANSLATION - 80% DONE (6 October, 2019)
 
-# Czech Translation Team (active since alpha 16)
-### *completely new translation*
+# Czech Translation Team
 
 ### Translation Coordinator:
 - Galoth
 
 ### Translation:
-- Azarian
-- Galoth
 - Morticinus
+- Galoth
+- Azarian (helped with backstories)
 
 ### Correction:
 - Morticinus
@@ -40,8 +38,3 @@ http://ludeon.com/forums/index.php?topic=2933.0
 - Leffi
 - Barbar
 - Aladalar
-
----
-
-*INACTIVE Czech Translation Contributors (before alpha 16):*
-- *Mentoska, LolmenCz, ExZoT4EvEr, GreenstoneStudio, HexagonCo, Aladalar, Tuxenus and others*

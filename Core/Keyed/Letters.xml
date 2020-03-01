@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Jump to location -->
+  <JumpToLocation>Přejít do oblasti</JumpToLocation>
+  <!-- EN: Postpone -->
+  <PostponeLetter>Odložit</PostponeLetter>
+  <!-- EN: Reject -->
+  <RejectLetter>Odmítnout</RejectLetter>
+  
+  <!-- EN: Summer -->
+  <LetterLabelFirstSummerWarning>Léto</LetterLabelFirstSummerWarning>
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <FirstSummerWarning>Začalo léto! Ale zima se blíží.\n\nTvá rostlinná potrava v zimě neporoste. Nezapomeň uskladnit dostatek potravy pro přežití. Můžeš si postavit chladírnu, aby se zabránilo zkažení potravin.\n\nNakup, ukradni nebo vyrob pár kabátů, nebo zmrzneš hned, jakmile vystrčíš nos ven.</FirstSummerWarning>
+
+  <!-- EN: Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again. -->
+  <LetterRelationsChange_Hostile>Vztahy s frakcí {0} se zcela pokazily. Nyní jsou k tobě nepřátelští.\n\nBudou podnikat pravidelné nájezdy na tvou kolonii a karavany, a zároveň s tebou nebudou chtít obchodovat. Pokud s nimi budeš chtít zlepšit vztahy, tak jim stále ještě můžeš nabízet dary pomocí karavan nebo přepravních modulů.\n\nStalo se tak, protože se prestiž ({1}) dostala pod hodnotu {2}. Za účelem obnovení neutrálních vztahů, musí prestiž dosáhnout znovu hodnoty {3}.</LetterRelationsChange_Hostile>
+  <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
+  <LetterRelationsChange_NeutralFromHostile>Vztahy s frakcí {0} se zlepšily. Nyní jsou k tobě neutrální a už na tebe nebudou útočit.\n\nStalo se tak, protože se prestiž ({1}) dostala nad hodnotu {2}. Pokud klesne pod {3}, frakce {0} se opět stane nepřátelskou. Jestliže prestiž vzroste nad {4}, stanou se tvými spojenci a budou pro tebe bojovat.</LetterRelationsChange_NeutralFromHostile>
+  <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
+  <LetterRelationsChange_NeutralFromAlly>Vztahy s frakcí {0} ochladly. Nyní jsou k tobě neutrální namísto spojenečtí.\n\nI když s tebou budou nadále udržovat vzájemnou spolupráci, už ti nebudou posílat na pomoc své bojovníky, když budeš v ohrožení.\n\nStalo se tak, protože se prestiž ({1}) dostala pod hodnotu {2}. Pokud klesne pod {3}, frakce {0} se stane nepřátelskou. Jestliže prestiž vzroste nad {4}, stanou se z nich opět spojenci.</LetterRelationsChange_NeutralFromAlly>
+  <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
+  <LetterRelationsChange_Ally>Vztahy s frakcí {0} se zlepšily. Nyní tě považují za spojence.\n\nSpojenci občas dorazí k tobě na pomoc a budou bojovat s nepřáteli, kteří tě napadli. Můžeš je také kdykoliv požádat o pomoc, ale za cenu prestiže.\n\nStal jsi se spojencem, protože se prestiž ({1}) dostala nad hodnotu {2}. Pokud klesne pod {3}, vztahy s nimi se změní zpět na neutrální.</LetterRelationsChange_Ally>
+
+  <!-- EN: goodwill -->
+  <goodwill>prestiž</goodwill>
+  <!-- EN: Neutral -->
+  <Neutral>Neutrální</Neutral>
+  <!-- EN: Death -->
+  <Death>Smrt</Death>
+
+  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <ShortCircuitRain>{1_label} kvůli zkratu, který způsobil déšť, začíná hořet.</ShortCircuitRain>
+
+  <!-- EN: Area revealed -->
+  <LetterLabelAreaRevealed>Odhalen nový prostor</LetterLabelAreaRevealed>
+  <!-- EN: A new area has been revealed. -->
+  <AreaRevealed>Byl odhalen nový prostor.</AreaRevealed>
+  <!-- EN: A new area has been revealed. It contains ancient, hostile mechanoids. -->
+  <AreaRevealedWithMechanoids>Byl odhalen nový prostor. Obsahuje starodávné nepřátelské mechanoidy.</AreaRevealedWithMechanoids>
+
+  <!-- EN: A roof has collapsed because it was too far from any support. -->
+  <RoofCollapsed>Střecha se zhroutila, protože v dosahu nebyla žádná podpůrná konstrukce.</RoofCollapsed>
+  <!-- EN: These things were crushed: -->
+  <TheseThingsCrushed>Padající trosky zasáhly tyto věci:</TheseThingsCrushed>
+  <!-- EN: Nothing was crushed. -->
+  <NothingCrushed>Padající trosky naštěstí nic nezasáhly.</NothingCrushed>
+  <!-- EN: Roof collapse -->
+  <LetterLabelRoofCollapsed>Zhroucení střechy</LetterLabelRoofCollapsed>
+  
+  <!-- EN: {0} successfully recruited {1} ({2} chance). -->
+  <RecruitSuccess>{0} se povedlo naverbovat {1} (šance {2}).</RecruitSuccess>
+  <!-- EN: {0} failed to recruit {1} ({2} chance). -->
+  <RecruitFail>{0} se nepovedlo naverbovat {1} (šance {2}).</RecruitFail>
+
+  <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef} je {1} {RELATIVE_gender ? tvého : tvé} {RELATIVE_gender ? kolonisty : kolonistky}, {RELATIVE_gender ? který : která} si říká {RELATIVE_labelShort}. Pokud {PAWN_nameDef} zemře, {RELATIVE_labelShort} bude trpět dlouhodobým smutkem. Nicméně, pokud {PAWN_objective} zachráníš, bude {RELATIVE_labelShort} po dlouhou dobu velmi {RELATIVE_gender ? šťastný : šťastná}.</RelatedPawnInvolvedInQuest>
+
+  <!-- EN: Birthday -->
+  <LetterLabelBirthday>Narozeniny</LetterLabelBirthday>
+  <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
+  <BirthdayChronological>Dneska {0} slaví své chronologické narozeniny! Biologický věk {1} je {3} let.\n\nChronologicky {1} právě završil {2}.\n\nVšimni si, že když lidé v cryptospánku nestárnou, chronologické narozeniny jsou odlišné od těch biologických.</BirthdayChronological>
+  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
+  <BirthdayBiologicalAgeInjuries>{0_nameFull} {0_gender ? dosáhl : dosáhla} biologického věku {1} let.\n\nNaneštěstí se u {0_gender ? něj : ní} z důvodu stárnutí začaly projevovat následující choroby:\n{2}</BirthdayBiologicalAgeInjuries>
+
+  <!-- EN: Disease -->
+  <LetterLabelNewDisease>Nemoc</LetterLabelNewDisease>
+  <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
+  <NewDisease>Nemoc: {1}\n\n{PAWN} {PAWN_gender ? onemocněl : onemocněla}. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby {PAWN_definite} {PAWN_gender ? dostal : dostala} řádnou péči a v posteli {PAWN_gender ? strávil : strávila} tolik času, jak jen to bude možné.</NewDisease>
+  <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
+  <NewPartDisease>Nemoc: {3}\nNález infekce: {1}\n\n{PAWN} {PAWN_gender ? onemocněl : onemocněla}. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby {PAWN_definite} {PAWN_gender ? dostal : dostala} řádnou péči a v posteli {PAWN_gender ? strávil : strávila} tolik času, jak jen to bude možné.</NewPartDisease>
+  <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
+  <NewDiseaseAnimal>{PAWN_labelShort} vykazuje příznaky vyvíjející se nemoci.\n\nNemoc: {1}</NewDiseaseAnimal>
+  <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
+  <NewPartDiseaseAnimal>{PAWN_labelShort} vykazuje příznaky vyvíjející se nemoci.\n\nNemoc: {3}\nNález infekce: {1}</NewPartDiseaseAnimal>
+
+  <!-- EN: {1_labelShort} was formerly part of your faction. -->
+  <PawnWasFormerlyColonist>{1_labelShort} {1_gender ? byl : byla} dříve součástí tvé frakce.</PawnWasFormerlyColonist>
+  <!-- EN: {1_labelShort} has these relationships with your colonists: -->
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort} má k určitým tvým kolonistům nějaký příbuzenský vztah:</PawnHasTheseRelationshipsWithColonists>
+  <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
+  <PrisonerRescueTimeout>Tábor zmizí během {0} dnů. Pokud si tuto příležitost necháš ujít, {PRISONER_labelShort} se ti už znovu neozve.</PrisonerRescueTimeout>
+
+  <!-- EN: Ancient danger -->
+  <LetterLabelAncientShrineWarning>Starodávné nebezpečí</LetterLabelAncientShrineWarning>
+  <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
+  <AncientShrineWarning>Jak se {0} {0_gender ? přiblížil : přiblížila} ke starodávné zdi, zaplavil {PAWN_objective} zlověstný pocit. Netuší proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
+
+  <!-- EN: We have struck {0}! -->
+  <StruckMineable>Narazili jsme na {0}!</StruckMineable>
+
+  <!-- EN: {0} revenge -->
+  <LetterLabelAnimalManhunterRevenge>{0} se mstí</LetterLabelAnimalManhunterRevenge>
+  <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
+  <AnimalManhunterFromDamage>{1_indefinite} po utrpěném zranění útočí!\n\nBude pronásledovat každého humanoida, ke kterému se dostane. Uklidní se, jakmile usne.</AnimalManhunterFromDamage>
+  <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
+  <AnimalManhunterFromTaming>{1_indefinite} útočí kvůli zpackanému pokusu o ochočení!</AnimalManhunterFromTaming>
+  <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
+  <AnimalManhunterOthers>Ostatní {1_kindBasePlural} v blízkosti také začínají zuřit!</AnimalManhunterOthers>
+
+  <!-- EN: {1_labelShort} hit trap -->
+  <LetterFriendlyTrapSprungLabel>{1_labelShort} {1_gender ? zavadil : zavadila} o past</LetterFriendlyTrapSprungLabel>
+  <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
+  <LetterFriendlyTrapSprung>{1_labelShort} nechtěně {1_gender ? spustil : spustila} past a ta {1_objective} zranila.</LetterFriendlyTrapSprung>
+
+  <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
+  <LetterHealthComplications>{PAWN_labelShort} pociťuje zhoršení zdravotního stavu:\n\n  {1}\n\nPříčina:\n\n  {2}</LetterHealthComplications>
+  <!-- EN: {PAWN_labelShort}: {1} -->
+  <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
+  
+  <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} pociťuje zhoršení zdravotního stavu: {1}.</LetterHediffFromRandomHediffGiver>
+  <!-- EN: {PAWN_labelShort}: {1} -->
+  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
+  
+  <!-- EN: {1} died: {0} -->
+  <LetterLeadersDeathLabel>Zemřel {1}: {0}</LetterLeadersDeathLabel>
+  <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <LetterLeadersDeath>Zemřel známý {3} {OLDLEADER_nameFull} z frakce {1}.\n\nNový {3} je odteď {NEWLEADER_nameFull}.</LetterLeadersDeath>
+
+  <!-- EN: New {1}: {0} -->
+  <LetterLeaderChangedLabel>Nový {1}: {0}</LetterLeaderChangedLabel>
+  <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <LetterLeaderChanged>{OLDLEADER_nameFull} už není {3} frakce {1}.\n\nNový {3} je odteď {NEWLEADER_nameFull}.</LetterLeaderChanged>
+  
+  <!-- EN: The final straw was: {0} -->
+  <FinalStraw>Poslední kapkou bylo: {0}</FinalStraw>
+  <!-- EN: This happened because of poor mood. -->
+  <MentalStateReason_Mood>Stalo se tak kvůli špatné náladě.</MentalStateReason_Mood>
+  <!-- EN: This happened because of the trait: {0}. -->
+  <MentalStateReason_Trait>Stalo se tak kvůli rysu {0}.</MentalStateReason_Trait>
+  <!-- EN: This happened because of: {0}. -->
+  <MentalStateReason_Hediff>Stalo se tak z důvodu: {0}</MentalStateReason_Hediff>
+  <!-- EN: This happened because of {0_definite}'s death. -->
+  <MentalStateReason_BondedHumanDeath>Stalo se tak, protože {0_definite} {0_gender ? zemřel : zemřela}.</MentalStateReason_BondedHumanDeath>
+  <!-- EN: The last event was -->
+  <LastFactionRelationsEvent>Poslední událost byla</LastFactionRelationsEvent>
+
+  <!-- EN: Read more -->
+  <ReadMore>Více informací</ReadMore>
+  <!-- EN: The last events in {PAWN_definite}'s life -->
+  <LastEventsInLife>Poslední události před tím, než {PAWN_definite} {PAWN_gender ? zemřel : zemřela}</LastEventsInLife>
+  
+  <!-- Related pawns -->
+  <!-- EN: Relationship -->
+  <LetterLabelNoticedRelatedPawns>Příbuzenský vztah</LetterLabelNoticedRelatedPawns>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
+  <LetterRelatedPawnsRaidEnemy>V této příchozí skupině {1} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů.\n\nMěj na paměti, že i když jsou příbuzní, budou na sebe i tak útočit z důvodu špatných vztahů s touto frakcí.\n\nTito lidé jsou:</LetterRelatedPawnsRaidEnemy>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
+  <LetterRelatedPawnsRaidFriendly>V této příchozí přátelské skupině {1} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsRaidFriendly>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
+  <LetterRelatedPawnsNeutralGroup>V této příchozí skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsNeutralGroup>
+  <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
+  <LetterRelatedPawnsTradeShip>Obchodník na orbitě prodává lidi, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsTradeShip>
+  <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
+  <LetterRelatedPawnsTradingWithSettlement>Osada prodává lidi, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsTradingWithSettlement>
+  <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
+  <LetterRelatedPawnsTradingWithOtherCaravan>Karavana prodává lidi, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
+  <LetterRelatedPawnsGroupGeneric>V této skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsGroupGeneric>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
+  <LetterRelatedPawnsInMapWherePlayerLanded>V oblasti, ve které tvá skupina {0} přistála, jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsInMapWherePlayerLanded>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
+  <LetterRelatedPawnsSettlement>V této osadě jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsSettlement>
+  <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
+  <LetterRelatedPawnsSite>V této oblasti jsou lidé, kteří mají příbuzenský vztah s některým z tvých {0} nebo vězňů:</LetterRelatedPawnsSite>
+
+  <!-- EN: (relationship) -->
+  <RelationshipAppendedLetterSuffix>(příbuzenský vztah)</RelationshipAppendedLetterSuffix>
+  <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} má s někým z tvé kolonie příbuzenský vztah. {PAWN_nameDef} je {1} {RELATIVE_gender ? kolonisty : kolonistky}, {RELATIVE_gender ? který : která} si říká {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
+  <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} má s jedním ze tvých zajatců příbuzenský vztah. {PAWN_nameDef} je {1} {RELATIVE_gender ? zajatce : zajatkyně}, {RELATIVE_gender ? který : která} si říká {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
+  
+  <!-- Attempt romance / propose interaction -->
+  <!-- EN: Affair -->
+  <LetterLabelAffair>Milostná aféra</LetterLabelAffair>
+  <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
+  <LetterAffair>Přestože jsou {PAWN1_labelShort} a {SPOUSE_labelShort} v manželském svazku, {PAWN1_gender ? začal : začala} si {PAWN1_labelShort} aférku s {PAWN2_gender ? kolonistou : kolonistkou} jménem {PAWN2_labelShort}.</LetterAffair>
+  <!-- EN: New lovers -->
+  <LetterLabelNewLovers>Noví milenci</LetterLabelNewLovers>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
+  <LetterNewLovers>{PAWN1_labelShort} a {PAWN2_labelShort} nyní chtějí spávat společně. Uvažuj o přidělení dvoulůžka.</LetterNewLovers>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
+  <LetterNoLongerLovers>{PAWN1_labelShort} a {PAWN2_labelShort} již nejsou ve vztahu.</LetterNoLongerLovers>
+  <!-- EN: Breakup -->
+  <LetterLabelBreakup>Rozchod</LetterLabelBreakup>
+  <!-- EN: Marriage is on! -->
+  <LetterLabelAcceptedProposal>Svatba na spadnutí!</LetterLabelAcceptedProposal>
+  <!-- EN: Rejected proposal -->
+  <LetterLabelRejectedProposal>Odmítnutí sňatku</LetterLabelRejectedProposal>
+  <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
+  <LetterAcceptedProposal>V určitém okamžiku následujících dnů či quadrumů uspořádají svatební obřad a pozvou na něj všechny kolonisty. Jestli chceš určit, kde se obřad bude konat, tak zvaž umístění místa pro svatbu.</LetterAcceptedProposal>
+  <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
+  <LetterRejectedProposal>{INITIATOR_nameFull} z toho bude {INITIATOR_gender ? nešťastný : nešťastná}.</LetterRejectedProposal>
+  
+  <!-- Generalized letter labels -->
+  <!-- EN: Hostile: {0} -->
+  <LetterLabelRelationsChange_Hostile>Nepřátelé: {0}</LetterLabelRelationsChange_Hostile>
+  <!-- EN: Allied: {0} -->
+  <LetterLabelRelationsChange_Ally>Spojenci: {0}</LetterLabelRelationsChange_Ally>
+  <!-- EN: Enemy now neutral: {0} -->
+  <LetterLabelRelationsChange_NeutralFromHostile>Nepřátelé odteď neutrální: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <!-- EN: Ally now neutral: {0} -->
+  <LetterLabelRelationsChange_NeutralFromAlly>Spojenci odteď neutrální: {0}</LetterLabelRelationsChange_NeutralFromAlly>
+  <!-- EN: Zzztt... -->
+  <LetterLabelShortCircuit>Bzzzt...</LetterLabelShortCircuit>
+  <!-- EN: Mental break -->
+  <LetterLabelMentalBreakdown>Psychické zhroucení</LetterLabelMentalBreakdown>
+  
+  <!-- Bonded animals -->
+  <!-- EN: bonded animal -->
+  <LetterLabelSuffixBondedAnimalDied>věrné zvíře</LetterLabelSuffixBondedAnimalDied>
+  <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
+  <LetterPartBondedAnimalDied>Zvíře ({ANIMAL_definite}) bylo věrné {HUMAN_gender ? kolonistovi : kolonistce} jménem {HUMAN_labelShort}. {HUMAN_labelShort} z toho bude mít špatnou náladu.</LetterPartBondedAnimalDied>
+  <!-- EN: It will affect mood of the following people:\n\n{0} -->
+  <LetterPartBondedAnimalDiedMulti>To bude mít vliv na náladu těchto lidí:\n\n{0}</LetterPartBondedAnimalDiedMulti>
+
+  <!-- Prison break -->
+  <!-- EN: Prison break -->
+  <LetterLabelPrisonBreak>Útěk z vězení</LetterLabelPrisonBreak>
+  <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
+  <LetterPrisonBreak>Vězni zorganizovali útěk! Nějak se jim podařilo překonat zámek na dveřích a dostali se ven. Mohou vyhledat zbraně, bojovat, nebo se pokusí o únik. Jedou v tom tihle vězni:\n\n{0}\n\nVězni se budou pokoušet o útěk častěji pokud budou početní či zdraví.</LetterPrisonBreak>
+  
+  <!-- Party -->
+  <!-- EN: Party -->
+  <LetterLabelNewParty>Večírek</LetterLabelNewParty>
+  <!-- EN: {1_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
+  <LetterNewParty>{1_labelShort} pořádá večírek! Každý, kdo přijde, se zabaví, nabere společenskou energii a získá na nějaký čas pozitivní nárůst nálady.</LetterNewParty>
+
+  <!-- Newly addicted -->
+  <!-- EN: {0} addiction -->
+  <LetterLabelNewlyAddicted>Závislost na {0}</LetterLabelNewlyAddicted>
+  <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
+  <LetterNewlyAddicted>{0} si vyvinul[PAWN_pronoun] závislost na {1}.\n\nOdteď bude mít novou potřebu na {1}, která je viditelná v [PAWN_possessive] záložce Potřeby. Bude automaticky konzumovat tuto drogu, aby uspokojil[PAWN_pronoun] svou potřebu. Pokud nedostane {1}, dostaví se abstinenční příznaky.</LetterNewlyAddicted>
+  
+  <!-- Drug binge -->
+  <!-- EN: {0} binge -->
+  <LetterLabelDrugBinge>Touha na {0}</LetterLabelDrugBinge>
+  <!-- EN: {2_label} is binging on {1}. -->
+  <LetterDrugBinge>{2_label} toužebně vyhledává {1}.</LetterDrugBinge>
+  
+  <!-- Caravan destroyed -->
+  <!-- EN: Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Karavana byla zničena</LetterLabelAllCaravanColonistsDied>
+  <!-- EN: All members of {0} have died. -->
+  <LetterAllCaravanColonistsDied>{0} přišla o všechny své členy, protože zemřeli.</LetterAllCaravanColonistsDied>
+  
+  <!-- Caravan entered map -->
+  <!-- EN: Caravan arrived at {0_label} -->
+  <LetterLabelCaravanEnteredMap>Karavana dorazila do cíle ({0_label})</LetterLabelCaravanEnteredMap>
+  <!-- EN: {0} has arrived at {1_definite}. -->
+  <LetterCaravanEnteredMap>{0} dorazila do cíle ({1_label}).</LetterCaravanEnteredMap>
+  
+  <!-- Caravan entered enemy base -->
+  <!-- EN: Attack begun -->
+  <LetterLabelCaravanEnteredEnemyBase>Útok začal</LetterLabelCaravanEnteredEnemyBase>
+  <!-- EN: {0} has arrived at {1} and is ready to begin the attack. -->
+  <LetterCaravanEnteredEnemyBase>{0} dorazila do oblasti zvané {1} a je připravena zahájit útok.</LetterCaravanEnteredEnemyBase>
+
+  <!-- Transport pods landed in enemy base -->
+  <!-- EN: Attack begun -->
+  <LetterLabelTransportPodsLandedInEnemyBase>Útok začal</LetterLabelTransportPodsLandedInEnemyBase>
+  <!-- EN: Your transport pods have arrived at {0}. -->
+  <LetterTransportPodsLandedInEnemyBase>Tvé přepravní moduly dorazily do oblasti {0}.</LetterTransportPodsLandedInEnemyBase>
+  
+  <!-- Faction base defeated -->
+  <!-- EN: Base destroyed -->
+  <LetterLabelFactionBaseDefeated>Základna byla zničena</LetterLabelFactionBaseDefeated>
+  <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
+  <LetterFactionBaseDefeated>Nepřátelská základna {0} byla zničena.\n\nKaravana se automaticky shromáždí za {1}. Můžeš ji také shromáždit hned, a to tak, že na obrazovce mapy světa vybereš zničenou osadu a klikneš na příkaz 'Upravit karavanu'.</LetterFactionBaseDefeated>
+  <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
+  <LetterFactionBaseDefeated_FactionDestroyed>Tohle byla poslední základna patřící frakci {0}, což znamená, že tato frakce už neexistuje.</LetterFactionBaseDefeated_FactionDestroyed>
+  
+  <!-- Quest completed -->
+  <!-- EN: Quest completed -->
+  <LetterLabelDefeatAllEnemiesQuestCompleted>Mise byla dokončena</LetterLabelDefeatAllEnemiesQuestCompleted>
+  <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
+  <LetterDefeatAllEnemiesQuestCompleted>Zničil jsi nepřátelskou základnu!\n\nZ frakce {0} přilétla slibovaná odměna a frakční vztahy se zlepšily o {1} bodů.</LetterDefeatAllEnemiesQuestCompleted>
+
+  <!-- Found lump of precious resources -->
+  <!-- EN: Precious minerals found -->
+  <LetterLabelFoundPreciousLump>Drahocenné minerály nalezeny</LetterLabelFoundPreciousLump>
+  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
+  <LetterFoundPreciousLump>Za pomoci snímače minerálů s dlouhým dosahem {WORKER_gender ? nalezl : nalezla} {WORKER_labelShort} drahocennou hroudu ({0}).\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní tuto hroudu vytěží za {1} dnů.\n\n{3} říká, že{2}.</LetterFoundPreciousLump>
+  
+  <!-- Ambush -->
+  <!-- EN: Ambush -->
+  <LetterLabelAmbushInExistingMap>Léčka</LetterLabelAmbushInExistingMap>
+  <!-- EN: Your {0} have been ambushed! -->
+  <LetterAmbushInExistingMap>Tvá skupina {0} byla přepadena!</LetterAmbushInExistingMap>
+
+  <!-- Peace talks -->
+  <!-- EN: Peace talks disaster -->
+  <LetterLabelPeaceTalks_Disaster>Mírové rozhovory (katastrofa)</LetterLabelPeaceTalks_Disaster>
+  <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
+  <LetterPeaceTalks_Disaster>Rozhovory dopadly katastrofálně. Sotva se delegáti na úvod pozdravili, hned nato se diskuze strhla v samé urážky a obviňování.\n\nPoté, co tvá karavana začala předčasně odcházet, skupina {0} z frakce {1} tvou karavanu dohnala a zaútočila na ni!\n\nVztahy s frakcí {1}: {2}</LetterPeaceTalks_Disaster>
+  <!-- EN: Peace talks backfire -->
+  <LetterLabelPeaceTalks_Backfire>Mírové rozhovory (selhání)</LetterLabelPeaceTalks_Backfire>
+  <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
+  <LetterPeaceTalks_Backfire>Rozhovory selhaly. Navzdory výměně pár zdvořilých žertů, nebyli delegáti schopni učinit žádný pokrok v zásadních otázkách a několik názorů bylo považováno za urážky.\n\nVztahy s frakcí {0}: {1}</LetterPeaceTalks_Backfire>
+  <!-- EN: Peace talks flounder -->
+  <LetterLabelPeaceTalks_TalksFlounder>Mírové rozhovory (patová situace)</LetterLabelPeaceTalks_TalksFlounder>
+  <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
+  <LetterPeaceTalks_TalksFlounder>Rozhovory se zmítaly. Delegátům se sice podařilo komunikovat jasně a se základním respektem, ale nebyli schopni učinit pokrok v žádném skutečném problému.\n\nVztahy s frakcí {0} zůstaly beze změny.</LetterPeaceTalks_TalksFlounder>
+  <!-- EN: Peace talks success -->
+  <LetterLabelPeaceTalks_Success>Mírové rozhovory (úspěch)</LetterLabelPeaceTalks_Success>
+  <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
+  <LetterPeaceTalks_Success>Rozhovory byly úspěšné. Delegáti dosáhli nového vzájemného porozumění v několika podstatných otázkách.\n\nVztahy s frakcí {0} se zlepšily o {1} bodů.</LetterPeaceTalks_Success>
+  <!-- EN: Peace talks triumph -->
+  <LetterLabelPeaceTalks_Triumph>Mírové rozhovory (triumf)</LetterLabelPeaceTalks_Triumph>
+  <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
+  <LetterPeaceTalks_Triumph>Rozhovory byly velkým triumfem! Delegáti se okamžitě naladili na stejnou vlnu a byli schopni snadno rozpoznat názory obou stran, což usnadnilo nalezení smírného řešení i těch nejobtížnějších otázek.\n\nVztahy s frakcí {0} se zlepšily o {1} bodů.\n\nNež tvá karavana odešla, {0} ti nabídli dar:\n\n-{2}</LetterPeaceTalks_Triumph>
+  <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
+  <PeaceTalksSocialXPGain>{PAWN_labelShort}, jakožto {PAWN_gender ? tvůj : tvá} {PAWN_gender ? vyjednavač : vyjednavačka}, {PAWN_gender ? získal : získala} {1} zkušeností k dovednosti Socializace.</PeaceTalksSocialXPGain>
+
+  <!-- Run wild mental break -->
+  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {0_objective} to get {0_objective} back. -->
+  <LetterRunWildMentalBreak>{0} je už {PAWN_gender ? přesycen : přesycena} civilizací. {PAWN_gender ? Uvědomil : Uvědomila} si, že volně žijící zvířata jsou vždy svobodná. Takže se {PAWN_gender ? rozhodl : rozhodla}, že opustí tvou frakci a půjde žít se zvířaty.\n\nMůžeš se {PAWN_objective} pokusit ochočit, a tím {PAWN_objective} získat zpět.</LetterRunWildMentalBreak>
+
+  <!-- Catatonic mental break -->
+  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
+  <LetterCatatonicMentalBreak>{0} {PAWN_gender ? utrpěl : utrpěla} totální psychické zhroucení a nyní je v katatonickém stavu. Bude se zotavovat několik dnů.</LetterCatatonicMentalBreak>
+
+  <!-- EN: AI Core Offer -->
+  <LetterLabelAICoreOffer>Nabídka jádra UI</LetterLabelAICoreOffer>
+  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
+  <LetterAICoreOffer>{PAWN_definite} z frakce {1} tě {PAWN_gender ? zkontaktoval : zkontaktovala} a {PAWN_gender ? nabídl : nabídla} ti následnou informaci: Zná místo, kde se nachází osobností jádro UI, které potřebuješ k vybudování vesmírné lodě. {PAWN_gender ? Informoval : Informovala} tě, že tento předmět je poměrně vzácný a většinou jej majitelé střeží pod velkým dohledem.\n\nPokud máš zájem, zavolej {PAWN_gender ? mu : jí} pomocí radiostanice.</LetterAICoreOffer>
+
+  <!-- EN: Legendary Work -->
+  <LetterCraftedLegendaryLabel>Legendární práce</LetterCraftedLegendaryLabel>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort} se může pyšnit skvělou prací:\n\n- {CRAFTED_labelShort}.\n\nZpráva o tomto cenném artefaktu se bude šířit po celém světě.</LetterCraftedLegendaryMessage>
+
+  <!-- Pawns lost because map closed -->
+  <!-- EN: Caravan lost -->
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>Karavana byla ztracena</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
+  <LetterPawnsLostBecauseMapClosed_Caravan>Tvá karavana byla ztracena. Tito lidé a zvířata byli ztraceni s ní</LetterPawnsLostBecauseMapClosed_Caravan>
+  <!-- EN: Inhabitants abandoned -->
+  <LetterLabelPawnsLostBecauseMapClosed_Home>Obyvatelé byli opuštěni</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <!-- EN: The following people and animals have been abandoned -->
+  <LetterPawnsLostBecauseMapClosed_Home>Tito lidé a zvířata byli opuštěni</LetterPawnsLostBecauseMapClosed_Home>
+
+  <!-- Hibernate complete -->
+  <!-- EN: Reactor ready -->
+  <LetterLabelHibernateComplete>Reaktor je připraven</LetterLabelHibernateComplete>
+  <!-- EN: Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <LetterHibernateComplete>Charlon Whitestone dokončil sekvenci na probuzení lodního reaktoru z hluboké hibernace. Reaktor je nyní připraven poskytnout energii ke startu.</LetterHibernateComplete>
+  <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
+  <LetterHibernateCompleteStandalone>Sekvence probuzení lodního reaktoru je dokončena. Nyní je připraven poskytnout energii ke startu.</LetterHibernateCompleteStandalone>
+
+  <!-- Visitors gave gift -->
+  <!-- EN: Gift from {0} -->
+  <LetterLabelVisitorsGaveGift>Dar z frakce {0}</LetterLabelVisitorsGaveGift>
+  <!-- EN: {0} from {PAWN_factionName} have left a gift:\n\n{1} -->
+  <LetterVisitorsGaveGift>Skupina {0} z frakce {PAWN_factionName} nám zanechala dar:\n\n{1}</LetterVisitorsGaveGift>
+
+  <!-- Faction base proximity -->
+  <!-- EN: Faction base proximity -->
+  <LetterLabelFactionBaseProximity>Frakční základna v sousedství</LetterLabelFactionBaseProximity>
+  <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
+  <LetterFactionBaseProximity>Protože jsi tak blízko k ostatním frakcím, tak mají pocit, že zasahuješ do jejich teritoria.\n\nZa poslední uplynulý quadrum se vztahy s frakcí snížily o:</LetterFactionBaseProximity>
+
+  <!-- Caravans battlefield victory -->
+  <!-- EN: Caravan battle won -->
+  <LetterLabelCaravansBattlefieldVictory>Karavana zvítězila v bitvě</LetterLabelCaravansBattlefieldVictory>
+  <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, the caravan will be reformed automatically. -->
+  <LetterCaravansBattlefieldVictory>Tvá karavana zvítězila v bitvě. Nyní můžeš karavanu shromáždit, a to tak, že na obrazovce mapy světa vybereš místo přepadení a klikneš na příkaz 'Upravit karavanu'.\n\nNení nutné sbírat předměty ručně, nástroj na úpravu karavany to dokáže okamžitě.\n\nKaravana se automaticky shromáždí za {0}.</LetterCaravansBattlefieldVictory>
+
+  <!-- Rescue quest -->
+  <!-- EN: Rescuee joins -->
+  <LetterLabelRescueQuestFinished>Zachráněný se přidal</LetterLabelRescueQuestFinished>
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
+  <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? byl : byla} {PAWN_gender ? zachráněn : zachráněna} a {PAWN_gender ? připojil : připojila} se ke tvé skupině.\n\nMůžeš {PAWN_objective} vzít s sebou, a to tak, že na obrazovce mapy světa vybereš místo záchrany a klikneš na příkaz 'Upravit karavanu'.</LetterRescueQuestFinished>
+
+  <!-- Predator hunting colonist -->
+  <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} loví {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
+  <LetterPredatorHuntingColonist>{PREDATOR} se kvůli potravě pokouší ulovit kořist, kterou je {PREY_definite}!</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <!-- EN: {0} blocked {1} on: {2}. -->
+  <LetterDisease_Blocked>{0} zabránily propuknutí nemoci {1} u: {2}.</LetterDisease_Blocked>
+  <!-- EN: Disease ({0}) -->
+  <LetterLabelTraitDisease>Nemoc ({0})</LetterLabelTraitDisease>
+  <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
+  <LetterTraitDisease>Nemoc: {1}\n\n{PAWN_label} {PAWN_gender ? onemocněl : onemocněla}. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby se {PAWN_gender ? mu : jí} dostalo řádné péče a v posteli {PAWN_gender ? strávil : strávila} tolik času, jak to jen bude možné.</LetterTraitDisease>
+
+</LanguageData>
