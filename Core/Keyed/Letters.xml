@@ -263,15 +263,15 @@
   <!-- EN: Attack begun -->
   <LetterLabelTransportPodsLandedInEnemyBase>Útok začal</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
-  <LetterTransportPodsLandedInEnemyBase>Tvé přepravní moduly dorazily do oblasti {0}.</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Tvé přepravní moduly dorazily do oblasti zvané {0}.</LetterTransportPodsLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Základna byla zničena</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
-  <LetterFactionBaseDefeated>Nepřátelská základna {0} byla zničena.\n\nKaravana se automaticky shromáždí za {1}. Můžeš ji také shromáždit hned, a to tak, že na obrazovce mapy světa vybereš zničenou osadu a klikneš na příkaz 'Upravit karavanu'.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Nepřátelská základna {0} byla zničena.\n\nKaravana se automaticky shromáždí během {1}. Můžeš ji také shromáždit hned, a to tak, že na obrazovce mapy světa vybereš zničenou osadu a klikneš na příkaz 'Upravit karavanu'.</LetterFactionBaseDefeated>
   <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>Tohle byla poslední základna patřící frakci {0}, což znamená, že tato frakce už neexistuje.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>Tohle byla poslední základna patřící frakci {0}, což znamená, že tato frakce přestala existovat.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
@@ -363,7 +363,7 @@
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>Reaktor je připraven</LetterLabelHibernateComplete>
   <!-- EN: <Name>Charlon Whitestone</Name> has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete><Name>Charlon Whitestone</Name> dokončil sekvenci na probuzení lodního reaktoru z hluboké hibernace. Reaktor je nyní připraven poskytnout energii ke startu.</LetterHibernateComplete>
+  <LetterHibernateComplete>Charlon Whitestone dokončil sekvenci na probuzení lodního reaktoru z hluboké hibernace. Reaktor je nyní připraven poskytnout energii ke startu.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>Sekvence probuzení lodního reaktoru je dokončena. Nyní je připraven poskytnout energii ke startu.</LetterHibernateCompleteStandalone>
 
@@ -407,15 +407,15 @@
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>K dispozici je nový úkol. Nazývá se '{0}'.</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>K dispozici je nový úkol.\n\nNazývá se '{0}'.</LetterQuestBecameAvailable>
   <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Pokud úkol nepřijmeš do {0}, jeho platnost vyprší.</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>Na přijetí úkolu máš {0}, poté skončí jeho platnost.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Nový úkol se stal aktivním. Nazývá se '{0}'.</LetterQuestBecameActive>
+  <LetterQuestBecameActive>Nový úkol se zařadil mezi aktivní.\n\nNazývá se '{0}'.</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
   <LetterQuestAutomaticallyAcceptedTitle>Aktivní úkol: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
-  <LetterQuestActiveNowTime>Platnost vyprší za {0}.</LetterQuestActiveNowTime>
+  <LetterQuestActiveNowTime>\n\nDo konce jeho platnosti zbývá {0}.</LetterQuestActiveNowTime>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -468,19 +468,19 @@
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>Tech-O-tisk aplikován</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>Technotisk aplikován</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>Tech-O-tisk byl aplikován na výzkumný projekt:\n\n- {PROJECT_label}\n\n</LetterTechprintAppliedPartIntro>
-  <!-- EN: You're completed the projects techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>Požadavky tech-O-tisků na tento projekt jsi právě splnil! Tví výzkumníci odteď mohou začít zkoumat, jak lze tuto technologii použít v praxi na tvých výzkumných stanovištích.</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartIntro>Technotisk byl aplikován na výzkumný projekt:\n\n- {PROJECT_label}\n\n</LetterTechprintAppliedPartIntro>
+  <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
+  <LetterTechprintAppliedPartJustUnlocked>Požadavky technotisků na tento projekt jsi právě splnil! Tví výzkumníci odteď mohou začít zkoumat, jak lze tuto technologii použít v praxi na tvých výzkumných stanovištích.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>Požadavky tech-O-tisků na tento projekt ještě nejsou splněny. Projekt vyžaduje tech-O-tisků {1}. Zatím jsi použil {0}.</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>Požadavky technotisků na tento projekt ještě nejsou splněny. Projekt vyžaduje technotisků {1}. Zatím jsi použil {0}.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>Požadavky tech-O-tisků na tento projekt jsou již splněny. Dodatečný tech-O-tisk posune tvé výzkumné úsilí na projektu '{PROJECT_label}'. Polovina zbývající výzkůmné práce byla dokončena, celkově o {0} bodů.</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Požadavky technotisků na tento projekt jsou již splněny. Dodatečný technotisk posune tvé výzkumné úsilí na projektu '{PROJECT_label}'. Polovina zbývající výzkůmné práce byla dokončena, celkově o {0} bodů.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>Tento projekt byl již zcela vyzkoumán, takže tímto tech-O-tiskem nedošlo k žádnému pokroku tvých znalostí.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>Tento projekt byl již zcela vyzkoumán, takže tímto technotiskem nedošlo k žádnému pokroku tvých znalostí.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>Použitím tech-O-tisku {PAWN_gender ? získal : získala} {PAWN_labelShort} celkem {0} zkušeností k dovednosti {1}.</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>Použitím technotisku {PAWN_gender ? získal : získala} {PAWN_labelShort} celkem {0} zkušeností k dovednosti {1}.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
@@ -501,8 +501,7 @@
   <LetterBladelinkWeaponBondedLabel>Spjatý bladelink: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded>{PAWN_labelShort} si {PAWN_gender ? vytvořil : vytvořila} vazbu s osobností jménem {WEAPON_labelShort}.
-\n{WEAPON_labelShort} od nynějška odmítne každého, kdo se tuto zbraň pokusí uchopit - {PAWN_labelShort} je však vyjímkou.</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort} si {PAWN_gender ? vytvořil : vytvořila} vazbu s osobností jménem {WEAPON_labelShort}.\n\n{WEAPON_labelShort} od nynějška odmítne každého, kdo se tuto zbraň pokusí uchopit - {PAWN_labelShort} je však vyjímkou.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
