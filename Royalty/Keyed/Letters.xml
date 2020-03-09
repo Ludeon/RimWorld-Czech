@@ -3,9 +3,9 @@
 
   <!-- Royal titles -->
   <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
-  <LetterLabelLostRoyalTitle>TODO</LetterLabelLostRoyalTitle>
+  <LetterLabelLostRoyalTitle>Zánik titulu {TITLE}: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
-  <LetterLabelGainedRoyalTitle>TODO</LetterLabelGainedRoyalTitle>
+  <LetterLabelGainedRoyalTitle>Získání titulu {TITLE}: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
   <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>TODO</LetterRoyalTitleApparelQualityRequirement>
@@ -15,11 +15,11 @@
   <LetterRoyalTitleExpectation>TODO</LetterRoyalTitleExpectation>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
-  <LetterGainedRoyalTitle>TODO</LetterGainedRoyalTitle>
+  <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? získal : získala} titul {TITLE} od frakce {FACTION_name}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>TODO</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} již není {PAWN_gender ? držitelem : držitelkou} titulu {TITLE}, který dříve {PAWN_gender ? získal : získala} od frakce {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
-  <LetterLabelRewardsForNewTitle>TODO</LetterLabelRewardsForNewTitle>
+  <LetterLabelRewardsForNewTitle>Odměny za titul</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent them following reward(s): -->
   <LetterRewardsForNewTitle>TODO</LetterRewardsForNewTitle>
 
@@ -62,17 +62,17 @@
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>TODO</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Pokud zemře, tento titul zdědí {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>TODO</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>Pokud zemře, nikdo tento titul nezdědí.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
-  <LetterRoyalTitleHeirFactionWarning>TODO</LetterRoyalTitleHeirFactionWarning>
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameDef} je {PAWN_gender ? členem : členkou} frakce {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>TODO</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>Jiného dědice lze vybrat kontaktováním frakce {FACTION_name} prostřednictvím radiostanice.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
-  <LetterTitleHeirLostLabel>TODO</LetterTitleHeirLostLabel>
+  <LetterTitleHeirLostLabel>Dědic je po smrti</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>TODO</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} {HEIR_gender ? zemřel : zemřela}. Tímto {HOLDER_labelShort} {HEIR_gender ? přišel : přišla} o svého dědice titulu získaného od frakce {FACTION_name}. Chceš-li vybrat nového dědice, můžeš kontaktovat frakci {FACTION_name} prostřednictvím radiostanice.</LetterTitleHeirLost>
 
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>TODO</LetterTitleInheritance>
