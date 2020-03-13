@@ -8,14 +8,14 @@
   <LetterLabelGainedRoyalTitle>Získání titulu {TITLE}: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
   <!-- EN: {PAWN_pronoun} must be dressed in apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>TODO</LetterRoyalTitleApparelQualityRequirement>
+  <LetterRoyalTitleApparelQualityRequirement>Musí mít oblečení kvality {1} nebo lepší.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: {PAWN_pronoun} wants to be covered in apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>TODO</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>{PAWN_gender ? Jeho : Jejího} titulu přísluší tohle oblečení:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>TODO</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>{PAWN_possessive} očekávání nesmí být menší než {1}.</LetterRoyalTitleExpectation>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
-  <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? získal : získala} titul {TITLE} od frakce {FACTION_name}!</LetterGainedRoyalTitle>
+  <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} titul {TITLE}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
   <LetterLostRoyalTitle>{PAWN_labelShort} již není {PAWN_gender ? držitelem : držitelkou} titulu {TITLE}, který dříve {PAWN_gender ? získal : získala} od frakce {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
@@ -23,52 +23,52 @@
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} following reward(s): -->
   <LetterRewardsForNewTitle>TODO</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
-  <LetterRewardsForNewTitleDeliveryBase>TODO</LetterRewardsForNewTitleDeliveryBase>
+  <LetterRewardsForNewTitleDeliveryBase>Odměny dorazily do tvé kolonie prostřednictvím přepravních modulů.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
   <LetterRewardsForNewTitleDeliveryDirect>TODO</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
-  <LetterRoyalTitlePermits>TODO</LetterRoyalTitlePermits>
+  <LetterRoyalTitlePermits>Disponuje těmito oprávněními:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>TODO</LetterRoyalTitleLostPermits>
+  <LetterRoyalTitleLostPermits>{PAWN_gender ? Přišel : Přišla} o tato oprávnění:</LetterRoyalTitleLostPermits>
 
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
-  <LetterRoyalTitleDisabledWorkTag>TODO</LetterRoyalTitleDisabledWorkTag>
+  <LetterRoyalTitleDisabledWorkTag>Nebude provádět tyto druhy činností:\n{1}</LetterRoyalTitleDisabledWorkTag>
 
   <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>TODO</LetterRoyalTitleEnabledJoyKind>
+  <LetterRoyalTitleEnabledJoyKind>Vyžaduje tento typ relaxace:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: {PAWN_pronoun} demands this recreation: -->
-  <LetterRoyalTitleStillEnabledJoyKind>TODO</LetterRoyalTitleStillEnabledJoyKind>
+  <LetterRoyalTitleStillEnabledJoyKind>Vyžaduje tento typ relaxace:</LetterRoyalTitleStillEnabledJoyKind>
   <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>TODO</LetterRoyalTitleDisabledJoyKind>
+  <LetterRoyalTitleDisabledJoyKind>Odmítá tento typ relaxace:</LetterRoyalTitleDisabledJoyKind>
   <!-- EN: {PAWN_pronoun} refuses this recreation: -->
-  <LetterRoyalTitleStillDisabledJoyKind>TODO</LetterRoyalTitleStillDisabledJoyKind>
+  <LetterRoyalTitleStillDisabledJoyKind>Odmítá tento typ relaxace:</LetterRoyalTitleStillDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>TODO</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>Smí používat tyto implantáty:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>TODO</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>Již nesmí používat tyto implantáty: {1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>TODO</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>Implantáty musí být odebrány v pětidenní lhůtě, aby nedošlo k diplomatickým důsledkům.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} has developed a new need for authority. Satisfying this means constructing an appropriate throneroom {PAWN_pronoun} may sit and reign on a regular basis. -->
-  <LetterRoyalTitleAuthorityNeed>TODO</LetterRoyalTitleAuthorityNeed>
+  <LetterRoyalTitleAuthorityNeed>{PAWN_gender ? Vytvořil : Vytvořila} si novou potřebu autority. K uspokojení této potřeby znamená vybudování vhodného trůnního sálu, ve kterém může pravidelně sedět a vládnout.</LetterRoyalTitleAuthorityNeed>
   <!-- EN: {PAWN_pronoun} demands a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>TODO</LetterRoyalTitleThroneroomRequirements>
+  <LetterRoyalTitleThroneroomRequirements>Vyžaduje trůnní sál, který splňuje tyto nároky: {1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: {PAWN_pronoun} demands a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>TODO</LetterRoyalTitleBedroomRequirements>
+  <LetterRoyalTitleBedroomRequirements>Vyžaduje ložnici, která splňuje tyto nároky:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: {PAWN_pronoun} will only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>TODO</LetterRoyalTitleFoodRequirements>
+  <LetterRoyalTitleFoodRequirements>Bude jíst pouze tohle jídlo:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>TODO</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>Prostřednictvím přepravního modulu {PAWN_gender ? obdržel : obdržela} tyto položky:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>TODO</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? získal : získala} {1} kp z frakce {FACTION_name}.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Pokud zemře, tento titul zdědí {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Pokud {PAWN_nameDef} zemře, z titul zdědí {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>Pokud zemře, nikdo tento titul nezdědí.</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>Pokud {PAWN_nameDef} zemře, nikdo {PAWN_possessive} titul nezdědí.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameDef} je {PAWN_gender ? členem : členkou} frakce {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->

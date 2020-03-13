@@ -508,6 +508,14 @@
   <LordReportAttendingMarriageCeremony>Účastní se svatebního obřadu</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
   <LordReportAttendingParty>Účastní se večírku</LordReportAttendingParty>
+  <!-- EN: Attending concert -->
+  <LordReportAttendingConcert>Účastní se koncertu</LordReportAttendingConcert>
+  <!-- EN: Holding a concert -->
+  <LordReportHoldingConcert>Pořádá koncert</LordReportHoldingConcert>
+  <!-- EN: Giving a speech -->
+  <LordReportGivingSpeech>Pronáší projev</LordReportGivingSpeech>
+  <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
+  <LordReportListeningSpeech>Poslouchá projev ({ORGANIZER_labelShort})</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
   <LordReportFormingCaravan>Shromažďování karavany</LordReportFormingCaravan>
 
@@ -743,33 +751,37 @@
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>Přepnout viditelnost výukového pomocníka, když je prázdný.\n\nPokud je dostupná látka k výuce, je výukový pomocník viditelný vždy. Tento přepínač ho skryje, pokud není aktivní žádná látka k výuce.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Přepínač pro viditelnost/skrytí výukového pomocníka, pokud je prázdný.\n\nPokud je dostupná látka k výuce, je výukový pomocník viditelný vždy. Tento přepínač ho skryje, pokud není aktivní žádná látka k výuce.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
-  <ZoneVisibilityToggleButton>Přepnout viditelnost oblastí.</ZoneVisibilityToggleButton>
+  <ZoneVisibilityToggleButton>Přepínač pro viditelnost/skrytí oblastí.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Přepnout zobrazování vzhledu prostředí.\n\nZobrazuje krásu světa tak, jak by jej vnímala postava stojící v místě, kde se nachází kurzor myši.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Přepínač pro zobrazení/skrytí vzhledu prostředí.\n\nZobrazuje krásu světa tak, jak by jej vnímala postava stojící v místě, kde se nachází kurzor myši.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>Přepnout zobrazování statistiky místnosti.\n\nZobrazí statistiky místnosti v místě, ve které se nachází kurzor myši.</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>Přepínač pro zobrazení/skrytí statistik místností.\n\nZobrazí statistiky místnosti v místě, ve které se nachází kurzor myši.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Přepnout lištu s kolonisty.\n\nPodél horního okraje obrazovky se zobrazují ikony a základní stav všech kolonistů.\n\nMůžeš změnit jejich uspořádání držením pravého tlačítka myši + tažením na požadované místo.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Přepínač pro zobrazení/skrytí lišty s kolonisty.\n\nPodél horního okraje obrazovky se zobrazují ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením pravého tlačítka myši a tažením na požadované místo.</ShowColonistBarToggleButton>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>Přepnout automatické rozšiřování domovské oblasti okolo nových staveb.</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>Přepínač pro automatické rozšiřování domovské oblasti okolo nových staveb.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Přepnout automatickou přestavbu zničených struktur.</AutoRebuildButton>
+  <AutoRebuildButton>Přepínač pro zapnutí/vypnutí automatické přestavby zničených struktur.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Přepnout režim kategorií pro zobrazení surovin.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Přepínač pro zapnutí/vypnutí kategorizovaného režimu pro seznam dostupných zásob.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>Přepnout zobrazování jmen ochočených pojmenovaných zvířat.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Přepínač pro zobrazení/skrytí jmen ochočených pojmenovaných zvířat.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>Přepnout viditelnost střech.</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Přepínač pro viditelnost/skrytí střech.</ShowRoofOverlayToggleButton>
+  <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
+  <ShowFertilityOverlayToggleButton>Přepínač pro zobrazení/skrytí úrodnosti.\n\nZobrazí úrodnost půdy, která napoví, jaké plodiny je možné na dané půdě pěstovat a jak rychle porostou.</ShowFertilityOverlayToggleButton>
+  <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
+  <ShowTerrainAffordanceOverlayToggleButton>Přepínač pro viditelnost/skrytí vhodnosti terénu.\n\nUkáže, které typy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy podlah přijímají pouze lehké nebo střední, ale žádné těžké struktury. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>Zamknout otáčení kamery tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>Zamknout/odemknout otáčení kamery tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting system. -->
-  <UsePlanetDayNightSystemToggleButton>Přepnout systém osvětlení den/noc.</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Přepínač pro systém osvětlení den/noc.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Přepnout zobrazení zvětšujících se ikon namísto běžných ikon pro vzdálené objekty.</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Přepínač pro zapnutí/vypnutí zvětšujících se ikon vzdálených objektů namísto běžných ikon.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>Přepnout viditelnost názvů přírodních úkazů.</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Přepínač pro viditelnost/skrytí názvů přírodních úkazů.</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -786,6 +798,12 @@
   <TimeLeft>zbývající čas</TimeLeft>
   <!-- EN: impact date -->
   <ImpactDate>datum dopadu</ImpactDate>
+  <!-- EN: Source unknown. -->
+  <SourceUnknown>Zdroj neznámý.</SourceUnknown>
+  <!-- EN: Click to jump to the source. -->
+  <ClickToJumpToSource>Klikni pro zobrazení zdroje.</ClickToJumpToSource>
+  <!-- EN: Caused by quest: {0} -->
+  <CausedByQuest>Způsobeno úkolem: {0}</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
@@ -1015,7 +1033,7 @@
   <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>Výpočet pro: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Pravé tlačítko myši: Přidá / odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Pravé tlačítko myši: Přidá/odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Ukončit režim plánování.</RoutePlannerPressEscapeToExit>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
