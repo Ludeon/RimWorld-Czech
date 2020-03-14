@@ -3,18 +3,18 @@
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>kapacita nošení</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>Množství věcí, které toto stvoření dokáže nést v rukou, ústech nebo jiným způsobem. Tato kapacita není aplikována na schopnost přepravovat náklad na dlouhých trasách po mapě světa.</CarryingCapacity.description>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>Množství věcí, které toto stvoření dokáže nést v rukou, ústech nebo jiným způsobem.\n\nTato kapacita není aplikována na schopnost přepravovat náklad na dlouhých trasách po mapě světa.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>maximální snesitelná teplota</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Nad touto teplotou budou postavy nešťastné. Výrazně nad touto teplotou se bude rozvíjet úpal, a eventuálně zemřou.</ComfyTemperatureMax.description>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>Nad touto teplotou budou postavy nešťastné.\n\nVýrazně nad touto teplotou se bude rozvíjet úpal, a eventuálně zemřou.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>minimální snesitelná teplota</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Pod touto teplotou budou postavy nešťastné. Výrazně pod touto teplotou se bude rozvíjet podchlazení a omrzliny, a eventuálně zemřou.</ComfyTemperatureMin.description>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>Pod touto teplotou budou postavy nešťastné.\n\nVýrazně pod touto teplotou se bude rozvíjet podchlazení a omrzliny, a eventuálně zemřou.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>rychlost konzumace jídla</EatingSpeed.label>
@@ -38,8 +38,8 @@
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>rychlost vytvoření imunity</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>Rychlost, jakou tato postava získává imunitu vůči nemocem. Pokud je hodnota příliš nízká, postava může zemřít na nemoc před rozvinutím imunity.</ImmunityGainSpeed.description>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>Rychlost, jakou tato postava získává imunitu vůči nemocem.\n\nPokud je hodnota příliš nízká, postava může zemřít na nemoc před rozvinutím imunity.</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>množství kůže</LeatherAmount.label>
@@ -53,8 +53,8 @@
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>práh psychického zhroucení</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>Čím déle zůstává nálada pod touto úrovni, tím více hrozí psychické zhroucení. Závažnost psychického zhroucení závisí na tom, jak moc nízko pod prahem je.</MentalBreakThreshold.description>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>Čím déle zůstává nálada pod touto úrovni, tím více hrozí psychické zhroucení.\n\nZávažnost psychického zhroucení závisí na tom, jak moc nízko pod prahem je.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
   <MinimumHandlingSkill.label>minimální dovednost Zvířata</MinimumHandlingSkill.label>
@@ -73,10 +73,27 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Úroveň bolesti, při němž je toto stvoření posláno k zemi.</PainShockThreshold.description>
   
+  <!-- EN: psychic entropy gain -->
+  <PsychicEntropyGain.label>nárust psychické entropie</PsychicEntropyGain.label>
+  <!-- EN: A multiplier on psychic entropy gained from any source. -->
+  <PsychicEntropyGain.description>Násobitel pro psychickou entropii získávanou z jakéhokoli zdroje.</PsychicEntropyGain.description>
+  
+  <!-- EN: psychic entropy limit -->
+  <PsychicEntropyMax.label>limit psychické entropie</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of psychic entropy individual can tolerate safely. -->
+  <PsychicEntropyMax.description>Maximální množství psychické entropie, které může jednotlivec bezpečně tolerovat.</PsychicEntropyMax.description>
+  
+  <!-- EN: psychic entropy recovery rate -->
+  <PsychicEntropyRecoveryRate.label>rychlost poklesu psychické entropie</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces psychic entropy. -->
+  <PsychicEntropyRecoveryRate.description>Rychlost, jakou tato osoba snižuje psychickou entropii.</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/30s -->
+  <PsychicEntropyRecoveryRate.formatString>{0}/30s</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>psychická citlivost</PsychicSensitivity.label>
-  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
-  <PsychicSensitivity.description>Násobitel vlivu psychických jevů, které ovlivňují tuto osobu. Velmi citliví lidé trpí o to více z negativních psychických jevů, a naopak více těží z pozitivních jevů.</PsychicSensitivity.description>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases psychic entropy limit. -->
+  <PsychicSensitivity.description>Citlivější lidé trpí více negativními psychickými účinky a více těží z těch pozitivních. Vyšší psychická citlivost také zvyšuje limit psychické entropie.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>rychlost odpočinku</RestRateMultiplier.label>
