@@ -18,7 +18,7 @@
   <BreakRiskExtremeDesc>Tito kolonisté jsou pod velmi silným tlakem a mohou každou chvíli utrpět extrémní (a potenciálně násilné) psychické zhroucení:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>Zkontroluj jejich záložku Potřeby, abys zjistil, co je trápí.\n\nAby se kolonisté cítili lépe, můžeš jim v tom pomoci tím, že jim připravíš nějaké fantastické jídlo, dáš jim více hodin denně na relaxaci, přičemž jim poskytneš lepší zdroje relaxace, umístíš je do příjemně hezkého prostředí, dopřeješ jim pití alkoholu a kouření, a ještě mnohem více.</BreakRiskDescEnding>
-  
+
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>Kolonista potřebuje zachránit</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
@@ -62,6 +62,11 @@
   <NeedColonistBeds>Potřebuješ postele</NeedColonistBeds>
   <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>Máš více kolonistů než postelí. Ostatní by si také chtěli lehnout.\n\nVyrob další postele, nebo změň vězeňskou na normální.\n\nPokud nemáš prostředky na jejich výrobu, tak alespoň někam umísti místa na spaní, která jsou zdarma.</NeedColonistBedsDesc>
+  
+  <!-- EN: Colonist left unburied -->
+  <AlertColonistLeftUnburied>Nepohřbený kolonista</AlertColonistLeftUnburied>
+  <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
+  <AlertColonistLeftUnburiedDesc>Kolonista není řádně pohřben.\n\nMůže to negativně ovlivnit náladu tvých kolonistů.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Lovec nemá stř. zbraň</HunterLacksWeapon>
@@ -70,13 +75,13 @@
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roztrhané oblečení</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>Tito kolonisté nosí roztrhané oblečení a jsou kvůli tomu nespokojení:\n\n{0}\nDej jim oblečení, které není tak silně poškozené.\n\nOblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</AlertTatteredApparelDesc>
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertTatteredApparelDesc>Tito kolonisté nosí roztrhané oblečení a jsou kvůli tomu nespokojení:\n\n{0}\nDej jim oblečení, které není tak silně poškozené.\n\nOblečení můžeš ušít na pracovním místě, krejčovském stole nebo koupit u obchodníků.</AlertTatteredApparelDesc>
 
   <!-- EN: Unhappy nudity -->
   <AlertUnhappyNudity>Nešťastní naháči</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>Tito kolonisté jsou nazí a nejsou z toho zrovna šťastní:\n\n{0}\nSežeň jim nějaké oblečení.\n\nOblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</AlertUnhappyNudityDesc>
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
+  <AlertUnhappyNudityDesc>Tito kolonisté jsou nazí a nejsou z toho zrovna šťastní:\n\n{0}\nSežeň jim nějaké oblečení.\n\nOblečení můžeš ušít na pracovním místě, krejčovském stole nebo koupit u obchodníků.</AlertUnhappyNudityDesc>
 
   <!-- EN: Starvation -->
   <Starvation>Hladovění</Starvation>
@@ -86,7 +91,7 @@
   <!-- EN: Animal starvation -->
   <StarvationAnimals>Hladovění zvířat</StarvationAnimals>
   <!-- EN: These colony animals are starving:\n\n{0}\nGet them some food. -->
-  <StarvationAnimalsDesc>Tato zvířata patřící kolonii hladoví:\n\n{0}\nSežeň jim nějakou potravu.</StarvationAnimalsDesc>
+  <StarvationAnimalsDesc>Tato zvířata patřící tvé kolonii hladoví:\n\n{0}\nSežeň jim nějakou potravu.</StarvationAnimalsDesc>
 
   <!-- EN: Exhaustion -->
   <Exhaustion>Vyčerpání</Exhaustion>
@@ -140,11 +145,16 @@
   <NeedResearchProject>Potřebuješ výzkum</NeedResearchProject>
   <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený žádný projekt.\n\nOtevři záložku Výzkum a vyber si projekt.</NeedResearchProjectDesc>
-  
+
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>Nečinní kolonisté: {0}</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Tito kolonisté se poflakují:\n\n{0}\nMěl bys jim najít něco produktivního.</ColonistsIdleDesc>
+  
+  <!-- EN: Caravan idle -->
+  <CaravanIdle>Nečinná karavana</CaravanIdle>
+  <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
+  <CaravanIdleDesc>Tyto karavany čekají, až jim nastavíš další cílovou destinaci:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Kolonista potřebuje ošetřit</ColonistNeedsTreatment>
@@ -153,8 +163,8 @@
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Podchlazení</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
-  <AlertHypothermiaDesc>Tito kolonisté trpí podchlazením.\n\n{0}\nUjisti se, že jejich oblečení je vhodné pro toto období a vnitřní prostory jsou správně vyhřívané.</AlertHypothermiaDesc>
+  <!-- EN: These colonists are suffering from hypothermia:\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
+  <AlertHypothermiaDesc>Tito kolonisté trpí podchlazením:\n\n{0}\nUjisti se, že jejich oblečení je vhodné pro toto období a vnitřní prostory jsou správně vyhřívané.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>Pacientů čeká na operaci: {0}</PatientsAwaitingMedicalOperation>
@@ -191,10 +201,48 @@
   <NeedWarmClothesDesc1All>Ani jeden z tvých kolonistů nebude mít v chladném ročním období žádné teplé oblečení.</NeedWarmClothesDesc1All>
   <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
   <NeedWarmClothesDesc2>Venkovní teplota bude klesat až na {0}.\n\nTeplé oblečení můžeš ušít na krejčovském stole nebo koupit u obchodníků.</NeedWarmClothesDesc2>
-  
+
   <!-- EN: Immobile caravan -->
   <ImmobileCaravan>Nepojízdná karavana</ImmobileCaravan>
   <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>Jedna z tvých karavan je neschopná pohybu, protože toho veze příliš mnoho.\n\nZnovu rozpohybovat karavanu můžeš tak, že se vzdáš některých předmětů v záložce PŘEDMĚTY.</ImmobileCaravanDesc>
+
+  <!-- EN: Building unusable due to roof -->
+  <BuildingCantBeUsedRoofed>Nepoužitelná budova kvůli střeše</BuildingCantBeUsedRoofed>
+  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
+  <BuildingCantBeUsedRoofedDesc>Jedna nebo více z tvých staveb nelze použít, protože jsou zastřešené. Stavby budou nepoužitelné do doby, než odstraníš překážející střechu.</BuildingCantBeUsedRoofedDesc>
+
+  <!-- EN: Heatstroke -->
+  <AlertHeatstroke>Úpal</AlertHeatstroke>
+  <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
+  <AlertHeatstrokeDesc>Následující lidé trpí úpalem:\n\n{0}\nDostaň je do chladnějšího místa. Místnosti můžeš ochlazovat pomocí pasivních chladičů nebo elektrických klimatizací. Hluboké podzemní prostory jsou přirozeně chladné, jsou-li odděleny od venkovních prostorů dveřmi.</AlertHeatstrokeDesc>
+
+  <!-- EN: Guest unhappy -->
+  <QuestPartMoodBelowThreshold>Nešťastná návštěva</QuestPartMoodBelowThreshold>
+  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
+  <QuestPartMoodBelowThresholdDesc>Úkol '{0}' vyžaduje, abys udržel hostované lidi v dobré náladě. Jejich nálada je nyní špatná. Proveď nějakou nápravu, aby se cítili tito lidé lépe:\n\n{1}</QuestPartMoodBelowThresholdDesc>
   
+  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartShuttleLeaveDelay>Do odletu raketoplánu zbývá {0}</QuestPartShuttleLeaveDelay>
+  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
+  <QuestPartShuttleLeaveDelayDesc>Do odletu raketoplánu zbývá {1}. Úkol '{0}' vyžaduje, abys před odletem naložil do raketoplánu následující osoby nebo předměty:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
+
+  <!-- EN: Monument will be destroyed -->
+  <DisallowedBuildingInsideMonument>Monument bude zničen</DisallowedBuildingInsideMonument>
+  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
+  <DisallowedBuildingInsideMonumentDesc>Uvnitř jednoho z tvých monumentů jsi postavil nedovolenou stavbu. Než bude monument považován za zničený, zbývá {0}.</DisallowedBuildingInsideMonumentDesc>
+
+  <!-- EN: Countdown activator {0} -->
+  <ActivatorCountdown>Do odpočtu aktivátoru zbývá {0}</ActivatorCountdown>
+  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDesc>Nachází se zde tikající časovaný aktivátor, který se chystá probudit nedaleké mechanoidy.</ActivatorCountdownDesc>
+  <!-- EN: {0} countdown activators -->
+  <ActivatorCountdownMultiple>{0} časované aktivátory</ActivatorCountdownMultiple>
+  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
+  <ActivatorCountdownDescMultiple>V blízkosti se nachází celkem {0} tikající časované aktivátory, které se chystají probudit nedaleké mechanoidy.</ActivatorCountdownDescMultiple>
+
+  <!-- EN: Quest expires in {0} -->
+  <QuestExpiresSoon>Do donce platnosti úkolu zbývá {0}</QuestExpiresSoon>
+  <!-- EN: The quest '{0}' will expire in {1}. -->
+  <QuestExpiresSoonDesc>Do konce platnosti úkolu '{0}' zbývá {1}.</QuestExpiresSoonDesc>
 </LanguageData>

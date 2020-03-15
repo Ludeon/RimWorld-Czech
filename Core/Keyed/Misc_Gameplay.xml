@@ -360,8 +360,28 @@
   <Enemy>nepřítel</Enemy>
   <!-- EN: Required -->
   <Required>Vyžaduje</Required>
+  <!-- EN: Foliage kill radius -->
+  <FoliageKillRadius>Poloměr likvidace flóry</FoliageKillRadius>
+  <!-- EN: Radius expand rate -->
+  <RadiusExpandRate>Rychlost rozšiřování poloměru</RadiusExpandRate>
   <!-- EN: View: {0} -->
   <ViewHyperlink>Zobrazit: {0}</ViewHyperlink>
+  <!-- EN: Large explosion if damaged -->
+  <ExplosionOnDamageWarning>V případě poškození dojde k mohutné explozi.</ExplosionOnDamageWarning>
+  <!-- EN: {0} assembly completes in {1} -->
+  <MechAssemblyCompleteIn>{0} vyjede z montovny během {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Dormant -->
+  <DormantCompInactive>Dřímající</DormantCompInactive>
+  <!-- EN: Sealed -->
+  <DormantCompSealed>Zapečetěné</DormantCompSealed>
+  <!-- EN: Ready to drop mechanoids -->
+  <DormantCompBeacon>Připraven ke shozu mechanoidů.</DormantCompBeacon>
+  <!-- EN: Expired -->
+  <DormantCompExpired>Již využité</DormantCompExpired>
+  <!-- EN: Initiates in -->
+  <InitiatesIn>Spustí se za</InitiatesIn>
+  <!-- EN: Activates in {0} -->
+  <SendSignalOnCountdownCompTime>Aktivuje se za {0}.</SendSignalOnCountdownCompTime>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
@@ -1072,5 +1092,19 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: Zobrazit dostupné příkazy...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>Zobrazit dostupné příkazy...</ClickToSeeAvailableOrders_Empty>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: Intercepts {0} every {1} -->
+  <InterceptsProjectilesEvery>Zachytává {0} každých {1}.</InterceptsProjectilesEvery>
+  <!-- EN: Intercepts {0} -->
+  <InterceptsProjectiles>Zachytává {0}.</InterceptsProjectiles>
+  <!-- EN: ground projectiles -->
+  <InterceptsProjectiles_GroundProjectiles>pozemní projektily</InterceptsProjectiles_GroundProjectiles>
+  <!-- EN: aerial projectiles -->
+  <InterceptsProjectiles_AerialProjectiles>vzdušné projektily</InterceptsProjectiles_AerialProjectiles>
+
+  <!-- Condition causers -->
+  <!-- EN: Affected gender -->
+  <AffectedGender>Ovlivňuje pohlaví</AffectedGender>
 
 </LanguageData>
