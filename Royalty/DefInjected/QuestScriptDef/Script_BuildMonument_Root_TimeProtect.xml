@@ -4,10 +4,12 @@
   <!-- EN:
     <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task.\n\nAfter completion, you'll have to protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription]\n\nWhen you finish construction, [allRewardsDescriptions]</li>
   -->
-  <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>TODO</BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+  <BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
+    <li>commonEnding->Monument musí mít rozměry [monumentSize] a na jeho vybudování budeš potřebovat následující prostředky (v celkové hodnotě [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nVýstavba monumentu musí být dokončena v rámci [constructionTimeoutTicks_duration] po přijetí úkolu.\n\nPo jeho dokončení musíš monument po dobu [haveToProtectForTicks_duration] chránit. Pokud dojde ke zničení jakékoliv jeho části, [asker2] aktivuje systém donucovacích prostředků, který [threatDescription]\n\nJakmile konstrukci dokončíš, [allRewardsDescriptions]</li>
+  </BuildMonument_TimeProtect.questDescriptionRules.rulesStrings>
   <!-- EN: Monument completed -->
-  <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.label.slateRef>TODO</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.label.slateRef>
+  <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.label.slateRef>Monument dokončen</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.label.slateRef>
   <!-- EN: You completed construction of the monument.\n\nYou must now protect the monument for [haveToProtectForTicks_duration]. If any piece of it is destroyed, [asker2]'s enforcement system will activate and [threatDescription] -->
-  <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>TODO</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>
+  <BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>Přávě jsi dokončil stavbu monumentu.\n\Nyní musíš monument po dobu [haveToProtectForTicks_duration] chránit. Pokud dojde ke zničení jakékoliv jeho části, [asker2] aktivuje systém donucovacích prostředků, který [threatDescription]</BuildMonument_TimeProtect.root.nodes.monumentMarkerMonumentCompleted.node.text.slateRef>
   
 </LanguageData>
