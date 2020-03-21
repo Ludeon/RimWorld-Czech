@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].\n\nIf we succeed, [allRewardsDescriptions]</li>
+  -->
+  <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name] ti poslal zprávu. Zdá se, že banda [siteFaction_pawnsPlural] sídlící v blízkém táboře útočí na jeho karavany. Tento tábor náleží frakci [siteFaction_name].\n\n[asker_nameDef] tě žádá, abys tento tábor zlikvidoval, což znamená eliminaci všech nepřátel včetně střeleckých věží. [asker_label] říká, že [sitePart0_description].\n\nPokud uspěješ, [allRewardsDescriptions]</li>
+  </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[asker_nameDef]'s Camp Bounty</li>
+    <li>questName->Camp of [enemyFaction_pawnsPlural]</li>
+    <li>questName->The Bandit Camp</li>
+    <li>questName->The Raider Camp</li>
+    <li>questName->Destroy the Camp</li>
+    <li>questName->Helping [asker_nameDef]</li>
+  -->
+  <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef] &#8203;nabízí &#8203;odměnu &#8203;za &#8203;[camp]</li>
+    <li>questName->[Camp] [enemyFaction_pawnsPlural]</li>
+    <li>questName->[Camp] &#8203;banditů</li>
+    <li>questName->[Camp] &#8203;nájezdníků</li>
+    <li>questName->[Destroy] &#8203;[camp]</li>
+    <li>questName->[asker_nameDef] &#8203;žádá &#8203;o &#8203;pomoc</li>
+    <li>Camp->Tábor</li>
+    <li>Camp->Kemp</li>
+    <li>camp->tábor</li>
+    <li>camp->kemp</li>
+    <li>Destroy->Znič</li>
+    <li>Destroy->Zlikviduj</li>
+    <li>Destroy->Zneškodni</li>
+  </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Bandité z tábora se sbalili a dali se do pohybu. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>Úkol se nezdařil: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: The bandit camp has packed up and moved on. -->
+  <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>Bandité z tábora se sbalili a dali se do pohybu.</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Payment arrived -->
+  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>Dorazila slíbená odměna</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterLabel.slateRef>
+  <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
+  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>Porazil jsi všechny bandity v jejich táboře!\n\nZ frakce [asker_faction_name] dorazila slíbená odměna.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.customLetterText.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service. -->
+  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>[asker_definite] potřebuje vědět, který z tvých útočníků podílejících se na vítězství by měl získat [royalFavorReward_amount] kp za tuto službu.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
+  
+</LanguageData>
