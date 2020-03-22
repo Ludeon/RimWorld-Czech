@@ -3,8 +3,8 @@
   
   <!-- EN: butchery efficiency -->
   <ButcheryFleshEfficiency.label>efektivita porcování masa</ButcheryFleshEfficiency.label>
-  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
-  <ButcheryFleshEfficiency.description>Množství vyprodukovaného masa při porcování tvorů. Skutečné množství je ovlivněno velikostí tvora.</ButcheryFleshEfficiency.description>
+  <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>Množství vyprodukovaného masa při porcování tvorů.\n\nSkutečné množství je ovlivněno velikostí tvora.</ButcheryFleshEfficiency.description>
   
   <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>rychlost porcování masa</ButcheryFleshSpeed.label>
@@ -13,8 +13,8 @@
   
   <!-- EN: mechanoid disassembly efficiency -->
   <ButcheryMechanoidEfficiency.label>efektivita rozebírání mechanoida</ButcheryMechanoidEfficiency.label>
-  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
-  <ButcheryMechanoidEfficiency.description>Množství materiálů, které tato osoba získá při rozložení neaktivního mechanoida. Skutečné množství je ovlivněno velikostí mechanoida.</ButcheryMechanoidEfficiency.description>
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid.\n\nThe actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>Množství materiálů, které tato osoba získá při rozebírání deaktivovaného mechanoida.\n\nSkutečné množství je ovlivněno velikostí daného mechanoida.</ButcheryMechanoidEfficiency.description>
   
   <!-- EN: mechanoid disassembly speed -->
   <ButcheryMechanoidSpeed.label>rychlost rozebírání mechanoida</ButcheryMechanoidSpeed.label>
@@ -38,32 +38,19 @@
   
   <!-- EN: food poison chance -->
   <FoodPoisonChance.label>šance otravy jídla</FoodPoisonChance.label>
-  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
-  <FoodPoisonChance.description>Šance, jakou tato postava neuvědoměle otráví jídlo při vaření. Otrávené jídlo dočasně oslabí každého, kdo ho pozře.</FoodPoisonChance.description>
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
+  <FoodPoisonChance.description>Šance, jakou tato postava neuvědoměle otráví jídlo při vaření.\n\nKaždý, kdo sní takto otrávené jídlo, bude dočasně oslaben bolestí, slabostí a zvracením.</FoodPoisonChance.description>
+  <!-- EN: food poison chance (chance to poison a meal) -->
+  <FoodPoisonChance.labelForFullStatList>šance na otravu jídlem (možnost otrávit jídlo)</FoodPoisonChance.labelForFullStatList>
   
-  <!-- EN: sculpting speed -->
-  <SculptingSpeed.label>rychlost tvoření soch</SculptingSpeed.label>
-  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
-  <SculptingSpeed.description>Rychlost, jakou tato osoba tvoří sochy.\n\nTohle ovlivňuje pouze rychlost tvoření soch, nikoliv jejich kvalitu. Kvalita je určena uměleckou dovedností sochaře.</SculptingSpeed.description>
+  <!-- EN: general labor speed -->
+  <GeneralLaborSpeed.label>obecná rychlost práce</GeneralLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
+  <GeneralLaborSpeed.description>Rychlost, jakou tato osoba vykonává běžnou práci, jako je výroba kamenných bloků a chemického paliva v rafinerii, spalování předmětů, šití oděvů, tvorba umění, výroba zbrojí a zbraní nebo tavení ocelového šrotu. Tento parametr platí jak pro činnosti, které nevyžadují žádnou dovednost, tak pro ty, kde dovednost ovlivňuje výslednou kvalitu produktu namísto rychlosti výroby.</GeneralLaborSpeed.description>
   
   <!-- EN: smelting speed -->
   <SmeltingSpeed.label>rychlost tavení</SmeltingSpeed.label>
   <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
   <SmeltingSpeed.description>Rychlost, jakou tato osoba taví věci.\n\nVzhledem k tomu, že je to práce pro hlupáky, tak rychlost tavení není ovlivněna žádnou dovedností.</SmeltingSpeed.description>
-  
-  <!-- EN: smithing speed -->
-  <SmithingSpeed.label>rychlost kování</SmithingSpeed.label>
-  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
-  <SmithingSpeed.description>Rychlost, jakou tato osoba vyrábí zbraně, stroje a munici.\n\nTohle ovlivňuje pouze rychlost výroby předmětů, nikoliv jejich kvalitu. Kvalita je určena dovedností řemeslníka.</SmithingSpeed.description>
-  
-  <!-- EN: tailoring speed -->
-  <TailoringSpeed.label>rychlost šití</TailoringSpeed.label>
-  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
-  <TailoringSpeed.description>Rychlost, jakou tato osoba vyrábí oblečení.\n\nTohle ovlivňuje pouze rychlost výroby oblečení, nikoliv jejich kvalitu. Kvalita je určena dovedností krejčího.</TailoringSpeed.description>
-  
-  <!-- EN: unskilled labor speed -->
-  <UnskilledLaborSpeed.label>pracovní rychlost nekvalifikovaného</UnskilledLaborSpeed.label>
-  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
-  <UnskilledLaborSpeed.description>Rychlost, jakou tato osoba provádí nekvalifikovanou práci, jako je výroba kamenných bloků, chemického paliva v rafinerii nebo spalování předmětů.</UnskilledLaborSpeed.description>
   
 </LanguageData>

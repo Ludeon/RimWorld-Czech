@@ -3,21 +3,21 @@
 
   <!-- Royal Titles -->
   <!-- EN: The amount of {FACTION_royalFavorLabel} that your negotiator will personally receive as a result of this deal. -->
-  <RoyalFavorDescription>TODO</RoyalFavorDescription>
+  <RoyalFavorDescription>Množství královské přízně, které tvůj vyjednavač získá v důsledku uzavření této obchodní dohody.</RoyalFavorDescription>
   <!-- EN: Required apparel -->
-  <RoyalTitleTooltipRequiredApparel>TODO</RoyalTitleTooltipRequiredApparel>
+  <RoyalTitleTooltipRequiredApparel>Vyžadované oblečení</RoyalTitleTooltipRequiredApparel>
   <!-- EN: Minimum apparel quality -->
-  <RoyalTitleTooltipRequiredApparelQuality>TODO</RoyalTitleTooltipRequiredApparelQuality>
+  <RoyalTitleTooltipRequiredApparelQuality>Minimální kvalita oblečení</RoyalTitleTooltipRequiredApparelQuality>
   <!-- EN: Bedroom requirements -->
-  <RoyalTitleTooltipBedroomRequirements>TODO</RoyalTitleTooltipBedroomRequirements>
+  <RoyalTitleTooltipBedroomRequirements>Požadavky na ložnici</RoyalTitleTooltipBedroomRequirements>
   <!-- EN: Throneroom requirements -->
-  <RoyalTitleTooltipThroneroomRequirements>TODO</RoyalTitleTooltipThroneroomRequirements>
+  <RoyalTitleTooltipThroneroomRequirements>Požadavky na trůnní sál</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Max allowed psycast level -->
-  <RoyalTitleTooltipMaxPsycastLevel>TODO</RoyalTitleTooltipMaxPsycastLevel>
+  <RoyalTitleTooltipMaxPsycastLevel>Maximální povolená úroveň psiosíly</RoyalTitleTooltipMaxPsycastLevel>
   <!-- EN: The highest level of psycast that this title allows.\n\n{FACTION_name}'s laws prohibit using psycasts without a suitable title. Each time you perform an illegal psycast, there's a chance the psychic signature will be detected, leading to diplomatic consequences.\n\nPsychic signatures can be concealed with a psychic silencer implant. -->
-  <RoyalTitleTooltipMaxPsycastLevelDescription>TODO</RoyalTitleTooltipMaxPsycastLevelDescription>
+  <RoyalTitleTooltipMaxPsycastLevelDescription>Nejvyšší úroveň psionické síly, který tento titul umožňuje.\n\nZákony uplatňované frakcí {FACTION_name} zakazují používat psionické schopnosti bez odpovídajícího titulu. Pokaždé, když ilegálně provedeš psionickou schopnost, existuje šance, že bude odhalen její psychický podpis, což povede k diplomatickým důsledkům.\n\nPsychické podpisy lze utajit pomocí implantovaného psychického tlumiče.</RoyalTitleTooltipMaxPsycastLevelDescription>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>velikost mísnosti: {0} políček</RoomRequirementArea>
+  <RoomRequirementArea>velikost mísnosti {0} políček</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>působivost místnosti</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
@@ -27,35 +27,35 @@
   <!-- EN: all fine floored -->
   <RoomRequirementAllFineFloored>úplná kvalitní podlaha</RoomRequirementAllFineFloored>
   <!-- EN: Holders of this title must be covered in some combination of -->
-  <RoyalTitleRequiredApparelStatDescription>TODO</RoyalTitleRequiredApparelStatDescription>
+  <RoyalTitleRequiredApparelStatDescription>Držitel tohoto titulu musí nosit v nějaké kombinaci toto oblečení</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any powered armor -->
   <ApparelRequirementAnyPowerArmor>Libovolná energozbroj</ApparelRequirementAnyPowerArmor>
   <!-- EN: Any psycaster apparel -->
   <ApparelRequirementAnyPsycasterApparel>Libovolné psionické oblečení</ApparelRequirementAnyPsycasterApparel>
   <!-- EN: Disabled work types -->
-  <DisabledWorkTypes>TODO</DisabledWorkTypes>
+  <DisabledWorkTypes>Neprováděné druhy činností</DisabledWorkTypes>
   <!-- EN: Allowed foods -->
-  <RoyalTitleRequiredMeals>TODO</RoyalTitleRequiredMeals>
+  <RoyalTitleRequiredMeals>Ideální strava</RoyalTitleRequiredMeals>
   <!-- EN: A holder of this title will only eat these foods, unless they are starving or on a caravan. -->
-  <RoyalTitleRequiredMealsDesc>TODO</RoyalTitleRequiredMealsDesc>
+  <RoyalTitleRequiredMealsDesc>Držitel tohoto titulu bude jíst pouze tato jídla, pokud však nebude hladovět nebo nebude součástí karavany.</RoyalTitleRequiredMealsDesc>
   
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of the {IMPLANT} without detection. -->
-  <RoyalImplantIllegalUseWarning>TODO</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>Dle zákonů uplatňovaných frakcí {FACTION_name} musí {PAWN_nameDef} vlastnit titul {TITLE}, aby {PAWN_gender ? mohl : mohla} legálně používat {IMPLANT}.\n\n{VIOLATIONTRIGGER}, existuje zde šance, že frakce {FACTION_name} odhalí {PAWN_possessive} psychický podpis. To povede k diplomatickým důsledkům.\n\n{IMPLANT} může používat i bez možného odhalení s pomocí implantovaného psychického tlumiče.</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
-  <RoyalImplantInstallConfirmation>TODO</RoyalImplantInstallConfirmation>
+  <RoyalImplantInstallConfirmation>I přesto chceš tento implantát implantovat?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
-  <RoyalImplantUpgradeConfirmation>TODO</RoyalImplantUpgradeConfirmation>
+  <RoyalImplantUpgradeConfirmation>I přesto chceš tento implantát vylepšit?</RoyalImplantUpgradeConfirmation>
   <!-- EN: Each time {PAWN_labelShort} performs a psycast above the allowed level -->
-  <PsychicAmplifierViolationTrigger>TODO</PsychicAmplifierViolationTrigger>
+  <PsychicAmplifierViolationTrigger>Kdykoli {PAWN_labelShort} provede psionickou schopnost vyšší úrovně, než je povolená</PsychicAmplifierViolationTrigger>
 
   <!-- Royal weapons -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use {WEAPON_indefinite}.\n\nEach time {PAWN_labelShort} attacks with a bladelink weapon, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences.\n\nA psychic silencer implant would allow use of {WEAPON_definite} without detection. -->
   <RoyalWeaponIllegalUseWarning>TODO</RoyalWeaponIllegalUseWarning>
   <!-- EN: Once bonded to a wielder, the weapon's persona will refuse to be wielded by anyone else. -->
-  <BladelinkEquipWarning>TODO</BladelinkEquipWarning>
+  <BladelinkEquipWarning>Jakmile se spojí s nositelem, osobnost zbraně odmítne kohokoli jiného, aby ji nosil.</BladelinkEquipWarning>
   <!-- EN: Are you sure you want to equip this item? -->
-  <RoyalWeaponEquipConfirmation>TODO</RoyalWeaponEquipConfirmation>
+  <RoyalWeaponEquipConfirmation>Opravdu se chceš touto položkou vybavit?</RoyalWeaponEquipConfirmation>
   
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
@@ -63,6 +63,6 @@
   <!-- EN: Amplifier level -->
   <PsycastRequiredAmplifierLevel>Úroveň zesilovače</PsycastRequiredAmplifierLevel>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
-  <PsycastIsIllegal>{PAWN_labelShort} nemá oprávnění tohle využívat. Vyžaduje titul {TITLE}.</PsycastIsIllegal>
+  <PsycastIsIllegal>{PAWN_labelShort} nemá oprávnění tohle legálně používat. Vyžaduje titul {TITLE}.</PsycastIsIllegal>
 
 </LanguageData>
