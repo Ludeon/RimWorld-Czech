@@ -96,9 +96,9 @@
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
-  <LetterLawViolationDetectedLabel>TODO</LetterLawViolationDetectedLabel>
+  <LetterLawViolationDetectedLabel>{PAWN_labelShort} {PAWN_gender ? porušil : porušila} zákon</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>TODO</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{PAWN_labelShort} {PAWN_gender ? byl : byla} {PAWN_gender ? odhalen : odhalena} frakcí {FACTION_name} při nezákonném použití schopnosti {CULPRIT} (šance na odhalení {CHANCE}).\n\nDle zákonů uplatňovaných frakcí {FACTION_name} může schopnost {CULPRIT} používat pouze ten, kdo je držitelem titulu {TITLE}.\n\nTvým trestem je snížení frakčních vztahů o {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->

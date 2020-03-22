@@ -16,6 +16,8 @@
   <LoadGame>Načíst</LoadGame>
   <!-- EN: Options -->
   <Options>Nastavení</Options>
+  <!-- EN: Mod -->
+  <Mod>Mód</Mod>
   <!-- EN: Mods -->
   <Mods>Módy</Mods>
   <!-- EN: Save translation report -->
@@ -82,6 +84,8 @@
   <PlanetRainfall>Celkové množství srážek</PlanetRainfall>
   <!-- EN: Overall temperature -->
   <PlanetTemperature>Celková teplota</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>Populace</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>Nízké</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -94,6 +98,12 @@
   <PlanetTemperature_Normal>Normální</PlanetTemperature_Normal>
   <!-- EN: High -->
   <PlanetTemperature_High>Vysoká</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>Řídká</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>Normální</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>Hustá</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Základ</WorldSeed>
   <!-- EN: Randomize seed -->
@@ -138,6 +148,8 @@
   <ConfirmDisableCoreMod>Opravdu chceš deaktivovat jádro hry? Hra nebude fungovat, dokud nebudeš mít jiné módy, které nahradí VŠECHNY funkce jádra.\n\nRada: jiné módy mohou přepsat Defs jádra, pokud používají stejné jméno Def.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Opravdu chceš odstranit veškerý obsah pro '{0}'?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>Automaticky seřadit módy</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Odhlásit odběr</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -147,7 +159,7 @@
   <!-- EN: Workshop page -->
   <WorkshopPage>Stránka Workshopu</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
-  <UploadToSteamWorkshop>Nahrát na Workshop</UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>Nahrát na Steam Workshop</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>Aktualizovat na Workshopu</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
@@ -155,13 +167,31 @@
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>Přenos na Workshop selhal.\n\nPříčina: {0}</WorkshopSubmissionFailed>
   <!-- EN: Successfully uploaded {0}. -->
-  <WorkshopUploadSucceeded>Přenos z {0} byl úspěšný.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>Úspěšně nahráno {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
-  <Downloading>Nahráváme</Downloading>
+  <Downloading>Stahování</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>Zobrazit splněné požadavky</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>Kliknutím přejdeš na webovou stránku.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Zdroj</Source>
-  <!-- EN: For version(s): {0} -->
-  <ModTargetVersion>Pro verzi: {0}</ModTargetVersion>
+  <!-- EN: For game version(s) -->
+  <ModTargetVersion>Pro verzi hry</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>Tento mód musí být načten před:\n{0}\n</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>Tento mód musí být načten po:\n{0}\n</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>Závisí na: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>Není kompatibilní s: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>Tento mód není kompatibilní s:\n{0}\n</ModIncompatibleWithTip>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>K chodu vyžaduje následující módy:\n{0}\n</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Tento mód není určen pro aktuální verzi RimWorldu a pravděpodobně nebude správně fungovat.</ModNotMadeForThisVersion>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
@@ -170,7 +200,7 @@
   <MessageModNeedsWellFormattedTargetVersion>Mód vyžaduje informaci o podporované verzi ve správném formátu v souboru About.xml. Mělo by to vypadat nějak takto: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> je zastaralá. Pro další informace zkontroluj log.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Přetáhni pro změnu pořadí</DragToReorder>
-  
+
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
   <ChooseScenario>Vyber si scénář</ChooseScenario>
@@ -197,9 +227,9 @@
   <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>Všechna textová pole musí být vyplněna.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>Opravdu chceš tohle nahrát na Steam Workshop?\n\nMusíš souhlasit se smluvními podmínkami Steam Workshopu. Smluvní podmínky najdeš tady:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>Opravdu chceš tohle nahrát na Steam Workshop?\n\nMusíš souhlasit se smluvními podmínkami Steam Workshopu. Smluvní podmínky najdeš tu:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
-  <ConfirmContentAuthor>Zjevně můžeš nahrát pouze to, co jsi sám vytvořil.\n\nVytvořil jsi tento obsah ty sám?</ConfirmContentAuthor>
+  <ConfirmContentAuthor>Samozřejmě můžeš nahrát pouze to, co jsi sám vytvořil.\n\nVytvořil jsi tento obsah ty sám?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>Nekompatibilní</Incompatible>
   <!-- EN: Too many (max {0}):  -->
@@ -316,6 +346,10 @@
   <Randomize>Náhodně</Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>Stáří {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>{PAWN_race}, stáří {PAWN_ageFull}</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>{PAWN_race} ({PAWN_gender}), stáří {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Minulost</Backstory>
   <!-- EN: Incapable of -->
