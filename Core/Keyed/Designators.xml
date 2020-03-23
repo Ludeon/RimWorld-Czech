@@ -196,10 +196,12 @@
   <IdenticalThingExists>Tento objekt se zde již nachází.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>Tento plán se zde již nachází.</IdenticalBlueprintExists>
-  <!-- EN: The terrain here cannot support this. -->
-  <TerrainCannotSupport>Tento povrch je příliš nestabilní.</TerrainCannotSupport>
+  <!-- EN: {0_label} cannot be built on this terrain. -->
+  <TerrainCannotSupport>{0_label} nelze postavit na tomto povrchu.</TerrainCannotSupport>
   <!-- EN: {0_label} requires terrain that can support: {1_label} -->
-  <TerrainCannotSupport_TerrainAffordance>{0_label} vyžaduje vhodnější terén, který bude podporovat: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <TerrainCannotSupport_TerrainAffordance>{0_label} lze umístit pouze na podporované místo: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} z tohoto materiálu lze umístit pouze na podporované místo: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>Prostor je již obsazen.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -207,7 +209,7 @@
   <!-- EN: Must target a removable floor. -->
   <TerrainMustBeRemovable>Lze použít jen na podlahu, kterou lze odstranit.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
-  <MustBeOnMovingWater>Vodní kolo musí být na pohybující se vodě.</MustBeOnMovingWater>
+  <MustBeOnMovingWater>Vodní kolo musí být na tekoucí řece.</MustBeOnMovingWater>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->

@@ -99,7 +99,7 @@
   <!-- EN: recreation type -->
   <StatsReport_JoyKind>typ relaxace</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
-  <StatsReport_WorkToUninstall>práce k odmontování</StatsReport_WorkToUninstall>
+  <StatsReport_WorkToUninstall>Množství práce pro odmontování</StatsReport_WorkToUninstall>
   <!-- EN: Multiplier for growth {0} -->
   <StatsReport_PlantGrowth>Násobitel pro růst ({0})</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
@@ -112,9 +112,22 @@
   <StatsReport_WildMan>Divoký člověk</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Útok</StatsReport_NonToolAttack>
+
+  <!-- EN: Stuff -->
+  <Stat_Stuff_Name>Materiál</Stat_Stuff_Name>
+  <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
+  <Stat_Stuff_Desc>Materiál, ze kterého je tento předmět vyroben. To ovlivňuje mnoho dalších faktorů zahrnujících efektivitu zbraní, zbrojí a oděvů, včetně jejich tepelné izolace, celkové životnosti předmětů a staveb, i jejich vzhledu, tržní hodnoty a dalších.</Stat_Stuff_Desc>
+  <!-- EN: How much damage an object can take before being destroyed. -->
+  <Stat_HitPoints_Desc>Kolik škod dokáže tento předmět ustát, než dojde k jeho úplnému zničení.</Stat_HitPoints_Desc>
+  <!-- EN: The amount of work it takes to uninstall this. -->
+  <Stat_Thing_WorkToUninstall_Desc>Množství práce, které je potřebné k odmontování tohoto objektu.</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Which facilities can be used to produce this. -->
+  <Stat_Thing_CreatedAt_Desc>Jaká zařízení lze použít k vytvoření tohoto objektu.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Nelze selhat</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Provedení tohoto zákroku je pro pacienta bezpečné.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: This can only be placed on terrain of these types. -->
+  <Stat_Thing_TerrainRequirement_Desc>Tento objekt lze umístit pouze na podporovaný povrch těchto typů.</Stat_Thing_TerrainRequirement_Desc>
 
 </LanguageData>
