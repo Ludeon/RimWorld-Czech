@@ -150,6 +150,15 @@
   <MessageMiscarriedPoorHealth>{0} kvůli špatnému zdravotnímu stavu potratila.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} porodila.</MessageGaveBirth>
+  
+  <!-- EN: {PAWN_labelShort} won't be able to use the psychic amplifier while {PAWN_pronoun} has zero psychic sensitivity. -->
+  <MessagePsychicAmplifierNoSensitivity>{PAWN_labelShort} nebude moci používat psychický zesilovač, jelikož má nulovou psychickou citlivost.</MessagePsychicAmplifierNoSensitivity>
+  <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort} {PAWN_gender ? přišel : přišla} o úroveň implantátu {1}. Příčina: {2}.</MessageLostImplantLevelFromHediff>
+  <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
+  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort} {PAWN_gender ? utrpěl : utrpěla} poškození mozku (pokles zdraví o {1}). Příčina: {2}.</MessageReceivedBrainDamageFromHediff>
+  <!-- EN: {PAWN_labelShort} has exceeded the safe limit of psychic entropy. -->
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} {PAWN_gender ? překonal : překonala} bezpečnou hranici psychické entropie.</MessageWentOverPsychicEntropyLimit>
 
   <!-- EN: {NAMER_nameFull} has named {1} {NAMEE_nameFull} after being nuzzled. -->
   <MessageNuzzledPawnGaveNameTo>Zdá se, že {1} bude pěkný mazel. Poté, co se zvíře přitulilo, mu {NAMER_nameFull} {NAMER_gender ? začal : začala} říkat {NAMEE_nameFull}.</MessageNuzzledPawnGaveNameTo>
@@ -463,6 +472,10 @@
   <GoodwillChangedReason_ReceivedGift>obdržení daru</GoodwillChangedReason_ReceivedGift>
   <!-- EN: fulfilled a trade offer -->
   <GoodwillChangedReason_FulfilledTradeRequest>splnění obchodní nabídky</GoodwillChangedReason_FulfilledTradeRequest>
+  <!-- EN: finished a quest -->
+  <GoodwillChangedReason_FinishedQuest>dokončení úkolu</GoodwillChangedReason_FinishedQuest>
+  <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} {PAWN_gender ? použil : použila} schopnost {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>Frakce {0} přijala tvůj dar, ale nijak to neocenila.</MessageGiftGivenButNotAppreciated>
