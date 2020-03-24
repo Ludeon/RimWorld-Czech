@@ -287,7 +287,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Průraznost zbroje</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>Průraznost zbroje je hodnota zbroje, kterou tato zbraň ignoruje při každém zásahu.\n\nPokud je průraznost vyšší, než je hodnota zbroje cíle, tak to znamená, jako kdyby cíl neměl zbroj. V opačném případě, zbroj cíle je snížena dle hodnoty průraznosti.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>Průraznost zbroje je hodnota zbroje, kterou tato zbraň ignoruje při každém zásahu.\n\nPokud je průraznost vyšší než hodnota zbroje cíle, bude započítána, jako kdyby cíl nenosil žádnou zbroj. V opačném případě je průraznost snížena o hodnotu zbroje cíle.</ArmorPenetrationExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Přesnost</Accuracy>
   <!-- EN: Burst shot count -->
@@ -315,7 +315,7 @@
   <!-- EN: Direct hit chance -->
   <DirectHitChance>Šance na přímý zásah</DirectHitChance>
   <!-- EN: Miss radius -->
-  <MissRadius>Poloměr minutí</MissRadius>
+  <MissRadius>Poloměr rozptylu výstřelů</MissRadius>
   <!-- EN: Grows wild -->
   <GrowsWild>Roste planě</GrowsWild>
   <!-- EN: Harvestable -->

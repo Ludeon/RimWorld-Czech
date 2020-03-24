@@ -117,17 +117,49 @@
   <Stat_Stuff_Name>Materiál</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
   <Stat_Stuff_Desc>Materiál, ze kterého je tento předmět vyroben. To ovlivňuje mnoho dalších faktorů zahrnujících efektivitu zbraní, zbrojí a oděvů, včetně jejich tepelné izolace, celkové životnosti předmětů a staveb, i jejich vzhledu, tržní hodnoty a dalších.</Stat_Stuff_Desc>
+  <!-- EN: Weapon -->
+  <Stat_Weapon_Name>Zbraň</Stat_Weapon_Name>
+  <!-- EN: The weapon used by this turret. -->
+  <Stat_Weapon_Desc>Zbraň použitá v této střelecké věži.</Stat_Weapon_Desc>
   <!-- EN: How much damage an object can take before being destroyed. -->
   <Stat_HitPoints_Desc>Kolik škod dokáže tento předmět ustát, než dojde k jeho úplnému zničení.</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>Množství práce, které je potřebné k odmontování tohoto objektu.</Stat_Thing_WorkToUninstall_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>Jaká zařízení lze použít k vytvoření tohoto objektu.</Stat_Thing_CreatedAt_Desc>
+  <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
+  <Stat_Thing_Damage_Desc>Množství poškození, které tato zbraň působí.\n\nTo může být odvráceno nebo zmírněno hodnotou zbroje cíle.</Stat_Thing_Damage_Desc>
+  <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
+  <Stat_Thing_Ingestible_Joy_Desc>Relaxační hodnota při užívání tohoto objektu. Vyšší čísla uspokojí potřebu relaxace více.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The average life expectancy of this creature. -->
+  <Stat_Race_LifeExpectancy_Desc>Průměrná délka života tohoto tvora.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
+  <Stat_Race_Diet_Desc>Druhy potravin, které toto stvoření je schopné jíst.\n\nMůže jíst: {0}</Stat_Race_Diet_Desc>
+  <!-- EN: The type of leather this creature will yield when butchered. -->
+  <Stat_Race_LeatherType_Desc>Typ kůže, kterou lze porážkou tohoto tvora získat.</Stat_Race_LeatherType_Desc>
+  <!-- EN: The size of this creature's body, compared to an average adult human. -->
+  <Stat_Race_BodySize_Desc>Velikost těla tohoto tvora ve srovnání s průměrným dospělým člověkem.</Stat_Race_BodySize_Desc>
+  <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Kolik času uplyne mezi začátkem útoku zblízka touto zbraní a jejím následným zásahem.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <!-- EN: The amount of shots this weapon fires in each burst. -->
+  <Stat_Thing_Weapon_BurstShotCount_Desc>Počet výstřelů, které tato zbraň vystřelí při každé vystřelené dávce.</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <!-- EN: The fire rate of this weapon during each burst. -->
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>Rychlost střelby této zbraně během každé vystřelené dávky.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <!-- EN: The maximum range of this weapon. -->
+  <Stat_Thing_Weapon_Range_Desc>Maximální dostřel této zbraně.</Stat_Thing_Weapon_Range_Desc>
+  <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
+  <Stat_Thing_Weapon_MissRadius_Desc>Poloměr náhodného rozptylu výstřelů vypálených touto zbraní.\n\nVysoké hodnoty způsobí, že se projektily budou náhodně rozptylovat kolem cíle.</Stat_Thing_Weapon_MissRadius_Desc>
+  <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
+  <Stat_Thing_Weapon_DirectHitChance_Desc>Pravděpodobnost, že střela zasáhne přímo svůj cíl, pokud není zachycena či jinak zastavena, nebo pokud se jí cíl nevyhne.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Nelze selhat</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Provedení tohoto zákroku je pro pacienta bezpečné.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: The addictiveness of this drug. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>Návykovost této drogy.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
   <Stat_Thing_TerrainRequirement_Desc>Tento objekt lze umístit pouze na podporovaný povrch těchto typů.</Stat_Thing_TerrainRequirement_Desc>
+  <!-- EN: The amount of power this building will draw from the power grid. -->
+  <Stat_Thing_PowerConsumption_Desc>Množství energie, které bude tento objekt odebírat z elektrické sítě.</Stat_Thing_PowerConsumption_Desc>
 
 </LanguageData>
