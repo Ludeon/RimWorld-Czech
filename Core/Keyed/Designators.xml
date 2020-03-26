@@ -177,17 +177,17 @@
   <!-- EN: Too close to map edge. -->
   <TooCloseToMapEdge>Příliš blízko okraje mapy.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
-  <OutOfBounds>Mimo mapu.</OutOfBounds>
+  <OutOfBounds>Mimo hrací plochu.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
   <CannotPlaceInUndiscovered>Umístění objektů do neobjevených oblastí není možné.</CannotPlaceInUndiscovered>
   <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
-  <InteractionSpotBlocked>Bod interakce blokuje {1_labelShort}.</InteractionSpotBlocked>
+  <InteractionSpotBlocked>Interakční bod blokuje {1_labelShort}.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
-  <InteractionSpotOutOfBounds>Bod interakce je za ohraničením.</InteractionSpotOutOfBounds>
+  <InteractionSpotOutOfBounds>Interakční bod se nachází mimo hrací plochu.</InteractionSpotOutOfBounds>
   <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
-  <InteractionSpotWillBeBlocked>Bod interakce bude blokován předmětem {1_labelShort}.</InteractionSpotWillBeBlocked>
+  <InteractionSpotWillBeBlocked>Interakční bod bude blokovat {1_labelShort}.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
-  <WouldBlockInteractionSpot>{0} bude blokovat bod interakce předmětu {1}.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} bude blokovat interakční bod objektu {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Na tomto místě se již nachází {0}.</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
@@ -198,7 +198,7 @@
   <IdenticalBlueprintExists>Tento plán se zde již nachází.</IdenticalBlueprintExists>
   <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>{0_label} nelze postavit na tomto povrchu.</TerrainCannotSupport>
-  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordance>{0_label} lze umístit pouze na podporované místo: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} z tohoto materiálu lze umístit pouze na podporované místo: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
@@ -210,6 +210,12 @@
   <TerrainMustBeRemovable>Lze použít jen na podlahu, kterou lze odstranit.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>Vodní kolo musí být na tekoucí řece.</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>Interakční bod se překrývá s interakčním bodem {1_labelShort}.</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>Interakční bod by se překrývalo s jiným interakčním bodem ({1_labelShort}).</InteractionSpotOverlaps>
+  <!-- EN: Monument markers can't be placed directly adjacent to any building. -->
+  <MonumentAdjacentToBuilding>Šablonu pro monument nelze umístit přímo k sousedícím objektům.</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
