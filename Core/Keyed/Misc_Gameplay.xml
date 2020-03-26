@@ -926,8 +926,14 @@
   <HibernateWarningStandalonePacifist>Lodní reaktor je připraven k uvedení do provozu. Tento proces zabere asi 15 dnů.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
+  <!-- EN: neurotrainer ({0}) -->
+  <SkillNeurotrainerLabel>neurotrenér ({0})</SkillNeurotrainerLabel>
+  <!-- EN: Use skill neurotrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>Použij neurotrenér k naučení dovednosti {0}!</SkillNeurotrainerUseLabel>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <SkillNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní dovednost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě vylepší dovednost dané oblasti a přemění se v potřebnou nervovou tkáň.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{USER_labelShort} {USER_gender ? použil : použila} neurotrénovací mechanití sérum, což {USER_gender ? mu : jí} zlepšilo dovednost {1} z úrovně {2} na úroveň {3}.</NeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort} si použitím neurotrenéru {USER_gender ? zlepšil : zlepšila} dovednost {1} z úrovně {2} na úroveň {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
