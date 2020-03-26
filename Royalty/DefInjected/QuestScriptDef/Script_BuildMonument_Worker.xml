@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Monument completed -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>Monument dokončen</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.label.slateRef>
+  <!-- EN: You completed construction of the monument.\n\nYou must not destroy it for atleast 15 days, otherwise you will anger [asker_factionName] (-10 goodwill). -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>Dokončil jsi výstavbu monumentu.\n\nMonument nesmíš zbourat dalších 15 dnů, jinak se frakce [asker_factionName] bude zlobit (-10 bodů prestiže).</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Letter.text.slateRef>
+  <!-- EN: Monument destroyed -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monument zbourán</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you destroyed the monument after completing it.\n\nYou lost 10 goodwill with [asker_faction_name]. -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] se urazil[asker_pronoun], protože jsi monument zboural příliš brzo po jeho dokončení.\n\nPřišel jsi tak o 10 bodů prestiže s frakcí [asker_faction_name].</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>Monument nebourej dalších {0}!</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>Ponechat monument alespoň {0}!</BuildMonumentWorker.root.nodes.IsTrue-2.elseNode.elseNode.nodes.IsNull.elseNode.node.nodes.Delay.inspectString.slateRef>
   <!-- EN: The monument for the quest '[resolvedQuestName]' has been violated. Punishment will now occur. -->
   <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>Při úkolu '[resolvedQuestName]' došlo k poškození monumentu. Nyní přijde trest.</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Message.text.slateRef>
+  <!-- EN: Protect the monument for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>Následujících {0} chránit monument</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPart.slateRef>
+  <!-- EN: Protect the monument until {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPartTip.slateRef>Chránit dokud nebude {0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <!-- EN: Protect for {0} -->
+  <BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.inspectString.slateRef>Chránit následujících {0}</BuildMonumentWorker.root.nodes.IsTrue-2.node.nodes.Delay.inspectString.slateRef>
   <!-- EN: New monument marker arrived -->
   <BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Dorazila nová šablona pro monument</BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
   <BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Jelikož došlo ke zničení šablony pro monument, byla odeslána nová.</BuildMonumentWorker.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
-  <!-- EN: Protect the monument for {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPart.slateRef>TODO</BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPart.slateRef>
-  <!-- EN: Protect the monument until {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPartTip.slateRef>TODO</BuildMonumentWorker.root.nodes.Delay-0.expiryInfoPartTip.slateRef>
-  <!-- EN: Protect for {0} -->
-  <BuildMonumentWorker.root.nodes.Delay-0.inspectString.slateRef>TODO</BuildMonumentWorker.root.nodes.Delay-0.inspectString.slateRef>
   <!-- EN: Monument time expired -->
-  <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>Lhůta pro monument vypršela</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.label.slateRef>Lhůta pro monument vypršela</BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.label.slateRef>
   <!-- EN: Your time limit to construct the monument has expired. [failLetterEndingCommon] -->
-  <BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>Tvá lhůta pro stavbu monumentu vypršela. [failLetterEndingCommon]</BuildMonumentWorker.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>
+  <BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.text.slateRef>Tvá lhůta pro stavbu monumentu vypršela. [failLetterEndingCommon]</BuildMonumentWorker.root.nodes.Delay.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

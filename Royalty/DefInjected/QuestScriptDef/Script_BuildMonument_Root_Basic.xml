@@ -2,10 +2,14 @@
 <LanguageData>
   
   <!-- EN:
-    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task. Upon completion, [allRewardsDescriptions]</li>
+    <li>commonEnding->The monument is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nConstruction must be completed within [constructionTimeoutTicks_duration] of accepting the task. Upon completion, [allRewardsDescriptions][dontDestroyMonument]</li>
+    <li>dontDestroyMonument(priority=-10)-></li>
+    <li>dontDestroyMonument->\n\nIf you destroy the monument within 15 days of construction, your relations with [asker_factionName] will fall by 10.</li>
   -->
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
-    <li>commonEnding->Monument musí mít rozměry [monumentSize] a na jeho vybudování budeš potřebovat následující prostředky (v celkové hodnotě [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nVýstavba monumentu musí být dokončena v rámci [constructionTimeoutTicks_duration] po přijetí úkolu. Jakmile jej dokončíš, [allRewardsDescriptions]</li>
+    <li>commonEnding->Monument musí mít rozměry [monumentSize] a na jeho vybudování budeš potřebovat následující prostředky (v celkové hodnotě [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nVýstavba monumentu musí být dokončena v rámci [constructionTimeoutTicks_duration] po přijetí úkolu. Jakmile jej dokončíš, [allRewardsDescriptions][dontDestroyMonument]</li>
+    <li>dontDestroyMonument(priority=-10)-></li>
+    <li>dontDestroyMonument->\n\nPokud dojde ke zbourání monumentu během 15 dnů od jeho výstavby, tvé vztahy s frakcí [asker_factionName] klesnou o 10 bodů.</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>
