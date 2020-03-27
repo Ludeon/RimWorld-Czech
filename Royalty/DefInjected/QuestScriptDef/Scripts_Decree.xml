@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentDays] days after completion, otherwise [asker_nameDef] will be unhappy.</li>
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] days after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>TODO</Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -15,7 +15,7 @@
   <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument completed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
-  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentDays] days, otherwise [asker_nameDef] will be displeased. -->
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration] days, otherwise [asker_nameDef] will be displeased. -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
   <!-- EN: Monument destroyed -->
   <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>TODO</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
