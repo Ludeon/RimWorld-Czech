@@ -486,6 +486,8 @@
   <TraderWillNotTrade>Obchodník není ochotný tohle odkoupit.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Vyjednavač</Negotiator>
+  <!-- EN: Negotiator: {0} (+{1}) -->
+  <NegotiatorTradeDialogInfo>Vyjednavač: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
   <NegotiatorTalkingImpaired>{1_labelShort}, jakožto {1_gender? tvůj : tvá} {1_gender? vyjednavač : vyjednavačka}, kvůli zhoršenému zdravotnímu stavu špatně mluví.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
@@ -523,9 +525,15 @@
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
-  <SellableItemsTitle>Věci, které tento obchodník chce koupit</SellableItemsTitle>
+  <SellableItemsTitle>Zboží, které tento obchodník odkoupí</SellableItemsTitle>
+  <!-- EN: Never visited - stock unknown -->
+  <TraderNotVisitedYet>Nikdy nenavštíven - zásobování neznámé</TraderNotVisitedYet>
+  <!-- EN: Restocked since your last visit -->
+  <TraderRestockedSinceLastVisit>Zásoby doplněny od poslední návštěvy</TraderRestockedSinceLastVisit>
+  <!-- EN: Next restock: {0} days -->
+  <NextTraderRestock>Další doplnění zásob: {0} dnů</NextTraderRestock>
   <!-- EN: Creatures -->
-  <PawnsTabShort>Stvoření</PawnsTabShort>
+  <PawnsTabShort>Tvorové</PawnsTabShort>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
