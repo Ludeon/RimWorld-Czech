@@ -15,7 +15,7 @@
   <LetterRoyalTitleExpectation>{PAWN_possessive} úroveň očekávání nesmí být nižší než {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>TODO</LetterRoyalTitleConceitedTrait>
+  <LetterRoyalTitleConceitedTrait>Vzhledem k tomu, že {PAWN_labelShort} disponuje rysem {1}, bude požadovat, aby byla plně respektována privilegia tohoto titulu. Může například odmítat určité druhy činností, jíst potraviny nižší třídy nebo bude vydávat různá nařízení.</LetterRoyalTitleConceitedTrait>
 
   <!-- EN: {PAWN_labelShort} recieved the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} titul {TITLE}!</LetterGainedRoyalTitle>
@@ -77,22 +77,22 @@
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
   <LetterRoyalTitleChangingHeir>Jiného dědice lze vybrat kontaktováním frakce {FACTION_name} prostřednictvím radiostanice.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
-  <LetterTitleHeirLostLabel>Dědic je po smrti</LetterTitleHeirLostLabel>
+  <LetterTitleHeirLostLabel>Zemřel dědic titulu</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title recieved from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull} {HEIR_gender ? zemřel : zemřela}. Tímto {HOLDER_labelShort} {HEIR_gender ? přišel : přišla} o svého dědice titulu získaného od frakce {FACTION_name}. Chceš-li vybrat nového dědice, můžeš kontaktovat frakci {FACTION_name} prostřednictvím radiostanice.</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_gender ? Zemřel : Zemřela} {HEIR_nameFull}. Tímto {HOLDER_labelShort} {HOLDER_gender ? přišel : přišla} o {HEIR_gender ? svého : svou} {HEIR_gender ? určeného : určenou} {HEIR_gender ? dědice : dědičku}, {HEIR_gender ? který : která} {HEIR_gender ? měl : měla} zdědit {HOLDER_possessive} dříve získaný titul od frakce {FACTION_name}. Chceš-li stanovit nového dědice, kontaktuj tuto frakci prostřednictvím radiostanice.</LetterTitleHeirLost>
 
   <!-- EN: Title inheritance -->
-  <LetterTitleInheritance>TODO</LetterTitleInheritance>
+  <LetterTitleInheritance>Převod titulu</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
-  <LetterTitleInheritance_Base>TODO</LetterTitleInheritance_Base>
+  <LetterTitleInheritance_Base>Od momentu, kdy {PAWN_nameFull} {PAWN_gender ? zemřel : zemřela}, byl {PAWN_possessive} titul převeden na dědice, a to v souladu se zákony frakce udělujících tyto tituly.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>TODO</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>{PAWN_possessive} titul {TITLE} {HEIR_gender ? zdědil : zdědila} {HEIR_nameFull} dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name}. {HEIR_possessive} původní titul {REPLACEDTITLE} byl nahrazen zděděným titulem {TITLE}.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>TODO</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} titul {TITLE} by dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name} {HEIR_gender ? měl : měla} zdědit {HEIR_nameFull}, jenže {HEIR_gender ? ten : ta} už má titul {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>TODO</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>{PAWN_possessive} titul {TITLE} {HEIR_gender ? zdědil : zdědila} {HEIR_nameFull} dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>TODO</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>{PAWN_possessive} titul {TITLE} nebyl nikým zděděn, protože {PAWN_gender ? neměl : neměla} pro tento titul určeného dědice.</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->

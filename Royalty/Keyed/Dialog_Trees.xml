@@ -5,7 +5,7 @@
   <!-- EN: Change heir of {HOLDER_labelShort}'s {TITLE} title from {HEIR_labelShort} -->
   <RequestChangeRoyalHeir>Změnit dědice titulu {TITLE} ({HOLDER_gender ? držitel : držitelka} {HOLDER_labelShort}) (nynější {HEIR_gender ? dědic : dědička} {HEIR_labelShort})</RequestChangeRoyalHeir>
   <!-- EN: Designate heir of {HOLDER_labelShort}'s {TITLE} title -->
-  <RequestSetRoyalHeir>{PAWN_gender ? Určený : Určená} {PAWN_gender ? dědic : dědička} titulu {TITLE} ({HOLDER_gender ? držitel : držitelka} {HOLDER_labelShort})</RequestSetRoyalHeir>
+  <RequestSetRoyalHeir>Nově {PAWN_gender ? určený : určená} {PAWN_gender ? dědic : dědička} titulu {TITLE} ({HOLDER_gender ? držitel : držitelka} {HOLDER_labelShort})</RequestSetRoyalHeir>
   <!-- EN: already in progress for {PAWN_labelShort} -->
   <RequestChangeRoyalHeirAlreadyInProgress>již probíhá - {PAWN_labelShort}</RequestChangeRoyalHeirAlreadyInProgress>
   
