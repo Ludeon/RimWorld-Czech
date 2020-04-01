@@ -61,7 +61,7 @@
   <!-- EN: Facilities -->
   <StatsReport_Facilities>Vybavení</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
-  <StatsReport_BodySize>Násobitel pro tělesnou váhu ({0})</StatsReport_BodySize>
+  <StatsReport_BodySize>Násobitel pro velikost těla ({0})</StatsReport_BodySize>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
   <StatsReport_MeleeDPSExplanation>DPS = Poškození zblízka * Šance na zásah zblízka / Prodleva mezi útoky (v sekundách)</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
@@ -151,10 +151,20 @@
   <Stat_Thing_Weapon_MissRadius_Desc>Poloměr náhodného rozptylu výstřelů vypálených touto zbraní.\n\nVysoké hodnoty způsobí, že se projektily budou náhodně rozptylovat kolem cíle.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
   <Stat_Thing_Weapon_DirectHitChance_Desc>Pravděpodobnost, že střela zasáhne přímo svůj cíl, pokud není zachycena či jinak zastavena, nebo pokud se jí cíl nevyhne.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <!-- EN: The skills required to perform this recipe. -->
+  <Stat_Recipe_SkillRequirements_Desc>Požadované dovednosti k provedení tohoto receptu.</Stat_Recipe_SkillRequirements_Desc>
+  <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
+  <Stat_Recipe_Skill_Desc>Hlavní dovednost použitá při provádění tohoto receptu.\n\nUrčuje kvalitu výsledného produktu či akce a tato dovednost je zlepšována, když je tento recept prováděn.</Stat_Recipe_Skill_Desc>
+  <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
+  <Stat_Recipe_WorkSpeedStat_Desc>Který parametr postavy určuje pracovní rychlost tohoto receptu.\n\nČím vyšší je hodnota parametru pracovníka, tím rychleji danou činnost dokončí.</Stat_Recipe_WorkSpeedStat_Desc>
+  <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Násobitel šance, že tato operace bude úspěšná. Náročnější operace mají nižší multiplikátory.\n\nSkutečná šance na úspěch operace je ovlivněna také lékařem, vybavením a použitými léky.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Nelze selhat</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Provedení tohoto zákroku je pro pacienta bezpečné.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: The chance the patient will die upon failure of this surgery. -->
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Šance, že pacient zemře při selhání chirurga u této operace.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: The addictiveness of this drug. -->
   <Stat_Thing_Drug_Addictiveness_Desc>Návykovost této drogy.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
