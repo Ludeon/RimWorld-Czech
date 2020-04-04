@@ -117,14 +117,14 @@
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>Zemřel {1}: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>Vůdce je mrtev: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeadersDeath>Zemřel známý {3} {OLDLEADER_nameFull} z frakce {1}.\n\nNový {3} je odteď {NEWLEADER_nameFull}.</LetterLeadersDeath>
+  <LetterLeadersDeath>{OLDLEADER_gender ? Vůdce : Vůdkyně} {OLDLEADER_nameFull} z frakce {1} je po smrti.\n\n{OLDLEADER_possessive} místo {NEWLEADER_gender ? převzal : převzala} {NEWLEADER_nameFull}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
-  <LetterLeaderChangedLabel>Nový {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChangedLabel>Nový vůdce: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} už není {3} frakce {1}.\n\nNový {3} je odteď {NEWLEADER_nameFull}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} už není {OLDLEADER_gender ? vůdcem : vůdkyní} ve frakci {1}.\n\n{OLDLEADER_possessive} místo {NEWLEADER_gender ? převzal : převzala} {NEWLEADER_nameFull}.</LetterLeaderChanged>
 
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Poslední kapkou bylo: {0}</FinalStraw>
