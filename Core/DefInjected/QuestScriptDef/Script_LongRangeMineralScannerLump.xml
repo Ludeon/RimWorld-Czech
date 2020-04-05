@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+    <li>questDescription->Za pomoci snímače minerálů s dlouhým dosahem nalezl[worker_x_a] [worker_definite] drahocennou hroudu bohatou na [targetMineable].\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní tuto hroudu vytěží za [timeoutTicks_duration].\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>targetMineable(targetMineable==MineableGold)->zlatou rudu</li>
+    <li>targetMineable(targetMineable==MineableSilver)->stříbrnou rudu</li>
+    <li>targetMineable(targetMineable==MineableSteel)->stlačenou ocel</li>
+    <li>targetMineable(targetMineable==MineablePlasteel)->stlačenou plastocel</li>
+    <li>targetMineable(targetMineable==MineableComponentsIndustrial)->stlačené stroje</li>
+    <li>targetMineable(targetMineable==MineableUranium)->uranovou rudu</li>
+    <li>targetMineable(targetMineable==MineableJade)->jadeitovou rudu</li>
+    <li>targetMineable(p=0.00000000001)->[targetMineable_label]</li>
+  </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [subName]</li>
+    <li>questName->[subName]</li>
+    <li>subName->[adj] Resources</li>
+    <li>subName->[adj] Minerals</li>
+    <li>subName->[adj] Ores</li>
+    <li>subName->[adj] Wealth</li>
+    <li>subName->[adj] Mineables</li>
+    <li>subName->[adj] Lump</li>
+    <li>subName->[adj] Mining Project</li>
+    <li>adj->Distant</li>
+    <li>adj->Far</li>
+    <li>adj->Long-Range</li>
+    <li>adj->Unknown</li>
+    <li>adj->Discovered</li>
+    <li>adj->Scanned</li>
+    <li>adj->Detected</li>
+    <li>adj->Found</li>
+  -->
+  <LongRangeMineralScannerLump.questNameRules.rulesStrings>
+    <li>questName->[subName]</li>
+    <li>subName->[adj][adjPlu] &#8203;zdroje</li>
+    <li>subName->[adj][adjPlu] &#8203;minerály</li>
+    <li>subName->[adj][adjPlu] &#8203;bohatství</li>
+    <li>subName->[adj][adjFem] &#8203;ruda</li>
+    <li>subName->[adj][adjFem] &#8203;hrouda</li>
+    <li>subName->[adjbudouci_1] &#8203;těžba</li>
+    <li>subName->[adjbudouci_2] &#8203;těžební &#8203;projekt</li>
+    <li>adj->Vzdálen</li>
+    <li>adj->Dalek</li>
+    <li>adj->Hodnotn</li>
+    <li>adj->Prozkouman</li>
+    <li>adj->Odkryt</li>
+    <li>adj->Odhalen</li>
+    <li>adj->Nalezen</li>
+    <li>adj->Drahocenn</li>
+    <li>adj->Objeven</li>
+    <li>adjPlu->é</li>
+    <li>adjFem->á</li>
+    <li>adjbudouci_1->Budoucí</li>
+    <li>adjbudouci_1->Chystaná</li>
+    <li>adjbudouci_2-></li>
+    <li>adjbudouci_2->Budoucí</li>
+    <li>adjbudouci_2->Chystaný</li>
+    <li>adjbudouci_2->Další</li>
+  </LongRangeMineralScannerLump.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
+  <LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Hroudu bohatou na [targetMineable] vytěžil někdo jiný. Platnost úkolu '[resolvedQuestName]' vypršela.</LongRangeMineralScannerLump.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
