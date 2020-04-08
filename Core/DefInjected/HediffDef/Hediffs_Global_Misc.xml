@@ -3,9 +3,19 @@
   
   <!-- EN: anesthetic -->
   <Anesthetic.label>anestezie</Anesthetic.label>
+  <!-- EN: Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious. -->
+  <Anesthetic.description>Uspávací látky v krevním řečišti. Anestetika uvádějí pacienty do umělého spánku.</Anesthetic.description>
+  <!-- EN: wearing off -->
+  <Anesthetic.stages.wearing_off.label>odeznívající</Anesthetic.stages.wearing_off.label>
+  <!-- EN: woozy -->
+  <Anesthetic.stages.woozy.label>malátný stav</Anesthetic.stages.woozy.label>
+  <!-- EN: sedated -->
+  <Anesthetic.stages.sedated.label>pod sedativy</Anesthetic.stages.sedated.label>
   
   <!-- EN: blood loss -->
   <BloodLoss.label>ztráta krve</BloodLoss.label>
+  <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
+  <BloodLoss.description>Snížení obvyklého objemu krve. Mírná ztráta krve má relativně malý dopad, ale když se ztráta krve výrazně zvýší, bude vážně narušen transport kyslíku krví a oběť ztratí schopnost pohybu. Extrémní ztráta krve vede ke smrti.\n\nZtráta krve se v průběhu času přirozeně nahrazuje, protože tělo pomalu regeneruje svou zásobu krve.</BloodLoss.description>
   <!-- EN: minor -->
   <BloodLoss.stages.minor-0.label>mírná</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
@@ -17,16 +27,29 @@
   <!-- EN: extreme -->
   <BloodLoss.stages.extreme.label>extrémní</BloodLoss.stages.extreme.label>
   
+  <!-- EN: brain shock -->
+  <BrainShock.label>mozkový šok</BrainShock.label>
+  <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
+  <BrainShock.description>Následky elektrického šoku v mozku. Příčinou je obvykle odezva mozkových implantátů zasažených elektromagnetickými impulsy.</BrainShock.description>
+  <!-- EN: a brain shock -->
+  <BrainShock.labelNoun>mozkový šok</BrainShock.labelNoun>
+  
   <!-- EN: catatonic breakdown -->
   <CatatonicBreakdown.label>katatonický kolaps</CatatonicBreakdown.label>
+  <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
+  <CatatonicBreakdown.description>Stav psychického šoku, který vede k naprosté neschopnosti fungovat. Oběť se zhroutí, prakticky do bezvědomí.</CatatonicBreakdown.description>
   <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>katatonický kolaps</CatatonicBreakdown.labelNoun>
   
   <!-- EN: cryptosleep sickness -->
   <CryptosleepSickness.label>nemoc z cryptospánku</CryptosleepSickness.label>
+  <!-- EN: After-effects of using a cryptosleep pod. Cryptosleep suspends and replaces many bodily functions in order to prevent aging and death. Upon exiting cryptosleep, the body takes time to restart and rebalance its natural metabolic processes. While this is ongoing, the patient suffers from nausea, dizziness, and a sense of fuzziness in the mind. -->
+  <CryptosleepSickness.description>Následky použití cryptospánkové komory. Cryptospánek pozastavuje a nahrazuje mnoho tělesných funkcí, aby se zabránilo stárnutí a smrti. Po ukončení cryptospánku tělo potřebuje čas, aby se restartovalo a znovu vyvážilo jeho přirozené metabolické procesy. Během této doby trpí pacient nevolností, závratěmi a pocitem rozpačitosti v mysli.</CryptosleepSickness.description>
   
   <!-- EN: drug overdose -->
   <DrugOverdose.label>předávkování drogama</DrugOverdose.label>
+  <!-- EN: Generalized toxic effects due to over-concentration of drugs in the bloodstream. -->
+  <DrugOverdose.description>Zobecněné toxické účinky v důsledku nadměrné koncentrace drog v krevním řečišti.</DrugOverdose.description>
   <!-- EN: Overdose: {0} -->
   <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>Předávkování: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is overdosing! -->
@@ -42,8 +65,10 @@
   
   <!-- EN: food poisoning -->
   <FoodPoisoning.label>otrava jídlem</FoodPoisoning.label>
+  <!-- EN: Gastrointestinal illness caused by consuming decayed or unclean food. It can be caused by eating rotten food, by incompetent cooks accidentally poisoning meals, or by eating from unsafe wild sources. The patient will vomit and feel sick for some time. -->
+  <FoodPoisoning.description>Gastrointestinální onemocnění způsobené konzumací zkaženého nebo znečištěného jídla. Příčinou otravy může být konzumace kontaminovaného jídla, nekompetentními kuchaři, kteří neuvědoměle jídlo otráví, nebo konzumací nebezpečných zdrojů nalezených v přírodě. Pacient bude nějakou dobu zvracet a bude mu špatně.</FoodPoisoning.description>
   <!-- EN: recovering -->
-  <FoodPoisoning.stages.recovering.label>zotavuje se</FoodPoisoning.stages.recovering.label>
+  <FoodPoisoning.stages.recovering.label>polevuje</FoodPoisoning.stages.recovering.label>
   <!-- EN: major -->
   <FoodPoisoning.stages.major.label>vážná</FoodPoisoning.stages.major.label>
   <!-- EN: initial -->
@@ -51,6 +76,8 @@
   
   <!-- EN: heart attack -->
   <HeartAttack.label>infarkt</HeartAttack.label>
+  <!-- EN: A disruption in the heart's normal beating rhythm. Heart attacks can be debilitatingly painful. They can worsen and lead to death, or recover. -->
+  <HeartAttack.description>Narušení normálního srdečního rytmu. Srdeční infarkty mohou způsobit vysilující bolest. Mohou se zhoršovat a vést k smrti nebo zotavení.</HeartAttack.description>
   <!-- EN: a heart attack -->
   <HeartAttack.labelNoun>infarkt</HeartAttack.labelNoun>
   <!-- EN: painful -->
@@ -62,6 +89,8 @@
   
   <!-- EN: pregnant -->
   <Pregnant.label>těhotenství</Pregnant.label>
+  <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
+  <Pregnant.description>Toto stvoření přivádí na svět potomky. Porodí, když těhotenství dosáhne svého vrcholu. V případě hladovění nebo zranění může dojít k potratu.</Pregnant.description>
   <!-- EN: {0} pregnant -->
   <Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>{0} je těhotná</Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is pregnant! -->
@@ -75,16 +104,33 @@
   <!-- EN: late-stage -->
   <Pregnant.stages.latestage.label>pozdní fáze</Pregnant.stages.latestage.label>
   
+  <!-- EN: psychic hangover -->
+  <PsychicHangover.label>psychická kocovina</PsychicHangover.label>
+  <!-- EN: An after-effect of psychic entropy. Psychic hangover is bothersome, but not dangerous. -->
+  <PsychicHangover.description>Následek psychické entropie. Psychická kocovina je obtěžující, není však nebezpečná.</PsychicHangover.description>
+  <!-- EN: a psychic hangover -->
+  <PsychicHangover.labelNoun>psychická kocovina</PsychicHangover.labelNoun>
+  <!-- EN: forming -->
+  <PsychicHangover.stages.forming.label>formující</PsychicHangover.stages.forming.label>
+  <!-- EN: buzzing -->
+  <PsychicHangover.stages.buzzing.label>bzučící</PsychicHangover.stages.buzzing.label>
+  
   <!-- EN: psychic shock -->
   <PsychicShock.label>psychický šok</PsychicShock.label>
+  <!-- EN: A state of psychic chaos in the brain and mind. Caused by psychic attacks or critical level of psychic entropy, this effect is debilitating until it wears off. -->
+  <PsychicShock.description>Psychický stav, který v mozku a mysli vytváří chaos. Příčinou jsou psionické útoky nebo psychická entropie na kritické úrovni. Tento účinek postupně ustupuje, až nakonec vymizí úplně.</PsychicShock.description>
   <!-- EN: a psychic shock -->
   <PsychicShock.labelNoun>psychický šok</PsychicShock.labelNoun>
   
   <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>nemoc ze vzkříšení</ResurrectionSickness.label>
+  <!-- EN: After-effects of being resurrected by mechanite injection. Artificially-kickstarted body processes take time to rebalance themselves. -->
+  <ResurrectionSickness.description>Následky prodělaného vzkříšení po vstříknutí mechanitů. Uměle nakopávací tělesné procesy vyžadují určitý čas, aby se vrátily zpět do rovnováhy.</ResurrectionSickness.description>
   
   <!-- EN: toxic buildup -->
   <ToxicBuildup.label>toxické nahromadění</ToxicBuildup.label>
+  <!-- EN: Poison in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.\n\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.\n\nCreatures who die with toxic buildup cannot be eaten. -->
+  <ToxicBuildup.description>Jed v krevním řečišti. Může pocházet z různých zdrojů, včetně toxinů z prostředí, jedových kousnutí nebo otrávených zbraní.\n\nPři vysokých dávkách je toxické nahromadění smrtelné. I při nízkých dávkách může způsobit rakovinu.\n\nTvory, kteří zemřou v důsledku toxického nahromadění, nelze jíst.</ToxicBuildup.description>
   <!-- EN: initial -->
   <ToxicBuildup.stages.initial-0.label>počáteční</ToxicBuildup.stages.initial-0.label>
   <!-- EN: initial -->
