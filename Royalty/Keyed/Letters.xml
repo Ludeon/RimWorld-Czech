@@ -102,21 +102,21 @@
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>TODO</LetterFinishedSpeech>
+  <LetterFinishedSpeech>{ORGANIZER_labelShort} {ORGANIZER_gender ? dokončil : dokončila} svůj projev.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>TODO</LetterTerribleSpeech>
+  <LetterTerribleSpeech>Bylo to opravdu otřesné - nejisté, plné trapných vtipů a depresivních příběhů.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>TODO</LetterUninspiringSpeech>
+  <LetterUninspiringSpeech>Nebylo to úplně inspirativní - neoriginální, nudné a bez jakéhokoliv náznaku vášně.</LetterUninspiringSpeech>
   <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>TODO</LetterEncouragingSpeech>
+  <LetterEncouragingSpeech>Bylo to povzbudivé a dobře odprezentované.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>TODO</LetterInspirationalSpeech>
+  <LetterInspirationalSpeech>Bylo to pozoruhodně inspirativní, plné intenzity a odhodlání.</LetterInspirationalSpeech>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>TODO</LetterSpeechInterrupted>
+  <LetterSpeechInterrupted>Jelikož byl projev přerušen při {0}, nebyl tak účinný.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>TODO</LetterSpeechCancelled>
+  <LetterSpeechCancelled>{ORGANIZER_gender ? Tvůj : Tvá} {ORGANIZER_bestRoyalTitleDef} svou řeč {ORGANIZER_gender ? nedokončil : nedokončila}. Byla přerušena před dosažením 50%. Nemělo to žádný účinek.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
-  <LetterLabelSpeechCancelled>TODO</LetterLabelSpeechCancelled>
+  <LetterLabelSpeechCancelled>Projev byl přerušen</LetterLabelSpeechCancelled>
 
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
