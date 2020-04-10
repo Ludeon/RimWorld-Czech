@@ -366,6 +366,8 @@
   <PreciousLumpLabel>Drahocenná hrouda ({0})</PreciousLumpLabel>
   <!-- EN: no active research project -->
   <NoActiveResearchProjectToFinish>žádný aktivní výzkumný projekt</NoActiveResearchProjectToFinish>
+  <!-- EN: Cannot research: No research bench -->
+  <CannotResearchNoBench>Nelze provádět výzkum: Chybí výzkumné stanoviště</CannotResearchNoBench>
   <!-- EN: turret -->
   <Turret>střelecká věž</Turret>
   <!-- EN: turrets -->
@@ -656,6 +658,10 @@
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Frakce</Faction>
+  <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
+  <FactionDesc>Frakce, ke které {PAWN_labelShort} v současnosti patří.</FactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
+  <ExtraFactionDesc>Frakce, ke které {PAWN_labelShort} původně {PAWN_gender ? patřil : patřila}. Pokud někdy opustí svou současnou frakci, vrátí se do své původní.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Vybaveno</Equipped>
   <!-- EN: nothing -->

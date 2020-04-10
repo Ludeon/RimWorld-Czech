@@ -529,7 +529,9 @@
 
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Před použitím tohoto nástroje deaktivuj všechny módy.</MessageDisableModsBeforeCleaningTranslationFiles>
-  <!-- EN: Done. Affected folder: {0} -->
+  <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
+  <MessageUnpackBeforeCleaningTranslationFiles>Před použitím tohoto nástroje rozbal a poté smaž všechny komprimované soubory související s tímto překladem.</MessageUnpackBeforeCleaningTranslationFiles>
+  <!-- EN: Done. Affected folders: {0} -->
   <MessageTranslationFilesCleanupDone>Hotovo. Dotčené adresáře:\n{0}</MessageTranslationFilesCleanupDone>
 
   <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
@@ -547,5 +549,12 @@
   <MessageCannotAcceptQuest>Tento úkol nyní nelze přijmout.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
   <MessageQuestAccepted>{0_definite} {0_gender ? přijal : přijala} úkol: {1}</MessageQuestAccepted>
+
+  <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
+  <MessageNoResearchBenchForTechprint>Nelze aplikovat: Není k dispozici žádné dostupné výzkumné stanoviště.</MessageNoResearchBenchForTechprint>
+  
+  <!-- Research -->
+  <!-- EN: Warning: Research will not begin until you build a research bench. -->
+  <MessageResearchMenuWithoutBench>Varování: Výzkum nezačne, dokud nepostavíš výzkumné stanoviště.</MessageResearchMenuWithoutBench>
 
 </LanguageData>
