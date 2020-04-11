@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIn return, [allRewardsDescriptions]\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
+    <li>qualityInfo-></li>
+  -->
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Nedaleká osada, [settlement_label], přichází se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPokud nabídku splníš, [allRewardsDescriptions]\n\nPro uskutečnění tohoto obchodu vyšli karavanu s požadovanými položkami. Přibližná doba cesty je [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->normální kvality nebo i lepší </li>
+    <li>qualityInfo-></li>
+    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==1)->jeden bod</li>
+    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==2)->dva body</li>
+    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==3)->tři body</li>
+    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==4)->čtyři body</li>
+    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount>=5)->[royalFavorReward_amount] bodů</li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Caravan to [settlement_label]</li>
+    <li>questName->Trade with [settlement_label]</li>
+    <li>questName->Selling to [settlement_label]</li>
+    <li>questName->Supplies for [settlement_label]</li>
+    <li>questName->A [special] [trade]</li>
+    <li>special->Special</li>
+    <li>special->Unique</li>
+    <li>special->Non-traditional</li>
+    <li>trade->Trade</li>
+    <li>trade->Exchange</li>
+    <li>trade->Deal</li>
+    <li>trade->Offer</li>
+  -->
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Vyslání &#8203;karavany ([settlement_label])</li>
+    <li>questName->Obchod &#8203;s &#8203;osadou [settlement_label]</li>
+    <li>questName->[requests] &#8203;zboží ([settlement_label])</li>
+    <li>questName->[supplies] ([settlement_label])</li>
+    <li>questName->[special_trade]</li>
+    <li>special_trade->Speciální &#8203;[tradeMasFem]</li>
+    <li>special_trade(p=0.5)->Jedinečný &#8203;[tradeMas]</li>
+    <li>special_trade(p=0.5)->Jedinečná &#8203;[tradeFem]</li>
+    <li>special_trade->Netradiční &#8203;[tradeMasFem]</li>
+    <li>tradeMas->obchod</li>
+    <li>tradeMas->kšeft</li>
+    <li>tradeMas->návrh</li>
+    <li>tradeMas->obchodní &#8203;[transactionMas]</li>
+    <li>tradeFem->nabídka</li>
+    <li>tradeFem->dohoda</li>
+    <li>tradeFem->transakce</li>
+    <li>tradeFem->obchodní [transactionFem]</li>
+    <li>tradeMasFem->[tradeMas]</li>
+    <li>tradeMasFem->[tradeFem]</li>
+    <li>transactionMas->návrh</li>
+    <li>transactionFem->transakce</li>
+    <li>transactionFem->dohoda</li>
+    <li>transactionFem->nabídka</li>
+    <li>supplies->Dodávka &#8203;zboží</li>
+    <li>supplies->Zásobování</li>
+    <li>requests->Poptávka &#8203;po</li>
+    <li>requests->Doprava</li>
+    <li>requests->Přeprava</li>
+  </TradeRequest.questNameRules.rulesStrings>
+  <!-- EN: Quest failed: [resolvedQuestName] -->
+  <TradeRequest.root.nodes.Letter.label.slateRef>Úkol se nezdařil: [resolvedQuestName]</TradeRequest.root.nodes.Letter.label.slateRef>
+  <!-- EN: [faction_name] became hostile to you. -->
+  <TradeRequest.root.nodes.Letter.text.slateRef>Frakce [faction_name] se stala vůči tobě nepřátelskou.</TradeRequest.root.nodes.Letter.text.slateRef>
+  <!-- EN: [asker_faction_royalFavorLabel] -->
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>Královská přízeň</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
+  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>Kdo by měl za splnění obchodní nabídky získat [TradeRequest_royalFavorReward_amount] královské přízně?</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  
+</LanguageData>
