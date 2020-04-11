@@ -279,15 +279,19 @@
   <!-- EN: equipped by {1_labelShort} -->
   <EquippedBy>vybaven {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>Členové frakce {0} je chtějí zničit.\n    Odměna: {1} ({2})</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>Frakce {0} je chce zničit.\n    Odměna: {1} ({2})</QuestTargetDestroyInspectString>
+  <!-- EN: Departing on shuttle in {0} -->
+  <ShuttleDelayInspectString>Za {0} odletí v raketoplánu</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Do odletu zbývá {0}</ShuttleLeaveDelayInspectString>
+  <!-- EN: Should depart on shuttle -->
+  <ShouldDepartOnShuttleInspectString>Má odletět v raketoplánu</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Zbývající čas: {0}</WorldObjectTimeout>
   <!-- EN: Contents: {0} ({1}) -->
   <ItemStashContents>Obsahuje: {0} ({1})</ItemStashContents>
   <!-- EN: Click to sort by this column. -->
-  <ClickToSortByThisColumn>Kliknutím seřadit dle tohoto sloupce.</ClickToSortByThisColumn>
+  <ClickToSortByThisColumn>Kliknutím seřadíš dle tohoto sloupce.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
   <WorkPriorityShiftClickTip>Shift + Klik: Zvýšit prioritu (všem)\nShift + Pravý klik: Snížit prioritu (všem)</WorkPriorityShiftClickTip>
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
@@ -382,6 +386,8 @@
   <Required>Vyžaduje</Required>
   <!-- EN: Complete -->
   <Complete>Kompletní</Complete>
+  <!-- EN: Click to view this quest in quests tab -->
+  <ClickToViewInQuestsTab>Kliknutím zobrazíš tento úkol na kartě Úkoly.</ClickToViewInQuestsTab>
   <!-- EN: Quest -->
   <Quest>Úkol</Quest>
   <!-- EN: Foliage kill radius -->
@@ -654,6 +660,10 @@
   <PawnMainDescFactionedWrap>{0} z frakce {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} ve frakci {1}</PawnTitleDescWrap>
+  <!-- EN: {0} under {1} -->
+  <PawnMainDescUnderFactionedWrap>{0} pod frakcí {1}</PawnMainDescUnderFactionedWrap>
+  <!-- EN: {0} under {1}\nHome faction: {2} -->
+  <PawnMainDescTempFactionedWrap>{0} pod frakcí {1}\nDomovská frakce: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
