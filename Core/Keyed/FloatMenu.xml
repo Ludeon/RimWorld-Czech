@@ -2,33 +2,35 @@
 <LanguageData>
 
   <!-- EN: Call {0} -->
-  <CallOnRadio>Zavolej! - {0}</CallOnRadio>
-  <!-- EN: Cannot use ({0}) -->
-  <CannotUseReason>Nelze použít. {0}</CannotUseReason>
-  <!-- EN: Cannot use (solar flare) -->
-  <CannotUseSolarFlare>Nelze použít, protože jsou sluneční erupce.</CannotUseSolarFlare>
-  <!-- EN: Cannot use (no power) -->
-  <CannotUseNoPower>Nelze použít, protože není energie.</CannotUseNoPower>
-  <!-- EN: Cannot use (no path) -->
-  <CannotUseNoPath>Nelze použít. (žádná cesta)</CannotUseNoPath>
-  <!-- EN: Cannot use (reserved) -->
-  <CannotUseReserved>Nelze použít. (vyhrazeno)</CannotUseReserved>
-  <!-- EN: Cannot use (full) -->
-  <CannotUseFull>Nelze použít. (plno)</CannotUseFull>
+  <CallOnRadio>Zavolat - {0}</CallOnRadio>
+  <!-- EN: Cannot use: {0} -->
+  <CannotUseReason>Nelze použít ({0})</CannotUseReason>
+  <!-- EN: Cannot use: EMP -->
+  <CannotUseSolarFlare>Nelze použít (EMP)</CannotUseSolarFlare>
+  <!-- EN: Cannot use: No power -->
+  <CannotUseNoPower>Nelze použít (chybí energie)</CannotUseNoPower>
+  <!-- EN: Cannot use: No path -->
+  <CannotUseNoPath>Nelze použít (nevede tam cesta)</CannotUseNoPath>
+  <!-- EN: Cannot use: Reserved -->
+  <CannotUseReserved>Nelze použít (vyhrazeno)</CannotUseReserved>
+  <!-- EN: Cannot use: full -->
+  <CannotUseFull>Nelze použít (plno)</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>{1_gender ? Vůdce : Vůdkyně} {1_labelShort} je {1_gender ? nedostupný : nedostupná}</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>Vůdce je nedostupný</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>Není povoleno</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
-  <FireAt>Střílej! - {1_label}</FireAt>
+  <FireAt>Střílet na - {1_label}</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>mimo dosah</OutOfRange>
   <!-- EN: too close -->
   <TooClose>příliš blízko</TooClose>
-  <!-- EN: cannot hit target -->
-  <CannotHitTarget>nelze zasáhnout cíl</CannotHitTarget>
+  <!-- EN: Cannot hit target -->
+  <CannotHitTarget>Nelze zasáhnout cíl</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
   <IsIncapableOfViolenceLower>{1_labelShort} není {1_gender ? schopen : schopna} násilí</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
@@ -41,12 +43,12 @@
   <CannotAttackSelf>nelze útočit na sebe</CannotAttackSelf>
 
   <!-- EN: Man {1_labelShort} -->
-  <OrderManThing>Obsluhuj! - {1_labelShort}</OrderManThing>
+  <OrderManThing>Obsluhovat - {1_labelShort}</OrderManThing>
   
   <!-- EN: Melee attack {1_label} -->
-  <MeleeAttack>Zaútoč zblízka! - {1_label}</MeleeAttack>
+  <MeleeAttack>Zaútočit zblízka - {1_label}</MeleeAttack>
   <!-- EN: Melee attack {1_label} to death -->
-  <MeleeAttackToDeath>Umlať k smrti! - {1_label}</MeleeAttackToDeath>
+  <MeleeAttackToDeath>Umlátit k smrti - {1_label}</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>žádná cesta</NoPath>
 
@@ -88,8 +90,8 @@
   <CantInteractAnimalAsleep>zvíře spí</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>zvíře zaneprázdněno</CantInteractAnimalBusy>
-  <!-- EN: construction skill too low -->
-  <ConstructionSkillTooLow>dovednost Konstrukce je příliš nízká</ConstructionSkillTooLow>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>dovednost {0} je příliš nízká</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>chybí komponenty</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -123,40 +125,45 @@
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>maximální úroveň dosažena</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
-  <UpgradeImplant>Vylepši si {0} na úroveň {1}!</UpgradeImplant>
+  <UpgradeImplant>Vylepšit {0} na úroveň {1}</UpgradeImplant>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>Sněz! - {1_labelShort}</ConsumeThing>
+  <ConsumeThing>Sníst - {1_labelShort}</ConsumeThing>
   
-  <!-- EN: Cannot go here (no path) -->
-  <CannotGoNoPath>Nelze sem jít, protože sem nevede žádná cesta.</CannotGoNoPath>
+  <!-- EN: Cannot go here: no path -->
+  <CannotGoNoPath>Sem nelze jít (žádná cesta)</CannotGoNoPath>
   <!-- EN: Go here -->
-  <GoHere>Běž sem!</GoHere>
+  <GoHere>Jít sem</GoHere>
   
   <!-- EN: Arrest {0} -->
-  <Arrest>Zadrž! - {0}</Arrest>
-  <!-- EN: Try to arrest {1_label} -->
-  <TryToArrest>Pokus se zadržet! - {1_label}</TryToArrest>
+  <Arrest>Zadržet - {0}</Arrest>
+  <!-- EN: Try to arrest {1_label} ({2} chance) -->
+  <TryToArrest>Pokusit se zadržet - {1_label} (šance {2})</TryToArrest>
   <!-- EN: Cannot arrest -->
-  <CannotArrest>Nelze zadržet.</CannotArrest>
+  <CannotArrest>Nelze zadržet</CannotArrest>
 
   <!-- EN: Capture {1_label} -->
-  <Capture>Zajmi! - {1_label}</Capture>
+  <Capture>Zajmout - {1_label}</Capture>
   <!-- EN: Cannot capture -->
-  <CannotCapture>Nelze zajmout.</CannotCapture>
+  <CannotCapture>Nelze zajmout</CannotCapture>
 
   <!-- EN: Rescue {1_label} -->
-  <Rescue>Zachraň! - {1_label}</Rescue>
+  <Rescue>Zachránit - {1_label}</Rescue>
   <!-- EN: Cannot rescue -->
-  <CannotRescue>Nelze zachránit.</CannotRescue>
+  <CannotRescue>Nelze zachránit</CannotRescue>
 
   <!-- EN: Carry {1_label} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>Přenes do cryptospánkové komory! - {1_label}</CarryToCryptosleepCasket>
+  <CarryToCryptosleepCasket>Přenést do cryptospánkové komory - {1_label}</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
-  <CannotCarryToCryptosleepCasket>Nelze přenést do cryptospánkové komory.</CannotCarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Nelze přenést do cryptospánkové komory</CannotCarryToCryptosleepCasket>
+
+  <!-- EN: Carry {0_label} to shuttle -->
+  <CarryToShuttle>Přenést do raketoplánu - {0_label}</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
-  <NoCryptosleepCasket>Žádná cryptospánková komora není dostupná.</NoCryptosleepCasket>
+  <NoCryptosleepCasket>Není dostupná žádná cryptospánková komora.</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>Dočasní členové frakce nejsou povoleni.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Není dostupná žádná volná uzavřená postel označená jako vězeňská.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -181,96 +188,104 @@
   <MinSkill>min. dovednost</MinSkill>
   
   <!-- EN: Equip {0} -->
-  <Equip>Vybav se! - {0}</Equip>
+  <Equip>Vybavit se - {0}</Equip>
   <!-- EN: (brawler will be unhappy) -->
   <EquipWarningBrawler>(rváč bude nešťastný)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>Nelze se vybavit. - {0}</CannotEquip>
+  <CannotEquip>Nelze se vybavit - {0}</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
-  <CannotManThing>Nelze obsluhovat. - {1_labelShort}</CannotManThing>
+  <CannotManThing>Nelze obsluhovat - {1_labelShort}</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Vynuceně obleč! - {1_labelShort}</ForceWear>
+  <ForceWear>Vynuceně obléknout - {1_labelShort}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
-  <CannotWear>Nelze si obléct. - {1_label}</CannotWear>
+  <CannotWear>Nelze si obléknout - {1_label}</CannotWear>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>chybějící části těla</CannotWearBecauseOfMissingBodyParts>
   
   <!-- EN: Cannot pick up {1_label} -->
-  <CannotPickUp>Nelze zvednout. - {1_label}</CannotPickUp>
+  <CannotPickUp>Nelze sebrat - {1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
-  <CannotPickUpAll>Nelze zvednout. - {1_label} (vše)</CannotPickUpAll>
+  <CannotPickUpAll>Nelze zvednout - {1_label} (vše)</CannotPickUpAll>
   <!-- EN: Pick up {1_label} -->
-  <PickUp>Zvedni! - {1_label}</PickUp>
+  <PickUp>Sebrat - {1_label}</PickUp>
   <!-- EN: Pick up {1_label} (all) -->
-  <PickUpAll>Zvedni! - {1_label} (vše)</PickUpAll>
+  <PickUpAll>Sebrat - {1_label} (vše)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
-  <PickUpSome>Zvedni! - {1_labelShort} (část)</PickUpSome>
+  <PickUpSome>Sebrat - {1_labelShort} (část)</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
-  <PickUpCount>Zvedni {1_labelShort} x{{0}}</PickUpCount>
+  <PickUpCount>Sebrat {1_labelShort} x{{0}}</PickUpCount>
   
-  <!-- EN: Cannot give {1_label} to pack animal -->
-  <CannotGiveToPackAnimal>Nelze dát na nákladní zvíře. - {1_label}</CannotGiveToPackAnimal>
-  <!-- EN: Cannot give {1_label} (all) to pack animal -->
-  <CannotGiveToPackAnimalAll>Nelze dát na nákladní zvíře. - {1_label} (vše)</CannotGiveToPackAnimalAll>
-  <!-- EN: Give {1_label} to pack animal -->
-  <GiveToPackAnimal>Dej na nákladní zvíře! - {1_label}</GiveToPackAnimal>
-  <!-- EN: Give {1_label} (all) to pack animal -->
-  <GiveToPackAnimalAll>Dej na nákladní zvíře! - {1_label} (vše)</GiveToPackAnimalAll>
-  <!-- EN: Give {1_labelShort} to pack animal... -->
-  <GiveToPackAnimalSome>Dej na nákladní zvíře! - {1_label} (část)</GiveToPackAnimalSome>
-  <!-- EN: Take {1_labelShort} x{{0}} -->
-  <GiveToPackAnimalCount>Vezmi {1_labelShort} x{{0}}</GiveToPackAnimalCount>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <CannotGiveToPackAnimal>Naložit na nákladní zvíře - {1_label}</CannotGiveToPackAnimal>
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
+  <CannotGiveToPackAnimalAll>Nelze naložit na nákladní zvíře - {1_label} (vše)</CannotGiveToPackAnimalAll>
+  <!-- EN: Load {1_label} onto pack animal -->
+  <GiveToPackAnimal>Naložit na nákladní zvíře - {1_label}</GiveToPackAnimal>
+  <!-- EN: Load {1_label} (all) onto pack animal -->
+  <GiveToPackAnimalAll>Naložit na nákladní zvíře - {1_label} (vše)</GiveToPackAnimalAll>
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
+  <GiveToPackAnimalSome>Naložit na nákladní zvíře - {1_label} (část)</GiveToPackAnimalSome>
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
+  <GiveToPackAnimalCount>Naložit na nákladní zvíře - {1_labelShort} x{{0}}</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
-  <CannotLoadIntoCaravan>Nelze naložit na karavanu. - {1_label}</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravan>Nelze naložit na karavanu - {1_label}</CannotLoadIntoCaravan>
   <!-- EN: Cannot load {1_label} (all) into caravan -->
-  <CannotLoadIntoCaravanAll>Nelze naložit na karavanu. - {1_label} (vše)</CannotLoadIntoCaravanAll>
+  <CannotLoadIntoCaravanAll>Nelze naložit na karavanu - {1_label} (vše)</CannotLoadIntoCaravanAll>
   <!-- EN: Load {1_label} into caravan -->
-  <LoadIntoCaravan>Nalož na karavanu! - {1_label}</LoadIntoCaravan>
+  <LoadIntoCaravan>Naložit na karavanu - {1_label}</LoadIntoCaravan>
   <!-- EN: Load {1_label} (all) into caravan -->
-  <LoadIntoCaravanAll>Nalož na karavanu! - {1_label} (vše)</LoadIntoCaravanAll>
+  <LoadIntoCaravanAll>Naložit na karavanu - {1_label} (vše)</LoadIntoCaravanAll>
   <!-- EN: Load {1_labelShort} into caravan... -->
-  <LoadIntoCaravanSome>Nalož na karavanu! - {1_labelShort} (část)</LoadIntoCaravanSome>
+  <LoadIntoCaravanSome>Naložit na karavanu - {1_labelShort} (část)</LoadIntoCaravanSome>
   <!-- EN: Load {1_labelShort} x{{0}} -->
-  <LoadIntoCaravanCount>Nalož {1_labelShort} x{{0}}</LoadIntoCaravanCount>
+  <LoadIntoCaravanCount>Naložit {1_labelShort} x{{0}}</LoadIntoCaravanCount>
   <!-- EN: overweight -->
   <OverweightLower>přetíženo</OverweightLower>
 
   <!-- EN: Cannot carry {1_label} and leave the area -->
-  <CannotCarryToExit>Nelze naložit a opustit oblast. - {1_label}</CannotCarryToExit>
+  <CannotCarryToExit>Nelze naložit a opustit oblast - {1_label}</CannotCarryToExit>
   <!-- EN: Carry {1_label} and leave the area -->
-  <CarryToExit>Nalož a opusť oblast! - {1_label}</CarryToExit>
+  <CarryToExit>Naložit a opustit oblast - {1_label}</CarryToExit>
   <!-- EN: Capture {1_label} and leave the area -->
-  <CarryToExitAndCapture>Zajmi a opusť oblast! - {1_label}</CarryToExitAndCapture>
+  <CarryToExitAndCapture>Zajmout a opustit oblast - {1_label}</CarryToExitAndCapture>
   
   <!-- EN: Strip {1_label} -->
-  <Strip>Svlékni! - {1_label}</Strip>
+  <Strip>Svléknout - {1_label}</Strip>
   <!-- EN: Cannot strip {1_label} -->
-  <CannotStrip>Nelze svléct. - {1_label}</CannotStrip>
+  <CannotStrip>Nelze svléknout - {1_label}</CannotStrip>
+  <!-- EN: Cannot drop {1_label} -->
+  <CannotDrop>Nelze zahodit - {1_label}</CannotDrop>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>dočasný člen frakce</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>Výstroj dočasných členů frakce nelze měnit.</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>by nahradilo uzamčené oblečení</WouldReplaceLockedApparel>
 
   <!-- EN: Self-destruct here -->
-  <SelfDestructHere>Proveď zde sebezničení!</SelfDestructHere>
+  <SelfDestructHere>Provést zde sebezničení</SelfDestructHere>
   
   <!-- EN: Drop {1_label} -->
-  <Drop>Upusť! - {1_label}</Drop>
+  <Drop>Upustit - {1_label}</Drop>
 
   <!-- EN: Rest until healed -->
-  <UseMedicalBed>Odpočívej až do uzdravení!</UseMedicalBed>
+  <UseMedicalBed>Odpočívat až do uzdravení</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>Není zraněný</NotInjured>
   <!-- EN: occupied by {0} -->
-  <SomeoneElseSleeping>Obsazeno. - {0}</SomeoneElseSleeping>
+  <SomeoneElseSleeping>Obsazeno - {0}</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
-  <TradeWith>Obchoduj! - {0}</TradeWith>
+  <TradeWith>Obchodovat - {0}</TradeWith>
   <!-- EN: Cannot trade -->
-  <CannotTrade>Nelze obchodovat.</CannotTrade>
+  <CannotTrade>Nelze obchodovat</CannotTrade>
 
   <!-- EN: Open {0_label} -->
-  <Open>Otevři! - {0_label}</Open>
+  <Open>Otevřít - {0_label}</Open>
   <!-- EN: Cannot open {0_label} -->
-  <CannotOpen>Nelze otevřít. - {0_label}</CannotOpen>
+  <CannotOpen>Nelze otevřít - {0_label}</CannotOpen>
   
   <!-- EN: Enter {0} -->
   <EnterMap>Vstoupit - {0}</EnterMap>
@@ -288,49 +303,53 @@
   <ApproachingSite>Přiblížit - {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Nabídnout dary</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>Obchodovat - {0}</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
-  <EnterCryptosleepCasket>Vstup do cryptospánkové komory!</EnterCryptosleepCasket>
+  <EnterCryptosleepCasket>Vstoupit do cryptospánkové komory</EnterCryptosleepCasket>
   <!-- EN: Open cryptosleep casket -->
-  <OpenCryptosleepCasket>Otevři cryptospánkovou komoru!</OpenCryptosleepCasket>
+  <OpenCryptosleepCasket>Otevřít cryptospánkovou komoru</OpenCryptosleepCasket>
   <!-- EN: Get in shuttle -->
-  <EnterShuttle>Nastup do raketoplánu!</EnterShuttle>
+  <EnterShuttle>Nastoupit do raketoplánu</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
   <CannotGenericWork>Nelze {0} - {1}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
-  <CannotGenericWorkCustom>Nelze {0}</CannotGenericWorkCustom>
+  <CannotGenericWorkCustom>Nelze provést - {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize (incapable of {0}) -->
+  <!-- EN: Cannot prioritize: incapable of {0} -->
   <CannotMissingHealthActivities>Nelze upřednostnit (není způsobilý {0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>Již provádí činnost {0} - {2_labelShort}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>Již provádí činnost {0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize (will never do {0}) -->
-  <CannotPrioritizeWorkTypeDisabled>Nelze upřednostnit, protože nikdy nebude dělat činnost {0}.</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Cannot prioritize: will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>Nelze upřednostnit (nikdy nebude provádět činnost {0})</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: Cannot trade: lacking necessary title -->
-  <CannotTradeMissingTitleAbility>Nelze obchodovat, protože nemá potřebný titul.</CannotTradeMissingTitleAbility>
+  <CannotTradeMissingTitleAbility>Nelze obchodovat (nemá potřebný titul)</CannotTradeMissingTitleAbility>
 
-  <!-- EN: Cannot prioritize (will never {0}) -->
-  <CannotPrioritizeWorkGiverDisabled>Nelze upřednostnit, protože: "{0}" je deaktivováno.</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: Cannot prioritize: will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>Nelze upřednostnit (nikdy nebude {0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nikdy nebude {0}</WillNever>
 
-  <!-- EN: Cannot prioritize (not assigned to {0}) -->
-  <CannotPrioritizeNotAssignedToWorkType>Nelze upřednostnit, protože nemá přidělenou činnost {0}.</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: Cannot prioritize: not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>Nelze upřednostnit (nemá přidělenou činnost {0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>- nemá přiděleno</NotAssigned>
 
-  <!-- EN: Cannot prioritize (research is a long-term task) -->
-  <CannotPrioritizeResearch>Nelze upřednostnit, protože výzkum je dlouhodobý úkol.</CannotPrioritizeResearch>
+  <!-- EN: Cannot prioritize: research is a long-term task -->
+  <CannotPrioritizeResearch>Nelze upřednostnit (výzkum je dlouhodobý úkol)</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>Nelze upřednostnit ({1_label} je zakázáno)</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize (forbidden) -->
+  <!-- EN: Cannot prioritize: forbidden -->
   <CannotPrioritizeCellForbidden>Nelze upřednostnit (zakázáno)</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Mimo povolenou oblast</CannotPrioritizeForbiddenOutsideAllowedArea>
@@ -377,17 +396,17 @@
   <!-- EN: Form caravan here -->
   <FormCaravanHere>Vytvořit zde karavanu</FormCaravanHere>
   <!-- EN: Give to {0} -->
-  <GiveToCaravan>Poskytnout podporu: {0}</GiveToCaravan>
+  <GiveToCaravan>Poskytnout podporu - {0}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Nabídnout jako dar frakci {0} ({1} prestiže)</GiveGiftViaTransportPods>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
-  <FreePrisoner>Osvoboď zajatce!</FreePrisoner>
+  <FreePrisoner>Osvobodit zajatce</FreePrisoner>
   <!-- EN: Offer help -->
-  <OfferHelp>Nabídni pomoc!</OfferHelp>
+  <OfferHelp>Nabídnout pomoc</OfferHelp>
 
   <!-- EN: apply {0} -->
-  <ApplyTechprint>aplikuj {0}!</ApplyTechprint>
+  <ApplyTechprint>aplikovat {0}</ApplyTechprint>
   
 </LanguageData>
