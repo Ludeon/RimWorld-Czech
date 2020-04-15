@@ -52,4 +52,28 @@
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Příliš blízko k jinému majáku</TooCloseToOtherBeacon>
   
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>musí být {0_gender ? naverbován : naverbována}.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>schopnost ještě. Bude použitelná za {0}.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>schopnost už do fronty zařazená je.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}. </AbilityReadyText>
+  
+  <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
+  <AbilitySpeechTooltip>Zahájí trůnní řeč. {ORGANIZER_labelShort} usedne na svůj trůn a vyzve všechny kolonisty, aby si poslechli {ORGANIZER_possessive} projev. Pokud vše proběhne hladce, posluchači se budou cítit inspirovaní a získají respekt ke {ORGANIZER_gender ? svému : své} {ORGANIZER_gender ? přednášejícímu : přednášející}. V opačném případě projev způsobí společenské škody. Výsledek závisí na sociálních dovednostech, kterými {ORGANIZER_labelShort} disponuje.</AbilitySpeechTooltip>
+  <!-- EN: no usable throne. text_todo -->
+  <AbilitySpeechDisabledNoUsableThrone>žádný použitelný trůn.</AbilitySpeechDisabledNoUsableThrone>
+  <!-- EN: already giving a speech. text_todo -->
+  <AbilitySpeechDisabledAlreadyGivingSpeech>již přednáší.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: Next speech available in text_todo -->
+  <AbilitySpeechCooldown>Další projev dostupný za</AbilitySpeechCooldown>
+  <!-- EN: Possible outcomes text_todo -->
+  <AbilitySpeechPossibleOutcomes>Možné závěry</AbilitySpeechPossibleOutcomes>
+  <!-- EN: {ORGANIZER_labelShort}'s {1}: {2} -->
+  <AbilitySpeechStatInfo>{1} ({ORGANIZER_possessive}): {2}</AbilitySpeechStatInfo>
 </LanguageData>
