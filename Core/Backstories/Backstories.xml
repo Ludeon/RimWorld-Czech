@@ -4455,6 +4455,17 @@
     <desc>[PAWN_nameDef] byl[PAWN_pronoun] {PAWN_gender ? potulným : potulnou} {PAWN_gender ? umělcem : umělkyní} na středověkém světě.\n\n[PAWN_nameDef] je často k zastižení, jak vypráví příběhy nebo zpívá písně, a dokáže se dobře ochránit před nástrahami na cestách. Pokaždé, když je potřeba udělat těžkou práci je [PAWN_possessive] nepřítomnost až nápadně podezřelá.</desc>
   </MedievalMinstrel95>
   
+  <MedievalNomad12>
+    <!-- EN: Medieval nomad -->
+    <title>středověký nomád</title>
+    <titleFemale>středověká kočovnice</titleFemale>
+    <!-- EN: Nomad -->
+    <titleShort>nomád</titleShort>
+    <titleShortFemale>kočovnice</titleShortFemale>
+    <!-- EN: Born to a nomadic family in a feudal society, [PAWN_nameDef] was instructed in the arts of speechcraft, sleight of hand, horse riding.\n\n        [PAWN_pronoun] was always running around the camp doing odd jobs to help [PAWN_possessive] extended family. -->
+    <desc>[PAWN_nameDef] vyrůstal[PAWN_pronoun] v nomádské rodině ve feudální společnosti, která [PAWN_objective] naučila rétorice, obratnosti a jízdě na koni.\n\nVždy pobíhal[PAWN_pronoun] kolem tábora a prováděl[PAWN_pronoun] všemožné úkoly, aby pomohl[PAWN_pronoun] své velké rodině.</desc>
+  </MedievalNomad12>
+  
   <MedievalPlower14>
     <!-- EN: medieval plower -->
     <title>středověký oráč</title>
@@ -5591,11 +5602,13 @@
   
   <PoliticalCaptive7>
     <!-- EN: political captive -->
-    <title>TODO</title>
+    <title>politický vězeň</title>
+    <titleFemale>politická vězenkyně</titleFemale>
     <!-- EN: captive -->
-    <titleShort>TODO</titleShort>
+    <titleShort>zajatec</titleShort>
+    <titleShortFemale>zajatkyně</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was kidnapped by a rival family and held for ransom. To pass the time in captivity, [PAWN_pronoun] read books and practiced martial arts. [PAWN_nameDef] had few opportunities to develop [PAWN_possessive] social skills. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] byl[PAWN_pronoun] unesen[PAWN_pronoun] konkurenční rodinou a držen[PAWN_pronoun] kvůli výkupnému. Svůj čas v zajetí trávil[PAWN_pronoun] četbou knih a cvičením bojových umění. [PAWN_nameDef] měl[PAWN_pronoun] málo příležitostí k rozvoji svých společenských dovedností.</desc>
   </PoliticalCaptive7>
   
   <Politician57>
@@ -5732,11 +5745,13 @@
   
   <Propagandist86>
     <!-- EN: propagandist -->
-    <title>TODO</title>
+    <title>propagandista</title>
+    <titleFemale>propagandistka</titleFemale>
     <!-- EN: propagandist -->
-    <titleShort>TODO</titleShort>
+    <titleShort>propagandista</titleShort>
+    <titleShortFemale>propagandistka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a skilled artist and military propagandist. [PAWN_pronoun] created works of art depicting [PAWN_possessive] lords and armies fovourably. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] byl[PAWN_pronoun] {PAWN_gender ? zručným : zručnou} {PAWN_gender ? umělcem : umělkyní} a {PAWN_gender ? válečným : válečnou} {PAWN_gender ? propagandistou : propagandistkou}. Vytvářel[PAWN_pronoun] umělecká díla, která příznivě vyobrazovala [PAWN_possessive] lordy včetně jejich armád.</desc>
   </Propagandist86>
   
   <ProstheticSurgeon0>
@@ -5895,11 +5910,13 @@
   
   <RebelliousStudent74>
     <!-- EN: Rebellious student -->
-    <title>TODO</title>
+    <title>vzpurný student</title>
+    <titleFemale>vzpurná studentka</titleFemale>
     <!-- EN: Student -->
-    <titleShort>TODO</titleShort>
+    <titleShort>student</titleShort>
+    <titleShortFemale>studentka</titleShortFemale>
     <!-- EN: [PAWN_nameDef] had a shot at an education, but [PAWN_pronoun] rebelled against the injustices [PAWN_pronoun] saw and was expelled from three schools. This left [PAWN_objective] with a sense of integrity, but a lack of social skills.\n\n        [PAWN_nameDef] sought self-actualization. [PAWN_pronoun] spent [PAWN_possessive] days meditating and practicing katana and staff fighting techniques. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] měl[PAWN_pronoun] šanci získat vzdělání, ale bouřil[PAWN_pronoun] se proti nespravedlnosti, kterou viděl[PAWN_pronoun], což vedlo k {PAWN_gender ? jeho : jejímu} vyloučení ze tří škol. To v {PAWN_gender ? něm : ní} zanechalo pocit integrity, a naopak nedostatek sociálních dovedností.\n\n[PAWN_nameDef] usiloval[PAWN_pronoun] o seberealizaci. Své dny trávil[PAWN_pronoun] meditací a procvičováním bojových technik s katanou a holí.</desc>
   </RebelliousStudent74>
   
   <RebelSlave14>
@@ -8121,6 +8138,17 @@
     <!-- EN: Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt. -->
     <desc>Poté, co [PAWN_possessive] blízký přítel utrpěl smrtelné šrámy jak od šelmy, ihned se [PAWN_nameDef] vydal[PAWN_pronoun] na lov zodpovědné bestie. Vystopoval[PAWN_pronoun] ji v nedaleké vesnici, kde potkal[PAWN_pronoun] jednoho z vesničanů, který na sobě nosil její kožich.</desc>
   </VengefulHunter32>
+  
+  <VengefulNomad67>
+    <!-- EN: Vengeful nomad -->
+    <title>pomstychtivý nomád</title>
+    <titleFemale>pomstychtivá kočovnice</titleFemale>
+    <!-- EN: Nomad -->
+    <titleShort>nomád</titleShort>
+    <titleShortFemale>kočovnice</titleShortFemale>
+    <!-- EN: After refusing the wild demands of a tyrannical king, [PAWN_nameDef]'s nomad band was marked as an outlaw group and systematically hunted.\n\n        [PAWN_nameDef]'s family was eventually captured. Those who weren't killed were taken as slaves. Sold to the owner of a manufactory, [PAWN_nameDef] swore that one day [PAWN_pronoun] would have [PAWN_possessive] revenge. -->
+    <desc>Poté, co [PAWN_nameDef] odmítl[PAWN_pronoun] šílené požadavky tyranského krále, byla [PAWN_possessive] nomádská rodina označena za gang zločinců a systematicky lovena.\n\n[PAWN_possessive] rodina byla nakonec zajata. Ti, kteří nebyli zabiti, byli zotročeni. [PAWN_nameDef] byl[PAWN_pronoun] prodán[PAWN_pronoun] majiteli továrny a přísahal[PAWN_pronoun], že se jednoho dne pomstí.</desc>
+  </VengefulNomad67>
   
   <VersatileWorker13>
     <!-- EN: versatile worker -->
