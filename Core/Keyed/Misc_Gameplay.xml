@@ -706,8 +706,8 @@
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\nKlávesová zkratka: {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
-  <!-- EN: View information about this object. -->
-  <DefInfoTip>Zobrazit informace o tomto objektu.</DefInfoTip>
+  <!-- EN: View information. -->
+  <DefInfoTip>Zobrazit informace.</DefInfoTip>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -993,9 +993,9 @@
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
-  <UnfinishedItem>{0} nedokončeno</UnfinishedItem>
+  <UnfinishedItem>{0_gender ? Nedokončený : Nedokončená : Nedokončené} {0}</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>{0} {1} nedokončeno</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>{1_gender ? Nedokončený : Nedokončená : Nedokončené} {1} {0}</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <!-- EN: Quality -->
