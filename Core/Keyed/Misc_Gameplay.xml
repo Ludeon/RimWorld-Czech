@@ -127,7 +127,7 @@
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>Pokrok zastaven do oplodnění.</ProgressStoppedUntilFertilized>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>vyžaduje {0} na úrovni {2}, máš {1}</SkillTooLow>
+  <SkillTooLow>vyžaduje {0} na úrovni {2}, má {1}</SkillTooLow>
   <!-- EN: Freezing -->
   <Freezing>Mrznutí</Freezing>
   <!-- EN: Overheating -->
@@ -157,7 +157,7 @@
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Cílová hladina paliva: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
-  <Enemies>x nepřítel</Enemies>
+  <Enemies>nepřítel</Enemies>
   <!-- EN: time passed -->
   <TimePassed>uplynulý čas</TimePassed>
   <!-- EN: current radius -->
@@ -304,12 +304,8 @@
   <AllowedAreaShiftClickTip>Shift + Klik: Nastavit všem Domovská oblast\nShift + Pravý klik: Nastavit všem Bez omezení</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + Klik: Označit vše\nShift + Pravý klik: Zrušit vše</CheckboxShiftClickTip>
-  <!-- EN: Known threat: {0} -->
-  <KnownSiteThreat>Známá hrozba: {0}</KnownSiteThreat>
-  <!-- EN: Known threats: {0} -->
-  <KnownSiteThreats>Známé hrozby: {0}</KnownSiteThreats>
-  <!-- EN: Threats: Unknown -->
-  <KnownSiteThreatsNone>Hrozby: Neznámé</KnownSiteThreatsNone>
+  <!-- EN: {0} {1} -->
+  <KnownSiteThreatEnemyCountAppend>{0}x {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Požadované dovednosti</SkillRequirements>
   <!-- EN: Products -->
@@ -377,15 +373,15 @@
   <!-- EN: Cannot research: No research bench -->
   <CannotResearchNoBench>Nelze provádět výzkum: Chybí výzkumné stanoviště</CannotResearchNoBench>
   <!-- EN: turret -->
-  <Turret>x střelecká věž</Turret>
+  <Turret>střelecká věž</Turret>
   <!-- EN: turrets -->
-  <Turrets>x střelecká věž</Turrets>
+  <Turrets>střelecká věž</Turrets>
   <!-- EN: mortar -->
-  <Mortar>x minomet</Mortar>
+  <Mortar>minomet</Mortar>
   <!-- EN: mortars -->
-  <Mortars>x minomet</Mortars>
+  <Mortars>minomet</Mortars>
   <!-- EN: enemy -->
-  <Enemy>x nepřítel</Enemy>
+  <Enemy>nepřítel</Enemy>
   <!-- EN: Required -->
   <Required>Vyžaduje</Required>
   <!-- EN: Complete -->
