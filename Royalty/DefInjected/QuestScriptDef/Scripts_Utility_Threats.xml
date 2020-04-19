@@ -12,14 +12,24 @@
     <li>threatDescription->[hivesCount] insect hives will burrow up from underground.</li>
   -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
-    <li>threatDescription->způsobí vynoření brouků z podzemí. Celkem vznikne [hivesCount]ks hnízd.</li>
+    <li>threatDescription->se z podzemí vynoří [Util_Infestation_hivesCount] začnou vylézat brouci.</li>
+    <li>Util_Infestation_hivesCount(hivesCount==1)->jedno hnízdo, ze kterého</li>
+    <li>Util_Infestation_hivesCount(hivesCount==2)->dvě hnízda, ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount==3)->tři hnízda, ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount==4)->čtyři hnízda, ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount>=5)->[hivesCount] &#8203;hnízd, ze kterých</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->a pack of [animalCount] manhunting [animalKind_labelPlural] will arrive.</li>
   -->
   <Util_ManhunterPack.questDescriptionRules.rulesStrings>
-    <li>threatDescription->přivolá celkem [animalCount]ks lidožravých [animalKind_labelPlural].</li>
+    <li>threatDescription->dorazí [Util_ManhunterPack_animalCount].</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==1)->jeden [animalKind_label] požírající lidi</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==2)->skupina dvou lidožravých [animalKind_labelPlural]</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==3)->skupina tří lidožravých [animalKind_labelPlural]</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==4)->skupina čtyř lidožravých [animalKind_labelPlural]</li>
+    <li>Util_ManhunterPack_animalCount(animalCount>=5)->[animalCount] lidožravých [animalKind_labelPlural]</li>
   </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   
   <!-- EN:
@@ -27,6 +37,10 @@
     <li>defaultSiteAppearedLetterText->A new site has appeared nearby.\n\n[allSitePartsDescriptions]</li>
     <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
   -->
-  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>TODO</Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+  <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
+    <li>threatDescription->dojde k odhalení nové nedaleké oblasti, ve které se bude nacházet [allSitePartsDescriptions] Tato hrozba bude přetrvávat, dokud se se vším nevypořádáš.</li>
+    <li>defaultSiteAppearedLetterText->Nedaleko se objevila nová oblast.\n\nNachází se tam [allSitePartsDescriptions]</li>
+    <li>defaultSiteAppearedLetterLabel->Odhalení oblasti: [site_label]</li>
+  </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
   
 </LanguageData>

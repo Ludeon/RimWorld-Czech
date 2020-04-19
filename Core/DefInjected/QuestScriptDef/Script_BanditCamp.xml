@@ -5,7 +5,12 @@
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].\n\nIf we succeed, [allRewardsDescriptions]</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name] ti poslal zprávu. Zdá se, že banda [siteFaction_pawnsPlural] sídlící v blízkém táboře útočí na jeho karavany. Tento tábor náleží frakci [siteFaction_name].\n\n[asker_nameDef] tě žádá, abys tento tábor zlikvidoval, což znamená eliminaci všech nepřátel včetně střeleckých věží. [asker_label] říká, že [sitePart0_description].\n\nPokud uspěješ, [allRewardsDescriptions]</li>
+    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name] ti poslal[asker_x_a] zprávu. Zdá se, že banda [siteFaction_pawnsPlural] sídlící v blízkém táboře útočí na [asker_possessive] karavany. Tento tábor patří frakci [siteFaction_name].\n\n[asker_nameDef] tě žádá, abys tento tábor zlikvidoval, což znamená eliminaci všech nepřátel včetně střeleckých věží. [asker_label] říká, že se tam nachází [sitePart0_description].\n\nPokud uspěješ, [allRewardsDescriptions]</li>
+    <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==1)->jeden bod</li>
+    <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==2)->dva body</li>
+    <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==3)->tři body</li>
+    <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==4)->čtyři body</li>
+    <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount>=5)->[royalFavorReward_amount] bodů</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s Camp Bounty</li>
@@ -16,11 +21,11 @@
     <li>questName->Helping [asker_nameDef]</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->[asker_nameDef] nabízí odměnu za [camp]</li>
+    <li>questName->[asker_nameDef] nabízí odměnu</li>
     <li>questName->[Camp] [enemyFaction_pawnsPlural]</li>
-    <li>questName->[Camp] banditů</li>
-    <li>questName->[Camp] nájezdníků</li>
-    <li>questName->[Destroy] [camp]</li>
+    <li>questName->[Camp] [bandits]</li>
+    <li>questName->[Camp] [bandits]</li>
+    <li>questName->[Destroy] [camp] [bandits]</li>
     <li>questName->[asker_nameDef] žádá o pomoc</li>
     <li>Camp->Tábor</li>
     <li>Camp->Kemp</li>
@@ -29,6 +34,8 @@
     <li>Destroy->Znič</li>
     <li>Destroy->Zlikviduj</li>
     <li>Destroy->Zneškodni</li>
+    <li>bandits->banditů</li>
+    <li>bandits->nájezdníků</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
@@ -45,6 +52,6 @@
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>[asker_faction_royalFavorLabel]</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.label.slateRef>
   <!-- EN: These colonists participated in the victory for the quest [resolvedQuestName]. [asker_definite] wants to know who should receive the [royalFavorReward_amount] [asker_faction_royalFavorLabel] favor for this service. -->
-  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>[asker_definite] potřebuje vědět, který z tvých útočníků podílejících se na vítězství by měl získat [royalFavorReward_amount] kp za tuto službu.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>[asker_definite] potřebuje vědět, který z tvých útočníků podílejících se na tvém vítězství by měl získat [OpportunitySite_BanditCamp_royalFavorReward_amount] královské přízně za tuto službu.</OpportunitySite_BanditCamp.root.nodes.siteAllEnemiesDefeated.node.nodeIfChosenPawnSignalUsed.text.slateRef>
   
 </LanguageData>

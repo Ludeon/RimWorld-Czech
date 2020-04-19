@@ -16,20 +16,42 @@
     <li>hidingFrom(gameCondition==WeatherController)->a malfunctioning weather control satellite</li>
     <li>condDesc(gameCondition==WeatherController)->If [joiner_pronoun] comes to you, the weather will be [forcedWeather_label] for [gameConditionDuration_duration] until the satellite resets.</li>
     <li>hidingFrom(gameCondition==PsychicDrone)->a vengeful machine persona who [joiner_pronoun] recently offended</li>
-    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneGender]-tuned [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
+    <li>condDesc(gameCondition==PsychicDrone)->If [joiner_pronoun] comes to you, the machine mind will blast [map_definite] with a [psychicDroneLevel]-level psychic drone for [gameConditionDuration_duration], reducing mood of all [psychicDroneGender]s.</li>
     <li>hidingFrom(gameCondition==PsychicSuppression)->a stirring machine persona who [joiner_pronoun] recently awoke</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with [psychicSuppressorGender]-tuned psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
-  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameFull] volá o pomoc! Ukrývá se před [hidingFrom]. [map_definite] je jedinou možností, kam by mohl[joiner_x_a] v tuto chvíli uniknout a navíc by se tak k tobě mohl[joiner_x_a] přidat.[joiner_relationInfo]\n\n[condDesc]\n\nV zoufalé snaze zůstat neodhalen[joiner_x_a], nebyl[joiner_x_a] [joiner_nameDef] schopn[joiner_y_a] sdělit o sobě více informací.</li>
+    <li>hidingFrom(gameCondition==ToxicFallout)->smečkou hladových vlků</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Nicméně, [joiner_nameDef] se může zbavit vlků pouze tak, že zapálí obrovskou toxickou skládku v jejich blízkosti. V důsledku toho bude po dobu [gameConditionDuration_duration] z nebe klesat toxický spad.</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->tlupou kanibalů</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Nicméně, [joiner_nameDef] se může zbavit kanibalů pouze tak, že zapálí obrovské opuštěné smetiště v jejich blízkosti. Jakmile k tobě dorazí, hustý dým zahalí na [gameConditionDuration_duration] slunce.</li>
+    <li>hidingFrom(gameCondition==EMIField)->skupinou mechanoidů</li>
+    <li>condDesc(gameCondition==EMIField)->Nicméně, [joiner_nameDef] se může zbavit mechanoidů pouze tak, že aktivuje starodávný generátor EMI. Jakmile k tobě dorazí, bude vygenerováno pole elektromagnetického rušení, které vyřadí na [gameConditionDuration_duration] veškerá elektronická zařízení.</li>
+    <li>hidingFrom(gameCondition==HeatWave)->porouchaným satelitem ovlivňující klima</li>
+    <li>condDesc(gameCondition==HeatWave)->Jakmile k tobě dorazí, přijde intenzivní vlna veder, která skončí za [gameConditionDuration_duration] resetováním satelitu.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->porouchaným satelitem ovlivňující klima</li>
+    <li>condDesc(gameCondition==ColdSnap)->Jakmile k tobě dorazí, přijde prudké ochlazení, které skončí za [gameConditionDuration_duration] resetováním satelitu.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->porouchaným satelitem ovlivňující počasí</li>
+    <li>condDesc(gameCondition==WeatherController)->Jakmile k tobě dorazí, dojde k vynucené změně počasí - [forcedWeather_label]. Vynucené počasí skončí za [gameConditionDuration_duration] resetováním satelitu.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->pomstychtivou strojovou osobností, kterou nedávno urazil[joiner_x_a]</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Jakmile k tobě dorazí, strojová mysl začne na oblast [map_definite] po dobu [gameConditionDuration_duration] vydávat vlny psychického bzučení ([psychicDroneLevel]) naladěné na jediné pohlaví - [psychicDroneGender]. Všem takovým bude snižovat náladu.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->rozrušenou strojovou osobností, kterou nedávno probudil[joiner_x_a]</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Jakmile k tobě dorazí, persona začne na oblast [map_definite] po dobu [gameConditionDuration_duration] vydávat vlny psychického potlačování naladěné na jediné pohlaví - [psychicSuppressorGender]. Všem takovým bude snižovat vědomí.</li>
+  </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
     <li>questName->[joiner_nameDef] and the [gameCondition_label]</li>
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
-  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef] vs [gameCondition_label]</li>
+    <li>questName->[joiner_nameDef] a [gameCondition_label]</li>
+    <li>questName->[gameCondition_label] a [joiner_nameDef]</li>
+  </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
   
   <!-- EN:
-    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says giant insects are hunting [joiner_objective] after [joiner_pronoun] poisoned an underground colony and they soaked [joiner_objective] in threat pheromones!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting him!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -112,19 +134,41 @@
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
-    <li>threat(priority=1)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
-    <li>threat->unknown enemies</li>
-    <li>joinersEnemies(priority=1)->[site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] of [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
+    <li>threat->[joiner_possessive] enemies</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoids</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
-  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameFull] ti volá z nedaleké oblasti. Skrývá se před [threat_main]. [map_definite] se v tuto chvíli nabízí jako jediná možnost, kam by mohl[joiner_x_a] ze svého provizorního úkrytu utéct a připojit se k tobě.[joiner_relationInfo]\n\nPokud [joiner_objective] přijmeš, [joinersEnemies] zřídí v blízkém okolí znepokojující místo. Bude se tam nacházet [site/allSitePartsDescriptions]\n\nHrozba bude přetrvávat, dokud se se vším nevypořádáš.</li>
+    <li>threat_main(priority=1,site/Outpost_exists==True)->skupinou [site/enemyFaction_pawnsPlural] z frakce [site/enemyFaction_name]</li>
+    <li>threat_main(priority=1,site/MechCluster_exists==True)->mechanoidy</li>
+    <li>threat_main(priority=1,site/SleepingMechanoids_exists==True)->mechanoidy</li>
+    <li>threat_main->svými nepřáteli</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->skupina [site/enemyFaction_pawnsPlural] z frakce [site/enemyFaction_name] zřídila</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoidi zřídili</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoidi zřídili</li>
+    <li>threat->[joiner_possessive] nepřátelé zřídili</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->členové z frakce [site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoidi</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoidi</li>
+    <li>joinersEnemies->[joiner_possessive] nepřátelé</li>
+  </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>
     <li>questName->[joiner_nameDef] and the [site/site_label]</li>
     <li>questName->the [site/site_label] and [joiner_nameDef]</li>
   -->
-  <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef] vs [site/site_label]</li>
+    <li>questName->[joiner_nameDef] a [site/site_label]</li>
+    <li>questName->[site/site_label] a [joiner_nameDef]</li>
+  </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
-  <ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>TODO</ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
+  <ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>Jelikož byl[../joiner_x_a] [../joiner_nameDef] přijat[../joiner_x_a], [../threat] v tvé blízkosti znepokojující místo.\n                    \nNachází se tam [allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.root.nodes.Delay.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
   
 </LanguageData>
