@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacts you and requests help. [refugee_pronoun] is wounded and unable to move.\n\n[refugee_nameDef] is a [refugee_age]-year-old [refugee_title]. [refugee_pronoun] promises to join you if you rescue [refugee_objective].\n\n[refugee_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], says that [asker_possessive] friend has been wounded while traveling. The victim is [refugee_nameIndef], a [refugee_age]-year-old [refugee_title].\n\n[asker_nameDef] has nobody to spare to rescue [refugee_nameDef], but says that if you can make it to [refugee_nameDef]'s position and rescue [refugee_objective], [refugee_pronoun] will join you.\n\n[asker_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  -->
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] tě zkontaktoval[refugee_x_a] s žádostí o pomoc. Je zraněn[refugee_y_a] a nemůže se hýbat.\n\n[refugee_nameDef] je [refugee_age]let[refugee_y_a] [refugee_title]. Pokud [refugee_objective] zachráníš, slibuje, že se k tobě přidá.\n\n[refugee_nameDef] tvrdí, že se tam nachází [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z frakce [asker_faction_name], říká, že se na cestách zranil[refugee_x_a] [asker_possessive] stoupen[refugee_ec_kyne]. Obětí se stal[refugee_x_a] [refugee_nameIndef], [refugee_age]let[refugee_y_a] [refugee_title].\n\n[asker_nameDef] nemá nikoho nazbyt, kdo by [refugee_objective] mohl zachránit, nicméně říká, že pokud se k [refugee_nemu_ni] dostaneš a zachráníš [refugee_objective], [refugee_nameDef] se k tobě přidá.\n\n[asker_nameDef] dodává, že se tam nachází [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Saving [refugee_nameDef]</li>
+    <li>questName->The Rescue of [refugee_nameDef]</li>
+    <li>questName->[refugee_nameDef]'s Rescue</li>
+    <li>questName->[refugee_nameDef]'s Salvation</li>
+  -->
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+    <li>questName->Záchrana [zranen][refugee_eho_e]</li>
+    <li>questName->[refugee_nameDef] potřebuje zachránit</li>
+    <li>questName->[Zranen][refugee_y_a][maybe_refugee] [refugee_nameDef]</li>
+    <li>questName->[refugee_nameDef] a [refugee_possessive] [spasa]</li>
+    <li>Zranen->Zraněn</li>
+    <li>Zranen->Zneschopněn</li>
+    <li>Zranen->Znehybněn</li>
+    <li>Zranen->Ochromen</li>
+    <li>zranen->zraněn</li>
+    <li>Zranen->zneschopněn</li>
+    <li>zranen->znehybněn</li>
+    <li>zranen->ochromen</li>
+    <li>maybe_refugee-></li>
+    <li>maybe_refugee-> uprchl[refugee_ik_ice]</li>
+    <li>spasa->spása</li>
+    <li>spasa->vysvobození</li>
+  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Signál, který [refugee_nameDef] vysílal[refugee_x_a], byl navždy ztracen. Už [refugee_objective] není možné zachránit. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_DownedRefugee.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
