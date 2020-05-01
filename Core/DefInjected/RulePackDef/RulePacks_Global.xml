@@ -402,6 +402,9 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
+    <li>adjMas->ý</li>
+    <li>adjFem->á</li>
+    <li>adjNeu->é</li>
     <li>asker_x_a(asker_gender==Male)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_uj_a(asker_gender==Male)->ůj</li>
@@ -414,6 +417,8 @@
     <li>asker_nej_ni(asker_gender==Female)->ní</li>
     <li>asker_jeho_jejiho(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejiho(asker_gender==Female)->jejího</li>
+    <li>asker_jeho_jejich(asker_gender==Male)->jeho</li>
+    <li>asker_jeho_jejich(asker_gender==Female)->jejích</li>
     <li>faction_leader_x_a(faction_leader_gender==Male)-></li>
     <li>faction_leader_x_a(faction_leader_gender==Female)->a</li>
     <li>worker_x_a(worker_gender==Male)-></li>
@@ -458,6 +463,10 @@
     <li>prisoner_ec_kyne(prisoner_gender==Female)->kyně</li>ˇ
     <li>prisoner_n_nkyne(prisoner_gender==Male)->ň</li>
     <li>prisoner_n_nkyne(prisoner_gender==Female)->nkyně</li>
+
+    <li>helpers0_mu_ji(helpers0_gender==Male)->mu</li>
+    <li>helpers0_mu_ji(helpers0_gender==Female)->jí</li>
+
 
     <li>Trans->of</li>
     <li>Trans->for</li>

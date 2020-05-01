@@ -24,46 +24,37 @@
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
     <li>questName(priority=1)->[asker_nameDef] a [asker_possessive] [stash] [treasure]</li>
-    <li>questName->[Stash] [treasure]</li>
-    <li>questName->[Stash_extra]</li>
-    <li>Stash->Skrýš plná</li>
-    <li>Stash->Úkryt plný</li>
-    <li>Stash->[Collection]</li>
-    <li>Stash->[Shack] plná</li>
+    <li>questName->[stash] [treasure]</li>
+    <li>questName->[stash_extra]</li>
     <li>stash->skrýš plná</li>
     <li>stash->úkryt plný</li>
     <li>stash->[collection]</li>
     <li>stash->[shack] plná</li>
-    <li>Stash_extra->Skryt[treasure_extra]</li>
-    <li>Stash_extra->Ukryt[treasure_extra]</li>
-    <li>Stash_extra->Užitečn[treasure_extra]</li>
-    <li>Stash_extra->Drahocenn[treasure_extra]</li>
+    <li>stash_extra->skryt[treasure_extra]</li>
+    <li>stash_extra->ukryt[treasure_extra]</li>
+    <li>stash_extra->užitečn[treasure_extra]</li>
+    <li>stash_extra->drahocenn[treasure_extra]</li>
     <li>treasure->pokladů</li>
     <li>treasure->cenností</li>
     <li>treasure->bohatství</li>
     <li>treasure->užitečných věcí</li>
     <li>treasure->zásob</li>
-    <li>treasure_extra->ý poklad</li>
-    <li>treasure_extra->é cennosti</li>
-    <li>treasure_extra->é bohatství</li>
-    <li>treasure_extra->é předměty</li>
-    <li>treasure_extra->é zásoby</li>
-    <li>Collection->Sbírka</li>
-    <li>Collection->Kolekce</li>
+    <li>treasure_extra->[adjMas] poklad</li>
+    <li>treasure_extra->[adjNeu] cennosti</li>
+    <li>treasure_extra->[adjNeu] bohatství</li>
+    <li>treasure_extra->[adjNeu] předměty</li>
+    <li>treasure_extra->[adjNeu] zásoby</li>
     <li>collection->sbírka</li>
     <li>collection->kolekce</li>
-    <li>Shack->Bouda</li>
-    <li>Shack->Chata</li>
-    <li>Shack->Chatrč</li>
-    <li>Shack->Chýše</li>
     <li>shack->bouda</li>
     <li>shack->chata</li>
     <li>shack->chatrč</li>
     <li>shack->chýše</li>
+    <li>shack->sklad</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Zachycená komunikace naznačuje, že sbírky předmětů se zmocnil někdo jiný. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Zachycená komunikace naznačuje, že se sbírky předmětů zmocnil někdo jiný. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

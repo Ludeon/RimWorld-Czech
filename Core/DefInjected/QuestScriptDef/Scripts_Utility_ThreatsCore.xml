@@ -56,6 +56,32 @@
     <li>numGroupsOf(raidCount==3)->three groups of</li>
     <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   -->
-  <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>TODO</Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
+  <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
+    <li>pawnKindsParagraph(raidCount==1)->Skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDruhá skupina podobné velikosti bude následovat chvíli poté.</li>
+    <li>pawnKindsParagraph(raidCount==3)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDalší dvě podobně velké skupiny budou následovat chvíli poté.</li>
+    <li>pawnKindsParagraph(raidCount==4)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDalší tři podobně velké skupiny budou následovat chvíli poté..</li>
+    <li>pawnKindsParagraph(raidCount==5)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDalší čtyři podobně velké skupiny budou následovat chvíli poté..</li>
+    <li>pawnKindsParagraph(raidCount>=4)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDalších [raidCountMinusOne] podobně velkých skupin bude následovat chvíli poté..</li>
+    <li>harassing_numGroupsOf(raidCount==1)->obtěžují [enemyFaction_pawnsPlural_Nom]</li>
+    <li>harassing_numGroupsOf(raidCount==2)->obtěžují dvě skupiny [enemyFaction_pawnsPlural]</li>
+    <li>harassing_numGroupsOf(raidCount==3)->obtěžují tři skupiny [enemyFaction_pawnsPlural]</li>
+    <li>harassing_numGroupsOf(raidCount==4)->obtěžují čtyři skupiny [enemyFaction_pawnsPlural]</li>
+    <li>harassing_numGroupsOf(raidCount>=5)->obtěžuje [raidCount] skupin [enemyFaction_pawnsPlural]</li>
+    <li>hunted_numGroupsOf(raidCount==1)->pronásledují [enemyFaction_pawnsPlural_Nom]</li>
+    <li>hunted_numGroupsOf(raidCount==2)->pronásledují dvě skupiny [enemyFaction_pawnsPlural]</li>
+    <li>hunted_numGroupsOf(raidCount==3)->pronásledují tři skupiny [enemyFaction_pawnsPlural]</li>
+    <li>hunted_numGroupsOf(raidCount==4)->pronásledují čtyři skupiny [enemyFaction_pawnsPlural]</li>
+    <li>hunted_numGroupsOf(raidCount>=5)->pronásleduje [raidCount] skupin [enemyFaction_pawnsPlural]</li>
+
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==Empire)->imperialisti</li>
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==OutlanderCivil)->odpadlíci</li>
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==OutlanderRough)->odpadlíci</li>
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==Pirate)->piráti</li>
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==TribeCivil)->domorodci</li>
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==TribeRough)->domorodci</li>
+    <li>enemyFaction_pawnsPlural_Nom(enemyFaction==TribeSavage)->domorodci</li>
+    <li>enemyFaction_pawnsPlural_Nom(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
+  </Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
   
 </LanguageData>

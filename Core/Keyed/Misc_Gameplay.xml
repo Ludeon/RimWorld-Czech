@@ -1177,7 +1177,7 @@
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/{3}s({4}s do nuly)\n\nPsychická entropie se zvyšuje po provedení psionické schopnosti.\nPřekračování bezpečného limitu může vést k dlouhodobým zdravotním následkům.\nKdykoli entropie dosáhne nuly, zanechá psychickou kocovinu.</PawnTooltipPsychicEntropy>
+  <PawnTooltipPsychicEntropy>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/{3}s ({4}s do nuly)\n\nPsychická entropie se zvyšuje po provedení psionické schopnosti.\nPřekračování bezpečného limitu může vést k dlouhodobým zdravotním následkům.\nKdykoli entropie dosáhne nuly, zanechá psychickou kocovinu.</PawnTooltipPsychicEntropy>
   <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Bolest koncentruje mysl a způsobuje tak rychlejší zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k zotavení z entropie: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
@@ -1185,11 +1185,11 @@
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>dorazí v přepravním modulu {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef} {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>v přepravním modulu dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef} {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef} a připojí se k tobě {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef}, {0_gender ? který : která} se k tobě přidá {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef} a připojí se k tobě {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef}, {0_gender ? který : která} se k tobě přidá {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
   <Reward_Items>dorazí přepravní moduly s následujícími položkami (v celkové hodnotě {1}):\n\n{0}</Reward_Items>
@@ -1210,6 +1210,10 @@
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
   <Biocoded>{1_gender ? biokódovaný : biokódovaná : biokódované} {0}</Biocoded>
+  <!-- EN: Biocoding: {0} -->
+  <CodedFor>Biokódování: {0}</CodedFor>
+  <!-- EN: biocoded -->
+  <BiocodedCodedForSomeoneElse>má biokódování</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1} -->
