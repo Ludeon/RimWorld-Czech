@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+  -->
+  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Zachytil jsi zprávu o sbírce cenných předmětů nedaleko [map_definite]. Sbírka v hodnotě [itemStashContentsValue] obsahuje:\n\n[itemStashContents]\n\nZdá se, že se tam nachází [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě informoval[asker_x_a] o sbírce cenných předmětů nacházející se v nedaleké oblasti. Sbírka v hodnotě [itemStashContentsValue] obsahuje:\n\n[itemStashContents]\n\n[asker_label] říká, že se tam nachází [allSitePartsDescriptionsExceptFirst]</li>
+  </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
+    <li>questName->[stash] of [treasure]</li>
+    <li>stash->Stash</li>
+    <li>stash->Cache</li>
+    <li>stash->Collection</li>
+    <li>stash->Shack</li>
+    <li>treasure->Treasure</li>
+    <li>treasure->Valuables</li>
+    <li>treasure->Fortune</li>
+    <li>treasure->Goodies</li>
+    <li>treasure->Supplies</li>
+  -->
+  <OpportunitySite_ItemStash.questNameRules.rulesStrings>
+    <li>questName(priority=1)->[asker_nameDef] a [asker_possessive] [stash] [treasure]</li>
+    <li>questName->[Stash] [treasure]</li>
+    <li>questName(p=1000)->[Stash_extra]</li>
+    <li>Stash->Skrýš plná</li>
+    <li>Stash->Úkryt plný</li>
+    <li>Stash->[Collection]</li>
+    <li>Stash->[Shack] plná</li>
+    <li>stash->skrýš plná</li>
+    <li>stash->úkryt plný</li>
+    <li>stash->[collection]</li>
+    <li>stash->[shack] plná</li>
+    <li>Stash_extra->Skryt[treasure_extra]</li>
+    <li>Stash_extra->Ukryt[treasure_extra]</li>
+    <li>Stash_extra->Užitečn[treasure_extra]</li>
+    <li>Stash_extra->Drahocenn[treasure_extra]</li>
+    <li>treasure->pokladů</li>
+    <li>treasure->cenností</li>
+    <li>treasure->bohatství</li>
+    <li>treasure->užitečných věcí</li>
+    <li>treasure->zásob</li>
+    <li>treasure_extra->ý poklad</li>
+    <li>treasure_extra->é cennosti</li>
+    <li>treasure_extra->é bohatství</li>
+    <li>treasure_extra->é předměty</li>
+    <li>treasure_extra->é zásoby</li>
+    <li>Collection->Sbírka</li>
+    <li>Collection->Kolekce</li>
+    <li>collection->sbírka</li>
+    <li>collection->kolekce</li>
+    <li>Shack->Bouda</li>
+    <li>Shack->Chata</li>
+    <li>Shack->Chatrč</li>
+    <li>Shack->Chýše</li>
+    <li>shack->bouda</li>
+    <li>shack->chata</li>
+    <li>shack->chatrč</li>
+    <li>shack->chýše</li>
+  </OpportunitySite_ItemStash.questNameRules.rulesStrings>
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
+  <OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Zachycená komunikace naznačuje, že sbírky předmětů se zmocnil někdo jiný. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_ItemStash.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>
