@@ -21,7 +21,7 @@
     <li>condDesc(gameCondition==PsychicSuppression)->If [joiner_pronoun] comes to you, the persona will hit [map_definite] with psychic suppression waves for [gameConditionDuration_duration], reducing consciousness of all [psychicSuppressorGender]s.</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameFull] volá o pomoc! Ukrývá se před [hidingFrom]. [map_definite] je jedinou možností, kam by mohl[joiner_x_a] v tuto chvíli uniknout a navíc by se tak k tobě mohl[joiner_x_a] přidat.[joiner_relationInfo]\n\n[condDesc]\n\nV zoufalé snaze zůstat neodhalen[joiner_x_a], nebyl[joiner_x_a] [joiner_nameDef] schopn[joiner_y_a] sdělit o sobě více informací.</li>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameFull] volá o pomoc! Ukrývá se před [hidingFrom]. [map_definite] je jedinou možností, kam by mohl[joiner_x_a] v tuto chvíli uniknout a navíc by se tak k tobě mohl[joiner_x_a] přidat.[joiner_relationInfo]\n\n[condDesc]\n\nV zoufalé snaze zůstat neodhalen[joiner_x_a], nebyl[joiner_x_a] [joiner_nameDef] schopn[joiner_y_a] o sobě sdělit více informací.</li>
     <li>hidingFrom(gameCondition==ToxicFallout)->smečkou hladových vlků</li>
     <li>condDesc(gameCondition==ToxicFallout)->Nicméně, [joiner_nameDef] se může zbavit vlků pouze tak, že zapálí obrovskou toxickou skládku v jejich blízkosti. V důsledku toho bude po dobu [gameConditionDuration_duration] z nebe klesat toxický spad.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->tlupou kanibalů</li>
@@ -53,20 +53,29 @@
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting him!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
-  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že otrávil[joiner_x_a] podzemní hmyzí kolonii, jenže teď je cel[joiner_y_a] nasákl[joiner_y_a] od hmyzích feromonů a brouci se [joiner_objective] proto snaží ulovit!\n\nProsí tě o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [infestationDelayTicks_duration] se z podzemí vynoří [Util_Infestation_hivesCount] začnou vylézat brouci.\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+  </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
     <li>questName->[joiner_nameDef]'s hives</li>
     <li>questName->[joiner_nameDef]'s bugs</li>
     <li>questName->[joiner_nameDef]'s insects</li>
   -->
-  <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef] a [joiner_possessive] zamoření</li>
+    <li>questName->[joiner_nameDef] a [joiner_possessive] hnízda</li>
+    <li>questName->[joiner_nameDef] pronásledovan[joiner_y_a] brouky</li>
+    <li>questName->[joiner_nameDef] pronásledovan[joiner_y_a] hmyzáky</li>
+    <li>questName->[joiner_nameDef] vs brouci</li>
+    <li>questName->[joiner_nameDef] vs hmyzáci</li>
+  </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>TODO</ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>
+  <ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] je nasákl[joiner_y_a] hmyzími feromony a prchá před broučím zamořením. Pronásledující brouci brzy dorazí.</ThreatReward_Infestation_Joiner.root.nodes.Util_JoinerThreat_Joiner.parms.customLetterText.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>{BASELABEL}: Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
-  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>TODO</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>
+  <ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>{BASETEXT}\n                  \nBrouci si přišli pro svou kořist. [joiner_nameDef] se jen tak nedá.</ThreatReward_Infestation_Joiner.root.nodes.Delay.node.nodes.Util_Infestation.parms.customLetterText.value.slateRef>
   
   <!-- EN:
     <li>questDescription(animalCount==1)->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says a manhunting [animalKind_label] is hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], the manhunting [animalKind_label] will follow in [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
