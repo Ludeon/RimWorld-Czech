@@ -44,6 +44,9 @@
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Potřebuješ orbitální obchodní maják, abys mohl obchodovat s lodí.</MessageNeedBeaconToTradeWithShip>
 
+  <!-- EN: {0} has been destroyed. -->
+  <MessageConditionCauserDespawned>{0} byl zničen.</MessageConditionCauserDespawned>
+  
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Úkol '{0}' byl dokončen.</MessageBillComplete>
 
@@ -94,6 +97,8 @@
   <MessageMustDesignateTameable>Musíš označit zvířata vhodná k ochočení.</MessageMustDesignateTameable>
   <!-- EN: Must designate abandoned artificial structures. -->
   <MessageMustDesignateClaimable>Musíš označit opuštěné uměle vytvořené stavby.</MessageMustDesignateClaimable>
+  <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
+  <MessageMustDesignateDeconstructibleMechCluster>Před tím, než to budeš moci rozebrat, musíš porazit mechový klastr.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Musíš označit hrubé kamenné povrchy.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Nothing can remove thick roofs. -->
@@ -132,12 +137,12 @@
   <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{1_labelShort} v důsledku extrémního vyčerpání {1_gender ? zkolaboval : zkolabovala}.</MessageInvoluntarySleep>
 
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort}. -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureRidiculous>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} fatální chyby kvůli zvláštním výzvám: {2}\n\nPokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureFatal>
 
@@ -213,11 +218,6 @@
   
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Nedaleko dopadly kusy vesmírné lodě. Můžeš je rozebrat, abys získal nějaké suroviny.</MessageShipChunkDrop>
-  
-  <!-- EN: The party has been called off. -->
-  <MessagePartyCalledOff>Večírek byl odvolán.</MessagePartyCalledOff>
-  <!-- EN: The party has finished. -->
-  <MessagePartyFinished>Večírek skončil.</MessagePartyFinished>
 
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Některé položky nešlo prodat z důvodu: </MessageCannotSellItemsReason>
@@ -252,8 +252,8 @@
   <!-- EN: Your colonists will now continue forming a caravan. -->
   <MessageCaravanFormationUnpaused>Tví kolonisté teď budou pokračovat ve shromažďování karavany.</MessageCaravanFormationUnpaused>
   
-  <!-- EN: One of the caravan members has a mental break. -->
-  <MessageCaravanMemberHasExtremeMentalBreak>Jeden ze členů karavany se psychicky zhroutil.</MessageCaravanMemberHasExtremeMentalBreak>
+  <!-- EN: One of the caravan members has had a mental break. -->
+  <MessageCaravanMemberHasExtremeMentalBreak>Jeden z členů karavany se psychicky zhroutil.</MessageCaravanMemberHasExtremeMentalBreak>
   
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
   <MessageMaxPlanetCoveragePerformanceWarning>Varování: Generování celé planety může trvat velmi dlouhou dobu.</MessageMaxPlanetCoveragePerformanceWarning>
@@ -290,9 +290,9 @@
   
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort} se {PAWN_gender ? uzdravil : uzdravila}. {PAWN_possessive} {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
-
-  <!-- EN: {1_labelShort} has joined your group after being rescued! -->
-  <MessageRescueeJoined>{1_labelShort} se {1_gender ? připojil : připojila} ke tvé skupině poté, co {1_gender ? byl : byla} {1_gender ? zachráněn : zachráněna}!</MessageRescueeJoined>
+  
+  <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
+  <MessageRescueeDidntJoin>[PAWN_nameDef] se {PAWN_gender ? zotavil : zotavila} a {PAWN_gender ? rozhodl : rozhodla} se odejít.</MessageRescueeDidntJoin>
   
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>K některým přepravním modulům se nelze dostat.</MessageTransporterUnreachable>
@@ -300,12 +300,14 @@
   <MessageTransportersNotAdjacent>Všechny odpalovací rampy napojené na vybrané přepravní moduly musí být umístěny hned vedle sebe.</MessageTransportersNotAdjacent>
   
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
-  <MessageTransportersLoadCanceled_TransporterDestroyed>Průběh nakládání byl přerušen, protože byl zničen jeden z přepravních modulů.</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <MessageTransportersLoadCanceled_TransporterDestroyed>Průběh nakládání byl přerušen, neboť došlo ke zničení jednoho z přepravních modulů.</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>Průběh nakládání byl přerušen, neboť došlo ke zničení raketoplánu.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Průběh nakládání byl přerušen, protože byla zničena jedna z odpalovacích ramp.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Průběh nakládání byl přerušen, neboť došlo ke zničení jedné z odpalovacích ramp.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
-  <!-- EN: Your colonists will now load the assigned items into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>Tví kolonisté nyní budou nakládat vybrané položky do přepravních modulů.</MessageTransportersLoadingProcessStarted>
+  <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
+  <MessageTransportersLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do přepravních modulů.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
   <MessageTransporterSingleLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do raketoplánu.</MessageTransporterSingleLoadingProcessStarted>
   
@@ -334,11 +336,19 @@
   
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>Posledního kolonisty se nemůžeš zbavit.</MessageCantBanishLastColonist>
-  
+
+  <!-- EN: Cannot equip: {0}. -->
+  <MessageCantEquipCustom>Nelze se vybavit: {0}.</MessageCantEquipCustom>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Nelze se vybavit: {1_labelShort} není {1_gender ? schopen : schopna} násilí.</MessageCantEquipIncapableOfViolence>
-  <!-- EN: Cannot equip: incapable. -->
-  <MessageCantEquipIncapableOfManipulation>Nelze se vybavit: neschopný.</MessageCantEquipIncapableOfManipulation>
+  <!-- EN: Cannot equip: Incapable. -->
+  <MessageCantEquipIncapableOfManipulation>Nelze se vybavit: Neschopný.</MessageCantEquipIncapableOfManipulation>
+  <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
+  <MessageCantWearApparelMissingBodyParts>Nelze si obléknout: {1_labelShort} postrádá požadované části těla.</MessageCantWearApparelMissingBodyParts>
+  <!-- EN: This person refuses to remove this. -->
+  <MessageCantUnequipLockedApparel>Tato osoba to odmítá odstranit.</MessageCantUnequipLockedApparel>
+  <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
+  <MessageWouldReplaceLockedApparel>Nelze si obléknout: Nahradilo by se tím oblečení, které {1_labelShort} odmítá odstranit.</MessageWouldReplaceLockedApparel>
   
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>{DESIGNATED_labelShort} a {BONDED_labelShort} jsou vzájemně propojeni silným poutem. Pokud to zvíře necháš zabít, {BONDED_labelShort} z toho bude {BONDED_gender ? nešťastný : nešťastná}.</MessageSlaughteringBondedAnimal>
@@ -360,7 +370,7 @@
   <!-- EN: Mechanoids have been assembled and are attacking. -->
   <MessageMechanoidsAssembled>Mechanoidi byli právě sestaveni a ihned zahájili útok.</MessageMechanoidsAssembled>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>Mechanoidní výsadkový maják přivolal posily prostřednictvím výsadkových modulů.</MessageMechanoidsReinforcementsDrop>
+  <MessageMechanoidsReinforcementsDrop>Mechanoidní výsadkový maják přivolal prostřednictvím výsadkových modulů posily.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Pro sebeošetření, musí mít {1_labelShort} přidělenou činnost doktor.</MessageSelfTendUnsatisfied>
@@ -388,7 +398,9 @@
   <MessageCantBanishDownedPawn>Jelikož {1_labelShort} nemůže chodit, nemůžeš {1_gender ? ho : ji} vyhostit.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>{0} se {0_gender ? probudil : probudila}.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>Došlo k probuzení {0}.</MessageSleepingPawnsWokenUp>
+  <!-- EN: Mech cluster buildings have been defeated. -->
+  <MessageMechClusterDefeated>Struktury mechového klastru byly zničeny.</MessageMechClusterDefeated>
 
   <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Vyrobený předmět: {0}</MessageCompSpawnerSpawnedItem>
@@ -436,9 +448,6 @@
   <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>Karavana se bude automaticky přesunovat k prvnímu záchytnému bodu.</MessageChoseRoute>
 
-  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <MessageCraftedMasterwork>{WORKER_labelShort} {WORKER_gender ? vytvořil : vytvořila} mistrovské dílo ({CRAFTED_labelShort}).</MessageCraftedMasterwork>
-
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Chceš-li opustit oblast, použij příkaz 'Upravit karavanu' na mapě světa.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
@@ -452,8 +461,14 @@
   <GoodwillChangedReason_AttackedPawn>{1_labelShort} {1_gender ? byl : byla} {1_gender ? napaden : napadena}</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
   <GoodwillChangedReason_UsedItem>použití {ITEM_labelShort} na {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
+  <!-- EN: used {0} on {1} -->
+  <GoodwillChangedReason_UsedAbility>použití schopnosti {0} na {1}</GoodwillChangedReason_UsedAbility>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>odebrání orgánu ({0})</GoodwillChangedReason_RemovedBodyPart>
+  <!-- EN: removed {0} -->
+  <GoodwillChangedReason_RemovedImplant>odebrání implantátu ({0})</GoodwillChangedReason_RemovedImplant>
+  <!-- EN: downgraded {0} -->
+  <GoodwillChangedReason_DowngradedImplant>snížení úrovně implantátu ({0})</GoodwillChangedReason_DowngradedImplant>
   <!-- EN: needlessly installed {0} -->
   <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>zbytečně namontováno ({0})</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
@@ -480,6 +495,14 @@
   <GoodwillChangedReason_FinishedQuest>dokončení úkolu</GoodwillChangedReason_FinishedQuest>
   <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
   <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} {PAWN_gender ? použil : použila} schopnost {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
+  <!-- EN: sold {0_labelShort} -->
+  <GoodwillChangedReason_SoldPawn>{0_labelShort} {0_gender ? byl : byla} {0_gender ? prodán : prodána}</GoodwillChangedReason_SoldPawn>
+  <!-- EN: euthanized {PAWN_labelShort} -->
+  <GoodwillChangedReason_EuthanizedPawn>{PAWN_labelShort} {PAWN_gender ? byl : byla} {PAWN_gender ? usmrcen : usmrcena}</GoodwillChangedReason_EuthanizedPawn>
+  <!-- EN: requested military aid -->
+  <GoodwillChangedReason_RequestedMilitaryAid>žádost o vojenskou pomoc</GoodwillChangedReason_RequestedMilitaryAid>
+  <!-- EN: requested trader caravan -->
+  <GoodwillChangedReason_RequestedTrader>žádost o obchodní karavanu</GoodwillChangedReason_RequestedTrader>
 
   <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>Frakce {0} přijala tvůj dar, ale nijak to neocenila.</MessageGiftGivenButNotAppreciated>
@@ -521,6 +544,9 @@
   <!-- EN: You can't re-enter for another {0} days. -->
   <MessageEnterCooldownBlocksEntering>Vstoupit znovu můžeš až za {0} dnů.</MessageEnterCooldownBlocksEntering>
 
+  <!-- EN: {0_labelShort} can now freely use "{1}". -->
+  <MessagePermitCooldownFinished>{0_labelShort} nyní může bezplatně využít '{1}'.</MessagePermitCooldownFinished>
+
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
   <MessagePredatorHuntingPlayerAnimal>{PREDATOR} se kvůli potravě pokusí ulovit nějakou kořist ({PREY_definite})!</MessagePredatorHuntingPlayerAnimal>
 
@@ -551,6 +577,13 @@
   <MessageCannotAcceptQuest>Tento úkol nyní nelze přijmout.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
   <MessageQuestAccepted>{0_definite} {0_gender ? přijal : přijala} úkol: {1}</MessageQuestAccepted>
+  <!-- EN: {0} is leaving. -->
+  <MessagePawnLeaving>{0} odchází.</MessagePawnLeaving>
+  <!-- EN: {0} are leaving. -->
+  <MessagePawnsLeaving>Skupina {0} odchází.</MessagePawnsLeaving>
+
+  <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Monument byl zničen, protože jsi uvnitř postavil nedovolenou stavbu.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
   <MessageNoResearchBenchForTechprint>Nelze aplikovat: Není k dispozici žádné dosažitelné výzkumné stanoviště.</MessageNoResearchBenchForTechprint>
@@ -558,5 +591,8 @@
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
   <MessageResearchMenuWithoutBench>Varování: Výzkum nezačne, dokud nepostavíš výzkumné stanoviště.</MessageResearchMenuWithoutBench>
+
+  <!-- EN: {0_indefinite} has triggered a proximity activator. -->
+  <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? narušil : narušila} snímaný prostor detektoru pohybu a {0_gender ? spustil : spustila} tak alarm.</MessageActivatorProximityTriggered>
 
 </LanguageData>

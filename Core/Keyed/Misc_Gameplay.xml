@@ -186,7 +186,7 @@
   <CaravanDaysOfFoodRot>Zásoby potravin na: {0} dnů (zkazí se za {1} dnů)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
   <AllCaravanMembersDowned>Stojí, protože jsou všichni v bezvědomí.</AllCaravanMembersDowned>
-  <!-- EN: Stopped because: Everyone has a mental break. -->
+  <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>Stojí, protože se všichni psychicky zhroutili.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0}x {1}</CaravanColonistsCount>
@@ -230,6 +230,8 @@
   <CaravanAttacking>Útočí: {0}</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Nabízí dary: {0}</CaravanOfferingGifts>
+  <!-- EN: Trading with {0} -->
+  <CaravanTrading>Obchoduje: {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Znečištěno od mrtvoly.</WasWornByCorpse>
   <!-- EN: T -->
@@ -283,7 +285,9 @@
   <!-- EN: equipped by {1_labelShort} -->
   <EquippedBy>vybaven {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>Frakce {0} je chce zničit.\n    Odměna: {1} ({2})</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>Frakce {0} je potřebuje zničit.\n    Odměna: {1} ({2})</QuestTargetDestroyInspectString>
+  <!-- EN: {0} wants this destroyed. -->
+  <QuestTargetDestroyInspectStringShort>Frakce {0} je potřebuje zničit.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
   <ShuttleDelayInspectString>Za {0} odletí v raketoplánu</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
@@ -292,8 +296,6 @@
   <ShouldDepartOnShuttleInspectString>Má odletět v raketoplánu</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Zbývající čas: {0}</WorldObjectTimeout>
-  <!-- EN: Contents: {0} ({1}) -->
-  <ItemStashContents>Obsahuje: {0} ({1})</ItemStashContents>
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>Kliknutím seřadíš dle tohoto sloupce.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
@@ -364,8 +366,8 @@
   <EnterCooldown>Nemůžeš znovu vstoupit po dobu dalších {0} dnů.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Karavana</Caravan>
-  <!-- EN: there may be danger there -->
-  <HiddenOrNoSitePartDescription> to tam může být nebezpečné</HiddenOrNoSitePartDescription>
+  <!-- EN: there may be danger there. -->
+  <HiddenOrNoSitePartDescription> to tam může být nebezpečné.</HiddenOrNoSitePartDescription>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>Drahocenná hrouda ({0})</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -382,12 +384,28 @@
   <Mortars>minomet</Mortars>
   <!-- EN: enemy -->
   <Enemy>nepřítel</Enemy>
+  <!-- EN: location -->
+  <Location>umístění</Location>
+  <!-- EN: animals -->
+  <AnimalsLower>zvíře</AnimalsLower>
+  <!-- EN: {0} x{1} -->
+  <FilthLabel>{0} x{1}</FilthLabel>
+  <!-- EN: {0} of {1} x{2} -->
+  <FilthLabelWithSource>{0} x{2} ({1})</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>Vyžaduje</Required>
+  <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
+  <GiveGiftViaTransportPodsTradeRequestWarning>Upozornění: Obchodní žádosti nelze dokončit pomocí přepravních modulů.\nPokud tímto způsobem zboží odešleš, osada ho přijme jako dar, ale nezískáš žádnou odměnu.\n\nPro uskutečnění obchodu musíš do osady vyslat karavanu!\n\nOpravdu chceš frakci darovat tohle naložené zboží?</GiveGiftViaTransportPodsTradeRequestWarning>
+  <!-- EN: prisoner -->
+  <PrisonerLower>zajatec</PrisonerLower>
+  <!-- EN: prisoners -->
+  <PrisonersLower>zajatec</PrisonersLower>
   <!-- EN: Complete -->
   <Complete>Kompletní</Complete>
   <!-- EN: Click to view this quest in quests tab -->
   <ClickToViewInQuestsTab>Kliknutím zobrazíš tento úkol na kartě Úkoly.</ClickToViewInQuestsTab>
+  <!-- EN: Mood -->
+  <Mood>Nálada</Mood>
   <!-- EN: Quest -->
   <Quest>Úkol</Quest>
   <!-- EN: Foliage kill radius -->
@@ -413,7 +431,7 @@
   <!-- EN: Ready to drop mechanoids -->
   <DormantCompBeacon>Připraven ke shozu mechanoidů.</DormantCompBeacon>
   <!-- EN: Expired -->
-  <DormantCompExpired>Již využité</DormantCompExpired>
+  <DormantCompExpired>Využité</DormantCompExpired>
   <!-- EN: Initiates in -->
   <InitiatesIn>Spustí se za</InitiatesIn>
   <!-- EN: Activates in {0} -->
@@ -548,6 +566,8 @@
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
   <ReportHaulingTo>přenáší {THING_label} do: {DESTINATION}</ReportHaulingTo>
+  <!-- EN: burying {THING_label} in {DESTINATION}. -->
+  <ReportHaulingToGrave>pohřbívá {THING_label} do: {DESTINATION}</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
   <ReportHauling>přenáší {1_label}.</ReportHauling>
   <!-- EN: hauling. -->

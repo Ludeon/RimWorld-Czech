@@ -8,7 +8,13 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, a mechanoid cluster will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.\n\n[helpersParagraph]As a reward, [allRewardsDescriptions]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nVýsadkové moduly budou obsahovat následující nebezpečí:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě žádá o pomoc. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], tě žádá o pomoc. [commonMainPart]</li>
+    <li>commonMainPart->Mechanoidní roj napadá [asker_possessive] osady. Potřebuje, abys mechům vyslal signál a odvrátil tak jejich pozornost, zatímco [asker_possessive] skupina půjde vyčistit jejich hnízdo. Pokud to uděláš, v blízkosti [map_definite] přistane mechanoidní klastr.[dangersDescription]\n\nMechanoidní klastr bude zpočátku nečinný. Může mít časovaný aktivátor nebo může zůstat navždy v nečinnosti, pokud ovšem nedojde k jeho narušení.\n\n[helpersParagraph]V případě, že se s hrozbou vypořádáš, [allRewardsDescriptions]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -24,6 +30,32 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[menace_cluster] klastr</li>
+    <li>questName->[menace_pods] moduly</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->[asker_nameDef] a [asker_possessive] mechové</li>
+    <li>nameBased->[asker_nameDef] a [asker_possessive] mechanoidi</li>
+    <li>nameBased->[asker_nameDef] a [asker_possessive] mechový klastr</li>
+    <li>nameBased->[asker_nameDef] a [asker_possessive] mechov[menace]</li>
+    <li>menace_cluster->Hrozivý</li>
+    <li>menace_cluster->Ohrožující</li>
+    <li>menace_cluster->Pustošící</li>
+    <li>menace_cluster->Nebezpečný</li>
+    <li>menace_cluster->Terorizující</li>
+    <li>menace_cluster->Obávaný</li>
+    <li>menace_pods->Hrozivé</li>
+    <li>menace_pods->Ohrožující</li>
+    <li>menace_pods->Pustošící</li>
+    <li>menace_pods->Nebezpečné</li>
+    <li>menace_pods->Terorizující</li>
+    <li>menace_pods->Obávané</li>
+    <li>menace->[adjFem] hrozba</li>
+    <li>menace->[adjNeu] ohrožení</li>
+    <li>menace->[adjFem] pohroma</li>
+    <li>menace->[adjNeu] nebezpečí</li>
+    <li>menace->[adjMas] teror</li>
+    <li>menace->[adjFem] hrůza</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>
