@@ -54,7 +54,7 @@
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says [joiner_pronoun] poisoned an underground insect colony, but now [joiner_pronoun] is soaked in insect pheromones and the bugs are hunting him!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], a [hivesCount]-hive infestation will begin in [infestationDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že otrávil[joiner_x_a] podzemní hmyzí kolonii, jenže teď je cel[joiner_y_a] nasákl[joiner_y_a] od hmyzích feromonů a brouci se [joiner_objective] proto snaží ulovit!\n\nProsí tě o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [infestationDelayTicks_duration] se z podzemí vynoří [Util_Infestation_hivesCount] začnou vylézat brouci.\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že otrávil[joiner_x_a] podzemní hmyzí kolonii, jenže teď je cel[joiner_y_a] nasákl[joiner_y_a] od hmyzích feromonů a brouci se [joiner_objective] proto snaží ulovit!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [infestationDelayTicks_duration] se z podzemí vynoří [Util_Infestation_hivesCount] začnou vylézat brouci.\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
@@ -84,9 +84,9 @@
     <li>manhunterArrivalLetterEnd(animalCount>=2)->The [animalKind_labelPlural] are chasing [joiner_nameDef].</li>
   -->
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(animalCount==1)->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že [joiner_objective] pronásleduje [animalKind_label] požírající lidi!\n\nProsí tě o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [manhuntersDelayTicks_duration] dorazí i lidožravé zvíře.\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+    <li>questDescription(animalCount==1)->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že [joiner_objective] pronásleduje [animalKind_label] požírající lidi!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [manhuntersDelayTicks_duration] dorazí i lidožravé zvíře.\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
     <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label] jde po své kořisti.</li>
-    <li>questDescription(animalCount>=2)->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že [joiner_objective] pronásleduje [ThreatReward_Manhunters_Joiner_animalCount]!\n\nProsí tě o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [manhuntersDelayTicks_duration] dorazí i zmíněná smečka lidožravých [animalKind_labelPlural].\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+    <li>questDescription(animalCount>=2)->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Říká, že [joiner_objective] pronásleduje [ThreatReward_Manhunters_Joiner_animalCount]!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [manhuntersDelayTicks_duration] dorazí i zmíněná smečka lidožravých [animalKind_labelPlural].\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
     <li>manhunterArrivalLetterEnd(animalCount>=2)->Smečka [animalKind_labelPlural] jde po své kořisti.</li>
     <li>ThreatReward_Manhunters_Joiner_animalCount(animalCount==2)->dvoučlenná skupina lidožravých [animalKind_labelPlural]</li>
     <li>ThreatReward_Manhunters_Joiner_animalCount(animalCount==3)->tříčlenná skupina lidožravých [animalKind_labelPlural]</li>
@@ -172,20 +172,33 @@
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
-  <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Připouští, že zneuctil[joiner_x_a] mírový rituál mezi frakcemi [raid1/enemyFaction_name] a [raid2/enemyFaction_name]. Nyní se [joiner_objective] obě skupiny snaží dopadnout!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud bude [joiner_nameDef] přijat[joiner_x_a], po uplynutí [raidDelayTicks_duration] na tebe zaútočí jak [raid1/enemyFaction_name], tak i [raid2/enemyFaction_name].\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+  </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s Many Friends</li>
     <li>questName->[joiner_nameDef]'s Many Enemies</li>
   -->
-  <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef] [a_vs] [joiner_possessive] přátelé</li>
+    <li>questName->[joiner_nameDef] [a_vs] [joiner_possessive] nepřátelé</li>
+    <li>questName->[joiner_nameDef] [a_vs] [mnoho] přátel</li>
+    <li>questName->[joiner_nameDef] [a_vs] [mnoho] nepřátel</li>
+    <li>a_vs->a</li>
+    <li>a_vs->vs</li>
+    <li>mnoho->hodně</li>
+    <li>mnoho->hromada</li>
+    <li>mnoho->spousta</li>
+    <li>mnoho->mnoho</li>
+  </ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>{BASELABEL}: Naháněn[../joiner_y_a] [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n                  \nSkupina [enemyFaction_pawnsPlural] přišla kvůli pomstě. [../joiner_nameFull] se jen tak nedá.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>{BASELABEL}: Naháněn[../joiner_y_a] [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>{BASETEXT}\n                        \nSkupina [enemyFaction_pawnsPlural] přišla kvůli pomstě. [../joiner_nameFull] se jen tak nedá.</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
