@@ -43,6 +43,8 @@
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Potřebuješ orbitální obchodní maják, abys mohl obchodovat s lodí.</MessageNeedBeaconToTradeWithShip>
+  <!-- EN: Caller must have a royal title of at least baron. text_todo -->
+  <MessageNeedRoyalTitleToCallWithShip>Volající musí mít šlechtický titul alespoň baron.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} byl zničen.</MessageConditionCauserDespawned>
@@ -59,19 +61,19 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} {PAWN_gender ? nenašel : nenašla} v okolí žádné vyhrazené dělostřelecké granáty pro {GUN_label}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
-  <MessageAnimalsGoPsychoHunted>Varování: {ANIMAL_kindBase} má {1} šanci, že se při zranění uděleným z dálky začne bránit. Šance je vyšší, pokud je lovec blíže, a nižší, pokud má slušnou maskovací schopnost.</MessageAnimalsGoPsychoHunted>
+  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
+  <MessageAnimalsGoPsychoHunted>Varování: {ANIMAL_kindBase} má v základu {1} šanci, že se při zranění začne bránit. Šance závisí na vzdálenosti a maskovací schopnosti lovce.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Varování: {ANIMAL_kindBase} může po neúspěšném pokusu o ochočení zaútočit (šance {1}).</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nový rekrut</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} úspěšně {RECRUITER_gender ? naverboval : naverbovala} vězně jménem {1} (šance byla {2}).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} úspěšně {RECRUITER_gender ? naverboval : naverbovala} vězně jménem {RECRUITEE_nameFull} (šance {2}).</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) (šance byla {2}).</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance) and named {RECRUITEE_objective} {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) s šancí {2} a zrovna mu {RECRUITER_gender ? dal : dala} jméno {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) (šance {2}).</MessageTameSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) (šance {2}). Nyní se nazývá {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>Kolonie si tuto transakci nemůže dovolit.</MessageColonyCannotAfford>
@@ -206,9 +208,9 @@
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
   <MessageNewBondRelationNewName>Mezi {HUMAN_labelShort} a {1} se vytvořilo pouto. {HUMAN_labelShort} {HUMAN_gender ? dal : dala} zvířeti jméno {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
-  <!-- EN: {ANIMAL} has a mental break because of {HUMAN_labelShort}'s death. -->
+  <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, {ANIMAL} se začíná psychicky hroutit.</MessageBondedAnimalMentalBreak>
-  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has a mental break because of {HUMAN_labelShort}'s death. -->
+  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, {ANIMAL_kindIndef} jménem {ANIMAL_label} se začíná psychicky hroutit.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, zvířata (celkem {0}) se psychicky zhroutila.</MessageBondedAnimalsMentalBreak>
@@ -222,8 +224,8 @@
   <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Některé položky nešlo prodat z důvodu: </MessageCannotSellItemsReason>
 
-  <!-- EN: {WORKER_labelShort} failed while constructing {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>Některé suroviny na {0} byly promrhány, protože {WORKER_labelShort} při výstavbě {WORKER_gender ? selhal : selhala}.</MessageConstructionFailed>
+  <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
+  <MessageConstructionFailed>{WORKER_labelShort} při výstavbě {WORKER_gender ? selhal : selhala}. Některé suroviny byly promrhány ({0}).</MessageConstructionFailed>
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Snímek obrazovky byl uložen jako: {0}</MessageScreenshotSavedAs>
@@ -367,8 +369,10 @@
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Skupina {0} z frakce {1} byla napadena tvou skupinou {2}.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been assembled and are attacking. -->
-  <MessageMechanoidsAssembled>Mechanoidi byli právě sestaveni a ihned zahájili útok.</MessageMechanoidsAssembled>
+  <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
+  <MessageMechanoidsAssembled>Mechanoidi byli právě sestaveni a budou bránit svůj klastr.</MessageMechanoidsAssembled>
+  <!-- EN: Remaining mechanoids to assemble -->
+  <MessageMechanoidsLeftToAssemble>Zbývajících mechanoidů k sestavení</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>Mechanoidní výsadkový maják přivolal prostřednictvím výsadkových modulů posily.</MessageMechanoidsReinforcementsDrop>
 
@@ -547,8 +551,8 @@
   <!-- EN: {0_labelShort} can now freely use "{1}". -->
   <MessagePermitCooldownFinished>{0_labelShort} nyní může bezplatně využít '{1}'.</MessagePermitCooldownFinished>
 
-  <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} se kvůli potravě pokusí ulovit nějakou kořist ({PREY_definite})!</MessagePredatorHuntingPlayerAnimal>
+  <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} se kvůli potravě snaží ulovit {PREY_definite}!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>{WARDEN_labelShort} {WARDEN_gender ? dokázal : dokázala} prolomit zbývající vzdor u {PRISONER_gender ? vězně : vězeňkyně} jménem {PRISONER_labelShort}.</MessagePrisonerResistanceBroken>

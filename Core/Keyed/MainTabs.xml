@@ -93,13 +93,17 @@
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Tato frakce je trvale nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Vztahy s nimi se z jakéhokoliv důvodu nikdy nezlepší.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Ally>Tato frakce je spojenecká. Budou ti posílat své bojovníky na pomoc, jestliže budou moci. Pokud vztahy klesnou pod hodnotu {0}, stanou se neutrálními.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Ally>Tato frakce je spojenecká. Když budou moci, pošlou ti své bojovníky na pomoc. Pokud vztahy klesnou pod hodnotu {0}, stanou se neutrálními.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>Tato frakce je neutrální. Budou s tebou svobodně obchodovat a mluvit. Pokud vztahy klesnou pod hodnotu {0}, stanou se nepřátelskými. Jestliže naopak vztahy vzrostou nad hodnotu {1}, stanou se spojenci a začnou se aktivně podílet na pomoci tvé frakci.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>Tato frakce je neutrální. Budou s tebou svobodně obchodovat a mluvit. Pokud vztahy klesnou pod hodnotu {0}, stanou se z nich nepřátelé. Jestliže vztahy převýší hodnotu {1}, stanou se z nich spojenci a začnou se aktivně podílet na pomoci tvé frakci.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Hostile>Tato frakce je nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Pokud vztahy vzrostou nad hodnotu {0}, stanou se neutrálními.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Tato frakce má přirozený rozsah hodnot prestiže od {0} do {1}:\n\n- pokud je prestiž nad hodnotou {1}, bude klesat o {3} za den.\n- pokud je prestiž pod hodnotou {0}, bude růst o {2} za den.</CurrentGoodwillTip_NaturalGoodwill>
+  <CurrentGoodwillTip_Hostile>Tato frakce je nepřátelská. Budou podnikat nájezdy na tvé osady a karavany. Pokud vztahy převýší hodnotu {0}, stanou se neutrálními.</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
+  <CurrentGoodwillTip_NaturalGoodwill>Tato frakce má přirozený rozsah hodnot prestiže od {0} do {1}.</CurrentGoodwillTip_NaturalGoodwill>
+  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillRise>Pokud je prestiž pod {0}, bude růst o {1} bodů ročně.</CurrentGoodwillTip_NaturalGoodwillRise>
+  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillFall>Pokud je prestiž nad {0}, bude klesat o {1} bodů ročně.</CurrentGoodwillTip_NaturalGoodwillFall>
   
   <!-- Social tab -->
   <!-- EN: Friend -->

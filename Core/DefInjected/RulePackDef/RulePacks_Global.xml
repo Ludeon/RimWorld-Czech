@@ -430,6 +430,16 @@
     <li>joiner_y_a(joiner_gender==Female)->á</li>
     <li>joiner_nim_ni(joiner_gender==Male)->ním</li>
     <li>joiner_nim_ni(joiner_gender==Female)->ní</li>
+    <li>joiner_mu_ji(joiner_gender==Male)->mu</li>
+    <li>joiner_mu_ji(joiner_gender==Female)->jí</li>
+    <li>joiner_ozenitsprinceznou_provdatzaprince(joiner_gender==Male)->oženit s princeznou</li>
+    <li>joiner_ozenitsprinceznou_provdatzaprince(joiner_gender==Female)->provdat za prince</li>
+    <li>joiner_eznina_ova(joiner_gender==Male,enemyFaction_leader_gender==Male)->eznin</li>
+    <li>joiner_eznina_ova(joiner_gender==Female,enemyFaction_leader_gender==Male)->ův</li>
+    <li>joiner_eznina_ova(joiner_gender==Male,enemyFaction_leader_gender==Female)->eznina</li>
+    <li>joiner_eznina_ova(joiner_gender==Female,enemyFaction_leader_gender==Female)->ova</li>
+    <li>joiner_nevestine_zenichove(joiner_gender==Male)->nevěstině</li>
+    <li>joiner_nevestine_zenichove(joiner_gender==Female)->ženichově</li>
 
     <li>lodgers0_x_a(lodgers0_gender==Male)-></li>
     <li>lodgers0_x_a(lodgers0_gender==Female)->a</li>
@@ -467,6 +477,16 @@
     <li>helpers0_mu_ji(helpers0_gender==Male)->mu</li>
     <li>helpers0_mu_ji(helpers0_gender==Female)->jí</li>
 
+    <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Male)-></li>
+    <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Female)->a</li>
+    <li>enemyFaction_leader_eho_ou(enemyFaction_leader_gender==Male)->ého</li>
+    <li>enemyFaction_leader_eho_ou(enemyFaction_leader_gender==Female)->ou</li>
+    <li>enemyFaction_leader_otec_matka(enemyFaction_leader_gender==Male)->otec</li>
+    <li>enemyFaction_leader_otec_matka(enemyFaction_leader_gender==Female)->matka</li>
+    <li>enemyFaction_leader_vudce_vudkyne(enemyFaction_leader_gender==Male)->vůdce</li>
+    <li>enemyFaction_leader_vudce_vudkyne(enemyFaction_leader_gender==Female)->vůdkyně</li>
+    <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Male)->muže</li>
+    <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Female)->ženu</li>
 
     <li>Trans->of</li>
     <li>Trans->for</li>

@@ -10,10 +10,11 @@
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nZdá se, že mnoho {0} v oblasti to dohnalo k nepříčetnosti.</AnimalInsanityMultiple>
 
-  <!-- EN: Blight -->
-  <LetterLabelCropBlight>Plíseň na poli</LetterLabelCropBlight>
-  <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
-  <LetterCropBlight>Kolonista si všiml plísně na tvé úrodě! Měl bys posekat nebo spálit plodiny napadené plísní dříve, než se rozšíří.</LetterCropBlight>
+  <!-- EN: Blight: {PLANTDEF_labelPlural} -->
+  <LetterLabelCropBlight>Plíseň: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
+  <LetterCropBlight>Na poli se objevila záhadná plíseň!\n\nMěl bys napadené rostliny posekat nebo spálit dříve, než se plíseň rozšíří.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Zázrak</LetterLabelMiracleHeal>
@@ -91,7 +92,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Lidožravá smečka</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravých {0}. Budou se toulat po krajině a lovit lidské maso.\n\nNezaútočí na dveře, pokud neuvidí, že někdo nimi prošel. Skryj se uvnitř a budeš v bezpečí. Nebudou útočit ani na vypnuté střelecké věže, takže pokud je chceš zachránit, vypni je.\n\nSkupina {0} opustí oblast během jednoho až dvou dnů. Můžeš se schovat a vyčkat, nebo s nimi bojovat.</ManhunterPackArrived>
+  <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravých {0}. Budou se toulat po krajině a lovit lidské maso.\n\nNebudou útočit na dveře, pokud neuvidí, že nimi někdo prošel. Skryj se uvnitř a budeš v bezpečí. Nebudou útočit ani na vypnuté střelecké věže, takže pokud je chceš zachránit, vypni je.\n\nSkupina {0} opustí oblast během jednoho až dvou dnů. Můžeš se schovat a vyčkat, nebo s nimi bojovat.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -100,6 +101,8 @@
   <LetterShipPartDroveColonistInsane>Havarovaná část lodě vyslala soustředěný psychický impuls, který dohnal osobu jménem {0} k nepříčetnosti.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>K probuzení došlo před {0} dny.</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>K aktivaci došlo před {0} dny.</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
   <OpenedDaysAgo>K otevření došlo před {0} dny.</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
@@ -220,5 +223,23 @@
   <LetterSiteNoLongerHostile>Protože už nejsi nepřátelský vůči frakci {0}, {1} již není k dispozici.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Protože už nejsi nepřátelský vůči frakci {0}, tyto oblasti již nejsou k dispozici</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerFactionHostile>Úkol se nezdařil</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
+  <LetterQuestAskerFactionHostile>Úkol nelze dokončit, protože frakce {FACTION_name} je nepřátelská.</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>Úkol se nezdařil</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>Úkol nelze dokončit, protože {SUBJECT_definite} {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}.</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>Úkol se nezdařil</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>Úkol nelze dokončit, protože {SUBJECT_definite} {SUBJECT_gender ? zemřel : zemřela}.</LetterQuestAskerDied>
 
 </LanguageData>

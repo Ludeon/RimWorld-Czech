@@ -125,7 +125,6 @@
   <Stat_SourceSpecies_Name>Zdroj původu</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
   <Stat_SourceSpecies_Desc>Druh tvora, ze kterého bylo toto získáno.</Stat_SourceSpecies_Desc>
-
   <!-- EN: Stuff -->
   <Stat_Stuff_Name>Materiál</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
@@ -142,6 +141,8 @@
   <Stat_Thing_CreatedAt_Desc>Jaká zařízení lze použít k vytvoření tohoto objektu.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
   <Stat_Thing_Damage_Desc>Množství poškození, které tato zbraň působí.\n\nTo může být odvráceno nebo zmírněno hodnotou zbroje cíle.</Stat_Thing_Damage_Desc>
+  <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Násobitel množství zkušeností, které doktoři získají při použití tohoto přípravku při ošetřování pacienta.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>Atributy této rostliny.</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
@@ -208,6 +209,10 @@
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>Šance, že pacient zemře při selhání chirurga u této operace.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
   <!-- EN: The addictiveness of this drug. -->
   <Stat_Thing_Drug_Addictiveness_Desc>Návykovost této drogy.</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: The amount of pain caused by this condition. -->
+  <Stat_Hediff_Pain_Desc>Množství bolesti způsobené tímto stavem.</Stat_Hediff_Pain_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>Násobitel aplikovaný na rychlost poklesu potřeby odpočinku u bytostí.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: This can only be placed on terrain of these types. -->
   <Stat_Thing_TerrainRequirement_Desc>Tento objekt lze umístit pouze na podporovaný povrch těchto typů.</Stat_Thing_TerrainRequirement_Desc>
   <!-- EN: The amount of power this building will draw from the power grid. -->

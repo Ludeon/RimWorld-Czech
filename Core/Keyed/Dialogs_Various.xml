@@ -5,6 +5,8 @@
   <Confirm>Potvrdit</Confirm>
   <!-- EN: Go back -->
   <GoBack>Zpět</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>Opravdu chceš pokračovat?</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
@@ -448,14 +450,16 @@
   <PowerConsumption>Spotřeba energie</PowerConsumption>
   <!-- EN: Target -->
   <Target>Cíl</Target>
-  <!-- EN: Human -->
-  <TargetHuman>Člověk</TargetHuman>
-  <!-- EN: Animal -->
-  <TargetAnimal>Zvíře</TargetAnimal>
-  <!-- EN: Self -->
-  <TargetSelf>Já</TargetSelf>
-  <!-- EN: Ground -->
-  <TargetGround>Země</TargetGround>
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>Typy cílů, na které lze tuto schopnost použít.</AbilityTargetDesc>
+  <!-- EN: human -->
+  <TargetHuman>člověk</TargetHuman>
+  <!-- EN: animal -->
+  <TargetAnimal>zvíře</TargetAnimal>
+  <!-- EN: self -->
+  <TargetSelf>já</TargetSelf>
+  <!-- EN: ground -->
+  <TargetGround>země</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>(Kliknutím zobrazíš více)</ClickToLearnMore>
   <!-- EN: Click to view factions. -->
@@ -530,6 +534,8 @@
   <GiftModeTip>Režim daru - nabídka darů {0}.</GiftModeTip>
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Vrátit se do režimu obchodu.</TradeModeTip>
+  <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <TradeCaravanRequestDeniedDueTitle>Frakce {FACTION_name} není ochotná vyslat karavanu, protože {NEGOTIATOR_nameDef} nemá požadovaný titul {TITLE}.</TradeCaravanRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -678,6 +684,10 @@
   <SourceCaravanMustHaveAtLeastOneColonist>Musíš ponechat alespoň jednoho kolonistu při vědomí.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Kolik této položky má karavana připraveno k přeložení na novou karavanu.</SplitCaravanThingCountTip>
+  
+  <!-- Caravan misc -->
+  <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
+  <ConfirmAttackFriendlyFaction>Opravdu chceš zaútočit na osadu zvanou {0}?\n\nKvůli tomu se frakce {1} stane nepřátelskou. Časem začnou podnikat nájezdy na tvou kolonii!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -916,5 +926,5 @@
   <AbilityOccupiedCells>{0} musí cílit na prázdnou oblast.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} musí cílit na schůdnou oblast.</AbilityUnwalkable>
-
+  
 </LanguageData>

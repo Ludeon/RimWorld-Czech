@@ -400,8 +400,6 @@
   <PrisonerLower>zajatec</PrisonerLower>
   <!-- EN: prisoners -->
   <PrisonersLower>zajatec</PrisonersLower>
-  <!-- EN: Complete -->
-  <Complete>Kompletní</Complete>
   <!-- EN: Click to view this quest in quests tab -->
   <ClickToViewInQuestsTab>Kliknutím zobrazíš tento úkol na kartě Úkoly.</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
@@ -888,8 +886,8 @@
   <ShowTerrainAffordanceOverlayToggleButton>Přepínač pro viditelnost/skrytí vhodnosti terénu.\n\nUkáže, které typy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy podlah přijímají pouze lehké nebo střední, ale žádné těžké struktury. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Zamknout/odemknout otáčení kamery tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
-  <!-- EN: Toggle day/night lighting system. -->
-  <UsePlanetDayNightSystemToggleButton>Přepínač pro systém osvětlení den/noc.</UsePlanetDayNightSystemToggleButton>
+  <!-- EN: Toggle day/night lighting on the planet view. -->
+  <UsePlanetDayNightSystemToggleButton>Přepínač pro nasvícení den/noc při pohledu na planetu.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
   <ShowExpandingIconsToggleButton>Přepínač pro zapnutí/vypnutí zvětšujících se ikon vzdálených objektů namísto běžných ikon.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
@@ -1040,12 +1038,18 @@
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Všichni jsou mrtví nebo pryč. Tento příběh skončil.\n\nPro rozvaliny tohoto místa možná najde využití někdo jiný.</GameOverEveryoneDead>
-  <!-- EN: You've launched the ship! These colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nYour AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunched>Odstartoval jsi s lodí! Tito kolonisté unikli:\n\n{0}\nTito kolonisté tu byli ponecháni:\n\n{1}\nTvoje UI se teď pokusí navádět loď na bezpečné místo. Může ti najít vzkvétající planetu v tomto systému. Nebo může podniknout staletí trvající cestu k jiné hvězdě. Dokonce se může rozhodnout schovat se pod ledem asteroidu na několik tisíc let a čekat na někoho, kdo tu vybuduje nový zářný svět.\n\nTo zjistíš, až se probudíš.</GameOverShipLaunched>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Na hranici rychlosti světla se planetovražedná zbraň zabořila do země se silou bilionu vodíkových pum. Při dopadu tento svět jako vodní balónek zasažený výstřelem z pušky zkapalněl a rozstříkl své roztavené vnitřnosti napříč všehomírem.\n\nZ části {0} je teď malý pás asteroidů. Ze zbytku je teď roztavené, radioaktivní peklo, které se nepřetržitě zmítá v kilometry vysokých zemětřeseních.\n\nNepřežil jsi.</GameOverPlanetkillerImpact>
-  <!-- EN: As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up. -->
-  <GameOverArrivedAtJourneyDestination>Jak vcházíš na palubu lodě, posádka tě vítá s otevřenou náručí. Zdá se, že mají radost, že s sebou mohou vzít přinejmenším jednu další osobu.\n\nTito kolonisté unikli:\n\n{0}\nTito kolonisté tu byli ponecháni:\n\n{1}\nUI se teď pokusí navádět loď na bezpečné místo. Může ti najít vzkvétající planetu v tomto systému. Nebo může podniknout staletí trvající cestu k jiné hvězdě. Dokonce se může rozhodnout schovat se pod ledem asteroidu na několik tisíc let a čekat na někoho, kdo tu vybuduje nový zářný svět.\n\nKdyž vstupuješ do cryptospánkové komory, na okamžik zaváháš a cítíš se trochu nejistě ohledně toho, zda můžeš těmto lidem věřit.\n\nTo zjistíš, až se probudíš.</GameOverArrivedAtJourneyDestination>
+  <!-- EN: You've launched the ship! -->
+  <GameOverShipLaunchedIntro>Odstartoval jsi s lodí!</GameOverShipLaunchedIntro>
+  <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
+  <GameOverShipLaunchedEnding>Tvá strojní osobnost se teď pokusí navádět loď na bezpečné místo. Může najít vzkvétající planetu v tomto systému. Nebo může podniknout staletí trvající cestu k jiné hvězdě. Dokonce se může rozhodnout schovat se pod ledem asteroidu na několik tisíc let a čekat na někoho, kdo tu vybuduje nový zářný svět.\n\nTo zjistíš, až se probudíš.</GameOverShipLaunchedEnding>
+  <!-- EN: These colonists escaped:\n\n{0} -->
+  <GameOverColonistsEscaped>Tito kolonisté unikli:\n\n{0}</GameOverColonistsEscaped>
+  <!-- EN: These colonists were left behind:\n\n{0} -->
+  <GameOverColonistsLeft>Tito kolonisté tu byli ponecháni:\n\n{0}</GameOverColonistsLeft>
+  <!-- EN: In memory of:\n -->
+  <GameOverInMemoryOf>Na památku padlých:\n</GameOverInMemoryOf>
   <!-- EN: Keep playing -->
   <GameOverKeepPlaying>Hrát dál</GameOverKeepPlaying>
   <!-- EN: Main menu -->
@@ -1203,6 +1207,10 @@
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
   <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače psychické entropie.\n\nPřekročení limitu psychické entropie může způsobit vážné zdravotní následky, včetně dlouhodobého psychického zhroucení, a dokonce i poškození mozku v případě nadměrného překročení limitu. Čím výše je entropie nad limitem, tím nebezpečnější jsou případné následky.</PawnTooltipPsychicEntropyLimit>
 
+  <!-- Pawn tooltip description -->
+  <!-- EN: {0} {1} -->
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
   <Reward_Pawn_DropPod>v přepravním modulu dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef} {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
@@ -1248,5 +1256,5 @@
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
   <AffectedGender>Ovlivňuje pohlaví</AffectedGender>
-
+  
 </LanguageData>

@@ -119,7 +119,9 @@
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is begging to join you at [map_definite].[joiner_relationInfo]\n\nThere's some kind of threat following [joiner_nameDef], but [joiner_pronoun] is unwilling to say what it is or when it might follow. [joiner_pronoun] is also unwilling to tell you more about [joiner_objective]self.</li>
   -->
-  <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef] ti volá z nedaleké oblasti. Žadoní, zda by se k tobě mohl[joiner_x_a] přidat. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nExistuje zde určité riziko. Bohužel ti [joiner_nameDef] není ochotn[joiner_y_a] sdělit, o co se vlastně jedná nebo co by mohlo následovat. Nechce ti ani říct nic bližšího o sobě.</li>
+  </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
     <li>questName->The [problem] of [joiner_nameDef]</li>
@@ -127,21 +129,45 @@
     <li>problem->Shame</li>
     <li>problem->Secret</li>
   -->
-  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
+    <li>questName->[joiner_nameDef] a [joiner_possessive] [problem_1]</li>
+    <li>questName->[problem_2] [joiner_nameDef]</li>
+    <li>problem_1->problém</li>
+    <li>problem_1->[shame]</li>
+    <li>problem_1->[secret]</li>
+    <li>problem_2(joiner_gender==Male)->Tajnůstkář</li>
+    <li>problem_2(joiner_gender==Female)->Tajnůstkářka</li>
+    <li>problem_2->Tajemn[joiner_y_a]</li>
+    <li>problem_2->Tajupln[joiner_y_a]</li>
+    <li>problem_2->Záhadn[joiner_y_a]</li>
+    <li>problem_2->Nevyzpytateln[joiner_y_a]</li>
+    <li>problem_2->Problémov[joiner_y_a]</li>
+    <li>problem_2->Divn[joiner_y_a]</li>
+    <li>problem_2->Podivn[joiner_y_a]</li>
+    <li>shame->hanba</li>
+    <li>shame->ostuda</li>
+    <li>shame->blamáž</li>
+    <li>shame->průšvih</li>
+    <li>secret->tajemství</li>
+    <li>secret->tajnosti</li>
+    <li>secret->záhada</li>
+  </ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>{BASELABEL}: Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-0.value.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \nMěl[joiner_x_a] se [joiner_ozenitsprinceznou_provdatzaprince], tak jak si přál[enemyFaction_leader_x_a] princ[joiner_eznina_ova] [enemyFaction_leader_otec_matka] [enemyFaction_leader_nameFull], [enemyFaction_leader_vudce_vudkyne] frakce [enemyFaction_name]. Před samotným obřadem se opil[joiner_x_a] natolik, že pozvracel[joiner_x_a] celý oltář - byla to do očí bijící ostuda a urážka vůči celé [joiner_nevestine_zenichove] rodině.\n    \n[enemyFaction_leader_nameDef] přísahal[enemyFaction_leader_x_a], že se [joiner_mu_ji] pomstí, a to i těm, kteří s [joiner_nim_ni] mají cokoli co do činění. A tak poslal[enemyFaction_leader_x_a] svůj oddíl [enemyFaction_pawnsPlural] k provedení úkolu.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-0.nodes.Set-1.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>{BASELABEL}: Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-0.value.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \n[joiner_nameDef], chamtiv[joiner_y_a] po zážitcích a bohatství chtěl[joiner_x_a] získat ceněné hmyzí želé. Zamýšlel[joiner_x_a], že zničí obrovské hnízdo brouků pomocí jedu. Kromě toho, že selhal[joiner_x_a], se akorát namočil[joiner_x_a] ve znepokojujících hmyzích feromonech. Od té doby [joiner_objective] pronásledují brouci. Nyní zahájili svůj poslední útok.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-1.nodes.Set-1.value.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>Odhalení oblasti k obtěžování [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-0.value.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \n[joiner_nameDef] byl[joiner_x_a] zrovna na cestách, když najednou narazil[joiner_x_a] na okraji cesty na nemocn[enemyFaction_leader_eho_ou] [enemyFaction_leader_muze_zenu]. Byl[enemyFaction_leader_x_a] to [enemyFaction_leader_nameFull], [enemyFaction_leader_vudce_vudkyne] pocházející z frakce [enemyFaction_name]. [joiner_nameDef] [enemyFaction_leader_muze_zenu] slovně napadl[joiner_x_a] - přirovnal[joiner_x_a] [enemyFaction_leader_objective] [AnimalToUniDat].\n    \n[enemyFaction_leader_nameDef] se naštval[enemyFaction_leader_x_a] a zadal[enemyFaction_leader_x_a] svým [enemyFaction_pawnsPlural]m, aby se usadili v blízké oblasti a obtěžovali tě.\n    \nV oblasti se nachází [allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-2.nodes.Set-1.value.slateRef>
+  <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>{BASELABEL} : Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-0.value.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \n[joiner_nameDef] byl[joiner_x_a] zrovna na cestách, když najednou narazil[joiner_x_a] na skupinu [animalKind_labelPlural]. Jelikož měl[joiner_x_a] špatnou náladu, napadlo [joiner_objective] zvířata jen tak pro zábavu pobídnout. Jak nečekané, zvěř [joiner_objective] napadla. Pronásledovala [joiner_objective] dlouhou dobu.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.root.nodes.Delay.node.nodes.RandomNode.nodes.Sequence-3.nodes.Set-1.value.slateRef>
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -156,6 +182,8 @@
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
+  <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
+  <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterLabel.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
   <ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>TODO</ThreatReward_RaidMultiFaction_Joiner.root.nodes.Delay.node.nodes.Delay.node.nodes.Util_Raid.parms.customLetterText.value.slateRef>
   
