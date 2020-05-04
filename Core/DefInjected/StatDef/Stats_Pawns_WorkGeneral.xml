@@ -21,6 +21,11 @@
   <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
   <ConstructSuccessChance.description>Šance, jakou tato osoba uspěje při konstrukci něčeho.\nSelhání znamená plýtvání časem a materiálem.</ConstructSuccessChance.description>
   
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>rychlost hlubinného vrtání</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>Rychlost, jakou tato osoba pomocí hlubinné vrtačky extrahuje podzemní zdroje.</DeepDrillingSpeed.description>
+  
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>šance na úspěšnou opravu</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
@@ -33,13 +38,13 @@
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>rychlost těžby</MiningSpeed.label>
-  <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
-  <MiningSpeed.description>Rychlost, jakou tato osoba těží suroviny.</MiningSpeed.description>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>Rychlost, jakou tato osoba těží skalní stěny.</MiningSpeed.description>
   
   <!-- EN: mining yield -->
   <MiningYield.label>výnos z těžby</MiningYield.label>
-  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks. -->
-  <MiningYield.description>Procentuální podíl vytěžených zdrojů, které horník při těžbě vyprodukuje. To platí jak pro klasickou těžbu krumpáčem, tak pro hlubinnou těžbu vrtákem.\n\nTohle neovlivní těžbu kusů kamene k dalšímu zpracování.</MiningYield.description>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
+  <MiningYield.description>Procentuální podíl vytěžených zdrojů, které horník při těžbě vyprodukuje.\n\nTo platí jak pro klasickou těžbu krumpáčem, tak pro hlubinnou těžbu vrtákem.\nTohle neovlivňuje množství vyprodukovaných běžných kusů kamene při hlubinném vrtání.</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
   <PlantHarvestYield.label>výnos ze sklizně</PlantHarvestYield.label>

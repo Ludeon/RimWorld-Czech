@@ -6,14 +6,36 @@
     <li>questDescription(asker_factionLeader==True)->[asker_faction_name] is threatened by an rogue machine persona. Their leader, [asker_nameFull], wants you to send a message to the persona accepting responsibility for their flaws. If you do, the persona will punish you instead, and [gameConditionDescriptionFuture].\n\nIn thanks, [asker_nameDef] will send items to [map_definite] via transport pod (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to watch how you primitive surface-dwellers deal with catastrophe. [asker_pronoun] proposes an artifical disaster for you: [gameConditionDescriptionFuture]. [asker_nameDef] will watch via high-altitude drone.\n\nAs compensation, [asker_pronoun] will send items to [map_definite] in reward (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
   -->
-  <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>TODO</ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
+  <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Strojová osobnost z orbitální lodě chce provést nějaké planetární experimenty. Má však obavy z toho, že se dostane do problémů s etickou revizní komisí, protože její experiment způsobí nešťastné vedlejší účinky.\n\nPokud svůj experiment provede, [gameConditionDescriptionFuture_ItemPodThreat].\n\nVýměnou za tvůj souhlas nabízí odeslání nějakých předmětů do oblasti [map_definite] prostřednictvím přepravních modulů (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_factionLeader==True)->Frakci [asker_faction_name] ohrožuje strojová osobnost se zlými úmysly. Jejich vůd[asker_ce_kyne], [asker_nameFull], tě žádá, abys osobnosti odeslal vzkaz, že přebíráš veškerou odpovědnost za jejich nedostatky. Pokud tak učiníš, osobnost potrestá namísto nich tebe. [gameConditionDescriptionFuture_ItemPodThreat].\n\nJako poděkování ti [asker_nameDef] pošle do oblasti [map_definite] prostřednictvím přepravních modulů nějaké předměty (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], chce sledovat, jak se tví primitivní obyvatelé žijící na povrchu této planety vypořádají s uměle vytvořenou katastrofou. A tak ti navrhuje následující: [gameConditionDescriptionFuture_ItemPodThreat]. [asker_nameDef] bude pozorovat veškeré dění pomocí výškových dronů.\n\nJako kompenzaci ti pošle do oblasti [map_definite] tuto odměnu (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==ToxicFallout)->na oblast kolem [map_definite] se bude po dobu [gameConditionDuration_duration] usazovat oblak toxického prachu, který bude postupně likvidovat flóru a faunu</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==VolcanicWinter)->v horní části atmosféry se bude po dobu [gameConditionDuration_duration] hromadit polétavý popel, který bude v oblasti kolem [map_definite] snižovat propustnost slunečního svitu, což vážně naruší místní ekosystém</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==EMIField)->vzdálený generátor EMI začne v oblasti kolem [map_definite] vytvářet pole elektromagnetických interferencí, které vyřadí na dobu [gameConditionDuration_duration] veškerá elektronická zařízení</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==HeatWave)->oblast kolem [map_definite] zasáhne vlna veder, která bude po dobu [gameConditionDuration_duration] spalovat úrodu a možná způsobovat smrt některých lidí nebo zvířat z důvodu přehřátí jejich organismu</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==ColdSnap)->oblast kolem [map_definite] zasáhne příliv studeného vzduchu, který bude po dobu [gameConditionDuration_duration] škodit úrodě a některým osobám nebo zvířatům bez adekvátní ochrany</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==WeatherController)->řídící systém regulátoru počasí vynutí v oblasti kolem [map_definite] jeho změnu. Po dobu [gameConditionDuration_duration] bude pouze [forcedWeather_indefinite]</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==PsychicDrone)->oblast kolem [map_definite] začne sužovat [psychicDroneLevel] psychického bzučení, která bude po dobu [gameConditionDuration_duration] přivádět k šílenství každého, kdo je [psychicDroneGender]</li>
+    <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==PsychicSuppression)->oblast kolem [map_definite] začnou sužovat vlny psychického potlačovače, které budou po dobu [gameConditionDuration_duration] snižovat vědomí každého, kdo je [psychicSuppressorGender]</li>
+  </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
     <li>questName->[gameCondition_indefinite] for [asker_nameDef]</li>
     <li>questName->Paid [gameCondition_label]</li>
     <li>questName->[gameCondition_label] for Pay</li>
   -->
-  <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>TODO</ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
+  <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef] [a_vs] [gameCondition_label]</li>
+    <li>questName->[gameCondition_indefinite] a [asker_nameDef]</li>
+    <li>questName->Za odměnu [gameCondition_label]</li>
+    <li>questName->[gameCondition_label][maybe_vymenou] [for_pay]</li>
+    <li>for_pay->za odměnu</li>
+    <li>for_pay->za platbu</li>
+    <li>for_pay->za výplatu</li>
+    <li>maybe_vymenou-></li>
+    <li>maybe_vymenou-> výměnou</li>
+  </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An orbiting research ship wants to test a new type of insect pheromone. If you agree, they'll sweep [map_definite] with pheromones, provoking an infestation of [hivesCount] hives.\n\nIn exchange, the ship will send transport pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
