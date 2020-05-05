@@ -7,9 +7,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to watch how you primitive surface-dwellers deal with catastrophe. [asker_pronoun] proposes an artifical disaster for you: [gameConditionDescriptionFuture]. [asker_nameDef] will watch via high-altitude drone.\n\nAs compensation, [asker_pronoun] will send items to [map_definite] in reward (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Strojová osobnost z orbitální lodě chce provést nějaké planetární experimenty. Má však obavy z toho, že se dostane do problémů s etickou revizní komisí, protože její experiment způsobí nešťastné vedlejší účinky.\n\nPokud svůj experiment provede, [gameConditionDescriptionFuture_ItemPodThreat].\n\nVýměnou za tvůj souhlas nabízí odeslání nějakých předmětů do oblasti [map_definite] prostřednictvím přepravních modulů (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(askerIsNull==true)->Strojová osobnost z orbitální lodě chce provést nějaké planetární experimenty. Má však obavy z toho, že se dostane do potíží s etickou revizní komisí, protože její experiment způsobí nešťastné vedlejší účinky.\n\nPokud svůj experiment provede, [gameConditionDescriptionFuture_ItemPodThreat].\n\nVýměnou za tvůj souhlas nabízí odeslání několika položek do oblasti [map_definite] prostřednictvím přepravních modulů (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
     <li>questDescription(asker_factionLeader==True)->Frakci [asker_faction_name] ohrožuje strojová osobnost se zlými úmysly. Jejich vůd[asker_ce_kyne], [asker_nameFull], tě žádá, abys osobnosti odeslal vzkaz, že přebíráš veškerou odpovědnost za jejich nedostatky. Pokud tak učiníš, osobnost potrestá namísto nich tebe. [gameConditionDescriptionFuture_ItemPodThreat].\n\nJako poděkování ti [asker_nameDef] pošle do oblasti [map_definite] prostřednictvím přepravních modulů nějaké předměty (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], chce sledovat, jak se tví primitivní obyvatelé žijící na povrchu této planety vypořádají s uměle vytvořenou katastrofou. A tak ti navrhuje následující: [gameConditionDescriptionFuture_ItemPodThreat]. [asker_nameDef] bude pozorovat veškeré dění pomocí výškových dronů.\n\nJako kompenzaci ti pošle do oblasti [map_definite] tuto odměnu (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], chce sledovat, jak se tví primitivní obyvatelé žijící na povrchu této planety vypořádají s uměle vytvořenou katastrofou. A tak ti navrhuje následující: [gameConditionDescriptionFuture_ItemPodThreat]. [asker_nameDef] bude veškeré dění pozorovat pomocí výškových dronů.\n\nJako kompenzaci ti do oblasti [map_definite] pošle tuto odměnu (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
     <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==ToxicFallout)->na oblast kolem [map_definite] se bude po dobu [gameConditionDuration_duration] usazovat oblak toxického prachu, který bude postupně likvidovat flóru a faunu</li>
     <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==VolcanicWinter)->v horní části atmosféry se bude po dobu [gameConditionDuration_duration] hromadit polétavý popel, který bude v oblasti kolem [map_definite] snižovat propustnost slunečního svitu, což vážně naruší místní ekosystém</li>
     <li>gameConditionDescriptionFuture_ItemPodThreat(gameCondition==EMIField)->vzdálený generátor EMI začne v oblasti kolem [map_definite] vytvářet pole elektromagnetických interferencí, které vyřadí na dobu [gameConditionDuration_duration] veškerá elektronická zařízení</li>
@@ -45,7 +45,24 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wishes to watch how you fight an infestation for the purposes of entertainment. [asker_pronoun] seeks your permission to drop insect pheromone bombs on [map_definite] to provoke an infestation of [hivesCount] hives. [asker_pronoun] will watch via high-altitude drone.\n\nIn return, [asker_pronoun] offers to send resource pods containing (total value [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph][allRewardsDescriptionsExceptItems]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was instigated by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], for [asker_possessive] entertainment.</li>
   -->
-  <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>TODO</ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+  <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Výzkumná loď obíhající na orbitě plánuje otestovat nový typ hmyzích feromonů. Pokud dáš k testu souhlas, dojde k vypuštění feromonů do oblasti [map_definite], které přilákají [Infestation_ItemPod_hivesCountAcc].\n\nNa oplátku loď pošle přepravní moduly s následující odměnou (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->Kolonie brouků byla přilákána pomocí feromonů vypuštěných z orbitální výzkumné lodě.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name], čelí opakovaným zamořením hmyzími koloniemi. Chce je přesměrovat k tobě, za což ti nabízí shození přepravních modulů s následující odměnou (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Pokud nabídku přijmeš, oblast [map_definite] zamoří [Infestation_ItemPod_hivesCountNom]. [allRewardsDescriptionsExceptItems]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->Kolonie brouků původně sídlila v oblasti, kterým šéfuje [asker_nameFull] z frakce [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], hledá trochu zábavy. Chce sledovat, jak budeš bojovat s hmyzí kolonií. Žádá tě o povolení ke svržení feromonních bomb na oblast [map_definite], což by přilákalo [Infestation_ItemPod_hivesCountAcc]. [asker_nameDef] bude celou akci pozorovat prostřednictvím výškových dronů.\n\nNa oplátku ti nabízí odeslání přepravních modulů s následující odměnou (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph][allRewardsDescriptionsExceptItems]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->Zamoření brouky podnítil[asker_x_a] za účelem pobavení [asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name].</li>
+    <li>Infestation_ItemPod_hivesCountNom(hivesCount==1)->jedna hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountNom(hivesCount==2)->dvě hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountNom(hivesCount==3)->tři hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountNom(hivesCount==4)->čtyři hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountNom(hivesCount>=5)->[hivesCount] hmyzích kolonií</li>
+    <li>Infestation_ItemPod_hivesCountAcc(hivesCount==1)->jednu hmyzí kolonii</li>
+    <li>Infestation_ItemPod_hivesCountAcc(hivesCount==2)->dvě hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountAcc(hivesCount==3)->tři hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountAcc(hivesCount==4)->čtyři hmyzí kolonie</li>
+    <li>Infestation_ItemPod_hivesCountAcc(hivesCount>=5)->[hivesCount] hmyzích kolonií</li>
+  </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Pods and [insects]</li>
     <li>questName->[asker_nameDef]'s [insects]</li>
@@ -56,7 +73,34 @@
     <li>insects->bugs</li>
     <li>insects->hives</li>
   -->
-  <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>TODO</ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+  <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
+    <li>questName->Moduly a [insectsNom]</li>
+    <li>questName->[asker_nameDef] [a_vs] [insectsNom]</li>
+    <li>questName->[itemsReward_totalMarketValue_money] za [insectsAcc]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->[insectsAdj] [insects_entertainment]</li>
+    <li>questName(p=0.3)->[podAdj] modul</li>
+    <li>insectsNom->hmyzáci</li>
+    <li>insectsNom->brouci</li>
+    <li>insectsNom->hnízda</li>
+    <li>insectsNom->havěť</li>
+    <li>insectsNom->hmyzí kolonie</li>
+    <li>insectsAcc->hmyzáky</li>
+    <li>insectsAcc->brouky</li>
+    <li>insectsAcc->hmyzí hnízda</li>
+    <li>insectsAcc->hmyzí kolonie</li>
+    <li>insectsAcc->hmyzí líhně</li>
+    <li>insectsAcc->havěť</li>
+    <li>insectsAdj->Hmyzí</li>
+    <li>insectsAdj->Broučí</li>
+    <li>podAdj->Rojový</li>
+    <li>podAdj->[insectsAdj]</li>
+    <li>podAdj->[insectsAdj]</li>
+    <li>insects_entertainment->podívaná</li>
+    <li>insects_entertainment->zábava</li>
+    <li>insects_entertainment->představení</li>
+    <li>insects_entertainment->šou</li>
+
+  </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>animalKindLabelCorrect(animalCount==1)->manhunting [animalKind_label]</li>
