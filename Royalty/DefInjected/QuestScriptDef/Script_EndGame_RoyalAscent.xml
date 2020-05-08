@@ -8,7 +8,12 @@
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOthers will take the opportunity to try to kill the [asker_faction_leaderTitle], and will attack with great intensity. Be prepared to defend.</li>
     <li>threatsInfo-></li>
   -->
-  <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>TODO</EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
+  <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
+    <li>questDescription->[intro][asker_faction_leaderTitle] z frakce [asker_faction_name] uskuteční na tvou žádost obvyklou návštěvu v doméně jednoho ze svých vazalů, který vlastní alespoň titul Hrabě. Pozvi [asker_objective] a po dobu [shuttleDelayTicks_duration] plň [asker_possessive] královské potřeby. Poté může každý z tvých lidí nastoupit do raketoplánu, který se připojí k Imperiální flotile. Můžeš se stát součástí imperiálního dvora nebo uniknout a začít nový život někde mezi hvězdami.\n\nK získání titulu Hrabě musíš plnit úkoly, ze kterých získáváš body královské přízně od frakce [asker_faction_name]. Dosažení na titul Hrabě může trvat i roky.\n\nBěhem [asker_possessive] návštěvy musíš udržovat [asker_possessive] náladu nad [lodgersMoodThreshold_percent]. To znamená zajištění královských potřeb, jako je například přepychová ložnice.[threatsInfo]\n\n[asker_faction_leaderTitle] s sebou přivede čtyřčlennou osobní stráž a umístí je pod tvé velení. Tyto stráže musíš někde ubytovat, [asker_faction_leaderTitle] si však nebude stěžovat, pokud jakkoliv zemřou nebo budou nespokojení.\n\nNávštěvu nesmíš nikam vyslat, musí zůstat v oblasti [map_definite]. Pokud při tomto úkolu selžeš nebo se někam přestěhuješ, dostaneš v budoucnu další šanci.</li>
+    <li>intro(sameQuestsCount==0)->Dozvěděl ses o způsobu, jak uniknout z této planety!\n\n</li>
+    <li>intro(sameQuestsCount>=1)->Dostal jsi další šanci na královský vzestup.\n\n</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOstatní využijí příležitosti a pokusí se hvězdovlád[asker_ce_kyni] zabít. Zaútočí plnou silou. Připrav se na obranu.</li>
+    </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(sameQuestsCount==0)->Royal Ascent</li>
     <li>questName(sameQuestsCount>=1)->Royal [titleEnd]</li>
@@ -19,54 +24,64 @@
     <li>titleEnd->Host</li>
     <li>titleEnd->Victory</li>
   -->
-  <EndGame_RoyalAscent.questNameRules.rulesStrings>TODO</EndGame_RoyalAscent.questNameRules.rulesStrings>
+  <EndGame_RoyalAscent.questNameRules.rulesStrings>
+    <li>questName(sameQuestsCount==0)->Královský vzestup</li>
+    <li>questName(sameQuestsCount>=1)->Královsk[titleEnd]</li>
+    <li>titleEnd->[adjNeu] nanebevstoupení</li>
+    <li>titleEnd->[adjNeu] stoupání</li>
+    <li>titleEnd(asker_gender==Male)->[adjMas] návštěvník</li>
+    <li>titleEnd(asker_gender==Female)->[adjFem] návštěvnice</li>
+    <li>titleEnd->[adjFem] návštěva</li>
+    <li>titleEnd->[adjMas] host</li>
+    <li>titleEnd->[adjNeu] vítězství</li>
+  </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>Nezdařený úkol: [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.Letter.label.slateRef>
   <!-- EN: [faction_name] became hostile to you.  -->
-  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>Frakce [faction_name] tě začala považovat za nepřítele.</EndGame_RoyalAscent.root.nodes.Letter.text.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
-  <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>TODO</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
-  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>TODO</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>[asker_faction_leaderTitle] právě dorazil[asker_x_a]</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterLabel.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>TODO</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
+  <EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>[asker_faction_leaderTitle] z frakce [asker_faction_name] právě dorazil[asker_x_a].\n\nPo dobu [shuttleDelayTicks_duration] [asker_objective] ochraňuj a uspokojuj [asker_possessive] královské potřeby, dokud nepřiletí raketoplán.\n\nPoté může [asker_faction_leaderTitle] včetně tvých lidí nastoupit na palubu raketoplánu, připojit se k Imperiální flotile a začít tak nový život.</EndGame_RoyalAscent.root.nodes.Util_ArriveByDropPodsOrShuttle.parms.customLetterText.value.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>TODO</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Nyní může odletět</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
   <!-- EN: Shuttle arrived -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Dorazil raketoplán</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>Dorazil raketoplán, aby vyzvedl hvězdovlád[asker_ce_kyni]\n\n[asker_faction_leaderTitle] nyní může včetně tvých lidí nastoupit na palubu raketoplánu, připojit se k Imperiální flotile a začít tak nový život.</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>TODO</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>Nejvyšší [asker_faction_leaderTitle] tě vítá mezi členy vážené šlechty Imperiální flotily.\n\nMůžeš zůstat součástí Imperiálního dvora a soupeřit o politickou moc. Možná se raději vyhneš zbytečnému dramatu a naplno si dopřeješ luxusu a špičkových technologií. Nebo si můžeš dokonce zakoupit vesmírnou loď a nastavit kurz směrem ke svému dávno ztracenému domovu.\n\nVýběr je pouze na tobě.</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.endingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
-  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.introText.slateRef>TODO</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.introText.slateRef>
+  <EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.introText.slateRef>Imperiální raketoplán se odlepil od povrchu!\n</EndGame_RoyalAscent.root.nodes.ShuttleDelay.node.nodes.EndGame.introText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
-  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Nešťastný : Nešťastná} {SUBJECT_bestRoyalTitle}</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu a udržení dobré nálady, {SUBJECT_gender ? měl : měla} náladu pod hranicí [lodgersMoodThreshold_percent] příliš dlouho. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.MoodBelow.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Mrtvý : Mrtvá} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? zemřel : zemřela}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Zadržený : Zadržená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been arrested. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersArrested.node.nodes.Letter.text.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>Neoprávněná operace: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.label.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} neoprávněně násilně {SUBJECT_gender ? operován : operována}. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersSurgeryViolation.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Ztracený : Ztracená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? opustil : opustila} vyhrazenou osadu. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>Raketoplán byl zničen</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>Raketoplán, který měl hvězdovlád[asker_ce_kyni] vyzvednout, byl zničen. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>TODO</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>Nezdařený úkol: [resolvedQuestName]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>TODO</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>Raketoplán, který měl hvězdovlád[asker_ce_kyni] vyzvednout, odletěl bez [asker_nej_ni]. Nyní odejde po svých. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

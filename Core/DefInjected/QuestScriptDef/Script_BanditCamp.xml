@@ -22,27 +22,26 @@
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef] nabízí odměnu</li>
-    <li>questName->[Camp] [enemyFaction_pawnsPlural]</li>
-    <li>questName->[Camp] [bandits]</li>
-    <li>questName->[Camp] [bandits]</li>
-    <li>questName->[Destroy] [camp] [bandits]</li>
+    <li>questName->Tábor [enemyFaction_pawnsPlural]</li>
+    <li>questName->Tábor [bandits]</li>
+    <li>questName->Nájezdnický tábor</li>
+    <li>questName->[Destroy] tábora[maybe_bandits]</li>
     <li>questName->[asker_nameDef] žádá o pomoc</li>
-    <li>Camp->Tábor</li>
-    <li>Camp->Kemp</li>
-    <li>camp->tábor</li>
-    <li>camp->kemp</li>
-    <li>Destroy->Znič</li>
-    <li>Destroy->Zlikviduj</li>
-    <li>Destroy->Zneškodni</li>
+    <li>Destroy->Zničení</li>
+    <li>Destroy->Likvidace</li>
+    <li>Destroy->Zneškodnění</li>
+    <li>Destroy->Demolice</li>
     <li>bandits->banditů</li>
     <li>bandits->nájezdníků</li>
+    <li>maybe_bandits-></li>
+    <li>maybe_bandits-> [bandits]</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired. -->
   <OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Bandité z tábora se sbalili a dali se do pohybu. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_BanditCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>Úkol se nezdařil: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>Nezdařený úkol: [resolvedQuestName]</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
   <!-- EN: The bandit camp has packed up and moved on. -->
   <OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>Bandité z tábora se sbalili a dali se do pohybu.</OpportunitySite_BanditCamp.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
   <!-- EN: Payment arrived -->
