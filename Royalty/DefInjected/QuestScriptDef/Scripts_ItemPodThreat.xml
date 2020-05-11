@@ -27,12 +27,17 @@
   -->
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef] [a_vs] [gameCondition_label]</li>
-    <li>questName->[gameCondition_indefinite] a [asker_nameDef]</li>
-    <li>questName->Za odměnu [gameCondition_label]</li>
+    <li>questName->[gameCondition_indefinite] [a_vs] [asker_nameDef]</li>
+    <li>questName->[Paid] za [gameCondition_label]</li>
     <li>questName->[gameCondition_label][maybe_vymenou] [for_pay]</li>
+    <li>Paid->Odměna</li>
+    <li>Paid->Platba</li>
+    <li>Paid->Moduly</li>
+    <li>Paid->Úplata</li>
     <li>for_pay->za odměnu</li>
     <li>for_pay->za platbu</li>
-    <li>for_pay->za výplatu</li>
+    <li>for_pay->za moduly</li>
+    <li>for_pay->za úplatu</li>
     <li>maybe_vymenou-></li>
     <li>maybe_vymenou-> výměnou</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
@@ -74,7 +79,7 @@
     <li>insects->hives</li>
   -->
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
-    <li>questName->Moduly a [insectsNom]</li>
+    <li>questName->Moduly [a_vs] [insectsNom]</li>
     <li>questName->[asker_nameDef] [a_vs] [insectsNom]</li>
     <li>questName->[itemsReward_totalMarketValue_money] za [insectsAcc]</li>
     <li>questName(asker_royalInCurrentFaction==True)->[insectsAdj] [insects_entertainment]</li>
@@ -99,7 +104,6 @@
     <li>insects_entertainment->zábava</li>
     <li>insects_entertainment->představení</li>
     <li>insects_entertainment->šou</li>
-
   </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -195,15 +199,57 @@
     <li>askerEnemies->[asker_possessive] enemies</li>
     <li>askerEnemies(priority=-1)->his enemies</li>
   -->
-  <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>TODO</ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
+  <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Z blízkého okolí se ti ozval obchodník. Jdou po něm [threat]! Žádá tě, abys jim vyslal jasný signál a odlákal je tak směrem do oblasti [map_definite] a on mohl mezitím utéct. Pokud [askerEnemiesDat] signál vyšleš, zřídí v blízké oblasti místo, které ti bude znepříjemňovat život. Bude se tam nacházet [site/allSitePartsDescriptions] To místo tam zůstane, dokud se tam nevydáš a se vším se nevypořádáš.\n\nJako poděkování ti obchodník pošle přepravní moduly s následující odměnou (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě žádá o pomoc. [askerEnemiesNom] obtěžují [asker_possessive] osady. Chce jim s tvou pomocí vyslat jasný signál a odlákat je tak pryč od svých lidí směrem do oblasti [map_definite].\n\nPokud [asker_mu_ji] pomůžeš, [askerEnemiesNom] zřídí v blízké oblasti místo, které ti bude znepříjemňovat život. Bude se tam nacházet [site/allSitePartsDescriptions] To místo tam zůstane, dokud se tam nevydáš a se vším se nevypořádáš.\n\nZa odměnu přiletí přepravní moduly s následujícím obsahem (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], zrovna podnikal[asker_x_a] cestu kolem [map_definite], když v tu chvíli [asker_objective] začli pronásledovat [threat]. Prosí o tvou pomoc. Chce, abys jim vyslal jasný signál a odlákal je tak směrem do oblasti [map_definite].\n\nPokud to uděláš, [askerEnemiesNom] zřídí v blízké oblasti místo, které ti bude znepříjemňovat život. Bude se tam nacházet [site/allSitePartsDescriptions] To místo tam zůstane, dokud se tam nevydáš a se vším se nevypořádáš.\n\n[asker_nameDef] tě za to odmění. [allRewardsDescriptionsExceptItems] Dorazí přepravní moduly s následujícím obsahem (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPluralNom] z frakce [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mechanoidi</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoidi</li>
+    <li>threat->[asker_possessive] nepřátelé</li>
+    <li>threat(priority=-1)->jeho nepřátelé</li>
+    <li>askerEnemiesNom(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPluralNom]</li>
+    <li>askerEnemiesNom(priority=1,site/MechCluster_exists==True)->mechanoidi</li>
+    <li>askerEnemiesNom(priority=1,site/SleepingMechanoids_exists==True)->mechanoidi</li>
+    <li>askerEnemiesNom->[asker_possessive] nepřátelé</li>
+    <li>askerEnemiesNom(priority=-1)->jeho nepřátelé</li>
+    <li>askerEnemiesDat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural]m</li>
+    <li>askerEnemiesDat(priority=1,site/MechCluster_exists==True)->mechanoidům</li>
+    <li>askerEnemiesDat(priority=1,site/SleepingMechanoids_exists==True)->mechanoidům</li>
+    <li>askerEnemiesDat->[asker_possessive] nepřátelům</li>
+    <li>askerEnemiesDat(priority=-1)->jeho nepřátelům</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Empire)->imperialisti</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderCivil)->odpadlíci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderRough)->odpadlíci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Pirate)->piráti</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeCivil)->domorodci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeRough)->domorodci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeSavage)->domorodci</li>
+    <li>site/enemyFaction_pawnsPluralNom(p=0.00000000001)->[site/enemyFaction_pawnsPlural]</li>
+  </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [site/site_label]</li>
     <li>questName->[site/site_label] for [asker_nameDef]</li>
     <li>questName->Paid [site/site_label]</li>
     <li>questName->[site/site_label] for Pay</li>
   -->
-  <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>TODO</ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
+  <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef] [a_vs] [site/site_label]</li>
+    <li>questName->[site/site_label] [a_vs] [asker_nameDef]</li>
+    <li>questName->[Paid] za [site/site_label]</li>
+    <li>questName->[site/site_label][maybe_vymenou] [for_pay]</li>
+    <li>Paid->Odměna</li>
+    <li>Paid->Platba</li>
+    <li>Paid->Moduly</li>
+    <li>Paid->Úplata</li>
+    <li>for_pay->za odměnu</li>
+    <li>for_pay->za platbu</li>
+    <li>for_pay->za moduly</li>
+    <li>for_pay->za úplatu</li>
+    <li>maybe_vymenou-></li>
+    <li>maybe_vymenou-> výměnou</li>
+  </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
-  <ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>TODO</ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
+  <ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>[defaultSiteAppearedLetterText]\n\nTohle místo bylo zřízeno jako odpověď na tvé útočné signály.</ThreatReward_SiteThreat_ItemPod.root.nodes.Delay-0.node.nodes.Util_SpawnSiteThreat.parms.customLetterText.value.slateRef>
   
 </LanguageData>

@@ -8,9 +8,9 @@
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě žádá o pomoc při záchraně jedné z [asker_jeho_jejich] karavan. Karavanu kousek od [map_definite] [hunted_numGroupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys [enemyFaction_pawnsPlural]m vyslal jasný signál, který zajistí, že se odvrátí od [asker_possessive] karavany - směrem k tobě.\n\n[pawnKindsParagraph]\n\nJako odměnu ti [asker_nameDef] pošle prostřednictvím přepravních modulů následující položky (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Pokud úkol přijmeš, [enemyFaction_pawnsPlural_Nom] dorazí během [firstRaidDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], tě žádá o pomoc.\n\n[asker_possessive] karavany [harassing_groupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys jim poslal výhružný vzkaz a přiměl je tak k útoku na sebe.\n\n[pawnKindsParagraph]\n\n[helpersParagraph]Pokud úkol přijmeš, [enemyFaction_pawnsPlural_Nom] dorazí během [firstRaidDelayTicks_duration]. [allRewardsDescriptions]</li>
-    <li>harassing_groupsOf(raidCount==1,priority=1)->obtěžují [enemyFaction_pawnsPlural_Nom]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě žádá o pomoc při záchraně jedné z [asker_jeho_jejich] karavan. Karavanu kousek od [map_definite] [hunted_numGroupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys [enemyFaction_pawnsPlural]m vyslal jasný signál, který zajistí, že se odvrátí od [asker_possessive] karavany - směrem k tobě.\n\n[pawnKindsParagraph]\n\nJako odměnu ti [asker_nameDef] pošle prostřednictvím přepravních modulů následující položky (v celkové hodnotě [itemsReward_totalMarketValue_money]):\n\n[itemsReward_items]\n\n[helpersParagraph]Pokud úkol přijmeš, [enemyFaction_pawnsPluralNom] dorazí během [firstRaidDelayTicks_duration]. [allRewardsDescriptionsExceptItems]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], tě žádá o pomoc.\n\n[asker_possessive] karavany [harassing_groupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys jim poslal výhružný vzkaz a přiměl je tak k útoku na sebe.\n\n[pawnKindsParagraph]\n\n[helpersParagraph]Pokud úkol přijmeš, [enemyFaction_pawnsPluralNom] dorazí během [firstRaidDelayTicks_duration]. [allRewardsDescriptions]</li>
+    <li>harassing_groupsOf(raidCount==1,priority=1)->obtěžují [enemyFaction_pawnsPluralNom]</li>
     <li>harassing_groupsOf->[harassing_numGroupsOf]</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -36,14 +36,14 @@
     <li>violence->Warfare</li>
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPlural_Nom] štěstěny</li>
+    <li>questName->[enemyFaction_pawnsPluralNom] štěstěny</li>
     <li>questName->[violence_1] výměnou za bohatství</li>
     <li>questName->[violence_1] výměnou za profit</li>
     <li>questName->[violence_1] výměnou za zisk</li>
     <li>questName->Odměněn[violence_2]</li>
     <li>questName->Zaplacen[violence_2]</li>
     <li>questName->Ziskov[violence_2]</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural_Nom] výměnou za přízeň</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPluralNom] výměnou za přízeň</li>
     <li>questName(reward==royalFavor)->[violence_1] výměnou za přízeň</li>
     <li>violence_1->Násilí</li>
     <li>violence_1->Bitva</li>
