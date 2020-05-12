@@ -442,6 +442,8 @@
     <li>joiner_nim_ni(joiner_gender==Female)->ní</li>
     <li>joiner_mu_ji(joiner_gender==Male)->mu</li>
     <li>joiner_mu_ji(joiner_gender==Female)->jí</li>
+    <li>joiner_ho_x(joiner_gender==Male)->ho</li>
+    <li>joiner_ho_x(joiner_gender==Female)-></li>
     <li>joiner_ozenitsprinceznou_provdatzaprince(joiner_gender==Male)->oženit s princeznou</li>
     <li>joiner_ozenitsprinceznou_provdatzaprince(joiner_gender==Female)->provdat za prince</li>
     <li>joiner_eznina_ova(joiner_gender==Male,enemyFaction_leader_gender==Male)->eznin</li>
@@ -501,6 +503,24 @@
     <li>enemyFaction_leader_vudce_vudkyne(enemyFaction_leader_gender==Female)->vůdkyně</li>
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Male)->muže</li>
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Female)->ženu</li>
+
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==Empire)->imperialisti</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderCivil)->odpadlíci</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderRough)->odpadlíci</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==Pirate)->piráti</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeCivil)->domorodci</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeRough)->domorodci</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeSavage)->domorodci</li>
+    <li>enemyFaction_pawnsPluralNom(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
+
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Empire)->imperialisti</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderCivil)->odpadlíci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderRough)->odpadlíci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Pirate)->piráti</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeCivil)->domorodci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeRough)->domorodci</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeSavage)->domorodci</li>
+    <li>site/enemyFaction_pawnsPluralNom(p=0.00000000001)->[site/enemyFaction_pawnsPlural]</li>
 
     <li>Trans->of</li>
     <li>Trans->for</li>

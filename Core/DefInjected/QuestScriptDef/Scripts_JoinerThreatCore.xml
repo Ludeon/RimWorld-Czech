@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
+  -->
+  <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->Z blízkého okolí ti volá [joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef]. Pronásledují [joiner_objective] [enemyFaction_pawnsPluralNom] z frakce [enemyFaction_name]!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se k tobě přidá. [map_definite] je [joiner_possessive] poslední nadějí.[joiner_relationInfo]\n\nPokud [joiner_objective] přijmeš, budeš se muset vypořádat s bandou [enemyFaction_pawnsPluralDef], kterou má v zádech. [enemyFaction_pawnsPluralNom] dorazí v následujícím složení: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+  </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Saving [runnerIndef]</li>
+    <li>questName->The Salvation of [runnerIndef]</li>
+    <li>questName->Helping [runnerIndef]</li>
+    <li>questName->Accepting [runnerIndef]</li>
+    <li>questName->[enemyFaction_pawnsPlural] hunting [runnerIndef]</li>
+    <li>questName->[runnerIndef] on the Run</li>
+    <li>questName->[runnerIndef] Seeks a Home</li>
+    <li>questName->[runnerIndef] Chased by [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerIndef] and [enemyFaction_pawnsPlural]</li>
+    <li>runnerIndef->[joiner_titleIndef]</li>
+    <li>runnerIndef->[joiner_nameIndef]</li>
+    <li>runnerIndef->a Refugee</li>
+  -->
+  <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+    <li>questName->Záchrana [saving]</li>
+    <li>questName->[runnerNom] a [joiner_possessive] [salvation]</li>
+    <li>questName->[runnerNom] [begs] o pomoc</li>
+    <li>questName->[accepting]</li>
+    <li>questName->[enemyFaction_pawnsPluralNom] [hunting] [runnerAcc]</li>
+    <li>questName->[runnerNom] na útěku</li>
+    <li>questName->[runnerNom] hledá [home]</li>
+    <li>questName->[runnerNom] [chased][joiner_y_a] [group] [enemyFaction_pawnsPlural]</li>
+    <li>questName->[runnerNom] [a_vs] [enemyFaction_pawnsPluralNom]</li>
+    <li>runnerNom->[joiner_titleIndef]</li>
+    <li>runnerNom->[joiner_nameIndef]</li>
+    <li>runnerNom(joiner_gender==Male)->[runnerNomMas]</li>
+    <li>runnerNom(joiner_gender==Female)->[runnerNomFem]</li>
+    <li>runnerGen(joiner_gender==Male)->[runnerGenMas]</li>
+    <li>runnerGen(joiner_gender==Female)->[runnerGenFem]</li>
+    <li>runnerAcc(joiner_gender==Male)->[runnerAccMas]</li>
+    <li>runnerAcc(joiner_gender==Female)->[runnerAccFem]</li>
+    <li>runnerNomMas->uprchlík</li>
+    <li>runnerNomMas->utečenec</li>
+    <li>runnerNomFem->uprchlice</li>
+    <li>runnerNomFem->utečenka</li>
+    <li>runnerGenMas->uprchlíka</li>
+    <li>runnerGenMas->utečence</li>
+    <li>runnerGenFem->uprchlice</li>
+    <li>runnerGenFem->utečenky</li>
+    <li>runnerAccMas->uprchlíka</li>
+    <li>runnerAccMas->utečence</li>
+    <li>runnerAccFem->uprchlici</li>
+    <li>runnerAccFem->utečenku</li>
+    <li>accepting->Přijetí [runnerGen]</li>
+    <li>accepting->[chased][joiner_y_a] [runnerNom]</li>
+    <li>saving->prchající[joiner_ho_x]</li>
+    <li>saving->[runnerGen]</li>
+    <li>begs->žádá</li>
+    <li>begs->žadoní</li>
+    <li>begs->prosí</li>
+    <li>begs->žebrá</li>
+    <li>salvation->spása</li>
+    <li>salvation->vykoupení</li>
+    <li>hunting->loví</li>
+    <li>hunting->pronásledují</li>
+    <li>hunting->nahánějí</li>
+    <li>chased->loven</li>
+    <li>chased->pronásledovan</li>
+    <li>chased->naháněn</li>
+    <li>home->domov</li>
+    <li>home->přístřeší</li>
+    <li>group->skupinou</li>
+    <li>group->bandou</li>
+  </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
+  <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL}: Naháněn[../joiner_y_a] [../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
+  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n              \nSkupina [enemyFaction_pawnsPlural] přišla kvůli pomstě. [../joiner_nameDef] se jen tak nedá.</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  
+</LanguageData>
