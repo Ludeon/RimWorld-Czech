@@ -21,6 +21,11 @@
   <!-- EN: Induce noise in the visual centers of the brain, obscuring vision of everyone near the target point. -->
   <BlindingPulse.description>Zatemní zrak každého v blízkosti zvoleného bodu vyvoláním šumu ve zrakovém centru mozku.</BlindingPulse.description>
   
+  <!-- EN: bullet shield -->
+  <BulletShield.label>neprůstřelný štít</BulletShield.label>
+  <!-- EN: Generate a spherical skipgate that sends all incoming and outgoing ground-level projectiles to some distant place. People and items are not affected. -->
+  <BulletShield.description>Vytvoří sférickou skokovou bránu, která pošle všechny příchozí i odchozí pozemní projektily na nějaké vzdálené místo. Na živé bytosti a předměty nemá žádný vliv.</BulletShield.description>
+  
   <!-- EN: burden -->
   <Burden.label>břemeno</Burden.label>
   <!-- EN: Slow the target for a short time by suppressing motor activity in the brain. -->
@@ -31,10 +36,15 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>Teleportuje zvolený cíl na náhodné místo nedaleko výchozího bodu.</ChaosSkip.description>
   
-  <!-- EN: entropy link -->
-  <EntropyLink.label>propojená entropie</EntropyLink.label>
-  <!-- EN: Form a psychic link between caster and target, so that gain and loss of psychic entropy is shared between both equally. The link lasts for some time, but will break if the two move far apart. -->
-  <EntropyLink.description>Naváže psychické spojení mezi sesílatelem a zvoleným cílem tak, aby nárust i pokles psychické entropie byla rovnoměrně rozdělena mezi nimi. Spojení vydrží nějakou dobu, avšak přeruší se hned, pokud se od sebe příliš vzdálí.</EntropyLink.description>
+  <!-- EN: entropy dump -->
+  <EntropyDump.label>přesměrování entropie</EntropyDump.label>
+  <!-- EN: Instantly dump all your psychic entropy into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
+  <EntropyDump.description>Okamžitě převede veškerou svou psychickou entropii na někoho jiného. Jako vedlejší účinek upadne cíl asi na jeden den do oslabujícího, avšak neškodného kómatu. Cíl musí být schopný přijmout psychický vpád, což znamená, že lze zaměřit pouze vědomé spojence.</EntropyDump.description>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>blesková bouře</Flashstorm.label>
+  <!-- EN: Use differential-pressure skipgates in the atmosphere to generate a localized flashstorm. The storm will strike the area with lighting for some time before dissipating. -->
+  <Flashstorm.description>Využije skokových bran s rozdílnými atmosférickými tlaky k vytvoření lokální bleskové bouře. Bouře bude do určeného místa chrlit blesky, dokud se časem sama nerozptýlí.</Flashstorm.description>
   
   <!-- EN: focus -->
   <Focus.label>soustředění</Focus.label>
@@ -90,5 +100,10 @@
   <Wallraise.label>pozvednutí zdi</Wallraise.label>
   <!-- EN: Form a temporary wall by skipping rubble and soil up from deep under the ground. -->
   <Wallraise.description>Zformuje dočasnou stěnu z kamenné suti a půdy.</Wallraise.description>
+  
+  <!-- EN: waterskip -->
+  <Waterskip.label>vodní skok</Waterskip.label>
+  <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
+  <Waterskip.description>Smočí cílovou oblast vodou, což může uhasit požáry. Voda je archotechnologicky přesměrována ze vzdálených vodních útvarů nebo podzemních hydrogeologických kolektorů.</Waterskip.description>
   
 </LanguageData>
