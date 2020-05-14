@@ -1202,8 +1202,12 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind. -->
-  <PawnTooltipPsychicEntropy>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/{3}s ({4}s do nuly)\n\nPsychická entropie se zvyšuje po provedení psionické schopnosti.\nPřekračování bezpečného limitu může vést k dlouhodobým zdravotním následkům.\nKdykoli entropie dosáhne nuly, zanechá psychickou kocovinu.</PawnTooltipPsychicEntropy>
+  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / {3}s ({4}s until zero)\n\nPsyfocus: {5} -->
+  <PawnTooltipPsychicEntropyStats>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/{3}s ({4}s do nuly)\n\nPsychické soustředění: {5}</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Max entropy multiplier: {0} -->
+  <PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>Násobitel maximální entropie: {0}</PawnTooltipPsychicEntropyStatPsyfocusEntropyLimit>
+  <!-- EN: Psychic entropy increases after performing a psycast. Going over the safe limit can lead to long-term health consequences. Whenever entropy reaches zero, it leaves a psychic hangover behind.\n\nPsyfocus is separate from psychic entropy. Having psyfocus below 10% will limit maximum safe entropy. Psyfocus can be gained through meditation. -->
+  <PawnTooltipPsychicEntropyDesc>Psychická entropie se zvyšuje po provedení psionické schopnosti. Překročení bezpečného limitu může vést k dlouhodobému poškození zdraví. Kdykoli entropie dosáhne nuly, zanechá psychickou kocovinu.\n\nPsychické soustředění se liší od psychické entropie. Psychické soustředění pod 10% omezuje maximální bezpečnou entropii. Psychické soustředění lze nabrat meditací.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain focuses the mind, and causes faster recovery from psychic entropy.\n\nPain level: {0}\nBonus to psychic entropy recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Bolest koncentruje mysl a způsobuje tak rychlejší zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k zotavení z entropie: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter.\n\nGoing over your psychic entropy limit can cause serious health consequences, including long-term psychic breakdown, and even brain damage for significant overages. The higher over-limit the entropy is, the more dangerous the effects. -->
@@ -1236,6 +1240,8 @@
   <NotBonded>Zatím nemá pouto</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>už s někým má pouto</BladelinkBondedToSomeoneElse>
+  <!-- EN: P-{LABEL} -->
+  <PersonaWeaponLabel>O-{LABEL}</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
