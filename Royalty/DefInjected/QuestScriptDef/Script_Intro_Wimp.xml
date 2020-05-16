@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_pronoun] is being followed by an angry [animalKindDef_label]! [asker_pronoun] says [asker_pronoun] only wanted to see the landscape on a quick walk, and never expected such a deadly threat.\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up. [asker_pronoun] promises not to be offended by your body odors or lack of manners.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough favor to receive the royal title of Yeoman, and all benefits that come with it - including a psychic amplifier.</li>
+    <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_pronoun] is being followed by an angry [animalKindDef_label]! [asker_pronoun] says [asker_pronoun] only wanted to see the landscape on a quick walk, and never expected such a deadly threat.\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up. [asker_pronoun] promises not to be offended by your body odors or lack of manners.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough favor to receive the royal title of Yeoman, and all benefits that come with it - including a psylink neuroformer.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], ti volá ze sousední oblasti. Pronásleduje [asker_objective] zuřící [animalKindDef_label]! Říká, že si chtěl[asker_x_a] udělat jen malou procházku po krajině, ale nikdy [asker_objective] nenapadlo, že by mohl[asker_x_a] čelit takové smrtící hrozbě.\n\n[asker_nameDef] tě žádá o poskytnutí bezpečí na pár hodin, než dorazí [asker_possessive] raketoplán, který [asker_objective] vyzvedne. Slibuje, že se nebude nijak pohoršovat nad tvým tělesným zápachem nebo nedostatkem vychování.\n\n[asker_nameDef] udělí [Intro_Wimp_royalFavorReward] královské přízně každému, kdo přijme tento úkol. To je dostatečné množství přízně k získání šlechtického titulu Zeman a všech výhod, které s tím souvisí - včetně psychického zesilovače.</li>
+    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], ti volá ze sousední oblasti. Pronásleduje [asker_objective] zuřící [animalKindDef_label]! Říká, že si chtěl[asker_x_a] udělat jen malou procházku po krajině, ale nikdy [asker_objective] nenapadlo, že by mohl[asker_x_a] čelit takové smrtící hrozbě.\n\n[asker_nameDef] tě žádá o poskytnutí bezpečí na pár hodin, než dorazí [asker_possessive] raketoplán, který [asker_objective] vyzvedne. Slibuje, že se nebude nijak pohoršovat nad tvým tělesným zápachem nebo nedostatkem vychování.\n\n[asker_nameDef] udělí [Intro_Wimp_royalFavorReward] královské přízně každému, kdo přijme tento úkol. To je dostatečné množství přízně k získání šlechtického titulu Zeman a všech výhod, které s tím souvisí - včetně neuroformovače psiovazby.</li>
     <li>Intro_Wimp_royalFavorReward(royalFavorReward==1)->jeden bod</li>
     <li>Intro_Wimp_royalFavorReward(royalFavorReward==2)->dva body</li>
     <li>Intro_Wimp_royalFavorReward(royalFavorReward==3)->tři body</li>
@@ -45,42 +45,42 @@
     <li>adjAny->Vyplašen[asker_y_a]</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
-  <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterLabel.slateRef>"Smrtící" [animalKindDef_label]</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <Intro_Wimp.LetterLabelAnimalArrived.slateRef>"Smrtící" [animalKindDef_label]</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
   <!-- EN: The "deadly" [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>"Smrtící" zvíře, před kterým [asker_nameDef] utíkal[asker_x_a], právě dorazilo.\n\nUkázalo se, že [animalKindDef_label] není vůbec agresivní. Je to naprosto neškodné zvíře.</Intro_Wimp.root.nodes.Delay.node.elseNode.nodes.PawnsArrive.customLetterText.slateRef>
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>"Smrtící" zvíře, před kterým [asker_nameDef] utíkal[asker_x_a], právě dorazilo.\n\nUkázalo se, že [animalKindDef_label] není vůbec agresivní. Je to naprosto neškodné zvíře.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
   <!-- EN: Angry [animalKindDef_label] -->
-  <Intro_Wimp.root.nodes.Delay.node.node.customLetterLabel.slateRef>Zuřící [animalKindDef_label]</Intro_Wimp.root.nodes.Delay.node.node.customLetterLabel.slateRef>
+  <Intro_Wimp.LetterLabelAngryAnimal.slateRef>Zuřící [animalKindDef_label]</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
   <!-- EN: The angry [animalKindDef_label] has come to get [asker_nameFull].\n\nWhile it is weak, it does appear to be highly motivated. -->
-  <Intro_Wimp.root.nodes.Delay.node.node.customLetterText.slateRef>Zuřící zvíře, před kterým se [asker_nameFull] snaží utéct, právě dorazilo.\n\nAčkoli se [animalKindDef_label] neřadí mezi obzvlášť silná zvířata, zdá se, že se svou odhodlaností nemíní přestat.</Intro_Wimp.root.nodes.Delay.node.node.customLetterText.slateRef>
+  <Intro_Wimp.LetterTextAngryAnimal.slateRef>Zuřící zvíře, před kterým se [asker_nameFull] snaží utéct, právě dorazilo.\n\nAčkoli se [animalKindDef_label] neřadí mezi obzvlášť silná zvířata, zdá se, že se svou odhodlaností nemíní přestat.</Intro_Wimp.LetterTextAngryAnimal.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>Nyní může odletět</Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.InspectString.inspectString.slateRef>
+  <Intro_Wimp.InspectStringDepartShuttle.slateRef>Nyní může odletět</Intro_Wimp.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
-  <Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Dorazil raketoplán</Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelShuttleArrived.slateRef>Dorazil raketoplán</Intro_Wimp.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [asker_nameDef]. -->
-  <Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>Dorazil raketoplán, ve kterém má [asker_nameDef] odletět.</Intro_Wimp.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextShuttleArrived.slateRef>Dorazil raketoplán, ve kterém má [asker_nameDef] odletět.</Intro_Wimp.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Mrtvý : Mrtvá} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelGuestDied.slateRef>{SUBJECT_gender ? Mrtvý : Mrtvá} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? zemřel : zemřela}. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerDestroyed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? zemřel : zemřela}. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestDied.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.label.slateRef>Neoprávněná operace: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>Neoprávněná operace: {SUBJECT_definite}</Intro_Wimp.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} neoprávněně násilně {SUBJECT_gender ? operován : operována}. Co nejdříve se pokusí uniknout. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerSurgeryViolation.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} neoprávněně násilně {SUBJECT_gender ? operován : operována}. Co nejdříve se pokusí uniknout. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Captured: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Zadržený : Zadržená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelCaptured.slateRef>{SUBJECT_gender ? Zadržený : Zadržená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>{SUBJECT_gender ? Ztracený : Ztracená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelGuestLost.slateRef>{SUBJECT_gender ? Ztracený : Ztracená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? opustil : opustila} vyhrazenou osadu. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerLeftMap.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? opustil : opustila} vyhrazenou osadu. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>Raketoplán byl zničen</Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>Raketoplán byl zničen</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, byl zničen. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, byl zničen. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>Nezdařený úkol: [resolvedQuestName]</Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.LetterLabelQuestFailed.slateRef>Nezdařený úkol: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, odletěl bez [asker_nej_ni]. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.root.nodes.shuttleSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.LetterTextQuestFailed.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, odletěl bez [asker_nej_ni]. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
   
 </LanguageData>

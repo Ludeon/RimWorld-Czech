@@ -5,7 +5,7 @@
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] days after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
   <Decree_BuildMonument.questDescriptionRules.rulesStrings>
-    <li>questDescription->[decreeIntro]\n\nMusíš postavit monument o rozměrech [monumentSize], na jehož vybudování budeš potřebovat následující prostředky (v celkové hodnotě [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nPo dokončení monumentu ho musíš udržet v bezpečí, a to po dobu [keepMonumentTicks_duration], jinak se [asker_nameDef] bude zlobit.</li>
+    <li>questDescription->[decreeIntro]\n\nMusíš postavit monument o rozměrech [monumentSize], na jehož vybudování budeš potřebovat následující prostředky (v celkové hodnotě [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nPo dokončení monumentu jej musíš udržet v bezpečí po dobu [keepMonumentTicks_duration], jinak bude [asker_nameDef] velmi nespokojen[asker_y_a].</li>
   </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
@@ -14,23 +14,23 @@
     <li>questName->Nařízení výstavby (monument)</li>
   </Decree_BuildMonument.questNameRules.rulesStrings>
   <!-- EN: New monument marker arrived -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>Dorazila nová šablona pro monument</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>Dorazila nová šablona pro monument</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
   <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>Jelikož došlo ke zničení šablony pro monument, byla odeslána nová.</Decree_BuildMonument.root.nodes.monumentMarkerDestroyed.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>Jelikož došlo ke zničení šablony pro monument, byla odeslána nová.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
   <!-- EN: Monument completed -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>Monument byl dokončen</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>Monument byl dokončen</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
   <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration] days, otherwise [asker_nameDef] will be displeased. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>Dokončil jsi výstavbu monumentu.\n\nNyní jej musíš udržet v bezpečí, a to po dobu [keepMonumentTicks_duration], jinak se [asker_nameDef] bude zlobit.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>Dokončil jsi výstavbu monumentu.\n\nNyní jej musíš udržet v bezpečí po dobu [keepMonumentTicks_duration], jinak se [asker_nameDef] bude zlobit.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
   <!-- EN: Monument destroyed -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>Monument byl zničen</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.label.slateRef>
+  <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>Monument byl zničen</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>[asker_nameDef] se naštval[asker_x_a], protože jsi dovolil zničení monumentu příliš brzy po jeho dokončení.\n\nKvůli tomu se bude velmi zlobit.</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.monumentMarkerMonumentDestroyed.node.nodes.Letter.text.slateRef>
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] se naštval[asker_x_a], protože jsi dovolil zničení monumentu příliš brzy po jeho dokončení.\n\nKvůli tomu se bude velmi zlobit.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>Monument nesmí být zničen dalších {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPart.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>Monument nesmí být zničen dalších {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>Monument nesmí být zničen dalších {0}</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.expiryInfoPartTip.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>Monument nesmí být zničen dalších {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
-  <Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>Ponechat monument {0}!</Decree_BuildMonument.root.nodes.monumentMarkerMonumentCompleted.node.nodes.Delay.inspectString.slateRef>
+  <Decree_BuildMonument.KeepMonument.slateRef>Ponechat monument {0}!</Decree_BuildMonument.KeepMonument.slateRef>
   
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
