@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIn return, [allRewardsDescriptions]\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Nedaleká osada, [settlement_label], přichází se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPokud nabídku splníš, [allRewardsDescriptions]\n\nPro uskutečnění tohoto obchodu vyšli karavanu s požadovanými položkami. Přibližná doba cesty je [estimatedTravelTime_duration].</li>
+    <li>questDescription->Nedaleká osada zvaná [settlement_label] přichází se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPro uskutečnění tohoto obchodu vyšli karavanu s požadovanými položkami. Přibližná doba cesty je [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->normální kvality nebo i lepší </li>
     <li>qualityInfo-></li>
     <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==1)->jeden bod</li>
@@ -61,12 +61,12 @@
     <li>requests->Přeprava</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.root.nodes.Letter.label.slateRef>Nezdařený úkol: [resolvedQuestName]</TradeRequest.root.nodes.Letter.label.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>Nezdařený úkol: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.root.nodes.Letter.text.slateRef>Frakce [faction_name] tě začala považovat za nepřítele.</TradeRequest.root.nodes.Letter.text.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>Frakce [faction_name] tě začala považovat za nepřítele.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>Královská přízeň</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>Královská přízeň</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>Kdo by měl za splnění obchodní nabídky získat [TradeRequest_royalFavorReward_amount] královské přízně?</TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Kdo by měl za splnění obchodní nabídky získat [TradeRequest_royalFavorReward_amount] královské přízně?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

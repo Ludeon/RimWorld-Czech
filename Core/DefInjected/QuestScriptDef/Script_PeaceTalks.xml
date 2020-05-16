@@ -7,7 +7,7 @@
     <li>favorRewardDetails-></li>
   -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] z frakce [faction_name], ti poslal[faction_leader_x_a] zprávu. Chce se setkat s někým z tvé frakce v nedaleké oblasti.\n\nJe to skvělá příležitost jak zlepšit vztahy s touto frakcí a případně získat i nějaké dary, ale pozor - špatný vyjednavač může nadělat víc škod než užitku a dokonce je může naštvat.[favorRewardDetails]</li>
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] z frakce [faction_name], ti poslal[faction_leader_x_a] zprávu. V nedaleké oblasti se chce setkat s někým z tvé frakce.\n\nJe to skvělá příležitost jak zlepšit vztahy s touto frakcí a případně získat i nějaké dary, ale pozor - špatný vyjednavač může nadělat víc škod než užitku a dokonce je může naštvat.[favorRewardDetails]</li>
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nÚspěšnými mírovými rozhovory může vyjednavač získat od frakce [faction_name] malé množství osobní královské přízně.</li>
     <li>favorRewardDetails-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
@@ -40,8 +40,8 @@
     <li>peace-></li>
   </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.label.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>Nabídka mírových rozhovorů s frakcí [faction_name] vypršela. Úkol [resolvedQuestName] se ti nepovedlo splnit.</OpportunitySite_PeaceTalks.root.nodes.PeaceTalksTimeout.node.nodes.Letter.text.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>Nabídka mírových rozhovorů s frakcí [faction_name] vypršela. Úkol [resolvedQuestName] se ti nepovedlo splnit.</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
