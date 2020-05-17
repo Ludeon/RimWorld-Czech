@@ -25,9 +25,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] si přeje oživit svůj dvůr. Chce tam přivést [entertainerDescription].\n\nŽádá tě proto o poskytnutí [tve_colonistCountToLendGen], [PawnLend_ktery_mu_bude] po dobu [daysCountForLendNom] sloužit.\n\n[willSendShuttle]</li>
     <li>willSendShuttle->K vyzvednutí [colonists] vyšle raketoplán.</li>
     <li>colonists(colonistsToLendCount==1)->kolonisty</li>
-    <li>colonists(colonistsToLendCount>1)->kolonistů</li>
+    <li>colonists(colonistsToLendCount>=2)->kolonistů</li>
     <li>PawnLend_ktery_mu_bude(colonistsToLendCount==1)->který [asker_mu_ji] bude</li>
-    <li>PawnLend_ktery_mu_bude(colonistsToLendCount>1)->kteří [asker_mu_ji] budou</li>
+    <li>PawnLend_ktery_mu_bude(colonistsToLendCount>=2)->kteří [asker_mu_ji] budou</li>
     <li>PawnLend_pomocnou_ruku(colonistsToLendCount==1)->pomocnou ruku</li>
     <li>PawnLend_pomocnou_ruku(colonistsToLendCount>=2)->pomocné ruce</li>
     <li>tve_colonistCountToLendGen(colonistsToLendCount==1)->jednoho tvého kolonisty</li>
