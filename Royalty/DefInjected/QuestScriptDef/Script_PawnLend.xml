@@ -2,64 +2,49 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days.\n\nAfter [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>disease->flu</li>
     <li>disease->plague</li>
     <li>disease->malaria</li>
     <li>disease->infection</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription]. [asker_pronoun] is asking you to lend [colonistCountToLend] to [asker_faction_name] for [lendForDays] days. After [lendForDays] days have passed, your colonists will be returned.\n\nIf you accept, a shuttle will arrive to collect the [colonistCountToLend]. When it takes off with them on board, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] wishes to add some life to [asker_possessive] court by showing off some [entertainerDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
   <PawnLend.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] potřebuje [PawnLend_pomocnou_ruku] [PawnLend_dutyDescription]. Žádá tě, zda bys [asker_mu_ji] pro tento účel mohl poskytnout na [daysCountForLendNom] [sve_colonistCountToLendAcc].\n\nPo uplynutí [daysCountForLendGen] [PawnLend_bude_tvuj_kolonista_navracen] prostřednictvím [PawnLend_prepravniho_modulu].\n\nPokud úkol přijmeš, přiletí raketoplán, který vyzvedne [tve_colonistCountToLendAcc]. Jakmile s [PawnLend_nim] raketoplán vzlétne, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] potřebuje [PawnLend_pomocnou_ruku] [dutyDescription].\n\nŽádá tě proto o poskytnutí [tve_colonistCountToLendGen] na [daysCountForLendNom].\n\n[willSendShuttle]</li>
     <li>disease->chřipky</li>
     <li>disease->moru</li>
     <li>disease->malárie</li>
     <li>disease->nákazy</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] si přeje více oživit svůj dvůr. Chce tam přivést [PawnLend_entertainerDescription]. Žádá tě, zda bys [asker_mu_ji] pro tento účel mohl poskytnout na [daysCountForLendNom] [sve_colonistCountToLendAcc].\n\nPo uplynutí [daysCountForLendGen] [PawnLend_bude_tvuj_kolonista_navracen] prostřednictvím [PawnLend_prepravniho_modulu].\n\nPokud úkol přijmeš, přiletí raketoplán, který vyzvedne [tve_colonistCountToLendAcc]. Jakmile s [PawnLend_nim] raketoplán vzlétne, [allRewardsDescriptions]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] si přeje oživit svůj dvůr. Chce tam přivést [entertainerDescription].\n\nŽádá tě proto o poskytnutí [tve_colonistCountToLendGen], [PawnLend_ktery_mu_bude] po dobu [daysCountForLendNom] sloužit.\n\n[willSendShuttle]</li>
+    <li>willSendShuttle->K vyzvednutí [colonists] vyšle raketoplán.</li>
+    <li>colonists(colonistsToLendCount==1)->kolonisty</li>
+    <li>colonists(colonistsToLendCount>1)->kolonistů</li>
+    <li>PawnLend_ktery_mu_bude(colonistsToLendCount==1)->který [asker_mu_ji] bude</li>
+    <li>PawnLend_ktery_mu_bude(colonistsToLendCount>1)->kteří [asker_mu_ji] budou</li>
     <li>PawnLend_pomocnou_ruku(colonistsToLendCount==1)->pomocnou ruku</li>
     <li>PawnLend_pomocnou_ruku(colonistsToLendCount>=2)->pomocné ruce</li>
-    <li>PawnLend_bude_tvuj_kolonista_navracen(colonistsToLendCount==1)->bude tvůj kolonista navrácen</li>
-    <li>PawnLend_bude_tvuj_kolonista_navracen(colonistsToLendCount>=2)->budou tví kolonisté navráceni</li>
-    <li>PawnLend_prepravniho_modulu(colonistsToLendCount==1)->přepravního modulu</li>
-    <li>PawnLend_prepravniho_modulu(colonistsToLendCount>=2)->přepravních modulů</li>
-    <li>PawnLend_nim(colonistsToLendCount==1)->ním</li>
-    <li>PawnLend_nim(colonistsToLendCount>=2)->nimi</li>
+    <li>tve_colonistCountToLendGen(colonistsToLendCount==1)->jednoho tvého kolonisty</li>
+    <li>tve_colonistCountToLendGen(colonistsToLendCount==2)->dvou tvých kolonistů</li>
+    <li>tve_colonistCountToLendGen(colonistsToLendCount==3)->tří tvých kolonistů</li>
+    <li>tve_colonistCountToLendGen(colonistsToLendCount==4)->čtyř tvých kolonistů</li>
+    <li>tve_colonistCountToLendGen(colonistsToLendCount>=5)->[colonistsToLendCount] tvých kolonistů</li>
     <li>tve_colonistCountToLendAcc(colonistsToLendCount==1)->jednoho tvého kolonistu</li>
     <li>tve_colonistCountToLendAcc(colonistsToLendCount==2)->dva tvé kolonisty</li>
     <li>tve_colonistCountToLendAcc(colonistsToLendCount==3)->tři tvé kolonisty</li>
     <li>tve_colonistCountToLendAcc(colonistsToLendCount==4)->čtyři tvé kolonisty</li>
     <li>tve_colonistCountToLendAcc(colonistsToLendCount>=5)->[colonistsToLendCount] tvých kolonistů</li>
-    <li>sve_colonistCountToLendAcc(colonistsToLendCount==1)->jednoho svého kolonistu</li>
-    <li>sve_colonistCountToLendAcc(colonistsToLendCount==2)->dva své kolonisty</li>
-    <li>sve_colonistCountToLendAcc(colonistsToLendCount==3)->tři své kolonisty</li>
-    <li>sve_colonistCountToLendAcc(colonistsToLendCount==4)->čtyři své kolonisty</li>
-    <li>sve_colonistCountToLendAcc(colonistsToLendCount>=5)->[colonistsToLendCount] svých kolonistů</li>
-    <li>daysCountForLendNom(lendForDays==1)->1 den</li>
+    <li>daysCountForLendNom(lendForDays==1)->jeden den</li>
     <li>daysCountForLendNom(lendForDays==2)->[lendForDays] dny</li>
     <li>daysCountForLendNom(lendForDays==3)->[lendForDays] dny</li>
     <li>daysCountForLendNom(lendForDays==4)->[lendForDays] dny</li>
     <li>daysCountForLendNom(lendForDays>=5)->[lendForDays] dnů</li>
-    <li>daysCountForLendGen(lendForDays==1)->jednoho dne</li>
-    <li>daysCountForLendGen(lendForDays==2)->dvou dnů</li>
-    <li>daysCountForLendGen(lendForDays==3)->tří dnů</li>
-    <li>daysCountForLendGen(lendForDays==4)->čtyř dnů</li>
-    <li>daysCountForLendGen(lendForDays>=5)->[lendForDays] dnů</li>
-    <li>PawnLend_dutyDescription->k chystané sklizni</li>
-    <li>PawnLend_dutyDescription->k posílení obrany osady</li>
-    <li>PawnLend_dutyDescription->k založení osady</li>
-    <li>PawnLend_dutyDescription->k dohledu nad vězněnými nájezdníky</li>
-    <li>PawnLend_dutyDescription->ke zřízení nemocnice</li>
-    <li>PawnLend_dutyDescription->k potlačení epidemie [disease]</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount==1)->nějakého skutečného zoceleného přeživšího</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount==1)->nějakého přihlouplého šaška</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount==1)->nějakého služebníka s cizím přízvukem</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount==1)->nějaký exemplář exotického člověka</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount>=2)->nějaké skutečné zocelené přeživší</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount>=2)->nějaké přihlouplé šašky</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount>=2)->nějaké služebnictvo s cizím přízvukem</li>
-    <li>PawnLend_entertainerDescription(colonistsToLendCount>=2)->nějaké exempláře exotických lidí</li>
     <li>PawnLend_navrat_kolonisty(colonistsToLendCount==1)->Návrat kolonisty</li>
     <li>PawnLend_navrat_kolonisty(colonistsToLendCount>=2)->Návrat kolonistů</li>
     <li>PawnLend_tveho_kolonistu(colonistsToLendCount==1)->tvého kolonistu</li>
@@ -108,39 +93,43 @@
     <li>workers_3(colonistsToLendCount==1)->Dočasná posila</li>
     <li>workers_3(colonistsToLendCount>=2)->Dočasné posily</li>
   </PawnLend.questNameRules.rulesStrings>
-  <!-- EN: gather the harvest -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>k chystané sklizni</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.0.slateRef>
-  <!-- EN: fortify a settlement -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>k posílení obrany osady</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.1.slateRef>
-  <!-- EN: set up a settlement -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>k založení osady</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.2.slateRef>
-  <!-- EN: watch for raiders -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>k dohledu nad vězněnými nájezdníky</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.3.slateRef>
-  <!-- EN: set up a hospital -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>ke zřízení nemocnice</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.4.slateRef>
-  <!-- EN: contain an outbreak of [disease] -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>k potlačení epidemie [disease]</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.GetRandomElement.options.5.slateRef>
-  <!-- EN: {PAWNS} have returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>[asker_nameFull] z frakce [asker_faction_name] ti po výpomoci poslal[asker_x_a] zpět [PawnLend_tveho_kolonistu] ({PAWNS}).</PawnLend.root.nodes.RandomNode.nodes.Sequence-0.nodes.Set.value.slateRef>
-  <!-- EN: real hardy surface survivors -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>nějaké skutečné zocelené přeživší</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.0.slateRef>
-  <!-- EN: goofy jesters -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>nějaké přihlouplé šašky</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.1.slateRef>
-  <!-- EN: foreign-accented servants -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>nějaké služebnictvo s cizím přízvukem</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.2.slateRef>
-  <!-- EN: exotic human specimens -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>nějaké exempláře exotických lidí</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.GetRandomElement.options.3.slateRef>
-  <!-- EN: {PAWNS} have returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
-  <PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] ti po návštěvě svého dvora poslal[asker_x_a] zpět [PawnLend_tveho_kolonistu] ({PAWNS}).</PawnLend.root.nodes.RandomNode.nodes.Sequence-1.nodes.Set.value.slateRef>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef>
+    <rulesStrings>
+      <li>dutyDescription->k plánované sklizni</li>
+      <li>dutyDescription->k posílení obrany osady</li>
+      <li>dutyDescription->k založení osady</li>
+      <li>dutyDescription->ke špiclování nájezdníků</li>
+      <li>dutyDescription->ke zřízení nemocnice</li>
+      <li>dutyDescription->k potlačení epidemie [disease]</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>Po výpomoci se vrací zpět {PAWNS}, posila, kterou si dříve vyžádal[asker_x_a] [asker_nameFull] z frakce [asker_faction_name].</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>entertainerDescription->real hardy surface survivors</li><li>entertainerDescription->goofy jesters</li><li>entertainerDescription->foreign-accented servants</li><li>entertainerDescription->exotic human specimens</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <rulesStrings>
+      <li>entertainerDescription(colonistsToLendCount==1)->nějakého opravdového zoceleného přeživšího</li>
+      <li>entertainerDescription(colonistsToLendCount==1)->nějakého přihlouplého šaška</li>
+      <li>entertainerDescription(colonistsToLendCount==1)->nějakého služebníka s cizím přízvukem</li>
+      <li>entertainerDescription(colonistsToLendCount==1)->nějaký exemplář exotického člověka</li>
+      <li>entertainerDescription(colonistsToLendCount>=2)->nějaké opravdové zocelené přeživší</li>
+      <li>entertainerDescription(colonistsToLendCount>=2)->nějaké přihlouplé šašky</li>
+      <li>entertainerDescription(colonistsToLendCount>=2)->nějaké služebnictvo s cizím přízvukem</li>
+      <li>entertainerDescription(colonistsToLendCount>=2)->nějaké exempláře divných lidí</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after being shown off as [entertainerDescription] in the court of [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} se po předváděčce vrací zpět. Takovou posilu si dříve na svůj dvůr vyžádal[asker_x_a] [asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>Dorazil raketoplán</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelShuttleArrived.slateRef>Dorazil raketoplán</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>Dorazil raketoplán, který má vyzvednout [tve_colonistCountToLendAcc].</PawnLend.root.nodes.ShuttleDelay.node.nodes.Letter.text.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>Dorazil raketoplán, který má vyzvednout [tve_colonistCountToLendAcc].</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>Raketoplán byl zničen</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>Raketoplán byl zničen</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>Raketoplán, který měl vyzvednout [PawnLend_tveho_kolonistu], byl zničen.</PawnLend.root.nodes.shuttleDestroyed.node.nodes.Letter.text.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>Raketoplán, který měl vyzvednout [PawnLend_tveho_kolonistu], byl zničen.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
-  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>[PawnLend_navrat_kolonisty]</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.label.slateRef>
+  <PawnLend.LetterLabelColonistsReturned.slateRef>[PawnLend_navrat_kolonisty]</PawnLend.LetterLabelColonistsReturned.slateRef>
   
 </LanguageData>
