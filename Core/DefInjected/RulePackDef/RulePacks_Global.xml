@@ -424,10 +424,10 @@
     <li>asker_jeho_jejiho(asker_gender==Female)->jejího</li>
     <li>asker_jeho_jejich(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejich(asker_gender==Female)->jejích</li>
-    <li>asker_ce_kyne(asker_gender==Male)->ce</li>
-    <li>asker_ce_kyne(asker_gender==Female)->kyně</li>
     <li>asker_ce_kyni(asker_gender==Male)->ce</li>
     <li>asker_ce_kyni(asker_gender==Female)->kyni</li>
+    <li>asker_el_la(asker_gender==Male)->el</li>
+    <li>asker_el_la(asker_gender==Female)->la</li>
 
     <li>faction_leader_x_a(faction_leader_gender==Male)-></li>
     <li>faction_leader_x_a(faction_leader_gender==Female)->a</li>
@@ -503,6 +503,15 @@
     <li>enemyFaction_leader_vudce_vudkyne(enemyFaction_leader_gender==Female)->vůdkyně</li>
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Male)->muže</li>
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Female)->ženu</li>
+
+    <li>asker_faction_pawnsPluralAcc(asker_faction==Empire)->imperialisty</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==OutlanderCivil)->odpadlíky</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==OutlanderRough)->odpadlíky</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==Pirate)->piráty</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==TribeCivil)->domorodce</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==TribeRough)->domorodce</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==TribeSavage)->domorodce</li>
+    <li>asker_faction_pawnsPluralAcc(p=0.00000000001)->[asker_faction_pawnsPlural]</li>
 
     <li>enemyFaction_pawnsPluralNom(enemyFaction==Empire)->imperialisti</li>
     <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderCivil)->odpadlíci</li>

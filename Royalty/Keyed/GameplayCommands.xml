@@ -27,8 +27,10 @@
   <CommandCallRoyalAidFavorOption>Zdarma za {0} dnů, nebo po investování {1} bodů královské přízně.</CommandCallRoyalAidFavorOption>
 
   <!-- Abilities -->
-  <!-- EN: Psychic entropy would overflow. -->
-  <CommandPsycastWouldExceedEntropy>Psychická entropie by překročila limit omezovače.</CommandPsycastWouldExceedEntropy>
+  <!-- EN: Psychic entropy would overflow. Disable the psychic entropy limiter to cast. -->
+  <CommandPsycastWouldExceedEntropy>Psychická entropie by překročila limit omezovače. K použití psiosíly můžeš omezovač vypnout.</CommandPsycastWouldExceedEntropy>
+  <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} vyžaduje {0} psychického soustředění, jenže {CASTERNAME} má aktuálně {1}.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>Vyžaduje psiovazbu na úrovni {0}.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Ability user is unconscious. -->
