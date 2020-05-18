@@ -440,10 +440,14 @@
   <SendSignalOnCountdownCompTime>Aktivuje se za {0}.</SendSignalOnCountdownCompTime>
   <!-- EN: Psychic entropy -->
   <PsychicEntropy>Psychická entropie</PsychicEntropy>
+  <!-- EN: Entropy -->
+  <PsychicEntropyShort>Entropie</PsychicEntropyShort>
   <!-- EN: {0} pain focus -->
   <PsychicEntropyPainFocus>Bonus z bolesti {0}</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>poloměr {0}</ConditionCauserRadius>
+  <!-- EN: Psyfocus -->
+  <Psyfocus>Soustřed.</Psyfocus>
   <!-- EN: low psyfocus -->
   <LowPsyfocus>špatné soustř.</LowPsyfocus>
   <!-- EN: {0} left -->
@@ -1216,14 +1220,16 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero)\n\nPsyfocus: {4} -->
-  <PawnTooltipPsychicEntropyStats>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)\n\nPsychické soustředění: {4}</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nAside from entropy, some psycasts cost psyfocus to perform. Psyfocus is gained through meditation or drugs. -->
-  <PawnTooltipPsychicEntropyDesc>Psychická entropie se zvyšuje po provedení psionické schopnosti. Překročení běžného limitu může vést\nk několikadennímu psychickému zhroucení.\n\nK provedení některých psionických schopností potřebuješ kromě entropie také psychické soustředění. Psychické soustředění lze nabrat meditací nebo drogami.</PawnTooltipPsychicEntropyDesc>
-  <!-- EN: Pain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Bolest koncentruje mysl a urychluje tak zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k entropickému zotavení: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>Psychická entropie se zvyšuje po provedení psionické schopnosti. Překročení běžného limitu může vést\nk několikadennímu psychickému zhroucení.\n\nPsychická entropie se postupem času přirozeně rozptýlí. Tento proces může být urychlen nošením eltexového vybavení nebo pokud má psionik bolesti.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>Bonus z bolesti\n\nBolest koncentruje mysl a urychluje tak zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k entropickému zotavení: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače psychické entropie. Překročení limitu psychické entropie může způsobit několikadenní psychické zhroucení. Nezpůsobí však trvalé následky.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Psyfocus: {0} -->
+  <PawnTooltipPsyfocus>Psychické soustředění: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
