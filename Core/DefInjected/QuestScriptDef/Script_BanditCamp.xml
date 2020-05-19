@@ -13,26 +13,44 @@
     <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount>=5)->[royalFavorReward_amount] bodů</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[asker_nameDef]'s Camp Bounty</li>
-    <li>questName->Camp of [enemyFaction_pawnsPlural]</li>
-    <li>questName->The Bandit Camp</li>
-    <li>questName->The Raider Camp</li>
-    <li>questName->Destroy the Camp</li>
-    <li>questName->Helping [asker_nameDef]</li>
+    <li>questName->The [bandit] [camp]</li>
+    <li>questName->[bandit] [camp]</li>
+    <li>questName->[asker_nameDef] and the [camp]</li>
+    <li>camp->Camp</li>
+    <li>camp->Outpost</li>
+    <li>camp->Lair</li>
+    <li>camp->Encampment</li>
+    <li>bandit->Bandit</li>
+    <li>bandit->Raider</li>
+    <li>bandit->Outlaw</li>
+    <li>bandit->Desperado</li>
+    <li>bandit->Fugitive</li>
+    <li>bandit->Marauder</li>
+    <li>bandit->Robber</li>
+    <li>bandit->Brigand</li>
   -->
   <OpportunitySite_BanditCamp.questNameRules.rulesStrings>
-    <li>questName->[asker_nameDef] nabízí odměnu</li>
-    <li>questName->Tábor [enemyFaction_pawnsPlural]</li>
-    <li>questName->Tábor [bandits]</li>
-    <li>questName->Nájezdnický tábor</li>
+    <li>questName->[camp] [enemyFaction_pawnsPlural]</li>
+    <li>questName->[camp] [bandits]</li>
     <li>questName->[Destroy] tábora[maybe_bandits]</li>
-    <li>questName->[asker_nameDef] žádá o pomoc</li>
+    <li>questName->[asker_nameDef] [a_vs] [camp]</li>
+    <li>camp->tábor</li>
+    <li>camp->stanoviště</li>
+    <li>camp->základna</li>
+    <li>camp->doupě</li>
+    <li>camp->tábořiště</li>
     <li>Destroy->Zničení</li>
     <li>Destroy->Likvidace</li>
     <li>Destroy->Zneškodnění</li>
     <li>Destroy->Demolice</li>
     <li>bandits->banditů</li>
     <li>bandits->nájezdníků</li>
+    <li>bandits->desperátů</li>
+    <li>bandits->psanců</li>
+    <li>bandits->záškodníků</li>
+    <li>bandits->plenitelů</li>
+    <li>bandits->lupičů</li>
+    <li>bandits->gaunerů</li>
     <li>maybe_bandits-></li>
     <li>maybe_bandits-> [bandits]</li>
   </OpportunitySite_BanditCamp.questNameRules.rulesStrings>
@@ -42,8 +60,8 @@
   <OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>Bandité z tábora se sbalili a dali se do pohybu. Platnost úkolu [resolvedQuestName] vypršela.</OpportunitySite_BanditCamp.LetterTextQuestExpired.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>Nezdařený úkol: [resolvedQuestName]</OpportunitySite_BanditCamp.LetterLabelQuestFailed.slateRef>
-  <!-- EN: The bandit camp has packed up and moved on. -->
-  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Bandité z tábora se sbalili a dali se do pohybu.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
+  <!-- EN: After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended. -->
+  <OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>Bandité se rozprchli poté, co zjistili, že došlo odhalení jejich tábora. Platnost úkolu [resolvedQuestName] skončila.</OpportunitySite_BanditCamp.LetterTextQuestFailed.slateRef>
   <!-- EN: Payment arrived -->
   <OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>Dorazila slíbená odměna</OpportunitySite_BanditCamp.LetterLabelPaymentArrived.slateRef>
   <!-- EN: You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived. -->
