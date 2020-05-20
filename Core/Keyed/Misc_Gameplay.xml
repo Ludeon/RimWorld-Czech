@@ -442,8 +442,8 @@
   <PsychicEntropy>Psychická entropie</PsychicEntropy>
   <!-- EN: Entropy -->
   <PsychicEntropyShort>Entropie</PsychicEntropyShort>
-  <!-- EN: {0} pain focus -->
-  <PsychicEntropyPainFocus>Bonus z bolesti {0}</PsychicEntropyPainFocus>
+  <!-- EN: {0} pain boost -->
+  <PsychicEntropyPainFocus>{0} posílení z bolesti</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>poloměr {0}</ConditionCauserRadius>
   <!-- EN: Psyfocus -->
@@ -1222,10 +1222,10 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Psychic entropy increases after performing a psycast. Going over the normal limit can lead to psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>Psychická entropie se zvyšuje po provedení psionické schopnosti. Překročení běžného limitu může vést\nk několikadennímu psychickému zhroucení.\n\nPsychická entropie se postupem času přirozeně rozptýlí. Tento proces může být urychlen nošením eltexového vybavení nebo pokud má psionik bolesti.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Psychic entropy increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>Psychická entropie se zvyšuje po provedení psionické schopnosti. Překročení běžného limitu může způsobit několikadenní psychické zhroucení.\n\nPsychická entropie se postupem času přirozeně rozptýlí. Tento proces může být urychlen nošením eltexového vybavení nebo pokud má psionik bolesti.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Bonus z bolesti\n\nBolest koncentruje mysl a urychluje tak zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k entropickému zotavení: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>Posílení z bolesti\n\nBolest koncentruje mysl a urychluje tak zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k entropickému zotavení: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače psychické entropie. Překročení limitu psychické entropie může způsobit několikadenní psychické zhroucení. Nezpůsobí však trvalé následky.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
@@ -1254,6 +1254,10 @@
   <Reward_PassageOffworld>dostaneš se ke hvězdám</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
   <Reward_PassageOffworld_Label>Opuštění planety</Reward_PassageOffworld_Label>
+  <!-- EN: you can loot everything from the camp -->
+  <Reward_CampLoot>tábor můžeš celý vyrabovat</Reward_CampLoot>
+  <!-- EN: Camp loot -->
+  <Reward_CampLoot_Label>Kořist z tábora</Reward_CampLoot_Label>
   <!-- EN: value {0} -->
   <TotalValue>Celková hodnota {0}</TotalValue>
   
