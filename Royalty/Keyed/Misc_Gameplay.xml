@@ -51,6 +51,11 @@
   <TooCloseToOtherBeacon>Příliš blízko k jinému majáku</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
+
+  <!-- EN: Psyfocus -->
+  <Psyfocus>Psiofokus</Psyfocus>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
+  <PsyfocusDesc>Psiofokus je zvláštní typ mentálního formování, který je nezbytný k provádění psionických sil. Psiofokus se časem vytrácí a musí se pravidelnou meditací obnovovat. Ztráta veškerého psiofokusu způsobí, že nebude možné provádět psiosíly, jinak nemá žádné další následky.\n\nVyšší úrovně psiofokusu umožňují provádět náročnější psiosíly, čímž se také zvýší rychlost jeho rozptylu.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} psycasts. -->
@@ -71,7 +76,7 @@
   <AbilityOnCooldown>schopnost není připravena. Bude použitelná za {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>schopnost už ve frontě je.</AbilityAlreadyQueued>
-  <!-- EN: no entropy to dump. -->
+  <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>žádná entropie k přesměrování.</AbilityNoEntropyToDump>
   <!-- EN: Ability ready: {0} -->
   <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
@@ -81,7 +86,7 @@
   <!-- EN: Initiate a speech from the throne. {ORGANIZER_labelShort} will go to {ORGANIZER_possessive} throne and call all colonists to listen to a speech there. If all goes well, listeners will feel inspired, and gain respect for {ORGANIZER_labelShort}. If it goes poorly, the speech will do social damage. The outcome depends on {ORGANIZER_labelShort}'s social abilities. -->
   <AbilitySpeechTooltip>Zahájí trůnní řeč. {ORGANIZER_labelShort} usedne na svůj trůn a vyzve všechny kolonisty, aby se dostavili do trůnního sálu a poslechli si {ORGANIZER_possessive} projev. Pokud vše proběhne hladce, posluchači se budou cítit inspirovaní a získají respekt ke {ORGANIZER_gender ? svému : své} {ORGANIZER_gender ? přednášejícímu : přednášející}. V opačném případě projev způsobí společenské škody. Výsledek závisí na sociálních dovednostech, kterými {ORGANIZER_labelShort} disponuje.</AbilitySpeechTooltip>
   <!-- EN: no throne assigned. -->
-  <AbilitySpeechDisabledNoThroneAssigned>nemá přidělen žádný trůn.</AbilitySpeechDisabledNoThroneAssigned>
+  <AbilitySpeechDisabledNoThroneAssigned>nemá přidělený trůn.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
   <AbilitySpeechDisabledNoThroneIsNotAccessible>trůn je nepřístupný.</AbilitySpeechDisabledNoThroneIsNotAccessible>
   <!-- EN: throne not usable because it is undignified. -->
@@ -109,5 +114,4 @@
   <LetterLabelLinkingRitualCompleted>Spojovací rituál byl dokončen</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} how has an upgraded psylink, permitting the use of new psycasts. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} spojovací rituál se spirituálním stromem.\n\n{PAWN_gender ? Vylepšil : Vylepšila} si psiovazbu a tím {PAWN_gender ? získal : získala} možnost používat nové psionické schopnosti.</LetterTextLinkingRitualCompleted>
-
 </LanguageData>

@@ -465,7 +465,27 @@
   <!-- EN: Click to view factions. -->
   <ClickToViewFactions>(Kliknutím zobrazíš všechny frakce)</ClickToViewFactions>
   <!-- EN: meditation focus types -->
-  <MeditationFocuses>Typ meditačního soustředění</MeditationFocuses>
+  <MeditationFocuses>Typy meditačního soustředění</MeditationFocuses>
+  <!-- EN: Unlocks meditation focus types -->
+  <MeditationFocusesUnlocked>Odemyká tyto typy meditací</MeditationFocusesUnlocked>
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <MeditationFocusesPawnDesc>Typy meditačního soustředění, které může tento člověk používat. Při meditaci se člověk může soustředit na objekt, aby zvýšil svůj zisk psiofokusu - ale pouze v případě, že tento objekt nabízí typ meditačního soustředění, který je pro něj vhodný. Typy meditace každého člověka jsou určeny jeho minulostí, hlavními rysy, společenským postavením, atp.</MeditationFocusesPawnDesc>
+  <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
+  <MeditationFocusesDesc>Typy meditačního soustředění, které tento objekt nabízí.</MeditationFocusesDesc>
+  <!-- EN: Can use {0} focus type because -->
+  <MeditationFocusCanUse>Může využívat {0} typ soustředění z důvodu</MeditationFocusCanUse>
+  <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
+  <MeditationFocusEnabledByTitle>vlastní titul: {TITLE} ({FACTION_name}).</MeditationFocusEnabledByTitle>
+  <!-- EN: has childhood -->
+  <MeditationFocusEnabledByChildhood>má dětství</MeditationFocusEnabledByChildhood>
+  <!-- EN: has adulthood -->
+  <MeditationFocusEnabledByAdulthood>má dospělost</MeditationFocusEnabledByAdulthood>
+  <!-- EN: has trait -->
+  <MeditationFocusEnabledByTrait>má rys</MeditationFocusEnabledByTrait>
+  <!-- EN: does not have trait -->
+  <MeditationFocusDisabledByTrait>nemá rys</MeditationFocusDisabledByTrait>
+  <!-- EN: Enables meditation focus types -->
+  <EnablesMeditationFocusType>Umožňuje tyto typy meditací</EnablesMeditationFocusType>
   
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -917,9 +937,9 @@
 
   <!-- Abilities -->
   <!-- EN: Line of sight required -->
-  <AbilityRequiresLOS>Vyžadována přímá viditelnost</AbilityRequiresLOS>
-  <!-- EN: Entropy gain -->
-  <AbilityEntropyGain>Entropický nárust</AbilityEntropyGain>
+  <AbilityRequiresLOS>Nutná přímá viditelnost</AbilityRequiresLOS>
+  <!-- EN: Neural heat gain -->
+  <AbilityEntropyGain>Nárust neurálního tepla</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
   <AbilityPsyfocusCost>Spotřeba psiofokusu</AbilityPsyfocusCost>
   <!-- EN: Effect duration -->
@@ -934,5 +954,9 @@
   <AbilityOccupiedCells>{0} musí cílit na prázdnou oblast.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} musí cílit na schůdnou oblast.</AbilityUnwalkable>
+  <!-- EN: {0} must target an unroofed area. -->
+  <AbilityRoofed>{0} musí cílit na nezastřešenou oblast.</AbilityRoofed>
+  <!-- EN: {0} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0} nelze použít na duševně vyhořelé.</AbilityCantApplyToMentallyBroken>
   
 </LanguageData>

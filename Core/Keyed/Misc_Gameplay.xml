@@ -438,16 +438,14 @@
   <InitiatesIn>Spustí se za</InitiatesIn>
   <!-- EN: Activates in {0} -->
   <SendSignalOnCountdownCompTime>Aktivuje se za {0}.</SendSignalOnCountdownCompTime>
-  <!-- EN: Psychic entropy -->
-  <PsychicEntropy>Psychická entropie</PsychicEntropy>
-  <!-- EN: Entropy -->
-  <PsychicEntropyShort>Entropie</PsychicEntropyShort>
+  <!-- EN: Neural heat -->
+  <PsychicEntropy>Neurální teplo</PsychicEntropy>
+  <!-- EN: Heat -->
+  <PsychicEntropyShort>Zahřátí</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
   <PsychicEntropyPainFocus>{0} posílení z bolesti</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>poloměr {0}</ConditionCauserRadius>
-  <!-- EN: Psyfocus -->
-  <Psyfocus>Psiofokus</Psyfocus>
   <!-- EN: low psyfocus -->
   <LowPsyfocus>špatný psiofokus</LowPsyfocus>
   <!-- EN: {0} left -->
@@ -1220,14 +1218,14 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Psychic entropy: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Psychická entropie: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Psychic entropy increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nPsychic entropy dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>Psychická entropie se zvyšuje po provedení psionické schopnosti. Překročení běžného limitu může způsobit několikadenní psychické zhroucení.\n\nPsychická entropie se postupem času přirozeně rozptýlí. Tento proces může být urychlen nošením eltexového vybavení nebo pokud má psionik bolesti.</PawnTooltipPsychicEntropyDesc>
-  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up psychic entropy recovery.\n\nPain level: {0}\nBonus to entropy recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Posílení z bolesti\n\nBolest koncentruje mysl a urychluje tak zotavení z psychické entropie.\n\nÚroveň bolesti: {0}\nBonus k entropickému zotavení: {1}</PawnTooltipPsychicEntropyPainFocus>
-  <!-- EN: Toggle psychic entropy limiter. Exceeding your entropy limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače psychické entropie. Překročení limitu psychické entropie může způsobit několikadenní psychické zhroucení. Nezpůsobí však trvalé následky.</PawnTooltipPsychicEntropyLimit>
+  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Neurální teplo: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <PawnTooltipPsychicEntropyDesc>Neurální teplo se zvyšuje po provedení psionické schopnosti. Překročení obvyklé meze může způsobit několikadenní psychické zhroucení.\n\nNeurální teplo se postupem času přirozeně rozptýlí. Tento proces lze urychlit, pokud psionik nosí eltexové vybavení nebo pokud trpí bolestmi.</PawnTooltipPsychicEntropyDesc>
+  <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
+  <PawnTooltipPsychicEntropyPainFocus>Posílení z bolesti\n\nBolest koncentruje mysl a urychluje tak rozptyl neurálního tepla.\n\nÚroveň bolesti: {0}\nBonus k teplotnímu poklesu: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
+  <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače neurálního tepla. Překročení horní meze tepla může způsobit několikadenní psychické zhroucení. Nezpůsobí však trvalé následky.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psiofokus: {0}</PawnTooltipPsyfocus>
 
@@ -1268,8 +1266,6 @@
   <NotBonded>Zatím nemá pouto</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>už s někým má pouto</BladelinkBondedToSomeoneElse>
-  <!-- EN: P-{LABEL} -->
-  <PersonaWeaponLabel>O-{LABEL}</PersonaWeaponLabel>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
