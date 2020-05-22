@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->[asker_nameDef] ti pošle jednočlennou posilu. Vyslan[helpers0_y_a] [helpers0_kind] ti bude pod tvým velením asistovat. Budeš [helpers0_mu_ji] muset zajistit ubytování a stravu, může však v bitvě zemřít bez následného postihu.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->[asker_nameDef] ti pošle [helpersCount_clenn]ou posilu. Vyslaní [helperKind_labelPlural] ti budou pod tvým velením asistovat. Budeš jim muset zajistit ubytování a stravu, mohou však v bitvě zemřít bez následného postihu.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nPod tvé velení bude umístěn[helpers0_x_a] jed[helpers0_en_na] [helpers0_kind]. Budeš [helpers0_mu_ji] muset zajistit ubytování a stravu, může však kdykoli zemřít v bitvě bez následného postihu.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\nPod tvé velení bude umístěna [helpersCount_clenn]á posila. Budou to [helperKind_labelPlural], kterým budeš muset zajistit ubytování a stravu, mohou však kdykoli zemřít v bitvě bez následného postihu.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount==1)->\n\nDorazil[helpers0_x_a] i [helpers0_kind], kter[helpers0_y_a] ti bude asistovat.</li>
     <li>helpersArrivalLetterEnd(helpersCount>=2)->\n\nDorazila i [helpersCount_clenn]á posila. Vyslan[helpers_y_i] [helpersLabelSingOrPlural] ti budou asistovat.</li>
@@ -33,8 +33,6 @@
     <li>helpers_e_ou(helpersCount>=2)->ou</li>
     <li>helpers_x_i(helpersCount==1)-></li>
     <li>helpers_x_i(helpersCount>=2)->i</li>
-    <li>helpers_y_i(helpersCount==1)->ý</li>
-    <li>helpers_y_i(helpersCount>=2)->í</li>
     <li>helpers_y_i(helpersCount==1)->ý</li>
     <li>helpers_y_i(helpersCount>=2)->í</li>
   </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
