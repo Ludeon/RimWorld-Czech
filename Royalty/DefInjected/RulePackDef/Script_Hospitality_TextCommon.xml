@@ -8,9 +8,9 @@
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==false,priority=1)->\n\n[paralyzedInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==false,lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
@@ -49,16 +49,15 @@
     <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
-
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
     <li>healthInfo-></li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==true,lodgersHaveBloodRot==false,priority=1)->\n\n[paralyzedInfo]</li>
-    <li>healthInfo(lodgersAreParalyzed==false,lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] suffering from paralytic abasia and must be kept in bed.</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs] sick with blood rot and will require daily treatment. The disease can be slowed with high-quality care and medicine, but generally cannot be cured outright. If the disease becomes severe [lodgersLabelSingOrPluralDef] will die, so ensure you have the necessary medical supplies.</li>
     <li>minMoodInfo-></li>
