@@ -6,31 +6,31 @@
   <!-- EN: Maddened: Manhunter -->
   <Manhunter.baseInspectLine>Psychické šílenství: Běsnění po krvi</Manhunter.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <Manhunter.beginLetter>{0} začal[PAWN_pronoun] běsnit po krvi!</Manhunter.beginLetter>
-  <Manhunter.beginLetterLabel>Běsnění po krvi</Manhunter.beginLetterLabel>
+  <Manhunter.beginLetter>{0} začíná běsnit po krvi!</Manhunter.beginLetter>
+  <Manhunter.beginLetterLabel>běsnění po krvi</Manhunter.beginLetterLabel>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <Manhunter.recoveryMessage>{0} už neběsní po krvi.</Manhunter.recoveryMessage>
+  <Manhunter.recoveryMessage>{0} již neběsní po krvi.</Manhunter.recoveryMessage>
   
   <!-- EN: manhunter -->
   <ManhunterPermanent.label>běsnění po krvi</ManhunterPermanent.label>
   <!-- EN: Maddened: Manhunter -->
   <ManhunterPermanent.baseInspectLine>Psychické šílenství: Běsnění po krvi</ManhunterPermanent.baseInspectLine>
   <!-- EN: {0} has become a manhunter! -->
-  <ManhunterPermanent.beginLetter>{0} začal[PAWN_pronoun] běsnit po krvi!</ManhunterPermanent.beginLetter>
-  <ManhunterPermanent.beginLetterLabel>Běsnění po krvi</ManhunterPermanent.beginLetterLabel>
+  <ManhunterPermanent.beginLetter>{0} začíná běsnit krvi!</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.beginLetterLabel>běsnění po krvi</ManhunterPermanent.beginLetterLabel>
   <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
-  <ManhunterPermanent.recoveryMessage>{0} už neběsní po krvi.</ManhunterPermanent.recoveryMessage>
+  <ManhunterPermanent.recoveryMessage>{0} již neběsní po krvi.</ManhunterPermanent.recoveryMessage>
   
   <!-- EN: panic fleeing -->
-  <PanicFlee.label>úprk v panice</PanicFlee.label>
+  <PanicFlee.label>panický úprk</PanicFlee.label>
   <!-- EN: Mental state: Fleeing in panic -->
-  <PanicFlee.baseInspectLine>Psychický stav: Úprk v panice</PanicFlee.baseInspectLine>
+  <PanicFlee.baseInspectLine>Psychický stav: Panický úprk</PanicFlee.baseInspectLine>
   <!-- EN: {0} is fleeing in panic. -->
-  <PanicFlee.beginLetter>{0} začal[PAWN_pronoun] v panice prchat.</PanicFlee.beginLetter>
+  <PanicFlee.beginLetter>{0} se z důvodu paniky snaží utéct.</PanicFlee.beginLetter>
   <!-- EN: flee -->
-  <PanicFlee.beginLetterLabel>Úprk v panice</PanicFlee.beginLetterLabel>
+  <PanicFlee.beginLetterLabel>panický úprk</PanicFlee.beginLetterLabel>
   <!-- EN: {0} is no longer fleeing in panic. -->
-  <PanicFlee.recoveryMessage>{0} už v panice neprchá.</PanicFlee.recoveryMessage>
+  <PanicFlee.recoveryMessage>{0} {PAWN_gender ? přestal : přestala} z důvodu paniky utíkat.</PanicFlee.recoveryMessage>
   
   <!-- EN: social fighting -->
   <SocialFighting.label>rvačka</SocialFighting.label>
@@ -42,10 +42,10 @@
   <!-- EN: Mental state: Confused and wandering -->
   <WanderConfused.baseInspectLine>Psychický stav: Zmatené bloudění</WanderConfused.baseInspectLine>
   <!-- EN: {0} has broken down and is wandering around confused. -->
-  <WanderConfused.beginLetter>{0} začal[PAWN_pronoun] zmateně bloudit po okolí.</WanderConfused.beginLetter>
+  <WanderConfused.beginLetter>{0} se nervově {PAWN_gender ? zhroutil : zhroutila} a {PAWN_gender ? začal : začala} zmateně bloudit po okolí.</WanderConfused.beginLetter>
   <!-- EN: confusion -->
-  <WanderConfused.beginLetterLabel>Zmatené bloudění</WanderConfused.beginLetterLabel>
+  <WanderConfused.beginLetterLabel>zmatené bloudění</WanderConfused.beginLetterLabel>
   <!-- EN: {0} is no longer confused. -->
-  <WanderConfused.recoveryMessage>{0} už zmateně nebloudí.</WanderConfused.recoveryMessage>
+  <WanderConfused.recoveryMessage>{0} {PAWN_gender ? přestal : přestala} zmateně bloudit.</WanderConfused.recoveryMessage>
   
 </LanguageData>
