@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_pronoun] is being followed by an angry [animalKindDef_label]! [asker_pronoun] says [asker_pronoun] only wanted to see the landscape on a quick walk, and never expected such a deadly threat.\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up. [asker_pronoun] promises not to be offended by your body odors or lack of manners.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough favor to receive the royal title of Yeoman, and all benefits that come with it - including a psylink neuroformer.</li>
+    <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by a manhunting [animalKindDef_label].\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough favor to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
   <Intro_Wimp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name], ti volá ze sousední oblasti. Pronásleduje [asker_objective] zuřící [animalKindDef_label]! Říká, že si chtěl[asker_x_a] udělat jen malou procházku po krajině, ale nikdy [asker_objective] nenapadlo, že by mohl[asker_x_a] čelit takové smrtící hrozbě.\n\n[asker_nameDef] tě žádá o poskytnutí bezpečí na pár hodin, než dorazí [asker_possessive] raketoplán, který [asker_objective] vyzvedne. Slibuje, že se nebude nijak pohoršovat nad tvým tělesným zápachem nebo nedostatkem vychování.\n\n[asker_nameDef] udělí [Intro_Wimp_royalFavorReward] královské přízně každému, kdo přijme tento úkol. To je dostatečné množství přízně k získání šlechtického titulu Zeman a všech výhod, které s tím souvisí - včetně neuroformovače psiovazby.</li>
+    <li>questDescription->Ze sousední oblasti ti volá [asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name]. [asker_possessive] osobní stráž byla při přepadení zabita. Povedlo se [asker_mu_ji] uniknout, ale teď [asker_objective] pro změnu pronásleduje zuřící [animalKindDef_label].\n\n[asker_nameDef] tě žádá, aby [asker_mu_ji] tvá osada zvaná [map_definite] na pár hodin poskytla bezpečí, než dorazí [asker_possessive] raketoplán, který [asker_objective] vyzvedne.\n\n[asker_nameDef] udělí [Intro_Wimp_royalFavorReward] královské přízně každému, kdo přijme tento úkol. To je dostatečné množství přízně k získání šlechtického titulu Zeman a všech výhod, které s tím souvisí - včetně první úrovně psionických sil.</li>
     <li>Intro_Wimp_royalFavorReward(royalFavorReward==1)->jeden bod</li>
     <li>Intro_Wimp_royalFavorReward(royalFavorReward==2)->dva body</li>
     <li>Intro_Wimp_royalFavorReward(royalFavorReward==3)->tři body</li>
@@ -14,44 +14,35 @@
   </Intro_Wimp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the [adjAny] [asker_royalTitleInCurrentFaction]</li>
-    <li>adjAny->wimpy</li>
-    <li>adjAny->cowardly</li>
-    <li>adjAny->fearful</li>
-    <li>adjAny->anxious</li>
-    <li>adjAny->cowering</li>
-    <li>adjAny->craven</li>
-    <li>adjAny->fainthearted</li>
-    <li>adjAny->frightened</li>
-    <li>adjAny->gutless</li>
-    <li>adjAny->jittery</li>
-    <li>adjAny->soft</li>
-    <li>adjAny->spineless</li>
-    <li>adjAny->timid</li>
+    <li>adjAny->hunted</li>
+    <li>adjAny->fleeing</li>
+    <li>adjAny->solitary</li>
+    <li>adjAny->ambushed</li>
   -->
   <Intro_Wimp.questNameRules.rulesStrings>
     <li>questName->[adjAny] [asker_royalTitleInCurrentFaction]</li>
-    <li>adjAny->Slabošsk[asker_y_a]</li>
-    <li>adjAny->Ustrašen[asker_y_a]</li>
-    <li>adjAny->Bojácn[asker_y_a]</li>
+    <li>adjAny->Pronásledovan[asker_y_a]</li>
+    <li>adjAny->Naháněn[asker_y_a]</li>
+    <li>adjAny->Štvan[asker_y_a]</li>
+    <li>adjAny->Loven[asker_y_a]</li>
+    <li>adjAny->Prchající</li>
+    <li>adjAny->Utíkající</li>
+    <li>adjAny->Zdrhající</li>
+    <li>adjAny->Osamocen[asker_y_a]</li>
+    <li>adjAny->Přepaden[asker_y_a]</li>
+    <li>adjAny->Napaden[asker_y_a]</li>
+    <li>adjAny->Zaskočen[asker_y_a]</li>
+    <li>adjAny->Překvapen[asker_y_a]</li>
     <li>adjAny->Znepokojen[asker_y_a]</li>
-    <li>adjAny->Srabáck[asker_y_a]</li>
-    <li>adjAny->Zbaběl[asker_y_a]</li>
-    <li>adjAny->Bázliv[asker_y_a]</li>
-    <li>adjAny->Vyděšen[asker_y_a]</li>
-    <li>adjAny->Podělan[asker_y_a]</li>
-    <li>adjAny->Rozklepan[asker_y_a]</li>
-    <li>adjAny->Slaboučk[asker_y_a]</li>
-    <li>adjAny->Plach[asker_y_a]</li>
-    <li>adjAny->Vyplašen[asker_y_a]</li>
   </Intro_Wimp.questNameRules.rulesStrings>
   <!-- EN: [animalKindDef_label] arrived -->
   <Intro_Wimp.LetterLabelAnimalArrived.slateRef>"Smrtící" [animalKindDef_label]</Intro_Wimp.LetterLabelAnimalArrived.slateRef>
-  <!-- EN: The "deadly" [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
-  <Intro_Wimp.LetterTextAnimalArrived.slateRef>"Smrtící" zvíře, před kterým [asker_nameDef] utíkal[asker_x_a], právě dorazilo.\n\nUkázalo se, že [animalKindDef_label] není vůbec agresivní. Je to naprosto neškodné zvíře.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
-  <!-- EN: Angry [animalKindDef_label] -->
+  <!-- EN: The [animalKindDef_label] that [asker_nameDef] was fleeing has arrived.\n\nIt turned out to be quite gentle and not aggressive at all. -->
+  <Intro_Wimp.LetterTextAnimalArrived.slateRef>Do oblasti dorazilo zvíře, před kterým [asker_nameFull] utíkal[asker_x_a].\n\nUkázalo se, že [animalKindDef_label] není vůbec agresivní. Je to naprosto neškodné zvíře.</Intro_Wimp.LetterTextAnimalArrived.slateRef>
+  <!-- EN: Manhunting [animalKindDef_label] -->
   <Intro_Wimp.LetterLabelAngryAnimal.slateRef>Zuřící [animalKindDef_label]</Intro_Wimp.LetterLabelAngryAnimal.slateRef>
-  <!-- EN: The angry [animalKindDef_label] has come to get [asker_nameFull].\n\nWhile it is weak, it does appear to be highly motivated. -->
-  <Intro_Wimp.LetterTextAngryAnimal.slateRef>Zuřící zvíře, před kterým se [asker_nameFull] snaží utéct, právě dorazilo.\n\nAčkoli se [animalKindDef_label] neřadí mezi obzvlášť silná zvířata, zdá se, že se svou odhodlaností nemíní přestat.</Intro_Wimp.LetterTextAngryAnimal.slateRef>
+  <!-- EN: The [animalKindDef_label] which was following [asker_nameFull] has arrived in the area. -->
+  <Intro_Wimp.LetterTextAngryAnimal.slateRef>Do oblasti dorazilo zvíře, před kterým [asker_nameFull] utíkal[asker_x_a].</Intro_Wimp.LetterTextAngryAnimal.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Intro_Wimp.InspectStringDepartShuttle.slateRef>Nyní může odletět</Intro_Wimp.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
