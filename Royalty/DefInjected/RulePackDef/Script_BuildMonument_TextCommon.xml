@@ -34,22 +34,22 @@
     <li>asker2(askerIsNull==true)->archotek</li>
     <li>asker2(asker_factionLeader==True)->[asker_nameDef]</li>
     <li>asker2(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction]</li>
-    <li>buildReason->monument oslavující [PersonalCharacteristicUniAcc] [asker_possessive] [QuestBuildMonumentPersonFamily]</li>
+    <li>buildReason->monument oslavující [PersonalCharacteristicUniAcc] [QuestBuildMonumentPersonFamily]</li>
     <li>buildReason->monument oslavující [asker_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>buildReason->monument urážející [PersonalCharacteristicUniAcc] svého úhlavního nepřítele</li>
+    <li>buildReason->monument urážející [PersonalCharacteristicUniAcc] [asker_jeho_jejiho] úhlavního nepřítele</li>
     <li>buildReason->monument ke snížení pocitu [QuestBuildMonumentConceptAngsty] mezi lidmi</li>
-    <li>buildReason->monument k vyjádření toho, nakolik [QuestBuildMonumentAdjectiveBadass] jedincem on[asker_x_a] je</li>
-    <li>buildReason->monument k uctění památky [asker_possessive] skupiny [asker_faction_pawnsPlural], kteří padli v boji</li>
-    <li>buildReason->monument k uctění [asker_possessive] [QuestBuildMonumentPersonFamily]</li>
-    <li>buildReason->monument k uctění práce některých svých lidí, konkrétně [PersonJobPluGen]</li>
-    <li>buildReason->monument, který bude napříč zemí šířit [glory]</li>
-    <li>glory->[asker_possessive] slávu</li>
-    <li>glory->[asker_possessive] válečné úspěchy</li>
-    <li>glory->povědomí o vítězstvích, kterých dosáhl[asker_x_a]</li>
-    <li>glory->povědomí o trůnu, na který usedl[asker_x_a]</li>
-    <li>glory->povědomí o [asker_possessive] skvělé vesmírné lodi</li>
-    <li>glory->povědomí o bohatsví, které vlastní</li>
-    <li>glory->povědomí o [asker_possessive] rodině</li>
+    <li>buildReason->monument k vyjádření toho, jakým [QuestBuildMonumentAdjectiveBadass] jedincem on[asker_x_a] je</li>
+    <li>buildReason->monument k uctění památky [asker_jeho_jejich] [asker_faction_pawnsPlural], kteří padli v boji</li>
+    <li>buildReason->monument k uctění [QuestBuildMonumentPersonFamily]</li>
+    <li>buildReason->monument k uctění práce [asker_jeho_jejich] [PersonJobPluGen]</li>
+    <li>buildReason->monument, který bude napříč zemí šířit povědomí o [glory]</li>
+    <li>glory->[asker_possessive] slávě</li>
+    <li>glory->[asker_jeho_jejich] válečných úspěších</li>
+    <li>glory->[asker_jeho_jejich] vítězstvích, kterých dosáhl[asker_x_a]</li>
+    <li>glory->[asker_jeho_jejim] trůnu, na který usedl[asker_x_a]</li>
+    <li>glory->[asker_possessive] skvělé vesmírné lodi</li>
+    <li>glory->[asker_jeho_jejim] bohatsví</li>
+    <li>glory->[asker_jeho_jejim] rodu</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.</li>
     <li>failLetterEndingCommon->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.\n\nTvé vztahy s frakcí [asker_faction_name] se snížily o [goodwillPenalty] bodů.</li>
   </QuestConstructionDescriptionCommon.rulePack.rulesStrings>

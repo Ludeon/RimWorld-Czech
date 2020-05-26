@@ -352,8 +352,8 @@
     <li>QuestBuildMonumentConceptAngsty->Quests/BuildMonument/Quest_BuildMonument_Concepts_Angsty</li>
 
 //ItemPodThreat
-    <li>QuestItemPodThreatAdjectiveBadass->Quests/BuildMonument/Quest_ItemPodThreat_Badass</li>
-    <li>QuestItemPodThreatAdjectiveBadassPlu->Quests/BuildMonument/Quest_ItemPodThreat_Badass_Plural</li>
+    <li>QuestItemPodThreatAdjectiveBadass->Quests/ItemPodThreat/Quest_ItemPodThreat_Badass</li>
+    <li>QuestItemPodThreatAdjectiveBadassPlu->Quests/ItemPodThreat/Quest_ItemPodThreat_Badass_Plural</li>
   </GlobalUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>Trans->of</li>
@@ -424,6 +424,8 @@
     <li>asker_jeho_jejiho(asker_gender==Female)->jejího</li>
     <li>asker_jeho_jejich(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejich(asker_gender==Female)->jejích</li>
+    <li>asker_jeho_jejim(asker_gender==Male)->jeho</li>
+    <li>asker_jeho_jejim(asker_gender==Female)->jejím</li>
     <li>asker_ce_kyni(asker_gender==Male)->ce</li>
     <li>asker_ce_kyni(asker_gender==Female)->kyni</li>
     <li>asker_el_la(asker_gender==Male)->el</li>
@@ -492,6 +494,8 @@
     <li>helpers0_y_a(helpers0_gender==Female)->á</li>
     <li>helpers0_mu_ji(helpers0_gender==Male)->mu</li>
     <li>helpers0_mu_ji(helpers0_gender==Female)->jí</li>
+    <li>helpers0_en_na(helpers0_gender==Male)->en</li>
+    <li>helpers0_en_na(helpers0_gender==Female)->na</li>
 
     <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Male)-></li>
     <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Female)->a</li>
