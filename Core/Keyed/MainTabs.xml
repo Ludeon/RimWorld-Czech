@@ -23,7 +23,7 @@
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Varování: průměr příslušné dovednosti je velmi nízký.</SelectedWorkTypeWithVeryBadSkill>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
-  <PriorityOneDoneFirst>Priorita 1 &#8203;se provádí první. Priorita 4 jako poslední.</PriorityOneDoneFirst>
+  <PriorityOneDoneFirst>Priorita 1 ​se provádí první. Priorita 4 jako poslední.</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
   <Priority0>Nebude provádět</Priority0>
   <!-- EN: Top priority -->
@@ -228,6 +228,10 @@
   <QuestExpiresIn>Do konce platnosti zbývá {0}</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>Platnost vyprší dne {0}</QuestExpiresOn>
+  <!-- EN: Average guest mood (previous {0}): {1} -->
+  <QuestAveragePawnMood>Průměrná nálada návštěvy (minulé 2 dny): {1}</QuestAveragePawnMood>
+  <!-- EN: The average mood of {0} over the previous {1} -->
+  <QuestAveragePawnMoodTargets>Průměrná nálada návštěvy za poslední dva dny ({0})</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
   <ShuttleArrivesIn>Do příletu raketoplánu zbývá {0}</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
@@ -252,6 +256,8 @@
   <QuestOutcomeInfo_UnknownOrSuccess>Tento úkol jsi již dokončil.</QuestOutcomeInfo_UnknownOrSuccess>
   <!-- EN: You failed this quest. -->
   <QuestOutcomeInfo_Failed>Tento úkol se ti nepovedlo splnit.</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>Tento úkol se stal neplatným dříve, než byl přijat.</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
   <JumpToTargetCustom>Ukázat: {0}</JumpToTargetCustom>
   <!-- EN: Select hives -->

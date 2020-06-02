@@ -53,19 +53,23 @@
   <!-- EN: Psyfocus -->
   <Psyfocus>Psiofokus</Psyfocus>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
-  <PsyfocusDesc>Psiofokus je zvláštní typ mentálního formování, který je nezbytný k provádění psionických sil. Psiofokus se časem vytrácí a musí se pravidelnou meditací obnovovat. Ztráta veškerého psiofokusu způsobí, že nebude možné provádět psiosíly, jinak nemá žádné další následky.\n\nVyšší úrovně psiofokusu umožňují provádět náročnější psiosíly, čímž se také zvýší rychlost jeho rozptylu.</PsyfocusDesc>
+  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických sil. Psiofokus se pozvolna vytrácí, avšak pravidelnou meditací se dá obnovovat. Úplná ztráta psiofokusu znemožňuje provádění psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladina psiofokusu umožňuje provádět psiosíly vyšších úrovní, ale také zvyšuje rychlost jeho rozptylu</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} psycasts. -->
   <PsyfocusLevelInfoPsycasts>Až do psiosíly úrovně {0}.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
-  <PsyfocusLevelInfoFallRate>Psiofokus klesá o {0}/den.</PsyfocusLevelInfoFallRate>
+  <PsyfocusLevelInfoFallRate>Psiofokus padá o {0} denně.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
   <UserMeditationFocusStrength>Síla meditačního soustředění ({LASTUSER_labelShort})</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>Účinek soustředění ovlivňuje</MeditationFocusImpacted>
   <!-- EN: Psyfocus gain rate: {0}/d -->
-  <PsyfocusPerDayOfMeditation>Rychlost nárustu psiofokusu: {0}/d</PsyfocusPerDayOfMeditation>
+  <PsyfocusPerDayOfMeditation>Rychlost nárustu psiofokusu: {0} / den</PsyfocusPerDayOfMeditation>
+  <!-- EN: Desired psyfocus -->
+  <DesiredPsyfocus>Požadovaná hladina psiofokusu</DesiredPsyfocus>
+  <!-- EN: Click to set desired psyfocus. -->
+  <DesiredPsyfocusDesc>Kliknutím nastavíš hladinu psiofokusu.</DesiredPsyfocusDesc>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -99,17 +103,17 @@
   <AbilitySpeechStatInfo>{ORGANIZER_gender ? Jeho : Její} {1}</AbilitySpeechStatInfo>
 
   <!-- EN: Progress to next {0}: {1} -->
-  <ProgressToNextSubplant>Postup k další spirituální trávě: {1}</ProgressToNextSubplant>
+  <ProgressToNextSubplant>Postup k další posvátné trávě: {1}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>Zahájit spojovací rituál</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>Potřebuje {0} trsů spirituální trávy (k dispozici má {2})</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>Potřebuje {0} trsů posvátné trávy (k dispozici má {2})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} pyslink focus -->
-  <BeginLinkingRitualNeedFocus>Vyžaduje {0} psiofokusu</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>Vyžaduje {0} typ soustředění</BeginLinkingRitualNeedFocus>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>Pro spojení potřebuje volný přístupný prostor o velikosti tří buněk</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
-  <LetterLabelLinkingRitualCompleted>Spojovací rituál byl dokončen</LetterLabelLinkingRitualCompleted>
+  <LetterLabelLinkingRitualCompleted>Spojovací rituál byl úspěšný</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psycasts. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} spojovací rituál se spirituálním stromem.\n\n{PAWN_gender ? Vylepšil : Vylepšila} si psiovazbu a tím {PAWN_gender ? získal : získala} možnost používat nové psionické schopnosti.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort} při spojovacím rituálu úspěšně {PAWN_gender ? navázal : navázala} spojení se spirituálním stromem.\n\n{PAWN_gender ? Vylepšil : Vylepšila} si tak psiovazbu a {PAWN_gender ? získal : získala} možnost používat nové psionické schopnosti.</LetterTextLinkingRitualCompleted>
 </LanguageData>

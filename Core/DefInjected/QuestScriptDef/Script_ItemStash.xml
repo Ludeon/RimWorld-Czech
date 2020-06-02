@@ -3,11 +3,11 @@
   
   <!-- EN:
     <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Zachytil jsi zprávu o sbírce cenných předmětů nedaleko [map_definite]. Sbírka v hodnotě [itemStashContentsValue] obsahuje:\n\n[itemStashContents]\n\nZdá se, že se tam nachází [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_label], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě informoval[asker_x_a] o sbírce cenných předmětů nacházející se v nedaleké oblasti. Sbírka v hodnotě [itemStashContentsValue] obsahuje:\n\n[itemStashContents]\n\n[asker_label] říká, že se tam nachází [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Zachytil jsi zprávu o sbírce cenných předmětů nedaleko oblasti zvané [map_definite]. Sbírka v hodnotě [itemStashContentsValue] obsahuje:\n\n[itemStashContents]\n\nZdá se, že se tam nachází [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] z frakce [asker_faction_name], tě informoval[asker_x_a] o sbírce cenných předmětů nacházející se v nedaleké oblasti. Sbírka v hodnotě [itemStashContentsValue] obsahuje:\n\n[itemStashContents]\n\n[asker_label] říká, že se tam nachází [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
@@ -36,9 +36,9 @@
     <li>stash_extra->drahocenn[treasure_extra]</li>
     <li>treasure->pokladů</li>
     <li>treasure->cenností</li>
-    <li>treasure->bohatství</li>
+    <li>treasure->hodnotných věcí</li>
     <li>treasure->užitečných věcí</li>
-    <li>treasure->zásob</li>
+    <li>treasure->praktických věcí</li>
     <li>treasure_extra->[adjMas] poklad</li>
     <li>treasure_extra->[adjNeu] cennosti</li>
     <li>treasure_extra->[adjNeu] bohatství</li>
