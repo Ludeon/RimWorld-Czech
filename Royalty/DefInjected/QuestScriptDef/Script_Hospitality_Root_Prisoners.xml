@@ -5,7 +5,27 @@
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
-  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->vězeň[lodgers0_x_kyne]</li>
+    <li>lodgersLabelPlural->vězni</li>
+    <li>lodgersLabelPluralNom->vězni</li>
+    <li>LodgersArrivedLabel(lodgersCount==1)->[lodgersLabel] [lodgers0_nameDef] právě dorazil[lodgers0_x_a]</li>
+    <li>LodgersArrivedLabel(lodgersCount>=2)->[lodgersLabelPluralNom] právě dorazili</li>
+    <li>LodgersArrivedText(lodgersCount==1)->dorazil[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef]</li>
+    <li>LodgersArrivedText(lodgersCount>=2)->dorazili [lodgersLabelPluralNom]</li>
+    <li>ShuttleArrivedText(lodgersCount==1)->hostovan[lodgers0_eho_ou] věz[lodgers0_ne_enkyni]. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby [lodgers0_nameDef] nastoupil[lodgers0_x_a] na jeho palubu včas.</li>
+    <li>ShuttleArrivedText(lodgersCount>=2)->hostované vězně. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby následující vězni nastoupili na jeho palubu včas:\n\n[lodgers]</li>
+    <li>GuestDied->{SUBJECT_gender ? Zemřel : Zemřela} {SUBJECT_gender ? hostovaný : hostovaná} {SUBJECT_gender ? vězeň : vězeňkyně}</li>
+    <li>CollectShuttleDestroyedText(lodgersCount==1)->ve kterém měl[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef] odletět</li>
+    <li>CollectShuttleDestroyedText(lodgersCount>=2)->který měl vyzvednout vězně</li>
+    <li>ShuttleDepartedText(lodgersCount==1)->do kterého měl[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef] nastoupit</li>
+    <li>ShuttleDepartedText(lodgersCount>=2)->který měl vyzvednout vězně</li>
+    <li>DropShuttleDestroyedText(lodgersCount==1)->ze kterého měl[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef] vystoupit</li>
+    <li>DropShuttleDestroyedText(lodgersCount>=2)->který měl vysadit vězně</li>
+    <li>inBed_i_y_a->i</li>
+    <li>remaining->Zbylí hostovaní</li>
+    <li>protect->střežit a chránit</li>
+  </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
@@ -38,7 +58,44 @@
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
-  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>TODO</Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==true,lodgersCount==1)->Na orbitě se objevila vesmírná loď. Její kapitán ti poslal zprávu. Chce, abys v oblasti zvané [map_definite] dohlížel [shuttleDelayTicks_duration] na zajat[lodgers0_ce_kyni] jménem [lodgers0_nameFull]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] se provinil[lodgers0_x_a] tím, že nedávno plivl[lodgers0_x_a] na nejmilovanějšího potomka [enemyFaction_leaderGen] jménem [enemyFaction_leader_nameFull] z frakce [enemyFaction_name]. [enemyFaction_leader_nameDef] proto vyšle své [enemyFaction_pawnsPluralAcc], aby se pomstili každému, kdo se [lodgers0_objective] pokusí chránit. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==true,lodgersCount>=2)->Na orbitě se objevila vesmírná loď. Její kapitán ti poslal zprávu. Chce, abys v oblasti zvané [map_definite] dohlížel [shuttleDelayTicks_duration] na [lodgersCountPrisoners]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nVězni se provinili tím, že spáchali sérii vražd, při které [murdered]i několik [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]. Rodiny jejich obětí vyšlou své nájezdníky, aby se pomstily. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nVězni [mechViolationMulti]. Od té doby [jsou_seNachazi] [vHledacku] mechanoidního hnízda. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] po tobě chce, abys ukryl zvláštní[asker_ho_x] věz[lodgers0_ne_enkyni], kter[lodgers0_eho_ou] zadržuje. T[lodgers0_im_ou] je [lodgers0_age]let[lodgers0_y_a] [lodgers0_title] jménem [lodgers0_nameFull], kter[lodgers0_y_a] se dozvěděl[lodgers0_x_a] nějaké trapné podrobnosti ohledně [QuestHospitalityPrisonersPersonalCharacteristicUniGen]. Vězněn[lodgers0_eho_ou] budeš muset střežit [shuttleDelayTicks_duration], dokud skandál neutichne. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nK [asker_possessive] smůle bude chtít frakce [enemyFaction_name] tuto hanebnou historku šířit, a proto vyšle [raidSingOrPlural] se [lodgers0_objective] pokusí vysvobodit z vězení. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>raidSingOrPlural(threatCount==1)->svůj nájednický oddíl, který</li>
+    <li>raidSingOrPlural(threatCount>=2)->své nájednické oddíly, které</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] zajal[asker_x_a] [lodgersCountPrisoners] z nepřátelské frakce. Jelikož nemá místo, kam by je mohl[asker_x_a] umístit, žádá tě, abys na ně [shuttleDelayTicks_duration] dohlížel, dokud pro ně nezřídí své vězení.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nVězni mají s frakcí [enemyFaction_name] uzavřený kontrakt na svou záchranu, takže očekávej, že zmíněná frakce k tobě vyšle své [enemyFaction_pawnsPluralAcc]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] sdělil[asker_x_a], že [asker_possessive] nepřátelé přiměli nějaké mechanoidy, aby se vydali po vězních, takže očekávej mechanoidní přepadení. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] byl[asker_x_a] přistižen[asker_x_a] v posteli s cizí osobou. Poté nechal[asker_x_a] svou tajnou lásku uvěznit, aby na oko prokázal[asker_x_a] svou nevinu. Nyní po tobě potřebuje, abys vězněnou osobu držel pod zámkem ty, dokud aféra neutichne. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] sdělil[asker_x_a], že se [asker_jeho_jejim] dvorním rival[asker_um_kam] podařilo uplatit frakci [enemyFaction_name], aby se pokusila milen[lodgers0_ce_ku] vysvobodit a dostat tak aféru na světlo světa. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] sdělil[asker_x_a], že [asker_possessive] dvorní rival[asker_ove_ky] podnítil[asker_i_y] mechanoidy z frakce [enemyFaction_name] k útoku, aby se pokusili milen[lodgers0_ce_ku] vysvobodit a dostat tak aféru na světlo světa. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] tě žádá o pomoc. [asker_possessive] věrní archeologové při nedávných výkopech vysvobodili [lodgersCountPrisoners] ze starodávného cryptospánkového sklepení a chtěli je vyslechnout. Aby vězně ponechal[asker_x_a] ukryté před dvorními rivaly, chce po tobě, abys je [shuttleDelayTicks_duration] držel u sebe. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nSklepení, ze kterého byli vězni vysvobozeni, považovali [enemyFaction_pawnsPluralNom] z frakce [enemyFaction_name] za posvátné. Vyšlou proto nájezdy, aby se pomstili každému, kdo jejich 'bohy' zadržuje. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nSklepení, ze kterého byli vězni vysvobozeni, střežila skupina [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]. Mechanoidi se pokusí ztracené spáče dostat zpět do podzemí. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+    <li>lodgersCountPrisoners(lodgersCount==2)->dva vězně</li>
+    <li>lodgersCountPrisoners(lodgersCount==3)->tři vězně</li>
+    <li>lodgersCountPrisoners(lodgersCount==4)->čtyři vězně</li>
+    <li>lodgersCountPrisoners(lodgersCount>=5)->[lodgersCount] vězňů</li>
+  </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Guarding for [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
@@ -55,6 +112,40 @@
     <li>adjAny->[AdjectiveAngsty]</li>
     <li>adjAny->[AdjectiveFriendly]</li>
   -->
-  <Hospitality_Prisoners.questNameRules.rulesStrings>TODO</Hospitality_Prisoners.questNameRules.rulesStrings>
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->[asker_nameDef] [potrebuje] [dozor]</li>
+    <li>questName(lodgersCount==1)->[Guarding][lodgers0_y_a] [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->[vezen] [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->[QuestHospitalityPrisonersAnyAdj] [vezen]</li>
+    <li>questName(lodgersCount==1)->Jed[lodgers0_en_na] [QuestHospitalityPrisonersAnyAdj] [vezen]</li>
+    <li>questName(lodgersCount>=2)->[warden] k pronájmu</li>
+    <li>questName(lodgersCount>=2)->Vězeňský [warden]</li>
+    <li>questName(lodgersCount>=2)->Smluvní [prison]</li>
+    <li>questName(lodgersCount>=2)->Hledaní [vezni]</li>
+    <li>questName(lodgersCount>=2)->[QuestHospitalityPrisonersAnyAdjPlural] [vezni]</li>
+    <li>questName(lodgersCount>=2)->[asker_nameDef] a [asker_possessive] [vezni]</li>
+    <li>potrebuje->potřebuje</li>
+    <li>potrebuje->požaduje</li>
+    <li>potrebuje->žádá</li>
+    <li>dozor->dozor</li>
+    <li>dozor->dohled</li>
+    <li>dozor->dozorce</li>
+    <li>dozor->strážce</li>
+    <li>dozor->bachaře</li>
+    <li>Guarding->Hlídan</li>
+    <li>Guarding->Střežen</li>
+    <li>vezen->vězeň[lodgers0_x_kyne]</li>
+    <li>vezen->zajat[lodgers0_ec_kyne]</li>
+    <li>vezni->vězni</li>
+    <li>vezni->zajatci</li>
+    <li>warden->strážce</li>
+    <li>warden->bachař</li>
+    <li>warden->dozorce</li>
+    <li>prison->vězení</li>
+    <li>prison->věznice</li>
+    <li>prison->vazba</li>
+    <li>prison->kriminál</li>
+    <li>prison->trestnice</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
   
 </LanguageData>

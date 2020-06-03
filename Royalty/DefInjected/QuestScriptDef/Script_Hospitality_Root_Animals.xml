@@ -5,7 +5,29 @@
     <li>lodgersLabel->[lodgersPawnKind_label]</li>
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   -->
-  <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <li>lodgersLabelAcc->[lodgersPawnKind_labelAcc]</li>
+    <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
+    <li>lodgersLabelPluralNom->[lodgersPawnKind_labelPluralNom]</li>
+    <li>lodgersLabelPluralAcc->[lodgersPawnKind_labelPluralAcc]</li>
+    <li>LodgersArrivedLabel(lodgersCount==1)->[lodgers0_nameDef] právě dorazil[lodgers0_x_a]</li>
+    <li>LodgersArrivedLabel(lodgersCount>=2)->[lodgersLabelPluralNom] právě dorazil[animals_i_y_a]</li>
+    <li>LodgersArrivedText(lodgersCount==1)->dorazil[lodgers0_x_a] [lodgers0_nameDef]</li>
+    <li>LodgersArrivedText(lodgersCount>=2)->dorazil[animals_i_y_a] [lodgersLabelPluralNom]</li>
+    <li>ShuttleArrivedText(lodgersCount==1)->hostovan[animal_eho_ou_e] [lodgersLabelAcc]. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby [lodgers0_nameDef] nastoupil[lodgers0_x_a] na jeho palubu včas.</li>
+    <li>ShuttleArrivedText(lodgersCount>=2)->hostovan[animals_e_e_a] [lodgersLabelPluralAcc]. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby následující [lodgersLabelPluralNom] nastoupil[animals_i_y_a] na jeho palubu včas:\n\n[lodgers]</li>
+    <li>GuestDied->{SUBJECT_gender ? Zemřel : Zemřela} {SUBJECT_gender ? hostovaný : hostovaná}</li>
+    <li>CollectShuttleDestroyedText(lodgersCount==1)->který měl vyzvednout hostovan[animal_eho_ou_e] [lodgersLabelAcc]</li>
+    <li>CollectShuttleDestroyedText(lodgersCount>=2)->který měl vyzvednout hostovan[animals_e_e_a] [lodgersLabelPluralAcc]</li>
+    <li>ShuttleDepartedText(lodgersCount==1)->který měl vyzvednout hostovan[animal_eho_ou_e] [lodgersLabelAcc]</li>
+    <li>ShuttleDepartedText(lodgersCount>=2)->který měl vyzvednout hostovan[animals_e_e_a] [lodgersLabelPluralAcc]</li>
+    <li>DropShuttleDestroyedText(lodgersCount==1)->který měl vysadit [lodgersLabelAcc]</li>
+    <li>DropShuttleDestroyedText(lodgersCount>=2)->který měl vysadit [lodgersLabelPluralAcc]</li>
+    <li>inBed_i_y_a->[animals_i_y_a]</li>
+    <li>remaining->Zbyl[animals_i_e_a] hostovan[animals_i_e_a]</li>
+    <li>protect->chránit</li>
+  </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>threatsInfoMechClustersSingleAnimal->For unknown reasons, the [lodgersLabel] has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiAnimal->For unknown reasons, the [lodgersLabelPlural] have been targeted by an orbiting mechanoid swarm.</li>

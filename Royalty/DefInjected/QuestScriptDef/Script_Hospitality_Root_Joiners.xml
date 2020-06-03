@@ -5,7 +5,28 @@
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
-  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->návštěvn[lodgers0_ik_ice]</li>
+    <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
+    <li>lodgersLabelPluralNom->[asker_faction_pawnsPluralNom]</li>
+    <li>lodgersLabelPluralAcc->[asker_faction_pawnsPluralAcc]</li>
+    <li>LodgersArrivedLabel(lodgersCount==1)->[lodgersLabel] [lodgers0_nameDef] právě dorazil[lodgers0_x_a]</li>
+    <li>LodgersArrivedLabel(lodgersCount>=2)->[lodgersLabelPluralNom] právě dorazili</li>
+    <li>LodgersArrivedText(lodgersCount==1)->dorazil[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef]</li>
+    <li>LodgersArrivedText(lodgersCount>=2)->dorazili [lodgersLabelPluralNom]</li>
+    <li>ShuttleArrivedText(lodgersCount==1)->tvou návštěvu. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby [lodgers0_nameDef] nastoupil[lodgers0_x_a] na jeho palubu včas.</li>
+    <li>ShuttleArrivedText(lodgersCount>=2)->tvé hosty. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby následující lidé nastoupili na jeho palubu včas:\n\n[lodgers]</li>
+    <li>GuestDied->{SUBJECT_gender ? Zemřel : Zemřela} {SUBJECT_gender ? hostovaný : hostovaná}</li>
+    <li>CollectShuttleDestroyedText(lodgersCount==1)->ve kterém měl[lodgers0_x_a] [lodgers0_nameDef] odletět</li>
+    <li>CollectShuttleDestroyedText(lodgersCount>=2)->který měl vyzvednout [lodgersLabelPluralAcc]</li>
+    <li>ShuttleDepartedText(lodgersCount==1)->do kterého měl[lodgers0_x_a] [lodgers0_nameDef] nastoupit</li>
+    <li>ShuttleDepartedText(lodgersCount>=2)->který měl vyzvednout [lodgersLabelPluralAcc]</li>
+    <li>DropShuttleDestroyedText(lodgersCount==1)->ze kterého měl[lodgers0_x_a] [lodgers0_nameDef] vystoupit</li>
+    <li>DropShuttleDestroyedText(lodgersCount>=2)->který měl vysadit [lodgersLabelPluralAcc]</li>
+    <li>inBed_i_y_a->i</li>
+    <li>remaining->Zbylí hostovaní</li>
+    <li>protect->chránit</li>
+  </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
@@ -15,6 +36,10 @@
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->their</li>
+    <li>lodgersPronoun(lodgersCount==1)->[lodgers0_pronoun]</li>
+    <li>lodgersPronoun(lodgersCount>=2)->they</li>
+    <li>lodgersWasWere(lodgersCount==1)->was</li>
+    <li>lodgersWasWere(lodgersCount>=2)->were</li>
     <li>appreciateAppreciates(lodgersCount==1)->appreciates</li>
     <li>appreciateAppreciates(lodgersCount>=2)->appreciate</li>
     <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] quality accommodation. You will gain goodwill with [asker_faction_name] if you keep [theirHisHer] average mood above 50%.</li>
