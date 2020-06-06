@@ -7,9 +7,12 @@
   -->
   <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
     <li>lodgersLabel->[lodgersPawnKind_label]</li>
+    <li>lodgersLabelNom->[lodgersPawnKind_labelNom]</li>
+    <li>lodgersLabelGen->[lodgersPawnKind_labelGen]</li>
     <li>lodgersLabelAcc->[lodgersPawnKind_labelAcc]</li>
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
     <li>lodgersLabelPluralNom->[lodgersPawnKind_labelPluralNom]</li>
+    <li>lodgersLabelPluralGen->[lodgersPawnKind_labelPluralGen]</li>
     <li>lodgersLabelPluralAcc->[lodgersPawnKind_labelPluralAcc]</li>
     <li>LodgersArrivedLabel(lodgersCount==1)->[lodgers0_nameDef] právě dorazil[lodgers0_x_a]</li>
     <li>LodgersArrivedLabel(lodgersCount>=2)->[lodgersLabelPluralNom] právě dorazil[animals_i_y_a]</li>
@@ -93,6 +96,63 @@
     <li>animalAdj(generateThreats==true)->hunted</li>
     <li>animalAdj(generateThreats==true)->frightened</li>
   -->
-  <Hospitality_Animals.questNameRules.rulesStrings>TODO</Hospitality_Animals.questNameRules.rulesStrings>
+  <Hospitality_Animals.questNameRules.rulesStrings>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabelNom]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabelNom]</li>
+    <li>questName(lodgersCount==1)->[animalAdj] [lodgersLabelNom]</li>
+    <li>questName(lodgersCount==1)->[sitting] [lodgersLabelGen]</li>
+    <li>questName(lodgersCount==1)->Péče o [lodgersLabelAcc]</li>
+    <li>questName(lodgersCount==1)->[poor] [small][lodgers0_y_a] [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount>=2)->[animalAdjPlu] [lodgersLabelPluralNom]</li>
+    <li>questName(lodgersCount>=2)->[animalAdjPlu] [lodgersLabelPluralNom]</li>
+    <li>questName(lodgersCount>=2)->[animalAdjPlu] [lodgersLabelPluralNom]</li>
+    <li>questName(lodgersCount>=2)->[sitting] [lodgersLabelPluralGen]</li>
+    <li>questName(lodgersCount==2)->Péče o [lodgersLabelPluralAcc]</li>
+    <li>animalAdj->Rozkošn[animal_y_a_e]</li>
+    <li>animalAdj->Roztomil[animal_y_a_e]</li>
+    <li>animalAdj->Smutně koukající</li>
+    <li>animalAdj->Oddan[animal_y_a_e]</li>
+    <li>animalAdj->Poslušn[animal_y_a_e]</li>
+    <li>animalAdj->Věrn[animal_y_a_e]</li>
+    <li>animalAdj->Milovan[animal_y_a_e]</li>
+    <li>animalAdj->Milující</li>
+    <li>animalAdj->Klidn[animal_y_a_e]</li>
+    <li>animalAdj->Něžn[animal_y_a_e]</li>
+    <li>animalAdj->Vlídn[animal_y_a_e]</li>
+    <li>animalAdj->Hrd[animal_y_a_e]</li>
+    <li>animalAdj->Pyšn[animal_y_a_e]</li>
+    <li>animalAdj(generateThreats==true)->Loven[animal_y_a_e]</li>
+    <li>animalAdj(generateThreats==true)->Naháněn[animal_y_a_e]</li>
+    <li>animalAdj(generateThreats==true)->Pronásledovan[animal_y_a_e]</li>
+    <li>animalAdj(generateThreats==true)->Vystrašen[animal_y_a_e]</li>
+    <li>animalAdj(generateThreats==true)->Vyděšen[animal_y_a_e]</li>
+    <li>animalAdj(generateThreats==true)->Vylekan[animal_y_a_e]</li>
+    <li>animalAdjPlu->Rozkošn[animals_i_e_a]</li>
+    <li>animalAdjPlu->Roztomil[animals_i_e_a]</li>
+    <li>animalAdjPlu->Smutně koukající</li>
+    <li>animalAdjPlu->Oddan[animals_i_e_a]</li>
+    <li>animalAdjPlu->Poslušn[animals_i_e_a]</li>
+    <li>animalAdjPlu->Věrn[animals_i_e_a]</li>
+    <li>animalAdjPlu->Milovan[animals_i_e_a]</li>
+    <li>animalAdjPlu->Milující</li>
+    <li>animalAdjPlu->Klidn[animals_i_e_a]</li>
+    <li>animalAdjPlu->Něžn[animals_i_e_a]</li>
+    <li>animalAdjPlu->Vlídn[animals_i_e_a]</li>
+    <li>animalAdjPlu->Hrd[animals_i_e_a]</li>
+    <li>animalAdjPlu->Pyšn[animals_i_e_a]</li>
+    <li>animalAdjPlu(generateThreats==true)->Loven[animals_i_e_a]</li>
+    <li>animalAdjPlu(generateThreats==true)->Naháněn[animals_i_e_a]</li>
+    <li>animalAdjPlu(generateThreats==true)->Pronásledovan[animals_i_e_a]</li>
+    <li>animalAdjPlu(generateThreats==true)->Vystrašen[animals_i_e_a]</li>
+    <li>animalAdjPlu(generateThreats==true)->Vyděšen[animals_i_e_a]</li>
+    <li>animalAdjPlu(generateThreats==true)->Vylekan[animals_i_e_a]</li>
+    <li>poor->Chud[lodgers0_acek_inka]</li>
+    <li>poor->Neboh[lodgers0_y_a]</li>
+    <li>small->maličk</li>
+    <li>small->droboučk</li>
+    <li>sitting->Opatrování</li>
+    <li>sitting->Hlídání</li>
+    <li>sitting->Svěření</li>
+  </Hospitality_Animals.questNameRules.rulesStrings>
   
 </LanguageData>

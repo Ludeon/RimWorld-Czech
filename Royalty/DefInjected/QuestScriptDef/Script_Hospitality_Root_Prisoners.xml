@@ -59,12 +59,12 @@
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==true,lodgersCount==1)->Na orbitě se objevila vesmírná loď. Její kapitán ti poslal zprávu. Chce, abys v oblasti zvané [map_definite] dohlížel [shuttleDelayTicks_duration] na zajat[lodgers0_ce_kyni] jménem [lodgers0_nameFull]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Na orbitě se objevila vesmírná loď. Její kapitán ti poslal zprávu. Chce, abys v oblasti zvané [map_definite] dohlížel [shuttleDelayTicks_duration] na zajat[lodgers0_ce_kyni] jménem [lodgers0_nameFull]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] se provinil[lodgers0_x_a] tím, že nedávno plivl[lodgers0_x_a] na nejmilovanějšího potomka [enemyFaction_leaderGen] jménem [enemyFaction_leader_nameFull] z frakce [enemyFaction_name]. [enemyFaction_leader_nameDef] proto vyšle své [enemyFaction_pawnsPluralAcc], aby se pomstili každému, kdo se [lodgers0_objective] pokusí chránit. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==true,lodgersCount>=2)->Na orbitě se objevila vesmírná loď. Její kapitán ti poslal zprávu. Chce, abys v oblasti zvané [map_definite] dohlížel [shuttleDelayTicks_duration] na [lodgersCountPrisoners]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Na orbitě se objevila vesmírná loď. Její kapitán ti poslal zprávu. Chce, abys v oblasti zvané [map_definite] dohlížel [shuttleDelayTicks_duration] na [lodgersCountPrisoners]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nVězni se provinili tím, že spáchali sérii vražd, při které [murdered]i několik [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]. Rodiny jejich obětí vyšlou své nájezdníky, aby se pomstily. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nVězni [mechViolationMulti]. Od té doby [jsou_seNachazi] [vHledacku] mechanoidního hnízda. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
