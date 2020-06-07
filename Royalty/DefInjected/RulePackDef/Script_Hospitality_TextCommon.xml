@@ -70,7 +70,7 @@
     <li>paralyzedInfo(lodgersCount>=2)->[lodgersLabelPluralNom] trpí paralytickou abázií, kvůli které musí být upoután[inBed_i_y_a] na lůžko.</li>
 
     <li>bloodRotInfo(lodgersCount==1)->[lodgers0_nameDef] má krevní hnilobu a bude vyžadovat denní péči. Nákazu lze zpomalit nejlepší možnou péčí a léčivy, ale v zásadě ji nelze úplně vyléčit. Pokud nemoc dosáhne kritické úrovně, [lodgers0_nameDef] zemře. Ujisti se proto, že máš dostatek zdravotnických zásob.</li>
-    <li>bloodRotInfo(lodgersCount>=2)->[lodgersLabelPluralNom] mají krevní hnilobu a budou vyžadovat denní péči. Nákazu lze zpomalit nejlepší možnou péčí a léčivy, ale v zásadě ji nelze úplně vyléčit. Pokud nemoc dosáhne kritické úrovně, [lodgersLabelPlural] zemřou. Ujisti se proto, že máš dostatek zdravotnických zásob.</li>
+    <li>bloodRotInfo(lodgersCount>=2)->[lodgersLabelPluralNom] mají krevní hnilobu a budou vyžadovat denní péči. Nákazu lze zpomalit nejlepší možnou péčí a léčivy, ale v zásadě ji nelze úplně vyléčit. Pokud nemoc dosáhne kritické úrovně, [lodgersLabelPluralNom] zemřou. Ujisti se proto, že máš dostatek zdravotnických zásob.</li>
 
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,lodgersCount==1,priority=1)->\n\nBudeš muset zajistit, aby se [lodgers0_nameDef] nedostal[lodgers0_x_a] pod [lodgersMoodThreshold_percent] nálady.</li>
@@ -93,6 +93,12 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->poblíž přistanou dva mechové klastry.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->poblíž přistane mechový klastr [threatSizeRaidsMechs] velikosti.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->poblíž přistanou dva mechové klastry [threatSizeRaidsMechs] velikosti.</li>
+
+    <li>zDuvodu->Z tohoto důvodu</li>
+    <li>zDuvodu->Kvůli tomu</li>
+    <li>zDuvodu->Díky tomu</li>
+    <li>zDuvodu->Proto</li>
+    <li>zDuvodu->To znamená, že</li>
 
     <li>threatCountRaidsMechs(threatCount==2)->dva nájezdy</li>
     <li>threatCountRaidsMechs(threatCount==3)->tři nájezdy</li>
