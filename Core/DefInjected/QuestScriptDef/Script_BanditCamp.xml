@@ -5,12 +5,21 @@
     <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
   -->
   <OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameFull], [asker_faction_leaderTitle] z frakce [asker_faction_name], ti poslal[asker_x_a] zprávu. Zdá se, že banda [siteFaction_pawnsPlural] sídlící v blízkém táboře útočí na [asker_possessive] karavany. Tento tábor patří frakci [siteFaction_name].\n\n[asker_nameDef] tě žádá, abys jejich tábor zničil, což znamená likvidaci všech nepřátel včetně střeleckých věží. [asker_label] říká, že se tam nachází [sitePart0_description].</li>
+    <li>questDescription->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] ti poslal[asker_x_a] zprávu. Zdá se, že [parta] [siteFaction_pawnsPlural] sídlící v blízkém táboře [utociNa] [asker_possessive] karavany. Tento tábor patří frakci [siteFaction_name].\n\n[asker_nameDef] tě žádá, abys jejich tábor zničil, což znamená likvidaci všech nepřátel včetně střeleckých věží. [asker_label] říká, že se tam nachází [sitePart0_description].</li>
     <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==1)->jeden bod</li>
     <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==2)->dva body</li>
     <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==3)->tři body</li>
     <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount==4)->čtyři body</li>
     <li>OpportunitySite_BanditCamp_royalFavorReward_amount(royalFavorReward_amount>=5)->[royalFavorReward_amount] bodů</li>
+    <li>utociNa->útočí na</li>
+    <li>utociNa->přepadává</li>
+    <li>utociNa->obtěžuje</li>
+    <li>utociNa->napadá</li>
+    <li>utociNa->drancuje</li>
+    <li>utociNa->okrádá</li>
+    <li>parta->parta</li>
+    <li>parta->banda</li>
+    <li>parta->skupina</li>
   </OpportunitySite_BanditCamp.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [bandit] [camp]</li>

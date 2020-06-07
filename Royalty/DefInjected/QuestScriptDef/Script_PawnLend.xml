@@ -22,7 +22,7 @@
     <li>disease->moru</li>
     <li>disease->malárie</li>
     <li>disease->nákazy</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] si přeje oživit svůj dvůr. Chce tam přivést [entertainerDescription].\n\nŽádá tě proto o poskytnutí [tve_colonistCountToLendGen], [PawnLend_ktery_mu_bude] po dobu [daysCountForLendNom] sloužit.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] si přeje více oživit [svujDvur]. Chce tam přivést [entertainerDescription].\n\nŽádá tě proto o poskytnutí [tve_colonistCountToLendGen], [PawnLend_ktery_mu_bude] [daysCountForLendNom] sloužit.\n\n[willSendShuttle]</li>
     <li>willSendShuttle->K vyzvednutí [colonists] vyšle raketoplán.</li>
     <li>colonists(colonistsToLendCount==1)->kolonisty</li>
     <li>colonists(colonistsToLendCount>=2)->kolonistů</li>
@@ -49,6 +49,9 @@
     <li>PawnLend_navrat_kolonisty(colonistsToLendCount>=2)->Návrat kolonistů</li>
     <li>PawnLend_tveho_kolonistu(colonistsToLendCount==1)->tvého kolonistu</li>
     <li>PawnLend_tveho_kolonistu(colonistsToLendCount>=2)->tvé kolonisty</li>
+    <li>svujDvur->svůj dvůr</li>
+    <li>svujDvur->své panství</li>
+svůj dvůr
   </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
