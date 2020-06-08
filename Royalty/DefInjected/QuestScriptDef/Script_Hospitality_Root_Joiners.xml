@@ -116,6 +116,76 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
-  <Hospitality_Joiners.questNameRules.rulesStrings>TODO</Hospitality_Joiners.questNameRules.rulesStrings>
+  <Hospitality_Joiners.questNameRules.rulesStrings>
+    <li>questName->[qShelter]</li>
+    <li>qShelter->[lodgerIndef] hled[a_aji] přístřeší</li>
+    <li>qShelter->Přístřeší pro [lodgerIndefAcc]</li>
+    <li>questName->[qHospitality]</li>
+    <li>qHospitality->[lodgerIndef] žád[a_aji] pohoštění</li>
+    <li>qHospitality->Pohoštění [lodgerIndefGen]</li>
+    <li>questName->[qHosting]</li>
+    <li>qHosting->[lodgerIndef] hled[a_aji] ubytování</li>
+    <li>qHosting->Hostování [lodgerIndefGen]</li>
+    <li>questName->[lodgerIndef] potřebuj[e_i] pomoc</li>
+    <li>questName(generateThreats==true,priority=1)->[qProtecting]</li>
+    <li>qProtecting->[lodgerIndef] žád[a_aji] ochranu</li>
+    <li>qProtecting->Ochrana [lodgerIndefGen]</li>
+    <li>questName(generateThreats==true,priority=1)->[qSafeguarding]</li>
+    <li>qSafeguarding->Zajištění ochrany [lodgerIndefGen]</li>
+    <li>qSafeguarding->[lodgerIndef] potřebuje chránit</li>
+    <li>questName(generateThreats==true,priority=1)->[qSecurity]</li>
+    <li>qSecurity->[lodgerIndef] potřebuj[e_i] ochranku</li>
+    <li>qSecurity->Ochranka pro [lodgerIndefAcc]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] v ohrožení</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] v nebezpečí</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] [withEnemies]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] [vHledacku]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->cestovatelé</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->stoupen[lodgers0_ec_kyne]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->spojen[lodgers0_ec_kyne]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->přátelé</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->stoupenci</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->spojenci</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_royalTitleInCurrentFaction]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->vladař[lodgers0_x_ka]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->šlechti[lodgers0_c_cna]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->aristokrat[lodgers0_x_ka]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->vladaři</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->šlechticové</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristokraté</li>
+    <li>lodgerIndefGen(asker_royalInCurrentFaction==True,lodgersCount==1)->vladař[lodgers0_e_ky]</li>
+    <li>lodgerIndefGen(asker_royalInCurrentFaction==True,lodgersCount==1)->šlechti[lodgers0_ce_cny]</li>
+    <li>lodgerIndefGen(asker_royalInCurrentFaction==True,lodgersCount==1)->aristokrat[lodgers0_a_ky]</li>
+    <li>lodgerIndefGen(asker_royalInCurrentFaction==True,lodgersCount>=2)->vladařů</li>
+    <li>lodgerIndefGen(asker_royalInCurrentFaction==True,lodgersCount>=2)->šlechticů</li>
+    <li>lodgerIndefGen(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristokratů</li>
+    <li>lodgerIndefAcc(asker_royalInCurrentFaction==True,lodgersCount==1)->vladař[lodgers0_e_ku]</li>
+    <li>lodgerIndefAcc(asker_royalInCurrentFaction==True,lodgersCount==1)->šlechti[lodgers0_ce_cnu]</li>
+    <li>lodgerIndefAcc(asker_royalInCurrentFaction==True,lodgersCount==1)->aristokrat[lodgers0_a_ku]</li>
+    <li>lodgerIndefAcc(asker_royalInCurrentFaction==True,lodgersCount>=2)->vladaře</li>
+    <li>lodgerIndefAcc(asker_royalInCurrentFaction==True,lodgersCount>=2)->šlechtice</li>
+    <li>lodgerIndefAcc(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristokraty</li>
+    <li>e_i(lodgersCount==1)->e</li>
+    <li>e_i(lodgersCount>=2)->í</li>
+    <li>a_aji(lodgersCount==1)->á</li>
+    <li>a_aji(lodgersCount>=2)->ají</li>
+    <li>vHledacku->v hledáčku</li>
+    <li>vHledacku->na seznamu cílů</li>
+    <li>withEnemies->pod nepřátelským tlakem</li>
+    <li>withEnemies->pod nepřátelskou palbou</li>
+    <li>withEnemies->[a_vs] [threatNom]</li>
+    <li>withEnemies->čelí [threatDat]</li>
+    <li>threatNom->hrozba</li>
+    <li>threatNom->nepřátelé</li>
+    <li>threatNom->nebezpečí</li>
+    <li>threatDat->hrozbě</li>
+    <li>threatDat->nepřátelům</li>
+    <li>threatDat->nebezpečí</li>
+  </Hospitality_Joiners.questNameRules.rulesStrings>
   
 </LanguageData>
