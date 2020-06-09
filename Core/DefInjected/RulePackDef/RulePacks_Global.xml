@@ -479,6 +479,8 @@
     <li>lodgers0_x_a(lodgers0_gender==Female)->a</li>
     <li>lodgers0_y_a(lodgers0_gender==Male)->ý</li>
     <li>lodgers0_y_a(lodgers0_gender==Female)->á</li>
+    <li>lodgers0_mu_ji(lodgers0_gender==Male)->mu</li>
+    <li>lodgers0_mu_ji(lodgers0_gender==Female)->jí</li>
     <li>lodgers0_im_ou(lodgers0_gender==Male)->ím</li>
     <li>lodgers0_im_ou(lodgers0_gender==Female)->ou</li>
     <li>lodgers0_eho_ou(lodgers0_gender==Male)->ého</li>
@@ -568,7 +570,7 @@
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Male)->muže</li>
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Female)->ženu</li>
 
-    <li>asker_faction_pawnsPluralNom(asker_faction==Empire)->imperialisti</li>
+    <li>asker_faction_pawnsPluralNom(asker_faction==Empire)->imperiálové</li>
     <li>asker_faction_pawnsPluralNom(asker_faction==OutlanderCivil)->odpadlíci</li>
     <li>asker_faction_pawnsPluralNom(asker_faction==OutlanderRough)->odpadlíci</li>
     <li>asker_faction_pawnsPluralNom(asker_faction==Pirate)->piráti</li>
@@ -577,7 +579,7 @@
     <li>asker_faction_pawnsPluralNom(asker_faction==TribeSavage)->domorodci</li>
     <li>asker_faction_pawnsPluralNom(p=0.00000000001)->[asker_faction_pawnsPlural]</li>
 
-    <li>asker_faction_pawnsPluralAcc(asker_faction==Empire)->imperialisty</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==Empire)->imperiály</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==OutlanderCivil)->odpadlíky</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==OutlanderRough)->odpadlíky</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==Pirate)->piráty</li>
@@ -586,7 +588,7 @@
     <li>asker_faction_pawnsPluralAcc(asker_faction==TribeSavage)->domorodce</li>
     <li>asker_faction_pawnsPluralAcc(p=0.00000000001)->[asker_faction_pawnsPlural]</li>
 
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==Empire)->imperialisti</li>
+    <li>enemyFaction_pawnsPluralNom(enemyFaction==Empire)->imperiálové</li>
     <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderCivil)->odpadlíci</li>
     <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderRough)->odpadlíci</li>
     <li>enemyFaction_pawnsPluralNom(enemyFaction==Pirate)->piráti</li>
@@ -595,7 +597,7 @@
     <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeSavage)->domorodci</li>
     <li>enemyFaction_pawnsPluralNom(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
 
-    <li>enemyFaction_pawnsPluralAcc(enemyFaction==Empire)->imperialisty</li>
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==Empire)->imperiály</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==OutlanderCivil)->odpadlíky</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==OutlanderRough)->odpadlíky</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==Pirate)->piráty</li>
@@ -604,7 +606,7 @@
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==TribeSavage)->domorodce</li>
     <li>enemyFaction_pawnsPluralAcc(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
 
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Empire)->imperialisti</li>
+    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Empire)->imperiálové</li>
     <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderCivil)->odpadlíci</li>
     <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderRough)->odpadlíci</li>
     <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Pirate)->piráti</li>
