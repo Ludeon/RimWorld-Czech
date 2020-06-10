@@ -351,6 +351,9 @@
     <li>QuestBuildMonumentLargeCon->Quests/BuildMonument/Quest_BuildMonument_Large_Construction</li>
     <li>QuestBuildMonumentConceptAngsty->Quests/BuildMonument/Quest_BuildMonument_Concepts_Angsty</li>
 
+//HospitalityJoiners
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen->Quests/HospitalityJoiners/Quest_HospitalityJoiners_PersonalCharacteristics_UniversalGenitive</li>
+
 //HospitalityPrisoners
     <li>QuestHospitalityPrisonersPersonalCharacteristicUniGen->Quests/HospitalityPrisoners/Quest_HospitalityPrisoners_PersonalCharacteristics_UniversalGenitive</li>
     <li>QuestHospitalityPrisonersAnyAdj->Quests/HospitalityPrisoners/Quest_HospitalityPrisoners_AnyAdj</li>
@@ -481,6 +484,8 @@
     <li>lodgers0_y_a(lodgers0_gender==Female)->á</li>
     <li>lodgers0_mu_ji(lodgers0_gender==Male)->mu</li>
     <li>lodgers0_mu_ji(lodgers0_gender==Female)->jí</li>
+    <li>lodgers0_nej_ni(lodgers0_gender==Male)->něj</li>
+    <li>lodgers0_nej_ni(lodgers0_gender==Female)->ni</li>
     <li>lodgers0_im_ou(lodgers0_gender==Male)->ím</li>
     <li>lodgers0_im_ou(lodgers0_gender==Female)->ou</li>
     <li>lodgers0_eho_ou(lodgers0_gender==Male)->ého</li>
@@ -561,6 +566,10 @@
 
     <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Male)-></li>
     <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Female)->a</li>
+    <li>enemyFaction_leader_jeho_jejich(enemyFaction_leader_gender==Male)->jeho</li>
+    <li>enemyFaction_leader_jeho_jejich(enemyFaction_leader_gender==Female)->jejích</li>
+    <li>enemyFaction_leader_jeho_jejim(enemyFaction_leader_gender==Male)->jeho</li>
+    <li>enemyFaction_leader_jeho_jejim(enemyFaction_leader_gender==Female)->jejím</li>
     <li>enemyFaction_leader_eho_ou(enemyFaction_leader_gender==Male)->ého</li>
     <li>enemyFaction_leader_eho_ou(enemyFaction_leader_gender==Female)->ou</li>
     <li>enemyFaction_leader_otec_matka(enemyFaction_leader_gender==Male)->otec</li>
@@ -631,6 +640,23 @@
     <li>enemyFaction_leaderGen(enemyFaction_leader_gender==Female,enemyFaction==TribeSavage)->náčelnice</li>
     <li>enemyFaction_leaderGen(enemyFaction_leader_gender==Male,p=0.00000000001)->vůdce</li>
     <li>enemyFaction_leaderGen(enemyFaction_leader_gender==Female,p=0.00000000001)->vůdkyně</li>
+
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==Empire)->hvězdovládci</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==Empire)->hvězdovládkyni</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==OutlanderCivil)->předsedovi rady</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==OutlanderCivil)->předsedkyni rady</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==OutlanderRough)->předsedovi rady</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==OutlanderRough)->předsedkyni rady</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==Pirate)->vůdci</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==Pirate)->vůdkyni</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==TribeCivil)->náčelníkovi</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==TribeCivil)->náčelnici</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==TribeRough)->náčelníkovi</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==TribeRough)->náčelnici</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,enemyFaction==TribeSavage)->náčelníkovi</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,enemyFaction==TribeSavage)->náčelnici</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Male,p=0.00000000001)->vůdci</li>
+    <li>enemyFaction_leaderLoc(enemyFaction_leader_gender==Female,p=0.00000000001)->vůdkyni</li>
 
 //ALL_ANIMALS
 //Arid
@@ -2174,6 +2200,14 @@
     <li>PersonalCharacteristicPosUniIns(p=0.15)->ou sexuální zdatností</li>
     <li>PersonalCharacteristicPosUniIns(p=0.15)->ými sexuálními preferencemi</li>
     <li>PersonalCharacteristicPosUniIns(p=0.15)->ou sexuální zkušeností</li>
+
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_jeho_jejich] genitálií</li>
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_jeho_jejiho] pubického ochlupení</li>
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_jeho_jejiho] tělního ochlupení</li>
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_jeho_jejich] toaletních návyků</li>
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_possessive] sexuální zdatnosti</li>
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_jeho_jejich] sexuálních preferencí</li>
+    <li>QuestHospitalityJoinersPersonalCharacteristicUniGen(p=0.15)->[enemyFaction_leader_possessive] sexuální zkušenosti</li>
 
     <li>QuestHospitalityPrisonersPersonalCharacteristicUniGen(p=0.15)->[asker_jeho_jejich] genitálií</li>
     <li>QuestHospitalityPrisonersPersonalCharacteristicUniGen(p=0.15)->[asker_jeho_jejiho] pubického ochlupení</li>
