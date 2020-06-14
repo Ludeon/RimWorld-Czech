@@ -111,14 +111,15 @@
     <li>wrongAct-> při vykrádání skladu potravin patřícího frakci [enemyFaction_name]</li>
     <li>wrongAct-> při loupeži duchovních artefaktů patřících frakci [enemyFaction_name]</li>
     <li>wrongAct-> při sabotáži cryptospánkových komor patřících frakci [enemyFaction_name]</li>
-
-
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->A group of [lodgersCount] travelers want you to host them at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]</li>
-
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nThese travelers were recently invited to an important ceremony with [enemyFaction_name], but showed up drunk and profaned the ritual. [enemyFaction_name] is now sending raids after them. [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
-    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\nThe travelers recently [mechViolation], and have been targeted by an orbiting mechanoid swarm. [enemyGroupsParagraph]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Ozvala se ti [lodgersCountJoiners]členná skupina cestovatelů. Potřebují, aby jim tvá osada zvaná [map_definite] poskytla [nejmene] na [shuttleDelayTicks_duration] přístřeší. [allLodgerInfo][threatsInfo2][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nTito cestovatelé se nedávno zúčastnili významného obřadu, na který je pozvala frakce [enemyFaction_name]. Přišli tam již značně opilí a pořádaný rituál znesvětili. Z tohoto důvodu proti nim vyšlou své nájezdníky. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nCestovatelé [threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\nCestovatelé [mechViolationMulti]. Od té doby [jsou_seNachazi] [vHledacku] mechanoidního hnízda. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
+    <li>lodgersCountJoiners(lodgersCount==2)->dvou</li>
+    <li>lodgersCountJoiners(lodgersCount==3)->tří</li>
+    <li>lodgersCountJoiners(lodgersCount==4)->čtyř</li>
+    <li>lodgersCountJoiners(lodgersCount==5)->[lodgersCount]</li>
 
 
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend [lodgers0_nameFull] is interested in learning about other cultures, and [asker_pronoun] wants you to host [lodgers0_objective] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
