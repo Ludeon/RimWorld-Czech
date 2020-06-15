@@ -97,10 +97,13 @@
     <li>theirHisHer(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>theirHisHer(lodgersCount>=2)->jejich</li>
 
-    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralNom] ocení poskytnutí kvalitního ubytování. Pokud udržíš [theirHisHer] průměrnou náladu nad 50%, získáš s frakcí [asker_faction_name] nějaké body prestiže navíc.</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralNom] ocení prvotřídní ubytování. Pokud udržíš [theirHisHer] průměrnou náladu nad 50%, získáš s frakcí [asker_faction_name] nějaké body prestiže navíc.</li>
     <li>goodwillForMood-></li>
 
-
+    <li>lodgersCountJoiners(lodgersCount==2)->dvou</li>
+    <li>lodgersCountJoiners(lodgersCount==3)->tří</li>
+    <li>lodgersCountJoiners(lodgersCount==4)->čtyř</li>
+    <li>lodgersCountJoiners(lodgersCount>=5)->[lodgersCount]</li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->[lodgers0_title] jménem [lodgers0_nameFull] po tobě potřebuje, aby [lodgers0_mu_ji] tvá osada zvaná [map_definite] zajišťovala nejméně [shuttleDelayTicks_duration] ochranu. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] byl[lodgers0_x_a] nedávno přistižen[lodgers0_x_a][wrongAct]. Frakce proto vyšle své pomstychtivé [enemyFaction_pawnsPluralAcc], kteří si pro [lodgers0_nej_ni] časem k tobě přijdou. V tomto případě [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
@@ -116,25 +119,20 @@
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nCestovatelé [threatsInfoMechRaidsMultiHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\nCestovatelé [mechViolationMulti]. Od té doby [jsou_seNachazi] [vHledacku] mechanoidního hnízda. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==false)-></li>
-    <li>lodgersCountJoiners(lodgersCount==2)->dvou</li>
-    <li>lodgersCountJoiners(lodgersCount==3)->tří</li>
-    <li>lodgersCountJoiners(lodgersCount==4)->čtyř</li>
-    <li>lodgersCountJoiners(lodgersCount==5)->[lodgersCount]</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==false,priority=1)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] tě žádá o laskavost. [asker_possessive] stoupen[lodgers0_ec_kyne] [lodgers0_nameFull] má zájem přiučit se něco málo o jiných kulturách, a proto tě žádá, aby [lodgers0_objective] tvá osada zvaná [map_definite] [nejmene] [shuttleDelayTicks_duration] hostovala. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] tě žádá o laskavost. [asker_possessive] [friend], [lodgers0_age]let[lodgers0_y_a] [lodgers0_title] jménem [lodgers0_nameDef], byl[lodgers0_x_a] přistižen[lodgers0_x_a] při psaní urážlivých slov proti osobě jménem [enemyFaction_leader_nameFull]. Dělal[lodgers0_x_a] si legraci z [QuestHospitalityJoinersPersonalCharacteristicUniGen]. [asker_nameDef] tě proto žádá o zajištění [lodgers0_possessive] ochrany. [lodgers0_nameDef] u tebe musí zůstat [nejmene] [shuttleDelayTicks_duration], dokud si s frakcí [enemyFaction_name] neurovná vztahy. Jelikož je [enemyFaction_leader_nameDef] [enemyFaction_leaderIns] z frakce [enemyFaction_name], místo urovnávání vztahů vyšle svou skupinu [enemyFaction_pawnsPlural], aby t[lodgers0_u_oho] sprosť[lodgers0_aka_acku] dostali.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration], until [asker_pronoun] can sooth the mechanoid hive.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-
-    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name] is requesting a favor. [asker_possessive] friend, a [lodgers0_age]-year-old [lodgers0_title] named [lodgers0_nameDef], recently [mechViolation]. [asker_nameDef] is asking for you to guard [lodgers0_nameDef] for [shuttleDelayTicks_duration].\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] tě žádá o laskavost. [asker_possessive] [friend], [lodgers0_age]let[lodgers0_y_a] [lodgers0_title] jménem [lodgers0_nameDef], [mechViolationSingle]. [asker_nameDef] tě proto žádá o zajištění [lodgers0_possessive] ochrany. [lodgers0_nameDef] u tebe musí zůstat [nejmene] [shuttleDelayTicks_duration], dokud nenastane v mechanoidním hnízdě klid.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1,generateThreats==true,threatType==MechClusters,priority=1)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] tě žádá o laskavost. [asker_possessive] [friend], [lodgers0_age]let[lodgers0_y_a] [lodgers0_title] jménem [lodgers0_nameDef], [mechViolationSingle]. [asker_nameDef] tě proto žádá o zajištění [lodgers0_possessive] ochrany. [lodgers0_nameDef] u tebe musí zůstat [nejmene] [shuttleDelayTicks_duration].\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>friend->stoupen[lodgers0_ec_kyne]</li>
     <li>friend->znám[lodgers0_y_a]</li>
     <li>friend->dlouholet[lodgers0_y_a] přítel[lodgers0_x_kyne]</li>
     <li>friend->kámoš[lodgers0_x_ka]</li>
     <li>friend->kamarád[lodgers0_x_ka]</li>
-
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from an enemy jail. [asker_pronoun] wants you to guard them at [map_definite] until [asker_pronoun] can send a shuttle to collect them in [shuttleDelayTicks_duration]. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] [nedavno] [vysvobodil][asker_x_a] [lodgersCountJoiners]člennou skupinu [asker_faction_pawnsPlural] z nepřátelského [vezeni]. Nyní po tobě potřebuje, aby je tvá osada zvaná [map_definite] [nejmene] [shuttleDelayTicks_duration] chránila, dokud pro ně nebude moci vyslat raketoplán, který je vyzvedne. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>vezeni->vězení</li>
+    <li>vezeni->zajetí</li>
+    <li>vysvobodil->vysvobodil</li>
+    <li>vysvobodil->zachránil</li>
 
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], recently rescued [lodgersCount] [asker_faction_pawnsPlural] from the prisons of [enemyFaction_name]. [asker_nameDef] wants you to guard them at [map_definite] for [shuttleDelayTicks_duration] until [asker_pronoun] can send a shuttle to collect them. The [asker_faction_pawnsPlural] know secrets about the [secretInfo] of [enemyFaction_name], so they will be hunted.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
 
