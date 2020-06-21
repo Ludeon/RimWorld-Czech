@@ -50,71 +50,53 @@
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
-
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
-
     <li>lodgersLabelSingOrPluralNom(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralNom(lodgersCount>=2)->[lodgersLabelPluralNom]</li>
-
-
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
-
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-
     <li>paralyzedInfo(lodgersCount==1)->[lodgers0_nameDef] trpí paralytickou abázií, kvůli které musí být upoután[lodgers0_x_a] na lůžko.</li>
     <li>paralyzedInfo(lodgersCount>=2)->[lodgersLabelPluralNom] trpí paralytickou abázií, kvůli které musí být upoután[inBed_i_y_a] na lůžko.</li>
-
     <li>bloodRotInfo(lodgersCount==1)->[lodgers0_nameDef] má krevní hnilobu a bude vyžadovat denní péči. Nákazu lze zpomalit nejlepší možnou péčí a léčivy, ale v zásadě ji nelze úplně vyléčit. Pokud nemoc dosáhne kritické úrovně, [lodgers0_nameDef] zemře. Ujisti se proto, že máš dostatek zdravotnických zásob.</li>
     <li>bloodRotInfo(lodgersCount>=2)->[lodgersLabelPluralNom] mají krevní hnilobu a budou vyžadovat denní péči. Nákazu lze zpomalit nejlepší možnou péčí a léčivy, ale v zásadě ji nelze úplně vyléčit. Pokud nemoc dosáhne kritické úrovně, [lodgersLabelPluralNom] zemřou. Ujisti se proto, že máš dostatek zdravotnických zásob.</li>
-
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,lodgersCount==1,priority=1)->\n\nBudeš muset zajistit, aby se [lodgers0_nameDef] nedostal[lodgers0_x_a] pod [lodgersMoodThreshold_percent] nálady.</li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,lodgersCount>=2,priority=1)->\n\nBudeš muset zajistit, aby se [lodgersLabelPluralNom] nedostali pod [lodgersMoodThreshold_percent] nálady.</li>
-
     <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,lodgersCount==1,priority=1)->\n\n[lodgers0_nameDef] nebude provádět žádnou práci.</li>
     <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->\n\n[lodgersLabelPluralNom] nebudou provádět žádnou práci.</li>
-
     <li>commonDescEnding->\n\n[helpersParagraph]</li>
-
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->dorazí nájezd zhruba v tomto složení:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->dorazí nájezd [threatSizeRaidsMechs] velikosti zhruba v tomto složení:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->dorazí [threatCountRaidsMechs] zhruba v tomto složení:\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->dorazí [threatCountRaidsMechs] [threatSizeRaidsMechs] velikosti zhruba v tomto složení:\n\n[threatExample]</li>
-
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->poblíž přistane mechový klastr.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->poblíž přistanou dva mechové klastry.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->poblíž přistane mechový klastr [threatSizeRaidsMechs] velikosti.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->poblíž přistanou dva mechové klastry [threatSizeRaidsMechs] velikosti.</li>
-
     <li>zDuvodu->Z tohoto důvodu</li>
     <li>zDuvodu->Kvůli tomu</li>
     <li>zDuvodu->Díky tomu</li>
     <li>zDuvodu->Proto</li>
     <li>zDuvodu->To znamená, že</li>
-
     <li>threatCountRaidsMechs(threatCount==2)->dva nájezdy</li>
     <li>threatCountRaidsMechs(threatCount==3)->tři nájezdy</li>
     <li>threatCountRaidsMechs(threatCount==4)->čtyři nájezdy</li>
     <li>threatCountRaidsMechs(threatCount>=5)->[threatCount] nájezdů</li>
-
     <li>threatSizeRaidsMechs(threatSize==2)->dvojnásobné</li>
     <li>threatSizeRaidsMechs(threatSize==3)->trojnásobné</li>
     <li>threatSizeRaidsMechs(threatSize==4)->čtyřnásobné</li>
     <li>threatSizeRaidsMechs(threatSize>=5)->[threatSize]násobné</li>
-
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] [mechViolationSingle]. Od té doby [je_seNachazi] [vHledacku] mechanoidního roje [sidliciho_na_orbite].</li>
     <li>threatsInfoMechClustersMultiPrisoners->Vězni [mechViolationMulti]. Od té doby [jsou_seNachazi] [vHledacku] mechanoidního roje [sidliciho_na_orbite].</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] [mechViolationSingle]. Od té doby [je_seNachazi] [vHledacku] mechanoidního hnízda.</li>
     <li>threatsInfoMechRaidsMultiHuman->[mechViolationMulti]. Od té doby [jsou_seNachazi] [vHledacku] mechanoidního hnízda.</li>
-
     <li>sidliciho_na_orbite->sídlícího na [orbite]</li>
     <li>sidliciho_na_orbite->číhajícího na [orbite]</li>
     <li>orbite->orbitě</li>
@@ -146,13 +128,6 @@
     <li>ancient->prastar</li>
     <li>nejmene->nejméně</li>
     <li>nejmene->alespoň</li>
-
-    <li>mechViolation->angered a machine persona somehow</li>
-    <li>mechViolation->violated an ancient supercomputer terminal</li>
-    <li>mechViolation->murdered a human child favored by an archotech</li>
-    <li>mechViolation->attempted to hack a mechanoid control node</li>
-    <li>mechViolation->attempted to steal from an ancient storage site</li>
-
     <li>mechViolationSingle->[nedavno] nějakým způsobem [angered][lodgers0_x_a] strojovou osobnost</li>
     <li>mechViolationSingle->[nedavno] poškodil[lodgers0_x_a] [ancient]ý terminál superpočítače</li>
     <li>mechViolationSingle->[nedavno] [murdered][lodgers0_x_a] lidské dítě, které si oblíbil jeden z archoteků</li>
@@ -163,30 +138,22 @@
     <li>mechViolationMulti->[nedavno] [murdered]i lidské dítě, které si oblíbil jeden z archoteků</li>
     <li>mechViolationMulti->se [nedavno] pokusili [hack] mechanoidní řídicí uzel</li>
     <li>mechViolationMulti->se [nedavno] pokusili [steal] [ancient]é datové úložiště</li>
-
     <li>letterSubject->{SUBJECT_definite}</li>
-
     <li>lodgersHasHave(lodgersCount==1)->has</li>
     <li>lodgersHasHave(lodgersCount>=2)->have</li>
-
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->je</li>
     <li>lodgersObjectiveAcc(lodgersCount==1,lodgers0_gender==Male)->něj</li>
     <li>lodgersObjectiveAcc(lodgersCount==1,lodgers0_gender==Female)->ni</li>
     <li>lodgersObjectiveAcc(lodgersCount>=2)->ně</li>
-
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->[remaining] [lodgersLabelPluralNom] nyní odejdou. </li>
-
     <li>odejdeOdejdou(lodgersCount==1)->odejde</li>
     <li>odejdeOdejdou(lodgersCount>=2)->odejdou</li>
-
     <li>jehoJejiJejich(lodgersCount==1)->[lodgers0_possessive]</li>
     <li>jehoJejiJejich(lodgersCount>=2)->jejich</li>
-
     <li>podekoval_a_i(lodgersCount==1)->poděkoval[lodgers0_x_a]</li>
     <li>podekoval_a_i(lodgersCount>=2)->poděkovali</li>
-
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.</li>
     <li>failLetterEndingCommon->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.\n\nTvé vztahy s frakcí [asker_faction_name] se snížily o [goodwillPenalty] bodů.</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>

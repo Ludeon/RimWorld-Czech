@@ -430,12 +430,18 @@
     <li>asker_mu_ji(asker_gender==Female)->jí</li>
     <li>asker_nej_ni(asker_gender==Male)->něj</li>
     <li>asker_nej_ni(asker_gender==Female)->ní</li>
+    <li>asker_nem_ni(asker_gender==Male)->něm</li>
+    <li>asker_nem_ni(asker_gender==Female)->ní</li>
     <li>asker_jeho_jejiho(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejiho(asker_gender==Female)->jejího</li>
 
     <li>asker_ho_x(lodgers0_gender==Male)->ho</li>
     <li>asker_ho_x(asker_gender==Male,lodgers0_gender==Female)-></li>
     <li>asker_ho_x(asker_gender==Female,lodgers0_gender==Female)-></li>
+
+    <li>asker_ym_ou_ymi(lodgers1_gender==Male,lodgersCountMinusOne==1)->ým</li>
+    <li>asker_ym_ou_ymi(lodgers1_gender==Female,lodgersCountMinusOne==1)->ou</li>
+    <li>asker_ym_ou_ymi(lodgersCountMinusOne>=2)->ými</li>
 
     <li>asker_jeho_jejich(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejich(asker_gender==Female)->jejích</li>
