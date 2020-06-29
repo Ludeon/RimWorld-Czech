@@ -8,7 +8,7 @@
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
     <li>questDescription->Nedaleká osada zvaná [settlement_label] přichází se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPro uskutečnění tohoto obchodu vyšli karavanu s požadovanými položkami. Přibližná doba cesty je [estimatedTravelTime_duration].</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->normální kvality nebo i lepší </li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->běžné nebo lepší kvality </li>
     <li>qualityInfo-></li>
     <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==1)->jeden bod</li>
     <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==2)->dva body</li>
