@@ -11,7 +11,7 @@
   <!-- EN: Next title -->
   <RoyalTitleTooltipNextTitle>Následující titul</RoyalTitleTooltipNextTitle>
   <!-- EN: costs {0} {FACTION_royalFavorLabel} -->
-  <RoyalTitleTooltipNextTitleFavorCost>stojí {0} kp</RoyalTitleTooltipNextTitleFavorCost>
+  <RoyalTitleTooltipNextTitleFavorCost>stojí {0} BP</RoyalTitleTooltipNextTitleFavorCost>
   <!-- EN: No more earnable titles on this planet. -->
   <RoyalTitleTooltipFinalTitle>Na této planetě už nelze získat další titul.</RoyalTitleTooltipFinalTitle>
   <!-- EN: If {PAWN_nameDef} dies, {HEIR_nameFull} is designated to inherit {PAWN_possessive} title. -->
@@ -27,7 +27,7 @@
   <!-- EN: Other titles of {FACTION_name} -->
   <RoyalTitleTooltipTitlesNonEarnable>Ostatní tituly z frakce {FACTION_name}</RoyalTitleTooltipTitlesNonEarnable>
   <!-- EN: {0} {1} -->
-  <RoyalTitleTooltipRoyalFavorAmount>{0} kp</RoyalTitleTooltipRoyalFavorAmount>
+  <RoyalTitleTooltipRoyalFavorAmount>{0} BP</RoyalTitleTooltipRoyalFavorAmount>
   <!-- EN: {0} total -->
   <RoyalTitleTooltipRoyalFavorTotal>celkově {0}</RoyalTitleTooltipRoyalFavorTotal>
 
@@ -35,5 +35,37 @@
   <RecruitmentValueOffsetRoyal>Titulová korekce</RecruitmentValueOffsetRoyal>
   <!-- EN: Royal title factor -->
   <RecruitmentValueFactorRoyal>Titulový faktor</RecruitmentValueFactorRoyal>
+  
+  <!-- Permits tab -->
+  <!-- EN: Permits -->
+  <TabPermits>Oprávnění</TabPermits>
+  <!-- EN: Permits from {FACTION_name} -->
+  <PermitsFromFaction>Oprávnění z {FACTION_name}</PermitsFromFaction>
+  <!-- EN: Current title -->
+  <CurrentTitle>Současný titul</CurrentTitle>
+  <!-- EN: Unused permit points -->
+  <UnusedPermits>Dostupné body oprávnění</UnusedPermits>
+  <!-- EN: Return all permits -->
+  <ReturnAllPermits>Vrátit všechna oprávnění</ReturnAllPermits>
+  <!-- EN: {PAWN_nameDef} has no permits to return. -->
+  <NoPermitsToReturn>{PAWN_nameDef} nemá žádné oprávnění, které by {PAWN_gender ? mohl : mohla} vrátit.</NoPermitsToReturn>
+  <!-- EN: Returning permits requires {FAVORCOST} {FAVOR} but {PAWN_nameDef} only has {CURFAVOR}. -->
+  <NotEnoughFavor>Vrácení všech oprávnění vyžaduje {FAVORCOST} bodů pocty, avšak {PAWN_nameDef} má pouze {CURFAVOR}.</NotEnoughFavor>
+  <!-- EN: Return all previously-chosen permits for this faction. You will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
+  <ReturnAllPermits_Desc>Vrátit všechna dříve vybraná oprávnění této frakci. Získáš zpět všechny utracené body za oprávnění a budeš je moci znovu utratit.\n\nTato akce tě bude stát {BASEFAVORCOST} bodů pocty, plus cena za každé oprávnění, u kterého momentálně probíhá doba na znovupoužití. Celková cena tedy činí {FAVORCOST}.</ReturnAllPermits_Desc>
+  <!-- EN: Return all previously-chosen permits for {FACTION_name}?\n\nYou will regain all the spent permit points and be able to spend them again.\n\nThis action costs {BASEFAVORCOST} {FAVOR}, plus the reset cost of any permits currently on cooldown. The total cost now is {FAVORCOST}. -->
+  <ReturnAllPermits_Confirm>Vrátit všechna dříve vybraná oprávnění frakci {FACTION_name}?\n\nZískáš zpět všechny utracené body za oprávnění a budeš je moci znovu utratit.\n\nTato akce tě bude stát {BASEFAVORCOST} bodů pocty, plus cena za každé oprávnění, u kterého momentálně probíhá doba do znovupoužití. Celková cena tedy činí {FAVORCOST}.</ReturnAllPermits_Confirm>
+  <!-- EN: Switch faction -->
+  <SwitchFaction_Desc>Přepnout frakci</SwitchFaction_Desc>
+  <!-- EN: Accept permit -->
+  <AcceptPermit>Přijmout oprávnění</AcceptPermit>
+  <!-- EN: Requires title: {0} -->
+  <RequiresTitle>Vyžaduje titul: {0}</RequiresTitle>
+  <!-- EN: Upgrade from: {0} -->
+  <UpgradeFrom>Předpoklad k vylepšení: {0}</UpgradeFrom>
+  <!-- EN: Cooldown -->
+  <Cooldown>Doba do znovupoužití</Cooldown>
+  <!-- EN: {HONOR} cost if used during cooldown -->
+  <CooldownUseFavorCost>Cena během čekací doby (pocta)</CooldownUseFavorCost>
   
 </LanguageData>

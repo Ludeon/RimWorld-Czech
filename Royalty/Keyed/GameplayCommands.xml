@@ -12,25 +12,41 @@
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
   <MakeHeirPreviousHeirWarning>Tímto se naštve nynější {HEIR_gender ? dědic : dědička} {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
 
-  <!-- Call royal aid -->
-  <!-- EN: Call royal aid -->
-  <CommandCallRoyalAid>Přivolat královskou pomoc</CommandCallRoyalAid>
-  <!-- EN: Call for military aid using a special royal permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs royal favor to do so. -->
-  <CommandCallRoyalAidDesc>Přivolá vojenskou pomoc využitím zvláštního královského oprávnění.\n\nVšechny druhy pomoci lze přivolat jednou bezplatně, poté musíš nějakou dobu počkat, než bude opět zdarma. Pomoc lze přivolat i častěji, ta tě však bude stát nějaké body královské přízně.</CommandCallRoyalAidDesc>
-  <!-- EN: Guests will not use their royal aid. -->
-  <CommandCallRoyalAidLodger>Hosté nebudou používat jejich vlastní královskou pomoc.</CommandCallRoyalAidLodger>
+  <!-- Call aid -->
+  <!-- EN: Call aid... -->
+  <CommandCallRoyalAid>Přivolat pomoc...</CommandCallRoyalAid>
+  <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
+  <CommandCallRoyalAidDesc>Přivolá pomoc využitím zvláštního oprávnění.\n\nVšechny druhy pomoci lze použít jednou bezplatně, poté musíš nějakou dobu počkat, než budou opět zdarma. Pomoc můžeš využívat i častěji, ale bude tě to stát nějaké body pocty.</CommandCallRoyalAidDesc>
+  <!-- EN: Guests will not use their aid permits. -->
+  <CommandCallRoyalAidLodger>Hosté nebudou používat svá oprávnění k přivolání pomoci.</CommandCallRoyalAidLodger>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>Frakce {FACTION_name} tě považuje za nepřítele.</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
   <CommandCallRoyalAidFreeOption>Zdarma</CommandCallRoyalAidFreeOption>
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
-  <CommandCallRoyalAidFavorOption>Zdarma za {0} dnů, nebo po investování {1} bodů královské přízně.</CommandCallRoyalAidFavorOption>
+  <CommandCallRoyalAidFavorOption>Zdarma za {0} dnů, nebo po investování {1} bodů pocty.</CommandCallRoyalAidFavorOption>
+  <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
+  <CommandCallRoyalAidWarningNonHostileFactions>Chystáš se požádat o pomoc, jenže tito lidé pochází z frakcí, které frakce {0_name} nepovažuje za své nepřátele. Vojáci, které se chystáš přivolat, na ně proto nebudou útočit: {1}</CommandCallRoyalAidWarningNonHostileFactions>
+  <!-- EN: Not enough favor. -->
+  <CommandCallRoyalAidNotEnoughFavor>Nedostatečné množství pocty.</CommandCallRoyalAidNotEnoughFavor>
+  
+  <!-- Call laborers -->
+  <!-- EN: Call laborers -->
+  <CommandCallLaborers>Přivolání dělníků</CommandCallLaborers>
+  <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
+  <CommandCallLaborersDesc>Použije zvláštní oprávnění k vyžádání skupiny dělníků od tvého spojence. Tito pracovníci mohou vykonávat pouze pracovní úkoly, můžeš je však ovládat, jako by to byli tví vlastní kolonisté. Jsi zodpovědný za jejich bezpečnost.</CommandCallLaborersDesc>
+  <!-- EN: On cooldown. {0} days left. -->
+  <CommandOnCooldown>Do znovupoužití zbývá {0} dnů.</CommandOnCooldown>
+  <!-- EN: {0} laborers -->
+  <CommandCallLaborersNumLaborers>{0}x dělníci</CommandCallLaborersNumLaborers>
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
   <CommandPsycastWouldExceedEntropy>Neurální teplo by překonalo limit omezovače. K použití psiosíly můžeš omezovač vypnout.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} spotřebuje {0} psiofokusu, jenže {CASTERNAME} má aktuálně {1}.</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} spotřebuje {0} psiofokusu, avšak {CASTERNAME} má pouze {1}.</CommandPsycastNotEnoughPsyfocus>
+  <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
+  <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME} vyžaduje {0} psiofokusu k přerušení nervového zhroucení, kterým {1} trpí, avšak {CASTERNAME} má pouze {2}.</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
   <CommandPsycastHigherLevelPsylinkRequired>Vyžaduje psiovazbu na úrovni {0}.</CommandPsycastHigherLevelPsylinkRequired>
   <!-- EN: Zero psychic sensitivity. -->
@@ -55,5 +71,11 @@
   <CommandWarnInBuildingRadius>Varovat v případě blízké stavby</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
   <CommandWarnInBuildingRadiusDesc>Pokud je tato volba povolena, tento objekt zobrazí červenou čáru směrem ke stavbám, které umístíš pomocí nabídky architekta, a které by jinak narušovaly meditaci kvůli přílišné blízkosti.\n\nPokud tento objekt nevyužíváš k meditačním účelům, můžeš tuto volbu vypnout.</CommandWarnInBuildingRadiusDesc>
+  
+  <!-- Permits -->
+  <!-- EN: Choose permit -->
+  <ChooseRoyalPermit>Vybrat oprávnění</ChooseRoyalPermit>
+  <!-- EN: Open the permit selection screen and choose a new permit. -->
+  <ChooseRoyalPermit_Desc>Otevře výběrové okno s oprávněními, na kterém si můžeš vybrat nová oprávnění.</ChooseRoyalPermit_Desc>
   
 </LanguageData>
