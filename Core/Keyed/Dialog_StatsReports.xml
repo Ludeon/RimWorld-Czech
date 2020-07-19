@@ -167,9 +167,9 @@
   <!-- EN: The attributes of this plant. -->
   <Stat_Thing_Plant_Attributes_Desc>Atributy této rostliny.</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
-  <Stat_Thing_Apparel_Covers_Desc>Které části těla tento předmět zakrývá.\n\nPouze zakryté části těla jsou chráněny.</Stat_Thing_Apparel_Covers_Desc>
+  <Stat_Thing_Apparel_Covers_Desc>Které části těla tento předmět zakrývá.\n\nZbroj neposkytuje ochranu částem těla, které nezakrývá.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
-  <Stat_Thing_Apparel_Layer_Desc>Které vrstvy oblečení tento předmět vyplní.\n\nPro konkrétní část těla lze v každé vrstvě nosit pouze jeden kus oblečení.</Stat_Thing_Apparel_Layer_Desc>
+  <Stat_Thing_Apparel_Layer_Desc>Pro které vrstvy je tento předmět určen.\n\nPro danou část těla lze v každé vrstvě nosit pouze jeden kus výstroje.</Stat_Thing_Apparel_Layer_Desc>
   <!-- EN: The minimum soil fertility that this plant requires to grow. -->
   <Stat_Thing_Plant_FertilityRequirement_Desc>Minimální úrodnost půdy, kterou tato rostlina potřebuje k růstu.</Stat_Thing_Plant_FertilityRequirement_Desc>
   <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
@@ -259,11 +259,11 @@
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
   <Stat_Thing_Drug_Chemical_Desc>Aktivní chemická látka v této droze.\n\nV některých případech je stejná chemická látka přítomna i v jiných drogách. Takové drogy umožňují uspokojit stejnou závislost různými způsoby.</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>Intenzita nárustu euforie po podání jedné dávky této drogy.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>Intenzita nárůstu euforie po podání jedné dávky této drogy.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
   <Stat_Thing_Drug_HighFallPerDay_Desc>Kolik euforie se vytratí za den.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak dlouho vydrží pocit euforie po podání jedné dávky.\n\nTato hodnota je vypočtena z nárustu euforie na dávku a rychlosti poklesu euforie.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak dlouho vydrží pocit euforie po podání jedné dávky.\n\nTato hodnota je vypočtena z nárůstu euforie na dávku a rychlosti poklesu euforie.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
   <Stat_Thing_Drug_ToleranceGainPerDose_Desc>O kolik se zvýší snášenlivost uživatele na chemickou látku s každou dávkou této drogy.\n\nTato hodnota se může lišit u drog se stejnou chemickou látkou.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
@@ -271,7 +271,7 @@
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
   <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimální snášenlivost vyžadována k opětovnému vzniku závislosti na této droze.\n\nPokud má uživatel snášenlivost pod touto úrovní, nemůže se stát po podání jedné dávky opět závislým.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Uživatel se nikdy nestane závislým, pokud nebere drogu častěji, než je uvedeno.\n\nTato hodnota je vypočtena z minimální snášenlivosti ke vzniku závislosti, nárustu euforie na dávku a rychlosti poklesu snášenlivosti.\n\nBer na vědomí, že některé drogy nemají bezpečný interval mezi dávkami. Takové drogy mohou způsobit vznik závislosti při kterékoli dávce, dokonce i při té první.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Uživatel se nikdy nestane závislým, pokud nebere drogu častěji, než je uvedeno.\n\nTato hodnota je vypočtena z minimální snášenlivosti ke vzniku závislosti, nárůstu euforie na dávku a rychlosti poklesu snášenlivosti.\n\nBer na vědomí, že některé drogy nemají bezpečný interval mezi dávkami. Takové drogy mohou způsobit vznik závislosti při kterékoli dávce, dokonce i při té první.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>Šance náhodného předávkování při užívání této drogy. K náhodnému předávkování může dojít při jakékoli dávce, ať už se jedná o první zkušenost nového uživatele, nebo o sté šlehnutí zkušeného narkomana.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
@@ -283,7 +283,7 @@
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
   <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Kolik závažnosti je přidáno k existující závislosti pro každou dávku této drogy.\n\nZávažnost závislosti nesmí překročit 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
-  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Jak často potřebuje brát narkoman tuto drogu, aby uspokojil svou závislost a zabránil jejímu ústupu.\n\nTato hodnota se počítá z rychlosti poklesu chemické potřeby a nárustu chemické potřeby na dávku.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Jak často potřebuje brát narkoman tuto drogu, aby uspokojil svou závislost a zabránil jejímu ústupu.\n\nTato hodnota se počítá z rychlosti poklesu chemické potřeby a nárůstu chemické potřeby na dávku.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
   <Stat_Thing_Drug_AddictionNeedOffset_Desc>Nakolik naplní každá dávka této drogy narkomanovu potřebu na chemické látky.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->

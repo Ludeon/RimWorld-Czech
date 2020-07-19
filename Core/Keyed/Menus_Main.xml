@@ -258,13 +258,166 @@
   <ReloadAnytimeModeInfo>Hru můžeš libovolně ukládat a načítat.\n\nNení to špatná volba, pokud se stále tuto hru učíš, nebo ti vyhovuje tento herní styl, nebo používáš módy, které mohou nějakým způsobem narušit hru, a nebo se chceš jen vyhnout režimu nenapravitelného osudu.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Ukládat můžeš pouze při opuštění hry.\n\nVzhledem k tomu, že RimWorld je generátorem příběhů, doporučuji ti, aby ses pokaždé pokusil zotavit se ze ztrát. Dokonce i ztráta všeho, tedy kromě posledního přeživšího, neznamená vždy konec hry - je to jen součást příběhu.\n\nHraní za těchto hrozivých situací může vytvořit příběh jak tragický, tak i triumfální. RimWorld je přesně navržen pro tento styl hraní.\n\nLuke Skywalker se také nesnažil\npřepsat minulost, když jeho rodina zemřela - ztráta a obnova je dramatická.</PermadeathModeInfo>
-  <!-- EN: Storyteller and difficulty can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>Vypravěče a obtížnost můžeš kdykoliv změnit.</CanChangeStorytellerSettingsDuringPlay>
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
+  <CanChangeStorytellerSettingsDuringPlay>Vypravěče a herní styl můžeš kdykoliv změnit.</CanChangeStorytellerSettingsDuringPlay>
   <!-- EN: Merciless mode -->
   <UnlockExtremeDifficulty>Nemilosrdný režim</UnlockExtremeDifficulty>
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
   <ConfirmUnlockExtremeDifficulty>Nemilosrdný režim je speciální herní režim, ve kterém každá výzva jde až do extrémních úrovní.\n\nNemilosrdný režim se odemkne automaticky po dosažení konkrétních milníků. Nicméně, můžeš jej odemknout i teď.\n\nTato možnost se doporučuje pouze těm, kteří si hru zahráli na nejvyšší obtížnost minimálně jednou či dvakrát a chtějí mít i přes své nejlepší úsilí dobrou šanci na umírání.</ConfirmUnlockExtremeDifficulty>
 
+  <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
+  <DifficultyCustomSectionLabel>Vlastní nastavení herního stylu</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
+  <DifficultyReset>Nastavit na standardní herní styl...</DifficultyReset>
+  
+  <!-- EN: Threats -->
+  <DifficultyThreatSection>Hrozby</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
+  <Difficulty_ThreatScale_Label>Míra hrozeb</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
+  <Difficulty_ThreatScale_Info>Upraví velikost hrozeb, jako jsou nájezdy, zamoření brouky a obtížnost úkolů.</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
+  <Difficulty_AllowBigThreats_Label>Hlavní hrozby</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
+  <Difficulty_AllowBigThreats_Info>Povolí hlavní hrozby, jako jsou nájezdy, zamoření brouky, lidožravé smečky, havárie mechanoidních lodí a další.</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
+  <Difficulty_AllowViolentQuests_Label>Úkolové hrozby</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
+  <Difficulty_AllowViolentQuests_Info>Povolí úkoly obsahující násilné hrozby a výzvy. Pokud je toto zakázáno, úkoly budou upraveny tak, že budou nenásilné.</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
+  <Difficulty_AllowIntroThreats_Label>Úvodní hrozby</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
+  <Difficulty_AllowIntroThreats_Info>Povolí pevně dané úvodní hrozby, které se objevují chvíli po započetí hry.</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
+  <Difficulty_PredatorsHuntHumanlikes_Label>Predátoři loví lidi</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
+  <Difficulty_PredatorsHuntHumanlikes_Info>Povolí divokým predátorům lovit lidi.</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
+  <Difficulty_AllowExtremeWeatherIncidents_Label>Extrémní počasí</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
+  <Difficulty_AllowExtremeWeatherIncidents_Info>Povolí extrémní počasí, jako jsou toxický spad, vulkanická zima a extrémní smršť blesků.</Difficulty_AllowExtremeWeatherIncidents_Info>
+
+  <!-- EN: Economy -->
+  <DifficultyEconomySection>Ekonomika</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
+  <Difficulty_TradePriceFactorLoss_Label>Znevýhodnění obchodní ceny</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
+  <Difficulty_TradePriceFactorLoss_Info>Při obchodování jsou kupní ceny zvýšeny o tuto částku, zatímco prodejní ceny jsou o tuto částku sníženy.</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
+  <Difficulty_CropYieldFactor_Label>Výnos ze sklizně</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
+  <Difficulty_CropYieldFactor_Info>Upraví množství materiálu vyprodukovaného při sklizni rostlin. To zahrnuje sklízení plodin včetně kácení stromů.</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
+  <Difficulty_MineYieldFactor_Label>Výnos z těžby</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
+  <Difficulty_MineYieldFactor_Info>Upraví množství materiálu vyprodukovaného při těžbě.</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
+  <Difficulty_ButcherYieldFactor_Label>Výnos při porážce</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
+  <Difficulty_ButcherYieldFactor_Info>Upraví množství materiálu vyprodukovaného při porážce. To zahrnuje maso, kůži a výnos při rozřezávání mechanoidů.</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
+  <Difficulty_ResearchSpeedFactor_Label>Rychlost výzkumu</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
+  <Difficulty_ResearchSpeedFactor_Info>Upraví rychlost výzkumu.</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
+  <Difficulty_QuestRewardValueFactor_Label>Úkolové odměny</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_QuestRewardValueFactor_Info>Upraví hodnotu odměn získávaných za úkoly.\n\nPoznámka: Hodnota odměny za úkol se také automaticky upraví tak, aby kompenzovala míru hrozeb. Pokud toto nastavení upravíš, přidáš další násobitel.</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
+  <Difficulty_RaidLootPointsFactor_Label>Kořist z nájezdu</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_RaidLootPointsFactor_Info>Upraví hodnotu kořisti, kterou nesou nájezdníci.\n\nPoznámka: Hodnota kořisti z nájezdu se také automaticky upraví tak, aby kompenzovala míru hrozeb. Pokud toto nastavení upravíš, přidáš další násobitel.</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
+  <Difficulty_MaintenanceCostFactor_Label>Náklady na přezbrojení střeleckých věží</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
+  <Difficulty_MaintenanceCostFactor_Info>Upraví náklady na přezbrojení střeleckých věží.</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
+  <Difficulty_ScariaRotChance_Label>Šance hniloby při skárii</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
+  <Difficulty_ScariaRotChance_Info>Pravděpodobnost, že mrtvola bude po smrti okamžitě hnijící, pokud tvor trpí nemocí zvanou skárie.\n\nPoznámka: Výchozí nastavení je navrženo tak, aby na vyšších obtížnostech přesně vyvážilo nárůst počtu zvířat, takže každý hráč získá i stejné množství masa jako odměnu.</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Smrt nepřítele při uzemnění</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Upraví dodatečnou šanci, že nepřítel okamžitě zemře, když bude sestřelen. To ovlivňuje šanci k získání zajatců a tím i rychlost populačního růstu kolonie.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+
+  <!-- EN: General -->
+  <DifficultyGeneralSection>Obecné</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
+  <Difficulty_ColonistMoodOffset_Label>Nálada kolonistů</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
+  <Difficulty_ColonistMoodOffset_Info>Trvalé vyrovnání nálady každého kolonisty a zajatce. Kolonisté mají základní náladu 50%.</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
+  <Difficulty_FoodPoisonChanceFactor_Label>Šance na otravu jídlem</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
+  <Difficulty_FoodPoisonChanceFactor_Info>Upraví pravděpodobnost, že se osoba při pozření potenciálně otráveného jídla otráví.</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>Šance na zvířecí pomstu</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Upraví šanci, že zranění divokého zvířete způsobí protiútok.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
+  <Difficulty_FriendlyFireChanceFactor_Label>Střelba do vlastních řad</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
+  <Difficulty_FriendlyFireChanceFactor_Info>Upraví pravděpodobnost střelby do vlastních řad.\n\nPoznámka: Toto nastavení se týká pouze přímých výstřelů, které zasáhly cíl. Nezabrání to škodám způsobených výbuchem nebo střelám, které svůj cíl minuly.</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant-kill prevention -->
+  <Difficulty_AvoidInstantKillChance_Label>Prevence okamžitého zabití kolonisty</Difficulty_AvoidInstantKillChance_Label>
+  <!-- EN: Add a special chance to prevent colonists from dying instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AvoidInstantKillChance_Info>Přidá zvláštní šanci na prevenci okamžitého zabití kolonistů při útoku. Příchozí poškození je upraveno tak, že místo smrti kolonisty ho pošle k zemi.\n\nTo zabraňuje pouze některým druhům okamžitých zabití - kolonisté mohou být stále sestřeleni, mohou vykrvácet, uhořet, být roztrháni při výbuchu, zemřít kvůli nemoci atd.</Difficulty_AvoidInstantKillChance_Info>
+  <!-- EN: Infection chance -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Šance na infekci</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Upraví pravděpodobnost, že se rána zanítí.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>Četnost nemocí</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>Upraví četnost náhodných událostí oznamujících nemoc.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
+  <Difficulty_EnemyReproductionRateFactor_Label>Rychlost reprodukce brouků</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
+  <Difficulty_EnemyReproductionRateFactor_Info>Upraví rychlost, jakou stávající hnízda produkují nové brouky. Nižší hodnoty znamenají více času mezi jednotlivými událostmi.\n\nNemá to naprosto žádný vliv na příchozí zamoření - pouze upravuje rychlost, jakou aktivní hnízda produkují brouky.</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>Zamoření hlubinných vrtů</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>Upraví pravděpodobnost, že hlubinné vrtání způsobí zamoření brouky.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
+  <Difficulty_PeacefulTemples_Inverted_Label>Generátor mapy vytvoří starodávné hrozby</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
+  <Difficulty_PeacefulTemples_Inverted_Info>Starodávné struktury mohou obsahovat nebezpečné hrozby.</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
+  <Difficulty_AllowCaveHives_Label>Generátor mapy vytvoří přírodní hnízda</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
+  <Difficulty_AllowCaveHives_Info>V přírodních jeskyních se mohou vyskytnout nečinná hnízda brouků.\n\nToto nastavení platí pouze při generování map a neovlivní aktivní brouky, kteří se mohou během hry provrtat na povrch.</Difficulty_AllowCaveHives_Info>
+
+  <!-- EN: Player tools -->
+  <DifficultyPlayerToolsSection>Hráčovy nástroje</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
+  <Difficulty_AllowTraps_Label>Hráč může stavět pasti</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
+  <Difficulty_AllowTraps_Info>Hráč může stavět pasti, jako jsou pasti s hroty nebo improvizovaná výbušná zařízení.</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
+  <Difficulty_AllowTurrets_Label>Hráč může stavět střelecké věže</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
+  <Difficulty_AllowTurrets_Info>Hráč může stavět statické střelecké věže, jako jsou miniaturní, těžké a odstřelovací kanóny.\n\nI když je tohle vypnuto, stále můžeš používat střelecké věže, kterých se ti podaří zmocnit.</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
+  <Difficulty_AllowMortars_Label>Hráč může stavět minomety</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
+  <Difficulty_AllowMortars_Info>Hráč může stavět minomety.\n\nI když je tohle vypnuto, stále můžeš používat minomety, kterých se ti podaří zmocnit.</Difficulty_AllowMortars_Info>
+  
+  <!-- EN: Adaptation -->
+  <DifficultyAdaptationSection>Adaptace</DifficultyAdaptationSection>
+  <!-- EN: Damage adaptation growth -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Adaptace nárůstu škod</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptace znamená, že vypravěč dělá hru náročnější v průběhu času do doby, dokud nemáš ztráty. Tohle je odděleno od příběhových účinků bohatství a populace.\n\nTímto se upravuje rychlost jakou výzva poroste.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Damage adaptation effect -->
+  <Difficulty_AdaptationEffectFactor_Label>Adaptace účinku škod</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <Difficulty_AdaptationEffectFactor_Info>Adaptace znamená, že vypravěč dělá hru náročnější v průběhu času do doby, dokud nemáš ztráty. Tohle je odděleno od příběhových účinků bohatství a populace.\n\nTímto se upravuje účinek adaptační hodnoty na aktuální hrozby.</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Fixed wealth progress mode -->
+  <Difficulty_FixedWealthMode_Label>Režim stabilního vývoje bohatství</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in fixed wealth progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist, count, player wealth, and a variety of other factors. Fixed wealth progress mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In fixed progression mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>V běžném režimu vypravěč stupňuje hrozby podle kolonisty, počtu, hráčova bohatství a řady dalších faktorů. Režim stabilního vývoje bohatství odstraní faktor bohatství a nahradí jej stabilní vývojovou křivkou založenou na čase. Tento čas se počítá od založení každé kolonie.\n\nDoporučeno pouze těm, kteří hledají tvrdou dovednostní výzvu. V režimu stabilního vývoje může být téměř nemožné zotavit se ze závažných ztrát, pokud nezaložíš novou osadu. Také je možné se dostat příliš daleko před křivku a dosáhnout tak příliš snadné hry.</Difficulty_FixedWealthMode_Info>
+  
   <!-- Site select -->
   <!-- EN: Select starting site -->
   <SelectStartingSite>Vyber si počáteční místo</SelectStartingSite>
@@ -412,8 +565,8 @@
   <Next>Další</Next>
   <!-- EN: Back -->
   <Back>Zpět</Back>
-  <!-- EN: Show Materials -->
-  <ShowMaterials>Porovnat materiály</ShowMaterials>
+  <!-- EN: Change material... -->
+  <ShowMaterials>Porovnat materiály...</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Hratelnost</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
