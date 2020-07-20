@@ -47,20 +47,20 @@
   <!-- EN: darkness -->
   <EnvironmentDark.stages.darkness.label>ve tmě</EnvironmentDark.stages.darkness.label>
   <!-- EN: I've been in the dark for a while. I don't like it. -->
-  <EnvironmentDark.stages.darkness.description>Nějakou chvíli jsem byl potmě. To se mi nelíbí.</EnvironmentDark.stages.darkness.description>
+  <EnvironmentDark.stages.darkness.description>Nějakou chvíli jsem {PAWN_gender ? byl: byla} potmě. To se mi nelíbí.</EnvironmentDark.stages.darkness.description>
   
   <!-- EN: sweaty -->
-  <EnvironmentHot.stages.sweaty.label>pocení</EnvironmentHot.stages.sweaty.label>
+  <EnvironmentHot.stages.sweaty.label>{PAWN_gender ? Zpocený : Zpocená}</EnvironmentHot.stages.sweaty.label>
   <!-- EN: It's too hot here. I'm sweating. -->
   <EnvironmentHot.stages.sweaty.description>Je tu moc horko. Potím se.</EnvironmentHot.stages.sweaty.description>
   <!-- EN: hot -->
   <EnvironmentHot.stages.hot.label>horko</EnvironmentHot.stages.hot.label>
   <!-- EN: It's way too hot here. If I could just have a breath of cool air... -->
-  <EnvironmentHot.stages.hot.description>Je tu příliš horko. Kéž bych mohl vydechovat studený vzduch...</EnvironmentHot.stages.hot.description>
+  <EnvironmentHot.stages.hot.description>Je tu příliš horko. Kéž bych {PAWN_gender ? mohl : mohla} vydechovat studený vzduch...</EnvironmentHot.stages.hot.description>
   <!-- EN: sweltering hot -->
   <EnvironmentHot.stages.sweltering_hot.label>parné horko</EnvironmentHot.stages.sweltering_hot.label>
   <!-- EN: I feel like I'm in an oven! I'm not sure how long I can handle this. -->
-  <EnvironmentHot.stages.sweltering_hot.description>Cítím se jako bych byl v troubě! Nevím, jak dlouho to ještě vydržím.</EnvironmentHot.stages.sweltering_hot.description>
+  <EnvironmentHot.stages.sweltering_hot.description>Cítím se jako bych {PAWN_gender ? byl : byla} v troubě! Nevím, jak dlouho to ještě vydržím.</EnvironmentHot.stages.sweltering_hot.description>
   <!-- EN: blistering hot -->
   <EnvironmentHot.stages.blistering_hot.label>sžíravé horko</EnvironmentHot.stages.blistering_hot.label>
   <!-- EN: This place is searing hot. I think I could die from this heat! -->
@@ -69,7 +69,7 @@
   <!-- EN: human leather {0} -->
   <HumanLeatherApparelHappy.stages.human_leather.label>{0} z lidské kůže</HumanLeatherApparelHappy.stages.human_leather.label>
   <!-- EN: I enjoy wearing the suffering of others. -->
-  <HumanLeatherApparelHappy.stages.human_leather.description>Rád nosím utrpení ostatních.</HumanLeatherApparelHappy.stages.human_leather.description>
+  <HumanLeatherApparelHappy.stages.human_leather.description>{PAWN_gender ? Rád : Ráda} nosím utrpení ostatních.</HumanLeatherApparelHappy.stages.human_leather.description>
   <!-- EN: human leather {0} (+1) -->
   <HumanLeatherApparelHappy.stages.human_leather_1.label>{0} z lidské kůže (+1)</HumanLeatherApparelHappy.stages.human_leather_1.label>
   <!-- EN: This will scare them. All will know my power. -->
@@ -77,7 +77,7 @@
   <!-- EN: human leather {0} (+2) -->
   <HumanLeatherApparelHappy.stages.human_leather_2.label>{0} z lidské kůže (+2)</HumanLeatherApparelHappy.stages.human_leather_2.label>
   <!-- EN: The faces on my clothes aren't smiling, but they make *me* happy. -->
-  <HumanLeatherApparelHappy.stages.human_leather_2.description>Tváře na mém oblečení se neusmívají, ale dělají *mě* šťastným.</HumanLeatherApparelHappy.stages.human_leather_2.description>
+  <HumanLeatherApparelHappy.stages.human_leather_2.description>Tváře na mém oblečení se neusmívají, ale dělají *mě* {PAWN_gender ? šťastným : šťastnou}.</HumanLeatherApparelHappy.stages.human_leather_2.description>
   <!-- EN: human leather {0} etc -->
   <HumanLeatherApparelHappy.stages.human_leather_etc.label>{0} z lidské kůže (+x)</HumanLeatherApparelHappy.stages.human_leather_etc.label>
   <!-- EN: The flesh! The flesh signals my triumph! -->
@@ -90,7 +90,7 @@
   <!-- EN: human leather {0} (+1) -->
   <HumanLeatherApparelSad.stages.human_leather_1.label>{0} z lidské kůže (+1)</HumanLeatherApparelSad.stages.human_leather_1.label>
   <!-- EN: I'm dressed like an insane person. -->
-  <HumanLeatherApparelSad.stages.human_leather_1.description>Jsem oblečený jako nějaký šílenec.</HumanLeatherApparelSad.stages.human_leather_1.description>
+  <HumanLeatherApparelSad.stages.human_leather_1.description>Jsem {PAWN_gender ? oblečený : oblečená} jako nějaký šílenec.</HumanLeatherApparelSad.stages.human_leather_1.description>
   <!-- EN: human leather {0} (+2) -->
   <HumanLeatherApparelSad.stages.human_leather_2.label>{0} z lidské kůže (+2)</HumanLeatherApparelSad.stages.human_leather_2.label>
   <!-- EN: I think there may be a face on my clothes. Oh, no... my clothes *are* a face. -->
@@ -108,6 +108,6 @@
   <!-- EN: wearing {0} apparel -->
   <WrongApparelGender.stages.wearing_apparel.label>nejsem {0} (špatný oděv)</WrongApparelGender.stages.wearing_apparel.label>
   <!-- EN: I'm wearing apparel that was clearly made for {0}s! This is embarrassing. -->
-  <WrongApparelGender.stages.wearing_apparel.description>Nosím oblečení, které je jasně určené pro jiné pohlaví! Já nejsem {0}! Fakt trapas.</WrongApparelGender.stages.wearing_apparel.description>
+  <WrongApparelGender.stages.wearing_apparel.description>Nosím oblečení, které je jasně určené pro jiné pohlaví! Já ale nejsem {0}! Fakt trapas.</WrongApparelGender.stages.wearing_apparel.description>
   
 </LanguageData>

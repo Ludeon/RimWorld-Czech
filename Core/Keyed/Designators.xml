@@ -214,14 +214,14 @@
   <InteractionSpotWillOverlap>Interakční bod se překrývá s interakčním bodem {1_labelShort}.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
   <InteractionSpotOverlaps>Interakční bod by se překrýval s jiným interakčním bodem ({1_labelShort}).</InteractionSpotOverlaps>
-  <!-- EN: Monuments cannot be placed over other buildings. -->
-  <MonumentOverlapsBuilding>Monument nelze umístit přes jiné struktury.</MonumentOverlapsBuilding>
-  <!-- EN: Monument cannot be placed adjacent to a building. -->
-  <MonumentAdjacentToBuilding>Monument nelze umístit v těsné blízkosti jiných objektů.</MonumentAdjacentToBuilding>
-  <!-- EN: Monuments cannot be placed on incompatible terrain. -->
-  <MonumentBadTerrain>Monument nelze umístit na nevyhovující povrch.</MonumentBadTerrain>
-  <!-- EN: Monuments cannot be placed over permanent obstructions. -->
-  <MonumentBlockedPermanently>Monument nelze umístit na trvalé překážky.</MonumentBlockedPermanently>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>Zde nelze umístit: {0} stojí v cestě.</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>Zde nelze stavět: {0} je pro výstavbu monumentu nevyhovujícím povrchem.</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>Zde nelze umístit: {0} stojí v cestě.</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>Zde nelze umístit: {0} stojí v těsné blízkosti.</MonumentAdjacentToBuilding>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->

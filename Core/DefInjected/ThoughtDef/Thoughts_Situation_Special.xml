@@ -4,7 +4,7 @@
   <!-- EN: beautiful aurora -->
   <Aurora.stages.beautiful_aurora.label>krásná polární záře</Aurora.stages.beautiful_aurora.label>
   <!-- EN: The view is amazing. -->
-  <Aurora.stages.beautiful_aurora.description>Ten pohled je úžasný.</Aurora.stages.beautiful_aurora.description>
+  <Aurora.stages.beautiful_aurora.description>To je úžasný pohled.</Aurora.stages.beautiful_aurora.description>
   
   <!-- EN: colonist left unburied -->
   <ColonistLeftUnburied.stages.colonist_left_unburied.label>nepohřbený kolonista</ColonistLeftUnburied.stages.colonist_left_unburied.label>
@@ -14,11 +14,11 @@
   <!-- EN: minor passion for my work -->
   <DoingPassionateWork.stages.minor_passion_for_my_work.label>mírné nadšení pro svou práci</DoingPassionateWork.stages.minor_passion_for_my_work.label>
   <!-- EN: I enjoy my work. -->
-  <DoingPassionateWork.stages.minor_passion_for_my_work.description>Mám rád svou práci.</DoingPassionateWork.stages.minor_passion_for_my_work.description>
+  <DoingPassionateWork.stages.minor_passion_for_my_work.description>Mám {PAWN_gender ? rád : ráda} svou práci.</DoingPassionateWork.stages.minor_passion_for_my_work.description>
   <!-- EN: burning passion for my work -->
   <DoingPassionateWork.stages.burning_passion_for_my_work.label>spalující nadšení pro svou práci</DoingPassionateWork.stages.burning_passion_for_my_work.label>
   <!-- EN: I love my work. I could do this all day, every day. -->
-  <DoingPassionateWork.stages.burning_passion_for_my_work.description>Miluji svou práci. Mohl bych to dělat celý den, každý den.</DoingPassionateWork.stages.burning_passion_for_my_work.description>
+  <DoingPassionateWork.stages.burning_passion_for_my_work.description>Miluji svou práci. {PAWN_gender ? Mohl : Mohla} bych to dělat celý den, každý den.</DoingPassionateWork.stages.burning_passion_for_my_work.description>
   
   <!-- EN: joywire -->
   <Joywire.stages.joywire.label>čip štěstí</Joywire.stages.joywire.label>
@@ -26,9 +26,9 @@
   <Joywire.stages.joywire.description>Cítím se naprosto úžasně.</Joywire.stages.joywire.description>
   
   <!-- EN: naked -->
-  <Naked.stages.naked.label>nahý</Naked.stages.naked.label>
+  <Naked.stages.naked.label>{PAWN_gender ? Nahý : Nahá}</Naked.stages.naked.label>
   <!-- EN: I'm naked. This is humiliating. -->
-  <Naked.stages.naked.description>Jsem nahý. To je tak ponižující.</Naked.stages.naked.description>
+  <Naked.stages.naked.description>Jsem {PAWN_gender ? nahý : nahá}. To je tak ponižující.</Naked.stages.naked.description>
   
   <!-- EN: minor pain -->
   <Pain.stages.minor_pain.label>cítím mírnou bolest</Pain.stages.minor_pain.label>
@@ -43,7 +43,7 @@
   <!-- EN: Make it stop... make it stop... make it stop... -->
   <Pain.stages.intense_pain.description>Ať to přestane... Ať to přestane... Ať to přestane...</Pain.stages.intense_pain.description>
   <!-- EN: mind-shattering pain -->
-  <Pain.stages.mindshattering_pain.label>omdlel z bolesti</Pain.stages.mindshattering_pain.label>
+  <Pain.stages.mindshattering_pain.label>{PAWN_gender ? Omdlel : Omdlela} z bolesti</Pain.stages.mindshattering_pain.label>
   <!-- EN: AAAAAHHH! -->
   <Pain.stages.mindshattering_pain.description>Ááááách!</Pain.stages.mindshattering_pain.description>
   
@@ -62,7 +62,7 @@
   <!-- EN: high psychic drone -->
   <PsychicDrone.stages.high_psychic_drone.label>silné psychické bzučení</PsychicDrone.stages.high_psychic_drone.label>
   <!-- EN: The voice is unbearably loud. It's hard to concentrate. I find myself talking back to it, yelling at it. But it just keeps shouting! -->
-  <PsychicDrone.stages.high_psychic_drone.description>Hlas je nesnesitelně silný. Je tak těžké se soustředit. Někdy se přistihnu, jak mu odpovídám, jak na něj křičím, aby přestal. Nereaguje a stále na mě křičí.</PsychicDrone.stages.high_psychic_drone.description>
+  <PsychicDrone.stages.high_psychic_drone.description>Hlas je nesnesitelně silný. Je tak těžké se soustředit. Někdy se přistihnu, jak mu odpovídám, jak na něj křičím, aby přestal. Nereaguje a stále na mě křičí!</PsychicDrone.stages.high_psychic_drone.description>
   <!-- EN: extreme psychic drone -->
   <PsychicDrone.stages.extreme_psychic_drone.label>extrémní psychické bzučení</PsychicDrone.stages.extreme_psychic_drone.label>
   <!-- EN: My heart pounds and I'm sweating. All I can think of is hurting and suffering and all these enemies around me. They're my nightmare, my nightmare, my nightmare... -->

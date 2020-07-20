@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN: Recieved {TITLE} title -->
-  <GainedTitle.stages.Recieved_title.label>Získal titul {TITLE}</GainedTitle.stages.Recieved_title.label>
+  <GainedTitle.stages.Recieved_title.label>Získání titulu {TITLE}</GainedTitle.stages.Recieved_title.label>
   <!-- EN: I have been given the title of {TITLE}. I love the recognition! -->
-  <GainedTitle.stages.Recieved_title.description>Získal jsem titul {TITLE}. Jsem rád, že mě uznávají!</GainedTitle.stages.Recieved_title.description>
+  <GainedTitle.stages.Recieved_title.description>{PAWN_gender ? Získal : Získala} jsem titul {TITLE}. Jsem {PAWN_gender ? rád : ráda}, že mě uznávají!</GainedTitle.stages.Recieved_title.description>
   
   <!-- EN: Lost {TITLE} title -->
-  <LostTitle.stages.Lost_title.label>Přišel o titul {TITLE}</LostTitle.stages.Lost_title.label>
+  <LostTitle.stages.Lost_title.label>Ztráta titulu {TITLE}</LostTitle.stages.Lost_title.label>
   <!-- EN: I lost my {TITLE} title. -->
-  <LostTitle.stages.Lost_title.description>Přišel jsem o svůj titul {TITLE}.</LostTitle.stages.Lost_title.description>
+  <LostTitle.stages.Lost_title.description>{PAWN_gender ? Přišel : Přišla} jsem o svůj titul {TITLE}.</LostTitle.stages.Lost_title.description>
   
   <!-- EN: want {TITLE}-quality apparel -->
   <TitleApparelMinQualityNotMet.stages.want_quality_apparel.label>chci kvalitní oblečení ({TITLE})</TitleApparelMinQualityNotMet.stages.want_quality_apparel.label>
@@ -17,7 +17,7 @@
   <TitleApparelMinQualityNotMet.stages.want_quality_apparel.description>{TITLE}, jako já, musí nosit pouze oblečení v kvalitě {QUALITY} nebo lepší!</TitleApparelMinQualityNotMet.stages.want_quality_apparel.description>
   
   <!-- EN: want {TITLE}-specific apparel -->
-  <TitleApparelRequirementNotMet.stages.want_specific_apparel.label>chci specifické oblečení ({TITLE})</TitleApparelRequirementNotMet.stages.want_specific_apparel.label>
+  <TitleApparelRequirementNotMet.stages.want_specific_apparel.label>chci specifický oděv ({TITLE})</TitleApparelRequirementNotMet.stages.want_specific_apparel.label>
   <!-- EN: A {TITLE} like myself should be covered in apparel appropriate to my stature:\n\n{0} -->
   <TitleApparelRequirementNotMet.stages.want_specific_apparel.description>{TITLE}, jako já, musí mít na sobě oblečení, které odpovídá mému postavení:\n\n{0}</TitleApparelRequirementNotMet.stages.want_specific_apparel.description>
   
@@ -29,12 +29,12 @@
   <!-- EN: no personal bedroom -->
   <TitleNoPersonalBedroom.stages.no_personal_bedroom.label>nemám soukromou ložnici</TitleNoPersonalBedroom.stages.no_personal_bedroom.label>
   <!-- EN: A {TITLE} should have a personal bedroom. -->
-  <TitleNoPersonalBedroom.stages.no_personal_bedroom.description>{TITLE} by měl mít soukromou ložnici.</TitleNoPersonalBedroom.stages.no_personal_bedroom.description>
+  <TitleNoPersonalBedroom.stages.no_personal_bedroom.description>Jsem {TITLE}, a proto vyžaduji soukromou ložnici.</TitleNoPersonalBedroom.stages.no_personal_bedroom.description>
   
   <!-- EN: no throne room -->
   <TitleNoThroneRoom.stages.no_throne_room.label>nemám trůnní sál</TitleNoThroneRoom.stages.no_throne_room.label>
   <!-- EN: What is a royal with no throneroom? -->
-  <TitleNoThroneRoom.stages.no_throne_room.description>Co jsem to za vládce bez trůnního sálu?</TitleNoThroneRoom.stages.no_throne_room.description>
+  <TitleNoThroneRoom.stages.no_throne_room.description>Co jsem to za {PAWN_gender ? vládce : vládkyni} bez trůnního sálu?</TitleNoThroneRoom.stages.no_throne_room.description>
   
   <!-- EN: undignified throneroom -->
   <TitleThroneroomRequirementsNotMet.stages.undignified_throneroom.label>nedůstojný trůnní sál</TitleThroneroomRequirementsNotMet.stages.undignified_throneroom.label>

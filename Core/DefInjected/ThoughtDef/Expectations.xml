@@ -8,7 +8,7 @@
   <!-- EN: high expectations -->
   <Expectations.stages.high_expectations.label>vysoká očekávání</Expectations.stages.high_expectations.label>
   <!-- EN: There's no reason I shouldn't have the things I want. -->
-  <Expectations.stages.high_expectations.description>Neexistuje tu žádný důvod, proč bych neměl mít to, co chci.</Expectations.stages.high_expectations.description>
+  <Expectations.stages.high_expectations.description>Neexistuje tu žádný důvod, proč bych {PAWN_gender ? neměl : neměla} mít to, co chci.</Expectations.stages.high_expectations.description>
   <!-- EN: moderate expectations -->
   <Expectations.stages.moderate_expectations.label>mírná očekávání</Expectations.stages.moderate_expectations.label>
   <!-- EN: I can't expect to be totally pampered. -->
@@ -20,15 +20,15 @@
   <!-- EN: very low expectations -->
   <Expectations.stages.very_low_expectations.label>velmi nízká očekávání</Expectations.stages.very_low_expectations.label>
   <!-- EN: I need to keep myself strong to survive. -->
-  <Expectations.stages.very_low_expectations.description>Musím zůstat silný, abych tu přežil.</Expectations.stages.very_low_expectations.description>
+  <Expectations.stages.very_low_expectations.description>Musím zůstat {PAWN_gender ? silný : silná}, abych tu {PAWN_gender ? přežil : přežila}.</Expectations.stages.very_low_expectations.description>
   <!-- EN: extremely low expectations -->
   <Expectations.stages.extremely_low_expectations.label>mimořádně nízká očekávání</Expectations.stages.extremely_low_expectations.label>
   <!-- EN: I'd better steel myself to survive. -->
-  <Expectations.stages.extremely_low_expectations.description>Budu se muset řádně zocelit, abych tu přežil.</Expectations.stages.extremely_low_expectations.description>
+  <Expectations.stages.extremely_low_expectations.description>Budu se muset řádně zocelit, abych tu {PAWN_gender ? přežil : přežila}.</Expectations.stages.extremely_low_expectations.description>
   <!-- EN: noble expectations -->
   <Expectations.stages.noble_expectations.label>šlechtická očekávání</Expectations.stages.noble_expectations.label>
   <!-- EN: I am above the little people and should be made happy every moment. -->
-  <Expectations.stages.noble_expectations.description>Vyčnívám nad obyčejný lid a měl bych být v každém případě spokojený.</Expectations.stages.noble_expectations.description>
+  <Expectations.stages.noble_expectations.description>Vyčnívám nad obyčejný lid a {PAWN_gender ? měl : měla} bych být v každém případě {PAWN_gender ? spokojený : spokojená}.</Expectations.stages.noble_expectations.description>
   <!-- EN: royal expectations -->
   <Expectations.stages.royal_expectations.label>královská očekávání</Expectations.stages.royal_expectations.label>
   <!-- EN: My majesty... I can hardly believe it myself. A moment's discomfort is below me. -->
