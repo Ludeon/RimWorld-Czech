@@ -2,12 +2,8 @@
 <LanguageData>
 
   <!-- Royalty and throne -->
-  <!-- EN: Appropriate for title: {0} -->
-  <ThroneTitleStature>Vhodný pro titul: {0}</ThroneTitleStature>
-  <!-- EN: Previous title satisfied: {0} -->
-  <ThronePrevTitleStature>Předchozí úroveň: {0}</ThronePrevTitleStature>
-  <!-- EN: Next title satisfied: {0} -->
-  <ThroneNextTitleStature>Následující úroveň: {0}</ThroneNextTitleStature>
+  <!-- EN: Satisfies title -->
+  <ThroneMaxSatisfiedTitle>Uspokojí titul</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
   <ThroneRoomImpressivenessInfo>({0} působinosti)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
@@ -22,7 +18,7 @@
   <!-- Generated neurotrainers -->
   <!-- EN: psytrainer ({0}) -->
   <PsycastNeurotrainerLabel>psiotrenér ({0})</PsycastNeurotrainerLabel>
-  <!-- EN: Use neurotrainer to learn {0} psycast -->
+  <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Použít psiotrenér k naučení schopnosti {0}</PsycastNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
   <PsycastNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní psionickou schopnost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě předají své vědomosti o dané psionické schopnosti a přemění se v potřebnou nervovou tkáň.</PsycastNeurotrainerDescription>
@@ -49,11 +45,10 @@
   <TooCloseToOtherBeacon>Příliš blízko k jinému majáku</TooCloseToOtherBeacon>
   
   <!-- Meditation -->
-
   <!-- EN: Psyfocus -->
   <Psyfocus>Psiofokus</Psyfocus>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation. -->
-  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických sil. Psiofokus se pozvolna vytrácí, avšak pravidelnou meditací se dá obnovovat. Úplná ztráta psiofokusu znemožňuje provádění psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladina psiofokusu umožňuje provádět psiosíly vyšších úrovní, ale také zvyšuje rychlost jeho rozptylu</PsyfocusDesc>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation -->
+  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických sil. Psiofokus se pozvolna vytrácí, avšak pravidelnou meditací se dá obnovovat. Úplná ztráta psiofokusu znemožňuje provádění psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladina psiofokusu umožňuje provádět psiosíly vyšších úrovní, ale také zvyšuje rychlost svého rozptylu</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} psycasts. -->
@@ -102,13 +97,15 @@
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_gender ? Jeho : Její} {1}</AbilitySpeechStatInfo>
 
-  <!-- EN: Progress to next {0}: {1} -->
-  <ProgressToNextSubplant>Postup k další posvátné trávě: {1}</ProgressToNextSubplant>
+  <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
+  <TotalMeditationToday>Dnešní meditace: {0} (násobitel pokroku {1})</TotalMeditationToday>
+  <!-- EN: progress {0} -->
+  <ProgressToNextSubplant>pokrok {0}</ProgressToNextSubplant>
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>Zahájit spojovací rituál</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>Potřebuje {0} trsů posvátné trávy (k dispozici má {2})</BeginLinkingRitualNeedSubplants>
-  <!-- EN: Need {0} pyslink focus -->
+  <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>Vyžaduje {0} typ soustředění</BeginLinkingRitualNeedFocus>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>Pro spojení potřebuje volný přístupný prostor o velikosti tří buněk</BeginLinkingRitualNeedLinkSpot>

@@ -110,7 +110,7 @@
   <WorldSeed>Základ</WorldSeed>
   <!-- EN: Randomize seed -->
   <RandomizeSeed>Náhodný základ</RandomizeSeed>
-  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>Planeta má vždy stejný průměr, ale protože je mnohem větší, než je pro hru nutné, nebudeme vytvářet celý povrch, protože by to mohlo trvat velmi dlouhou dobu. Toto je procento z plochy, kterou chceš vytvořit.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Frakce</WorldFactionsTab>
@@ -260,10 +260,6 @@
   <PermadeathModeInfo>Ukládat můžeš pouze při opuštění hry.\n\nVzhledem k tomu, že RimWorld je generátorem příběhů, doporučuji ti, aby ses pokaždé pokusil zotavit se ze ztrát. Dokonce i ztráta všeho, tedy kromě posledního přeživšího, neznamená vždy konec hry - je to jen součást příběhu.\n\nHraní za těchto hrozivých situací může vytvořit příběh jak tragický, tak i triumfální. RimWorld je přesně navržen pro tento styl hraní.\n\nLuke Skywalker se také nesnažil\npřepsat minulost, když jeho rodina zemřela - ztráta a obnova je dramatická.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>Vypravěče a herní styl můžeš kdykoliv změnit.</CanChangeStorytellerSettingsDuringPlay>
-  <!-- EN: Merciless mode -->
-  <UnlockExtremeDifficulty>Nemilosrdný režim</UnlockExtremeDifficulty>
-  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>Nemilosrdný režim je speciální herní režim, ve kterém každá výzva jde až do extrémních úrovní.\n\nNemilosrdný režim se odemkne automaticky po dosažení konkrétních milníků. Nicméně, můžeš jej odemknout i teď.\n\nTato možnost se doporučuje pouze těm, kteří si hru zahráli na nejvyšší obtížnost minimálně jednou či dvakrát a chtějí mít i přes své nejlepší úsilí dobrou šanci na umírání.</ConfirmUnlockExtremeDifficulty>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
@@ -359,10 +355,10 @@
   <Difficulty_FriendlyFireChanceFactor_Label>Střelba do vlastních řad</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
   <Difficulty_FriendlyFireChanceFactor_Info>Upraví pravděpodobnost střelby do vlastních řad.\n\nPoznámka: Toto nastavení se týká pouze přímých výstřelů, které zasáhly cíl. Nezabrání to škodám způsobených výbuchem nebo střelám, které svůj cíl minuly.</Difficulty_FriendlyFireChanceFactor_Info>
-  <!-- EN: Colonist instant-kill prevention -->
-  <Difficulty_AvoidInstantKillChance_Label>Prevence okamžitého zabití kolonisty</Difficulty_AvoidInstantKillChance_Label>
-  <!-- EN: Add a special chance to prevent colonists from dying instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AvoidInstantKillChance_Info>Přidá zvláštní šanci na prevenci okamžitého zabití kolonistů při útoku. Příchozí poškození je upraveno tak, že místo smrti kolonisty ho pošle k zemi.\n\nTo zabraňuje pouze některým druhům okamžitých zabití - kolonisté mohou být stále sestřeleni, mohou vykrvácet, uhořet, být roztrháni při výbuchu, zemřít kvůli nemoci atd.</Difficulty_AvoidInstantKillChance_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>Okamžité zabití kolonistů</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>Upraví šanci, že kolonista při útoku okamžitě zemře. Příchozí poškození je upraveno tak, že místo smrti srazí kolonistu k zemi.\n\nTo brání pouze některým druhům okamžitých zabití - kolonisté mohou být stále sraženi k zemi, vykrvácet, uhořet, zemřít při výbuchu, kvůli nemoci atd.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
   <Difficulty_PlayerPawnInfectionChanceFactor_Label>Šance na infekci</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
