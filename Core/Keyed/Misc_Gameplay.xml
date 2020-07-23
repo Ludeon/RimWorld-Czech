@@ -79,9 +79,9 @@
   <!-- EN: Description -->
   <Description>Popis</Description>
   <!-- EN: Equipment -->
-  <Equipment>Vybavení</Equipment>
+  <Equipment>Výzbroj</Equipment>
   <!-- EN: Apparel -->
-  <Apparel>Oblečení</Apparel>
+  <Apparel>Výstroj</Apparel>
   <!-- EN: Inventory -->
   <Inventory>Inventář</Inventory>
   <!-- EN: Information -->
@@ -606,6 +606,8 @@
   <WatchingAurora>pozoruje polární záři.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
   <UsingVerb>používá {0} na {1}.</UsingVerb>
+  <!-- EN: using {0}. -->
+  <UsingVerbNoTarget>používá {0}.</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>oblast</AreaLower>
   <!-- EN: cowering. -->
@@ -708,8 +710,8 @@
   <Faction>Frakce</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
   <FactionDesc>Frakce, ke které {PAWN_labelShort} v současné době patří.</FactionDesc>
-  <!-- EN: The faction {PAWN_labelShort} originally belongs to. {PAWN_pronoun} will rejoin their home faction when they depart from their current faction. -->
-  <ExtraFactionDesc>Frakce, ke které {PAWN_labelShort} původně {PAWN_gender ? patřil : patřila}. Pokud někdy opustí svou současnou frakci, vrátí se do své původní.</ExtraFactionDesc>
+  <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
+  <ExtraFactionDesc>Frakce, ke které {PAWN_labelShort} původně {PAWN_gender ? patřil : patřila}.</ExtraFactionDesc>
   <!-- EN: Equipped -->
   <Equipped>Vybaveno</Equipped>
   <!-- EN: nothing -->
@@ -1006,10 +1008,10 @@
   <HibernateWarningStandalonePacifist>Lodní reaktor je připraven k uvedení do provozu. Tento proces zabere asi 15 dnů.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: neurotrainer ({0}) -->
+  <!-- EN: skilltrainer ({0}) -->
   <SkillNeurotrainerLabel>neurotrenér ({0})</SkillNeurotrainerLabel>
-  <!-- EN: Use skill neurotrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>Použít neurotrenér k naučení dovednosti {0}</SkillNeurotrainerUseLabel>
+  <!-- EN: Use skilltrainer to learn {0} -->
+  <SkillNeurotrainerUseLabel>Použít neurotrenér k vylepšení dovednosti {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
   <SkillNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní dovednost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě vylepší dovednost dané oblasti a přemění se v potřebnou nervovou tkáň.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
@@ -1149,6 +1151,10 @@
   <!-- EN: Deep drill resources exhausted. -->
   <DeepDrillExhaustedNoFallback>Suroviny pod hlubinnou vrtačkou byly vyčerpány.</DeepDrillExhaustedNoFallback>
 
+  <!-- reloading ammo -->
+  <!-- EN: Remaining charges -->
+  <ChargesRemaining>Zbývající náboje</ChargesRemaining>
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Výukový pomocník</LearningHelper>
@@ -1268,6 +1274,14 @@
   <Reward_BestowingCeremony_Label>Nová úroveň psiovazby</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
   <Reward_BestowingCeremony>{PAWNNAME} získá psiovazbu</Reward_BestowingCeremony>
+  <!-- EN: Shuttle loot -->
+  <Reward_ShuttleLoot_Label>Kořist z raketoplánu</Reward_ShuttleLoot_Label>
+  <!-- EN: you can deconstruct and loot the shuttle -->
+  <Reward_ShuttleLoot>můžeš rozebrat raketoplán k získání kořisti</Reward_ShuttleLoot>
+  <!-- EN: Possible future reward -->
+  <Reward_PossibleFutureReward_Label>Možná budoucí odměna</Reward_PossibleFutureReward_Label>
+  <!-- EN: a reward possibly granted in the future -->
+  <Reward_PossibleFutureReward>odměna, která může přijít později</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
   <Reward_Title_Label>Titul {TITLE}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
@@ -1282,6 +1296,12 @@
   <NotBonded>Zatím nemá pouto</NotBonded>
   <!-- EN: bonded to someone else -->
   <BladelinkBondedToSomeoneElse>už má s někým pouto</BladelinkBondedToSomeoneElse>
+  <!-- EN: (existing bond) -->
+  <BladelinkAlreadyBonded>(existující pouto)</BladelinkAlreadyBonded>
+  <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
+  <BladelinkAlreadyBondedDialog>Osoba se v jeden čas může propojit pouze s jednou osobnostní zbraní.\n\nAby si {PAWN_nameDef} {PAWN_gender ? mohl : mohla} vytvořit vazbu se zbraní {WEAPON_labelShort}, musí být {PAWN_possessive} nynější vázaná zbraň {BONDEDWEAPON_labelShort} nejdříve zničena.</BladelinkAlreadyBondedDialog>
+  <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} je již {PAWN_gender ? vázán : vázána} na {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
