@@ -1299,9 +1299,9 @@
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>(existující pouto)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>Osoba se v jeden čas může propojit pouze s jednou osobnostní zbraní.\n\nAby si {PAWN_nameDef} {PAWN_gender ? mohl : mohla} vytvořit vazbu se zbraní {WEAPON_labelShort}, musí být {PAWN_possessive} nynější vázaná zbraň {BONDEDWEAPON_labelShort} nejdříve zničena.</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>Každá osoba se v jeden čas může spojit pouze s jednou osobnostní zbraní.\n\nAby se {PAWN_nameDef} {PAWN_gender ? mohl : mohla} touto zbraní vybavit a vytvořit si k ní pouto, musíš nejdříve zničit {PAWN_possessive} současnou zbraň, se kterou je nyní {PAWN_gender ? svázán : svázána}.\n\nSoučasné pouto: {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} je již {PAWN_gender ? vázán : vázána} na {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} je již {PAWN_gender ? svázán : svázána} s osobností jménem {BONDEDWEAPON_labelShort}</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
