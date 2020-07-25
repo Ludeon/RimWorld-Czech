@@ -36,10 +36,20 @@
   <!-- EN: Teleport the target to a random position near where he started. -->
   <ChaosSkip.description>Teleportuje zvolený cíl na náhodné místo nedaleko výchozího bodu.</ChaosSkip.description>
   
+  <!-- EN: chunk skip -->
+  <Chunkskip.label>úlomkový skok</Chunkskip.label>
+  <!-- EN: Skip the 5 chunks of rock or slag to scatter them near the target point. This is useful for producing cover during offensive operations. -->
+  <Chunkskip.description>Přemístí 5 kusů kamene nebo ocelového šrotu na náhodná místa kolem cílového bodu. To se hodí k vytvoření krytí během útočných operací.</Chunkskip.description>
+  
   <!-- EN: neural heat dump -->
   <EntropyDump.label>přesměrování neurálního tepla</EntropyDump.label>
   <!-- EN: Instantly dump all your neural heat into someone else. As a side-effect, the target will fall into a debilitating but non-damaging coma for about a day. The target must actively accept the psychic invasion, so only conscious allies can be targeted. -->
   <EntropyDump.description>Okamžitě převede veškeré své neurální teplo na někoho jiného. Jako vedlejší účinek upadne cíl asi na jeden den do oslabujícího, avšak neškodného kómatu. Cíl musí být schopný přijmout psychický vpád, což znamená, že lze zaměřit pouze vědomé spojence.</EntropyDump.description>
+  
+  <!-- EN: farskip -->
+  <Farskip.label>daleký skok</Farskip.label>
+  <!-- EN: Skip the caster, along with anyone standing near him, to an ally at a distant location. This can send people far across the planet, but only works if there is a willing ally on the other side to use as a navigation beacon. The skipped people will always appear near a random ally on the target map. -->
+  <Farskip.description>Přemístí sesílatele a každého, kdo stojí poblíž, na spojence na vzdáleném místě. Takto lze vyslat lidi kamkoliv na planetě, ale funguje to pouze tehdy, pokud na druhé straně stojí ochotný spojenec, který může být použit jako navigační maják. Přemístění lidé se vždy objeví poblíž náhodného spojence na cílové mapě.</Farskip.description>
   
   <!-- EN: flashstorm -->
   <Flashstorm.label>blesková bouře</Flashstorm.label>
@@ -66,6 +76,13 @@
   <!-- EN: Skip everyone near a target point to a random location nearby. -->
   <MassChaosSkip.description>Teleportuje všechny v blízkosti zvoleného bodu do náhodných míst v okolí.</MassChaosSkip.description>
   
+  <!-- EN: neuroquake -->
+  <Neuroquake.label>neurotřesení</Neuroquake.label>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>Najde diskontinuitu v psychickém poli a rozšíří ji, což uvolní obrovské množství psychické energie. Přivede každé stvoření na mapě, mimo bezpečný okruh kolem sesílatele, do stavu násilného šílenství. Seslání této psiosíly zabere tříhodinovou meditaci, po které sesílatel upadne do třídenní psychické kómy. Rušivé ozvěny neurotřesení způsobí bolest všem na mnoho kilometrů daleko a způsobí diplomatické důsledky se všemi frakcemi.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>Pokud použiješ neurotřesení, všichni v této oblasti pocítí její ozvěnu a také přijdeš o prestiž s každou frakcí, která není nepřátelská.\n\nSeslání neurotřesení trvá tři hodiny a nelze jej přerušit. Sesílatel poté na několik dnů upadne do psychického kómatu.\n\nOvlivněni budou všichni na mapě, kromě těch v úzkém kruhu kolem sesílatele.\n\nOpravdu chceš seslat neurotřesení?</Neuroquake.confirmationDialogText>
+  
   <!-- EN: painblock -->
   <Painblock.label>blokování bolesti</Painblock.label>
   <!-- EN: Block pain pathways in the target's brain for a short time. This can allow a person to move and act even with grievous injuries which would normally incapacitate them. -->
@@ -80,6 +97,11 @@
   <Smokepop.label>kouřová clona</Smokepop.label>
   <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
   <Smokepop.description>Vymrští prachové částice z povrchu země, což vytvoří nepropustný oblak. Ten sníží přesnost příchozích střel a také zabrání zaměřování střeleckých věží.</Smokepop.description>
+  
+  <!-- EN: solar pinhole -->
+  <SolarPinhole.label>solární dírka</SolarPinhole.label>
+  <!-- EN: Generate a microscopic skipgate linked to the core of a nearby star. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes. -->
+  <SolarPinhole.description>Vytvoří mikroskopickou skokovou bránu spojenou s jádrem blízké hvězdy. Sluneční materiál začne pronikat skrze špendlíkovou dírku, která rozzáří a zahřeje cílovou oblast, dokud se brána znovu neuzavře.</SolarPinhole.description>
   
   <!-- EN: throne speech -->
   <Speech.label>trůnní projev</Speech.label>
@@ -105,5 +127,30 @@
   <Waterskip.label>vodní skok</Waterskip.label>
   <!-- EN: Douse a target area in water, extinguishing fires. The water is archotechnologically skipped from distant bodies of water or underground aquifers. -->
   <Waterskip.description>Smočí cílovou oblast vodou, což může uhasit požáry. Voda je archotechnologicky přesměrována ze vzdálených vodních útvarů nebo podzemních hydrogeologických kolektorů.</Waterskip.description>
+  
+  <!-- EN: word of inspiration -->
+  <WordOfInspiration.label>slovo inspirace</WordOfInspiration.label>
+  <!-- EN: Speak words encouraging creativity while psychically hypercharging the target's mind with new ideas. The target will experience a random inspiration appropriate to them. -->
+  <WordOfInspiration.description>Řekne slova, která podpoří v kreativitě a psychicky přeplní cílovou mysl novými nápady. Cílové osobě přinese náhodnou inspiraci, která je pro ni vhodná.</WordOfInspiration.description>
+  
+  <!-- EN: word of joy -->
+  <WordOfJoy.label>slovo radosti</WordOfJoy.label>
+  <!-- EN: Speak happy, calming words to someone while using psychic suggestion to implant a joyfuzz loop in his mind. The joyfuzz will suppress uncomfortable thoughts and sensations in the target to improve mood. This has the side-effect of dulling sensation and decision-making, which reduces consciousness. -->
+  <WordOfJoy.description>Řekne někomu veselá, uklidňující slova a zároveň pomocí psychické sugesce vpraví do jeho mysli kroužící chmýří štěstí. Chmýří štěstí potlačuje nepříjemné myšlenky a pocity, což vede ke zlepšení nálady. Vedlejšími účinky jsou otupělé pocity a rozhodování, což vede ke snížení vědomí.</WordOfJoy.description>
+  
+  <!-- EN: word of love -->
+  <WordOfLove.label>slovo lásky</WordOfLove.label>
+  <!-- EN: Speak about someone's romantic virtues while using psychic suggestion to implant romantic desire in the listener. For days afterward, the listener will feel psychically-induced romantic attraction towards the other person. This greatly increases opinion and makes them much more likely to attempt romantic advances and marriage proposals if they get the chance. This psycast can be used to connect two other people, induce love for the caster, or force oneself to love another. -->
+  <WordOfLove.description>Promluví o něčích romantických přednostech a zároveň pomocí psychické sugesce vštípí posluchači romantickou touhu. I po několika dnech bude posluchač cítit psychicky vyvolanou romantickou přitažlivost vůči druhé osobě. Toto výrazně zlepší mínění o druhé osobě a v případě, že dostane příležitost, učiní romantické kroky a návrhy na manželství. Tato psionická schopnost může být použita ke spojení dvou různých lidí, k vyvolání lásky k sesílatelovi, nebo k tomu, aby se sám donutil milovat jinou osobu.</WordOfLove.description>
+  
+  <!-- EN: word of serenity -->
+  <WordOfSerenity.label>slovo klidu</WordOfSerenity.label>
+  <!-- EN: Use calming words and psychic suggestion to end a mental break on a person or animal. The target will fall into a short psychic sleep. The psyfocus cost depends on the intensity of the target's mental break. -->
+  <WordOfSerenity.description>Pomocí uklidňujících slov a psychické sugesce přeruší nervové zhroucení u člověka nebo zvířete. Cíl upadne do krátkého psychického spánku. Množství potřebného psiofokusu závisí na intenzitě nervového zhroucení daného cíle.</WordOfSerenity.description>
+  
+  <!-- EN: word of trust -->
+  <WordOfTrust.label>slovo důvěry</WordOfTrust.label>
+  <!-- EN: Speak to the prisoner while using psychic suggestion to reduce his resistance to recruitment. This psycast can only reduce a prisoner's resistance, but cannot recruit him. -->
+  <WordOfTrust.description>Promluví k vězni a využije psychické sugesce ke snížení jeho vzdoru vůči verbování. Tato psionická schopnost sníží pouze vzdor vězně - nelze ho s ní naverbovat.</WordOfTrust.description>
   
 </LanguageData>

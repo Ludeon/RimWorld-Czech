@@ -788,6 +788,8 @@
   <TransporterItemIsUnreachableMulti>Mezi přepravními moduly a {0}x {1} nevede žádná cesta.</TransporterItemIsUnreachableMulti>
   <!-- EN: There is no path between the shuttle and {0}x {1}. -->
   <TransporterSingleItemIsUnreachableMulti>Mezi raketoplánem a {0}x {1} nevede žádná cesta.</TransporterSingleItemIsUnreachableMulti>
+  <!-- EN: Only {0} colonists maximum allowed. -->
+  <TransporterSingleTooManyColonists>Povoleno je maximálně {0} kolonistů.</TransporterSingleTooManyColonists>
   
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
@@ -1000,20 +1002,34 @@
   <AbilityCastingTime>Doba sesílání</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Není v přímé viditelnosti cíle.</AbilityCannotHitTarget>
+  <!-- EN: Can't reach the target. -->
+  <AbilityCannotReachTarget>Nelze dosáhnout cíle.</AbilityCannotReachTarget>
+  <!-- EN: Not enough free space. -->
+  <AbilityNotEnoughFreeSpace>Nedostatek volného prostoru.</AbilityNotEnoughFreeSpace>
   <!-- EN: {0} must target an empty area. -->
   <AbilityOccupiedCells>{0} musí cílit na prázdnou oblast.</AbilityOccupiedCells>
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0} musí cílit na schůdnou oblast.</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
   <AbilityRoofed>{0} musí cílit na nezastřešenou oblast.</AbilityRoofed>
-  <!-- EN: {0} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0} nelze použít na duševně vyhořelé.</AbilityCantApplyToMentallyBroken>
-  
+  <!-- EN: {0_labelShort} is mentally broken. -->
+  <AbilityCantApplyToMentallyBroken>{0_labelShort} je psychicky {0_gender ? zlomený : zlomená}.</AbilityCantApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not mentally broken. -->
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} není psychicky {0_gender ? zlomený : zlomená}.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: Psyfocus cost per mental break intensity -->
+  <PsyfocusCostPerMentalBreakIntensity>Spotřeba psiofokusu závisí na intenzitě nervového zhroucení</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: No chunks to skip. -->
+  <AbilityNoChunkToSkip>Žádné úlomky ke skoku.</AbilityNoChunkToSkip>
+  <!-- EN: Induce psychic love in -->
+  <PsychicLoveInduceIn>Vyvolat psychickou lásku</PsychicLoveInduceIn>
+  <!-- EN: Psychic love for -->
+  <PsychicLoveFor>Psychická láska</PsychicLoveFor>
+
   <!-- EN: minor -->
-  <MentalBreakIntensityMinor>mírné</MentalBreakIntensityMinor>
+  <MentalBreakIntensityMinor>mírné zhroucení</MentalBreakIntensityMinor>
   <!-- EN: major -->
-  <MentalBreakIntensityMajor>vážné</MentalBreakIntensityMajor>
+  <MentalBreakIntensityMajor>vážné zhroucení</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
-  <MentalBreakIntensityExtreme>extrémní</MentalBreakIntensityExtreme>
+  <MentalBreakIntensityExtreme>extrémní zhroucení</MentalBreakIntensityExtreme>
   
 </LanguageData>
