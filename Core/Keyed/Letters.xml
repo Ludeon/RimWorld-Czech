@@ -128,14 +128,17 @@
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>Vůdce je mrtev: {0}</LetterLeadersDeathLabel>
-  <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeadersDeath>{OLDLEADER_gender ? Vůdce : Vůdkyně} {OLDLEADER_nameFull} z frakce {1} je po smrti.\n\n{OLDLEADER_possessive} místo {NEWLEADER_gender ? převzal : převzala} {NEWLEADER_nameFull}.</LetterLeadersDeath>
+  <LetterLeadersDeathLabel>{1} je po smrti: {0}</LetterLeadersDeathLabel>
+  <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
+  <LetterLeadersDeath>{OLDLEADER_nameFull}, {1} z frakce {0}, je po smrti.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
-  <LetterLeaderChangedLabel>Nový vůdce: {0}</LetterLeaderChangedLabel>
-  <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} už není {OLDLEADER_gender ? vůdcem : vůdkyní} ve frakci {1}.\n\n{OLDLEADER_possessive} místo {NEWLEADER_gender ? převzal : převzala} {NEWLEADER_nameFull}.</LetterLeaderChanged>
+  <LetterLeaderChangedLabel>Nové vedení: {0}</LetterLeaderChangedLabel>
+  <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
+  <LetterLeaderChanged>Frakce {0} změnila své vedení. {OLDLEADER_nameFull} už není jejich {1}.</LetterLeaderChanged>
+
+  <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
+  <LetterNewLeader>Uvolněné místo {NEWLEADER_gender ? převzal : převzala} {NEWLEADER_gender ? nový : nová} {0} {NEWLEADER_nameFull}.</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>Poslední kapkou bylo: {0}</FinalStraw>
@@ -278,6 +281,8 @@
   <LetterLabelTransportPodsLandedInEnemyBase>Útok začal</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
   <LetterTransportPodsLandedInEnemyBase>Tvé přepravní moduly dorazily do oblasti zvané {0}.</LetterTransportPodsLandedInEnemyBase>
+  <!-- EN: The shuttle has arrived at {0}. -->
+  <LetterShuttleLandedInEnemyBase>Raketoplán dorazil do oblasti zvané {0}.</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
@@ -422,7 +427,7 @@
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
   <LetterQuestBecameAvailable>K dispozici je nový úkol.\n\nNazývá se '{0}'.</LetterQuestBecameAvailable>
-  <!-- EN: If you don’t accept the quest within {0}, it will expire. -->
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Na přijetí úkolu máš {0}, poté skončí jeho platnost.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
   <LetterQuestBecameActive>Nový úkol se zařadil rovnou mezi aktivní.\n\nNazývá se '{0}'.</LetterQuestBecameActive>

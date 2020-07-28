@@ -70,6 +70,8 @@
   <CommandBedSetOwnerDesc>Přidělí tuto postel určitému kolonistovi.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Přidělí tento trůn určitému kolonistovi.</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>Přidělí toto meditační místo určitému kolonistovi.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Přiřadit kolonistu</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -397,10 +399,10 @@
   <CommandCancelLoadDesc>Zruší nakládání osob nebo předmětů a všechno již naložené bude vyházeno ven.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
-  <!-- EN: Launch group -->
-  <CommandLaunchGroup>Vyslat skupinu</CommandLaunchGroup>
-  <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
-  <CommandLaunchGroupDesc>Zahájí zaměřovací proceduru pro odstartování skupiny přepravních modulů. Dalším krokem bude zvolit cíl. Moduly poté vzlétnou a společně přistanou.</CommandLaunchGroupDesc>
+  <!-- EN: Launch -->
+  <CommandLaunchGroup>Odstartovat</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
+  <CommandLaunchGroupDesc>Odlepí se od země a odletí do cílové destinace.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Některý z přepravních modulů v této nákladní skupině není připojen k doplňovači paliva.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
@@ -493,6 +495,12 @@
   <CommandSendShuttleFailUnderRoof>Raketoplán se nachází pod střechou.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
   <CommandSendShuttleFailMissingRequiredThing>Chybí některé požadované položky nebo lidé.</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>Odvolat</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>Vyloží veškerý obsah a odešle raketoplán pryč.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->

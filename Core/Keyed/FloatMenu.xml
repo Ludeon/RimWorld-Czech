@@ -41,6 +41,8 @@
   <CannotOrderNonControlledLower>nelze zadávat příkazy postavám, které neovládáš</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>nelze útočit na sebe</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>nelze útočit na frakční spojence</CannotAttackSameFactionMember>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Obsluhovat - {1_labelShort}</OrderManThing>
@@ -136,6 +138,8 @@
   <InstallImplantAlreadyMaxLevel>dosažena maximální úroveň</InstallImplantAlreadyMaxLevel>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Vylepšit {0} na úroveň {1}</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>poranění frakčního spojence</SurgeryViolationFellowFactionMember>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Sníst - {1_labelShort}</ConsumeThing>
@@ -190,6 +194,8 @@
   <IsReservedBy>{0} (už má rezervováno {1}).</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>Příliš těžké</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>{0_labelShort} je ve stejné frakci.</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>nezpůsobilý</Incapable>
@@ -374,6 +380,8 @@
   <DropAtEdge>Provést výsadek na okraji</DropAtEdge>
   <!-- EN: Drop in center -->
   <DropInCenter>Provést výsadek uprostřed</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>Zaútočit - {0}</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
   <AttackAndDropAtEdge>Zaútočit - {0}: Provést výsadek na okraji</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
@@ -420,5 +428,8 @@
 
   <!-- EN: apply {0} -->
   <ApplyTechprint>aplikovat {0}</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>Příliš nebezpečné</EnterCooldownBlocksEntering>
   
 </LanguageData>
