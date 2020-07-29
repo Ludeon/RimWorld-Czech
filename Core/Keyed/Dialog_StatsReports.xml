@@ -249,19 +249,23 @@
   <!-- EN: The amount of power this building will draw from the power grid. -->
   <Stat_Thing_PowerConsumption_Desc>Množství energie, které bude tento objekt odebírat z elektrické sítě.</Stat_Thing_PowerConsumption_Desc>
   <!-- EN: {CHARGENOUN_plural} remaining -->
-  <Stat_Thing_ReloadChargesRemaining_Name>Zbývajících {CHARGENOUN_plural}ů</Stat_Thing_ReloadChargesRemaining_Name>
+  <Stat_Thing_ReloadChargesRemaining_Name>Zbývající použití ({CHARGENOUN_plural})</Stat_Thing_ReloadChargesRemaining_Name>
   <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
-  <Stat_Thing_ReloadChargesRemaining_Desc>Počet zbývajících {CHARGENOUN_plural}ů tohoto předmětu. Pokud dojde k úplnému vyčerpání všech {CHARGENOUN_plural}ů, speciální schopnost nebude možné nadále používat.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <Stat_Thing_ReloadChargesRemaining_Desc>Počet zbývajících použití tohoto předmětu. Pokud dojde k vyčerpání všech použití, speciální schopnost nebude možné nadále používat.</Stat_Thing_ReloadChargesRemaining_Desc>
   <!-- EN: {CHARGENOUN_plural} -->
-  <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}ů</Stat_Thing_ReloadMaxCharges_Name>
+  <Stat_Thing_ReloadMaxCharges_Name>použití</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>Maximální počet {CHARGENOUN_plural}ů, které má tento předmět k dispozici.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>Maximální počet použití, které má tento předmět k dispozici.</Stat_Thing_ReloadMaxCharges_Desc>
+  <!-- EN: {CHARGENOUN} reload cost -->
+  <Stat_Thing_ReloadRefill_Name>Náklady na nabití ({CHARGENOUN})</Stat_Thing_ReloadRefill_Name>
+  <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
+  <Stat_Thing_ReloadRefill_Desc>Množství položek potřebných k úplnému nabití tohoto objektu.\n\nTento předmět lze nabít i dříve, než bude prázdný, ale náklady na nabití budou stejné, jako by byl prázdný.</Stat_Thing_ReloadRefill_Desc>
   <!-- EN: Reload cost per {CHARGENOUN} -->
-  <Stat_Thing_ReloadPerCharge_Name>Náklady k nabití (1 {CHARGENOUN})</Stat_Thing_ReloadPerCharge_Name>
+  <Stat_Thing_ReloadPerCharge_Name>Náklady na nabití (1 {CHARGENOUN})</Stat_Thing_ReloadPerCharge_Name>
   <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
-  <Stat_Thing_ReloadPerCharge_Desc>Množství položek potřebných k nabití jednoho {CHARGENOUN}u. Lze nabít i více {CHARGENOUN_plural}ů najednou.</Stat_Thing_ReloadPerCharge_Desc>
+  <Stat_Thing_ReloadPerCharge_Desc>Množství položek potřebných k nabití jednoho použití. Lze nabít i více použití najednou.</Stat_Thing_ReloadPerCharge_Desc>
   <!-- EN: Vanish on exhaust -->
-  <Stat_Thing_ReloadDestroyOnEmpty_Name>Zmizí po vyčerpání {CHARGENOUN_plural}ů</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>Zmizí po posledním použití</Stat_Thing_ReloadDestroyOnEmpty_Name>
   <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
   <Stat_Thing_ReloadDestroyOnEmpty_Desc>Tento předmět zmizí, jakmile se použije poslední {CHARGENOUN}.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
   <!-- EN: The overall efficiency of this body part. -->

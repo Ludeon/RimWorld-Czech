@@ -19,14 +19,14 @@
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] will not do any work.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be a raid of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be a raid of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be [threatCount] raids of roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be [threatCount] raids of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->a mech cluster will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->two mech clusters will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->a mech cluster of [threatSize]x size will deploy nearby.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->two mech clusters of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->there will be (*Threat)a raid(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->there will be (*Threat)a raid(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->there will be (*Threat)[threatCount] raids(/Threat) of roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->there will be (*Threat)[threatCount] raids(/Threat) of strength [threatSize]x and roughly this size:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)a mech cluster(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)two mech clusters(/Threat) will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)a mech cluster(/Threat) of [threatSize]x size will deploy nearby.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)two mech clusters(/Threat) of [threatSize]x size will deploy nearby.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechClustersMultiPrisoners->The prisoners recently [mechViolation], and have been targeted by an orbiting mechanoid swarm.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] recently [mechViolation], and has been targeted by a mechanoid hive.</li>
@@ -45,8 +45,9 @@
     <li>areIs(lodgersCount>=2)->are</li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->Any remaining [lodgersLabelPlural] will now leave. </li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->You have failed the quest '[resolvedQuestName]'.</li>
-    <li>failLetterEndingCommon->You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
+    <li>failLetterEndingQuest->You have failed the quest '[resolvedQuestName]'.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
   <QuestHospitalityCommon.rulePack.rulesStrings>
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo]</li>
@@ -72,14 +73,14 @@
     <li>workInfo(lodgersWillNotWork==true,lodgersCount>=2,priority=1)->\n\n[lodgersLabelPluralNom] nebudou provádět žádnou práci.</li>
     <li>commonDescEnding->\n\n[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->dorazí nájezd zhruba v tomto složení:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->dorazí nájezd [threatSizeRaidsMechs] velikosti zhruba v tomto složení:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->dorazí [threatCountRaidsMechs] zhruba v tomto složení:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->dorazí [threatCountRaidsMechs] [threatSizeRaidsMechs] velikosti zhruba v tomto složení:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->poblíž přistane mechový klastr.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->poblíž přistanou dva mechové klastry.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->poblíž přistane mechový klastr [threatSizeRaidsMechs] velikosti.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->poblíž přistanou dva mechové klastry [threatSizeRaidsMechs] velikosti.</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->dorazí (*Threat)nájezd(/Threat) zhruba v tomto složení:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->dorazí (*Threat)nájezd(/Threat) [threatSizeRaidsMechs] velikosti zhruba v tomto složení:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->dorazí (*Threat)[threatCountRaidsMechs](/Threat) zhruba v tomto složení:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->dorazí (*Threat)[threatCountRaidsMechs](/Threat) [threatSizeRaidsMechs] velikosti zhruba v tomto složení:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->poblíž přistane (*Threat)mechový klastr(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->poblíž přistanou (*Threat)dva mechové klastry(/Threat).</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->poblíž přistane (*Threat)mechový klastr(/Threat) [threatSizeRaidsMechs] velikosti.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->poblíž přistanou (*Threat)dva mechové klastry(/Threat) [threatSizeRaidsMechs] velikosti.</li>
     <li>zDuvodu->Z tohoto důvodu</li>
     <li>zDuvodu->Kvůli tomu</li>
     <li>zDuvodu->Díky tomu</li>
@@ -154,8 +155,9 @@
     <li>jehoJejiJejich(lodgersCount>=2)->jejich</li>
     <li>podekoval_a_i(lodgersCount==1)->poděkoval[lodgers0_x_a]</li>
     <li>podekoval_a_i(lodgersCount>=2)->poděkovali</li>
-    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.</li>
-    <li>failLetterEndingCommon->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.\n\nTvé vztahy s frakcí [asker_faction_name] se snížily o [goodwillPenalty] bodů.</li>
+    <li>failLetterEndingQuest->Při plnění úkolu '[resolvedQuestName]' jsi proto selhal.</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nTvé vztahy s frakcí [asker_faction_name] se snížily o [goodwillPenalty] bodů.</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

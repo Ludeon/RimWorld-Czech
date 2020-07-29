@@ -61,16 +61,16 @@
     <li>pawnKindsParagraph(raidCount==2)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDruhá skupina podobné velikosti bude následovat chvíli poté.</li>
     <li>pawnKindsParagraph(raidCount==3)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDalší dvě podobně velké skupiny budou následovat chvíli poté.</li>
     <li>pawnKindsParagraph(raidCount>=4)->První skupina [enemyFaction_pawnsPlural] dorazí v tomto složení: \n\n[raid0/raidPawnKinds]\n\nDalší [raidCountMinusOne] podobně velké skupiny budou následovat chvíli poté.</li>
-    <li>harassing_numGroupsOf(raidCount==1)->obtěžují [enemyFaction_pawnsPluralNom]</li>
-    <li>harassing_numGroupsOf(raidCount==2)->obtěžují dvě skupiny [enemyFaction_pawnsPlural]</li>
-    <li>harassing_numGroupsOf(raidCount==3)->obtěžují tři skupiny [enemyFaction_pawnsPlural]</li>
-    <li>harassing_numGroupsOf(raidCount==4)->obtěžují čtyři skupiny [enemyFaction_pawnsPlural]</li>
-    <li>harassing_numGroupsOf(raidCount>=5)->obtěžuje [raidCount] skupin [enemyFaction_pawnsPlural]</li>
-    <li>hunted_numGroupsOf(raidCount==1)->pronásledují [enemyFaction_pawnsPluralNom]</li>
-    <li>hunted_numGroupsOf(raidCount==2)->pronásledují dvě skupiny [enemyFaction_pawnsPlural]</li>
-    <li>hunted_numGroupsOf(raidCount==3)->pronásledují tři skupiny [enemyFaction_pawnsPlural]</li>
-    <li>hunted_numGroupsOf(raidCount==4)->pronásledují čtyři skupiny [enemyFaction_pawnsPlural]</li>
-    <li>hunted_numGroupsOf(raidCount>=5)->pronásleduje [raidCount] skupin [enemyFaction_pawnsPlural]</li>
+    <li>hunted_numGroupsOf(raidCount==1)->pronásledují (*Threat)[enemyFaction_pawnsPluralNom](/Threat)</li>
+    <li>hunted_numGroupsOf(raidCount==2)->pronásledují (*Threat)dvě skupiny [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>hunted_numGroupsOf(raidCount==3)->pronásledují (*Threat)tři skupiny [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>hunted_numGroupsOf(raidCount==4)->pronásledují (*Threat)čtyři skupiny [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>hunted_numGroupsOf(raidCount>=5)->pronásleduje (*Threat)[raidCount] skupin [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>harassing_numGroupsOf(raidCount==1)->obtěžují (*Threat)[enemyFaction_pawnsPluralNom](/Threat)</li>
+    <li>harassing_numGroupsOf(raidCount==2)->obtěžují (*Threat)dvě skupiny [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>harassing_numGroupsOf(raidCount==3)->obtěžují (*Threat)tři skupiny [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>harassing_numGroupsOf(raidCount==4)->obtěžují (*Threat)čtyři skupiny [enemyFaction_pawnsPlural](/Threat)</li>
+    <li>harassing_numGroupsOf(raidCount>=5)->obtěžuje (*Threat)[raidCount] skupin [enemyFaction_pawnsPlural](/Threat)</li>
   </Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
   
 </LanguageData>

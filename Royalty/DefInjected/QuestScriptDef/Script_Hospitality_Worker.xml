@@ -17,8 +17,8 @@
   <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>{SUBJECT_definite}, za {SUBJECT_gender ? kterého : kterou} jsi převzal zodpovědnost, právě {SUBJECT_gender ? zemřel : zemřela}. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>{SUBJECT_gender ? Hostovaný : Hostovaná} {SUBJECT_definite} {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
-  <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>{SUBJECT_definite}, za {SUBJECT_gender ? kterého : kterou} jsi převzal zodpovědnost, {SUBJECT_gender ? byl : byla} právě {SUBJECT_gender ? zadržen : zadržena}. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>{SUBJECT_definite}, za {SUBJECT_gender ? kterého : kterou} jsi převzal zodpovědnost, {SUBJECT_gender ? byl : byla} právě {SUBJECT_gender ? zadržen : zadržena}. [remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>{SUBJECT_gender ? Hostovaný : Hostovaná} {SUBJECT_gender ? vězeň : vězeňkyně} {SUBJECT_definite} {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? naverbován : naverbována}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
@@ -37,8 +37,8 @@
   <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>{SUBJECT_definite}, za {SUBJECT_gender ? kterého : kterou} jsi převzal zodpovědnost, se {SUBJECT_gender ? přidal : přidala} k jiné frakci. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>Nezdařený úkol: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
-  <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>Frakce [asker_faction_name] tě nyní považuje za nepřítele. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>Frakce [asker_faction_name] tě nyní považuje za nepřítele. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>Raketoplán byl zničen</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->

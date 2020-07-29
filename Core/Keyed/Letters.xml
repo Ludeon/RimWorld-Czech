@@ -424,6 +424,18 @@
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>Nemoc: {1}\n\n{PAWN_label} {PAWN_gender ? onemocněl : onemocněla}. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby se {PAWN_gender ? mu : jí} dostalo řádné péče a v posteli {PAWN_gender ? strávil : strávila} dostatek času.</LetterTraitDisease>
 
+  <!-- Surgery -->
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <LetterLabelSurgeryFailed>Operace se nezdařila: {PATIENT_labelShort}</LetterLabelSurgeryFailed>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} fatální chyby kvůli zvláštním výzvám: {2}\n\nPokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
   <LetterQuestBecameAvailable>K dispozici je nový úkol.\n\nNazývá se '{0}'.</LetterQuestBecameAvailable>

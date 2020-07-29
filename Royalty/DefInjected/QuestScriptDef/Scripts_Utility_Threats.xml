@@ -9,27 +9,27 @@
   </Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
   
   <!-- EN:
-    <li>threatDescription->[hivesCount] insect hives will burrow up from underground.</li>
+    <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
   -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
     <li>threatDescription->se z podzemí vynoří [Util_Infestation_hivesCount] začnou vylézat brouci.</li>
-    <li>Util_Infestation_hivesCount(hivesCount==1)->jedno hnízdo, ze kterého</li>
-    <li>Util_Infestation_hivesCount(hivesCount==2)->dvě hnízda, ze kterých</li>
-    <li>Util_Infestation_hivesCount(hivesCount==3)->tři hnízda, ze kterých</li>
-    <li>Util_Infestation_hivesCount(hivesCount==4)->čtyři hnízda, ze kterých</li>
-    <li>Util_Infestation_hivesCount(hivesCount>=5)->[hivesCount] hnízd, ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount==1)->(*Threat)jedno hnízdo(/Threat), ze kterého</li>
+    <li>Util_Infestation_hivesCount(hivesCount==2)->(*Threat)dvě hnízda(/Threat), ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount==3)->(*Threat)tři hnízda(/Threat), ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount==4)->(*Threat)čtyři hnízda(/Threat), ze kterých</li>
+    <li>Util_Infestation_hivesCount(hivesCount>=5)->(*Threat)[hivesCount] hnízd(/Threat), ze kterých</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
   
   <!-- EN:
-    <li>threatDescription->a pack of [animalCount] manhunting [animalKind_labelPlural] will arrive.</li>
+    <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
   -->
   <Util_ManhunterPack.questDescriptionRules.rulesStrings>
     <li>threatDescription->dorazí [Util_ManhunterPack_animalCount].</li>
-    <li>Util_ManhunterPack_animalCount(animalCount==1)->[animalKind_label] požírající lidi</li>
-    <li>Util_ManhunterPack_animalCount(animalCount==2)->skupina dvou lidožravých [animalKind_labelPlural]</li>
-    <li>Util_ManhunterPack_animalCount(animalCount==3)->skupina tří lidožravých [animalKind_labelPlural]</li>
-    <li>Util_ManhunterPack_animalCount(animalCount==4)->skupina čtyř lidožravých [animalKind_labelPlural]</li>
-    <li>Util_ManhunterPack_animalCount(animalCount>=5)->[animalCount] lidožravých [animalKind_labelPlural]</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==1)->(*Threat)[animalKind_label] požírající lidi(/Threat)</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==2)->skupina (*Threat)dvou lidožravých [animalKind_labelPlural](/Threat)</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==3)->skupina (*Threat)tří lidožravých [animalKind_labelPlural](/Threat)</li>
+    <li>Util_ManhunterPack_animalCount(animalCount==4)->skupina (*Threat)čtyř lidožravých [animalKind_labelPlural](/Threat)</li>
+    <li>Util_ManhunterPack_animalCount(animalCount>=5)->(*Threat)[animalCount] lidožravých [animalKind_labelPlural](/Threat)</li>
   </Util_ManhunterPack.questDescriptionRules.rulesStrings>
   
   <!-- EN:
