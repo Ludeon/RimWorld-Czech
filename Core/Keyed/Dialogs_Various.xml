@@ -473,9 +473,9 @@
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Pomsta při neúspěšném ochočení</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
-  <TerrainRequirement>Potřeba vhodného terénu</TerrainRequirement>
+  <TerrainRequirement>Požadavek na povrch</TerrainRequirement>
   <!-- EN: Supports -->
-  <Supports>Schopnost nosníku unést</Supports>
+  <Supports>Podporuje</Supports>
   <!-- EN: Trap armor penetration -->
   <TrapArmorPenetration>Průraznost pasti zbrojí</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
@@ -705,7 +705,7 @@
   <!-- EN: Inventory mass -->
   <InventoryMass>Hmotnost inventáře</InventoryMass>
   <!-- EN: Your colonists will now gather the items and leave the area. -->
-  <CaravanFormationProcessStarted>Tví kolonisté nyní shromáždí položky a opustí oblast.</CaravanFormationProcessStarted>
+  <CaravanFormationProcessStarted>Tví kolonisté nyní shromáždí předměty a poté opustí oblast.</CaravanFormationProcessStarted>
   <!-- EN: Reform caravan -->
   <ReformCaravan>Upravit karavanu</ReformCaravan>
   <!-- EN: Colonists -->
@@ -1016,8 +1016,32 @@
   <AbilityCantApplyToMentallyBroken>{0_labelShort} je psychicky {0_gender ? zlomený : zlomená}.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
   <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} není psychicky {0_gender ? zlomený : zlomená}.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0} doesn't work on the '{1}' mental state. -->
+  <AbilityDoesntWorkOnMentalState>{0} nefunguje při psychickém stavu '{1}'.</AbilityDoesntWorkOnMentalState>
+  <!-- EN: {0_labelShort} has zero resistance. -->
+  <AbilityCantApplyNoResistance>{0_labelShort} má nulový vzdor.</AbilityCantApplyNoResistance>
+  <!-- EN: Cannot use: {0} is asexual. -->
+  <AbilityCantApplyOnAsexual>{0} nelze použít na asexuály.</AbilityCantApplyOnAsexual>
+  <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
+  <AbilityCantApplyWrongAttractionGender>{1_labelShort} je nesprávného pohlaví, než které {0_labelShort} vyhledává.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Spotřeba psiofokusu závisí na intenzitě nervového zhroucení</PsyfocusCostPerMentalBreakIntensity>
+  <!-- EN: {0_labelShort} is already inspired. -->
+  <AbilityAlreadyInspired>{0_labelShort} je již {0_gender ? inspirován : inspirována}.</AbilityAlreadyInspired>
+  <!-- EN: {0_labelShort} can't get an inspiration right now. -->
+  <AbilityCantGetInspiredNow>{0_labelShort} se momentálně nemůže inspirovat.</AbilityCantGetInspiredNow>
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <AbilityCantApplyUnconscious>{0_labelShort} je v bezvědomí.</AbilityCantApplyUnconscious>
+  <!-- EN: {0_labelShort} is asleep. -->
+  <AbilityCantApplyAsleep>{0_labelShort} spí.</AbilityCantApplyAsleep>
+  <!-- EN: This tile is impassable. -->
+  <AbilityWorldTileImpassable>Toto políčko je neprůchodné.</AbilityWorldTileImpassable>
+  <!-- EN: Skip to random ally -->
+  <AbilitySkipToRandomAlly>Skočit k náhodnému stoupenci</AbilitySkipToRandomAlly>
+  <!-- EN: Skip to join caravan -->
+  <AbilitySkipToJoinCaravan>Skočit ke karavaně a přidat se k ní</AbilitySkipToJoinCaravan>
+  <!-- EN: Need ally at target for navigation -->
+  <AbilityNeedAllyToSkip>V cíli potřebuješ kvůli navigaci svého stoupence</AbilityNeedAllyToSkip>
   <!-- EN: No chunks to skip. -->
   <AbilityNoChunkToSkip>Žádné úlomky ke skoku.</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->

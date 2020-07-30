@@ -175,7 +175,7 @@
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Odhadovaný čas do cíle: {0} dnů</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>Cestovní doba této trasy: {0} dnů</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Cestovní doba zvolené trasy: {0} dnů</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
   <CaravanImmobilizedByMass>Stojí, protože je přetížená.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
@@ -244,10 +244,10 @@
   <DeterioratingBecauseOf>Zhoršuje se z důvodu</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
-  <!-- EN: {0} until leaving -->
-  <ForceExitAndRemoveMapCountdown>Do odchodu zbývá {0}</ForceExitAndRemoveMapCountdown>
-  <!-- EN: Your colonists will automatically reform the caravan and leave this area in {0}. -->
-  <ForceExitAndRemoveMapCountdownTip>Tví kolonisté automaticky shromáždí karavanu a opustí tuto oblast za {0}</ForceExitAndRemoveMapCountdownTip>
+  <!-- EN: {0} until enemies arrive -->
+  <CaravanDetectedRaidCountdown>Do příchodu nepřátel zbývá {0}</CaravanDetectedRaidCountdown>
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <CaravanDetectedRaidCountdownTip>Nepřátelské posily dorazí do této oblasti za {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Místnost</Room>
   <!-- EN: Beauty here -->
@@ -1230,7 +1230,7 @@
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Neurální teplo: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)</PawnTooltipPsychicEntropyStats>
-  <!-- EN: Neural heat increases after performing a psycast. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
+  <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>Neurální teplo se zvyšuje po provedení psionické schopnosti. Překročení obvyklé meze může způsobit několikadenní psychický kolaps.\n\nNeurální teplo se postupem času přirozeně rozptýlí. Tento proces lze urychlit, pokud psionik nosí eltexové vybavení nebo pokud trpí bolestmi.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Posílení z bolesti\n\nBolest koncentruje mysl a urychluje tak rozptyl neurálního tepla.\n\nÚroveň bolesti: {0}\nBonus k teplotnímu poklesu: {1}</PawnTooltipPsychicEntropyPainFocus>

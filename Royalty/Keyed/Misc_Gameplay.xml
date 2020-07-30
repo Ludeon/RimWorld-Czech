@@ -20,10 +20,10 @@
   <PsycastNeurotrainerLabel>psiotrenér ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Použít psiotrenér k naučení schopnosti {0}</PsycastNeurotrainerUseLabel>
-  <!-- EN: A one-use super-dose of mechanites which trains a specific psycast.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific psycast ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní psionickou schopnost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě předají své vědomosti o dané psionické schopnosti a přemění se v potřebnou nervovou tkáň.</PsycastNeurotrainerDescription>
-  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} psycast. -->
-  <AbilityNeurotrainerUsed>{USER_labelShort} se použitím psiotrenéru {USER_gender ? naučil : naučila} schopnost {1}.</AbilityNeurotrainerUsed>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
+  <PsycastNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní psionickou schopnost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě předají své vědomosti o dané schopnosti a přemění se v potřebnou nervovou tkáň.</PsycastNeurotrainerDescription>
+  <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
+  <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? použil : použila} psiotrenér k naučení schopnosti {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
   <PsycastNeurotrainerNoPsylink>Vyžaduje psiovazbu</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
@@ -49,11 +49,11 @@
   <Psyfocus>Psiofokus</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Psiofokus</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to perform psycasts. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to perform psycasts, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level psycasts, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických sil. Psiofokus se pozvolna vytrácí, avšak pravidelnou meditací se dá obnovovat. Úplná ztráta psiofokusu znemožňuje provádění psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladina psiofokusu umožňuje provádět psiosíly vyšších úrovní, ale také zvyšuje rychlost svého rozptylu</PsyfocusDesc>
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických schopností. Psiofokus se pozvolna vytrácí, ale pravidelnou meditací se dá obnovovat. Úplná ztráta psiofokusu znemožňuje provádění psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladina psiofokusu sice umožňuje provádět schopnosti vyšších úrovní, ale také zvyšuje rychlost svého rozptylu</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
-  <!-- EN: Up to level {0} psycasts. -->
+  <!-- EN: Up to level {0} powers. -->
   <PsyfocusLevelInfoPsycasts>Až do psiosíly úrovně {0}.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>Psiofokus padá o {0} denně.</PsyfocusLevelInfoFallRate>
@@ -61,6 +61,22 @@
   <UserMeditationFocusStrength>Síla meditačního soustředění ({LASTUSER_labelShort})</UserMeditationFocusStrength>
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>Účinek soustředění ovlivňuje</MeditationFocusImpacted>
+  <!-- EN: {1} per nearby animus stone (max {0}) -->
+  <MeditationFocusPerAnimusStoneAbstract>{1} za každý duchovní kámen poblíž (max {0})</MeditationFocusPerAnimusStoneAbstract>
+  <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
+  <MeditationFocusPerAnimusStone>{2} za každý duchovní kámen poblíž ({0} / {1})</MeditationFocusPerAnimusStone>
+  <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
+  <MeditationFocusPerSculptureAbstract>Maximálně {1} za každou sochu poblíž v závislosti na její kvalitě (max {0})</MeditationFocusPerSculptureAbstract>
+  <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
+  <MeditationFocusPerSculpture>Maximálně {2} za každou sochu poblíž v závislosti na její kvalitě ({0} / {1})</MeditationFocusPerSculpture>
+  <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
+  <MeditationFocusPerGraveAbstract>Za každý hrob poblíž {1}, je-li prázdný, {2} s mrtvolou člověka (až {0})</MeditationFocusPerGraveAbstract>
+  <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
+  <MeditationFocusPerGrave>Za každý hrob poblíž {2}, je-li prázdný, {3} s mrtvolou člověka ({0} / {1})</MeditationFocusPerGrave>
+  <!-- EN: {1} per nearby lit flame source (up to {0}) -->
+  <MeditationFocusPerFlameAbstract>{1} za každý zapálený zdroj ohně poblíž (až {0})</MeditationFocusPerFlameAbstract>
+  <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
+  <MeditationFocusPerFlame>{2} za každý zapálený zdroj ohně poblíž ({0} / {1})</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
   <PsyfocusPerDayOfMeditation>Rychlost nárůstu psiofokusu: {0} / den</PsyfocusPerDayOfMeditation>
   <!-- EN: Desired psyfocus -->
@@ -92,6 +108,8 @@
   <AbilitySpeechDisabledNoThroneUndignified>trůn není použitelný, protože je nedůstojný.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>již přednáší.</AbilitySpeechDisabledAlreadyGivingSpeech>
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>probíhá jiné shromáždění.</AbilitySpeechDisabledAnotherGatheringInProgress>
   <!-- EN: Next speech ready in -->
   <AbilitySpeechCooldown>Další projev bude připraven za</AbilitySpeechCooldown>
   <!-- EN: Outcome chances -->
@@ -120,4 +138,12 @@
   <LandHere>Přistát s raketoplánem zde</LandHere>
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>Cílová destinace je mimo dosah.</MessageShuttleDestinationIsTooFar>
+
+  <!-- EN: Do bestowing ceremony -->
+  <BeginCeremony>Zahájit slavnostní předání</BeginCeremony>
+  <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udělovatel titulů je pobouřen tím, že trůnní sál, který má mít {PAWN_definite} k dispozici, nesplňuje požadavky pro titul {TITLE}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+
+  <!-- EN: Not all required cargo is loaded yet! -->
+  <ShuttleRequiredItemsNotSatisfied>Zatím není naložen veškerý potřebný náklad!</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>
