@@ -424,6 +424,8 @@
     <li>asker_i_y(asker_gender==Female)->y</li>
     <li>asker_uj_a(asker_gender==Male)->ůj</li>
     <li>asker_uj_a(asker_gender==Female)->á</li>
+    <li>asker_eho_ou(asker_gender==Male)->ého</li>
+    <li>asker_eho_ou(asker_gender==Female)->ou</li>
     <li>asker_y_a(asker_gender==Male)->ý</li>
     <li>asker_y_a(asker_gender==Female)->á</li>
     <li>asker_mu_ji(asker_gender==Male)->mu</li>
@@ -434,10 +436,22 @@
     <li>asker_nem_ni(asker_gender==Female)->ní</li>
     <li>asker_jeho_jejiho(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejiho(asker_gender==Female)->jejího</li>
+    <li>asker_ten_ta(asker_gender==Male)->ten</li>
+    <li>asker_ten_ta(asker_gender==Female)->ta</li>
+    <li>asker_tento_tato(asker_gender==Male)->tento</li>
+    <li>asker_tento_tato(asker_gender==Female)->tato</li>
 
     <li>asker_ho_x(lodgers0_gender==Male)->ho</li>
     <li>asker_ho_x(asker_gender==Male,lodgers0_gender==Female)-></li>
     <li>asker_ho_x(asker_gender==Female,lodgers0_gender==Female)-></li>
+
+    <li>asker_x_a_i(asker_gender==Male,lodgerCount==1)-></li>
+    <li>asker_x_a_i(asker_gender==Female,lodgerCount==1)->a</li>
+    <li>asker_x_a_i(lodgerCount>=2)->i</li>
+
+    <li>asker_ry_ra_ri(asker_gender==Male,lodgerCount==1)->rý</li>
+    <li>asker_ry_ra_ri(asker_gender==Female,lodgerCount==1)->rá</li>
+    <li>asker_ry_ra_ri(lodgerCount>=2)->ří</li>
 
     <li>asker_ym_ou_ymi(lodgers1_gender==Male,lodgersCountMinusOne==1)->ým</li>
     <li>asker_ym_ou_ymi(lodgers1_gender==Female,lodgersCountMinusOne==1)->ou</li>
@@ -447,6 +461,8 @@
     <li>asker_jeho_jejich(asker_gender==Female)->jejích</li>
     <li>asker_jeho_jejim(asker_gender==Male)->jeho</li>
     <li>asker_jeho_jejim(asker_gender==Female)->jejím</li>
+    <li>asker_ce_kyne(asker_gender==Male)->ce</li>
+    <li>asker_ce_kyne(asker_gender==Female)->kyně</li>
     <li>asker_ce_kyni(asker_gender==Male)->ce</li>
     <li>asker_ce_kyni(asker_gender==Female)->kyni</li>
     <li>asker_el_la(asker_gender==Male)->el</li>
@@ -459,6 +475,23 @@
     <li>asker_um_kam(asker_gender==Female)->kám</li>
     <li>asker_ove_ky(asker_gender==Male)->ové</li>
     <li>asker_ove_ky(asker_gender==Female)->ky</li>
+    <li>asker_ik_ice(asker_gender==Male)->ík</li>
+    <li>asker_ik_ice(asker_gender==Female)->ice</li>
+    <li>asker_ika_ici(asker_gender==Male)->íka</li>
+    <li>asker_ika_ici(asker_gender==Female)->ici</li>
+    <li>asker_x_ka(asker_gender==Male)-></li>
+    <li>asker_x_ka(asker_gender==Female)->ka</li>
+    <li>asker_a_ka(asker_gender==Male)->a</li>
+    <li>asker_a_ka(asker_gender==Female)->ka</li>
+    <li>asker_ec_ka(asker_gender==Male)->ec</li>
+    <li>asker_ec_ka(asker_gender==Female)->ka</li>
+    <li>asker_ak_acka(asker_gender==Male)->ák</li>
+    <li>asker_ak_acka(asker_gender==Female)->ačka</li>
+
+    <li>factionOpponent_x_a(factionOpponent_gender==Male)-></li>
+    <li>factionOpponent_x_a(factionOpponent_gender==Female)->a</li>
+    <li>factionOpponent_jeho_jejim(factionOpponent_gender==Male)->jeho</li>
+    <li>factionOpponent_jeho_jejim(factionOpponent_gender==Female)->jejím</li>
 
     <li>faction_leader_x_a(faction_leader_gender==Male)-></li>
     <li>faction_leader_x_a(faction_leader_gender==Female)->a</li>
@@ -483,6 +516,11 @@
     <li>joiner_eznina_ova(joiner_gender==Female,enemyFaction_leader_gender==Female)->ova</li>
     <li>joiner_nevestine_zenichove(joiner_gender==Male)->nevěstině</li>
     <li>joiner_nevestine_zenichove(joiner_gender==Female)->ženichově</li>
+
+    <li>rewardGiver_x_a(rewardGiver_gender==Male)-></li>
+    <li>rewardGiver_x_a(rewardGiver_gender==Female)->a</li>
+    <li>rewardGiver_mu_ji(rewardGiver_gender==Male)->mu</li>
+    <li>rewardGiver_mu_ji(rewardGiver_gender==Female)->jí</li>
 
     <li>lodgers0_x_a(lodgers0_gender==Male)-></li>
     <li>lodgers0_x_a(lodgers0_gender==Female)->a</li>
@@ -573,6 +611,23 @@
     <li>helpers0_en_na(helpers0_gender==Female)->na</li>
     <li>helpers0_eho_ou(helpers0_gender==Male)->ého</li>
     <li>helpers0_eho_ou(helpers0_gender==Female)->ou</li>
+
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==Empire)->imperiál</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==Empire)->imperiálka</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==OutlanderCivil)->odpadlík</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==OutlanderCivil)->odpadlice</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==OutlanderRough)->odpadlík</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==OutlanderRough)->odpadlice</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==Pirate)->pirát</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==Pirate)->pirátka</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==TribeCivil)->domorodec</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==TribeCivil)->domorodkyně</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==TribeRough)->domorodec</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==TribeRough)->domorodkyně</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==TribeSavage)->domorodec</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==TribeSavage)->domorodkyně</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,p=0.00000000001)->člen</li>
+    <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,p=0.00000000001)->členka</li>
 
     <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Male)-></li>
     <li>enemyFaction_leader_x_a(enemyFaction_leader_gender==Female)->a</li>
