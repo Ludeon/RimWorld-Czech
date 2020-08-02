@@ -487,6 +487,8 @@
     <li>asker_ec_ka(asker_gender==Female)->ka</li>
     <li>asker_ak_acka(asker_gender==Male)->ák</li>
     <li>asker_ak_acka(asker_gender==Female)->ačka</li>
+    <li>asker_e_ko(asker_gender==Male)->e</li>
+    <li>asker_e_ko(asker_gender==Female)->ko</li>
 
     <li>factionOpponent_x_a(factionOpponent_gender==Male)-></li>
     <li>factionOpponent_x_a(factionOpponent_gender==Female)->a</li>
@@ -601,6 +603,13 @@
     <li>prisoner_n_nkyne(prisoner_gender==Male)->ň</li>
     <li>prisoner_n_nkyne(prisoner_gender==Female)->nkyně</li>
 
+    <li>civilians0_a_ka(civilians0_gender==Male)->a</li>
+    <li>civilians0_a_ka(civilians0_gender==Female)->ka</li>
+    <li>civilians0_y_ky(civilians0_gender==Male)->y</li>
+    <li>civilians0_y_ky(civilians0_gender==Female)->ky</li>
+    <li>civilians0_en_na(civilians0_gender==Male)->en</li>
+    <li>civilians0_en_na(civilians0_gender==Female)->na</li>
+
     <li>helpers0_x_a(helpers0_gender==Male)-></li>
     <li>helpers0_x_a(helpers0_gender==Female)->a</li>
     <li>helpers0_y_a(helpers0_gender==Male)->ý</li>
@@ -611,6 +620,16 @@
     <li>helpers0_en_na(helpers0_gender==Female)->na</li>
     <li>helpers0_eho_ou(helpers0_gender==Male)->ého</li>
     <li>helpers0_eho_ou(helpers0_gender==Female)->ou</li>
+
+    <li>soldiers0_x_a(soldiers0_gender==Male)-></li>
+    <li>soldiers0_x_a(soldiers0_gender==Female)->a</li>
+    <li>soldiers0_en_na(soldiers0_gender==Male)->en</li>
+    <li>soldiers0_en_na(soldiers0_gender==Female)->na</li>
+    <li>soldiers0_jeho_jejim(soldiers0_gender==Male)->jeho</li>
+    <li>soldiers0_jeho_jejim(soldiers0_gender==Female)->jejím</li>
+
+    <li>soldiers1_ho_x(soldiers1_gender==Male)->ho</li>
+    <li>soldiers1_ho_x(soldiers1_gender==Female)-></li>
 
     <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Male,factionOpponent_faction==Empire)->imperiál</li>
     <li>factionOpponent_faction_pawnSingularNom(factionOpponent_gender==Female,factionOpponent_faction==Empire)->imperiálka</li>
