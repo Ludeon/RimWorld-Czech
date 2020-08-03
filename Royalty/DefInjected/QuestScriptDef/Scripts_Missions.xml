@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[enemiesLabel] have set up a camp and are harassing caravans of [asker_faction_name]. [asker_nameDef] is planning an aerial assault on the camp, which is guarded by [enemiesCount] [enemiesLabel]. [asker_pronoun] wants you to provide [soldiers] to carry out the attack.\n\n[asker_pronoun] will send a shuttle to pick up your fighters, bring them to the attack site, and take them home afterward. They will be fed en-route.\n\nOnce the attack begins, you must defeat all enemies and turrets within [timeoutTicks_duration].</li>
+    <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] soldiers</li>
+    <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
+  -->
+  <Mission_BanditCamp.questDescriptionRules.rulesStrings>
+    <li>questDescription->(*Threat)Skupina [enemiesLabel](/Threat) [setUp] tábor kvůli [harassing] místních karavan z frakce [asker_faction_name]. [asker_nameDef] [planning] na zmíněný tábor [undertake] [aerialAssault]. K provedení tohoto útoku tě žádá o poskytnutí (*ColonistCount)[soldiers](/ColonistCount).\n\nK vyzvednutí [oneOrMore_tveho_bojovnika] vyšle raketoplán, který [oneOrMore_ho_je] dopraví až na místo [attackSite]. Po dokončení mise [oneOrMore_ho_je] vezme zpět domů. Během letu [oneOrMore_mu_jim] bude zajištěna strava.\n\nJakmile začneš s ofenzívou, musíš se vypořádat se všemi nepřáteli a střeleckými věžemi v rámci [timeoutTicks_duration]. Poslední známý (*Threat)počet [enemiesLabel](/Threat) v táboře: (*Threat)[enemiesCount](/Threat)</li>
+    <li>soldiers(requiredPawnCount==1)->jednoho vojáka</li>
+    <li>soldiers(requiredPawnCount==2)->dvou vojáků</li>
+    <li>soldiers(requiredPawnCount==3)->třech vojáků</li>
+    <li>soldiers(requiredPawnCount==4)->čtyř vojáků</li>
+    <li>soldiers(requiredPawnCount>=5)->[requiredPawnCount] vojáků</li>
+    <li>oneOrMore_tveho_bojovnika(requiredPawnCount==1)->tvého bojovníka</li>
+    <li>oneOrMore_tveho_bojovnika(requiredPawnCount>=2)->tvých bojovníků</li>
+    <li>oneOrMore_ho_je(requiredPawnCount==1)->ho</li>
+    <li>oneOrMore_ho_je(requiredPawnCount>=2)->je</li>
+    <li>oneOrMore_mu_jim(requiredPawnCount==1)->mu</li>
+    <li>oneOrMore_mu_jim(requiredPawnCount>=2)->jim</li>
+    <li>setUp->vybudovala</li>
+    <li>setUp->založila</li>
+    <li>harassing->obtěžování</li>
+    <li>harassing->zastrašování</li>
+    <li>harassing->okrádání</li>
+    <li>harassing->vykrádání</li>
+    <li>harassing->drancování</li>
+    <li>harassing->plenění</li>
+    <li>planning->plánuje</li>
+    <li>planning->chystá</li>
+    <li>undertake->provést</li>
+    <li>undertake->podniknout</li>
+    <li>undertake->zosnovat</li>
+    <li>undertake->zorganizovat</li>
+    <li>aerialAssault->[aerial][assault]</li>
+    <li>aerial->leteck</li>
+    <li>aerial->vzdušn</li>
+    <li>assault->ý [maybeCounter]útok</li>
+    <li>assault->ý [maybeCounter]úder</li>
+    <li>assault->ou [maybeCounter]ofenzívu</li>
+    <li>assault->ý přepad</li>
+    <li>assault->ý vpád</li>
+    <li>assault->ý výsadek</li>
+    <li>assault->é přepadení</li>
+    <li>maybeCounter-></li>
+    <li>maybeCounter->proti</li>
+    <li>attackSite->útoku</li>
+    <li>attackSite->přepadu</li>
+    <li>attackSite->určení</li>
+  </Mission_BanditCamp.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[questNameInner]</li>
+    <li>questName->[asker_nameDef]'s [questNameInner]</li>
+    <li>questNameInner->[aerial] [attack]</li>
+    <li>questNameInner->[target] [attack]</li>
+    <li>questNameInner->[attack] [work]</li>
+    <li>target->camp</li>
+    <li>target->base</li>
+    <li>target->fort</li>
+    <li>aerial->aerial</li>
+    <li>aerial->air</li>
+    <li>aerial->shuttle-borne</li>
+    <li>attack->attack</li>
+    <li>attack->assault</li>
+    <li>work->work</li>
+    <li>work->job</li>
+  -->
+  <Mission_BanditCamp.questNameRules.rulesStrings>
+    <li>questName->[questNameInnerNom]</li>
+    <li>questName->[asker_nameDef] [planning] [questNameInnerAcc]</li>
+    <li>questNameInnerNom->[aerial][adjAttackNom]</li>
+    <li>questNameInnerAcc->[aerial][adjAttackAcc]</li>
+    <li>questNameInnerNom->[attackNom] [targetGen]</li>
+    <li>questNameInnerAcc->[attackNom] [targetGen]</li>
+    <li>questNameInnerNom->[adjAttackNomUni]á [missionNom]</li>
+    <li>questNameInnerAcc->[adjAttackNomUni]ou [missionAcc]</li>
+    <li>planning->plánuje</li>
+    <li>planning->chystá</li>
+    <li>planning->připravuje</li>
+    <li>targetGen->tábora</li>
+    <li>targetGen->základny</li>
+    <li>targetGen->pevnosti</li>
+    <li>targetGen->stanoviště</li>
+    <li>aerial->leteck</li>
+    <li>aerial->vzdušn</li>
+    <li>attackNom->napadení</li>
+    <li>attackNom->přepadení</li>
+    <li>attackNom->přepad</li>
+    <li>attackNom->vpád do</li>
+    <li>attackNom->vniknutí do</li>
+    <li>adjAttackNom->ý [maybeCounter]útok</li>
+    <li>adjAttackNom->ý [maybeCounter]úder</li>
+    <li>adjAttackNom->á [maybeCounter]ofenzíva</li>
+    <li>adjAttackNom->ý přepad</li>
+    <li>adjAttackNom->ý vpád</li>
+    <li>adjAttackNom->ý výsadek</li>
+    <li>adjAttackNom->é přepadení</li>
+    <li>adjAttackAcc->ý [maybeCounter]útok</li>
+    <li>adjAttackAcc->ý [maybeCounter]úder</li>
+    <li>adjAttackAcc->ou [maybeCounter]ofenzívu</li>
+    <li>adjAttackAcc->ý přepad</li>
+    <li>adjAttackAcc->ý vpád</li>
+    <li>adjAttackAcc->ý výsadek</li>
+    <li>adjAttackAcc->é přepadení</li>
+    <li>maybeCounter-></li>
+    <li>maybeCounter->proti</li>
+    <li>attackNom->napadení</li>
+    <li>attackNom->přepadení</li>
+    <li>attackNom->přepad</li>
+    <li>attackNom->vpád do</li>
+    <li>attackNom->vniknutí do</li>
+    <li>adjAttackNomUni->útočn</li>
+    <li>adjAttackNomUni->přepadov</li>
+    <li>adjAttackNomUni->výsadkov</li>
+    <li>adjAttackNomUni->[aerial]</li>
+    <li>missionNom->mise</li>
+    <li>missionNom->operace</li>
+    <li>missionAcc->misi</li>
+    <li>missionAcc->operaci</li>
+  </Mission_BanditCamp.questNameRules.rulesStrings>
+  
+</LanguageData>
