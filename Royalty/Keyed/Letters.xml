@@ -105,17 +105,21 @@
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
   <LetterFinishedSpeech>{ORGANIZER_labelShort} {ORGANIZER_gender ? dokončil : dokončila} svůj projev.</LetterFinishedSpeech>
   <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>Bylo to opravdu otřesné - nejisté, plné trapných vtipů a depresivních příběhů.</LetterTerribleSpeech>
+  <LetterTerribleSpeech>Bylo to opravdu hrozné - váhavé, plné trapného humoru a depresivních příběhů.</LetterTerribleSpeech>
   <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>Nebylo to úplně inspirativní - neoriginální, nudné a bez jakéhokoliv náznaku vášně.</LetterUninspiringSpeech>
+  <LetterUninspiringSpeech>Bylo to nezáživné - neoriginální, nudné a chybělo tomu jakékoliv nadšení.</LetterUninspiringSpeech>
   <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>Bylo to povzbudivé a dobře odprezentované.</LetterEncouragingSpeech>
+  <LetterEncouragingSpeech>Bylo to povzbuzující a dobře přednesené.</LetterEncouragingSpeech>
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>Bylo to pozoruhodně inspirativní, plné intenzity a odhodlání.</LetterInspirationalSpeech>
+  <LetterInspirationalSpeech>Bylo to pozoruhodně inspirativní, plné síly a odhodlání.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>Následující lidé byli řečí obzvláště dojati a jsou nyní inspirováni:</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>Díky pozoruhodné řeči, kterou {SPEAKER_nameIndef} {PAWN_gender ? pronesl : pronesla}, se {PAWN_nameIndef} {PAWN_gender ? inspiroval : inspirovala}!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>Jelikož byl projev přerušen při {0}, nebyl tak účinný.</LetterSpeechInterrupted>
+  <LetterSpeechInterrupted>Jelikož byl projev přerušen při dosažení pouhých {0}, nebyl tak účinný.</LetterSpeechInterrupted>
   <!-- EN: {ORGANIZER_bestRoyalTitleDef}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{ORGANIZER_gender ? Tvůj : Tvá} {ORGANIZER_bestRoyalTitleDef} svou řeč {ORGANIZER_gender ? nedokončil : nedokončila}. Byla přerušena před dosažením 50%. Nemělo to žádný účinek.</LetterSpeechCancelled>
+  <LetterSpeechCancelled>{ORGANIZER_gender ? Tvůj : Tvá} {ORGANIZER_bestRoyalTitleDef} svou řeč {ORGANIZER_gender ? nedokončil : nedokončila}. Byla přerušena před dosažením 50%. Nemělo to proto žádný účinek.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Projev byl přerušen</LetterLabelSpeechCancelled>
 
@@ -146,6 +150,28 @@
   <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} {USER_gender ? postoupil : postoupila} na další úroveň priovazby! Nyní může používat psionické schopnosti vyšší úrovně, ale nejdříve se je musí naučit.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>Při dosažení další úrovně psiovazby se {USER_labelShort} automaticky naučí tyto psionické schopnosti: {2}</LetterPsylinkLevelGained_PsycastLearned>
+  
+  <!-- Abilities -->
+  <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterPsychicInspiration>Díky psychické sugesci, kterou {PAWN_gender ? inicioval : iniciovala} {CASTER_nameIndef}, se {PAWN_nameIndef} právě {PAWN_gender ? inspiroval : inspirovala}.</LetterPsychicInspiration>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Nabídka spolupráce: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} se chce připojit ke tvé frakci.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} věří, že {MAP_definite} může být místem, kde bude {PAWN_gender ? šťastný : šťastná}. Chce se k tobě přidat natrvalo.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Přijmout</LetterJoinOfferAccept>
+
+  <!-- EN: Bestowing ceremony expired -->
+  <LetterLabelBestowingCeremonyExpired>Lhůta pro slavnostní předání vypršela</LetterLabelBestowingCeremonyExpired>
+  <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} se ke slavnostnímu předání {TARGET_gender ? nedostavil : nedostavila}. Obřad byl proto zrušen.</LetterTextBestowingCeremonyExpired>
+
+  <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
+  <LetterTextHonorAward_BanditCamp>Komu by měla být připsána {0} za porážku tábora banditů?</LetterTextHonorAward_BanditCamp>
 
   <!-- Shuttle crash -->
   <!-- EN: Shuttle crashed -->
