@@ -8,9 +8,25 @@
   <BlockedBy>překážející {0_label}.</BlockedBy>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>Raketoplán dorazil na místo určení.</MessageShuttleArrived>
+  <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
+  <MessageShuttleArrivedContentsLost>Raketoplán právě dorazil na místo určení, ale jelikož se na palubě nenacházeli žádní kolonisté, byl obsah ztracen.</MessageShuttleArrivedContentsLost>
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>Raketoplán nelze přivolat</CannotCallShuttle>
+
+  <!-- EN: Cannot land in undiscovered area. -->
+  <ShuttleCannotLand_Fogged>Nelze přistát v neobjevené oblasti.</ShuttleCannotLand_Fogged>
+  <!-- EN: Area must be walkable. -->
+  <ShuttleCannotLand_Unwalkable>Oblast musí být schůdná.</ShuttleCannotLand_Unwalkable>
 
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>Upozornění: Spirituální strom byl označen ke kácení.</MessageWarningCutAnimaTree>
+
+  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
+  <MessageBestowerWaiting>Vyber {TARGET_gender ? kolonistu : kolonistku} jménem {TARGET_definite} a pravým tlačítkem myši klikni na udělovatele k zahájení slavnostního předání.</MessageBestowerWaiting>
+  <!-- EN: Cannot reach bestower! -->
+  <MessageBestowerUnreachable>Udělovatel titulů je mimo dosah!</MessageBestowerUnreachable>
+  <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
+  <MessageBestowingSpotUnreachable>Udělovatel titulů se kvůli vměšování naštval a rozhodl se proto odejít.</MessageBestowingSpotUnreachable>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
   <MessageBestowingCeremonyStarted>Slavnostní předání bylo zahájeno. {PAWN_definite} nyní převezme titul.</MessageBestowingCeremonyStarted>

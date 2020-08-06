@@ -13,6 +13,9 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>Skupina {0} z frakce {1} se rozhodla odejít, ale nejdříve se pokusí ukrást vše, co jim přijde vhod.</MessageRaidersStealing>
 
+  <!-- EN: {0} from {1} have arrived in the area of your caravan and are attacking. More are on the way and will arrive in {2}. -->
+  <MessageCaravanDetectedRaidArrived>Skupina {0} z frakce {1} se přiblížila ke tvé karavaně a chystá se zaútočit. Další skupina {0} je na cestě a dorazí za {2}.</MessageCaravanDetectedRaidArrived>
+
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>Skupina {0} z frakce {1} odchází.</MessageRaidersLeaving>
   <!-- EN: {0} from {1} have given up and are leaving. -->
@@ -446,9 +449,6 @@
   <!-- EN: Cannot build a roof over {0}. -->
   <MessageRoofIncompatibleWithPlant>Rostoucí {0} nemůže mít nad sebou postavenou střechu.</MessageRoofIncompatibleWithPlant>
 
-  <!-- EN: Caravan will automatically travel to the first waypoint. -->
-  <MessageChoseRoute>Karavana se bude automaticky přesunovat k prvnímu záchytnému bodu.</MessageChoseRoute>
-
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Chceš-li opustit oblast, použij příkaz 'Upravit karavanu' na mapě světa.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
   <!-- EN: You can't leave the map now. -->
@@ -506,6 +506,14 @@
   <GoodwillChangedReason_RequestedMilitaryAid>žádost o vojenskou pomoc</GoodwillChangedReason_RequestedMilitaryAid>
   <!-- EN: requested trader caravan -->
   <GoodwillChangedReason_RequestedTrader>žádost o obchodní karavanu</GoodwillChangedReason_RequestedTrader>
+  <!-- EN: caused neuroquake echo -->
+  <GoodwillChangedReason_CausedNeuroquakeEcho>způsobení ozvěny z neurotřesení</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <!-- EN: caused berserk on {PAWN_labelShort} -->
+  <GoodwillChangedReason_CausedBerserk>způsobení zuřivosti u {PAWN_labelShort}</GoodwillChangedReason_CausedBerserk>
+  <!-- EN: attacked {0_name} -->
+  <GoodwillChangeReason_AttackedFaction>napadení frakce {0_name}</GoodwillChangeReason_AttackedFaction>
+  <!-- EN: shuttle destroyed -->
+  <GoodwillChangeReason_ShuttleDestroyed>zničení raketoplánu</GoodwillChangeReason_ShuttleDestroyed>
   <!-- EN: civilians lost -->
   <GoodwillChangeReason_CiviliansLost>civilní ztráta</GoodwillChangeReason_CiviliansLost>
   <!-- EN: commander lost -->
@@ -604,5 +612,8 @@
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
   <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? narušil : narušila} snímaný prostor detektoru pohybu a {0_gender ? spustil : spustila} tak alarm.</MessageActivatorProximityTriggered>
+
+  <!-- EN: {PAWN_nameDef} is a prisoner -->
+  <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} je {PAWN_gender ? zajatec : zajatkyně}</MessagePrisonerCannotEquipWeapon>
 
 </LanguageData>
