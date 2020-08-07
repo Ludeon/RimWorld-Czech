@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questName->Laborers</li>
+    <li>questDescription-></li>
+  -->
+  <Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+    <li>questName->Dělníci</li>
+    <li>questDescription-></li>
+  </Permit_CallLaborers.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN: Laborers arrived -->
+  <Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>Dělníci právě dorazili</Permit_CallLaborers.LetterLabelLaborersArrived.slateRef>
+  <!-- EN: The laborers from [permitFaction_name] have arrived. A shuttle will come to collect them in [laborersDurationDays] days. -->
+  <Permit_CallLaborers.LetterTextLaborersArrived.slateRef>Dělníci z frakce [permitFaction_name] přávě dorazili. Raketoplán se pro ně vrátí po uplynutí [laborersDurationDays] dnů.</Permit_CallLaborers.LetterTextLaborersArrived.slateRef>
+  <!-- EN: Should depart on shuttle -->
+  <Permit_CallLaborers.InspectStringDepartShuttle.slateRef>Nyní může odletět</Permit_CallLaborers.InspectStringDepartShuttle.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>Dorazil raketoplán</Permit_CallLaborers.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
+  <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>Dorazil raketoplán k vyzvednutí dělníků, které ti poskytla frakce [permitFaction_name].</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
+  <!-- EN: Laborer died: {SUBJECT_definite} -->
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>{SUBJECT_gender ? Mrtvý dělník : Mrtvá dělnice}: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
+  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>{SUBJECT_gender ? Dělník : Dělnice}, {SUBJECT_gender ? kterého : kterou} ti poslali z frakce [permitFaction_name], právě {SUBJECT_gender ? zemřel : zemřela}. Tvá prestiž s frakcí [permitFaction_name] proto klesla o [goodwillPenaltyPawn] bodů.</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  <!-- EN: laborers missed shuttle -->
+  <Permit_CallLaborers.GoodwillChangeReasonLaborersMissedShuttle.slateRef>dělníci zmeškali raketoplán</Permit_CallLaborers.GoodwillChangeReasonLaborersMissedShuttle.slateRef>
+  
+  <!-- EN:
+    <li>questName->Permit Shuttle</li>
+    <li>questDescription-></li>
+  -->
+  <Permit_CallShuttle.questDescriptionAndNameRules.rulesStrings>
+    <li>questName->Oprávnění k raketoplánu</li>
+    <li>questDescription-></li>
+  </Permit_CallShuttle.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN: Shuttle arrived -->
+  <Permit_CallShuttle.LetterLabelPermitShuttleArrived.slateRef>Dorazil raketoplán</Permit_CallShuttle.LetterLabelPermitShuttleArrived.slateRef>
+  <!-- EN: The shuttle called by [asker_nameDef] has arrived.\n\nIf you don't use the shuttle, it will return to [permitFaction_name] in [shuttleReturnDays] days. -->
+  <Permit_CallShuttle.LetterTextPermitShuttleArrived.slateRef>Raketoplán, který nechal[asker_x_a] přivolat [asker_nameDef], právě dorazil.\n\nPokud raketoplán nevyužiješ, po uplynutí [shuttleReturnDays] dnů se vrátí zpět do frakce [permitFaction_name].</Permit_CallShuttle.LetterTextPermitShuttleArrived.slateRef>
+  <!-- EN: shuttle destroyed -->
+  <Permit_CallShuttle.GoodwillChangeReasonShuttleDestroyed.slateRef>zničení raketoplánu</Permit_CallShuttle.GoodwillChangeReasonShuttleDestroyed.slateRef>
+  <!-- EN: Shuttle left -->
+  <Permit_CallShuttle.LetterLabelPermitShuttleLeft.slateRef>Raketoplán odletěl pryč</Permit_CallShuttle.LetterLabelPermitShuttleLeft.slateRef>
+  <!-- EN: The shuttle from [permitFaction_name] has departed after being made to wait for too long. -->
+  <Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>Raketoplán z frakce [permitFaction_name] odletěl poté, co byl nucen čekat příliš dlouhou dobu.</Permit_CallShuttle.LetterTextPermitShuttleLeft.slateRef>
+  
+</LanguageData>
