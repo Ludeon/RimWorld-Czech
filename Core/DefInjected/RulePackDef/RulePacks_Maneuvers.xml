@@ -19,52 +19,21 @@
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving grisly tears in the skin</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->leaving grisly tears in the metal</li>
-    <li>destroyed_past->devoured</li>
-    <li>destroyed_past->separated</li>
-    <li>destroyed_past->ripped</li>
-    <li>destroyed_past->ravaged</li>
-    <li>destroyed_present->devouring</li>
-    <li>destroyed_present->separating</li>
-    <li>destroyed_present->ripping</li>
-    <li>destroyed_present->ravaging</li>
-    <li>destroyed_suffix->[to] shreds</li>
+    <li>destroyed_past->tore off</li>
+    <li>destroyed_past->ripped off</li>
+    <li>destroyed_past->bit off</li>
+    <li>destroyed_present->tearing off</li>
+    <li>destroyed_present->ripping off</li>
+    <li>destroyed_present->biting off</li>
     <li>destroyed_suffix->[to] pieces</li>
-    <li>destroyed_suffix->[to] strips</li>
+    <li>destroyed_suffix->[to] bits</li>
+    <li>destroyed_suffix->[to] chunks</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] shreds</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] strips</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] messy strips</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
   -->
-  <Maneuver_Bite.rulePack.rulesStrings>
-    <li>damaged_inf->kousnout</li>
-    <li>damaged_inf->hryznout</li>
-    <li>damaged_inf(p=0.5)->štípnout</li>
-    <li>damaged_past->kousl</li>
-    <li>damaged_past->hryzl</li>
-    <li>damaged_past->štípl</li>
-    <li>damaged_past->rafl</li>
-    <li>damaged_past->natrhl</li>
-    <li>damaged_present->nakousnutí</li>
-    <li>damaged_present->nahryznutí</li>
-    <li>damaged_present->našťípnutí</li>
-    <li>damaged_present->rafnutí</li>
-    <li>damaged_present->natržení</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->Tržná rána odkryla maso</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->Tržná rána odhalila vnitřní strojní mechanismy</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->Na kůži oběti byly zanechány hrůzné rány od kousnutí</li>
-    <li>flavortext_consequence(recipient_flesh==Mechanoid)->Na plechu oběti byly zanechány ošklivé rány od kousnutí</li>
-    <li>destroyed_past->sežral</li>
-    <li>destroyed_past->oddělil</li>
-    <li>destroyed_past->rozpáral</li>
-    <li>destroyed_past->zdevastoval</li>
-    <li>destroyed_present->sežrání</li>
-    <li>destroyed_present->oddělení</li>
-    <li>destroyed_present->rozpárání</li>
-    <li>destroyed_present->zdevastování</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozkousání [to] malé kousky</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno roztrhání [to] kusy</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozpárání [to] proužky</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->Útokem bylo způsobeno roztrhání [to] rozmašírované proužky</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->Útokem bylo způsobeno rozškubání [to] nepoužitelnou kaši</li>
-  </Maneuver_Bite.rulePack.rulesStrings>
+  <Maneuver_Bite.rulePack.rulesStrings>TODO</Maneuver_Bite.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] tried to kick [TOOL_label] in [RECIPIENT_definite]'s eyes, but [RECIPIENT_definite] dodged out of the way.</li>
@@ -123,8 +92,6 @@
   <!-- EN:
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->with blood dripping from the [woundname]</li>
-    <li>flavortext_situation->with fluids dripping from the [woundname]</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and exposing the flesh underneath</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->and exposing the machinery underneath</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->and leaving a gory [woundname]</li>
@@ -135,21 +102,7 @@
     <li>destroyed_suffix->[to] fragments</li>
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a pile of gore</li>
   -->
-  <Maneuver_Scratch.rulePack.rulesStrings>
-    <li>woundname->rány</li>
-    <li>woundname(p=0.3)->otevřené rány</li>
-    <li>flavortextsituation(recipient_flesh!=Mechanoid)->Útok u oběti započal silné krvácení z [woundname]</li>
-    <li>flavortextsituation->Z [woundname] na těle oběti začaly odkapávat tělní tekutiny</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Tržná rána odkryla maso</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->Tržná rána odhalila vnitřní strojní mechanismy</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Na těle oběti byla zanechána hrůzná rána</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->Útokem bylo provedeno rozpárání [to] rozmašírované proužky</li>
-    <li>destroyed_suffix->Útokem bylo provedeno rozpárání [to] proužky</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->Útokem bylo provedeno rozporcování [to] rozmašírované kousky</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozdělení [to] kusy</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozmašírování [to] kousíčky</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->Útokem bylo způsobeno rozškrábání [to] hromadu sraženiny</li>
-  </Maneuver_Scratch.rulePack.rulesStrings>
+  <Maneuver_Scratch.rulePack.rulesStrings>TODO</Maneuver_Scratch.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->scratch</li>
@@ -166,39 +119,16 @@
     <li>damaged_present->cutting</li>
     <li>destroyed_past->mauled</li>
     <li>destroyed_past->lacerated</li>
-    <li>destroyed_past->tore off</li>
+    <li>destroyed_past->tore</li>
     <li>destroyed_past->shredded</li>
     <li>destroyed_past->ripped</li>
     <li>destroyed_present->mauling</li>
     <li>destroyed_present->lacerating</li>
-    <li>destroyed_present->tearing off</li>
+    <li>destroyed_present->tearing</li>
     <li>destroyed_present->shredding</li>
     <li>destroyed_present->ripping</li>
   -->
-  <Maneuver_Scratch_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->poškrábat</li>
-    <li>damaged_inf->rozdrásat</li>
-    <li>damaged_inf->vyškrábat</li>
-    <li>damaged_inf->podrápat</li>
-    <li>damaged_past(p=4)->poškrábal</li>
-    <li>damaged_past->rozdrásal</li>
-    <li>damaged_past->rozškrábal</li>
-    <li>damaged_past->podrápal</li>
-    <li>damaged_present->poškábání</li>
-    <li>damaged_present->rozdrásání</li>
-    <li>damaged_present->rozškrábání</li>
-    <li>damaged_present->podrápání</li>
-    <li>destroyed_past->rozerval</li>
-    <li>destroyed_past->roztrhal</li>
-    <li>destroyed_past->vytrhl</li>
-    <li>destroyed_past->rozškubal</li>
-    <li>destroyed_past->rozpáral</li>
-    <li>destroyed_present->rozervání</li>
-    <li>destroyed_present->roztrhání</li>
-    <li>destroyed_present->vytržení</li>
-    <li>destroyed_present->rozškubání</li>
-    <li>destroyed_present->rozpárání</li>
-  </Maneuver_Scratch_Damage.rulePack.rulesStrings>
+  <Maneuver_Scratch_Damage.rulePack.rulesStrings>TODO</Maneuver_Scratch_Damage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->slash</li>
@@ -221,8 +151,6 @@
     <li>damaged_present(deflected!=True)->lacerating</li>
     <li>woundname->wound</li>
     <li>woundname(p=0.3)->opening</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->with blood dripping from the [woundname]</li>
-    <li>flavortext_situation->with fluids dripping from the [woundname]</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the flesh underneath</li>
     <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a gory [woundname]</li>
@@ -241,47 +169,7 @@
     <li>destroyed_suffix(target_part_destroyed_count==1)->exposing its inner workings</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->slicing it in twain</li>
   -->
-  <Maneuver_Slash.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->pořezat</li>
-    <li>damaged_inf->říznout</li>
-    <li>damaged_inf->nasekat</li>
-    <li>damaged_inf->seknout</li>
-    <li>damaged_inf->nakrájet</li>
-    <li>damaged_inf->naříznout</li>
-    <li>damaged_past(p=4)->pořezal</li>
-    <li>damaged_past->řízl</li>
-    <li>damaged_past->sekl</li>
-    <li>damaged_past->nasekl</li>
-    <li>damaged_past->nakrojil</li>
-    <li>damaged_past->nařízl</li>
-    <li>damaged_present->pořezání</li>
-    <li>damaged_present->přeříznutí</li>
-    <li>damaged_present->nakrojení</li>
-    <li>damaged_present->naříznutí</li>
-    <li>damaged_present->natržení</li>
-    <li>damaged_present->potrhání</li>
-    <li>woundname->rány</li>
-    <li>woundname(p=0.3)->otevřené rány</li>
-    <li>flavortextsituation(recipient_flesh!=Mechanoid)->Útok u oběti započal silné krvácení z [woundname]</li>
-    <li>flavortextsituation->Z [woundname] na těle oběti začaly odkapávat tělní tekutiny</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Řezná rána odkryla maso</li>
-    <li>flavortextconsequence(recipient_flesh==Mechanoid)->Řezná rána odhalila vnitřní strojní mechanismy</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Na těle oběti byla zanechána hrůzná rána</li>
-    <li>destroyed_past->rozkouskoval</li>
-    <li>destroyed_past->přepůlil</li>
-    <li>destroyed_past->rozpůlil</li>
-    <li>destroyed_past->přesekl</li>
-    <li>destroyed_past->rozštěpil</li>
-    <li>destroyed_present->rozkouskování</li>
-    <li>destroyed_present->přepůlení</li>
-    <li>destroyed_present->rozpůlení</li>
-    <li>destroyed_present->přeseknutí</li>
-    <li>destroyed_present->rozštěpení</li>
-    <li>destroyed_suffix->Útokem bylo provedeno nasekání do úhledných kousků</li>
-    <li>destroyed_suffix->Útok byl proveden čistým zásahem</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->Útok odhalil, jak uvnitř funguje</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->Útok způsobil rozdělení ve dvoj</li>
-  </Maneuver_Slash.rulePack.rulesStrings>
+  <Maneuver_Slash.rulePack.rulesStrings>TODO</Maneuver_Slash.rulePack.rulesStrings>
   
   <!-- EN:
     <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving an enormous bruise</li>
@@ -293,71 +181,32 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] a fine mist</li>
     <li>destroyed_suffix->[to] fragments</li>
   -->
-  <Maneuver_Smash.rulePack.rulesStrings>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Na těle oběti byla zanechána obrovská podlitina</li>
-    <li>flavortextconsequence->Na těle oběti bylo zanecháno viditelně zdeformované místo</li>
-    <li>flavortextconsequence->Oběť úderem ztratila rovnováhu</li>
-    <li>flavortextconsequence->Oběť byla úderem sražena na stranu</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozdělení [to] kusy</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozdrcení [to] padrť</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid)->Útokem bylo způsobeno rozmašírování [to] jemnou kaši</li>
-    <li>destroyed_suffix->Útokem bylo způsobeno rozdrcení [to] části</li>
-  </Maneuver_Smash.rulePack.rulesStrings>
+  <Maneuver_Smash.rulePack.rulesStrings>TODO</Maneuver_Smash.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>damaged_inf(p=4)->smash</li>
+    <li>damaged_inf->hit</li>
+    <li>damaged_inf->smash</li>
     <li>damaged_inf->bash</li>
-    <li>damaged_inf->clobber</li>
     <li>damaged_inf->slam</li>
     <li>damaged_inf->strike</li>
-    <li>damaged_past(p=4)->smashed</li>
+    <li>damaged_inf->beat</li>
+    <li>damaged_past->hit</li>
+    <li>damaged_past->smashed</li>
     <li>damaged_past->bashed</li>
-    <li>damaged_past->clobbered</li>
     <li>damaged_past->slammed</li>
     <li>damaged_past->struck</li>
+    <li>damaged_past->beat</li>
     <li>damaged_present->smashing</li>
     <li>damaged_present->bashing</li>
-    <li>damaged_present->clobbering</li>
     <li>damaged_present(deflected!=True)->bruising</li>
-    <li>damaged_present(deflected!=True)->lacerating</li>
     <li>destroyed_past->shattered</li>
     <li>destroyed_past->crushed</li>
-    <li>destroyed_past->obliterated</li>
-    <li>destroyed_past->annihilated</li>
     <li>destroyed_past->broke</li>
     <li>destroyed_present->shattering</li>
     <li>destroyed_present->crushing</li>
-    <li>destroyed_present->obliterating</li>
-    <li>destroyed_present->annihilating</li>
     <li>destroyed_present->breaking</li>
   -->
-  <Maneuver_Smash_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->udeřit</li>
-    <li>damaged_inf->praštit</li>
-    <li>damaged_inf->zasáhnout</li>
-    <li>damaged_inf->bouchnout</li>
-    <li>damaged_inf->uhodit</li>
-    <li>damaged_past(p=4)->udeřil</li>
-    <li>damaged_past->praštil</li>
-    <li>damaged_past->zasáhl</li>
-    <li>damaged_past->bouchl</li>
-    <li>damaged_past->uhodil</li>
-    <li>damaged_present->zhmoždění</li>
-    <li>damaged_present->poranění</li>
-    <li>damaged_present->pochroumání</li>
-    <li>damaged_present->pohmoždění</li>
-    <li>damaged_present->natržení</li>
-    <li>destroyed_past->roztříštil</li>
-    <li>destroyed_past->rozdrtil</li>
-    <li>destroyed_past->zruinoval</li>
-    <li>destroyed_past->zničil</li>
-    <li>destroyed_past->rozlámal</li>
-    <li>destroyed_present->roztříštění</li>
-    <li>destroyed_present->rozdrcení</li>
-    <li>destroyed_present->zruinování</li>
-    <li>destroyed_present->zničení</li>
-    <li>destroyed_present->rozlámání</li>
-  </Maneuver_Smash_Damage.rulePack.rulesStrings>
+  <Maneuver_Smash_Damage.rulePack.rulesStrings>TODO</Maneuver_Smash_Damage.rulePack.rulesStrings>
   
   <!-- EN:
     <li>damaged_inf(p=4)->stab</li>
@@ -391,37 +240,6 @@
     <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->leaving it leaking gory fluids</li>
     <li>destroyed_suffix(target_part_destroyed_count==1)->leaving it leaking unrecognizable fluids</li>
   -->
-  <Maneuver_Stab.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->probodnout</li>
-    <li>damaged_inf->bodnout</li>
-    <li>damaged_inf->pobodat</li>
-    <li>damaged_inf->propíchnout</li>
-    <li>damaged_inf->nabodnout</li>
-    <li>damaged_past(p=4)->probodl</li>
-    <li>damaged_past->bodl</li>
-    <li>damaged_past->bodnul</li>
-    <li>damaged_past->propíchl</li>
-    <li>damaged_past->probodl</li>
-    <li>damaged_present->nabodnutí</li>
-    <li>damaged_present->probodání</li>
-    <li>damaged_present->propíchnutí</li>
-    <li>damaged_present->probodnutí</li>
-    <li>woundname->díra</li>
-    <li>woundname->rána</li>
-    <li>woundname->štěrbina</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Na těle oběti byla zanechána krvavá [woundname]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Na těle oběti byla zanechána rozervaná [woundname]</li>
-    <li>flavortextconsequence(recipient_flesh!=Mechanoid)->Na těle oběti byla zanechána krvácející [woundname]</li>
-    <li>destroyed_past->rozpíchal</li>
-    <li>destroyed_past->proděravěl</li>
-    <li>destroyed_past->rozrýpal</li>
-    <li>destroyed_present->rozpíchání</li>
-    <li>destroyed_present->proděravění</li>
-    <li>destroyed_present->rozrýpání</li>
-    <li>destroyed_suffix->Útok byl proveden skrz naskrz</li>
-    <li>destroyed_suffix->Útok zanechal čistou díru</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,target_part_destroyed_count==1)->Útok způsobil únik provozních kapalin</li>
-    <li>destroyed_suffix(target_part_destroyed_count==1)->Útok způsobil únik neurčitelných kapalin</li>
-  </Maneuver_Stab.rulePack.rulesStrings>
+  <Maneuver_Stab.rulePack.rulesStrings>TODO</Maneuver_Stab.rulePack.rulesStrings>
   
 </LanguageData>
