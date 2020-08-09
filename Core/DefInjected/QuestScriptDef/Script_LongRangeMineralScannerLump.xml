@@ -5,63 +5,89 @@
     <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Za pomoci dalekosáhlého snímače minerálů nalezl[worker_x_a] [worker_definite] drahocennou hroudu bohatou na [targetMineable].\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní tuto hroudu vytěží za [timeoutTicks_duration].\n\nNachází se tam [allSitePartsDescriptionsExceptFirst]</li>
-    <li>targetMineable(targetMineable==MineableGold)->zlatou rudu</li>
-    <li>targetMineable(targetMineable==MineableSilver)->stříbrnou rudu</li>
-    <li>targetMineable(targetMineable==MineableSteel)->stlačenou ocel</li>
-    <li>targetMineable(targetMineable==MineablePlasteel)->stlačenou plastocel</li>
-    <li>targetMineable(targetMineable==MineableComponentsIndustrial)->stlačené stroje</li>
-    <li>targetMineable(targetMineable==MineableUranium)->uranovou rudu</li>
-    <li>targetMineable(targetMineable==MineableJade)->jadeitovou rudu</li>
-    <li>targetMineable(p=0.00000000001)->[targetMineable_label]</li>
+    <li>questDescription->Za pomoci dalekosáhlého snímače minerálů nalezl[worker_x_a] [worker_definite] drahocennou hroudu bohatou na [targetMineable_labelAcc].\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní tuto hroudu vytěží za [timeoutTicks_duration].\n\nNachází se tam [allSitePartsDescriptionsExceptFirst]</li>
+    <li>targetMineable_labelAcc(targetMineable==MineableGold)->zlatou rudu</li>
+    <li>targetMineable_labelAcc(targetMineable==MineableSilver)->stříbrnou rudu</li>
+    <li>targetMineable_labelAcc(targetMineable==MineableSteel)->stlačenou ocel</li>
+    <li>targetMineable_labelAcc(targetMineable==MineablePlasteel)->stlačenou plastocel</li>
+    <li>targetMineable_labelAcc(targetMineable==MineableComponentsIndustrial)->stlačené stroje</li>
+    <li>targetMineable_labelAcc(targetMineable==MineableUranium)->uranovou rudu</li>
+    <li>targetMineable_labelAcc(targetMineable==MineableJade)->jadeitovou rudu</li>
+    <li>targetMineable_labelAcc(p=0.00000000001)->[targetMineable_label]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->The [subName]</li>
-    <li>questName->[subName]</li>
-    <li>subName->[adj] Resources</li>
-    <li>subName->[adj] Minerals</li>
-    <li>subName->[adj] Ores</li>
-    <li>subName->[adj] Wealth</li>
-    <li>subName->[adj] Mineables</li>
-    <li>subName->[adj] Lump</li>
-    <li>subName->[adj] Mining Project</li>
-    <li>adj->Distant</li>
-    <li>adj->Far</li>
-    <li>adj->Long-Range</li>
-    <li>adj->Unknown</li>
-    <li>adj->Discovered</li>
-    <li>adj->Scanned</li>
-    <li>adj->Detected</li>
-    <li>adj->Found</li>
+    <li>questName->[lump] of [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [lump]</li>
+    <li>questName->The [targetMineable_label] [lump]</li>
+    <li>questName->[adj] [targetMineable_label]</li>
+    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>lump->lump</li>
+    <li>lump->pile</li>
+    <li>lump->deposit</li>
+    <li>lump->seam</li>
+    <li>lump->chunk</li>
+    <li>lump->pile</li>
+    <li>adj->distant</li>
+    <li>adj->far</li>
+    <li>adj->unknown</li>
+    <li>adj->scanned</li>
+    <li>discovered->discovered</li>
+    <li>discovered->detected</li>
+    <li>discovered->found</li>
+    <li>discovered->scanned</li>
   -->
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
-    <li>questName->[subName]</li>
-    <li>subName->[adj][adjPlu] zdroje</li>
-    <li>subName->[adj][adjPlu] minerály</li>
-    <li>subName->[adj][adjPlu] bohatství</li>
-    <li>subName->[adj][adjFem] ruda</li>
-    <li>subName->[adj][adjFem] hrouda</li>
-    <li>subName->[adjbudouci_1] těžba</li>
-    <li>subName->[adjbudouci_2]těžební projekt</li>
+    <li>questName->[lump] [targetMineable_labelGen]</li>
+    <li>questName->[adj][adj_y_a_e_e] [targetMineable_label]</li>
+    <li>questName->[doted_maybe][discovered_x_a_o_y] [targetMineable_label]</li>
+    <li>targetMineable_labelGen(targetMineable==MineableGold)->zlaté rudy</li>
+    <li>targetMineable_labelGen(targetMineable==MineableSilver)->stříbrné rudy</li>
+    <li>targetMineable_labelGen(targetMineable==MineableSteel)->stlačené ocele</li>
+    <li>targetMineable_labelGen(targetMineable==MineablePlasteel)->stlačené plastocele</li>
+    <li>targetMineable_labelGen(targetMineable==MineableComponentsIndustrial)->stlačených strojů</li>
+    <li>targetMineable_labelGen(targetMineable==MineableUranium)->uranové rudy</li>
+    <li>targetMineable_labelGen(targetMineable==MineableJade)->jadeitové rudy</li>
+    <li>targetMineable_labelGen(p=0.00000000001)->[targetMineable_label]</li>
     <li>adj->Vzdálen</li>
     <li>adj->Dalek</li>
-    <li>adj->Hodnotn</li>
-    <li>adj->Odkryt</li>
-    <li>adj->Odhalen</li>
-    <li>adj->Nalezen</li>
-    <li>adj->Drahocenn</li>
-    <li>adj->Objeven</li>
-    <li>adjPlu->é</li>
-    <li>adjFem->á</li>
-    <li>adjbudouci_1->Budoucí</li>
-    <li>adjbudouci_1->Chystaná</li>
-    <li>adjbudouci_2-></li>
-    <li>adjbudouci_2->Budoucí </li>
-    <li>adjbudouci_2->Chystaný </li>
+    <li>adj->Doteď neobjeven</li>
+    <li>adj->[dotedMaybe]nepoznan</li>
+    <li>adj->[dotedMaybe]ukryt</li>
+    <li>adj->Lokalizovan</li>
+    <li>adj_y_a_e_e(targetMineable==MineableGold)->á</li>
+    <li>adj_y_a_e_e(targetMineable==MineableSilver)->á</li>
+    <li>adj_y_a_e_e(targetMineable==MineableSteel)->á</li>
+    <li>adj_y_a_e_e(targetMineable==MineablePlasteel)->á</li>
+    <li>adj_y_a_e_e(targetMineable==MineableComponentsIndustrial)->é</li>
+    <li>adj_y_a_e_e(targetMineable==MineableUranium)->á</li>
+    <li>adj_y_a_e_e(targetMineable==MineableJade)->á</li>
+    <li>adj_y_a_e_e(p=0.00000000001)->á</li>
+    <li>discovered->Objeven</li>
+    <li>discovered->Odhalen</li>
+    <li>discovered->Detekován</li>
+    <li>discovered->Nalezen</li>
+    <li>discovered->Lokalizován</li>
+    <li>discovered_x_a_o_y(targetMineable==MineableGold)->a</li>
+    <li>discovered_x_a_o_y(targetMineable==MineableSilver)->a</li>
+    <li>discovered_x_a_o_y(targetMineable==MineableSteel)->a</li>
+    <li>discovered_x_a_o_y(targetMineable==MineablePlasteel)->a</li>
+    <li>discovered_x_a_o_y(targetMineable==MineableComponentsIndustrial)->y</li>
+    <li>discovered_x_a_o_y(targetMineable==MineableUranium)->a</li>
+    <li>discovered_x_a_o_y(targetMineable==MineableJade)->a</li>
+    <li>discovered_x_a_o_y(p=0.00000000001)->a</li>
+    <li>lump->Hrouda</li>
+    <li>lump->Hromada</li>
+    <li>lump->Ložisko</li>
+    <li>lump->Sloj</li>
+    <li>lump->Fůra</li>
+    <li>lump->Kupa</li>
+    <li>lump->Halda</li>
+    <li>dotedMaybe-></li>
+    <li>dotedMaybe->Doteď </li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Platnost úkolu vypršela: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Hroudu bohatou na [targetMineable] vytěžil někdo jiný. Platnost úkolu [resolvedQuestName] vypršela.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Hroudu bohatou na [targetMineable_labelAcc] vytěžil někdo jiný. Platnost úkolu [resolvedQuestName] vypršela.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
