@@ -759,6 +759,13 @@
     <li>enemyFaction_leaderIns(enemyFaction_leader_gender==Male,p=0.00000000001)->vůdcem</li>
     <li>enemyFaction_leaderIns(enemyFaction_leader_gender==Female,p=0.00000000001)->vůdkyní</li>
 
+    <li>INITIATOR_x_a_x(INITIATOR_gender==Male)-></li>
+    <li>INITIATOR_x_a_x(INITIATOR_gender==Female)->a</li>
+    <li>INITIATOR_x_a_x(INITIATOR_gender==None)-></li>
+
+    <li>RECIPIENT_x_a_x(RECIPIENT_gender==Male)-></li>
+    <li>RECIPIENT_x_a_x(RECIPIENT_gender==Female)->a</li>
+    <li>RECIPIENT_x_a_x(RECIPIENT_gender==None)-></li>
 //ALL_ANIMALS
 //Arid
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Dromedary)->dromedár</li>
