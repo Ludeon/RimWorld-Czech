@@ -24,21 +24,103 @@
     <li>ofThing->Eternity</li>
     <li>ofThing->the Spirit</li>
   -->
-  <NamerFactionEmpire.rulePack.rulesStrings>TODO</NamerFactionEmpire.rulePack.rulesStrings>
+  <NamerFactionEmpire.rulePack.rulesStrings>
+    <li>r_name(p=2)->[empireCap] [ofThing]</li>
+    <li>r_name(p=2)->[adjThingEmpire]</li>
+    <li>r_name->[exodusAdj] [empireLow]</li>
+    <li>r_name->[refugeeAdj][adjEmpire]</li>
+    <li>r_name(p=2)->[shattered][adjEmpire]</li>
+    <li>r_name->[ColorUni][adjEmpire]</li>
+    <li>empireCap(p=4)->Impérium</li>
+    <li>empireCap->Společenství</li>
+    <li>empireCap->Císařství</li>
+    <li>empireCap->Říše</li>
+    <li>empireCap->Dominium</li>
+    <li>empireLow(p=4)->impérium</li>
+    <li>empireLow->společenství</li>
+    <li>empireLow->císařství</li>
+    <li>empireLow->říše</li>
+    <li>empireLow->dominium</li>
+    <li>adjEmpire(p=4)->é impérium</li>
+    <li>adjEmpire->é společenství</li>
+    <li>adjEmpire->é císařství</li>
+    <li>adjEmpire->á říše</li>
+    <li>adjEmpire->é dominium</li>
+    <li>ofThing(p=4)->[WordImperial]</li>
+    <li>ofThing->[ofSun]</li>
+    <li>ofThing->měsíce</li>
+    <li>ofThing->[ofUniverse]</li>
+    <li>ofThing->[ofGod]</li>
+    <li>ofThing->[ofPerfection]</li>
+    <li>ofThing->[ofEternity]</li>
+    <li>ofThing->[ofSpirit]</li>
+    <li>adjThingEmpire->[adjSun][adjEmpire]</li>
+    <li>adjThingEmpire->Měsíční [empireLow]</li>
+    <li>adjThingEmpire->Vesmírn[adjEmpire]</li>
+    <li>adjThingEmpire->Božsk[adjEmpire]</li>
+    <li>adjThingEmpire->[adjPerfection]</li>
+    <li>adjThingEmpire->[adjEternity][adjEmpire]</li>
+    <li>adjThingEmpire->[adjSpirit]</li>
+    <li>shattered->Zdrcen</li>
+    <li>shattered->Roztříštěn</li>
+    <li>shattered->Zničen</li>
+    <li>shattered->Rozpadl</li>
+    <li>shattered->Rozbit</li>
+    <li>shattered->Padl</li>
+    <li>exodusAdj->Končící</li>
+    <li>exodusAdj->Mizející</li>
+    <li>refugeeAdj->Uprchlick</li>
+    <li>refugeeAdj->Emigrantsk</li>
+    <li>ofSun->slunce</li>
+    <li>ofSun->výsluní</li>
+    <li>ofSun->úsvitu</li>
+    <li>ofUniverse->kosmu</li>
+    <li>ofUniverse->vesmíru</li>
+    <li>ofUniverse->univerza</li>
+    <li>ofGod->Boha</li>
+    <li>ofGod->božstva</li>
+    <li>ofPerfection->bezvadnosti</li>
+    <li>ofPerfection->dokonalosti</li>
+    <li>ofPerfection->perfektnosti</li>
+    <li>ofEternity->věčnosti</li>
+    <li>ofEternity->nekonečnosti</li>
+    <li>ofSpirit->ducha</li>
+    <li>ofSpirit->duší</li>
+    <li>ofSpirit->odvahy</li>
+    <li>adjSun->Slunn</li>
+    <li>adjSun->Zářiv</li>
+    <li>adjSun->Zářn</li>
+    <li>adjSun->Třpytiv</li>
+    <li>adjPerfection->Bezvadn[adjEmpire]</li>
+    <li>adjPerfection->Dokonal[adjEmpire]</li>
+    <li>adjPerfection->Perfektní [empireLow]</li>
+    <li>adjEternity->Věčn</li>
+    <li>adjEternity->Nekonečn</li>
+    <li>adjSpirit->Duchovní [empireLow]</li>
+    <li>adjSpirit->Odvážn[adjEmpire]</li>
+  </NamerFactionEmpire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonEmpire.rulePack.rulesStrings>TODO</NamerPersonEmpire.rulePack.rulesStrings>
+  <NamerPersonEmpire.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonEmpire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonEmpireFemale.rulePack.rulesStrings>TODO</NamerPersonEmpireFemale.rulePack.rulesStrings>
+  <NamerPersonEmpireFemale.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonEmpireFemale.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
@@ -66,6 +148,31 @@
     <li>townend->am</li>
     <li>townend->aeum</li>
   -->
-  <NamerSettlementEmpire.rulePack.rulesStrings>TODO</NamerSettlementEmpire.rulePack.rulesStrings>
+  <NamerSettlementEmpire.rulePack.rulesStrings>
+    <li>r_name->[townname_wordgen]</li>
+    <li>r_name->[townname_fixed]</li>
+    <li>townname_wordgen->[WordImperial]</li>
+    <li>townname_wordgen->[WordImperial][townend]</li>
+    <li>townend(p=3)->ium</li>
+    <li>townend(p=3)->ior</li>
+    <li>townend(p=3)->polis</li>
+    <li>townend->nor</li>
+    <li>townend->lan</li>
+    <li>townend->lax</li>
+    <li>townend->lix</li>
+    <li>townend->lin</li>
+    <li>townend->lian</li>
+    <li>townend->phrum</li>
+    <li>townend->phor</li>
+    <li>townend->teor</li>
+    <li>townend->ople</li>
+    <li>townend->opium</li>
+    <li>townend->or</li>
+    <li>townend->aetor</li>
+    <li>townend->aeum</li>
+    <li>townend->aetium</li>
+    <li>townend->am</li>
+    <li>townend->aeum</li>
+  </NamerSettlementEmpire.rulePack.rulesStrings>
   
 </LanguageData>
