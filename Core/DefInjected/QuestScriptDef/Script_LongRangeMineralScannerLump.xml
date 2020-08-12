@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.\n\n[allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
   -->
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->Za pomoci dalekosáhlého snímače minerálů nalezl[worker_x_a] [worker_definite] drahocennou hroudu bohatou na [targetMineable_labelAcc].\n\nBohužel tam ale nevydrží dlouho - pokud si nepospíšíš, ostatní tuto hroudu vytěží za [timeoutTicks_duration].\n\nNachází se tam [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription->Za pomoci dalekosáhlého snímače minerálů nalezl[worker_x_a] [worker_definite] drahocennou hroudu bohatou na [targetMineable_labelAcc].\n\nBohužel tam nevydrží dlouho - pokud si nepospíšíš, za [timeoutTicks_duration] to tam vyteží někdo jiný.[lumpThreatDescription]</li>
     <li>targetMineable_labelAcc(targetMineable==MineableGold)->zlatou rudu</li>
     <li>targetMineable_labelAcc(targetMineable==MineableSilver)->stříbrnou rudu</li>
     <li>targetMineable_labelAcc(targetMineable==MineableSteel)->stlačenou ocel</li>
@@ -16,11 +16,11 @@
     <li>targetMineable_labelAcc(p=0.00000000001)->[targetMineable_label]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
   <!-- EN:
-    <li>questName->[lump] of [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [lump]</li>
-    <li>questName->The [targetMineable_label] [lump]</li>
-    <li>questName->[adj] [targetMineable_label]</li>
-    <li>questName->[targetMineable_label] [discovered]</li>
+    <li>questName->[lump] of [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [lump]</li>
+    <li>questName->The [targetMineableThing_label] [lump]</li>
+    <li>questName->[adj] [targetMineableThing_label]</li>
+    <li>questName->[targetMineableThing_label] [discovered]</li>
     <li>lump->lump</li>
     <li>lump->pile</li>
     <li>lump->deposit</li>
