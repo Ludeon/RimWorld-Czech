@@ -254,6 +254,12 @@
   <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Ukončí jakýkoliv probíhající útok.</CommandHoldFireDesc>
   
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>Chybí {CHARGENOUN_plural}.</CommandReload_NoCharges>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>K nabití je potřeba doplnit {AMMO_label} ({COUNT}).</CommandReload_NoAmmo>
+  
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Vybrat rostlinu pro pěstování</CommandSelectPlantToGrowMulti>
@@ -504,9 +510,13 @@
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
-  <CommandPlaceBlueprints>Umístit plány</CommandPlaceBlueprints>
+  <CommandPlaceBlueprints>Naplánovat vše</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
-  <CommandPlaceBlueprintsDesc>Umístí všechny požadované plány, pokud je to možné.</CommandPlaceBlueprintsDesc>
+  <CommandPlaceBlueprintsDesc>Umístí všechny požadované plány do míst, kde je potřeba.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>Naplánovat {0}</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>Naplánuje {0} do všech míst, kde je potřeba.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -523,5 +533,11 @@
   <CommandOpenLinkedQuest>Otevřít související úkol</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Otevře související úkol na kartě úkoly.</CommandOpenLinkedQuestDesc>
+  
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>Vzít si drogu...</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>Vezme si drogu ze svého inventáře a okamžitě ji užije.</TakeDrugDesc>
   
 </LanguageData>
