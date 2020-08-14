@@ -13,7 +13,31 @@
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
   -->
-  <NamerArchipelago.rulePack.rulesStrings>TODO</NamerArchipelago.rulePack.rulesStrings>
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>terrain_wordMas(p=4)->ostrov</li>
+    <li>terrain_wordPlu(p=3)->ostrovy</li>
+    <li>terrain_wordNeu(p=3)->souostroví</li>
+    <li>terrain_wordMas->útes</li>
+    <li>terrain_wordMas->atol</li>
+    <li>terrain_wordMas->korálový ostrov</li>
+    <li>terrain_wordPlu->útesy</li>
+    <li>terrain_wordPlu->ostrůvky</li>
+    <li>terrain_wordPlu->výběžky</li>
+    <li>terrain_wordPlu->výčnělky</li>
+    <li>terrain_wordMas->archipel</li>
+  </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->shrubland</li>
@@ -25,7 +49,36 @@
     <li>terrain_word->brush</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerAridShrubland.rulePack.rulesStrings>TODO</NamerAridShrubland.rulePack.rulesStrings>
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>terrain_wordFem(p=4)->savana</li>
+    <li>terrain_wordFem(p=4)->prérie</li>
+    <li>terrain_wordFem(p=2)->step</li>
+    <li>terrain_wordFem(p=2)->buš</li>
+    <li>terrain_wordFem->pustina</li>
+    <li>terrain_wordFem->divočina</li>
+    <li>terrain_wordFem->rovina</li>
+    <li>terrain_wordPlu->křoviny</li>
+    <li>terrain_wordPlu->trávníky</li>
+    <li>terrain_wordNeu->vřesoviště</li>
+    <li>terrain_wordMas->křovinový les</li>
+    <li>terrain_wordPlu->pastviny</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -35,7 +88,25 @@
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
   -->
-  <NamerBay.rulePack.rulesStrings>TODO</NamerBay.rulePack.rulesStrings>
+  <NamerBay.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>terrain_wordMas(p=3)->záliv</li>
+    <li>terrain_wordFem(p=3)->zátoka</li>
+    <li>terrain_wordNeu->kotviště</li>
+    <li>terrain_wordMas->přístav</li>
+    <li>terrain_wordMas->fjord</li>
+  </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -46,7 +117,32 @@
     <li>terrain_word->tangle</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerBorealForest.rulePack.rulesStrings>TODO</NamerBorealForest.rulePack.rulesStrings>
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>terrain_wordMas(p=6)->les</li>
+    <li>terrain_wordFem(p=3)->tajga</li>
+    <li>terrain_wordMas->lesík</li>
+    <li>terrain_wordMas->hvozd</li>
+    <li>terrain_wordPlu->houštiny</li>
+    <li>terrain_wordPlu->smrčiny</li>
+    <li>terrain_wordMas->jehličnatý les</li>
+    <li>terrain_wordPlu->jehličnaté lesy</li>
+  </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
@@ -72,7 +168,54 @@
     <li>terrain_word->wasteland</li>
     <li>terrain_word->barrens</li>
   -->
-  <NamerDesert.rulePack.rulesStrings>TODO</NamerDesert.rulePack.rulesStrings>
+  <NamerDesert.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>r_name(p=0.4)->[desert_adjectiveMasFemNeuPlu]</li>
+    <li>desert_adjectiveMasFemNeuPlu->[prefixNarrative_nameMas] [desert_adjective]ý [terrain_wordMas]</li>
+    <li>desert_adjectiveMasFemNeuPlu->[prefixNarrative_nameFem] [desert_adjective]á [terrain_wordFem]</li>
+    <li>desert_adjectiveMasFemNeuPlu->[prefixNarrative_nameNeu] [desert_adjective]é [terrain_wordNeu]</li>
+    <li>desert_adjectiveMasFemNeuPlu->[prefixNarrative_namePlu] [desert_adjective]é [terrain_wordPlu]</li>
+    <li>desert_adjective->zvětral</li>
+    <li>desert_adjective->bíl</li>
+    <li>desert_adjective->nekonečn</li>
+    <li>desert_adjective->nelítostn</li>
+    <li>desert_adjective->vyprahl</li>
+    <li>desert_adjective->vyschl</li>
+    <li>desert_adjective->dlouh</li>
+    <li>desert_adjective->spálen</li>
+    <li>desert_adjective->slunečn</li>
+    <li>desert_adjective->oslniv</li>
+    <li>desert_adjective->rozpálen</li>
+    <li>desert_adjective->zpocen</li>
+    <li>desert_adjective->skalnat</li>
+    <li>terrain_wordFem(p=6)->poušť</li>
+    <li>terrain_wordFem->polopoušť</li>
+    <li>terrain_wordPlu->písky</li>
+    <li>terrain_wordFem->plošina</li>
+    <li>terrain_wordFem->rovina</li>
+    <li>terrain_wordFem->pláň</li>
+    <li>terrain_wordNeu->údolí</li>
+    <li>terrain_wordPlu->nížiny</li>
+    <li>terrain_wordFem->pánev</li>
+    <li>terrain_wordFem->kotlina</li>
+    <li>terrain_wordFem->pustina</li>
+    <li>terrain_wordMas->úhor</li>
+  </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=6)->forest</li>
@@ -80,7 +223,32 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->thicket</li>
   -->
-  <NamerForest.rulePack.rulesStrings>TODO</NamerForest.rulePack.rulesStrings>
+  <NamerForest.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>terrain_wordMas(p=6)->les</li>
+    <li>terrain_wordMas->lesík</li>
+    <li>terrain_wordMas->hvozd</li>
+    <li>terrain_wordMas->háj</li>
+    <li>terrain_wordMas->lužní les</li>
+    <li>terrain_wordPlu->houštiny</li>
+    <li>terrain_wordPlu->bučiny</li>
+    <li>terrain_wordPlu->doubravy</li>
+    <li>terrain_wordPlu->smrčiny</li>
+    <li>terrain_wordPlu->bory</li>
+    <li>terrain_wordPlu->březiny</li>
+    <li>terrain_wordMas->[typeOfForest]ý les</li>
+    <li>terrain_wordPlu->[typeOfForest]é lesy</li>
+    <li>typeOfForest->jehličnat</li>
+    <li>typeOfForest->smíšen</li>
+    <li>typeOfForest->listnat</li>
+  </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->sheet</li>
@@ -92,7 +260,24 @@
     <li>terrain_word(p=0.3)->stretch</li>
     <li>terrain_word(p=0.3)->tract</li>
   -->
-  <NamerIceSheet.rulePack.rulesStrings>TODO</NamerIceSheet.rulePack.rulesStrings>
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>terrain_wordMas->ledový příkrov</li>
+    <li>terrain_wordMas->ledový štít</li>
+    <li>terrain_wordNeu(p=0.5)->ledové pole</li>
+    <li>terrain_wordFem(p=0.3)->ledová plocha</li>
+  </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -104,7 +289,18 @@
     <li>terrain_word->islet</li>
     <li>terrain_word->point</li>
   -->
-  <NamerIsland.rulePack.rulesStrings>TODO</NamerIsland.rulePack.rulesStrings>
+  <NamerIsland.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>terrain_wordMas(p=4)->ostrov</li>
+    <li>terrain_wordMas(p=2)->ostrůvek</li>
+    <li>terrain_wordMas->útes</li>
+    <li>terrain_wordMas->atol</li>
+    <li>terrain_wordMas->výběžek</li>
+    <li>terrain_wordMas->výčnělek</li>
+  </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->lake [narrative_name]</li>
@@ -117,7 +313,28 @@
     <li>terrain_word(p=0.3)->lagoon</li>
     <li>terrain_word(p=0.3)->loch</li>
   -->
-  <NamerLake.rulePack.rulesStrings>TODO</NamerLake.rulePack.rulesStrings>
+  <NamerLake.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>terrain_wordNeu(p=6)->jezero</li>
+    <li>terrain_wordNeu->moře</li>
+    <li>terrain_wordFem->nádrž</li>
+    <li>terrain_wordMas->rybník</li>
+    <li>terrain_wordNeu->povodí</li>
+    <li>terrain_wordMas->rezervoár</li>
+    <li>terrain_wordFem(p=0.3)->laguna</li>
+    <li>terrain_wordNeu(p=0.3)->jezírko</li>
+  </NamerLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->mount [narrative_name]</li>
@@ -127,7 +344,34 @@
     <li>terrain_word->hills</li>
     <li>terrain_word->cliffs</li>
   -->
-  <NamerMountainRange.rulePack.rulesStrings>TODO</NamerMountainRange.rulePack.rulesStrings>
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>terrain_wordFem(p=5)->hora</li>
+    <li>terrain_wordPlu(p=2)->hory</li>
+    <li>terrain_wordNeu(p=2)->horské pásmo</li>
+    <li>terrain_wordNeu(p=2)->pohoří</li>
+    <li>terrain_wordPlu->vrcholy</li>
+    <li>terrain_wordNeu->horstvo</li>
+    <li>terrain_wordPlu->vrchy</li>
+    <li>terrain_wordFem->vrchovina</li>
+    <li>terrain_wordFem->vysočina</li>
+    <li>terrain_wordFem->vyvýšenina</li>
+    <li>terrain_wordPlu->kopce</li>
+    <li>terrain_wordPlu->skály</li>
+    <li>terrain_wordFem->skaliska</li>
+    <li>terrain_wordNeu->pásmo</li>
+  </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
@@ -148,7 +392,34 @@
     <li>terrain_word(p=3)->sea</li>
     <li>terrain_word->expanse</li>
   -->
-  <NamerOcean.rulePack.rulesStrings>TODO</NamerOcean.rulePack.rulesStrings>
+  <NamerOcean.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.4)->[ocean_adjectiveMasNeu]</li>
+    <li>ocean_adjectiveMasNeu->[prefixNarrative_nameMas] [ocean_adjective]ý [terrain_wordMas]</li>
+    <li>ocean_adjectiveMasNeu->[prefixNarrative_nameNeu] [ocean_adjective]é [terrain_wordNeu]</li>
+    <li>ocean_adjective->modr</li>
+    <li>ocean_adjective->bíl</li>
+    <li>ocean_adjective->šediv</li>
+    <li>ocean_adjective->čir</li>
+    <li>ocean_adjective->větrn</li>
+    <li>ocean_adjective->bouřliv</li>
+    <li>ocean_adjective->klidn</li>
+    <li>ocean_adjective->šir</li>
+    <li>ocean_adjective->nekonečn</li>
+    <li>ocean_adjective->mělk</li>
+    <li>ocean_adjective->tich</li>
+    <li>ocean_adjective->zvlněn</li>
+    <li>ocean_adjective->vlídn</li>
+    <li>terrain_wordMas(p=6)->oceán</li>
+    <li>terrain_wordNeu(p=3)->moře</li>
+  </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -159,7 +430,15 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerPeninsula.rulePack.rulesStrings>TODO</NamerPeninsula.rulePack.rulesStrings>
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>terrain_wordMas(p=5)->poloostrov</li>
+    <li>terrain_wordMas(p=2)->výběžek</li>
+    <li>terrain_wordMas->mys</li>
+  </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->lake [narrative_name]</li>
@@ -167,7 +446,14 @@
     <li>terrain_word->ocean</li>
     <li>terrain_word->lake</li>
   -->
-  <NamerSea.rulePack.rulesStrings>TODO</NamerSea.rulePack.rulesStrings>
+  <NamerSea.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>terrain_wordNeu(p=6)->moře</li>
+    <li>terrain_wordNeu->jezero</li>
+  </NamerSea.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.1)->fen [narrative_name]</li>
@@ -189,7 +475,47 @@
     <li>terrain_word->marsh</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerSwamp.rulePack.rulesStrings>TODO</NamerSwamp.rulePack.rulesStrings>
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>r_name(p=0.3)->[swamp_adjectiveMasFemNeuPlu]</li>
+    <li>swamp_adjectiveMasFemNeuPlu->[prefixNarrative_nameMas] [swamp_adjective]ý [terrain_wordMas]</li>
+    <li>swamp_adjectiveMasFemNeuPlu->[prefixNarrative_nameFem] [swamp_adjective]á [terrain_wordFem]</li>
+    <li>swamp_adjectiveMasFemNeuPlu->[prefixNarrative_nameNeu] [swamp_adjective]é [terrain_wordNeu]</li>
+    <li>swamp_adjectiveMasFemNeuPlu->[prefixNarrative_namePlu] [swamp_adjective]é [terrain_wordPlu]</li>
+    <li>swamp_adjective->vlhk</li>
+    <li>swamp_adjective->mlhav</li>
+    <li>swamp_adjective->dusiv</li>
+    <li>swamp_adjective->shnil</li>
+    <li>swamp_adjective->hnilobn</li>
+    <li>swamp_adjective->zarostl</li>
+    <li>swamp_adjective->spletit</li>
+    <li>swamp_adjective->révovit</li>
+    <li>swamp_adjective->trnit</li>
+    <li>terrain_wordFem(p=3)->bažina</li>
+    <li>terrain_wordMas(p=3)->močál</li>
+    <li>terrain_wordNeu->povodí</li>
+    <li>terrain_wordPlu->mokřady</li>
+    <li>terrain_wordFem->mokřina</li>
+    <li>terrain_wordPlu->bažiny</li>
+    <li>terrain_wordPlu->močály</li>
+    <li>terrain_wordNeu->vřesoviště</li>
+    <li>terrain_wordNeu->rašeliniště</li>
+  </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
@@ -207,7 +533,38 @@
     <li>terrain_word->woodland</li>
     <li>terrain_word->tangle</li>
   -->
-  <NamerTropicalRainforest.rulePack.rulesStrings>TODO</NamerTropicalRainforest.rulePack.rulesStrings>
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameMas] [terrain_wordMas]</li>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordMas] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordMas] [narrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordMas] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>r_name(p=0.3)->[rainforest_adjectiveMasFemPlu]</li>
+    <li>rainforest_adjectiveMasFemPlu->[prefixNarrative_nameMas] [rainforest_adjective]ý [terrain_wordMas]</li>
+    <li>rainforest_adjectiveMasFemPlu->[prefixNarrative_nameFem] [rainforest_adjective]á [terrain_wordFem]</li>
+    <li>rainforest_adjectiveMasFemPlu->[prefixNarrative_namePlu] [rainforest_adjective]é [terrain_wordPlu]</li>
+    <li>rainforest_adjective->vlhk</li>
+    <li>rainforest_adjective->mlhav</li>
+    <li>rainforest_adjective->dusiv</li>
+    <li>rainforest_adjective->přerostl</li>
+    <li>rainforest_adjective->spletit</li>
+    <li>rainforest_adjective->liánovit</li>
+    <li>rainforest_adjective->trnit</li>
+    <li>terrain_wordMas(p=6)->deštný prales</li>
+    <li>terrain_wordFem(p=3)->džungle</li>
+    <li>terrain_wordMas->prales</li>
+    <li>terrain_wordMas->les</li>
+    <li>terrain_wordMas->lesík</li>
+    <li>terrain_wordPlu->lesy</li>
+    <li>terrain_wordPlu->houštiny</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->plateau</li>
@@ -223,7 +580,27 @@
     <li>terrain_word->prairie</li>
     <li>terrain_word->flats</li>
   -->
-  <NamerTundra.rulePack.rulesStrings>TODO</NamerTundra.rulePack.rulesStrings>
+  <NamerTundra.rulePack.rulesStrings>
+    <li>r_name->[prefixNarrative_nameFem] [terrain_wordFem]</li>
+    <li>r_name->[prefixNarrative_nameNeu] [terrain_wordNeu]</li>
+    <li>r_name->[prefixNarrative_namePlu] [terrain_wordPlu]</li>
+    <li>r_name->[terrain_wordFem] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [ofNarrative_name]</li>
+    <li>r_name->[terrain_wordFem] [narrative_name]</li>
+    <li>r_name->[terrain_wordNeu] [narrative_name]</li>
+    <li>r_name->[terrain_wordPlu] [narrative_name]</li>
+    <li>r_name(p=0.15)->[terrain_wordFem] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordNeu] [storyname]</li>
+    <li>r_name(p=0.15)->[terrain_wordPlu] [storyname]</li>
+    <li>terrain_wordFem(p=4)->plošina</li>
+    <li>terrain_wordFem(p=4)->pustina</li>
+    <li>terrain_wordFem(p=2)->tajga</li>
+    <li>terrain_wordFem->rovina</li>
+    <li>terrain_wordPlu->křoviny</li>
+    <li>terrain_wordNeu->vřesoviště</li>
+    <li>terrain_wordFem->pláň</li>
+  </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[narrative_name] [terrain_word]</li>
@@ -286,6 +663,194 @@
     <li>story_result->facade</li>
     <li>story_result->fraud</li>
   -->
-  <WorldFeatureNamerCommon.rulePack.rulesStrings>TODO</WorldFeatureNamerCommon.rulePack.rulesStrings>
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>ofNarrative_name(p=12)->[WordTribal]</li>
+    <li>ofNarrative_name(p=12)->[PlaceOutlander]</li>
+    <li>ofNarrative_name->[AnimalPluGen]</li>
+    <li>ofNarrative_name->[ColorUni]ých [AnimalPluGen]</li>
+    <li>ofNarrative_name->[ColorUni]ých [NaturalObjectPluGen]</li>
+    <li>ofNarrative_name->[ColorUni]ých [BodyPartPluGen]</li>
+    <li>ofNarrative_name->[AdjectiveNaturalUniCap]ých [AnimalPluGen]</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[ColorPlaces]</li>
+    <li>narrative_name->[colorAnimal_y_a_e]</li>
+    <li>colorAnimal_y_a_e(p=0.60)->[ColorUniCap]ý [AnimalMasNom]</li>
+    <li>colorAnimal_y_a_e(p=0.38)->[ColorUniCap]á [AnimalFemNom]</li>
+    <li>colorAnimal_y_a_e(p=0.02)->[ColorUniCap]é [AnimalNeuNom]</li>
+    <li>narrative_name->[colorNaturalObject_y_a_e]</li>
+    <li>colorNaturalObject_y_a_e(p=0.50)->[ColorUniCap]ý [NaturalObjectMasNom]</li>
+    <li>colorNaturalObject_y_a_e(p=0.24)->[ColorUniCap]á [NaturalObjectFemNom]</li>
+    <li>colorNaturalObject_y_a_e(p=0.26)->[ColorUniCap]é [NaturalObjectNeuNom]</li>
+    <li>narrative_name->[colorNaturalObject_y_a_e]</li>
+    <li>colorNaturalObject_y_a_e(p=0.35)->[ColorUniCap]ý [BodyPartMasNom]</li>
+    <li>colorNaturalObject_y_a_e(p=0.39)->[ColorUniCap]á [BodyPartFemNom]</li>
+    <li>colorNaturalObject_y_a_e(p=0.26)->[ColorUniCap]é [BodyPartNeuNom]</li>
+    <li>narrative_name->[adjectiveNaturalAnimal_y_a_e]</li>
+    <li>adjectiveNaturalAnimal_y_a_e(p=0.60)->[AdjectiveNaturalUniCap]ý [AnimalMasNom]</li>
+    <li>adjectiveNaturalAnimal_y_a_e(p=0.38)->[AdjectiveNaturalUniCap]á [AnimalFemNom]</li>
+    <li>adjectiveNaturalAnimal_y_a_e(p=0.02)->[AdjectiveNaturalUniCap]é [AnimalNeuNom]</li>
+    <li>prefixNarrative_nameMas(p=12)->[wordTribalGenAdjMas]</li>
+    <li>prefixNarrative_nameMas(p=12)->[PlaceOutlanderUniAdj]ý</li>
+    <li>prefixNarrative_nameMas->[AdjAnimalPluCap]</li>
+    <li>prefixNarrative_nameMas->[ColorUniCap]ý</li>
+    <li>wordTribalGenAdjMas->[WordTribalUniGen]ův</li>
+    <li>wordTribalGenAdjMas->[WordTribalUniAdj]ý</li>
+    <li>prefixNarrative_nameFem(p=12)->[wordTribalGenAdjFem]</li>
+    <li>prefixNarrative_nameFem(p=12)->[PlaceOutlanderUniAdj]á</li>
+    <li>prefixNarrative_nameFem->[AdjAnimalPluCap]</li>
+    <li>prefixNarrative_nameFem->[ColorUniCap]á</li>
+    <li>wordTribalGenAdjFem->[WordTribalUniGen]ova</li>
+    <li>wordTribalGenAdjFem->[WordTribalUniAdj]á</li>
+    <li>prefixNarrative_nameNeu(p=12)->[wordTribalGenAdjNeu]</li>
+    <li>prefixNarrative_nameNeu(p=12)->[PlaceOutlanderUniAdj]é</li>
+    <li>prefixNarrative_nameNeu->[AdjAnimalPluCap]</li>
+    <li>prefixNarrative_nameNeu->[ColorUniCap]é</li>
+    <li>wordTribalGenAdjNeu->[WordTribalUniGen]ovo</li>
+    <li>wordTribalGenAdjNeu->[WordTribalUniAdj]é</li>
+    <li>prefixNarrative_namePlu(p=12)->[wordTribalGenAdjPlu]</li>
+    <li>prefixNarrative_namePlu(p=12)->[PlaceOutlanderUniAdj]é</li>
+    <li>prefixNarrative_namePlu->[AdjAnimalPluCap]</li>
+    <li>prefixNarrative_namePlu->[ColorUniCap]é</li>
+    <li>wordTribalGenAdjPlu->[WordTribalUniGen]ovy</li>
+    <li>wordTribalGenAdjPlu->[WordTribalUniAdj]é</li>
+    <li>storyname(p=25)->[subjectStoryResult]</li>
+    <li>storyname(p=25)->[ofSubjectStoryResult]</li>
+    <li>storyname(p=2)->[subjectBodyPart]</li>
+    <li>storyname->[subjectGore]</li>
+    <li>subjectStoryResult->[animalStoryResult]</li>
+    <li>subjectStoryResult->[wordTribalStoryResult]</li>
+    <li>subjectStoryResult->[placeOutlanderStoryResult]</li>
+    <li>ofSubjectStoryResult->[ofAnimalStoryResult]</li>
+    <li>ofSubjectStoryResult->[ofWordTribalStoryResult]</li>
+    <li>ofSubjectStoryResult->[ofPlaceOutlanderStoryResult]</li>
+    <li>animalStoryResult->[AdjAnimalPluCap] [story_resultUniNom]</li>
+    <li>wordTribalStoryResult(p=0.39)->[wordTribalGenAdjMas] [story_resultMasNom]</li>
+    <li>wordTribalStoryResult(p=0.47)->[wordTribalGenAdjFem] [story_resultFemNom]</li>
+    <li>wordTribalStoryResult(p=0.11)->[wordTribalGenAdjNeu] [story_resultNeuNom]</li>
+    <li>wordTribalStoryResult(p=0.03)->[wordTribalGenAdjPlu] [story_resultPluNom]</li>
+    <li>placeOutlanderStoryResult(p=0.39)->[PlaceOutlanderUniAdj]ý [story_resultMasNom]</li>
+    <li>placeOutlanderStoryResult(p=0.47)->[PlaceOutlanderUniAdj]á [story_resultFemNom]</li>
+    <li>placeOutlanderStoryResult(p=0.11)->[PlaceOutlanderUniAdj]é [story_resultNeuNom]</li>
+    <li>placeOutlanderStoryResult(p=0.03)->[PlaceOutlanderUniAdj]é [story_resultPluNom]</li>
+    <li>story_resultUniNom(p=0.39)->[story_resultMasNom]</li>
+    <li>story_resultUniNom(p=0.47)->[story_resultFemNom]</li>
+    <li>story_resultUniNom(p=0.11)->[story_resultNeuNom]</li>
+    <li>story_resultUniNom(p=0.03)->[story_resultPluNom]</li>
+    <li>ofAnimalStoryResult(p=0.39)->[AdjAnimalPlu]ho [story_resultMasGen]</li>
+    <li>ofAnimalStoryResult(p=0.47)->[AdjAnimalPlu] [story_resultFemGen]</li>
+    <li>ofAnimalStoryResult(p=0.11)->[AdjAnimalPlu]ho [story_resultNeuGen]</li>
+    <li>ofAnimalStoryResult(p=0.03)->[AdjAnimalPlu] [story_resultPluGen]</li>
+    <li>ofWordTribalStoryResult(p=0.39)->[WordTribalUniAdj]ého [story_resultMasGen]</li>
+    <li>ofWordTribalStoryResult(p=0.47)->[WordTribalUniAdj]é [story_resultFemGen]</li>
+    <li>ofWordTribalStoryResult(p=0.11)->[WordTribalUniAdj]ého [story_resultNeuGen]</li>
+    <li>ofWordTribalStoryResult(p=0.03)->[WordTribalUniAdj]é [story_resultPluGen]</li>
+    <li>ofPlaceOutlanderStoryResult(p=0.39)->[PlaceOutlanderUniAdj]ého [story_resultMasGen]</li>
+    <li>ofPlaceOutlanderStoryResult(p=0.47)->[PlaceOutlanderUniAdj]é [story_resultFemGen]</li>
+    <li>ofPlaceOutlanderStoryResult(p=0.11)->[PlaceOutlanderUniAdj]ého [story_resultNeuGen]</li>
+    <li>ofPlaceOutlanderStoryResult(p=0.03)->[PlaceOutlanderUniAdj]é [story_resultPluGen]</li>
+    <li>subjectBodyPart->[animalBodyPart]</li>
+    <li>subjectBodyPart->[wordTribalBodyPart]</li>
+    <li>subjectBodyPart->[placeOutlanderBodyPart]</li>
+    <li>animalBodyPart->[AdjAnimalPluCap] [bodyPartUniNom]</li>
+    <li>wordTribalBodyPart(p=0.34)->[wordTribalGenAdjMas] [BodyPartMasNom]</li>
+    <li>wordTribalBodyPart(p=0.41)->[wordTribalGenAdjFem] [BodyPartFemNom]</li>
+    <li>wordTribalBodyPart(p=0.25)->[wordTribalGenAdjNeu] [BodyPartNeuNom]</li>
+    <li>placeOutlanderBodyPart(p=0.34)->[PlaceOutlanderUniAdj]ý [BodyPartMasNom]</li>
+    <li>placeOutlanderBodyPart(p=0.41)->[PlaceOutlanderUniAdj]á [BodyPartFemNom]</li>
+    <li>placeOutlanderBodyPart(p=0.25)->[PlaceOutlanderUniAdj]é [BodyPartNeuNom]</li>
+    <li>bodyPartUniNom(p=0.34)->[BodyPartMasNom]</li>
+    <li>bodyPartUniNom(p=0.41)->[BodyPartFemNom]</li>
+    <li>bodyPartUniNom(p=0.25)->[BodyPartNeuNom]</li>
+    <li>subjectGore->[animalGore]</li>
+    <li>subjectGore->[wordTribalGore]</li>
+    <li>subjectGore->[placeOutlanderGore]</li>
+    <li>animalGore->[AdjAnimalPluCap] [goreUniNom]</li>
+    <li>wordTribalGore(p=0.20)->[wordTribalGenAdjMas] [GoreMasNom]</li>
+    <li>wordTribalGore(p=0.50)->[wordTribalGenAdjFem] [GoreFemNom]</li>
+    <li>wordTribalGore(p=0.30)->[wordTribalGenAdjNeu] [GoreNeuNom]</li>
+    <li>placeOutlanderGore(p=0.20)->[PlaceOutlanderUniAdj]ý [GoreMasNom]</li>
+    <li>placeOutlanderGore(p=0.50)->[PlaceOutlanderUniAdj]á [GoreFemNom]</li>
+    <li>placeOutlanderGore(p=0.30)->[PlaceOutlanderUniAdj]é [GoreNeuNom]</li>
+    <li>goreUniNom(p=0.20)->[GoreMasNom]</li>
+    <li>goreUniNom(p=0.50)->[GoreFemNom]</li>
+    <li>goreUniNom(p=0.30)->[GoreNeuNom]</li>
+    <li>story_resultFemNom->pošetilost</li>
+    <li>story_resultPluNom->neřesti</li>
+    <li>story_resultNeuNom->šílenství</li>
+    <li>story_resultFemNom->chyba</li>
+    <li>story_resultFemNom->vina</li>
+    <li>story_resultMasNom->přešlap</li>
+    <li>story_resultMasNom->klam</li>
+    <li>story_resultNeuNom->štěstí</li>
+    <li>story_resultFemNom->rozkoš</li>
+    <li>story_resultMasNom->zázrak</li>
+    <li>story_resultFemNom->pýcha</li>
+    <li>story_resultMasNom->klenot</li>
+    <li>story_resultFemNom->výhra</li>
+    <li>story_resultFemNom->štědrost</li>
+    <li>story_resultFemNom->čest</li>
+    <li>story_resultMasNom->jackpot</li>
+    <li>story_resultFemNom->trofej</li>
+    <li>story_resultFemNom->ješitnost</li>
+    <li>story_resultFemNom->arogance</li>
+    <li>story_resultMasNom->postoj</li>
+    <li>story_resultFemNom->prohra</li>
+    <li>story_resultMasNom->dluh</li>
+    <li>story_resultMasNom->kolaps</li>
+    <li>story_resultFemNom->zkáza</li>
+    <li>story_resultFemNom->pohroma</li>
+    <li>story_resultFemNom->ruina</li>
+    <li>story_resultNeuNom->ztroskotání</li>
+    <li>story_resultFemNom->zhouba</li>
+    <li>story_resultMasNom->pád</li>
+    <li>story_resultMasNom->konec</li>
+    <li>story_resultMasNom->odchod</li>
+    <li>story_resultMasNom->úspěch</li>
+    <li>story_resultMasNom->vrchol</li>
+    <li>story_resultMasNom->blud</li>
+    <li>story_resultFemNom->lest</li>
+    <li>story_resultMasNom->podvod</li>
+    <li>story_resultNeuNom->pozlátko</li>
+    <li>story_resultFemNom->zpronevěra</li>
+    <li>story_resultFemGen->pošetilosti</li>
+    <li>story_resultPluGen->neřestí</li>
+    <li>story_resultNeuGen->šílenství</li>
+    <li>story_resultFemGen->chyby</li>
+    <li>story_resultFemGen->viny</li>
+    <li>story_resultMasGen->přešlapu</li>
+    <li>story_resultMasGen->klamu</li>
+    <li>story_resultNeuGen->štěstí</li>
+    <li>story_resultFemGen->rozkoše</li>
+    <li>story_resultMasGen->zázraku</li>
+    <li>story_resultFemGen->pýchy</li>
+    <li>story_resultMasGen->klenotu</li>
+    <li>story_resultFemGen->výhry</li>
+    <li>story_resultFemGen->štědrosti</li>
+    <li>story_resultFemGen->cti</li>
+    <li>story_resultMasGen->jackpotu</li>
+    <li>story_resultFemGen->trofeje</li>
+    <li>story_resultFemGen->ješitnosti</li>
+    <li>story_resultFemGen->arogance</li>
+    <li>story_resultMasGen->postoje</li>
+    <li>story_resultFemGen->prohry</li>
+    <li>story_resultMasGen->dluhu</li>
+    <li>story_resultMasGen->kolapsu</li>
+    <li>story_resultFemGen->zkázy</li>
+    <li>story_resultFemGen->pohromy</li>
+    <li>story_resultFemGen->ruiny</li>
+    <li>story_resultNeuGen->ztroskotání</li>
+    <li>story_resultFemGen->zhouby</li>
+    <li>story_resultMasGen->pádu</li>
+    <li>story_resultMasGen->konce</li>
+    <li>story_resultMasGen->odchodu</li>
+    <li>story_resultMasGen->úspěchu</li>
+    <li>story_resultMasGen->vrcholu</li>
+    <li>story_resultMasGen->bludu</li>
+    <li>story_resultFemGen->lsti</li>
+    <li>story_resultMasGen->podvodu</li>
+    <li>story_resultNeuGen->pozlátka</li>
+    <li>story_resultFemGen->zpronevěry</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>

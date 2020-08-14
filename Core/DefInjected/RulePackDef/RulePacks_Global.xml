@@ -51,14 +51,18 @@
     <li>SylB->WordParts/Syllables_Byzantinian</li>
     <li>SylE->WordParts/Syllables_English</li>
     <li>SylG->WordParts/Syllables_Galician</li>
+    <li>SylGUniAdj->WordParts/Syllables_Galician_UniversalAdjective</li>
     <li>SylB_Cap->WordParts/Syllables_Byzantinian_Capitalized</li>
     <li>SylE_Cap->WordParts/Syllables_English_Capitalized</li>
     <li>SylG_Cap->WordParts/Syllables_Galician_Capitalized</li>
     <li>Tribal_Cap->Words/Foreign/Tribal_Capitalized</li>
+    <li>Tribal_CapUniAdj->Words/Foreign/Tribal_CapitalizedUniversalAdjective</li>
+    <li>Tribal_CapUniGen->Words/Foreign/Tribal_CapitalizedUniversalGenitive</li>
 
 
     <li>Color->Words/Nouns/Colors</li>
     <li>ColorUni->Words/Nouns/Colors_Universal</li>
+    <li>ColorUniCap->Words/Nouns/Colors_UniversalCapitalized</li>
     <li>ColorInUni->Words/Nouns/Colors_InUniversal</li>
     <li>ColorMas->Words/Nouns/Colors_Masculine</li>
     <li>ColorFem->Words/Nouns/Colors_Feminine</li>
@@ -69,6 +73,8 @@
     <li>ColorBadassMas->Words/Nouns/Colors_Badass_Masculine</li>
     <li>ColorBadassFem->Words/Nouns/Colors_Badass_Feminine</li>
     <li>ColorBadassNeu->Words/Nouns/Colors_Badass_Neuter</li>
+
+    <li>ColorPlaces->Words/Nouns/Colors_Places</li>
 
     <li>Vegetable->Words/Nouns/Vegetables</li>
     <li>VegetableUniNom->Words/Nouns/Vegetables_UniversalNominative</li>
@@ -111,6 +117,8 @@
     <li>AnimalBadassPlu->Words/Nouns/Animals_Badass_Plural</li>
     <li>AnimalBadassPluGen->Words/Nouns/Animals_Badass_PluralGenitive</li>
 
+    <li>AdjAnimalPlu->Words/Adjectives/AdjectiveAnimals_Plural</li>
+    <li>AdjAnimalPluCap->Words/Adjectives/AdjectiveAnimals_PluralCapitalized</li>
     <li>AdjAnimalBadassPlu->Words/Adjectives/AdjectiveAnimals_Badass_Plural</li>
 
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
@@ -154,12 +162,16 @@
 
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
     <li>NaturalObjectPluLoc->Words/Nouns/NaturalObjectPluralLocative</li>
+    <li>NaturalObjectMasNom->Words/Nouns/NaturalObject_MasculineNominative</li>
     <li>NaturalObjectMasGen->Words/Nouns/NaturalObject_MasculineGenitive</li>
     <li>NaturalObjectMasAcc->Words/Nouns/NaturalObject_MasculineAccusative</li>
+    <li>NaturalObjectFemNom->Words/Nouns/NaturalObject_FeminineNominative</li>
     <li>NaturalObjectFemGen->Words/Nouns/NaturalObject_FeminineGenitive</li>
     <li>NaturalObjectFemAcc->Words/Nouns/NaturalObject_FeminineAccusative</li>
+    <li>NaturalObjectNeuNom->Words/Nouns/NaturalObject_NeuterNominative</li>
     <li>NaturalObjectNeuGen->Words/Nouns/NaturalObject_NeuterGenitive</li>
     <li>NaturalObjectNeuAcc->Words/Nouns/NaturalObject_NeuterAccusative</li>
+    <li>NaturalObjectPluGen->Words/Nouns/NaturalObject_PluralGenitive</li>
     <li>NaturalObjectToUniDat_e->Words/Nouns/NaturalObjectToUniversalDative_e</li>
     <li>NaturalObjectToUniDat_i->Words/Nouns/NaturalObjectToUniversalDative_i</li>
     <li>NaturalObjectAsUniDat_ou->Words/Nouns/NaturalObjectAsUniversalDative_ou</li>
@@ -240,6 +252,9 @@
     <li>ApparelNeuAcc->Words/Nouns/Apparel_NeuterAccusative</li>
 
     <li>Gore->Words/Nouns/Gore</li>
+    <li>GoreMasNom->Words/Nouns/Gore_MasculineNominative</li>
+    <li>GoreFemNom->Words/Nouns/Gore_FeminineNominative</li>
+    <li>GoreNeuNom->Words/Nouns/Gore_NeuterNominative</li>
     <li>GorePluGen->Words/Nouns/Gore_PluralGenitive</li>
     <li>GorePluIns->Words/Nouns/Gore_PluralInstrumental</li>
 
@@ -283,6 +298,10 @@
     <li>CommunityNeuAcc->Words/Nouns/Communities_NeuterAccusative</li>
 
     <li>BodyPart->Words/Nouns/Bodyparts</li>
+    <li>BodyPartMasNom->Words/Nouns/Bodyparts_MasculineNominative</li>
+    <li>BodyPartFemNom->Words/Nouns/Bodyparts_FeminineNominative</li>
+    <li>BodyPartNeuNom->Words/Nouns/Bodyparts_NeuterNominative</li>
+    <li>BodyPartPluGen->Words/Nouns/Bodyparts_PluralGenitive</li>
 
     <li>AdjectiveLarge->Words/Adjectives/Large</li>
 
@@ -305,6 +324,7 @@
     <li>AdjectiveFriendlyFemAcc->Words/Adjectives/Friendly_FeminineAccusative</li>
 
     <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+    <li>AdjectiveNaturalUniCap->Words/Adjectives/Natural_UniversalCapitalized</li>
     <li>AdjectiveNaturalFemGen->Words/Adjectives/Natural_FeminineGenitive</li>
     <li>AdjectiveNaturalFemAcc->Words/Adjectives/Natural_FeminineAccusative</li>
 

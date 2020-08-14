@@ -6,6 +6,7 @@
   -->
   <OutlanderPlaceNameUtility.rulePack.rulesFiles>
     <li>place_end->WordParts/PlaceEndings</li>
+    <li>place_endUniAdj->WordParts/PlaceEndings_UniversalAdjective</li>
   </OutlanderPlaceNameUtility.rulePack.rulesFiles>
   <!-- EN:
     <li>PlaceOutlander->[SylE][place_end]</li>
@@ -22,6 +23,12 @@
     <li>PlaceOutlander->[SylE_Cap][SylE][place_end]</li>
     <li>PlaceOutlander->[SylE_Cap][SylE][place_end]</li>
     <li>PlaceOutlander->[SylE_Cap][SylE][SylE][place_end]</li>
+    <li>PlaceOutlanderUniAdj->[SylE_Cap][place_endUniAdj]</li>
+    <li>PlaceOutlanderUniAdj->[SylE_Cap][place_endUniAdj]</li>
+    <li>PlaceOutlanderUniAdj->[SylE_Cap][place_endUniAdj]</li>
+    <li>PlaceOutlanderUniAdj->[SylE_Cap][SylE][place_endUniAdj]</li>
+    <li>PlaceOutlanderUniAdj->[SylE_Cap][SylE][place_endUniAdj]</li>
+    <li>PlaceOutlanderUniAdj->[SylE_Cap][SylE][SylE][place_endUniAdj]</li>
   </OutlanderPlaceNameUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,6 +42,11 @@
     <li>WordTribal(p=3)->[SylG_Cap][SylG]</li>
     <li>WordTribal(p=2)->[SylG_Cap][SylG][SylG]</li>
     <li>WordTribal->[SylG_Cap][SylG][SylG][SylG]</li>
+    <li>WordTribalUniAdj(p=3)->[Tribal_CapUniAdj]</li>
+    <li>WordTribalUniAdj(p=3)->[SylG_Cap][SylGUniAdj]</li>
+    <li>WordTribalUniAdj(p=2)->[SylG_Cap][SylG][SylGUniAdj]</li>
+    <li>WordTribalUniAdj->[SylG_Cap][SylG][SylG][SylGUniAdj]</li>
+    <li>WordTribalUniGen(p=3)->[Tribal_CapUniGen]</li>
   </TribalWordUtility.rulePack.rulesStrings>
   
 </LanguageData>
