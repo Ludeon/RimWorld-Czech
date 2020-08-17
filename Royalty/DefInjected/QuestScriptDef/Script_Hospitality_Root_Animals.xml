@@ -20,7 +20,6 @@
     <li>LodgersArrivedText(lodgersCount>=2)->dorazil[animals_i_y_a] [lodgersLabelPluralNom]</li>
     <li>ShuttleArrivedText(lodgersCount==1)->hostovan[animal_eho_ou_e] [lodgersLabelAcc]. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby [lodgers0_nameDef] nastoupil[lodgers0_x_a] na jeho palubu včas.</li>
     <li>ShuttleArrivedText(lodgersCount>=2)->hostovan[animals_e_e_a] [lodgersLabelPluralAcc]. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby následující [lodgersLabelPluralNom] nastoupil[animals_i_y_a] na jeho palubu včas:\n\n[lodgers]</li>
-    <li>GuestDied->{SUBJECT_gender ? Zemřel : Zemřela} {SUBJECT_gender ? hostovaný : hostovaná}</li>
     <li>CollectShuttleDestroyedText(lodgersCount==1)->který měl vyzvednout hostovan[animal_eho_ou_e] [lodgersLabelAcc]</li>
     <li>CollectShuttleDestroyedText(lodgersCount>=2)->který měl vyzvednout hostovan[animals_e_e_a] [lodgersLabelPluralAcc]</li>
     <li>ShuttleDepartedText(lodgersCount==1)->který měl vyzvednout hostovan[animal_eho_ou_e] [lodgersLabelAcc]</li>

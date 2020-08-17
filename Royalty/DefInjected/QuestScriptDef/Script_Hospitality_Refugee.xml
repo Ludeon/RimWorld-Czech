@@ -83,29 +83,29 @@
     <li>oneOfThe->{SUBJECT_gender ? jeden : jedna} ze zoufalých [faction_pawnsPlural], kteří tě dříve požádali o poskytnutí přístřeší</li>
     <li>questOver->Tímto je tvůj úkol '[resolvedQuestName]' u konce.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe], právě {SUBJECT_gender ? zemřel : zemřela}.</li>
-    <li>lodgerDiedMemoryThoughtLetterLabel->[subjectLabel] {SUBJECT_gender ? zemřel : zemřela}: Hněv</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->Smrt [subjectLabelGen]: Hněv</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
-    <li>lodgerDiedAttackPlayerLetterLabel->[subjectLabel] {SUBJECT_gender ? zemřel : zemřela}: Pomsta</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->Smrt [subjectLabelGen]: Pomsta</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
-    <li>lodgerDiedLeaveMapLetterLabel->[subjectLabel] {SUBJECT_gender ? zemřel : zemřela}: Odchod</li>
+    <li>lodgerDiedLeaveMapLetterLabel->Smrt [subjectLabelGen]: Odchod</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->Nezdařený úkol</li>
     <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [lastOrNot], [whoAskedToStay], právě {SUBJECT_gender ? zemřel : zemřela}.\n\n[questOver]</li>
     <li>letterIntroArrested->{SUBJECT_definite}, [oneOfThe], {SUBJECT_gender ? byl právě zadržen : byla právě zadržena}.</li>
-    <li>lodgerArrestedMemoryThoughtLetterLabel->[subjectLabel] {SUBJECT_gender ? byl zadržen : byla zadržena}: Hněv</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->Zadržení [subjectLabelGen]: Hněv</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
-    <li>lodgerArrestedAttackPlayerLetterLabel->[subjectLabel] {SUBJECT_gender ? byl zadržen : byla zadržena}: Pomsta</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->Zadržení [subjectLabelGen]: Pomsta</li>
     <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
-    <li>lodgerArrestedLeaveMapLetterLabel->[subjectLabel] {SUBJECT_gender ? byl zadržen : byla zadržena}: Odchod</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->Zadržení [subjectLabelGen]: Odchod</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Nezdařený úkol</li>
     <li>lodgersAllArrestedLetterText->{SUBJECT_definite}, [lastOrNot], [whoAskedToStay], {SUBJECT_gender ? byl právě zadržen : byla právě zadržena}.\n\n[questOver]</li>
     <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], {SUBJECT_gender ? byl právě poraněn : byla právě poraněna} při chirurgickém zákroku.</li>
-    <li>lodgerViolatedMemoryThoughtLetterLabel->[subjectLabel] {SUBJECT_gender ? byl poraněn : byla poraněna}: Hněv</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->Poranění [subjectLabelGen]: Hněv</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->[subjectLabel] {SUBJECT_gender ? byl poraněn : byla poraněna}: Pomsta</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->Poranění [subjectLabelGen]: Pomsta</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[subjectLabel] {SUBJECT_gender ? byl poraněn : byla poraněna}: Odchod</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->Poranění [subjectLabelGen]: Odchod</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Zrada</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef], [lodgersWhoAskedToStay], se obrátil[asker_x_a_i] proti tobě!\n\nZdá se, že tuhle [zradu] plánoval[asker_x_a_i] celou dobu.</li>
@@ -142,7 +142,7 @@
     <li>lodgersLabelPlural->refugees</li>
   -->
   <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
-    <li>subjectLabel->{SUBJECT_gender ? Uprchlík : Uprchlice}</li>
+    <li>subjectLabelGen->{SUBJECT_gender ? uprchlíka : uprchlice}</li>
     <li>lodgersLabel->uprchl[asker_ik_ice]</li>
     <li>lodgersLabelPlural->uprchlíci</li>
     <li>lodgersLabelPluralGen->uprchlíků</li>
@@ -183,9 +183,9 @@
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] tě žádá o povolení zůstat v oblasti zvané [map_definite] alespoň na [questDurationTicks_duration], aby si mohl[asker_x_a_i] odpočinout a dát se trochu [dohromady].\n\nNa oplátku ti [offer], že [bude] během této doby zadarmo pracovat a bojovat.\n\n[joinInfo] Může se také stát, že tě za pomoc odmění později - ale neexistuje způsob, jak poznat [lodgersPossessive] skutečné úmysly.\n\n[travelerInfo] součástí žádné frakce. Pokud chceš, můžeš se rozhodnout [lodgersObjective] zabít, zatknout, prodat do otroctví nebo [lodgersObjective] obrat o orgány, aniž by ses musel obávat diplomatických důsledků.</li>
-    <li>approachInfo(lodgerCount==1)->Blíží se zoufal[asker_y_a] uprchl[asker_ik_ice] jménem [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount==2)->Blíží se [asker_nameDef] společně s dalším zoufalým uprchlíkem.</li>
-    <li>approachInfo(lodgerCount>=3)->Blíží se [lodgerCount] zoufal[RefugeeLodgerCount]. Součástí skupiny je [asker_nameDef], jejich vůd[asker_ce_kyne].</li>
+    <li>approachInfo(lodgerCount==1)->Blíží se (*ColonistCount)zoufal[asker_y_a] uprchl[asker_ik_ice](/ColonistCount) jménem [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount==2)->Blíží se [asker_nameDef] společně s (*ColonistCount)dalším zoufalým uprchlíkem(/ColonistCount).</li>
+    <li>approachInfo(lodgerCount>=3)->Blíží se (*ColonistCount)[lodgerCount] zoufal[RefugeeLodgerCount](/ColonistCount). Součástí skupiny je [asker_nameDef], jejich vůd[asker_ce_kyne].</li>
     <li>RefugeeLodgerCount(lodgerCount==3)->í uprchlíci</li>
     <li>RefugeeLodgerCount(lodgerCount==4)->í uprchlíci</li>
     <li>RefugeeLodgerCount(lodgerCount>=5)->ých [faction_pawnsPlural]</li>

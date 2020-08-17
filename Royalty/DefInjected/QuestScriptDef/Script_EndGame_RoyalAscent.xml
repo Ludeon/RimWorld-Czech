@@ -13,6 +13,7 @@
     <li>intro(sameQuestsCount==0)->Dozvěděl ses o způsobu, jak uniknout z této planety!\n\n</li>
     <li>intro(sameQuestsCount>=1)->Dostal jsi další šanci na královský vzestup.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nOstatní využijí příležitosti a pokusí se hvězdovlád[asker_ce_kyni] zabít. Zaútočí plnou silou. Připrav se na obranu.</li>
+    <li>DropShuttleDestroyedText->ze kterého měl[asker_x_a] [asker_faction_leaderTitle] vystoupit</li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(sameQuestsCount==0)->Royal Ascent</li>
@@ -50,7 +51,7 @@
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>Dorazil raketoplán</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>Dorazil raketoplán, aby vyzvedl hvězdovlád[asker_ce_kyni]\n\n[asker_faction_leaderTitle] nyní může včetně tvých lidí nastoupit na palubu raketoplánu, připojit se k Imperiální flotile a začít tak nový život.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>Dorazil raketoplán, aby vyzvedl hvězdovlád[asker_ce_kyni].\n\n[asker_faction_leaderTitle] nyní může včetně tvých lidí nastoupit na palubu raketoplánu, připojit se k Imperiální flotile a začít tak nový život.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
   <EndGame_RoyalAscent.EndGameEndingText.slateRef>Nejvyšší [asker_faction_leaderTitle] tě vítá mezi členy vážené šlechty Imperiální flotily.\n\nMůžeš zůstat součástí Imperiálního dvora a soupeřit o politickou moc. Možná se raději vyhneš zbytečnému dramatu a naplno si dopřeješ ultrateckého luxusu. Nebo si můžeš dokonce zakoupit vesmírnou loď a nastavit kurz směrem ke svému dávno ztracenému domovu.\n\nVýběr je pouze na tobě.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
@@ -60,11 +61,11 @@
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu a udržení dobré nálady, {SUBJECT_gender ? měl : měla} náladu příliš dlouho pod hranicí [lodgersMoodThreshold_percent]. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>{SUBJECT_gender ? Mrtvý : Mrtvá} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Smrt {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? zemřel : zemřela}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, právě {SUBJECT_gender ? zemřel : zemřela}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>{SUBJECT_gender ? Zadržený : Zadržená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>Zadržení {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been arrested. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
@@ -72,16 +73,20 @@
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} neoprávněně {SUBJECT_gender ? operován : operována}. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>{SUBJECT_gender ? Ztracený : Ztracená} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Ztráta {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
   <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? opustil : opustila} vyhrazenou osadu. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>Raketoplán byl zničen</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>Raketoplán, který měl hvězdovlád[asker_ce_kyni] vyzvednout, byl zničen. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>Raketoplán vyslaný k vyzvednutí [asker_faction_leaderTitle] byl právě zničen. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Guest lost: {SUBJECT_definite} -->
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>Ztráta {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
+  <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? uprchl : uprchla} do divočiny. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Nezdařený úkol: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without him. He will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>Raketoplán, který měl hvězdovlád[asker_ce_kyni] vyzvednout, odletěl bez [asker_nej_ni]. Nyní odejde po svých. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>Raketoplán vyslaný k vyzvednutí [asker_faction_leaderTitle] odletěl bez [asker_nej_ni]. Nyní odejde po svých. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>

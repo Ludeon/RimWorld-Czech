@@ -15,7 +15,6 @@
     <li>LodgersArrivedText(lodgersCount>=2)->dorazili [lodgersLabelPluralNom]</li>
     <li>ShuttleArrivedText(lodgersCount==1)->hostovan[lodgers0_eho_ou] věz[lodgers0_ne_enkyni]. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby [lodgers0_nameDef] nastoupil[lodgers0_x_a] na jeho palubu včas.</li>
     <li>ShuttleArrivedText(lodgersCount>=2)->hostované vězně. Raketoplán odletí po uplynutí [shuttleLeaveDelayTicks_duration]. Zajisti, aby následující vězni nastoupili na jeho palubu včas:\n\n[lodgers]</li>
-    <li>GuestDied->{SUBJECT_gender ? Zemřel : Zemřela} {SUBJECT_gender ? hostovaný : hostovaná} {SUBJECT_gender ? vězeň : vězeňkyně}</li>
     <li>CollectShuttleDestroyedText(lodgersCount==1)->ve kterém měl[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef] odletět</li>
     <li>CollectShuttleDestroyedText(lodgersCount>=2)->který měl vyzvednout vězně</li>
     <li>ShuttleDepartedText(lodgersCount==1)->do kterého měl[lodgers0_x_a] [lodgersLabel] [lodgers0_nameDef] nastoupit</li>

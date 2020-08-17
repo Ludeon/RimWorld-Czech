@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: Guest unhappy: {SUBJECT_definite} -->
-  <Util_ApplyMoodThreshold.LetterLabelGuestUnhappy.slateRef>Nešťastná návštěva</Util_ApplyMoodThreshold.LetterLabelGuestUnhappy.slateRef>
+  <Util_ApplyMoodThreshold.LetterLabelGuestUnhappy.slateRef>{SUBJECT_gender ? Nešťastný : Nešťastná} {SUBJECT_gender ? host : návštěvnice}: {SUBJECT_definite}</Util_ApplyMoodThreshold.LetterLabelGuestUnhappy.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [moodThreshold] too long.\n\n[remainingWillNowLeave] -->
   <Util_ApplyMoodThreshold.LetterTextGuestUnhappy.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu a udržení dobré nálady, {SUBJECT_gender ? měl : měla} náladu příliš dlouho pod hranicí [lodgersMoodThreshold_percent].\n\n[remainingWillNowLeave]</Util_ApplyMoodThreshold.LetterTextGuestUnhappy.slateRef>
   

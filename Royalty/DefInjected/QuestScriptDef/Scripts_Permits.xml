@@ -20,7 +20,7 @@
   <!-- EN: A shuttle has arrived to collect the laborers from [permitFaction_name]. -->
   <Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>Dorazil raketoplán k vyzvednutí dělníků, které ti poskytla frakce [permitFaction_name].</Permit_CallLaborers.LetterTextShuttleArrivedForLaborers.slateRef>
   <!-- EN: Laborer died: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>{SUBJECT_gender ? Mrtvý dělník : Mrtvá dělnice}: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Smrt {SUBJECT_gender ? dělníka : dělnice}: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
   <Permit_CallLaborers.LetterTextLaborerDied.slateRef>{SUBJECT_gender ? Dělník : Dělnice}, {SUBJECT_gender ? kterého : kterou} ti poslali z frakce [permitFaction_name], právě {SUBJECT_gender ? zemřel : zemřela}. Tvá prestiž s frakcí [permitFaction_name] proto klesla o [goodwillPenaltyPawn] bodů.</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
   <!-- EN: laborers missed shuttle -->
