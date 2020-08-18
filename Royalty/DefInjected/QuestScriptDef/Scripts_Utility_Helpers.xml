@@ -16,8 +16,8 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->Pod tvé velení bude přidělen[helpers0_x_a] jed[helpers0_en_na] [helpers0_kind]. Budeš [helpers0_mu_ji] muset zajistit ubytování a stravu, může však kdykoli zemřít v bitvě bez následného postihu.\n\n</li>
-    <li>helpersParagraph(helpersCount>=2)->Pod tvé velení bude přidělena [helpersCount_clenn]á posila. Budou to [helperKind_labelPlural], kterým budeš muset zajistit ubytování a stravu, mohou však kdykoli zemřít v bitvě bez následného postihu.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nPod tvé velení bude přidělen[helpers0_x_a] jed[helpers0_en_na] [helpers0_kind]. Budeš [helpers0_mu_ji] muset zajistit ubytování a stravu, může však kdykoli zemřít v bitvě bez následného postihu.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\nPod tvé velení bude přidělena [helpersCount_clenn]á posila. Budou to [helperKind_labelPlural], kterým budeš muset zajistit ubytování a stravu, mohou však kdykoli zemřít v bitvě bez následného postihu.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount==1)->\n\nDorazil[helpers0_x_a] i [helpers0_kind], kter[helpers0_y_a] ti bude asistovat.</li>
     <li>helpersArrivalLetterEnd(helpersCount>=2)->\n\nDorazila i [helpersCount_clenn]á posila. Vyslaní [helpersLabelSingOrPlural] ti budou asistovat.</li>
