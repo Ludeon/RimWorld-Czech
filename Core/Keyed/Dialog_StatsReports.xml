@@ -225,21 +225,29 @@
   <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
   <Stat_Recipe_WorkSpeedStat_Desc>Který parametr postavy určuje pracovní rychlost tohoto receptu.\n\nČím vyšší je hodnota parametru pracovníka, tím rychleji danou činnost dokončí.</Stat_Recipe_WorkSpeedStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Násobitel šance, že tato operace bude úspěšná. Náročnější operace mají nižší multiplikátory.\n\nSkutečná šance na úspěch operace je ovlivněna také lékařem, vybavením a použitými léky.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Násobitel na šanci, že tato operace bude úspěšná. Náročnější operace mají nižší multiplikátory.\n\nSkutečná šance na úspěch operace je ovlivněna také lékařem, vybavením a použitými léky.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Nelze selhat</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Provedení tohoto zákroku je pro pacienta bezpečné.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
   <!-- EN: The chance the patient will die upon failure of this surgery. -->
   <Stat_Thing_Surgery_DeathOnFailChance_Desc>Šance, že pacient zemře při selhání chirurga u této operace.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <!-- EN: Total bleed factor -->
+  <Stat_Hediff_TotalBleedFactor_Name>Faktor celkového krvácení</Stat_Hediff_TotalBleedFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of blood loss. -->
+  <Stat_Hediff_TotalBleedFactor_Desc>Násobitel aplikovaný na celkovou rychlost ztráty krve.</Stat_Hediff_TotalBleedFactor_Desc>
   <!-- EN: The amount of pain caused by this condition. -->
   <Stat_Hediff_Pain_Desc>Množství bolesti způsobené tímto stavem.</Stat_Hediff_Pain_Desc>
+  <!-- EN: The offset in efficiency applied to body parts affected by this. -->
+  <Stat_Hediff_PartEfficiency_Desc>Vyrovnání účinnosti, které se aplikuje na části těla ovlivněné tímto stavem.</Stat_Hediff_PartEfficiency_Desc>
   <!-- EN: Hunger rate offset -->
-  <Stat_Hediff_HungerRateOffset_Name>Míra zvýšení hladu</Stat_Hediff_HungerRateOffset_Name>
+  <Stat_Hediff_HungerRateOffset_Name>Rychlost nárustu hladu</Stat_Hediff_HungerRateOffset_Name>
   <!-- EN: A multiplier on the rate at which the food need depletes. -->
-  <Stat_Hediff_HungerRateFactor_Desc>Násobitel na rychlost, jakou se vyčerpává potřeba hladu.</Stat_Hediff_HungerRateFactor_Desc>
+  <Stat_Hediff_HungerRateFactor_Desc>Násobitel na rychlost, jakou se vyčerpává potřeba stravy.</Stat_Hediff_HungerRateFactor_Desc>
+  <!-- EN: An offset on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateOffset_Desc>Vyrovnání rychlosti, jakou se vyčerpává potřeba stravy.</Stat_Hediff_HungerRateOffset_Desc>
   <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
-  <Stat_Hediff_TirednessFactor_Desc>Násobitel aplikovaný na rychlost poklesu potřeby odpočinku u bytostí.</Stat_Hediff_TirednessFactor_Desc>
+  <Stat_Hediff_TirednessFactor_Desc>Násobitel aplikovaný na rychlost, jakou bytostem klesá potřeba odpočinku.</Stat_Hediff_TirednessFactor_Desc>
   <!-- EN: Whether or not this will prevent infections. -->
   <Stat_Hediff_PreventsInfection_Desc>Určuje, zdali bude nebo nebude bránit před nákazami.</Stat_Hediff_PreventsInfection_Desc>
   <!-- EN: The things this terrain supports. -->
