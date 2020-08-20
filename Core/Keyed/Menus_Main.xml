@@ -192,12 +192,18 @@
   <ModIncompatibleWith>Není kompatibilní s: {0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>Tento mód není kompatibilní s:\n{0}\n</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>Tento mód se vzhledem k jinému módu načítá v nesprávném pořadí. Použij tlačítko 'Automaticky seřadit módy' nebo změň pořadí modů ručně.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>Jiný aktivní mód používá stejné ID: {0}</ModWithSameIdAlreadyActive>
   <!-- EN: This requires following mods to work: {0}. -->
   <ModUnsatisfiedDependency>K chodu vyžaduje následující módy:\n{0}\n</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>Tento mód není určen pro aktuální verzi RimWorldu a pravděpodobně nebude správně fungovat.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>Tento mód nebyl vytvořen pro tuto verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>Tento mód není vytvořen pro tuto verzi RimWorldu.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>Tento mód je určen pro novější verzi RimWorldu a pravděpodobně nebude správně fungovat.</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>Tento mód byl vytvořen pro novější verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mód vyžaduje informaci o podporované verzi ve správném formátu v souboru About.xml. Mělo by to vypadat nějak takto: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> je zastaralá. Pro další informace zkontroluj log.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
