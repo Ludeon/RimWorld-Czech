@@ -8,7 +8,7 @@
   <!-- EN: dull hospital -->
   <HospitalPatientRoomStats.stages.dull_hospital.label>fádní nemocnice</HospitalPatientRoomStats.stages.dull_hospital.label>
   <!-- EN: I'm stuck in a dull hospital. -->
-  <HospitalPatientRoomStats.stages.dull_hospital.description>Uvízl jsem ve fádní nemocnici.</HospitalPatientRoomStats.stages.dull_hospital.description>
+  <HospitalPatientRoomStats.stages.dull_hospital.description>{PAWN_gender ? Uvízl : Uvízla} jsem ve fádní nemocnici.</HospitalPatientRoomStats.stages.dull_hospital.description>
   <!-- EN: slightly impressive hospital -->
   <HospitalPatientRoomStats.stages.slightly_impressive_hospital.label>mírně působivá nemocnice</HospitalPatientRoomStats.stages.slightly_impressive_hospital.label>
   <!-- EN: My hospital is slightly impressive. It makes me feel a bit better. -->
@@ -98,6 +98,6 @@
   <!-- EN: wondrously impressive prison cell -->
   <PrisonCell.stages.wondrously_impressive_prison_cell.label>úžasně působivá vězeňská cela</PrisonCell.stages.wondrously_impressive_prison_cell.label>
   <!-- EN: My prison cell is the best place one can ever imagine. I can stay here forever. -->
-  <PrisonCell.stages.wondrously_impressive_prison_cell.description>Moje vězeňská cela je to nejlepší místo, jaké si kdo dokáže představit. Tady bych mohl být navždy.</PrisonCell.stages.wondrously_impressive_prison_cell.description>
+  <PrisonCell.stages.wondrously_impressive_prison_cell.description>Moje vězeňská cela je to nejlepší místo, jaké si kdo dokáže představit. Tady bych {PAWN_gender ? mohl : mohla} zůstat navždy.</PrisonCell.stages.wondrously_impressive_prison_cell.description>
   
 </LanguageData>
