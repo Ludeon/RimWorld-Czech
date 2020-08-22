@@ -28,18 +28,26 @@
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
     <li>questName->[asker_nameDef] [a_vs] [gameCondition_label]</li>
     <li>questName->[gameCondition_indefinite] [a_vs] [asker_nameDef]</li>
-    <li>questName->[Paid] za [gameCondition_label]</li>
-    <li>questName->[gameCondition_label][maybe_vymenou] [for_pay]</li>
+    <li>questName->[Paid][maybe_vymenou] za [gameCondition_labelAcc]</li>
+    <li>questName->[gameCondition_label][maybe_vymenou] za [forPay]</li>
     <li>Paid->Odměna</li>
     <li>Paid->Platba</li>
     <li>Paid->Moduly</li>
     <li>Paid->Úplata</li>
-    <li>for_pay->za odměnu</li>
-    <li>for_pay->za platbu</li>
-    <li>for_pay->za moduly</li>
-    <li>for_pay->za úplatu</li>
+    <li>forPay->odměnu</li>
+    <li>forPay->platbu</li>
+    <li>forPay->moduly</li>
+    <li>forPay->úplatu</li>
     <li>maybe_vymenou-></li>
     <li>maybe_vymenou-> výměnou</li>
+    <li>gameCondition_labelAcc(gameCondition==ToxicFallout)->toxický spad</li>
+    <li>gameCondition_labelAcc(gameCondition==VolcanicWinter)->vulkanickou zimu</li>
+    <li>gameCondition_labelAcc(gameCondition==EMIField)->pole EMI</li>
+    <li>gameCondition_labelAcc(gameCondition==HeatWave)->vlnu veder</li>
+    <li>gameCondition_labelAcc(gameCondition==ColdSnap)->prudké ochlazení</li>
+    <li>gameCondition_labelAcc(gameCondition==WeatherController)->meteorologický ovlivňovač</li>
+    <li>gameCondition_labelAcc(gameCondition==PsychicDrone)->psychický bzučák</li>
+    <li>gameCondition_labelAcc(gameCondition==PsychicSuppression)->psychický potlačovač</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
