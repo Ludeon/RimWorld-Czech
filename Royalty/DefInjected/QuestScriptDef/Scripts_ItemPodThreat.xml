@@ -51,11 +51,11 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Výzkumná loď obíhající na orbitě plánuje otestovat nový typ hmyzích feromonů. Pokud dáš k testu svolení, dojde k vypuštění feromonů do oblasti [map_definite], které přilákají [Infestation_ItemPod_hivesCountAcc].[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->Výzkumná loď obíhající na orbitě plánuje otestovat nový typ hmyzích feromonů. Dáš-li k testu svolení, do oblasti zvané [map_definite] vypustí zmíněné feromony, které přilákají [Infestation_ItemPod_hivesCountAcc].[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Kolonie brouků byla přilákána pomocí feromonů vypuštěných z orbitální výzkumné lodě.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] čelí opakovaným zamořením hmyzími koloniemi v oblasti poblíž [map_definite]. Chce je přesměrovat k tobě. Tvou oblast by tak [Infestation_ItemPod_hivesCountNom].[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(asker_factionLeader==True)->Kolonie brouků původně sídlila v oblasti, kterým šéfuje [asker_nameFull] z frakce [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] má potíže s přistáním poblíž [map_definite] kvůli opakovaným zamořením brouky. Chce je přesměrovat k tobě, aby ses s nimi vypořádal. Vyprovokováním brouků by tvou oblast [Infestation_ItemPod_hivesCountNom].[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] čelí v oblastech nedaleko [map_definite] opakovaným útokům hmyzích kolonií. Chtěl[asker_x_a] by je přesměrovat k tobě. Tvou oblast by tak [Infestation_ItemPod_hivesCountNom].[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->Kolonie brouků původně napadaly nedaleké oblasti, které má ve vlastnictví [asker_nameFull] z frakce [asker_faction_name].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] má problémy s přistáním poblíž [map_definite], neboť na [asker_nej_ni] opakovaně útočí hmyzí kolonie. Chce je přesměrovat k tobě, aby ses s nimi vypořádal. Tvou oblast by tak [Infestation_ItemPod_hivesCountNom].[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->Zamoření brouky na tebe přesměroval[asker_x_a] [asker_nameFull], [asker_royalTitleInCurrentFaction] z frakce [asker_faction_name].</li>
     <li>Infestation_ItemPod_hivesCountNom(hivesCount==1)->zamořila (*Threat)jedna hmyzí kolonie(/Threat)</li>
     <li>Infestation_ItemPod_hivesCountNom(hivesCount==2)->zamořily (*Threat)dvě hmyzí kolonie(/Threat)</li>
