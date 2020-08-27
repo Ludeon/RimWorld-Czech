@@ -165,7 +165,16 @@
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] and another desperate [faction_pawnSingular] are approaching.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount] desperate [faction_pawnsPlural] are approaching. Their leader is called [asker_nameDef].</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have lost [asker_possessive] home in a recent attack.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to woken up from cryptosleep all alone and friendless.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been chased from [asker_possessive] home by a vengeful ex-lover.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] claims to have been banished after an argument with a village leader.</li>
     <li>claimInfo(lodgerCount>=2)->They claim to have lost their home in a recent attack.</li>
+    <li>claimInfo(lodgerCount>=2)->They claim to have escaped an organ harvesting operation.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they escaped from a slave caravan.</li>
+    <li>claimInfo(lodgerCount>=2)->They say that crop blights starved them out of their village.</li>
+    <li>claimInfo(lodgerCount>=2)->They say a great flashstorm burned down their home.</li>
+    <li>claimInfo(lodgerCount>=2)->They say their caravan was ambushed and everything was taken.</li>
+    <li>claimInfo(lodgerCount>=2)->They say they were banished from their town due to moral disagreements.</li>
     <li>joinInfo(lodgerCount==1)->If you make [asker_objective] happy, [asker_pronoun] may offer to join you.</li>
     <li>joinInfo(lodgerCount>=2)->If you make them happy, some of them may offer to join you.</li>
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
@@ -182,7 +191,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->jejich</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] tě žádá o svolení zůstat ve tvé osadě zvané [map_definite] alespoň [questDurationTicks_duration], aby si mohl[asker_x_a_i] odpočinout a [datSeTrochuDohromady].\n\nNa oplátku ti [offer], že [bude] během této doby zadarmo pracovat a bojovat.\n\n[joinInfo] Může se také stát, že tě za pomoc odmění později - ale neexistuje způsob, jak poznat [lodgersPossessive] skutečné úmysly.\n\n[travelerInfo] součástí žádné frakce. Pokud chceš, můžeš se rozhodnout [lodgersObjective] zabít, zatknout, prodat do otroctví nebo [lodgersObjective] obrat o orgány, aniž by ses musel obávat diplomatických důsledků.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] tě proto žádá o svolení zůstat ve tvé osadě zvané [map_definite] alespoň [questDurationTicks_duration], aby si mohl[asker_x_a_i] odpočinout a [datSeTrochuDohromady].\n\nNa oplátku ti [offer], že [bude] během této doby zadarmo pracovat a bojovat.\n\n[joinInfo] Může se také stát, že tě za pomoc odmění později - ale neexistuje způsob, jak poznat [lodgersPossessive] skutečné úmysly.\n\n[travelerInfo] součástí žádné frakce. Pokud chceš, můžeš se rozhodnout [lodgersObjective] zabít, zatknout, prodat do otroctví nebo [lodgersObjective] obrat o orgány, aniž by ses musel obávat diplomatických důsledků.</li>
     <li>approachInfo(lodgerCount==1)->Blíží se (*ColonistCount)zoufal[asker_y_a] uprchl[asker_ik_ice](/ColonistCount) jménem [asker_nameDef].</li>
     <li>approachInfo(lodgerCount==2)->Blíží se [asker_nameDef] společně s (*ColonistCount)dalším zoufalým uprchlíkem(/ColonistCount).</li>
     <li>approachInfo(lodgerCount>=3)->Blíží se (*ColonistCount)[lodgerCount] zoufal[RefugeeLodgerCount](/ColonistCount). Součástí skupiny je [asker_nameDef], jejich vůd[asker_ce_kyne].</li>
@@ -190,7 +199,16 @@
     <li>RefugeeLodgerCount(lodgerCount==4)->í uprchlíci</li>
     <li>RefugeeLodgerCount(lodgerCount>=5)->ých [faction_pawnsPlural]</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že při nedávném útoku přiš[asker_el_la] o svůj domov.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že se probudil[asker_x_a] z cryptospánku naprosto osamocen[asker_y_a] a bez přátel.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že byl[asker_x_a] pronásledován[asker_x_a] ze svého domova pomstychtiv[asker_ou_ym] ex-milen[asker_kou_cem].</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že byl[asker_x_a] vyhoštěn[asker_x_a] po hádce s lídrem vesnice.</li>
     <li>claimInfo(lodgerCount>=2)->Tvrdí, že při nedávném útoku přišli o svůj domov.</li>
+    <li>claimInfo(lodgerCount>=2)->Tvrdí, že unikli z operačního sálu, když se je někdo pokoušel obrat o orgány.</li>
+    <li>claimInfo(lodgerCount>=2)->Říkají, že utekli karavaně otrokářů.</li>
+    <li>claimInfo(lodgerCount>=2)->Říkají, že jejich plodiny napadla záhadná plíseň a hlad je vyhnal z jejich vesnice.</li>
+    <li>claimInfo(lodgerCount>=2)->Říkají, že jejich domov sežehla obrovská blesková bouře.</li>
+    <li>claimInfo(lodgerCount>=2)->Říkají, že jejich karavana byla přepadena a o všechno obrána.</li>
+    <li>claimInfo(lodgerCount>=2)->Říkají, že byli vyhnáni ze svého města kvůli morálním neshodám.</li>
     <li>joinInfo(lodgerCount==1)->Pokud u tebe bude spokojen[asker_y_a], může ti nabídnout, že se k tobě připojí.</li>
     <li>joinInfo(lodgerCount>=2)->Pokud u tebe budou spokojení, mohou ti někteří z nich nabídnout, že se k tobě připojí.</li>
     <li>travelerInfo(lodgerCount==1)->[asker_tento_tato] uprchl[asker_ik_ice] není</li>
