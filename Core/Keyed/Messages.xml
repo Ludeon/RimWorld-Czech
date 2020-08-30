@@ -370,25 +370,25 @@
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Skupina {0} z frakce {1} byla napadena tvou skupinou {2}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Mechanoidi byli právě sestaveni a budou bránit svůj klastr.</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>Mechanoidi právě sestavili posilu, která se chystá bránit svůj klastr.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
   <MessageMechanoidsLeftToAssemble>Zbývajících mechanoidů k sestavení</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>Mechanoidní výsadkový maják přivolal prostřednictvím výsadkových modulů posily.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Pro sebeošetření, musí mít {1_labelShort} přidělenou činnost doktor.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>Aby se {1_labelShort} {1_gender ? mohl sám : mohla sama} ošetřit, musí mít přidělenou činnost {1_gender ? doktora : doktorky}.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort} nikdy nebude {1_gender ? schopen : schopná} pracovat jako {1_gender ? doktor : doktorka}, proto se {1_gender ? sám : sama} nikdy neošetří.</MessageCannotSelfTendEver>
+  <MessageCannotSelfTendEver>{1_labelShort} není {1_gender ? způsobilý : způsobilá} vykonávat práci {1_gender ? doktora : doktorky}, proto se {1_gender ? sám : sama} nikdy neošetří.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
-  <MessageCantAddWaypointBecauseImpassable>Toto políčko je neprůchozí</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseImpassable>Toto políčko je neprůchodné</MessageCantAddWaypointBecauseImpassable>
   <!-- EN: It's not possible to reach this tile from the last waypoint. -->
-  <MessageCantAddWaypointBecauseUnreachable>Je nemožné dosáhnout tohoto políčka z posledního záchytného bodu.</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseUnreachable>Dosáhnout tohoto políčka z posledního záchytného bodu není možné.</MessageCantAddWaypointBecauseUnreachable>
   <!-- EN: You can't add more than {0} waypoints. -->
   <MessageCantAddWaypointBecauseLimit>Nemůžeš přidat více jak {0} záchytných bodů.</MessageCantAddWaypointBecauseLimit>
   <!-- EN: You can't remove this waypoint. -->
-  <MessageCantRemoveWaypointBecauseFirst>Nemůžeš odstranit tento záchytný bod.</MessageCantRemoveWaypointBecauseFirst>
+  <MessageCantRemoveWaypointBecauseFirst>Tento záchytný bod nemůžeš odstranit.</MessageCantRemoveWaypointBecauseFirst>
   
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Žádný z tvých dozorců není schopen násilí. Poprava nebude provedena.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
