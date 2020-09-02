@@ -82,16 +82,17 @@
   <!-- EN: The title of {TITLE} cannot be inherited. -->
   <LetterRoyalTitleCantBeInherited>Titul {TITLE} nelze dědit.</LetterRoyalTitleCantBeInherited>
 
+
   <!-- EN: Title inheritance -->
   <LetterTitleInheritance>Převod titulu</LetterTitleInheritance>
-  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles have been transferred to {PAWN_possessive} heirs according to the laws of the title-granting factions. -->
-  <LetterTitleInheritance_Base>Od momentu, kdy {PAWN_nameFull} {PAWN_gender ? zemřel : zemřela}, byl {PAWN_possessive} titul převeden na dědice, a to v souladu se zákony frakce udělujících tyto tituly.</LetterTitleInheritance_Base>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It replaced {HEIR_possessive} {REPLACEDTITLE} title. -->
-  <LetterTitleInheritance_AsReplacement>{PAWN_possessive} titul {TITLE} {HEIR_gender ? zdědil : zdědila} {HEIR_nameFull} dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name}. {HEIR_possessive} původní titul {REPLACEDTITLE} byl nahrazen zděděným titulem {TITLE}.</LetterTitleInheritance_AsReplacement>
+  <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
+  <LetterTitleInheritance_Base>Jelikož {PAWN_nameFull} {PAWN_gender ? zemřel : zemřela}, {PAWN_possessive} titul bude převeden na {PAWN_gender ? jeho : jejího} dědice.</LetterTitleInheritance_Base>
+  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
+  <LetterTitleInheritance_AsReplacement>{PAWN_possessive} titul {TITLE} {HEIR_gender ? zdědil : zdědila} {HEIR_nameFull} dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name}. {HEIR_possessive} původní titul {REPLACEDTITLE} bude nahrazen po dokončení slavnostního předání.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
   <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_possessive} titul {TITLE} by dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name} {HEIR_gender ? měl : měla} zdědit {HEIR_nameFull}, jenže {HEIR_gender ? ten : ta} už má titul {HIGHERTITLE}.</LetterTitleInheritance_NoEffectHigherTitle>
-  <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>{PAWN_possessive} titul {TITLE} {HEIR_gender ? zdědil : zdědila} {HEIR_nameFull} dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name}.</LetterTitleInheritance_WasInherited>
+  <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
+  <LetterTitleInheritance_WasInherited>{PAWN_possessive} titul {TITLE} zdědí {HEIR_nameFull} po dokončení slavnostního předání dle zákonů o následovnictví uplatňovaných frakcí {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
   <LetterTitleInheritance_NoHeirFound>{PAWN_possessive} titul {TITLE} nebyl nikým zděděn, protože {PAWN_gender ? neměl : neměla} pro tento titul určeného dědice.</LetterTitleInheritance_NoHeirFound>
 
