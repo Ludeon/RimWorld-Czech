@@ -47,25 +47,25 @@
   <!-- EN: Max gain -->
   <StatsReport_MaxGain>Maximální zisk</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
-  <StatsReport_AgeMultiplier>Násobitel pro stáří ({0})</StatsReport_AgeMultiplier>
+  <StatsReport_AgeMultiplier>Násobitel za stáří {0}</StatsReport_AgeMultiplier>
   <!-- EN: Multiplier for health {0} -->
-  <StatsReport_HealthMultiplier>Násobitel pro životnost ({0})</StatsReport_HealthMultiplier>
+  <StatsReport_HealthMultiplier>Násobitel za {0} životnosti</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
   <StatsReport_ReloadMarketValue>Náklady na opětovné nabití ({AMMO_label} x{COUNT})</StatsReport_ReloadMarketValue>
   <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
   <StatsReport_ReloadRemainingChargesMultipler>Násobitel pro zbývající {CHARGENOUN_plural} ({0})</StatsReport_ReloadRemainingChargesMultipler>
   <!-- EN: Multiplier for mood {0} -->
-  <StatsReport_MoodMultiplier>Násobitel pro náladu ({0})</StatsReport_MoodMultiplier>
+  <StatsReport_MoodMultiplier>Násobitel za {0} náladu</StatsReport_MoodMultiplier>
   <!-- EN: Multiplier for light {0} -->
-  <StatsReport_LightMultiplier>Násobitel pro světlo ({0})</StatsReport_LightMultiplier>
+  <StatsReport_LightMultiplier>Násobitel za {0} osvětlení</StatsReport_LightMultiplier>
   <!-- EN: Multiplier for difficulty {0} -->
-  <StatsReport_DifficultyMultiplier>Násobitel pro stupeň obtížnosti ({0})</StatsReport_DifficultyMultiplier>
+  <StatsReport_DifficultyMultiplier>Násobitel za obtížnost '{0}'</StatsReport_DifficultyMultiplier>
   <!-- EN: In bed -->
   <StatsReport_InBed>V posteli</StatsReport_InBed>
   <!-- EN: Facilities -->
   <StatsReport_Facilities>Vybavení</StatsReport_Facilities>
   <!-- EN: Multiplier for body size {0} -->
-  <StatsReport_BodySize>Násobitel pro velikost těla ({0})</StatsReport_BodySize>
+  <StatsReport_BodySize>Násobitel za velikost těla {0}</StatsReport_BodySize>
   <!-- EN: Carefully slaughtered without wounds -->
   <StatsReport_HasHediffExplanation>Správná porážka nezraněného zvířete</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
@@ -81,11 +81,11 @@
   <!-- EN: Life expectancy -->
   <StatsReport_LifeExpectancy>Délka života</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
-  <StatsReport_MissingBodyParts>Násobitel pro chybějící části těla</StatsReport_MissingBodyParts>
+  <StatsReport_MissingBodyParts>Násobitel za chybějící části těla</StatsReport_MissingBodyParts>
   <!-- EN: Gear and inventory -->
   <StatsReport_GearAndInventoryMass>Výstroj a inventář</StatsReport_GearAndInventoryMass>
   <!-- EN: Multiplier for worn by corpse -->
-  <StatsReport_WornByCorpse>Násobitel pro opotřebení mrtvolou</StatsReport_WornByCorpse>
+  <StatsReport_WornByCorpse>Násobitel za výstroj po mrtvých</StatsReport_WornByCorpse>
   <!-- EN: average of all attacks -->
   <AverageOfAllAttacks>průměr všech útoků</AverageOfAllAttacks>
   <!-- EN: Scenario -->
@@ -105,9 +105,9 @@
   <!-- EN: recreation type -->
   <StatsReport_JoyKind>typ relaxace</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
-  <StatsReport_WorkToUninstall>Množství práce pro odmontování</StatsReport_WorkToUninstall>
+  <StatsReport_WorkToUninstall>Množství práce na odmontování</StatsReport_WorkToUninstall>
   <!-- EN: Multiplier for growth {0} -->
-  <StatsReport_PlantGrowth>Násobitel pro růst ({0})</StatsReport_PlantGrowth>
+  <StatsReport_PlantGrowth>Násobitel za {0} stav růstu</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
   <StatsReport_PlantGrowth_Wild>snížen, protože roste planě</StatsReport_PlantGrowth_Wild>
   <!-- EN: Not flesh -->
@@ -115,7 +115,7 @@
   <!-- EN: Not fresh -->
   <StatsReport_NotFresh>Není čerstvé</StatsReport_NotFresh>
   <!-- EN: Wild man -->
-  <StatsReport_WildMan>Divoký člověk</StatsReport_WildMan>
+  <StatsReport_WildMan>Divoch</StatsReport_WildMan>
   <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Útok</StatsReport_NonToolAttack>
   
@@ -146,6 +146,10 @@
   <Stat_MineableThing_Name>Těžitelná položka</Stat_MineableThing_Name>
   <!-- EN: The item that will be yielded when mining this. -->
   <Stat_MineableThing_Desc>Položka, která bude při těžbě získána.</Stat_MineableThing_Desc>
+  <!-- EN: Mining yield -->
+  <Stat_MiningYield_Name>Výnos z těžby</Stat_MiningYield_Name> <!-- text_todo -->
+  <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
+  <Stat_MiningYield_Desc>Maximální množství získaných položek, když se tohle vytěží. Skutečný výnos bude upraven těžební dovedností horníka.</Stat_MiningYield_Desc> <!-- text_todo -->
   <!-- EN: Source species -->
   <Stat_SourceSpecies_Name>Zdroj původu</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
@@ -195,7 +199,7 @@
   <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>Typ kůže, kterou lze porážkou tohoto tvora získat.</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Pravděpodobnost, že tento tvor zaútočí, pokud se ho pokusí krotitel zkrotit a selže.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Pravděpodobnost, že tento tvor zaútočí, pokud se ho krotitel pokusí ochočit a selže při tom.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
   <Stat_Race_Trainability_Desc>Obecná mentální způsobilost tohoto tvora pro výcvik. Jedná se o kombinaci inteligence a pozornosti. Určuje, jaké druhy úkolů zvládne tento tvor provádět.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
