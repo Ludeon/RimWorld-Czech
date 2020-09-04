@@ -2,19 +2,19 @@
 <LanguageData>
   
   <!-- EN: bonded animal {0} died -->
-  <BondedAnimalDied.stages.bonded_animal_died.label>zemřel můj mazlíček ({0})</BondedAnimalDied.stages.bonded_animal_died.label>
+  <BondedAnimalDied.stages.bonded_animal_died.label>zemřel můj mazlíček {0}</BondedAnimalDied.stages.bonded_animal_died.label>
   <!-- EN: Such a tender, unique animal. This universe is evil! -->
   <BondedAnimalDied.stages.bonded_animal_died.description>Bylo to tak milující a výjimečné zvíře. Vesmír je nespravedlivý!</BondedAnimalDied.stages.bonded_animal_died.description>
   
   <!-- EN: colonist died -->
-  <KnowColonistDied.stages.colonist_died.label>zemřel kolonista</KnowColonistDied.stages.colonist_died.label>
+  <KnowColonistDied.stages.colonist_died.label>{1_gender ? zemřel kolonista : zemřela kolonistka}</KnowColonistDied.stages.colonist_died.label>
   <!-- EN: One of our people died. We should be able to take care of our people. -->
-  <KnowColonistDied.stages.colonist_died.description>Jeden z našich lidí zemřel. Měli bychom se o naše lidi lépe starat.</KnowColonistDied.stages.colonist_died.description>
+  <KnowColonistDied.stages.colonist_died.description>{1_gender ? Zemřel jeden : Zemřela jedna} z našich lidí. Měli bychom se o naše lidi lépe starat.</KnowColonistDied.stages.colonist_died.description>
   
   <!-- EN: justified execution of colonist -->
   <KnowColonistExecuted.stages.justified_execution_of_colonist.label>oprávněná poprava kolonisty</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
   <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
-  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Vinný kolonista byl popraven. Bylo to spravedlivé, ale i tak smutné.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Kolonista byl za své zločiny popraven. Bylo to spravedlivé, ale i tak smutné.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
   <!-- EN: colonist euthanized -->
   <KnowColonistExecuted.stages.colonist_euthanized.label>eutanazie kolonisty</KnowColonistExecuted.stages.colonist_euthanized.label>
   <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
@@ -24,140 +24,140 @@
   <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
   <KnowColonistExecuted.stages.colonist_executed.description>Kolonista byl chladnokrevně popraven. Byl to zlý čin.</KnowColonistExecuted.stages.colonist_executed.description>
   <!-- EN: colonist organ-harvested -->
-  <KnowColonistExecuted.stages.colonist_organharvested.label>kolonista zemřel při vyjímání orgánů</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <KnowColonistExecuted.stages.colonist_organharvested.label>při vyjmutí orgánů zemřel kolonista</KnowColonistExecuted.stages.colonist_organharvested.label>
   <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
   <KnowColonistExecuted.stages.colonist_organharvested.description>Kolonista zemřel poté, co mu byly vyjmuty orgány. To je příšerné.</KnowColonistExecuted.stages.colonist_organharvested.description>
   
   <!-- EN: justified execution -->
   <KnowGuestExecuted.stages.justified_execution.label>oprávněná poprava</KnowGuestExecuted.stages.justified_execution.label>
   <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
-  <KnowGuestExecuted.stages.justified_execution.description>Vinný vězeň nebo host byl popraven. Bylo to spravedlivé, ale i tak smutné.</KnowGuestExecuted.stages.justified_execution.description>
+  <KnowGuestExecuted.stages.justified_execution.description>Vězeň nebo host byl za své zločiny popraven. Bylo to spravedlivé, ale i tak smutné.</KnowGuestExecuted.stages.justified_execution.description>
   <!-- EN: someone was euthanized -->
-  <KnowGuestExecuted.stages.someone_was_euthanized.label>někomu provedli eutanázii</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>někomu byla provedena eutanazie</KnowGuestExecuted.stages.someone_was_euthanized.label>
   <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
   <KnowGuestExecuted.stages.someone_was_euthanized.description>Vězni nebo hostovi byla provedena eutanazie. Bylo to humánní, ale i tak smutné.</KnowGuestExecuted.stages.someone_was_euthanized.description>
   <!-- EN: someone was executed -->
-  <KnowGuestExecuted.stages.someone_was_executed.label>někoho popravili</KnowGuestExecuted.stages.someone_was_executed.label>
+  <KnowGuestExecuted.stages.someone_was_executed.label>někdo byl popraven</KnowGuestExecuted.stages.someone_was_executed.label>
   <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
   <KnowGuestExecuted.stages.someone_was_executed.description>Vězeň nebo host byl chladnokrevně popraven. Byl to zlý čin.</KnowGuestExecuted.stages.someone_was_executed.description>
   <!-- EN: someone was organ-murdered -->
-  <KnowGuestExecuted.stages.someone_was_organmurdered.label>někdo zemřel při vyjmutí orgánů</KnowGuestExecuted.stages.someone_was_organmurdered.label>
+  <KnowGuestExecuted.stages.someone_was_organmurdered.label>při vyjmutí orgánů někdo zemřel</KnowGuestExecuted.stages.someone_was_organmurdered.label>
   <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
   <KnowGuestExecuted.stages.someone_was_organmurdered.description>Vězeň nebo host zemřel poté, co mu byly vyjmuty orgány. To je příšerné.</KnowGuestExecuted.stages.someone_was_organmurdered.description>
   
   <!-- EN: innocent prisoner died -->
   <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>smrt nevinného vězně</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
   <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
-  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Jeden z našich vězňů zemřel, ačkoliv byl nevinný. Měli bychom se o naše vězně starat lépe. Jestli je chceme zabít, měli bychom jim přinejmenším dopřát náležitou popravu, a ne tohle barbarství.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Jeden z našich vězňů zemřel, ačkoliv byl nevinný. Měli bychom se o naše vězně lépe starat. Jestli je chceme zabít, měli bychom jim přinejmenším dopřát náležitou popravu, a ne tohle barbarství.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
   
   <!-- EN: my aunt {0} died -->
-  <MyAuntDied.stages.my_aunt_died.label>zemřela má teta ({0})</MyAuntDied.stages.my_aunt_died.label>
+  <MyAuntDied.stages.my_aunt_died.label>zemřela má teta {0}</MyAuntDied.stages.my_aunt_died.label>
   <!-- EN: My aunt died. -->
-  <MyAuntDied.stages.my_aunt_died.description>Moje teta je mrtvá.</MyAuntDied.stages.my_aunt_died.description>
+  <MyAuntDied.stages.my_aunt_died.description>Má teta je mrtvá.</MyAuntDied.stages.my_aunt_died.description>
   
   <!-- EN: my brother {0} died -->
-  <MyBrotherDied.stages.my_brother_died.label>zemřel můj bratr ({0})</MyBrotherDied.stages.my_brother_died.label>
+  <MyBrotherDied.stages.my_brother_died.label>zemřel můj bratr {0}</MyBrotherDied.stages.my_brother_died.label>
   <!-- EN: My brother died. My own flesh and blood... -->
   <MyBrotherDied.stages.my_brother_died.description>Můj bratr je mrtvý. Má vlastní krev...</MyBrotherDied.stages.my_brother_died.description>
   
   <!-- EN: my cousin {0} died -->
-  <MyCousinDied.stages.my_cousin_died.label>zemřel můj bratranec ({0})</MyCousinDied.stages.my_cousin_died.label>
+  <MyCousinDied.stages.my_cousin_died.label>{1_gender ? zemřel můj bratranec : zemřela má sestřenice} {0}</MyCousinDied.stages.my_cousin_died.label>
   <!-- EN: My cousin died. My own flesh and blood... -->
-  <MyCousinDied.stages.my_cousin_died.description>Můj bratranec je mrtvý. Má vlastní krev...</MyCousinDied.stages.my_cousin_died.description>
+  <MyCousinDied.stages.my_cousin_died.description>{1_gender ? Můj bratranec : Moje sestřenice} je {1_gender ? mrtvý : mrtvá}. Má vlastní krev...</MyCousinDied.stages.my_cousin_died.description>
   
   <!-- EN: my daughter {0} died -->
-  <MyDaughterDied.stages.my_daughter_died.label>zemřela má dcera ({0})</MyDaughterDied.stages.my_daughter_died.label>
+  <MyDaughterDied.stages.my_daughter_died.label>zemřela má dcera {0}</MyDaughterDied.stages.my_daughter_died.label>
   <!-- EN: My daughter is dead. My own flesh and blood... -->
   <MyDaughterDied.stages.my_daughter_died.description>Moje dcera je mrtvá. Má vlastní krev...</MyDaughterDied.stages.my_daughter_died.description>
   
   <!-- EN: my father {0} died -->
-  <MyFatherDied.stages.my_father_died.label>zemřel můj otec ({0})</MyFatherDied.stages.my_father_died.label>
+  <MyFatherDied.stages.my_father_died.label>zemřel můj otec {0}</MyFatherDied.stages.my_father_died.label>
   <!-- EN: My father died. He's gone forever. -->
   <MyFatherDied.stages.my_father_died.description>Můj otec je mrtvý. Teď už je pryč navždy.</MyFatherDied.stages.my_father_died.description>
   
   <!-- EN: my fiance {0} died -->
-  <MyFianceDied.stages.my_fiance_died.label>zemřel můj snoubenec ({0})</MyFianceDied.stages.my_fiance_died.label>
+  <MyFianceDied.stages.my_fiance_died.label>zemřel můj snoubenec {0}</MyFianceDied.stages.my_fiance_died.label>
   <!-- EN: My fiance died. Such a man... my future is gone. -->
-  <MyFianceDied.stages.my_fiance_died.description>Můj snoubenec je mrtvý. Takový dobrý muž... Celá moje budoucnost je v troskách.</MyFianceDied.stages.my_fiance_died.description>
+  <MyFianceDied.stages.my_fiance_died.description>Můj snoubenec je mrtvý. Takový skvělý muž... Celá moje budoucnost je v troskách.</MyFianceDied.stages.my_fiance_died.description>
   
   <!-- EN: my fiancée {0} died -->
-  <MyFianceeDied.stages.my_fiance_died.label>zemřela má snoubenka ({0})</MyFianceeDied.stages.my_fiance_died.label>
+  <MyFianceeDied.stages.my_fiance_died.label>zemřela má snoubenka {0}</MyFianceeDied.stages.my_fiance_died.label>
   <!-- EN: My fiancée died. Such a woman... my future is gone. -->
-  <MyFianceeDied.stages.my_fiance_died.description>Moje snoubenka je mrtvá. Taková dobrá žena... Celá moje budoucnost je v troskách.</MyFianceeDied.stages.my_fiance_died.description>
+  <MyFianceeDied.stages.my_fiance_died.description>Má snoubenka je mrtvá. Taková skvělá žena... Celá moje budoucnost je v troskách.</MyFianceeDied.stages.my_fiance_died.description>
   
   <!-- EN: my grandchild {0} died -->
-  <MyGrandchildDied.stages.my_grandchild_died.label>zemřelo mé vnouče ({0})</MyGrandchildDied.stages.my_grandchild_died.label>
+  <MyGrandchildDied.stages.my_grandchild_died.label>{1_gender ? zemřel můj vnuk : zemřela má vnučka} {0}</MyGrandchildDied.stages.my_grandchild_died.label>
   <!-- EN: My grandchild died. My own flesh and blood... -->
-  <MyGrandchildDied.stages.my_grandchild_died.description>Moje vnouče je mrtvé. Má vlastní krev...</MyGrandchildDied.stages.my_grandchild_died.description>
+  <MyGrandchildDied.stages.my_grandchild_died.description>{1_gender ? Můj vnuk : Moje vnučka} je {1_gender ? mrtvý : mrtvá}. Má vlastní krev...</MyGrandchildDied.stages.my_grandchild_died.description>
   
   <!-- EN: my grandparent {0} died -->
-  <MyGrandparentDied.stages.my_grandparent_died.label>zemřel můj prarodič ({0})</MyGrandparentDied.stages.my_grandparent_died.label>
+  <MyGrandparentDied.stages.my_grandparent_died.label>{1_gender ? zemřel můj děda : zemřela má babička} {0}</MyGrandparentDied.stages.my_grandparent_died.label>
   <!-- EN: My grandparent died. -->
-  <MyGrandparentDied.stages.my_grandparent_died.description>Můj prarodič je mrtvý.</MyGrandparentDied.stages.my_grandparent_died.description>
+  <MyGrandparentDied.stages.my_grandparent_died.description>{1_gender ? Můj děda : Má babička} je {1_gender ? mrtvý : mrtvá}.</MyGrandparentDied.stages.my_grandparent_died.description>
   
   <!-- EN: my half-sibling {0} died -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.label>zemřel můj nevl. sourozenec ({0})</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>{1_gender ? zemřel můj : zemřela má}  nevl. {1_gender ? bratr : sestra} {0}</MyHalfSiblingDied.stages.my_halfsibling_died.label>
   <!-- EN: My half-sibling died. My own flesh and blood... -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Můj nevlastní sourozenec je mrtvý. Má vlastní krev...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>{1_gender ? Můj : Moje} nevlastní {1_gender ? bratr : sestra} je {1_gender ? mrtvý : mrtvá}. Má vlastní krev...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
   
   <!-- EN: my husband {0} died -->
-  <MyHusbandDied.stages.my_husband_died.label>zemřel můj manžel ({0})</MyHusbandDied.stages.my_husband_died.label>
+  <MyHusbandDied.stages.my_husband_died.label>zemřel můj manžel {0}</MyHusbandDied.stages.my_husband_died.label>
   <!-- EN: My husband is dead. I am alone. -->
   <MyHusbandDied.stages.my_husband_died.description>Můj manžel je mrtvý. Teď jsem sama.</MyHusbandDied.stages.my_husband_died.description>
   
   <!-- EN: my kin {0} died -->
-  <MyKinDied.stages.my_kin_died.label>zemřel můj příbuzný ({0})</MyKinDied.stages.my_kin_died.label>
+  <MyKinDied.stages.my_kin_died.label>{1_gender ? zemřel můj příbuzný : zemřela má příbuzná} {0}</MyKinDied.stages.my_kin_died.label>
   <!-- EN: My kin died. -->
-  <MyKinDied.stages.my_kin_died.description>Můj příbuzný je mrtvý.</MyKinDied.stages.my_kin_died.description>
+  <MyKinDied.stages.my_kin_died.description>{1_gender ? Můj příbuzný : Má příbuzná} je {1_gender ? mrtvý : mrtvá}.</MyKinDied.stages.my_kin_died.description>
   
   <!-- EN: my lover {0} died -->
-  <MyLoverDied.stages.my_lover_died.label>zemřela má láska ({0})</MyLoverDied.stages.my_lover_died.label>
+  <MyLoverDied.stages.my_lover_died.label>{1_gender ? zemřel můj milenec : zemřela má milenka} {0}</MyLoverDied.stages.my_lover_died.label>
   <!-- EN: My lover died. I am so alone. -->
-  <MyLoverDied.stages.my_lover_died.description>Moje láska je mrtvá. Cítím se tak osaměle.</MyLoverDied.stages.my_lover_died.description>
+  <MyLoverDied.stages.my_lover_died.description>{1_gender ? Můj milenec : Má milenka} je {1_gender ? mrtvý : mrtvá}. Jsem nyní tak {1_gender ? osamělý : osamělá}.</MyLoverDied.stages.my_lover_died.description>
   
   <!-- EN: my mother {0} died -->
-  <MyMotherDied.stages.my_mother_died.label>zemřela má matka ({0})</MyMotherDied.stages.my_mother_died.label>
+  <MyMotherDied.stages.my_mother_died.label>zemřela má matka {0}</MyMotherDied.stages.my_mother_died.label>
   <!-- EN: My mother died. She's gone forever. -->
-  <MyMotherDied.stages.my_mother_died.description>Moje matka je mrtvá. Teď už je pryč navždy.</MyMotherDied.stages.my_mother_died.description>
+  <MyMotherDied.stages.my_mother_died.description>Má matka je mrtvá. Teď už je pryč navždy.</MyMotherDied.stages.my_mother_died.description>
   
   <!-- EN: my nephew {0} died -->
-  <MyNephewDied.stages.my_nephew_died.label>zemřel můj synovec ({0})</MyNephewDied.stages.my_nephew_died.label>
+  <MyNephewDied.stages.my_nephew_died.label>zemřel můj synovec {0}</MyNephewDied.stages.my_nephew_died.label>
   <!-- EN: My nephew died. Such a wonderful child. -->
   <MyNephewDied.stages.my_nephew_died.description>Můj synovec je mrtvý. Bylo to takové báječné dítě.</MyNephewDied.stages.my_nephew_died.description>
   
   <!-- EN: my niece {0} died -->
-  <MyNieceDied.stages.my_niece_died.label>zemřela má neteř ({0})</MyNieceDied.stages.my_niece_died.label>
+  <MyNieceDied.stages.my_niece_died.label>zemřela má neteř {0}</MyNieceDied.stages.my_niece_died.label>
   <!-- EN: My niece died. Such a wonderful child. -->
-  <MyNieceDied.stages.my_niece_died.description>Moje neteř je mrtvá. Bylo to takové báječné dítě.</MyNieceDied.stages.my_niece_died.description>
+  <MyNieceDied.stages.my_niece_died.description>Má neteř je mrtvá. Bylo to takové báječné dítě.</MyNieceDied.stages.my_niece_died.description>
   
   <!-- EN: my sister {0} died -->
-  <MySisterDied.stages.my_sister_died.label>zemřela má sestra ({0})</MySisterDied.stages.my_sister_died.label>
+  <MySisterDied.stages.my_sister_died.label>zemřela má sestra {0}</MySisterDied.stages.my_sister_died.label>
   <!-- EN: My sister died. My own flesh and blood... -->
   <MySisterDied.stages.my_sister_died.description>Moje sestra je mrtvá. Má vlastní krev...</MySisterDied.stages.my_sister_died.description>
   
   <!-- EN: my son {0} died -->
-  <MySonDied.stages.my_son_died.label>zemřel můj syn ({0})</MySonDied.stages.my_son_died.label>
+  <MySonDied.stages.my_son_died.label>zemřel můj syn {0}</MySonDied.stages.my_son_died.label>
   <!-- EN: My son is dead. My own flesh and blood... -->
   <MySonDied.stages.my_son_died.description>Můj syn je mrtvý. Má vlastní krev...</MySonDied.stages.my_son_died.description>
   
   <!-- EN: my uncle {0} died -->
-  <MyUncleDied.stages.my_uncle_died.label>zemřel můj strýc ({0})</MyUncleDied.stages.my_uncle_died.label>
+  <MyUncleDied.stages.my_uncle_died.label>zemřel můj strýc {0}</MyUncleDied.stages.my_uncle_died.label>
   <!-- EN: My uncle died. -->
   <MyUncleDied.stages.my_uncle_died.description>Můj strýc je mrtvý.</MyUncleDied.stages.my_uncle_died.description>
   
   <!-- EN: my wife {0} died -->
-  <MyWifeDied.stages.my_wife_died.label>zemřela má manželka ({0})</MyWifeDied.stages.my_wife_died.label>
+  <MyWifeDied.stages.my_wife_died.label>zemřela má manželka {0}</MyWifeDied.stages.my_wife_died.label>
   <!-- EN: My wife is dead. I am alone. -->
   <MyWifeDied.stages.my_wife_died.description>Moje manželka je mrtvá. Teď jsem sám.</MyWifeDied.stages.my_wife_died.description>
   
   <!-- EN: my rival {0} died -->
-  <PawnWithBadOpinionDied.stages.my_rival_died.label>zemřel můj rival ({0})</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>{1_gender ? zemřel můj rival : zemřela má rivalka} {0}</PawnWithBadOpinionDied.stages.my_rival_died.label>
   <!-- EN: Serves them right. At least there's some justice in this world. -->
   <PawnWithBadOpinionDied.stages.my_rival_died.description>Bylo to zaslouženě. Alespoň trocha spravedlnosti v tomto světě zůstala.</PawnWithBadOpinionDied.stages.my_rival_died.description>
   
   <!-- EN: my friend {0} died -->
-  <PawnWithGoodOpinionDied.stages.my_friend_died.label>zemřel můj přítel ({0})</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>{1_gender ? zemřel můj přítel : zemřela má přítelkyně} {0}</PawnWithGoodOpinionDied.stages.my_friend_died.label>
   <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
-  <PawnWithGoodOpinionDied.stages.my_friend_died.description>Byl to tak skvělý člověk, je navždy pryč. Vesmír je každým dnem temnější a temnější.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>{1_gender ? Byl : Byla} to {1_gender ? skvělý kámoš : skvělá kámoška}, je navždy pryč. Vesmír je každým dnem temnější a temnější.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
   
 </LanguageData>
