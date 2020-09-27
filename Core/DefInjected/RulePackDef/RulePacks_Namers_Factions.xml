@@ -107,9 +107,9 @@
     <li>r_name->[ColorUni]ý [AnimalMasNom] [WordTribal]</li>
     <li>r_name->[ColorUni]á [AnimalFemNom] [WordTribal]</li>
     <li>r_name->[ColorUni]é [AnimalNeuNom] [WordTribal]</li>
-    <li>r_name->[TerrainFeatureMas] [WordTribal]</li>
-    <li>r_name->[TerrainFeatureFem] [WordTribal]</li>
-    <li>r_name->[TerrainFeatureNeu] [WordTribal]</li>
+    <li>r_name->[TerrainFeatureMasNom] [WordTribal]</li>
+    <li>r_name->[TerrainFeatureFemNom] [WordTribal]</li>
+    <li>r_name->[TerrainFeatureNeuNom] [WordTribal]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -232,22 +232,22 @@
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name(p=0.5)->[ColorUni]ý [WordTribal]</li>
-    <li>r_name(p=0.5)->[ColorUni]á [WordTribal]</li>
-    <li>r_name(p=0.33)->[ColorUni]ý [TerrainFeatureMas]</li>
-    <li>r_name(p=0.33)->[ColorUni]á [TerrainFeatureFem]</li>
-    <li>r_name(p=0.33)->[ColorUni]é [TerrainFeatureNeu]</li>
-    <li>r_name(p=0.33)->[maybe_community_tribal]u [ColorUni]ého [TerrainFeatureMasGen]</li>
-    <li>r_name(p=0.33)->[maybe_community_tribal]u [ColorUni]é [TerrainFeatureFemGen]</li>
-    <li>r_name(p=0.33)->[maybe_community_tribal]u [ColorUni]ého [TerrainFeatureNeuGen]</li>
+    <li>r_name->[colorWordTribalUniNom]</li>
+    <li>colorWordTribalUniNom->[ColorUni]ý [WordTribal]</li>
+    <li>colorWordTribalUniNom->[ColorUni]á [WordTribal]</li>
+    <li>r_name->[colorTerrainFeatureUniNom]</li>
+    <li>colorTerrainFeatureUniNom(p=0.46)->[ColorUni]ý [TerrainFeatureMasNom]</li>
+    <li>colorTerrainFeatureUniNom(p=0.42)->[ColorUni]á [TerrainFeatureFemNom]</li>
+    <li>colorTerrainFeatureUniNom(p=0.12)->[ColorUni]é [TerrainFeatureNeuNom]</li>
+    <li>r_name(p=0.46)->[colorTerrainFeatureUniGen]</li>
+    <li>colorTerrainFeatureUniGen(p=0.46)->U [ColorUniCap]ého [TerrainFeatureMasGen]</li>
+    <li>colorTerrainFeatureUniGen(p=0.42)->U [ColorUniCap]é [TerrainFeatureFemGen]</li>
+    <li>colorTerrainFeatureUniGen(p=0.12)->U [ColorUniCap]ého [TerrainFeatureNeuGen]</li>
     <li>r_name->[TerrainFeatureUniNom] [WordTribal]</li>
-    <li>maybe_community_tribal->[community_tribal] </li>
-    <li>maybe_community_tribal-></li>
-    <li>community_tribal(p=2)->osada</li>
-    <li>community_tribal->vesnice</li>
-    <li>community_tribal->ves</li>
-    <li>community_tribal->víska</li>
-    <li>community_tribal->komunita</li>
+    <li>r_name->[wordTribalTerrainFeatureUniNom]</li>
+    <li>wordTribalTerrainFeatureUniNom(p=0.46)->[WordTribalUniAdj]ý [TerrainFeatureMasNom]</li>
+    <li>wordTribalTerrainFeatureUniNom(p=0.42)->[WordTribalUniAdj]á [TerrainFeatureFemNom]</li>
+    <li>wordTribalTerrainFeatureUniNom(p=0.12)->[WordTribalUniAdj]é [TerrainFeatureNeuNom]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>
