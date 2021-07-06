@@ -9,7 +9,7 @@
   <!-- EN: comfort -->
   <Comfort.label>komfort</Comfort.label>
   <!-- EN: Comfort is gained by sitting in or sleeping on comfortable furniture. It is acquired while laying in bed, sitting in a chair while working, or other times. -->
-  <Comfort.description>Komfort se získává sezením nebo spaním na pohodlném nábytku. A to i v případě, že osoba na posteli pouze leží, nebo při práci sedí v křesle apod.</Comfort.description>
+  <Comfort.description>Komfort lze získat sezením nebo spaním na pohodlném nábytku. A to i v případě, že jedinec na posteli pouze leží, nebo při práci sedí v křesle apod.</Comfort.description>
   
   <!-- EN: chemical -->
   <DrugDesire.label>chemikálie</DrugDesire.label>
@@ -21,20 +21,25 @@
   <!-- EN: Food is the amount of nutrition a creature has consumed recently. If it is at zero, a creature will become increasingly malnourished and eventually die. -->
   <Food.description>Strava určuje množství výživy, kterou bytost nedávno zkonzumovala. Pokud je hladina na nule, začne trpět podvýživou a eventuálně může zemřít.</Food.description>
   
+  <!-- EN: indoors -->
+  <Indoors.label>pobyt uvnitř</Indoors.label>
+  <!-- EN: Indoors expresses the need to be within walls and under a roof. It is harmed by spending time in outdoor areas or not under roofs. To raise this need past 50%, a person must be under an overhead mountain, not just a normal roof. -->
+  <Indoors.description>Pobyt uvnitř vyjadřuje potřebu mít kolem sebe zdi a být pod střechou. Hodnota klesá trávením času ve venkovních prostorách nebo pod širým nebem. Aby tato potřeba překonala 50%, musí mít člověk nad hlavou horu, běžná střecha nestačí.</Indoors.description>
+  
   <!-- EN: recreation -->
   <Joy.label>relaxace</Joy.label>
   <!-- EN: Recreation is the need to have fun. Repeating the same kind of activity makes it less fun, so variety is necessary. -->
-  <Joy.description>Relaxace představuje potřebu udělat čas od času něco příjemně zábavného, jako hrát hry nebo vyhledat společnost. Opakování stejného druhu činnosti zapříčiní nižší efektivitu při získávání relaxace, takže je důležité poskytnout celou řadu relaxačních aktivit.</Joy.description>
+  <Joy.description>Relaxace představuje potřebu udělat čas od času něco příjemně zábavného. Opakování stejného druhu aktivity je méně zábavné, proto je důležitá rozmanitost.</Joy.description>
   
   <!-- EN: mood -->
   <Mood.label>nálada</Mood.label>
   <!-- EN: Mood represents how happy or stressed someone is. If mood gets too low, the person may suffer a mental break. Depending on how low his mood is, someone who has a mental break may have a minor breaks like hiding in his room for a day, or a major break like going on a murder spree. -->
-  <Mood.description>Nálada vyjadřuje, nakolik je někdo šťastný nebo ve stresu. Pokud nálada klesne příliš nízko, osoba může utrpět nervové zhroucení. V závislosti na tom, jak špatná je nálada, může u někoho dojít k mírnému nervovému zhroucení, například se půjde ukrýt ve vlastním pokoji, nebo k vážnému nervovému zhroucení, při kterém se vydá na vražedné běsnění.</Mood.description>
+  <Mood.description>Nálada vyjadřuje, nakolik je někdo šťastný nebo ve stresu. Pokud se nálada dostane příliš nízko, osoba může utrpět nervové zhroucení. V závislosti na tom, jak špatná je nálada jedince, může dojít k mírnému nervovému zhroucení, například se půjde na celý den ukrýt do svého pokoje, nebo u něj dojde k vážnému nervovému zhroucení, při kterém se vydá na vražedné běsnění.</Mood.description>
   
   <!-- EN: outdoors -->
   <Outdoors.label>pobyt v přírodě</Outdoors.label>
   <!-- EN: Outdoors expresses the need not to be cooped up inside. It is harmed by long periods inside, especially underground. It improves when someone spends time under the sky, especially outdoors. It's not about the size of the rooms, but the need to be outside from time to time. Lack of outdoors time is a significant challenge for people who dwell in underground bases. -->
-  <Outdoors.description>Pobyt v přírodě vyjadřuje potřebu být venku, ne jako v kleci. Zhoršuje se, pokud se jedinec nachází dlouhou dobu uvnitř, a to hlavně v podzemí. Zlepšuje se, pokud svůj čas tráví pod širým nebem, zejména v přírodě. Nejde o velikost místností, ale o potřebu být čas od času venku. Nedostatek času venku je významnou výzvou pro lidi, kteří bydlí v těsných podzemních základnách.</Outdoors.description>
+  <Outdoors.description>Pobyt v přírodě vyjadřuje potřebu být venku, ne jako zavřený v kleci. Hodnota se snižuje, pokud se jedinec nachází po dlouhou dobu uvnitř, obzvlášť v podzemí. Zlepšuje se, pokud svůj čas tráví pod širým nebem, zejména v přírodě. Nejde o velikost místností, ale o potřebu být čas od času venku. Nedostatek času venku je významnou výzvou pro lidi, kteří bydlí ve stísněných podzemních základnách.</Outdoors.description>
   
   <!-- EN: rest -->
   <Rest.label>odpočinek</Rest.label>
