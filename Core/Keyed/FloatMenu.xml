@@ -13,7 +13,7 @@
   <CannotUseNoPath>Nelze použít (nevede tam cesta)</CannotUseNoPath>
   <!-- EN: Cannot use: Reserved -->
   <CannotUseReserved>Nelze použít (vyhrazeno)</CannotUseReserved>
-  <!-- EN: Cannot use: full -->
+  <!-- EN: Cannot use: Full -->
   <CannotUseFull>Nelze použít (plno)</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>{1_gender ? Vůdce : Vůdkyně} {1_labelShort} je {1_gender ? nedostupný : nedostupná}</LeaderUnavailable>
@@ -144,7 +144,7 @@
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Zkonzumovat {1_labelShort}</ConsumeThing>
   
-  <!-- EN: Cannot go here: no path -->
+  <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>Sem nelze jít (žádná cesta)</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Jít sem</GoHere>
@@ -286,6 +286,10 @@
   <CannotStrip>Nelze svléknout - {1_label}</CannotStrip>
   <!-- EN: Cannot drop {1_label} -->
   <CannotDrop>Nelze zahodit - {1_label}</CannotDrop>
+  <!-- EN: Carry {0_label} -->
+  <Carry>Nést - {0_label}</Carry>
+  <!-- EN: Cannot carry {0_label} -->
+  <CannotCarry>Nelze nést - {0_label}</CannotCarry>
   <!-- EN: temporary faction member -->
   <QuestRelated>dočasný člen frakce</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -349,7 +353,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Nelze {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: incapable of {0} -->
+  <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>Nelze upřednostnit (není způsobilý {0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -358,27 +362,27 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>Příkaz 'prioritně {0}' již probíhá</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: will never do {0} -->
+  <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Nelze upřednostnit (nikdy nebude provádět činnost {0})</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: Cannot trade: lacking necessary title -->
   <CannotTradeMissingTitleAbility>Nelze obchodovat (nemá potřebný titul)</CannotTradeMissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: will never {0} -->
+  <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Nelze upřednostnit (nikdy nebude {0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>nikdy nebude {0}</WillNever>
 
-  <!-- EN: Cannot prioritize: not assigned to {0} -->
+  <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Nelze upřednostnit (nemá přidělenou činnost {0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>nemá přiděleno</NotAssigned>
 
-  <!-- EN: Cannot prioritize: research is a long-term task -->
+  <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch>Nelze upřednostnit (výzkum je dlouhodobý úkol)</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>Nelze upřednostnit ({1_label} - aktuálně {1_gender ? zakázaný : zakázaná : zakázané})</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize: forbidden -->
+  <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>Nelze upřednostnit (zakázáno)</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Mimo povolenou oblast</CannotPrioritizeForbiddenOutsideAllowedArea>
@@ -442,5 +446,14 @@
 
   <!-- EN: Too dangerous -->
   <EnterCooldownBlocksEntering>Příliš nebezpečné</EnterCooldownBlocksEntering>
+
+  <!-- EN: Tend {0} -->
+  <Tend>Ošetřit - {0}</Tend>
+  <!-- EN: Cannot tend {0} -->
+  <CannotTend>Nelze ošetřit - {0}</CannotTend>
+  <!-- EN: {0} does not require tending -->
+  <TendingNotRequired>{0} nevyžaduje péči</TendingNotRequired>
+  <!-- EN: without medicine -->
+  <WithoutMedicine>bez léků</WithoutMedicine>
   
 </LanguageData>
