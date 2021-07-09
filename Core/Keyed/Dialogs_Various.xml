@@ -1059,5 +1059,39 @@
   <MentalBreakIntensityMajor>vážné</MentalBreakIntensityMajor>
   <!-- EN: extreme -->
   <MentalBreakIntensityExtreme>extrémní</MentalBreakIntensityExtreme>
+
+  <!-- Auto slaughter -->
+  <!-- EN: Animal -->
+  <AutoSlaugtherHeaderColLabel>Zvíře</AutoSlaugtherHeaderColLabel>
+  <!-- EN: Current -->
+  <AutoSlaugtherHeaderColCurrent>Akt. stav</AutoSlaugtherHeaderColCurrent>
+  <!-- EN: Max -->
+  <AutoSlaugtherHeaderColMax>Maximum</AutoSlaugtherHeaderColMax>
+  <!-- EN: Total -->
+  <AutoSlaugtherHeaderColTotal>Celkem</AutoSlaugtherHeaderColTotal>
+  <!-- EN: Other -->
+  <AutoSlaugtherHeaderColOther>Další</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
+  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
+  <AutoSlaugtherTip>Pokud máš více než maximální počet zvířat, kolonisté budou zabíjet nejstarší zvířata, dokud znovu nedosáhneš limitu.</AutoSlaugtherTip>
+
+  <!-- EN: The animal to be automatically slaughtered. -->
+  <AutoSlaugtherHeaderTooltipLabel>Zvíře, které má být automaticky poraženo.</AutoSlaugtherHeaderTooltipLabel>
+  <!-- EN: The current number of animals in the colony, both male and female.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipCurrentTotal>Aktuální počet zvířat v kolonii, samci včetně samic.\n\nBřezí a nedospělá zvířata budou ignorována.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipMaxTotal>Maximální počet zvířat v kolonii, samci včetně samic.\n\nChovatelé automaticky porazí všechna přebytečná zvířata.\n\nBřezí a nedospělá zvířata budou ignorována.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <!-- EN: The current number of males in the colony.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipCurrentMales>Aktuální počet samců v kolonii.\n\nBřezí a nedospělá zvířata budou ignorována.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <!-- EN: The maximum number of males in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipMaxMales>Maximální počet samců v kolonii.\n\nChovatelé automaticky porazí všechna přebytečná zvířata.\n\nBřezí a nedospělá zvířata budou ignorována.</AutoSlaugtherHeaderTooltipMaxMales>
+  <!-- EN: The current number of females in the colony.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipCurrentFemales>Aktuální počet samic v kolonii.\n\nBřezí a nedospělá zvířata budou ignorována.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <!-- EN: Desired maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipMaxFemales>Maximální počet samic v kolonii.\n\nChovatelé automaticky porazí všechna přebytečná zvířata.\n\nBřezí a nedospělá zvířata budou ignorována.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <!-- EN: The current number of pregnant or immature animals in the colony.\n\nThese animals are ignored. -->
+  <AutoSlaugtherHeaderTooltipOther>Aktuální počet březích nebo nedospělých zvířat v kolonii.\n\nTato zvířata budou ignorována.</AutoSlaugtherHeaderTooltipOther>
+
+  <!-- EN: Click to set an animal count limit. -->
+  <AutoSlaughterTooltipSetLimit>Kliknutím nastavíš limit počtu zvířat.</AutoSlaughterTooltipSetLimit>
   
 </LanguageData>
