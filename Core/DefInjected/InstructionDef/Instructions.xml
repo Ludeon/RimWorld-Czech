@@ -94,8 +94,10 @@
   <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
   <ChopTrees.text>Budeš také chtít natěžit nějaké to dřevo. Označ několik stromů k pokácení.\n\nVyber příkaz POKÁCET a označ 10 stromů k pokácení.\n\n(Tip pro profesionály: Přes stromy můžeš přetáhnout rámeček, abys jich označil víc najednou.)</ChopTrees.text>
   
-  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  <CreateWorldParams.text>Vítej ve hře RimWorld! Tato výuka tě naučí, jak tuto hru hrát.\n\nPrvním krokem bude vytvoření světa, ve kterém se bude hrát.\n\nNa této stránce se nastavuje, jak bude tvůj svět vytvořen.\n\nStandardní nastavení vypadá dobře - jdi na to a klikni na VYGENEROVAT!</CreateWorldParams.text>
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>Klikni na VYGENEROVAT, aby sis vytvořil svůj svět.</CreateWorldParams.rejectInputMessage>
+  <!-- EN: This page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>Tato stránka slouží ke konfiguraci způsobu generování tvého světa.\n\nVýchozí nastavení vypadá dobře - jdi na to a klikni na VYGENEROVAT!</CreateWorldParams.text>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>Pošli kolonisty sem,aby se dotýkali\npytlů s pískem kvůli krytí</DownRaider.onMapInstruction>
@@ -203,7 +205,7 @@
   <UnforbidStartingResources.onMapInstruction>Tohle povol</UnforbidStartingResources.onMapInstruction>
   <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>Povol své počáteční předměty k odnesení, prosím.</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must remove their "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
-  <UnforbidStartingResources.text>Teď, abys povolil svým kolonistům nanosit jejich předměty do skladiště, musíš tyto předměty povolit k odnesení.\n\n1. Klikni na své počáteční předměty, abys je označil.\n2. Klikni na příkaz POVOLIT, abys umožnil jejich odnesení.\n\n(Tip pro profesionály: Proveď dvojklik na předmět, abys označil všechny předměty tohoto druhu na obrazovce.)</UnforbidStartingResources.text>
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
+  <UnforbidStartingResources.text>Aby tví kolonisté mohli nanosit své předměty do skladiště, musíš z předmětů odstranit značku "zakázané".\n\n1. Klikni na své počáteční předměty, abys je označil.\n2. Klikni na příkaz POVOLIT, abys umožnil jejich odnesení.\n\n(Tip pro profesionály: Dvojklikem na předmět vybereš na obrazovce všechny předměty stejného druhu najednou.)\n\nPřípadně můžeš:\n1. Kliknout na ARCHITEKT.\n2. Kliknout na PŘÍKAZY.\n3. Vybrat příkaz POVOLIT.\n4. Nyní nakresli rámeček kolem všech zakázaných předmětů, které chceš povolit.</UnforbidStartingResources.text>
   
 </LanguageData>
