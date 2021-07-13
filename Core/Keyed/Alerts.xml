@@ -23,7 +23,7 @@
   <ColonistNeedsRescue>Kolonista potřebuje zachránit</ColonistNeedsRescue>
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>Kolonisté potřebují zachránit</ColonistsNeedRescue>
-  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>Tito kolonisté leží na zemi v bezvědomí:\n\n{0}\nPošli k němu jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni pravým tlačítkem na oběť a vyber Zachraň!)</ColonistsNeedRescueDesc>
 
   <!-- EN: Need defenses -->
@@ -254,4 +254,43 @@
   <QuestExpiresSoon>Do donce platnosti úkolu zbývá {0}</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
   <QuestExpiresSoonDesc>Do konce platnosti úkolu '{0}' zbývá {1}.</QuestExpiresSoonDesc>
+
+  <!-- EN: Animal filth -->
+  <AlertAnimalFilth>Zvířecí špína</AlertAnimalFilth>
+  <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
+  <AlertAnimalFilthDesc>Zvíře produkující špínu se nachází uvnitř na čisté podlaze.\n\nPokud se zvířata pohybují po běžné podlaze, zanechávají za sebou velké množství nečistot. Snaž se proto zvířata držet venku nebo na slaměných podestýlkách, na kterých zanechávají mnohem méně špíny.\n\nMíru produkce špíny konkrétního zvířete můžeš zkontrolovat v jeho statistikách kliknutím na tlačítko 'i'.\n\nProblém se týká těchto zvířat:\n{0}</AlertAnimalFilthDesc>
+
+  <!-- EN: Pen needed -->
+  <AlertAnimalPenNeeded>Potřebuješ ohradu</AlertAnimalPenNeeded>
+  <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen, they will wander away. -->
+  <AlertAnimalPenNeededDesc>Některá z tvých ochočených zvířat jsou tuláci. Pokud je neumístíš do zvířecího výběhu, zatoulají se pryč.</AlertAnimalPenNeededDesc>
+  <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
+  <AlertAnimalPenNeededNoHandlers>Nemáš žádné chovatele, kteří by odvedli zvířata do výběhu.\n\nPřiřaď kolonistu k pracovní činnosti Chovatel.</AlertAnimalPenNeededNoHandlers>
+  <!-- EN: None of your assigned handlers have the required animals skill needed to take the following animals to a pen. -->
+  <AlertAnimalPenNeededLowSkillHandlers>Žádný z tvých přiřazených chovatelů nemá potřebné zvířecí dovednosti, aby odvedl následující zvířata do výběhu.</AlertAnimalPenNeededLowSkillHandlers>
+  <!-- EN: needs {MINSKILL}, {HANDLER_labelShort} has {BESTSKILL} -->
+  <AlertAnimalPenNeededLowSkillHandlersDetail>potřebuje {MINSKILL}, {HANDLER_labelShort} má {BESTSKILL}</AlertAnimalPenNeededLowSkillHandlersDetail>
+  <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
+  <AlertAnimalPenNeededDescExplanation>Vytvoř zvířecí výběh umístěním výběhové cedule dovnitř oploceného prostoru tvořeného ohradou, barikádou či zdí. Vyber ceduli značící výběh a podívej se, jaká zvířata přijímá a pro kolik zvířat je ohrada vhodná.\n\nTví chovatelé automaticky přivedou zvířata k přidělenému výběhu.\n\nAby mohla být zvířata přijímána, musí být výběh vybaven brankou nebo dveřmi.</AlertAnimalPenNeededDescExplanation>
+
+  <!-- EN: Pen not enclosed -->
+  <AlertAnimalPenNotEnclosed>Ohrada není uzavřená</AlertAnimalPenNotEnclosed>
+  <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
+  <AlertAnimalPenNotEnclosedDesc>Cedule značící výběh pro zvířata není zcela oplocená.\n\nUzavři výběh pomocí ohrady, barikád, branek, zdí nebo dveří, abys zabránil zvířatům v zatoulání.\n\nPokud necháš cedule bez řádného oplocení, budou tví chovatelé vracet zatoulaná zvířata zpět domů - pokud se zvířata opět vzdálí, budou muset tento úkon čas od času opakovat.</AlertAnimalPenNotEnclosedDesc>
+
+  <!-- EN: Animal wandering away -->
+  <AlertAnimalIsRoaming>Toulavé zvíře odchází</AlertAnimalIsRoaming>
+  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
+  <AlertAnimalIsRoamingDesc>Některá z tvých ochočených zvířat jsou tuláci a právě se dali do pohybu. Dostanou-li se na okraj mapy, nakonec odejdou.\n\nPokud máš oplocený zvířecí výběh, mohou tví chovatelé přivést zvíře zpět. Zvířata ve zvířecím výběhu se nezatoulají.\n\nZatoulala se následující zvířata:\n\n{0}</AlertAnimalIsRoamingDesc>
+
+  <!-- EN: Hungry pen animals -->
+  <AlertPennedAnimalHungry>Chovaná zvěř hladoví</AlertPennedAnimalHungry>
+  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
+  <AlertPennedAnimalHungryDesc>Některá tvá zvířata v ohradě jsou hladová.\n\nVyber ceduli značící výběh a na kartě Krmení zobraz další podrobnosti.\n\nZvířata spásající trávu mohou potřebovat větší výběh, který poskytne dostatek trávy. Jiná zvířata mohou potřebovat zajistit přísun sena nebo podobného krmiva dodávaného pomocí skladu.\n\nHladová jsou následující zvířata:\n\n{0}</AlertPennedAnimalHungryDesc>
+
+  <!-- EN: Faction will become hostile if you stay -->
+  <FactionWillBecomeHostileIfNotLeavingWithin>Pokud zůstaneš, frakce se stane nepřátelskou</FactionWillBecomeHostileIfNotLeavingWithin>
+  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>Tyto frakce se stanou nepřátelskými, pokud v jejich osadě nebo stanovišti setrváš déle:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
 </LanguageData>

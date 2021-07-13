@@ -73,12 +73,12 @@
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nový rekrut</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull} ({2} chance). -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} úspěšně {RECRUITER_gender ? naverboval : naverbovala} vězně jménem {RECRUITEE_nameFull} (šance {2}).</MessageRecruitSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) (šance {2}).</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1} ({2} chance). It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}) (šance {2}). Nyní se nazývá {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
+  <MessageRecruitSuccess>{RECRUITER_nameFull} úspěšně {RECRUITER_gender ? naverboval : naverbovala} vězně jménem {RECRUITEE_nameFull}.</MessageRecruitSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
+  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}).</MessageTameSuccess>
+  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} zvíře ({1}). Nyní se nazývá {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: {RECRUITEE} has joined your colony. -->
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} se {RECRUITEE_gender ? připojil : připojila} ke tvé kolonii.</MessageRecruitJoinOfferAccepted>
 
@@ -149,6 +149,8 @@
   <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Tato operace vyvolá ve frakci {0} hněv.</MessageMedicalOperationWillAngerFaction>
 
+  <!-- EN: {PAWN_nameDef} is pregnant! -->
+  <MessageAnimalIsPregnant>{PAWN_nameDef} čeká potomstvo!</MessageAnimalIsPregnant>
   <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0} kvůli vyhladovění potratila.</MessageMiscarriedStarvation>
   <!-- EN: {0} has miscarried due to poor health. -->
