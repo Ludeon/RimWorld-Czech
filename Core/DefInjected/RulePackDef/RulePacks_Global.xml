@@ -785,6 +785,13 @@
     <li>enemyFaction_leaderIns(enemyFaction_leader_gender==Male,p=0.00000000001)->vůdcem</li>
     <li>enemyFaction_leaderIns(enemyFaction_leader_gender==Female,p=0.00000000001)->vůdkyní</li>
 
+    <li>playerFaction_leader_eho_ou(playerFaction_leader_gender==Male)->ého</li>
+    <li>playerFaction_leader_eho_ou(playerFaction_leader_gender==Female)->ou</li>
+    <li>playerFaction_leader_leaderAcc(playerFaction_leader_gender==Male,playerFaction==PlayerColony)->vůdce</li>
+    <li>playerFaction_leader_leaderAcc(playerFaction_leader_gender==Female,playerFaction==PlayerColony)->vůdkyni</li>
+    <li>playerFaction_leader_leaderAcc(playerFaction_leader_gender==Male,playerFaction==PlayerTribe)->náčelníka</li>
+    <li>playerFaction_leader_leaderAcc(playerFaction_leader_gender==Female,playerFaction==PlayerTribe)->náčelnici</li>
+
     <li>INITIATOR_x_a_x(INITIATOR_gender==Male)-></li>
     <li>INITIATOR_x_a_x(INITIATOR_gender==Female)->a</li>
     <li>INITIATOR_x_a_x(INITIATOR_gender==None)-></li>
