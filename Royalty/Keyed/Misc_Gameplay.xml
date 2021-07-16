@@ -32,7 +32,7 @@
   <!-- EN: whoever accepted the quest will receive {1} {0_royalFavorLabel} from {0_name} -->
   <Reward_RoyalFavor>ten, kdo přijme úkol, získá od frakce {0_name} {1}b pocty</Reward_RoyalFavor>
   <!-- EN: you may choose one of the participating {2} to receive {1} {0_royalFavorLabel} from {0_name} -->
-  <Reward_RoyalFavor_ChoosePawn>můžeš si vybrat jednoho ze zůčastněných {2}, který získá od frakce {0_name} {1}b pocty</Reward_RoyalFavor_ChoosePawn>
+  <Reward_RoyalFavor_ChoosePawn>můžeš si vybrat jednoho ze zúčastněných {2}, který získá od frakce {0_name} {1}b pocty</Reward_RoyalFavor_ChoosePawn>
   
   <!-- Ship landing beacons -->
   <!-- EN: Not usable -->
@@ -120,6 +120,9 @@
   <AbilitySpeechPossibleOutcomes>Možné závěry</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort} má '{1}'</AbilitySpeechStatInfo>
+  
+  <!-- EN: Bestowing Ceremony -->
+  <RitualBestowingCeremony>Slavnostní předání</RitualBestowingCeremony>
 
   <!-- EN: Total meditation today: {0} (progress multiplier {1}) -->
   <TotalMeditationToday>Dnešní meditace: {0} (násobitel pokroku {1})</TotalMeditationToday>
@@ -143,11 +146,15 @@
   <!-- EN: Destination is out of range. -->
   <MessageShuttleDestinationIsTooFar>Cílová destinace je mimo dosah.</MessageShuttleDestinationIsTooFar>
 
-  <!-- EN: Do bestowing ceremony -->
-  <BeginCeremony>Zahájit slavnostní předání</BeginCeremony>
+  <!-- EN: Start bestowing ceremony for {0_labelShort} -->
+  <BeginCeremony>Zahájit slavnostní předání ({0_labelShort})</BeginCeremony>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udíleč je pobouřen tím, že trůnní sál, který má mít {PAWN_definite} k dispozici, nesplňuje požadavky pro titul {TITLE}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
-
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udíleč je pobouřen tím, že trůnní sál, který má {PAWN_definite} k dispozici, nesplňuje požadavky pro titul {TITLE}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <!-- EN: bestowing ceremony -->
+  <BestowingCeremonyLabel>slavnostního předání</BestowingCeremonyLabel>
+  <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
+  <BestowingOutcomeQualitySpecific>Výsledná kvalita slavnostního předání byla {0}, určena těmito faktory</BestowingOutcomeQualitySpecific>
+  
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Zatím není naložen veškerý potřebný náklad!</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>

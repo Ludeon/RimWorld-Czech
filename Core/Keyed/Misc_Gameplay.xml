@@ -399,7 +399,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{0} x{2} ({1})</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>Vyžaduje</Required>
+  <Required>Vyžadováno</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>Upozornění: Obchodní žádosti nelze dokončit pomocí přepravních modulů.\nPokud tímto způsobem zboží odešleš, osada ho přijme jako dar, ale nezískáš žádnou odměnu.\n\nPro uskutečnění obchodu musíš do osady vyslat karavanu!\n\nOpravdu chceš frakci darovat tohle naložené zboží?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -1364,5 +1364,35 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Příčina: {0}</CausedByHediff>
+
+  <!-- EN: Attending -->
+  <LordReportAttending>Účastní se</LordReportAttending>
+  <!-- EN: ends in {0} -->
+  <RitualEndsIn>končí za {0}</RitualEndsIn>
+  <!-- EN: Quality factors -->
+  <QualityFactors>Faktory kvality</QualityFactors>
+  <!-- EN: Spectators -->
+  <Spectators>Účastníci</Spectators>
+  <!-- EN: Not participating -->
+  <NotParticipating>Nezúčastní se</NotParticipating>
+  <!-- EN: Drag and drop or left/right click to move people. -->
+  <DragPawnsToRolesInfo>Přesouvej postavy myší nebo levým/pravým kliknutím.</DragPawnsToRolesInfo>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
+  <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Jakmile zahájíš obřad, probudí se.</RitualBeginSleepingWarning>
+  <!-- EN: Outcome chances at {0} quality -->
+  <RitualOutcomeChances>Výsledné šance při {0} kvalitě</RitualOutcomeChances>
+  <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
+  <RitualOutcomeExtraDesc_Mood>Každý, kdo se zúčastní tohoto obřadu, získá {0} k náladě po dobu {1} dnů.</RitualOutcomeExtraDesc_Mood>
+  
+  <!-- EN: Begin -->
+  <Begin>Zahájit</Begin>
+  <!-- EN: {0} (out of {1}) -->
+  <QualityOutOf>{0} (max {1})</QualityOutOf>
+
+  <!-- EN: Expected quality -->
+  <ExpectedRitualQuality>Očekávaná kvalita</ExpectedRitualQuality>
+
+  <!-- EN: Participants -->
+  <RitualPredictedOutcomeDescParticipantCount>Účastníci</RitualPredictedOutcomeDescParticipantCount>
   
 </LanguageData>

@@ -21,12 +21,16 @@
   <!-- EN: Warning: Anima tree has been marked for cutting. -->
   <MessageWarningCutAnimaTree>Upozornění: Spirituální strom byl označen ke kácení.</MessageWarningCutAnimaTree>
 
-  <!-- EN: Select {TARGET_definite} and right-click the bestower to begin the bestowing ceremony. -->
-  <MessageBestowerWaiting>Vyber {TARGET_gender ? kolonistu : kolonistku} jménem {TARGET_definite} a pravým tlačítkem myši klikni na udíleče k zahájení slavnostního předání.</MessageBestowerWaiting>
+  <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
+  <MessageBestowerWaiting>Vyber {BESTOWER_gender ? udíleče : udílečku} a klikni na 'Zahájit slavnostní předání' k zahájení ceremonie.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Udíleč je mimo dosah!</MessageBestowerUnreachable>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>Udíleč se kvůli vměšování naštval a rozhodl se odejít.</MessageBestowingSpotUnreachable>
+  <!-- EN: The bestower is leaving due to life-threatening danger. -->
+  <MessageBestowingDanger>Udíleč odchází z důvodu život ohrožujícímu nebezpečí.</MessageBestowingDanger>
+  <!-- EN: The bestowing ceremony has been interrupted. -->
+  <MessageBestowingInterrupted>Slavnostní předání bylo přerušeno.</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
   <MessageBestowingCeremonyStarted>Slavnostní předání bylo zahájeno. {PAWN_definite} nyní převezme titul.</MessageBestowingCeremonyStarted>
