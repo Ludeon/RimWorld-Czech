@@ -1094,10 +1094,10 @@
   <AutoSlaugtherHeaderTooltipMaxMales>Maximální počet samců reprodukčního věku v kolonii.\n\nChovatelé automaticky porazí všechna přebytečná zvířata.</AutoSlaugtherHeaderTooltipMaxMales>
   <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
   <AutoSlaughterHeaderTooltipMaxMalesYoung>Maximální počet samčích mláďat a mladých samců v kolonii.\n\nChovatelé automaticky porazí všechna přebytečná zvířata.</AutoSlaughterHeaderTooltipMaxMalesYoung>
-  <!-- EN: The current number of females of breeding age of breeding age in the colony. -->
+  <!-- EN: The current number of females of breeding age in the colony. -->
   <AutoSlaugtherHeaderTooltipCurrentFemales>Aktuální počet samic reprodukčního věku v kolonii.</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentFemalesYoung>Aktuální počet samičích mláďat a mladých samic v kolonii.</AutoSlaughterHeaderTooltipCurrentFemalesYoung>
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>Aktuální počet samičích mláďat a mladých samic v kolonii.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
   <AutoSlaugtherHeaderTooltipMaxFemales>Maximální počet samic reprodukčního věku v kolonii.\n\nChovatelé automaticky porazí všechna přebytečná zvířata.</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
@@ -1109,5 +1109,23 @@
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>Kliknutím nastavíš limit počtu zvířat.</AutoSlaughterTooltipSetLimit>
-  
+
+  <!-- Room requirements -->
+  <!-- EN: no beds allowed -->
+  <RoomRequirementNoBeds>žádné postele</RoomRequirementNoBeds>
+  <!-- EN: room area: {0} tiles -->
+  <RoomRequirementArea>velikost mísnosti {0} políček</RoomRequirementArea>
+  <!-- EN: room impressiveness -->
+  <RoomRequirementImpressiveness>působivost místnosti</RoomRequirementImpressiveness>
+  <!-- EN: all floored -->
+  <RoomRequirementAllFloored>úplná podlaha</RoomRequirementAllFloored>
+  <!-- EN: all braziers must be lit -->
+  <RoomRequirementAllBraziersMustBeLit>všechny koše na oheň musí hořet</RoomRequirementAllBraziersMustBeLit>
+  <!-- EN: all fine floored -->
+  <RoomRequirementAllFineFloored>úplná elegantní/luxusní podlaha</RoomRequirementAllFineFloored>
+  <!-- EN: no work facilities allowed -->
+  <RoomRequirementNoProductionFacilities>žádné výrobní vybavení</RoomRequirementNoProductionFacilities>
+  <!-- EN: no altars allowed -->
+  <RoomRequirementNoAltars>žádné oltáře</RoomRequirementNoAltars>
+
 </LanguageData>

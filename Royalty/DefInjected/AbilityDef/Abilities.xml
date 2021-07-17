@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: anima tree linking -->
+  <AnimaTreeLinking.label>Spojení se spirituálním stromem</AnimaTreeLinking.label>
+  <!-- EN: Start the anima tree linking ceremony. The linking person will meditate near the tree to gain a psylink level. Other psychically-sensitive colonists can also  help enhance the psychic link. More participants will accelerate the ceremony and cause some of the anima grass to re-grow as the ritual completes. -->
+  <AnimaTreeLinking.description>Zahájí obřad k navázání spojení se spirituálním stromem. Osoba navazující spojení bude meditovat v blízkosti stromu, aby zvýšila úroveň psiolinku. K posílení psychické vazby mohou také pomoci jiní psychicky citliví kolonisté. Více účastníků urychlí obřad a způsobí, že po dokončení rituálu znovu doroste část posvátné trávy.</AnimaTreeLinking.description>
+  
   <!-- EN: beckon -->
   <Beckon.label>vábení</Beckon.label>
   <!-- EN: Psychically command the target to approach the caster. -->
@@ -78,10 +83,10 @@
   
   <!-- EN: neuroquake -->
   <Neuroquake.label>neurotřesení</Neuroquake.label>
-  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature on the map outside of a safe circle near the caster will be driven violently insane. Casting this takes three hours of meditation, and afterwards, the caster will go into a three-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
-  <Neuroquake.description>Najde diskontinuitu v psychickém poli a rozšíří ji, což uvolní obrovské množství psychické energie. Přivede každé stvoření na mapě, mimo bezpečný okruh kolem sesílatele, do stavu násilného šílenství. Seslání této psiosíly zabere tříhodinovou meditaci, po které sesílatel upadne do třídenní psychické kómy. Rušivé ozvěny neurotřesení způsobí bolest všem na mnoho kilometrů daleko a způsobí diplomatické důsledky se všemi frakcemi.</Neuroquake.description>
-  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes three hours to cast, and cannot be interrupted. The caster will also fall into a psychic coma for several days.\n\nEveryone on the map except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
-  <Neuroquake.confirmationDialogText>Pokud použiješ neurotřesení, všichni v této oblasti pocítí její ozvěnu a také přijdeš o prestiž s každou frakcí, která není nepřátelská.\n\nSeslání neurotřesení trvá tři hodiny a nelze jej přerušit. Sesílatel poté na několik dnů upadne do psychického kómatu.\n\nOvlivněni budou všichni na mapě, kromě těch v úzkém kruhu kolem sesílatele.\n\nOpravdu chceš seslat neurotřesení?</Neuroquake.confirmationDialogText>
+  <!-- EN: Find a discontinuity in the psychic field and unfold it, releasing a massive amount of psychic energy. Every creature in range but outside of the safe, inner, circle will be driven violently insane. Casting this takes 12 seconds of meditation, and afterwards, the caster will go into a five-day psychic coma. The disturbing neuroquake echoes will inflict pain on everyone for many kilometers around, causing diplomatic consequences with all factions. -->
+  <Neuroquake.description>Nalezne diskontinuitu v psychickém poli a rozšíří ji, což uvolní obrovské množství psychické energie. Každé stvoření v dosahu, kromě nitra bezpečného kruhu, uvede do stavu násilného šílenství. Seslání této psiosíly zabere 12vteřinovou meditaci, po které sesílatel upadne do pětidenní psychické kómy. Znepokojivé ozvěny neurotřesení způsobí bolest každému v okruhu mnoha kilometrů daleko, což povede k diplomatickým konfliktům se všemi frakcemi.</Neuroquake.description>
+  <!-- EN: If you use neuroquake, everyone in this region will feel the neuroquake echo, you will lose goodwill with every non-hostile faction.\n\nNeuroquake takes 12 seconds to cast, and cannot be interrupted. When complete, the caster will fall into a psychic coma for 5 days.\n\nEveryone in range except those in a small circle around the caster will be affected.\n\nDo you really want to cast neuroquake? -->
+  <Neuroquake.confirmationDialogText>Pokud použiješ neurotřesení, všichni v této oblasti pocítí jeho ozvěnu. Přijdeš tím o prestiž s každou frakcí, která není nepřátelská.\n\nSeslání neurotřesení trvá 12 sekund a nelze jej nijak přerušit. Sesílatel poté upadne na 5 dnů do psychického kómatu.\n\nOvlivněni budou všichni v dosahu, mimo těch, kteří se nachází v úzkém kruhu kolem sesílatele.\n\nOpravdu chceš seslat neurotřesení?</Neuroquake.confirmationDialogText>
   
   <!-- EN: painblock -->
   <Painblock.label>blokování bolesti</Painblock.label>
@@ -95,8 +100,8 @@
   
   <!-- EN: smokepop -->
   <Smokepop.label>kouřová clona</Smokepop.label>
-  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely. -->
-  <Smokepop.description>Vymrští prachové částice z povrchu země, což vytvoří nepropustný oblak. Ten sníží přesnost příchozích střel a také zabrání zaměřování střeleckých věží.</Smokepop.description>
+  <!-- EN: Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely. -->
+  <Smokepop.description>Vymrští prachové částice z povrchu země, které vytvoří nepropustný oblak. Ten sníží přesnost každého výstřelu, který jím prochází, a brání střeleckým věžím zaměřovat cíle.</Smokepop.description>
   
   <!-- EN: solar pinhole -->
   <SolarPinhole.label>solární dírka</SolarPinhole.label>
@@ -110,8 +115,8 @@
   
   <!-- EN: stun -->
   <Stun.label>omráčení</Stun.label>
-  <!-- EN: Momentarily disrupt motor function in target's brain, preventing any movement. -->
-  <Stun.description>Na okamžik naruší motorické funkce mozku zvoleného cíle, čož znemožní jakýkoli pohyb.</Stun.description>
+  <!-- EN: Momentarily disrupt motor function in the target's brain, preventing any movement. -->
+  <Stun.description>Na okamžik naruší motorické funkce v cílovém mozku, což zabrání jakémukoliv pohybu.</Stun.description>
   
   <!-- EN: vertigo pulse -->
   <VertigoPulse.label>vlna závratě</VertigoPulse.label>
