@@ -258,8 +258,8 @@
   <NoPower>Bez elektřiny</NoPower>
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>Postih k rychlosti práce</WorkSpeedPenalty>
-  <!-- EN: DISABLED -->
-  <DisabledCommand>VYPNUTO</DisabledCommand>
+  <!-- EN: Disabled -->
+  <DisabledCommand>Deaktivováno</DisabledCommand>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Připraven ke startu.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -560,6 +560,10 @@
   <InvertArea>Invertovat</InvertArea>
 
   <!-- Animal pens -->
+  <!-- EN: Unenclosed -->
+  <PenUnenclosedLabel>Není oplocená</PenUnenclosedLabel>
+  <!-- EN: open door -->
+  <PenOpenDoorLabel>otevřený vstup</PenOpenDoorLabel>
   <!-- EN: Rename pen -->
   <RenameAnimalPen>Přejmenovat výběh</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
@@ -570,6 +574,8 @@
   <Unpenned>není v ohradě</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
   <UnpennedTooltip>Zvířecí ohrady lze vytvořit umístěním výběhové cedule uvnitř uzavřeného prostoru. Tví chovatelé poté přivedou zvířata do příslušné ohrady. Zvířecí výběhy mohou být obehnány ohradou, barikádami, zdmi a dveřmi.</UnpennedTooltip>
+  <!-- EN: Roped by -->
+  <RopedByPawn>Nechává se vést od</RopedByPawn>
   <!-- EN: Pen size -->
   <PenSizeLabel>Velikost výběhu</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -581,11 +587,12 @@
   <!-- EN: Large pen -->
   <PenSizeDesc_Large>Velký výběh</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>Není oploceno - postav ohradu</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>Není oplocená - postav ohradu</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>Kapacita - {ANIMALDEF_label}</PenCapacityDesc>
+  <PenCapacityDesc>{ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>Příklad zvířat</PenExampleAnimals>
+  <PenExampleAnimals>Příklady zvířecí kapacity</PenExampleAnimals>
+
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -786,8 +793,8 @@
   <StunLower>omráčený</StunLower>
 
   <!-- Inspector general stuff -->
-  <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\nKlávesová zkratka: {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
+  <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\n(*SectionTitle)Klávesová zkratka:(/SectionTitle) {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Zobrazit informace.</DefInfoTip>
 
@@ -1086,6 +1093,8 @@
   <!-- Quality -->
   <!-- EN: Quality -->
   <Quality>Kvalita</Quality>
+  <!-- EN: quality -->
+  <quality>kvalita</quality>
   <!-- EN: An item's quality is how well-made it is. -->
   <QualityDescription>Kvalita předmětu značí, jak dobře byl vyroben.</QualityDescription>
   <!-- EN: Quality: {0} -->
