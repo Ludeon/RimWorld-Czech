@@ -82,32 +82,34 @@
   <PasteBillTip_LimitReached>Nelze přidat více</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <!-- EN: Resistance remaining -->
-  <RecruitmentResistance>Zbývající vzdor</RecruitmentResistance>
-  <!-- EN: Recruitment difficulty -->
-  <RecruitmentDifficulty>Obtížnost verbování</RecruitmentDifficulty>
-  <!-- EN: Recruitment chance -->
-  <RecruitmentChance>Šance na naverbování</RecruitmentChance>
-  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
-  <RecruitmentChanceExplanation>Faktor obtížnosti verbování: {0}\nFaktor nálady: {1}\nKonečná základní šance: {2}</RecruitmentChanceExplanation>
-  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
-  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\nPoslední pokus o verbování:\nNáborář: {3}\nFaktor schopnosti vyjednávání: {4}\nFaktor mínění: {5} ({6})\nVýsledná šance: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
-  <!-- EN: \nResistance reduction: {0} -->
-  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nSníženo vzdoru: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: Resistance -->
+  <RecruitmentResistance>Vzdor</RecruitmentResistance>
+  <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
+  <RecruitmentResistanceDesc>Do jaké míry vězeň pochybuje o vstupu do tvé frakce. Jakmile dosáhne nuly, verbování může začít.</RecruitmentResistanceDesc>
+  <!-- EN: {0} base resistance -->
+  <RecruitmentResistanceFromPawnKind>Základní vzdor ({0})</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>Vztahy při propuštění</PrisonerReleasePotentialRelationGains>
-  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>Zlepšení vztahů s frakcemi získáš od vězňové frakce, pokud jej propustíš. To je ovlivněno i zdravotním a duševním stavem vězně.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleasePotentialRelationGains>Vztahy získané při propuštění</PrisonerReleasePotentialRelationGains>
+  <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
+  <PrisonerReleaseRelationGainsDesc>Množství prestiže, které získáš od frakce zadržovaného, pokud ho propustíš. Tato hodnota závisí na identitě, zdravotním a psychickém stavu vězněného.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Pokus o útěk (interval)</PrisonBreakMTBDays>
-  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
-  <PrisonBreakMTBDaysDescription>Průměrný počet dnů mezi pokusy o útěk z vězení. Ovlivněno náladou, mobilitou a časem od posledního pokusu o útěk.\n\nTento počet dnů ignoruje čas strávený spaním, takže skutečný průměrný interval pokusu o útěk z vězení bude obvykle delší.</PrisonBreakMTBDaysDescription>
+  <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
+  <PrisonBreakMTBDaysDescription>Průměrný počet bdělých dnů mezi pokusy o útěk z vězení. Tato hodnota závisí na náladě, mobilitě, počtu dveří v cele a době od posledního pokusu o útěk z vězení.\n\nMěj na paměti, že zde není zahrnuta doba spánku.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Nikdy</Never>
   <!-- EN: Not while asleep -->
-  <NotWhileAsleep>Nehrozí (spí)</NotWhileAsleep>
+  <NotWhileAsleep>Nehrozí, spí</NotWhileAsleep>
+  <!-- EN: Breaking out now -->
+  <CurrentlyPrisonBreaking>Právě probíhá</CurrentlyPrisonBreaking>
+  <!-- EN: Multiplier for door count -->
+  <FactorForDoorCount>Násobitel pro počet dveří</FactorForDoorCount>
+  <!-- EN: Multiplier for movement -->
+  <FactorForMovement>Násobitel pro mobilitu</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Cena pro otrokáře</SlavePrice>
+  <!-- EN: The base market value of this {0} if sold. -->
+  <SlavePriceDescription>Základní tržní hodnota, jakou má {0} při prodeji.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Dostává jídlo</GetsFood>
   <!-- EN: Doctors care -->
@@ -194,6 +196,8 @@
   <SelfTend>Sebeošetření</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>Pokud je sebeošetření zapnuto, kolonisté se budou o své zranění automaticky starat, ale pouze se {1} účinností oproti normálu.</SelfTendTip>
+  <!-- EN: death in {0} -->
+  <DeathIn>zemře za {0}</DeathIn>
   
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
@@ -351,6 +355,8 @@
   <PenFoodTab_AnimalType>Zvířecí druh</PenFoodTab_AnimalType>
   <!-- EN: Count -->
   <PenFoodTab_Count>Počet</PenFoodTab_Count>
+  <!-- EN: Today -->
+  <PenFoodTab_CurrentDay>Dnes</PenFoodTab_CurrentDay>
   <!-- EN: nutrition -->
   <PenFoodTab_Nutrition_Unit>výživy</PenFoodTab_Nutrition_Unit>
   <!-- EN: per day -->
@@ -381,6 +387,9 @@
   <PenFoodTab_NutritionConsumedEachAnimalLabel>{CONSUMEDAMOUNT} / zvíře</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->
   <PenFoodTab_AnimalTypeAnimalCapacity>Počet, který bude v ohradě udržitelný bez dalších zvířat navíc</PenFoodTab_AnimalTypeAnimalCapacity>
+
+  <!-- EN: Edible now -->
+  <PenFoodTab_EdibleNow>Jedlé nyní</PenFoodTab_EdibleNow>
 
   <!-- EN: Auto-cut plants in pen -->
   <PenAutoCut_EnabledCheckbox>Auto-sekání rostlin ve výběhu</PenAutoCut_EnabledCheckbox>
