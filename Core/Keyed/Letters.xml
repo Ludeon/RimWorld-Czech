@@ -430,13 +430,13 @@
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
   <LetterLabelSurgeryFailed>Operace se nezdařila: {PATIENT_labelShort}</LetterLabelSurgeryFailed>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} menší chyby. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} během chirurgického zákroku katastrofálně {SURGEON_gender ? selhal : selhala}. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} několika směšných chyb. Pokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} fatální chyby kvůli zvláštním výzvám: {2}\n\nPokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} se během chirurgického zákroku {SURGEON_gender ? dopustil : dopustila} fatální chyby kvůli zvláštním výzvám: {2}\n\nPokud to {PATIENT_labelShort} {PATIENT_gender ? přežil : přežila}, bude vyžadovat další péči.</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -455,6 +455,12 @@
   <LetterLabelQuestDropPodsArrived>Dorazily přepravní moduly</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
   <LetterQuestDropPodsArrived>Dorazily přepravní moduly s následujícím obsahem:\n\n{0}</LetterQuestDropPodsArrived>
+
+  <!-- Quest items added to caravan inventory -->
+  <!-- EN: {CARAVAN_label} received items -->
+  <LetterLabelQuestItemsAddedToCaravanInventory>{CARAVAN_label} obdržela předměty</LetterLabelQuestItemsAddedToCaravanInventory>
+  <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
+  <LetterQuestItemsAddedToCaravanInventory>{CARAVAN_label} obdržela následující předměty:\n\n{THINGS}</LetterQuestItemsAddedToCaravanInventory>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->

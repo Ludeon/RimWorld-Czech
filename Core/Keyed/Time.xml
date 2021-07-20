@@ -51,11 +51,11 @@
   <QuadrumDecembary_Short>pro</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
-  <Born>Datum narození: {0}</Born>
+  <Born>Datum narození:\n{0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Chronologický věk: {0} let, {1} quadrumů, {2} dnů</AgeChronological>
+  <AgeChronological>\nChronologický věk:\n{replace: ​{0}​; "​1​"-"1 rok"; "​2​"-"2 roky"; "​3​"-"3 roky"; "​4​"-"4 roky"; "​{0}​"-"{0} let"}, {replace: ​{1}​; "​1​"-"1 quadrum"; "​2​"-"2 quadrumy"; "​3​"-"3 quadrumy"; "​4​"-"4 quadrumy"; "​{1}​"-"{1} quadrumů"}, {replace: ​{2}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{2}​"-"{2} dnů"}</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Biologický věk: {0} let, {1} quadrumů, {2} dnů</AgeBiological>
+  <AgeBiological>\nBiologický věk:\n{replace: ​{0}​; "​1​"-"1 rok"; "​2​"-"2 roky"; "​3​"-"3 roky"; "​4​"-"4 roky"; "​{0}​"-"{0} let"}, {replace: ​{1}​; "​1​"-"1 quadrum"; "​2​"-"2 quadrumy"; "​3​"-"3 quadrumy"; "​4​"-"4 quadrumy"; "​{1}​"-"{1} quadrumů"}, {replace: ​{2}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{2}​"-"{2} dnů"}</AgeBiological>
 
   <!-- Date periods -->
   <!-- EN: 1 year -->
@@ -86,5 +86,7 @@
   <Lasted>Trvá již</Lasted>
   <!-- EN: occurred {0} ago -->
   <OccurredTimeAgo>stalo se před {0}</OccurredTimeAgo>
+  <!-- EN: {0} ago -->
+  <TimeAgo>před {0}</TimeAgo>
   
 </LanguageData>
