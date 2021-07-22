@@ -11,11 +11,11 @@
   <!-- EN: Contained resources -->
   <ContainedResources>Obsažené suroviny</ContainedResources>
   <!-- EN: For prisoner use -->
-  <ForPrisonerUse>Pro vězně</ForPrisonerUse>
+  <ForPrisonerUse>Určení: Pro vězně</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
   <InPrisonCell>Ve vězeňské cele: Pro vězně</InPrisonCell>
   <!-- EN: For colonist use -->
-  <ForColonistUse>Pro kolonisty</ForColonistUse>
+  <ForColonistUse>Určení: Pro kolonisty</ForColonistUse>
   <!-- EN: Medical -->
   <MedicalBed>Zdravotnická</MedicalBed>
   <!-- EN: Owner -->
@@ -121,11 +121,13 @@
   <!-- EN: Wool growth -->
   <WoolGrowth>Růst vlny</WoolGrowth>
   <!-- EN: Egg progress -->
-  <EggProgress>Tvorba vejce</EggProgress>
+  <EggProgress>Postup vývoje vejce</EggProgress>
   <!-- EN: Fertilized -->
   <Fertilized>Oplodněná</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
   <ProgressStoppedUntilFertilized>Pokrok zastaven do oplodnění.</ProgressStoppedUntilFertilized>
+  <!-- EN: Hatches in -->
+  <HatchesIn>Vylíhnutí za</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
   <SkillTooLow>vyžaduje {0} na úrovni {2}, má {1}</SkillTooLow>
   <!-- EN: Freezing -->
@@ -160,6 +162,8 @@
   <ConfiguredTargetFuelLevel>Cílová hladina paliva: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
   <Enemies>nepřítel</Enemies>
+  <!-- EN: people -->
+  <People>lidé</People>
   <!-- EN: time passed -->
   <TimePassed>uplynulý čas</TimePassed>
   <!-- EN: current radius -->
@@ -330,8 +334,6 @@
   <DownedLower>bezvědomí</DownedLower>
   <!-- EN: resting -->
   <Carried>odpočívající</Carried>
-  <!-- EN: Avg. person move speed -->
-  <AverageCaravanMemberMoveSpeed>Průměrná rychlost osoby</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Násobitel nesené hmotnosti: {0}</MultiplierForCarriedMass>
   <!-- EN: Caravan members speed -->
@@ -424,8 +426,8 @@
   <ViewHyperlink>Prohlédnout: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Exploduje po uplynutí {0} dnů</DetonationCountdown>
-  <!-- EN: Large explosion if damaged -->
-  <ExplosionOnDamageWarning>V případě poškození dojde k mohutné explozi.</ExplosionOnDamageWarning>
+  <!-- EN: Large fire explosion if damaged -->
+  <ExplosionOnDamageWarning>V případě poškození dojde k velké ohnivé explozi.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Mechový klastr</MechCluster>
   <!-- EN: Spawning in {0} -->
@@ -468,6 +470,8 @@
   <DurationLeft>zbývá {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Volitelný materiál</AnyOf>
+  <!-- EN: Requires {0} trait -->
+  <TraitRequired>Vyžaduje rys {0}</TraitRequired>
   <!-- EN: Goodwill -->
   <Goodwill>Prestiž</Goodwill>
   <!-- EN: Natural goodwill -->
@@ -500,6 +504,8 @@
   <ContainsWort>Obsahuje {0} / {1} mladiny.</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
   <ContainsBeer>Obsahuje {0} / {1} piva.</ContainsBeer>
+  <!-- EN: Contains -->
+  <Contains>Obsahuje</Contains>
   <!-- EN: Fermented -->
   <Fermented>Zkvašené</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
@@ -915,6 +921,10 @@
   <DyingBecauseExposedToLight>Umírá, protože je vystavené světlu</DyingBecauseExposedToLight>
   <!-- EN: Cut now -->
   <AutoCutNow>Posekat nyní</AutoCutNow>
+  <!-- EN: harvesting -->
+  <HarvestGerund>sklidit</HarvestGerund>
+  <!-- EN: cutting -->
+  <CutGerund>posekat</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1011,6 +1021,8 @@
   <WillGetWorkSpeedPenalty>{0} bude mít postih k rychlosti práce</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>Nelze umístit pod střechu.</MustPlaceUnroofed>
+  <!-- EN: Must be placed under thick roof. -->
+  <MustPlaceUnderThickRoof>Musí být pod silným stropem.</MustPlaceUnderThickRoof>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Musí být čelem připojeno k lodnímu strukturálnímu nosníku.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1026,9 +1038,11 @@
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
   <MustPlaceNearFuelingPort>Musí být umístěn hned vedle doplňovače paliva u odpalovací rampy.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>Musí být umístěna na odbouratelných zdrojích.</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>Musí být umístěna na vrtatelné zdroje.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>Nelze umístit hned vedle jiných pastí.</CannotPlaceAdjacentTrap>
+  <!-- EN: Cannot be placed next to another building of the same type. -->
+  <CannotPlaceAdjacentSameDef>Nelze umístit hned vedle jiné konstrukce stejného typu.</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
