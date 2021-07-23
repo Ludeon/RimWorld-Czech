@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ITab titles -->
+  <!-- EN: Slave -->
+  <TabSlave>Otrok</TabSlave>
+  <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
+  <SlaveReleaseRelationGainsDesc>Frakční prestiž, kterou získáš za osvobození otroka. Tato hodnota je ovlivněna fyzickým a duševním zdravím otroka.</SlaveReleaseRelationGainsDesc>
+  <!-- EN: Relations gain on release -->
+  <SlaveReleasePotentialRelationGains>Vztahy získané osvobozením</SlaveReleasePotentialRelationGains>
+  <!-- EN: Slave rebellion interval -->
+  <SlaveRebellionMTBDays>Otrocká vzpoura (interval)</SlaveRebellionMTBDays>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>Průměrný počet dnů mezi pokusy o povstání otroků. Počítá se jen doba, kdy jsou vzhůru. Tato hodnota je ovlivněna náladou, zdravím, útlakem, zbraňové dostupnosti a přítomností kolonistů v této oblasti.</SlaveRebellionMTBDaysDescription>
+
+  <!-- Slave tab -->
+  <!-- EN: Suppression -->
+  <Suppression>Útlak</Suppression>
+  <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
+  <SuppressionDesc>Útlak je psychologický účinek strachu a kontroly nad otrokem. Pokud je útlak nízký, zvyšuje se šance na vzpouru otroků.</SuppressionDesc>
+  <!-- EN: Suppression fall rate -->
+  <SuppressionFallRate>Rychlost poklesu útlaku</SuppressionFallRate>
+  <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
+  <SuppressionFallRateDesc>Útlak v průběhu času klesá v závislosti na jeho aktuální úrovni:\n\n- {1} a více útlaku: {0} za den\n- {4}-{3} útlaku: {2} za den\n- {6} a méně útlaku: {5} za den\n\nRychlost poklesu útlaku může také ovlivnit oblečení a teror. Rychlost poklesu u tohoto otroka se počítá následovně</SuppressionFallRateDesc>
+  <!-- EN: Cannot emancipate -->
+  <CannotEmancipate>Nelze osvobodit</CannotEmancipate>
+  <!-- EN: Cannot imprison -->
+  <CannotImprison>Nelze uvěznit</CannotImprison>
+  <!-- EN: Current suppression -->
+  <CurrentSuppression>Aktuální útlak</CurrentSuppression>
+  <!-- EN: Terror -->
+  <Terror>Teror</Terror>
+  <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
+  <TerrorDescription>Teror je způsob jak udržet otroky pod tlakem. Narůstá, když otrok tráví čas poblíž děsivých věcí, jako jsou například terorizující sochy. Otrok může být ovlivněn pouze třemi zdroji teroru najednou.\n\nZatímco teror je vysoko, útlak klesá pomaleji, jak je uvedeno níže</TerrorDescription>
+  <!-- EN: Recent terrifying observations -->
+  <TerrorCurrentThoughts>Nedávné děsivé podněty</TerrorCurrentThoughts>
+
+  <!-- EN: Base interval -->
+  <SuppressionBaseInterval>Základní interval</SuppressionBaseInterval>
+  <!-- EN: Moving capacity -->
+  <SuppressionMovingCapacityFactor>Pohyblivost</SuppressionMovingCapacityFactor>
+  <!-- EN: Suppression -->
+  <SuppressionFactor>Útlak</SuppressionFactor>
+  <!-- EN: Mood -->
+  <SuppressionMoodFactor>Nálada</SuppressionMoodFactor>
+  <!-- EN: Escape route -->
+  <SuppressionEscapeFactor>Úniková cesta</SuppressionEscapeFactor>
+  <!-- EN: Weapon proximity -->
+  <SuppressionWeaponProximityFactor>Zbraňová dostupnost</SuppressionWeaponProximityFactor>
+  <!-- EN: Final interval -->
+  <SuppressionFinalInterval>Výsledný interval</SuppressionFinalInterval>
+  <!-- EN: Unattended -->
+  <SuppressionUnattendedByColonists>Bez dozoru</SuppressionUnattendedByColonists>
+
+  <!-- EN: Will -->
+  <WillLevel>Vůle</WillLevel>
+  <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
+  <WillLevelDesc>Nakolik je vězeň odhodlán nepoddat se. Když tato hodnota dosáhne nuly, může být zotročen.</WillLevelDesc>
+  <!-- EN: {0} base will -->
+  <WillFromPawnKind>Základní vůle ({0})</WillFromPawnKind>
+  <!-- EN: Target ideoligion -->
+  <IdeoConversionTarget>Cílové ideoboženství</IdeoConversionTarget>
+  <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
+  <IdeoConversionTargetDesc>Ideoboženství, které se tví dozorci pokusí převést na tohoto vězně.</IdeoConversionTargetDesc>
+
+</LanguageData>
