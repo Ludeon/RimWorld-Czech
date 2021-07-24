@@ -5,7 +5,7 @@
   <!-- EN: Deities -->
   <Deities>Božstva</Deities>
   <!-- EN: Memes -->
-  <Memes>Základy víry</Memes>
+  <Memes>Přesvědčení</Memes>
   <!-- EN: Precepts -->
   <Precepts>Zásady</Precepts>
   <!-- EN: Rituals -->
@@ -13,21 +13,23 @@
   <!-- EN: Roles -->
   <IdeoRoles>Role</IdeoRoles>
   <!-- EN: Buildings -->
-  <IdeoBuildings>Stavby</IdeoBuildings>
+  <IdeoBuildings>Budovy</IdeoBuildings>
   <!-- EN: Relics -->
   <IdeoRelics>Relikvie</IdeoRelics>
   <!-- EN: Preferred apparel -->
   <IdeoApparel>Preferované oblečení</IdeoApparel>
+  <!-- EN: apparel desire -->
+  <IdeoApparelDesire>žádané oblečení</IdeoApparelDesire>
   <!-- EN: Randomize precepts -->
   <RandomizePrecepts>Zásady náhodně</RandomizePrecepts>
   <!-- EN: Add precept -->
-  <AddPrecept>Přidat zásadu</AddPrecept>
+  <AddPrecept>Přidat {replace: {0}; "budova"-"budovu"; "dvojice zbraní"-"dvojici zbraní"; "relikvie"-"relikvii"; "role"-"roli"; "zásada"-"zásadu"; "{0}"-"{0}"}</AddPrecept>
   <!-- EN: Randomize deities -->
   <RandomizeDeities>Božstvo náhodně</RandomizeDeities>
   <!-- EN: Add deity -->
   <AddDeity>Přidat božstvo</AddDeity>
   <!-- EN: Choose memes -->
-  <ChooseMemes>Výběr základu víry</ChooseMemes>
+  <ChooseMemes>Vyber si přesvědčení</ChooseMemes>
   <!-- EN: Choose structure -->
   <ChooseStructure>Vyber si strukturu</ChooseStructure>
   <!-- EN: Choose culture -->
@@ -60,8 +62,12 @@
   <Name>Název</Name>
   <!-- EN: Icon -->
   <Icon>Piktogram</Icon>
+  <!-- EN: animal -->
+  <Animal>zvíře</Animal>
   <!-- EN: Venerated animals -->
   <VeneratedAnimals>Uctívaná zvířata</VeneratedAnimals>
+  <!-- EN: weapon pair -->
+  <IdeoWeapon>dvojice zbraní</IdeoWeapon>
   <!-- EN: Weapons -->
   <IdeoWeapons>Zbraně</IdeoWeapons>
   <!-- EN: Impact -->
