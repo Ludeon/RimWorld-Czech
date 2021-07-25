@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Slave rebellion -->
+  <!-- EN: Grand slave rebellion -->
+  <LetterLabelGrandSlaveRebellion>Velká vzpoura otroků</LetterLabelGrandSlaveRebellion>
+  <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
+  <LetterGrandSlaveRebellion>Začala velká vzpoura otroků! Všichni tví otroci povstali, aby proti tobě bojovali. Budou pátrat po zbraních a pokusí se eliminovat tvé kolonisty.\n\nZapojeni jsou tito otroci:\n\n{0}</LetterGrandSlaveRebellion>
+  <!-- EN: Local slave rebellion -->
+  <LetterLabelLocalSlaveRebellion>Lokální vzpoura otroků</LetterLabelLocalSlaveRebellion>
+  <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
+  <LetterLocalSlaveRebellion>Začala lokální vzpoura otroků! {0_nameDef} a někteří otroci v blízkosti povstali, aby proti tobě bojovali. Budou pátrat po zbraních a pokusí se eliminovat tvé kolonisty.\n\nZapojeni jsou tito otroci:\n\n{1}</LetterLocalSlaveRebellion> 
+  <!-- EN: Slave rebellion -->
+  <LetterLabelSingleSlaveRebellion>Povstání otroka</LetterLabelSingleSlaveRebellion>
+  <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
+  <LetterSingleSlaveRebellion>{0_nameDef} se bouří! Bude pátrat po zbraních a pokusí se eliminovat tvé kolonisty.</LetterSingleSlaveRebellion>
+
+  <!-- Slave escape -->
+  <!-- EN: Grand slave escape -->
+  <LetterLabelGrandSlaveEscape>Velký útěk otroků</LetterLabelGrandSlaveEscape>
+  <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
+  <LetterGrandSlaveEscape>Začal velký útěk otroků! Všichni tví otroci se pokusí uniknout.\n\nZapojeni jsou tito otroci:\n\n{0}</LetterGrandSlaveEscape>
+  <!-- EN: Local slave escape -->
+  <LetterLabelLocalSlaveEscape>Lokální útěk otroků</LetterLabelLocalSlaveEscape>
+  <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
+  <LetterLocalSlaveEscape>Začal lokální útěk otroků. {0_nameDef} a něktěří otroci v blízkosti se pokusí uniknout.\n\nZapojeni jsou tito otroci:\n\n{1}</LetterLocalSlaveEscape>
+  <!-- EN: Slave escape -->
+  <LetterLabelSingleSlaveEscape>Útěk otroka</LetterLabelSingleSlaveEscape>
+  <!-- EN: {0_nameDef} is attempting to escape! -->
+  <LetterSingleSlaveEscape>{0_nameDef} se pokouší uniknout!</LetterSingleSlaveEscape>
+
+  <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
+  <SlaveRebellionSuppressionExplanation>Otroci povstanou s větší pravděpodobností, pokud je nízká jejich úroveň útlaku.</SlaveRebellionSuppressionExplanation>
+
+  <!-- Change ideo mental state -->
+  <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
+  <LetterIdeoChangeConverted>{PAWN_gender ? Rozhodl : Rozhodla} se, že {PAWN_possessive} víra v {OLDIDEO_name} už nedává smysl.\n\nNyní věří v {NEWIDEO_name}.</LetterIdeoChangeConverted>
+  <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
+  <LetterIdeoChangeNotConverted>Jistota, s jakou {PAWN_nameDef} {PAWN_gender ? věřil : věřila} v {OLDIDEO_name}, se zredukovala na {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
+  <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
+  <LetterIdeoChangedWanderOwnRoom>{PAWN_nameDef} se nyní skrývá ve svém pokoji, aby se {PAWN_gender ? vyrovnal : vyrovnala} se svou vírou.</LetterIdeoChangedWanderOwnRoom>
+  <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
+  <LetterIdeoChangedSadWander>{PAWN_gender ? Otřesený : Otřesená} {PAWN_nameDef} nyní bloudí po okolí a zápasí se svou vírou.</LetterIdeoChangedSadWander>
+
+</LanguageData>
