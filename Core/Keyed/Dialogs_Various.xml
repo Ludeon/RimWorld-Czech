@@ -370,6 +370,8 @@
   <LeatherType>Typ kůže</LeatherType>
   <!-- EN: Body size -->
   <BodySize>Velikost těla</BodySize>
+  <!-- EN: Growth -->
+  <Growth>Růst</Growth>
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Obtížnost verbování</RecruitDifficulty>
   <!-- EN: Base price -->
@@ -1061,8 +1063,8 @@
   <AutoSlaugtherHeaderColTotal>Celkem</AutoSlaugtherHeaderColTotal>
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>Ostatní</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
-  <!-- EN: If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit. -->
-  <AutoSlaugtherTip>Pokud máš více než maximální počet zvířat, kolonisté budou zabíjet nejstarší zvířata, dokud znovu nedosáhneš limitu.</AutoSlaugtherTip>
+  <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
+  <AutoSlaugtherTip>Kolonisté nejprve porazí negravidní zvířata od nejstarších po nejmladší, potom březí zvířata od nejranější po nejpozdnější fázi březosti.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>Dospělý samec</AnimalMaleAdult>
   <!-- EN: Male young -->
@@ -1073,8 +1075,10 @@
   <AnimalFemaleYoung>Mladá samice</AnimalFemaleYoung>
   <!-- EN: Pregnant -->
   <AnimalPregnant>Březost</AnimalPregnant>
+  <!-- EN: Bonded -->
+  <AnimalBonded>S poutem</AnimalBonded>
   <!-- EN: Slaughter -->
-  <AllowSlaughterPregnant>Porážka</AllowSlaughterPregnant>
+  <AllowSlaughter>Porážka</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
   <AutoSlaugtherHeaderTooltipLabel>Zvíře, které má být automaticky poraženo.</AutoSlaugtherHeaderTooltipLabel>
@@ -1102,6 +1106,10 @@
   <AutoSlaughterHeaderTooltipCurrentPregnant>Aktuální počet březích zvířat v kolonii.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
   <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Přepínač umožňující porážku březích zvířat spolu s dalšími samicemi stejného druhu.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <!-- EN: The current number of bonded animals in the colony. -->
+  <AutoSlaughterHeaderTooltipCurrentBonded>Aktuální počet zvířat s poutem v kolonii.</AutoSlaughterHeaderTooltipCurrentBonded>
+  <!-- EN: Allow bonded animals to be slaughtered. -->
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>Přepínač umožňující porážku zvířat s poutem.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
   <AutoSlaughterTooltipSetLimit>Kliknutím nastavíš limit počtu zvířat.</AutoSlaughterTooltipSetLimit>
