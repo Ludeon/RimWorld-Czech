@@ -626,4 +626,9 @@
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} je {PAWN_gender ? zajatec : zajatkyně}</MessagePrisonerCannotEquipWeapon>
 
+  <!-- EN: Cannot plant {0_labelShort} -->
+  <CannotPlantThing>{lookup: {0_labelShort}; Case\Singular; 4} nelze zasadit</CannotPlantThing>
+  <!-- EN: blocked by {0_label}. -->
+  <BlockedBy>překážející {0_label}.</BlockedBy>
+
 </LanguageData>
