@@ -4,9 +4,7 @@ Czech Translation of RimWorld (Core, Royalty and Ideology)
 
 See this page for license info:
 
-http://ludeon.com/forums/index.php?topic=2933.0
-
-
+- https://ludeon.com/forums/index.php?topic=2933.0
 ---
 
 ### Pokud chce někdo vypomoci s překladem, ať nás prosím nejdříve kontaktuje na fóru:
@@ -14,7 +12,7 @@ http://ludeon.com/forums/index.php?topic=2933.0
 
 ### Nález chyb hlašte zde / For bugtrace:
 - https://prekladyher.eu/preklady/rimworld.324/
-
+---
 
 # Czech Translation Team:
 - Morticinus (active translator, tester, corrector)
