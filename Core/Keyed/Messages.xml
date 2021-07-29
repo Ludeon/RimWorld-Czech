@@ -626,6 +626,18 @@
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} je {PAWN_gender ? zajatec : zajatkyně}</MessagePrisonerCannotEquipWeapon>
 
+  <!-- Rituals -->
+  <!-- EN: spectate -->
+  <Spectate>přihlížet</Spectate>
+  <!-- EN: prisoners cannot {0}. -->
+  <MessageRitualRoleMustNotBePrisonerToSpectate>vězni nemohou {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <!-- EN: only {0} can {1}. -->
+  <MessageRitualRoleMustHaveIdeoToSpectate>pouze {0} smí {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <!-- EN: only {0} can fill the role of {1}. -->
+  <MessageRitualRoleMustHaveIdeoToDoRole>pouze {0} může plnit roli {1}.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <!-- EN: {0_labelShort} is already {1}. -->
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} už je {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+
   <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>{lookup: {0_labelShort}; Case\Singular; 4} nelze zasadit</CannotPlantThing>
   <!-- EN: blocked by {0_label}. -->
