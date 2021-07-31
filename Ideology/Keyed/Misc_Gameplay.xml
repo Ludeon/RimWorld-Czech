@@ -75,6 +75,10 @@
   <!-- EN: Slave -->
   <Slave>Otrok</Slave>
 
+  <!-- TextMotes -->
+  <!-- EN: Slave suppression: {0} -->
+  <TextMote_SuppressionIncreased>Útlak otroka: {0}</TextMote_SuppressionIncreased>
+
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Žádný dosažitelný oltář ani rituální místo.</AbilityDisabledNoAltarOrRitualsSpot>
 
@@ -107,5 +111,44 @@
 
   <!-- EN: Preview the ritual ambience sound -->
   <TipPreviewRitualAmbienceSound>Náhled zvuku prostředí při rituálu</TipPreviewRitualAmbienceSound>
+
+  <!-- EN: Choose -->
+  <ChooseStuffForRelic>Zvolený</ChooseStuffForRelic>
+  <!-- EN: Made from stuff -->
+  <RelicStuff>Vyrobeno z materiálu</RelicStuff>
+
+  <!-- Bioscuplter pod -->
+  <!-- EN: Cycle -->
+  <BiosculpterPodCycleLabel>Cyklus</BiosculpterPodCycleLabel>
+  <!-- EN: loading nutrition -->
+  <BiosculpterPodCycleLabelLoading>nakládání výživy</BiosculpterPodCycleLabelLoading>
+  <!-- EN: ready -->
+  <BiosculpterPodCycleLabelReady>připraveno</BiosculpterPodCycleLabelReady>
+  <!-- EN: Prepare {0} cycle -->
+  <BiosculpterPodCycleCommand>Připravit {replace: {0}; "léčení"-"léčebný"; "omlazení"-"omlazovací"; "potěšení"-"potěšovací"} cyklus</BiosculpterPodCycleCommand>
+  <!-- EN: Ends in -->
+  <BiosculpterCycleTimeRemaining>Skončí po uplynutí</BiosculpterCycleTimeRemaining>
+  <!-- EN: Biotuned to -->
+  <BiosculpterBiotunedTo>Biologické přizpůsobení</BiosculpterBiotunedTo>
+  <!-- EN: Interrupt cycle -->
+  <BiosculpterInteruptCycle>Přerušit cyklus</BiosculpterInteruptCycle>
+  <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
+  <BiosculpterInteruptCycleDesc>Přeruší aktuální cyklus. Osádka bude z komory vyhozena, aniž by získala prospěch z účinků cyklu, a navíc bude trpět krátkodobou nemocí z bioplastiky.</BiosculpterInteruptCycleDesc>
+  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
+  <BiosculpterUnderageAgeReversalMessage>Varování: Omlazovací cyklus nebude možné spustit, protože {PAWN_labelShort}, který je biologicky spárovaná s bioplastickou komorou, je mladší než {ADULTAGE} let.</BiosculpterUnderageAgeReversalMessage>
+  <!-- EN: Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
+  <BiosculpterLoadingStartedMessage>Jakmile se do bioplastické komory naloží {replace: ​{NUTRITION}​​; "​1​"-"1 jednotka"; "​2​"-"2 jednotky"; "​3​"-"3 jednotky"; "​4​"-"4 jednotky"; "​{NUTRITION}​"-"{NUTRITION} jednotek"} výživy, mužeš vybrat kolonistu a kliknout pravým tlačítkem myši na bioplastickou komoru nebo na imobilní osobu k zahájení cyklu.</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} {PAWN_gender ? byl : byla} z důvodu nedostatku energie {PAWN_gender ? vyhozen : vyhozena} z bioplastické komory.</BiosculpterNoPowerEjectedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle. -->
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus.</BiosculpterHealCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus. {PAWN_possessive} {HEDIFF_label} je pryč.</BiosculpterHealCompletedWithCureMessage>
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} svůj omlazovací cyklus. Za {replace: ​{DEADLINE}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} potěšovací cyklus.</BiosculpterPleasureCompletedMessage>
+  <!-- EN: Cleanliness speed factor -->
+  <BiosculpterCleanlinessSpeedFactor>Faktor rychlosti v závislosti na čistotě</BiosculpterCleanlinessSpeedFactor>
 
 </LanguageData>

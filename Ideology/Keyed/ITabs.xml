@@ -10,8 +10,8 @@
   <SlaveReleasePotentialRelationGains>Vztahy získané osvobozením</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>Otrocká vzpoura (interval)</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>Průměrný počet dnů mezi pokusy o povstání otroků. Počítá se jen doba, kdy jsou vzhůru. Tato hodnota je ovlivněna náladou, zdravím, útlakem, zbraňové dostupnosti a přítomností kolonistů v této oblasti.</SlaveRebellionMTBDaysDescription>
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
+  <SlaveRebellionMTBDaysDescription>Průměrný počet dnů mezi pokusy o vzpouru otroků. Počítá se jen doba, kdy jsou vzhůru. Tuto hodnotu ovlivňuje útlak, nálada, zdraví, dostupnost zbraní, počet otroků v oblasti a přítomnost kolonistů v téže oblasti.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
@@ -43,6 +43,8 @@
   <SuppressionFactor>Útlak</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>Nálada</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>Počet otroků</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>Úniková cesta</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
