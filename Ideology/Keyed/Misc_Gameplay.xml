@@ -70,6 +70,23 @@
   <!-- EN: memes -->
   <MemesLower>přesvědčení</MemesLower>
 
+  <!-- EN: This building is a variation of -->
+  <IdeoBuildingVariationOf>Tato struktura je variantou</IdeoBuildingVariationOf>
+  <!-- EN: Minimum expectations -->
+  <IdeoBuildingMinimumExpectations>Minimální očekávání</IdeoBuildingMinimumExpectations>
+  <!-- EN: size -->
+  <Size>velikost</Size>
+  <!-- EN: cost -->
+  <Cost>náklady</Cost>
+  <!-- EN: optional -->
+  <Optional>volitelné</Optional>
+  <!-- EN: expectations -->
+  <Expectations>očekávání</Expectations>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>Může začít kdykoliv</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>Může začít po události</RitualStartEvent>
+
   <!-- EN: For slave use -->
   <ForSlaveUse>Určení: Pro otroky</ForSlaveUse>
   <!-- EN: Slave -->
@@ -79,15 +96,36 @@
   <!-- EN: Slave suppression: {0} -->
   <TextMote_SuppressionIncreased>Útlak otroka: {0}</TextMote_SuppressionIncreased>
 
+  <!-- Role requirements -->
+  <!-- EN: Requirements -->
+  <RoleRequirementsLabel>Požadavky</RoleRequirementsLabel>
+  <!-- EN: Passive effects -->
+  <RoleEffectsLabel>Pasivní účinky</RoleEffectsLabel>
+  <!-- EN: Must be {0} -->
+  <RoleRequirementLabelSameIdeo>Musí být {0}</RoleRequirementLabelSameIdeo>
+  <!-- EN: Must be {0} -->
+  <RoleRequirementLabelSupremeGender>Musí být {0}</RoleRequirementLabelSupremeGender>
+
+  <!-- EN: Disabled work -->
+  <RoleDisabledWorkLabel>Deaktivované činnosti</RoleDisabledWorkLabel>
+  <!-- EN: Abilities -->
+  <RoleGrantedAbilitiesLabel>Schopnosti</RoleGrantedAbilitiesLabel>
+  <!-- EN: Required apparel -->
+  <RoleRequiredApparelLabel>Vyžadované oblečení</RoleRequiredApparelLabel>
+  <!-- EN: Has role in rituals -->
+  <RoleRitualsLabel>Má roli při rituálech</RoleRitualsLabel>
+  <!-- EN: Raised by {0} levels. -->
+  <RoleExpectationOffset>Zvýšená o {replace: ​{0}​​; "​1​"-"1 úroveň"; "​2​"-"2 úrovně"; "​3​"-"3 úrovně"; "​4​"-"4 úrovně"; "​{0}​"-"{0} úrovní"}.</RoleExpectationOffset>
+
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Žádný dosažitelný oltář ani rituální místo.</AbilityDisabledNoAltarOrRitualsSpot>
 
   <!-- EN: add {0} -->
-  <AddPrecept>přidat {replace: {0}; "budova"-"budovu"; "dvojice zbraní"-"dvojici zbraní"; "relikvie"-"relikvii"; "role"-"roli"; "zásada"-"zásadu"; "{0}"-"{0}"}</AddPrecept>
+  <AddPrecept>přidat {replace: {0}; "struktura"-"strukturu"; "dvojice zbraní"-"dvojici zbraní"; "relikvie"-"relikvii"; "role"-"roli"; "zásada"-"zásadu"; "{0}"-"{0}"}</AddPrecept>
   <!-- EN: precept -->
   <Precept>zásada</Precept>
   <!-- EN: building -->
-  <IdeoBuilding>budova</IdeoBuilding>
+  <IdeoBuilding>struktura</IdeoBuilding>
   <!-- EN: relic -->
   <IdeoRelic>relikvie</IdeoRelic>
 
@@ -107,7 +145,10 @@
   <EmancipateCololonistTooltip>Z otroka se stane opět kolonista.</EmancipateCololonistTooltip>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>Nahradit s</PreceptReplaceWith>
+  <PreceptReplaceWith>Nahradit za</PreceptReplaceWith>
+
+  <!-- EN: Skill -->
+  <RoleRequirementSkill>Dovednost</RoleRequirementSkill>
 
   <!-- EN: Preview the ritual ambience sound -->
   <TipPreviewRitualAmbienceSound>Náhled zvuku prostředí při rituálu</TipPreviewRitualAmbienceSound>
