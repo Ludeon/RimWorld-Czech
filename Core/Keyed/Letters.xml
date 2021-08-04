@@ -103,7 +103,7 @@
   <AncientShrineWarning>Jak se {PAWN_nameDef} {PAWN_gender ? přiblížil : přiblížila} ke starodávné zdi, zaplavil {PAWN_objective} zlověstný pocit. Netuší proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
-  <StruckMineable>Narazili jsme na {0}!</StruckMineable>
+  <StruckMineable>Narazili jsme na {lookup: {0}; Case\Singular; 4}!</StruckMineable>
 
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} se mstí</LetterLabelAnimalManhunterRevenge>
