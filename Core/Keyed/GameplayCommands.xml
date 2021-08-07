@@ -43,6 +43,8 @@
   <CommandToggleDraftDesc>Zapíná/vypíná bojový režim.\n\nPovolaní lidé přijímají tvé rozkazy a bojují. Nebudou pracovat, jíst ani spát.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} nemůže chodit.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>{0_labelShort} se účastní {lookup: {1}; Case\Singular; 2}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Střílet dle libosti</CommandFireAtWillLabel>
@@ -556,5 +558,20 @@
   <TakeDrug>Vzít si drogu...</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
   <TakeDrugDesc>Vezme si drogu ze svého inventáře a okamžitě ji užije.</TakeDrugDesc>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>Opustit {lookup: {RITUAL_label}; Case\Singular; 4}</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Přestane se účastnit {lookup: {RITUAL_label}; Case\Singular; 2}. Rituál bude pokračovat do té doby, dokud bude přítomen alespoň jeden z účastníků.</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>Tohle je poslední {PAWN_gender ? účastník : účastnice} {lookup: {RITUAL_label}; Case\Singular; 2}.</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>Přerušit {lookup: {RITUAL_label}; Case\Singular; 4}</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <CommandCancelRitualDesc>Okamžitě přeruší {lookup: {RITUAL_label}; Case\Singular; 4}. Rituální závazek bude zachován. Rituál mužeš znovuzahájit později.</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>Opravdu chceš přerušit {lookup: {RITUAL_label}; Case\Singular; 4}?</CommandCancelRitualConfirm>
   
 </LanguageData>

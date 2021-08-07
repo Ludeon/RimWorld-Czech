@@ -35,7 +35,11 @@
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>Chystáš se přiřadit roli {ROLE_labelDef} {PAWN_gender ? kolonistovi : kolonistce} {PAWN_labelShort}.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
-  <ChooseRoleConfirmAssignPostfix>Jsi si jistý?</ChooseRoleConfirmAssignPostfix>
+  <ChooseRoleConfirmAssignPostfix>Opravdu chceš pokračovat?</ChooseRoleConfirmAssignPostfix>
+  <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignReplace>Tuto roli v současné době zastává {PAWN_labelShort}, a pokud o ni přijde, nebude {PAWN_gender ? rád : ráda}.</ChooseRoleConfirmAssignReplace>
+  <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} v současné době zastává roli {ROLE_label} a nebude {PAWN_gender ? rád : ráda}, pokud o ni přijde.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort} získá následující schopnosti</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
@@ -43,7 +47,7 @@
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
   <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} bude odmítat provádět následující druhy činností</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
-  <ChooseRoleHint>Někdy může být lepší před přiřazením rolí počkat, až se tvá kolonie více ustálí.</ChooseRoleHint>
+  <ChooseRoleHint>Občas je lepší s přidělováním rolí chvíli počkat, až se tvá kolonie více usadí.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>Odemčené kvůli přesvědčení</UnlockedByMeme>
   <!-- EN: Unlocked roles -->

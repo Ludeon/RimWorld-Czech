@@ -1438,18 +1438,33 @@
   <!-- EN: Spectators -->
   <Spectators>Účastníci</Spectators>
   <!-- EN: Not participating -->
-  <NotParticipating>Nezúčastní se</NotParticipating>
+  <NotParticipating>Bez účasti</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Přesouvej postavy myší nebo levým/pravým kliknutím.</DragPawnsToRolesInfo>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Jakmile zahájíš obřad, probudí se.</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Probudí se, jakmile zahájíš rituál.</RitualBeginSleepingWarning>
+  <!-- EN: {0} progress -->
+  <RitualOutcomeProgress>Průběh {lookup: {0}; Case\Singular; 2}</RitualOutcomeProgress>
+  <!-- EN: {0} quality depends on -->
+  <RitualOutcomeQualityAbstract>Kvalita {lookup: {0}; Case\Singular; 2} závisí na</RitualOutcomeQualityAbstract>
+  <!-- EN: {0} total quality was {1}, determined by these factors -->
+  <RitualOutcomeQualitySpecific>Výsledná kvalita {lookup: {0}; Case\Singular; 2} byla {1}, určena těmito faktory</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
   <RitualOutcomeChances>Výsledné šance při {0} kvalitě</RitualOutcomeChances>
+  <!-- EN: {0} expectations -->
+  <RitualQualityExpectations>{0} očekávání</RitualQualityExpectations>
+  <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
+  <RitualQualityLowWarning>Výsledná kvalita {lookup: {0}; Case\Singular; 2} je nižší než {1}. Pokračování bude mít s největší pravděpodobností negativní dopad na tvou kolonii.\n\nOpravdu chceš pokračovat?</RitualQualityLowWarning>
+  <!-- EN: No reachable appropriate place to speak. -->
+  <AbilitySpeechDisabledNoSpot>Neexistuje žádné vhodné místo k mluvení.</AbilitySpeechDisabledNoSpot>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Každý, kdo se zúčastní tohoto obřadu, získá {0} k náladě po dobu {1} dnů.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění získají {0} k náladě na {replace: ​{1}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"}.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
+  <!-- EN: Begin {0} -->
+  <BeginRitual>Zahájit {lookup: {0}; Case\Singular; 4}</BeginRitual>
+
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (max {1})</QualityOutOf>
 
@@ -1460,5 +1475,14 @@
 
   <!-- EN: Participants -->
   <RitualPredictedOutcomeDescParticipantCount>Účastníci</RitualPredictedOutcomeDescParticipantCount>
+  <!-- EN: {PAWN_labelShort}'s expectations -->
+  <RitualPredictedOutcomeDescPawnExpectations>Očekávání ({PAWN_labelShort})</RitualPredictedOutcomeDescPawnExpectations>
+
+  <!-- EN: up to {0} quality -->
+  <OutcomeBonusDesc_Quality>až {0} kvality</OutcomeBonusDesc_Quality>
+  <!-- EN: {0} quality -->
+  <OutcomeBonusDesc_QualitySingleOffset>{0} kvality</OutcomeBonusDesc_QualitySingleOffset>
+  <!-- EN: {0} max -->
+  <MaxValue>max {0}</MaxValue>
   
 </LanguageData>
