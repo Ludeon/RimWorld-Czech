@@ -433,8 +433,6 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
-    <li>a_vs->a</li>
-    <li>a_vs->vs</li>
     <li>adjMas->ý</li>
     <li>adjFem->á</li>
     <li>adjNeu->é</li>
@@ -689,50 +687,125 @@
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Male)->muže</li>
     <li>enemyFaction_leader_muze_zenu(enemyFaction_leader_gender==Female)->ženu</li>
 
-    <li>asker_faction_pawnsPluralNom(asker_faction==Empire)->imperiálové</li>
-    <li>asker_faction_pawnsPluralNom(asker_faction==OutlanderCivil)->odpadlíci</li>
-    <li>asker_faction_pawnsPluralNom(asker_faction==OutlanderRough)->odpadlíci</li>
-    <li>asker_faction_pawnsPluralNom(asker_faction==Pirate)->piráti</li>
-    <li>asker_faction_pawnsPluralNom(asker_faction==TribeCivil)->domorodci</li>
-    <li>asker_faction_pawnsPluralNom(asker_faction==TribeRough)->domorodci</li>
-    <li>asker_faction_pawnsPluralNom(asker_faction==TribeSavage)->domorodci</li>
-    <li>asker_faction_pawnsPluralNom(p=0.00000000001)->[asker_faction_pawnsPlural]</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==Beggars)->žebráků</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==CannibalPirate)->pirátů</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==Empire)->imperiálů</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==Mechanoid)->mechanoidů</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==NudistTribe)->domorodců</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==OutlanderCivil)->odpadlíků</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==OutlanderRough)->odpadlíků</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==Pilgrims)->poutníků</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==Pirate)->pirátů</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==TribeCannibal)->domorodců</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==TribeCivil)->domorodců</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==TribeRough)->domorodců</li>
+    <li>siteFaction_pawnsPluralGen(siteFaction==TribeSavage)->domorodců</li>
+    <li>siteFaction_pawnsPluralGen(p=0.00000000001)->[siteFaction_pawnsPlural]</li>
 
+    <li>asker_faction_pawnsPluralGen(asker_faction==Beggars)->žebráků</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==CannibalPirate)->pirátů</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==Empire)->imperiálů</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==Mechanoid)->mechanoidů</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==NudistTribe)->domorodců</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==OutlanderCivil)->odpadlíků</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==OutlanderRough)->odpadlíků</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==Pilgrims)->poutníků</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==Pirate)->pirátů</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==TribeCannibal)->domorodců</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==TribeCivil)->domorodců</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==TribeRough)->domorodců</li>
+    <li>asker_faction_pawnsPluralGen(asker_faction==TribeSavage)->domorodců</li>
+    <li>asker_faction_pawnsPluralGen(p=0.00000000001)->[asker_faction_pawnsPlural]</li>
+
+    <li>asker_faction_pawnsPluralAcc(asker_faction==Beggars)->žebráky</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==CannibalPirate)->piráty</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==Empire)->imperiály</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==Mechanoid)->mechanoidy</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==NudistTribe)->domorodce</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==OutlanderCivil)->odpadlíky</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==OutlanderRough)->odpadlíky</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==Pilgrims)->poutníky</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==Pirate)->piráty</li>
+    <li>asker_faction_pawnsPluralAcc(asker_faction==TribeCannibal)->domorodce</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==TribeCivil)->domorodce</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==TribeRough)->domorodce</li>
     <li>asker_faction_pawnsPluralAcc(asker_faction==TribeSavage)->domorodce</li>
     <li>asker_faction_pawnsPluralAcc(p=0.00000000001)->[asker_faction_pawnsPlural]</li>
 
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==Empire)->imperiálové</li>
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderCivil)->odpadlíci</li>
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==OutlanderRough)->odpadlíci</li>
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==Pirate)->piráti</li>
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeCivil)->domorodci</li>
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeRough)->domorodci</li>
-    <li>enemyFaction_pawnsPluralNom(enemyFaction==TribeSavage)->domorodci</li>
-    <li>enemyFaction_pawnsPluralNom(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==Beggars)->žebráků</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==CannibalPirate)->pirátů</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==Empire)->imperiálů</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==Mechanoid)->mechanoidů</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==NudistTribe)->domorodců</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==OutlanderCivil)->odpadlíků</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==OutlanderRough)->odpadlíků</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==Pilgrims)->poutníků</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==Pirate)->pirátů</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==TribeCannibal)->domorodců</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==TribeCivil)->domorodců</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==TribeRough)->domorodců</li>
+    <li>enemyFaction_pawnsPluralGen(enemyFaction==TribeSavage)->domorodců</li>
+    <li>enemyFaction_pawnsPluralGen(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
 
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==Beggars)->žebrákům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==CannibalPirate)->pirátům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==Empire)->imperiálům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==Mechanoid)->mechanoidům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==NudistTribe)->domorodcům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==OutlanderCivil)->odpadlíkům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==OutlanderRough)->odpadlíkům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==Pilgrims)->poutníkům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==Pirate)->pirátům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==TribeCannibal)->domorodcům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==TribeCivil)->domorodcům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==TribeRough)->domorodcům</li>
+    <li>enemyFaction_pawnsPluralDat(enemyFaction==TribeSavage)->domorodcům</li>
+    <li>enemyFaction_pawnsPluralDat(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
+
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==Beggars)->žebráky</li>
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==CannibalPirate)->piráty</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==Empire)->imperiály</li>
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==Mechanoid)->mechanoidy</li>
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==NudistTribe)->domorodce</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==OutlanderCivil)->odpadlíky</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==OutlanderRough)->odpadlíky</li>
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==Pilgrims)->poutníky</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==Pirate)->piráty</li>
+    <li>enemyFaction_pawnsPluralAcc(enemyFaction==TribeCannibal)->domorodce</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==TribeCivil)->domorodce</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==TribeRough)->domorodce</li>
     <li>enemyFaction_pawnsPluralAcc(enemyFaction==TribeSavage)->domorodce</li>
     <li>enemyFaction_pawnsPluralAcc(p=0.00000000001)->[enemyFaction_pawnsPlural]</li>
 
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Empire)->imperiálové</li>
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderCivil)->odpadlíci</li>
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==OutlanderRough)->odpadlíci</li>
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==Pirate)->piráti</li>
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeCivil)->domorodci</li>
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeRough)->domorodci</li>
-    <li>site/enemyFaction_pawnsPluralNom(site/enemyFaction==TribeSavage)->domorodci</li>
-    <li>site/enemyFaction_pawnsPluralNom(p=0.00000000001)->[site/enemyFaction_pawnsPlural]</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==Beggars)->imperiálů</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==CannibalPirate)->imperiálů</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==Empire)->imperiálů</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==Mechanoid)->mechanoidů</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==NudistTribe)->imperiálů</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==OutlanderCivil)->odpadlíků</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==OutlanderRough)->odpadlíků</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==Pilgrims)->poutníků</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==Pirate)->pirátů</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==TribeCannibal)->domorodců</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==TribeCivil)->domorodců</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==TribeRough)->domorodců</li>
+    <li>site/enemyFaction_pawnsPluralGen(site/enemyFaction==TribeSavage)->domorodců</li>
+    <li>site/enemyFaction_pawnsPluralGen(p=0.00000000001)->[site/enemyFaction_pawnsPlural]</li>
+
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==Beggars)->imperiálům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==CannibalPirate)->imperiálům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==Empire)->imperiálům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==Mechanoid)->mechanoidům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==NudistTribe)->imperiálům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==OutlanderCivil)->odpadlíkům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==OutlanderRough)->odpadlíkům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==Pilgrims)->poutníkům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==Pirate)->pirátům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==TribeCannibal)->domorodcům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==TribeCivil)->domorodcům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==TribeRough)->domorodcům</li>
+    <li>site/enemyFaction_pawnsPluralDat(site/enemyFaction==TribeSavage)->domorodcům</li>
+    <li>site/enemyFaction_pawnsPluralDat(p=0.00000000001)->[site/enemyFaction_pawnsPlural]</li>
 
     <li>enemyFaction_leaderGen(enemyFaction_leader_gender==Male,enemyFaction==Empire)->hvězdovládce</li>
     <li>enemyFaction_leaderGen(enemyFaction_leader_gender==Female,enemyFaction==Empire)->hvězdovládkyně</li>

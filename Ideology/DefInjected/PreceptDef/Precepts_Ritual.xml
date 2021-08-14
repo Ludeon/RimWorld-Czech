@@ -13,6 +13,18 @@
   <!-- EN: Public execution -->
   <Execution.tipLabelOverride>Veřejná poprava</Execution.tipLabelOverride>
   
+  <!-- EN: funeral -->
+  <Funeral.label>pohřeb</Funeral.label>
+  <!-- EN: A gathering that occurs around a believer's grave after they die and are buried. If the body is destroyed, an empty grave can be used. Slaves don't get funerals. -->
+  <Funeral.description>Setkání, které se koná u hrobu věřícího poté, co zemře a je pohřben. Pokud je tělo zničeno, lze použít prázdný hrob. Otrokům se pohřeb nedělá.</Funeral.description>
+  <!-- EN: {PAWN_nameDef} should be buried and given a funeral so {PAWN_possessive} friends and family can say farewell. -->
+  <Funeral.extraTextPawnDeathLetter>{PAWN_nameDef} by {PAWN_gender ? měl : měla} být {PAWN_gender ? zahrabán : zahrabána} a {PAWN_gender ? měl : měla} by mít pohřeb, aby {PAWN_gender ? mu : ji} {PAWN_possessive} přátelé a rodina mohli dát poslední sbohem.</Funeral.extraTextPawnDeathLetter>
+  
+  <!-- EN: funeral (no corpse) -->
+  <FuneralNoCorpse.label>pohřeb (bez těla)</FuneralNoCorpse.label>
+  <!-- EN: A gathering that occurs around a believer's grave after they die and are buried. If the body is destroyed, an empty grave can be used. Slaves don't get funerals. -->
+  <FuneralNoCorpse.description>Setkání, které se koná u hrobu věřícího poté, co zemře a je pohřben. Pokud je tělo zničeno, lze použít prázdný hrob. Otrokům se pohřeb nedělá.</FuneralNoCorpse.description>
+  
   <!-- EN: leader speech -->
   <LeaderSpeech.label>vůdčí proslov</LeaderSpeech.label>
   <!-- EN: A rousing speech intended to improve morale. Colonists will gather, and the leader will speak for a few hours. If all goes well, listeners will feel inspired, and gain respect for the leader. If it goes poorly, the speech will do social damage. -->

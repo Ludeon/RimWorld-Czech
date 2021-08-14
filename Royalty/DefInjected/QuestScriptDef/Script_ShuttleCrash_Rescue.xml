@@ -28,14 +28,14 @@
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
     <li>failLetterEndingCommon->Úkol '[resolvedQuestName]' se ti nepovedlo splnit.</li>
     <li>successLetterEndingCommon->Úkol '[resolvedQuestName]' jsi úspěšně splnil.</li>
-    <li>goodwillSomeCiviliansLost->Někteří z civilních [asker_faction_pawnsPlural] nemohli být zachráněni. [goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->Žádný z civilních [asker_faction_pawnsPlural] nemohl být zachráněn. [goodwillNegativelyAffected]</li>
+    <li>goodwillSomeCiviliansLost->Některé z civilních [asker_faction_pawnsPluralGen] se nepovedlo zachránit. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->Ani jednoho z civilních [asker_faction_pawnsPluralGen] se nepovedlo zachránit. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Tvé vztahy s frakcí [asker_faction_name] byli negativně ovlivněny za každého zanechaného [pawnLabelSingOrPluralUni]u.</li>
     <li>commanderLandingDesc->Kapitán[asker_x_ka] [asker_nameDef], kter[asker_y_a] tě žádal[asker_x_a] o povolení k přistání svého raketoplánu v oblasti zvané [map_definite]</li>
     <li>raidArrivedLetterLabel->Nájezd: [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->Právě dorazila skupina [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]. Chystají se zaútočit na [asker_faction_pawnsPluralAcc], kteří havarovali v oblasti zvané [map_definite].\n\n[asker_faction_pawnsPluralAcc] musíš [rescueShuttleAfterRaidDelay_duration] chránit. Poté si pro ně přiletí záchranný raketoplán, který je vyzvedne.</li>
+    <li>raidArrivedLetterText->Právě dorazila skupina [enemyFaction_pawnsPluralGen] z frakce [enemyFaction_name]. Chystají se zaútočit na [asker_faction_pawnsPluralAcc], kteří havarovali v oblasti zvané [map_definite].\n\n[asker_faction_pawnsPluralAcc] musíš [rescueShuttleAfterRaidDelay_duration] chránit. Poté si pro ně přiletí záchranný raketoplán, který je vyzvedne.</li>
     <li>rescueShuttleArrivedLetterLabel->Dorazil záchranný raketoplán</li>
-    <li>rescueShuttleArrivedLetterText->Právě dorazil záchranný raketoplán, aby vyzvednul skupinu [asker_faction_pawnsPlural], kteří se zřítili k zemi. Raketoplán odletí po uplynutí [rescueDelay_duration]. Zajisti, aby následující lidé nastoupili na jeho palubu včas:\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->Právě dorazil záchranný raketoplán, aby vyzvednul skupinu [asker_faction_pawnsPluralGen], kteří se zřítili k zemi. Raketoplán odletí po uplynutí [rescueDelay_duration]. Zajisti, aby následující lidé nastoupili na jeho palubu včas:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Úkol dokončen: [resolvedQuestName]</li>
     <li>questCompletedSuccessLetterText->[commanderLandingDesc], právě unikl[asker_x_a]. Za pomoc, kterou [asker_mu_ji] tvá osada poskytla, je velmi vděčn[asker_y_a].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Úkol dokončen: [resolvedQuestName]</li>
@@ -43,11 +43,11 @@
     <li>askerLostLetterLabel->Nezdařený úkol: [resolvedQuestName]</li>
     <li>askerLostLetterText->[commanderLandingDesc], nebyl[asker_x_a] při odletu raketoplánu na jeho palubě.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->Nezdařený úkol: [resolvedQuestName]</li>
-    <li>allLostLetterText->Raketoplán vyslaný k vyzvednutí ztroskotaných [asker_faction_pawnsPlural] odletěl bez kohokoli na palubě.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterText->Raketoplán vyslaný k vyzvednutí ztroskotaných [asker_faction_pawnsPluralGen] odletěl bez kohokoli na palubě.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->Nezdařený úkol: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc], právě zemřel[asker_x_a].\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Nezdařený úkol: [resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->Raketoplán vyslaný k vyzvednutí ztroskotaných [asker_faction_pawnsPlural], byl právě zničen. [asker_faction_pawnsPluralNom] nyní odejdou po svých.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->Raketoplán vyslaný k vyzvednutí ztroskotaných [asker_faction_pawnsPluralGen], byl právě zničen. [asker_faction_pawnsPlural] nyní odejdou po svých.\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
@@ -72,14 +72,13 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelSingOrPluralUni]</li>
-    <li>questDescription->Raketoplán patřící frakci [asker_faction_name] [hasTakenDamage] a nyní hledá vhodné místo k nouzovému přistání. Jeho kapitán[asker_x_ka] [asker_nameDef] by [wantsToLand] v oblasti zvané [map_definite].\n\nNa [crashed] raketoplán zaútočí [enemyFaction_pawnsPluralNom] z frakce [enemyFaction_name] ve snaze zabít jejich posádku. Musíš je proto bránit.\n\nNa palubě raketoplánu se nachází [asker_nameDef][andOtherCivilians] a jed[soldiers0_en_na] [soldiers0_kind] [andOtherSoldiers] [underCommand]. Kapitán[asker_x_ka] [andCivilians] musí být zachráněn[Rescued_x_a_i], nicméně [mayBeSacrificed].\n\nPo uplynutí [rescueDelay_duration] dorazí záchranný raketoplán, který přeživší vyzvedne. Na palubu je pak musíš dostat všechny během [leaveDelay_duration].</li>
+    <li>questDescription->Raketoplán patřící frakci [asker_faction_name] [hasTakenDamage] a nyní hledá vhodné místo k nouzovému přistání. Jeho kapitán[asker_x_ka] [asker_nameDef] by [wantsToLand] v oblasti zvané [map_definite].\n\nNa [crashed] raketoplán zaútočí [enemyFaction_pawnsPlural] z frakce [enemyFaction_name] ve snaze zabít jejich posádku. Musíš je proto bránit.\n\nNa palubě raketoplánu se nachází [asker_nameDef][andOtherCivilians] a jed[soldiers0_en_na] [soldiers0_kind] [andOtherSoldiers] [underCommand]. Kapitán[asker_x_ka] [andCivilians] musí být zachráněn[Rescued_x_a_i], nicméně [mayBeSacrificed].\n\nPo uplynutí [rescueDelay_duration] dorazí záchranný raketoplán, který přeživší vyzvedne. Na palubu se pak musí všichni dostat během [leaveDelay_duration].</li>
     <li>wantsToLand->rád[asker_x_a] přistál[asker_x_a]</li>
     <li>wantsToLand->chtěl[asker_x_a] přistát</li>
     <li>hasTakenDamage->se porouchal</li>
     <li>hasTakenDamage->se poškodil</li>
     <li>hasTakenDamage->utrpěl [anyDamage] škody</li>
     <li>anyDamage-></li>
-    <li>anyDamage->nějaké</li>
     <li>anyDamage->značné</li>
     <li>anyDamage->neurčité</li>
     <li>anyDamage->vážné</li>
@@ -136,7 +135,7 @@
     <li>questName->[damagedShuttle]</li>
     <li>questName->[asker_nameDef] a [asker_possessive] [damagedShuttle]</li>
     <li>questName->[emergencyLanding]</li>
-    <li>questName->[asker_nameDef] vs [emergencyLanding]</li>
+    <li>questName->[asker_nameDef] a [emergencyLanding]</li>
     <li>questName(p=0.5)->[questExtra]</li>
     <li>questExtra->drtivý dopad</li>
     <li>questExtra->Mayday! Mayday! Mayday!</li>
@@ -154,10 +153,10 @@
     <li>crashShuttle(p=0.2)->[crash] [shuttleGenFem]</li>
     <li>crashShuttle(p=0.2)->[crash] [shuttleGenNeu]</li>
     <li>shuttlePawnsCrashMerged->[shuttlePawnsCrash]</li>
-    <li>shuttlePawnsCrashMerged->[crashShuttle] [asker_faction_pawnsPlural]</li>
-    <li>shuttlePawnsCrash(p=0.6)->[shuttleNomMas] [asker_faction_pawnsPlural] sestřelen</li>
-    <li>shuttlePawnsCrash(p=0.2)->[shuttleNomFem] [asker_faction_pawnsPlural] sestřelena</li>
-    <li>shuttlePawnsCrash(p=0.2)->[shuttleNomNeu] [asker_faction_pawnsPlural] sestřeleno</li>
+    <li>shuttlePawnsCrashMerged->[crashShuttle] [asker_faction_pawnsPluralGen]</li>
+    <li>shuttlePawnsCrash(p=0.6)->[shuttleNomMas] [asker_faction_pawnsPluralGen] sestřelen</li>
+    <li>shuttlePawnsCrash(p=0.2)->[shuttleNomFem] [asker_faction_pawnsPluralGen] sestřelena</li>
+    <li>shuttlePawnsCrash(p=0.2)->[shuttleNomNeu] [asker_faction_pawnsPluralGen] sestřeleno</li>
     <li>shuttleNom->raketoplán</li>
     <li>shuttleNom->transportér</li>
     <li>shuttleNom->kluzák</li>

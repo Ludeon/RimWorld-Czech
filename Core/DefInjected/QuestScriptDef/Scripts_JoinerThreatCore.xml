@@ -5,7 +5,7 @@
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is being chased by [enemyFaction_pawnsPlural] from [enemyFaction_name]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept, you'll have to fight off the [enemyFaction_pawnsPluralDef] on [joiner_possessive] tail. The group of [enemyFaction_pawnsPlural] is composed of: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] is too frantic to offer more information.</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->Z nedaleké oblasti se ti ozval[joiner_x_a] [joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef]. Pronásledují [joiner_objective] [enemyFaction_pawnsPluralNom] z frakce [enemyFaction_name]!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se přidá ke tvé osadě zvané [map_definite].[joiner_relationInfo]\n\nPokud [joiner_objective] přijmeš, budeš se muset vypořádat s bandou [enemyFaction_pawnsPluralDef], kterou má v zádech. [enemyFaction_pawnsPluralNom] dorazí v následujícím složení: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
+    <li>questDescription->Z nedaleké oblasti se ti ozval[joiner_x_a] [joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef]. Pronásledují [joiner_objective] [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]!\n\nVelice tě prosí o poskytnutí bezpečí a nabízí ti, že se přidá ke tvé osadě zvané [map_definite].[joiner_relationInfo]\n\nPokud [joiner_objective] přijmeš, budeš se muset vypořádat s bandou [enemyFaction_pawnsPluralGen], kterou má v zádech. [enemyFaction_pawnsPlural] dorazí v následujícím složení: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] nemohl[joiner_x_a] o sobě sdělit více informací, neboť byl[joiner_x_a] velice rozrušen[joiner_y_a].</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -26,11 +26,11 @@
     <li>questName->[runnerNom] a [joiner_possessive] [salvation]</li>
     <li>questName->[runnerNom] [begs] o pomoc</li>
     <li>questName->[accepting]</li>
-    <li>questName->[enemyFaction_pawnsPluralNom] [hunting] [runnerAcc]</li>
+    <li>questName->[enemyFaction_pawnsPlural] [hunting] [runnerAcc]</li>
     <li>questName->[runnerNom] na útěku</li>
     <li>questName->[runnerNom] hledá [home]</li>
-    <li>questName->[runnerNom] [chased][joiner_y_a] [group] [enemyFaction_pawnsPlural]</li>
-    <li>questName->[runnerNom] [a_vs] [enemyFaction_pawnsPluralNom]</li>
+    <li>questName->[runnerNom] [chased][joiner_y_a] [group] [enemyFaction_pawnsPluralGen]</li>
+    <li>questName->[runnerNom] a [enemyFaction_pawnsPlural]</li>
     <li>runnerNom->[joiner_titleIndef]</li>
     <li>runnerNom->[joiner_nameIndef]</li>
     <li>runnerNom(joiner_gender==Male)->[runnerNomMas]</li>
@@ -75,6 +75,6 @@
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.LetterLabelCashing.value.slateRef>{BASELABEL}: Naháněn[../joiner_y_a] [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelCashing.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>{BASETEXT}\n              \nSkupina [enemyFaction_pawnsPlural] přišla kvůli pomstě. [../joiner_nameDef] se jen tak nedá.</ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>{BASETEXT}\n              \nDůvodem, proč [enemyFaction_pawnsPlural] přišli, je [../joiner_nameDef].</ThreatReward_Raid_Joiner.LetterTextCashing.value.slateRef>
   
 </LanguageData>

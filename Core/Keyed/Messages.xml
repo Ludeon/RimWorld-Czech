@@ -2,38 +2,38 @@
 <LanguageData>
 
   <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
-  <MessageSiegersAssaulting>Skupina {0} z frakce {1} se právě připravuje obléhat kolonii.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>{0} z frakce {1} skončili s obléháním a zahájili přímý útok na kolonii.</MessageSiegersAssaulting>
 
   <!-- EN: {0} from {1} are beginning their assault. -->
-  <MessageRaidersBeginningAssault>Skupina {0} z frakce {1} právě zahájila útok.</MessageRaidersBeginningAssault>
+  <MessageRaidersBeginningAssault>{0} z frakce {1} právě zahájili útok.</MessageRaidersBeginningAssault>
   <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>Skupina {0} z frakce {1} tě odhalila, a proto zahájila předčasně útok.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersDetectedEarlyAssault>{0} z frakce {1} tě odhalili, a proto zahájili svůj útok předčasně.</MessageRaidersDetectedEarlyAssault>
   <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>Skupina {0} z frakce {1} se rozhodla odejít, ale nejdříve se pokusí unést někoho, kdo nebude klást odpor.</MessageRaidersKidnapping>
+  <MessageRaidersKidnapping>{0} z frakce {1} se rozhodli odejít, ale nejdříve se pokusí někoho unést.</MessageRaidersKidnapping>
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
-  <MessageRaidersStealing>Skupina {0} z frakce {1} se rozhodla odejít, ale nejdříve se pokusí ukrást vše, co jim přijde vhod.</MessageRaidersStealing>
+  <MessageRaidersStealing>{0} z frakce {1} se rozhodli odejít, ale nejdříve se pokusí něco ukrást.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>Skupina {0} z frakce {1} dorazila a ihned útočí! Další jsou již na cestě a dorazí za {2}.</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>{0} z frakce {1} právě dorazili a ihned útočí! Další jsou na cestě a dorazí za {2}.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
-  <MessageRaidersLeaving>Skupina {0} z frakce {1} odchází.</MessageRaidersLeaving>
+  <MessageRaidersLeaving>{0} z frakce {1} odchází.</MessageRaidersLeaving>
   <!-- EN: {0} from {1} have given up and are leaving. -->
-  <MessageRaidersGivenUpLeaving>Skupina {0} z frakce {1} to vzdává a odchází.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersGivenUpLeaving>{0} z frakce {1} to vzdali a odchází.</MessageRaidersGivenUpLeaving>
   <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
-  <MessageRaidersSatisfiedLeaving>Skupina {0} z frakce {1} je spokojena se škodami, které napáchala, a odchází.</MessageRaidersSatisfiedLeaving>
+  <MessageRaidersSatisfiedLeaving>{0} z frakce {1} jsou spokojeni se škodami, které napáchali, a odchází.</MessageRaidersSatisfiedLeaving>
 
   <!-- EN: {0} from {1} are fleeing. -->
-  <MessageFightersFleeing>Skupina {0} z frakce {1} prchá pryč.</MessageFightersFleeing>
+  <MessageFightersFleeing>{0} z frakce {1} prchají pryč.</MessageFightersFleeing>
   <!-- EN: Friendly {0} from {1} are leaving. -->
-  <MessageFriendlyFightersLeaving>Spojenecká skupina {0} z frakce {1} odchází.</MessageFriendlyFightersLeaving>
+  <MessageFriendlyFightersLeaving>{0} ze spojenecké frakce {1} odchází.</MessageFriendlyFightersLeaving>
 
   <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>Skupina {0} z frakce {1} se pokusí odnést zraněného návštěvníka.</MessageVisitorsTakingWounded>
+  <MessageVisitorsTakingWounded>{0} z frakce {1} se pokusí odnést zraněného návštěvníka.</MessageVisitorsTakingWounded>
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
-  <MessageVisitorsTrappedLeaving>Skupina {0} z frakce {1} je v pasti, a proto se pokusí prokopat cestu se ven, aby unikla.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsTrappedLeaving>{0} z frakce {1} byli uvězněni, a proto se nyní pokusí prokopat cestu ven, aby unikli.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>Skupina {0} z frakce {1} opouští oblast z důvodu nebezpečné teploty.</MessageVisitorsDangerousTemperature>
+  <MessageVisitorsDangerousTemperature>{0} z frakce {1} opouští oblast z důvodu nebezpečné teploty.</MessageVisitorsDangerousTemperature>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>Část výstroje ({0}), kterou {1_nameFull} {1_gender ? nosil : nosila}, se rozpadla na cucky.</MessageWornApparelDeterioratedAway>
@@ -376,9 +376,9 @@
   <MessageYouHaveToReformCaravanNow>Nyní musíš shromáždit karavanu. Každý kdo ji opustil bude navždy ztracen.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>Skupina {0} z frakce {1} byla napadena tvou skupinou {2}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>Skupina {lookup: {0}; Case\Plural; 2} z frakce {1} byla napadena tvými {lookup: {2}; Case\Plural; 7}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Mechanoidi právě sestavili posilu, která se chystá bránit svůj klastr.</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>Mechanoidi právě sestavili posilu, která bude bránit svůj klastr.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
   <MessageMechanoidsLeftToAssemble>Zbývajících mechanoidů k sestavení</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
@@ -410,7 +410,7 @@
   <MessageCantBanishDownedPawn>Jelikož {1_labelShort} nemůže chodit, nemůžeš {1_gender ? ho : ji} vyhostit.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>Došlo k probuzení {0}.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>Došlo k probuzení {lookup: {0}; Case\Plural; 2}.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
   <MessageMechClusterDefeated>Struktury mechového klastru byly zničeny.</MessageMechClusterDefeated>
 
@@ -600,7 +600,7 @@
   <MessageCantShootInMelee>Na krátkou vzdálenost nemůže střílet.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>Žádný z tvých {0} nyní nemůže přijmout tento úkol.</MessageNoColonistCanAcceptQuest>
+  <MessageNoColonistCanAcceptQuest>Žádný z tvých {lookup: {0}; Case\Plural; 2} nyní nemůže přijmout tento úkol.</MessageNoColonistCanAcceptQuest>
   <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>Tento úkol nelze přijmout.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
@@ -608,7 +608,7 @@
   <!-- EN: {0} is leaving. -->
   <MessagePawnLeaving>{0} odchází.</MessagePawnLeaving>
   <!-- EN: {0} are leaving. -->
-  <MessagePawnsLeaving>Skupina {0} odchází.</MessagePawnsLeaving>
+  <MessagePawnsLeaving>{0} odcházejí.</MessagePawnsLeaving>
 
   <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
   <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Monument byl zničen, protože jsi uvnitř postavil nedovolenou stavbu.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
@@ -629,6 +629,8 @@
   <!-- Rituals -->
   <!-- EN: spectate -->
   <Spectate>přihlížet</Spectate>
+  <!-- EN: Assign to {0} -->
+  <AssignToRole>Přiřadit k: {0}</AssignToRole>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>Potřebuješ alespoň jednoho účastníka.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
@@ -645,6 +647,8 @@
   <MessageRitualRoleMustBeHumanlike>{0} musí být člověk.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} musí mít oči.</MessageRitualRoleMustHaveEyes>
+  <!-- EN: this role cannot be played by someone else. -->
+  <MessageRitualRoleCannotReplaceRequiredPawn>tuto roli nemůže zastávat nikdo jiný.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>vězni nemohou {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->

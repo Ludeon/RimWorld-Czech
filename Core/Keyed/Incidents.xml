@@ -23,11 +23,11 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>{LEADER_gender ? Jeden : Jedna} {LEADER_gender} ze skupiny {LEADER_factionPawnsPlural}, {LEADER_gender ? který : která} si říká {LEADER_labelShort}, je {LEADER_gender ? lídrem : vůdkyní} jejich frakce.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Mezi příchozími {lookup: {LEADER_factionPawnsPlural}; Case\Plural; 7} se nachází {LEADER_labelShort}, {LEADER_gender ? vůdce : vůdkyně} jejich frakce.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>{LEADER_gender ? Jeden : Jedna} {LEADER_gender} ze skupiny {LEADER_factionPawnsPlural}, {LEADER_gender ? který : která} si říká {LEADER_labelShort}, je {LEADER_gender ? lídrem : vůdkyní} jejich frakce.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Mezi příchozími {lookup: {LEADER_factionPawnsPlural}; Case\Plural; 7} se nachází {LEADER_labelShort}, {LEADER_gender ? vůdce : vůdkyně} jejich frakce.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Zřícení přepravního modulu</LetterLabelRefugeePodCrash>
@@ -82,7 +82,7 @@
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\nZdá se, že má pár věcí na prodej.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>{PAWN_nameDef} je v té frakci {PAWN_gender ? lídrem : vůdkyní}.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_nameDef} je v té frakci {PAWN_gender ? vůdcem : vůdkyní}.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Návštěvníci</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
@@ -90,7 +90,7 @@
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>Zdá se, že mají pár věcí na prodej.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>{1_gender ? Jeden : Jedna} {1_gender} ze skupiny návštěvníků, {1_gender ? který : která} si říká {1_labelShort}, je {1_gender ? lídrem : vůdkyní} jejich frakce.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>Mezi příchozími návštěvníky se nachází {1_labelShort}, {1_gender ? vůdce : vůdkyně} jejich frakce.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Návštěva z frakce {0} odchází.</VisitorsLeaving>
 
@@ -105,17 +105,17 @@
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>Havarovaná část lodě vyslala soustředěný psychický impuls, který dohnal osobu jménem {0} k nepříčetnosti.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>K probuzení došlo před {0} dny.</AwokeDaysAgo>
+  <AwokeDaysAgo>K probuzení došlo před {replace: ​{0}​​; "​1​"-"1 dnem"; "​{0}​"-"{0} dny"}.</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>K aktivaci došlo před {0} dny.</ActivatedDaysAgo>
+  <ActivatedDaysAgo>K aktivaci došlo před {replace: ​{0}​​; "​1​"-"1 dnem"; "​{0}​"-"{0} dny"}.</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>K otevření došlo před {0} dny.</OpenedDaysAgo>
+  <OpenedDaysAgo>K otevření došlo před {replace: ​{0}​​; "​1​"-"1 dnem"; "​{0}​"-"{0} dny"}.</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Psychické bzučení: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>Bzučení zintenzivnělo</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>Havarovaná část lodě nyní vyzařuje ještě silnější úroveň psychického bzučení. Každý člověku podobný tvor v oblasti, v tomto případě {0}, se teď cítí mnohem více neklidný, vyděšený a paranoidní.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>Havarovaná část lodě nyní vyzařuje ještě silnější úroveň psychického bzučení. Každá lidská bytost {replace: {0}; "muž"-"mužského"; "žena"-"ženského"} pohlaví v této oblasti se nyní cítí mnohem více neklidná, vyděšená a paranoidní.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
@@ -163,7 +163,7 @@
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Požadování výkupného ({0})</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>Někdo z frakce {1} tě zkontaktoval skrze vysílačku. Říká, že kvůli výkupnému zadržují {PAWN_gender ? tvého : tvou} {PAWN_gender ? bývalého : bývalou} {PAWN_gender ? člena : členku} kolonie jménem {PAWN_labelShort}.\n\nJsou ochotni {PAWN_objective} propustit, aby se k tobě {PAWN_gender ? mohl : mohla} vrátit, ale pouze výměnou za {2} stříbra.</RansomDemand>
+  <RansomDemand>Skrze vysílačku se ti ozvala frakce {1}. Zadržují {PAWN_gender ? bývalého : bývalou} {PAWN_gender ? kolonistu : kolonistku} jménem {PAWN_labelShort}.\n\nPropustí {PAWN_objective} zpět k tobě výměnou za {2} ​stříbra.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Přijmout</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -213,7 +213,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Požadování výpalného ({0})</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} byla přepadena skupinou {4} z frakce {1}.\n\nPočet nepřátel: {2}\n\nZaútočí, pokud jim neodevzdáš:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} byla přepadena {replace: ​{2}​​; "​1​"-"jedním útočníkem"; "​{2}​"-"{2}člennou skupinou {lookup: {4}; Case\Plural; 2}"} z frakce {1}.\n\nZaútočí, pokud jim neodevzdáš:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Odevzdat a jít dál</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->

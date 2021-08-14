@@ -73,14 +73,14 @@
     <li>a_aji(lodgerCount>=2)->ají</li>
     <li>i_eji(lodgerCount==1)->í</li>
     <li>i_eji(lodgerCount>=2)->ejí</li>
-    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? ostatní uprchlíky to docela šokovalo : poslední z hostované skupiny uprchlíků vypadá docela šokovaně}, ale zatím {PAWNSALIVECOUNT_multiple ? nehodlají: nehodlá} podnikat proti tobě žádné kroky.</li>
-    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? ostatní uprchlíci : poslední z hostované skupiny uprchlíků} tohle nemíní [akceptovat]</li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? ostatní uprchlíky to docela šokovalo : poslední z pozvané skupiny uprchlíků vypadá docela šokovaně}, ale zatím {PAWNSALIVECOUNT_multiple ? nehodlají: nehodlá} podnikat proti tobě žádné kroky.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? ostatní uprchlíci : poslední z pozvané skupiny uprchlíků} tohle nemíní [akceptovat]</li>
     <li>turnedViolent->[othersWillNotAccept], a proto se {PAWNSALIVECOUNT_multiple ? obrátili : obrací} proti tobě.</li>
     <li>decidedToLeave->[othersWillNotAccept], a proto {PAWNSALIVECOUNT_multiple ? se rozhodli odejít : odchází}.</li>
     <li>whoAskedToStay(lodgerCount==1)->{SUBJECT_gender ? který : která} tě dříve {SUBJECT_gender ? požádal : požádala} o poskytnutí přístřeší</li>
     <li>whoAskedToStay(lodgerCount>=2)->kteří tě dříve požádali o poskytnutí přístřeší</li>
     <li>lodgersWhoAskedToStay->kte[asker_ry_ra_ri] tě dříve požádal[asker_x_a_i] o poskytnutí přístřeší</li>
-    <li>oneOfThe->{SUBJECT_gender ? jeden : jedna} ze zoufalých [faction_pawnsPlural], kteří tě dříve požádali o poskytnutí přístřeší</li>
+    <li>oneOfThe->{SUBJECT_gender ? jeden : jedna} ze zoufalých uprchlíků, kteří tě dříve požádali o poskytnutí přístřeší</li>
     <li>questOver->Tímto je tvůj úkol '[resolvedQuestName]' u konce.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe], právě {SUBJECT_gender ? zemřel : zemřela}.</li>
     <li>lodgerDiedMemoryThoughtLetterLabel->Smrt [subjectLabelGen]: Hněv</li>
@@ -121,7 +121,7 @@
     <li>otherLodgers(lodgerCount==2)->a nějaký další uprchlík</li>
     <li>otherLodgers(lodgerCount>=3)->a několik dalších [lodgersLabelPluralGen]</li>
     <li>otherMembers(lodgerCount==1)-></li>
-    <li>otherMembers(lodgerCount>=2)->, a to včetně všech hostovaných členů z frakce [faction_name]</li>
+    <li>otherMembers(lodgerCount>=2)->, a to včetně všech pozvaných členů z frakce [faction_name]</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] odcház[i_eji]</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} ti děkuje, že jsi [mu_ji_jim] umožnil zůstat v oblasti zvané [map_definite] celých [questDurationTicks_duration]. Nyní se vrátí ke svým lidem.\n\n{FACTION_leaderNameDef} říká, že nikdy nezapomene na to, co jsi pro [nej_ni_ne] udělal.</li>
     <li>mu_ji_jim(lodgerCount==1)->[asker_mu_ji]</li>
@@ -131,7 +131,7 @@
     <li>OneOrMoreOfMembers(lodgerCount==1)->[asker_nameDef]</li>
     <li>OneOrMoreOfMembers(lodgerCount>=2)->jeden ze členů frakce [faction_name]</li>
     <li>OneOrMoreMembersToDie(lodgerCount==1)->[asker_possessive] smrt</li>
-    <li>OneOrMoreMembersToDie(lodgerCount>=2)->smrt všech hostovaných členů zmíněné frakce</li>
+    <li>OneOrMoreMembersToDie(lodgerCount>=2)->smrt všech pozvaných členů zmíněné frakce</li>
     <li>zradu->zradu</li>
     <li>zradu->proradnost</li>
     <li>akceptovat->akceptovat</li>
@@ -191,13 +191,13 @@
     <li>lodgersPossessive(lodgerCount>=2)->jejich</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] tě proto žádá o svolení zůstat ve tvé osadě zvané [map_definite] alespoň [questDurationTicks_duration], aby si mohl[asker_x_a_i] odpočinout a [datSeTrochuDohromady].\n\nNa oplátku ti [offer], že během této doby [bude] zadarmo pracovat a bojovat.\n\n[joinInfo] Může se také stát, že tě za pomoc odmění později - ale neexistuje způsob, jak poznat [lodgersPossessive] skutečné úmysly.\n\n[travelerInfo] součástí žádné frakce. Pokud chceš, můžeš se rozhodnout [lodgersObjective] zabít, zatknout, prodat do otroctví nebo [lodgersObjective] obrat o orgány, aniž by ses musel obávat diplomatických důsledků.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] tě proto žádá o svolení zůstat ve tvé osadě zvané [map_definite] alespoň [questDurationTicks_duration], aby si mohl[asker_x_a_i] odpočinout a [datSeTrochuDohromady].\n\nNa oplátku ti [offer], že během této doby [bude] zadarmo pracovat a bojovat.\n\n[joinInfo] Může se také stát, že tě za pomoc odmění později - ale neexistuje způsob, jak poznat [lodgersPossessive] skutečné úmysly.\n\n[travelerInfo] součástí žádné frakce. Pokud chceš, můžeš se rozhodnout [lodgersObjective] zabít, zajmout, prodat do otroctví nebo [lodgersObjective] obrat o orgány, aniž by ses musel obávat diplomatických následků.</li>
     <li>approachInfo(lodgerCount==1)->Blíží se (*ColonistCount)zoufal[asker_y_a] uprchl[asker_ik_ice](/ColonistCount) jménem [asker_nameDef].</li>
     <li>approachInfo(lodgerCount==2)->Blíží se [asker_nameDef] společně s (*ColonistCount)dalším zoufalým uprchlíkem(/ColonistCount).</li>
     <li>approachInfo(lodgerCount>=3)->Blíží se (*ColonistCount)[lodgerCount] zoufal[RefugeeLodgerCount](/ColonistCount). Součástí skupiny je [asker_nameDef], jejich vůd[asker_ce_kyne].</li>
     <li>RefugeeLodgerCount(lodgerCount==3)->í uprchlíci</li>
     <li>RefugeeLodgerCount(lodgerCount==4)->í uprchlíci</li>
-    <li>RefugeeLodgerCount(lodgerCount>=5)->ých [faction_pawnsPlural]</li>
+    <li>RefugeeLodgerCount(lodgerCount>=5)->ých uprchlíků</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že při nedávném útoku přiš[asker_el_la] o svůj domov.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že se probudil[asker_x_a] z cryptospánku naprosto osamocen[asker_y_a] a bez přátel.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] tvrdí, že byl[asker_x_a] pronásledován[asker_x_a] ze svého domova pomstychtiv[asker_ou_ym] exmilen[asker_kou_cem].</li>

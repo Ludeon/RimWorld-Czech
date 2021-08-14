@@ -10,12 +10,12 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] tě žádá o pomoc při záchraně jedné ze svých karavan. Karavanu kousek od oblasti zvané [map_definite] [hunted_numGroupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys [enemyFaction_pawnsPlural]m vyslal jasný signál a zajistil tak, že se odvrátí od [asker_possessive] karavany - směrem k tobě.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] tě žádá o pomoc při záchraně jedné ze svých karavan. Karavanu kousek od oblasti zvané [map_definite] [hunted_numGroupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys [enemyFaction_pawnsPluralDat] vyslal jasný signál a zajistil tak, že se odvrátí od [asker_possessive] karavany - směrem k tobě.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] z frakce [asker_faction_name] tě žádá o pomoc.\n\n[asker_possessive] karavany [harassing_groupsOf] z frakce [enemyFaction_name]. [asker_nameDef] chce, abys jim poslal výhružný vzkaz a přiměl je tak k útoku na sebe.[endingCommon]</li>
-    <li>harassing_groupsOf(raidCount==1,priority=1)->obtěžují (*Threat)[enemyFaction_pawnsPluralNom](/Threat)</li>
+    <li>harassing_groupsOf(raidCount==1,priority=1)->obtěžují (*Threat)[enemyFaction_pawnsPlural](/Threat)</li>
     <li>harassing_groupsOf->[harassing_numGroupsOf]</li>
-    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nPokud úkol přijmeš, [enemyFaction_pawnsPluralNom] dorazí po uplynutí [firstRaidDelayTicks_duration].</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Pokud úkol přijmeš, [enemyFaction_pawnsPluralNom] dorazí po uplynutí [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nPokud úkol přijmeš, [enemyFaction_pawnsPlural] dorazí po uplynutí [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Pokud úkol přijmeš, [enemyFaction_pawnsPlural] dorazí po uplynutí [firstRaidDelayTicks_duration].</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
@@ -40,14 +40,14 @@
     <li>violence->Warfare</li>
   -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->[enemyFaction_pawnsPluralNom] štěstěny</li>
+    <li>questName->[enemyFaction_pawnsPlural] štěstěny</li>
     <li>questName->[violence_1] výměnou za bohatství</li>
     <li>questName->[violence_1] výměnou za profit</li>
     <li>questName->[violence_1] výměnou za zisk</li>
     <li>questName->Odměněn[violence_2]</li>
     <li>questName->Zaplacen[violence_2]</li>
     <li>questName->Ziskov[violence_2]</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPluralNom] výměnou za poctu</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] výměnou za poctu</li>
     <li>questName(reward==royalFavor)->[violence_1] výměnou za poctu</li>
     <li>violence_1->Násilí</li>
     <li>violence_1->Bitva</li>

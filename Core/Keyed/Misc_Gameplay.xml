@@ -23,7 +23,7 @@
   <!-- EN: Owners -->
   <Owners>Vlastníci</Owners>
   <!-- EN: Assigned colonist -->
-  <AssignedColonist>Přidělený kolonista</AssignedColonist>
+  <AssignedColonist>Přiřazený kolonista</AssignedColonist>
   <!-- EN: Died on the {0} -->
   <DiedOn>Zemřel dne {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -105,7 +105,7 @@
   <!-- EN: Execute -->
   <Execute>Popravit</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Popravit provinilého kolonistu\n\nPokud tohle zaklikneš, dorazí dozorce a tuto osobu popraví.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>Popravit provinilého kolonistu\n\nPokud tohle zaklikneš, dorazí dozorce a tuto osobu popraví.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort} je nyní {0_gender ? označen : označena} k popravě. Nedaleký dostupný dozorce se k {0_gender ? němu : ní} přiblíží a provede {0_possessive} popravu.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
@@ -169,7 +169,7 @@
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Cílová hladina paliva: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
-  <Enemies>nepřítel</Enemies>
+  <Enemies>nepřátelé</Enemies>
   <!-- EN: people -->
   <People>lidé</People>
   <!-- EN: time passed -->
@@ -183,9 +183,9 @@
   <!-- EN: Resting -->
   <CaravanResting>Odpočívá.</CaravanResting>
   <!-- EN: using 1 bedroll -->
-  <UsingBedroll>využití 1 spacáku</UsingBedroll>
+  <UsingBedroll>využívá 1 spacák</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>využití {0} spacáků</UsingBedrolls>
+  <UsingBedrolls>využívá {replace: ​{0}​​; "​1​"-"1 spacák"; "​2​"-"2 spacáky"; "​3​"-"3 spacáky"; "​4​"-"4 spacáky"; "​{0}​"-"{0} spacáků"}</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Odhadovaný čas do cíle: {0} dnů</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
@@ -203,19 +203,19 @@
   <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>Stojí, protože se všichni nervově zhroutili.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>{0}x {1}</CaravanColonistsCount>
+  <CaravanColonistsCount>{replace: ​{0}​ {1}; "​2​ domorodci"-"2 domorodci"; "​3​ domorodci"-"3 domorodci"; "​4​ domorodci"-"4 domorodci"; "​{0}​ domorodci"-"{0} domorodců"; "​2​ kolonisté"-"2 kolonisté"; "​3​ kolonisté"-"3 kolonisté"; "​4​ kolonisté"-"4 kolonisté"; "​{0}​ kolonisté"-"{0} kolonistů"}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>1x zvíře</CaravanAnimal>
+  <CaravanAnimal>1 zvíře</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{0}x zvíře</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{replace: ​{0}​​; "​1​"-"1 zvíře"; "​2​"-"2 zvířata"; "​3​"-"3 zvířata"; "​4​"-"4 zvířata"; "​{0}​"-"{0} zvířat"}</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>1x vězeň</CaravanPrisoner>
+  <CaravanPrisoner>1 vězeň</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{0}x vězeň</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{replace: ​{0}​​; "​1​"-"1 vězeň"; "​2​"-"2 vězni"; "​3​"-"3 vězni"; "​4​"-"4 vězni"; "​{0}​"-"{0} vězňů"}</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0}x nervové zhroucení</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{replace: ​{0}​​; "​1​"-"1 nervově zhroucený"; "​2​"-"2 nervově zhroucení"; "​3​"-"3 nervově zhroucení"; "​4​"-"4 nervově zhroucení"; "​{0}​"-"{0} nervově zhroucených"}</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0}x bezvědomí</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} v bezvědomí</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Cestuje.</CaravanTraveling>
   <!-- EN: Waiting. -->
@@ -321,7 +321,7 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + Klik: Označit vše\nShift + Pravý klik: Zrušit vše</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>{0}x {1}</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{replace: ​{0}​ {1}; "​2​ lidé"-"2 lidé"; "​3​ lidé"-"3 lidé"; "​4​ lidé"-"4 lidé"; "​{0}​ lidé"-"{0} lidí"; "​2​ minomety"-"2 minomety"; "​3​ minomety"-"3 minomety"; "​4​ minomety"-"4 minomety"; "​{0}​ minomety"-"{0} minometů"; "​2​ nepřátelé"-"2 nepřátelé"; "​3​ nepřátelé"-"3 nepřátelé"; "​4​ nepřátelé"-"4 nepřátelé"; "​{0}​ nepřátelé"-"{0} nepřátel"; "​2​ střelecké věže"-"2 ​střelecké věže"; "​3​ střelecké věže"-"3 ​střelecké věže"; "​4​ střelecké věže"-"4 ​střelecké věže"; "​{0}​ střelecké věže"-"{0} ​střeleckých věží"}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Požadované dovednosti</SkillRequirements>
   <!-- EN: Products -->
@@ -393,17 +393,17 @@
   <!-- EN: turret -->
   <Turret>střelecká věž</Turret>
   <!-- EN: turrets -->
-  <Turrets>střelecká věž</Turrets>
+  <Turrets>střelecké věže</Turrets>
   <!-- EN: mortar -->
   <Mortar>minomet</Mortar>
   <!-- EN: mortars -->
-  <Mortars>minomet</Mortars>
+  <Mortars>minomety</Mortars>
   <!-- EN: enemy -->
   <Enemy>nepřítel</Enemy>
   <!-- EN: location -->
   <Location>umístění</Location>
   <!-- EN: animals -->
-  <AnimalsLower>zvíře</AnimalsLower>
+  <AnimalsLower>zvířata</AnimalsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -1416,7 +1416,7 @@
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>Ovlivňuje pohlaví</AffectedGender>
+  <AffectedGender>Ovlivňované pohlaví</AffectedGender>
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
@@ -1430,7 +1430,7 @@
   <RitualTakesPlaceAt>Místo konání</RitualTakesPlaceAt>
 
   <!-- EN: Attending -->
-  <LordReportAttending>Účastní se</LordReportAttending>
+  <LordReportAttending>Účastní se:</LordReportAttending>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>končí za {0}</RitualEndsIn>
   <!-- EN: Quality factors -->
@@ -1478,10 +1478,15 @@
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Očekávání ({PAWN_labelShort})</RitualPredictedOutcomeDescPawnExpectations>
 
+  <!-- EN: Replaces {PAWN_labelShort} -->
+  <RitualRoleReplaces>Zamění {PAWN_labelShort}</RitualRoleReplaces>
+
   <!-- EN: up to {0} quality -->
   <OutcomeBonusDesc_Quality>až {0} kvality</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0} kvality</OutcomeBonusDesc_QualitySingleOffset>
+  <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
+  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
   

@@ -103,6 +103,7 @@
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Změna používání postele ovlivní celou místnost (protože vězni, otroci a kolonisté nemohou spát ve stejné místnosti).\n\nTito lidé přijdou o vlastnictví svých postelí:</ChangingOwnerTypeBedWarning>
 
+
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Odpálit</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
@@ -565,7 +566,7 @@
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
   <CommandLeaveRitualDesc>Přestane se účastnit {lookup: {RITUAL_label}; Case\Singular; 2}. Rituál bude pokračovat do té doby, dokud bude přítomen alespoň jeden z účastníků.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>Tohle je poslední {PAWN_gender ? účastník : účastnice} {lookup: {RITUAL_label}; Case\Singular; 2}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>Tohle je poslední účastník {lookup: {RITUAL_label}; Case\Singular; 2}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Přerušit {lookup: {RITUAL_label}; Case\Singular; 4}</CommandCancelRitual>

@@ -45,7 +45,6 @@
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef] vs [gameCondition_label]</li>
     <li>questName->[joiner_nameDef] a [gameCondition_label]</li>
     <li>questName->[gameCondition_label] a [joiner_nameDef]</li>
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
@@ -67,8 +66,8 @@
     <li>questName->[joiner_nameDef] a [joiner_possessive] hnízda</li>
     <li>questName->[joiner_nameDef] pronásledovan[joiner_y_a] brouky</li>
     <li>questName->[joiner_nameDef] pronásledovan[joiner_y_a] hmyzáky</li>
-    <li>questName->[joiner_nameDef] vs brouci</li>
-    <li>questName->[joiner_nameDef] vs hmyzáci</li>
+    <li>questName->[joiner_nameDef] a brouci</li>
+    <li>questName->[joiner_nameDef] a hmyzáci</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
   <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] je nasákl[joiner_y_a] hmyzími feromony a prchá před broučím zamořením. Pronásledující brouci brzy dorazí.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
@@ -102,11 +101,9 @@
     <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->[joiner_nameDef] vs [animalKind_label]</li>
     <li>questName(animalCount==1)->[joiner_nameDef] a [animalKind_label]</li>
     <li>questName(animalCount==1)->[animalKind_label] a [joiner_nameDef]</li>
     <li>questName(animalCount==1)->[animalKind_label] požírající lidi</li>
-    <li>questName(animalCount>=2)->[joiner_nameDef] vs skupina [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->[joiner_nameDef] a skupina [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->Skupina [animalKind_labelPlural] a [joiner_nameDef]</li>
     <li>questName(animalCount>=2)->Lidožravá smečka [animalKind_labelPlural]</li>
@@ -120,7 +117,7 @@
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] is begging to join you at [map_definite].[joiner_relationInfo]\n\nThere's some kind of threat following [joiner_nameDef], but [joiner_pronoun] is unwilling to say what it is or when it might follow. [joiner_pronoun] is also unwilling to tell you more about [joiner_objective]self.</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->Z nedaleké oblasti se ti ozval[joiner_x_a] [joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef]. Žadoní, zda by se mohl[joiner_x_a] přidat ke tvé osadě zvané [map_definite].[joiner_relationInfo]\n\nExistuje zde určitá hrozba, která [joiner_objective] pronásleduje. [joiner_nameDef] ti bohužel není ochotn[joiner_y_a] prozradit, o co se vlastně jedná nebo co by mohlo přijít. Nechce ti ani říct nic bližšího o sobě.</li>
+    <li>questDescription->Z nedaleké oblasti se ti ozval[joiner_x_a] [joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameDef]. Žadoní, zda by se mohl[joiner_x_a] přidat ke tvé osadě zvané [map_definite].[joiner_relationInfo]\n\nExistuje zde určitá hrozba, která [joiner_objective] pronásleduje. [joiner_nameDef] ti bohužel není ochotn[joiner_y_a] prozradit, o co se vlastně jedná nebo co by mohlo přijít. Nehodlá ti sdělit ani nic bližšího o sobě.</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
@@ -155,7 +152,7 @@
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL}: Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \nMěl[joiner_x_a] se [joiner_ozenitsprinceznou_provdatzaprince], tak jak si přál[enemyFaction_leader_x_a] princ[joiner_eznina_ova] [enemyFaction_leader_otec_matka] [enemyFaction_leader_nameFull], [enemyFaction_leader_vudce_vudkyne] frakce [enemyFaction_name]. Před samotným obřadem se opil[joiner_x_a] natolik, že pozvracel[joiner_x_a] celý oltář - byla to do očí bijící ostuda a urážka vůči celé [joiner_nevestine_zenichove] rodině.\n    \n[enemyFaction_leader_nameDef] přísahal[enemyFaction_leader_x_a], že se [joiner_mu_ji] pomstí, a to i těm, kteří s [joiner_nim_ni] mají cokoli co do činění. A tak poslal[enemyFaction_leader_x_a] svůj oddíl [enemyFaction_pawnsPlural] k provedení úkolu.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \nMěl[joiner_x_a] se [joiner_ozenitsprinceznou_provdatzaprince], tak jak si přál[enemyFaction_leader_x_a] princ[joiner_eznina_ova] [enemyFaction_leader_otec_matka] [enemyFaction_leader_nameFull], [enemyFaction_leader_vudce_vudkyne] frakce [enemyFaction_name]. Před samotným obřadem se opil[joiner_x_a] natolik, že pozvracel[joiner_x_a] celý oltář - byla to do očí bijící ostuda a urážka vůči celé [joiner_nevestine_zenichove] rodině.\n    \n[enemyFaction_leader_nameDef] přísahal[enemyFaction_leader_x_a], že se [joiner_mu_ji] pomstí, a to i těm, kteří s [joiner_nim_ni] mají cokoli co do činění. A tak poslal[enemyFaction_leader_x_a] svůj oddíl [enemyFaction_pawnsPluralGen] k provedení úkolu.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
@@ -163,7 +160,7 @@
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>Odhalení oblasti k obtěžování [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \n[joiner_nameDef] byl[joiner_x_a] zrovna na cestách, když najednou na kraji cesty narazil[joiner_x_a] na nemocn[enemyFaction_leader_eho_ou] [enemyFaction_leader_muze_zenu]. Byl[enemyFaction_leader_x_a] to [enemyFaction_leader_nameFull], [enemyFaction_leader_vudce_vudkyne] pocházející z frakce [enemyFaction_name]. [joiner_nameDef] [enemyFaction_leader_muze_zenu] slovně napadl[joiner_x_a] - přirovnal[joiner_x_a] [enemyFaction_leader_objective] [AnimalToUniDat].\n    \n[enemyFaction_leader_nameDef] se naštval[enemyFaction_leader_x_a] a přikázal[enemyFaction_leader_x_a] svým [enemyFaction_pawnsPlural]m, aby se usadili v blízké oblasti a obtěžovali tě.\n    \nV oblasti se nachází [allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] přiznal[joiner_x_a], před čím vlastně utíkal[joiner_x_a].\n    \n[joiner_nameDef] byl[joiner_x_a] zrovna na cestách, když najednou na kraji cesty narazil[joiner_x_a] na nemocn[enemyFaction_leader_eho_ou] [enemyFaction_leader_muze_zenu]. Byl[enemyFaction_leader_x_a] to [enemyFaction_leader_nameFull], [enemyFaction_leader_vudce_vudkyne] frakce [enemyFaction_name]. [joiner_nameDef] [enemyFaction_leader_muze_zenu] slovně napadl[joiner_x_a] - přirovnal[joiner_x_a] [enemyFaction_leader_objective] [AnimalToUniDat].\n    \n[enemyFaction_leader_nameDef] se naštval[enemyFaction_leader_x_a] a přikázal[enemyFaction_leader_x_a] svým [enemyFaction_pawnsPluralDat], aby se usadili v blízké oblasti a obtěžovali tě.\n    \nV oblasti se nachází [allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL} : Naháněn[joiner_y_a] [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
@@ -180,10 +177,10 @@
     <li>questName->[joiner_nameDef]'s Many Enemies</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef] [a_vs] [joiner_possessive] přátelé</li>
-    <li>questName->[joiner_nameDef] [a_vs] [joiner_possessive] nepřátelé</li>
-    <li>questName->[joiner_nameDef] [a_vs] [mnoho] přátel</li>
-    <li>questName->[joiner_nameDef] [a_vs] [mnoho] nepřátel</li>
+    <li>questName->[joiner_nameDef] a [joiner_possessive] přátelé</li>
+    <li>questName->[joiner_nameDef] a [joiner_possessive] nepřátelé</li>
+    <li>questName->[joiner_nameDef] a [mnoho] přátel</li>
+    <li>questName->[joiner_nameDef] a [mnoho] nepřátel</li>
     <li>mnoho->hodně</li>
     <li>mnoho->hromada</li>
     <li>mnoho->spousta</li>
@@ -192,11 +189,11 @@
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL}: Naháněn[../joiner_y_a] [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \nSkupina [enemyFaction_pawnsPlural] přišla kvůli pomstě. [../joiner_nameFull] se jen tak nedá.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \nDůvodem, proč [enemyFaction_pawnsPlural] přišli, je [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL}: Naháněn[../joiner_y_a] [../joiner_nameDef]</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \nSkupina [enemyFaction_pawnsPlural] přišla kvůli pomstě. [../joiner_nameFull] se jen tak nedá.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \nDůvodem, proč [enemyFaction_pawnsPlural] přišli, je [../joiner_nameFull].</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
   
   <!-- EN:
     <li>questDescription->A [joiner_age]-year-old [joiner_title] named [joiner_nameFull] is calling from nearby. [joiner_pronoun] is hiding from [threat]. [joiner_pronoun] wants to flee [joiner_possessive] hiding spot and join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_objective], [joinersEnemies] will set up a site nearby to harass you. [site/allSitePartsDescriptions]\n\nThe threat will remain until you go to destroy it.</li>
@@ -211,15 +208,15 @@
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
     <li>questDescription->Z nedaleké oblasti se ti ozval[joiner_x_a] [joiner_age]let[joiner_y_a] [joiner_title] jménem [joiner_nameFull]. Skrývá se před [threat_main]. Chce uniknout ze svého provizorního úkrytu a připojit se ke tvé osadě zvané [map_definite].[joiner_relationInfo]\n\nPokud [joiner_objective] přijmeš, [joinersEnemies] zřídí v blízkém okolí znepokojující místo. Bude se tam nacházet [site/allSitePartsDescriptions]\n\nHrozba bude přetrvávat, dokud se se vším nevypořádáš.</li>
-    <li>threat_main(priority=1,site/Outpost_exists==True)->skupinou [site/enemyFaction_pawnsPlural] z frakce [site/enemyFaction_name]</li>
+    <li>threat_main(priority=1,site/Outpost_exists==True)->skupinou [site/enemyFaction_pawnsPluralGen] z frakce [site/enemyFaction_name]</li>
     <li>threat_main(priority=1,site/MechCluster_exists==True)->mechanoidy</li>
     <li>threat_main(priority=1,site/SleepingMechanoids_exists==True)->mechanoidy</li>
     <li>threat_main->svými nepřáteli</li>
-    <li>threat(priority=1,site/Outpost_exists==True)->skupina [site/enemyFaction_pawnsPlural] z frakce [site/enemyFaction_name] zřídila</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->skupina [site/enemyFaction_pawnsPluralGen] z frakce [site/enemyFaction_name] zřídila</li>
     <li>threat(priority=1,site/MechCluster_exists==True)->mechanoidi zřídili</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mechanoidi zřídili</li>
     <li>threat->[joiner_possessive] nepřátelé zřídili</li>
-    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->členové z frakce [site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->frakce [site/enemyFaction_name]</li>
     <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mechanoidi</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoidi</li>
     <li>joinersEnemies->[joiner_possessive] nepřátelé</li>
@@ -230,7 +227,6 @@
     <li>questName->the [site/site_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef] vs [site/site_label]</li>
     <li>questName->[joiner_nameDef] a [site/site_label]</li>
     <li>questName->[site/site_label] a [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>

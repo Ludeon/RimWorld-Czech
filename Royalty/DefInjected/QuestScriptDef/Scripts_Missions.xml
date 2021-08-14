@@ -7,7 +7,7 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->(*Threat)Skupina [enemiesLabel](/Threat) [setUp] tábor kvůli [harassing] místních karavan z frakce [asker_faction_name]. [asker_nameDef] [planning] na zmíněný tábor [undertake] [aerialAssault]. K provedení tohoto útoku tě žádá o poskytnutí (*ColonistCount)[soldiers](/ColonistCount).\n\nK vyzvednutí [oneOrMore_tveho_bojovnika] vyšle raketoplán, který [oneOrMore_ho_je] dopraví až na místo [attackSite]. Po dokončení mise [oneOrMore_ho_je] vezme zpět domů. Během letu [oneOrMore_mu_jim] bude zajištěna strava a lékařská péče.\n\nJakmile začneš s ofenzívou, musíš se vypořádat se všemi nepřáteli a střeleckými věžemi v rámci [timeoutTicks_duration]. Poslední známý (*Threat)počet [enemiesLabel](/Threat) v táboře: (*Threat)[enemiesCount](/Threat)</li>
+    <li>questDescription->(*Threat)[enemiesLabel](/Threat) [setUp] tábor, aby mohli [harassing] místní karavany patřící frakci [asker_faction_name]. [asker_nameDef] [planning] na zmíněný tábor [undertake] [aerialAssault]. K provedení tohoto útoku tě žádá o poskytnutí (*ColonistCount)[soldiers](/ColonistCount), což by mohlo stačit na zlikvidování (*Threat)[enemiesCount] nepřátel.(/Threat)\n\nK vyzvednutí [oneOrMore_tveho_bojovnika] vyšle raketoplán, který [oneOrMore_ho_je] dopraví až na místo [attackSite]. Po dokončení mise [oneOrMore_ho_je] vezme zpět domů. Během letu [oneOrMore_mu_jim] bude zajištěna strava a lékařská péče.\n\nJakmile začneš s ofenzívou, musíš se vypořádat se všemi nepřáteli a střeleckými věžemi v rámci [timeoutTicks_duration].</li>
     <li>soldiers(requiredPawnCount==1)->jednoho vojáka</li>
     <li>soldiers(requiredPawnCount==2)->dvou vojáků</li>
     <li>soldiers(requiredPawnCount==3)->třech vojáků</li>
@@ -19,14 +19,15 @@
     <li>oneOrMore_ho_je(requiredPawnCount>=2)->je</li>
     <li>oneOrMore_mu_jim(requiredPawnCount==1)->mu</li>
     <li>oneOrMore_mu_jim(requiredPawnCount>=2)->jim</li>
-    <li>setUp->vybudovala</li>
-    <li>setUp->založila</li>
-    <li>harassing->obtěžování</li>
-    <li>harassing->zastrašování</li>
-    <li>harassing->okrádání</li>
-    <li>harassing->vykrádání</li>
-    <li>harassing->drancování</li>
-    <li>harassing->plenění</li>
+    <li>setUp->postavili</li>
+    <li>setUp->vybudovali</li>
+    <li>setUp->založili</li>
+    <li>setUp->zřídili</li>
+    <li>harassing->obtěžovat</li>
+    <li>harassing->zastrašovat</li>
+    <li>harassing->okrádat</li>
+    <li>harassing->vykrádat</li>
+    <li>harassing->drancovat</li>
     <li>planning->plánuje</li>
     <li>planning->chystá</li>
     <li>undertake->provést</li>
