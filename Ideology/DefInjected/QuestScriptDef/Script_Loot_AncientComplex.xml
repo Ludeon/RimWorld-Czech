@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've learned of an ancient complex nearby that is said to contain ancient treasure.\n\nYou can break in to collect the loot inside.\n\nBe warned - these kinds of structures can contain a variety of threats. In addition, your activity at the complex might draw unwanted attention.</li>
+  -->
+  <OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+    <li>questDescription->Dozvěděl ses o [nearby] [ancientComplex] komplexu, o kterém se [said], že [contain] prastarý poklad.\n\nMůžeš [breakIn] a kořist získat.\n\n[beWarned] - tyto typy [ofStructures] mohou obsahovat [variety] hrozeb. Tvé aktivity v komplexu by navíc mohly [draw] nechtěnou pozornost.</li>
+    <li>nearby->nedalekém</li>
+    <li>nearby->blízkém</li>
+    <li>ancientComplex->starobylém</li>
+    <li>ancientComplex->starodávném</li>
+    <li>said->povídá</li>
+    <li>said->říká</li>
+    <li>said->traduje</li>
+    <li>said->tvrdí</li>
+    <li>contain->obsahuje</li>
+    <li>contain->se v něm nachází</li>
+    <li>contain->se v něm nachází</li>
+    <li>contain->se v něm ukrývá</li>
+    <li>contain->se v něm skrývá</li>
+    <li>breakIn->tam vniknout</li>
+    <li>breakIn->se tam vloupat</li>
+    <li>ofStructures->budov</li>
+    <li>ofStructures->staveb</li>
+    <li>ofStructures->struktur</li>
+    <li>variety->celou škálu</li>
+    <li>variety->řadu</li>
+    <li>draw->přilákat</li>
+    <li>draw->přitáhnout</li>
+    <li>draw->přivést</li>
+    <li>beWarned->Buď ale opatrný</li>
+    <li>beWarned->Buď však na pozoru</li>
+    <li>beWarned->Dávej si však pozor</li>
+
+  </OpportunitySite_AncientComplex.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(p=3)->[complexAdj] [complex] [finalWord]</li>
+    <li>questName->[complex] [finalWord]</li>
+    <li>complexAdj->secret</li>
+    <li>complexAdj->mysterious</li>
+    <li>complexAdj->ancient</li>
+    <li>complexAdj->old</li>
+    <li>complexAdj->hidden</li>
+    <li>complexAdj->deathly</li>
+    <li>complex->complex</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>finalWord->treasure</li>
+    <li>finalWord->riches</li>
+    <li>finalWord->trove</li>
+    <li>finalWord->cache</li>
+    <li>finalWord->loot</li>
+    <li>finalWord->robbing</li>
+    <li>finalWord->looting</li>
+    <li>finalWord->raiding</li>
+    <li>finalWord->theft</li>
+    <li>finalWord->heist</li>
+    <li>finalWord->caper</li>
+    <li>finalWord->booty</li>
+  -->
+  <OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+    <li>questName(p=3)->[firstWordAdjComplex]</li>
+    <li>questName->[firstWord] [complexGen]</li>
+    <li>firstWordAdjComplex(p=0.5)->[firstWord] [complexAdj][e_eho_complexGen]</li>
+    <li>firstWordAdjComplex(p=0.5)->[booty] [bootyComplexAdj][e_eho_complexGen]</li>
+    <li>complexAdj->[secretComplexAdj]</li>
+    <li>complexAdj->[mysteriousComplexAdj]</li>
+    <li>complexAdj->[ancientComplexAdj]</li>
+    <li>complexAdj->[oldComplexAdj]</li>
+    <li>complexAdj->[hiddenComplexAdj]</li>
+    <li>complexAdj->[deathlyComplexAdj]</li>
+    <li>bootyComplexAdj->z [secretComplexAdj]</li>
+    <li>bootyComplexAdj->z[bootyMysteriousComplexAdj]</li>
+    <li>bootyComplexAdj->z[bootyAncientComplexAdj]</li>
+    <li>bootyComplexAdj->z[bootyOldComplexAdj]</li>
+    <li>bootyComplexAdj->z[bootyHiddenComplexAdj]</li>
+    <li>bootyComplexAdj->z [deathlyComplexAdj]</li>
+    <li>secretComplexAdj->tajn</li>
+    <li>secretComplexAdj->utajovan</li>
+    <li>secretComplexAdj->utajen</li>
+    <li>mysteriousComplexAdj->záhadn</li>
+    <li>mysteriousComplexAdj->tajupln</li>
+    <li>mysteriousComplexAdj->tajemn</li>
+    <li>ancientComplexAdj->prastar</li>
+    <li>ancientComplexAdj->starobyl</li>
+    <li>ancientComplexAdj->starodávn</li>
+    <li>oldComplexAdj->star</li>
+    <li>oldComplexAdj->prastar</li>
+    <li>hiddenComplexAdj->skryt</li>
+    <li>hiddenComplexAdj->ukryt</li>
+    <li>deathlyComplexAdj->hroziv</li>
+    <li>deathlyComplexAdj->nebezpečn</li>
+    <li>bootyMysteriousComplexAdj->e záhadn</li>
+    <li>bootyMysteriousComplexAdj-> tajupln</li>
+    <li>bootyMysteriousComplexAdj-> tajemn</li>
+    <li>bootyAncientComplexAdj-> prastar</li>
+    <li>bootyAncientComplexAdj->e starobyl</li>
+    <li>bootyAncientComplexAdj->e starodávn</li>
+    <li>bootyOldComplexAdj->e star</li>
+    <li>bootyOldComplexAdj-> prastar</li>
+    <li>bootyHiddenComplexAdj->e skryt</li>
+    <li>bootyHiddenComplexAdj-> ukryt</li>
+    <li>complexGen->komplexu</li>
+    <li>complexGen->zařízení</li>
+    <li>complexGen->[structureGen]</li>
+    <li>e_eho_complexGen->ého komplexu</li>
+    <li>e_eho_complexGen->ého zařízení</li>
+    <li>e_eho_complexGen->é [structureGen]</li>
+    <li>structureGen->struktury</li>
+    <li>structureGen->budovy</li>
+    <li>structureGen->stavby</li>
+    <li>firstWord->Přepadení</li>
+    <li>firstWord->Vyloupení</li>
+    <li>firstWord->Vykradení</li>
+    <li>firstWord->Vyrabování</li>
+    <li>booty->Bohatství</li>
+    <li>booty->Lup</li>  
+    <li>booty->Kořist</li>
+    <li>booty->Poklad</li>
+  </OpportunitySite_AncientComplex.questNameRules.rulesStrings>
+  
+</LanguageData>
