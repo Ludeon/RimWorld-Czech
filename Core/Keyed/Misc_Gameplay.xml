@@ -404,6 +404,8 @@
   <Location>umístění</Location>
   <!-- EN: animals -->
   <AnimalsLower>zvířata</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>předměty</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -1433,8 +1435,8 @@
   <!-- EN: Takes place at -->
   <RitualTakesPlaceAt>Místo konání</RitualTakesPlaceAt>
 
-  <!-- EN: Attending -->
-  <LordReportAttending>Účastní se:</LordReportAttending>
+  <!-- EN: Attending {0} -->
+  <LordReportAttending>Účastní se {lookup: {0}; Case\Singular; 2}</LordReportAttending>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>končí za {0}</RitualEndsIn>
   <!-- EN: Quality factors -->

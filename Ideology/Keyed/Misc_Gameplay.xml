@@ -14,7 +14,9 @@
   <!-- EN: Customize -->
   <Customize>Přizpůsobit</Customize>
   <!-- EN: Play classic -->
-  <PlayClassic>Hrát klasiku</PlayClassic>
+  <PlayClassic>Hrát klasické</PlayClassic>
+  <!-- EN: Create fluid... -->
+  <CreateFluid>Vytvořit proměnlivé ...</CreateFluid>
   <!-- EN: Load saved -->
   <LoadSaved>Načíst uložené</LoadSaved>
   <!-- EN: Structure -->
@@ -28,7 +30,9 @@
   <!-- EN: Load existing -->
   <LoadExisting>Načíst existující</LoadExisting>
   <!-- EN: Create custom ideoligion -->
-  <CreateCustomIdeoligion>vytvoř vlastní ideoboženství</CreateCustomIdeoligion>
+  <CreateCustomIdeoligion>Vytvoř vlastní ideoboženství</CreateCustomIdeoligion>
+  <!-- EN: Load saved ideoligion -->
+  <LoadExistingIdeoligion>Načti uložené ideoboženství</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
   <SelectAnIdeo>Vlevo si vyber ideoboženství pro svou frakci, nebo...</SelectAnIdeo>
   <!-- EN: ideoligion -->
@@ -91,6 +95,14 @@
   <StructuresLower>struktury</StructuresLower>
   <!-- EN: memes -->
   <MemesLower>přesvědčení</MemesLower>
+  <!-- EN: Development points -->
+  <Reward_DevelopmentPointsLabel>Vývojové body</Reward_DevelopmentPointsLabel>
+  <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideologion.\n\nEarn additional development points by completing other quests and rituals. -->
+  <Reward_DevelopmentPoints>Tvé vývojové body pro ideoboženství {0} se zvýší o {1}.\n\nV současné době máš {replace: ​{2}​​; "​1​"-"1 vývojový bod"; "​2​"-"2 vývojové body"; "​3​"-"3 vývojové body"; "​4​"-"4 vývojové body"; "​{2}​"-"{2} vývojových bodů"}. Jakmile dosáhneš {replace: ​{3}​​; "​1​"-"1 vývojového bodu"; "​2​"-"2 vývojových bodů"; "​3​"-"3 vývojových bodů"; "​4​"-"4 vývojových bodů"; "​{3}​"-"{3} vývojových bodů"}, můžeš ideoboženství reformovat.\n\nDalší vývojové body můžeš získat plněním úkolů a prováděním rituálů.</Reward_DevelopmentPoints>
+  <!-- EN: Current points -->
+  <CurrentDevelopmentPoints>Aktuální počet bodů</CurrentDevelopmentPoints>
+  <!-- EN: Points needed to reform -->
+  <ReformDevelopmentPoints>Bodů potřebných k reformě</ReformDevelopmentPoints>
 
   <!-- EN: This building is a variation of -->
   <IdeoBuildingVariationOf>Tato struktura je variantou</IdeoBuildingVariationOf>
@@ -201,7 +213,7 @@
   <RelicLower>relikvie</RelicLower>
 
   <!-- EN: Preview the ritual ambience sound -->
-  <TipPreviewRitualAmbienceSound>Náhled zvuku prostředí při rituálu</TipPreviewRitualAmbienceSound>
+  <TipPreviewRitualAmbienceSound>Náhled okolního zvuku rituálu</TipPreviewRitualAmbienceSound>
 
   <!-- EN: Choose -->
   <ChooseStuffForRelic>Vybrat</ChooseStuffForRelic>

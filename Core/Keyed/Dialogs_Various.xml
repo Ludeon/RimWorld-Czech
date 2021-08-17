@@ -30,7 +30,7 @@
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
   <RecoveredFromErrorsDialogTitle>Obnoveno po chybách způsobených nekompatibilními nebo poškozenými módy</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
-  <RecoveredFromErrorsText>Zdá se, některý z aktivních módů způsobil chyby.\n\nByli nekompatibilní navzájem, navrženy pro jinou verzi hry RimWorld, nebo poškozené.\n\nVšechny módy byly vypnuty a mohou být znovu aktivovány v dialogovém okně módů.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>Zdá se, že některé aktivní módy způsobovaly chyby.\n\nNebyly vzájemně kompatibilní, byly určené pro jinou verzi RimWorldu, nebo poškozené.\n\nVšechny módy byly deaktivovány a mohou být znovu aktivovány v dialogovém okně módů.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
@@ -210,7 +210,7 @@
   <!-- EN: Extreme (test) -->
   <MapSizeExtreme>Extrémní (test)</MapSizeExtreme>
   <!-- EN: Starting season -->
-  <MapStartSeason>Startovní sezóna</MapStartSeason>
+  <MapStartSeason>Počáteční období</MapStartSeason>
   <!-- EN: Auto -->
   <MapStartSeasonDefault>Automaticky</MapStartSeasonDefault>
   <!-- EN: Notice -->
@@ -467,9 +467,9 @@
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Jak často v průměru se bude zvíře tulit s přátelskými kolonisty.\n\nTulení je chování sdílené mnoha živočišnými druhy, kde zvíře tlačí nos nebo tlamu proti příteli jako známku náklonnosti.\nVětšině lidí tohle připadá roztomilé a po určitou dobu jim to přidá na dobré náladě.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>Pomsta při uděleném zranění</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
-  <HarmedRevengeChanceExplanation>Šance, že se tento tvor bude mstít, pokud bude zraněn střelbou útočníka.\n\nTato šance se zvyšuje, pokud je útočník blíž. Pokud je napaden z velmi blízké vzdálenosti, šance je třikrát vyšší.\nTato šance se uplatní pokaždé, když dojde k zásahu tvora, takže při pomalejší střelbě s vyšším poškozením je nižší pravděpodobnost, že se aktivuje.\nAby se minimalizovala šance, že se tvor pomstí, útoč výhradně se zbraněmi na dálku s nižší kadencí.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChance>Pomsta za zranění</HarmedRevengeChance>
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <HarmedRevengeChanceExplanation>Šance, že toto stvoření zautočí, když je mu ublíženo.\n\nTuto šanci lze až ztrojnásobit, pokud je útočník blíže.\n\nTato šance se uplatní při každém úspěšném zásahu. To znamená, že u zbraní s nižší kadencí a vyšším poškozením je méně pravděpodobné, že během lovu dojde k vyprovokování.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Pomsta při neúspěšném ochočení</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->

@@ -9,8 +9,8 @@
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Vyber si symbolickou strukturu svého ideoboženství. Ta ovlivňuje pouze symboly - nemá vliv na hratelnost.</ChooseStructureMemesInfo>
-  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
-  <ChooseNormalMemesInfo>Vyber si {0}-{1} přesvědčení, které utvoří základní myšlenky tohoto ideoboženství. Některá z těchto přesvědčení mají větší dopad na hru než jiná.</ChooseNormalMemesInfo>
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
+  <ChooseNormalMemesInfo>Vyber si {0}-{1} přesvědčení, které utvoří základní myšlenky tohoto ideoboženství.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>Vyber si alespoň {0} přesvědčení.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
@@ -19,12 +19,22 @@
   <ChooseStructureMeme>Vyber strukturu.</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} a {1_label} nejsou kompatibilní.</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>Některá z těchto přesvědčení mají na hru větší vliv než jiná.</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>Vyber si jedno přesvědčení, které utvoří prvotní myšlenku ideoboženství. Jak se bude ideoboženství postupem času vyvíjet, budeš moci přidat další přesvědčení.</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>Vyber nebo odeber některé přesvědčení.</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>Resetovat změny</ReformIdeoResetChanges>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0} přenastaví všechny zásady, které sis upravil.\n\nPřeješ si pokračovat?</ChangesRandomizePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Požadavky na místnost</RoomRequirements>
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). The following memes are incompatible:\n\n{0}\n\nWould you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeo>Ideoboženství, které se pokoušíš načíst, má přesvědčení, která nejsou kompatibilní s novým proměnlivým ideoboženstvím, a proto bude nutné jeho přesvědčení znovu vybrat (proměnlivé ideoboženství může začínat pouze s jedním přesvědčením s nízkým dopadem). Kompatibilní nejsou následující přesvědčení:\n\n{0}\n\nPřeješ si pokračovat?</ConfirmChangeMemesForFluidIdeo>
   
   <!-- EN: role -->
   <Role>role</Role>
@@ -54,6 +64,25 @@
   <MemeUnlocksRoles>Odemčené role</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>Odemčené rituály</MemeUnlocksRituals>
+
+  <!-- EN: Reform... -->
+  <ReformIdeo>Reformovat...</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>Reformuj ideoboženství</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>Reformuj své ideoboženství změnou jeho struktury, přesvědčení nebo stylu.</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>Změnit styly</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>Přidat nebo odebrat přesvědčení</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>Přidat přesvědčení</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>Vyber si jedno</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>Změnit strukturu</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>Změň některou z následujících položek</ReformIdeoChangeAny>
 
   <!-- EN: Any slave -->
   <AnySlave>Každý otrok</AnySlave>
@@ -156,11 +185,19 @@
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
   <ChooseThingsForNewColonyDesc>Vyber si kolonisty, zvířata a relikvie, které chceš vzít s sebou do nové kolonie.</ChooseThingsForNewColonyDesc>
   <!-- EN: Choose up to {0} {1}. -->
-  <ChooseThingsDesc>Vyber si nanejvýš {replace: ​{0}​ {1}; "​2​ lidé"-"2 osoby"; "​3​ lidé"-"3 osoby"; "​4​ lidé"-"4 osoby"; "​{0}​ lidé"-"{0} osob"; "​1​ relikvie"-"1 relikvii"; "​2​ relikvie"-"2 relikvie"; "​3​ relikvie"-"3 relikvie"; "​4​ relikvie"-"4 relikvie"; "​{0}​ relikvie"-"{0} relikvií"; "​2​ zvířata"-"2 zvířata"; "​3​ zvířata"-"3 zvířata"; "​4​ zvířata"-"4 zvířata"; "​{0}​ zvířata"-"{0} zvířat"}.</ChooseThingsDesc>
+  <ChooseThingsDesc>Vyber si nanejvýš {replace: ​{0}​ {1}; "​2​ lidé"-"2 osoby"; "​3​ lidé"-"3 osoby"; "​4​ lidé"-"4 osoby"; "​{0}​ lidé"-"{0} osob"; "​1​ předměty"-"1 předmět"; "​2​ předměty"-"2 předměty"; "​3​ předměty"-"3 předměty"; "​4​ předměty"-"4 předměty"; "​{0}​ předměty"-"{0} předmětů"; "​1​ relikvie"-"1 relikvii"; "​2​ relikvie"-"2 relikvie"; "​3​ relikvie"-"3 relikvie"; "​4​ relikvie"-"4 relikvie"; "​{0}​ relikvie"-"{0} relikvií"; "​2​ zvířata"-"2 zvířata"; "​3​ zvířata"-"3 zvířata"; "​4​ zvířata"-"4 zvířata"; "​{0}​ zvířata"-"{0} zvířat"}.</ChooseThingsDesc>
   <!-- EN: Choose up to {0} people. -->
   <ChoosePeopleDesc>Vyber si nanejvýš {replace: ​{0}​​; "​1​"-"1 osobu"; "​2​"-"2 osoby"; "​3​"-"3 osoby"; "​4​"-"4 osoby"; "​{0}​"-"{0} osob"}.</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
   <ChooseOnlySlavesInfo>Zvolíš-li jen otroky, budeš za ně hrát jako za kolonisty.</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>Potvrď rozhodnutí</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>Vesmírná loď, o které tě informovala UI (*Name)Charlon Whitestone(/Name), opustí svůj režim hluboké hibernace a odletí pryč, hned jak dojde k založení nové kolonie. S touto lodí už nebude možné z této planety uniknout.</ShipEscapeWillEndDescription>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>Kupec tvé kolonie ti umožní vzít si s sebou pouze jednu relikvii. Jakákoliv nevybraná relikvie tam zůstane, včetně:</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? -->
+  <WantToProceed>Přeješ si pokračovat?</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Konvertovat</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->

@@ -136,6 +136,8 @@
   <BeginLinkingRitualNeedSubplants>Vyžaduje {replace: ​{0}​​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} {lookup: {1}; Case\Singular; 2} (k dispozici {replace: ​{2}​​; "​1​"-"je 1 trs"; "​2​"-"jsou 2 trsy"; "​3​"-"jsou 3 trsy"; "​4​"-"jsou 4 trsy"; "​{2}​"-"je {2} trsů"})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>Vyžaduje {0} typ soustředění</BeginLinkingRitualNeedFocus>
+  <!-- EN: Max psylink level -->
+  <BeginLinkingRitualMaxPsylinkLevel>Maximální úroveň psiovazby</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>Pro navázaní spojení potřebuje volný přístupný prostor o velikosti tří buněk</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
@@ -169,6 +171,8 @@
   <RitualTargetAnimaTreeInfo>Spirituální strom</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Musí být kolonistou s přírodním typem meditačního soustředění, a který je pod maximální úrovní psiovazby.</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <!-- EN: Must not be psychically deaf. -->
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>Nesmí být psychicky hluchý.</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>Obřad, při kterém dochází ke spojení s animou, je mnohem účinější s více účastníky. Čím více lidí se zapojí, tím kratší bude doba trvání obřadu, a tím více doroste posvátné trávy.\n\n{replace: ​{0}​​; "​0​"-"Nepřidáš-li žádného dalšího účastníka, po skončení obřadu nedoroste žádný trs posvátné trávy."; "​{0}​"-"S pomocí {replace: ​{0}​​; "​1​"-"1 účastníka"; "​2​"-"2 účastníků"; "​3​"-"3 účastníků"; "​4​"-"4 účastníků"; "​{0}​"-"{0} účastníků"} je zajištěno, že po skončení obřadu {replace: ​{1}​​; "​1​"-"doroste 1 trs"; "​2​"-"dorostou 2 trsy"; "​3​"-"dorostou 3 trsy"; "​4​"-"dorostou 4 trsy"; "​{1}​"-"doroste {1} trsů"} posvátné trávy."}</AnimaLinkingExplanationBase>
