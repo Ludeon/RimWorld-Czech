@@ -11,6 +11,10 @@
   <MessageBuildingMissingRitual>{PRECEPT} vyžaduje související rituál.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} to odmítá udělat z důvodu svého ideoboženství.</MessagePawnUnwillingToDoDueToIdeo>
+  <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} se {INITIATOR_gender ? pokusil : pokusila} konvertovat {RECIPIENT_nameDef} na své ideoboženství. {RECIPIENT_possessive} jistota klesla z {CERTAINTYBEFORE} na {CERTAINTYAFTER}. {RECIPIENT_nameDef} nelibě nese snahu o konverzi.</MessageFailedConvertIdeoAttempt>
+  <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} se {PAWN1_gender ? pokusil : pokusila} konvertovat {PAWN2_nameDef} na své ideoboženství. Skončilo to rvačkou!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
   <MessageNotEnoughMemes>Musíš si vybrat alespoň {0} přesvědčení.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
