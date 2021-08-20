@@ -192,9 +192,19 @@
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
-  <ConnectedPawn>Svázaný s</ConnectedPawn>
+  <ConnectedPawn>Spojený s</ConnectedPawn>
   <!-- EN: Dryads -->
   <DryadPlural>Dryády</DryadPlural>
+  <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
+  <WaitingForConnectorToChangeCaste>Čeká se, až {CONNECTEDPAWN_nameDef} změní dryádí kastu.</WaitingForConnectorToChangeCaste>
+  <!-- EN: Dryad caste -->
+  <GauranlenTreeMode>Dryádí kasta</GauranlenTreeMode>
+  <!-- EN: Spawning {DRYAD_label} in {TIME} -->
+  <SpawningDryadIn>Za {TIME} zplodí {lookup: {DRYAD_label}; Case\Singular; 4}.</SpawningDryadIn>
+  <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
+  <ChangingDryadIntoType>Probíhá přeměna na {lookup: {TYPE_label}; Case\Singular; 4}.</ChangingDryadIntoType>
+  <!-- EN: Connection strength too low to create Gauranlen pod. -->
+  <ConnectionStrengthTooWeakForGaumakerPod>K vytvoření gauranleního lusku je síla spojení příliš nízká.</ConnectionStrengthTooWeakForGaumakerPod>
 
   <!-- EN: Charging -->
   <RechargeableCharging>Nabíjení</RechargeableCharging>
