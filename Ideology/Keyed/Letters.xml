@@ -42,6 +42,18 @@
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
   <LetterIdeoChangedSadWander>{PAWN_gender ? Otřesený : Otřesená} {PAWN_nameDef} nyní bloudí po okolí a zápasí se svou vírou.</LetterIdeoChangedSadWander>
 
+  <!-- Spacedrone incoming -->
+  <!-- EN: Spacedrone incoming -->
+  <LetterLabelSpacedroneIncoming>Přilétá kosmodron</LetterLabelSpacedroneIncoming>
+  <!-- EN: A spacedrone is landing nearby. -->
+  <LetterTextSpacedroneIncoming>Nedaleko přistává kosmodron.</LetterTextSpacedroneIncoming>
+  <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
+  <LetterTextRaidSpacedrone>Dorazila útočná jednotka z frakce {0}, aby zničila {lookup: {1}; Case\Singular; 4}, který nedaleko nouzově přistál.</LetterTextRaidSpacedrone>
+
+  <!-- Hacked -->
+  <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
+  <LetterTextSpacedroneHacked>Právě jsi dokončil nabourávání {lookup: {0}; Case\Singular; 2} a dozvěděl ses tak více o strarodávné relikvii zvané {1}.</LetterTextSpacedroneHacked>
+
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
   <LetterLabelArchonexusWealthReached>Úkol '{0}' lze nyní přijmout</LetterLabelArchonexusWealthReached>

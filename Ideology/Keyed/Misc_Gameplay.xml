@@ -105,8 +105,6 @@
   <ReformDevelopmentPoints>Bodů potřebných k reformě</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>úkol</QuestLower>
-  <!-- EN: Cannot reform -->
-  <CannotReform>Nelze reformovat</CannotReform>
 
   <!-- EN: This building is a variation of -->
   <IdeoBuildingVariationOf>Tato struktura je variantou</IdeoBuildingVariationOf>
@@ -126,6 +124,10 @@
   <RitualStartEvent>Může začít po události</RitualStartEvent>
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>Účastnické role</RitualParticipatingRoles>
+  <!-- EN: Development points -->
+  <RitualDevelopmentPoints>Vývojové body</RitualDevelopmentPoints>
+  <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
+  <RitualDevelopmentPointsTip>Dokončení tohoto rituálu přidá {0}-{1} vývojových bodů v závislosti na kvalitě.</RitualDevelopmentPointsTip>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Určení: Pro otroky</ForSlaveUse>
@@ -159,6 +161,9 @@
 
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Žádný dosažitelný oltář ani rituální místo.</AbilityDisabledNoAltarOrRitualsSpot>
+
+  <!-- EN: Will\n{0} to {1} -->
+  <TextMote_WillReduced>Vůle\n{0} na {1}</TextMote_WillReduced>
 
   <!-- EN: add {0} -->
   <AddPrecept>přidat {replace: {0}; "struktura"-"strukturu"; "dvojice zbraní"-"dvojici zbraní"; "relikvie"-"relikvii"; "role"-"roli"; "zásada"-"zásadu"; "{0}"-"{0}"}</AddPrecept>
@@ -266,7 +271,7 @@
   <!-- EN: ready -->
   <BiosculpterPodCycleLabelReady>připraveno</BiosculpterPodCycleLabelReady>
   <!-- EN: Prepare {0} cycle -->
-  <BiosculpterPodCycleCommand>Připravit {replace: {0}; "léčení"-"léčebný"; "omlazení"-"omlazovací"; "potěšení"-"potěšovací"} cyklus</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleCommand>Připravit {replace: {0}; "bioregenerace"-"regenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus</BiosculpterPodCycleCommand>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Skončí po uplynutí</BiosculpterCycleTimeRemaining>
   <!-- EN: Biotuned to -->
@@ -291,5 +296,7 @@
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} potěšovací cyklus.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Faktor rychlosti v závislosti na čistotě</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>Chybí potřebný výzkum:</MissingRequiredResearch>
 
 </LanguageData>
