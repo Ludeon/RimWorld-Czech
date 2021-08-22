@@ -105,7 +105,10 @@
   <ReformDevelopmentPoints>Bodů potřebných k reformě</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>úkol</QuestLower>
-
+  
+  <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
+  <RitualOutcomeExtraDesc_Execution>Všichni zúčastnění otroci byli otřeseni pohledem na smrt. Jejich útlak vyskočil na maximální úroveň.</RitualOutcomeExtraDesc_Execution>
+  
   <!-- EN: This building is a variation of -->
   <IdeoBuildingVariationOf>Tato struktura je variantou</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
@@ -122,8 +125,16 @@
   <RitualStartAnyTime>Může začít kdykoliv</RitualStartAnyTime>
   <!-- EN: Can start after event -->
   <RitualStartEvent>Může začít po události</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>Příslušné objekty</RitualFocusObjects>
+  <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
+  <RitualRepeatPenaltyTip>Opakování rituálu v průběhu {0} dnů snižuje jeho kvalitu. Od posledního rituálu {replace: ​{1}​​; "​1​"-"uběhl 1 den"; "​2​"-"uběhly (*DateTime)2 dny(/DateTime)"; "​3​"-"uběhly (*DateTime)3 dny(/DateTime)"; "​4​"-"uběhly (*DateTime)4 dny(/DateTime)"; "​{1}​"-"uběhlo {1} dnů"}, takže současné snížení kvality je {2}. Tento postih klesne k nule za {replace: ​{3}​​; "​1​"-"1 den"; "​2​"-"(*DateTime)2 dny(/DateTime)"; "​3​"-"(*DateTime)3 dny(/DateTime)"; "​4​"-"(*DateTime)4 dny(/DateTime)"; "​{3}​"-"{3} dnů"}.</RitualRepeatPenaltyTip>
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>Účastnické role</RitualParticipatingRoles>
+  <!-- EN: For best quality, start the {0} at {1}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Chceš-li dosáhnout nejlepší kvality, zahaj konání {lookup: {0}; Case\Singular; 2} na {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>{0} se bude aktuálně konat na {lookup: {1_labelShortIndef}; Case\Singular; 6}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
   <RitualDevelopmentPoints>Vývojové body</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->

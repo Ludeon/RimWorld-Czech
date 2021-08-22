@@ -32,6 +32,13 @@
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
   <SlaveRebellionSuppressionExplanation>Otroci povstanou s větší pravděpodobností, pokud je nízká jejich úroveň útlaku.</SlaveRebellionSuppressionExplanation>
 
+  <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
+  <LetterLabelRoleLost>{PAWN_labelShort} {PAWN_gender ? přišel : přišla} o roli {ROLE_labelIndef}</LetterLabelRoleLost>
+  <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
+  <LetterRoleLostDesc>{PAWN_labelShort} již nezastává roli {ROLE_labelIndef}. Důvod:</LetterRoleLostDesc>
+  <!-- EN: {PAWN_pronoun} was unassigned. -->
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_possessive} přiřazení bylo zrušeno.</LetterRoleLostReasonUnassignedDesc>
+
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
   <LetterIdeoChangeConverted>{PAWN_gender ? Rozhodl : Rozhodla} se, že {PAWN_possessive} víra v {OLDIDEO_name} už nedává smysl.\n\nNyní věří v {NEWIDEO_name}.</LetterIdeoChangeConverted>
