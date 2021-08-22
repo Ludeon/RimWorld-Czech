@@ -11,12 +11,12 @@
   <!-- EN: berserk trance -->
   <BerserkTrance.label>zběsilý trans</BerserkTrance.label>
   <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
-  <BerserkTrance.description>Sesílatel se naplní hněvem nad ideologickými křivdami. Tato schopnost mu předá nadlidské schopnosti, ale také ztratí nad sebou kontrolu a smyslů zbavený zaútočí na každého nepřítele v blízkosti. Stav šílenství bude trvat 3 hodiny.</BerserkTrance.description>
+  <BerserkTrance.description>Sesílatel se naplní hněvem nad ideologickými křivdami. Díky této schopnosti dokáže překonat běžné limity, ale také ztratí nad sebou kontrolu a smyslů zbavený zaútočí na každého nepřítele v dosahu. Stav šílenství bude trvat 3 hodiny.</BerserkTrance.description>
   
   <!-- EN: combat command -->
   <CombatCommand.label>bojové velení</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
-  <CombatCommand.description>Vytvoří auru, která posílí bojové schopnosti všech poblíž. Účinek trvá 24 hodin a zůstává přichycen k vůdci po celou dobu trvání.</CombatCommand.description>
+  <CombatCommand.description>Vytvoří auru, která posílí bojové dovednosti všech poblíž. Účinek trvá 24 hodin a zůstává přichycen k vůdci po celou dobu trvání.</CombatCommand.description>
   
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>konverzní rituál</ConversionRitual.label>
@@ -26,7 +26,7 @@
   <!-- EN: convert -->
   <Convert.label>konvertovat</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>Pokusí se někoho převést na ideoboženství řečníka. To sníží jistotu cíle v jeho vlastní víře. Míra snížení jistoty závisí na vyjednávacích schopnostech řečníka.</Convert.description>
+  <Convert.description>Pokusí se někoho převést na ideoboženství řečníka. To sníží jistotu cíle v jeho vlastní víře. Míra snížení jistoty závisí na vyjednávacích dovednostech řečníka.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} {INITIATOR_gender ? nedokázal : nedokázala} konvertovat {RECIPIENT_labelShort}. I přes neúspěšný pokus {RECIPIENT_gender ? byl : byla} {RECIPIENT_labelShort} {RECIPIENT_gender ? znejistěn : znejistěna}. {RECIPIENT_possessive} jistota proto klesla z původních {CERTAINTYBEFORE} na {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
@@ -66,7 +66,7 @@
   <!-- EN: mining command -->
   <MiningCommand.label>těžební velení</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>Poskytne odborný dohled nad těžařskými postupy, čímž posílí rychlost těžby všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</MiningCommand.description>
+  <MiningCommand.description>Poskytne odborný dohled nad těžebními postupy, čímž posílí rychlost těžby všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</MiningCommand.description>
   
   <!-- EN: preach health -->
   <PreachHealth.label>kázat zdraví</PreachHealth.label>
@@ -76,19 +76,19 @@
   <!-- EN: production command -->
   <ProductionCommand.label>výrobní velení</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ProductionCommand.description>Poskytne odborný dohled nad stavebními a výrobními postupy, čímž zrychlí výstavbu a posílí výrobní schopnosti všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</ProductionCommand.description>
+  <ProductionCommand.description>Poskytne odborný dohled nad konstrukčními postupy, čímž posílí konstrukční a výrobní dovednosti všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</ProductionCommand.description>
   
   <!-- EN: reassure -->
   <Reassure.label>upevnit víru</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>Zvýší něčí jistotu v jeho vlastní víře. Množství znovunabyté víry závisí na vyjednávacích schopnostech řečníka.</Reassure.description>
+  <Reassure.description>Zvýší něčí jistotu v jeho vlastní víře. Množství znovunabyté víry závisí na vyjednávacích dovednostech řečníka.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} {INITIATOR_gender ? ujistil : ujistila} {RECIPIENT_labelShort}, čímž zvýšila {RECIPIENT_possessive} jistotu v ideoboženství {IDEO} z původních {BEFORECERTAINTY} na {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
   <ResearchCommand.label>výzkumné velení</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>Poskytne návrhy a psychickou podporu, čímž zvýší rychlost výzkumu všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</ResearchCommand.description>
+  <ResearchCommand.description>Poskytne návrhy a psychickou podporu, čímž posílí rychlost výzkumu všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</ResearchCommand.description>
   
   <!-- EN: trial -->
   <Trial.label>soudní proces</Trial.label>
