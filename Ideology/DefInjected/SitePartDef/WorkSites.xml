@@ -35,13 +35,13 @@
   <WorkSite_Logging.arrivedLetter>V této oblasti se nachází neutrální stanoviště.</WorkSite_Logging.arrivedLetter>
   
   <!-- EN: {THING_label} mining work site -->
-  <WorkSite_Mining.label>hornická oblast ({THING_label})</WorkSite_Mining.label>
+  <WorkSite_Mining.label>hornická oblast</WorkSite_Mining.label>
   <!-- EN: A work site built by another faction. It will expire in time. Until then, you can raid it if you wish. -->
   <WorkSite_Mining.description>Jiná frakce si v tomto místě zřídila pracoviště, které časem zanikne. Pokud chceš, můžeš na něj do té doby zaútočit.</WorkSite_Mining.description>
   <!-- EN: Attacking {0} -->
-  <WorkSite_Mining.approachingReportString>Chystá se napadnout hornickou oblast {replace: {0}; "hornická osada "-""}.</WorkSite_Mining.approachingReportString>
+  <WorkSite_Mining.approachingReportString>Chystá se napadnout {lookup: {0}; Case\Singular; 4}.</WorkSite_Mining.approachingReportString>
   <!-- EN: Attack {0} -->
-  <WorkSite_Mining.approachOrderString>Napadnout hornickou oblast {replace: {0}; "hornická osada "-""}</WorkSite_Mining.approachOrderString>
+  <WorkSite_Mining.approachOrderString>Napadnout {lookup: {0}; Case\Singular; 4}</WorkSite_Mining.approachOrderString>
   <!-- EN: There is a neutral camp in this area. -->
   <WorkSite_Mining.arrivedLetter>V této oblasti se nachází neutrální stanoviště.</WorkSite_Mining.arrivedLetter>
   

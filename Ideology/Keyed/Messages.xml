@@ -29,6 +29,20 @@
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} nyní zastává roli {1}.</MessageRoleAssigned>
 
+  <!-- Slave interactions -->
+  <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
+  <MessageSlaveEmancipated>{1_nameDef} {1_gender ? osvobodil : osvobodila} {0_gender ? otroka : otrokyni} jménem {0_nameDef}.</MessageSlaveEmancipated>
+  <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
+  <MessagePrisonerEnslaved>{1_nameDef} {1_gender ? zotročil : zotročila} osobu jménem {0_nameDef}.</MessagePrisonerEnslaved>
+
+  <!-- Prisoner interactions -->
+  <!-- EN: No warden is capable of this enslavement. -->
+  <MessageNoWardenCapableOfEnslavement>Žádný dozorce není schopen provést takové zotročení.</MessageNoWardenCapableOfEnslavement>
+
+  <!-- Camps -->
+  <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
+  <MessageCampDetected>Objevil jsi {lookup: {CAMP_label}; Case\Singular; 4} patřící frakci {FACTION_name}.</MessageCampDetected>
+
   <!-- EN: Cannot remove -->
   <CannotRemove>Nelze odstranit</CannotRemove>
   

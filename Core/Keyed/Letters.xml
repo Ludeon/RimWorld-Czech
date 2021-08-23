@@ -424,7 +424,7 @@
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Nemoc: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>Nemoc: {1}\n\n{PAWN_label} {PAWN_gender ? onemocněl : onemocněla}. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby se {PAWN_gender ? mu : jí} dostalo řádné péče a v posteli {PAWN_gender ? strávil : strávila} dostatek času.</LetterTraitDisease>
+  <LetterTraitDisease>Nemoc: {1}\n\n{PAWN_labelShort} {PAWN_gender ? onemocněl : onemocněla}. Ujisti se, že máš zdravotnickou postel i doktora. Zajisti, aby se {PAWN_gender ? mu : jí} dostalo řádné péče a v posteli {PAWN_gender ? strávil : strávila} dostatek času.</LetterTraitDisease>
 
   <!-- Surgery -->
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
@@ -551,6 +551,6 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>Karavana byla odhalena</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Tvá karavana byla právě odhalena. Po uplynutí {0} dorazí do oblasti {1} z frakce {2}.\n\nAby ses {lookup: {1}; Case\Plural; 3} vyhnul, zformuj opět svou karavanu a dej se do pohybu. Nyní je vidět časovač odpočítávající jejich příchod.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>Tvá karavana byla právě odhalena. Po uplynutí {0} dorazí do oblasti {1} z frakce {2}.\n\nAby ses {lookup: {1}; Case\Plural; 3} vyhnul, zformuj svou karavanu a dej se do pohybu. Nyní je vidět časovač odpočítávající jejich příchod.</LetterTextSiteCountdownStarted>
 
 </LanguageData>
