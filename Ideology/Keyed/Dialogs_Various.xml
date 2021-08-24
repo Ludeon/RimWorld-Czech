@@ -6,6 +6,10 @@
   <Add>přidat</Add>
   <!-- EN: dominant style -->
   <DominantStyle>dominantní styl</DominantStyle>
+  <!-- EN: Date -->
+  <Date>Datum</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>V závislosti na rituálním výsledku budou přiděleny následující vývojové body</RitualDevelopmentPointRewards>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Vyber si symbolickou strukturu svého ideoboženství. Ta ovlivňuje pouze symboly - nemá vliv na hratelnost.</ChooseStructureMemesInfo>
@@ -27,6 +31,8 @@
   <ChooseOrRemoveMeme>Vyber nebo odeber některé přesvědčení.</ChooseOrRemoveMeme>
   <!-- EN: Reset changes -->
   <ReformIdeoResetChanges>Resetovat změny</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>Vyber si {0} přesvědčení.</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
   <ChangesRandomizePrecepts>{0} přenastaví všechny zásady, které sis upravil.\n\nPřeješ si pokračovat?</ChangesRandomizePrecepts>
@@ -64,6 +70,10 @@
   <MemeUnlocksRoles>Odemčené role</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>Odemčené rituály</MemeUnlocksRituals>
+  <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
+  <CannotNotAddRoleApparelDueToMeme>Přesvědčení {MEME} neumožňuje přidávat k rolím vyžadované oblečení.</CannotNotAddRoleApparelDueToMeme>
+  <!-- EN: cannot be worn with {0_label} -->
+  <CannotBeWornWith>nelze nosit společně {replace: s ​{lookup: {0_label}; Case\Singular; 7}; "s ​s"-"se s"; "s ​z"-"se z"}</CannotBeWornWith>
 
   <!-- EN: Reform... -->
   <ReformIdeo>Reformovat...</ReformIdeo>

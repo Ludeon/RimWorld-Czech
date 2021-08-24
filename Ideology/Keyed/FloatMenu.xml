@@ -40,6 +40,16 @@
   <MaxPreceptCount>max {0}</MaxPreceptCount>
   <!-- EN: Set gender -->
   <SetTargetGender>Nastavit pohlaví</SetTargetGender>
+  <!-- EN: must be {0} faction -->
+  <RoleApparelRequirementIncompatibleFaction>musí být {0} frakcí</RoleApparelRequirementIncompatibleFaction>
+  <!-- EN: tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>kmenovou</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <!-- EN: non-tribal -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>nekmenovou</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <!-- EN: requires any of these memes -->
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>vyžaduje některá z těchto přesvědčení</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>již přidělěno</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>Lidé jsou spokojení, pokud jsou splněny jejich požadavky na oblečení, a nešťastní, když splněny nejsou.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -72,6 +82,8 @@
   <CannotHack>Nelze nabourat {lookup: {0}; Case\Singular; 4}</CannotHack>
   <!-- EN: Already hacked -->
   <AlreadyHacked>Již nabouráno</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>neschopnost nabourávání</IncapableOfHacking>
   <!-- EN: to drop supplies -->
   <ToDropSupplies>ke shození zásob</ToDropSupplies>
 

@@ -16,7 +16,7 @@
   <!-- EN: Play classic -->
   <PlayClassic>Hrát klasické</PlayClassic>
   <!-- EN: Create fluid... -->
-  <CreateFluid>Vytvořit proměnlivé ...</CreateFluid>
+  <CreateFluid>Vytvořit proměnlivé...</CreateFluid>
   <!-- EN: Load saved -->
   <LoadSaved>Načíst uložené</LoadSaved>
   <!-- EN: Structure -->
@@ -105,9 +105,24 @@
   <ReformDevelopmentPoints>Bodů potřebných k reformě</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>úkol</QuestLower>
+
+  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
+  <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>Všichni zúčastnění otroci byli otřeseni pohledem na smrt. Jejich útlak vyskočil na maximální úroveň.</RitualOutcomeExtraDesc_Execution>
+  
+  <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>V závislosti na kvalitě rituálu, byly tvé vývojové body zvýšeny o {2} (ze současných {0} na {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Kvůli špatné kvalitě rituálu nebyly získány žádné vývojové body.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+
+  <!-- EN: Additional reward -->
+  <RitualAttachedReward>Dodatečná odměna</RitualAttachedReward>
+  <!-- EN: Choose -->
+  <RitualAttachedRewardChoose>Vybrat</RitualAttachedRewardChoose>
+  <!-- EN: Requires any of memes -->
+  <RitualAttachedRewardRequiredMemeAny>Vyžaduje některá z přesvědčení</RitualAttachedRewardRequiredMemeAny>
   
   <!-- EN: This building is a variation of -->
   <IdeoBuildingVariationOf>Tato struktura je variantou</IdeoBuildingVariationOf>

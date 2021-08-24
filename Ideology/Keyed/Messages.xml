@@ -43,8 +43,11 @@
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
   <MessageCampDetected>Objevil jsi {lookup: {CAMP_label}; Case\Singular; 4} patřící frakci {FACTION_name}.</MessageCampDetected>
 
+  <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
   <CannotRemove>Nelze odstranit</CannotRemove>
+  <!-- EN: Roles cannot have overlapping apparel requirements. -->
+  <OverlappingRoleApparel>Role nesmí mít překrývající se požadavky na oblečení.</OverlappingRoleApparel>
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
   <SelfDestructCountdown>K samozničení {lookup: {0_label}; Case\Singular; 2} dojde za {1}.</SelfDestructCountdown>
@@ -67,10 +70,18 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>Došlo ke vznícení {lookup: {0}; Case\Singular; 2} a brzy dojde k explozi!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>Došlo ke vznícení {lookup: {0}; Case\Singular; 2}. Brzy dojde k explozi!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
   <MessageSleepingThreatDelayActivated>{0_pawnsPlural} se probudí za {1}.</MessageSleepingThreatDelayActivated>
+  <!-- EN: {0} was disturbed and might explode soon! -->
+  <MessageFuelNodeDelayActivated>Došlo k narušení {lookup: {0}; Case\Singular; 2}. Možná dojde k explozi!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+
+  <!-- Fluid ideo messages -->
+  <!-- EN: Development points changed from {0} to {1} ({2}). -->
+  <MessageDevelopmentPointsEarned>Vývojové body se změnily ze současných {0} na {1} ({2}).</MessageDevelopmentPointsEarned>
+  <!-- EN: Only one change to structures, memes and styles is allowed. -->
+  <MessageFluidIdeoOneChangeAllowed>Povolena je pouze jedna změna, a to buď struktury, přesvědčení, nebo stylu.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>
