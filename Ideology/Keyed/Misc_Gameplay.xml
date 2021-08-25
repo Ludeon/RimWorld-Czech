@@ -106,6 +106,9 @@
   <!-- EN: quest -->
   <QuestLower>úkol</QuestLower>
 
+  <!-- EN: Any gathering spot, like a table -->
+  <RitualTargetGatherSpotInfo>Libovolné shromaždiště, například stůl</RitualTargetGatherSpotInfo>
+
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   
@@ -113,7 +116,7 @@
   <RitualOutcomeExtraDesc_Execution>Všichni zúčastnění otroci byli otřeseni pohledem na smrt. Jejich útlak vyskočil na maximální úroveň.</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>V závislosti na kvalitě rituálu, byly tvé vývojové body zvýšeny o {2} (ze současných {0} na {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>V závislosti na kvalitě rituálu byly tvé vývojové body zvýšeny o {2} (ze současných {0} na {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Kvůli špatné kvalitě rituálu nebyly získány žádné vývojové body.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -123,6 +126,18 @@
   <RitualAttachedRewardChoose>Vybrat</RitualAttachedRewardChoose>
   <!-- EN: Requires any of memes -->
   <RitualAttachedRewardRequiredMemeAny>Vyžaduje některá z přesvědčení</RitualAttachedRewardRequiredMemeAny>
+  <!-- EN: If the {0} is {1} -->
+  <RitualAttachedOutcomesInfo>Bude-li {0} {1}</RitualAttachedOutcomesInfo>
+  <!-- EN: Can't apply reward -->
+  <RitualAttachedOutcomeCantApply>Odměnu nelze získat</RitualAttachedOutcomeCantApply>
+  <!-- EN: No valid spot -->
+  <RitualAttachedOutcomeCantApply_NoValidSpot>Žádné vhodné místo</RitualAttachedOutcomeCantApply_NoValidSpot>
+  <!-- EN: Extreme biome -->
+  <RitualAttachedOutcomeCantApply_ExtremeBiome>Extrémní biom</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <!-- EN: There is already a known ancient complex to explore. -->
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>Starodávný komplex k prozkoumání byl již odhalen.</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <!-- EN: Not available right now. -->
+  <RitualAttachedOutcomeCantApply_NotAvailableRightNow>V tuto chvíli není k dispozici.</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
   <!-- EN: This building is a variation of -->
   <IdeoBuildingVariationOf>Tato struktura je variantou</IdeoBuildingVariationOf>
@@ -184,7 +199,6 @@
   <RoleRitualsLabel>Má roli při rituálech</RoleRitualsLabel>
   <!-- EN: Raised by {0} levels. -->
   <RoleExpectationOffset>Zvýšená o {replace: ​{0}​​; "​1​"-"1 úroveň"; "​2​"-"2 úrovně"; "​3​"-"3 úrovně"; "​4​"-"4 úrovně"; "​{0}​"-"{0} úrovní"}.</RoleExpectationOffset>
-
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Žádný dosažitelný oltář ani rituální místo.</AbilityDisabledNoAltarOrRitualsSpot>
 
@@ -232,15 +246,13 @@
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Nahradit za</PreceptReplaceWith>
-
+  
   <!-- EN: Must be placed indoors. -->
   <MustBePlacedIndoors>Musí se umístit do vnitřních prostor.</MustBePlacedIndoors>
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
   <ConnectedPawn>Spojený s</ConnectedPawn>
-  <!-- EN: Dryads -->
-  <DryadPlural>Dryády</DryadPlural>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Čeká se, až {CONNECTEDPAWN_nameDef} změní dryádí kastu.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -251,6 +263,8 @@
   <ChangingDryadIntoType>Probíhá přeměna na {lookup: {TYPE_label}; Case\Singular; 4}.</ChangingDryadIntoType>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>K vytvoření gauranleního lusku je síla spojení příliš nízká.</ConnectionStrengthTooWeakForGaumakerPod>
+  <!-- EN: Dryads -->
+  <DryadPlural>Dryády</DryadPlural>
 
   <!-- EN: Charging -->
   <RechargeableCharging>Nabíjení</RechargeableCharging>

@@ -1,6 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <CelebrationSkyLanterns.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</CelebrationSkyLanterns.description>
+  <!-- EN: participant count -->
+  <CelebrationSkyLanterns.comps.0.label>počet účastníků</CelebrationSkyLanterns.comps.0.label>
+  <!-- EN: Each participant will make a lantern out of 4 wood. -->
+  <CelebrationSkyLanterns.extraInfoLines.0>Při výrobě lampionu spotřebuje každý účastník 4 kusy dřeva.</CelebrationSkyLanterns.extraInfoLines.0>
+  <!-- EN: If the {0} is beautiful or unforgettable, the skylanterns might attract a group of friendly visitors. -->
+  <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>Bude-li {0} krásná nebo nezapomenutelná, nebeské lampiony by mohly přilákat skupinu přátelských návštěvníků.</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
+  <!-- EN: Terrible -->
+  <CelebrationSkyLanterns.outcomeChances.0.label>Hrozná</CelebrationSkyLanterns.outcomeChances.0.label>
+  <!-- EN: The {0} was terrible! People kept getting annoyed making the lanterns and they looked like garbage on the wind. -->
+  <CelebrationSkyLanterns.outcomeChances.0.description>Lampionová slavnost nazvaná {0} byla hrozná! Lidé se při výrobě lampionů neustále rozčilovali a když je vypustili, vypadaly jako poletující odpadky ve větru.</CelebrationSkyLanterns.outcomeChances.0.description>
+  <!-- EN: Unimpressive -->
+  <CelebrationSkyLanterns.outcomeChances.1.label>Nezáživná</CelebrationSkyLanterns.outcomeChances.1.label>
+  <!-- EN: The {0} was unimpressive. Lantern-making took too long and it all felt rather pointless. -->
+  <CelebrationSkyLanterns.outcomeChances.1.description>Lampionová slavnost nazvaná {0} byla nezáživná. Výroba lampionů trvala příliš dlouho a všem to připadalo zbytečné.</CelebrationSkyLanterns.outcomeChances.1.description>
+  <!-- EN: Beautiful -->
+  <CelebrationSkyLanterns.outcomeChances.2.label>Krásná</CelebrationSkyLanterns.outcomeChances.2.label>
+  <!-- EN: The {0} was beautiful. The drifting lanterns made everyone feel at peace. -->
+  <CelebrationSkyLanterns.outcomeChances.2.description>Lampionová slavnost nazvaná {0} byla krásná. Lampiony unášené větrem dodávaly všem účastníkům pocit klidu.</CelebrationSkyLanterns.outcomeChances.2.description>
+  <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
+  <CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>Nebeské lampiony vystoupají vysoko a budou zářit. S trochou štěstí je uvidí přátelští návštěvníci a přinesou nějaké dary.</CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>
+  <!-- EN: Unforgettable -->
+  <CelebrationSkyLanterns.outcomeChances.3.label>Nezapomenutelná</CelebrationSkyLanterns.outcomeChances.3.label>
+  <!-- EN: The {0} was unforgettable! Making the lanterns was a time of laughter, and everyone's spirits rose with them. -->
+  <CelebrationSkyLanterns.outcomeChances.3.description>Lampionová slavnost nazvaná {0} byla nezapomenutelná! Výroba lampionů způsobila mezi všemi zúčastněnými spoustu legrace a dobrou náladu.</CelebrationSkyLanterns.outcomeChances.3.description>
+  <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
+  <CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>Nebeské lampiony vystoupají vysoko a budou zářit. S trochou štěstí je uvidí přátelští návštěvníci a přinesou nějaké dary.</CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>
+  
   <!-- EN: The connector will connect to the tree. -->
   <ConnectToTree.description>Spojovač naváže se stromem spojení.</ConnectToTree.description>
   <!-- EN: participant count -->
@@ -42,7 +71,7 @@
   <Conversion.outcomeChances.3.description>{0} byl dokonalý. Stará víra jako by se bez námahy a nevyhnutelně rozplynula a naše skutečné poznání bylo přijato.</Conversion.outcomeChances.3.description>
   
   <!-- EN: Spectating slaves will be 100% suppressed. Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <Execution.description>Přihlížející otroci budou potlačeni na 100% úroveň. V závislosti na kvalitě rituálu zúčastnění získají {MINMOOD} až {MAXMOOD} k náladě na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"}.</Execution.description>
+  <Execution.description>Přihlížející otroci budou potlačeni na 100% úroveň. V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</Execution.description>
   <!-- EN: participant count -->
   <Execution.comps.0.label>počet účastníků</Execution.comps.0.label>
   <!-- EN: started at altar or ideogram -->
@@ -61,5 +90,38 @@
   <Execution.outcomeChances.2.label>Okázalá</Execution.outcomeChances.2.label>
   <!-- EN: The {0} was spectacular! One smooth strike was all it took, and everyone felt a rush of justice and power. -->
   <Execution.outcomeChances.2.description>{0} byla okázalá! Stačil jeden čistý úder a všichni pocítili příval spravedlnosti a moci.</Execution.outcomeChances.2.description>
-
+  
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <Sacrifice.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</Sacrifice.description>
+  <!-- EN: moral guide present -->
+  <Sacrifice.comps.2.label>přítomnost morálního rádce</Sacrifice.comps.2.label>
+  <!-- EN: participant count -->
+  <Sacrifice.comps.3.label>počet účastníků</Sacrifice.comps.3.label>
+  <!-- EN: started at altar -->
+  <Sacrifice.comps.4.label>zahájení na oltáři</Sacrifice.comps.4.label>
+  <!-- EN: an altar -->
+  <Sacrifice.comps.4.expectedThingLabelTip>oltáři</Sacrifice.comps.4.expectedThingLabelTip>
+  <!-- EN: If the {0} is satisfying, one of the participants might gain an inspiration. -->
+  <Sacrifice.extraPredictedOutcomeDescriptions.0>Bude-li {0} alespoň uspokojivé, jeden z účastníků může získat inspiraci.</Sacrifice.extraPredictedOutcomeDescriptions.0>
+  <!-- EN: Terrible -->
+  <Sacrifice.outcomeChances.0.label>Hrozné</Sacrifice.outcomeChances.0.label>
+  <!-- EN: The {0} was terrible! The speech was stuttering and incoherent, and the killing technique was botched. The victim took far too long to die - everyone was waiting for it to end. -->
+  <Sacrifice.outcomeChances.0.description>Obětování nazvané {0} bylo hrozné! Řeč byla přerušovaná a nesouvislá a technika usmrcení byla zpackaná. Trvalo příliš dlouho, než oběť zemřela - všichni jen čekali, až to konečně skončí.</Sacrifice.outcomeChances.0.description>
+  <!-- EN: Boring -->
+  <Sacrifice.outcomeChances.1.label>Nudné</Sacrifice.outcomeChances.1.label>
+  <!-- EN: The {0} was boring. The speech was repetitive and the killing technique was noticeably flawed. It just didn't feel dignified. -->
+  <Sacrifice.outcomeChances.1.description>Obětování nazvané {0} bylo nudné. Řeč se opakovala a technika usmrcení byla zjevně špatná. V žádném případě to nebylo důstojné.</Sacrifice.outcomeChances.1.description>
+  <!-- EN: Satisfying -->
+  <Sacrifice.outcomeChances.2.label>Uspokojivé</Sacrifice.outcomeChances.2.label>
+  <!-- EN: The {0} was satisfying. The speech felt meaningful, and the killing technique was precise and dignified. -->
+  <Sacrifice.outcomeChances.2.description>Obětování nazvané {0} bylo uspokojivé. Řeč byla smysluplná a technika usmrcení byla precizní a důstojná.</Sacrifice.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gets an inspiration. -->
+  <Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>Je zde 5% šance, že náhodný účastník získá inspiraci.</Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>
+  <!-- EN: Spectacular -->
+  <Sacrifice.outcomeChances.3.label>Okázalé</Sacrifice.outcomeChances.3.label>
+  <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy just as the blade came down perfectly, and the spurting blood was like cleansing waters for the spirit. -->
+  <Sacrifice.outcomeChances.3.description>Obětování nazvané {0} bylo okázalé! Řeč přivedla všechny na pokraj extáze právě ve chvíli, kdy se čepel dokonale zařízla do masa. Stříkající krev byla jako voda očišťující duši.</Sacrifice.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance that a random participant gets an inspiration. -->
+  <Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>Je zde 10% šance, že náhodný účastník získá inspiraci.</Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>
+  
 </LanguageData>

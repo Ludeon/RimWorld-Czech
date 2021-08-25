@@ -182,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Výzkum</Research>
-  <!-- EN: Researched -->
-  <Researched>Vyzkoumané</Researched>
+  <!-- EN: Study -->
+  <Study>Zkoumání</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Nevyzkoumané</Unresearched>
   <!-- EN: Finished -->
@@ -292,8 +292,8 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>volný pokoj splňující titulové požadavky, které vyžaduje</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>trůnní sál splňující titulové požadavky, které bude {TITLE} {PAWN_definite} vyžadovat</QuestThroneRoomRequirementsUnsatisfied>
-  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestNoThroneRoom>trůnní sál splňující titulové požadavky, které bude {TITLE} {PAWN_definite} vyžadovat</QuestNoThroneRoom>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>přiřadit trůn {PAWN_gender ? kolonistovi : kolonistce} {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>kolonistu s titulem {0}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
@@ -336,7 +336,7 @@
   <QuestNeutralTo>být neutrální s frakcí {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>dokončené zkoumání {lookup: {0_labelShort}; Case\Singular; 2}</QuestRequiredThingStudied>
-  
+
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Vytváří potřebu</CreatesNeed>

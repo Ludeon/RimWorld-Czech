@@ -1447,18 +1447,28 @@
 
   <!-- EN: Attending {0} -->
   <LordReportAttending>Účastní se {lookup: {0}; Case\Singular; 2}</LordReportAttending>
+  <!-- EN: Any {0} -->
+  <RitualTargetThingDefsInfo>{0_gender ? Libovolný : Libovolná : Libovolné} {0}</RitualTargetThingDefsInfo>
+  <!-- EN: {0} has been completed. -->
+  <RitualFinished>{0} je u konce.</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>končí za {0}</RitualEndsIn>
   <!-- EN: Quality factors -->
   <QualityFactors>Faktory kvality</QualityFactors>
+  <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
+  <QualityFactorTooltipNotFulfilled>Tato podmínka není splněna.\n\nBonus ke kvalitě nebude aplikován.</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
-  <Spectators>Účastníci</Spectators>
+  <Spectators>Přihlížející</Spectators>
   <!-- EN: Not participating -->
   <NotParticipating>Bez účasti</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Přesouvej postavy myší nebo levým/pravým kliknutím.</DragPawnsToRolesInfo>
+  <!-- EN: A slave. The human property of others. -->
+  <RitualBeginSlaveDesc>Otrok. Člověk patřící jiným.</RitualBeginSlaveDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Probudí se, jakmile zahájíš rituál.</RitualBeginSleepingWarning>
+  <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
+  <RitualRoleRequiresSocialRole>Tuto pozici nejlépe provede kolonista zastávající sociální roli {0}.\n\nPokud někdo obsadí tuto pozici, aniž by zmíněnou roli zastával, nezíská následující bonus(y)</RitualRoleRequiresSocialRole>
   <!-- EN: {0} progress -->
   <RitualOutcomeProgress>Průběh {lookup: {0}; Case\Singular; 2}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
@@ -1476,15 +1486,16 @@
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Neexistuje žádné vhodné místo k mluvení.</AbilitySpeechDisabledNoSpot>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění získají {0} k náladě na {replace: ​{1}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"}.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění získají na {replace: ​{1}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
   <!-- EN: Begin {0} -->
   <BeginRitual>Zahájit {lookup: {0}; Case\Singular; 4}</BeginRitual>
-
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (max {1})</QualityOutOf>
+  <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
+  <DateRitualNoObligation>{0} je rituál konající se v určitém termínu. Zahájit jej budeš moci {2}, to je za {1}.</DateRitualNoObligation>
 
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Očekávaná kvalita</ExpectedRitualQuality>
@@ -1504,7 +1515,7 @@
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0} kvality</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{replace: {OUTCOMELABEL}​​; "á​"-"ý"; "é​"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
   
