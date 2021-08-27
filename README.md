@@ -20,4 +20,4 @@ See this page for license info:
 - Azarian (inactive, helped with backstories, A16)
 
 ---
-##### Special thanks: Leffi, Barbar, Aladalar
+##### Special thanks: Leffi, lordfanger, Barbar, Aladalar
