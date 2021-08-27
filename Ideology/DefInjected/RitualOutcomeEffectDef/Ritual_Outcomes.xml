@@ -2,6 +2,52 @@
 <LanguageData>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <AttendedFuneral.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</AttendedFuneral.description>
+  <!-- EN: moral guide present -->
+  <AttendedFuneral.comps.0.label>přítomnost morálního rádce</AttendedFuneral.comps.0.label>
+  <!-- EN: participant count -->
+  <AttendedFuneral.comps.1.label>počet účastníků</AttendedFuneral.comps.1.label>
+  <!-- EN: Terrible -->
+  <AttendedFuneral.outcomeChances.0.label>Hrozný</AttendedFuneral.outcomeChances.0.label>
+  <!-- EN: The {0} was a terrible! Everyone felt insulted for having had to endure it. -->
+  <AttendedFuneral.outcomeChances.0.description>Pohřeb nazvaný {0} byl hrozný. Pro všechny bylo urážkou, že něco takového museli přetrpět.</AttendedFuneral.outcomeChances.0.description>
+  <!-- EN: Lackluster -->
+  <AttendedFuneral.outcomeChances.1.label>Bídný</AttendedFuneral.outcomeChances.1.label>
+  <!-- EN: The {0} was lackluster. The speech was long-winded and failed to resolve any emotions. -->
+  <AttendedFuneral.outcomeChances.1.description>Pohřeb nazvaný {0} byl bídný. Smuteční řeč byla zdlouhavá a nevyvolávala žádné emoce.</AttendedFuneral.outcomeChances.1.description>
+  <!-- EN: Good -->
+  <AttendedFuneral.outcomeChances.2.label>Hezký</AttendedFuneral.outcomeChances.2.label>
+  <!-- EN: The {0} was good. The speaker's final words provided a path for everyone move on. -->
+  <AttendedFuneral.outcomeChances.2.description>Pohřeb nazvaný {0} byl hezký. Závěrečná slova řečníka motivovala všechny zúčastněné, aby se nevzdávali.</AttendedFuneral.outcomeChances.2.description>
+  <!-- EN: Heartwarming -->
+  <AttendedFuneral.outcomeChances.3.label>Dojemný</AttendedFuneral.outcomeChances.3.label>
+  <!-- EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
+  <AttendedFuneral.outcomeChances.3.description>Pohřeb nazvaný {0} byl dojemný. Smuteční řeč byla úchvatná a upřímná a všichni odcházeli s dobrými vzpomínkami.</AttendedFuneral.outcomeChances.3.description>
+  
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <AttendedFuneralNoCorpse.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</AttendedFuneralNoCorpse.description>
+  <!-- EN: moral guide present -->
+  <AttendedFuneralNoCorpse.comps.0.label>přítomnost morálního rádce</AttendedFuneralNoCorpse.comps.0.label>
+  <!-- EN: participant count -->
+  <AttendedFuneralNoCorpse.comps.1.label>počet účastníků</AttendedFuneralNoCorpse.comps.1.label>
+  <!-- EN: Terrible -->
+  <AttendedFuneralNoCorpse.outcomeChances.0.label>Hrozný</AttendedFuneralNoCorpse.outcomeChances.0.label>
+  <!-- EN: The {0} was a terrible! Everyone felt insulted for having had to endure it. -->
+  <AttendedFuneralNoCorpse.outcomeChances.0.description>Pohřeb nazvaný {0} byl hrozný. Pro všechny bylo urážkou, že něco takového museli přetrpět.</AttendedFuneralNoCorpse.outcomeChances.0.description>
+  <!-- EN: Lackluster -->
+  <AttendedFuneralNoCorpse.outcomeChances.1.label>Bídný</AttendedFuneralNoCorpse.outcomeChances.1.label>
+  <!-- EN: The {0} was lackluster. The speech was long-winded and failed to resolve any emotions. -->
+  <AttendedFuneralNoCorpse.outcomeChances.1.description>Pohřeb nazvaný {0} byl bídný. Smuteční řeč byla zdlouhavá a nevyvolávala žádné emoce.</AttendedFuneralNoCorpse.outcomeChances.1.description>
+  <!-- EN: Good -->
+  <AttendedFuneralNoCorpse.outcomeChances.2.label>Hezký</AttendedFuneralNoCorpse.outcomeChances.2.label>
+  <!-- EN: The {0} was good. The speaker's final words provided a path for everyone move on. -->
+  <AttendedFuneralNoCorpse.outcomeChances.2.description>Pohřeb nazvaný {0} byl hezký. Závěrečná slova řečníka motivovala všechny zúčastněné, aby se nevzdávali.</AttendedFuneralNoCorpse.outcomeChances.2.description>
+  <!-- EN: Heartwarming -->
+  <AttendedFuneralNoCorpse.outcomeChances.3.label>Dojemný</AttendedFuneralNoCorpse.outcomeChances.3.label>
+  <!-- EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
+  <AttendedFuneralNoCorpse.outcomeChances.3.description>Pohřeb nazvaný {0} byl dojemný. Smuteční řeč byla úchvatná a upřímná a všichni odcházeli s dobrými vzpomínkami.</AttendedFuneralNoCorpse.outcomeChances.3.description>
+  
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebratedDate.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</CelebratedDate.description>
   <!-- EN: leader present -->
   <CelebratedDate.comps.2.label>přítomnost vůdce</CelebratedDate.comps.2.label>
