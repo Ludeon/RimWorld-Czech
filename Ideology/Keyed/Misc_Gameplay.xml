@@ -311,8 +311,8 @@
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
   <BiosculpterPodCycleLabel>Cyklus</BiosculpterPodCycleLabel>
-  <!-- EN: loading nutrition -->
-  <BiosculpterPodCycleLabelLoading>nakládání výživy</BiosculpterPodCycleLabelLoading>
+  <!-- EN: loading ingredients -->
+  <BiosculpterPodCycleLabelLoading>nakládání surovin</BiosculpterPodCycleLabelLoading>
   <!-- EN: ready -->
   <BiosculpterPodCycleLabelReady>připraveno</BiosculpterPodCycleLabelReady>
   <!-- EN: Prepare {0} cycle -->
@@ -333,7 +333,7 @@
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} {PAWN_gender ? byl : byla} z důvodu nedostatku energie {PAWN_gender ? vyhozen : vyhozena} z bioplastické komory.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus.</BiosculpterHealCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured. -->
+  <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus. {PAWN_possessive} {HEDIFF_label} je pryč.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} svůj omlazovací cyklus. Za {replace: ​{DEADLINE}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</BiosculpterAgeReversalCompletedMessage>
@@ -343,5 +343,7 @@
   <BiosculpterCleanlinessSpeedFactor>Faktor rychlosti v závislosti na čistotě</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Chybí potřebný výzkum:</MissingRequiredResearch>
+  <!-- EN: Requires -->
+  <BiosculpterRequiresIngredients>Vyžaduje</BiosculpterRequiresIngredients>
 
 </LanguageData>
