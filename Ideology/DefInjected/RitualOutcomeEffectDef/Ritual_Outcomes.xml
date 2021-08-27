@@ -2,6 +2,33 @@
 <LanguageData>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+  <CelebratedDate.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</CelebratedDate.description>
+  <!-- EN: leader present -->
+  <CelebratedDate.comps.2.label>přítomnost vůdce</CelebratedDate.comps.2.label>
+  <!-- EN: participant count -->
+  <CelebratedDate.comps.3.label>počet účastníků</CelebratedDate.comps.3.label>
+  <!-- EN: started at altar -->
+  <CelebratedDate.comps.4.label>zahájení na oltáři</CelebratedDate.comps.4.label>
+  <!-- EN: an altar -->
+  <CelebratedDate.comps.4.expectedThingLabelTip>oltáři</CelebratedDate.comps.4.expectedThingLabelTip>
+  <!-- EN: Terrible -->
+  <CelebratedDate.outcomeChances.0.label>Hrozná</CelebratedDate.outcomeChances.0.label>
+  <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
+  <CelebratedDate.outcomeChances.0.description>Slavnost nazvaná {0} byla hrozná. Účastníci se celé hodiny trápili mlčením, zatímco čekali, až to skončí.</CelebratedDate.outcomeChances.0.description>
+  <!-- EN: Boring -->
+  <CelebratedDate.outcomeChances.1.label>Nudná</CelebratedDate.outcomeChances.1.label>
+  <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
+  <CelebratedDate.outcomeChances.1.description>Slavnost nazvaná {0} byla nudná. Všichni se cítili příliš trapně na to, aby se rozpovídali a bavili.</CelebratedDate.outcomeChances.1.description>
+  <!-- EN: Fun -->
+  <CelebratedDate.outcomeChances.2.label>Zábavná</CelebratedDate.outcomeChances.2.label>
+  <!-- EN: The {0} was fun. Everyone appreciated the chance to relax and have fun together. -->
+  <CelebratedDate.outcomeChances.2.description>Slavnost nazvaná {0} byla zábavná. Všichni ocenili možnost společně si odpočinout a pobavit se.</CelebratedDate.outcomeChances.2.description>
+  <!-- EN: Unforgettable -->
+  <CelebratedDate.outcomeChances.3.label>Nezapomenutelná</CelebratedDate.outcomeChances.3.label>
+  <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
+  <CelebratedDate.outcomeChances.3.description>Slavnost nazvaná {0} byla nezapomenutelná. Všichni se navzájem poznali a připadali si jako jedna rodina.</CelebratedDate.outcomeChances.3.description>
+  
+  <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebrationSkyLanterns.description>V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</CelebrationSkyLanterns.description>
   <!-- EN: participant count -->
   <CelebrationSkyLanterns.comps.0.label>počet účastníků</CelebrationSkyLanterns.comps.0.label>
@@ -69,6 +96,33 @@
   <Conversion.outcomeChances.3.label>Dokonalý</Conversion.outcomeChances.3.label>
   <!-- EN: The {0} was masterful! Old beliefs seemed to dissolve effortlessly and inevitably, and our true knowledge was accepted. -->
   <Conversion.outcomeChances.3.description>{0} byl dokonalý. Stará víra jako by se bez námahy a nevyhnutelně rozplynula a naše skutečné poznání bylo přijato.</Conversion.outcomeChances.3.description>
+  
+  <!-- EN: The ritual target will be destroyed. -->
+  <DestroyConsumableBuilding_ChristmasTree.description>Rituální objekt bude zničen.</DestroyConsumableBuilding_ChristmasTree.description>
+  <!-- EN: participant count -->
+  <DestroyConsumableBuilding_ChristmasTree.comps.0.label>počet účastníků</DestroyConsumableBuilding_ChristmasTree.comps.0.label>
+  <!-- EN: room impressiveness -->
+  <DestroyConsumableBuilding_ChristmasTree.comps.1.label>působivost místnosti</DestroyConsumableBuilding_ChristmasTree.comps.1.label>
+  <!-- EN: Terrible -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>Hrozná</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>
+  <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>Slavnost nazvaná {0} byla hrozná. Účastníci se celé hodiny trápili mlčením, zatímco čekali, až to skončí.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>
+  <!-- EN: Boring -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.label>Nudná</DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.label>
+  <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.description>Slavnost nazvaná {0} byla nudná. Všichni se cítili příliš trapně na to, aby se rozpovídali a bavili.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.description>
+  <!-- EN: Fun -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.label>Zábavná</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.label>
+  <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.description>Slavnost nazvaná {0} byla zábavná. Všichni ocenili možnost společně si odpočinout a pobavit se.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.description>
+  <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.potentialExtraOutcomeDesc>Je zde 5% šance, že náhodný účastník získá inspiraci.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.potentialExtraOutcomeDesc>
+  <!-- EN: Unforgettable -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.label>Nezapomenutelná</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.label>
+  <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.description>Slavnost nazvaná {0} byla nezapomenutelná. Všichni se navzájem poznali a připadali si jako jedna rodina.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.description>
+  <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>Je zde 10% šance, že náhodný účastník získá inspiraci.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Spectating slaves will be 100% suppressed. Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <Execution.description>Přihlížející otroci budou potlačeni na 100% úroveň. V závislosti na kvalitě rituálu získají všichni zúčastnění na {replace: ​{MOODDAYS}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{MOODDAYS}​"-"{MOODDAYS} dnů"} {MINMOOD} až {MAXMOOD} k náladě.</Execution.description>
