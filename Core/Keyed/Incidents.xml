@@ -41,9 +41,9 @@
   <RefugeePodCrash_NonHostile>{PAWN_nameDef} patří k frakci {PAWN_factionName}. Pokud {PAWN_objective} zachráníš, může se k tobě přidat. V opačném případě se vrátí domů, kde bude šířit dobrou pověst tvé frakci.\n\nMůžeš {PAWN_objective} také zajmout pro účely náboru či otroctví, to však vyvolá hněv v {PAWN_possessive} frakci.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>Přichází {PAWN_gender ? poutník : poutnice} {PAWN_nameDef}</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>{PAWN_gender ? Dorazil poutník : Dorazila poutnice} {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>Přichází {PAWN_title} jménem {PAWN_nameDef} a chce se připojit ke tvé kolonii.\n\nJe {PAWN_gender ? připraven : připravena} něčím přispět, z vlastní vůle však neodejde, tvrdí, že nemá kam jinam jít. Můžeš {PAWN_objective} odmítnout a poslat pryč. Nicméně tví kolonisté budou znepokojeni tím, že posíláš někoho v nouzi pryč.</LetterWandererJoins>
+  <LetterWandererJoins>{PAWN_gender ? Dorazil : Dorazila} {PAWN_title} jménem {PAWN_nameDef} a chce se přidat ke tvé kolonii.\n\nJe {PAWN_gender ? připraven : připravena} něčím přispět, z vlastní vůle však neodejde. Tvrdí totiž, že nemá kam jít. Můžeš {PAWN_objective} odmítnout a poslat pryč. Nicméně tví kolonisté mohou být pobouřeni, když pošleš pryč někoho, kdo je v nouzi.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Nákladní moduly</LetterLabelCargoPodCrash>

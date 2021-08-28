@@ -1,6 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: target -->
+  <BlindingCeremony.roles.0.label>oběť</BlindingCeremony.roles.0.label>
+  <!-- EN: the person to blind -->
+  <BlindingCeremony.roles.0.missingDesc>osobu k oslepení</BlindingCeremony.roles.0.missingDesc>
+  <!-- EN: cutter -->
+  <BlindingCeremony.roles.1.label>oslepovač</BlindingCeremony.roles.1.label>
+  <!-- EN: the person who performs the blinding -->
+  <BlindingCeremony.roles.1.missingDesc>osobu, která provede oslepení</BlindingCeremony.roles.1.missingDesc>
+  <!-- EN: Target is not reachable. -->
+  <BlindingCeremony.stages.0.failTriggers.0.desc>Oběť není dosažitelná.</BlindingCeremony.stages.0.failTriggers.0.desc>
+  
+  <!-- EN: participate -->
+  <BurnCircle.spectatorGerund>účastnit</BurnCircle.spectatorGerund>
+  <!-- EN: Participants -->
+  <BurnCircle.spectatorsLabel>Účastníci</BurnCircle.spectatorsLabel>
+  
+  <!-- EN: participate -->
+  <CelebrationPartyDanceDrum.spectatorGerund>účastnit</CelebrationPartyDanceDrum.spectatorGerund>
+  <!-- EN: Participants -->
+  <CelebrationPartyDanceDrum.spectatorsLabel>Účastníci</CelebrationPartyDanceDrum.spectatorsLabel>
+  <!-- EN: Campfire is missing. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>Chybějící ohniště.</CelebrationPartyDanceDrum.stages.0.failTriggers.0.desc>
+  <!-- EN: Campfire is not lit. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>Ohniště nehoří.</CelebrationPartyDanceDrum.stages.0.failTriggers.1.desc>
+  <!-- EN: No drums. -->
+  <CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>Žádné bubny.</CelebrationPartyDanceDrum.stages.0.failTriggers.2.desc>
+  
   <!-- EN: participate -->
   <CelebrationSkyLanterns.spectatorGerund>účastnit</CelebrationSkyLanterns.spectatorGerund>
   <!-- EN: Participants -->
@@ -46,6 +73,15 @@
   <LeaderSpeech.letterTitle>{RITUAL_labelCap}</LeaderSpeech.letterTitle>
   <!-- EN: speaker -->
   <LeaderSpeech.roles.0.label>řečník</LeaderSpeech.roles.0.label>
+  
+  <!-- EN: role changer -->
+  <RoleChange.roles.0.label>měnič rolí</RoleChange.roles.0.label>
+  <!-- EN: a role changer -->
+  <RoleChange.roles.0.missingDesc>měnič rolí</RoleChange.roles.0.missingDesc>
+  <!-- EN: spectate -->
+  <RoleChange.spectatorGerund>přihlížet</RoleChange.spectatorGerund>
+  <!-- EN: Spectators -->
+  <RoleChange.spectatorsLabel>Přihlížející</RoleChange.spectatorsLabel>
   
   <!-- EN: cutter -->
   <SacrificeAnimal.roles.0.label>podřezávač</SacrificeAnimal.roles.0.label>

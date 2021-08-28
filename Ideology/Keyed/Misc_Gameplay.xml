@@ -22,15 +22,21 @@
   <!-- EN: Structure -->
   <Structure>Struktura</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>Čemu by měli věřit tví počáteční kolonisté? Tato víra ovlivňuje jak hru, tak vizuál. Budeš moci verbovat další věřící ke své víře, nebo můžeš převzít tu jejich.</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>Čemu by měli věřit tví počáteční kolonisté? Tato víra ovlivňuje jak hru, tak vizuál. Ostatní budeš moci obracet na svou víru, nebo můžeš přijmout tu jejich.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Vytvořit vlastní</CreateCustom>
+  <!-- EN: Delete custom -->
+  <DeleteCustom>Odstranit vlastní</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Vytvořit nové</CreateNew>
   <!-- EN: Load existing -->
   <LoadExisting>Načíst existující</LoadExisting>
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>Vytvoř vlastní ideoboženství</CreateCustomIdeoligion>
+  <!-- EN: Custom ideoligion -->
+  <CustomIdeoligionSectionHeader>Vlastní ideoboženství</CustomIdeoligionSectionHeader>
+  <!-- EN: Faction ideoligions -->
+  <FactionIdeoligionSectionHeader>Frakční ideoboženství</FactionIdeoligionSectionHeader>
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>Načti uložené ideoboženství</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
@@ -108,6 +114,10 @@
 
   <!-- EN: Any gathering spot, like a table -->
   <RitualTargetGatherSpotInfo>Libovolné shromaždiště, například stůl</RitualTargetGatherSpotInfo>
+  <!-- EN: A lit campfire or ritual spot. -->
+  <RitualTargetCampfirePartyInfo>Ohniště s rozdělaným ohněm nebo rituální místo.</RitualTargetCampfirePartyInfo>
+  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
+  <RitualTargetLightBallInfo>Světelná koule nebo rituální místo. Světelná koule a reproduktory musí být připojené k elektrické síti.</RitualTargetLightBallInfo>
 
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
@@ -162,7 +172,7 @@
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>Účastnické role</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>Chceš-li dosáhnout nejlepší kvality, zahaj konání {lookup: {0}; Case\Singular; 2} na {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Chceš-li dosáhnout nejlepší kvality, zahaj konání {lookup: {0}; Case\Singular; 2} u {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>{0} se bude aktuálně konat na {lookup: {1_labelShortIndef}; Case\Singular; 6}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
@@ -243,6 +253,12 @@
 
   <!-- EN: relic -->
   <Relic>relikvie</Relic>
+
+  <!-- Ritual requirements -->
+  <!-- EN: Active loudspeakers -->
+  <RitualPredictedOutcomeDescNumActiveLoudspeakers>Aktivní reproduktory</RitualPredictedOutcomeDescNumActiveLoudspeakers>
+  <!-- EN: Drums -->
+  <RitualPredictedOutcomeDescNumDrums>Bubny</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Nahradit za</PreceptReplaceWith>
