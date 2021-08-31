@@ -220,7 +220,7 @@
   <TextMote_WillReduced>Vůle\n{0} na {1}</TextMote_WillReduced>
 
   <!-- EN: add {0} -->
-  <AddPrecept>přidat {replace: {0}; "struktura"-"strukturu"; "dvojice zbraní"-"dvojici zbraní"; "relikvie"-"relikvii"; "role"-"roli"; "zásada"-"zásadu"; "{0}"-"{0}"}</AddPrecept>
+  <AddPrecept>přidat {lookup: {0}; Case\Singular; 4}</AddPrecept>
   <!-- EN: precept -->
   <Precept>zásada</Precept>
   <!-- EN: building -->
