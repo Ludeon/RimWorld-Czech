@@ -49,6 +49,14 @@
   <Appearance>Vzhled</Appearance>
   <!-- EN: Done -->
   <DoneButton>Hotovo</DoneButton>
+  <!-- EN: Caused by -->
+  <CausedBy>Příčina</CausedBy>
+  <!-- EN: Belief in -->
+  <BeliefInIdeo>Věří ve víru</BeliefInIdeo>
+  <!-- EN: Information about {0} -->
+  <Reward_RelicInfo>Informace o relikvii zvané {0}</Reward_RelicInfo>
+  <!-- EN: Info about {0} -->
+  <Reward_RelicInfoLabel>Info o relikvii {0}</Reward_RelicInfoLabel>
   <!-- EN: min expectation -->
   <MinExpectation>minimální očekávání</MinExpectation>
   <!-- EN: {0} to {1} -->
@@ -112,6 +120,16 @@
   <!-- EN: quest -->
   <QuestLower>úkol</QuestLower>
 
+  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
+  <RitualTargetGraveInfo>Hrob, ve kterém odpočívá {PAWN_labelShort}.</RitualTargetGraveInfo>
+  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
+  <RitualTargetEmptyGraveInfo>Prázdný hrob k truchlení (chybějící {PAWN_labelShort}).</RitualTargetEmptyGraveInfo>
+  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
+  <RitualTargetGraveInfoAbstract>Hrob, ve kterém odpočívá {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
+  <RitualTargetEmptyGraveInfoAbstract>Prázdný hrob k truchlení (chybějící {IDEO_memberNameIndef}).</RitualTargetEmptyGraveInfoAbstract>
+  <!-- EN: {PAWN_labelShort}'s body must be buried first -->
+  <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort} musí být nejprve {PAWN_gender ? pohřben : pohřbena}</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
   <RitualTargetGatherSpotInfo>Libovolné shromaždiště, například stůl</RitualTargetGatherSpotInfo>
   <!-- EN: A lit campfire or ritual spot. -->
@@ -138,8 +156,16 @@
   <RitualAttachedRewardChoose>Vybrat</RitualAttachedRewardChoose>
   <!-- EN: Requires any of memes -->
   <RitualAttachedRewardRequiredMemeAny>Vyžaduje některá z přesvědčení</RitualAttachedRewardRequiredMemeAny>
+  <!-- EN: positive -->
+  <RitualAttachedOutcomes_Positive>pozitivním</RitualAttachedOutcomes_Positive>
+  <!-- EN: negative -->
+  <RitualAttachedOutcomes_Negative>negativním</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
   <RitualAttachedOutcomesInfo>Bude-li {0} {1}</RitualAttachedOutcomesInfo>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcome>Po jakémkoli {0} výsledku</RitualAttachedApplliesForOutcome>
+  <!-- EN: Upon any {0} outcome -->
+  <RitualAttachedApplliesForOutcomes>Po jakémkoli {0} výsledku</RitualAttachedApplliesForOutcomes>
   <!-- EN: Can't apply reward -->
   <RitualAttachedOutcomeCantApply>Odměnu nelze získat</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
@@ -243,6 +269,9 @@
   <Hacked>nabouráno</Hacked>
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>Nabouraných terminálů</TerminalsHacked>
+
+  <!-- EN: Relic info found -->
+  <RelicInfoFound>Nalezených informací o relikvii</RelicInfoFound>
   
   <!-- EN: certainty -->
   <Certainty>jistota</Certainty>
