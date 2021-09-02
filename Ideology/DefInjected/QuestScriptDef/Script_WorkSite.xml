@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
+    <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
+  -->
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->Nedaleko odsud jsi odhalil [siteLabelAcc] ovládan[siteLabel_y_ou] frakcí [faction_name].\n\nPokud chceš, můžeš do tábora vpadnout a získat kořist ([loot]). [raidConsequences]\n\nKe sbalení tábora a následného opuštění oblasti dojde za [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->Pokud to uděláš, frakce [faction_name] tě začne považovat za svého nepřítele.</li>
+    <li>raidConsequences(faction_temporary==true)->Jelikož [faction_name] se řadí mezi malé nezávislé skupiny, můžeš na ně zaútočit bez větších diplomatických následků.</li>
+    <li>siteLabelAcc(sitePart==WorkSite_Farming)->zemědělskou farmu</li>
+    <li>siteLabelAcc(sitePart==WorkSite_Hunting)->lovecký revír</li>
+    <li>siteLabelAcc(sitePart==WorkSite_Logging)->dřevorubeckou oblast</li>
+    <li>siteLabelAcc(sitePart==WorkSite_Mining)->hornickou oblast</li>
+    <li>siteLabelAcc(priority=-1)->[siteLabel]</li>
+    <li>siteLabel_y_ou(sitePart==WorkSite_Farming)->ou</li>
+    <li>siteLabel_y_ou(sitePart==WorkSite_Hunting)->ý</li>
+    <li>siteLabel_y_ou(sitePart==WorkSite_Logging)->ou</li>
+    <li>siteLabel_y_ou(sitePart==WorkSite_Mining)->ou</li>
+    <li>siteLabel_y_ou(priority=-1)->ý</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[site_label] [detected]</li>
+    <li>detected->detected</li>
+    <li>detected->discovered</li>
+    <li>detected->nearby</li>
+    <li>detected->found</li>
+    <li>detected->identified</li>
+    <li>detected->noticed</li>
+    <li>detected->observed</li>
+    <li>detected->revealed</li>
+    <li>detected->uncovered</li>
+  -->
+  <OpportunitySite_WorkSite.questNameRules.rulesStrings>
+    <li>questName->[detected] [site_label]</li>
+    <li>questName->[detection] [site_labelGen]</li>
+    <li>detected_x_a(sitePart==WorkSite_Farming)->a</li>
+    <li>detected_x_a(sitePart==WorkSite_Hunting)-></li>
+    <li>detected_x_a(sitePart==WorkSite_Logging)->a</li>
+    <li>detected_x_a(sitePart==WorkSite_Mining)->a</li>
+    <li>detected_x_a(priority=-1)-></li>
+    <li>detected_y_a(sitePart==WorkSite_Farming)->á</li>
+    <li>detected_y_a(sitePart==WorkSite_Hunting)->ý</li>
+    <li>detected_y_a(sitePart==WorkSite_Logging)->á</li>
+    <li>detected_y_a(sitePart==WorkSite_Mining)->á</li>
+    <li>detected_y_a(priority=-1)->ý</li>
+    <li>site_labelGen(sitePart==WorkSite_Farming)->zemědělské farmy</li>
+    <li>site_labelGen(sitePart==WorkSite_Hunting)->loveckého revíru</li>
+    <li>site_labelGen(sitePart==WorkSite_Logging)->dřevorubecké oblasti</li>
+    <li>site_labelGen(sitePart==WorkSite_Mining)->hornické oblasti</li>
+    <li>site_labelGen(priority=-1)->[site_label]</li>
+    <li>detected->Odhalen[detected_x_a]</li>
+    <li>detected->Objeven[detected_x_a]</li>
+    <li>detected->Vypátrán[detected_x_a]</li>
+    <li>detected->Nedalek[detected_y_a]</li>
+    <li>detected->Nalezen[detected_x_a]</li>
+    <li>detected->Spatřen[detected_x_a]</li>
+    <li>detected->Zpozorován[detected_x_a]</li>
+    <li>detection->Odhalení</li>
+    <li>detection->Objevení</li>
+    <li>detection->Vypátrání</li>
+    <li>detection->Spatření</li>
+    <li>detection->Zpozorování</li>
+    <li>detection->Vyzrazení</li>
+    <li>detection->Odkytí</li>
+  </OpportunitySite_WorkSite.questNameRules.rulesStrings>
+  
+</LanguageData>
