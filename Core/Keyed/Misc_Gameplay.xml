@@ -189,7 +189,7 @@
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>využívá 1 spacák</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>{replace: ​{0}​​; "​0​"-"nemá žádný spacák"; "​2​"-"využívá 2 spacáky"; "​3​"-"využívá 3 spacáky"; "​4​"-"využívá 4 spacáky"; "​{0}​"-"využívá {0} spacáků"}</UsingBedrolls>
+  <UsingBedrolls>{replace: ​{0}​; "​0​"-"nemá žádný spacák"; "​2​"-"využívá 2 spacáky"; "​3​"-"využívá 3 spacáky"; "​4​"-"využívá 4 spacáky"; "​{0}​"-"využívá {0} spacáků"}</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Odhadovaný čas do cíle: {0} dnů</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
@@ -211,13 +211,13 @@
   <!-- EN: 1 animal -->
   <CaravanAnimal>1 zvíře</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{replace: ​{0}​​; "​1​"-"1 zvíře"; "​2​"-"2 zvířata"; "​3​"-"3 zvířata"; "​4​"-"4 zvířata"; "​{0}​"-"{0} zvířat"}</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{replace: ​{0}​; "​1​"-"1 zvíře"; "​2​"-"2 zvířata"; "​3​"-"3 zvířata"; "​4​"-"4 zvířata"; "​{0}​"-"{0} zvířat"}</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
   <CaravanPrisoner>1 vězeň</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{replace: ​{0}​​; "​1​"-"1 vězeň"; "​2​"-"2 vězni"; "​3​"-"3 vězni"; "​4​"-"4 vězni"; "​{0}​"-"{0} vězňů"}</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{replace: ​{0}​; "​1​"-"1 vězeň"; "​2​"-"2 vězni"; "​3​"-"3 vězni"; "​4​"-"4 vězni"; "​{0}​"-"{0} vězňů"}</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{replace: ​{0}​​; "​1​"-"1 nervově zhroucený"; "​2​"-"2 nervově zhroucení"; "​3​"-"3 nervově zhroucení"; "​4​"-"4 nervově zhroucení"; "​{0}​"-"{0} nervově zhroucených"}</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{replace: ​{0}​; "​1​"-"1 nervově zhroucený"; "​2​"-"2 nervově zhroucení"; "​3​"-"3 nervově zhroucení"; "​4​"-"4 nervově zhroucení"; "​{0}​"-"{0} nervově zhroucených"}</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
   <CaravanPawnsDowned>{0} v bezvědomí</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
@@ -1488,7 +1488,7 @@
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Neexistuje žádné vhodné místo k mluvení.</AbilitySpeechDisabledNoSpot>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění získají na {replace: ​{1}​​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění získají na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
@@ -1519,7 +1519,7 @@
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0} kvality</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{replace: {OUTCOMELABEL}​​; "á​"-"ý"; "é​"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{replace: {OUTCOMELABEL}​; "á​"-"ý"; "é​"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
   

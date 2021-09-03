@@ -133,7 +133,7 @@
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>Zahájit spojovací rituál</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>Vyžaduje {replace: ​{0}​​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} {lookup: {1}; Case\Singular; 2} (k dispozici {replace: ​{2}​​; "​1​"-"je 1 trs"; "​2​"-"jsou 2 trsy"; "​3​"-"jsou 3 trsy"; "​4​"-"jsou 4 trsy"; "​{2}​"-"je {2} trsů"})</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>Vyžaduje {replace: ​{0}​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} {lookup: {1}; Case\Singular; 2} (k dispozici {replace: ​{2}​; "​1​"-"je 1 trs"; "​2​"-"jsou 2 trsy"; "​3​"-"jsou 3 trsy"; "​4​"-"jsou 4 trsy"; "​{2}​"-"je {2} trsů"})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>Vyžaduje {0} typ soustředění</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
@@ -145,7 +145,7 @@
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
   <LetterTextLinkingRitualCompleted>{PAWN_labelShort} při spojovacím rituálu úspěšně {PAWN_gender ? navázal : navázala} spojení s animou spirituálního stromu.\n\n{PAWN_gender ? Vylepšil : Vylepšila} si tak psiovazbu a {PAWN_gender ? získal : získala} možnost používat nové psionické schopnosti.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
-  <LetterTextLinkingRitualCompletedAnimaGrass>Kromě toho se {replace: ​{0}​​; "​1​"-"obnovil 1 trs"; "​2​"-"obnovily 2 trsy"; "​3​"-"obnovily 3 trsy"; "​4​"-"obnovily 4 trsy"; "​{0}​"-"obnovilo {0} trsů"} posvátné trávy.</LetterTextLinkingRitualCompletedAnimaGrass>
+  <LetterTextLinkingRitualCompletedAnimaGrass>Kromě toho se {replace: ​{0}​; "​1​"-"obnovil 1 trs"; "​2​"-"obnovily 2 trsy"; "​3​"-"obnovily 3 trsy"; "​4​"-"obnovily 4 trsy"; "​{0}​"-"obnovilo {0} trsů"} posvátné trávy.</LetterTextLinkingRitualCompletedAnimaGrass>
 
   <!-- EN: Land shuttle here -->
   <LandHere>Přistát s raketoplánem zde</LandHere>
@@ -166,7 +166,7 @@
   <!-- EN: No colonists with the natural meditation focus type. -->
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Žadní kolonisté s přírodním typem meditačního soustředění.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
-  <RitualTargetAnimaTreeNotEnoughAnimaGrass>Potřebuješ alespoň {replace: ​{0}​​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} posvátné trávy.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>Potřebuješ alespoň {replace: ​{0}​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} posvátné trávy.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
   <!-- EN: An anima tree. -->
   <RitualTargetAnimaTreeInfo>Spirituální strom</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
@@ -175,7 +175,7 @@
   <RitualTargetAnimaTreeMustBePsychicallySensitive>Nesmí být psychicky hluchý.</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
-  <AnimaLinkingExplanationBase>Obřad, při kterém dochází ke spojení s animou, je mnohem účinější s více účastníky. Čím více lidí se zapojí, tím kratší bude doba trvání obřadu, a tím více doroste posvátné trávy.\n\n{replace: ​{0}​​; "​0​"-"Nepřidáš-li žádného dalšího účastníka, po skončení obřadu nedoroste žádný trs posvátné trávy."; "​{0}​"-"S pomocí {replace: ​{0}​​; "​1​"-"1 účastníka"; "​2​"-"2 účastníků"; "​3​"-"3 účastníků"; "​4​"-"4 účastníků"; "​{0}​"-"{0} účastníků"} je zajištěno, že po skončení obřadu {replace: ​{1}​​; "​1​"-"doroste 1 trs"; "​2​"-"dorostou 2 trsy"; "​3​"-"dorostou 3 trsy"; "​4​"-"dorostou 4 trsy"; "​{1}​"-"doroste {1} trsů"} posvátné trávy."}</AnimaLinkingExplanationBase>
+  <AnimaLinkingExplanationBase>Obřad, při kterém dochází ke spojení s animou, je mnohem účinější s více účastníky. Čím více lidí se zapojí, tím kratší bude doba trvání obřadu, a tím více doroste posvátné trávy.\n\n{replace: ​{0}​; "​0​"-"Nepřidáš-li žádného dalšího účastníka, po skončení obřadu nedoroste žádný trs posvátné trávy."; "​{0}​"-"S pomocí {replace: ​{0}​; "​1​"-"1 účastníka"; "​2​"-"2 účastníků"; "​3​"-"3 účastníků"; "​4​"-"4 účastníků"; "​{0}​"-"{0} účastníků"} je zajištěno, že po skončení obřadu {replace: ​{1}​; "​1​"-"doroste 1 trs"; "​2​"-"dorostou 2 trsy"; "​3​"-"dorostou 3 trsy"; "​4​"-"dorostou 4 trsy"; "​{1}​"-"doroste {1} trsů"} posvátné trávy."}</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Zatím není naložen veškerý potřebný náklad!</ShuttleRequiredItemsNotSatisfied>
 </LanguageData>
