@@ -639,6 +639,8 @@
   <MessageRitualNeedsAtLeastOneSpectator>Potřebuješ alespoň jednoho přihlížejícího.</MessageRitualNeedsAtLeastOneSpectator>
   <!-- EN: You need a {0}. -->
   <MessageRitualNeedsAtLeastOneRolePawn>Potřebuješ {lookup: {0}; Case\Singular; 4}.</MessageRitualNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageRitualNeedsAtLeastNumRolePawn>Potřebuješ alespoň {replace: ​{1} {0}​; "​1 duelant​"-"1 duelanta"; "​2 duelant​"-"2 duelanty"; "​3 duelant​"-"3 duelanty"; "​4 duelant​"-"4 duelanty"; "​{1} duelant​"-"{1} duelantů"; "​1 sekundant​"-"1 sekundanta"; "​2 sekundant​"-"2 sekundanty"; "​3 sekundant​"-"3 sekundanty"; "​4 sekundant​"-"4 sekundanty"; "​{1} sekundant​"-"{1} sekundantů"}.</MessageRitualNeedsAtLeastNumRolePawn>
   <!-- EN: {0_labelShort} must hold one of these roles -->
   <MessageRitualRoleRequired>{0_labelShort} musí zastávat jednu z těchto rolí</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
@@ -649,6 +651,8 @@
   <MessageRitualRoleMustBeHumanlike>{0} musí být {replace: {0}; "Účastníci"-"lidé";"Přihlížející"-"lidé"; "{0}"-"člověk"}.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} musí mít oči.</MessageRitualRoleMustHaveEyes>
+  <!-- EN: {0} must be a prisoner or slave. -->
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} musí být vězeň nebo otrok.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>tuto roli nemůže zastávat nikdo jiný.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
