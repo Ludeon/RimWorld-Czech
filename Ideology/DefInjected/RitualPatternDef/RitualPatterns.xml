@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: {0} {1} want to carry out the blinding as soon as possible. -->
+  <BlindingCeremony.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} uspořádat rituální oslepení co možná nejdříve.</BlindingCeremony.ritualExpectedPostfix>
+  
+  <!-- EN: A ritualistic burning of a hated symbol. Participants will gather around a sacrificial structure, light it on fire, and celebrate as it burns to ash. -->
+  <BurnCircle.descOverride>Rituální pálení nenáviděného symbolu. Účastníci se shromáždí kolem obětní struktury, zapálí ji a budou oslavovat, dokud neshoří na popel.</BurnCircle.descOverride>
+  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <BurnCircle.ritualExpectedDesc>Každý rok {DATE} se koná {RITUAL_labelDef} pro stoupence ideoboženství {IDEO}.</BurnCircle.ritualExpectedDesc>
+  <!-- EN: {0} {1} want to hold the celebration as soon as possible. -->
+  <BurnCircle.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} uspořádat slavnost co možná nejdříve.</BurnCircle.ritualExpectedPostfix>
+  <!-- EN: symbol burning -->
+  <BurnCircle.shortDescOverride>pálení symbolu</BurnCircle.shortDescOverride>
+  
+  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <CelebrationPartyChat.ritualExpectedDesc>Každý rok {DATE} se koná {RITUAL_labelDef} pro stoupence ideoboženství {IDEO}.</CelebrationPartyChat.ritualExpectedDesc>
+  <!-- EN: {0} {1} want to hold the celebration as soon as possible. -->
+  <CelebrationPartyChat.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} uspořádat slavnost co možná nejdříve.</CelebrationPartyChat.ritualExpectedPostfix>
+  
   <!-- EN: A dance party with drums. Participants will gather, socialize, play drums, and dance to have fun and connect with each other. -->
   <CelebrationPartyDanceDrum.descOverride>Taneční párty s bubny. Účastníci se sejdou, budou se společně bavit, hrát na bubny a tancovat, aby se zabavili a lépe se poznali.</CelebrationPartyDanceDrum.descOverride>
   <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
@@ -40,6 +57,23 @@
   <!-- EN: In case of success, their certainty will be reduced or they will convert immediately. If it backfires, their certainty in own beliefs will increase. -->
   <Conversion.ritualExplanation>V případě úspěchu bude jistota konvertovaného snížena nebo dojde k jeho okamžité konverzi. V opačném případě se jeho jistota vlastního přesvědčení zvýší.</Conversion.ritualExplanation>
   
+  <!-- EN: A ritualistic flesh-eating meal. Participants gather around a platter of human flesh and bloodily feast on it. -->
+  <FeastCannibal.descOverride>Rituální pojídání masa. Účastníci se shromáždí kolem podnosu plného lidského masa a užijí si krvavou hostinu.</FeastCannibal.descOverride>
+  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <FeastCannibal.ritualExpectedDesc>Každý rok {DATE} se koná {RITUAL_labelDef} pro stoupence ideoboženství {IDEO}.</FeastCannibal.ritualExpectedDesc>
+  <!-- EN: {0} {1} want to hold the celebration as soon as possible. -->
+  <FeastCannibal.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} uspořádat slavnost co možná nejdříve.</FeastCannibal.ritualExpectedPostfix>
+  <!-- EN: cannibal feast -->
+  <FeastCannibal.shortDescOverride>kanibalská hostina</FeastCannibal.shortDescOverride>
+  
+  <!-- EN: Once a {IDEO} member dies and the body is lost, other {MEMBERS} gather around an empty grave for {RITUAL_labelDef}. -->
+  <FuneralNoCorpse.ritualExpectedDesc>Když zemře následovník ideoboženství {IDEO} a tělo je ztraceno, zbylí následovníci se shromáždí kolem prázdného hrobu, aby uspořádali smuteční obřad nazvaný {RITUAL_labelDef}.</FuneralNoCorpse.ritualExpectedDesc>
+  
+  <!-- EN: Once a {IDEO} member dies, other {MEMBERS} gather around their grave for {RITUAL_labelDef}. -->
+  <FuneralStandard.ritualExpectedDesc>Když zemře následovník ideoboženství {IDEO}, zbylí následovníci se shromáždí kolem prázdného hrobu, aby uspořádali smuteční obřad nazvaný {RITUAL_labelDef}.</FuneralStandard.ritualExpectedDesc>
+  <!-- EN: {0} {1} want to carry out the funeral as soon as possible. -->
+  <FuneralStandard.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} uskutečnit smuteční obřad co možná nejdříve.</FuneralStandard.ritualExpectedPostfix>
+  
   <!-- EN: A ritualistic animal sacrifice. The organizer will give a speech to excite the crowd, then cut the animal's throat. Once the animal is dead, the organizer will speak some finishing words. -->
   <SacrificeAnimal.descOverride>Rituální obětování zvířete. Vykonavatel nejprve přednese řeč, aby rozvášnil dav a poté zvířeti podřízne hrdlo. Jakmile zvíře zemře, vykonavatel řekne pár závěrečných slov.</SacrificeAnimal.descOverride>
   <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
@@ -57,5 +91,17 @@
   <SacrificePrisoner.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} provést obětování co možná nejdříve.</SacrificePrisoner.ritualExpectedPostfix>
   <!-- EN: prisoner sacrifice -->
   <SacrificePrisoner.shortDescOverride>obětování vězně</SacrificePrisoner.shortDescOverride>
+  
+  <!-- EN: {0} {1} want to carry out the scarification as soon as possible. -->
+  <ScarificationCeremony.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} provést rituální jizvení co možná nejdříve.</ScarificationCeremony.ritualExpectedPostfix>
+  
+  <!-- EN: A ritualistic smoking of large amounts of smokeleaf. Participants will gather around a burnbong or incense shrine, light it on fire, and celebrate while inhaling the fumes. -->
+  <SmokeCircle.descOverride>Rituální vykuřování velkého množství dýmovníkových listů. Účastníci se shromáždí kolem spalovacího bongu nebo kadidlové svatyně, zapálí ji a budou slavit při vdechování kouřových výparů.</SmokeCircle.descOverride>
+  <!-- EN: Every year on {DATE}, {MEMBERS} celebrate {RITUAL_labelDef}. -->
+  <SmokeCircle.ritualExpectedDesc>Každý rok {DATE} se koná {RITUAL_labelDef} pro stoupence ideoboženství {IDEO}.</SmokeCircle.ritualExpectedDesc>
+  <!-- EN: {0} {1} want to hold the celebration as soon as possible. -->
+  <SmokeCircle.ritualExpectedPostfix>{replace: ​{0}​; "​1​"-"Jediný stoupenec chce"; "​2​"-"Oba 2 stoupenci chtějí"; "​3​"-"Všichni 3 stoupenci chtějí"; "​4​"-"Všichni 4 stoupenci chtějí"; "​{0}​"-"Všech {0} stoupenců chce"} uspořádat slavnost co možná nejdříve.</SmokeCircle.ritualExpectedPostfix>
+  <!-- EN: smokeleaf circle -->
+  <SmokeCircle.shortDescOverride>vykuřovací dýchánek</SmokeCircle.shortDescOverride>
   
 </LanguageData>
