@@ -171,12 +171,17 @@
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
   <LetterTextBestowingCeremonyExpired>{TARGET_definite} se ke slavnostnímu předání {TARGET_gender ? nedostavil : nedostavila}. Obřad byl proto zrušen.</LetterTextBestowingCeremonyExpired>
 
+  <!-- EN: {TARGET_definite}'s title changed -->
+  <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite} získá vyšší titul</LetterLabelBestowingCeremonyTitleUpdated>
+  <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} {TARGET_gender ? získal : získala} nový titul dříve, než bylo dokončeno již naplánované slavnostní předání. Aby se předání titulu shodovalo s nově nabytým titulem, bude brzy naplánován nový ceremoniál.\n\nNové slavnostní předání bude zahrnovat odměny v podobě psiovazby za všechny dosud neudělené tituly.</LetterTextBestowingCeremonyTitleUpdated>
+  
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} {1}b k poctě jako projev respektu, za sezvání {3} hostů.</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>Jelikož se povedlo sezvat celkem {replace: ​{3}​; "​1​"-"1 osobu"; "​2​"-"2 lidi"; "​3​"-"3 lidi"; "​4​"-"4 lidi"; "​{3}​"-"{3} lidí"}, získává {PAWN_labelShort} od frakce {FACTION_name} {replace: ​{1}​; "​1​"-"1 bod"; "​2​"-"2 body"; "​3​"-"3 body"; "​4​"-"4 body"; "​{1}​"-"{1} bodů"} k poctě jako projev respektu.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>{PAWN_labelShort} {PAWN_gender ? nezískal : nezískala} žádné body pocty navíc, protože {PAWN_gender ? nesezval : nesezvala} dostatek hostů.</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>{PAWN_labelShort} {PAWN_gender ? nezískal : nezískala} žádné body k poctě navíc, jelikož se zúčastnilo málo lidí.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>Všichni přihlížející obřadu získali bonus k náladě.</LetterPartMoodBonus>
+  <LetterPartMoodBonus>Všichni, kteří přihlíželi ceremonii, získali bonus k náladě.</LetterPartMoodBonus>
 
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
   <LetterTextHonorAward_BanditCamp>Komu by měla být připsána {0} za zničení tábora banditů?</LetterTextHonorAward_BanditCamp>
