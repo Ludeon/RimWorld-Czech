@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've detected an orbiting spacedrone that may contain information about [relic_name]. You have the code that will force it to land at [map_definite].\n\nTo get the information, hack into the drone's computer. Hacking takes time, but those strong in intellectual skill can speed up the process.[raidsDescription]\n\nAfter landing, the spacedrone will self-destruct in [destroyDelayTicks_duration].</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] from [enemyFaction_name] will [droneDetectionMethod]. As long as it's present, they'll send attackers approximately every [raidIntervalAvg_duration] to destroy it and steal the wealth they think it contains. You will have some time to prepare defenses around it before they arrive.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->spot the drone during its decent</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
+  -->
+  <Hack_Spacedrone.questDescriptionRules.rulesStrings>
+    <li>questDescription->Na oběžné dráze jsi objevil vesmírný dron, který může obsahovat informace o relikvii zvané [relic_name]. Máš k dispozici kód, pomocí kterého ho můžeš přinutit přistát v oblasti [map_definite].\n\nAbys informace získal, musíš se nabourat do jeho počítače. Hackování bude nějakou dobu trvat, ale ti, kteří disponují silnou intelektuální dovedností, budou schopni tento proces urychlit.[raidsDescription]\n\nJakmile kosmodron přistane, po uplynutí [destroyDelayTicks_duration] dojde k jeho autodestrukci.</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[droneDetectionMethod] [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]. Dokud bude dron existovat, každých [raidIntervalAvg_duration] budou vysílat útočníky, aby jej zničili a ukradli veškeré bohatství, které podle nich obsahuje. Než dorazí, budeš mít nějaký čas na vybudování obrany kolem lodi.</li>
+    <li>raidsDescription(allowViolence==false)-></li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->Dron během svého sestupu zcela jistě spatří</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->Energetický podpis dronu zcela jistě odhalí</li>
+  </Hack_Spacedrone.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[droneAdj] [drone] hack</li>
+    <li>questName->[drone] [data] hack</li>
+    <li>droneAdj->orbital</li>
+    <li>droneAdj->data</li>
+    <li>droneAdj->ancient</li>
+    <li>drone->drone</li>
+    <li>drone->spacecraft</li>
+    <li>drone->spacedrone</li>
+    <li>drone->cryptodrone</li>
+    <li>data->data</li>
+    <li>data->intel</li>
+    <li>data->info</li>
+  -->
+  <Hack_Spacedrone.questNameRules.rulesStrings>
+    <li>questName->[Hack] [droneGenAdj]</li>
+    <li>questName->Získávání [dataGen] z [droneGen]</li>
+    <li>droneAdj_i->orbitální</li>
+    <li>droneAdj_eho_e->datov</li>
+    <li>droneAdj_eho_e->starodávn</li>
+    <li>droneGenAdj->[droneAdj_i]ho dronu</li>
+    <li>droneGenAdj->[droneAdj_eho_e]ého dronu</li>
+    <li>droneGenAdj->[droneAdj_i] [spaceAdj] lodi</li>
+    <li>droneGenAdj->[droneAdj_eho_e]é [spaceAdj] lodi</li>
+    <li>droneGenAdj->[droneAdj_i]ho kosmodronu</li>
+    <li>droneGenAdj->[droneAdj_eho_e]ého kosmodronu</li>
+    <li>droneGenAdj->[droneAdj_i]ho cryptodronu</li>
+    <li>droneGenAdj->[droneAdj_eho_e]ého cryptodronu</li>
+    <li>droneGen->dronu</li>
+    <li>droneGen->[spaceAdj] lodi</li>
+    <li>droneGen->kosmodronu</li>
+    <li>droneGen->cryptodronu</li>
+    <li>dataGen->dat</li>
+    <li>dataGen->údajů</li>
+    <li>dataGen->záznamů</li>
+    <li>dataGen->informací</li>
+    <li>Hack(p=3)->Hackování</li>
+    <li>Hack->Nabourávání</li>
+    <li>spaceAdj->kosmické</li>
+    <li>spaceAdj->vesmírné</li>
+  </Hack_Spacedrone.questNameRules.rulesStrings>
+  
+</LanguageData>
