@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] incapable of hacking.</li>
+    <li>passengersIncapableOfHackingDialogText->The shuttle for the quest '[resolvedQuestName]' has no passenger capable of hacking. You must send at least one person capable of hacking to investigate the ancient complex.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
+  -->
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminál byl úspěšně nabourán. {COUNT} / [terminalCount] dokončených.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] neumí hackovat.</li>
+    <li>passengersIncapableOfHackingDialogText->Raketoplán vyslaný v rámci úkolu '[resolvedQuestName]' nemá na palubě žádného pasažéra, který by uměl hackovat. K prozkoumání starodávného komplexu musíš vyslat alespoň jednu osobu schopnou hackování.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->pasažér</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->pasažéři</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>complex->complex</li>
+    <li>complex->compound</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>complex->construction</li>
+    <li>investigation->investigation</li>
+    <li>investigation->examination</li>
+    <li>investigation->mission</li>
+    <li>investigation->excavation</li>
+    <li>investigation->hacking</li>
+  -->
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complexGen->ého komplexu</li>
+    <li>complexGen->ého zařízení</li>
+    <li>complexGen->ého areálu</li>
+    <li>complexGen->ého objektu</li>
+    <li>complexGen->é struktury</li>
+    <li>complexGen->é budovy</li>
+    <li>investigation->Prozkoumávání</li>
+    <li>investigation->Průzkum</li>
+    <li>investigation->Prohledávání</li>
+    <li>investigation->Pročesávání</li>
+    <li>investigation->Obhlídka</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
+  -->
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] z frakce [asker_faction_name], objevil[asker_x_a] vzdálený starodávný komplex. Věří, že by mohl obsahovat důležité informace o relikvii zvané [relic_name].\n\n[asker_nameDef] momentálně nemůže postrádat nikoho ze svých lidí, kteří by se tam vydali. Doufá však, že [asker_mu_ji] pomůžeš ty, a to tak, že poskytneš (*ColonistCount)[colonistsSingularOrPlural](/ColonistCount), [ktery_kteri] průzkum [provede_provedou].\n\nV komplexu se nachází neznámé hrozby a také tam slídí frakce [enemyFaction_name], kterou [asker_nameDef] považuje za své nepřátele.\n\nK vyzvednutí [tvehoKolonisty_tvychKololistu] vyšle raketoplán, který [ho_je] vyzvedne, dopraví na místo určení a po dokončení mise vezme zpět domů. Cestou [mu_jim] bude zajištěna strava a případná zdravotní péče.\n\nJakmile [pristane_pristanou], do [timeoutTicks_duration] [bude_budou] muset [hack] všechny terminály v komplexu.</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->jednoho kolonistu</li>
+    <li>colonistsSingularOrPlural(colonistCount==2)->[colonistCount] kolonisty</li>
+    <li>colonistsSingularOrPlural(colonistCount==3)->[colonistCount] kolonisty</li>
+    <li>colonistsSingularOrPlural(colonistCount==4)->[colonistCount] kolonisty</li>
+    <li>colonistsSingularOrPlural(colonistCount>=5)->[colonistCount] kolonistů</li>
+    <li>ktery_kteri(colonistCount==1)->který</li>
+    <li>ktery_kteri(colonistCount>=2)->kteří</li>
+    <li>provede_provedou(colonistCount==1)->provede</li>
+    <li>provede_provedou(colonistCount>=2)->provedou</li>
+    <li>tvehoKolonisty_tvychKololistu(colonistCount==1)->tvého kolonisty</li>
+    <li>tvehoKolonisty_tvychKololistu(colonistCount>=2)->tvých kolonistů</li>
+    <li>ho_je(colonistCount==1)->ho</li>
+    <li>ho_je(colonistCount>=2)->je</li>
+    <li>mu_jim(colonistCount==1)->mu</li>
+    <li>mu_jim(colonistCount>=2)->jim</li>
+    <li>pristane_pristanou(colonistCount==1)->přistane</li>
+    <li>pristane_pristanou(colonistCount>=2)->přistanou</li>
+    <li>bude_budou(colonistCount==1)->bude</li>
+    <li>bude_budou(colonistCount>=2)->budou</li>
+    <li>hack->hacknout</li>
+    <li>hack->prolomit</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[missionAdj] [complex] [investigation]</li>
+    <li>missionAdj->hidden</li>
+    <li>missionAdj->covert</li>
+    <li>missionAdj->secret</li>
+  -->
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[investigation] [missionAdj][complexGen]</li>
+    <li>missionAdj->skryt</li>
+    <li>missionAdj->skrývan</li>
+    <li>missionAdj->ukryt</li>
+    <li>missionAdj->ukrývan</li>
+    <li>missionAdj->tajn</li>
+    <li>missionAdj->utajovan</li>
+    <li>missionAdj->tajupln</li>
+    <li>missionAdj->tajemn</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
+  
+</LanguageData>
