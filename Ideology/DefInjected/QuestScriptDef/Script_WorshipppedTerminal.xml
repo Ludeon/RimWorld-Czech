@@ -13,9 +13,16 @@
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
   <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
-    <li>questDescription->Dozvěděl ses o starodávném terminálu, který obsahuje důležité informace o relikvii zvané [relic_name]. Nicméně tento terminál se nachází v kmenové vesnici a místní jej uctívají. Tito místní nepatří k žádné z velkých frakcí.\n\n[visitInfo]</li>
-    <li>visitInfo(allowViolentQuests==true)->Jsou ochotni přijmout tvou návštěvu k uctění terminálu, ale pokud se ho dotkneš, napadnou tě.\n\nNa vesnici můžeš buď zaútočit zvenčí, nebo vstoupit a pokusit se rychle uniknout se získanými daty z terminálu.\n\nPozor - pokud ve vesnici strávíš déle jak [timer_duration] nebo cokoliv postavíš v její blízkosti, místní tě napadnou a přivolají posily.</li>
-    <li>visitInfo(allowViolentQuests==false)->Jsou ochotni přijmout tvou návštěvu.</li>
+    <li>questDescription->Dozvěděl ses o [ancientComplex] terminálu, který obsahuje důležité informace o relikvii zvané [relic_name]. Nicméně, tento terminál se nachází v kmenové vesnici a místní jej uctívají. Tito místní nepatří k žádné z velkých frakcí.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Jsou připraveni přijmout tvou návštěvu za účelem uctění terminálu, ale pokud se ho dotkneš, napadnou tě.\n\nNa vesnici můžeš zaútočit zvenčí, nebo [peacefully] [enter] a pokusit se rychle uniknout se získanými daty z terminálu.\n\nPozor - pokud ve vesnici strávíš déle jak [timer_duration] nebo cokoliv postavíš v její blízkosti, místní tě napadnou a přivolají posily.</li>
+    <li>visitInfo(allowViolentQuests==false)->Jsou připraveni přijmout tvou návštěvu.</li>
+    <li>ancientComplex->prastarém</li>
+    <li>ancientComplex->starobylém</li>
+    <li>ancientComplex->starodávném</li>
+    <li>peacefully->poklidně</li>
+    <li>peacefully->mírumilovně</li>
+    <li>enter->vstoupit</li>
+    <li>enter->vejít</li>
   </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
