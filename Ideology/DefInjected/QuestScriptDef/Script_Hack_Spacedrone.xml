@@ -9,7 +9,7 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->Na oběžné dráze jsi objevil vesmírný dron, který může obsahovat informace o relikvii zvané [relic_name]. Máš k dispozici kód, pomocí kterého ho můžeš přinutit přistát v oblasti [map_definite].\n\nAbys informace získal, musíš se nabourat do jeho počítače. Hackování bude nějakou dobu trvat, ale ti, kteří disponují silnou intelektuální dovedností, budou schopni tento proces urychlit.[raidsDescription]\n\nJakmile kosmodron přistane, po uplynutí [destroyDelayTicks_duration] dojde k jeho autodestrukci.</li>
+    <li>questDescription->Na oběžné dráze jsi objevil vesmírný dron, který může obsahovat důležitou informaci o relikvii zvané [relic_name]. Máš k dispozici kód, pomocí kterého ho můžeš přinutit přistát v oblasti [map_definite].\n\nAbys informaci získal, musíš se nabourat do jeho počítače. Hackování bude nějakou dobu trvat, ale ti, kteří disponují silnou intelektuální dovedností, budou schopni tento proces urychlit.[raidsDescription]\n\nJakmile kosmodron přistane, po uplynutí [destroyDelayTicks_duration] dojde k jeho autodestrukci.</li>
     <li>raidsDescription(allowViolence==true)->\n\n[droneDetectionMethod] [enemyFaction_pawnsPlural] z frakce [enemyFaction_name]. Dokud bude dron existovat, každých [raidIntervalAvg_duration] budou vysílat útočníky, aby jej zničili a ukradli veškeré bohatství, které podle nich obsahuje. Než dorazí, budeš mít nějaký čas na vybudování obrany kolem lodi.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->Dron během svého sestupu zcela jistě spatří</li>

@@ -7,13 +7,13 @@
   -->
   <AncientComplex_Standard.questContentRules.rulesStrings>
     <li>terminalHackedMessage->Terminál byl úspěšně nabourán. {COUNT} / [terminalCount] dokončených.</li>
-    <li>allTerminalsHackedMessage->Úspěšně jsi pronikl do všech terminálů a odhalil jsi tajné informace o relikvii zvané [relic_name]! Nyní můžeš odejít.</li>
+    <li>allTerminalsHackedMessage->Úspěšně jsi pronikl do všech terminálů a odhalil jsi tajnou informaci o relikvii zvané [relic_name]! Nyní můžeš odejít.</li>
   </AncientComplex_Standard.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient complex nearby. It is said to contain information about [relic_name].\n\nIf you can break into the structure and hack the computers inside, you can collect the information.\n\nWatch out - there may be all manner of dangers inside, and other enemies may also be attracted by activity at the structure.</li>
   -->
   <AncientComplex_Standard.questDescriptionRules.rulesStrings>
-    <li>questDescription->Dozvěděl ses o [nearby] [ancientComplex] komplexu. [itIsSaid] se, že [contain] důležité informace o relikvii zvané [relic_name].\n\nPokud dokážeš do budovy vniknout a nabouráš tamní počítače, můžeš tyto informace získat.\n\n[watchOut] - uvnitř může číhat nejrůznější nebezpečí, případně můžeš svými aktivitami v budově přilákat pozornost dalších nepřátel.</li>
+    <li>questDescription->Dozvěděl ses o [nearby] [ancientComplex] komplexu. [itIsSaid] se, že [containInformation] o relikvii zvané [relic_name].\n\nPokud dokážeš do budovy vniknout a nabouráš tamní počítače, můžeš informaci získat.\n\n[watchOut] - uvnitř může číhat nejrůznější nebezpečí, nebo můžeš svými aktivitami v budově přilákat pozornost dalších nepřátel.</li>
     <li>nearby->nedalekém</li>
     <li>nearby->blízkém</li>
     <li>ancientComplex->prastarém</li>
@@ -21,8 +21,8 @@
     <li>ancientComplex->starodávném</li>
     <li>itIsSaid->Říká</li>
     <li>itIsSaid->Povídá</li>
-    <li>contain->obsahuje</li>
-    <li>contain->se v něm nachází</li>
+    <li>containInformation->obsahuje důležitou informaci</li>
+    <li>containInformation->se v něm nachází důležitá informace</li>
     <li>watchOut->Buď ale opatrný</li>
     <li>watchOut->Buď však na pozoru</li>
     <li>watchOut->Dávej si však pozor</li>

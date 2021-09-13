@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
+    <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
+  -->
+  <RelicHunt.questDescriptionRules.rulesStrings>
+    <li>questDescription->Dozvěděl ses, že relikvie související s ideoboženstvím [ideo_name], je [nearby].\n\nJedná se o relikvii zvanou [relic_name], což je [ancientObj] předmět uctívaný všemi vyznavači zmíněného ideoboženství. Pokud se ti ji podaří získat, budeš moci postavit významný relikviář, který ocení každý [ideo_memberName], a který může přilákat [wealthy] poutníky, případně přivést více lidí k ideoboženství [ideo_name].</li>
+    <li>questDescriptionPartBeforeDiscovery->Nejdříve však [youNeed] relikvii [relic_name] najít. Věnuj pozornost příležitostem k získání důležitých [information].</li>
+    <li>nearby->blízko</li>
+    <li>nearby->na dosah ruky</li>
+    <li>ancientObj->prastarý</li>
+    <li>ancientObj->pradávný</li>
+    <li>ancientObj->starobylý</li>
+    <li>ancientObj->starodávný</li>
+    <li>wealthy->bohaté</li>
+    <li>wealthy->majetné</li>
+    <li>wealthy->zámožné</li>
+    <li>youNeed->potřebuješ</li>
+    <li>youNeed->musíš</li>
+    <li>information->informací</li>
+    <li>information->vodítek</li>
+  </RelicHunt.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->The [hunt] for the [item]</li>
+    <li>questName->The [item] of [ideo_name]</li>
+    <li>questName->The [itemAdj] [item]</li>
+    <li>hunt->hunt</li>
+    <li>hunt->search</li>
+    <li>hunt->quest</li>
+    <li>item(p=4)->[relic_name]</li>
+    <li>item->relic</li>
+    <li>item->artifact</li>
+    <li>itemAdj->ancient</li>
+    <li>itemAdj->revered</li>
+    <li>itemAdj->venerated</li>
+  -->
+  <RelicHunt.questNameRules.rulesStrings>
+    <li>questName->[huntForItem]</li>
+    <li>questName->[itemCap] ([ideo_name])</li>
+    <li>questName->[itemAdjItem]</li>
+    <li>huntForItem->Lov [itemGen]</li>
+    <li>huntForItem->Hon na [itemAcc]</li>
+    <li>huntForItem->Hledání [itemGen]</li>
+    <li>huntForItem->Pátrání po [itemLoc]</li>
+    <li>huntForItem->Výprava za [itemIns]</li>
+    <li>huntForItem->Honba za [itemIns]</li>
+    <li>itemGen(p=4)->relikvie [relic_name]</li>
+    <li>itemGen->relikvie</li>
+    <li>itemGen->artefaktu</li>
+    <li>itemAcc(p=4)->relikvii [relic_name]</li>
+    <li>itemAcc->relikvii</li>
+    <li>itemAcc->artefakt</li>
+    <li>itemLoc(p=4)->relikvii [relic_name]</li>
+    <li>itemLoc->relikvii</li>
+    <li>itemLoc->artefaktu</li>
+    <li>itemIns(p=4)->relikvií [relic_name]</li>
+    <li>itemIns->relikvií</li>
+    <li>itemIns->artefaktem</li>
+    <li>itemCap(p=4)->[relic_name]</li>
+    <li>itemCap->Relikvie</li>
+    <li>itemCap->Artefakt</li>
+    <li>y_a_item(p=4)->á relikvie [relic_name]</li>
+    <li>y_a_item->á relikvie</li>
+    <li>y_a_item->ý artefakt</li>
+    <li>itemAdjItem->[ancientRel][y_a_item]</li>
+    <li>itemAdjItem->Uctívan[y_a_item]</li>
+    <li>itemAdjItem->Posvátn[y_a_item]</li>
+    <li>itemAdjItem->Ideobožensk[y_a_item]</li>
+    <li>ancientRel->prastar</li>
+    <li>ancientRel->pradávn</li>
+    <li>ancientRel->starobyl</li>
+    <li>ancientRel->starodávn</li>
+  </RelicHunt.questNameRules.rulesStrings>
+  
+</LanguageData>
