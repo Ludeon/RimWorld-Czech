@@ -29,13 +29,13 @@
   <EndGame_RoyalAscent.questNameRules.rulesStrings>
     <li>questName(sameQuestsCount==0)->Královský vzestup</li>
     <li>questName(sameQuestsCount>=1)->Královsk[titleEnd]</li>
-    <li>titleEnd->[adjNeu] nanebevstoupení</li>
-    <li>titleEnd->[adjNeu] stoupání</li>
-    <li>titleEnd(asker_gender==Male)->[adjMas] návštěvník</li>
-    <li>titleEnd(asker_gender==Female)->[adjFem] návštěvnice</li>
-    <li>titleEnd->[adjFem] návštěva</li>
-    <li>titleEnd->[adjMas] host</li>
-    <li>titleEnd->[adjNeu] vítězství</li>
+    <li>titleEnd->é nanebevstoupení</li>
+    <li>titleEnd->é stoupání</li>
+    <li>titleEnd(asker_gender==Male)->ý návštěvník</li>
+    <li>titleEnd(asker_gender==Female)->á návštěvnice</li>
+    <li>titleEnd->á návštěva</li>
+    <li>titleEnd->ý host</li>
+    <li>titleEnd->é vítězství</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>Nezdařený úkol: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
