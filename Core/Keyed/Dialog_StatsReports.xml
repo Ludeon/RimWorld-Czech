@@ -78,6 +78,8 @@
   <StatsReport_MeleeHitChance>Šance na zásah zblízka</StatsReport_MeleeHitChance>
   <!-- EN: {0} s -->
   <StatsReport_CooldownFormat>{0}s</StatsReport_CooldownFormat>
+  <!-- EN: Blocked by fences -->
+  <StatsReport_BlockedByFences>Zastaví ohrady</StatsReport_BlockedByFences>
   <!-- EN: Life expectancy -->
   <StatsReport_LifeExpectancy>Délka života</StatsReport_LifeExpectancy>
   <!-- EN: Multiplier for missing body parts -->
@@ -106,6 +108,8 @@
   <StatsReport_JoyKind>typ relaxace</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
   <StatsReport_WorkToUninstall>Množství práce na odmontování</StatsReport_WorkToUninstall>
+  <!-- EN: Fence -->
+  <StatsReport_Fence>Druh ohrady</StatsReport_Fence>
   <!-- EN: Multiplier for growth {0} -->
   <StatsReport_PlantGrowth>Násobitel za {0} stav růstu</StatsReport_PlantGrowth>
   <!-- EN: scaled because wild -->
@@ -168,6 +172,8 @@
   <Stat_HitPoints_Desc>Kolik škod dokáže tento předmět ustát, než dojde k jeho úplnému zničení.</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>Množství práce, které je potřebné k odmontování tohoto objektu.</Stat_Thing_WorkToUninstall_Desc>
+  <!-- EN: Whether this building is a type of fence. Fences block these animals -->
+  <Stat_Thing_Fence_Desc>Zda je tato struktura považována za druh ohrady. Ohrady dokáží zastavit následující zvířata</Stat_Thing_Fence_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
   <Stat_Thing_CreatedAt_Desc>Jaká zařízení lze použít k vytvoření tohoto objektu.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
@@ -206,10 +212,14 @@
   <Stat_Race_Trainability_Desc>Obecná mentální způsobilost tohoto tvora pro výcvik. Jedná se o kombinaci inteligence a pozornosti. Určuje, jaké druhy úkolů zvládne tento tvor provádět.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>Průměrná délka života tohoto tvora.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: Whether this creature is blocked by fences and barricades. -->
+  <Stat_Race_BlockedByFences_Desc>Zda toto stvoření zastaví ohrady a barikády.</Stat_Race_BlockedByFences_Desc>
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Relaxační hodnota při užívání tohoto objektu. Vyšší čísla uspokojí potřebu relaxace více.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Výška tohoto tvora ve srovnání s průměrným dospělým člověkem.</Stat_Race_BodySize_Desc>
+  <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
+  <Stat_Race_Growth_Desc>Jak blízko má toto stvoření k dospělosti.\n\nRůst vyžaduje pravidelnou stravu. Hladové zvíře poroste ve srovnání s dobře živeným pomaleji.</Stat_Race_Growth_Desc>
   <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
   <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Kolik času uplyne mezi začátkem útoku zblízka touto zbraní a jejím následným zásahem.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
   <!-- EN: The amount of shots this weapon fires in each burst. -->
@@ -354,6 +364,106 @@
   <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Jakou rychlostí klesá narkomanova chemická potřeba při užití této chemikálie.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
   <Stat_Thing_Drug_AddictionCost_Desc>Tržní hodnota drog, kterou je potřeba denně vynaložit, aby se udržela závislost bez případného ústupu.\n\nTato hodnota je vypočtena z narkomanovy chemické potřeby na dávku, rychlosti poklesu chemické potřeby a tržní hodnoty této drogy.\n\nMěj na paměti, že chemikálii lze získat i jinými způsoby - možná dokonce levněji.</Stat_Thing_Drug_AddictionCost_Desc>
+
+  <!-- EN: Gestation time -->
+  <Stat_Animal_GestationTime>Doba březosti</Stat_Animal_GestationTime>
+  <!-- EN: The time this species takes to gestate its offspring or eggs. -->
+  <Stat_Animal_GestationTimeDesc>Doba, jakou u tohoto druhu trvá březost, než porodí mláďata nebo naklade vejce.</Stat_Animal_GestationTimeDesc>
+  <!-- EN: Litter size -->
+  <Stat_Animal_LitterSize>Velikost vrhu</Stat_Animal_LitterSize>
+  <!-- EN: The number of offspring this creature creates per litter. If this is a range, any specific litter will have a random number of offspring in this range. -->
+  <Stat_Animal_LitterSizeDesc>Počet mláďat, které toto stvoření přivede na svět během jednoho vrhu. Jedná-li o rozmezí hodnot, konkrétní vrh bude mít náhodný počet mláďat v tomto rozmezí.</Stat_Animal_LitterSizeDesc>
+  <!-- EN: Adult meat amount -->
+  <Stat_Animal_AdultMeatAmount>Množství masa z dospělce</Stat_Animal_AdultMeatAmount>
+  <!-- EN: The base amount of meat yielded by butchering an adult member of this species. The actual yield is affected by other factors such as damage to the body and butcher skill. -->
+  <Stat_Animal_AdultMeatAmountDesc>Základní množství masa získaného porážkou dospělého jedince tohoto druhu. Skutečný výnos je ovlivněn dalšími faktory, jako je poškození těla a dovednost řezníka.</Stat_Animal_AdultMeatAmountDesc>
+  <!-- EN: Growth time -->
+  <Stat_Animal_GrowthTime>Doba růstu</Stat_Animal_GrowthTime>
+  <!-- EN: How long it normally takes for this creature to reach adulthood. This time will be longer if the creature starves. -->
+  <Stat_Animal_GrowthTimeDesc>Jak dlouho obvykle trvá, než toto stvoření dosáhne dospělosti. Tato doba bude delší, pokud tvor hladoví.</Stat_Animal_GrowthTimeDesc>
+  <!-- EN: Meat per day during growth -->
+  <Stat_Animal_MeatPerDayDuringGrowth>Denní přírůstek masa během růstu</Stat_Animal_MeatPerDayDuringGrowth>
+  <!-- EN: This creature gains this amount of meat for each day it grows, up until it reaches adulthood.\n\nThis value is calculated from the meat amount and growth time. -->
+  <Stat_Animal_MeatPerDayDuringGrowthDesc>Množství masa, které tomuto stvoření přibude za každý den růstu, dokud nedosáhne dospělosti.\n\nTato hodnota je vypočtena z množství masa a doby růstu.</Stat_Animal_MeatPerDayDuringGrowthDesc>
+  <!-- EN: Grass to maintain -->
+  <Stat_Animal_GrassToMaintain>Travní potřeba</Stat_Animal_GrassToMaintain>
+  <!-- EN: The typical number of grass plants that this creature needs in order to fulfill its dietary needs. This is based on normal grass at typical growth rates and ignores winter. -->
+  <Stat_Animal_GrassToMaintainDesc>Typický počet travních rostlin, které toto stvoření potřebuje k uspokojení svých stravovacích potřeb. Tato hodnota vychází z běžné trávy při typických rychlostech růstu a nezohlednění zimy.</Stat_Animal_GrassToMaintainDesc>
+  <!-- EN: Egg type -->
+  <Stat_Animal_EggType>Druh vejce</Stat_Animal_EggType>
+  <!-- EN: The type of egg this creature lays. -->
+  <Stat_Animal_EggTypeDesc>Druh vejce, které toto stvoření snáší.</Stat_Animal_EggTypeDesc>
+  <!-- EN: Eggs per year -->
+  <Stat_Animal_EggsPerYear>Roční produkce vajec</Stat_Animal_EggsPerYear>
+  <!-- EN: The number of eggs this creature will lay per year. Some creatures need to be fertilized to lay eggs. Egg laying will be slower if the creature starves. -->
+  <Stat_Animal_EggsPerYearDesc>Počet vajec, které toto stvoření snese za rok. Některá stvoření musí být nejprve oplodněna, aby snesla vejce. Snůška vajec bude pomalejší, pokud tvor hladoví.</Stat_Animal_EggsPerYearDesc>
+  <!-- EN: Egg nutrition -->
+  <Stat_Animal_EggNutrition>Výživová hodnota vejce</Stat_Animal_EggNutrition>
+  <!-- EN: The amount of nutrition in a single egg laid by this creature. -->
+  <Stat_Animal_EggNutritionDesc>Množství výživy v jednom vejci snesené tímto stvořením.</Stat_Animal_EggNutritionDesc>
+  <!-- EN: Egg nutrition per year -->
+  <Stat_Animal_EggNutritionYearly>Výživová hodnota vajec za rok</Stat_Animal_EggNutritionYearly>
+  <!-- EN: The amount of yearly nutrition generated by eggs laid by this creature each year.\n\nThis value is calculated from eggs per year and egg nutrition. -->
+  <Stat_Animal_EggNutritionYearlyDesc>Roční množství výživy získané ze všech vajec, která tento tvor ročně snese.\n\nTato hodnota je vypočtena z roční produkce vajec a výživové hodnoty vejce.</Stat_Animal_EggNutritionYearlyDesc>
+  <!-- EN: Egg market value -->
+  <Stat_Animal_EggMarketValue>Tržní hodnota vejce</Stat_Animal_EggMarketValue>
+  <!-- EN: The market value of a single laid egg. -->
+  <Stat_Animal_EggMarketValueDesc>Tržní hodnota jednoho sneseného vejce.</Stat_Animal_EggMarketValueDesc>
+  <!-- EN: Egg value per year -->
+  <Stat_Animal_EggMarketValueYearly>Tržní hodnota vajec za rok</Stat_Animal_EggMarketValueYearly>
+  <!-- EN: The total value of eggs normally laid over the course of a year.\n\nThis is calculated from eggs per year and egg market value. -->
+  <Stat_Animal_EggMarketValueYearlyDesc>Celková tržní hodnota vajec obvykle snášených během roku.\n\nTato hodnota je vypočtena z roční produkce vajec a tržní hodnoty vejce.</Stat_Animal_EggMarketValueYearlyDesc>
+  <!-- EN: Milk type -->
+  <Stat_Animal_MilkType>Druh mléka</Stat_Animal_MilkType>
+  <!-- EN: The type of milk this creature produces. -->
+  <Stat_Animal_MilkTypeDesc>Druh mléka, které toto stvoření produkuje.</Stat_Animal_MilkTypeDesc>
+  <!-- EN: Milk amount -->
+  <Stat_Animal_MilkAmount>Množství mléka</Stat_Animal_MilkAmount>
+  <!-- EN: The amount of milk this creature produces each time it is milked. -->
+  <Stat_Animal_MilkAmountDesc>Množství mléka, které toto stvoření vyprodukuje při každém dojení.</Stat_Animal_MilkAmountDesc>
+  <!-- EN: Milking interval -->
+  <Stat_Animal_MilkGrowthTime>Interval dojení</Stat_Animal_MilkGrowthTime>
+  <!-- EN: The amount of time this creature needs between milkings. -->
+  <Stat_Animal_MilkGrowthTimeDesc>Doba, kterou toto stvoření potřebuje mezi každým dojením.</Stat_Animal_MilkGrowthTimeDesc>
+  <!-- EN: Milk per year -->
+  <Stat_Animal_MilkPerYear>Roční produkce mléka</Stat_Animal_MilkPerYear>
+  <!-- EN: The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval. -->
+  <Stat_Animal_MilkPerYearDesc>Množství mléka vyprodukovaného tímto zvířetem v průběhu roku.\n\nTato hodnota je vypočtena z množství mléka a intervalu dojení.</Stat_Animal_MilkPerYearDesc>
+  <!-- EN: Milk market value -->
+  <Stat_Animal_MilkValue>Tržní hodnota mléka</Stat_Animal_MilkValue>
+  <!-- EN: The value of one unit of this creature's milk. -->
+  <Stat_Animal_MilkValueDesc>Tržní hodnota jedné jednotky mléka tohoto tvora.</Stat_Animal_MilkValueDesc>
+  <!-- EN: Milk value per year -->
+  <Stat_Animal_MilkValuePerYear>Tržní hodnota mléka za rok</Stat_Animal_MilkValuePerYear>
+  <!-- EN: The market value of one year's worth of milk from this creature, assuming it never goes hungry and is milked instantly at the end of each milk interval.\n\nThis is calculated from milk per year and milk market value. -->
+  <Stat_Animal_MilkValuePerYearDesc>Tržní hodnota roční produkce mléka získaného z tohoto stvoření, a to za předpokladu, že nikdy nehladoví a je podojeno ihned na konci každého intervalu dojení.\n\nTato hodnota je vypočtena z roční produkce mléka a tržní hodnoty mléka.</Stat_Animal_MilkValuePerYearDesc>
+  <!-- EN: Wool type -->
+  <Stat_Animal_WoolType>Druh vlny</Stat_Animal_WoolType>
+  <!-- EN: The type of wool produced by this creature. -->
+  <Stat_Animal_WoolTypeDesc>Druh vlny produkované tímto tvorem.</Stat_Animal_WoolTypeDesc>
+  <!-- EN: Wool amount -->
+  <Stat_Animal_WoolAmount>Množství vlny</Stat_Animal_WoolAmount>
+  <!-- EN: The amount of wool yielded by this creature each time it is shorn. -->
+  <Stat_Animal_WoolAmountDesc>Množství vlny, které toto stvoření vydá pokaždé, když je ostříháno.</Stat_Animal_WoolAmountDesc>
+  <!-- EN: Wool shearing interval -->
+  <Stat_Animal_WoolGrowthTime>Interval stříhání vlny</Stat_Animal_WoolGrowthTime>
+  <!-- EN: The time after shearing before this creature can be shorn again. -->
+  <Stat_Animal_WoolGrowthTimeDesc>Čas po stříhání, než bude možné toto stvoření znovu ostříhat.</Stat_Animal_WoolGrowthTimeDesc>
+  <!-- EN: Wool amount per year -->
+  <Stat_Animal_WoolPerYear>Roční produkce vlny</Stat_Animal_WoolPerYear>
+  <!-- EN: The amount of wool produced by this creature per year.\n\nThis is calculated from wool amount and wool shearing interval. -->
+  <Stat_Animal_WoolPerYearDesc>Množství vlny vyprodukované tímto tvorem za rok.\n\nTato hodnota je vypočtena z množství vlny a intervalu stříhání vlny.</Stat_Animal_WoolPerYearDesc>
+  <!-- EN: Wool market value -->
+  <Stat_Animal_WoolValue>Tržní hodnota vlny</Stat_Animal_WoolValue>
+  <!-- EN: The market value of one unit of this creature's wool. -->
+  <Stat_Animal_WoolValueDesc>Tržní hodnota jedné jednotky vlny tohoto tvora.</Stat_Animal_WoolValueDesc>
+  <!-- EN: Wool value per year -->
+  <Stat_Animal_WoolValuePerYear>Tržní hodnota vlny za rok</Stat_Animal_WoolValuePerYear>
+  <!-- EN: The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value. -->
+  <Stat_Animal_WoolValuePerYearDesc>Tržní hodnota roční produkce vlny získané z tohoto tvora.\n\nTato hodnota je vypočtena z roční produkce vlny a tržní hodnoty vlny.</Stat_Animal_WoolValuePerYearDesc>
+
+  <!-- EN: How much of the total possible study you have performed on this object. -->
+  <Stat_Studiable_Desc>Do jaké míry jsi na tomto objektu již provedl zkoumání.</Stat_Studiable_Desc>
 
   <!-- EN: Source -->
   <Stat_Source_Label>Původ</Stat_Source_Label>
