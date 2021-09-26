@@ -433,6 +433,26 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
+    <li>mas(tag=mas)-></li>
+    <li>fem(tag=fem)-></li>
+    <li>neu(tag=neu)-></li>
+
+    <li>adjNom_yae(requiredTag=mas)->ý</li>
+    <li>adjNom_yae(requiredTag=fem)->á</li>
+    <li>adjNom_yae(requiredTag=neu)->é</li>
+    <li>adjGen_hoxho(requiredTag=mas)->ho</li>
+    <li>adjGen_hoxho(requiredTag=fem)-></li>
+    <li>adjGen_hoxho(requiredTag=neu)->ho</li>
+    <li>adjDat_muxmu(requiredTag=mas)->mu</li>
+    <li>adjDat_muxmu(requiredTag=fem)-></li>
+    <li>adjDat_muxmu(requiredTag=neu)->mu</li>
+    <li>adjAcc_hoxho(requiredTag=mas)->ho</li>
+    <li>adjAcc_hoxho(requiredTag=fem)-></li>
+    <li>adjAcc_hoxho(requiredTag=neu)->ho</li>
+    <li>adjLoc_mxm(requiredTag=mas)->m</li>
+    <li>adjLoc_mxm(requiredTag=fem)-></li>
+    <li>adjLoc_mxm(requiredTag=neu)->m</li>
+
     <li>asker_x_a(asker_gender==Male)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_i_y(asker_gender==Male)->i</li>
