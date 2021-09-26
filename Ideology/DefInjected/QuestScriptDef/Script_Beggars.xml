@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed</li>
+    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
+    <li>hasHave(beggarCount==1)->has</li>
+    <li>hasHave(beggarCount>=2)->have</li>
+    <li>wasWere(beggarCount==1)->was</li>
+    <li>wasWere(beggarCount>=2)->were</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
+  -->
+  <Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] zrazen[betrayed_x_a_i]</li>
+    <li>letterTextBeggarsBetrayed->[groupLabelSingleOrPlural], kte[betrayed_ry_ra_ri] žádal[betrayed_x_a_i] o tvou charitativní pomoc, byl[betrayed_x_a_i] zrazen[betrayed_x_a_i]. Dobročinně smýšlející kolonisté budou nešťastní.</li>
+    <li>betrayed_x_a_i(beggarCount==1)->[beggars0_x_a]</li>
+    <li>betrayed_x_a_i(beggarCount>=2)->i</li>
+    <li>betrayed_ry_ra_ri(beggarCount==1)->r[beggars0_y_a]</li>
+    <li>betrayed_ry_ra_ri(beggarCount>=2)->ří</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Male)->žebrák</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1,beggars0_gender==Female)->žebračka</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->žebráci</li>
+  </Beggars.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>groupLabelPlural->travelers</li>
+    <li>groupLabelSingle->traveler</li>
+    <li>travelerInfo(beggarCount==1)->This [groupLabelSingle] is</li>
+    <li>travelerInfo(beggarCount>=2)->These [groupLabelPlural] are</li>
+    <li>beggingForInfo->for x[requestedThingCount] [requestedThing_label]</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->them</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] not part of any faction. If you wish, you can choose to kill, arrest, sell, or harvest [traverObjective], without diplomatic consequences.</li>
+    <li>approachInfo(beggarCount==1)->A poor [groupLabelSingle] named [beggars0_nameDef] is approaching looking for help</li>
+    <li>approachInfo(beggarCount>=2)->A group of poor [groupLabelPlural] are approaching looking for help</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] is begging [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->The [groupLabelPlural] are begging [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] wants the silver to pay off a debt to a gang of pirates who are hunting [beggars0_objective]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] needs the medicine to help a traveler who is injured nearby</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] wants the medicine to save [beggars0_possessive] loyal pet who was injured on the road</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] needs [requestedThing_label] to inoculate a sickly friend against deadly diseases</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] wants it to drown [beggars0_possessive] sorrows after losing a fellow traveler in a terrible accident</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->They want the silver so they can buy back a friend who was recently kidnapped</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->They need the medicine to attempt a life-saving operation on a fellow traveler who was attacked by mechanoids</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->They need the medicine to help their friends at a nearby settlement that was devasted by raiders</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->They want [requestedThing_label] so they can travel safely while looking for a new place to call home</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->They want [requestedThing_label] to help them drown their sorrows after losing their home in a terrible attack</li>
+    <li>interactionInfo(beggarCount==1)->You can give items to [beggars0_nameDef] by selecting a colonist and right-clicking on [beggars0_objective]</li>
+    <li>interactionInfo(beggarCount>=2)->You can give items to the [groupLabelPlural] by selecting a colonist and right-clicking on [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
+  -->
+  <Beggars.questDescriptionRules.rulesStrings>
+    <li>traveler(tag=cestovatel)-></li>
+    <li>traveler(tag=tulák)-></li>
+    <li>traveler(tag=vandrák)-></li>
+    <li>traveler(tag=žebrák)-></li>
+    <li>groupLabelPlural(requiredTag=cestovatel)->cestovatel</li>
+    <li>groupLabelPlural(requiredTag=tulák)->tulá</li>
+    <li>groupLabelPlural(requiredTag=vandrák)->vandrá</li>
+    <li>groupLabelPlural(requiredTag=žebrák)->žebrá</li>
+    <li>groupLabelSingle(requiredTag=cestovatel,beggars0_gender==Male)->cestovatel</li>
+    <li>groupLabelSingle(requiredTag=tulák,beggars0_gender==Male)->tulák</li>
+    <li>groupLabelSingle(requiredTag=vandrák,beggars0_gender==Male)->vandrák</li>
+    <li>groupLabelSingle(requiredTag=žebrák,beggars0_gender==Male)->žebrák</li>
+    <li>groupLabelSingle(requiredTag=cestovatel,beggars0_gender==Female)->cestovatelka</li>
+    <li>groupLabelSingle(requiredTag=tulák,beggars0_gender==Female)->tulačka</li>
+    <li>groupLabelSingle(requiredTag=vandrák,beggars0_gender==Female)->vandračka</li>
+    <li>groupLabelSingle(requiredTag=žebrák,beggars0_gender==Female)->žebračka</li>
+    <li>travelerNom_e_ci(requiredTag=cestovatel)->é</li>
+    <li>travelerNom_e_ci(requiredTag=tulák)->ci</li>
+    <li>travelerNom_e_ci(requiredTag=vandrák)->ci</li>
+    <li>travelerNom_e_ci(requiredTag=žebrák)->ci</li>
+    <li>travelerGen_u_ku(requiredTag=cestovatel)->ů</li>
+    <li>travelerGen_u_ku(requiredTag=tulák)->ků</li>
+    <li>travelerGen_u_ku(requiredTag=vandrák)->ků</li>
+    <li>travelerGen_u_ku(requiredTag=žebrák)->ků</li>
+    <li>travelerAcc(requiredTag=cestovatel,beggars0_gender==Male)->cestovatele</li>
+    <li>travelerAcc(requiredTag=tulák,beggars0_gender==Male)->tuláka</li>
+    <li>travelerAcc(requiredTag=vandrák,beggars0_gender==Male)->vandráka</li>
+    <li>travelerAcc(requiredTag=žebrák,beggars0_gender==Male)->žebráka</li>
+    <li>travelerAcc(requiredTag=cestovatel,beggars0_gender==Female)->cestovatelku</li>
+    <li>travelerAcc(requiredTag=tulák,beggars0_gender==Female)->tulačku</li>
+    <li>travelerAcc(requiredTag=vandrák,beggars0_gender==Female)->vandračku</li>
+    <li>travelerAcc(requiredTag=žebrák,beggars0_gender==Female)->žebračku</li>
+    <li>travelerInfo(beggarCount==1,beggars0_gender==Male)->Tento [groupLabelSingle]</li>
+    <li>travelerInfo(beggarCount==1,beggars0_gender==Female)->Tato [groupLabelSingle]</li>
+    <li>travelerInfo(beggarCount>=2)->Tito [groupLabelPlural][travelerNom_e_ci]</li>
+    <li>beggingForInfo->o [requestedThingCount] [requestedThing_1_234_5]</li>
+    <li>requestedThing_1_234_5(requestedThingCount==1,requestedThing==Silver)->stříbro</li>
+    <li>requestedThing_1_234_5(requestedThingCount>=2,requestedThing==Silver)->stříbra</li>
+    <li>requestedThing_1_234_5(requestedThingCount==1,requestedThing==MedicineHerbal)->bylinný přípravek</li>
+    <li>requestedThing_1_234_5(requestedThingCount==2,requestedThing==MedicineHerbal)->bylinné přípravky</li>
+    <li>requestedThing_1_234_5(requestedThingCount==3,requestedThing==MedicineHerbal)->bylinné přípravky</li>
+    <li>requestedThing_1_234_5(requestedThingCount==4,requestedThing==MedicineHerbal)->bylinné přípravky</li>
+    <li>requestedThing_1_234_5(requestedThingCount>=5,requestedThing==MedicineHerbal)->bylinných přípravků</li>
+    <li>requestedThing_1_234_5(requestedThingCount==1,requestedThing==MedicineIndustrial)->lékárničku</li>
+    <li>requestedThing_1_234_5(requestedThingCount==2,requestedThing==MedicineIndustrial)->lékárničky</li>
+    <li>requestedThing_1_234_5(requestedThingCount==3,requestedThing==MedicineIndustrial)->lékárničky</li>
+    <li>requestedThing_1_234_5(requestedThingCount==4,requestedThing==MedicineIndustrial)->lékárničky</li>
+    <li>requestedThing_1_234_5(requestedThingCount>=5,requestedThing==MedicineIndustrial)->lékárniček</li>
+    <li>requestedThing_1_234_5(requestedThingCount==1,requestedThing==Penoxycyline)->penoxycylin</li>
+    <li>requestedThing_1_234_5(requestedThingCount==2,requestedThing==Penoxycyline)->penoxycyliny</li>
+    <li>requestedThing_1_234_5(requestedThingCount==3,requestedThing==Penoxycyline)->penoxycyliny</li>
+    <li>requestedThing_1_234_5(requestedThingCount==4,requestedThing==Penoxycyline)->penoxycyliny</li>
+    <li>requestedThing_1_234_5(requestedThingCount>=5,requestedThing==Penoxycyline)->penoxycylinů</li>
+    <li>requestedThing_1_234_5(requestedThingCount==1,requestedThing==Beer)->pivo</li>
+    <li>requestedThing_1_234_5(requestedThingCount==2,requestedThing==Beer)->piva</li>
+    <li>requestedThing_1_234_5(requestedThingCount==3,requestedThing==Beer)->piva</li>
+    <li>requestedThing_1_234_5(requestedThingCount==4,requestedThing==Beer)->piva</li>
+    <li>requestedThing_1_234_5(requestedThingCount>=5,requestedThing==Beer)->piv</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->je</li>
+    <li>questDescription->[traveler][approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] nepatří k žádné frakci. Pokud chceš, můžeš se rozhodnout [traverObjective] zabít, zajmout, prodat do otroctví nebo [traverObjective] obrat o orgány, aniž by ses musel obávat diplomatických následků.</li>
+    <li>approachInfo(beggarCount==1)->[approaching] [poor][beggars0_y_a] [groupLabelSingle] jménem [beggars0_nameDef] hledající pomoc</li>
+    <li>approachInfo(beggarCount>=2)->[approaching] skupina [poor]ých [groupLabelPlural][travelerGen_u_ku] hledajících pomoc</li>
+    <li>approaching->Blíží se</li>
+    <li>approaching->Přichází</li>
+    <li>poor->chud</li>
+    <li>poor->chudobn</li>
+    <li>poor->nuzn</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] tě prosí [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural][travelerNom_e_ci] tě prosí [beggingForInfo]</li>
+    <li>bude_budou(beggarCount==1)->bude</li>
+    <li>bude_budou(beggarCount>=2)->budou</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->Stříbro chce použít ke splacení svého dluhu pirátskému gangu, který [beggars0_objective] pronásleduje</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->Léky potřebuje, aby pomohl[beggars0_x_a] svému parťákovi, který se nedaleko zranil při společném putování</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->Léky potřebuje k záchráně svého věrného mazlíčka, který se na společných cestách zranil</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[requestedThing_label] potřebuje k naočkování dlouhodobě nemocného přítele jako prevenci proti smrtelným chorobám</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->Chce utopit svůj žal po ztrátě svého parťáka, o kterého přiš[beggars0_el_la] při strašlivé nehodě</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Stříbro chtějí k tomu, aby mohli vykoupit přítele, který byl nedávno unesen</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Léky potřebují k tomu, aby se mohli pokusit o záchranou operaci svého parťáka, kterého na společných cestách napadli mechanoidi</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Léky potřebují k tomu, aby pomohli svým přátelům v nedaleké osadě, kterou zdevastovali nájezdníci</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->[requestedThing_label] chtějí k tomu, aby mohli bezpečně cestovat a zároveň hledat nové místo, kterému by mohli říkat domov</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->[requestedThing_label] chtějí k tomu, aby jim pomohlo utopit žal po ztrátě jejich domova, o který přišli při hrozném útoku</li>
+    <li>interactionInfo(beggarCount==1)->Aby [beggars0_nameDef] mohl[beggars0_x_a] převzít zmíněné položky, musíš na [beggars0_nej_ni] pomocí svého kolonisty kliknout pravým tlačítkem myši</li>
+    <li>interactionInfo(beggarCount>=2)->[groupLabelPlural][travelerGen_u_ku]m můžeš zmíněné položky předat tak, že vybereš svého kolonistu a pravým tlačítkem myši klikneš na [travelerAcc] jménem [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] se za [visitDurationTicks_duration] přesune jinam</li>
+    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural][travelerNom_e_ci] se za [visitDurationTicks_duration] přesunou jinam</li>
+  </Beggars.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>beggarSingle->beggar</li>
+    <li>beggarSingle->vagabond</li>
+    <li>beggarSingle->drifter</li>
+    <li>beggarSingle->traveler</li>
+    <li>beggarPlural->[beggarSingle]s</li>
+    <li>seekingSingle->seeks</li>
+    <li>seekingSingle->requests</li>
+    <li>seekingSingle->wishes for</li>
+    <li>seekingSingle->desires</li>
+    <li>seekingSingle->needs</li>
+    <li>seekingSingle->hopes for</li>
+    <li>seekingPlural->seek</li>
+    <li>seekingPlural->request</li>
+    <li>seekingPlural->wish for</li>
+    <li>seekingPlural->hope for</li>
+    <li>seekingPlural->desire</li>
+    <li>seekingPlural->need</li>
+    <li>alms->alms</li>
+    <li>alms->aid</li>
+    <li>alms->charity</li>
+    <li>alms->resources</li>
+  -->
+  <Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)->[poor][beggars0_y_a] [beggarSingle]</li>
+    <li>questName(beggarCount>=2)->[poor]í [beggarPlural]</li>
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>poor->chud</li>
+    <li>poor->chudobn</li>
+    <li>poor->nuzn</li>
+    <li>beggarSingle(beggars0_gender==Male)->cestovatel</li>
+    <li>beggarSingle(beggars0_gender==Male)->tulák</li>
+    <li>beggarSingle(beggars0_gender==Male)->vandrák</li>
+    <li>beggarSingle(beggars0_gender==Male)->žebrák</li>
+    <li>beggarSingle(beggars0_gender==Female)->cestovatelka</li>
+    <li>beggarSingle(beggars0_gender==Female)->tulačka</li>
+    <li>beggarSingle(beggars0_gender==Female)->vandračka</li>
+    <li>beggarSingle(beggars0_gender==Female)->žebračka</li>
+    <li>beggarPlural->cestovatelé</li>
+    <li>beggarPlural->tuláci</li>
+    <li>beggarPlural->vandráci</li>
+    <li>beggarPlural->žebráci</li>
+    <li>seekingSingle->shání</li>
+    <li>seekingSingle->prosí o</li>
+    <li>seekingSingle->žebrá o</li>
+    <li>seekingSingle->žádá o</li>
+    <li>seekingSingle->doufá v</li>
+    <li>seekingPlural->shánějící</li>
+    <li>seekingPlural->prosící o</li>
+    <li>seekingPlural->žebrající o</li>
+    <li>seekingPlural->žádající o</li>
+    <li>seekingPlural->doufající v</li>
+    <li>alms->almužnu</li>
+    <li>alms->milodar</li>
+    <li>alms->pomoc[need]</li>
+    <li>alms->[charityMas]dar</li>
+    <li>alms->[charityMas]příspěvěk</li>
+    <li>alms->[charityFem]podporu</li>
+    <li>need(p=3)-></li>
+    <li>need-> v nouzi</li>
+    <li>charityMas(p=3)-></li>
+    <li>charityMas->charitativní </li>
+    <li>charityMas->dobročinný </li>
+    <li>charityFem(p=3)-></li>
+    <li>charityFem->charitativní </li>
+    <li>charityFem->dobročinnou </li>
+  </Beggars.questNameRules.rulesStrings>
+  
+</LanguageData>
