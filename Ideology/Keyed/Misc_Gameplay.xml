@@ -134,13 +134,34 @@
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort} musí být nejprve {PAWN_gender ? pohřben : pohřbena}</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
   <RitualTargetGatherSpotInfo>Libovolné shromaždiště, například stůl</RitualTargetGatherSpotInfo>
-  <!-- EN: A lit campfire or ritual spot. -->
-  <RitualTargetCampfirePartyInfo>Ohniště s rozdělaným ohněm nebo rituální místo.</RitualTargetCampfirePartyInfo>
+  <!-- EN: Altar or any ritual spot. -->
+  <RitualTargetGatherAltarOrRitualSpotInfo>Oltář nebo libovolné rituální místo.</RitualTargetGatherAltarOrRitualSpotInfo>
+  <!-- EN: Altar, ideogram or any ritual spot. -->
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Oltář, ideogram nebo libovolné rituální místo.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>Světelná koule nebo rituální místo. Světelná koule a reproduktory musí být připojené k elektrické síti.</RitualTargetLightBallInfo>
+  <!-- EN: Lightball is not powered. -->
+  <RitualTargetLightBallIsNotPowered>Světelná koule není připojena k elektrické síti.</RitualTargetLightBallIsNotPowered>
+  <!-- EN: No powered speakers. -->
+  <RitualTargetNoPoweredSpeakers>Žádné napájené reproduktory.</RitualTargetNoPoweredSpeakers>
+  <!-- EN: Campfire is not fueled. -->
+  <RitualTargetCampfireNoFuel>V ohništi není žádné palivo.</RitualTargetCampfireNoFuel>
+  <!-- EN: Campfire must be unroofed. -->
+  <RitualTargetCampfireMustBeUnroofed>Ohniště nesmí být zastřešené.</RitualTargetCampfireMustBeUnroofed>
   <!-- EN: No nearby drum. -->
   <RitualTargetNoDrum>Žádný buben v blízkosti.</RitualTargetNoDrum>
-
+  <!-- EN: Need at least {0} unroofed cells nearby. -->
+  <RitualTargetNeedUnroofedCells>V blízkém okolí je potřeba alespoň {0} nezastřešených políček.</RitualTargetNeedUnroofedCells>
+  <!-- EN: A lit campfire or ritual spot. -->
+  <RitualTargetCampfirePartyInfo>Rozdělané ohniště nebo rituální místo.</RitualTargetCampfirePartyInfo>
+  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
+  <RitualTargetCampfireSkylanternsInfo>Rozdělané ohniště nebo rituální místo. Místo musí být nezastřešené a kolem něj musí být alespoň 25 políček bez střechy.</RitualTargetCampfireSkylanternsInfo>
+  <!-- EN: An unconnected Gauranlen tree. -->
+  <RitualTargetUnconnectedGaruanlenTreeInfo>Nespojený gauranlení strom.</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <!-- EN: Already connected to {PAWN_nameDef} -->
+  <RitualTargetConnectedGauranlenTree>Spojení již {PAWN_gender ? navázal : navázala} {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
+  <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; Case\Singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   
@@ -261,6 +282,14 @@
   <IdeoBuilding>struktura</IdeoBuilding>
   <!-- EN: relic -->
   <IdeoRelic>relikvie</IdeoRelic>
+  
+  <!-- Beggars -->
+  <!-- EN: Give {0} to {1_nameDef} -->
+  <GiveItemsTo>Darovat {0} - {1_nameDef}</GiveItemsTo>
+  <!-- EN: Cannot give {0} to {1_nameDef} -->
+  <CannotGiveItemsTo>Nelze darovat {0} - {1_nameDef}</CannotGiveItemsTo>
+  <!-- EN: No item found -->
+  <NoItemFound>Nebyly nalezeny žádné položky</NoItemFound>
 
   <!-- Outfits -->
   <!-- EN: Slave -->
