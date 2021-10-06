@@ -26,7 +26,7 @@
   <!-- EN: convert -->
   <Convert.label>konvertovat</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>Pokusí se někoho převést na ideoboženství řečníka. To sníží jistotu cíle v jeho vlastní víře. Míra snížení jistoty závisí na vyjednávacích dovednostech řečníka.</Convert.description>
+  <Convert.description>Pokusí se někoho převést na ideoboženství řečníka. To sníží jistotu cíle v jeho vlastní víře. Míra snížení jistoty závisí na vyjednávacích schopnostech řečníka.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} {INITIATOR_gender ? nedokázal : nedokázala} konvertovat {RECIPIENT_labelShort}. I přes neúspěšný pokus {RECIPIENT_gender ? byl : byla} {RECIPIENT_labelShort} {RECIPIENT_gender ? znejistěn : znejistěna}. {RECIPIENT_possessive} jistota proto klesla z původních {CERTAINTYBEFORE} na {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
@@ -81,7 +81,7 @@
   <!-- EN: reassure -->
   <Reassure.label>upevnit víru</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>Zvýší něčí jistotu v jeho vlastní víře. Množství znovunabyté víry závisí na vyjednávacích dovednostech řečníka.</Reassure.description>
+  <Reassure.description>Zvýší něčí jistotu v jeho vlastní víře. Množství znovunabyté víry závisí na vyjednávacích schopnostech řečníka.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} {INITIATOR_gender ? ujistil : ujistila} {RECIPIENT_labelShort}, čímž zvýšila {RECIPIENT_possessive} jistotu v ideoboženství {IDEO} z původních {BEFORECERTAINTY} na {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   

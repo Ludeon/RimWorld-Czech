@@ -229,10 +229,14 @@
   <ConfirmDecisionsTitle>Potvrď rozhodnutí</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>Vesmírná loď, o které tě informovala UI (*Name)Charlon Whitestone(/Name), opustí svůj režim hluboké hibernace a odletí pryč, hned jak dojde k založení nové kolonie. S touto lodí už nebude možné z této planety uniknout.</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>Kupec tvé kolonie ti umožní vzít si s sebou pouze jednu relikvii. Jakákoliv nevybraná relikvie tam zůstane, včetně:</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
-  <WantToProceed>Přeješ si pokračovat?</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>K přesunu do nové kolonie nebyla vybrána žádná relikvie.</ArchonexusRelicNotChosen><!--text_todo-->
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>K přesunu do nové kolonie {replace: ​{0}​; "​1​"-"byla vybrána 1"; "​2​"-"byly vybrány 2"; "​3​"-"byly vybrány 3"; "​4​"-"byly vybrány 4"; "​{0}​"-"bylo vybráno {0}"} ze {1} možných položek.</ArchonexusItemsNotChosen><!--text_todo-->
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected, even if equipped by a colonist, will be left behind, including: -->
+  <RemoveEquippedRelicsDescription>Kupci tvé kolonie ti dovolí vzít si s sebou jen jednu relikvii. Každá nevybraná relikvie, i ta, kterou je vybavený kolonista, tam bude zanechána, včetně:</RemoveEquippedRelicsDescription><!--text_todo-->
+  <!-- EN: Would you like to proceed? There's no going back from here. -->
+  <WantToProceed>Přeješ si pokračovat? Poté už nebude cesty zpět.</WantToProceed><!--text_todo-->
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>Konvertovat</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -240,7 +244,9 @@
   <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>Stávající vyznavač</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>Opouštíš oblast, ve které se nachází archotecké struktury, které jsi ještě zcela nedozkoumal.\n\nBudeš se sem moci přesídlit později, ale tvá kolonie bude již vymazána.</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>Opouštíš oblast, ve které se nachází archotecké struktury, které jsi ještě zcela neprozkoumal.\n\nBudeš se sem moci přesídlit později, ale tvá kolonie bude již vymazána.</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>Tvá kolonie byla právě prodána. Kupci nyní čekají, než si vybereš své další místo k osídlení.</SoldColonyDescription><!--text_todo-->
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>Nabouráním {lookup: {0}; Case\Singular; 2} upozorníš nepřátele a přiměješ je k útoku. Opravdu chceš nabourat {lookup: {0}; Case\Singular; 4}?</ConfirmHackEnenyTerminal>

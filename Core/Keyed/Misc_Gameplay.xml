@@ -28,12 +28,6 @@
   <DiedOn>Zemřel dne {0}</DiedOn>
   <!-- EN: Nobody -->
   <Nobody>Nikdo</Nobody>
-  <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>Změna dryádí kasty {lookup: {TREE_definite}; Case\Singular; 2} vyžaduje čas a energii.\n\nPoté, co spojená osoba promluví ke stromu, všechny dryády stráví {DURATION} dnů v kokonu, než se přemění na zvolenou kastu.\n\nStávající kokony zruší svou přeměnu, aby se mohly také přeměnit na aktuální kastu.</GauranlenModeChangeDescFull>
-  <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>Změní typ dryád, které bude {TREE_definite} vytvářet.</ChangeModeDesc>
-  <!-- EN: Connection strength -->
-  <ConnectionStrength>Síla spojení</ConnectionStrength>
   <!-- EN: Unowned -->
   <Unowned>Bez vlastníka</Unowned>
   <!-- EN: Dead for {0} -->
@@ -275,7 +269,7 @@
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>Postih k rychlosti práce</WorkSpeedPenalty>
   <!-- EN: Disabled -->
-  <DisabledCommand>Deaktivováno</DisabledCommand>
+  <DisabledCommand>Blokováno</DisabledCommand>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Připraven ke startu.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -1470,6 +1464,8 @@
   <DragPawnsToRolesInfo>Přesouvej postavy myší nebo levým/pravým kliknutím.</DragPawnsToRolesInfo>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Otrok. Člověk patřící jiným.</RitualBeginSlaveDesc>
+  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort} právě spí. Bude-li však součástí tohoto rituálu, po jeho zahájení se probudí.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Probudí se, jakmile zahájíš rituál.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
@@ -1518,6 +1514,9 @@
 
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Zamění {PAWN_labelShort}</RitualRoleReplaces>
+
+  <!-- EN: {0} starting quality -->
+  <StartingRitualQuality>{0} počáteční kvality</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
   <OutcomeBonusDesc_Quality>až {0} kvality</OutcomeBonusDesc_Quality>

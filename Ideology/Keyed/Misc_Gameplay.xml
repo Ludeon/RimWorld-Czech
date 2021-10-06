@@ -164,7 +164,9 @@
   <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; Case\Singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
-  
+  <!-- EN: Accuse -->
+  <Accuse>Obvinit</Accuse>
+
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Díky uspokojivému oslepovacímu rituálu {PAWN_gender ? získal : získala} {PAWN_labelShort} úroveň psiovazby!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
@@ -334,13 +336,25 @@
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Nahradit za</PreceptReplaceWith>
-  
+  <!-- EN: Starting quality -->
+  <StartingQuality>Počáteční kvalita</StartingQuality>
+  <!-- EN: Conviction chance -->
+  <ExpectedConvictionChance>Šance na odsouzení</ExpectedConvictionChance>
+ 
   <!-- EN: Must be placed indoors. -->
   <MustBePlacedIndoors>Musí se umístit do vnitřních prostor.</MustBePlacedIndoors>
 
   <!-- Gauranlen trees/Dryads -->
   <!-- EN: Connected to -->
   <ConnectedPawn>Spojený s</ConnectedPawn>
+  <!-- EN: Nobody -->
+  <Nobody>Nikdo</Nobody>
+  <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
+  <GauranlenModeChangeDescFull>Změna dryádí kasty {lookup: {TREE_definite}; Case\Singular; 2} vyžaduje čas a energii.\n\nPoté, co spojená osoba promluví ke stromu, všechny dryády stráví {DURATION} dnů v kokonu, než se přemění na zvolenou kastu.\n\nStávající kokony zruší svou přeměnu, aby se mohly také přeměnit na aktuální kastu.</GauranlenModeChangeDescFull>
+  <!-- EN: Change the type of dryads created by {TREE_definite}. -->
+  <ChangeModeDesc>Změní typ dryád, které bude {TREE_definite} vytvářet.</ChangeModeDesc>
+  <!-- EN: Connection strength -->
+  <ConnectionStrength>Síla spojení</ConnectionStrength>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Čeká se, až {CONNECTEDPAWN_nameDef} změní dryádí kastu.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
