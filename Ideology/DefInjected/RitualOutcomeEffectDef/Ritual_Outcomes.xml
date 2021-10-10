@@ -537,4 +537,42 @@
   <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy as the bladeholder artfully rended living flesh. -->
   <ScarificationCeremony.outcomeChances.3.description>Rituální jizvení nazvané {0} bylo okázalé! Řeč přivedla všechny na pokraj extáze právě ve chvíli, kdy jizvař začal svou čepelí dovedně řezat do živého masa.</ScarificationCeremony.outcomeChances.3.description>
   
+  <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
+  <Trial.description>Kvalita soudního procesu určuje pravděpodobnost, že obviněný bude odsouzen.</Trial.description>
+  <!-- EN: participant count -->
+  <Trial.comps.0.label>celkově zúčastněných</Trial.comps.0.label>
+  <!-- EN: {PAWN_labelShort}'s negotiation ability -->
+  <Trial.comps.1.label>{PAWN_labelShort} (vyjednávací schop.)</Trial.comps.1.label>
+  <!-- EN: Leader's negotiation ability -->
+  <Trial.comps.1.labelAbstract>Vyjednávací schopnost vůdce</Trial.comps.1.labelAbstract>
+  <!-- EN: {PAWN_labelShort}'s negotiation ability -->
+  <Trial.comps.2.label>{PAWN_labelShort} (vyjednávací schop.)</Trial.comps.2.label>
+  <!-- EN: Defendant's negotiation ability -->
+  <Trial.comps.2.labelAbstract>Vyjednávací schopnost obviněného</Trial.comps.2.labelAbstract>
+  <!-- EN: exonerated -->
+  <Trial.outcomeChances.0.label>zproštěn obvinění</Trial.outcomeChances.0.label>
+  <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
+  <Trial.outcomeChances.0.description>Argumenty, které {PROSECUTOR_gender ? vznesl žalobce : vznesla žalobkyně} {PROSECUTOR_labelShort}, nikoho nepřesvědčily. {PAWN_labelShort} byl tedy zproštěn obvinění.</Trial.outcomeChances.0.description>
+  <!-- EN: convicted -->
+  <Trial.outcomeChances.1.label>odsouzen</Trial.outcomeChances.1.label>
+  <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
+  <Trial.outcomeChances.1.description>Argumenty obžaloby všem ukázaly, že {PAWN_labelShort} je {PAWN_gender ? vinen : vina}. {PAWN_labelShort} {PAWN_gender ? byl tedy odsouzen : byla tedy odsouzena} a nyní může být {PAWN_gender ? potrestán : potrestána}. Můžeš {PAWN_objective} popravit nebo vyhostit, aniž by to někomu vadilo.</Trial.outcomeChances.1.description>
+  
+  <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
+  <TrialMentalState.description>Kvalita soudního procesu určuje pravděpodobnost, že obviněný bude odsouzen.</TrialMentalState.description>
+  <!-- EN: participant count -->
+  <TrialMentalState.comps.0.label>celkově zúčastněných</TrialMentalState.comps.0.label>
+  <!-- EN: {PAWN_labelShort}'s negotiation ability -->
+  <TrialMentalState.comps.1.label>{PAWN_labelShort} (vyjednávací schop.)</TrialMentalState.comps.1.label>
+  <!-- EN: Leader's negotiation ability -->
+  <TrialMentalState.comps.1.labelAbstract>Vyjednávací schopnost vůdce</TrialMentalState.comps.1.labelAbstract>
+  <!-- EN: exonerated -->
+  <TrialMentalState.outcomeChances.0.label>zproštěn obvinění</TrialMentalState.outcomeChances.0.label>
+  <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
+  <TrialMentalState.outcomeChances.0.description>Argumenty, které {PROSECUTOR_gender ? vznesl žalobce : vznesla žalobkyně} {PROSECUTOR_labelShort}, nikoho nepřesvědčily. {PAWN_labelShort} byl tedy zproštěn viny.</TrialMentalState.outcomeChances.0.description>
+  <!-- EN: convicted -->
+  <TrialMentalState.outcomeChances.1.label>odsouzen</TrialMentalState.outcomeChances.1.label>
+  <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
+  <TrialMentalState.outcomeChances.1.description>Argumenty obžaloby všem ukázaly, že {PAWN_labelShort} je {PAWN_gender ? vinen : vina}. {PAWN_labelShort} {PAWN_gender ? byl tedy odsouzen : byla tedy odsouzena} a nyní může být {PAWN_gender ? potrestán : potrestána}. Můžeš {PAWN_objective} popravit nebo vyhostit, aniž by to někomu vadilo.</TrialMentalState.outcomeChances.1.description>
+  
 </LanguageData>

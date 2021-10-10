@@ -262,7 +262,7 @@
 
   <!-- EN: Pen needed -->
   <AlertAnimalPenNeeded>Potřebuješ ohradu</AlertAnimalPenNeeded>
-  <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen or roped to a hitching post, they will wander away. -->
+  <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen or roped to a hitching spot, they will wander away. -->
   <AlertAnimalPenNeededDesc>Některá z tvých ochočených zvířat jsou tuláci. Pokud je neumístíš do zvířecího výběhu nebo neuvážeš k uvazišti, zatoulají se pryč.</AlertAnimalPenNeededDesc>
   <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
   <AlertAnimalPenNeededNoHandlers>Nemáš žádné chovatele, kteří by odvedli zvířata do výběhu.\n\nPřiřaď kolonistu k pracovní činnosti Chovatel.</AlertAnimalPenNeededNoHandlers>
@@ -274,6 +274,11 @@
   <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
   <AlertAnimalPenNotEnclosedDesc>Cedule značící výběh pro zvířata není zcela oplocená.\n\nUzavři výběh pomocí ohrady, barikád, branek, zdí nebo dveří, abys zabránil zvířatům v zatoulání.\n\nPokud necháš cedule bez řádného oplocení, budou tví chovatelé vracet zatoulaná zvířata zpět domů - pokud se zvířata opět vzdálí, budou muset tento úkon čas od času opakovat.</AlertAnimalPenNotEnclosedDesc>
 
+  <!-- EN: {ANIMAL_labelShort} in animal pen -->
+  <AlertPredatorInAnimalPen>{ANIMAL_labelShort} ve zvířecím výběhu</AlertPredatorInAnimalPen>
+  <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
+  <AlertPredatorInAnimalPenDesc>Ve zvířecím výběhu se nachází {ANIMAL_labelShort}.\n\nV horším případě začne lovit tvá zvířata.\n\nNezvaného predátora můžeš buď zabít, nebo počkat a doufat, že odejde.</AlertPredatorInAnimalPenDesc>
+
   <!-- EN: Animal wandering away -->
   <AlertAnimalIsRoaming>Toulavé zvíře odchází</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
@@ -283,6 +288,11 @@
   <AlertPennedAnimalHungry>Chovaná zvěř hladoví</AlertPennedAnimalHungry>
   <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
   <AlertPennedAnimalHungryDesc>Některá z tvých chovaných zvířat jsou hladová.\n\nVyber ceduli značící výběh a na kartě Krmení zobraz další podrobnosti.\n\nZvířata spásající trávu mohou potřebovat větší výběh, který poskytne dostatek trávy. Jiná zvířata mohou potřebovat zajistit přísun sena nebo podobného krmiva dodávaného pomocí skladu.\n\nHladová jsou následující zvířata:\n\n{0}</AlertPennedAnimalHungryDesc>
+
+  <!-- EN: Hungry hitched animal -->
+  <AlertHitchedAnimalHungryNoFood>Uvázané zvíře hladoví</AlertHitchedAnimalHungryNoFood><!--text_todo-->
+  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nThey can be brought food or the hitching spot can be removed to allow them to roam and find food on their own.\n\nThe following hitched animals are hungry:\n\n{0} -->
+  <AlertHitchedAnimalHungryNoFoodDesc>Některá zvířata uvázaná k uvazištím mají hlad. Pravděpodobně nemají ve svém dosahu dostatečné množství vhodné potravy.\n\nBuď jim potravu přines nebo odstraň karavanní uvaziště, aby se mohla volně potulovat a hledat si potravu sama.\n\nHladová jsou následující uvázaná zvířata:\n\n{0}</AlertHitchedAnimalHungryNoFoodDesc><!--text_todo-->
 
   <!-- EN: Raids arriving in {0} -->
   <AlertTimedRaidsArrivingIn>Útoky přijdou za {0}</AlertTimedRaidsArrivingIn>

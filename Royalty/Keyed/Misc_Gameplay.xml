@@ -20,8 +20,8 @@
   <PsycastNeurotrainerLabel>psiotrenér ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>Použít psiotrenér k naučení schopnosti {0}</PsycastNeurotrainerUseLabel>
-  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
-  <PsycastNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní psionickou schopnost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě předají své vědomosti o dané schopnosti a přemění se v potřebnou nervovou tkáň.</PsycastNeurotrainerDescription>
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
+  <PsycastNeurotrainerDescription>Jednorázová super-dávka mechanitů, kteří vytrénují konkrétní psionickou schopnost.\n\nDávka se podává skrze oko. Jakmile jsou mechanité vpraveni do mozku uživatele, okamžitě předají své vědomosti o dané schopnosti a přemění se v potřebnou nervovou tkáň.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort} {USER_gender ? použil : použila} psiotrenér k naučení schopnosti {1}.</AbilityNeurotrainerUsed>
   <!-- EN: Requires psylink -->
@@ -88,20 +88,6 @@
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>Kliknutím nastavíš hladinu psiofokusu.</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>musí být {0_gender ? povolán : povolána}.</AbilityDisabledUndrafted>
-  <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>schopnost není připravena. Znovu dostupná bude za {0}.</AbilityOnCooldown>
-  <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>ve frontě se již nachází nějaká schopnost.</AbilityAlreadyQueued>
-  <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>žádné teplo k přesměrování.</AbilityNoEntropyToDump>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
-  <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}.</AbilityReadyText>
-  
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>není přiřazený trůn.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -178,4 +164,8 @@
   <AnimaLinkingExplanationBase>Obřad, při kterém dochází ke spojení s animou, je mnohem účinější s více účastníky. Čím více lidí se zapojí, tím kratší bude doba trvání obřadu, a tím více doroste posvátné trávy.\n\n{replace: ​{0}​; "​0​"-"Nepřidáš-li žádného dalšího účastníka, po skončení obřadu nedoroste žádný trs posvátné trávy."; "​{0}​"-"S pomocí {replace: ​{0}​; "​1​"-"1 účastníka"; "​2​"-"2 účastníků"; "​3​"-"3 účastníků"; "​4​"-"4 účastníků"; "​{0}​"-"{0} účastníků"} je zajištěno, že po skončení obřadu {replace: ​{1}​; "​1​"-"doroste 1 trs"; "​2​"-"dorostou 2 trsy"; "​3​"-"dorostou 3 trsy"; "​4​"-"dorostou 4 trsy"; "​{1}​"-"doroste {1} trsů"} posvátné trávy."}</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Zatím není naložen veškerý potřebný náklad!</ShuttleRequiredItemsNotSatisfied>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>žádné teplo k přesměrování.</AbilityNoEntropyToDump>
+
 </LanguageData>

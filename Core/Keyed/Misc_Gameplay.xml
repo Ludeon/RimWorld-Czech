@@ -1526,5 +1526,17 @@
   <OutcomeLetterLabel>{replace: {OUTCOMELABEL}​; "á​"-"ý"; "é​"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>musí být {0_gender ? povolán : povolána}.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>schopnost není připravena. Znovu dostupná bude za {0}.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>ve frontě se již nachází nějaká schopnost.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}.</AbilityReadyText>
   
 </LanguageData>
