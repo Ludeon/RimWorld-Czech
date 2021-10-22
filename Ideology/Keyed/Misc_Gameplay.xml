@@ -425,17 +425,17 @@
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>nakládání surovin</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>(+ biologické přizpůsobování)</BiosculpterPodCycleWillBiotune><!--text_todo-->
+  <BiosculpterPodCycleWillBiotune>(+ biologické přizpůsobování)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
   <BiosculpterPodCycleCommand>Zahájit {replace: {0}; "bioregenerace"-"regenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus</BiosculpterPodCycleCommand>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>Připravena na výběr cyklu</BiosculpterPodCycleSelection><!--text_todo-->
+  <BiosculpterPodCycleSelection>Připravena na výběr cyklu</BiosculpterPodCycleSelection>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>Výživa naložena, bez elektřiny</BiosculpterPodCycleSelectionNoPower><!--text_todo-->
+  <BiosculpterPodCycleSelectionNoPower>Výživa naložena, bez elektřiny</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>Skončí po uplynutí</BiosculpterCycleTimeRemaining>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>Pozastaveno: Bez elektřiny (přerušení za {TIME})</BiosculpterCycleNoPowerInterrupt><!--text_todo-->
+  <BiosculpterCycleNoPowerInterrupt>Pozastaveno: Bez elektřiny (přerušení za {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
   <BiosculpterBiotunedTo>Biologické přizpůsobení</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
@@ -443,11 +443,11 @@
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>Přeruší aktuální cyklus. Osádka bude z komory vyhozena, aniž by získala prospěch z účinků cyklu, a navíc bude trpět krátkodobou nemocí z bioplastiky.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>{PAWN_labelShort} vstoupí do bioplastické komory a zahájí {replace: {CYCLE}; "bioregenerace"-"regenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterEnteringMessage><!--text_todo-->
+  <BiosculpterEnteringMessage>{PAWN_labelShort} vstoupí do bioplastické komory a zahájí {replace: {CYCLE}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} vyzvedne {INGREDIENTS} a zahájí {replace: {CYCLE}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterLoadingStartedMessage><!--text_todo-->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} vyzvedne {INGREDIENTS} a zahájí {replace: {CYCLE}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>{PAWN_labelShort} vyzvedne {INGREDIENTS}, umístí {DOWNED_labelShort} do bioplastické komory a zahájí {replace: {CYCLE}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterCarryStartedMessage><!--text_todo-->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} vyzvedne {INGREDIENTS}, umístí {DOWNED_labelShort} do bioplastické komory a zahájí {replace: {CYCLE}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{replace: ​{0}​; "​1​"-"1 jednotka"; "​2​"-"2 jednotky"; "​3​"-"3 jednotky"; "​4​"-"4 jednotky"; "​{0}​"-"{0} jednotek"} výživy</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
@@ -463,7 +463,7 @@
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Faktor rychlosti (čistota místnosti)</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>Faktor rychlosti (biopřizpůsobení)</BiosculpterBiotunedSpeedFactor><!--text_todo-->
+  <BiosculpterBiotunedSpeedFactor>Faktor rychlosti (biopřizpůsobení)</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>Vyléčí se následující zdravotní problémy</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->

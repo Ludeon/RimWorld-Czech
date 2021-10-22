@@ -108,44 +108,43 @@
   <RemoveCurrentRole>Odebrat aktuální roli</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod for {0} cycle -->
-  <EnterBiosculpterPod>Vstoupit do bioplastické komory ({replace: {0}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus)</EnterBiosculpterPod><!--text_todo-->
+  <EnterBiosculpterPod>Vstoupit do bioplastické komory ({replace: {0}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus)</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Biologicky přizpůsobena na někoho jiného.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
   <UnderMinBiosculpterAgeReversalAge>Pro omlazování musí mít alespoň {replace: ​{0}​; "​1​"-"1 rok"; "​2​"-"2 roky"; "​3​"-"3 roky"; "​4​"-"4 roky"; "​{0}​"-"{0} let"}.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
-  <CarryToBiosculpterPod>Přenést do bioplastické komory - {PAWN_label} ({replace: {0}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus)</CarryToBiosculpterPod><!--text_todo-->
+  <CarryToBiosculpterPod>Přenést do bioplastické komory - {PAWN_label} ({replace: {0}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus)</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>Nelze přenést do bioplastické komory</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>Není dostupná žádná bioplastická komora.</NoBiosculpterPod>
   <!-- EN: Nutrition not loaded -->
-  <BiosculpterNutritionNotLoaded>Není naložena výživa</BiosculpterNutritionNotLoaded><!--text_todo-->
+  <BiosculpterNutritionNotLoaded>Není naložena výživa</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>Obsazená</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>Nelze vstoupit</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>Nelze zahájit {replace: {0}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus</BiosculpterCannotStartCycle><!--text_todo-->
+  <BiosculpterCannotStartCycle>Nelze zahájit {replace: {0}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>Nelze najít potřebné ingredience k zahájení cyklu ({INGREDIENTS})</BiosculpterMissingIngredients><!--text_todo-->
+  <BiosculpterMissingIngredients>Nelze najít potřebné ingredience k zahájení cyklu ({INGREDIENTS})</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>Kolem není nikdo, kdo by tohle mohl použít</BiosculpterNoEligiblePawns><!--text_todo-->
-  <!-- EN: Biotuned to {PAWN_labelShort} and they're not around -->
-  <BiosculpterNoEligiblePawnsBiotuned>Biologicky přizpůsobená komora. {PAWN_labelShort} je mimo dosah.</BiosculpterNoEligiblePawnsBiotuned><!--text_todo-->
+  <BiosculpterNoEligiblePawns>Kolem není nikdo, kdo by tohle mohl použít</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>Biologicky přizpůsobená komora. {PAWN_labelShort} je mimo dosah.</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
-  <BiosculpterAutoLoadNutritionLabel>Automatické nakládání výživy</BiosculpterAutoLoadNutritionLabel><!--text_todo-->
-  <!-- EN: Automatically load the nutrtion required to run a cycle -->
-  <BiosculpterAutoLoadNutritionDescription>Automaticky nakládat výživu potřebnou ke spuštění cyklu.</BiosculpterAutoLoadNutritionDescription><!--text_todo-->
+  <BiosculpterAutoLoadNutritionLabel>Automatické nakládání výživy</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>Automaticky nakládat výživu potřebnou ke spuštění cyklu.</BiosculpterAutoLoadNutritionDescription>
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
-  <BiosculpterAutoAgeReversalLabel>Automatické omlazování ({PAWN_labelShort})</BiosculpterAutoAgeReversalLabel><!--text_todo-->
-  <!-- EN: Automatically satisfy the yearly transhumanist need of {PAWN_labelShort} to run an age reversal treatment in this pod. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>Každý rok automaticky uspokojovat transhumanistickou potřebu, kterou v této komoře podstupuje {PAWN_labelShort} využitím léčebné omlazovací kúry.\n\n{NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription><!--text_todo-->
-  <!-- EN: If enabled, {PAWN_labelShort} will automatically take their next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>Pokud je tato volba zapnuta, a to včetně připravené komory, {PAWN_labelShort} automaticky podstoupí svou další léčebnou proceduru za {TIME}.</BiosculpterAutoAgeReversalDescriptionFuture><!--text_todo-->
-  <!-- EN: {PAWN_labelShort} already wants their next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} už chce podstoupit svou další léčebnou proceduru. Je-li tato volba zapnuta, zahájí ji automaticky.</BiosculpterAutoAgeReversalDescriptionNow><!--text_todo-->
+  <BiosculpterAutoAgeReversalLabel>Automatické omlazování ({PAWN_labelShort})</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>Automaticky provádět v této komoře každoroční zvrácení věku, po kterém {PAWN_labelShort}, v souladu s {PAWN_gender ? jeho : jejím} přesvědčením, touží.\n\n{NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>Pokud je tato volba zapnuta, a to včetně připravené komory, {PAWN_labelShort} automaticky podstoupí svou další léčebnou proceduru za {TIME}.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} už chce podstoupit svou další léčebnou proceduru. Je-li tato volba zapnuta, zahájí ji automaticky.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>Vyzvedává ingredience potřebné pro bioplastický cyklus.</BiosculpterJobReportCollectIngredients><!--text_todo-->
-
+  <BiosculpterJobReportCollectIngredients>Vyzvedává ingredience pro bioplastický cyklus.</BiosculpterJobReportCollectIngredients>
 </LanguageData>
