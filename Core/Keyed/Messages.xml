@@ -135,7 +135,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Nejsou k dispozici žádná místa pro zvířata, na kterých by mohla spát.</MessageNoAnimalBeds>
   <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>K operaci bude potřeba {0} nebo lepší. V současnosti má {PAWN_labelShort} nastavený režim '{2}'.</MessageTooLowMedCare>
+  <MessageTooLowMedCare>{PAWN_labelShort} je aktuálně v režimu '{2}'. K operaci je nicméně zapotřebí {0}, případně lepší léčivo.</MessageTooLowMedCare>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}</PawnDiedBecauseOf>
@@ -173,9 +173,9 @@
   <MessageNoHandlerSkilledEnough>Žádný chovatel nedokáže tohle zvíře ochočit ({ANIMAL_kindBase} vyžaduje dovednost {2} na úrovni {1}; {HANDLER_gender ? nejlepším : nejlepší} {HANDLER_gender ? chovatelem : chovatelkou} je aktuálně {HANDLER_labelShort} s úrovní {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? byl : byla} {EATEN_gender ? sežrán : sežrána} nebezpečným zvířetem ({PREDATOR}).</MessageEatenByPredator>
+  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? byl : byla} {EATEN_gender ? sežrán : sežrána} {lookup: {PREDATOR}; Case\Singular; 7}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREY_labelShort} {PREY_gender ? byl : byla} {PREY_gender ? napaden : napadena} nebezpečným zvířetem ({PREDATOR})!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort} {PREY_gender ? byl : byla} {PREY_gender ? napaden : napadena} {lookup: {PREDATOR}; Case\Singular; 7}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort} pobíhá volně po okolí! Brzy opustí mapu, pokud chovatel zvíře neodchytí lasem a neodvede zpět do ohrady.</MessageRoamerLeaving>
