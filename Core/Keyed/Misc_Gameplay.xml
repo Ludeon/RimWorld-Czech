@@ -265,7 +265,7 @@
   <!-- EN: Room -->
   <Room>Místnost</Room>
   <!-- EN: Beauty here -->
-  <BeautyHere>Vzhled prostředí v tomto místě</BeautyHere>
+  <BeautyHere>Krása prostředí v tomto místě</BeautyHere>
   <!-- EN: No power -->
   <NoPower>Bez elektřiny</NoPower>
   <!-- EN: Work speed penalty -->
@@ -998,7 +998,7 @@
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Přepínač pro viditelnost/skrytí oblastí.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>Přepínač pro zobrazení/skrytí vzhledu prostředí.\n\nZobrazuje krásu světa tak, jak by jej vnímala postava stojící v místě, kde se nachází kurzor myši.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Přepínač pro zobrazení/skrytí krásy prostředí.\n\nZobrazuje krásu světa tak, jak by jej vnímala postava stojící v místě, kde se nachází kurzor myši.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
   <ShowRoomStatsToggleButton>Přepínač pro zobrazení/skrytí statistik místností.\n\nZobrazí statistiky místnosti v místě, ve které se nachází kurzor myši.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
@@ -1138,7 +1138,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>Není namontováno</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>Vykopaný strom zemře za {time}, pokud nebude znovu zasazen.</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>Nebude-li vykopaný strom znovu zasazen, uhyne za {time}.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1509,7 +1509,7 @@
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Není dostupné žádné vhodné místo k mluvení.</AbilitySpeechDisabledNoSpot>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění získají na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění budou mít na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
@@ -1535,6 +1535,8 @@
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Zamění {PAWN_labelShort}</RitualRoleReplaces>
 
+  <!-- EN: {0} used -->
+  <Used>Využití {lookup: {0}; Case\Singular; 2}</Used>
   <!-- EN: {0} starting quality -->
   <StartingRitualQuality>{0} počáteční kvality</StartingRitualQuality>
 

@@ -492,8 +492,6 @@
   <GoodwillChangedReason_Traded>uskutečněný obchod</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>napadení karavany</GoodwillChangedReason_AttackedCaravan>
-  <!-- EN: natural tendency to reach {0} over time -->
-  <GoodwillChangedReason_NaturallyOverTime>přirozená tendence k dosažení {0} v průběhu času</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} {1_gender ? opustil : opustila} mapu {1_gender ? zdravý : zdravá}</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {1_labelShort} -->
@@ -615,6 +613,9 @@
 
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
   <MessageNoResearchBenchForTechprint>Nelze aplikovat: Není k dispozici žádné dosažitelné výzkumné stanoviště.</MessageNoResearchBenchForTechprint>
+
+  <!-- EN: An extracted tree just died. -->
+  <MessageMinifiedTreeDied>Vykopaný strom právě uhynul.</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
@@ -685,5 +686,8 @@
   <MessageWarningNotEnoughFertility>Vyžaduje úrodnější půdu.</MessageWarningNotEnoughFertility>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>překážející {0_label}.</BlockedBy>
+
+  <!-- EN: Warning: {0} has been marked for cutting. -->
+  <MessageWarningCutImportantPlant>Varování: {0} byl označen k pokácení.</MessageWarningCutImportantPlant>
 
 </LanguageData>

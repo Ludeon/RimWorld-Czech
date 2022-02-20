@@ -11,12 +11,14 @@
   <RandomStructureTip>Pro tvé ideoboženství bude použita náhodná struktura.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Pro tvé ideoboženství bude použit náhodný styl.</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>Přizpůsobit</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>Hrát klasické</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>Vytvořit proměnlivé...</CreateFluid>
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>Neaktivní systém ideoboženství</PlayClassic> <!-- text_todo -->
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>Vytvořit vlastní\n(proměnlivé)</CreateCustomFluid> <!-- text_todo -->
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>Vytvořit vlastní\n(neměnné)</CreateCustomFixed>  <!-- text_todo -->
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>Vlastní ideoboženství</CustomIdeoligions> <!-- text_todo -->
   <!-- EN: Load saved -->
   <LoadSaved>Načíst uložené</LoadSaved>
   <!-- EN: Structure -->
@@ -67,6 +69,8 @@
   <PreceptThoughtMoodRange>{0} až {1}</PreceptThoughtMoodRange>
   <!-- EN: total bodysize per colonist -->
   <AnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu</AnimalsBodySizePerColonist>
+  <!-- EN: total nearby bodysize per colonist -->
+  <VeneratedAnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu v blízkém okolí</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
   <PlantThing>Zasadit {lookup: {0_label}; Case\Singular; 4}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
@@ -138,6 +142,8 @@
   <RitualTargetEmptyGraveInfo>Prázdný hrob k truchlení (chybějící {PAWN_labelShort}).</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Hrob, ve kterém odpočívá {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Hrob obsahující mrtvolu.</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>Prázdný hrob k truchlení (chybějící {IDEO_memberNameIndef}).</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -176,7 +182,11 @@
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
   <Accuse>Obvinit</Accuse>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>Očekává se, že každý stávající i nově příchozí kolonista ({IDEOMEMBER}) bude rituálně oslepen.</RitualBlindingTriggerExtraDesc>
 
+  <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
+  <RitualOutcomeExtraDesc_DancePartyWorkFocus>Každý, kdo se zúčastnil rituálu, získal jednodenní nadšení pro práci ({PERCENTAGE} ke globální rychlosti práce)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Díky uspokojivému oslepovacímu rituálu {PAWN_gender ? získal : získala} {PAWN_labelShort} úroveň psiovazby!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
@@ -365,18 +375,48 @@
   <ChangeModeDesc>Změní typ dryád, které bude {TREE_definite} vytvářet.</ChangeModeDesc>
   <!-- EN: Connection strength -->
   <ConnectionStrength>Síla spojení</ConnectionStrength>
+  <!-- EN: {0} strength -->
+  <ConnectionStrengthDisplay>{0} síly</ConnectionStrengthDisplay>
+  <!-- EN: Determines how many dryads this tree can support. -->
+  <ConnectionStrengthDesc>Určuje, kolik dryád dokáže tento strom pojmout.</ConnectionStrengthDesc>
+  <!-- EN: Max dryads -->
+  <MaximumDryads>Maximální počet dryád</MaximumDryads>
+  <!-- EN: The maximum number of dryads this tree can support. -->
+  <MaximumDryadsDesc>Maximální počet dryád, které tento strom dokáže pojmout.</MaximumDryadsDesc>
+  <!-- EN: Max dryads based on connection strength -->
+  <MaxDryadsBasedOnConnectionStrength>Maximum dryád na základě síly spojení</MaxDryadsBasedOnConnectionStrength>
+  <!-- EN: Pruning connection strength gain -->
+  <PruningConnectionStrength>Nárůst síly spojení při prořezávání</PruningConnectionStrength>
+  <!-- EN: Hours per day to maintain -->
+  <PruningHoursToMaintain>Hod/den potřebných k udržování</PruningHoursToMaintain>
+  <!-- EN: Desired -->
+  <DesiredConnectionStrength>Požadovaná síla</DesiredConnectionStrength>
+  <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} bude prořezávat {TREE_definite} dostatečně dlouhou dobu, aby {CONNECTEDPAWN_gender ? udržel : udržela} sílu spojení nad danou úrovní.\n\nČím vyšší je síla spojení, tím více dryád dokáže strom pojmout, ale tím rychleji bude síla spojení opět klesat, což má za následek, že strom musí být prořezáván častěji.\n\nKliknutím na lištu můžeš nastavit požadovanou sílu spojení.\n\nPokles síly spojení za den: {FALL}\n\nSíla spojení je ovlivňována okolními stavbami.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>Čeká se, až {CONNECTEDPAWN_nameDef} změní dryádí kastu.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>Dryádí kasta</GauranlenTreeMode>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
-  <SpawningDryadIn>Za {TIME} zplodí {lookup: {DRYAD_label}; Case\Singular; 4}.</SpawningDryadIn>
+  <SpawningDryadIn>Ke zrození {lookup: {DRYAD_label}; Case\Singular; 2} dojde za {TIME}.</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
   <ChangingDryadIntoType>Probíhá přeměna na {lookup: {TYPE_label}; Case\Singular; 4}.</ChangingDryadIntoType>
+  <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
+  <DryadProducesResourcesDesc>Každá {DRYAD_label} produkuje {replace: ​{DURATION}​; "2 dnů"-"každé (*DateTime)2 dny(/DateTime)"; "3 dnů"-"každé (*DateTime)3 dny(/DateTime)"; "4 dnů"-"každé (*DateTime)4 dny(/DateTime)"; "​{DURATION}​"-"každých {DURATION}"}:\n{RESOURCES}</DryadProducesResourcesDesc>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>K vytvoření gauranleního lusku je síla spojení příliš nízká.</ConnectionStrengthTooWeakForGaumakerPod>
+  <!-- EN: Unconnected -->
+  <Unconnected>Bez spojení</Unconnected>
   <!-- EN: Dryads -->
   <DryadPlural>Dryády</DryadPlural>
+  <!-- EN: Connection strength affected by -->
+  <ConnectionStrengthAffectedBy>Sílu spojení ovlivňuje</ConnectionStrengthAffectedBy>
+  <!-- EN: Currently affected by -->
+  <CurrentlyAffectedBy>V současné době jej ovlivňuje</CurrentlyAffectedBy>
+  <!-- EN: {0} connection strength needed to support a dryad. -->
+  <NotEnoughConnectionStrengthForSingleDryad>Ke zrození dryády je potřeba alespoň {0} síla spojení.</NotEnoughConnectionStrengthForSingleDryad>
+  <!-- EN: Cannot assign allowed area -->
+  <CannotAssignAllowedAreaToDryad>Nelze přiřadit povolenou oblast</CannotAssignAllowedAreaToDryad>
 
   <!-- EN: Charging -->
   <RechargeableCharging>Nabíjení</RechargeableCharging>
