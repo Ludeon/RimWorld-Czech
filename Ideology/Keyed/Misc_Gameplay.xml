@@ -12,13 +12,13 @@
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>Pro tvé ideoboženství bude použit náhodný styl.</RandomStyleTip>
   <!-- EN: Ideology system inactive -->
-  <PlayClassic>Neaktivní systém ideoboženství</PlayClassic> <!-- text_todo -->
+  <PlayClassic>Neaktivní systém ideoboženství</PlayClassic>
   <!-- EN: Create custom\n(fluid) -->
-  <CreateCustomFluid>Vytvořit vlastní\n(proměnlivé)</CreateCustomFluid> <!-- text_todo -->
+  <CreateCustomFluid>Vytvořit vlastní\n(proměnlivé)</CreateCustomFluid>
   <!-- EN: Create custom\n(fixed) -->
-  <CreateCustomFixed>Vytvořit vlastní\n(neměnné)</CreateCustomFixed>  <!-- text_todo -->
+  <CreateCustomFixed>Vytvořit vlastní\n(neměnné)</CreateCustomFixed>
   <!-- EN: Custom ideoligions -->
-  <CustomIdeoligions>Vlastní ideoboženství</CustomIdeoligions> <!-- text_todo -->
+  <CustomIdeoligions>Vlastní ideoboženství</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>Načíst uložené</LoadSaved>
   <!-- EN: Structure -->
@@ -85,10 +85,8 @@
   <RequiredPrecepts>Povinné zásady</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>Povinné rituály</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>Vypne zásady</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>Vypne {replace: ​{0}​; "​1​"-"1 zásadu"; "​2​"-"2 zásady"; "​3​"-"3 zásady"; "​4​"-"4 zásady"; "​{0}​"-"{0} zásad"}.</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>Nedovolí volbu zásady</PreventsPrecepts> <!-- text_todo -->
   <!-- EN: Styles -->
   <Styles>Styly</Styles>
   <!-- EN: Chance to have precept -->
@@ -143,7 +141,7 @@
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Hrob, ve kterém odpočívá {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
-  <RitualTargetGraveInfoAbstractNoIdeo>Hrob obsahující mrtvolu.</RitualTargetGraveInfoAbstractNoIdeo> <!-- text_todo -->
+  <RitualTargetGraveInfoAbstractNoIdeo>Hrob obsahující mrtvolu.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>Prázdný hrob k truchlení (chybějící {IDEO_memberNameIndef}).</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
