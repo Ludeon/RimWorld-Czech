@@ -109,22 +109,22 @@
   <NeedMealSourceDesc>Nemáš žádnou možnost, jak bys připravil pořádné pokrmy ze syrových potravin.\n\nPostav sporák, ohniště nebo dávkovač nutriční pasty.\n\n(Nesmí být ve vězeňské cele, protože by ho kolonisté nemohli používat.)</NeedMealSourceDesc>
 
   <!-- EN: Need recreation variety -->
-  <NeedJoySource>Potřebuješ rozmanitost relaxace</NeedJoySource>
+  <NeedJoySource>Potřebuješ relaxační rozmanitost</NeedJoySource>
   <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
-  <NeedJoySourceDesc>{1} nemá k dispozici dostatek různorodých typů relaxace. Na aktuální úrovni očekávání ({2}) {0} nestačí, kolonisté jich vyžadují {3}, aby zůstali spokojeni. Zajisti jim větší rozmanitost relaxačních aktivit.\n\n{4}\n\n{5}\n\nPoznámka: Můžeš si zkontrolovat typ relaxace u některých předmětů na stránce statistik, která je dostupná po kliknutí na tlačítko 'i' v okně předmětu.</NeedJoySourceDesc>
+  <NeedJoySourceDesc>{1} má k dispozici pouze {replace: ​{0}​; "​2​"-"2 různé typy"; "​3​"-"3 různé typy"; "​4​"-"4 různé typy"; "​{0}​"-"{0} různých typů"} relaxací. Při aktuální úrovni očekávání ({2}) kolonisté vyžadují {replace: ​{3}​; "​2​"-"2 různé typy"; "​3​"-"3 různé typy"; "​4​"-"4 různé typy"; "​{3}​"-"{3} různých typů"} relaxačních aktivit. Zpestři jim volný čas přidáním nových druhů relaxačních aktivit.\n\n{4}\n\n{5}\n\nPoznámka: Typ relaxace veškerých předmětů můžeš zjistit v jejich informačním okně, které vyvoláš kliknutím na písmeno 'i' na jejich kartě.</NeedJoySourceDesc>
   <!-- EN: Available recreation types -->
   <AvailableRecreationTypes>Dostupné typy relaxací</AvailableRecreationTypes>
   <!-- EN: Missing recreation types -->
   <MissingRecreationTypes>Chybějící typy relaxací</MissingRecreationTypes>
   <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
-  <CurrentExpectationsAndRecreation>Na aktuální úrovni očekávání ({0}), každá tolerance klesá o {1} za den, pokud je vzhůru.\n\nDoporučený počet typů relaxací: {2}</CurrentExpectationsAndRecreation>
+  <CurrentExpectationsAndRecreation>Při aktuální úrovni očekávání ({0}) klesá každá tolerance o {1} za den při bdělém stavu.\n\nDoporučený počet typů relaxací: {2}</CurrentExpectationsAndRecreation>
   <!-- EN: bored -->
   <bored>již nezabaví</bored>
 
   <!-- EN: Boredom -->
   <Boredom>Nuda</Boredom>
   <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
-  <BoredomDesc>Tito lidé buď vyžadují relaxační aktivity, a nebo by je měli dle rozvrhu provádět, ale jsou již znuděni z každého dostupného zdroje relaxace:\n\n{0}\n\nZajisti jim větší rozmanitost relaxačních aktivit.\n\nAktuálně dostupné typy relaxací pro {PAWN_labelShort}:\n\n{2}</BoredomDesc>
+  <BoredomDesc>Tito lidé potřebují buď relaxovat, nebo dle rozvrhu mají relaxovat, ale všechny dostupné zdroje relaxačních aktivit je již nudí:\n\n{0}\n\nZajisti jim větší rozmanitost relaxačních aktivit.\n\n{PAWN_labelShort} může v současné době využívat tyto druhy relaxací:\n\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Potřebuješ baterie</NeedBatteries>
@@ -305,5 +305,10 @@
   <FactionWillBecomeHostileIfNotLeavingWithin>Zdržíš-li se déle, frakce se stane nepřátelskou</FactionWillBecomeHostileIfNotLeavingWithin>
   <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>Následující frakce se stanou nepřátelskými, pokud v jejich osadě nebo stanovišti zůstaneš delší dobu:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
+  <!-- EN: {0} trees dying -->
+  <AlertMinifiedTreeAboutToDie>{replace: ​{0}​; "​1​"-"Umírá 1 strom"; "​2​"-"Umírají 2 stromy"; "​3​"-"Umírají 3 stromy"; "​4​"-"Umírají 4 stromy"; "​{0}​"-"Umírá {0} stromů"}</AlertMinifiedTreeAboutToDie>
+  <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
+  <AlertMinifiedTreeAboutToDieDesc>Za méně než jeden den {replace: ​{0}​; "​1​"-"uhyne 1 vykopaný strom"; "​2​"-"uhynou 2 vykopané stromy"; "​3​"-"uhynou 3 vykopané stromy"; "​4​"-"uhynou 4 vykopané stromy"; "​{0}​"-"uhyne {0} vykopaných stromů"}. To způsobí, že někteří kolonisté budou nešťastní kvůli jejich přesvědčení.\n\nMůžeš tomu zabránit tím, že {replace: ​{0}​; "​1​"-"tento strom"; "​{0}​"-"tyto stromy"} znovu zasadíš.\n\nPostihnuti by byli následující kolonisté</AlertMinifiedTreeAboutToDieDesc>
 
 </LanguageData>

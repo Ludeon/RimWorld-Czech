@@ -30,6 +30,8 @@
   <UIScale>Měřítko uživ. rozhraní</UIScale>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Nastavit rozložení kláves</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>Nastavit herní ovladač</ControllerConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Vybrat jazyk</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -41,7 +43,7 @@
   <!-- EN: Development mode -->
   <DevelopmentMode>Vývojářský režim</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
-  <ResetModsConfigOnCrash>Znovunastavení módů při pádu</ResetModsConfigOnCrash>
+  <ResetModsConfigOnCrash>Obnovit konfiguraci módů při pádu</ResetModsConfigOnCrash>
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>Simulovat nevlastnění Royalty</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
@@ -67,11 +69,13 @@
   <!-- EN: Storyteller settings -->
   <ChangeStoryteller>Nastavení vypravěče</ChangeStoryteller>
   <!-- EN: Autosave interval -->
-  <AutosaveInterval>Interval autouložení</AutosaveInterval>
+  <AutosaveInterval>Interval samouložení</AutosaveInterval>
   <!-- EN: Temperature mode -->
   <TemperatureMode>Teplotní režim</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Zobrazit skutečný čas</ShowRealtimeClock>
+  <!-- EN: Disable tiny fonts -->
+  <DisableTinyText>Zakázat drobné fonty</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Maximální počet kolonií: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
@@ -86,6 +90,10 @@
   <ModSettings>Nastavení módů</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Trvale zakázat vývojářský režim</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>Komprese textur</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>Při vypnuté kompresi textur se využívá mnohem více grafické paměti, ale textury vypadají v detailech o něco lépe. Kompresi vypni pouze v případě, že tvůj grafický adaptér disponuje dostatkem grafické paměti.\n\nPamatuj, že použití určitých modů často spotřebuje mnohem více grafické paměti, takže pokud přidáš určité módy, možná budeš muset tuto funkci znovu zapnout.</TextureCompression_Tooltip>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -105,7 +113,9 @@
   <!-- EN: Your options have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Tvé nastavení bylo obnoveno. Hra se teď automaticky restartuje.</ResetAndRestart>
   <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
-  <ResetAndRestartConfirmationDialog>Všechna tvá nastavení budou obnovena na výchozí hodnoty a hra bude restartována. Veškerý neuložený postup bude ztracen!\n\nPokračovat?</ResetAndRestartConfirmationDialog>
+  <ResetAndRestartConfirmationDialog>Všechna tvá nastavení budou obnovena na výchozí hodnoty a hra bude restartována. Veškerý neuložený postup bude ztracen!\n\nPřeješ si pokračovat?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing the texture compression option requires a restart. All unsaved progress will be lost!\n\nContinue? -->
+  <ChangedTextureCompressionRestart>Změna komprese textur vyžaduje restartování hry. Veškerý neuložený postup bude ztracen!\n\nPřeješ si pokračovat?</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->

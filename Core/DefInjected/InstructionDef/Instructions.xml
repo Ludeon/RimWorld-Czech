@@ -23,7 +23,9 @@
   <!-- EN: Please build wooden beds inside the room. -->
   <BuildBeds.rejectInputMessage>Postav uvnitř místnosti dřevěné postele, prosím.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
-  <BuildBeds.text>Tví kolonisté teď tuto místnost postaví!\n\nTeď potřebují něco, kde by mohli spát. Dovnitř místnosti umísti tři POSTELE.\n\nNajdeš je v kategorii NÁBYTEK. Pomocí kláves {Key:Designator_RotateLeft} a {Key:Designator_RotateRight} můžeš libovolně otáčet s předměty.</BuildBeds.text>
+  <BuildBeds.text>Tví kolonisté teď tuto místnost postaví!\n\nNyní potřebují někde spát. Dovnitř místnosti umísti tři POSTELE.\n\nNajdeš je v kategorii NÁBYTEK.\n\nPomocí kláves {Key:Designator_RotateLeft} a {Key:Designator_RotateRight} můžeš libovolně otáčet s předměty.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>Tví kolonisté teď tuto místnost postaví!\n\nNyní potřebují někde spát. Dovnitř místnosti umísti tři POSTELE.\n\nNajdeš je v kategorii NÁBYTEK.\n\nPomocí rotačních tlačítek na levé straně obrazovky můžeš libovolně otáčet s předměty.</BuildBeds.textController>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Postav uvnitř místnosti sporák na tuhá paliva</BuildFueledStove.onMapInstruction>
@@ -108,13 +110,17 @@
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Aby ses dostal z režimu vymezování skladiště, klikni pravým tlačítkem myši.</EndStockpileDesignating.text>
+  <!-- EN: Press L2 to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>Aby ses dostal z režimu vymezování skladiště, stiskni L2.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
-  <EquipWeapons.onMapInstruction>Vybav se tímhle</EquipWeapons.onMapInstruction>
+  <EquipWeapons.onMapInstruction>Vyzbrojit se tímhle</EquipWeapons.onMapInstruction>
   <!-- EN: Please have your colonists equip weapons. -->
-  <EquipWeapons.rejectInputMessage>Nech své kolonisty vybavit zbraněmi, prosím.</EquipWeapons.rejectInputMessage>
+  <EquipWeapons.rejectInputMessage>Nech své kolonisty vyzbrojit zbraněmi, prosím.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
-  <EquipWeapons.text>Nech své kolonisty, aby se vybavili počátečními zbraněmi.\n\nAby ses vybavil zbraní:\n\n1. Klikni na kolonistu, abys ho vybral.\n2. Klikni pravým tlačítkem myši na zbraň, kterou se chceš vybavit.\n3. V kontextové nabídce klikni na 'vybavit zbraní'.\n\nUdělej to u všech kolonistů.</EquipWeapons.text>
+  <EquipWeapons.text>Nech své kolonisty, aby se vyzbrojili počátečními zbraněmi.\n\nK vyzbrojení se zbraní:\n\n1. Klikni na kolonistu, abys ho vybral.\n2. Klikni pravým tlačítkem myši na zbraň, kterou ho chceš vyzbrojit.\n3. V kontextové nabídce klikni na 'vyzbrojit se'.\n\nUdělej to u všech kolonistů.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>Nech své kolonisty, aby se vyzbrojili počátečními zbraněmi.\n\nK vyzbrojení se zbraní:\n\n1. Klikni na kolonistu, abys ho vybral.\n2. Najeď na zbraň, kterou ho chceš vyzbrojit, a stiskni L2.\n3. V kontextové nabídce klikni na 'vyzbrojit se'.\n\nUdělej to u všech kolonistů.</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Rozšiř o kousek oblast se střechou, prosím, jen tak na zkoušku.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -146,10 +152,14 @@
   <MakeStockpile.text>Skvělé!\n\nTeď vytvoř skladiště, aby tví kolonisté věděli, kam ukládat předměty.\n\n1. Klikni na kartu ARCHITEKT vlevo dole.\n2. Klikni na kategorii ZÓNY.\n3. Vyber nástroj SKLADIŠTĚ.\n4. Klikni a tažením myši vytvoř čtverec tak, jak je označeno na mapě.</MakeStockpile.text>
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
-  <MapCameraDolly.text>Tady jsi na povrchu planety!\n\nTeď se pokus pohnout kamerou.\n\nPoužij klávesy {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}, nebo stiskni a táhni prostředním tlačítkem myši.\n\nVyzkoušej si to hned teď!</MapCameraDolly.text>
+  <MapCameraDolly.text>Tady jsi na povrchu planety!\n\nTeď se pokus pohnout kamerou.\n\nPoužij klávesy {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}, nebo stiskni a táhni prostředním tlačítkem myši.\n\nTeď si to vyzkoušej!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>Tady jsi na povrchu planety!\n\nTeď se pokus pohnout kamerou pomocí levé páčky.\n\nTeď si to vyzkoušej!</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
-  <MapCameraZoom.text>Skvělé!\n\nPřibližovat a oddalovat pohled kamery můžeš také kolečkem myši, nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out}.\n\nVyzkoušej si to hned teď!</MapCameraZoom.text>
+  <MapCameraZoom.text>Skvělé!\n\nPomocí kolečka myši nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out} můžeš také přibližovat a oddalovat pohled kamery.\n\nTeď si to vyzkoušej!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
+  <MapCameraZoom.textController>Skvělé!\n\nPomocí nárazníků můžeš také přibližovat a oddalovat pohled kamery.\n\nTeď si to vyzkoušej!</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Tohle všechno označ\npro těžbu</MineSteel.onMapInstruction>
@@ -169,7 +179,9 @@
   <OpenMainTabWork.text>Můžeš určovat, jaký druh činnosti bude konkrétní kolonista vykonávat.\n\nNa spodní straně obrazovky otevři kartu ČINNOSTI.</OpenMainTabWork.text>
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
-  <Pause.text>Čas můžeš pozastavovat.\n\nTo znamená, že nikdy nemusíš spěchat. Hru můžeš vždycky pozastavit a s vydáváním příkazů si dát načas.\n\nZkus si hru pozastavit klávesou {Key:TogglePause}, nebo použitím tlačítek na ovládání času vpravo dole obrazovky.</Pause.text>
+  <Pause.text>Čas můžeš pozastavovat.\n\nTo znamená, že nikdy nemusíš spěchat. Hru můžeš vždycky pozastavit a s vydáváním příkazů si dát načas.\n\nZkus si hru pozastavit klávesou {Key:TogglePause}, nebo pomocí ovládání času vpravo dole na obrazovce.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
+  <Pause.textController>Čas můžeš pozastavovat.\n\nTo znamená, že nikdy nemusíš spěchat. Hru můžeš vždycky pozastavit a s vydáváním příkazů si dát načas.\n\nZkus si hru pozastavit stisknutím tlačítka Y, nebo pomocí ovládání času vpravo dole na obrazovce.</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Klikni na tlačítko NÁHODNĚ k vytvoření náhodné postavy, prosím.</RandomizeCharacter.rejectInputMessage>
@@ -177,9 +189,9 @@
   <RandomizeCharacter.text>Pokud se ti postava nelíbí, můžeš vygenerovat novou!\n\nKlikni na tlačítko NÁHODNĚ k vytvoření náhodné postavy.</RandomizeCharacter.text>
   
   <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
-  <ReorderCharacters.rejectInputMessage>Přetáhni postavu ze skupiny "Ponechat bokem" (vlevo dole) do skupiny "Vybrané" (vlevo nahoře).</ReorderCharacters.rejectInputMessage>
+  <ReorderCharacters.rejectInputMessage>Přetáhni postavu ze skupiny "Ponechat stranou" (vlevo dole) do skupiny "Vybrané" (vlevo nahoře).</ReorderCharacters.rejectInputMessage>
   <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
-  <ReorderCharacters.text>Nyní si vyber postavy, se kterými chceš hrát!\n\nPŘETÁHNI postavu ze spodní části seznamu postav označené "Ponechat bokem" do horní části nazvané "Vybrané".\n\nKliknutím na postavu si případně můžeš prohlédnout jejich životopis.</ReorderCharacters.text>
+  <ReorderCharacters.text>Nyní si vyber postavy, se kterými chceš hrát!\n\nPŘETÁHNI postavu ze spodní části seznamu postav označené "Ponechat stranou" do horní části nazvané "Vybrané".\n\nKliknutím na postavu si případně můžeš prohlédnout jejich životopis.</ReorderCharacters.text>
   
   <!-- EN: Please choose a research project. -->
   <SelectResearchProject.rejectInputMessage>Zvol výzkumný projekt, prosím.</SelectResearchProject.rejectInputMessage>
@@ -192,9 +204,13 @@
   <SetToGrowRice.rejectInputMessage>Nastav své pole na pěstování rýže, prosím.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Můžeš určit, jakou rostlinu mají tví kolonisté na poli vysadit.\n\n1. Pro opuštění režimu architekta klikni pravým tlačítkem myši.\n2. Klikni na pole, abys ho označil.\n3. Klikni na příkaz "Rostlina", který se nachází dole na obrazovce a změň to na rýži.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>Můžeš určit, jakou rostlinu mají tví kolonisté na poli vysadit.\n\n1. Pro opuštění režimu architekta stiskni tlačítko L2.\n2. Klikni na pole, abys ho označil.\n3. Klikni na příkaz "Rostlina", který se nachází dole na obrazovce a změň to na rýži.</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.text>Čas můžeš také urychlovat.\n\nZkus si ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast}, nebo použitím tlačítek na ovládání času vpravo dole obrazovky.</TimeControls.text>
+  <TimeControls.text>Čas můžeš také urychlovat.\n\nZkus ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast}, nebo pomocí ovládání času vpravo dole na obrazovce.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
+  <TimeControls.textController>Čas můžeš také urychlovat.\n\nZkus ovládat čas zadními tlačítky, nebo pomocí ovládání času vpravo dole na obrazovce.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Zruš bojový režim svých kolonistů, prosím.</UndraftAll.rejectInputMessage>

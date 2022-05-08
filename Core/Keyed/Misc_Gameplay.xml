@@ -105,7 +105,7 @@
   <!-- EN: Execute -->
   <Execute>Popravit</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Popravit provinilého kolonistu\n\nPokud tohle zaklikneš, dorazí dozorce a tuto osobu popraví.</ExecuteColonist>
+  <ExecuteColonist>Popravit vinného kolonistu\n\nPokud tohle zaklikneš, dorazí dozorce a tuto osobu popraví.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort} je nyní {0_gender ? označen : označena} k popravě. Nedaleký dostupný dozorce se k {0_gender ? němu : ní} přiblíží a provede {0_possessive} popravu.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
@@ -321,7 +321,7 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + Klik: Označit vše\nShift + Pravý klik: Zrušit vše</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>{replace: ​{0}​ {1}; "​2​ lidé"-"2 osoby"; "​3​ lidé"-"3 osoby"; "​4​ lidé"-"4 osoby"; "​{0}​ lidé"-"{0} osob"; "​2​ minomety"-"2 minomety"; "​3​ minomety"-"3 minomety"; "​4​ minomety"-"4 minomety"; "​{0}​ minomety"-"{0} minometů"; "​2​ nepřátelé"-"2 nepřátelé"; "​3​ nepřátelé"-"3 nepřátelé"; "​4​ nepřátelé"-"4 nepřátelé"; "​{0}​ nepřátelé"-"{0} nepřátel"; "​2​ střelecké věže"-"2 střelecké věže"; "​3​ střelecké věže"-"3 střelecké věže"; "​4​ střelecké věže"-"4 střelecké věže"; "​{0}​ střelecké věže"-"{0} střeleckých věží"}</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{replace: ​{0}​ {1}; "​1​ lidé"-"1 osoba"; "​2​ lidé"-"2 osoby"; "​3​ lidé"-"3 osoby"; "​4​ lidé"-"4 osoby"; "​{0}​ lidé"-"{0} osob"; "​1​ minomety"-"1 minomet"; "​2​ minomety"-"2 minomety"; "​3​ minomety"-"3 minomety"; "​4​ minomety"-"4 minomety"; "​{0}​ minomety"-"{0} minometů"; "​1​ nepřátelé"-"1 nepřítel"; "​2​ nepřátelé"-"2 nepřátelé"; "​3​ nepřátelé"-"3 nepřátelé"; "​4​ nepřátelé"-"4 nepřátelé"; "​{0}​ nepřátelé"-"{0} nepřátel"; "​1​ střelecké věže"-"1 střelecká věž"; "​2​ střelecké věže"-"2 střelecké věže"; "​3​ střelecké věže"-"3 střelecké věže"; "​4​ střelecké věže"-"4 střelecké věže"; "​{0}​ střelecké věže"-"{0} střeleckých věží"}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Požadované dovednosti</SkillRequirements>
   <!-- EN: Products -->
@@ -920,7 +920,7 @@
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
-  <Ingredients>Složení</Ingredients>
+  <Ingredients>Suroviny</Ingredients>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>stohovatelné pouze s podobnými pokrmy</OnlyStacksWithCompatibleMeals>
 
