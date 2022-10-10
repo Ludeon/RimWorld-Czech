@@ -108,8 +108,14 @@
   <MessageMustDesignateHuntable>Musíš označit zvířata vhodná k lovu.</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>Musíš označit zvířata vhodná k ochočení.</MessageMustDesignateTameable>
-  <!-- EN: Must designate abandoned artificial structures. -->
-  <MessageMustDesignateClaimable>Musíš označit opuštěné uměle vytvořené stavby.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate abandoned claimable structures or items. -->
+  <MessageMustDesignateClaimable>Musíš označit opuštěné struktury nebo předměty, které lze zabrat.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
+  <MessageMustDesignatePaintableBuildings>Musíš označit objekty, které lze obarvovat a nejsou již obarveny {lookup: {0_label}; Case\Singular; 7}.</MessageMustDesignatePaintableBuildings>
+  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
+  <MessageMustDesignatePaintableFloors>Musíš označit podlahy, které lze obarvovat a nejsou již obarveny {lookup: {0_label}; Case\Singular; 7}.</MessageMustDesignatePaintableFloors>
+  <!-- EN: Must designate painted buildings or floors. -->
+  <MessageMustDesignatePainted>Musíš označit obarvené objekty nebo podlahy.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>Před tím, než to budeš moci rozebrat, musíš porazit mechový klastr.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
@@ -581,7 +587,7 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Od tohoto okamžiku mohou pokusy o verbování začít.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Disable all mods before using this tool. -->
-  <MessageDisableModsBeforeCleaningTranslationFiles>Před použitím tohoto nástroje deaktivuj všechny módy.</MessageDisableModsBeforeCleaningTranslationFiles>
+  <MessageDisableModsBeforeCleaningTranslationFiles>Před použitím tohoto nástroje deaktivuj všechny mody.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
   <MessageUnpackBeforeCleaningTranslationFiles>Před použitím tohoto nástroje rozbal a poté smaž všechny komprimované soubory související s tímto překladem.</MessageUnpackBeforeCleaningTranslationFiles>
   <!-- EN: Done. Affected folders: {0} -->

@@ -17,9 +17,9 @@
   <!-- EN: Options -->
   <Options>Nastavení</Options>
   <!-- EN: Mod -->
-  <Mod>Mód</Mod>
+  <Mod>Modifikace</Mod>
   <!-- EN: Mods -->
-  <Mods>Módy</Mods>
+  <Mods>Modifikace</Mods>
   <!-- EN: Save translation report -->
   <SaveTranslationReport>Uložit hlášení k překladu</SaveTranslationReport>
   <!-- EN: Generating translation report -->
@@ -30,6 +30,8 @@
   <TranslationFilesTKeyUpdate>Aktualizovat překladové soubory (TKey's)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Čistím překladové soubory</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>Vývojářský rychlotest</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>Tvůrci</Credits>
   <!-- EN: Quit to main menu -->
@@ -78,8 +80,8 @@
   <WorldGenerate>Vygenerovat</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Uložit a ukončit</WorldSaveAndFinish>
-  <!-- EN: Reset -->
-  <Reset>Resetovat</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>Resetovat frakce</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>Pokrytí světa</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -141,27 +143,77 @@
   <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>Otevřít Steam Workshop</OpenSteamWorkshop>
   <!-- EN: Get mods from forum -->
-  <GetModsFromForum>Získat módy z fóra</GetModsFromForum>
+  <GetModsFromForum>Získat mody z fóra</GetModsFromForum>
   <!-- EN: Open mods data folder -->
-  <OpenModsDataFolder>Otevřít složku s módy</OpenModsDataFolder>
+  <OpenModsDataFolder>Otevřít adresář s mody</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
-  <ShowModsDataLocation>Zobrazit umístění dat s módy</ShowModsDataLocation>
+  <ShowModsDataLocation>Zobrazit umístění dat s mody</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
-  <ConfirmDisableCoreMod>Opravdu chceš deaktivovat jádro hry? Hra nebude fungovat, dokud nebudeš mít jiné módy, které nahradí VŠECHNY funkce jádra.\n\nRada: jiné módy mohou přepsat Defs jádra, pokud používají stejné jméno Def.</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Opravdu chceš deaktivovat jádro hry? Pokud nebudeš mít jiný mod, který nahradí všechny funkce jádra, hra nebude vůbec fungovat.\n\nPamatuj, že jiné mody mohou přepsat definice jádra použitím stejných hodnot defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Opravdu chceš odstranit veškerý obsah pro '{0}'?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
-  <ResolveModOrder>Automaticky seřadit módy</ResolveModOrder>
+  <ResolveModOrder>Automat. seřadit mody</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>Uložit a použít změny</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>Změny modů nebyly uloženy. Opravdu chceš pokračovat?</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>Nelze přesunout {0}: Musí být načteno po {1}.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>Nelze přesunout {0}: Musí být načteno před {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
-  <Unsubscribe>Odhlásit odběr</Unsubscribe>
+  <Unsubscribe>Zrušit odběr</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe? -->
+  <ConfirmUnsubscribe>Opravdu chceš zrušit odběr?</ConfirmUnsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribe>Opravdu chceš odhlásit odběr '{0}'?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribeFrom>Opravdu chceš zrušit odběr modu {0}?</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>Opravdu chceš zrušit odběr následujících modů?\n\n{0}</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Autor</Author>
+  <!-- EN: Enabled -->
+  <Enabled>Aktivované</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>Deaktivované</Disabled>
+  <!-- EN: Enable -->
+  <Enable>Aktivovat</Enable>
+  <!-- EN: Disable -->
+  <Disable>Deaktivovat</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>Získat mody z...</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>Zrušit odběr u...</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>Uložit / načíst seznam...</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>Uložit seznam modů</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>Načíst seznam modů</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>Přidané mody</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>Chybějící mody</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>Sdílené mody</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>Webové stránky</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>Otevřít adresář</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>Možnosti modu</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>Workshopu</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>Fóra</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>Pokročilé...</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>Všech vybraných modů</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>Všech deaktivovaných modů</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>Všech nekompatibilních modů</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Stránka Workshopu</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -176,6 +228,8 @@
   <WorkshopUploadSucceeded>Úspěšně nahráno {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Stahování</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>Workshop ID</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Zobrazit splněné požadavky</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -184,34 +238,36 @@
   <ModClickToGoToWebsite>Kliknutím přejdeš na webovou stránku.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Zdroj</Source>
-  <!-- EN: For game version(s) -->
-  <ModTargetVersion>Pro verzi hry</ModTargetVersion>
+  <!-- EN: Game versions -->
+  <ModTargetVersion>Verze hry</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>Verze modu</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>Tento mód musí být načten před:\n{0}\n</ModMustLoadBefore>
+  <ModMustLoadBefore>Tento mod musí být načten před:\n{0}\n</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>Tento mód musí být načten po:\n{0}\n</ModMustLoadAfter>
+  <ModMustLoadAfter>Tento mod musí být načten po:\n{0}\n</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
   <ModDependsOn>Závisí na: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
   <ModIncompatibleWith>Není kompatibilní s: {0}</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>Tento mód není kompatibilní s:\n{0}\n</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>Tento mod není kompatibilní s:\n{0}\n</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>Tento mód se vzhledem k jinému módu načítá v nesprávném pořadí. Použij tlačítko 'Automaticky seřadit módy' nebo změň pořadí modů ručně.</ModOrderingWarning>
+  <ModOrderingWarning>Tento mod se vzhledem k jinému modu načítá ve špatném pořadí. Použij tlačítko 'automat. seřadit' nebo změň pořadí modů ručně.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>Jiný aktivní mód používá stejné ID: {0}</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>Jiný aktivní mod používá stejné ID: {0}</ModWithSameIdAlreadyActive>
   <!-- EN: This requires following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>K chodu vyžaduje následující módy:\n{0}\n</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>K chodu vyžaduje následující mody:\n{0}\n</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>Tento mód nebyl vytvořen pro tuto verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>Tento mod nebyl vytvořen pro tuto verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
-  <ModNotMadeForThisVersionShort>Tento mód není vytvořen pro tuto verzi RimWorldu.</ModNotMadeForThisVersionShort>
+  <ModNotMadeForThisVersionShort>Tento mod není vytvořen pro tuto verzi RimWorldu.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>Tento mód byl vytvořen pro novější verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>Tento mod byl vytvořen pro novější verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mód vyžaduje informaci o podporované verzi ve správném formátu v souboru About.xml. Mělo by to vypadat nějak takto: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> je zastaralá. Pro další informace zkontroluj log.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod vyžaduje informaci o podporované verzi ve správném formátu v souboru About.xml. Mělo by to vypadat nějak takto: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> je zastaralá. Pro další informace zkontroluj log.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Tažením změníš pořadí</DragToReorder>
 
@@ -249,13 +305,15 @@
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Příliš mnoho (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
-  <CanBeUpdatedOnWorkshop>Vzhledem k tomu, že autorem jsi ty, může toto být na Workshopu aktualizováno.</CanBeUpdatedOnWorkshop>
+  <CanBeUpdatedOnWorkshop>Vzhledem k tomu, že jsi autorem, lze aktualizovat na stránkách Workshopu.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>Tento scénář byl upraven.\n\nChceš jej uložit, než budeš pokračovat?</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Vyber si UI vypravěče</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Vyber si vypravěče s umělou inteligencí</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>UI vypravěč vytváří události jako jsou pirátské nájezdy, shozy surovin nebo útoky zvířat. Jejich rozhodnutí bude ovlivňovat příběh tvé kolonie. Tato nastavení můžeš později kdykoliv změnit.</HowStorytellersWork>
+  <HowStorytellersWork>Vypravěč s umělou inteligencí vytváří události, jako jsou pirátské nájezdy, shozy surovin nebo útoky zvířat. Jeho rozhodnutí budou ovlivňovat příběh tvé kolonie. Tato nastavení můžeš kdykoliv změnit.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Zvol si nastavení obtížnosti, prosím.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
@@ -267,9 +325,9 @@
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Prosím, vyber si jeden ze dvou dostupných herních režimů.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>Hru můžeš libovolně ukládat a načítat.\n\nNení to špatná volba, pokud se stále tuto hru učíš, nebo ti vyhovuje tento herní styl, nebo používáš módy, které mohou nějakým způsobem narušit hru, a nebo se chceš jen vyhnout režimu nenapravitelného osudu.</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>Hru můžeš libovolně ukládat a načítat.\n\nNení to špatná volba, pokud se s touto hrou teprve seznamuješ, pokud vyhovuje tvému osobnímu hernímu stylu, pokud používáš mody, které mohou nějakým způsobem narušit tvou hru, a nebo se chceš pouze vyhnout režimu nenapravitelného osudu.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>Ukládat můžeš pouze při opuštění hry.\n\nVzhledem k tomu, že RimWorld je generátorem příběhů, doporučuji ti, aby ses pokaždé pokusil zotavit se ze ztrát. Dokonce i ztráta všeho, tedy kromě posledního přeživšího, neznamená vždy konec hry - je to jen součást příběhu.\n\nHraní za těchto hrozivých situací může vytvořit příběh jak tragický, tak i triumfální. RimWorld je přesně navržen pro tento styl hraní.\n\nLuke Skywalker se také nesnažil\npřepsat minulost, když jeho rodina zemřela - ztráta a obnova je dramatická.</PermadeathModeInfo>
+  <PermadeathModeInfo>Ukládat můžeš pouze při opuštění hry.\n\nVzhledem k tomu, že RimWorld je generátorem příběhu, doporučuji ti, aby ses pokaždé pokusil zotavit se ze ztrát. Dokonce i ztráta všeho, tedy kromě posledního přeživšího, neznamená vždy konec hry - je to jen součást příběhu.\n\nOdehrání těchto hrozných situací vytváří příběh s tragédií i triumfem. RimWorld je přesně navržen pro tento styl hraní.\n\nLuke Skywalker se také nesnažil přepsat minulost, když byla jeho rodina zabita - prohra a zotavení je dramatické.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>Vypravěče a herní styl můžeš kdykoliv změnit.</CanChangeStorytellerSettingsDuringPlay>
 
@@ -476,6 +534,8 @@
   <Elevation>Nadmořská výška</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Úrodnost</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>úrodnost</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Průměrná teplota</AvgTemp>
   <!-- EN: Rainfall -->
@@ -510,6 +570,10 @@
   <Forageability>Možnost nalezení potravy</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>Žádný z vybraných lidí nemůže vykonávat následující činnosti:\n\n{0}\n\nTo může zapříčinit, že hra bude obtížnější než obvykle. Opravdu chceš pokračovat?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>teplota</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>světlo</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->

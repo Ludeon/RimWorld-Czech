@@ -102,13 +102,13 @@
   <!-- EN: Colonists will ignore roofs in this area. -->
   <DesignatorAreaIgnoreRoofExpandDesc>Kolonisté budou v této oblasti ignorovat střechy.</DesignatorAreaIgnoreRoofExpandDesc>
 
-  <!-- EN: Expand snow clear area -->
+  <!-- EN: Snow removal area -->
   <DesignatorAreaSnowClearExpand>Rozšířit oblast pro úklid sněhu</DesignatorAreaSnowClearExpand>
-  <!-- EN: Create a area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>Zřídí oblast, ve které se kolonisté budou snažit odklízet případný sníh.</DesignatorAreaSnowClearExpandDesc>
-  <!-- EN: Clear snow clear Area -->
+  <!-- EN: Create an area which colonists will try to keep clear of snow. -->
+  <DesignatorAreaSnowClearExpandDesc>Zřídí oblast, ve které se kolonisté budou snažit odklízet sníh.</DesignatorAreaSnowClearExpandDesc>
+  <!-- EN: Clear snow removal area -->
   <DesignatorAreaSnowClearClear>Odstranit oblast pro úklid sněhu</DesignatorAreaSnowClearClear>
-  <!-- EN: Removes a snow clearing area. Colonists will no longer try to keep this area clear of snow. -->
+  <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
   <DesignatorAreaSnowClearClearDesc>Odstraní oblast k odklízení sněhu. Kolonisté se již nebudou snažit udržovat tuto oblast bez sněhu.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
@@ -187,6 +187,45 @@
   <DesignatorStudy>Zkoumat</DesignatorStudy>
   <!-- EN: Study this object to learn more about it. -->
   <DesignatorStudyDesc>Zkoumáním tohoto objektu se o něm dozvíš více.</DesignatorStudyDesc>
+
+  <!-- EN: Paint building... -->
+  <DesignatorPaintBuilding>Natřít objekt...</DesignatorPaintBuilding>
+  <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
+  <DesignatorPaintBuildingDesc>Označí zdi a objekty, které mají být natřeny pomocí barviva získávané z rostliny barvovníku, který můžeš pěstovat. Natírat lze pouze určité objekty.</DesignatorPaintBuildingDesc>
+  <!-- EN: Paint floor... -->
+  <DesignatorPaintFloor>Natřít podlahu...</DesignatorPaintFloor>
+  <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
+  <DesignatorPaintFloorDesc>Označí podlahy, které mají být natřeny pomocí barviva získávané z rostliny barvovníku, který můžeš pěstovat. Natírat lze pouze určité podlahy.</DesignatorPaintFloorDesc>
+
+  <!-- EN: Remove paint -->
+  <DesignatorRemovePaint>Odstranit nátěr</DesignatorRemovePaint>
+  <!-- EN: Remove paint from walls, buildings, and floors. -->
+  <DesignatorRemovePaintDesc>Odstraní barvu ze zdí, objektů a podlah.</DesignatorRemovePaintDesc>
+  <!-- EN: Remove floor paint -->
+  <DesignatorRemoveFloorPaint>Odstranit podlahový nátěr</DesignatorRemoveFloorPaint> <!-- text_todo -->
+  <!-- EN: Remove paint from floors. -->
+  <DesignatorRemoveFloorPaintDesc>Odstraní barvu z podlah.</DesignatorRemoveFloorPaintDesc> <!-- text_todo -->
+  <!-- EN: Paint -->
+  <Paint>Barva</Paint>
+  <!-- EN: Color -->
+  <Color>Barva</Color>
+
+  <!-- EN: Color picker -->
+  <DesignatorEyedropper>Kapátko</DesignatorEyedropper>
+  <!-- EN: Grab existing color -->
+  <GrabExistingColor>Nabrat použitou barvu</GrabExistingColor>
+  <!-- EN: Grab a color from an existing building. -->
+  <DesignatorEyeDropperDesc_Paint>Nabere barvu ze stávajícího objektu.</DesignatorEyeDropperDesc_Paint>
+  <!-- EN: Grab a color from an existing carpet. -->
+  <DesignatorEyeDropperDesc_Carpet>Nabere barvu ze stávajícího koberce.</DesignatorEyeDropperDesc_Carpet>
+  <!-- EN: Select a painted building. -->
+  <SelectAPaintedBuilding>Vyber natřený objekt.</SelectAPaintedBuilding>
+  <!-- EN: Select colored carpet. -->
+  <SelectColoredFloor>Vyber obarvený koberec.</SelectColoredFloor>
+  <!-- EN: Grab -->
+  <Grab>Nabrat</Grab>
+  <!-- EN: Grabbed color -->
+  <GrabbedColor>Nabraná barva</GrabbedColor>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->

@@ -143,7 +143,7 @@
   <!-- EN: Official content -->
   <ContentSource_OfficialModsFolder>Oficiální obsah</ContentSource_OfficialModsFolder>
   <!-- EN: Local folder -->
-  <ContentSource_ModsFolder>Místní složka</ContentSource_ModsFolder>
+  <ContentSource_ModsFolder>Místní adresář</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
   <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
   
@@ -193,17 +193,21 @@
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
-  <PlayerPawnsArriveMethod_Standing>Na zemi</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_Standing>Stojící na povrchu</PlayerPawnsArriveMethod_Standing>
   <!-- EN: Drop pods -->
-  <PlayerPawnsArriveMethod_DropPods>V únikových modulech</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_DropPods>Výsadkové moduly</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
   <PawnGenerationContext_All>všechny postavy</PawnGenerationContext_All>
   <!-- EN: player starting characters -->
-  <PawnGenerationContext_PlayerStarter>postavy ovládané hráčem</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_PlayerStarter>tvé počáteční postavy</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
-  <PawnGenerationContext_NonPlayer>postavy neovládané hráčem</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_NonPlayer>nehráčské postavy</PawnGenerationContext_NonPlayer>
+
+  <!-- Screen shake mode -->
+  <!-- EN: Screen shake intensity -->
+  <ScreenShakeIntensity>Intenzita otřesů obrazovky</ScreenShakeIntensity>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
@@ -213,9 +217,18 @@
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Ochočená (všechna)</AnimalNameDisplayMode_TameAll>
   
+  <!-- Show weapons under portrait mode -->
+  <!-- EN: Weapons below portrait -->
+  <ShowWeaponsUnderPortrait>Zbraně pod portrétem</ShowWeaponsUnderPortrait>
+  <!-- EN: Show weapons below each person's portrait on the colonist bar at the top of the screen -->
+  <ShowWeaponsUnderPortraitTooltip>Zobrazení zbraní pod portrétem každé osoby na liště kolonistů v horní části obrazovky.</ShowWeaponsUnderPortraitTooltip>
+  <!-- EN: always -->
+  <ShowWeapons_Always>vždy</ShowWeapons_Always>
+  <!-- EN: while drafted -->
+  <ShowWeapons_WhileDrafted>při povolání do zbraně</ShowWeapons_WhileDrafted>
+
   <!-- Temperature -->
   <!-- EN: Celsius -->
-  <Celsius>Celsius</Celsius>
   <!-- EN: Fahrenheit -->
   <Fahrenheit>Fahrenheit</Fahrenheit>
   <!-- EN: Kelvin -->
@@ -297,7 +310,7 @@
   <!-- EN: Any threat -->
   <AutomaticPauseMode_AnyThreat>Každá hrozba</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>Každý dopis</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>Každá zpráva</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->

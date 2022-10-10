@@ -13,24 +13,30 @@
   <Close>Zavřít</Close>
   <!-- EN: Accept -->
   <Accept>Přijmout</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Zrušit</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Resetovat</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>Resetovat vše</ResetAll>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>RimWorld byl aktualizován z verze {0} na verzi {1}.\n\n</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
-  <GameUpdatedToNewVersionSavesIncompatible>To může způsobit, že uložené pozice a módy z předchozí verze přestanou pracovat.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesIncompatible>To může způsobit, že uložené pozice a mody z předchozí verze přestanou pracovat.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
-  <GameUpdatedToNewVersionSavesCompatible>Uložené pozice z předchozích verzí by měly být kompatibilní, nicméně některé módy mohou přestat pracovat.</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Uložené pozice z předchozích verzí by měly být kompatibilní, nicméně některé mody mohou přestat pracovat.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>Protože se jedná o verzi bez DRM ochrany, můžeš hru nainstalovat do dvou různých složek, abys mohl hrát jak starou, tak i novou verzi.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionNonSteam>Protože se jedná o verzi bez DRM ochrany, můžeš hru nainstalovat do dvou různých adresářů, abys mohl hrát jak starou, tak i novou verzi.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Beta verze".\n\n  1. V knihovně Steamu klikni pravým na RimWorld.\n  2. Klikni na Vlastnosti.\n  3. Klikni na záložku Beta verze.\n  4. Z roletové nabídky si vyber verzi, kterou chceš.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
-  <RecoveredFromErrorsDialogTitle>Obnoveno po chybách způsobených nekompatibilními nebo poškozenými módy</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>Obnoveno po chybách způsobených nekompatibilními nebo poškozenými mody</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
-  <RecoveredFromErrorsText>Zdá se, že některé aktivní módy způsobovaly chyby.\n\nByly vzájemně nekompatibilní, určené pro jinou verzi RimWorldu, nebo poškozené.\n\nVšechny módy byly deaktivovány a mohou být znovu aktivovány v dialogovém okně módů.</RecoveredFromErrorsText>
+  <RecoveredFromErrorsText>Zdá se, že některé aktivní mody způsobovaly chyby.\n\nByly vzájemně nekompatibilní, určené pro jinou verzi RimWorldu, nebo poškozené.\n\nVšechny mody byly deaktivovány a mohou být znovu aktivovány v dialogovém okně modů.</RecoveredFromErrorsText>
   
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
@@ -38,7 +44,7 @@
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
   <ErrorWhileLoadingAssets>Při načítání herních prostředků se vyskytla chyba. Pro další informace se podívej do záznamu o chybách.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
-  <ErrorWhileLoadingAssets_ModsInfo>Hra v současné době běží s uživatelskými módy - ty mohly, ale také nemusely, způsobit tyto problémy.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>Hra v současné době běží s uživatelskými mody - ty mohly, ale také nemusely, způsobit tyto problémy.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>Chyba při vytváření mapy</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
@@ -50,9 +56,9 @@
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
-  <ModsChanged>Seznam módů byl změněn. Hra se nyní automaticky restartuje.</ModsChanged>
+  <ModsChanged>Seznam modů byl změněn. Hra se nyní automaticky restartuje.</ModsChanged>
   <!-- EN: Something went wrong while restarting the game. The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly. -->
-  <FailedToRestart>Při restartování hry se něco pokazilo. Hra nedokázala zcela odstranit kód módů po vypnutých módech, takže kód z vypnutých módů může být stále aktivní.\n\nPro čisté načtení módů se nyní doporučuje ukončit a znovu spustit hru.</FailedToRestart>
+  <FailedToRestart>Při restartování hry se něco pokazilo. Hra nedokázala zcela odstranit kód modů po vypnutých modech, takže kód z vypnutých modů může být stále aktivní.\n\nPro čisté načtení modů se nyní doporučuje ukončit a znovu spustit hru.</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>Restartování</Restarting>
   
@@ -66,7 +72,7 @@
   <!-- EN: Unloading unused assets -->
   <UnloadingUnusedAssets>Čistím nepoužité prostředky</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
-  <LoadingAllActiveMods>Načítám všechny aktivní módy</LoadingAllActiveMods>
+  <LoadingAllActiveMods>Načítám všechny aktivní mody</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
   <LoadingDefs>Načítám definice</LoadingDefs>
   <!-- EN: Loading assets -->
@@ -96,9 +102,9 @@
   <!-- EN: Delete this savegame. -->
   <DeleteThisSavegame>Smaže tuto uloženou pozici.</DeleteThisSavegame>
   <!-- EN: Saved as {0}. -->
-  <SavedAs>Uloženo jako {0}.</SavedAs>
+  <SavedAs>Uloženo pod názvem {0}.</SavedAs>
   <!-- EN: Please enter a name. -->
-  <NeedAName>Zadej jméno, prosím.</NeedAName>
+  <NeedAName>Zadej název, prosím.</NeedAName>
   <!-- EN: Loading -->
   <LoadingLongEvent>Načítání</LoadingLongEvent>
   <!-- EN: Saving -->
@@ -118,9 +124,9 @@
   <!-- EN: Load anyway -->
   <LoadAnyway>Přesto načíst</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>Načíst seznam módů\nz uložené pozice</ChangeLoadedMods>
+  <ChangeLoadedMods>Načíst seznam modů\nz uložené pozice</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>Některé módy nejsou k dispozici a je třeba je nainstalovat</MissingMods>
+  <MissingMods>Některé mody nejsou k dispozici a je třeba je nainstalovat</MissingMods>
   <!-- EN: Official content -->
   <OfficialContent>Oficiální obsah</OfficialContent>
   <!-- EN: Active -->
@@ -176,9 +182,9 @@
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
   <FileIncompatibleWarning>Tento soubor byl uložen verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení tohoto souboru může způsobovat chyby a pády hry.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
-  <ModsMismatchWarningTitle>Neshoda módů</ModsMismatchWarningTitle>
+  <ModsMismatchWarningTitle>Neshoda modů</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
-  <ModsMismatchWarningText>Tento soubor byl uložen s odlišnou sadou aktivních módů než ty, které jsou spuštěny nyní. To může, ale také nemusí, způsobovat problémy, v závislosti na tom, co tyto módy dělají.\n\nSoubor byl uložen s těmito módy v tomto pořadí:\n\n{0}\n\nNyní máš aktivní tyto módy v tomto pořadí:\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>Tento soubor byl uložen s odlišnou sadou aktivních modů než ty, které jsou spuštěny nyní. To může, ale také nemusí, způsobovat problémy, v závislosti na tom, co tyto mody dělají.\n\nSoubor byl uložen s těmito mody v tomto pořadí:\n\n{0}\n\nNyní máš aktivní tyto mody v tomto pořadí:\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -191,6 +197,10 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Opravdu chceš trvale vypnout vývojářský režim na tomto počítači?\n\nTato volba je určena pro lidi, kteří chtějí hrát čistou hru bez pokušení využívat vývojové nástroje k tomu, aby získali výhodu při normálním hraní.\n\nVývojářský režim lze znovu aktivovat, to ale bude vyžadovat ruční editaci konfiguračních souborů. Jak na to budeš muset najít na internetu.</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>Opravdu chceš resetovat výukového pomocníka?\n\nVšechny záznamy o osvojených pojmech budou vymazány a systém bude učit vše od nuly.</ConfirmResetLearningHelper>
   
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
@@ -252,10 +262,10 @@
   <WorkAmount>Množství práce</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Minimální dovednosti:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
-  <BillRequires>Vyžaduje {0} {1}</BillRequires>
-  <!-- EN: Requires {0} nutrition -->
-  <BillRequiresNutrition>Vyžaduje {0} výživy</BillRequiresNutrition>
+  <!-- EN: Requires -->
+  <BillRequires>Vyžaduje</BillRequires>
+  <!-- EN: nutrition -->
+  <BillNutrition>výživa</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Poznámka: Maloobjemových surovin, jako je například zlato, je vyžadováno {0}x tolik.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -640,8 +650,6 @@
   <CaravanCouldNotFindPackingSpot>Nelze najít žádné platné místo pro nakládání karavany. Ujisti se, že vybrané místo pro odchod ({0}) bude přístupné.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Varování: Někteří z přiřazených kolonistů nejsou schopni se dostat k místu odchodu ({0}).</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>{1_labelShort} je pro všechny přiřazené kolonisty nedosažitelné.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Žádný z přiřazených kolonistů se není schopen dostat k {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -1145,5 +1153,63 @@
   <RoomRequirementNoProductionFacilities>žádné výrobní vybavení</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>žádné oltáře</RoomRequirementNoAltars>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Rozbalit vše</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Sbalit vše</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>Barvivo lze vypěstovat z barvovníku nebo ho lze zakoupit od obchodníků.</TooltipDyeExplanation>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>teplota barvy</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>výběr barvy</ChooseAColor>
+  <!-- EN: red -->
+  <Red>červená</Red>
+  <!-- EN: green -->
+  <Green>zelená</Green>
+  <!-- EN: blue -->
+  <Blue>modrá</Blue>
+  <!-- EN: hue -->
+  <Hue>odstín</Hue>
+  <!-- EN: sat -->
+  <Saturation>sytost</Saturation>
+  <!-- EN: value -->
+  <Value>hodnota</Value>
+  <!-- EN: darklight -->
+  <Darklight>temné světlo</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>nejedná se o temné světlo</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>aktuální barva</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>původní barva</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>Kopírovat barvu</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>Zkopíruje aktuální barvu do schránky.</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>Vložit barvu</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>Přepíše barvu barvou ze schránky.</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>Schránka neobsahuje žádnou platnou barvu.</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>Barva byla zkopírována do schránky.</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>Barva byla nahrazena barvou ze schránky.</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>Přepnout na běžné světlo</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>Změní barvu světla na běžnou barvu.</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>Přepnout na temné světlo</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>Změní barvu světla na temné světlo.</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>Výběr barvy pomocí nastavení barevné teploty. Poznámka: Toto nastavení ovlivňuje pouze vizuální barvu, nikoli tepelný výkon.</ColorTemperatureTooltip>
 
 </LanguageData>

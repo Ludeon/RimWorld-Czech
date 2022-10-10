@@ -921,6 +921,12 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Suroviny</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>Suroviny použité k přípravě tohoto pokrmu.</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>Druh stravy</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>Druh vyrobeného pokrmu. Někteří lidé dávají přednost určitým typům jídel.</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>stohovatelné pouze s podobnými pokrmy</OnlyStacksWithCompatibleMeals>
 
@@ -1108,7 +1114,7 @@
   <!-- EN: requires -->
   <ShipReportMissingPartRequires>potřebuješ</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
-  <ShipReportNoFullPods>Cryptospánkové komory nejsou obsazené</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Kryptospánkové komory nejsou obsazené</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
   <ShipReportHibernating>Komponent v hibernaci</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
@@ -1281,6 +1287,8 @@
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Výukový pomocník</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>In-game tutoriál, jehož cílem je předat ti informace k tématům týkajících se aktuálního stavu tvé kolonie.</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Označ jako naučené</MarkLearned>
   <!-- EN: Already learned -->
@@ -1549,6 +1557,14 @@
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
 
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>oslepující kouř</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>jedovatý plyn</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>hnilobný zápach</RotStink>
+
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>musí být {0_gender ? povolán : povolána}.</AbilityDisabledUndrafted>
@@ -1560,5 +1576,13 @@
   <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}.</AbilityReadyText>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>změnit barvu</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>Změní barvu světla.</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>Nejdříve musíš vyzkoumat {0}, abys mohl měnit barvu světla.</GlowerChangeColorNeedsResearch>
 
 </LanguageData>
