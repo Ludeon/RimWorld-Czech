@@ -655,16 +655,18 @@
   <IsNotDrafted>{1_labelShort} není {1_gender ? povolán : povolána}.</IsNotDrafted>
 
   <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>Sníh</Snow>
   <!-- EN: No snow -->
   <SnowNone>Bez sněhu</SnowNone>
-  <!-- EN: Snow (dusting) -->
-  <SnowDusting>Sníh (poprašek)</SnowDusting>
-  <!-- EN: Snow (thin) -->
-  <SnowThin>Sníh (tenká vrstva)</SnowThin>
-  <!-- EN: Snow (medium) -->
-  <SnowMedium>Sníh (střední vrstva)</SnowMedium>
-  <!-- EN: Snow (thick) -->
-  <SnowThick>Sníh (silná vrstva)</SnowThick>
+  <!-- EN: dusting -->
+  <SnowDusting>poprašek</SnowDusting>
+  <!-- EN: thin -->
+  <SnowThin>tenká vrstva</SnowThin>
+  <!-- EN: medium -->
+  <SnowMedium>střední vrstva</SnowMedium>
+  <!-- EN: thick -->
+  <SnowThick>silná vrstva</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
@@ -676,11 +678,23 @@
   <!-- EN: Cannot fire -->
   <CannotFire>Nemůže vystřelit</CannotFire>
   <!-- EN: roofed -->
-  <Roofed>zastřešený</Roofed>
+  <Roofed>nachází se pod střechou</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
   <ShellLoaded>Náboj v komoře: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
-  <ShellNotLoaded>Není nabitý</ShellNotLoaded>
+  <ShellNotLoaded>Není nabito</ShellNotLoaded>
+  <!-- EN: Order activation -->
+  <OrderActivation>Přikázat aktivaci</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>Přikáže kolonistovi, aby aktivoval {THING_definite}.</OrderActivationDesc>
+  <!-- EN: Must be activated by a colonist. -->
+  <MustBeActivatedByColonist>Aktivaci musí provést kolonista.</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>Žádný požár v okolí.</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>Žádný požár v okolí. Nebylo použito žádné palivo.</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>Vyber někoho, kdo provede aktivaci.</ChooseWhoShouldActivate>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->

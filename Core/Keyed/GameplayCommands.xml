@@ -128,24 +128,24 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Kopírovat nastavení</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Zkopíruje nastavení této oblasti do schránky, abys ho mohl přenést na jinou oblast.</CommandCopyZoneSettingsDesc>
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
+  <CommandCopyZoneSettingsDesc>Zkopíruje nastavení tohoto skladiště do schránky, abys ho mohl přenést na jinou oblast.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Vložit nastavení</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Přepíše nastavení této oblasti tím, které sis předtím uložil do schránky.</CommandPasteZoneSettingsDesc>
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
+  <CommandPasteZoneSettingsDesc>Přepíše nastavení tohoto skladiště tím, které sis předtím zkopíroval do schránky.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Povolit setí</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>Pokud je tato volba vypnuta, kolonisté nebudou v této zóně pěstovat žádné nové rostliny. Mohou je však nadále sklízet.</CommandAllowSowDesc>
+  <CommandAllowSowDesc>Pokud je tato volba vypnuta, kolonisté nebudou v této zóně pěstovat žádné nové rostliny. Sklízet však nadále budou.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Povolit sekání</CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
-  <CommandAllowCutDesc>Pokud je tato volba vypnuta, kolonisté nebudou v této zóně sekat žádné rostliny. Mohou však nadále pěstovat nové rostliny na již prázdné půdě a také sklízet.</CommandAllowCutDesc>
-
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
+  <CommandAllowCutDesc>Pokud je tato volba vypnuta, kolonisté nebudou v této zóně sekat žádné rostliny. Budou však stále vysévat nové rostliny do míst, která jsou již prázdná, a sklízet rostliny odpovídající typu rostliny pěstební zóny.</CommandAllowCutDesc>
+  
   <!-- Artillery -->
   <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>Nastavit vynucený cíl</CommandSetForceAttackTarget>
@@ -222,31 +222,31 @@
   <!-- EN: Replant -->
   <CommandReplant>Zasadit</CommandReplant>
   <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
-  <CommandReplantDesc>Tento strom je v současné době zabalen pro uskladnění a přepravu. Pomocí tohoto příkazu jej zasadíš na nové místo.</CommandReplantDesc>
+  <CommandReplantDesc>Tento strom je v současné době zabalen pro uskladnění a přepravu. Pomocí tohoto příkazu jej můžeš zasadit na nové místo.</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
-  <CommandMakeBeaconStockpileDesc>Vytvoř skladiště kolem této stavby, které bude přesně odpovídat tvaru dosahu tohoto majáku.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>Vytvoří kolem této stavby skladiště, které bude přesně odpovídat tvaru dosahu majáku.</CommandMakeBeaconStockpileDesc>
   <!-- EN: Create stockpile -->
   <CommandMakeBeaconStockpileLabel>Vytvořit skladiště</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
-  <CommandSunLampMakeGrowingZoneDesc>Vytvoř kolem této stavby oblast pro výsev, která bude přesně odpovídat tvaru dosvitu lampy.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>Vytvoří kolem této stavby pěstební oblast, která bude přesně odpovídat tvaru dosvitu lampy.</CommandSunLampMakeGrowingZoneDesc>
   <!-- EN: Create growing zone -->
-  <CommandSunLampMakeGrowingZoneLabel>Vytvořit oblast setby</CommandSunLampMakeGrowingZoneLabel>
+  <CommandSunLampMakeGrowingZoneLabel>Vytvořit pěstební oblast</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
   <!-- EN: Auto Rearm -->
   <CommandAutoRearm>Automaticky nastražit</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>Pokud je toto zapnuto, past se po spuštění automaticky sama naplánuje pro znovunastražení.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Pokud je tato volba zapnuta, tato past se po svém spuštění automaticky znovu nastraží.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
   <CommandReleaseAnimalsLabel>Vypustit zvěř k útoku</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>Je-li tohle zapnuto, zvířata v doprovodu svých pánů jsou vyslána k útoku na vzdálené cíle. Při vypnutí zůstávají v blízkosti svých pánů a střeží je.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Pokud je tato volba zapnuta, pánem ovládaná zvířata jsou vysílána k útokům na vzdálené cíle. Když je vypnuta, zůstávají v blízkosti svého pána a střeží ho.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>Žádná zvířata nejsou k dispozici.</CommandReleaseAnimalsFail_NoAnimals>
   
@@ -254,19 +254,19 @@
   <!-- EN: Attack -->
   <CommandSquadAttack>Zaútočit</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
-  <CommandSquadAttackDesc>Rozkáže vybraným kolonistům, aby zaútočili na vybrané cíle.</CommandSquadAttackDesc>
+  <CommandSquadAttackDesc>Přikáže vybraným kolonistům, aby zaútočili na vybrané cíle.</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
   <CommandMeleeAttack>Zaútočit zblízka</CommandMeleeAttack>
   <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
-  <CommandMeleeAttackDesc>Rozkáže vybraným kolonistům, aby zaútočili na vybrané cíle pouze pěstmi a zbraněmi na blízko.</CommandMeleeAttackDesc>
+  <CommandMeleeAttackDesc>Přikáže vybraným kolonistům, aby zaútočili na vybrané cíle pouze pěstmi a zbraněmi na blízko.</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <!-- EN: Hold fire -->
-  <CommandHoldFire>Nestřílet!</CommandHoldFire>
+  <CommandHoldFire>Zastavit palbu</CommandHoldFire>
   <!-- EN: End any ongoing attacks. -->
-  <CommandHoldFireDesc>Ukončí jakýkoliv probíhající útok.</CommandHoldFireDesc>
+  <CommandHoldFireDesc>Ukončí všechny probíhající útoky.</CommandHoldFireDesc>
   
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
@@ -553,7 +553,7 @@
   <CommandDropPawn>Pustit {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Pustí přepravovanou osobu.</CommandDropPawnDesc>
-  
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>Vzít si drogu...</TakeDrug>

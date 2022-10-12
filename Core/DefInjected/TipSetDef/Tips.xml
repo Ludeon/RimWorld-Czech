@@ -4,7 +4,7 @@
   <!-- EN: You can dismiss letters by right-clicking on them. -->
   <GameplayTips.DismissLetters>Zprávy na pravé straně obrazovky můžeš zavřít pravým kliknutím.</GameplayTips.DismissLetters>
   <!-- EN: You can hold the shift key to queue orders on your colonists. -->
-  <GameplayTips.QueueOrders>Přidržením klávesy Shift můžeš svým kolonistům zadávat příkazy do fronty.</GameplayTips.QueueOrders>
+  <GameplayTips.QueueOrders>Podržením klávesy Shift můžeš řadit příkazy pro své kolonisty do fronty.</GameplayTips.QueueOrders>
   <!-- EN: You can right-click and drag to reorder colonists on the colonist bar. -->
   <GameplayTips.ReorderColonistbar>Na horní kolonistické liště můžeš podržet pravé tlačítko myši a tažením kolonisty přeskupit.</GameplayTips.ReorderColonistbar>
   <!-- EN: You can select previous/next colonist with the , and . keys. -->
@@ -19,12 +19,14 @@
   <GameplayTips.WorkTabChangeAllColonists>Pokud v nabídce ČINNOSTI podržíš Shift a klikneš na název typu práce, změní se nastavení všech kolonistů najednou.</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>Pokud na kartě ČINNOSTI v režimu manuálních priorit klikneš pravým tlačítkem na číslo, prioritu snížíš, levým ji naopak zvýšíš.</GameplayTips.WorkTabDecreasePriority>
+  <!-- EN: You can hold the alt key to show detailed information about a specific tile. -->
+  <GameplayTips.CellInspector>Podržením klávesy Alt můžeš zobrazit podrobné informace o políčku.</GameplayTips.CellInspector>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
   <GameplayTips.GunfightCover>Při přestřelce se vždy kryj za překážkami! Podržením pravého tlačítka myši a tažením vytvoříš řadu z povolaných bojovníků.</GameplayTips.GunfightCover>
   <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
   <GameplayTips.GunfightSpread>Podržením pravého tlačítka myši a tažením můžeš z povolaných bojovníků vytvořit řadu. Seskupené cíle lze snadno zasáhnout!</GameplayTips.GunfightSpread>
   <!-- EN: Smoke totally prevents turrets from detecting targets, but people can still shoot with reduced accuracy. -->
-  <GameplayTips.ShootingAccuracySmoke>Zatímco kouř dokáže vyřadit detekční systém střeleckých věží kompletně, lidé mohou střílet stále, ale se sníženou přesností.</GameplayTips.ShootingAccuracySmoke>
+  <GameplayTips.ShootingAccuracySmoke>Kouř zcela znemožňuje věžím detekovat cíle, ovšem lidé mohou stále střílet se sníženou přesností.</GameplayTips.ShootingAccuracySmoke>
   <!-- EN: When designing defences, assume enemies will get inside using drop pods or tunnels. Build internal defensive positions. -->
   <GameplayTips.DesignDefenses>Při navrhování obrany předpokládej, že se nepřátelé dostanou dovnitř i pomocí výsadkových modulů nebo tunelů. Proto buduj vnitřní obranné pozice.</GameplayTips.DesignDefenses>
   <!-- EN: Foggy or rainy weather reduces the accuracy of ranged weapons. -->
@@ -57,13 +59,11 @@
   <GameplayTips.CaravanHitchingSpot>Abys určil místo k vytváření svých karavan, umísti uvaziště pro karavany. Ideálně v blízkosti tvých skladovacích prostor.</GameplayTips.CaravanHitchingSpot>
   <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
   <GameplayTips.CaravanHitchingSpotRoamers>V oblastech mimo tvůj domov můžeš využít karavanního uvaziště, aby se tvá zvířata netoulala.</GameplayTips.CaravanHitchingSpotRoamers>
-  <!-- EN: Single-person caravans can be very useful in certain situations. -->
-  <GameplayTips.CaravanSinglePerson>Jednočlenné karavany mohou být v určitých situacích velmi užitečné.</GameplayTips.CaravanSinglePerson>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
   <GameplayTips.CaravanRideableAnimals>Karavany postupují rychleji, pokud zahrnují jízdní zvířata, jako jsou koně, oslové a dromedáři.</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>Menší karavany budou přepadávány méně často, protože jsou méně nápadné.</GameplayTips.CaravanSmallerLessVisible>
-  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing post. This will make packing much faster. -->
+  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan hitching spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>Před vytvořením karavany je vhodné soustředit zboží do skladu poblíž tvého uvaziště pro karavany. Nakládka pak může proběhnout mnohem rychleji.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>Pokud máš ve své karavaně nevycvičená zvířata, můžeš je před útokem na nepřítele rozdělit do samostatné karavany, abys je udržel mimo boj.</GameplayTips.CaravanUntrainedAnimals>
@@ -93,7 +93,9 @@
   <GameplayTips.TerrainMovementSpeed>Terén ovlivňuje rychlost pohybu. Postav podlahy, aby se tví kolonisté mohli rychleji pohybovat.</GameplayTips.TerrainMovementSpeed>
   <!-- EN: Different terrain has different inherent cleanliness levels. Tiles are inherently clean; dirt is inherently dirty. -->
   <GameplayTips.TerrainCleanliness>Každý typ povrchu má své přirozené úrovně čistoty. Dlaždice jsou ze své podstaty čisté; hlína je naopak špinavá.</GameplayTips.TerrainCleanliness>
-  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to his own faction will be highly appreciated. -->
+  <!-- EN: Some floor types are faster to clean than others. It takes much longer to clean carpet compared to metal tile. -->
+  <GameplayTips.TerrainCleanSpeed>Některé typy podlah se čistí rychleji než jiné. Čištění koberců trvá mnohem déle než čištění ocelových dlaždic.</GameplayTips.TerrainCleanSpeed>
+  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to their own faction will be highly appreciated. -->
   <GameplayTips.PrisonersAsGifts>Vězně můžeš darovat. Vydání vězně zpět do jeho vlastní frakce bude náležitě odměněno.</GameplayTips.PrisonersAsGifts>
   <!-- EN: You can request specific types of trade caravans using the comms console. -->
   <GameplayTips.RequestTradeCaravans>Pomocí radiostanice si můžeš vyžádat konkrétní typy obchodních karavan.</GameplayTips.RequestTradeCaravans>
@@ -126,11 +128,11 @@
   <!-- EN: Geysers heat up rooms if enclosed. This can be dangerous, or useful. -->
   <GameplayTips.GeysersHeatRooms>Gejzíry lze využít k vytápění uzavřených prostor. Může to být nebezpečné, nebo užitečné.</GameplayTips.GeysersHeatRooms>
   <!-- EN: Explosions extinguish fires in their blast radius. This makes artillery shells useful for stopping fires when there is no other choice. -->
-  <GameplayTips.ExtinguishFireArtillery>Exploze uhasí požáry v jejich poloměru výbuchu. Díky tomu jsou dělostřelecké granáty užitečné pro zastavování požárů, nezbývá-li jiná možnost.</GameplayTips.ExtinguishFireArtillery>
+  <GameplayTips.ExtinguishFireArtillery>Exploze uhasí požáry v okruhu svého výbuchu. Díky tomu jsou dělostřelecké granáty užitečné pro zastavování požárů, nezbývá-li jiná možnost.</GameplayTips.ExtinguishFireArtillery>
   <!-- EN: Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations. -->
   <GameplayTips.BestStoriesFromDarkestSituations>Ani vážné nezdary nemusí nutně znamenat, že hra musí skončit. Zkus zahrát i ztracenou bitvu - často nejlepší příběhy se vynoří právě z těch nejtemnějších situací.</GameplayTips.BestStoriesFromDarkestSituations>
   <!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
-  <GameplayTips.KeepWeaponsAwayFromPrisoners>Zásoby zbraní drž dál od svých věznic. Vězni na útěku jsou mnohem více nebezpeční se zbraněmi a výbušninami.</GameplayTips.KeepWeaponsAwayFromPrisoners>
+  <GameplayTips.KeepWeaponsAwayFromPrisoners>Zásoby zbraní drž dál od svých věznic. Se zbraněmi a výbušninami jsou útěky z vězení mnohem nebezpečnější.</GameplayTips.KeepWeaponsAwayFromPrisoners>
   <!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
   <GameplayTips.MakeSureYouHaveFoodForTamedAnimals>Při ochočování zvířat se ujisti, že máš dostatek potravy správného typu pro jejich krmení.</GameplayTips.MakeSureYouHaveFoodForTamedAnimals>
   <!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->

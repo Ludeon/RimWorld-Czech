@@ -78,8 +78,13 @@
   
   <!-- EN: shelf -->
   <Shelf.label>regál</Shelf.label>
-  <!-- EN: A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside. -->
-  <Shelf.description>Regál pro uskladnění různých předmětů. Předměty uskladněné v regálu nebudou ovlivňovat krásu místnosti a nebudou podléhat povětrnostním vlivům, dokonce i když jsou venku.</Shelf.description>
+  <!-- EN: A triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+  <Shelf.description>Dvojitý třípolicový regál, který pojme třikrát více než holá zem. Předměty v něm uložené nikdy nedegradují a neovlivňují krásu svého okolí.\n\nVzhledem k omezenému prostoru v regálech není možné skladovat kamenné bloky, demontované stavby, vykopané rostliny a velké mrtvoly.</Shelf.description>
+  
+  <!-- EN: small shelf -->
+  <ShelfSmall.label>malý regál</ShelfSmall.label>
+  <!-- EN: A small triple-stack shelf that holds three times as much as empty ground. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses. -->
+  <ShelfSmall.description>Malý třípolicový regál, který pojme třikrát více než holá zem. Předměty v něm uložené nikdy nedegradují a neovlivňují krásu svého okolí.\n\nVzhledem k omezenému prostoru v regálech není možné skladovat kamenné bloky, demontované stavby, vykopané rostliny a velké mrtvoly.</ShelfSmall.description>
   
   <!-- EN: sleeping spot -->
   <SleepingSpot.label>místo na spaní</SleepingSpot.label>
@@ -89,22 +94,7 @@
   <!-- EN: standing lamp -->
   <StandingLamp.label>stojací lampa</StandingLamp.label>
   <!-- EN: An electrical standing lamp that lights an area. People need light to move and work at full speed. -->
-  <StandingLamp.description>Stojací lampa na elektřinu, která osvětluje okolí. Lidé potřebují světlo, aby mohli chodit a pracovat plnou rychlostí.</StandingLamp.description>
-  
-  <!-- EN: standing lamp (blue) -->
-  <StandingLamp_Blue.label>stojací modrá lampa</StandingLamp_Blue.label>
-  <!-- EN: A standing lamp that lights an area in blue. -->
-  <StandingLamp_Blue.description>Stojací lampa, která osvětluje okolí modrým světlem.</StandingLamp_Blue.description>
-  
-  <!-- EN: standing lamp (green) -->
-  <StandingLamp_Green.label>stojací zelená lampa</StandingLamp_Green.label>
-  <!-- EN: A standing lamp that lights an area in green. -->
-  <StandingLamp_Green.description>Stojací lampa, která osvětluje okolí zeleným světlem.</StandingLamp_Green.description>
-  
-  <!-- EN: standing lamp (red) -->
-  <StandingLamp_Red.label>stojací červená lampa</StandingLamp_Red.label>
-  <!-- EN: A standing lamp that lights an area in red. -->
-  <StandingLamp_Red.description>Stojací lampa, která osvětluje okolí červeným světlem.</StandingLamp_Red.description>
+  <StandingLamp.description>Elektrická stojací lampa, která osvětluje okolí. Lidé potřebují světlo, aby se mohli pohybovat a pracovat naplno.</StandingLamp.description>
   
   <!-- EN: stool -->
   <Stool.label>stolička</Stool.label>
@@ -112,7 +102,7 @@
   <Stool.description>Obyčejná plocha, na které se dá sedět. Není moc komfortní, ale mnohem lepší než nic. Lze ji používat u stolů, pracovních stanic, a kdekoliv jinde.</Stool.description>
   
   <!-- EN: sun lamp -->
-  <SunLamp.label>umělé slunce</SunLamp.label>
+  <SunLamp.label>sluneční lampa</SunLamp.label>
   <!-- EN: An industrial lamp which lights an area brightly enough to grow crops, but consumes a huge amount of power. Automatically turns itself off at night. -->
   <SunLamp.description>Průmyslová lampa, která osvětluje okolí jasným světlem, při kterém je možné pěstovat rostliny, ale spotřebovává přitom obrovské množství energie. Na noc se automaticky vypíná.</SunLamp.description>
   <!-- EN: Off for plant resting period -->
