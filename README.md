@@ -1,13 +1,13 @@
 # RimWorld Czech
 
-Czech Translation of RimWorld (Core, Royalty and Ideology)
+Czech Translation of RimWorld (Core, Royalty, Ideology and Biotech)
 
 See this page for license info:
 
 - https://ludeon.com/forums/index.php?topic=2933.0
 ---
 
-### Pokud chce někdo vypomoci s překladem, ať nás prosím nejdříve kontaktuje na fóru:
+### Chce-li někdo vypomoci s překladem, ať nás prosím nejdříve kontaktuje na fóru:
 - https://prekladyher.eu/tema/rimworld.1209/
 
 ### Nález chyb hlašte zde / For bugtrace:
@@ -15,9 +15,9 @@ See this page for license info:
 ---
 
 # Czech Translation Team:
-- Morticinus (active translator, tester, corrector)
-- Galoth (active tester)
-- Azarian (inactive, helped with backstories, A16)
+- Morticinus (active)
+- Galoth (active)
+- Azarian (inactive)
 
 ---
 ##### Special thanks: Leffi, lordfanger, Barbar, Aladalar
