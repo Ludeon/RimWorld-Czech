@@ -24,17 +24,21 @@
   <!-- EN: Camera dolly -->
   <CameraDolly.label>Pohyb kamery</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
-  <CameraDolly.helpText>Pohybuj kamerou stisknutím a tažením TLAČÍTKA MYŠI 3 (prostřední tlačítko) nebo klávesami {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <CameraDolly.helpText>Posouvat kamerou lze stisknutím a tažením STŘEDOVÉHO TLAČÍTKA MYŠI nebo klávesami {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>Posouvat kamerou lze pomocí směrových šipek.</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
-  <CameraZoom.label>Přiblížení/oddálení kamery</CameraZoom.label>
+  <CameraZoom.label>Zoomování kamery</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
-  <CameraZoom.helpText>Přibližuj a oddaluj pohled KOLEČKEM MYŠI nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out}.</CameraZoom.helpText>
+  <CameraZoom.helpText>Přibližování a oddalování kamery se provádí pomocí KOLEČKA MYŠI nebo kláves {Key:MapZoom_In} a {Key:MapZoom_Out}.</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>Přibližování a oddalování kamery se provádí pomocí kláves {Key:MapZoom_In} and {Key:MapZoom_Out}.</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>Naklikávací zprávy</ClickingMessages.label>
   <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
-  <ClickingMessages.helpText>Na oznámení v levém horním rohu obrazovky můžeš kliknout, abys okamžitě přesunul kameru na předmět zprávy.</ClickingMessages.helpText>
+  <ClickingMessages.helpText>Kliknutím na oznámení v levém horním rohu obrazovky okamžitě vycentruješ pohled kamery na příslušný problém.</ClickingMessages.helpText>
   
   <!-- EN: Cover and shooting -->
   <CoverAndShooting.label>Krytí a střelba</CoverAndShooting.label>
@@ -42,14 +46,16 @@
   <CoverAndShooting.helpText>Nejdůležitější věc při boji na dálku je používat krytí.\n\nKrytí funguje jen tehdy, když se ho kolonisté dotýkají a stojí mezi tvým kolonistou a nepřítelem.\n\nKolonisty také můžeš umístit za rohy zdí. Kvůli střelbě se zpoza nich vykloní.\n\nJako krytí lze využít většinu věcí, ale některé jsou lepší než jiné. Schovávání se za stromem je lepší než nic, ale schovávání se za pytli s pískem je lepší než krytí za stromem.</CoverAndShooting.helpText>
   
   <!-- EN: Item deterioration -->
-  <Deterioration.label>Zvětrávání předmětů</Deterioration.label>
+  <Deterioration.label>Degradace předmětů</Deterioration.label>
   <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
-  <Deterioration.helpText>Předměty ponechané venku budou pomalu zvětrávat.\n\nJestli chceš uchovávat předměty dlouhodobě, dávej je pod zastřešenou místnost.</Deterioration.helpText>
+  <Deterioration.helpText>Předměty ponechané venku pomalu degradují. Pokud chceš předměty skladovat dlouhodobě, uchovávej je v zastřešené místnosti.</Deterioration.helpText>
   
   <!-- EN: Equipping weapons -->
   <EquippingWeapons.label>Vybavování zbraněmi</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
-  <EquippingWeapons.helpText>Tví kolonisté sem dorazili s několika zbraněmi. Vybav je jimi!\n\nVyber každého kolonistu a klikni pravým tlačítkem myši na zbraň, kterou je chceš vybavit.</EquippingWeapons.helpText>
+  <EquippingWeapons.helpText>Tví kolonisté sem dorazili s několika zbraněmi. Vybav je jimi!\n\nVyber každého kolonistu a klikni pravým tlačítkem myši na zbraň, kterou chceš, aby byl vyzbrojen.</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>Tví kolonisté sem dorazili s několika zbraněmi. Vybav je jimi!\n\nVyber každého kolonistu a stiskni tlačítko levé spouště na zbrani, kterou chceš, aby byl vyzbrojen.</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
   <FirePreparation.label>Požární prevence</FirePreparation.label>
@@ -59,7 +65,7 @@
   <!-- EN: Forbid and allow -->
   <Forbidding.label>Zakázat a povolit</Forbidding.label>
   <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
-  <Forbidding.helpText>Kolonisté nebudou zacházet s předměty, které jsou označené jako ZAKÁZÁNO.\n\nZakázané předměty jsou označené malým červeným X. Abys ho povolil, vyber zakázaný předmět a použij příkaz dole Povolit.</Forbidding.helpText>
+  <Forbidding.helpText>Kolonisté nebudou manipulovat s předměty označenými jako ZAKÁZÁNO.\n\nZakázané předměty jsou označené malým červeným znakem X. Vyber zakázaný předmět a pomocí ovládacích prvků v dolní části ji POVOL.</Forbidding.helpText>
   
   <!-- EN: Forbidding doors -->
   <ForbiddingDoors.label>Zakázané dveře</ForbiddingDoors.label>
@@ -69,27 +75,27 @@
   <!-- EN: Forming caravans -->
   <FormCaravan.label>Vytváření karavan</FormCaravan.label>
   <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
-  <FormCaravan.helpText>Můžeš vytvořit karavanu, abys vyslal skupinu lidí, kteří pak budou cestovat po celé planetě!\n\nV nabídce MAPA SVĚTA vyber svou domovskou základnu a klikni na tlačítko "Vytvořit karavanu".</FormCaravan.helpText>
+  <FormCaravan.helpText>Můžeš vytvořit karavanu a poslat skupinu lidí na výpravu po celé planetě!\n\nV nabídce MAPA SVĚTA vyber svou domovskou základnu a klikni na tlačítko "Vytvořit karavanu".</FormCaravan.helpText>
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Ochrana před střelbou do vlastních</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
-  <FriendlyFireSafety.helpText>Střelba do vlastních se nikdy nestane, pokud je střelec blízko svého spojence.\n\nMůžeš například bezpečně umístit kolonistu s mečem hned před kolonistu se střelnou zbraní. Střelec bude střílet přes rameno svého přítele.\n\nTohle je dobrý způsob, jak zkombinovat bojovníky na blízko a na dálku.</FriendlyFireSafety.helpText>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <FriendlyFireSafety.helpText>Ke střelbě do vlastních řad nikdy nedojde, pokud se střelec nachází v bezprostřední blízkosti svého spojence.\n\nMůžeš například bez obav umístit kolonistu s mečem přímo před kolonistu se střelnou zbraní. Střelec bude střílet přes rameno svého přítele.\n\nJe to dobrý způsob, jak zkombinovat bojovníky na blízko a na dálku.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
   <GettingMoreTraders.label>Získání dalších obchodníků</GettingMoreTraders.label>
   <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
-  <GettingMoreTraders.helpText>S čím více frakcemi budeš mít přátelské vztahy, tím více obchodních karavan tě přijede navštívit.\n\nPokud nemáš žádné spojence, nikdy k tobě žádná karavana nepřijede!\n\nMůžeš také spojencům zaplatit, aby ti poslali obchodní karavanu, a to tak, že jim zavoláš pomocí radiostanice.</GettingMoreTraders.helpText>
+  <GettingMoreTraders.helpText>Pokud jsi ve spojenectví s více frakcemi, zavítá k tobě více obchodních karavan.\n\nPokud nemáš žádné spojence, žádná karavana tě nikdy nenavštíví!!\n\nSpojencům můžeš také zaplatit za to, aby ti poslali obchodní karavany, a to tak, že jim zavoláš prostřednictvím radiostanice.</GettingMoreTraders.helpText>
   
   <!-- EN: Growing zones -->
   <GrowingFood.label>Pole pro pěstování</GrowingFood.label>
   <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
-  <GrowingFood.helpText>Aby sis vypěstoval jídlo, umísti POLE za použití nabídky Architekt.\n\nPole se dají umisťovat jen na vhodnou půdu pro pěstování.</GrowingFood.helpText>
+  <GrowingFood.helpText>Chceš-li pěstovat jídlo, umísti POLE za použití nabídky Architekt\n\nPole lze umístit pouze na vhodnou půdu pro pěstování.</GrowingFood.helpText>
   
   <!-- EN: History tab -->
   <HistoryTab.label>Záložka Historie</HistoryTab.label>
   <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
-  <HistoryTab.helpText>Na kartě HISTORIE (kniha) na spodní straně obrazovky si můžeš prohlížet záznamy o majetku kolonie, jak se měnily v průběhu času.</HistoryTab.helpText>
+  <HistoryTab.helpText>Na záložce HISTORIE v dolní části obrazovky si můžeš prohlédnout záznamy o vývoji tvé kolonie v průběhu času.</HistoryTab.helpText>
   
   <!-- EN: Home area -->
   <HomeArea.label>Domovská oblast</HomeArea.label>
@@ -105,11 +111,6 @@
   <InfoCard.label>Informační karty</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
   <InfoCard.helpText>Informační karta zobrazuje podrobné statistiky o jakémkoliv předmětu, osobě nebo stavbě.\n\nVyber osobu nebo předmět a otevři jejich informační kartu pomocí tlačítka 'i' v podokně náhledu.</InfoCard.helpText>
-  
-  <!-- EN: Room stats inspector -->
-  <InspectRoomStats.label>Prohlížení statistik pokoje</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
-  <InspectRoomStats.helpText>Použitím přepínače ZOBRAZOVÁNÍ STATISTIKY PROSTŘEDÍ v pravém dolním rohu si můžeš prohlížet působivost, bohatství a krásu jednotlivých pokojů.</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>Manuální priority činností</ManualWorkPriorities.label>
@@ -156,6 +157,11 @@
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
   <StorageTab.helpText>Skladiště a skladištní budovy si můžeš přizpůsobovat tak, že je vybereš a na horní straně podokna náhledu vlevo dole otevřeš záložku SKLADIŠTĚ.\n\nNa záložce skladiště daného skladovacího prostoru můžeš rozbalovat kategorie, abys povolil nebo zakázal konkrétní předměty. Stačí kliknout na trojúhelníky vlevo od názvů kategorií.\n\nMůžeš také měnit PRIORITU skladiště. Kolonisté budou nejprve plnit skladiště s vyšší prioritou a budou přesouvat předměty ze skladiště s nižší prioritou do toho s vyšší prioritou.</StorageTab.helpText>
   
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>Průzkumník políček</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>Podrobnosti o políčku si můžeš prohlédnout podržením klávesy {Key:ShowCellInspector}. Zobrazí se tak, co se na políčku nachází, informace o pokoji, kráse a mnoho dalšího.</TileInspector.helpText>
+  
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Časový rozvrh</TimeAssignments.label>
   <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
@@ -164,11 +170,13 @@
   <!-- EN: Time controls -->
   <TimeControls.label>Ovládání času</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.helpText>Čas můžeš urychlit.\n\nZkus si ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast} nebo ovládáním času vpravo dole.</TimeControls.helpText>
+  <TimeControls.helpText>Čas můžeš zrychlit.\n\nZkus ovládat čas pomocí kláves {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast} a {Key:TimeSpeed_Superfast}, a nebo pomocí ovládání času vpravo dole.</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>Čas můžeš zrychlit.\n\nZkus ovládat čas pomocí tlačítek {Key:TimeSpeed_Faster} a {Key:TimeSpeed_Slower}, a nebo pomocí ovládání času vpravo dole.</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Nastavení činnosti</WorkTab.label>
   <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
-  <WorkTab.helpText>Každému kolonistovi můžeš nastavit pracovní priority v nabídce ČINNOSTI, která se nachází na obrazovce vlevo dole.\n\nVždy budou provádět činnosti nejvyšší priority, kterou dokážou najít.\n\nPokud není na určitý druh činnosti nikdo přidělen, nebo pokud jsou kolonisté zaneprázdněni činnostmi s vyšší prioritou, tato činnost nebude nikdy vykonána.</WorkTab.helpText>
+  <WorkTab.helpText>Každému kolonistovi můžeš nastavit pracovní priority v nabídce ČINNOSTI, která se nachází na obrazovce vlevo dole.\n\nVždy budou vykonávat práci s nejvyšší prioritou, kterou dokáží najít.\n\nNení-li k určitému druhu činnosti nikdo přidělen nebo pokud jsou všichni zaneprázdněni úkoly s vyšší prioritou, nebude tato činnost nikdy dokončena.</WorkTab.helpText>
   
 </LanguageData>
