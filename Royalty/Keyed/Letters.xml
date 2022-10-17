@@ -23,7 +23,7 @@
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
   <LetterGainedRoyalTitle>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} titul {TITLE}!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>{PAWN_labelShort} již není {PAWN_gender ? držitelem : držitelkou} titulu {TITLE}, který dříve {PAWN_gender ? získal : získala} od frakce {FACTION_name}.</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} již nadále není {PAWN_gender ? držitelem : držitelkou} titulu {TITLE} uděleného frakcí {FACTION_name}.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
   <LetterLabelRewardsForNewTitle>Odměny za titul</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
@@ -64,13 +64,13 @@
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>Prostřednictvím přepravního modulu {PAWN_gender ? obdržel : obdržela} tyto položky:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? získal : získala} z frakce {FACTION_name} {1}b pocty.</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} {replace: ​{1}​; "​1​"-"1 bod"; "​2​"-"2 body"; "​3​"-"3 body"; "​4​"-"4 body"; "​{1}​"-"{1} bodů"} {lookup: {FACTION_royalFavorLabel}; Case\Singular; 2}.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Pokud {PAWN_nameDef} zemře, {PAWN_possessive} titul zdědí {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>V případě smrti zdědí tento titul {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>Pokud {PAWN_nameDef} zemře, nikdo {PAWN_possessive} titul nezdědí.</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>V případě smrti tento titul nikdo nezdědí.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameDef} je {PAWN_gender ? členem : členkou} frakce {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->

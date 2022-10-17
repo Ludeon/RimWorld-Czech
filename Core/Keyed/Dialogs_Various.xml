@@ -21,6 +21,8 @@
   <ResetAll>Resetovat vše</ResetAll>
   <!-- EN: Disable -->
   <Disable>Deaktivovat</Disable>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>Přesto to tam chceš osídlit?</ConfirmSettle>
   <!-- EN: add -->
   <Add>přidat</Add>
   <!-- EN: Cannot shoot -->
@@ -37,6 +39,8 @@
   <GameUpdatedToNewVersionNonSteam>Protože se jedná o verzi bez DRM ochrany, můžeš hru nainstalovat do dvou různých adresářů, abys mohl hrát jak starou, tak i novou verzi.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Beta verze".\n\n  1. V knihovně Steamu klikni pravým na RimWorld.\n  2. Klikni na Vlastnosti.\n  3. Klikni na záložku Beta verze.\n  4. Z roletové nabídky si vyber verzi, kterou chceš.</GameUpdatedToNewVersionSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
+  <GameUpdatedToNewVersionSteamController>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Beta verze".</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -130,7 +134,7 @@
   <!-- EN: Load anyway -->
   <LoadAnyway>Přesto načíst</LoadAnyway>
   <!-- EN: Load mod list from save -->
-  <ChangeLoadedMods>Načíst seznam modů\nz uložené pozice</ChangeLoadedMods>
+  <ChangeLoadedMods>Načíst seznam modů ze savu</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
   <MissingMods>Některé mody nejsou k dispozici a je třeba je nainstalovat</MissingMods>
   <!-- EN: Official content -->
@@ -173,10 +177,28 @@
   <ZoneGainsName>Oblast se odteď jmenuje {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>Zvolené jméno není platné.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Přezdívka této osoby je odteď {0}. {PAWN_possessive} titul je {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Zvíře se odteď jmenuje {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>přejmenování postavy</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>matka</Mother>
+  <!-- EN: father -->
+  <Father>otec</Father>
+  <!-- EN: unknown -->
+  <Unknown>není známo</Unknown>
+  <!-- EN: first name -->
+  <FirstName>křestní jméno</FirstName>
+  <!-- EN: nickname -->
+  <NickName>přezdívka</NickName>
+  <!-- EN: last name -->
+  <LastName>příjmení</LastName>
+  <!-- EN: suggested -->
+  <Suggested>TODO</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -189,8 +211,12 @@
   <FileIncompatibleWarning>Tento soubor byl uložen verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení tohoto souboru může způsobovat chyby a pády hry.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Neshoda modů</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
-  <ModsMismatchWarningText>Tento soubor byl uložen s odlišnou sadou aktivních modů než ty, které jsou spuštěny nyní. To může, ale také nemusí, způsobovat problémy, v závislosti na tom, co tyto mody dělají.\n\nSoubor byl uložen s těmito mody v tomto pořadí:\n\n{0}\n\nNyní máš aktivní tyto mody v tomto pořadí:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
+  <ModsMismatchWarningText>Tento soubor byl uložen s odlišnou sadou aktivních modů, než které jsou aktuálně používány. V některých případech to může, ale nemusí způsobovat problémy, a to v závislosti na tom, co přesně tyto mody dělají.</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>Žádné mody nebyly přidány ani odebrány, ale změnilo se uspořádání tvého seznamu modů.</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>Opravdu chceš načíst seznam modů z této uložené pozice?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -207,7 +233,7 @@
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
   <ConfirmResetLearningHelper>Opravdu chceš resetovat výukového pomocníka?\n\nVšechny záznamy o osvojených pojmech budou vymazány a systém bude učit vše od nuly.</ConfirmResetLearningHelper>
-  
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Varování: Přistaneš ve zmrzlém prostředí. Přežití bude obtížné, ne-li téměř nemožné. Pokud nemáš v úmyslu čelit extrémní výzvě, zvol si jiné místo nebo roční období.</MapTemperatureDangerWarning>
@@ -319,7 +345,7 @@
   <!-- EN: Ranged warmup -->
   <RangedWarmupTime>Doba přípravy boje na dálku</RangedWarmupTime>
   <!-- EN: Cooldown -->
-  <CooldownTime>Prodleva mezi útoky</CooldownTime>
+  <CooldownTime>Doba obnovení</CooldownTime>
   <!-- EN: Disarmed -->
   <DisarmedTime>Vyřazen na</DisarmedTime>
   <!-- EN: Charging -->
@@ -414,8 +440,10 @@
   <WildnessExplanation>Divočejší tvorové se pochopitelně dají mnohem obtížněji ochočit, trénovat a ovládat.</WildnessExplanation>
   <!-- EN: Training decay interval -->
   <TrainingDecayInterval>Interval degradace výcviku</TrainingDecayInterval>
-  <!-- EN: Tameness will never decay. -->
-  <TamenessWillNotDecay>Krotkost nikdy nedegraduje.</TamenessWillNotDecay>
+  <!-- EN: Tameness will never decay for animals of very low wildness. -->
+  <TamenessWillNotDecay>Krotkost se u zvířat s velmi nízkou hodnotou divokosti nikdy nevytratí.</TamenessWillNotDecay>
+  <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
+  <TamenessWillNotDecayFenceBlocked>Krotkost se u zvířat, která lze držet v ohradách, nikdy nevytratí.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>Času stráveno</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -434,8 +462,12 @@
   <ToleranceFallRate>Rychlost poklesu snášenlivosti</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Min. snášenlivost ke vzniku závislosti</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
-  <SafeDoseInterval>Interval bezpečné dávky</SafeDoseInterval>
+  <!-- EN: Safe dose interval for adults -->
+  <SafeDoseInterval>Interval bezpečné dávky pro dospělé</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>TODO</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>TODO</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Šance na vznik závislosti</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -528,7 +560,7 @@
   <MeditationFocuses>Typy meditačního soustředění</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Odemyká tyto typy meditací</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>Typy meditačního soustředění, které tato osoba může používat. Při meditaci může člověk využít k soustředění nějaký objekt, aby zvýšil svůj zisk psiofokusu - ale pouze v případě, že tento objekt nabízí typ meditačního soustředění, který je pro něj vhodný. Typy meditací každého člověka jsou určeny jeho minulostí, hlavními rysy, společenským postavením, atp.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Typy meditačního soustředění, které tento objekt nabízí.</MeditationFocusesDesc>
@@ -889,7 +921,7 @@
   <!-- EN: {0} times per day -->
   <TimesPerDay>{0} krát za den</TimesPerDay>
   <!-- EN: Every {0} days -->
-  <EveryDays>Každé {0} dny</EveryDays>
+  <EveryDays>Každ{replace: ​{0}​; "​2​"-"é 2 dny"; "​3​"-"é 3 dny"; "​4​"-"é 4 dny"; "​{0}​"-"ých {0} dnů"}</EveryDays>
   <!-- EN: Any -->
   <NoDrugUseRequirement>Kdykoliv</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
@@ -938,6 +970,8 @@
   <NoFoodRestrictionSelected>Není vybráno žádné potravinové omezení</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>Nastavení norem medicíny</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Norma</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -945,7 +979,7 @@
   <!-- EN: Imprisoned colonist -->
   <MedGroupImprisonedColonist>Uvězněný kolonista</MedGroupImprisonedColonist>
   <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>Zvíře kolonie</MedGroupColonyAnimal>
+  <MedGroupColonyAnimal>Ochočené zvíře</MedGroupColonyAnimal>
   <!-- EN: Neutral animal -->
   <MedGroupNeutralAnimal>Neutrální zvíře</MedGroupNeutralAnimal>
   <!-- EN: Neutral faction -->
@@ -986,8 +1020,8 @@
   <ConfirmSendNotCompletelyLoadedPods>Skupina modulů není zcela naložena. Chybí {1_labelShort}. Odstartovat i tak?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
-  <ConfirmSettleNearFactionBase>Jelikož tato oblast leží v poloměru {0} políček od základny jiné frakce, budou mít pocit, že zasahuješ na jejich území. Vztahy s touto frakcí se budou zhoršovat každých {1} dnů.\n\nPřesto to tam chceš osídlit?</ConfirmSettleNearFactionBase>
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
+  <ConfirmSettleNearFactionBase>Vzhledem k tomu, že se tato lokace nachází v okruhu {replace: ​{0}​; "​1​"-"1 políčka"; "​2​"-"2 políček"; "​3​"-"3 políček"; "​4​"-"4 políček"; "​{0}​"-"{0} políček"} od základny jiné frakce, budou mít pocit, že zasahuješ na jejich území. Vztahy s takovými frakcemi se budou každých {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} zhoršovat.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1004,8 +1038,10 @@
   <ConfirmCancelMonumentMarker>Opravdu chceš tuto šablonu pro monument odstranit?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>{0} nelze použít</CannotUseAbility>
   <!-- EN: Line of sight required -->
-  <AbilityRequiresLOS>Nutná přímá viditelnost</AbilityRequiresLOS>
+  <AbilityRequiresLOS>Vyžadována přímá viditelnost</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
   <AbilityEntropyGain>Nárůst neurálního tepla</AbilityEntropyGain>
   <!-- EN: Psyfocus cost -->
@@ -1017,29 +1053,41 @@
   <!-- EN: Casting time -->
   <AbilityCastingTime>Doba sesílání</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
-  <AbilityCannotHitTarget>Není v přímé viditelnosti cíle.</AbilityCannotHitTarget>
+  <AbilityCannotHitTarget>Na cíl není přímo vidět.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>Cíl je mimo dosah.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Nelze dosáhnout cíle.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Nedostatek volného prostoru.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
-  <AbilityOccupiedCells>{0} musí cílit na prázdnou oblast.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
-  <AbilityUnwalkable>{0} musí cílit na schůdnou oblast.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
-  <AbilityRoofed>{0} musí cílit na nezastřešenou oblast.</AbilityRoofed>
+  <!-- EN: Must target an empty area. -->
+  <AbilityOccupiedCells>Musí se zacílit na prázdnou oblast.</AbilityOccupiedCells>
+  <!-- EN: Must target a walkable area. -->
+  <AbilityUnwalkable>Musí se zacílit na schůdnou oblast.</AbilityUnwalkable>
+  <!-- EN: Must target an unroofed area. -->
+  <AbilityRoofed>Musí se zacílit na nezastřešenou oblast.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0_labelShort} je psychicky {0_gender ? zlomený : zlomená}.</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort} je psychicky na dně.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} není psychicky {0_gender ? zlomený : zlomená}.</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} není psychicky na dně.</AbilityCanOnlyApplyToMentallyBroken>
+  <!-- EN: {0_labelShort} is not maddened. -->
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} momentálně nezuří.</AbilityCanOnlyApplyToManhunter>
+  <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
+  <AbilityCantApplyToScaria>{0_labelShort} trpí skárií, kterou lze léčit pouze lékařsky.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} nefunguje při psychickém stavu '{1}'.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} má nulový vzdor.</AbilityCantApplyNoResistance>
-  <!-- EN: Cannot use: {0} is asexual. -->
-  <AbilityCantApplyOnAsexual>{0} nelze použít na asexuály.</AbilityCantApplyOnAsexual>
+  <!-- EN: {0_labelShort} is downed. -->
+  <AbilityCantApplyDowned>{0_labelShort} je v bezvědomí.</AbilityCantApplyDowned>
+  <!-- EN: Cannot use: {0_labelShort} is asexual. -->
+  <AbilityCantApplyOnAsexual>Tato osoba je asexuální.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} je nesprávného pohlaví, než které {0_labelShort} vyhledává.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>{0_labelShort} má příliš nízký věk.</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>Na dítě nelze cílit.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Spotřeba psiofokusu závisí na intenzitě nervového zhroucení</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1050,8 +1098,18 @@
   <AbilityMustBeNotSameIdeo>{0_labelShort} musí být jiného ideoboženství než {1_labelShort}.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
   <AbilityMustBeSameIdeo>{0_labelShort} musí být stejného ideoboženství jako {1_labelShort}.</AbilityMustBeSameIdeo>
+  <!-- EN: {0_labelShort} must be sick or injured. -->
+  <AbilityMustBeSickOrInjured>{0_labelShort} musí být {0_gender ? nemocný nebo zraněný : nemocná nebo zraněná}.</AbilityMustBeSickOrInjured>
+  <!-- EN: {0} can only counsel {1}s. -->
+  <AbilityMustBeSameIdeoCounsel>{0} může radit pouze stoupencům stejného ideoboženství.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>{0_labelShort} už je {0_gender ? považován za vinného : považována za vinnou}.</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>{0_labelShort} je již {0_gender ? považován : považována} za viníka.</AbilityMustBeNotGuilty>
+  <!-- EN: Must target a human. -->
+  <AbilityMustBeHuman>Musí se zacílit na člověka.</AbilityMustBeHuman>
+  <!-- EN: Must target a non-wild human. -->
+  <AbilityMustBeHumanNonWild>Musí se zacílit na nezdivočelého člověka.</AbilityMustBeHumanNonWild>
+  <!-- EN: Must target an animal. -->
+  <AbilityMustBeAnimal>Musí se zacílit na zvíře.</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} je v bezvědomí.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
@@ -1063,7 +1121,7 @@
   <!-- EN: Skip to join caravan -->
   <AbilitySkipToJoinCaravan>Skočit ke karavaně a přidat se k ní</AbilitySkipToJoinCaravan>
   <!-- EN: Need ally at target for navigation -->
-  <AbilityNeedAllyToSkip>V cíli potřebuješ kvůli navigaci svého stoupence</AbilityNeedAllyToSkip>
+  <AbilityNeedAllyToSkip>V cíli je zapotřebí stoupenec kvůli navigování</AbilityNeedAllyToSkip>
   <!-- EN: No chunks to skip. -->
   <AbilityNoChunkToSkip>Žádné úlomky ke skoku.</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
@@ -1167,6 +1225,9 @@
 
   <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
   <TooltipDyeExplanation>Barvivo lze vypěstovat z barvovníku nebo ho lze zakoupit od obchodníků.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>TODO</ZoomRange>
 
   <!-- Color picker -->
   <!-- EN: color temperature -->

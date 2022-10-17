@@ -7,14 +7,16 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Nedaleká osada zvaná [settlement_label] přichází se speciální obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPro uskutečnění tohoto obchodu vyšli karavanu s požadovanými položkami. Přibližná doba cesty je [estimatedTravelTime_duration].</li>
+    <li>questDescription->Nedaleká osada [settlement_label] [TR_hasA] [TR_special] obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPokud chceš obchod uskutečnit, vyšli karavanu s požadovanými předměty. Předpokládaná doba cesty je [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->běžné nebo lepší kvality </li>
     <li>qualityInfo-></li>
-    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==1)->jeden bod</li>
-    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==2)->dva body</li>
-    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==3)->tři body</li>
-    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount==4)->čtyři body</li>
-    <li>TradeRequest_royalFavorReward_amount(royalFavorReward_amount>=5)->[royalFavorReward_amount] bodů</li>
+    <li>TR_hasA->přichází</li>
+    <li>TR_hasA->se na tebe obrací</li>
+    <li>TR_special->se speciální</li>
+    <li>TR_special->se specifickou</li>
+    <li>TR_special->se zajímavou</li>
+    <li>TR_special->s unikátní</li>
+    <li>TR_special->s netradiční</li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
@@ -65,8 +67,8 @@
   <!-- EN: [faction_name] became hostile to you. -->
   <TradeRequest.LetterTextQuestFailed.slateRef>Frakce [faction_name] tě začala považovat za nepřítele.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.LetterLabelFavorReceiver.slateRef>Pocta</TradeRequest.LetterLabelFavorReceiver.slateRef>
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>Kdo by měl za splnění obchodní nabídky získat [TradeRequest_royalFavorReward_amount] pocty?</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Komu by {replace: ​[royalFavorReward_amount]​; "​1​"-"měl být připsán 1 bod"; "​2​"-"měly být připsány 2 body"; "​3​"-"měly být připsány 3 body"; "​4​"-"měly být připsány 4 body"; "​[royalFavorReward_amount]​"-"mělo být připsáno [royalFavorReward_amount] bodů"} {lookup: [asker_faction_royalFavorLabel]; Case\Singular; 2} za splnění obchodní nabídky?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

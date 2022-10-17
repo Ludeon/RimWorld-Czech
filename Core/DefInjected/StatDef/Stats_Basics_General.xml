@@ -4,17 +4,17 @@
   <!-- EN: beauty -->
   <Beauty.label>krása</Beauty.label>
   <!-- EN: How enjoyable an object is to look at.\n\nBeautiful objects fulfill characters' need for beauty. -->
-  <Beauty.description>Jak příjemný je tento objekt na pohled.\n\nKrásné objekty zvyšují jedincům jejich potřebu krása prostředí.</Beauty.description>
+  <Beauty.description>Jak příjemný je tento objekt na pohled.\n\nKrásné objekty naplňují potřebu postav po kráse.</Beauty.description>
   
   <!-- EN: outdoor beauty -->
   <BeautyOutdoors.label>krása (venkovní)</BeautyOutdoors.label>
   <!-- EN: How enjoyable something is to look at if it's outside.\n\nBeautiful objects fulfill peoples' need for beauty. -->
-  <BeautyOutdoors.description>Jak příjemné je sledovat tento objekt, nachází-li se venku.\n\nKrásné objekty zvyšují jedincům jejich potřebu krása prostředí.</BeautyOutdoors.description>
+  <BeautyOutdoors.description>Jak příjemný je tento objekt na pohled ve venkovním prostředí.\n\nKrásné objekty naplňují potřebu lidí po kráse.</BeautyOutdoors.description>
   
   <!-- EN: cleanliness -->
   <Cleanliness.label>čistota</Cleanliness.label>
   <!-- EN: How much an object contributes to an area's cleanliness score. -->
-  <Cleanliness.description>Nakolik tento objekt přispívá na čistotě prostředí.</Cleanliness.description>
+  <Cleanliness.description>Nakolik tento objekt přispívá k hodnocení čistoty prostředí.</Cleanliness.description>
   
   <!-- EN: comfort -->
   <Comfort.label>komfort</Comfort.label>
@@ -22,16 +22,16 @@
   <Comfort.description>Jak pohodlný je tento objekt k sezení nebo ležení.\n\nPohodlnější objekty zvyšují osobám jejich potřebu komfort.</Comfort.description>
   
   <!-- EN: deterioration rate -->
-  <DeteriorationRate.label>rychlost zvětrávání</DeteriorationRate.label>
-  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points of damage per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
-  <DeteriorationRate.description>Rychlost, jakou tento objekt podléhá povětrnostním vlivům, když je ponechán venku, a to průměrným poškozením životnosti za den.\n\nRychlost zvětrávání je také ovlivněna věcmi, jako je nepříznivé počasí, pokud se nenachází pod střechou, toxickým spadem, nebo je ponechán v mělké vodě.</DeteriorationRate.description>
+  <DeteriorationRate.label>rychlost rozpadu</DeteriorationRate.label>
+  <!-- EN: The rate at which this item deteriorates when left outside, in average hit points per day.\n\nDeterioration rate is also affected by things like weather, roofs, toxic fallout, or being left in shallow water. -->
+  <DeteriorationRate.description>Rychlost, jakou se tento předmět rozpadá, je-li ponechán venku, vyjádřená v průměrném množství životnosti za den.\n\nRychlost rozpadu je také ovlivněna faktory, jako je počasí, zastřešení, toxický spad nebo ponechání v mělké vodě.</DeteriorationRate.description>
   <!-- EN: {0} / day -->
-  <DeteriorationRate.formatString>{0}/den</DeteriorationRate.formatString>
+  <DeteriorationRate.formatString>{0} / den</DeteriorationRate.formatString>
   
   <!-- EN: flammability -->
   <Flammability.label>hořlavost</Flammability.label>
   <!-- EN: How easily an object catches fire and how quickly a fire will grow as it burns. -->
-  <Flammability.description>Jak snadno objekt začne hořet a jak rychle bude oheň růst.</Flammability.description>
+  <Flammability.description>Určuje, jak snadno se tento objekt vznítí a jak rychle se budou plameny při hoření zvětšovat.</Flammability.description>
   
   <!-- EN: food poison chance -->
   <FoodPoisonChanceFixedHuman.label>šance na otravu jídlem</FoodPoisonChanceFixedHuman.label>
@@ -43,7 +43,7 @@
   <!-- EN: market value -->
   <MarketValue.label>tržní hodnota</MarketValue.label>
   <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
-  <MarketValue.description>Tržní hodnota objektu.\n\nAktuální obchodní cena bude dále přizpůsobena dle vyjednávacích dovedností, vzájemnému vztahu, a ostatním souvisejícím faktorům.</MarketValue.description>
+  <MarketValue.description>Tržní hodnota tohoto artiklu.\n\nSkutečná obchodní cena bude přizpůsobena dle vyjednávacích schopností, stavu vzájemných vztahů a dalších souvisejících faktorů.</MarketValue.description>
   
   <!-- EN: market value ignoring hitpoints -->
   <MarketValueIgnoreHp.label>tržní hodnota ignoruje životnost</MarketValueIgnoreHp.label>
@@ -66,9 +66,9 @@
   <Nutrition.description>Jak výživné je toto jídlo.</Nutrition.description>
   
   <!-- EN: honor value -->
-  <RoyalFavorValue.label>hodnota (pocta)</RoyalFavorValue.label>
+  <RoyalFavorValue.label>bodů pocty</RoyalFavorValue.label>
   <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>Určuje množství pocty, kterou tvůj obchodník získá při předání výběrčímu poct.</RoyalFavorValue.description>
+  <RoyalFavorValue.description>Množství pocty, kterou tvůj obchodník získá za to, že tento artikl předá výběrčímu daní.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>násobitel prodejní ceny</SellPriceFactor.label>

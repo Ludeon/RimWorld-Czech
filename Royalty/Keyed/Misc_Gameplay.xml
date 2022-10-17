@@ -50,11 +50,11 @@
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Psiofokus</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických schopností. Psiofokus se pozvolna vytrácí, ale pravidelnou meditací se dá obnovovat. Úplná ztráta psiofokusu znemožňuje provádění psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladina psiofokusu sice umožňuje provádět schopnosti vyšších úrovní, ale také zvyšuje rychlost svého rozptylu</PsyfocusDesc>
+  <PsyfocusDesc>Psiofokus je speciální druh mentálního formování, který je nezbytný k provádění psionických schopností. Psiofokus se pozvolna vytrácí a je třeba ho budovat pravidelnou meditací. Ztráta veškerého psiofokusu znemožňuje používání psionických sil, jinak nemá žádný další vliv.\n\nVyšší hladiny psiofokusu sice dovolují používat schopnosti vyšších úrovní, ale také zvyšují rychlost jeho vytrácení</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>Až do psiosíly úrovně {0}.</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>Až do {0}․ úrovně psiosil.</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>Psiofokus padá o {0} denně.</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
@@ -140,8 +140,10 @@
 
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Zahájit slavnostní předání ({0_labelShort})</BeginCeremony>
+  <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Trůnní sál, který má {PAWN_definite} k dispozici, nesplňuje požadavky kladené na titul {lookup: {TITLE}; Case\Singular; 2}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udíleč je pobouřen tím, že trůnní sál, který má {PAWN_definite} k dispozici, nesplňuje požadavky pro titul {TITLE}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udíleč je pobouřen, že trůnní sál, který má mít {PAWN_definite} k dispozici, nesplňuje požadavky kladené na titul {lookup: {TITLE}; Case\Singular; 2}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
   <BestowingCeremonyLabel>slavnostní předání</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->
@@ -167,5 +169,8 @@
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>žádné teplo k přesměrování.</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>{0}․ úroveň</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>

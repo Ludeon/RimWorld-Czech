@@ -191,11 +191,11 @@
   <!-- EN: Load mod list -->
   <LoadModList>Načíst seznam modů</LoadModList>
   <!-- EN: Added mods -->
-  <AddedModsList>Přidané mody</AddedModsList>
+  <AddedModsList>Doplňené mody</AddedModsList>
   <!-- EN: Missing mods -->
   <MissingModsList>Chybějící mody</MissingModsList>
   <!-- EN: Shared mods -->
-  <SharedModsList>Sdílené mody</SharedModsList>
+  <SharedModsList>Společné mody</SharedModsList>
   <!-- EN: Website -->
   <ModWebsite>Webové stránky</ModWebsite>
   <!-- EN: Open folder -->
@@ -598,20 +598,22 @@
   <IncapableOf>Neschopnost</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Schopnosti</Abilities>
-  <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>Důsledek minulosti: {0}</IncapableOfTooltipBackstory>
-  <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>Důsledek titulu: {0}</IncapableOfTooltipTitle>
-  <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>Důsledek rysu: {0}</IncapableOfTooltipTrait>
-  <!-- EN: Caused by: {0} -->
-  <IncapableOfTooltipHediff>Důsledek: {0}</IncapableOfTooltipHediff>
+  <!-- EN: Caused by -->
+  <IncapableOfTooltipHediff>Způsobené</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
-  <IncapableOfTooltipWorkTypes>Deaktivované druhy činností:</IncapableOfTooltipWorkTypes>
-  <!-- EN: Caused by quest status: {0} -->
-  <IncapableOfTooltipQuest>Důsledek úkolu: {0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>Důsledek role: {0}</IncapableOfTooltipRole>
+  <IncapableOfTooltipWorkTypes>Zakázané druhy činností:</IncapableOfTooltipWorkTypes>
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>Způsobené minulostí</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>Způsobené titulem</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>Způsobené rysem</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
+  <IncapableOfTooltipQuest>Způsobené úkolem</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role -->
+  <IncapableOfTooltipRole>Způsobené rolí</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>Způsobené genem</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>Hlavní rysy</Traits>
   <!-- EN: Permanent mood effect -->
@@ -624,8 +626,6 @@
   <Adulthood>Dospělost</Adulthood>
   <!-- EN: Childhood -->
   <Childhood>Dětství</Childhood>
-  <!-- EN: Current -->
-  <Current>Aktuálně</Current>
   <!-- EN: male -->
   <Male>muž</Male>
   <!-- EN: female -->
@@ -642,6 +642,8 @@
   <Health>Zdraví</Health>
   <!-- EN: Relations -->
   <Relations>Příbuzenské vztahy</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>Osobní majetek</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>Týmové dovednosti</TeamSkills>
   <!-- EN: Selected -->
@@ -694,22 +696,20 @@
   <!-- EN: Factions -->
   <Factions>Frakce</Factions>
   <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>Při více než {0} frakcích může docházet k problémům s hratelností.</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
-  <TotalFactionsAllowed>Maximální povolený počet viditelných frakcí je {0}.</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>Frakce '{1}' zde může být maximálně {0}x.</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>Obnovit výchozí hodnoty</ResetFactionsToDefault>
+  <RecommendedFactionCount>S více než {0} frakcemi mohou nastat problémy s hratelností.</RecommendedFactionCount>
+  <!-- EN: max {0} visible factions allowed -->
+  <TotalFactionsAllowed>povoleno je max. {0} viditelných frakcí</TotalFactionsAllowed>
+  <!-- EN: max {0} -->
+  <MaxFactionsForType>max. {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>Vyber si frakce do tohoto světa. Celkově můžeš vybrat až {0} frakcí.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>Svět bez '{0}' sníží rozmanitost úkolů a dalšího obsahu.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>Vypnutím {lookup: {0}; Case\Singular; 2} se sníží pestrost úkolů a dalšího obsahu.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>Svět bez '{0}' sníží rozmanitost nečekaných hrozeb.</InsectsDisabledContentWarning>
+  <InsectsDisabledContentWarning>Vypnutím {lookup: {0}; Case\Singular; 2} se sníží rozmanitost nečekaných hrozeb.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>Svět bez '{0}' sníží rozmanitost úkolů a nečekaných hrozeb.</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>Vypnutím {lookup: {0}; Case\Singular; 2} se sníží množství úkolů a nečekaných hrozeb.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>Bez dalších frakcí se nájezdy, obchody a úkoly nebudou odehrávat jako obvykle.</FactionsDisabledWarning>
+  <FactionsDisabledWarning>Bez ostatních frakcí se nájezdy, obchodování a úkoly nebudou odehrávat jako obvykle.</FactionsDisabledWarning>
 
 </LanguageData>

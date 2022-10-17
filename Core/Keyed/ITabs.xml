@@ -50,6 +50,8 @@
   <TabTransporterContents>Obsah</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Obsah</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>Údržba</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -168,8 +170,8 @@
   <WontBleedOutSoon>žádné bezprostřední nebezpečí</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Přehled</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>Operace ({0})</MedicalOperationsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>Operace</MedicalOperationsShort>
   <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>Modifikací ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
@@ -241,8 +243,6 @@
   <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(žádné příbuzenské vztahy)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Unesený</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +253,10 @@
   <Slave>Otrok</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Vůdce frakce</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Mínění o {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>Mínění o mně ({1_labelShort})</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>Jak vnímám {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>Jak mě {0} vnímá</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Jsem po smrti</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -278,7 +278,7 @@
   
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>Zobrazit vše</ShowAll>
+  <ShowAll>Ukázat vše</ShowAll>
   <!-- EN: Show combat -->
   <ShowCombat>Souboje</ShowCombat>
   <!-- EN: Show social -->
@@ -398,7 +398,10 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>Ohrada není uzavřená</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>Ohrada není aktuálně zcela uzavřená, takže k automatickému sekání nedojde.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>Automatické sekání rostlin</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

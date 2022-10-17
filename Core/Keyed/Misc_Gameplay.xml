@@ -254,8 +254,10 @@
   <DeterioratingUnroofed>není pod střechou</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>je venku</DeterioratingOutdoors>
-  <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>Zhoršuje se z důvodu</DeterioratingBecauseOf>
+  <!-- EN: raining -->
+  <DeterioratingRaining>v dešti</DeterioratingRaining> <!-- text_todo -->
+  <!-- EN: Deteriorating -->
+  <DeterioratingBecauseOf>Rozpadá se</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -643,6 +645,51 @@
   <!-- EN: Example animals -->
   <PenExampleAnimals>Příklady zvířecí kapacity</PenExampleAnimals>
 
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>Krása prostředí</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>Zóna</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>Typ střechy</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>Terén</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>Sníh</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>Rychlost pohybu</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>Úrodnost</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>Teplota</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>Úroveň osvětlení</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>Biom</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>Kopcovitost</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>Silnice</Road_Label>
+  <!-- EN: River -->
+  <River_Label>Řeka</River_Label> <!-- text_todo -->
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>Obtížnost pohybu</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>Znečištění</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>Nepořádek</Filth_Label><!-- text_todo -->
+  
+  <!-- EN: Faction -->
+  <Faction_Label>Frakce</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>Vzájemné vztahy</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>Počet kolonistů</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>Aktuální stav</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>Odhad. čas do cíle</CaravanTTD_Label>
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -819,8 +866,6 @@
   <PawnTitleDescWrap>{0} ve frakci {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} pod frakcí {1}</PawnMainDescUnderFactionedWrap>
-  <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{0} pod frakcí {1}\nDomovská frakce: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
@@ -1162,9 +1207,9 @@
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>Název</Title>
+  <Title>Titul</Title>
   <!-- EN: Untitled -->
-  <Untitled>Bez názvu</Untitled>
+  <Untitled>Bez titulu</Untitled>
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
@@ -1373,14 +1418,14 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>Neurální teplo: {0}/{1}\nRychlost poklesu: {2}/s ({3}s do nuly)</PawnTooltipPsychicEntropyStats>
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
+  <PawnTooltipPsychicEntropyStats>Rychlost poklesu: {0}/s ({1}s do nuly)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>Neurální teplo se zvyšuje po provedení psionické schopnosti. Překročení obvyklé meze může způsobit několikadenní psychický kolaps.\n\nNeurální teplo se postupem času přirozeně rozptýlí. Tento proces lze urychlit, pokud psionik nosí eltexové vybavení nebo pokud trpí bolestmi.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>Po použití psionické síly dochází k nárůstu neurálního tepla. Překročení obvyklé meze může způsobit několikadenní psychický kolaps.\n\nNeurální teplo se časem přirozeně rozptyluje. Tento proces může být urychlen používáním eltexového oblečení nebo působením bolesti.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>Posílení z bolesti\n\nBolest koncentruje mysl a urychluje tak rozptyl neurálního tepla.\n\nÚroveň bolesti: {0}\nBonus k teplotnímu poklesu: {1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>Posílení z bolesti\n\nBolest koncentruje mysl a urychluje odvádění neurálního tepla.\n\nÚroveň bolesti: {0}\nBonus k teplotnímu poklesu: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače neurálního tepla. Překročení horní meze tepla může způsobit několikadenní psychický kolaps. Nezpůsobí však trvalé následky.</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače neurálního tepla. Překročení horní meze tepla může způsobit psychický kolaps trvající několik dnů. Ten ale nezpůsobuje trvalé následky.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psiofokus: {0}</PawnTooltipPsyfocus>
 
@@ -1428,9 +1473,9 @@
   <!-- EN: a reward possibly granted in the future -->
   <Reward_PossibleFutureReward>odměna, která může přijít později</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>Titul {TITLE}</Reward_Title_Label>
+  <Reward_Title_Label>Titul {lookup: {TITLE}; Case\Singular; 2}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME} získá z frakce {FACTION} titul {TITLE}</Reward_Title>
+  <Reward_Title>{PAWNNAME} získá od frakce {FACTION} titul {lookup: {TITLE}; Case\Singular; 2}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>Celková hodnota {0}</TotalValue>
   
@@ -1597,6 +1642,6 @@
   <!-- EN: Change the color of the light. -->
   <GlowerChangeColorDescription>Změní barvu světla.</GlowerChangeColorDescription>
   <!-- EN: You must research {0} to change light color. -->
-  <GlowerChangeColorNeedsResearch>Nejdříve musíš vyzkoumat {0}, abys mohl měnit barvu světla.</GlowerChangeColorNeedsResearch>
+  <GlowerChangeColorNeedsResearch>Abys mohl měnit barvu světla, musíš nejdříve vyzkoumat {0}.</GlowerChangeColorNeedsResearch>
 
 </LanguageData>
