@@ -17,26 +17,22 @@
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
   <SlavesUnattendedDesc>Někteří otroci jsou na mapě sami, bez akceschopných kolonistů poblíž.\n\nOtroci, kteří takto zůstanou bez dozoru, se pravděpodobně vzbouří během několika dní nebo hodin.</SlavesUnattendedDesc>
 
-  <!-- EN: {0} expected -->
-  <RitualExpected>Očekává se {0}</RitualExpected>
-  <!-- EN: {0} expected for -->
-  <RitualExpectedFor>Očekává se {0} pro</RitualExpectedFor>
-  <!-- EN: {0} days: Ritual opportunity ends. -->
-  <RitualExpirationTime>{replace: ​{0}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{0}​"-"{0} ​dnů"}: Rituální příležitost končí.</RitualExpirationTime>
-  <!-- EN: Expires in -->
-  <RitualExpiresIn>Příležitost vyprší za</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Dokončení rituálu má následující účinky</RitualCompletionEffects>
+  <!-- EN: {0} opportunity -->
+  <RitualOpportunity>Příležitost uskutečnit {0}</RitualOpportunity>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>Příležitost uskutečnit {0} pro {1}</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>Příležitost skončí za {0}, tedy {1}.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>Chceš-li zahájit rituál, vyber {FOCUS} a klikni na příkaz 'Zahájit {RITUAL_label}.</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>Chceš-li zahájit rituál, vyber jedno z uvedených a klikni na příkaz 'Zahájit {RITUAL_label}</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
-  <RitualTargetsExplanation>Chceš-li zahájit tento rituál, vyber příslušný objekt a klikni na příkaz 'Zahájit {RITUAL_label}'. Použít lze následující příslušné objekty:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Na tomto rituálu se podílí následující role:\n{1}</RitualRolesExplanation>
+  <RitualTargetsExplanation>Chceš-li zahájit rituál, vyber zahajovací objekt a klikni na příkaz 'Zahájit {RITUAL_label}'.\n\nPoužít lze následující zahajovací objekty:\n{1}</RitualTargetsExplanation>
   <!-- EN: Click to jump to targets -->
-  <RitualJumpToTargets>Kliknutím skočíš na příslušné cíle</RitualJumpToTargets>
-  <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>Opožděné zahájení rituálu má tyto účinky</RitualObligationDelayEffects>
-  <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>{replace: ​{0}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{0}​"-"{0} ​dnů"}: {1} k náladě pro všechny stoupence.</RitualObligationDelayEffectDesc>
+  <RitualJumpToTargets>Kliknutím přejdeš na příslušné cíle</RitualJumpToTargets>
+  <!-- EN: In order to perform {0} you need to fill these roles -->
+  <RitualUnfilledRoles>Abys uskutečnil {0}, musíš obsadit tyto role.</RitualUnfilledRoles>
 
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>Útoky přijdou za {0}</QuestPartRaidsDelay>

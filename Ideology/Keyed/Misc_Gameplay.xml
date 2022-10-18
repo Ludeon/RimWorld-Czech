@@ -241,7 +241,7 @@
   <!-- EN: Can start after event -->
   <RitualStartEvent>Může začít po události</RitualStartEvent>
   <!-- EN: Focus objects -->
-  <RitualFocusObjects>Příslušné objekty</RitualFocusObjects>
+  <RitualFocusObjects>Zahajovací objekty</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Opakování rituálu v průběhu {0} dnů snižuje jeho kvalitu. Od posledního rituálu {replace: ​{1}​; "​1​"-"uběhl 1 den"; "​2​"-"uběhly (*DateTime)2 dny(/DateTime)"; "​3​"-"uběhly (*DateTime)3 dny(/DateTime)"; "​4​"-"uběhly (*DateTime)4 dny(/DateTime)"; "​{1}​"-"uběhlo {1} dnů"}, takže současné snížení kvality je {2}. Tento postih klesne k nule za {replace: ​{3}​; "​1​"-"1 den"; "​2​"-"(*DateTime)2 dny(/DateTime)"; "​3​"-"(*DateTime)3 dny(/DateTime)"; "​4​"-"(*DateTime)4 dny(/DateTime)"; "​{3}​"-"{3} dnů"}.</RitualRepeatPenaltyTip>
   <!-- EN: Participating roles -->
@@ -273,9 +273,9 @@
   <RoleRequirementLabelSameIdeo>Musí být {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Musí být {0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>Nemůže být dítě</RoleRequirementCannotBe>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>Deaktivované činnosti</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Schopnosti</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
