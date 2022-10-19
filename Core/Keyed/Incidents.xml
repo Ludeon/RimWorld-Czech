@@ -32,7 +32,9 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Zřícení přepravního modulu</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>Poblíž {PAWN_gender ? havaroval : havarovala} {PAWN_titleIndef} jménem {PAWN_nameDef} se svým přepravním modulem. Pokud ten náraz {PAWN_gender ? přežil : přežila}, bude pravděpodobně vážně {PAWN_gender ? zraněný : zraněná}.</RefugeePodCrash>  
+  <RefugeePodCrash>Poblíž {PAWN_gender ? havaroval : havarovala} {PAWN_titleIndef} jménem {PAWN_nameDef} se svým přepravním modulem. Pokud ten náraz {PAWN_gender ? přežil : přežila}, bude pravděpodobně vážně {PAWN_gender ? zraněný : zraněná}.</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
+  <RefugeePodCrash_Child>{PAWN_nameDef} je {replace: ​{AGE}​; "​1​"-"jednolet{PAWN_gender ? ý chlapeček : é děvčátko}"; "​2​"-"dvoulet{PAWN_gender ? ý chlapeček : é děvčátko}"; "​3​"-"třílet{PAWN_gender ? ý chlapeček : é děvčátko}"; "​4​"-"čtyřlet{PAWN_gender ? ý chlapec : é děvče}"; "​{AGE}​"-"{AGE}let{PAWN_gender ? ý chlapec : é děvče}"}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} nepatří k žádné frakci. Můžeš {PAWN_objective} zachránit a doufat, že se k tobě přidá, a nebo {PAWN_objective} můžeš zajmout pro účely náboru či otroctví.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
