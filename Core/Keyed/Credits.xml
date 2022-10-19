@@ -2,27 +2,18 @@
 <LanguageData>
 
   <!-- EN: A story generator by Tynan Sylvester -->
-  <MainPageCredit>Simulátor kolonie od Tynana Sylvestera</MainPageCredit>
+  <MainPageCredit>Generátor příběhů od Tynana Sylvestera</MainPageCredit>
 
-  <!-- EN: Developers -->
-  <Credits_Developers>Vývojáři</Credits_Developers>
+  <!-- EN: Engineering -->
+  <Credits_Developers>Vývoj</Credits_Developers>
   <!-- EN: Audio -->
   <Credit_MusicAndSound>Hudba a zvuk</Credit_MusicAndSound>
-  <!-- EN: Code -->
-  <Credit_Code>Kód</Credit_Code>
   <!-- EN: Art -->
-  <Credit_GameArt>Herní grafika</Credit_GameArt>
+  <Credit_GameArt>Grafika</Credit_GameArt>
   <!-- EN: Menu art -->
-  <Credit_MenuArt>Grafika menu</Credit_MenuArt>
-  <!-- EN: Additional code -->
-  <Credit_AdditionalCode>Dodatečné kódování</Credit_AdditionalCode>
-  
-  <!-- EN: Additional development -->
+  <Credit_MenuArt>Grafika (menu)</Credit_MenuArt>
+  <!-- EN: Additional engineering -->
   <Credits_AdditionalDevelopment>Dodatečný vývoj</Credits_AdditionalDevelopment>
-
-  <!-- EN: Special thanks -->
-  <Credit_SpecialThanks>Zvláštní poděkování</Credit_SpecialThanks>
-
   <!-- EN: Community volunteers -->
   <Credits_TitleCommunity>Komunitní dobrovolníci</Credits_TitleCommunity>
   <!-- EN: Community testers -->
@@ -39,19 +30,13 @@
   <Credit_WikiMaster>Správce Wiki</Credit_WikiMaster>
   <!-- EN: Test lead -->
   <Credit_TestLead>Vedoucí tester</Credit_TestLead>
-
   <!-- EN: {0} language -->
-  <Credits_TitleLanguage>{0} jazyk</Credits_TitleLanguage>
-  <!-- EN: Writer -->
-  <Credit_Writer>Spisovatel</Credit_Writer>
-  <!-- EN: Translator -->
-  <Credit_Translator>Překladatel</Credit_Translator>
-  <!-- EN: Open source libraries -->
-  <Credit_OpenSourceLibraries>Open source knihovny</Credit_OpenSourceLibraries>
-  <!-- EN: Noise generation -->
-  <Credit_NoiseGeneration>Generátor hluků</Credit_NoiseGeneration>
-
+  <Credits_TitleLanguage>{lookup: {0}; Case\Languages; 1}</Credits_TitleLanguage>
   <!-- EN: Thanks for playing! -->
   <ThanksForPlaying>Díky za zahrání!</ThanksForPlaying>
+
+  <!-- Currently unused -->
+  <!-- EN: Special thanks -->
+  <Credit_SpecialThanks>Zvláštní poděkování</Credit_SpecialThanks>
 
 </LanguageData>

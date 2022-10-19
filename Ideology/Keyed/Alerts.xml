@@ -22,11 +22,11 @@
   <!-- EN: {0} opportunity for {1} -->
   <RitualOpportunityFor>Příležitost uskutečnit {0} pro {1}</RitualOpportunityFor>
   <!-- EN: Expires in {0}, on {1}. -->
-  <RitualExpiresIn>Příležitost skončí za {0}, tedy {1}.</RitualExpiresIn>
+  <RitualExpiresIn>Příležitost zanikne za {0}, tedy {1}.</RitualExpiresIn>
   <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
-  <RitualSingleTargetDesc>Chceš-li zahájit rituál, vyber {FOCUS} a klikni na příkaz 'Zahájit {RITUAL_label}.</RitualSingleTargetDesc>
+  <RitualSingleTargetDesc>Chceš-li zahájit rituál, vyber {FOCUS} a klikni na příkaz 'Zahájit {RITUAL_label}'.</RitualSingleTargetDesc>
   <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
-  <RitualMultiTargetDesc>Chceš-li zahájit rituál, vyber jedno z uvedených a klikni na příkaz 'Zahájit {RITUAL_label}</RitualMultiTargetDesc>
+  <RitualMultiTargetDesc>Chceš-li zahájit rituál, vyber jedno z uvedených a klikni na příkaz 'Zahájit {RITUAL_label}'</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Chceš-li zahájit rituál, vyber zahajovací objekt a klikni na příkaz 'Zahájit {RITUAL_label}'.\n\nPoužít lze následující zahajovací objekty:\n{1}</RitualTargetsExplanation>
   <!-- EN: Click to jump to targets -->
@@ -48,6 +48,15 @@
   <AncientAltarThreatsWaking>K aktivaci obránců dojde za {0}</AncientAltarThreatsWaking>
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
   <AncientAltarThreatsWakingDesc>Bezpečnostní obránci se aktivují za {0}. Zaútočí na každého, kdo pro relikvii představuje hrozbu.</AncientAltarThreatsWakingDesc>
+
+  <!-- EN: Ritual opportunity soon -->
+  <AlertRitualComing>Brzy se naskytne příležitost k rituálu</AlertRitualComing>
+  <!-- EN: A ritual opportunity is coming soon for following rituals -->
+  <AlertRitualComingDesc>Brzy se naskytne příležitost k těmto rituálům</AlertRitualComingDesc>
+  <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
+  <AlertRitualComingExtra>Příležitosti zaniknou po {0} dnech a opakují se každý rok ve stejný den.</AlertRitualComingExtra>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{0} (objeví se {1}, tedy přibližně za {2})</AlertRitualComingEntry>
 
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>Není zvolena dryádí kasta</AlertGauranlenTreeWithoutDryadTypeLabel>
