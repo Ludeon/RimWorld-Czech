@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: chopped anima stump -->
+  <ChoppedStump_Anima.label>pařez spirituálního stromu</ChoppedStump_Anima.label>
+  <!-- EN: A stump left behind after an anima tree has been felled. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <ChoppedStump_Anima.description>Pařez, který zůstal po pokácení spirituálního stromu. Dá se vytěžit, ale získá se z něj jen velmi málo použitelného dřeva. Ponechaný pod širým nebem se časem rozloží.</ChoppedStump_Anima.description>
+  
   <!-- EN: anima grass -->
   <Plant_GrassAnima.label>posvátná tráva</Plant_GrassAnima.label>
   <!-- EN: A grass infused with luminous microorganisms. Tribal peoples find that anima grass grows around the base of an anima tree as they meditate. It seems to reflect some kind of strengthening of the tree's psychic power.\n\nOffworld scientists have tried to study the phenomenon, but the grass degenerates into normal plant matter when observed too closely.\n\nAnimals refuse eat anima grass. Tribal stories say this is done out of respect and fear. -->
@@ -16,5 +21,10 @@
   <Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>Kolem spirituálního stromu již {replace: ​{0}​; "​1​"-"vyrostl 1 trs"; "​2​"-"vyrostly 2 trsy"; "​3​"-"vyrostly 3 trsy"; "​4​"-"vyrostly 4 trsy"; "​{0}​"-"vyrostlo {0} trsů"} posvátné trávy. Takové množství stačí k tomu, aby člen původního kmene zahájil svůj vůbec první spojovací rituál!\n\nSpojovací rituál přidá jednu úroveň psiovazby a také schopnost využívat psionické síly. Postup na vyšší úroveň vždy vyžaduje 20 trsů trávy.\n\nPožadavky k vylepšení psioniků v závislosti na posvátné trávě jsou následující:\n\n{1}\n\nPoznámka: Pouze ti, kteří mají přírodní typ meditačního soustředění, mohou meditovat v přítomnosti spirituálních stromů nebo se s nimi spojovat. Typy soustředění každého jednotlivce si můžeš prohlédnout na jeho informační kartě kliknutím na písmeno 'i'.</Plant_TreeAnima.comps.CompPsylinkable.enoughPlantsLetterText>
   <!-- EN: The anima tree has died and emitted a disturbing psychic scream. -->
   <Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>Spirituální strom žačal po svém skonání vydávat znepokojivý psychický křik.</Plant_TreeAnima.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>
+  
+  <!-- EN: smashed anima stump -->
+  <SmashedStump_Anima.label>zničený pařez spirituálního stromu</SmashedStump_Anima.label>
+  <!-- EN: The remnants of an anima tree destroyed by damage. It's ugly. The stump can be extracted but yields very little usable wood. Left outdoors, the stump will deteriorate in time. -->
+  <SmashedStump_Anima.description>Pozůstatky spirituálního stromu, který byl zničen násilným způsobem. Je nevzhledný. Dá se vytěžit, ale získá se z něj jen velmi málo použitelného dřeva. Ponechaný pod širým nebem se časem rozloží.</SmashedStump_Anima.description>
   
 </LanguageData>
