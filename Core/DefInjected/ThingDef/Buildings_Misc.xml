@@ -30,8 +30,8 @@
   <FirefoamPopper.label>protipožární zařízení</FirefoamPopper.label>
   <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
   <FirefoamPopper.description>Při detekci ohně se toto bezpečnostní zařízení rozprskne a rozpráší kolem sebe v kruhovém poli protipožární pěnu. Může být také spuštěno ručně.</FirefoamPopper.description>
-  <!-- EN: Trigger firefoam popper -->
-  <FirefoamPopper.comps.CompUsable.useLabel>Aktivovat protipožární zařízení</FirefoamPopper.comps.CompUsable.useLabel>
+  <!-- EN: Trigger {0_label} -->
+  <FirefoamPopper.comps.CompUsable.useLabel>Aktivovat {lookup: {0_label}; Case\Singular; 4}</FirefoamPopper.comps.CompUsable.useLabel>
   
   <!-- EN: grave -->
   <Grave.label>hrob</Grave.label>
