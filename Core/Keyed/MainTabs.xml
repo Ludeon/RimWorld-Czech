@@ -299,7 +299,7 @@
   <!-- EN: assign a throne for {PAWN_definite} -->
   <QuestNoThroneRoom>přiřadit trůn {PAWN_gender ? kolonistovi : kolonistce} {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
-  <QuestNoColonistWithTitle>kolonistu s titulem {0}</QuestNoColonistWithTitle>
+  <QuestNoColonistWithTitle>kolonistu s titulem {lookup: {0}; Case\Singular; 2}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
   <QuestPawnNotOnColonyMap>{PAWN_gender ? kolonistu : kolonistku} {PAWN_definite} ve své domovské kolonii</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
