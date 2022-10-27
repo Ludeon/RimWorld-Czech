@@ -18,7 +18,7 @@
   <!-- EN: bandwidth -->
   <BandwidthLower>šířka pásma</BandwidthLower>
   <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
-  <BandwidthGizmoTip>Mechanitor může dohlížet na mecha pouze v případě, že má k dispozici dostatečně velkou šířku pásma. Každý mech využívá jinou šířku pásma. Více šířky pásma získáš tím, že postavíš pásmové uzly a mechanitora na ně naladíš, nebo tím, že mechanitora vybavíš speciálním oblečením.</BandwidthGizmoTip>
+  <BandwidthGizmoTip>Mechanitor může dohlížet na mecha pouze v případě, že má k dispozici dostatečně velkou šířku pásma. Každý mech využívá jinou šířku pásma. Širší pásmo získáš tím, že postavíš pásmové uzly a mechanitora na ně naladíš, nebo tím, že mechanitora vybavíš speciálním oblečením.</BandwidthGizmoTip>
   <!-- EN: Control group -->
   <ControlGroup>Ovládaná skupina</ControlGroup>
   <!-- EN: Current mode -->
@@ -51,5 +51,24 @@
   <EnergyLower>energie</EnergyLower>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Neovládaný</Uncontrolled>
+
+  <!-- EN: Polluted {0} -->
+  <PollutedTerrain>{0_gender ? Znečištěný : Znečištěná : Znečištěné} {0}</PollutedTerrain>
+
+  <!-- Pollution -->
+  <!-- EN: None -->
+  <TilePollutionNone>Žádné</TilePollutionNone>
+  <!-- EN: Light -->
+  <TilePollutionLight>Lehké</TilePollutionLight>
+  <!-- EN: Moderate -->
+  <TilePollutionModerate>Střední</TilePollutionModerate>
+  <!-- EN: Extreme -->
+  <TilePollutionExtreme>Extrémní</TilePollutionExtreme>
+  <!-- EN: Pollution -->
+  <TilePollution>Znečištění</TilePollution>
+  <!-- EN: Nearby pollution -->
+  <TilePollutionNearby>Znečištění v okolí</TilePollutionNearby>
+  <!-- EN: pollution -->
+  <PollutionLower>znečištění</PollutionLower>
 
 </LanguageData>
