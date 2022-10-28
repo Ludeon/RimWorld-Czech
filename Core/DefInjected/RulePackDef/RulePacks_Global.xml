@@ -438,22 +438,15 @@
     <li>mas(tag=mas)-></li>
     <li>fem(tag=fem)-></li>
     <li>neu(tag=neu)-></li>
-
-    <li>adjNom_yae(requiredTag=mas)->ý</li>
-    <li>adjNom_yae(requiredTag=fem)->á</li>
-    <li>adjNom_yae(requiredTag=neu)->é</li>
-    <li>adjGen_hoxho(requiredTag=mas)->ho</li>
-    <li>adjGen_hoxho(requiredTag=fem)-></li>
-    <li>adjGen_hoxho(requiredTag=neu)->ho</li>
-    <li>adjDat_muxmu(requiredTag=mas)->mu</li>
-    <li>adjDat_muxmu(requiredTag=fem)-></li>
-    <li>adjDat_muxmu(requiredTag=neu)->mu</li>
-    <li>adjAcc_hoxho(requiredTag=mas)->ho</li>
-    <li>adjAcc_hoxho(requiredTag=fem)-></li>
-    <li>adjAcc_hoxho(requiredTag=neu)->ho</li>
-    <li>adjLoc_mxm(requiredTag=mas)->m</li>
-    <li>adjLoc_mxm(requiredTag=fem)-></li>
-    <li>adjLoc_mxm(requiredTag=neu)->m</li>
+    <li>adj_yae(requiredTag=mas)->ý</li>
+    <li>adj_yae(requiredTag=fem)->á</li>
+    <li>adj_yae(requiredTag=neu)->é</li>
+    <li>adj_uvovaovo(requiredTag=mas)->ův</li>
+    <li>adj_uvovaovo(requiredTag=fem)->ova</li>
+    <li>adj_uvovaovo(requiredTag=neu)->ovo</li>
+    <li>adj_mxm(requiredTag=mas)->m</li>
+    <li>adj_mxm(requiredTag=fem)-></li>
+    <li>adj_mxm(requiredTag=neu)->m</li>
 
     <li>asker_x_a(asker_gender==Male)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
@@ -923,7 +916,7 @@
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Dromedary)->dromedáři</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Gazelle)->gazely</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Iguana)->leguáni</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Muffalo)->můvoli</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Muffalo)->můvolové</li>
 
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Dromedary)->dromedárů</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Gazelle)->gazel</li>
@@ -987,7 +980,7 @@
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Bear_Grizzly)->medvědi grizzly</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Bear_Polar)->medvědi lední</li>
 
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Bear_Grizzly)->medvědů grizzlyů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Bear_Grizzly)->medvědů grizzlych</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Bear_Polar)->medvědů ledních</li>
 
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Bear_Grizzly)->medvědy grizzly</li>
