@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
+  <MessageWorkTypeDisabledAge>{0_nameDef} má teprve {replace: ^{1}^ ; "^1^"-"1 rok";"^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; Case\singular; 2} : {lookup: {2}; Case\singularfem; 2}} může vykonávat až od {replace: ^{3}^ ; "^1^"-"1 roku";"^{3}^"-"{3} let"}.</MessageWorkTypeDisabledAge>
+
+</LanguageData>
