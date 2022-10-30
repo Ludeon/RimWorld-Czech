@@ -794,6 +794,8 @@
   <ReportExtinguishingFireOn>pokouší se uhasit {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>uvnitř {lookup: {0}; Case\singular; 2}.</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -969,7 +971,7 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>Vysušené</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>Mražené (nezkazí se)</CurrentlyFrozen>
+  <CurrentlyFrozen>Zmražené (nezkazí se)</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
   <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->

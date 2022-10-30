@@ -71,6 +71,34 @@
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>{0_gender ? Znečištěný : Znečištěná : Znečištěné} {0}</PollutedTerrain>
 
+  <!-- Mech charger -->
+  <!-- EN: Waste -->
+  <WasteLevel>Odpad</WasteLevel>
+
+  <!-- EN: One wastepack dissolves every {0} -->
+  <DissolvesEvery>Každých {0} se rozpustí jeden z toxovaků.</DissolvesEvery>
+  <!-- EN: Frozen (won't dissolve). -->
+  <DissolutionFrozen>Zmražené (nerozpustí se).</DissolutionFrozen>
+
+  <!-- Subcore scanner -->
+  <!-- EN: Start scanner -->
+  <SubcoreScannerStart>Zahájit snímání</SubcoreScannerStart>
+  <!-- EN: Produces -->
+  <SubcoreScannerProduces>Vytvoří</SubcoreScannerProduces>
+  <!-- EN: Completes in -->
+  <SubcoreScannerCompletesIn>Dokončeno bude za</SubcoreScannerCompletesIn>
+  <!-- EN: Waiting for occupant -->
+  <SubcoreScannerWaitingForOccupant>Čeká se na obsazení</SubcoreScannerWaitingForOccupant>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerWaitingForIngredients>Čeká se na suroviny</SubcoreScannerWaitingForIngredients>
+  <!-- EN: Babies are not allowed -->
+  <SubcoreScannerBabyNotAllowed>Kojenci nejsou dovoleni</SubcoreScannerBabyNotAllowed>
+  <!-- EN: Insert a person into the {0}. -->
+  <InsertPersonSubcoreScannerDesc>Vložit osobu do tohoto {lookup: {0}; Case\singular; 2}.</InsertPersonSubcoreScannerDesc>
+
+  <!-- EN: Duration (hours) -->
+  <DurationHours>Trvání (v hodinách)</DurationHours>
+
   <!-- Pollution -->
   <!-- EN: None -->
   <TilePollutionNone>Žádné</TilePollutionNone>
