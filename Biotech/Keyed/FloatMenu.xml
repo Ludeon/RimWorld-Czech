@@ -1,9 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Enter {0_labelShort} -->
+  <EnterBuilding>Vstoupit do {lookup: {0_labelShort}; Case\singular; 2}</EnterBuilding>
+  <!-- EN: Cannot enter {0_labelShort} -->
+  <CannotEnterBuilding>Nelze vstoupit do {lookup: {0_labelShort}; Case\singular; 2}</CannotEnterBuilding>
+
+  <!-- EN: Scanner not initiated -->
+  <SubcoreScannerNotInit>Snímač není uveden do provozu</SubcoreScannerNotInit>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerRequiresIngredients>Čeká se na suroviny</SubcoreScannerRequiresIngredients>
+  <!-- EN: Occupied -->
+  <SubcoreScannerOccupied>Obsazený</SubcoreScannerOccupied>
   <!-- EN: Enter {0} -->
   <EnterSubcoreScanner>Vstoupit do {lookup: {0}; Case\singular; 2}</EnterSubcoreScanner>
+
+  <!-- EN: Cannot study -->
+  <CannotStudy>Nelze zkoumat</CannotStudy>
+  <!-- EN: already studied -->
+  <AlreadyStudied>již dozkoumáno</AlreadyStudied>
 
 </LanguageData>

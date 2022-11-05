@@ -115,9 +115,9 @@
   <Unlocks>Odemyká</Unlocks>
 
   <!-- EN: {0} corpse -->
-  <CorpseLabel>{0} (mrtvola)</CorpseLabel>
+  <CorpseLabel>{0_gender ? Mrtvý : Mrtvá : Mrtvé} {0}</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
-  <CorpseDesc>Mrtvé tělo {0}.</CorpseDesc>
+  <CorpseDesc>Mrtvé tělo {lookup: {0}; Case\Singular; 2}.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
   <DeadLabel>{1_label} (mrtvola)</DeadLabel>
 
