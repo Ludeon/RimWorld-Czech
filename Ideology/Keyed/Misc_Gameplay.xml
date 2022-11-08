@@ -72,13 +72,13 @@
   <!-- EN: total nearby bodysize per colonist -->
   <VeneratedAnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu v blízkém okolí</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
-  <PlantThing>Zasadit {lookup: {0_label}; Case\Singular; 4}</PlantThing>
+  <PlantThing>Zasadit {lookup: {0_label}; case\singular; 4}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Zasadí {lookup: {0_label}; Case\Singular; 4} ve vybrané oblasti.</PlantThingDesc>
+  <PlantThingDesc>Zasadí {lookup: {0_label}; case\singular; 4} ve vybrané oblasti.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Zrušit výsadbu {lookup: {0_label}; Case\Singular; 2}</CancelPlantThing>
+  <CancelPlantThing>Zrušit výsadbu {lookup: {0_label}; case\singular; 2}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Zruší výsadbu {lookup: {0_label}; Case\Singular; 2}.</CancelPlantThingDesc>
+  <CancelPlantThingDesc>Zruší výsadbu {lookup: {0_label}; case\singular; 2}.</CancelPlantThingDesc>
   <!-- EN: Requires one of precepts -->
   <RequiresOnePrecept>Vyžaduje jednu ze zásad</RequiresOnePrecept>
   <!-- EN: Required precepts -->
@@ -175,7 +175,7 @@
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Spojení již {PAWN_gender ? navázal : navázala} {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; Case\Singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; case\singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   <!-- EN: Accuse -->
@@ -235,9 +235,9 @@
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Opakování rituálu v průběhu {0} dnů snižuje jeho kvalitu. Od posledního rituálu {replace: ​{1}​; "​1​"-"uběhl 1 den"; "​2​"-"uběhly (*DateTime)2 dny(/DateTime)"; "​3​"-"uběhly (*DateTime)3 dny(/DateTime)"; "​4​"-"uběhly (*DateTime)4 dny(/DateTime)"; "​{1}​"-"uběhlo {1} dnů"}, takže současné snížení kvality je {2}. Tento postih klesne k nule za {replace: ​{3}​; "​1​"-"1 den"; "​2​"-"(*DateTime)2 dny(/DateTime)"; "​3​"-"(*DateTime)3 dny(/DateTime)"; "​4​"-"(*DateTime)4 dny(/DateTime)"; "​{3}​"-"{3} dnů"}.</RitualRepeatPenaltyTip>
   <!-- EN: For best quality, start the {0} at {1}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>Chceš-li dosáhnout nejlepší kvality, zahaj konání {lookup: {0}; Case\Singular; 2} u {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Chceš-li dosáhnout nejlepší kvality, zahaj konání {lookup: {0}; case\singular; 2} u {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart2>{0} se bude aktuálně konat na {lookup: {1_labelShortIndef}; Case\Singular; 6}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <RitualOutcomeCompTip_RitualTargetDefsPart2>{0} se bude aktuálně konat na {lookup: {1_labelShortIndef}; case\singular; 6}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
   <RitualDevelopmentPoints>Vývojové body</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
@@ -283,7 +283,7 @@
   <TextMote_WillReduced>Vůle\n{0} na {1}</TextMote_WillReduced>
 
   <!-- EN: add {0} -->
-  <AddPrecept>přidat {lookup: {0}; Case\Singular; 4}</AddPrecept>
+  <AddPrecept>přidat {lookup: {0}; case\singular; 4}</AddPrecept>
   <!-- EN: precept -->
   <Precept>zásada</Precept>
   <!-- EN: building -->
@@ -356,7 +356,7 @@
   <!-- EN: Nobody -->
   <Nobody>Nikdo</Nobody>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>Změna dryádí kasty {lookup: {TREE_definite}; Case\Singular; 2} vyžaduje čas a energii.\n\nPoté, co spojená osoba promluví ke stromu, všechny dryády stráví {DURATION} dnů v kokonu, než se přemění na zvolenou kastu.\n\nStávající kokony zruší svou přeměnu, aby se mohly také přeměnit na aktuální kastu.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>Změna dryádí kasty {lookup: {TREE_definite}; case\singular; 2} vyžaduje čas a energii.\n\nPoté, co spojená osoba promluví ke stromu, všechny dryády stráví {DURATION} dnů v kokonu, než se přemění na zvolenou kastu.\n\nStávající kokony zruší svou přeměnu, aby se mohly také přeměnit na aktuální kastu.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>Změní typ dryád, které bude {TREE_definite} vytvářet.</ChangeModeDesc>
   <!-- EN: Connection strength -->
@@ -384,9 +384,9 @@
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>Dryádí kasta</GauranlenTreeMode>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
-  <SpawningDryadIn>Ke zrození {lookup: {DRYAD_label}; Case\Singular; 2} dojde za {TIME}.</SpawningDryadIn>
+  <SpawningDryadIn>Ke zrození {lookup: {DRYAD_label}; case\singular; 2} dojde za {TIME}.</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
-  <ChangingDryadIntoType>Probíhá přeměna na {lookup: {TYPE_label}; Case\Singular; 4}.</ChangingDryadIntoType>
+  <ChangingDryadIntoType>Probíhá přeměna na {lookup: {TYPE_label}; case\singular; 4}.</ChangingDryadIntoType>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>Každá {DRYAD_label} produkuje {replace: ​{DURATION}​; "2 dnů"-"každé (*DateTime)2 dny(/DateTime)"; "3 dnů"-"každé (*DateTime)3 dny(/DateTime)"; "4 dnů"-"každé (*DateTime)4 dny(/DateTime)"; "​{DURATION}​"-"každých {DURATION}"}:\n{RESOURCES}</DryadProducesResourcesDesc>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->

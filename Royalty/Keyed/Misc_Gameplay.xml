@@ -119,7 +119,7 @@
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>Zahájit spojovací rituál</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>Vyžaduje {replace: ​{0}​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} {lookup: {1}; Case\Singular; 2} (k dispozici {replace: ​{2}​; "​1​"-"je 1 trs"; "​2​"-"jsou 2 trsy"; "​3​"-"jsou 3 trsy"; "​4​"-"jsou 4 trsy"; "​{2}​"-"je {2} trsů"})</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>Vyžaduje {replace: ​{0}​; "​1​"-"1 trs"; "​2​"-"2 trsy"; "​3​"-"3 trsy"; "​4​"-"4 trsy"; "​{0}​"-"{0} trsů"} {lookup: {1}; case\singular; 2} (k dispozici {replace: ​{2}​; "​1​"-"je 1 trs"; "​2​"-"jsou 2 trsy"; "​3​"-"jsou 3 trsy"; "​4​"-"jsou 4 trsy"; "​{2}​"-"je {2} trsů"})</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
   <BeginLinkingRitualNeedFocus>Vyžaduje {0} typ soustředění</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
@@ -141,9 +141,9 @@
   <!-- EN: Start bestowing ceremony for {0_labelShort} -->
   <BeginCeremony>Zahájit slavnostní předání ({0_labelShort})</BeginCeremony>
   <!-- EN: {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Trůnní sál, který má {PAWN_definite} k dispozici, nesplňuje požadavky kladené na titul {lookup: {TITLE}; Case\Singular; 2}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>Trůnní sál, který má {PAWN_definite} k dispozici, nesplňuje požadavky kladené na titul {lookup: {TITLE}; case\singular; 2}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <!-- EN: The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled. -->
-  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udíleč je pobouřen, že trůnní sál, který má mít {PAWN_definite} k dispozici, nesplňuje požadavky kladené na titul {lookup: {TITLE}; Case\Singular; 2}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
+  <BestowingCeremonyThroneroomRequirementsNotSatisfied>Udíleč je pobouřen, že trůnní sál, který má mít {PAWN_definite} k dispozici, nesplňuje požadavky kladené na titul {lookup: {TITLE}; case\singular; 2}. Slavnostní předání bylo proto zrušeno.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <!-- EN: bestowing ceremony -->
   <BestowingCeremonyLabel>slavnostní předání</BestowingCeremonyLabel>
   <!-- EN: Bestowing ceremony total quality was {0}, determined by these factors -->

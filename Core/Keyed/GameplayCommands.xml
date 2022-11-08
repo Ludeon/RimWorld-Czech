@@ -44,7 +44,7 @@
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} nemůže chodit.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <ParticipatingInRitual>{0_labelShort} se účastní {lookup: {1}; Case\Singular; 2}.</ParticipatingInRitual>
+  <ParticipatingInRitual>{0_labelShort} se účastní {lookup: {1}; case\singular; 2}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Střílet dle libosti</CommandFireAtWillLabel>
@@ -69,7 +69,7 @@
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Nastavit vlastníka</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>Přidělí tuto postel určitému {lookup: {0}; Case\Singular; 3}.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>Přidělí tuto postel určitému {lookup: {0}; case\singular; 3}.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Přidělí tento trůn určitému kolonistovi.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
@@ -272,7 +272,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>Chybí {CHARGENOUN_plural}.</CommandReload_NoCharges>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>K opětovnému nabití je zapotřebí {COUNT} {lookup: {AMMO_label}; Case\Singular; 2}.</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>K opětovnému nabití je zapotřebí {COUNT} {lookup: {AMMO_label}; case\singular; 2}.</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
@@ -562,17 +562,17 @@
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>Opustit {lookup: {RITUAL_label}; Case\Singular; 4}</CommandLeaveRitual>
+  <CommandLeaveRitual>Opustit {lookup: {RITUAL_label}; case\singular; 4}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Přestane se účastnit {lookup: {RITUAL_label}; Case\Singular; 2}. Rituál bude pokračovat do té doby, dokud bude přítomen alespoň jeden z účastníků.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>Přestane se účastnit {lookup: {RITUAL_label}; case\singular; 2}. Rituál bude pokračovat do té doby, dokud bude přítomen alespoň jeden z účastníků.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>Tohle je poslední účastník {lookup: {RITUAL_label}; Case\Singular; 2}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>Tohle je poslední účastník {lookup: {RITUAL_label}; case\singular; 2}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>Přerušit {lookup: {RITUAL_label}; Case\Singular; 4}</CommandCancelRitual>
+  <CommandCancelRitual>Přerušit {lookup: {RITUAL_label}; case\singular; 4}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Okamžitě ukončí {lookup: {RITUAL_label}; Case\Singular; 4}. Rituální závazek bude zachován. Rituál mužeš znovuzahájit později.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>Okamžitě ukončí {lookup: {RITUAL_label}; case\singular; 4}. Rituální závazek bude zachován. Rituál mužeš znovuzahájit později.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>Opravdu chceš přerušit {lookup: {RITUAL_label}; Case\Singular; 4}?</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>Opravdu chceš přerušit {lookup: {RITUAL_label}; case\singular; 4}?</CommandCancelRitualConfirm>
   
 </LanguageData>

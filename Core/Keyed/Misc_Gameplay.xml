@@ -795,7 +795,7 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>uvnitř {lookup: {0}; Case\singular; 2}.</InContainer> 
+  <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1485,9 +1485,9 @@
   <!-- EN: a reward possibly granted in the future -->
   <Reward_PossibleFutureReward>odměna, která může přijít později</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>Titul {lookup: {TITLE}; Case\Singular; 2}</Reward_Title_Label>
+  <Reward_Title_Label>Titul {lookup: {TITLE}; case\singular; 2}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME} získá od frakce {FACTION} titul {lookup: {TITLE}; Case\Singular; 2}</Reward_Title>
+  <Reward_Title>{PAWNNAME} získá od frakce {FACTION} titul {lookup: {TITLE}; case\singular; 2}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>Celková hodnota {0}</TotalValue>
   
@@ -1540,7 +1540,7 @@
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>{0_gender ? Libovolný : Libovolná : Libovolné} {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>Účastní se {lookup: {0}; Case\Singular; 2}</LordReportAttending>
+  <LordReportAttending>Účastní se {lookup: {0}; case\singular; 2}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} předčasně končí.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
@@ -1578,11 +1578,11 @@
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Tuto pozici nejlépe zvládne kolonista zastávající sociální roli {0}.\n\nPokud někdo obsadí tuto pozici, aniž by zmíněnou roli zastával, nezíská následující bonus(y)</RitualRoleRequiresSocialRole>
   <!-- EN: {0} progress -->
-  <RitualOutcomeProgress>Průběh {lookup: {0}; Case\Singular; 2}</RitualOutcomeProgress>
+  <RitualOutcomeProgress>Průběh {lookup: {0}; case\singular; 2}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>Kvalita {lookup: {0}; Case\Singular; 2} závisí na</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>Kvalita {lookup: {0}; case\singular; 2} závisí na</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>Výsledná kvalita {lookup: {0}; Case\Singular; 2} byla {1}, určena těmito faktory</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>Výsledná kvalita {lookup: {0}; case\singular; 2} byla {1}, určena těmito faktory</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
   <RitualOutcomeChances>Výsledné šance při {0} kvalitě</RitualOutcomeChances>
   <!-- EN: Performed recently -->
@@ -1592,7 +1592,7 @@
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>Rituální zvuk prostředí</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>Výsledná kvalita {lookup: {0}; Case\Singular; 2} je nižší než {1}. Pokračování bude mít s největší pravděpodobností negativní dopad na tvou kolonii.\n\nOpravdu chceš pokračovat?</RitualQualityLowWarning>
+  <RitualQualityLowWarning>Výsledná kvalita {lookup: {0}; case\singular; 2} je nižší než {1}. Pokračování bude mít s největší pravděpodobností negativní dopad na tvou kolonii.\n\nOpravdu chceš pokračovat?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Není dostupné žádné vhodné místo k mluvení.</AbilitySpeechDisabledNoSpot>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
@@ -1601,9 +1601,9 @@
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>Zahájit {lookup: {0}; Case\Singular; 4}</BeginRitual>
+  <BeginRitual>Zahájit {lookup: {0}; case\singular; 4}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Zahájit {lookup: {0}; Case\Singular; 4} ({1})</BeginRitualFor>
+  <BeginRitualFor>Zahájit {lookup: {0}; case\singular; 4} ({1})</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (max {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
@@ -1623,7 +1623,7 @@
   <RitualRoleReplaces>Zamění {PAWN_labelShort}</RitualRoleReplaces>
 
   <!-- EN: {0} used -->
-  <Used>Využití {lookup: {0}; Case\Singular; 2}</Used>
+  <Used>Využití {lookup: {0}; case\singular; 2}</Used>
   <!-- EN: {0} starting quality -->
   <StartingRitualQuality>{0} počáteční kvality</StartingRitualQuality>
 

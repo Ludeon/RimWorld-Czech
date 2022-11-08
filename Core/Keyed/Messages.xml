@@ -66,7 +66,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} {PAWN_gender ? nenašel : nenašla} v okolí žádné použitelné dělostřelecké granáty pro {GUN_label}.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} {PAWN_gender ? nenašel : nenašla} v okolí {FUEL_gender ? žádný použitelný : žádnou použitelnou : žádné použitelné} {lookup: {FUEL}; Case\Singular; 4} pro {GUN_label}.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort} {PAWN_gender ? nenašel : nenašla} v okolí {FUEL_gender ? žádný použitelný : žádnou použitelnou : žádné použitelné} {lookup: {FUEL}; case\singular; 4} pro {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Varování: {ANIMAL_kindBase} má v základu {1} šanci, že se při zranění začne bránit. Šance závisí na vzdálenosti a maskovací schopnosti lovce.</MessageAnimalsGoPsychoHunted>
@@ -78,9 +78,9 @@
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
   <MessageRecruitSuccess>{RECRUITER_nameFull} úspěšně {RECRUITER_gender ? naverboval : naverbovala} vězně jménem {RECRUITEE_nameFull}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} {lookup: {1}; Case\Singular; 4}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} {lookup: {1}; case\singular; 4}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} {lookup: {1}; Case\Singular; 4}. Nyní se nazývá {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort} úspěšně {RECRUITER_gender ? ochočil : ochočila} {lookup: {1}; case\singular; 4}. Nyní se nazývá {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>Není k dispozici žádný vhodný výběh pro nově ochočené zvíře. {ANIMAL_labelShort} proto časem uteče.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -111,9 +111,9 @@
   <!-- EN: Must designate abandoned claimable structures or items. -->
   <MessageMustDesignateClaimable>Musíš označit opuštěné struktury nebo předměty, které lze zabrat.</MessageMustDesignateClaimable>
   <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
-  <MessageMustDesignatePaintableBuildings>Musíš označit objekty, které lze obarvovat a nejsou již obarveny {lookup: {0_label}; Case\Singular; 7}.</MessageMustDesignatePaintableBuildings>
+  <MessageMustDesignatePaintableBuildings>Musíš označit objekty, které lze obarvovat a nejsou již obarveny {lookup: {0_label}; case\singular; 7}.</MessageMustDesignatePaintableBuildings>
   <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
-  <MessageMustDesignatePaintableFloors>Musíš označit podlahy, které lze obarvovat a nejsou již obarveny {lookup: {0_label}; Case\Singular; 7}.</MessageMustDesignatePaintableFloors>
+  <MessageMustDesignatePaintableFloors>Musíš označit podlahy, které lze obarvovat a nejsou již obarveny {lookup: {0_label}; case\singular; 7}.</MessageMustDesignatePaintableFloors>
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Musíš označit obarvené objekty nebo podlahy.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
@@ -181,9 +181,9 @@
   <MessageNoHandlerSkilledEnough>Žádný chovatel nedokáže tohle zvíře ochočit ({ANIMAL_kindBase} vyžaduje dovednost {2} na úrovni {1}; {HANDLER_gender ? nejlepším : nejlepší} {HANDLER_gender ? chovatelem : chovatelkou} je aktuálně {HANDLER_labelShort} s úrovní {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? byl : byla} {EATEN_gender ? sežrán : sežrána} {lookup: {PREDATOR}; Case\Singular; 7}.</MessageEatenByPredator>
+  <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? byl : byla} {EATEN_gender ? sežrán : sežrána} {lookup: {PREDATOR}; case\singular; 7}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREY_labelShort} {PREY_gender ? byl : byla} {PREY_gender ? napaden : napadena} {lookup: {PREDATOR}; Case\Singular; 7}!</MessageAttackedByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort} {PREY_gender ? byl : byla} {PREY_gender ? napaden : napadena} {lookup: {PREDATOR}; case\singular; 7}!</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
   <MessageRoamerLeaving>{PAWN_labelShort} pobíhá volně po okolí! Brzy opustí mapu, pokud chovatel zvíře neodchytí lasem a neodvede zpět do ohrady.</MessageRoamerLeaving>
@@ -384,7 +384,7 @@
   <MessageYouHaveToReformCaravanNow>Nyní musíš shromáždit karavanu. Každý kdo ji opustil bude navždy ztracen.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>Skupina {lookup: {0}; Case\Plural; 2} z frakce {1} byla napadena tvými {lookup: {2}; Case\Plural; 7}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>Skupina {lookup: {0}; case\plural; 2} z frakce {1} byla napadena tvými {lookup: {2}; case\plural; 7}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
   <MessageMechanoidsAssembled>Mechanoidi právě sestavili posilu, která bude bránit svůj klastr.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
@@ -418,7 +418,7 @@
   <MessageCantBanishDownedPawn>Jelikož {1_labelShort} nemůže chodit, nemůžeš {1_gender ? ho : ji} vyhostit.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
-  <MessageSleepingPawnsWokenUp>Došlo k probuzení {lookup: {0}; Case\Plural; 2}.</MessageSleepingPawnsWokenUp>
+  <MessageSleepingPawnsWokenUp>Došlo k probuzení {lookup: {0}; case\plural; 2}.</MessageSleepingPawnsWokenUp>
   <!-- EN: Mech cluster buildings have been defeated. -->
   <MessageMechClusterDefeated>Struktury mechového klastru byly zničeny.</MessageMechClusterDefeated>
 
@@ -606,7 +606,7 @@
   <MessageCantShootInMelee>Na krátkou vzdálenost nemůže střílet.</MessageCantShootInMelee>
 
   <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>Žádný z tvých {lookup: {0}; Case\Plural; 2} nyní nemůže přijmout tento úkol.</MessageNoColonistCanAcceptQuest>
+  <MessageNoColonistCanAcceptQuest>Žádný z tvých {lookup: {0}; case\plural; 2} nyní nemůže přijmout tento úkol.</MessageNoColonistCanAcceptQuest>
   <!-- EN: Cannot accept this quest. -->
   <MessageCannotAcceptQuest>Tento úkol nelze přijmout.</MessageCannotAcceptQuest>
   <!-- EN: {0_definite} has accepted a quest: {1} -->
@@ -639,9 +639,9 @@
   <MessageIdeoOpposedWorkTypeSelected>Varování: {0_nameDef} se může stát {0_gender ? nešťastným : nešťastnou}, protože činnost '{1}' je v rozporu s {0_gender ? jeho : jejím} přesvědčením.</MessageIdeoOpposedWorkTypeSelected>
 
   <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>{1_nameDef} již nadále nemá {0_gender ? přiřazený : přiřazenou : přiřazené} {lookup: {0}; Case\Singular; 4}.</MessageBedLostAssignment>
+  <MessageBedLostAssignment>{1_nameDef} již nadále nemá {0_gender ? přiřazený : přiřazenou : přiřazené} {lookup: {0}; case\singular; 4}.</MessageBedLostAssignment>
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
-  <MessageBedDestroyed>{1_nameDef} již nemá {0_gender ? přiřazený svůj : přiřazenou svou : přiřazené své} {lookup: {0}; Case\Singular; 4}, jelikož {0_gender ? byl zničen : byla zničena : bylo zničeno}.</MessageBedDestroyed>
+  <MessageBedDestroyed>{1_nameDef} již nemá {0_gender ? přiřazený svůj : přiřazenou svou : přiřazené své} {lookup: {0}; case\singular; 4}, jelikož {0_gender ? byl zničen : byla zničena : bylo zničeno}.</MessageBedDestroyed>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
@@ -651,13 +651,13 @@
   <!-- EN: {0} has begun. -->
   <RitualBegun>{0} právě začíná.</RitualBegun>
   <!-- EN: Role of {0} is locked. -->
-  <RoleIsLocked>Role {lookup: {0}; Case\Singular; 2} je uzamčena.</RoleIsLocked>
+  <RoleIsLocked>Role {lookup: {0}; case\singular; 2} je uzamčena.</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>Potřebuješ alespoň jednoho účastníka.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>Potřebuješ alespoň jednoho přihlížejícího.</MessageRitualNeedsAtLeastOneSpectator>
   <!-- EN: You need a {0}. -->
-  <MessageRitualNeedsAtLeastOneRolePawn>Potřebuješ {lookup: {0}; Case\Singular; 4}.</MessageRitualNeedsAtLeastOneRolePawn>
+  <MessageRitualNeedsAtLeastOneRolePawn>Potřebuješ {lookup: {0}; case\singular; 4}.</MessageRitualNeedsAtLeastOneRolePawn>
   <!-- EN: You need at least {1} {0}. -->
   <MessageRitualNeedsAtLeastNumRolePawn>Potřebuješ alespoň {replace: ​{1} {0}​; "​1 duelant​"-"1 duelanta"; "​2 duelant​"-"2 duelanty"; "​3 duelant​"-"3 duelanty"; "​4 duelant​"-"4 duelanty"; "​{1} duelant​"-"{1} duelantů"; "​1 sekundant​"-"1 sekundanta"; "​2 sekundant​"-"2 sekundanty"; "​3 sekundant​"-"3 sekundanty"; "​4 sekundant​"-"4 sekundanty"; "​{1} sekundant​"-"{1} sekundantů"}.</MessageRitualNeedsAtLeastNumRolePawn>
   <!-- EN: {0_labelShort} is downed. -->
@@ -687,14 +687,14 @@
   <!-- EN: only {0} can {1}. -->
   <MessageRitualRoleMustHaveIdeoToSpectate>pouze {0} {replace: smí {1}; "smí účastnit"-"se smí účastnit"}.</MessageRitualRoleMustHaveIdeoToSpectate>
   <!-- EN: only {0} can fill the role of {1}. -->
-  <MessageRitualRoleMustHaveIdeoToDoRole>pouze {0} smí plnit roli {lookup: {1}; Case\Singular; 2}.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <MessageRitualRoleMustHaveIdeoToDoRole>pouze {0} smí plnit roli {lookup: {1}; case\singular; 2}.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
-  <MessageRitualRoleMustBeColonist>pro roli {lookup: {0}; Case\Singular; 2} musí být kolonistou.</MessageRitualRoleMustBeColonist>
+  <MessageRitualRoleMustBeColonist>pro roli {lookup: {0}; case\singular; 2} musí být kolonistou.</MessageRitualRoleMustBeColonist>
   <!-- EN: {0_labelShort} is already {1}. -->
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} už je {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
 
   <!-- EN: Cannot plant {0_labelShort} -->
-  <CannotPlantThing>{lookup: {0_labelShort}; Case\Singular; 4} nelze zasadit</CannotPlantThing>
+  <CannotPlantThing>{lookup: {0_labelShort}; case\singular; 4} nelze zasadit</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Vyžaduje úrodnější půdu.</MessageWarningNotEnoughFertility>
   <!-- EN: blocked by {0_label}. -->

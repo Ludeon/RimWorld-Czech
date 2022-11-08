@@ -8,7 +8,7 @@
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>Zuřící {0}</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nZdá se, že mnoho {lookup: {0}; Case\Plural; 2} žijících v této oblasti to dohnalo k nepříčetnosti.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Krajinou se přehnala jakási psychická vlna. Tví kolonisté jsou v pořádku, ale...\n\nZdá se, že mnoho {lookup: {0}; case\plural; 2} žijících v této oblasti to dohnalo k nepříčetnosti.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Plíseň: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
@@ -23,11 +23,11 @@
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Mezi příchozími {lookup: {LEADER_factionPawnsPlural}; Case\Plural; 7} se nachází {LEADER_labelShort}, {LEADER_gender ? vůdce : vůdkyně} jejich frakce.</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>Mezi příchozími {lookup: {LEADER_factionPawnsPlural}; case\plural; 7} se nachází {LEADER_labelShort}, {LEADER_gender ? vůdce : vůdkyně} jejich frakce.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Mezi příchozími {lookup: {LEADER_factionPawnsPlural}; Case\Plural; 7} se nachází {LEADER_labelShort}, {LEADER_gender ? vůdce : vůdkyně} jejich frakce.</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>Mezi příchozími {lookup: {LEADER_factionPawnsPlural}; case\plural; 7} se nachází {LEADER_labelShort}, {LEADER_gender ? vůdce : vůdkyně} jejich frakce.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Zřícení přepravního modulu</LetterLabelRefugeePodCrash>
@@ -211,7 +211,7 @@
   <!-- EN: Caravan demand by {0} -->
   <CaravanDemandTitle>Požadování výpalného ({0})</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0} byla přepadena {replace: ​{2}​; "​1​"-"jedním útočníkem"; "​{2}​"-"{2}člennou skupinou {lookup: {4}; Case\Plural; 2}"} z frakce {1}.\n\nZaútočí, pokud jim neodevzdáš:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0} byla přepadena {replace: ​{2}​; "​1​"-"jedním útočníkem"; "​{2}​"-"{2}člennou skupinou {lookup: {4}; case\plural; 2}"} z frakce {1}.\n\nZaútočí, pokud jim neodevzdáš:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
   <CaravanDemand_Give>Odevzdat a jít dál</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->

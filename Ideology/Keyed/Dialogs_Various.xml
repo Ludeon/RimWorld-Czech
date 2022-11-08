@@ -79,7 +79,7 @@
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
   <CannotNotAddRoleApparelDueToMeme>Přesvědčení {MEME} neumožňuje přidávat k rolím vyžadované oblečení.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
-  <CannotBeWornWith>nelze nosit společně {replace: s ​{lookup: {0_label}; Case\Singular; 7}; "s ​s"-"se s"; "s ​z"-"se z"}</CannotBeWornWith>
+  <CannotBeWornWith>nelze nosit společně {replace: s ​{lookup: {0_label}; case\singular; 7}; "s ​s"-"se s"; "s ​z"-"se z"}</CannotBeWornWith>
 
   <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>Pokles jistoty</AbilityIdeoConvertBreakdownLabel>
@@ -169,7 +169,7 @@
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} druh stylu ovlivňuje</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
-  <OverriddenByStyle>Nahrazené {lookup: {0}; Case\Singular; 7} stylem</OverriddenByStyle>
+  <OverriddenByStyle>Nahrazené {lookup: {0}; case\singular; 7} stylem</OverriddenByStyle>
   <!-- EN: New buildables -->
   <IdeoMakesBuildingBuildable>Nově postavitelné položky</IdeoMakesBuildingBuildable>
   <!-- EN: Hair and beards -->
@@ -223,7 +223,7 @@
   <!-- EN: Already selected -->
   <AlreadySelected>Již zvolené</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>Zde si můžeš zvolit, jakou dryádí kastu bude tento {TREE_label} vytvářet.\n\nDryády se líhnou z lusků, které rostou kolem stromu. Maximální počet možných dryád závisí na tom, jak silné je spojení mezi {lookup: {TREE_label}; Case\Singular; 7} a spojenou osobou.</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>Zde si můžeš zvolit, jakou dryádí kastu bude tento {TREE_label} vytvářet.\n\nDryády se líhnou z lusků, které rostou kolem stromu. Maximální počet možných dryád závisí na tom, jak silné je spojení mezi {lookup: {TREE_label}; case\singular; 7} a spojenou osobou.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
@@ -264,7 +264,7 @@
   <SoldColonyDescription>Tvá kolonie byla právě prodána. Kupci nyní čekají, než si vybereš své další místo k osídlení.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
-  <ConfirmHackEnenyTerminal>Nabouráním {lookup: {0}; Case\Singular; 2} upozorníš nepřátele a přiměješ je k útoku. Opravdu chceš nabourat {lookup: {0}; Case\Singular; 4}?</ConfirmHackEnenyTerminal>
+  <ConfirmHackEnenyTerminal>Nabouráním {lookup: {0}; case\singular; 2} upozorníš nepřátele a přiměješ je k útoku. Opravdu chceš nabourat {lookup: {0}; case\singular; 4}?</ConfirmHackEnenyTerminal>
 
   <!-- Food restrictions -->
   <!-- EN: Vegetarian -->

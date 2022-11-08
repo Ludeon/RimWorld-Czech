@@ -103,7 +103,7 @@
   <AncientShrineWarning>Jak se {PAWN_nameDef} {PAWN_gender ? přiblížil : přiblížila} ke starodávné zdi, zaplavil {PAWN_objective} zlověstný pocit. Netuší proč, ale cítí, že by v této zaprášené stavbě mohlo číhat velké nebezpečí.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
-  <StruckMineable>Narazili jsme na {lookup: {0}; Case\Singular; 4}!</StruckMineable>
+  <StruckMineable>Narazili jsme na {lookup: {0}; case\singular; 4}!</StruckMineable>
 
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>{0} se mstí</LetterLabelAnimalManhunterRevenge>
@@ -169,25 +169,25 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Příbuzenský vztah</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>V této příchozí skupině {lookup: {1}; Case\Plural; 2} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů.\n\nMěj na paměti, že i když jsou příbuzní, budou na sebe i tak útočit z důvodu špatných vztahů s touto frakcí.\n\nTito lidé jsou:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>V této příchozí skupině {lookup: {1}; case\plural; 2} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů.\n\nMěj na paměti, že i když jsou příbuzní, budou na sebe i tak útočit z důvodu špatných vztahů s touto frakcí.\n\nTito lidé jsou:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>V této příchozí spojenecké skupině {lookup: {1}; Case\Plural; 2} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>V této příchozí spojenecké skupině {lookup: {1}; case\plural; 2} jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>V této příchozí skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>V této příchozí skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>Obchodník na orbitě prodává lidi, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>Obchodník na orbitě prodává lidi, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>Osada prodává lidi, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>Osada prodává lidi, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>Karavana prodává lidi, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>Karavana prodává lidi, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
-  <LetterRelatedPawnsGroupGeneric>V této skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsGroupGeneric>V této skupině jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
-  <LetterRelatedPawnsInMapWherePlayerLanded>V oblasti, ve které tvá skupina {lookup: {0}; Case\Plural; 2} přistála, jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsInMapWherePlayerLanded>V oblasti, ve které tvá skupina {lookup: {0}; case\plural; 2} přistála, jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsInMapWherePlayerLanded>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
-  <LetterRelatedPawnsSettlement>V této osadě jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSettlement>V této osadě jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
-  <LetterRelatedPawnsSite>V této oblasti jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; Case\Plural; 2} nebo vězňů:</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsSite>V této oblasti jsou lidé, kteří mají příbuzenský vztah s některým z tvých {lookup: {0}; case\plural; 2} nebo vězňů:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>příbuzenský vztah</RelationshipAppendedLetterSuffix>
@@ -322,7 +322,7 @@
   <!-- EN: Peace talks disaster -->
   <LetterLabelPeaceTalks_Disaster>Mírové rozhovory (katastrofa)</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>Rozhovory dopadly katastrofálně. Sotva se delegáti na úvod pozdravili, hned nato se diskuze strhla v samé urážky a obviňování.\n\nPoté, co tvá karavana předčasně odešla, dohnala ji skupina {lookup: {0}; Case\Plural; 2} z frakce {1} a zaútočila na ni!\n\nVztahy s frakcí {1}: {2}</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Rozhovory dopadly katastrofálně. Sotva se delegáti na úvod pozdravili, hned nato se diskuze strhla v samé urážky a obviňování.\n\nPoté, co tvá karavana předčasně odešla, dohnala ji skupina {lookup: {0}; case\plural; 2} z frakce {1} a zaútočila na ni!\n\nVztahy s frakcí {1}: {2}</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
   <LetterLabelPeaceTalks_Backfire>Mírové rozhovory (selhání)</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
@@ -551,6 +551,6 @@
   <!-- EN: Caravan detected -->
   <LetterLabelSiteCountdownStarted>Karavana byla odhalena</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>Tvá karavana byla právě odhalena. Po uplynutí {0} dorazí do oblasti {1} z frakce {2}.\n\nAby ses {lookup: {1}; Case\Plural; 3} vyhnul, zformuj svou karavanu a dej se do pohybu. Nyní je vidět časovač odpočítávající jejich příchod.</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>Tvá karavana byla právě odhalena. Po uplynutí {0} dorazí do oblasti {1} z frakce {2}.\n\nAby ses {lookup: {1}; case\plural; 3} vyhnul, zformuj svou karavanu a dej se do pohybu. Nyní je vidět časovač odpočítávající jejich příchod.</LetterTextSiteCountdownStarted>
 
 </LanguageData>
