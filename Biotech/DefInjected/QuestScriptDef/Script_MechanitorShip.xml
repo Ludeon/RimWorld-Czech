@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>mechanitorShuttleCrashedLetterLabel->Mechanitor ship</li>
+    <li>mechanitorShuttleCrashedLetterText->A mechanitor ship containing feral mechanoids has crashed nearby. The mechanoids will exit the crashed ship and prepare to fight.</li>
+    <li>assaultBeginLetterLabel->Mechanoid attack</li>
+    <li>assaultBeginLetterText->The feral mechanoids are coming to assault the colony!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
+    <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
+  -->
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->Mechanitorská loď</li>
+    <li>mechanitorShuttleCrashedLetterText->Nedaleko havarovala mechanitorská loď se zdivočelými mechanoidy. Mechanoidi vystoupí ze zřícené lodě a budou se připravovat k boji.</li>
+    <li>assaultBeginLetterLabel->Mechanoidní útok</li>
+    <li>assaultBeginLetterText->Zdivočelí mechanoidi míří napadnout kolonii!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef] s mechopřípojkou je k dispozici</li>
+    <li>mechlinkAvailableLetterText->Na palubě havarované lodi se nacházela mrtvola {mechanitor_gender ? prastarého mechanitora : prastaré mechanitorky}.\n\n[mechanitor_possessive] mechopřípojku získáš tak, že vybereš kolonistu a klikneš na mrtvolu pravým tlačítkem myši.</li>
+  </MechanitorShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
+  -->
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->[youHaveDecrypted] [ancientAdj] [transponder], který odhalil [theLocation] mechanoidní vesmírné lodě [inOrbit]. Loď je [badlyDam] poškozená, ale můžeš jí vyslat signál, aby přistála poblíž.\n\nNa palubě se nachází ostatky dávno [deadMechanitorMasFem]. Mechanitoři mohou vytvářet a ovládat pracovní či bojové mechanoidy. Vyjmutím mechopřípojky ze zesnulého mechanitora můžeš proměnit jednoho ze svých kolonistů ve vlastního mechanitora.\n\nBuď opatrný - na lodi se nacházejí také nepřátelští mechanoidi. Jejich skupinu tvoří:\n\n[mechList]</li>
+    <li>deadMechanitorMasFem(mechanitor_gender==Male)->zesnulého mechanitora</li>
+    <li>deadMechanitorMasFem(mechanitor_gender==Female)->zesnulé mechanitorky</li>
+    <li>youHaveDecrypted->[povedloPodarilo] se ti [decrypted]</li>
+    <li>povedloPodarilo->Podařilo</li>
+    <li>povedloPodarilo->Povedlo</li>
+    <li>decrypted->[decryptedPrefix]kódovat</li>
+    <li>decrypted->[decryptedPrefix]šifrovat</li>
+    <li>decrypted->rozluštit</li>
+    <li>decryptedPrefix->de</li>
+    <li>decryptedPrefix->roz</li>
+    <li>ancientAdj->starodávný</li>
+    <li>ancientAdj->starověký</li>
+    <li>ancientAdj->pradávný</li>
+    <li>ancientAdj->prastarý</li>
+    <li>transponder->odpovídač</li>
+    <li>transponder->transpondér</li>
+    <li>theLocation->lokaci</li>
+    <li>theLocation->polohu</li>
+    <li>theLocation->pozici</li>
+    <li>inOrbit->[brazdiciObihajici] orbitu</li>
+    <li>inOrbit->na orbitě</li>
+    <li>inOrbit->na oběžné dráze</li>
+    <li>inOrbit->pozici</li>
+    <li>brazdiciObihajici->brázdící</li>
+    <li>brazdiciObihajici->obíhající</li>
+    <li>badlyDam->značně</li>
+    <li>badlyDam->silně</li>
+    <li>badlyDam->těžce</li>
+    <li>badlyDam->vážně</li>
+    <li>badlyDam->velmi</li>
+    <li>badlyDam->výrazně</li>
+    <li>badlyDam->značně</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->mechanitor</li>
+    <li>shipAdjective->the overseer's</li>
+    <li>shipAdjective->ancient</li>
+    <li>shipAdjective->mechanoid</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->wreck</li>
+    <li>shipNoun->wreckage</li>
+    <li>shipNoun->transport</li>
+  -->
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipAdjective][shipNoun][questName_1]</li>
+    <li>questName_1->[shipAdjectiveNom][shipNounNom]</li>
+    <li>shipAdjective(tag=mechanitorský)-></li>
+    <li>shipAdjective(tag=dohlížitel)-></li>
+    <li>shipAdjective(tag=starodávný)-></li>
+    <li>shipAdjective(tag=mechanoidní)-></li>
+    <li>shipAdjectiveNom(requiredTag=mechanitorský)->mechanitorsk[adj_yae] </li>
+    <li>shipAdjectiveNom(requiredTag=dohlížitel)->[shipOverseer][adj_uvovaovo] </li>
+    <li>shipAdjectiveNom(requiredTag=starodávný)->[shipAncient][adj_yae] </li>
+    <li>shipAdjectiveNom(requiredTag=mechanoidní)->mechanoidní </li>
+    <li>spaceShipAdjMaybe(p=15)-></li>
+    <li>spaceShipAdjMaybe->galaktick[adj_yae] </li>
+    <li>spaceShipAdjMaybe->vesmírn[adj_yae] </li>
+    <li>spaceShipAdjMaybe->vesmírn[adj_yae] </li>
+    <li>shipOverseer->dohlížeč</li>
+    <li>shipOverseer->dohlížitel</li>
+    <li>shipOverseer->operátor</li>
+    <li>shipOverseer->mechanitor</li>
+    <li>shipAncient->antick</li>
+    <li>shipAncient->pradávn</li>
+    <li>shipAncient->prastar</li>
+    <li>shipAncient->starobyl</li>
+    <li>shipAncient->starodávn</li>
+    <li>shipNoun(tag=loď)->[fem]</li>
+    <li>shipNoun(tag=plavidlo)->[neu]</li>
+    <li>shipNoun(tag=koráb)->[mas]</li>
+    <li>shipNoun(tag=raketoplán)->[mas]</li>
+    <li>shipNoun(tag=kosmodron)->[mas]</li>
+    <li>shipNoun(tag=vrak)->[mas]</li>
+    <li>shipNoun(tag=trosky)->[pluTy]</li>
+    <li>shipNounNom(requiredTag=loď)->[spaceShipAdjMaybe]loď</li>
+    <li>shipNounNom(requiredTag=plavidlo)->[spaceShipAdjMaybe]plavidlo</li>
+    <li>shipNounNom(requiredTag=koráb)->[spaceShipAdjMaybe]koráb</li>
+    <li>shipNounNom(requiredTag=raketoplán)->[spaceShipAdjMaybe]raketoplán</li>
+    <li>shipNounNom(requiredTag=kosmodron)->kosmodron</li>
+    <li>shipNounNom(requiredTag=vrak)->[spaceShipAdjMaybe]vrak</li>
+    <li>shipNounNom(requiredTag=trosky)->[spaceShipAdjMaybe]trosky</li>
+  </MechanitorShip.questNameRules.rulesStrings>
+  
+</LanguageData>

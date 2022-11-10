@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient exostrider cannon -->
+  <AncientExostriderCannon.label>kanón prastarého exochodce</AncientExostriderCannon.label>
+  <!-- EN: The remains of the back-mounted energy cannon of a massive, ancient exostrider mechanoid. -->
+  <AncientExostriderCannon.description>Zbytky hřbetního energetického kanónu mohutného prastarého mechanoidního exochodce.</AncientExostriderCannon.description>
+  
+  <!-- EN: ancient exostrider head -->
+  <AncientExostriderHead.label>hlava prastarého exochodce</AncientExostriderHead.label>
+  <!-- EN: The remains of the head of a massive, ancient exostrider mechanoid. It was blasted by some kind of high-energy weapon. -->
+  <AncientExostriderHead.description>Zbytky hlavy mohutného prastarého mechanoidního exochodce. Byla zřejmě ustřelena nějakým druhem vysokoenergetické zbraně.</AncientExostriderHead.description>
+  
+  <!-- EN: ancient exostrider leg -->
+  <AncientExostriderLeg.label>noha prastarého exochodce</AncientExostriderLeg.label>
+  <!-- EN: The remains of the leg of a massive, ancient exostrider mechanoid. -->
+  <AncientExostriderLeg.description>Zbytky nohy mohutného prastarého mechanoidního exochodce.</AncientExostriderLeg.description>
+  
+  <!-- EN: ancient exostrider midsection -->
+  <AncientExostriderRemains.label>torzo prastarého exochodce</AncientExostriderRemains.label>
+  <!-- EN: The remains of a massive, ancient exostrider war mechanoid. Long ago, some high-energy weapon shattered the body and fused the parts into an almost-solid mass.\n\nIn its guts, it looks like there is a still-functional transponder. If you could extract the transponder, you could decrypt it to gather valuable information.\n\nThe mech's incendiary weapon cells are intact but unstable, and will likely detonate after you do some damage. -->
+  <AncientExostriderRemains.description>Zbytky prastarého mechanoidního válečného exochodce obří velikosti. Kdysi dávno nějaká vysokoenergetická zbraň rozložila jeho tělo a přetavila jeho části v téměř celistvou hmotu.\n\nV jeho útrobách se zřejmě nachází stále funkční transpondér. Kdyby se ti jej podařilo vyjmout, mohl bys ho dešifrovat a získat cenné informace.\n\nZápalné zbraňové články mecha jsou sice netknuté, ale nestabilní a nejspíše explodují poté, co jim způsobíš určité poškození.</AncientExostriderRemains.description>
+  <!-- EN: Ancient mech -->
+  <AncientExostriderRemains.comps.CompProximityLetter.letterLabel>Prastarý mech</AncientExostriderRemains.comps.CompProximityLetter.letterLabel>
+  <!-- EN: Passing near the remains of an ancient exostrider mechanoid, {PAWN_nameDef} noticed an (*Reward)intact transponder(/Reward) inside.\n\nIf you could get the transponder, you could read valuable information from it. The massive mech is smashed and fused into a solid piece. You must destroy it to retrieve the transponder.\n\nBe careful - the incendiary weapon cells look (*Threat)unstable(/Threat) and will likely detonate after you do some damage. -->
+  <AncientExostriderRemains.comps.CompProximityLetter.letterText>Když {PAWN_nameDef} {PAWN_gender ? procházel : procházela} kolem trosek prastarého mechanoidního exochodce, {PAWN_gender ? všiml : všimla} si, že je v něm (*Reward)neporušený transpondér(/Reward).\n\nPokud bys transpondér získal, mohl bys z něj vyčíst cenné informace. Jelikož je tento mohutný mechanoid zcela zmačkaný a roztavený v jeden celistvý kus, musíš jej nejdříve zničit, abys ses k transpondéru dostal. Buď ale opatrný - zápalné zbraňové články vypadají (*Threat)nestabilně(/Threat) a zřejmě explodují poté, co způsobíš určité poškození.</AncientExostriderRemains.comps.CompProximityLetter.letterText>
+  <!-- EN: Available: {LEAVINGS1_label} -->
+  <AncientExostriderRemains.comps.CompLeavingsLetter.letterLabel>K dispozici: {LEAVINGS1_label}</AncientExostriderRemains.comps.CompLeavingsLetter.letterLabel>
+  <!-- EN: A {LEAVINGS1_label} has been left behind after an explosion. It can be decrypted at a research bench.\n\nSelect a colonist and right-click it to decrypt it. -->
+  <AncientExostriderRemains.comps.CompLeavingsLetter.letterText>Po výbuchu {LEAVINGS1_gender ? byl : byla : bylo} na místě {LEAVINGS1_gender ? zanechán : zanechána : zanecháno} {LEAVINGS1_label}. Na výzkumném stanovišti {LEAVINGS1_gender ? ho : ji : ho} lze dešifrovat.\n\nK dešifrování vyber kolonistu a pravým tlačítkem myši klikni na {lookup: {LEAVINGS1_label}; case\singular; 4}.</AncientExostriderRemains.comps.CompLeavingsLetter.letterText>
+  <!-- EN: Contains an ancient mechanoid transponder. -->
+  <AncientExostriderRemains.comps.CompInspectString.inspectString>Obsahuje starodávný mechanoidní transpondér.</AncientExostriderRemains.comps.CompInspectString.inspectString>
+  
+</LanguageData>
