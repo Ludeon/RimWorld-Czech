@@ -122,17 +122,17 @@
   <DeadLabel>{1_label} (mrtvola)</DeadLabel>
 
   <!-- EN: rough {0} -->
-  <RoughStoneTerrainLabel>hrubý {0}</RoughStoneTerrainLabel>
+  <RoughStoneTerrainLabel>{0_gender ? hrubý : hrubá : hrubé} {0}</RoughStoneTerrainLabel>
   <!-- EN: Rough, natural {0} ground. -->
-  <RoughStoneTerrainDesc>Hrubý přírodní {0} povrch.</RoughStoneTerrainDesc>
+  <RoughStoneTerrainDesc>Hrubý přírodní {lookup: {0}; case\adjective; 1}ý povrch.</RoughStoneTerrainDesc>
   <!-- EN: rough-hewn {0} -->
-  <RoughHewnStoneTerrainLabel>hrubě tesaný {0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainLabel>hrubě {0_gender ? tesaný : tesaná : tesané} {0}</RoughHewnStoneTerrainLabel>
   <!-- EN: Roughly cut natural {0} floor. -->
-  <RoughHewnStoneTerrainDesc>Nahrubo tesaná přírodní {0} podlaha.</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>Nahrubo tesaná přírodní {lookup: {0}; case\adjective; 1}á podlaha.</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
-  <SmoothStoneTerrainLabel>hlazený {0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainLabel>{0_gender ? hladký : hladká : hladké} {0}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
-  <SmoothStoneTerrainDesc>Hlazená přírodní {0} podlaha.</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>Hlazená přírodní {lookup: {0}; case\adjective; 1}á podlaha.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (plán)</BlueprintLabelExtra>

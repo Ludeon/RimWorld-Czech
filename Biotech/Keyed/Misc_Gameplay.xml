@@ -140,6 +140,14 @@
   <TilePollution>Znečištění</TilePollution>
   <!-- EN: Nearby pollution -->
   <TilePollutionNearby>Znečištění v okolí</TilePollutionNearby>
+  <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
+  <NearbyPollutionTip>Celková hodnota znečištění všech oblastí v okruhu {replace: ^{0}^ ; "^1^"-"1 políčka";"^{0}^"-"{0} políček"}. S rostoucí vzdáleností od tohoto políčka se podíl znečištění snižuje:\n\n{1}\n\nČím vyšší je znečištění v blízkém okolí, tím vyšší je pravděpodobnost výskytu kyselého smogu.</NearbyPollutionTip>
+  <!-- EN: This tile will have acidic smog every {0} days on average. -->
+  <NoxiousHazeInterval>Na tomto políčku se v průměru každých {0} dnů objeví kyselý smog.</NoxiousHazeInterval>
+  <!-- EN: This tile will never have acidic smog. -->
+  <NoxiousHazeNeverOccurring>Na tomto políčku se nikdy neobjeví kyselý smog.</NoxiousHazeNeverOccurring>
+  <!-- EN: tiles away -->
+  <NearbyPollutionTilesAway>polí daleko</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
   <PollutionLower>znečištění</PollutionLower>
 
