@@ -2,6 +2,8 @@
 <LanguageData>
 
   <!-- Xenogerm -->
+  <!-- EN: Assemble genes -->
+  <AssembleGenes>Sestavování genů</AssembleGenes>
   <!-- EN: Create xenotype -->
   <CreateXenotype>Vytváření xenotypu</CreateXenotype>
   <!-- EN: Select icon -->
@@ -10,6 +12,10 @@
   <SelectIconDesc>Ikona tohoto xenotypu.</SelectIconDesc>
   <!-- EN: Start combining -->
   <StartCombining>Zahájit kombinování</StartCombining>
+  <!-- EN: Selected genepacks -->
+  <SelectedGenepacks>Vybrané genobalíky</SelectedGenepacks>
+  <!-- EN: Genepack library -->
+  <GenepackLibrary>Sbírka genobalíků</GenepackLibrary>
   <!-- EN: Click to add or remove -->
   <ClickToAddOrRemove>Pro přidání nebo odebrání klikni</ClickToAddOrRemove>
   <!-- EN: Click to add -->
@@ -20,6 +26,14 @@
   <MemberXenotypeChances>Xenotypy v této frakci</MemberXenotypeChances>
   <!-- EN: xenotype name -->
   <XenotypeName>Název xenotypu</XenotypeName>
+  <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
+  <MustResearchProject>Než budeš moci sestavit xenozárodek, který vyžaduje architové kapsle, musíš se pustit do výzkumu {lookup: {0_label}; case\singular; 2}.</MustResearchProject>
+  <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
+  <AssemblingRequiresResearch>Sestavení xenozárodků s architovými geny vyžaduje {lookup: {0_label}; case\adjective; 1} výzkum.</AssemblingRequiresResearch>
+  <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
+  <SelectAGeneToRandomizeName>Vyber alespoň jeden gen pro náhodný výběr názvu tohoto xenotypu.</SelectAGeneToRandomizeName>
+  <!-- EN: Select at least one gene to choose a name for this xenotype. -->
+  <SelectAGeneToChooseAName>Vyberte alespoň jeden gen pro výběr názvu tohoto xenotypu.</SelectAGeneToChooseAName>
 
   <!-- Xenotype editor -->
   <!-- EN: Xenotype editor -->
@@ -30,6 +44,8 @@
   <Custom>vlastní</Custom>
   <!-- EN: Genes are heritable -->
   <GenesAreInheritable>Geny jsou dědičné</GenesAreInheritable>
+  <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
+  <WarnChangingXenotypeWillRandomizePawn>Změna xenotypu způsobí náhodný výběr tohoto kolonisty.\n\nI přesto pokračovat?</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>Ignorovat omezení</IgnoreRestrictions>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->

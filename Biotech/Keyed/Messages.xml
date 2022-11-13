@@ -4,6 +4,18 @@
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
   <MessageWorkTypeDisabledAge>{0_nameDef} má teprve {replace: ^{1}^ ; "^1^"-"1 rok";"^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; case\singular; 2} : {lookup: {2}; case\singularfem; 2}} může vykonávat až od {replace: ^{3}^ ; "^1^"-"1 roku";"^{3}^"-"{3} let"}.</MessageWorkTypeDisabledAge>
 
+  <!-- Xenogerm -->
+  <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
+  <MetabolismTooLowToCreateXenogerm>K pokračování musí být celkový metabolismus vybraných genů nejméně {MIN}, aktuálně je však {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
+  <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
+  <ComplexityTooHighToCreateXenogerm>K vytvoření xenozárodku musí být celková složitost vybraných genů nejvýše {MAX}, aktuálně je však {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <!-- EN: Cannot create a xenogerm with no genes. -->
+  <MessageNoSelectedGenepacks>Xenozárodek nelze vytvořit bez genů.</MessageNoSelectedGenepacks>
+  <!-- EN: Cannot create a xenotype with no genes. -->
+  <MessageNoSelectedGenes>Xenotyp nelze vytvořit bez genů.</MessageNoSelectedGenes>
+  <!-- EN: Xenotype name cannot be empty. -->
+  <XenotypeNameCannotBeEmpty>Název xenotypu nesmí zůstat prázdný.</XenotypeNameCannotBeEmpty>
+
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Varování: Než {0_gender ? byl {0_labelShort} povolán : byla {0_labelShort} povolána} do zbraně, {0_gender ? přenášel : přenášela} děťátko.</MessageDraftedPawnCarryingBaby>
 
