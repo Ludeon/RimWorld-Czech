@@ -38,16 +38,28 @@
   <!-- Xenotype editor -->
   <!-- EN: Xenotype editor -->
   <XenotypeEditor>Editor xenotypů</XenotypeEditor>
+  <!-- EN: Any (non-archite) -->
+  <AnyNonArchite>Libovolný (nearchitový)</AnyNonArchite>
   <!-- EN: Selected genes -->
   <SelectedGenes>Vybrané geny</SelectedGenes>
   <!-- EN: custom -->
   <Custom>vlastní</Custom>
   <!-- EN: Genes are heritable -->
   <GenesAreInheritable>Geny jsou dědičné</GenesAreInheritable>
+  <!-- EN: All genes in this xenotype can be passed on to children. -->
+  <GenesAreInheritableDesc>Veškeré geny tohoto xenotypu se mohou přenášet na potomky.</GenesAreInheritableDesc>
   <!-- EN: Changing xenotype will randomize this colonist.\n\nContinue anyway? -->
   <WarnChangingXenotypeWillRandomizePawn>Změna xenotypu způsobí náhodný výběr tohoto kolonisty.\n\nI přesto pokračovat?</WarnChangingXenotypeWillRandomizePawn>
   <!-- EN: Ignore restrictions -->
   <IgnoreRestrictions>Ignorovat omezení</IgnoreRestrictions>
+  <!-- EN: Created xenotypes have no biostat limits. Genes requiring archite capsules can be added. -->
+  <IgnoreRestrictionsDesc>Vytvářené xenotypy nemají žádné biostatistické limity. Lze přidat i geny vyžadující architové kapsle.</IgnoreRestrictionsDesc>
+  <!-- EN: {STAT} is {VALUE}, which exceeds the normal limit of {MAX}. -->
+  <XenotypeBreaksLimits_Exceeds>{STAT} je na hodnotě {VALUE}, což překračuje limit stanovený na {MAX}.</XenotypeBreaksLimits_Exceeds>
+  <!-- EN: {STAT} is {VALUE}, which is below the normal limit of {MIN}. -->
+  <XenotypeBreaksLimits_Below>{STAT} je na hodnotě {VALUE}, což je pod stanoveným limitem {MIN}.</XenotypeBreaksLimits_Below>
+  <!-- EN: Save anyway? -->
+  <SaveAnyway>I přesto uložit?</SaveAnyway>
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>Kolonisté se při vytváření budou vždy nacházet ve věkovém rozmezí této vývojové fáze.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
