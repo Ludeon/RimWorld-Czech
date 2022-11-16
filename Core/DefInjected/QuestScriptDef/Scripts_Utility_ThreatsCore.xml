@@ -5,8 +5,8 @@
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
       <li>root(priority=1,sitePart==ClimateAdjuster)->(*Threat)klimatický regulátor(/Threat) posouvající regionální teplotu o [TemperatureOffset]</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->(*Threat)psychický bzučák(/Threat) ovlivňující každého, kdo je [affectedGender]</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->(*Threat)psychický potlačovač(/Threat) ovlivňující každého, kdo je [affectedGender]</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->(*Threat)psychický bzučák(/Threat) naladěný na {replace: [affectedGender]; "muž"-"mužské"; "žena"-"ženské"} pohlaví</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->(*Threat)psychický potlačovač(/Threat) naladěný na {replace: [affectedGender]; "muž"-"mužské"; "žena"-"ženské"} pohlaví</li>
       <li>root(priority=1,sitePart==WeatherController)->(*Threat)meteorologický ovlivňovač(/Threat) upravující počasí tak, že v celém regionu bude pouze [weather_label]</li>
       <li>root(priority=1,sitePart==SmokeSpewer)->(*Threat)kouřový chrlič(/Threat) sloužící k vypouštění dýmu nad celým regionem</li>
       <li>root(priority=1,sitePart==SunBlocker)->(*Threat)blokátor slunce(/Threat) způsobující zastínění celého regionu</li>
@@ -15,15 +15,15 @@
       <li>root(priority=1,sitePart==RaidSource)->(*Threat)vojenská předsunutá základna(/Threat) vysílající každých [mtbDays] [enemiesCount]členný nájezd</li>
       <li>root(priority=1,sitePart==Outpost)->(*Threat)nepřátelské stanoviště(/Threat) hlídající [enemiesCount]členná skupina nepřátel</li>
       <li>root(priority=1,sitePart==BanditCamp)->(*Threat)tábor banditů(/Threat) hlídající [enemiesCount]členná skupina nepřátel</li>
-      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)[kindLabel] požírající lidi(/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count==2)->skupina (*Threat)dvou toulavých lidožravých [kindLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count==3)->skupina (*Threat)tří toulavých lidožravých [kindLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count==4)->skupina (*Threat)čtyř toulavých lidožravých [kindLabel](/Threat)</li>
-      <li>root(priority=1,sitePart==Manhunters,count>=5)->(*Threat)[count] toulavých lidožravých [kindLabel](/Threat)</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)agresivní [kindLabel](/Threat) toulající se po okolí</li>
+      <li>root(priority=1,sitePart==Manhunters,count==2)->(*Threat)[count] agresivní [kindLabel](/Threat) toulající se po okolí</li>
+      <li>root(priority=1,sitePart==Manhunters,count==3)->(*Threat)[count] agresivní [kindLabel](/Threat) toulající se po okolí</li>
+      <li>root(priority=1,sitePart==Manhunters,count==4)->(*Threat)[count] agresivní [kindLabel](/Threat) toulající se po okolí</li>
+      <li>root(priority=1,sitePart==Manhunters,count>=5)->(*Threat)[count] agresivních {lookup: [kindLabel]; case\plural; 2}(/Threat) toulajících se po okolí</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)jeden dřímající mechanoid(/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==2)->(*Threat)dva dřímající mechanoidi(/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==3)->(*Threat)tři dřímající mechanoidi(/Threat)</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==4)->(*Threat)čtyři dřímající mechanoidi(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==2)->(*Threat)[count] dřímající mechanoidi(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==3)->(*Threat)[count] dřímající mechanoidi(/Threat)</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==4)->(*Threat)[count] dřímající mechanoidi(/Threat)</li>
       <li>root(priority=1,sitePart==SleepingMechanoids,count>=5)->(*Threat)[count] dřímajících mechanoidů(/Threat)</li>
       <li>root(priority=1,sitePart==Turrets)->(*Threat)obrana(/Threat) čítající [threatsInfo]</li>
       <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)nepřátelská armáda(/Threat) číhající na kohokoli, kdo se přiblíží</li>

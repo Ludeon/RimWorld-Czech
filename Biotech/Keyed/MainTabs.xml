@@ -8,10 +8,12 @@
   <NotStudied>- chybí podrobné zkoumání {lookup: {0}; case\singular; 2}</NotStudied>
   <!-- EN: Requires study of -->
   <StudyRequirements>Vyžaduje podrobné zkoumání</StudyRequirements>
+  <!-- EN: Preferred xenotypes -->
+  <PreferredXenotypes>Preferované xenotypy</PreferredXenotypes>
 
   <!-- Work tab -->
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3} -->
-  <WorkDisabledAge>{0_nameDef} má teprve {replace: ^{1}^ ; "^1^"-"1 rok";"^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; case\singular; 2} : {lookup: {2}; case\singularfem; 2}} může vykonávat až od {replace: ^{3}^ ; "^1^"-"1 roku";"^{3}^"-"{3} let"}</WorkDisabledAge>
+  <WorkDisabledAge>{0_nameDef} má teprve {replace: ^{1}^ ; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; case\singular; 2} : {lookup: {2}; case\singularfem; 2}} může vykonávat až od {replace: ^{3}^ ; "^1^"-"1 roku"; "^{3}^"-"{3} let"}</WorkDisabledAge>
   <!-- EN: Click to change work mode. -->
   <ClickToChangeWorkMode>Kliknutím změníš pracovní režim.</ClickToChangeWorkMode>
 

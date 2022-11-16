@@ -899,75 +899,9 @@
     <li>RECIPIENT_x_a_x(RECIPIENT_gender==Male)-></li>
     <li>RECIPIENT_x_a_x(RECIPIENT_gender==Female)->a</li>
     <li>RECIPIENT_x_a_x(RECIPIENT_gender==None)-></li>
-//ALL_ANIMALS
-//Arid
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Dromedary)->dromedár</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Gazelle)->gazela</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Iguana)->leguán</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->můvol</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->můvolice</li>
 
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Dromedary)->dromedára</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Gazelle)->gazely</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Iguana)->leguána</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->můvola</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->můvolice</li>
-
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Dromedary)->dromedára</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Gazelle)->gazelu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Iguana)->leguána</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->můvola</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->můvolici</li>
-
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Dromedary)->dromedáři</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Gazelle)->gazely</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Iguana)->leguáni</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Muffalo)->můvolové</li>
-
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Dromedary)->dromedárů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Gazelle)->gazel</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Iguana)->leguánů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Muffalo)->můvolů</li>
-
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Dromedary)->dromedáry</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Gazelle)->gazely</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Iguana)->leguány</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Muffalo)->můvoly</li>
-
-    <li>animal_y_a_e(lodgersPawnKind==Dromedary)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Gazelle)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Iguana)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->á</li>
-
-    <li>animal_eho_ou_e(lodgersPawnKind==Dromedary)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Gazelle)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Iguana)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->ou</li>
-
-    <li>animal_oho_u_o(lodgersPawnKind==Dromedary)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Gazelle)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Iguana)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->u</li>
-
-    <li>animals_e_e_a(lodgersPawnKind==Dromedary)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Gazelle)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Iguana)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Muffalo)->é</li>
-
-    <li>animals_i_e_a(lodgersPawnKind==Dromedary)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Gazelle)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Iguana)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Muffalo)->í</li>
-
-    <li>animals_i_y_a(lodgersPawnKind==Dromedary)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Gazelle)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Iguana)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Muffalo)->i</li>
-
-//Bears
+//Races_Animal_All
+//Races_Animal_Bears
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Male)->medvěd grizzly</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Bear_Grizzly,lodgers0_gender==Female)->medvědice grizzly</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Bear_Polar,lodgers0_gender==Male)->medvěd lední</li>
@@ -1016,7 +950,62 @@
     <li>animals_i_y_a(lodgersPawnKind==Bear_Grizzly)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Bear_Polar)->i</li>
 
-//BigCats
+//Races_Animal_BigBirds
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cassowary)->kasuár</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Emu)->emu</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->pštros</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->pštrosice</li>
+
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cassowary)->kasuára</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Emu)->emua</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->pštrosa</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->pštrosice</li>
+
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cassowary)->kasuára</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Emu)->emua</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->pštrosa</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->pštrosici</li>
+
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cassowary)->kasuáři</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Emu)->emuové</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Ostrich)->pštrosi</li>
+
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cassowary)->kasuárů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Emu)->emuů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Ostrich)->pštrosů</li>
+
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cassowary)->kasuáry</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Emu)->emuy</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Ostrich)->pštrosy</li>
+
+    <li>animal_y_a_e(lodgersPawnKind==Cassowary)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Emu)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->á</li>
+
+    <li>animal_eho_ou_e(lodgersPawnKind==Cassowary)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Emu)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->ou</li>
+
+    <li>animal_oho_u_o(lodgersPawnKind==Cassowary)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Emu)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->u</li>
+
+    <li>animals_e_e_a(lodgersPawnKind==Cassowary)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Emu)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Ostrich)->é</li>
+
+    <li>animals_i_e_a(lodgersPawnKind==Cassowary)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Emu)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Ostrich)->í</li>
+
+    <li>animals_i_y_a(lodgersPawnKind==Cassowary)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Emu)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Ostrich)->i</li>
+
+//Races_Animal_BigCats
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cougar)->puma</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Lynx)->rys</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Panther)->panter</li>
@@ -1065,382 +1054,333 @@
     <li>animals_i_y_a(lodgersPawnKind==Lynx)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Panther)->i</li>
 
-//Birds
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cassowary)->kasuár</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Emu)->emu</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->pštros</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->pštrosice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Turkey,lodgers0_gender==Male)->krocan</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Turkey,lodgers0_gender==Female)->krůta</li>
+//Races_Animal_CatGroup
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cat,lodgers0_gender==Male)->kocour</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cat,lodgers0_gender==Female)->kočka</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==GuineaPig)->morče</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Husky)->husky</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==LabradorRetriever)->labradorský retrívr</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Monkey,lodgers0_gender==Male)->opičák</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Monkey,lodgers0_gender==Female)->opice</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==YorkshireTerrier)->jorkšírský teriér</li>
 
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cassowary)->kasuára</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Emu)->emua</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->pštrosa</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->pštrosice</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Turkey,lodgers0_gender==Male)->krocana</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Turkey,lodgers0_gender==Female)->krůty</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cat,lodgers0_gender==Male)->kocoura</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cat,lodgers0_gender==Female)->kočky</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==GuineaPig)->morčete</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Husky)->huskyho</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==LabradorRetriever)->labradorského retrívra</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Monkey,lodgers0_gender==Male)->opičáka</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Monkey,lodgers0_gender==Female)->opice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==YorkshireTerrier)->jorkšírského teriéra</li>
 
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cassowary)->kasuára</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Emu)->emua</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->pštrosa</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->pštrosici</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Turkey,lodgers0_gender==Male)->krocana</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Turkey,lodgers0_gender==Female)->krůtu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cat,lodgers0_gender==Male)->kocoura</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cat,lodgers0_gender==Female)->kočku</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==GuineaPig)->morče</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Husky)->huskyho</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==LabradorRetriever)->labradorského retrívra</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Monkey,lodgers0_gender==Male)->opičáka</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Monkey,lodgers0_gender==Female)->opici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==YorkshireTerrier)->jorkšírského teriéra</li>
 
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cassowary)->kasuáři</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Emu)->emuové</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Ostrich)->pštrosi</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Turkey)->krocani</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cat)->kočky</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==GuineaPig)->morčata</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Husky)->huskyové</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==LabradorRetriever)->labradorští retrívři</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Monkey)->opice</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==YorkshireTerrier)->jorkšírští teriéři</li>
 
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cassowary)->kasuárů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Emu)->emuů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Ostrich)->pštrosů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Turkey)->krocanů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cat)->koček</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==GuineaPig)->morčat</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Husky)->huskyů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==LabradorRetriever)->labradorských retrívrů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Monkey)->opic</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==YorkshireTerrier)->jorkšírských teriérů</li>
 
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cassowary)->kasuáry</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Emu)->emuy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Ostrich)->pštrosy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Turkey)->krocany</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cat)->kočky</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==GuineaPig)->morčata</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Husky)->huskye</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==LabradorRetriever)->labradorské retrívry</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Monkey)->opice</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==YorkshireTerrier)->jorkšírské teriéry</li>
 
-    <li>animal_y_a_e(lodgersPawnKind==Cassowary)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Emu)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Turkey,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Turkey,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Cat,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Cat,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==GuineaPig)->é</li>
+    <li>animal_y_a_e(lodgersPawnKind==Husky)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==LabradorRetriever)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Monkey,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Monkey,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==YorkshireTerrier)->ý</li>
 
-    <li>animal_eho_ou_e(lodgersPawnKind==Cassowary)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Emu)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Turkey,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Turkey,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Cat,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Cat,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==GuineaPig)->é</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Husky)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==LabradorRetriever)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Monkey,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Monkey,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==YorkshireTerrier)->ého</li>
 
-    <li>animal_oho_u_o(lodgersPawnKind==Cassowary)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Emu)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Ostrich,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Ostrich,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Turkey,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Turkey,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Cat,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Cat,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==GuineaPig)->o</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Husky)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==LabradorRetriever)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Monkey,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Monkey,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==YorkshireTerrier)->oho</li>
 
-    <li>animals_e_e_a(lodgersPawnKind==Cassowary)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Emu)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Ostrich)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Turkey)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Cat)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==GuineaPig)->á</li>
+    <li>animals_e_e_a(lodgersPawnKind==Husky)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==LabradorRetriever)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Monkey)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==YorkshireTerrier)->é</li>
 
-    <li>animals_i_e_a(lodgersPawnKind==Cassowary)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Emu)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Ostrich)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Turkey)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Cat)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==GuineaPig)->á</li>
+    <li>animals_i_e_a(lodgersPawnKind==Husky)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==LabradorRetriever)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Monkey)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==YorkshireTerrier)->í</li>
 
-    <li>animals_i_y_a(lodgersPawnKind==Cassowary)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Emu)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Ostrich)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Turkey)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Cat)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==GuineaPig)->a</li>
+    <li>animals_i_y_a(lodgersPawnKind==Husky)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==LabradorRetriever)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Monkey)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==YorkshireTerrier)->i</li>
 
-//Farm
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Alpaca)->alpaka</li>
+//Races_Animal_CowGroup
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Bison,lodgers0_gender==Male)->bizon</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Bison,lodgers0_gender==Female)->bizonice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Chicken,lodgers0_gender==Male)->kohout</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Chicken,lodgers0_gender==Female)->slepice</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Boomalope)->bumalopa</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Caribou,lodgers0_gender==Male)->sob</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Caribou,lodgers0_gender==Female)->sobí laň</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cow,lodgers0_gender==Male)->býk</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cow,lodgers0_gender==Female)->kráva</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Donkey,lodgers0_gender==Male)->osel</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Donkey,lodgers0_gender==Female)->oslice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Duck,lodgers0_gender==Male)->kačer</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Duck,lodgers0_gender==Female)->kachna</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Dromedary)->dromedár</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elephant,lodgers0_gender==Male)->slon</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elephant,lodgers0_gender==Female)->slonice</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elk,lodgers0_gender==Male)->los</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elk,lodgers0_gender==Female)->losice</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Goat,lodgers0_gender==Male)->kozel</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Goat,lodgers0_gender==Female)->koza</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Goose,lodgers0_gender==Male)->houser</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Goose,lodgers0_gender==Female)->husa</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==GuineaPig)->morče</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Horse,lodgers0_gender==Male)->kůň</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Horse,lodgers0_gender==Female)->klisna</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Pig,lodgers0_gender==Male)->prase</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Pig,lodgers0_gender==Female)->prasnice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Sheep,lodgers0_gender==Male)->beran</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovce</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->můvol</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->můvolice</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Rhinoceros)->nosorožec</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Yak,lodgers0_gender==Male)->jak</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Yak,lodgers0_gender==Female)->jačice</li>
 
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Alpaca)->alpaky</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Bison,lodgers0_gender==Male)->bizona</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Bison,lodgers0_gender==Female)->bizonice</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Chicken,lodgers0_gender==Male)->kohouta</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Chicken,lodgers0_gender==Female)->slepice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Boomalope)->bumalopy</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Caribou,lodgers0_gender==Male)->soba</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Caribou,lodgers0_gender==Female)->sobí laně</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cow,lodgers0_gender==Male)->býka</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cow,lodgers0_gender==Female)->krávy</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Donkey,lodgers0_gender==Male)->osla</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Donkey,lodgers0_gender==Female)->oslice</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Duck,lodgers0_gender==Male)->kačera</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Duck,lodgers0_gender==Female)->kachny</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Dromedary)->dromedára</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elephant,lodgers0_gender==Male)->slona</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elephant,lodgers0_gender==Female)->slonice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elk,lodgers0_gender==Male)->losa</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elk,lodgers0_gender==Female)->losice</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Goat,lodgers0_gender==Male)->kozla</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Goat,lodgers0_gender==Female)->kozy</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Goose,lodgers0_gender==Male)->housera</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Goose,lodgers0_gender==Female)->husy</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==GuineaPig)->morčete</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Horse,lodgers0_gender==Male)->koně</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Horse,lodgers0_gender==Female)->klisny</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Pig,lodgers0_gender==Male)->prasete</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Pig,lodgers0_gender==Female)->prasnice</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Sheep,lodgers0_gender==Male)->berana</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovce</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->můvola</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->můvolice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Rhinoceros)->nosorožce</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Yak,lodgers0_gender==Male)->jaka</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Yak,lodgers0_gender==Female)->jačice</li>
 
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Alpaca)->alpaku</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Bison,lodgers0_gender==Male)->bizona</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Bison,lodgers0_gender==Female)->bizonici</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Chicken,lodgers0_gender==Male)->kohouta</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Chicken,lodgers0_gender==Female)->slepici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Boomalope)->bumalopu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Caribou,lodgers0_gender==Male)->soba</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Caribou,lodgers0_gender==Female)->sobí laň</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cow,lodgers0_gender==Male)->býka</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cow,lodgers0_gender==Female)->krávu</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Donkey,lodgers0_gender==Male)->osla</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Donkey,lodgers0_gender==Female)->oslici</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Duck,lodgers0_gender==Male)->kačera</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Duck,lodgers0_gender==Female)->kachnu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Dromedary)->dromedára</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elephant,lodgers0_gender==Male)->slona</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elephant,lodgers0_gender==Female)->slonici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elk,lodgers0_gender==Male)->losa</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elk,lodgers0_gender==Female)->losici</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Goat,lodgers0_gender==Male)->kozla</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Goat,lodgers0_gender==Female)->kozu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Goose,lodgers0_gender==Male)->housera</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Goose,lodgers0_gender==Female)->husu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==GuineaPig)->morče</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Horse,lodgers0_gender==Male)->koně</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Horse,lodgers0_gender==Female)->klisnu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Pig,lodgers0_gender==Male)->prase</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Pig,lodgers0_gender==Female)->prasnici</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Sheep,lodgers0_gender==Male)->berana</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovci</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->můvola</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->můvolici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Rhinoceros)->nosorožce</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Yak,lodgers0_gender==Male)->jaka</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Yak,lodgers0_gender==Female)->jačici</li>
 
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Alpaca)->alpaky</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Bison)->bizoni</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Chicken)->slepice</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Boomalope)->bumalopy</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Caribou)->sobi</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cow)->krávy</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Donkey)->osli</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Duck)->kachny</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Dromedary)->dromedáři</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Elephant)->sloni</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Elk)->losi</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Goat)->kozy</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Goose)->husy</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==GuineaPig)->morčata</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Horse)->koně</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Pig)->prasata</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Sheep)->ovce</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Muffalo)->můvolové</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Rhinoceros)->nosorožci</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Yak)->jaci</li>
 
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Alpaca)->alpak</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Bison)->bizonů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Chicken)->slepic</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Boomalope)->bumalop</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Caribou)->sobů</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cow)->krav</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Donkey)->oslů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Duck)->kachen</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Dromedary)->dromedárů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Elephant)->slonů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Elk)->losů</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Goat)->koz</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Goose)->hus</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==GuineaPig)->morčat</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Horse)->koní</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Pig)->prasat</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Sheep)->ovcí</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Muffalo)->můvolů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Rhinoceros)->nosorožců</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Yak)->jaků</li>
 
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Alpaca)->alpaky</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Bison)->bizony</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Chicken)->slepice</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Boomalope)->bumalopy</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Caribou)->soby</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cow)->krávy</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Donkey)->osly</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Duck)->kachny</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Dromedary)->dromedáry</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Elephant)->slony</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Elk)->losy</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Goat)->kozy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Goose)->husy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==GuineaPig)->morčata</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Horse)->koně</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Pig)->prasata</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Sheep)->ovce</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Muffalo)->můvoly</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Rhinoceros)->nosorožce</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Yak)->jaky</li>
 
-    <li>animal_y_a_e(lodgersPawnKind==Alpaca)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Bison,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Bison,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Chicken,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Chicken,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Boomalope)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Caribou,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Caribou,lodgers0_gender==Female)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Cow,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Cow,lodgers0_gender==Female)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Donkey,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Donkey,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Duck,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Duck,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Dromedary)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Elephant,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Elephant,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Elk,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Elk,lodgers0_gender==Female)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Goat,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Goat,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Goose,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Goose,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==GuineaPig)->é</li>
     <li>animal_y_a_e(lodgersPawnKind==Horse,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Horse,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Pig,lodgers0_gender==Male)->é</li>
-    <li>animal_y_a_e(lodgersPawnKind==Pig,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Sheep,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Sheep,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Rhinoceros)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Yak,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Yak,lodgers0_gender==Female)->á</li>
 
-    <li>animal_eho_ou_e(lodgersPawnKind==Alpaca)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Bison,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Bison,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Chicken,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Chicken,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Boomalope)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Caribou,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Caribou,lodgers0_gender==Female)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Cow,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Cow,lodgers0_gender==Female)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Donkey,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Donkey,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Duck,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Duck,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Dromedary)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Elephant,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Elephant,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Elk,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Elk,lodgers0_gender==Female)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Goat,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Goat,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Goose,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Goose,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==GuineaPig)->é</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Horse,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Horse,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Pig,lodgers0_gender==Male)->é</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Pig,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Sheep,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Rhinoceros)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Yak,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Yak,lodgers0_gender==Female)->ou</li>
 
-    <li>animal_oho_u_o(lodgersPawnKind==Alpaca)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Bison,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Bison,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Chicken,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Chicken,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Boomalope)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Caribou,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Caribou,lodgers0_gender==Female)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Cow,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Cow,lodgers0_gender==Female)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Donkey,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Donkey,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Duck,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Duck,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Dromedary)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Elephant,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Elephant,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Elk,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Elk,lodgers0_gender==Female)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Goat,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Goat,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Goose,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Goose,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==GuineaPig)->o</li>
     <li>animal_oho_u_o(lodgersPawnKind==Horse,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Horse,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Pig,lodgers0_gender==Male)->o</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Pig,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Sheep,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Sheep,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Muffalo,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Muffalo,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Rhinoceros)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Yak,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Yak,lodgers0_gender==Female)->u</li>
 
-    <li>animals_e_e_a(lodgersPawnKind==Alpaca)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Bison)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Chicken)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Boomalope)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Caribou)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Cow)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Donkey)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Duck)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Dromedary)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Elephant)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Elk)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Goat)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Goose)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==GuineaPig)->á</li>
     <li>animals_e_e_a(lodgersPawnKind==Horse)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Pig)->á</li>
-    <li>animals_e_e_a(lodgersPawnKind==Sheep)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Muffalo)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Rhinoceros)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Yak)->é</li>
 
-    <li>animals_i_e_a(lodgersPawnKind==Alpaca)->é</li>
     <li>animals_i_e_a(lodgersPawnKind==Bison)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Chicken)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Boomalope)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Caribou)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Cow)->é</li>
     <li>animals_i_e_a(lodgersPawnKind==Donkey)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Duck)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Dromedary)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Elephant)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Elk)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Goat)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Goose)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==GuineaPig)->á</li>
     <li>animals_i_e_a(lodgersPawnKind==Horse)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Pig)->á</li>
-    <li>animals_i_e_a(lodgersPawnKind==Sheep)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Muffalo)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Rhinoceros)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Yak)->í</li>
 
-    <li>animals_i_y_a(lodgersPawnKind==Alpaca)->y</li>
     <li>animals_i_y_a(lodgersPawnKind==Bison)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Chicken)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Boomalope)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Caribou)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Cow)->y</li>
     <li>animals_i_y_a(lodgersPawnKind==Donkey)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Duck)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Dromedary)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Elephant)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Elk)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Goat)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Goose)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==GuineaPig)->a</li>
     <li>animals_i_y_a(lodgersPawnKind==Horse)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Pig)->a</li>
-    <li>animals_i_y_a(lodgersPawnKind==Sheep)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Muffalo)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Rhinoceros)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Yak)->i</li>
 
-//Giant
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elephant,lodgers0_gender==Male)->slon</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elephant,lodgers0_gender==Female)->slonice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Megasloth)->lenochod obří</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Rhinoceros)->nosorožec</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Thrumbo)->thrumbo</li>
-
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elephant,lodgers0_gender==Male)->slona</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elephant,lodgers0_gender==Female)->slonice</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Megasloth)->lenochoda obřího</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Rhinoceros)->nosorožce</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Thrumbo)->thrumba</li>
-
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elephant,lodgers0_gender==Male)->slona</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elephant,lodgers0_gender==Female)->slonici</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Megasloth)->lenochoda obřího</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Rhinoceros)->nosorožce</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Thrumbo)->thrumba</li>
-
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Elephant)->sloni</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Megasloth)->lenochodi obří</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Rhinoceros)->nosorožci</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Thrumbo)->thrumbové</li>
-
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Elephant)->slonů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Megasloth)->lenochodů obřích</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Rhinoceros)->nosorožců</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Thrumbo)->thrumbů</li>
-
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Elephant)->slony</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Megasloth)->lenochody obří</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Rhinoceros)->nosorožce</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Thrumbo)->thrumby</li>
-
-    <li>animal_y_a_e(lodgersPawnKind==Elephant,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Elephant,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Megasloth)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Rhinoceros)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Thrumbo)->ý</li>
-
-    <li>animal_eho_ou_e(lodgersPawnKind==Elephant,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Elephant,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Megasloth)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Rhinoceros)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Thrumbo)->ého</li>
-
-    <li>animal_oho_u_o(lodgersPawnKind==Elephant,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Elephant,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Megasloth)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Rhinoceros)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Thrumbo)->oho</li>
-
-    <li>animals_e_e_a(lodgersPawnKind==Elephant)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Megasloth)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Rhinoceros)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Thrumbo)->é</li>
-
-    <li>animals_i_e_a(lodgersPawnKind==Elephant)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Megasloth)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Rhinoceros)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Thrumbo)->í</li>
-
-    <li>animals_i_y_a(lodgersPawnKind==Elephant)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Megasloth)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Rhinoceros)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Thrumbo)->i</li>
-
-//Hares
+//Races_Animal_Hares
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Hare)->zajíc</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Snowhare)->zajíc sněžný</li>
 
@@ -1477,7 +1417,92 @@
     <li>animals_i_y_a(lodgersPawnKind==Hare)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Snowhare)->i</li>
 
-//Insect
+//Races_Animal_ChickenGroup
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Chicken,lodgers0_gender==Male)->kohout</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Chicken,lodgers0_gender==Female)->slepice</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Duck,lodgers0_gender==Male)->kačer</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Duck,lodgers0_gender==Female)->kachna</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Goose,lodgers0_gender==Male)->houser</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Goose,lodgers0_gender==Female)->husa</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Turkey,lodgers0_gender==Male)->krocan</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Turkey,lodgers0_gender==Female)->krůta</li>
+
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Chicken,lodgers0_gender==Male)->kohouta</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Chicken,lodgers0_gender==Female)->slepice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Duck,lodgers0_gender==Male)->kačera</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Duck,lodgers0_gender==Female)->kachny</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Goose,lodgers0_gender==Male)->housera</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Goose,lodgers0_gender==Female)->husy</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Turkey,lodgers0_gender==Male)->krocana</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Turkey,lodgers0_gender==Female)->krůty</li>
+
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Chicken,lodgers0_gender==Male)->kohouta</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Chicken,lodgers0_gender==Female)->slepici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Duck,lodgers0_gender==Male)->kačera</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Duck,lodgers0_gender==Female)->kachnu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Goose,lodgers0_gender==Male)->housera</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Goose,lodgers0_gender==Female)->husu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Turkey,lodgers0_gender==Male)->krocana</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Turkey,lodgers0_gender==Female)->krůtu</li>
+
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Chicken)->slepice</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Duck)->kachny</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Goose)->husy</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Turkey)->krocani</li>
+
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Chicken)->slepic</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Duck)->kachen</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Goose)->hus</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Turkey)->krocanů</li>
+
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Chicken)->slepice</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Duck)->kachny</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Goose)->husy</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Turkey)->krocany</li>
+
+    <li>animal_y_a_e(lodgersPawnKind==Chicken,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Chicken,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Duck,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Duck,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Goose,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Goose,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Turkey,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Turkey,lodgers0_gender==Female)->á</li>
+
+    <li>animal_eho_ou_e(lodgersPawnKind==Chicken,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Chicken,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Duck,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Duck,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Goose,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Goose,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Turkey,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Turkey,lodgers0_gender==Female)->ou</li>
+
+    <li>animal_oho_u_o(lodgersPawnKind==Chicken,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Chicken,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Duck,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Duck,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Goose,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Goose,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Turkey,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Turkey,lodgers0_gender==Female)->u</li>
+
+    <li>animals_e_e_a(lodgersPawnKind==Chicken)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Duck)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Goose)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Turkey)->é</li>
+
+    <li>animals_i_e_a(lodgersPawnKind==Chicken)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Duck)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Goose)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Turkey)->í</li>
+
+    <li>animals_i_y_a(lodgersPawnKind==Chicken)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Duck)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Goose)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Turkey)->i</li>
+
+//Races_Animal_Insect
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Megascarab)->megaskarab</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Megaspider)->megapavouk</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Spelopede)->hloubník</li>
@@ -1526,346 +1551,388 @@
     <li>animals_i_y_a(lodgersPawnKind==Megaspider)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Spelopede)->i</li>
 
-//Pet
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cat,lodgers0_gender==Male)->kocour</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cat,lodgers0_gender==Female)->kočka</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Husky)->husky</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==LabradorRetriever)->labradorský retrívr</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==YorkshireTerrier)->jorkšírský teriér</li>
-
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cat,lodgers0_gender==Male)->kocoura</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cat,lodgers0_gender==Female)->kočky</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Husky)->huskyho</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==LabradorRetriever)->labradorského retrívra</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==YorkshireTerrier)->jorkšírského teriéra</li>
-
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cat,lodgers0_gender==Male)->kocoura</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cat,lodgers0_gender==Female)->kočku</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Husky)->huskyho</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==LabradorRetriever)->labradorského retrívra</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==YorkshireTerrier)->jorkšírského teriéra</li>
-
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cat)->kočky</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Husky)->huskyové</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==LabradorRetriever)->labradorští retrívři</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==YorkshireTerrier)->jorkšírští teriéři</li>
-
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cat)->koček</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Husky)->huskyů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==LabradorRetriever)->labradorských retrívrů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==YorkshireTerrier)->jorkšírských teriérů</li>
-
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cat)->kočky</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Husky)->huskye</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==LabradorRetriever)->labradorské retrívry</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==YorkshireTerrier)->jorkšírské teriéry</li>
-
-    <li>animal_y_a_e(lodgersPawnKind==Cat,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Cat,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Husky)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==LabradorRetriever)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==YorkshireTerrier)->ý</li>
-
-    <li>animal_eho_ou_e(lodgersPawnKind==Cat,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Cat,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Husky)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==LabradorRetriever)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==YorkshireTerrier)->ého</li>
-
-    <li>animal_oho_u_o(lodgersPawnKind==Cat,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Cat,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Husky)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==LabradorRetriever)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==YorkshireTerrier)->oho</li>
-
-    <li>animals_e_e_a(lodgersPawnKind==Cat)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Husky)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==LabradorRetriever)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==YorkshireTerrier)->é</li>
-
-    <li>animals_i_e_a(lodgersPawnKind==Cat)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Husky)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==LabradorRetriever)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==YorkshireTerrier)->í</li>
-
-    <li>animals_i_y_a(lodgersPawnKind==Cat)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Husky)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==LabradorRetriever)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==YorkshireTerrier)->i</li>
-
-//Rodentlike
+//Races_Animal_MiscGroup
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->alfa bobr</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->alfa bobřice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Boomrat)->třaskrysa</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Capybara)->kapybara</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cobra)->kobra</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Thrumbo)->thrumbo</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Tortoise)->želva</li>
+
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->alfa bobra</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->alfa bobřice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cobra)->kobry</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Thrumbo)->thrumba</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Tortoise)->želvy</li>
+
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->alfa bobra</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->alfa bobřici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cobra)->kobru</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Thrumbo)->thrumba</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Tortoise)->želvu</li>
+
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Alphabeaver)->alfa bobři</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cobra)->kobry</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Thrumbo)->thrumbové</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Tortoise)->želvy</li>
+
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Alphabeaver)->alfa bobrů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cobra)->kober</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Thrumbo)->thrumbů</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Tortoise)->želv</li>
+
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Alphabeaver)->alfa bobry</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cobra)->kobry</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Thrumbo)->thrumby</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Tortoise)->želvy</li>
+
+    <li>animal_y_a_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Cobra)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Thrumbo)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Tortoise)->á</li>
+
+    <li>animal_eho_ou_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Cobra)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Thrumbo)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Tortoise)->ou</li>
+
+    <li>animal_oho_u_o(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Cobra)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Thrumbo)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Tortoise)->u</li>
+
+    <li>animals_e_e_a(lodgersPawnKind==Alphabeaver)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Cobra)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Thrumbo)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Tortoise)->é</li>
+
+    <li>animals_i_e_a(lodgersPawnKind==Alphabeaver)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Cobra)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Thrumbo)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Tortoise)->é</li>
+
+    <li>animals_i_y_a(lodgersPawnKind==Alphabeaver)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Cobra)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Thrumbo)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Tortoise)->y</li>
+
+//Races_Animal_PigGroup
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Chinchilla)->činčila</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Deer,lodgers0_gender==Male)->srnec</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Deer,lodgers0_gender==Female)->srna</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Gazelle)->gazela</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Ibex)->kozorožec</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Pig,lodgers0_gender==Male)->prase</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Pig,lodgers0_gender==Female)->prasnice</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->divočák</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->divoká bachyně</li>
+
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Chinchilla)->činčily</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Deer,lodgers0_gender==Male)->srnce</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Deer,lodgers0_gender==Female)->srny</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Gazelle)->gazely</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Ibex)->kozorožce</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Pig,lodgers0_gender==Male)->prasete</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Pig,lodgers0_gender==Female)->prasnice</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->divočáka</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->divoké bachyně</li>
+
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Chinchilla)->činčilu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Deer,lodgers0_gender==Male)->srnce</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Deer,lodgers0_gender==Female)->srnu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Gazelle)->gazelu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Ibex)->kozorožce</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Pig,lodgers0_gender==Male)->prase</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Pig,lodgers0_gender==Female)->prasnici</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->divočáka</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->divokou bachyni</li>
+
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Chinchilla)->činčily</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Deer)->srnci</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Gazelle)->gazely</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Ibex)->kozorožci</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Pig)->prasata</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==WildBoar)->divočáci</li>
+
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Chinchilla)->činčil</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Deer)->srnců</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Gazelle)->gazel</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Ibex)->kozorožců</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Pig)->prasat</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==WildBoar)->divočáků</li>
+
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Chinchilla)->činčily</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Deer)->srnce</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Gazelle)->gazely</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Ibex)->kozorožce</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Pig)->prasata</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==WildBoar)->divočáky</li>
+
+    <li>animal_y_a_e(lodgersPawnKind==Chinchilla)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Deer,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Deer,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Gazelle)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Ibex)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Pig,lodgers0_gender==Male)->é</li>
+    <li>animal_y_a_e(lodgersPawnKind==Pig,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->á</li>
+
+    <li>animal_eho_ou_e(lodgersPawnKind==Chinchilla)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Deer,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Deer,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Gazelle)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Ibex)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Pig,lodgers0_gender==Male)->é</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Pig,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->ou</li>
+
+    <li>animal_oho_u_o(lodgersPawnKind==Chinchilla)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Deer,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Deer,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Gazelle)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Ibex)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Pig,lodgers0_gender==Male)->o</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Pig,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->u</li>
+
+    <li>animals_e_e_a(lodgersPawnKind==Chinchilla)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Deer)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Gazelle)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Ibex)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Pig)->á</li>
+    <li>animals_e_e_a(lodgersPawnKind==WildBoar)->é</li>
+
+    <li>animals_i_e_a(lodgersPawnKind==Chinchilla)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Deer)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Gazelle)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Ibex)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Pig)->á</li>
+    <li>animals_i_e_a(lodgersPawnKind==WildBoar)->í</li>
+
+    <li>animals_i_y_a(lodgersPawnKind==Chinchilla)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Deer)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Gazelle)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Ibex)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Pig)->a</li>
+    <li>animals_i_y_a(lodgersPawnKind==WildBoar)->i</li>
+
+//Races_Animal_Pollution
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Toxalope)->toxalopa</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==WasteRat)->toxotkan</li>
+
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Toxalope)->toxalopy</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==WasteRat)->toxotkana</li>
+
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Toxalope)->toxalopu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==WasteRat)->toxotkana</li>
+
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Toxalope)->toxalopy</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==WasteRat)->toxotkani</li>
+
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Toxalope)->toxalop</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==WasteRat)->toxotkanů</li>
+
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Toxalope)->toxalopy</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==WasteRat)->toxotkany</li>
+
+    <li>animal_y_a_e(lodgersPawnKind==Toxalope)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==WasteRat)->ý</li>
+
+    <li>animal_eho_ou_e(lodgersPawnKind==Toxalope)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==WasteRat)->ého</li>
+
+    <li>animal_oho_u_o(lodgersPawnKind==Toxalope)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==WasteRat)->oho</li>
+
+    <li>animals_e_e_a(lodgersPawnKind==Toxalope)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==WasteRat)->é</li>
+
+    <li>animals_i_e_a(lodgersPawnKind==Toxalope)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==WasteRat)->í</li>
+
+    <li>animals_i_y_a(lodgersPawnKind==Toxalope)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==WasteRat)->i</li>
+
+//Races_Animal_SheepGroup
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Alpaca)->alpaka</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Capybara)->kapybara</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Megasloth)->lenochod obří</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Sheep,lodgers0_gender==Male)->beran</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovce</li>
+
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Alpaca)->alpaky</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Capybara)->kapybary</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Megasloth)->lenochoda obřího</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Sheep,lodgers0_gender==Male)->berana</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovce</li>
+
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Alpaca)->alpaku</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Capybara)->kapybaru</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Megasloth)->lenochoda obřího</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Sheep,lodgers0_gender==Male)->berana</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ovci</li>
+
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Alpaca)->alpaky</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Capybara)->kapybary</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Megasloth)->lenochodi obří</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Sheep)->ovce</li>
+
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Alpaca)->alpak</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Capybara)->kapybar</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Megasloth)->lenochodů obřích</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Sheep)->ovcí</li>
+
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Alpaca)->alpaky</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Capybara)->kapybary</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Megasloth)->lenochody obří</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Sheep)->ovce</li>
+
+    <li>animal_y_a_e(lodgersPawnKind==Alpaca)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Capybara)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Megasloth)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Sheep,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Sheep,lodgers0_gender==Female)->á</li>
+
+    <li>animal_eho_ou_e(lodgersPawnKind==Alpaca)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Capybara)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Megasloth)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Sheep,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Sheep,lodgers0_gender==Female)->ou</li>
+
+    <li>animal_oho_u_o(lodgersPawnKind==Alpaca)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Capybara)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Megasloth)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Sheep,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Sheep,lodgers0_gender==Female)->u</li>
+
+    <li>animals_e_e_a(lodgersPawnKind==Alpaca)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Capybara)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Megasloth)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Sheep)->é</li>
+
+    <li>animals_i_e_a(lodgersPawnKind==Alpaca)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Capybara)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Megasloth)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Sheep)->é</li>
+
+    <li>animals_i_y_a(lodgersPawnKind==Alpaca)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Capybara)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Megasloth)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Sheep)->y</li>
+
+//Races_Animal_SquirrelGroup
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Boomrat)->třaskrysa</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Iguana)->leguán</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Raccoon)->mýval</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Rat)->krysa</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Squirrel)->veverka</li>
 
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->alfa bobra</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->alfa bobřice</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Boomrat)->třaskrysy</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Capybara)->kapybary</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Chinchilla)->činčily</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Iguana)->leguána</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Raccoon)->mývala</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Rat)->krysy</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Squirrel)->veverky</li>
 
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->alfa bobra</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->alfa bobřici</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Boomrat)->třaskrysu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Capybara)->kapybaru</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Chinchilla)->činčilu</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Iguana)->leguána</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Raccoon)->mývala</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Rat)->krysu</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Squirrel)->veverku</li>
 
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Alphabeaver)->alfa bobři</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Boomrat)->třaskrysy</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Capybara)->kapybary</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Chinchilla)->činčily</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Iguana)->leguáni</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Raccoon)->mývali</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Rat)->krysy</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Squirrel)->veverky</li>
 
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Alphabeaver)->alfa bobrů</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Boomrat)->třaskrys</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Capybara)->kapybar</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Chinchilla)->činčil</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Iguana)->leguánů</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Raccoon)->mývalů</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Rat)->krys</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Squirrel)->veverek</li>
 
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Alphabeaver)->alfa bobry</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Boomrat)->třaskrysy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Capybara)->kapybary</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Chinchilla)->činčily</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Iguana)->leguány</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Raccoon)->mývaly</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Rat)->krysy</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Squirrel)->veverky</li>
 
-    <li>animal_y_a_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Boomrat)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Capybara)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Chinchilla)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Iguana)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Raccoon)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Rat)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Squirrel)->á</li>
 
-    <li>animal_eho_ou_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Boomrat)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Capybara)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Chinchilla)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Iguana)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Raccoon)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Rat)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Squirrel)->ou</li>
 
-    <li>animal_oho_u_o(lodgersPawnKind==Alphabeaver,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Alphabeaver,lodgers0_gender==Female)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Boomrat)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Capybara)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Chinchilla)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Iguana)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Raccoon)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Rat)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Squirrel)->u</li>
 
-    <li>animals_e_e_a(lodgersPawnKind==Alphabeaver)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Boomrat)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Capybara)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Chinchilla)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Iguana)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Raccoon)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Rat)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Squirrel)->é</li>
 
-    <li>animals_i_e_a(lodgersPawnKind==Alphabeaver)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Boomrat)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Capybara)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Chinchilla)->é</li>
+    <li>animals_i_e_a(lodgersPawnKind==Iguana)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Raccoon)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Rat)->é</li>
     <li>animals_i_e_a(lodgersPawnKind==Squirrel)->é</li>
 
-    <li>animals_i_y_a(lodgersPawnKind==Alphabeaver)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Boomrat)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Capybara)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Chinchilla)->y</li>
+    <li>animals_i_y_a(lodgersPawnKind==Iguana)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Raccoon)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Rat)->y</li>
     <li>animals_i_y_a(lodgersPawnKind==Squirrel)->y</li>
 
-//Temperate
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Caribou,lodgers0_gender==Male)->sob</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Caribou,lodgers0_gender==Female)->sobí laň</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Deer,lodgers0_gender==Male)->srnec</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Deer,lodgers0_gender==Female)->srna</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elk,lodgers0_gender==Male)->los</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Elk,lodgers0_gender==Female)->losice</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Ibex)->kozorožec</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Tortoise)->želva</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->divočák</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->divoká bachyně</li>
+//Races_Animal_WargGroup
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Warg,lodgers0_gender==Male)->vrk</li>
+    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Warg,lodgers0_gender==Female)->vrčice</li>
 
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Caribou,lodgers0_gender==Male)->soba</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Caribou,lodgers0_gender==Female)->sobí laně</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Deer,lodgers0_gender==Male)->srnce</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Deer,lodgers0_gender==Female)->srny</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elk,lodgers0_gender==Male)->losa</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Elk,lodgers0_gender==Female)->losice</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Ibex)->kozorožce</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Tortoise)->želvy</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->divočáka</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->divoké bachyně</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Warg,lodgers0_gender==Male)->vrka</li>
+    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Warg,lodgers0_gender==Female)->vrčice</li>
 
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Caribou,lodgers0_gender==Male)->soba</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Caribou,lodgers0_gender==Female)->sobí laň</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Deer,lodgers0_gender==Male)->srnce</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Deer,lodgers0_gender==Female)->srnu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elk,lodgers0_gender==Male)->losa</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Elk,lodgers0_gender==Female)->losici</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Ibex)->kozorožce</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Tortoise)->želvu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->divočáka</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->divokou bachyni</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Warg,lodgers0_gender==Male)->vrka</li>
+    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Warg,lodgers0_gender==Female)->vrčici</li>
 
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Caribou)->sobi</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Deer)->srnci</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Elk)->losi</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Ibex)->kozorožci</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Tortoise)->želvy</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==WildBoar)->divočáci</li>
+    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Warg)->vrci</li>
 
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Caribou)->sobů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Deer)->srnců</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Elk)->losů</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Ibex)->kozorožců</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Tortoise)->želv</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==WildBoar)->divočáků</li>
+    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Warg)->vrků</li>
 
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Caribou)->soby</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Deer)->srnce</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Elk)->losy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Ibex)->kozorožce</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Tortoise)->želvy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==WildBoar)->divočáky</li>
+    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Warg)->vrky</li>
 
-    <li>animal_y_a_e(lodgersPawnKind==Caribou,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Caribou,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Deer,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Deer,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Elk,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Elk,lodgers0_gender==Female)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Ibex)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Tortoise)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->á</li>
+    <li>animal_y_a_e(lodgersPawnKind==Warg,lodgers0_gender==Male)->ý</li>
+    <li>animal_y_a_e(lodgersPawnKind==Warg,lodgers0_gender==Female)->á</li>
 
-    <li>animal_eho_ou_e(lodgersPawnKind==Caribou,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Caribou,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Deer,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Deer,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Elk,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Elk,lodgers0_gender==Female)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Ibex)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Tortoise)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->ou</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Warg,lodgers0_gender==Male)->ého</li>
+    <li>animal_eho_ou_e(lodgersPawnKind==Warg,lodgers0_gender==Female)->ou</li>
 
-    <li>animal_oho_u_o(lodgersPawnKind==Caribou,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Caribou,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Deer,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Deer,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Elk,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Elk,lodgers0_gender==Female)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Ibex)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Tortoise)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==WildBoar,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==WildBoar,lodgers0_gender==Female)->u</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Warg,lodgers0_gender==Male)->oho</li>
+    <li>animal_oho_u_o(lodgersPawnKind==Warg,lodgers0_gender==Female)->u</li>
 
-    <li>animals_e_e_a(lodgersPawnKind==Caribou)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Deer)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Elk)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Ibex)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Tortoise)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==WildBoar)->é</li>
+    <li>animals_e_e_a(lodgersPawnKind==Warg)->é</li>
 
-    <li>animals_i_e_a(lodgersPawnKind==Caribou)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Deer)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Elk)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Ibex)->í</li>
-    <li>animals_i_e_a(lodgersPawnKind==Tortoise)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==WildBoar)->í</li>
+    <li>animals_i_e_a(lodgersPawnKind==Warg)->í</li>
 
-    <li>animals_i_y_a(lodgersPawnKind==Caribou)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Deer)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Elk)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Ibex)->i</li>
-    <li>animals_i_y_a(lodgersPawnKind==Tortoise)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==WildBoar)->i</li>
+    <li>animals_i_y_a(lodgersPawnKind==Warg)->i</li>
 
-//Tropical
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Boomalope)->bumalopa</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Cobra)->kobra</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Monkey,lodgers0_gender==Male)->opičák</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Monkey,lodgers0_gender==Female)->opice</li>
-
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Boomalope)->bumalopy</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Cobra)->kobry</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Monkey,lodgers0_gender==Male)->opičáka</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Monkey,lodgers0_gender==Female)->opice</li>
-
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Boomalope)->bumalopu</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Cobra)->kobru</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Monkey,lodgers0_gender==Male)->opičáka</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Monkey,lodgers0_gender==Female)->opici</li>
-
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Boomalope)->bumalopy</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Cobra)->kobry</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Monkey)->opice</li>
-
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Boomalope)->bumalop</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Cobra)->kober</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Monkey)->opic</li>
-
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Boomalope)->bumalopy</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Cobra)->kobry</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Monkey)->opice</li>
-
-    <li>animal_y_a_e(lodgersPawnKind==Boomalope)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Cobra)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Monkey,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Monkey,lodgers0_gender==Female)->á</li>
-
-    <li>animal_eho_ou_e(lodgersPawnKind==Boomalope)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Cobra)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Monkey,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Monkey,lodgers0_gender==Female)->ou</li>
-
-    <li>animal_oho_u_o(lodgersPawnKind==Boomalope)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Cobra)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Monkey,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Monkey,lodgers0_gender==Female)->u</li>
-
-    <li>animals_e_e_a(lodgersPawnKind==Boomalope)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Cobra)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Monkey)->é</li>
-
-    <li>animals_i_e_a(lodgersPawnKind==Boomalope)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Cobra)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Monkey)->é</li>
-
-    <li>animals_i_y_a(lodgersPawnKind==Boomalope)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Cobra)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Monkey)->y</li>
-
-//WildCanines
+//Races_Animal_WildCanines
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Fox_Arctic)->liška polární</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Fox_Fennec)->fenek</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Fox_Red)->liška obecná</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Warg,lodgers0_gender==Male)->vrk</li>
-    <li>lodgersPawnKind_labelNom(lodgersPawnKind==Warg,lodgers0_gender==Female)->vrčice</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->vlk polární</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->vlčice polární</li>
     <li>lodgersPawnKind_labelNom(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->vlk lesní</li>
@@ -1874,8 +1941,6 @@
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Fox_Arctic)->lišky polární</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Fox_Fennec)->fenka</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Fox_Red)->lišky obecné</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Warg,lodgers0_gender==Male)->vrka</li>
-    <li>lodgersPawnKind_labelGen(lodgersPawnKind==Warg,lodgers0_gender==Female)->vrčice</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->vlka polárního</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->vlčice polární</li>
     <li>lodgersPawnKind_labelGen(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->vlka lesního</li>
@@ -1884,8 +1949,6 @@
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Fox_Arctic)->lišku polární</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Fox_Fennec)->fenka</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Fox_Red)->lišku obecnou</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Warg,lodgers0_gender==Male)->vrka</li>
-    <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Warg,lodgers0_gender==Female)->vrčici</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->vlka polárního</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->vlčici polární</li>
     <li>lodgersPawnKind_labelAcc(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->vlka lesního</li>
@@ -1894,29 +1957,24 @@
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Fox_Arctic)->lišky polární</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Fox_Fennec)->fenci</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Fox_Red)->lišky obecné</li>
-    <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Warg)->vrci</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Wolf_Arctic)->vlci polární</li>
     <li>lodgersPawnKind_labelPluralNom(lodgersPawnKind==Wolf_Timber)->vlci lesní</li>
 
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Fox_Arctic)->lišek polárních</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Fox_Fennec)->fenků</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Fox_Red)->lišek obecných</li>
-    <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Warg)->vrků</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Wolf_Arctic)->vlků polárních</li>
     <li>lodgersPawnKind_labelPluralGen(lodgersPawnKind==Wolf_Timber)->vlků lesních</li>
 
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Fox_Arctic)->lišky polární</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Fox_Fennec)->fenky</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Fox_Red)->lišky obecné</li>
-    <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Warg)->vrky</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Wolf_Arctic)->vlky polární</li>
     <li>lodgersPawnKind_labelPluralAcc(lodgersPawnKind==Wolf_Timber)->vlky lesní</li>
 
     <li>animal_y_a_e(lodgersPawnKind==Fox_Arctic)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Fox_Fennec)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Fox_Red)->á</li>
-    <li>animal_y_a_e(lodgersPawnKind==Warg,lodgers0_gender==Male)->ý</li>
-    <li>animal_y_a_e(lodgersPawnKind==Warg,lodgers0_gender==Female)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->ý</li>
     <li>animal_y_a_e(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->á</li>
     <li>animal_y_a_e(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->ý</li>
@@ -1925,8 +1983,6 @@
     <li>animal_eho_ou_e(lodgersPawnKind==Fox_Arctic)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Fox_Fennec)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Fox_Red)->ou</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Warg,lodgers0_gender==Male)->ého</li>
-    <li>animal_eho_ou_e(lodgersPawnKind==Warg,lodgers0_gender==Female)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->ého</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->ou</li>
     <li>animal_eho_ou_e(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->ého</li>
@@ -1935,8 +1991,6 @@
     <li>animal_oho_u_o(lodgersPawnKind==Fox_Arctic)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Fox_Fennec)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Fox_Red)->u</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Warg,lodgers0_gender==Male)->oho</li>
-    <li>animal_oho_u_o(lodgersPawnKind==Warg,lodgers0_gender==Female)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Male)->oho</li>
     <li>animal_oho_u_o(lodgersPawnKind==Wolf_Arctic,lodgers0_gender==Female)->u</li>
     <li>animal_oho_u_o(lodgersPawnKind==Wolf_Timber,lodgers0_gender==Male)->oho</li>
@@ -1945,21 +1999,18 @@
     <li>animals_e_e_a(lodgersPawnKind==Fox_Arctic)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Fox_Fennec)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Fox_Red)->é</li>
-    <li>animals_e_e_a(lodgersPawnKind==Warg)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Wolf_Arctic)->é</li>
     <li>animals_e_e_a(lodgersPawnKind==Wolf_Timber)->é</li>
 
     <li>animals_i_e_a(lodgersPawnKind==Fox_Arctic)->é</li>
     <li>animals_i_e_a(lodgersPawnKind==Fox_Fennec)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Fox_Red)->é</li>
-    <li>animals_i_e_a(lodgersPawnKind==Warg)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Wolf_Arctic)->í</li>
     <li>animals_i_e_a(lodgersPawnKind==Wolf_Timber)->í</li>
 
     <li>animals_i_y_a(lodgersPawnKind==Fox_Arctic)->y</li>
     <li>animals_i_y_a(lodgersPawnKind==Fox_Fennec)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Fox_Red)->y</li>
-    <li>animals_i_y_a(lodgersPawnKind==Warg)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Wolf_Arctic)->i</li>
     <li>animals_i_y_a(lodgersPawnKind==Wolf_Timber)->i</li>
 

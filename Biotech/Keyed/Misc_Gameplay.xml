@@ -5,6 +5,8 @@
   <SelfShutdown>Klidové samonabíjení</SelfShutdown>
   <!-- EN: Danger -->
   <Danger>Nebezpečí</Danger>
+  <!-- EN: tiles -->
+  <TilesLower>políč.</TilesLower>
   <!-- EN: 1 mech -->
   <CaravanMech>1 mech</CaravanMech>
   <!-- EN: {0} mechs -->
@@ -59,6 +61,12 @@
   <!-- Genes -->
   <!-- EN: genes -->
   <Genes>geny</Genes>
+  <!-- EN: suppressed -->
+  <Suppressed>utlumený</Suppressed>
+  <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
+  <SuppressedDesc>Tento rys byl utlumen genem nebo vynuceným genetickým rysem, s nimiž je v konfliktu. Do doby, než budou odstraněny všechny konflikty, nebude aktivní</SuppressedDesc>
+  <!-- EN: trait -->
+  <Trait>rys</Trait>
   <!-- EN: Added by gene -->
   <AddedByGene>Přidané genem</AddedByGene>
   <!-- EN: Forced traits -->
@@ -75,6 +83,10 @@
   <MetabolismDesc>Celková metabolická účinnost vybraných genů po jejich sestavení. Při vysoké účinnosti spotřebuje organismus méně potravy, naopak při nízké účinnosti musí více jíst.</MetabolismDesc>
   <!-- EN: any -->
   <AnyLower>libovolný</AnyLower>
+  <!-- EN: Archite capsules -->
+  <ArchitesRequired>Architové kapsle</ArchitesRequired>
+  <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
+  <ArchitesRequiredDesc>Archité jsou archotečtí mechanité - mikroskopická zařízení vytvořená superinteligentními archoteky, která mohou působit přímo na buňky a molekuly. Jsou schopni podávat nevysvětlitelné výkony, navíc některé geny fungují pouze za podpory nadpřirozených strojů archoteků. Lidé nedokáží archity vytvářet - najdou je pouze tehdy, pokud je archotek vytvoří z nějakého nám nepoznaného důvodu.</ArchitesRequiredDesc>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Chybí potřebný výzkum</MissingRequiredResearch>
   <!-- EN: Xenotype -->
@@ -82,6 +94,8 @@
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>Jedinečná lidská varianta se souborem xenogenů, které nespadají do žádného známého xenotypu.</UniqueXenotypeDesc>
 
+  <!-- EN: Next terrain pollution in -->
+  <PollutingTerrainProgress>Další znečištění terénu za</PollutingTerrainProgress>
   <!-- EN: Assign to control group {0} -->
   <AssignMechToControlGroup>Přiřadit do ovládané skupiny {0}</AssignMechToControlGroup>
   <!-- EN: Fall per day -->
@@ -140,6 +154,8 @@
   <Baby>nemluvně</Baby>
   <!-- EN: babies -->
   <Babies>nemluvňata</Babies>
+  <!-- EN: Wearable by -->
+  <WearableBy>Může nosit</WearableBy>
 
   <!-- Pollution -->
   <!-- EN: None -->
@@ -155,7 +171,7 @@
   <!-- EN: Nearby pollution -->
   <TilePollutionNearby>Znečištění v okolí</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>Celková hodnota znečištění všech oblastí v okruhu {replace: ^{0}^ ; "^1^"-"1 políčka";"^{0}^"-"{0} políček"}. S rostoucí vzdáleností od tohoto políčka se podíl znečištění snižuje:\n\n{1}\n\nČím vyšší je znečištění v blízkém okolí, tím vyšší je pravděpodobnost výskytu kyselého smogu.</NearbyPollutionTip>
+  <NearbyPollutionTip>Celková hodnota znečištění všech oblastí v okruhu {replace: ^{0}^ ; "^1^"-"1 políčka"; "^{0}^"-"{0} políček"}. S rostoucí vzdáleností od tohoto políčka se podíl znečištění snižuje:\n\n{1}\n\nČím vyšší je znečištění v blízkém okolí, tím vyšší je pravděpodobnost výskytu kyselého smogu.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
   <NoxiousHazeInterval>Na tomto políčku se v průměru každých {0} dnů objeví kyselý smog.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
