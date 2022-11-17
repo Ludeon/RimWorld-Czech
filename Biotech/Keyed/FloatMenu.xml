@@ -3,6 +3,18 @@
 
   <!-- EN: Enter {0_labelShort} -->
   <EnterBuilding>Vstoupit do {lookup: {0_labelShort}; case\singular; 2}</EnterBuilding>
+  <!-- EN: {PAWN_nameDef} has no genes -->
+  <PawnHasNoGenes>{PAWN_nameDef} nemá žádné geny</PawnHasNoGenes>
+  <!-- EN: {PAWN_nameDef} has no extractable genes. -->
+  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} nemá žádné extrahovatelné geny.</PawnHasNoNonArchiteGenes>
+  <!-- EN: Occupied -->
+  <Occupied>Obsazené</Occupied>
+  <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
+  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} {PAWN_gender ? byl vyhozen : byla vyhozena} z růstové kádě</OccupantEjectedFromGrowthVat>
+  <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
+  <TooOld>{PAWN_nameDef} musí být mladší {AGEYEARS} let.</TooOld>
+  <!-- EN: {PAWN_nameDef} is too old. -->
+  <PawnIsTooOld>{PAWN_nameDef} je příliš {PAWN_gender ? starý : stará}.</PawnIsTooOld>
   <!-- EN: Cannot enter {0_labelShort} -->
   <CannotEnterBuilding>Nelze vstoupit do {lookup: {0_labelShort}; case\singular; 2}</CannotEnterBuilding>
 

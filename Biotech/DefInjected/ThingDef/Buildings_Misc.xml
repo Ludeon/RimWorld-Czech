@@ -1,6 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: gene assembler -->
+  <GeneAssembler.label>genový sestavovač</GeneAssembler.label>
+  <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
+  <GeneAssembler.description>Pracovní stanice určená k vytváření implantovatelných xenozárodků využitím genobalíků uložených v okolních genových bankách. Genobalíky se při tomto procesu nijak nespotřebovávají a lze je používat opakovaně.</GeneAssembler.description>
+  
+  <!-- EN: gene bank -->
+  <GeneBank.label>genová banka</GeneBank.label>
+  <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
+  <GeneBank.description>V tomto zařízení lze uchovávat genobalíky a ty pak využívat k vytváření nových xenozárodků, pokud jsou umístěny v blízkosti genového sestavovače. K vytvoření rozsáhlejší genotéky bude zapotřebí velkého množství genových bank.\n\nPokud jsou genové banky pod proudem, zabraňují degradaci uložených genobalíků a pomalu opravují jejich poškození.</GeneBank.description>
+  
+  <!-- EN: gene extractor -->
+  <GeneExtractor.label>genový extraktor</GeneExtractor.label>
+  <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
+  <GeneExtractor.description>Automatizovaný chirurgický stroj, který dokáže odebrat geny jednotlivce a z nich vytvořit genobalík. Odebrané geny budou náhodně vybrány z xenogenů a zárodečných genů dané osoby. Do stroje můžeš někoho vpravit násilím, ale nebude se mu to líbit.\n\nExtrahování genů v době, kdy se geny dotyčné osoby zrovna obnovují, ji zabije. Jinak extrakce genů nezpůsobuje žádnou trvalou újmu.\n\nGeny, které vyžadují architové kapsle, jsou k extrakci příliš složité.</GeneExtractor.description>
+  
+  <!-- EN: gene processor -->
+  <GeneProcessor.label>genový procesor</GeneProcessor.label>
+  <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
+  <GeneProcessor.description>Systém pro genetickou analýzu a zpracovávání. Jeho umístěním v blízkosti genového sestavovače zvyšuje maximální genetickou složitost xenozárodků, které můžeš sestavit. Pokud jich sestrojíš více, hranice genetické složitosti se ještě dále zvýší.</GeneProcessor.description>
+  
+  <!-- EN: growth vat -->
+  <GrowthVat.label>růstová káď</GrowthVat.label>
+  <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
+  <GrowthVat.description>Nádrž s kapalinou, ve které lze vyvíjet embryo nebo urychlovat růst dítěte.\n\nBěhem růstu nebo vývoje musí být káď neustále zásobena živinami, aby měla k růstu dostatek suroviny. Vývoj embrya vyžaduje dvakrát více výživy než zrychlený růst dítěte.\n\nVývoj embrya trvá 9 dnů, než se z něj stane dítě. Během této doby existuje riziko zdravotních komplikací.\n\nRůst dítěte lze urychlit pouze do 18 let, nikoli však déle. Během růstu se dovednosti dítěte pomalu zvyšují. Děti vypěstované v růstových kádích budou mít slabší dovednosti a nezískají tolik vášní jako za normálních okolností.\n\nK popohnání těla k růstu přístroj využívá chemické injektáže, elektrostimulaci a jednoduché ošetřování pomocí mechanitů. Růstové kádě se často využívají k rychlému vyrábění geneticky vyšlechtěných dělníků či válečníků.</GrowthVat.description>
+  
+  <!-- EN: pollution pump -->
+  <PollutionPump.label>detoxikační čerpadlo</PollutionPump.label>
+  <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
+  <PollutionPump.description>Čerpadlo, které filtrací spodních vod pomalu čistí kontaminovaný terén. Odčerpané znečištění se přeměňuje na nebezpečné toxivaky, které se následně musí odnést.</PollutionPump.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed_Exitable.label>havarovaný raketoplán</ShuttleCrashed_Exitable.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <ShuttleCrashed_Exitable.description>Vesmírný raketoplán navržený pro tranzit mezi povrchem a oběžnou dráhou nebo mezi měsíci planetárního systému.</ShuttleCrashed_Exitable.description>
+  
   <!-- EN: crashed mechanitor ship -->
   <ShuttleCrashed_Exitable_Mechanitor.label>havarovaná mechanitorská loď</ShuttleCrashed_Exitable_Mechanitor.label>
   <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
@@ -10,6 +45,5 @@
   <ToxifierGenerator.label>toxifikační generátor</ToxifierGenerator.label>
   <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
   <ToxifierGenerator.description>Tento elektrický generátor velmi pomalu znečišťuje terén v okruhu kolem sebe a zároveň vyrábí elektrickou energii. Jakmile dojde v daném okruhu k zamoření veškerého terénu, generátor se vypne.</ToxifierGenerator.description>
-  
   
 </LanguageData>

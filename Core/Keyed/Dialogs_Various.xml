@@ -190,7 +190,7 @@
   <!-- EN: father -->
   <Father>otec</Father>
   <!-- EN: unknown -->
-  <Unknown>není známo</Unknown>
+  <Unknown>—</Unknown>
   <!-- EN: first name -->
   <FirstName>křestní jméno</FirstName>
   <!-- EN: nickname -->
@@ -198,7 +198,7 @@
   <!-- EN: last name -->
   <LastName>příjmení</LastName>
   <!-- EN: suggested -->
-  <Suggested>TODO</Suggested>
+  <Suggested>doporučené</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -623,9 +623,9 @@
   <!-- EN: Negotiator: {0} (+{1}) -->
   <NegotiatorTradeDialogInfo>Vyjednavač: {0} (+{1})</NegotiatorTradeDialogInfo>
   <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>{1_gender? Tvůj : Tvá} {1_gender? vyjednavač : vyjednavačka} {1_labelShort} kvůli špatnému zdravotnímu stavu špatně mluví.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>{1_gender ? Tvůj : Tvá} {1_gender ? vyjednavač : vyjednavačka} {1_labelShort} kvůli špatnému zdravotnímu stavu špatně mluví.</NegotiatorTalkingImpaired>
   <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>{1_gender? Tvůj : Tvá} {1_gender? vyjednavač : vyjednavačka} {1_labelShort} kvůli špatnému zdravotnímu stavu špatně slyší.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>{1_gender ? Tvůj : Tvá} {1_gender ? vyjednavač : vyjednavačka} {1_labelShort} kvůli špatnému zdravotnímu stavu špatně slyší.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Bude to mít vliv na obchodní ceny.\n\nZvaž použití zdravějšího vyjednavače.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->

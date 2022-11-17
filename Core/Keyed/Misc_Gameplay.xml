@@ -491,7 +491,7 @@
   <!-- EN: low psyfocus -->
   <LowPsyfocus>špatný psiofokus</LowPsyfocus>
   <!-- EN: {0} left -->
-  <DurationLeft>zbývá {0}</DurationLeft>
+  <DurationLeft>Zbývá {0}</DurationLeft>
   <!-- EN: Any of -->
   <AnyOf>Volitelný materiál</AnyOf>
   <!-- EN: Requires {0} trait -->
@@ -879,7 +879,7 @@
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} pod frakcí {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{replace: {2_lifeStageAdjective} ; "dítě"-"{2_gender ? dětský : dětská}"; "nemluvně"-"{2_gender ? maličký : maličká}"; "{2_lifeStageAdjective}"-"{2_lifeStageAdjective}"} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Frakce</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
@@ -938,6 +938,8 @@
   <PowerNeeded>Potřebný příkon</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Výstupní výkon</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>{0} W při činnosti</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Uloženo</PowerBatteryStored>
   <!-- EN: Efficiency -->

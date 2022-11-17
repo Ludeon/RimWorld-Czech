@@ -55,8 +55,16 @@
   <Energy>Energie</Energy>
   <!-- EN: energy -->
   <EnergyLower>energie</EnergyLower>
+  <!-- EN: Gestating -->
+  <Gestating>Vyvíjení</Gestating>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Neovládaný</Uncontrolled>
+  
+  <!-- Human pregnancy -->
+  <!-- EN: Father -->
+  <FatherTip>Otec</FatherTip>
+  <!-- EN: Genetic mother -->
+  <MotherTip>Genetická matka</MotherTip>
 
   <!-- Genes -->
   <!-- EN: genes -->
@@ -69,6 +77,8 @@
   <Trait>rys</Trait>
   <!-- EN: Added by gene -->
   <AddedByGene>Přidané genem</AddedByGene>
+  <!-- EN: Genepacks stored -->
+  <GenepacksStored>Uložených genobalíků</GenepacksStored>
   <!-- EN: Forced traits -->
   <ForcedTraits>Vynucené povahové rysy</ForcedTraits>
   <!-- EN: Complexity -->
@@ -77,10 +87,18 @@
   <ComplexityDesc>Kolik složitosti tahle kombinace přidává do procesu sestavování genů.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
   <MaxComplexityDesc>Maximální úroveň složitosti lze navýšit vybudováním genových procesorů v blízkosti genového sestavovače.</MaxComplexityDesc>
+  <!-- EN: Total complexity -->
+  <ComplexityTotal>Celková složitost</ComplexityTotal>
+  <!-- EN: The total complexity of all the genes in use. -->
+  <ComplexityTotalDesc>Celková složitost všech použitých genů.</ComplexityTotalDesc>
   <!-- EN: Metabolic efficiency -->
   <Metabolism>Metabolická účinnost</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>Celková metabolická účinnost vybraných genů po jejich sestavení. Při vysoké účinnosti spotřebuje organismus méně potravy, naopak při nízké účinnosti musí více jíst.</MetabolismDesc>
+  <!-- EN: Metabolic efficiency -->
+  <MetabolismTotal>Metabolická účinnost</MetabolismTotal>
+  <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismTotalDesc>Celková metabolická účinnost všech genů obsažených v daném genomu. Při vysoké účinnosti spotřebuje organismus méně potravy, naopak při nízké účinnosti musí více jíst.</MetabolismTotalDesc>
   <!-- EN: any -->
   <AnyLower>libovolný</AnyLower>
   <!-- EN: Archite capsules -->
@@ -89,10 +107,24 @@
   <ArchitesRequiredDesc>Archité jsou archotečtí mechanité - mikroskopická zařízení vytvořená superinteligentními archoteky, která mohou působit přímo na buňky a molekuly. Jsou schopni podávat nevysvětlitelné výkony, navíc některé geny fungují pouze za podpory nadpřirozených strojů archoteků. Lidé nedokáží archity vytvářet - najdou je pouze tehdy, pokud je archotek vytvoří z nějakého nám nepoznaného důvodu.</ArchitesRequiredDesc>
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Chybí potřebný výzkum</MissingRequiredResearch>
+  <!-- EN: Genes -->
+  <ContainedGenesDesc>Geny</ContainedGenesDesc>
   <!-- EN: Xenotype -->
   <Xenotype>Xenotyp</Xenotype>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>Jedinečná lidská varianta se souborem xenogenů, které nespadají do žádného známého xenotypu.</UniqueXenotypeDesc>
+  <!-- EN: Insert person -->
+  <InsertPerson>Vložit osobu</InsertPerson>
+  <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
+  <InsertPersonGeneExtractorDesc>Vloží osobu do genového extraktoru. Uvnitř se odebere její genetický materiál a ten se použije k vytvoření genobalíku obsahujícího náhodný výběr genů této osoby.\n\nOdběr genů je bolestivý a zanechá dotyčnou osobu několik dní zesláblou a ospalou. Proces je smrtelný pro ty, jejichž geny se právě obnovují.</InsertPersonGeneExtractorDesc>
+  <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
+  <ConfirmExtractXenogermWillKill>Varování: {PAWN_nameDef} je v procesu obnovy genů. Pokud {PAWN_gender ? mu : jí} budou geny odebrány dříve, než dojde k jejich obnovení, zabije {PAWN_objective} to.\n\nOpravdu si přeješ pokračovat?</ConfirmExtractXenogermWillKill>
+  <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
+  <GeneExtractionComplete>{PAWN_nameDef} úspěšně {PAWN_gender ? podstoupil : podstoupila} odebrání genů. Odebrané</GeneExtractionComplete>
+  <!-- EN: Extracting genes from {PAWN_nameDef}. -->
+  <ExtractingXenogermFrom>{PAWN_nameDef} v procesu odebírání genů.</ExtractingXenogermFrom>
+  <!-- EN: Not in gene bank -->
+  <NotInGeneBank>Není v genové bance</NotInGeneBank>
 
   <!-- EN: Next terrain pollution in -->
   <PollutingTerrainProgress>Další znečištění terénu za</PollutingTerrainProgress>
@@ -107,6 +139,30 @@
 
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>{0_gender ? Znečištěný : Znečištěná : Znečištěné} {0}</PollutedTerrain>
+
+  <!-- Growth vat -->
+  <!-- EN: Biostarvation -->
+  <Biostarvation>Biohladovění</Biostarvation>
+  <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
+  <BiostarvationExplanation>V jedné nebo více růstových kádích dochází k biohladovění z nedostatku výživy nebo energie.\n\nPokud biohladovění dosáhne 100%, jedinci v nich obsažení zemřou.</BiostarvationExplanation>
+  <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
+  <InsertPersonGrowthVatDesc>Vloží osobu do růstové kádě. Bude stárnout 20krát rychleji než normálně.</InsertPersonGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>Implantuje embryo do růstové kádě. Po 18 dnech vývoje se v kádi zformuje plně vyvinuté dítě, doufej, že v dobrém zdravotním stavu.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Insert embryo -->
+  <ImplantEmbryo>Vložit embryo</ImplantEmbryo>
+  <!-- EN: Cannot insert embryo -->
+  <CannotInsertEmbryo>Nelze vložit embryo</CannotInsertEmbryo>
+  <!-- EN: Already contains embryo. -->
+  <EmbryoAlreadyInside>Již obsahuje embryo.</EmbryoAlreadyInside>
+  <!-- EN: No embryos -->
+  <ImplantNoEmbryos>Žádná embrya</ImplantNoEmbryos>
+  <!-- EN: Time until birth -->
+  <EmbryoTimeUntilBirth>Doba do narození</EmbryoTimeUntilBirth>
+  <!-- EN: Birth quality -->
+  <EmbryoBirthQuality>Kvalita narození</EmbryoBirthQuality>
+  <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
+  <NoPawnsCanEnterGrowthVat>Žádné osoby v přijatelném věku. Pro vstup do růstové kádě musí být osoba mladší {0} let a v současné době nesmí trpět biohladověním.</NoPawnsCanEnterGrowthVat>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
@@ -180,9 +236,31 @@
   <NearbyPollutionTilesAway>polí daleko</NearbyPollutionTilesAway>
   <!-- EN: pollution -->
   <PollutionLower>znečištění</PollutionLower>
+  <!-- EN: Cannot absorb pollution: Buildings too close -->
+  <CannotAbsorbPollution>Nemůže pohlcovat znečištění: Nachází se příliš blízko budov</CannotAbsorbPollution>
+  <!-- EN: Can absorb pollution from nearby terrain -->
+  <CanAbsorbPollution>Může pohlcovat znečištění z blízkého terénu.</CanAbsorbPollution>
+  <!-- EN: Absorbing pollution: Next in {0} -->
+  <AbsorbingPollutionNext>Pohlcuje znečištění: K dalšímu dojde za {0}</AbsorbingPollutionNext>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
   <StudyRequirementTip>Vyžaduje podrobné zkoumání</StudyRequirementTip>
+  
+  <!-- Fertility -->
+  <!-- EN: sterile -->
+  <CannotSterile>sterilní</CannotSterile>
+  
+  <!-- EN: Implant embryo -->
+  <ImplantLabel>Implantovat embryo</ImplantLabel>
+  <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
+  <ImplantDescription>Implantuje toto embryo do náhradní matky, čímž se zahájí těhotenství.</ImplantDescription>
+  <!-- EN: Insert in growth vat -->
+  <InsertGrowthVatLabel>Vložit do růstové kádě</InsertGrowthVatLabel>
+
+  <!-- EN: No available growth vats. -->
+  <ImplantDisabledNoVats>Nejsou dostupné žádné růstové kádě.</ImplantDisabledNoVats>
+  <!-- EN: Cancel embryo insertion -->
+  <ImplantEmbryoCancel>Zrušit vkládání embrya</ImplantEmbryoCancel>
 
 </LanguageData>
