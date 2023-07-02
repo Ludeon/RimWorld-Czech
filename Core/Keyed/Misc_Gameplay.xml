@@ -24,6 +24,10 @@
   <Owners>Vlastníci</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Přiřazený kolonista</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>Zemřel dne {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -114,6 +118,10 @@
   <RenounceTitleDescription>Touto akcí {PAWN_nameDef} přijde o svůj titul {TITLE}. Za zbavení titulu nedostaneš žádnou kompenzaci.\n\nBude to mít tyhle následky:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>Přijde o tato oprávnění</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>neznámý</UnknownLower>
   <!-- EN: On -->
@@ -244,7 +252,7 @@
   <CaravanAttacking>Útočí: {0}</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Nabízí dary: {0}</CaravanOfferingGifts>
-  <!-- EN: Trading with {0} -->
+  <!-- EN: Trading with {0}. -->
   <CaravanTrading>Obchoduje: {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Znečištěno od mrtvoly.</WasWornByCorpse>
@@ -255,7 +263,9 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>je venku</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>v dešti</DeterioratingRaining> <!-- text_todo -->
+  <DeterioratingRaining>v dešti</DeterioratingRaining> 
+  <!-- EN: protected -->
+  <Protected>TODO</Protected>
   <!-- EN: Deteriorating -->
   <DeterioratingBecauseOf>Rozpadá se</DeterioratingBecauseOf>
   <!-- EN: Will deteriorate in {0}. -->
@@ -332,6 +342,8 @@
   <Products>Produkty</Products>
   <!-- EN: Requires -->
   <Requires>Vyžaduje</Requires>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>TODO</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0} » {1}</Relationship>
   <!-- EN: Prisoner -->
@@ -450,7 +462,7 @@
   <ViewHyperlink>Prohlédnout: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Exploduje po uplynutí {0} dnů</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged -->
+  <!-- EN: Large fire explosion if damaged. -->
   <ExplosionOnDamageWarning>V případě poškození dojde k velké ohnivé explozi.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Mechový klastr</MechCluster>
@@ -516,6 +528,10 @@
   <SubquestOf>Součást úkolu</SubquestOf>
   <!-- EN: Raid -->
   <Raid>Přepadení</Raid>
+  <!-- EN: Disabled by -->
+  <ApparelRequirementDisabledLabel>TODO</ApparelRequirementDisabledLabel>
+  <!-- EN: Nudism -->
+  <Nudism>TODO</Nudism>
   <!-- EN: Study progress -->
   <StudyProgress>Průběh zkoumání</StudyProgress>
   <!-- EN: completed -->
@@ -528,12 +544,26 @@
   <ThoughtFoodEatenFood>Jídlo</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>Ingredience</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>TODO</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>TODO</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>TODO</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>TODO</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>TODO</MoreLower>
   <!-- EN: Requires -->
   <RequiredTechprintTip>Vyžaduje</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>velikost</Size>
   <!-- EN: cost -->
   <Cost>náklady</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>TODO</BackstoryTitle><!-- text_todo -->
+  <!-- EN: person -->
+  <Person>TODO</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -638,6 +668,10 @@
   <UnpennedTooltip>Zvířecí ohrady lze vytvořit umístěním výběhové cedule uvnitř uzavřeného prostoru. Tví chovatelé poté přivedou zvířata do příslušné ohrady. Zvířecí výběhy mohou být obehnány ohradou, barikádami, zdmi a dveřmi.</UnpennedTooltip>
   <!-- EN: Roped by -->
   <RopedByPawn>Nechává se vést od</RopedByPawn>
+  <!-- EN: Roped to -->
+  <RopedToThing>TODO</RopedToThing>
+  <!-- EN: Roped to spot. -->
+  <RopedToSpot>TODO</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>Velikost výběhu</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -654,6 +688,8 @@
   <PenCapacityDesc>{ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Příklady zvířecí kapacity</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>TODO</NoExteriorAccess>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -681,13 +717,13 @@
   <!-- EN: Road -->
   <Road_Label>Silnice</Road_Label>
   <!-- EN: River -->
-  <River_Label>Řeka</River_Label> <!-- text_todo -->
+  <River_Label>Řeka</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Obtížnost pohybu</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Znečištění</Pollution_Label>
   <!-- EN: Filth -->
-  <Filth_Label>Nepořádek</Filth_Label><!-- text_todo -->
+  <Filth_Label>Nepořádek</Filth_Label>
   
   <!-- EN: Faction -->
   <Faction_Label>Frakce</Faction_Label>
@@ -710,6 +746,8 @@
   <IsIncapableOfViolenceShort>neschopen násilí</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} není {1_gender ? povolán : povolána}.</IsNotDrafted>
+  <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
+  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -740,6 +778,8 @@
   <ShellLoaded>Náboj v komoře: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Není nabito</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>TODO</AlreadyActive>
   <!-- EN: Order activation -->
   <OrderActivation>Přikázat aktivaci</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
@@ -752,6 +792,8 @@
   <NoNearbyFireNoFuelUsed>Žádný požár v okolí. Nebylo použito žádné palivo.</NoNearbyFireNoFuelUsed>
   <!-- EN: Choose who should activate this. -->
   <ChooseWhoShouldActivate>Vyber někoho, kdo provede aktivaci.</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>TODO</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -766,6 +808,8 @@
   <ReportSleeping>spí.</ReportSleeping>
   <!-- EN: resting. -->
   <ReportResting>odpočívá.</ReportResting>
+  <!-- EN: laying down. -->
+  <ReportLayingDown>TODO</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
   <WatchingSunrise>pozoruje východ slunce.</WatchingSunrise>
   <!-- EN: cloudwatching. -->
@@ -794,6 +838,8 @@
   <ReportExtinguishingFireOn>pokouší se uhasit {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>TODO</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer> 
 
@@ -912,12 +958,16 @@
   <State>Stav</State>
   <!-- EN: stun -->
   <StunLower>omráčený</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>TODO</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\n(*SectionTitle)Klávesová zkratka:(/SectionTitle) {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Zobrazit informace.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>TODO</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -962,7 +1012,7 @@
   <Indoors>Uvnitř</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Nezastřešeno</IndoorsUnroofed>
-  <!-- EN: Outdoors -->
+  <!-- EN: outdoors -->
   <Outdoors>Venku</Outdoors>
 
   <!-- Rotting -->
@@ -1022,6 +1072,10 @@
   <ReadyToHarvest>Připraveno ke sklizni.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Zralé.</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>TODO</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>TODO</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>Vegetační období</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -1042,6 +1096,10 @@
   <HarvestGerund>sklidit</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>posekat</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>TODO</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>TODO</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1076,12 +1134,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Přepínač pro viditelnost/skrytí výukového pomocníka, pokud je prázdný.\n\nPokud je dostupná látka k výuce, je výukový pomocník viditelný vždy. Tento přepínač ho skryje, pokud není aktivní žádná látka k výuce.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Přepínač pro viditelnost/skrytí oblastí.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
   <ShowBeautyToggleButton>Přepínač pro zobrazení/skrytí krásy prostředí.\n\nZobrazuje krásu světa tak, jak by jej vnímala postava stojící v místě, kde se nachází kurzor myši.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Přepínač pro zobrazení/skrytí statistik místností.\n\nZobrazí statistiky místnosti v místě, ve které se nachází kurzor myši.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>Přepínač pro zobrazení/skrytí lišty s kolonisty.\n\nPodél horního okraje obrazovky se zobrazují ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením pravého tlačítka myši a tažením na požadované místo.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Přepínač pro automatické rozšiřování domovské oblasti okolo nových staveb.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1104,6 +1164,8 @@
   <ShowExpandingIconsToggleButton>Přepínač pro zapnutí/vypnutí zvětšujících se ikon vzdálených objektů namísto běžných ikon.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Přepínač pro viditelnost/skrytí názvů přírodních úkazů.</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>TODO</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1192,6 +1254,8 @@
   <ShipReportHibernating>Komponent v hibernaci</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent není připraven</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo> <!-- text_todo -->
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) je připraven spustit sekvenci na probuzení lodního reaktoru z hluboké hibernace.\n\nVaruje tě, že tento proces zabere asi 15 dnů a jeho energetický podpis bude detekovatelný z velké vzdálenosti.\n\nTento druh energetického podpisu naznačuje schopnost mezihvězdného letu a jistě přiláká gangy zoufalých lupičů a roje smrtících mechanoidů.\n\nBudeš napadán intenzitou, jakou jsi ještě nezažil. Ujisti se, že tvá obrana je skvěle připravena.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1388,10 +1452,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Výpočet pro: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Pravé tlačítko myši: Přidá/odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Ukončit režim plánování.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Návrat do dialogu tvorby karavany.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Odhadovaná doba cesty: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1442,7 +1512,7 @@
   <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače neurálního tepla. Překročení horní meze tepla může způsobit psychický kolaps trvající několik dnů. Ten ale nezpůsobuje trvalé následky.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psiofokus: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
@@ -1533,6 +1603,18 @@
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Příčina: {0}</CausedByHediff>
   
+  <!-- Healing -->
+  <!-- EN: {0_nameDef}'s {1} was cured. -->
+  <HealingCureHediff>TODO</HealingCureHediff>
+  <!-- EN: {0_nameDef}'s {1} was restored. -->
+  <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
+
+  <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
+  <WarningBuildingCausesHostility>TODO</WarningBuildingCausesHostility>
+
+  <!-- EN: Choose landing site -->
+  <ChooseLandingSite>TODO</ChooseLandingSite>
+  
   <!-- Rituals -->
   <!-- EN: ritual -->
   <Ritual>rituál</Ritual>
@@ -1559,6 +1641,8 @@
   <RitualFocusObjects>Zahajovací objekty</RitualFocusObjects>
   <!-- EN: Participating roles -->
   <RitualParticipatingRoles>Účastnické role</RitualParticipatingRoles>
+  <!-- EN: Organizers -->
+  <Organizers>TODO</Organizers>
   <!-- EN: Quality factors -->
   <QualityFactors>Faktory kvality</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
@@ -1571,6 +1655,8 @@
   <NotParticipating>Bez účasti</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>Přesouvej postavy myší nebo levým/pravým kliknutím.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Otrok. Člověk patřící jiným.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1579,6 +1665,8 @@
   <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Probudí se, jakmile zahájíš rituál.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Tuto pozici nejlépe zvládne kolonista zastávající sociální roli {0}.\n\nPokud někdo obsadí tuto pozici, aniž by zmíněnou roli zastával, nezíská následující bonus(y)</RitualRoleRequiresSocialRole>
+  <!-- EN: No substitute available for the role of {0}. -->
+  <RitualRoleCantSubstitute>TODO</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
   <RitualOutcomeProgress>Průběh {lookup: {0}; case\singular; 2}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
@@ -1597,9 +1685,15 @@
   <RitualQualityLowWarning>Výsledná kvalita {lookup: {0}; case\singular; 2} je nižší než {1}. Pokračování bude mít s největší pravděpodobností negativní dopad na tvou kolonii.\n\nOpravdu chceš pokračovat?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Není dostupné žádné vhodné místo k mluvení.</AbilitySpeechDisabledNoSpot>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění budou mít na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>TODO</RitualOutcomeNoQuality>
   
+  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
+  <ChooseParticipants>TODO</ChooseParticipants>
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
   <!-- EN: Begin {0} -->
@@ -1611,19 +1705,37 @@
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
   <DateRitualNoObligation>{0} je rituál konající se v určitém termínu. Zahájit jej budeš moci {2}, to je za {1}.</DateRitualNoObligation>
 
+  <!-- EN: Replace with -->
+  <PreceptReplaceWith>Nahradit za</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>TODO</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Očekávaná kvalita</ExpectedRitualQuality>
+  <!-- EN: Starting quality -->
+  <StartingQuality>Počáteční kvalita</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Očekávaná doba trvání</ExpectedRitualDuration>
-
+  
+  <!-- EN: {PAWN_labelShort}'s {1} -->
+  <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
+  <!-- EN: Room beauty -->
+  <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
   <RitualPredictedOutcomeDescParticipantCount>Účastníci</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Očekávání ({PAWN_labelShort})</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>TODO</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
 
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Zamění {PAWN_labelShort}</RitualRoleReplaces>
 
+  <!-- EN: present -->
+  <Present>TODO</Present>
   <!-- EN: {0} used -->
   <Used>Využití {lookup: {0}; case\singular; 2}</Used>
   <!-- EN: {0} starting quality -->
@@ -1637,6 +1749,13 @@
   <OutcomeLetterLabel>{replace: {OUTCOMELABEL}​; "á​"-"ý"; "é​"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
+
+  <!-- EN: {0} of -->
+  <ThingOf>TODO</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>TODO</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>TODO</ThingOfTwoSources>
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
@@ -1657,6 +1776,13 @@
   <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}.</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>TODO</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>TODO</Charges>
+
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInMentalState>TODO</PawnIsInMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Zakázané činnosti</DisabledWorkLabel>
@@ -1668,5 +1794,31 @@
   <GlowerChangeColorDescription>Změní barvu světla.</GlowerChangeColorDescription>
   <!-- EN: You must research {0} to change light color. -->
   <GlowerChangeColorNeedsResearch>Abys mohl měnit barvu světla, musíš nejdříve vyzkoumat {0}.</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>TODO</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>TODO</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>Náhodně</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>Zasadit {lookup: {0_label}; case\singular; 4}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>Zasadí {lookup: {0_label}; case\singular; 4} ve vybrané oblasti.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>Zrušit výsadbu {lookup: {0_label}; case\singular; 2}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>Zruší výsadbu {lookup: {0_label}; case\singular; 2}.</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>probíhá jiné shromáždění.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>Další projev bude připraven za</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>Zahájení na</AbilitySpeechTargetsLabel>
 
 </LanguageData>

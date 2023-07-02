@@ -11,6 +11,8 @@
   <BlindingCeremony.roles.1.missingDesc>osobu, která provede oslepení</BlindingCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
   <BlindingCeremony.stages.0.failTriggers.0.desc>Oběť není dosažitelná.</BlindingCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <BlindingCeremony.stages.0.failTriggers.1.desc>TODO</BlindingCeremony.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
   <BurnCircle.spectatorGerund>účastnit</BurnCircle.spectatorGerund>
@@ -44,6 +46,8 @@
   <Conversion.roles.1.label>konvertita</Conversion.roles.1.label>
   <!-- EN: Prisoner is not reachable. -->
   <Conversion.stages.0.failTriggers.0.desc>Vězeň není dosažitelný.</Conversion.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <Conversion.stages.0.failTriggers.1.desc>TODO</Conversion.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
   <DancePartyTech.spectatorGerund>účastnit</DancePartyTech.spectatorGerund>
@@ -77,6 +81,8 @@
   <Execution.spectatorFilter.description>Přihlížející musí být ochotni sledovat popravu.</Execution.spectatorFilter.description>
   <!-- EN: Prisoner is not reachable. -->
   <Execution.stages.0.failTriggers.0.desc>Vězeň není dosažitelný.</Execution.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <Execution.stages.0.failTriggers.1.desc>TODO</Execution.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
   <FeastCannibal.spectatorGerund>účastnit</FeastCannibal.spectatorGerund>
@@ -118,6 +124,10 @@
   <GladiatorDuel.spectatorsLabel>Přihlížející</GladiatorDuel.spectatorsLabel>
   <!-- EN: Duelist is not reachable. -->
   <GladiatorDuel.stages.2.failTriggers.0.desc>Duelant není dosažitelný.</GladiatorDuel.stages.2.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <GladiatorDuel.stages.2.failTriggers.1.desc>TODO</GladiatorDuel.stages.2.failTriggers.1.desc>
+  <!-- EN: escort asleep -->
+  <GladiatorDuel.stages.2.failTriggers.2.desc>TODO</GladiatorDuel.stages.2.failTriggers.2.desc>
   
   <!-- EN: {SPEAKER_labelShort} is giving a {RITUAL_labelIndef}.\n      \nIf all goes well, listeners will feel inspired, and gain respect for {SPEAKER_labelShort}. If it goes poorly, the speech will do social damage. Positive effects are reduced for non-{IDEOMEMBERS}. -->
   <LeaderSpeech.letterText>{SPEAKER_labelShort} přednáší {lookup: {RITUAL_label}; case\singular; 4}.\n      \nPokud vše půjde dobře, posluchači naberou inspiraci a získají k {SPEAKER_gender ? vůdci : vůdkyni} {SPEAKER_labelShort} respekt. V opačném případě projev způsobí společenskou újmu. Kdo není {IDEOMEMBERS}, tomu budou pozitivní účinky sníženy.</LeaderSpeech.letterText>
@@ -147,6 +157,8 @@
   <SacrificeAnimal.spectatorsLabel>Účastníci</SacrificeAnimal.spectatorsLabel>
   <!-- EN: Animal is not reachable. -->
   <SacrificeAnimal.stages.0.failTriggers.0.desc>Zvíře není dosažitelné.</SacrificeAnimal.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <SacrificeAnimal.stages.0.failTriggers.1.desc>TODO</SacrificeAnimal.stages.0.failTriggers.1.desc>
   
   <!-- EN: cutter -->
   <SacrificePrisoner.roles.0.label>podřezávač</SacrificePrisoner.roles.0.label>
@@ -160,6 +172,8 @@
   <SacrificePrisoner.spectatorsLabel>Účastníci</SacrificePrisoner.spectatorsLabel>
   <!-- EN: Prisoner is not reachable. -->
   <SacrificePrisoner.stages.0.failTriggers.0.desc>Vězeň není dosažitelný.</SacrificePrisoner.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <SacrificePrisoner.stages.0.failTriggers.1.desc>TODO</SacrificePrisoner.stages.0.failTriggers.1.desc>
   
   <!-- EN: target -->
   <ScarificationCeremony.roles.0.label>oběť</ScarificationCeremony.roles.0.label>
@@ -171,6 +185,8 @@
   <ScarificationCeremony.roles.1.missingDesc>osobu, která provede zjizvení</ScarificationCeremony.roles.1.missingDesc>
   <!-- EN: Target is not reachable. -->
   <ScarificationCeremony.stages.0.failTriggers.0.desc>Oběť není dosažitelná.</ScarificationCeremony.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <ScarificationCeremony.stages.0.failTriggers.1.desc>TODO</ScarificationCeremony.stages.0.failTriggers.1.desc>
   
   <!-- EN: participate -->
   <SmokeCircle.spectatorGerund>přihlížet</SmokeCircle.spectatorGerund>
@@ -179,6 +195,8 @@
   
   <!-- EN: connector -->
   <TreeConnection.roles.0.label>spojovač</TreeConnection.roles.0.label>
+  <!-- EN: Only adults can connect to the Gauranlen tree. -->
+  <TreeConnection.roles.0.customChildDisallowMessage>TODO</TreeConnection.roles.0.customChildDisallowMessage>
   <!-- EN: spectate -->
   <TreeConnection.spectatorGerund>přihlížet</TreeConnection.spectatorGerund>
   <!-- EN: Spectators -->
@@ -200,5 +218,7 @@
   <TrialPrisoner.roles.1.label>obviněný</TrialPrisoner.roles.1.label>
   <!-- EN: Convicted prisoner is not reachable. -->
   <TrialPrisoner.stages.0.failTriggers.0.desc>Obviněný vězeň není dosažitelný.</TrialPrisoner.stages.0.failTriggers.0.desc>
+  <!-- EN: escort asleep -->
+  <TrialPrisoner.stages.0.failTriggers.1.desc>TODO</TrialPrisoner.stages.0.failTriggers.1.desc>
   
 </LanguageData>

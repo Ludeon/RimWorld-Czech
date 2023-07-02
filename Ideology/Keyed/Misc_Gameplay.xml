@@ -5,8 +5,6 @@
   <CustomizeIdeoligion>Přizpůsob si své ideoboženství</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Vyber si své ideoboženství</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>Náhodně</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>Pro tvé ideoboženství bude použita náhodná struktura.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -23,7 +21,7 @@
   <LoadSaved>Načíst uložené</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Struktura</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
   <ChooseYourIdeoligionDesc>Čemu by měli věřit tví počáteční kolonisté? Tato víra ovlivňuje jak hru, tak vizuál. Ostatní budeš moci obracet na svou víru, nebo můžeš přijmout tu jejich.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Vytvořit vlastní</CreateCustom>
@@ -61,24 +59,26 @@
   <Reward_RelicInfoLabel>Info o relikvii {0}</Reward_RelicInfoLabel>
   <!-- EN: Relic of {IDEO_name} -->
   <RelicOf>Relikvie příslušící {IDEO_name}</RelicOf>
+  <!-- EN: altar -->
+  <Altar>TODO</Altar>
   <!-- EN: base -->
   <Base>základ</Base>
   <!-- EN: min expectation -->
   <MinExpectation>minimální očekávání</MinExpectation>
   <!-- EN: {0} to {1} -->
   <PreceptThoughtMoodRange>{0} až {1}</PreceptThoughtMoodRange>
+  <!-- EN: Comes from ideo -->
+  <ComesFromIdeo>TODO</ComesFromIdeo>
+  <!-- EN: Current total animal bodysize per colonist -->
+  <CurrentTotalAnimalBodySizePerColonist>TODO</CurrentTotalAnimalBodySizePerColonist>
   <!-- EN: total bodysize per colonist -->
   <AnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu</AnimalsBodySizePerColonist>
   <!-- EN: total nearby bodysize per colonist -->
   <VeneratedAnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu v blízkém okolí</VeneratedAnimalsBodySizePerColonist>
-  <!-- EN: Plant {0_label} -->
-  <PlantThing>Zasadit {lookup: {0_label}; case\singular; 4}</PlantThing>
-  <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Zasadí {lookup: {0_label}; case\singular; 4} ve vybrané oblasti.</PlantThingDesc>
-  <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Zrušit výsadbu {lookup: {0_label}; case\singular; 2}</CancelPlantThing>
-  <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Zruší výsadbu {lookup: {0_label}; case\singular; 2}.</CancelPlantThingDesc>
+  <!-- EN: Expecting at least {0} body size per colonist. -->
+  <MinAnimalBodySizePerColonist>TODO</MinAnimalBodySizePerColonist>
+  <!-- EN: Disables -->
+  <Disables>TODO</Disables>
   <!-- EN: Requires one of precepts -->
   <RequiresOnePrecept>Vyžaduje jednu ze zásad</RequiresOnePrecept>
   <!-- EN: Required precepts -->
@@ -91,8 +91,10 @@
   <Styles>Styly</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Šance k získání zásady</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>{PAWN_labelShort} považuje tuto barvu za svou oblíbenou. Bude-li více než {PERCENTAGE} {PAWN_possessive} výstroje v této barvě, nebo barvě {PAWN_gender ? jeho : jejího} ideoboženství, bude o něco šťastnější.\n\nBarvy oděvů můžeš měnit na stylingové stanici pomocí barviva získaného z barvovníku.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>TODO</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Nastavit na ideo barvu</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -109,9 +111,19 @@
   <NotEnoughDyeWillRecolorHair>Kolonista si přebarví vlasy, až bude barvivo dostupné.</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
   <IdeoCertaintyTooltip>Jistota této osoby v ideoboženství {IDEO} je na {PERCENTAGE}.</IdeoCertaintyTooltip>
+  <!-- EN: Disabled by precept {0} -->
+  <DisabledByPrecept>TODO</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>Všichni</Everyone>
-  <!-- EN: Changing -->
+  <!-- EN: Narrative -->
+  <Narrative>TODO</Narrative>
+  <!-- EN: narrative -->
+  <NarrativeLower>TODO</NarrativeLower>
+  <!-- EN: Precept name -->
+  <PreceptName>TODO</PreceptName>
+  <!-- EN: precept name -->
+  <PreceptNameLower>TODO</PreceptNameLower>
+  <!-- EN: Changing {0} -->
   <Changing>Změna</Changing>
   <!-- EN: structures -->
   <StructuresLower>struktury</StructuresLower>
@@ -133,16 +145,29 @@
   <MealKindMeat>Obsahuje maso</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Jídlo přijatelné pro každého</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>TODO</WearingDesiredApparelMulti>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
+  <!-- EN: Could not load ideoligion -->
+  <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
+  <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
+  <UnableToLoadIdeoDescription>TODO</UnableToLoadIdeoDescription>
+  <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
+  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
+  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
   <RitualTargetGraveInfo>Hrob, ve kterém odpočívá {PAWN_labelShort}.</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
   <RitualTargetEmptyGraveInfo>Prázdný hrob k truchlení (chybějící {PAWN_labelShort}).</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Hrob, ve kterém odpočívá {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
-  <!-- EN: A grave containing a corpse. -->
+  <!-- EN: Grave containing a corpse -->
   <RitualTargetGraveInfoAbstractNoIdeo>Hrob obsahující mrtvolu.</RitualTargetGraveInfoAbstractNoIdeo>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
   <RitualTargetEmptyGraveInfoAbstract>Prázdný hrob k truchlení (chybějící {IDEO_memberNameIndef}).</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>{PAWN_labelShort} musí být nejprve {PAWN_gender ? pohřben : pohřbena}</RitualTargetGraveInfoMustBeBuried>
@@ -152,8 +177,6 @@
   <RitualTargetGatherAltarOrRitualSpotInfo>Oltář nebo libovolné rituální místo.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Oltář, ideogram nebo libovolné rituální místo.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Světelná koule nebo rituální místo. Světelná koule a reproduktory musí být připojené k elektrické síti.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>Světelná koule není připojena k elektrické síti.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -166,11 +189,9 @@
   <RitualTargetNoDrum>Žádný buben v blízkosti.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>V blízkém okolí je potřeba alespoň {0} nezastřešených políček.</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
+  <!-- EN: a lit campfire -->
   <RitualTargetCampfirePartyInfo>Rozdělané ohniště nebo rituální místo.</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>Rozdělané ohniště nebo rituální místo. Místo musí být nezastřešené a kolem něj musí být alespoň 25 políček bez střechy.</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
+  <!-- EN: an unconnected Gauranlen tree -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>Nespojený gauranlení strom.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Spojení již {PAWN_gender ? navázal : navázala} {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
@@ -178,22 +199,38 @@
   <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; case\singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Obvinit</Accuse>
+  <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
+  <RitualScarificationWarnNonScarificationIdeo>TODO</RitualScarificationWarnNonScarificationIdeo>
+  <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
+  <RitualScarificationWarnWimp>TODO</RitualScarificationWarnWimp>
+  <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
+  <RitualBlindingWarnWimp>TODO</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
   <RitualBlindingTriggerExtraDesc>Očekává se, že každý stávající i nově příchozí kolonista ({IDEOMEMBER}) bude rituálně oslepen.</RitualBlindingTriggerExtraDesc>
-
+  
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Každý, kdo se zúčastnil rituálu, získal jednodenní nadšení pro práci ({PERCENTAGE} ke globální rychlosti práce)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Díky uspokojivému oslepovacímu rituálu {PAWN_gender ? získal : získala} {PAWN_labelShort} úroveň psiovazby!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
   <RitualOutcomeExtraDesc_BlindingPsylinkAbility>S novou úrovní psiovazby {PAWN_gender ? získal : získala} psionickou schopnost {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
+  <RitualOutcomeExtraDesc_ConsumableInspiration>TODO</RitualOutcomeExtraDesc_ConsumableInspiration>
+  <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
+  <RitualOutcomeExtraDesc_SkylanternWanderers>TODO</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>Všichni zúčastnění otroci byli otřeseni pohledem na smrt. Jejich útlak vyskočil na maximální úroveň.</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>V závislosti na kvalitě rituálu byly tvé vývojové body zvýšeny o {2} (ze současných {0} na {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Kvůli špatné kvalitě rituálu nebyly získány žádné vývojové body.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -201,8 +238,12 @@
   <RitualAttachedReward>Dodatečná odměna</RitualAttachedReward>
   <!-- EN: Choose -->
   <RitualAttachedRewardChoose>Vybrat</RitualAttachedRewardChoose>
+  <!-- EN: Can't use {0} with {1}. -->
+  <RitualAttachedRewardCantUseWithRitual>TODO</RitualAttachedRewardCantUseWithRitual>
   <!-- EN: Requires any of memes -->
   <RitualAttachedRewardRequiredMemeAny>Vyžaduje některá z přesvědčení</RitualAttachedRewardRequiredMemeAny>
+  <!-- EN: Requires {0} faction -->
+  <RitualAttachedRewardRequiredFaction>TODO</RitualAttachedRewardRequiredFaction>
   <!-- EN: positive -->
   <RitualAttachedOutcomes_Positive>pozitivním</RitualAttachedOutcomes_Positive>
   <!-- EN: negative -->
@@ -213,6 +254,10 @@
   <RitualAttachedApplliesForOutcome>Po jakémkoli {0} výsledku</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
   <RitualAttachedApplliesForOutcomes>Po jakémkoli {0} výsledku</RitualAttachedApplliesForOutcomes>
+  <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
+  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>TODO</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
+  <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>TODO</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
   <RitualAttachedOutcomeCantApply>Odměnu nelze získat</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
@@ -242,11 +287,22 @@
   <RitualDevelopmentPoints>Vývojové body</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Dokončení tohoto rituálu přidá {0}-{1} vývojových bodů v závislosti na kvalitě.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>TODO</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Určení: Pro otroky</ForSlaveUse>
   <!-- EN: Slave -->
   <Slave>Otrok</Slave>
+  <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
+  <SellingAsSlave>TODO</SellingAsSlave>
+  <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
+  <SellingAsRansom>TODO</SellingAsRansom>
+
+  <!-- EN: We are {0} -->
+  <MemeGoodwillImpact_Player>TODO</MemeGoodwillImpact_Player>
+  <!-- EN: They are {0} -->
+  <MemeGoodwillImpact_Other>TODO</MemeGoodwillImpact_Other>
 
   <!-- TextMotes -->
   <!-- EN: Slave suppression: {0} -->
@@ -274,14 +330,29 @@
   <RoleBelieverCountDesc>Tato role bude aktivní, pokud tvá frakce bude mít {replace: ​{1}​; "​1​"-"1 stoupence"; "​2​"-"2 stoupence"; "​3​"-"3 stoupence"; "​4​"-"4 stoupence"; "​{1}​"-"{1} stoupenců"} ({0}). Deaktivuje se v případě, bude-li mít pouze {3}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
   <RoleExpectationOffset>Zvýšená o {replace: ​{0}​; "​1​"-"1 úroveň"; "​2​"-"2 úrovně"; "​3​"-"3 úrovně"; "​4​"-"4 úrovně"; "​{0}​"-"{0} úrovní"}.</RoleExpectationOffset>
+  <!-- EN: The {0} has higher expectations. -->
+  <RoleRaisedExpectation>TODO</RoleRaisedExpectation>
+  <!-- EN: The {0} will have higher expectations in {1}. -->
+  <RoleRaisedExpectationGracePeriod>TODO</RoleRaisedExpectationGracePeriod>
+  <!-- EN: Led by {0} -->
+  <IdeoLeaderDifferentIdeoThoughtLabel>TODO</IdeoLeaderDifferentIdeoThoughtLabel>
+  <!-- EN: {PAWN_nameDef} will not do {1} work. -->
+  <AbilityDisabled_IncapableOfWorkTag>TODO</AbilityDisabled_IncapableOfWorkTag>
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>Není dostupný žádný oltář ani rituální místo.</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Není dostupný žádný oltář, ideogram ani rituální místo.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <!-- EN: No reachable ritual spot. -->
+  <AbilityDisabledNoRitualSpot>TODO</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Vůle\n{0} na {1}</TextMote_WillReduced>
 
+  <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
+  <ConfirmationCharityJoiner>TODO</ConfirmationCharityJoiner>
+
+  <!-- EN: Believers in {0} ({1}) -->
+  <BelieversIn>TODO</BelieversIn>
   <!-- EN: add {0} -->
   <AddPrecept>přidat {lookup: {0}; case\singular; 4}</AddPrecept>
   <!-- EN: precept -->
@@ -317,6 +388,8 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Nalezených informací o relikvii</RelicInfoFound>
+  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
+  <InactiveRoleRequiresMoreBelievers>TODO</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
   <Certainty>jistota</Certainty>
@@ -329,6 +402,17 @@
   <!-- EN: The slave will return to being a colonist. -->
   <EmancipateCololonistTooltip>Z otroka se stane opět kolonista.</EmancipateCololonistTooltip>
 
+  <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
+  <WorshippedTerminalFactionBecameHostileTimed>TODO</WorshippedTerminalFactionBecameHostileTimed>
+  <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
+  <WorshippedTerminalRaidIncoming>TODO</WorshippedTerminalRaidIncoming>
+
+  <!-- Relic hunt -->
+  <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
+  <RelicHuntFoundRelicSite>TODO</RelicHuntFoundRelicSite>
+  <!-- EN: The relic rests in an ancient structure nearby. -->
+  <RelicHuntFoundRelicSitePeaceful>TODO</RelicHuntFoundRelicSitePeaceful>
+
   <!-- EN: relic -->
   <Relic>relikvie</Relic>
   <!-- EN: Ritual seat -->
@@ -340,8 +424,16 @@
   <!-- EN: Drums -->
   <RitualPredictedOutcomeDescNumDrums>Bubny</RitualPredictedOutcomeDescNumDrums>
 
+  <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>TODO</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+
+  <!-- EN: Any of these -->
+  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
+
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Nahradit za</PreceptReplaceWith>
+  <!-- EN: Ritual seat of {IDEOS} -->
+  <RitualSeatOf>TODO</RitualSeatOf>
   <!-- EN: Starting quality -->
   <StartingQuality>Počáteční kvalita</StartingQuality>
   <!-- EN: Conviction chance -->
@@ -355,10 +447,20 @@
   <ConnectedPawn>Spojený s</ConnectedPawn>
   <!-- EN: Nobody -->
   <Nobody>Nikdo</Nobody>
+  <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
+  <ConnectedPawnDesc>TODO</ConnectedPawnDesc>
+  <!-- EN: Connection torn. Can connect in {0}. -->
+  <ConnectionTorn>TODO</ConnectionTorn>
+  <!-- EN: {PAWN_nameDef} is too far away -->
+  <ConnectedPawnAway>TODO</ConnectedPawnAway>
+  <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
+  <TreeBlockedByNearbyBuildingsDesc>TODO</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
   <GauranlenModeChangeDescFull>Změna dryádí kasty {lookup: {TREE_definite}; case\singular; 2} vyžaduje čas a energii.\n\nPoté, co spojená osoba promluví ke stromu, všechny dryády stráví {DURATION} dnů v kokonu, než se přemění na zvolenou kastu.\n\nStávající kokony zruší svou přeměnu, aby se mohly také přeměnit na aktuální kastu.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>Změní typ dryád, které bude {TREE_definite} vytvářet.</ChangeModeDesc>
+  <!-- EN: Connection strength fall -->
+  <ConnectionStrengthFall>TODO</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
   <ConnectionStrength>Síla spojení</ConnectionStrength>
   <!-- EN: {0} strength -->
@@ -383,12 +485,22 @@
   <WaitingForConnectorToChangeCaste>Čeká se, až {CONNECTEDPAWN_nameDef} změní dryádí kastu.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>Dryádí kasta</GauranlenTreeMode>
+  <!-- EN: no caste -->
+  <NoCaste>TODO</NoCaste>
+  <!-- EN: Determines the currently created dryad caste. -->
+  <GauranlenTreeModeDesc>TODO</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
   <SpawningDryadIn>Ke zrození {lookup: {DRYAD_label}; case\singular; 2} dojde za {TIME}.</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
   <ChangingDryadIntoType>Probíhá přeměna na {lookup: {TYPE_label}; case\singular; 4}.</ChangingDryadIntoType>
+  <!-- EN: {0} hours every day -->
+  <HoursEveryDay>TODO</HoursEveryDay>
+  <!-- EN: {0} hours every other day -->
+  <HoursEveryOtherDay>TODO</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>Každá {DRYAD_label} produkuje {replace: ​{DURATION}​; "2 dnů"-"každé (*DateTime)2 dny(/DateTime)"; "3 dnů"-"každé (*DateTime)3 dny(/DateTime)"; "4 dnů"-"každé (*DateTime)4 dny(/DateTime)"; "​{DURATION}​"-"každých {DURATION}"}:\n{RESOURCES}</DryadProducesResourcesDesc>
+  <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
+  <DryadCannotChangeMaster>TODO</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>K vytvoření gauranleního lusku je síla spojení příliš nízká.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
@@ -404,6 +516,15 @@
   <!-- EN: Cannot assign allowed area -->
   <CannotAssignAllowedAreaToDryad>Nelze přiřadit povolenou oblast</CannotAssignAllowedAreaToDryad>
 
+  <!-- Shooting report -->
+  <!-- EN: Target outdoors and night-time -->
+  <TargetNightOutdoors>TODO</TargetNightOutdoors>
+  <!-- EN: Target indoors and dark -->
+  <TargetDarkIndoors>TODO</TargetDarkIndoors>
+  <!-- EN: Target outdoors and daytime -->
+  <TargetDayOutdoors>TODO</TargetDayOutdoors>
+  <!-- EN: Target indoors and lit -->
+  <TargetLitIndoors>TODO</TargetLitIndoors>  
   <!-- EN: Charging -->
   <RechargeableCharging>Nabíjení</RechargeableCharging>
   <!-- EN: Ready -->
@@ -411,6 +532,18 @@
   
   <!-- EN: Skill -->
   <RoleRequirementSkill>Dovednost</RoleRequirementSkill>
+  <!-- EN: Any of skills -->
+  <RoleRequirementSkillAny>TODO</RoleRequirementSkillAny>
+  <!-- EN: Won't use ranged weapons -->
+  <RoleEffectWontUseRangedWeapons>TODO</RoleEffectWontUseRangedWeapons>
+  <!-- EN: Won't use melee weapons -->
+  <RoleEffectWontUseMeleeWeapons>TODO</RoleEffectWontUseMeleeWeapons>
+  <!-- EN: {0} quality to crafting or construction -->
+  <RoleEffectProductionQualityOffset>TODO</RoleEffectProductionQualityOffset>
+  <!-- EN: Hunting revenge chance {0} -->
+  <RoleEffectHuntingRevengeChance>TODO</RoleEffectHuntingRevengeChance>
+  <!-- EN: Give thought -->
+  <RoleEffectGiveThoughtOnTended>TODO</RoleEffectGiveThoughtOnTended>
 
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>Přiřadit osoby ke tvému ideoboženství</AssignColonists>
@@ -496,8 +629,10 @@
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus. {PAWN_possessive} {HEDIFF_label} je pryč.</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} svůj omlazovací cyklus. Za {replace: ​{DEADLINE}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} potěšovací cyklus.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -516,5 +651,12 @@
   <OnCompletionOfCycle>Po dokončení {replace: {CYCLE}; "bioregenerace"-"bioregeneračního"; "ozdravování"-"odzdravovacího"} cyklu dojde k následujícímu</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} nemá žádné zdravotní problémy, které by se daly vyléčit {replace: {CYCLE}; "bioregenerace"-"bioregeneračním"; "ozdravování"-"odzdravovacím"} cyklem.\n\nOpravdu chceš pokračovat?</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>TODO</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>TODO</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>TODO</ChangeStyleDisabledNoCategories>
 
 </LanguageData>

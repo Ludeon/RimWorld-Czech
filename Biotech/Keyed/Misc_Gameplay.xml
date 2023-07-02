@@ -3,14 +3,38 @@
 
   <!-- EN: Dormant self-charging -->
   <SelfShutdown>Klidové samonabíjení</SelfShutdown>
+  <!-- EN: Carry to recharger -->
+  <CarryToRecharger>TODO</CarryToRecharger>
+  <!-- EN: Must be carried to recharger. -->
+  <MustBeCarriedToRecharger>TODO</MustBeCarriedToRecharger>
   <!-- EN: Danger -->
   <Danger>Nebezpečí</Danger>
+  <!-- EN: {0} damage -->
+  <DamageType>TODO</DamageType>
+  <!-- EN: Contained {0_labelPlural} -->
+  <ContainedThings>TODO</ContainedThings>
+  <!-- EN: Time until next atomization -->
+  <DurationUntilNextAtomization>TODO</DurationUntilNextAtomization>
+  <!-- EN: Finishes in -->
+  <FinishesIn>TODO</FinishesIn>
+  <!-- EN: with -->
+  <WithLower>TODO</WithLower>
   <!-- EN: tiles -->
   <TilesLower>políč.</TilesLower>
   <!-- EN: 1 mech -->
   <CaravanMech>1 mech</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{replace: ​{0}​; "​1​"-"1 mech"; "​2​"-"2 mechové"; "​3​"-"3 mechové"; "​4​"-"4 mechové"; "​{0}​"-"{0} mechů"}</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>TODO</BossWithApparel>
+
+  <!-- Job reports -->
+  <!-- EN: removing {0}. -->
+  <ReportRemovingMechlink>TODO</ReportRemovingMechlink>
+
+  <!-- Areas -->
+  <!-- EN: Pollution clear -->
+  <PollutionClear>TODO</PollutionClear>
 
   <!-- Mechanitor -->
   <!-- EN: Overseer -->
@@ -43,38 +67,208 @@
   <BandNodeTuningDesc>Naladit tento pásmový uzel na mechanitora. Ladění bude trvat {0}.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
   <BandNodeRetuningDesc>Přeladit tento pásmový uzel na jiného mechanitora. Přelaďování bude trvat {replace: ​{0}​; "​1 den​"-"1 den"; "​2 dnů​"-"2 dny"; "​3 dnů​"-"3 dny"; "​4 dnů​"-"4 dny"}.</BandNodeRetuningDesc>
+  <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
+  <DropThingBandwidthApparel>TODO</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
   <NoMechs>žádní mechové</NoMechs>
   <!-- EN: Group -->
   <Group>Skupina</Group>
   <!-- EN: Groups -->
   <Groups>Skupiny</Groups>
+  <!-- EN: Loading mech gestation resources -->
+  <LoadingMechGestator>TODO</LoadingMechGestator>
+  <!-- EN: Initiating mech gestation cycle -->
+  <InitMechGestationCycle>TODO</InitMechGestationCycle>
+  <!-- EN: Initiating mech birth -->
+  <InitMechBirth>TODO</InitMechBirth>
   <!-- EN: Mech energy -->
   <MechEnergy>Úroveň nabití</MechEnergy>
   <!-- EN: Energy -->
   <Energy>Energie</Energy>
   <!-- EN: energy -->
   <EnergyLower>energie</EnergyLower>
+  <!-- EN: Bandwidth usage -->
+  <BandwidthUsage>TODO</BandwidthUsage>
+  <!-- EN: Mech gestation bandwidth -->
+  <MechGestationBandwidthUsed>TODO</MechGestationBandwidthUsed>
+  <!-- EN: Cannot summon {0} threat -->
+  <CannotSummon>TODO</CannotSummon>
+  <!-- EN: {0} threat ready to summon -->
+  <ReadyToSummonThreat>TODO</ReadyToSummonThreat>
+  <!-- EN: Summon {0} threat -->
+  <Summon>TODO</Summon>
+  <!-- EN: No reachable {0} -->
+  <NoReachableBossgroupCaller>TODO</NoReachableBossgroupCaller>
+  <!-- EN: No reservable {0} -->
+  <NoReservableBossgroupCaller>TODO</NoReservableBossgroupCaller>
+  <!-- EN: No powered {0} -->
+  <NoPoweredBossgroupCaller>TODO</NoPoweredBossgroupCaller>
+  <!-- EN: already used -->
+  <AlreadyUsed>TODO</AlreadyUsed>
   <!-- EN: Gestating -->
   <Gestating>Vyvíjení</Gestating>
+  <!-- EN: Escorting {TARGET_labelShort}. -->
+  <Escorting>TODO</Escorting>
+  <!-- EN: Worker -->
+  <Worker>TODO</Worker>
+  <!-- EN: Waiting for -->
+  <WaitingFor>TODO</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>Neovládaný</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>TODO</BossgroupIncoming>
+
+  <!-- Sanguophage -->
+  <!-- EN: hemogen -->
+  <Hemogen>TODO</Hemogen>
+  <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
+  <HemogenDesc>TODO</HemogenDesc>
+  <!-- EN: deathrest capacity -->
+  <DeathrestCapacity>TODO</DeathrestCapacity>
+  <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
+  <DeathrestCapacityDesc>TODO</DeathrestCapacityDesc>
+  <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
+  <PawnIsConnectedToBuildings>TODO</PawnIsConnectedToBuildings>
+  <!-- EN: wake now -->
+  <Wake>TODO</Wake>
+  <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
+  <WakeDesc>TODO</WakeDesc>
+  <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
+  <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
+  <!-- EN: {PAWN_nameDef} can now wake safely. -->
+  <WakeExtraDesc_Safe>TODO</WakeExtraDesc_Safe>
+  <!-- EN: Cannot wake. Need at least {0} hemogen. -->
+  <CannotWakeNotEnoughHemogen>TODO</CannotWakeNotEnoughHemogen>
+  <!-- EN: Auto-wake -->
+  <AutoWake>TODO</AutoWake>
+  <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
+  <AutoWakeDesc>TODO</AutoWakeDesc>
+  <!-- EN: {PAWN_nameDef} is deathresting. -->
+  <IsDeathresting>TODO</IsDeathresting>
+  <!-- EN: Cannot deathrest -->
+  <CannotDeathrest>TODO</CannotDeathrest>
+  <!-- EN: Start deathrest -->
+  <StartDeathrest>TODO</StartDeathrest>
+  <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
+  <ConfirmExitDeathrestUnderMinDays>TODO</ConfirmExitDeathrestUnderMinDays>
+  <!-- EN: deathresting -->
+  <Deathresting>TODO</Deathresting>
+  <!-- EN: complete -->
+  <Complete>TODO</Complete>
+  <!-- EN: can wake safely now. -->
+  <CanWakeSafely>TODO</CanWakeSafely>
+  <!-- EN: Disabled by gene -->
+  <DisabledByGene>TODO</DisabledByGene>
+  <!-- EN: {PAWN_nameDef} is in critical condition. -->
+  <WakeDisabledCriticalCondition>TODO</WakeDisabledCriticalCondition>
+  <!-- EN: Drain rate -->
+  <DrainRate>TODO</DrainRate>
+  <!-- EN: Regeneration rate -->
+  <RegenerationRate>TODO</RegenerationRate>
+  <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
+  <NextDeathrestNeed>TODO</NextDeathrestNeed>
+  <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
+  <PawnShouldDeathrestNow>TODO</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
+  <!-- EN: Consume hemogen below -->
+  <ConsumeHemogenBelow>TODO</ConsumeHemogenBelow>
+  <!-- EN: Never consume hemogen. -->
+  <NeverConsumeHemogen>TODO</NeverConsumeHemogen>
+  <!-- EN: Will kill -->
+  <WillKill>TODO</WillKill>
+  <!-- EN: Will cause major blood loss -->
+  <WillCauseSeriousBloodloss>TODO</WillCauseSeriousBloodloss>
+  <!-- EN: too small -->
+  <TooSmall>TODO</TooSmall>
+
+  <!-- Deathrest buildings -->
+  <!-- EN: Bound to -->
+  <BoundTo>TODO</BoundTo>
+  <!-- EN: Will bind permanently on first use. -->
+  <WillBindOnFirstUse>TODO</WillBindOnFirstUse>
+  <!-- EN: Time active this deathrest -->
+  <TimeActiveThisDeathrest>TODO</TimeActiveThisDeathrest>
+  <!-- EN: Minimum is {0} to apply -->
+  <MinimumNeededToApply>TODO</MinimumNeededToApply>
+  <!-- EN: Cannot deathrest -->
+  <CannotAssignBedCannotDeathrest>TODO</CannotAssignBedCannotDeathrest>
+  <!-- EN: Already bound to {0_nameDef} -->
+  <CannotAssignAlreadyBound>TODO</CannotAssignAlreadyBound>
+  <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
+  <CannotAssignBedCannotBindToMoreBuildings>TODO</CannotAssignBedCannotBindToMoreBuildings>
+
+  <!-- Aptitudes -->
+  <!-- EN: aptitude -->
+  <Aptitude>TODO</Aptitude>
+  <!-- EN: aptitudes -->
+  <Aptitudes>TODO</Aptitudes>
+  <!-- EN: aptitudes -->
+  <AptitudePlural>TODO</AptitudePlural>
+  <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
+  <AptitudesDesc>TODO</AptitudesDesc>
+  <!-- EN: total -->
+  <Total>TODO</Total>
   
   <!-- Human pregnancy -->
   <!-- EN: Father -->
   <FatherTip>Otec</FatherTip>
   <!-- EN: Genetic mother -->
   <MotherTip>Genetická matka</MotherTip>
+  <!-- EN: an unoccupied bed -->
+  <RitualTargetChildBirth>TODO</RitualTargetChildBirth>
+  <!-- EN: No appropriate bed for giving birth. -->
+  <NoAppropriateBedChildBirth>TODO</NoAppropriateBedChildBirth>
+  <!-- EN: No doctor around. -->
+  <NoDoctorChildBirth>TODO</NoDoctorChildBirth>
+  <!-- EN: Can't use this bed. -->
+  <CantUseThisBed>TODO</CantUseThisBed>
+  <!-- EN: Not in labor. -->
+  <NotInLabor>TODO</NotInLabor>
+  <!-- EN: labor -->
+  <Labor>TODO</Labor>
+  <!-- EN: dilation -->
+  <LaborDilation>TODO</LaborDilation>
+  <!-- EN: normal -->
+  <PregnancyApproach_Normal>TODO</PregnancyApproach_Normal>
+  <!-- EN: avoid pregnancy -->
+  <PregnancyApproach_AvoidPregnancy>TODO</PregnancyApproach_AvoidPregnancy>
+  <!-- EN: try for baby -->
+  <PregnancyApproach_TryForBaby>TODO</PregnancyApproach_TryForBaby>
+  <!-- EN: pregnancy chance -->
+  <PregnancyChance>TODO</PregnancyChance>
+  <!-- EN: Pregnancy approach -->
+  <PregnancyApproach>TODO</PregnancyApproach>
+  <!-- EN: Click to change pregnancy approach. -->
+  <ClickToChangePregnancyApproach>TODO</ClickToChangePregnancyApproach>
+  <!-- EN: Pregnancy is not possible -->
+  <PregnancyNotPossible>TODO</PregnancyNotPossible>
+  <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
+  <BirthRitualHealthyBabyChance>TODO</BirthRitualHealthyBabyChance>
+  <!-- EN: Giving birth. -->
+  <GivingBirth>TODO</GivingBirth>
+
+  <!-- Shield comp -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>TODO</ShieldEnergy>
+  <!-- EN: Time to recovery -->
+  <ShieldTimeToRecovery>TODO</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
   <Genes>geny</Genes>
+  <!-- EN: The genes associated with this xenotype. -->
+  <GenesDesc>TODO</GenesDesc>
   <!-- EN: suppressed -->
   <Suppressed>utlumený</Suppressed>
+  <!-- EN: active -->
+  <Active>TODO</Active>
   <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
   <SuppressedDesc>Tento rys byl utlumen genem nebo vynuceným genetickým rysem, s nimiž je v konfliktu. Do doby, než budou odstraněny všechny konflikty, nebude aktivní</SuppressedDesc>
   <!-- EN: trait -->
   <Trait>rys</Trait>
+  <!-- EN: gene -->
+  <Gene>TODO</Gene>
   <!-- EN: Added by gene -->
   <AddedByGene>Přidané genem</AddedByGene>
   <!-- EN: Eject all -->
@@ -83,8 +277,16 @@
   <EjectAllDesc>Odhodí všechny obsažené genobalíky na zem.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>Uložených genobalíků</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>Vynucené povahové rysy</ForcedTraits>
+  <!-- EN: Suppressed traits -->
+  <SuppressedTraits>TODO</SuppressedTraits>
+  <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
+  <ForcedTraitsDesc>TODO</ForcedTraitsDesc>
   <!-- EN: Complexity -->
   <Complexity>Složitost</Complexity>
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
@@ -103,26 +305,84 @@
   <MetabolismTotal>Metabolická účinnost</MetabolismTotal>
   <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismTotalDesc>Celková metabolická účinnost všech genů obsažených v daném genomu. Při vysoké účinnosti spotřebuje organismus méně potravy, naopak při nízké účinnosti musí více jíst.</MetabolismTotalDesc>
+  <!-- EN: Number of genes -->
+  <NumberOfGenes>TODO</NumberOfGenes>
+  <!-- EN: Gene price factors -->
+  <GenePriceFactors>TODO</GenePriceFactors>
   <!-- EN: any -->
   <AnyLower>libovolný</AnyLower>
+  <!-- EN: Archite total -->
+  <ArchitesTotal>TODO</ArchitesTotal>
   <!-- EN: Archite capsules -->
   <ArchitesRequired>Architové kapsle</ArchitesRequired>
   <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
   <ArchitesRequiredDesc>Archité jsou archotečtí mechanité - mikroskopická zařízení vytvořená superinteligentními archoteky, která mohou působit přímo na buňky a molekuly. Jsou schopni podávat nevysvětlitelné výkony, navíc některé geny fungují pouze za podpory nadpřirozených strojů archoteků. Lidé nedokáží archity vytvářet - najdou je pouze tehdy, pokud je archotek vytvoří z nějakého nám nepoznaného důvodu.</ArchitesRequiredDesc>
+  <!-- EN: Cancel xenogerm -->
+  <CancelXenogerm>TODO</CancelXenogerm>
+  <!-- EN: Stop all work on the current xenogerm. -->
+  <CancelXenogermDesc>TODO</CancelXenogermDesc>
+  <!-- EN: Allow all genepacks -->
+  <AllowAllGenepacks>TODO</AllowAllGenepacks> 
+  <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
+  <AllowAllGenepacksDesc>TODO</AllowAllGenepacksDesc> 
+  <!-- EN: The genepacks currently inside this container. -->
+  <ContainedGenepacksDesc>TODO</ContainedGenepacksDesc> 
+  <!-- EN: The genepacks designated to be loaded into this container. -->
+  <GenepacksToLoadDesc>TODO</GenepacksToLoadDesc> 
+  <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
+  <GenepacksIgnoredDesc>TODO</GenepacksIgnoredDesc> 
+  <!-- EN: Genepacks to load -->
+  <GenepacksToLoad>TODO</GenepacksToLoad> 
+  <!-- EN: Genepacks to ignore -->
+  <GenepacksToIgnore>TODO</GenepacksToIgnore> 
+  <!-- EN: Eject this genepack from the container. -->
+  <EjectGenepackDesc>TODO</EjectGenepackDesc> 
+  <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
+  <ConfirmRemoveGenepack>TODO</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Chybí potřebný výzkum</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
   <NoGenepacksAvailable>V okolních genových bankách nejsou k dispozici žádné genobalíky.</NoGenepacksAvailable> 
+  <!-- EN: Allow this genepack to be loaded into this container. -->
+  <AddToLoadingListDesc>TODO</AddToLoadingListDesc> 
+  <!-- EN: Remove this genepack from the loading list. -->
+  <RemoveFromLoadingListDesc>TODO</RemoveFromLoadingListDesc> 
   <!-- EN: Recombine -->
   <Recombine>Kombinovat</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
   <RecombineDesc>Stvoří nový implantovatelný xenozárodek využitím dat z genobalíků uložených ve tvé genotéce.</RecombineDesc>
   <!-- EN: Genes -->
   <ContainedGenesDesc>Geny</ContainedGenesDesc>
+  <!-- EN: Order implantation -->
+  <ImplantXenogerm>TODO</ImplantXenogerm>
+  <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
+  <ImplantXenogermDesc>TODO</ImplantXenogermDesc>
+  <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
+  <ImplantXenogermWarningDesc>TODO</ImplantXenogermWarningDesc>
+  <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
+  <ImplantXenogermWarningOverwriteXenogenes>TODO</ImplantXenogermWarningOverwriteXenogenes>
+  <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
+  <ImplantXenogermWarningNewMetabolism>TODO</ImplantXenogermWarningNewMetabolism>
+  <!-- EN: Would you like to continue? -->
+  <WouldYouLikeToContinue>TODO</WouldYouLikeToContinue>
+  <!-- EN: Cancel implanting -->
+  <CancelImplanting>TODO</CancelImplanting>
+  <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
+  <CancelImplantingDesc>TODO</CancelImplantingDesc>
   <!-- EN: Xenotype -->
   <Xenotype>Xenotyp</Xenotype>
+  <!-- EN: unique -->
+  <Unique>TODO</Unique>
   <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
   <UniqueXenotypeDesc>Jedinečná lidská varianta se souborem xenogenů, které nespadají do žádného známého xenotypu.</UniqueXenotypeDesc>
+  <!-- EN: Factor for genetic metabolism -->
+  <FactorForMetabolism>TODO</FactorForMetabolism>
+  <!-- EN: Progress -->
+  <Progress>TODO</Progress>
+  <!-- EN: In sunlight -->
+  <InSunlight>TODO</InSunlight>
+  <!-- EN: {0_labelShort} is exposed to the sky. -->
+  <ThingIsSkyExposed>TODO</ThingIsSkyExposed>
   <!-- EN: Insert person -->
   <InsertPerson>Vložit osobu</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
@@ -131,13 +391,72 @@
   <ConfirmExtractXenogermWillKill>Varování: {PAWN_nameDef} je v procesu obnovy genů. Pokud {PAWN_gender ? mu : jí} budou geny odebrány dříve, než dojde k jejich obnovení, zabije {PAWN_objective} to.\n\nOpravdu si přeješ pokračovat?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
   <GeneExtractionComplete>{PAWN_nameDef} úspěšně {PAWN_gender ? podstoupil : podstoupila} odebrání genů. Odebrané</GeneExtractionComplete>
+  <!-- EN: Insert xenogerm -->
+  <InsertXenogerm>TODO</InsertXenogerm>
+  <!-- EN: Insert a xenogerm to apply during growth. -->
+  <InsertXenogermDesc>TODO</InsertXenogermDesc>
+  <!-- EN: Waiting for {PAWN_nameDef}. -->
+  <WaitingForPawn>TODO</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>{PAWN_nameDef} v procesu odebírání genů.</ExtractingXenogermFrom>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>TODO</ExtractionPausedNoPower>
+  <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
+  <LastIngestedDurationAgo>TODO</LastIngestedDurationAgo>
+  <!-- EN: {NAME} xenogerm -->
+  <NamedXenogerm>TODO</NamedXenogerm>
+  <!-- EN: Inserted {0} -->
+  <InsertedThing>TODO</InsertedThing>
+  <!-- EN: Assembly paused -->
+  <AssemblyPaused>TODO</AssemblyPaused>
+  <!-- EN: Required gene bank unpowered -->
+  <GenebankUnpowered>TODO</GenebankUnpowered>
+  <!-- EN: deathless -->
+  <Deathless>TODO</Deathless>
+  <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
+  <GeneDefChemicalNeedDurationDesc>TODO</GeneDefChemicalNeedDurationDesc>
+  <!-- EN: {CHEMICAL_label} dependency -->
+  <ChemicalDependency>TODO</ChemicalDependency>
+  <!-- EN: Xenogerm -->
+  <Xenogerm>TODO</Xenogerm>
+  <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepDeathrestingLethalInjuries>TODO</PawnWillKeepDeathrestingLethalInjuries>
+  <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepRegeneratingLethalInjuries>TODO</PawnWillKeepRegeneratingLethalInjuries>
+  <!-- EN: Deathrest stopped -->
+  <DeathrestPaused>TODO</DeathrestPaused>
+  <!-- EN: Lethal injuries -->
+  <LethalInjuries>TODO</LethalInjuries>
+  <!-- EN: deathrest -->
+  <Deathrest>TODO</Deathrest>
+  <!-- EN: Buildings -->
+  <Buildings>TODO</Buildings>
+  <!-- EN: capacity -->
+  <Capacity>TODO</Capacity>
+  <!-- EN: Non-{GENE} romance chance -->
+  <MissingGeneRomanceChance>TODO</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
   <NotInGeneBank>Není v genové bance</NotInGeneBank>
 
+  <!-- Child birth -->
+  <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
+  <ChildBirthAlwaysHealthy_Desc>TODO</ChildBirthAlwaysHealthy_Desc>
+  <!-- EN: until the baby is born -->
+  <UntilBabyIsBorn>TODO</UntilBabyIsBorn>
+
+  <!-- EN: Children want to learn from different activities at different times. -->
+  <LearningDesireTooltip>TODO</LearningDesireTooltip>
+  <!-- EN: {0_nameDef}'s current learning desire: -->
+  <LearningDesireTooltip_CurrentDesire>TODO</LearningDesireTooltip_CurrentDesire>
+  <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
+  <DevelopmentHealthGizmoTooltip>TODO</DevelopmentHealthGizmoTooltip>
+
+  <!-- EN: Must not be placed close to another {0_label} -->
+  <MustNotBePlacedCloseToAnother>TODO</MustNotBePlacedCloseToAnother>
   <!-- EN: Next terrain pollution in -->
   <PollutingTerrainProgress>Další znečištění terénu za</PollutingTerrainProgress>
+  <!-- EN: Poisoned {0} -->
+  <PoisonedTerrain>TODO</PoisonedTerrain>
   <!-- EN: Assign to control group {0} -->
   <AssignMechToControlGroup>Přiřadit do ovládané skupiny {0}</AssignMechToControlGroup>
   <!-- EN: Fall per day -->
@@ -146,6 +465,83 @@
   <CannotAssignMechToControlGroup>Nelze přiřadit do ovládané skupiny {0}</CannotAssignMechToControlGroup>
   <!-- EN: Already assigned -->
   <AssignMechAlreadyAssigned>Již přiřazeno</AssignMechAlreadyAssigned>
+
+  <!-- Lactation -->
+  <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
+  <LactatingAddedNutritionPerDay>TODO</LactatingAddedNutritionPerDay>
+  <!-- EN: Lactation is paused because milk fullness is 100% -->
+  <LactatingStoppedBecauseFull>TODO</LactatingStoppedBecauseFull>
+  <!-- EN: Lactation is paused due to starvation. -->
+  <LactatingStoppedBecauseHungry>TODO</LactatingStoppedBecauseHungry>
+
+  <!-- Mech gestating -->
+  <!-- EN: Current gestation cycle -->
+  <CurrentGestationCycle>TODO</CurrentGestationCycle>
+  <!-- EN: Gestation cycles remaining -->
+  <RemainingGestationCycles>TODO</RemainingGestationCycles>
+  <!-- EN: Gestation cycles -->
+  <GestationCycles>TODO</GestationCycles>
+  <!-- EN: Gestating {0} -->
+  <GestatingMech>TODO</GestatingMech>
+  <!-- EN: Gestated {0} -->
+  <GestatedMech>TODO</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to complete -->
+  <GestatedMechRequiresMechanitor>TODO</GestatedMechRequiresMechanitor>
+  <!-- EN: Gestation complete -->
+  <GestationComplete>TODO</GestationComplete>
+  <!-- EN: Resurrecting {0} -->
+  <ResurrectingMech>TODO</ResurrectingMech>
+  <!-- EN: Resurrected {0} -->
+  <ResurrectedMech>TODO</ResurrectedMech>
+
+  <!-- Carrier -->
+  <!-- EN: Release {0} -->
+  <MechCarrierRelease>TODO</MechCarrierRelease>
+  <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
+  <MechCarrierDesc>TODO</MechCarrierDesc>
+  <!-- EN: Not enough resources -->
+  <MechCarrierNotEnoughResources>TODO</MechCarrierNotEnoughResources>
+  <!-- EN: Autofill -->
+  <MechCarrierAutofillResources>TODO</MechCarrierAutofillResources>
+  <!-- EN: Click to set the desired autofill amount. -->
+  <MechCarrierClickToSetAutofillAmount>TODO</MechCarrierClickToSetAutofillAmount>
+  <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
+  <MechCarrierAutofillDesc>TODO</MechCarrierAutofillDesc>
+
+  <!-- Mech power cell -->
+  <!-- EN: Power cell -->
+  <MechPowerCell>TODO</MechPowerCell>
+  <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
+  <MechPowerCellTip>TODO</MechPowerCellTip>
+  
+
+  <!-- Bossgroup -->
+  <!-- EN: available in {0}. -->
+  <BossgroupAvailableIn>TODO</BossgroupAvailableIn>
+  <!-- EN: requires mechanitor -->
+  <RequiresMechanitor>TODO</RequiresMechanitor>
+
+  <!-- Abilities -->
+  <!-- EN: {0_labelShort} is not hemogenic. -->
+  <AbilityDisabledNoHemogenGene>TODO</AbilityDisabledNoHemogenGene>
+  <!-- EN: {0_labelShort} does not have enough hemogen. -->
+  <AbilityDisabledNoHemogen>TODO</AbilityDisabledNoHemogen>
+  <!-- EN: children cannot do this. -->
+  <AbilityStartRitualDisabledChild>TODO</AbilityStartRitualDisabledChild>
+  <!-- EN: need a {0}. -->
+  <AbilityStartRitualNoMembersOfIdeo>TODO</AbilityStartRitualNoMembersOfIdeo>
+  <!-- EN: Hemogen cost -->
+  <AbilityHemogenCost>TODO</AbilityHemogenCost>
+  <!-- EN: Base hemogen gain -->
+  <AbilityHemogenGain>TODO</AbilityHemogenGain>
+  <!-- EN: Smokepop charged -->
+  <AbilityMechSmokepopCharged>TODO</AbilityMechSmokepopCharged>
+  <!-- EN: Smokepop recharged in {0} -->
+  <AbilityMechSmokepopRecharging>TODO</AbilityMechSmokepopRecharging>
+  <!-- EN: Firefoam pop charged -->
+  <AbilityMechFirefoampopCharged>TODO</AbilityMechFirefoampopCharged>
+  <!-- EN: Firefoam pop recharged in {0} -->
+  <AbilityMechFirefoampopRecharging>TODO</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>{0_gender ? Znečištěný : Znečištěná : Znečištěné} {0}</PollutedTerrain>
@@ -157,7 +553,7 @@
   <BiostarvationExplanation>V jedné nebo více růstových kádích dochází k biohladovění z nedostatku výživy nebo energie.\n\nPokud biohladovění dosáhne 100%, jedinci v nich obsažení zemřou.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Vloží osobu do růstové kádě. Bude stárnout 20krát rychleji než normálně.</InsertPersonGrowthVatDesc>
-  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>Implantuje embryo do růstové kádě. Po 18 dnech vývoje se v kádi zformuje plně vyvinuté dítě, doufej, že v dobrém zdravotním stavu.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Vložit embryo</ImplantEmbryo>
@@ -171,8 +567,14 @@
   <EmbryoTimeUntilBirth>Doba do narození</EmbryoTimeUntilBirth>
   <!-- EN: Birth quality -->
   <EmbryoBirthQuality>Kvalita narození</EmbryoBirthQuality>
+  <!-- EN: Embryo selected -->
+  <EmbryoSelected>TODO</EmbryoSelected>
+  <!-- EN: Person selected -->
+  <PersonSelected>TODO</PersonSelected>
   <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
   <NoPawnsCanEnterGrowthVat>Žádné osoby v přijatelném věku. Pro vstup do růstové kádě musí být osoba mladší {0} let a v současné době nesmí trpět biohladověním.</NoPawnsCanEnterGrowthVat>
+  <!-- EN: Aging speed -->
+  <AgingSpeed>TODO</AgingSpeed>
 
   <!-- Mech charger -->
   <!-- EN: Waste -->
@@ -188,17 +590,29 @@
   <!-- EN: Frozen (won't dissolve). -->
   <DissolutionFrozen>Zmražené (nerozpustí se).</DissolutionFrozen>
 
+  <!-- EN: {0} cells / day -->
+  <CellsPerDay>TODO</CellsPerDay>
+
+  <!-- EN: {0} cannot wear clothing for {1} -->
+  <WrongDevelopmentalStageForClothing>TODO</WrongDevelopmentalStageForClothing> 
+
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
   <SubcoreScannerStart>Zahájit snímání</SubcoreScannerStart>
   <!-- EN: Produces -->
   <SubcoreScannerProduces>Vytvoří</SubcoreScannerProduces>
+  <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
+  <SubcoreScannerStartDesc>TODO</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>Dokončeno bude za</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
   <SubcoreScannerWaitingForOccupant>Čeká se na obsazení</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Čeká se na suroviny</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
+  <!-- EN: Has {0} -->
+  <SubcoreScannerPawnHasSickness>TODO</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
   <SubcoreScannerBabyNotAllowed>Kojenci nejsou dovoleni</SubcoreScannerBabyNotAllowed>
   <!-- EN: Insert a person into the {0}. -->
@@ -220,10 +634,29 @@
   <Baby>nemluvně</Baby>
   <!-- EN: babies -->
   <Babies>nemluvňata</Babies>
+  <!-- EN: feral child -->
+  <FeralChild>TODO</FeralChild>
   <!-- EN: Wearable by -->
   <WearableBy>Může nosit</WearableBy>
 
+  <!-- EN: Xenogerm implantation -->
+  <Reward_ReimplantXenogerm_Label>TODO</Reward_ReimplantXenogerm_Label>
+  <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
+  <Reward_ReimplantXenogerm_Desc>TODO</Reward_ReimplantXenogerm_Desc>
+
+  <!-- Mech resurrection -->
+  <!-- EN: Mech resurrection charges -->
+  <MechResurrectionCharges>TODO</MechResurrectionCharges>
+
+  <!-- Mechs -->
+  <!-- EN: Mech stun pulse on death -->
+  <MechStunPulseWarning>TODO</MechStunPulseWarning>
+  <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
+  <IsLowEnergySelfShutdown>TODO</IsLowEnergySelfShutdown>
+  
   <!-- Pollution -->
+  <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
+  <ShowPollutionOverlayToggleButton>TODO</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
   <TilePollutionNone>Žádné</TilePollutionNone>
   <!-- EN: Light -->
@@ -252,14 +685,44 @@
   <CanAbsorbPollution>Může pohlcovat znečištění z blízkého terénu.</CanAbsorbPollution>
   <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>Pohlcuje znečištění: K dalšímu dojde za {0}</AbsorbingPollutionNext>
+  <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
+  <TerrainPollutionTip>TODO</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
   <StudyRequirementTip>Vyžaduje podrobné zkoumání</StudyRequirementTip>
+
+  <!-- Insect -->
+  <!-- EN: Trigger radius -->
+  <TriggerRadius>TODO</TriggerRadius>
+  <!-- EN: Opening -->
+  <DormantCompOpening>TODO</DormantCompOpening>
   
   <!-- Fertility -->
+  <!-- EN: ova extracted recently -->
+  <SurgeryDisableReasonOvumExtracted>TODO</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>TODO</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>TODO</FertilizeThing>
+  <!-- EN: Cannot fertilize -->
+  <FertilizeCannotFloatOption>TODO</FertilizeCannotFloatOption>
+  <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
+  <FertilizeGizmoDescription>TODO</FertilizeGizmoDescription>
+  <!-- EN: Cancel fertilization by {0} -->
+  <FertilizeCancel>TODO</FertilizeCancel>
   <!-- EN: sterile -->
   <CannotSterile>sterilní</CannotSterile>
+  <!-- EN: pregnant -->
+  <CannotPregnant>TODO</CannotPregnant>
+  <!-- EN: must be {0} -->
+  <CannotMustBeAge>TODO</CannotMustBeAge>
+  <!-- EN: already having embryo implanted -->
+  <CannotImplantingOtherEmbryo>TODO</CannotImplantingOtherEmbryo>
+  <!-- EN: {0} ({1}) -->
+  <DisabledOption>TODO</DisabledOption>
+  <!-- EN: No men can fertilize this ovum. -->
+  <FertilizeDisabledNoMales>TODO</FertilizeDisabledNoMales>
   
   <!-- EN: Implant embryo -->
   <ImplantLabel>Implantovat embryo</ImplantLabel>
@@ -268,9 +731,44 @@
   <!-- EN: Insert in growth vat -->
   <InsertGrowthVatLabel>Vložit do růstové kádě</InsertGrowthVatLabel>
 
+  <!-- EN: Cannot implant -->
+  <ImplantCannotFloatOption>TODO</ImplantCannotFloatOption>
+  <!-- EN: No woman can be a surrogate mother. -->
+  <ImplantDisabledNoWomen>TODO</ImplantDisabledNoWomen>
   <!-- EN: No available growth vats. -->
   <ImplantDisabledNoVats>Nejsou dostupné žádné růstové kádě.</ImplantDisabledNoVats>
+  <!-- EN: Implant {0} -->
+  <ImplantSurgeryLabel>TODO</ImplantSurgeryLabel>
+  <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
+  <ImplantSurgeryConfirm>TODO</ImplantSurgeryConfirm>
+  <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
+  <ImplantEmbryoCancelVat>TODO</ImplantEmbryoCancelVat>
+  <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
+  <ImplantFailedMessage>TODO</ImplantFailedMessage>
   <!-- EN: Cancel embryo insertion -->
   <ImplantEmbryoCancel>Zrušit vkládání embrya</ImplantEmbryoCancel>
+  <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
+  <EmbryoEjectedFromGrowthVat>TODO</EmbryoEjectedFromGrowthVat>
+  <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
+  <EmbryoEjectedFromGrowthVatBiostarvation>TODO</EmbryoEjectedFromGrowthVatBiostarvation>
+
+  <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
+  <IvfPregnancyLetterText>TODO</IvfPregnancyLetterText>
+  <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
+  <IvfPregnancyLetterParents>TODO</IvfPregnancyLetterParents>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>TODO</ProjectileInterceptorTip>
+
+  <!-- Remote mech shield -->
+  <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
+  <RemoteMechShieldTip>TODO</RemoteMechShieldTip>
+
+  <!-- Thoughtdef fallbacks -->
+  <!-- EN: my child is happy -->
+  <MyChildIsHappy>TODO</MyChildIsHappy>
+  <!-- EN: my child is sad -->
+  <MyChildIsSad>TODO</MyChildIsSad> 
 
 </LanguageData>

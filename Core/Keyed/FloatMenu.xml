@@ -35,6 +35,8 @@
   <IsIncapableOfViolenceLower>{1_labelShort} není {1_gender ? schopen : schopna} násilí</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>neschopen násilí</IncapableOfViolenceLower>
+  <!-- EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>TODO</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort} není {1_gender ? povolán : povolána}</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
@@ -43,6 +45,8 @@
   <CannotAttackSelf>nelze útočit na sebe</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>nelze útočit na frakční spojence</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>TODO</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Obsluhovat - {1_labelShort}</OrderManThing>
@@ -55,6 +59,8 @@
   <NoPath>žádná cesta</NoPath>
   <!-- EN: burying -->
   <Burying>pohřbít</Burying>
+  <!-- EN: designated for {0} -->
+  <DesignatedFor>TODO</DesignatedFor>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>zakázáno</ForbiddenLower>
@@ -70,22 +76,30 @@
   <NoMergeTarget>žádná dostupná hromádka pro sloučení</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>již naplněno</AlreadyFilledLower>
-  <!-- EN: need material -->
+  <!-- EN: missing {0} -->
   <MissingMaterials>chybí materiály</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>TODO</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>potřebuje dovednost na úrovni {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
   <UnderAllowedSkill>je nastavena minimální úroveň dovednosti {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>je nastavena maximální úroveň dovednosti {0}</AboveAllowedSkill>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>TODO</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>chybí požadovaná úroveň dovednosti</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>interakce se zvířetem proběhla před příliš krátkou dobou</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>žádné použitelné jídlo</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>žádné jídlo</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>TODO</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>{0_gender ? Žádný : Žádná : Žádné} {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -106,6 +120,10 @@
   <CantRopeAnimalNoAllowedPens>žádný povolený výběh</CantRopeAnimalNoAllowedPens>
   <!-- EN: no reachable pens -->
   <CantRopeAnimalNoReachablePens>žádný dosažitelný výběh</CantRopeAnimalNoReachablePens>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>TODO</CantRopeAnimalCantTouch>
+  <!-- EN: no space in pen -->
+  <CantRopeAnimalNoSpace>TODO</CantRopeAnimalNoSpace>
   <!-- EN: {0_labelShort} is in {1} state -->
   <CantRopeAnimalMentalState>{0_labelShort} je ve stavu '{1}'</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
@@ -148,14 +166,24 @@
   <InstallImplantNotAllowedForNonColonists>není kolonista</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>již implantováno</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>dosažena maximální úroveň</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>TODO</InstallImplantMinLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Vylepšit {0} na úroveň {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>poranění frakčního spojence</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>zrovna to někam přenáší {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>TODO</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>již přidělěno</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Zkonzumovat {1_labelShort}</ConsumeThing>
@@ -183,6 +211,10 @@
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Zachránit - {1_label}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>TODO</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>TODO</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Nelze zachránit</CannotRescue>
 
@@ -223,6 +255,8 @@
   <Incapable>nezpůsobilý</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>není způsobilý {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>TODO</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>min. dovednost</MinSkill>
@@ -253,13 +287,15 @@
   <ReloadFull>Plně nabito</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Nedostatečné množství</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
+  <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Nelze sebrat - {1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Nelze sebrat - {1_label} (vše)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Sebrat - {1_label}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>TODO</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Sebrat - {1_label} (vše)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -323,6 +359,11 @@
   <!-- EN: would replace locked apparel -->
   <WouldReplaceLockedApparel>nahradilo by uzamčené oblečení</WouldReplaceLockedApparel>
 
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>TODO</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label} -->
+  <PlaceIn>TODO</PlaceIn>
+
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Provést zde sebezničení</SelfDestructHere>
   
@@ -333,6 +374,10 @@
   <UseMedicalBed>Odpočívat až do uzdravení</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>Není zraněný</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>TODO</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>TODO</NotForSlaves><!-- text_todo -->
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>Obsazeno - {0}</SomeoneElseSleeping>
   
@@ -464,6 +509,8 @@
   <GiveToCaravan>Poskytnout podporu - {0}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Nabídnout jako dar frakci {0} ({1} prestiže)</GiveGiftViaTransportPods>
+  <!-- EN: Not part of launch group -->
+  <NotPartOfLaunchGroup>TODO</NotPartOfLaunchGroup>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
@@ -476,6 +523,10 @@
 
   <!-- EN: Too dangerous -->
   <EnterCooldownBlocksEntering>Příliš nebezpečné</EnterCooldownBlocksEntering>
+
+  <!-- CommsConsole -->
+  <!-- EN: Nobody to call -->
+  <NoCommsTarget>TODO</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
   <Invoke>Probudit {0}</Invoke>
@@ -499,5 +550,18 @@
   <RepairThing>Opravit - {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Nelze opravit - {0}</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>Nelze vstoupit</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>TODO</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>TODO</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>TODO</WarningFoodDisliked>
+
 </LanguageData>

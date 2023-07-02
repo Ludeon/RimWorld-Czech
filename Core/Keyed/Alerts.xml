@@ -25,6 +25,8 @@
   <ColonistsNeedRescue>Kolonisté potřebují zachránit</ColonistsNeedRescue>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>Tito kolonisté leží na zemi v bezvědomí:\n\n{0}\nPošli k němu jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni pravým tlačítkem na oběť a vyber Zachraň!)</ColonistsNeedRescueDesc>
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDescController>TODO</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>Potřebuješ obranu</NeedDefenses>
@@ -128,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Potřebuješ baterie</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
   <NeedBatteriesDesc>Máš sice solární nebo větrný generátor, ale žádné baterie. To znamená, že o elektřinu přijdeš pokaždé, když zapadne slunce nebo přestane foukat vítr.\n\nPostav jednu nebo dvě baterie, aby sis zajistil stálý přísun elektrické energie.</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>TODO</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>TODO</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Rváč má zbraň na dálku</BrawlerHasRangedWeapon>
@@ -156,10 +162,12 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>Tyto karavany čekají, až jim nastavíš další cílovou destinaci:\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
+  <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>Kolonista potřebuje ošetřit</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Tito kolonisté potřebují lékařskou péči. Bez ní mohou zemřít, nebo budou mít trvalé následky.\n\n{0}\nPošli je do zdravotnické postele.\n\n(Nejprve vyber postel a nastav ji jako zdravotnickou. Poté vyber raněného kolonistu a pravým tlačítkem myši klikni na zdravotnickou postel, čímž se kolonista stane pacientem.)</ColonistNeedsTreatmentDesc>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>TODO</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Podchlazení</AlertHypothermia>
@@ -187,6 +195,16 @@
   <BilliardsNeedsSpace>Kulečník potřebuje volný prostor</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Jeden z tvých kulečníkových stolů přiléhá k překážce, která brání kolonistům v jeho používání.\n\nAby bylo možné kulečníkový stůl používat, musí mít kolem sebe na všech stranách volný prostor.</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>TODO</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>TODO</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>TODO</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>TODO</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Lovec má štít a zbraň na dálku</HunterHasShieldAndRangedWeapon>
@@ -311,4 +329,9 @@
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
   <AlertMinifiedTreeAboutToDieDesc>Za méně než jeden den {replace: ​{0}​; "​1​"-"uhyne 1 vykopaný strom"; "​2​"-"uhynou 2 vykopané stromy"; "​3​"-"uhynou 3 vykopané stromy"; "​4​"-"uhynou 4 vykopané stromy"; "​{0}​"-"uhyne {0} vykopaných stromů"}. To způsobí, že někteří kolonisté budou nešťastní kvůli jejich přesvědčení.\n\nMůžeš tomu zabránit tím, že {replace: ​{0}​; "​1​"-"tento strom"; "​{0}​"-"tyto stromy"} znovu zasadíš.\n\nPostihnuti by byli následující kolonisté</AlertMinifiedTreeAboutToDieDesc>
 
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>TODO</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>TODO</NeedResearchBenchDesc>
+  
 </LanguageData>
