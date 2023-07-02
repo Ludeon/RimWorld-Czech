@@ -110,7 +110,7 @@
   <FactorForMovement>Násobitel pro mobilitu</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Cena pro otrokáře</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
+  <!-- EN: The base market value of this slave if sold. -->
   <SlavePriceDescription>Základní tržní hodnota, jakou má {0} při prodeji.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Dostává jídlo</GetsFood>
@@ -124,6 +124,23 @@
   <ConsideredGuilty>Považován za vinného (vyprší za {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Považován za vinného</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>TODO</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>TODO</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -150,7 +167,7 @@
   <PainLevel>Bolest</PainLevel>
   <!-- EN: Injured -->
   <Injured>Zraněný</Injured>
-  <!-- EN: Untended injury -->
+  <!-- EN: untended injury -->
   <UntendedInjury>Neošetřené zranění</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>žádné zdravotní problémy</NoHealthConditions>
@@ -172,7 +189,7 @@
   <HealthOverview>Přehled</HealthOverview>
   <!-- EN: Operations -->
   <MedicalOperationsShort>Operace</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
+  <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>Modifikací ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Lékařských zákroků</MedicalOperations>
@@ -188,6 +205,8 @@
   <SocialInteractionsLower>sociální interakce</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Míra hladu</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>TODO</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Únava</Tiredness>
   <!-- EN: Pain -->
@@ -401,7 +420,7 @@
   <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>Ohrada není aktuálně zcela uzavřená, takže k automatickému sekání nedojde.</AutocutUnenclosedPenTip>
 
-  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Automatické sekání rostlin</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

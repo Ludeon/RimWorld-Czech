@@ -72,6 +72,11 @@
   <MessageAnimalsGoPsychoHunted>Varování: {ANIMAL_kindBase} má v základu {1} šanci, že se při zranění začne bránit. Šance závisí na vzdálenosti a maskovací schopnosti lovce.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Varování: {ANIMAL_kindBase} může po neúspěšném pokusu o ochočení zaútočit (šance {1}).</MessageAnimalManhuntsOnTameFailed>
+  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
+  <MessageInsectTameDesignated>TODO</MessageInsectTameDesignated>
+
+  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
+  <MessageInsectsHostileOnTaming>TODO</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nový rekrut</LetterLabelMessageRecruitSuccess>
@@ -134,6 +139,10 @@
   <MessageMustDesignateForbiddable>Musíš označit povolené předměty.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Musíš označit zakázané předměty.</MessageMustDesignateUnforbiddable>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>TODO</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>TODO</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} {1_gender ? odmítl : odmítla} být {1_gender ? zadržen : zadržena}!</MessageRefusedArrest>
@@ -142,8 +151,8 @@
   <MessageNoMedicalBeds>Nejsou k dispozici žádné zdravotnické postele.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Nejsou k dispozici žádná místa pro zvířata, na kterých by mohla spát.</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>{PAWN_labelShort} je aktuálně v režimu '{2}'. K operaci je nicméně zapotřebí {0}, případně lepší léčivo.</MessageTooLowMedCare>
+  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
+  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}</PawnDiedBecauseOf>
@@ -586,6 +595,8 @@
   <!-- EN: Recruitment attempts will begin. -->
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Od tohoto okamžiku mohou pokusy o verbování začít.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
+  <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
+  <MessageModWithPackageIdAlreadyEnabled>TODO</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Před použitím tohoto nástroje deaktivuj všechny mody.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
@@ -622,6 +633,9 @@
   <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
   <MessageNoResearchBenchForTechprint>Nelze aplikovat: Není k dispozici žádné dosažitelné, nerezervovavé výzkumné stanoviště.</MessageNoResearchBenchForTechprint>
 
+  <!-- EN: No valid destination found for {0} -->
+  <NoValidDestinationFound>TODO</NoValidDestinationFound>
+
   <!-- EN: An extracted tree just died. -->
   <MessageMinifiedTreeDied>Právě uhynul vykopaný strom.</MessageMinifiedTreeDied>
   
@@ -631,6 +645,9 @@
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
   <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? narušil : narušila} snímaný prostor detektoru pohybu a {0_gender ? spustil : spustila} tak alarm.</MessageActivatorProximityTriggered>
+
+  <!-- EN: {0_label} is currently hidden. -->
+  <MessageCannotSelectInvisibleStat>TODO</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} je {PAWN_gender ? zajatec : zajatkyně}</MessagePrisonerCannotEquipWeapon>
@@ -650,6 +667,8 @@
   <AssignToRole>Přiřadit k: {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
   <RitualBegun>{0} právě začíná.</RitualBegun>
+  <!-- EN: The maximum number of {0}s is {1}. -->
+  <MaxPawnsPerRole>TODO</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->
   <RoleIsLocked>Role {lookup: {0}; case\singular; 2} je uzamčena.</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
@@ -666,6 +685,10 @@
   <MessageRitualPawnPrisonerNotSecured>{0_labelShort} je momentálně na útěku.</MessageRitualPawnPrisonerNotSecured>
   <!-- EN: {0_labelShort} is currently rebelling. -->
   <MessageRitualPawnSlaveNotSecured>{0_labelShort} se momentálně bouří.</MessageRitualPawnSlaveNotSecured>
+  <!-- EN: {0_labelShort} is being released. -->
+  <MessageRitualPawnReleased>TODO</MessageRitualPawnReleased>
+  <!-- EN: {0_labelShort} is injured. -->
+  <MessageRitualPawnInjured>TODO</MessageRitualPawnInjured>
   <!-- EN: {0_labelShort} must hold one of these roles -->
   <MessageRitualRoleRequired>{0_labelShort} musí zastávat jednu z těchto rolí</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
@@ -674,14 +697,32 @@
   <MessageRitualRoleMustBeAnimal>{0} musí být zvíře.</MessageRitualRoleMustBeAnimal>
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} musí být {replace: {0}; "Účastníci"-"lidé"; "Přihlížející"-"lidé"; "{0}"-"člověk"}.</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeABaby>TODO</MessageRitualRoleCannotBeABaby>
+  <!-- EN: No roles available for {0_labelShort}. -->
+  <MessageRitualNoRolesAvailable>TODO</MessageRitualNoRolesAvailable>
+  <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
+  <MessageRitualNotOfPlayerIdeo>TODO</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} musí mít oči.</MessageRitualRoleMustHaveEyes>
+  <!-- EN: {0_labelShort} does not require further scarification. -->
+  <MessageRitualRoleMustRequireScarification>TODO</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0_labelShort} does not require blinding. -->
+  <MessageRitualRoleMustRequireBlinding>TODO</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} musí být vězeň nebo otrok.</MessageRitualRoleMustBePrisonerOrSlave>
+  <!-- EN: {0_labelShort} must be capable of fighting. -->
+  <MessageRitualRoleMustBeCapableOfFighting>TODO</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>tuto roli nemůže zastávat nikdo jiný.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
+  <MessageRitualRolePawnRecentlyTornConnection>TODO</MessageRitualRolePawnRecentlyTornConnection>
+  <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
+  <MessageRitualRolePawnHasSameIdeo>TODO</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} musí být {0_gender ? schopen : schopna} vykonávat činnost dozorce.</MessageRitualRoleMustBeCapableOfWardening>
+  <!-- EN: {0} must be capable of {1}. -->
+  <MessageRitualRoleMustBeCapableOfGeneric>TODO</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>vězni {replace: nemohou {0}; "nemohou účastnit"-"se nemohou účastnit"}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -690,8 +731,29 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>pouze {0} smí plnit roli {lookup: {1}; case\singular; 2}.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>pro roli {lookup: {0}; case\singular; 2} musí být kolonistou.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
+  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <!-- EN: must be colonist and not enslaved for the {0} role. -->
+  <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
+  <!-- EN: {0} must have an animal with min body size of {1}. -->
+  <MessageRitualRoleMustHaveLargerBodySize>TODO</MessageRitualRoleMustHaveLargerBodySize>
+  <!-- EN: {0_labelShort} is in a mental state. -->
+  <MessageRitualPawnMentalState>TODO</MessageRitualPawnMentalState>
   <!-- EN: {0_labelShort} is already {1}. -->
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} už je {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
+  <MessageRitualCannotAssignAnyRoleFromSpectating>TODO</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
+  <MessageRitualRoleMustNotBeImprisonedWildMan>TODO</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <!-- EN: {0} must be free. -->
+  <MessageRitualRoleMustNotBeImprisoned>TODO</MessageRitualRoleMustNotBeImprisoned>
+  <!-- EN: {0} cannot be a child. -->
+  <MessageRitualRoleCannotBeChild>TODO</MessageRitualRoleCannotBeChild>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeBaby>TODO</MessageRitualRoleCannotBeBaby>
+
+  <!-- EN: You must select a site to continue. -->
+  <MessagePlayerMustSelectTile>TODO</MessagePlayerMustSelectTile>
 
   <!-- EN: Cannot plant {0_labelShort} -->
   <CannotPlantThing>{lookup: {0_labelShort}; case\singular; 4} nelze zasadit</CannotPlantThing>
@@ -699,8 +761,32 @@
   <MessageWarningNotEnoughFertility>Vyžaduje úrodnější půdu.</MessageWarningNotEnoughFertility>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>překážející {0_label}.</BlockedBy>
+  <!-- EN: Cannot be planted next to {0_label}. -->
+  <AdjacentSowBlocker>TODO</AdjacentSowBlocker>
+  <!-- EN: Too close to {0_label}. -->
+  <TooCloseToOtherPlant>TODO</TooCloseToOtherPlant>
+  <!-- EN: Too close to {0}'s planting location. -->
+  <TooCloseToOtherSeedPlantCell>TODO</TooCloseToOtherSeedPlantCell>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Varování: {0} byl označen k pokácení.</MessageWarningCutImportantPlant>
+
+  <!-- EN: {0_labelShort} is incapable of manipulation. -->
+  <MessageIncapableOfManipulation>TODO</MessageIncapableOfManipulation>
+
+  <!-- EN: {0_labelShort} activation canceled -->
+  <MessageActivationCanceled>TODO</MessageActivationCanceled>
+
+  <!-- EN: Nothing is currently buildable in category -->
+  <NothingAvailableInCategory>TODO</NothingAvailableInCategory>
+
+  <!-- EN: Storage settings linked for {0} buildings. -->
+  <SettingsLinkedFor>TODO</SettingsLinkedFor>
+  <!-- EN: Storage settings unlinked for {0} buildings. -->
+  <SettingsUnlinkedFor>TODO</SettingsUnlinkedFor>
+  <!-- EN: Storage settings copied to clipboard. -->
+  <StorageSettingsCopiedToClipboard>TODO</StorageSettingsCopiedToClipboard>
+  <!-- EN: Storage settings pasted from clipboard. -->
+  <StorageSettingsPastedFromClipboard>TODO</StorageSettingsPastedFromClipboard>
 
 </LanguageData>

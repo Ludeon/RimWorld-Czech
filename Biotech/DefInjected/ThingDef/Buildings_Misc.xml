@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: band node -->
+  <BandNode.label>TODO</BandNode.label>
+  <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+  <BandNode.description>TODO</BandNode.description>
+  
+  <!-- EN: mechband antenna -->
+  <BurnoutMechlinkBooster.label>TODO</BurnoutMechlinkBooster.label>
+  <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
+  <BurnoutMechlinkBooster.description>TODO</BurnoutMechlinkBooster.description>
+  <!-- EN: Summon warqueen threat -->
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>TODO</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  
   <!-- EN: gene assembler -->
   <GeneAssembler.label>genový sestavovač</GeneAssembler.label>
   <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
@@ -26,10 +38,27 @@
   <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
   <GrowthVat.description>Nádrž s kapalinou, ve které lze vyvíjet embryo nebo urychlovat růst dítěte.\n\nBěhem růstu nebo vývoje musí být káď neustále zásobena živinami, aby měla k růstu dostatek suroviny. Vývoj embrya vyžaduje dvakrát více výživy než zrychlený růst dítěte.\n\nVývoj embrya trvá 9 dnů, než se z něj stane dítě. Během této doby existuje riziko zdravotních komplikací.\n\nRůst dítěte lze urychlit pouze do 18 let, nikoli však déle. Během růstu se dovednosti dítěte pomalu zvyšují. Děti vypěstované v růstových kádích budou mít slabší dovednosti a nezískají tolik vášní jako za normálních okolností.\n\nK popohnání těla k růstu přístroj využívá chemické injektáže, elektrostimulaci a jednoduché ošetřování pomocí mechanitů. Růstové kádě se často využívají k rychlému vyrábění geneticky vyšlechtěných dělníků či válečníků.</GrowthVat.description>
   
+  <!-- EN: mechband dish -->
+  <MechbandDish.label>TODO</MechbandDish.label>
+  <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <MechbandDish.description>TODO</MechbandDish.description>
+  <!-- EN: Summon apocriton threat -->
+  <MechbandDish.comps.CompUsable.useLabel>TODO</MechbandDish.comps.CompUsable.useLabel>
+  
+  <!-- EN: mech booster -->
+  <MechBooster.label>TODO</MechBooster.label>
+  <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
+  <MechBooster.description>TODO</MechBooster.description>
+  
   <!-- EN: pollution pump -->
   <PollutionPump.label>detoxikační čerpadlo</PollutionPump.label>
   <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
   <PollutionPump.description>Čerpadlo, které filtrací spodních vod pomalu čistí kontaminovaný terén. Odčerpané znečištění se přeměňuje na nebezpečné toxivaky, které se následně musí odnést.</PollutionPump.description>
+  
+  <!-- EN: blood torch -->
+  <SanguphageMeetingTorch.label>TODO</SanguphageMeetingTorch.label>
+  <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
+  <SanguphageMeetingTorch.description>TODO</SanguphageMeetingTorch.description>
   
   <!-- EN: crashed shuttle -->
   <ShuttleCrashed_Exitable.label>havarovaný raketoplán</ShuttleCrashed_Exitable.label>
@@ -45,5 +74,15 @@
   <ToxifierGenerator.label>toxifikační generátor</ToxifierGenerator.label>
   <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
   <ToxifierGenerator.description>Tento elektrický generátor velmi pomalu znečišťuje terén v okruhu kolem sebe a zároveň vyrábí elektrickou energii. Jakmile dojde v daném okruhu k zamoření veškerého terénu, generátor se vypne.</ToxifierGenerator.description>
+  
+  <!-- EN: IED tox trap -->
+  <TrapIED_ToxGas.label>TODO</TrapIED_ToxGas.label>
+  <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
+  <TrapIED_ToxGas.description>TODO</TrapIED_ToxGas.description>
+  
+  <!-- EN: wastepack atomizer -->
+  <WastepackAtomizer.label>TODO</WastepackAtomizer.label>
+  <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
+  <WastepackAtomizer.description>TODO</WastepackAtomizer.description>
   
 </LanguageData>

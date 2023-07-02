@@ -5,6 +5,9 @@
   <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
   <CommandAutoRepairDesc>Pokud je tato volba aktivní, mechanitor bude automaticky opravovat tohoto mechanoida. Při opravě mechanoida dochází k vybíjení jeho energie.</CommandAutoRepairDesc>
 
+  <!-- EN: {0_labelShort} is deathresting. -->
+  <CommandDisabledDeathresting>TODO</CommandDisabledDeathresting>
+
   <!-- EN: Cancel vatgrowth -->
   <CommandCancelGrowth>Zrušit proces vývoje</CommandCancelGrowth>
   <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
@@ -22,9 +25,38 @@
   <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
   <CommandCancelExtractionDesc>Přeruší probíhající extrakční proces. Osoba, která se nachází uvnitř, bude vyhozena ven.</CommandCancelExtractionDesc>
 
+  <!-- EN: Summon mech threat... -->
+  <CommandCallBossgroup>TODO</CommandCallBossgroup>
+  <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
+  <CommandCallBossgroupDesc>TODO</CommandCallBossgroupDesc>
+
+  <!-- EN: Toggle auto load {0} -->
+  <CommandAutoLoad>TODO</CommandAutoLoad>
+  <!-- EN: If active, colonists will automatically load this with {0}. -->
+  <CommandAutoLoadDesc>TODO</CommandAutoLoadDesc>
+
+  <!-- EN: Eject contents -->
+  <CommandEjectContents>TODO</CommandEjectContents>
+  <!-- EN: Eject all contained {0} onto the ground. -->
+  <CommandEjectContentsDesc>TODO</CommandEjectContentsDesc>
+
   <!-- EN: Select all mechs -->
   <CommandSelectAllMechs>Vybrat všechny mechy</CommandSelectAllMechs>
   <!-- EN: Select all mechanoids controlled by this mechanitor. -->
   <CommandSelectAllMechsDesc>Vybere všechny mechanoidy ovládané tímto mechanitorem.</CommandSelectAllMechsDesc>
 
+  <!-- EN: Turret enabled -->
+  <CommandToggleTurret>TODO</CommandToggleTurret>
+  <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
+  <CommandToggleTurretDesc>TODO</CommandToggleTurretDesc>
+
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>TODO</CommandCancelSubcoreScan>
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>TODO</CommandCancelSubcoreScanDesc>
+
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>TODO</ForceXenogermImplantation>
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>TODO</ForceXenogermImplantationDesc>
 </LanguageData>

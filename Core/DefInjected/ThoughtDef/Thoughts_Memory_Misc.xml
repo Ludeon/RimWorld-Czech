@@ -16,6 +16,9 @@
   <!-- EN: I butchered someone up like an animal. -->
   <ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>Někoho jsem {PAWN_gender ? naporcoval : naporcovala}, jako by to bylo jen nějaké zvíře.</ButcheredHumanlikeCorpse.stages.I_butchered_humanlike.description>
   
+  <!-- EN: butchered humanlike corpse -->
+  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>TODO</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
+  
   <!-- EN: catharsis -->
   <Catharsis.stages.catharsis.label>uvolnění napětí</Catharsis.stages.catharsis.label>
   <!-- EN: It felt good to finally unbottle my feelings. -->
@@ -23,13 +26,18 @@
   
   <!-- EN: colonist banished -->
   <ColonistBanished.stages.colonist_banished.label>vyhoštěný kolonista</ColonistBanished.stages.colonist_banished.label>
-  <!-- EN: We just banished someone. I hope they'll make it, but I'm worried. -->
+  <!-- EN: We just banished someone. I hope they make it, but I'm worried. -->
   <ColonistBanished.stages.colonist_banished.description>Právě jsme někoho vyhostili. Doufám, že to zvládne, ale mám o něj strach.</ColonistBanished.stages.colonist_banished.description>
   
   <!-- EN: colonist banished to death -->
   <ColonistBanishedToDie.stages.colonist_banished_to_death.label>vyhoštěný kolonista (jistá smrt)</ColonistBanishedToDie.stages.colonist_banished_to_death.label>
   <!-- EN: We banished someone in such a way that there's almost no way they'll survive. -->
   <ColonistBanishedToDie.stages.colonist_banished_to_death.description>Vyhostili jsme někoho takovým způsobem, že je jen mizivá šance, že přežije.</ColonistBanishedToDie.stages.colonist_banished_to_death.description>
+  
+  <!-- EN: Colonist prisoner escaped -->
+  <ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.label>TODO</ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.label>
+  <!-- EN: Can't we keep control of our own people? I feel like anything could happen to me here. -->
+  <ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.description>TODO</ColonyPrisonerEscaped.stages.Colonist_prisoner_escaped.description>
   
   <!-- EN: defeated hostile leader {0} -->
   <DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>{PAWN_gender ? Porazil : Porazila} vůdce nepřátel ({0})</DefeatedHostileFactionLeader.stages.defeated_hostile_leader.label>
@@ -39,10 +47,20 @@
   <!-- EN: defeated hostile leader -->
   <DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>{PAWN_gender ? Porazil : Porazila} vůdce nepřátel</DefeatedHostileFactionLeaderOpinion.stages.defeated_hostile_leader.label>
   
+  <!-- EN: defeated insect hive -->
+  <DefeatedInsectHive.stages.defeated_insect_hive.label>TODO</DefeatedInsectHive.stages.defeated_insect_hive.label>
+  <!-- EN: The only good bug is a dead bug! -->
+  <DefeatedInsectHive.stages.defeated_insect_hive.description>TODO</DefeatedInsectHive.stages.defeated_insect_hive.description>
+  
   <!-- EN: defeated mech cluster -->
   <DefeatedMechCluster.stages.defeated_mech_cluster.label>{PAWN_gender ? Porazil : Porazila} mechový klastr</DefeatedMechCluster.stages.defeated_mech_cluster.label>
   <!-- EN: Blood beats metal, you damn machines! -->
   <DefeatedMechCluster.stages.defeated_mech_cluster.description>Krev přemohla kov, ty zatracené stroje!</DefeatedMechCluster.stages.defeated_mech_cluster.description>
+  
+  <!-- EN: denied joining -->
+  <DeniedJoining.stages.denied_joining.label>TODO</DeniedJoining.stages.denied_joining.label>
+  <!-- EN: We just denied someone's request to join us. I hope they make it. -->
+  <DeniedJoining.stages.denied_joining.description>TODO</DeniedJoining.stages.denied_joining.description>
   
   <!-- EN: failed to rescue {0} -->
   <FailedToRescueRelative.stages.failed_to_rescue.label>selhání při záchraně {0}</FailedToRescueRelative.stages.failed_to_rescue.label>
@@ -53,6 +71,11 @@
   <FreedFromSlavery.stages.freed_from_slavery.label>{PAWN_gender ? Zbaven : Zbavena} otroctví</FreedFromSlavery.stages.freed_from_slavery.label>
   <!-- EN: I have been freed from slavery. I'm so thankful! -->
   <FreedFromSlavery.stages.freed_from_slavery.description>{PAWN_gender ? Byl : Byla} jsem {PAWN_gender ? osvobozen : osvobozena} z otroctví. Jsem tak {PAWN_gender ? vděčný : vděčná}!</FreedFromSlavery.stages.freed_from_slavery.description>
+  
+  <!-- EN: bloodlust organ harvested -->
+  <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>TODO</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.label>
+  <!-- EN: Extracting the flesh from their bodies is so bloody and satisfying. -->
+  <HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>TODO</HarvestedOrgan_Bloodlust.stages.bloodlust_organ_harvested.description>
   
   <!-- EN: killed someone -->
   <KilledHumanlikeBloodlust.stages.killed_someone.label>někoho {PAWN_gender ? zabil : zabila} (krvežíznivost)</KilledHumanlikeBloodlust.stages.killed_someone.label>
@@ -168,6 +191,15 @@
   <SoakingWet.stages.soaking_wet.label>{PAWN_gender ? Promáčený : Promáčená}</SoakingWet.stages.soaking_wet.label>
   <!-- EN: I'm soaking wet. -->
   <SoakingWet.stages.soaking_wet.description>Jsem úplně {PAWN_gender ? promáčený : promáčená}.</SoakingWet.stages.soaking_wet.description>
+  
+  <!-- EN: eager to travel -->
+  <TravelAnticipation.stages.eager_to_travel.label>TODO</TravelAnticipation.stages.eager_to_travel.label>
+  <!-- EN: I've been preparing this caravan for a while. I'm looking forward to the upcoming journey. -->
+  <TravelAnticipation.stages.eager_to_travel.description>TODO</TravelAnticipation.stages.eager_to_travel.description>
+  <!-- EN: excited to travel -->
+  <TravelAnticipation.stages.excited_to_travel.label>TODO</TravelAnticipation.stages.excited_to_travel.label>
+  <!-- EN: So much thought and preparation have gone into this adventure. I can't wait to set off! -->
+  <TravelAnticipation.stages.excited_to_travel.description>TODO</TravelAnticipation.stages.excited_to_travel.description>
   
   <!-- EN: was imprisoned -->
   <WasImprisoned.stages.was_imprisoned.label>{PAWN_gender ? Byl : Byla} {PAWN_gender ? uvězněn : uvězněna}</WasImprisoned.stages.was_imprisoned.label>

@@ -21,6 +21,8 @@
   <ResetAll>Resetovat vše</ResetAll>
   <!-- EN: Disable -->
   <Disable>Deaktivovat</Disable>
+  <!-- EN: Modify -->
+  <Modify>TODO</Modify>
   <!-- EN: Settle here anyways? -->
   <ConfirmSettle>I přesto se tam chceš usídlit?</ConfirmSettle>
   <!-- EN: add -->
@@ -234,6 +236,10 @@
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
   <ConfirmResetLearningHelper>Opravdu chceš resetovat výukového pomocníka?\n\nVšechny záznamy o osvojených pojmech budou vymazány a systém bude učit vše od nuly.</ConfirmResetLearningHelper>
 
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
   <SelectedCharactersMustInclude>Začínat se musí {replace: ^{SUMMARY} ; "^1 "-"s 1 "; "^2 "-"se 2 "; "^3 "-"se 3 "; "^4 "-"se 4 "; "^6 "-"se 6 "; "^7 "-"se 7 "; "^{SUMMARY}"-"s {SUMMARY}"}</SelectedCharactersMustInclude>
@@ -338,6 +344,18 @@
   <ArmorPenetration>Průraznost zbroje</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>Průraznost zbroje je hodnota zbroje, kterou tato zbraň ignoruje při každém zásahu.\n\nPokud je průraznost vyšší než hodnota zbroje cíle, bude započítána, jako kdyby cíl nenosil žádnou zbroj. V opačném případě je průraznost snížena o hodnotu zbroje cíle.</ArmorPenetrationExplanation>
+  <!-- EN: Building damage factor -->
+  <BuildingDamageFactor>TODO</BuildingDamageFactor>
+  <!-- EN: Damage to all buildings is multiplied by this value. -->
+  <BuildingDamageFactorExplanation>TODO</BuildingDamageFactorExplanation>
+  <!-- EN: Building damage factor (impassable) -->
+  <BuildingDamageFactorImpassable>TODO</BuildingDamageFactorImpassable>
+  <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
+  <BuildingDamageFactorImpassableExplanation>TODO</BuildingDamageFactorImpassableExplanation>
+  <!-- EN: Building damage factor (passable) -->
+  <BuildingDamageFactorPassable>TODO</BuildingDamageFactorPassable>
+  <!-- EN: Damage to all passable buildings is multiplied by this value. -->
+  <BuildingDamageFactorPassableExplanation>TODO</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Přesnost</Accuracy>
   <!-- EN: Burst shot count -->
@@ -346,7 +364,7 @@
   <WarmupTime>Doba přípravy</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Doba přípravy boje na blízko</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
+  <!-- EN: Aiming time -->
   <RangedWarmupTime>Doba přípravy boje na dálku</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Doba obnovení</CooldownTime>
@@ -522,7 +540,7 @@
   <NuzzleIntervalExplanation>Jak často v průměru se bude zvíře tulit s přátelskými kolonisty.\n\nTulení je chování sdílené mnoha živočišnými druhy, kde zvíře tlačí nos nebo tlamu proti příteli jako známku náklonnosti.\nVětšině lidí tohle připadá roztomilé a po určitou dobu jim to přidá na dobré náladě.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Pomsta za zranění</HarmedRevengeChance>
-  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
   <HarmedRevengeChanceExplanation>Šance, že toto stvoření zautočí, když je mu ublíženo.\n\nTuto šanci lze až ztrojnásobit, pokud je útočník blíže.\n\nTato šance se uplatní při každém úspěšném zásahu. To znamená, že u zbraní s nižší kadencí a vyšším poškozením je méně pravděpodobné, že během lovu dojde k vyprovokování.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Pomsta při neúspěšném ochočení</TameFailedRevengeChance>
@@ -648,6 +666,16 @@
   <YourNegotiatorBonus>Tvůj vyjednávací bonus</YourNegotiatorBonus>
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Bonus za obchodování se základnou frakce</TradeWithFactionBaseBonus>
+  <!-- EN: Joins as slave -->
+  <JoinsAsSlave>TODO</JoinsAsSlave>
+  <!-- EN: Joins as colonist -->
+  <JoinsAsColonist>TODO</JoinsAsColonist>
+  <!-- EN: If purchased, this person will join your colony as a slave. -->
+  <JoinsAsSlaveDesc>TODO</JoinsAsSlaveDesc> <!--  -->
+  <!-- EN: If purchased, this person will join your colony as a colonist. -->
+  <JoinsAsColonistDesc>TODO</JoinsAsColonistDesc>
+  <!-- EN: Trading drugs bonus -->
+  <TradingDrugsBonus>TODO</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>minimum</minimum>
   <!-- EN: Final price -->
@@ -692,6 +720,8 @@
   <CaravanCouldNotFindPackingSpot>Nelze najít žádné platné místo pro nakládání karavany. Ujisti se, že vybrané místo pro odchod ({0}) bude přístupné.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Varování: Někteří z přiřazených kolonistů nejsou schopni se dostat k místu odchodu ({0}).</CaravanCouldNotFindReachableExitSpot>
+  <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
+  <CaravanRoamerCannotReachSpots>TODO</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Žádný z přiřazených kolonistů se není schopen dostat k {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -714,6 +744,8 @@
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(je zohledněn pouze první bod trasy)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo pouze na {0} dnů. Poté rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
+  <DaysWorthOfFoodDietWarningDialog>TODO</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
@@ -812,6 +844,8 @@
   <TotalBodySize>Celková velikost karavany</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Automaticky navolit cestovní zásoby</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>TODO</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -952,6 +986,8 @@
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
   <FoodRestriction>Omezení potravy</FoodRestriction>
+  <!-- EN: Food -->
+  <FoodRestrictionShort>TODO</FoodRestrictionShort>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Bohaté</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1084,7 +1120,7 @@
   <AbilityCantApplyNoResistance>{0_labelShort} má nulový vzdor.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
   <AbilityCantApplyDowned>{0_labelShort} je v bezvědomí.</AbilityCantApplyDowned>
-  <!-- EN: Cannot use: {0_labelShort} is asexual. -->
+  <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Tato osoba je asexuální.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} je nesprávného pohlaví, než které {0_labelShort} vyhledává.</AbilityCantApplyWrongAttractionGender>
@@ -1222,6 +1258,9 @@
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>žádné oltáře</RoomRequirementNoAltars>
 
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>TODO</LifeStageMaxFood>
+
   <!-- EN: Expand all -->
   <ExpandAllCategories>Rozbalit vše</ExpandAllCategories>
   <!-- EN: Collapse all -->
@@ -1249,7 +1288,7 @@
   <!-- EN: sat -->
   <Saturation>sytost</Saturation>
   <!-- EN: value -->
-  <Value>hodnota</Value>
+  <ColorValue>TODO</ColorValue>
   <!-- EN: darklight -->
   <Darklight>temné světlo</Darklight>
   <!-- EN: not darklight -->

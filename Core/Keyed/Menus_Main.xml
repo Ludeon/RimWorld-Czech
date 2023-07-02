@@ -258,7 +258,9 @@
   <ModOrderingWarning>Tento mod se vzhledem k jinému modu načítá ve špatném pořadí. Použij tlačítko 'automat. seřadit' nebo změň pořadí modů ručně.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>Jiný aktivní mod používá stejné ID: {0}</ModWithSameIdAlreadyActive>
-  <!-- EN: This requires following mods to work: {0}. -->
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>TODO</ModCyclicDependency>
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>K chodu vyžaduje následující mody:\n{0}\n</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Tento mod nebyl vytvořen pro tuto verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion>
@@ -268,6 +270,26 @@
   <ModNotMadeForThisVersion_Newer>Tento mod byl vytvořen pro novější verzi RimWorldu a pravděpodobně nebude fungovat správně.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod vyžaduje informaci o podporované verzi ve správném formátu v souboru About.xml. Mělo by to vypadat nějak takto: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> je zastaralá. Pro další informace zkontroluj log.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>TODO</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>TODO</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>TODO</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>TODO</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>TODO</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>TODO</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>TODO</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>TODO</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>TODO</ModLoadFolderDefaultDeprecated>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>TODO</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Tažením změníš pořadí</DragToReorder>
 
@@ -302,6 +324,8 @@
   <ConfirmContentAuthor>Samozřejmě můžeš nahrát pouze to, co jsi sám vytvořil.\n\nVytvořil jsi tento obsah ty sám?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>Nekompatibilní</Incompatible>
+  <!-- EN: Tag as translation -->
+  <TagAsTranslation>TODO</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Příliš mnoho (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
@@ -453,6 +477,10 @@
   <Difficulty_AllowCaveHives_Label>Generátor mapy vytvoří přírodní hnízda</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>V přírodních jeskyních se mohou vyskytnout nečinná hnízda brouků.\n\nToto nastavení platí pouze při generování map a neovlivní aktivní brouky, kteří se mohou během hry provrtat na povrch.</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>TODO</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>TODO</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Hráčovy nástroje</DifficultyPlayerToolsSection>
@@ -475,13 +503,13 @@
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>Adaptace</DifficultyAdaptationSection>
-  <!-- EN: Damage adaptation growth -->
+  <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Adaptace nárůstu škod</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptace znamená, že vypravěč dělá hru náročnější v průběhu času do doby, dokud nemáš ztráty. Tohle je odděleno od příběhových účinků bohatství a populace.\n\nTímto se upravuje rychlost jakou výzva poroste.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
-  <!-- EN: Damage adaptation effect -->
+  <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>Adaptace účinku škod</Difficulty_AdaptationEffectFactor_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
   <Difficulty_AdaptationEffectFactor_Info>Adaptace znamená, že vypravěč dělá hru náročnější v průběhu času do doby, dokud nemáš ztráty. Tohle je odděleno od příběhových účinků bohatství a populace.\n\nTímto se upravuje účinek adaptační hodnoty na aktuální hrozby.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Progresivní režim nezávislý na bohatství</Difficulty_FixedWealthMode_Label>
@@ -496,7 +524,7 @@
   <DifficultyIdeologySection>Ideologie</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
   <Difficulty_LowPopConversionBoost_Label>Posílení konverze při nízké populaci</Difficulty_LowPopConversionBoost_Label>
-  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
   <Difficulty_LowPopConversionBoost_Info>S jedním kolonistou s počátečním ideoboženstvím hráče se šance na konverzi k jeho ideoboženství násobí touto hodnotou. Pokusy o konverzi proti němu se touto hodnotou dělí.\n\nSe dvěma kolonisty s počátečním ideoboženstvím hráče je účinek nastavené hodnoty poloviční.\n\nSe třemi a více kolonisty s počátečním ideoboženstvím hráče nemá nastavená hodnota žádný účinek.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->

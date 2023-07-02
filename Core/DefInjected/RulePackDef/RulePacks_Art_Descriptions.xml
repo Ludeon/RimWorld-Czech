@@ -206,7 +206,6 @@
     <li>style_group->[style_clause].</li>
     <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>
-
     <li>artconjunction_artextra_clause(p=6)->[artextra_clause]</li>
     <li>artconjunction_artextra_clause->[artextra_clause], což dílu dodává zajímavý kontrast</li>
     <li>artconjunction_artextra_clause->[artextra_clause], což dílu poskytlo konečný vzhled</li>
@@ -216,7 +215,6 @@
     <li>artconjunction_artextra_clause->ačkoliv je to pro tento druh díla neobvyklé, [artextra_clause]</li>
     <li>artconjunction_artextra_clause->ačkoliv by to čekal málokdo, [artextra_clause]</li>
     <li>artconjunction_artextra_clause->[artextra_clause], což dílu přidává na vyjímečnosti</li>
-
     <li>artextra_clause->obraz je lemován [subimagepluralIns]</li>
     <li>artextra_clause->na okraji obrazu se nachází [subimagepluralNom]</li>
     <li>artextra_clause->[side_position] se nachází [subimagesingleNom]</li>
@@ -235,19 +233,14 @@
     <li>artextra_clause->[anywatchesoverall] [pawn_adj_PersonJobUniNom_while_emotional_expression]</li>
     <li>artextra_clause->[anywatchesoverall] [anyhead] [pawn_adj_PersonJobUniGen]</li>
     <li>artextra_clause->celý obraz je vykreslen pečlivým uspořádáním [subimagepluralGen]</li>
-
     <li>subimageanyNom->[subimagesingleNom]</li>
     <li>subimageanyNom->[subimagepluralNom]</li>
-
     <li>subimageanyNom_Is->je [subimagesingleNom]</li>
     <li>subimageanyNom_Is->[subimagepluralNom_Is]</li>
-
     <li>subimageanyNom_IsDominated->dominuje [subimagesingleNom]</li>
     <li>subimageanyNom_IsDominated->[subimagepluralNom_IsDominated]</li>
-
     <li>subimageanyGen->[subimagesingleGen]</li>
     <li>subimageanyGen->[subimagepluralGen]</li>
-
     <li>subimagesingleNom(p=4)->[CharacterNom]</li>
     <li>subimagesingleNom->[TerrainFeatureUniNom]</li>
     <li>subimagesingleNom->[CommunityUniNom]</li>
@@ -255,7 +248,6 @@
     <li>subimagesingleNom->[VegetableUniNom]</li>
     <li>subimagesingleNom(p=0.7)->[AnimalPluGenFixGrpNom]</li>
     <li>subimagesingleNom(p=0.3)->[AnimalGroupNomExt] [AnimalPluGen]</li>
-
     <li>subimagesingleGen(p=4)->[CharacterGen]</li>
     <li>subimagesingleGen->[TerrainFeatureUniGen]</li>
     <li>subimagesingleGen->[CommunityUniGen]</li>
@@ -263,34 +255,26 @@
     <li>subimagesingleGen->[VegetableUniGen]</li>
     <li>subimagesingleGen(p=0.7)->[AnimalPluGenFixGrpGen]</li>
     <li>subimagesingleGen(p=0.3)->[AnimalGroupGenExt] [AnimalPluGen]</li>
-
     <li>subimagepluralNom(p=3)->[Quantity_adjphraseNom] [CharacterPluGen]</li>
     <li>subimagepluralNom->[Quantity_adjphraseNom] [VegetablePluGen]</li>
     <li>subimagepluralNom->[Quantity_adjphraseNom] [ShapePluGen]</li>
-
     <li>subimagepluralNom_Is(p=3)->[Quantity_adjphraseNom_Is] [CharacterPluGen]</li>
     <li>subimagepluralNom_Is->[Quantity_adjphraseNom_Is] [VegetablePluGen]</li>
     <li>subimagepluralNom_Is->[Quantity_adjphraseNom_Is] [ShapePluGen]</li>
-
     <li>subimagepluralNom_IsDominated(p=3)->[Quantity_adjphraseNom_IsDominated] [CharacterPluGen]</li>
     <li>subimagepluralNom_IsDominated->[Quantity_adjphraseNom_IsDominated] [VegetablePluGen]</li>
     <li>subimagepluralNom_IsDominated->[Quantity_adjphraseNom_IsDominated] [ShapePluGen]</li>
-
     <li>subimagepluralGen(p=3)->[Quantity_adjphraseGen] [CharacterPluGen]</li>
     <li>subimagepluralGen->[Quantity_adjphraseGen] [VegetablePluGen]</li>
     <li>subimagepluralGen->[Quantity_adjphraseGen] [ShapePluGen]</li>
-
     <li>subimagepluralIns(p=3)->[Quantity_adjphraseCharactersIns]</li>
     <li>subimagepluralIns->[Quantity_adjphraseVegetablesIns]</li>
     <li>subimagepluralIns->[Quantity_adjphraseShapesIns]</li>
-
     <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
     <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
     <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
-
     <li>pawn_adj_PersonJobUniNom_while_emotional_expression->[pawn_adj_PersonJobMasNom]</li>
     <li>pawn_adj_PersonJobUniNom_while_emotional_expression->[pawn_adj_PersonJobFemNom]</li>
-
     <li>pawn_adj_PersonJobMasNom->mrtvý [PersonJobMasNom], který [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobMasNom->umírající [PersonJobMasNom], který [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobMasNom->zraněný [PersonJobMasNom], který [emotional_expression_verb]</li>
@@ -305,7 +289,6 @@
     <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] [ApparelInLocWithIns], který [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] [WeaponWitUniIns], který [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobMasNom->[PersonJobMasNom] pojídající [VegetableUniAcc], který [emotional_expression_verb]</li>
-
     <li>pawn_adj_PersonJobFemNom->mrtvá [PersonJobFemNom], která [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobFemNom->umírající [PersonJobFemNom], která [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobFemNom->zraněná [PersonJobFemNom], která [emotional_expression_verb]</li>
@@ -320,10 +303,8 @@
     <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] [ApparelInLocWithIns], která [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] [WeaponWitUniIns], která [emotional_expression_verb]</li>
     <li>pawn_adj_PersonJobFemNom->[PersonJobFemNom] pojídající [VegetableUniAcc], která [emotional_expression_verb]</li>
-
     <li>pawn_adj_PersonJobUniGen->[pawn_adj_PersonJobMasGen]</li>
     <li>pawn_adj_PersonJobUniGen->[pawn_adj_PersonJobFemGen]</li>
-
     <li>pawn_adj_PersonJobMasGen->mrtvého [PersonJobMasGen]</li>
     <li>pawn_adj_PersonJobMasGen->umírajícího [PersonJobMasGen]</li>
     <li>pawn_adj_PersonJobMasGen->zraněného [PersonJobMasGen]</li>
@@ -338,7 +319,6 @@
     <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] [ApparelInLocWithIns]</li>
     <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] [WeaponWitUniIns]</li>
     <li>pawn_adj_PersonJobMasGen->[PersonJobMasGen] pojídajícího [VegetableUniAcc]</li>
-
     <li>pawn_adj_PersonJobFemGen->mrtvé [PersonJobFemGen]</li>
     <li>pawn_adj_PersonJobFemGen->umírající [PersonJobFemGen]</li>
     <li>pawn_adj_PersonJobFemGen->zraněné [PersonJobFemGen]</li>
@@ -353,7 +333,6 @@
     <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] [ApparelInLocWithIns]</li>
     <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] [WeaponWitUniIns]</li>
     <li>pawn_adj_PersonJobFemGen->[PersonJobFemGen] pojídající [VegetableUniAcc]</li>
-
     <li>pawn_adj_CharacterNom->mrtv[CharacterNom_AnyAdjective]</li>
     <li>pawn_adj_CharacterNom->umírající [CharacterNom]</li>
     <li>pawn_adj_CharacterNom->zraněn[CharacterNom_AnyAdjective]</li>
@@ -368,7 +347,6 @@
     <li>pawn_adj_CharacterNom->[CharacterNom] [ApparelInLocWithIns]</li>
     <li>pawn_adj_CharacterNom->[CharacterNom] [WeaponWitUniIns]</li>
     <li>pawn_adj_CharacterNom->[CharacterNom] pojídající [VegetableUniAcc]</li>
-
     <li>pawn_adj_plural_CharacterPluGen->mrtvých [CharacterPluGen]</li>
     <li>pawn_adj_plural_CharacterPluGen->umírajících [CharacterPluGen]</li>
     <li>pawn_adj_plural_CharacterPluGen->zraněných [CharacterPluGen]</li>
@@ -383,8 +361,6 @@
     <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] [ApparelInLocWithIns]</li>
     <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] [WeaponWitPluIns]</li>
     <li>pawn_adj_plural_CharacterPluGen->[CharacterPluGen] pojídajících [VegetablePluAcc]</li>
-
-
     <li>emotional_expression->usmívající se</li>
     <li>emotional_expression->mračící se</li>
     <li>emotional_expression->zlobící se</li>
@@ -393,7 +369,6 @@
     <li>emotional_expression->plačící</li>
     <li>emotional_expression->křičící</li>
     <li>emotional_expression->štěstím oplývající</li>
-
     <li>emotional_expression_verb->se usmívá</li>
     <li>emotional_expression_verb->se mračí</li>
     <li>emotional_expression_verb->má rozzlobený výraz ve své tváři</li>
@@ -402,8 +377,6 @@
     <li>emotional_expression_verb->pláče</li>
     <li>emotional_expression_verb->křičí</li>
     <li>emotional_expression_verb->oplývá štěstím</li>
-
-
     <li>idles->sedí</li>
     <li>idles->stojí</li>
     <li>idles->vyčkává</li>
@@ -414,8 +387,6 @@
     <li>idles->se objevuje</li>
     <li>idles->se pozvolna ztrácí</li>
     <li>idles->se vznáší</li>
-
-
     <li>side_position->kousek stranou</li>
     <li>side_position->na pozadí</li>
     <li>side_position->v dáli</li>
@@ -428,8 +399,6 @@
     <li>side_position->opodál od hlavního subjektu</li>
     <li>side_position->pod hlavním subjektem</li>
     <li>side_position->za ohniskem</li>
-
-
     <li>style_clause->toto dílo [symbolizes]</li>
     <li>artextra_clause->[subimagesingleNom], nacházející se [side_position], [symbolizes_2]</li>
     <li>style_clause->toto dílo je inspirované myšlenkou [ConceptAnyGen] a je vyhotovené [artstyle_adjInStyleLoc]</li>
@@ -443,8 +412,6 @@
     <li>style_clause->[compositionFem] [anystructureUni]a tohoto díla je téměř v rozporu s jeho [artstyle_adjStyleIns]</li>
     <li>style_clause->toto dílo je stínované [ColorInUni]ých a [anytypecoloradverb] [ColorUni]ých odstínech</li>
     <li>style_clause->téměř všechny tvary na [anyofthisworkLoc] se zdají být [compositionPlu]</li>
-
-
     <li>symbolizes->symbolizuje [ConceptAnyUniAcc]</li>
     <li>symbolizes->, jak se zdá, symbolizuje [ConceptAnyUniAcc]</li>
     <li>symbolizes->představuje [ConceptAnyUniAcc]</li>
@@ -455,8 +422,6 @@
     <li>symbolizes->má záměrně takové vyobrazení, aby divák myslel na [ConceptAnyUniAcc]</li>
     <li>symbolizes->[anyrepresents] umělc[ConceptAnyPersonUniAcc]</li>
     <li>symbolizes->naznačuje koncept [ConceptAnyUniGen]</li>
-
-
     <li>symbolizes_2->symbolizuje [ConceptAnyUniAcc]</li>
     <li>symbolizes_2->vypadá, že symbolizuje [ConceptAnyUniAcc]</li>
     <li>symbolizes_2->představuje [ConceptAnyUniAcc]</li>
@@ -467,8 +432,6 @@
     <li>symbolizes_2->u diváka způsobuje pomyšlení na [ConceptAnyUniAcc]</li>
     <li>symbolizes_2->[anyrepresents] umělc[ConceptAnyPersonUniAcc]</li>
     <li>symbolizes_2->naznačuje koncept [ConceptAnyUniGen]</li>
-
-
     <li>depicts->vykresluje</li>
     <li>depicts->znázorňuje</li>
     <li>depicts->vyobrazuje</li>
@@ -476,58 +439,48 @@
     <li>depicts->ilustruje</li>
     <li>depicts->představuje</li>
     <li>depicts->napodobuje</li>
-
-
     <li>depictionNom->vykreslení</li>
     <li>depictionNom->obrázek</li>
     <li>depictionNom->vyobrazení</li>
     <li>depictionNom->znázornění</li>
     <li>depictionNom->ilustrace</li>
     <li>depictionNom->umělecké zhotovení</li>
-
     <li>depictionNom_this->toto vykreslení</li>
     <li>depictionNom_this->tento obrázek</li>
     <li>depictionNom_this->toto vyobrazení</li>
     <li>depictionNom_this->toto znázornění</li>
     <li>depictionNom_this->tato ilustrace</li>
     <li>depictionNom_this->toto umělecké zhotovení</li>
-
     <li>depictionNom_which->vykreslení, na kterém</li>
     <li>depictionNom_which->obrázek, na kterém</li>
     <li>depictionNom_which->vyobrazení, na kterém</li>
     <li>depictionNom_which->znázornění, na kterém</li>
     <li>depictionNom_which->ilustrace, na které</li>
     <li>depictionNom_which->umělecké zhotovení, na kterém</li>
-
     <li>depictionAcc->vykreslení</li>
     <li>depictionAcc->obrázek</li>
     <li>depictionAcc->vyobrazení</li>
     <li>depictionAcc->znázornění</li>
     <li>depictionAcc->ilustraci</li>
     <li>depictionAcc->umělecké zhotovení</li>
-
     <li>depictionAcc_which->vykreslení, na kterém</li>
     <li>depictionAcc_which->obrázek, na kterém</li>
     <li>depictionAcc_which->vyobrazení, na kterém</li>
     <li>depictionAcc_which->znázornění, na kterém</li>
     <li>depictionAcc_which->ilustraci, na které</li>
     <li>depictionAcc_which->umělecké zhotovení, na kterém</li>
-
     <li>depictionUni->é vykreslení</li>
     <li>depictionUni->ý obrázek</li>
     <li>depictionUni->é vyobrazení</li>
     <li>depictionUni->é znázornění</li>
     <li>depictionUni->ou ilustraci</li>
     <li>depictionUni->é umělecké zhotovení</li>
-
     <li>depictionUni_which->é vykreslení, na kterém</li>
     <li>depictionUni_which->ý obrázek, na kterém</li>
     <li>depictionUni_which->é vyobrazení, na kterém</li>
     <li>depictionUni_which->é znázornění, na kterém</li>
     <li>depictionUni_which->ou ilustraci, na které</li>
     <li>depictionUni_which->é umělecké zhotovení, na kterém</li>
-
-
     <li>compositionMas->trojúhelníkový</li>
     <li>compositionMas->obdélníkový</li>
     <li>compositionMas->čtvercový</li>
@@ -538,7 +491,6 @@
     <li>compositionMas->svislý</li>
     <li>compositionMas->vodorovný</li>
     <li>compositionMas->promyšlený</li>
-
     <li>compositionFem->trojúhelníková</li>
     <li>compositionFem->obdélníková</li>
     <li>compositionFem->čtvercová</li>
@@ -549,7 +501,6 @@
     <li>compositionFem->svislá</li>
     <li>compositionFem->vodorovná</li>
     <li>compositionFem->promyšlená</li>
-
     <li>compositionPlu->trojúhelníkové</li>
     <li>compositionPlu->obdélníkové</li>
     <li>compositionPlu->čtvercové</li>
@@ -560,7 +511,6 @@
     <li>compositionPlu->svislé</li>
     <li>compositionPlu->vodorovné</li>
     <li>compositionPlu->promyšlené</li>
-
     <li>compositionGen->trojúhelníkovou</li>
     <li>compositionGen->obdélníkovou</li>
     <li>compositionGen->čtvercovou</li>
@@ -571,61 +521,44 @@
     <li>compositionGen->svislou</li>
     <li>compositionGen->vodorovnou</li>
     <li>compositionGen->promyšlenou</li>
-
-
     <li>anytakesplace->se odehrává</li>
     <li>anytakesplace->probíhá</li>
-
     <li>anyhead->hlava</li>
     <li>anyhead->tvář</li>
     <li>anyhead->obličej</li>
-
     <li>anywatchesoverall->na vše dohlíží</li>
     <li>anywatchesoverall->veškeré dění kolem [anywatches]</li>
     <li>anywatchesoverall->vše kolem [anywatches]</li>
-
     <li>anywatches->pozoruje</li>
     <li>anywatches->sleduje</li>
-
     <li>anycomposition->kompozice</li>
     <li>anycomposition->skladba</li>
-
     <li>anyofthisworkGen->tohoto díla</li>
     <li>anyofthisworkGen->této práce</li>
-
     <li>anyofthisworkLoc->tomto díle</li>
     <li>anyofthisworkLoc->této práci</li>
-
     <li>anyimage->znázornění</li>
     <li>anyimage->ztvárnění</li>
     <li>anyimage->vyobrazení</li>
     <li>anyimage->vyjádření</li>
-
     <li>anyshows->ukazuje</li>
     <li>anyshows->naznačuje</li>
-
     <li>anycontrast->rozdíly</li>
     <li>anycontrast->kontrasty</li>
     <li>anycontrast->protiklady</li>
     <li>anycontrast->odlišnosti</li>
-
     <li>anystructureUni->struktur</li>
     <li>anystructureUni->form</li>
-
     <li>anyelements->elementy</li>
     <li>anyelements->prvky</li>
-
     <li>anyrepresents->reprezentuje</li>
     <li>anyrepresents->představuje</li>
     <li>anyrepresents->ztělesňuje</li>
     <li>anyrepresents->znázorňuje</li>
-
     <li>anytypecoloradverb->tmavě</li>
     <li>anytypecoloradverb->světle</li>
     <li>anytypecoloradverb->výrazně</li>
     <li>anytypecoloradverb->křiklavě</li>
-
-
     <li>artstyle_adjMas->neoriginální</li>
     <li>artstyle_adjMas->prostý</li>
     <li>artstyle_adjMas->komplexně realistický</li>
@@ -664,7 +597,6 @@
     <li>artstyle_adjMas->erotický</li>
     <li>artstyle_adjMas->smyslný</li>
     <li>artstyle_adjMas->srdečný</li>
-
     <li>artstyle_adjInStyleLoc->v neoriginálním stylu</li>
     <li>artstyle_adjInStyleLoc->v prostém stylu</li>
     <li>artstyle_adjInStyleLoc->v komplexním realistickém stylu</li>
@@ -703,7 +635,6 @@
     <li>artstyle_adjInStyleLoc->v erotickém stylu</li>
     <li>artstyle_adjInStyleLoc->ve smyslném stylu</li>
     <li>artstyle_adjInStyleLoc->v srdečném stylu</li>
-
     <li>artstyle_adjStyleNom->neoriginální styl</li>
     <li>artstyle_adjStyleNom->prostý styl</li>
     <li>artstyle_adjStyleNom->komplexně realistický styl</li>
@@ -742,7 +673,6 @@
     <li>artstyle_adjStyleNom->erotický styl</li>
     <li>artstyle_adjStyleNom->smyslný styl</li>
     <li>artstyle_adjStyleNom->srdečný styl</li>
-  
     <li>artstyle_adjWithDepictionIns->s neoriginálním vyobrazením</li>
     <li>artstyle_adjWithDepictionIns->s prostým vyobrazením</li>
     <li>artstyle_adjWithDepictionIns->s komplexně realistickým vyobrazením</li>
@@ -781,7 +711,6 @@
     <li>artstyle_adjWithDepictionIns->s erotickým vyobrazením</li>
     <li>artstyle_adjWithDepictionIns->se smyslným vyobrazením</li>
     <li>artstyle_adjWithDepictionIns->se srdečným vyobrazením</li>
-
     <li>artstyle_adjStyleIns->neoriginálním stylem</li>
     <li>artstyle_adjStyleIns->prostým stylem</li>
     <li>artstyle_adjStyleIns->komplexně realistickým stylem</li>
@@ -820,7 +749,6 @@
     <li>artstyle_adjStyleIns->erotickým stylem</li>
     <li>artstyle_adjStyleIns->smyslným stylem</li>
     <li>artstyle_adjStyleIns->srdečným stylem</li>
-
     <li>artstyle_adjFeelingAcc->neoriginální cítění</li>
     <li>artstyle_adjFeelingIns->prosté cítění</li>
     <li>artstyle_adjFeelingIns->komplexně realistické cítění</li>
@@ -859,7 +787,6 @@
     <li>artstyle_adjFeelingIns->erotické cítění</li>
     <li>artstyle_adjFeelingIns->smyslné cítění</li>
     <li>artstyle_adjFeelingIns->srdečné cítění</li>
-
     <li>artstyle_adjWithPluInsIns->s neoriginálními</li>
     <li>artstyle_adjWithPluIns->s prostými</li>
     <li>artstyle_adjWithPluIns->s komplexně realistickými</li>

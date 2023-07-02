@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: tox shell -->
+  <Bullet_Shell_Tox.label>TODO</Bullet_Shell_Tox.label>
+  
+  <!-- EN: deathrest capacity serum -->
+  <DeathrestCapacitySerum.label>TODO</DeathrestCapacitySerum.label>
+  <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
+  <DeathrestCapacitySerum.description>TODO</DeathrestCapacitySerum.description>
+  <!-- EN: Ingest {0_label} -->
+  <DeathrestCapacitySerum.comps.CompUsable.useLabel>TODO</DeathrestCapacitySerum.comps.CompUsable.useLabel>
+  
   <!-- EN: nano structuring chip -->
   <NanostructuringChip.label>nanostrukturalizační čip</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
@@ -18,6 +28,17 @@
   <PowerfocusChip.comps.CompStudiable.completedLetterText>Podrobným zkoumáním {lookup: {PARENT_label}; case\singular; 2} {STUDIER_gender ? získal : získala} {STUDIER_labelShort} poznatky potřebné pro výzkumný projekt {RESEARCH}.\n\nOd této chvíle mohou tví výzkumníci na výzkumných stanovištích začít zkoumat, jak tuto technologii využít v praxi.</PowerfocusChip.comps.CompStudiable.completedLetterText>
   <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <PowerfocusChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} {PARENT_gender ? dozkoumán : dozkoumána : dozkoumáno}: {RESEARCH} odemčeny</PowerfocusChip.comps.CompStudiable.completedLetterTitle>
+  
+  <!-- EN: tox shell -->
+  <Shell_Toxic.label>TODO</Shell_Toxic.label>
+  <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
+  <Shell_Toxic.description>TODO</Shell_Toxic.description>
+  
+  <!-- EN: tox shell -->
+  <Shell_Toxic_Releasing.label>TODO</Shell_Toxic_Releasing.label>
+  
+  <!-- EN: tox shell -->
+  <Shell_Toxic_Releasing_Water.label>TODO</Shell_Toxic_Releasing_Water.label>
   
   <!-- EN: signal chip -->
   <SignalChip.label>signálový čip</SignalChip.label>

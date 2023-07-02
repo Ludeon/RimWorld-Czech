@@ -20,12 +20,16 @@
   <MessageBestowerWaiting>Vyber {BESTOWER_gender ? udíleče : udílečku} a klikni na 'Zahájit slavnostní předání' k zahájení ceremonie.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Udíleč je mimo dosah!</MessageBestowerUnreachable>
+  <!-- EN: {0} is busy. -->
+  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>Udíleč se kvůli vměšování naštval a rozhodl se odejít.</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
   <MessageBestowingDanger>Udíleč odchází kvůli život ohrožujícímu nebezpečí.</MessageBestowingDanger>
   <!-- EN: The bestower is leaving due to life-threatening temperature. -->
   <MessageBestowingDangerTemperature>Udíleč odchází kvůli život ohrožující teplotě.</MessageBestowingDangerTemperature>
+  <!-- EN: The bestower is leaving due to life-threatening gases in the area. -->
+  <MessageBestowingDangerGas>TODO</MessageBestowingDangerGas><!-- text_todo -->
   <!-- EN: The bestowing ceremony has been interrupted. -->
   <MessageBestowingInterrupted>Slavnostní předání bylo přerušeno.</MessageBestowingInterrupted>
 
@@ -38,5 +42,8 @@
   <MessagePermitTransportDrop>Frakce {FACTION_name} shodila poblíž zásoby.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
   <MessagePermitTransportDropCaravan>{PAWN_nameDef} {PAWN_gender ? nechal : nechala} své karavaně odeslat materiální pomoc z frakce {FACTION_name}.</MessagePermitTransportDropCaravan>
+
+  <!-- EN: No orbiting mechanoids found. -->
+  <MessageNoFactionForVerbMechCluster>TODO</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>

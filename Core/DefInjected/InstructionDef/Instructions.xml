@@ -10,6 +10,8 @@
   <AddBillSimpleMeal.rejectInputMessage>Přidej ke sporáku úkol na uvaření prostých jídel, prosím.</AddBillSimpleMeal.rejectInputMessage>
   <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
   <AddBillSimpleMeal.text>Musíš kolonistům říct, co mají vařit.\n\nPříkazy, co vařit, jsou přidány do samotného sporáku. Jakmile bude vytvořený úkol, budou tuto práci kolonisté provádět automaticky.\n\n1. Počkej, až bude sporák postaven.\n2. Klikni na sporák, abys ho vybral.\n3. Otevři záložku ÚKOLY.\n4. Klikni na PŘIDAT ÚKOL.\n5. V kontextové nabídce vyber UVAŘIT PROSTÉ JÍDLO.\n6. Klikej na tlačítko +, abys zvýšil počet na 10.\n\nNezapoměň, že můžeš zrychlit čas, pokud stavba trvá moc dlouho.\n\nMůžeš také vybrat kolonistu a kliknout pravým tlačítkem myši na sporák, abys upřednostnil jeho výstavbu.</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>TODO</AddBillSimpleMeal.textController>
   
   <!-- EN: Build an animal sleeping spot\ninside the room -->
   <BuildAnimalSleepingSpot.onMapInstruction>Umísti uvnitř místnosti\nmísto na spaní pro zvířata</BuildAnimalSleepingSpot.onMapInstruction>
@@ -88,7 +90,7 @@
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>Abys ukončil tuto výuku, vyber si vypravěče v nabídce Nastavení, prosím.</ChooseStoryteller.rejectInputMessage>
-  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click STORYTELLER SETTINGS.\n4. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
+  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click the Gameplay button in the left columm.\n4. Click the Modify button beside Storyteller settings.\n5. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
   <ChooseStoryteller.text>Tohle je konec výuky!\n\nJe tu toho ještě spoustu k učení, a to včetně vězňů, lovu, obchodu, ochočování zvířat a mnoho dalšího. Základy už ale máš.\n\nBěhem této výuky byly vypnuty náhodné události.\n\nK započetí skutečné hry:\n\n1. Vpravo dole otevři kartu NABÍDKA.\n2. Vyber NASTAVENÍ.\n3. Klikni na NASTAVENÍ VYPRAVĚČE.\n4. Vyber si vypravěče a herní styl, který se ti líbí.\n\nPřeji ti hodně štěstí i zábavy.</ChooseStoryteller.text>
   
   <!-- EN: Please drag the 'chop wood' designator over some trees. -->
@@ -107,10 +109,12 @@
   <DownRaider.rejectInputMessage>Soustřeď se, prosím, na vyhrání boje!</DownRaider.rejectInputMessage>
   <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
   <DownRaider.text>Teď jsem ti sem poslal nájezdníka, aby zaútočil na tvou kolonii!\n\n1. Pozastav hru stisknutím {Key:TogglePause}!\n2. Přečti si červený dopis v pravé dolní části obrazovky.\n3. Povolej své kolonisty jejich vybráním a kliknutím na příkaz POVOLAT DO ZBRANĚ.\n4. Pravým tlačítkem myši je pošli dovnitř čtverce tvořeného pytli s pískem tak, aby se pytlů dotýkali.\n5. Opět rozběhni čas.\n\nAby kolonisté měli výhody krytí, musí se krytu dotýkat. Až budeš v krytu, počkej, dokud se útočník nepřiblíží. Tví kolonisté už začnou střílet sami.</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>TODO</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Aby ses dostal z režimu vymezování skladiště, klikni pravým tlačítkem myši.</EndStockpileDesignating.text>
-  <!-- EN: Press L2 to get out of stockpile designating mode. -->
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
   <EndStockpileDesignating.textController>Aby ses dostal z režimu vymezování skladiště, stiskni L2.</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
@@ -119,7 +123,7 @@
   <EquipWeapons.rejectInputMessage>Nech své kolonisty vyzbrojit zbraněmi, prosím.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
   <EquipWeapons.text>Nech své kolonisty, aby se vyzbrojili počátečními zbraněmi.\n\nK vyzbrojení se zbraní:\n\n1. Klikni na kolonistu, abys ho vybral.\n2. Klikni pravým tlačítkem myši na zbraň, kterou ho chceš vyzbrojit.\n3. V kontextové nabídce klikni na 'vyzbrojit se'.\n\nUdělej to u všech kolonistů.</EquipWeapons.text>
-  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press L2.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
   <EquipWeapons.textController>Nech své kolonisty, aby se vyzbrojili počátečními zbraněmi.\n\nK vyzbrojení se zbraní:\n\n1. Klikni na kolonistu, abys ho vybral.\n2. Najeď na zbraň, kterou ho chceš vyzbrojit, a stiskni L2.\n3. V kontextové nabídce klikni na 'vyzbrojit se'.\n\nUdělej to u všech kolonistů.</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
@@ -158,7 +162,7 @@
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>Skvělé!\n\nPomocí kolečka myši nebo klávesami {Key:MapZoom_In} a {Key:MapZoom_Out} můžeš také přibližovat a oddalovat pohled kamery.\n\nTeď si to vyzkoušej!</MapCameraZoom.text>
-  <!-- EN: Great!\n\nYou can also zoom in and out with the bumpers.\n\nTry it now! -->
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
   <MapCameraZoom.textController>Skvělé!\n\nPomocí nárazníků můžeš také přibližovat a oddalovat pohled kamery.\n\nTeď si to vyzkoušej!</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
@@ -180,7 +184,7 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>Čas můžeš pozastavovat.\n\nTo znamená, že nikdy nemusíš spěchat. Hru můžeš vždycky pozastavit a s vydáváním příkazů si dát načas.\n\nZkus si hru pozastavit klávesou {Key:TogglePause}, nebo pomocí ovládání času vpravo dole na obrazovce.</Pause.text>
-  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the Y button, or by using the time controls in the bottom right. -->
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
   <Pause.textController>Čas můžeš pozastavovat.\n\nTo znamená, že nikdy nemusíš spěchat. Hru můžeš vždycky pozastavit a s vydáváním příkazů si dát načas.\n\nZkus si hru pozastavit stisknutím tlačítka Y, nebo pomocí ovládání času vpravo dole na obrazovce.</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
@@ -204,12 +208,12 @@
   <SetToGrowRice.rejectInputMessage>Nastav své pole na pěstování rýže, prosím.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Můžeš určit, jakou rostlinu mají tví kolonisté na poli vysadit.\n\n1. Pro opuštění režimu architekta klikni pravým tlačítkem myši.\n2. Klikni na pole, abys ho označil.\n3. Klikni na příkaz "Rostlina", který se nachází dole na obrazovce a změň to na rýži.</SetToGrowRice.text>
-  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press L2 to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.textController>Můžeš určit, jakou rostlinu mají tví kolonisté na poli vysadit.\n\n1. Pro opuštění režimu architekta stiskni tlačítko L2.\n2. Klikni na pole, abys ho označil.\n3. Klikni na příkaz "Rostlina", který se nachází dole na obrazovce a změň to na rýži.</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>Čas můžeš také urychlovat.\n\nZkus ovládat čas klávesami {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, a {Key:TimeSpeed_Superfast}, nebo pomocí ovládání času vpravo dole na obrazovce.</TimeControls.text>
-  <!-- EN: You can also speed up time.\n\nTry controlling time with the back buttons, or with the time controls in the bottom right. -->
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
   <TimeControls.textController>Čas můžeš také urychlovat.\n\nZkus ovládat čas zadními tlačítky, nebo pomocí ovládání času vpravo dole na obrazovce.</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->

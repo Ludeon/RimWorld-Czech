@@ -5,16 +5,36 @@
   <IdeoligionForbids>Ideoboženství zakazuje</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
   <OnlyMembersCanBuild>Může postavit pouze {0}</OnlyMembersCanBuild>
+  <!-- EN: {0} is already in progress. -->
+  <CantStartRitualAlreadyInProgress>TODO</CantStartRitualAlreadyInProgress>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>TODO</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} se právě účastní rituálu.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
   <CantStartRitualRoleNotAssigned>K zahájení tohoto rituálu musíš přidělit roli {0}.</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
   <CantStartRitualNoConvertee>Není koho převést k ideoboženství {0}. Potřebuješ kolonistu, vězně nebo otroka jiné víry.</CantStartRitualNoConvertee>
-  <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>Nedostatek prostoru. Musí být volný kruh o poloměru {replace: ​{MINRADIUS}​; "​1​"-"1 políčka"; "​{MINRADIUS}​"-"{MINRADIUS} políček"}.</CantStartNotEnoughSpaceDuel>
+  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualSelectedPawnCannotBeRole>TODO</CantStartRitualSelectedPawnCannotBeRole>
+  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
+  <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
+  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
+  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>TODO</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
+  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartFuneralForSlave>TODO</CantStartFuneralForSlave>
+  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
+  <NoSlaveBed>TODO</NoSlaveBed>
   <!-- EN: Return to slave bed -->
   <ReturnToSlaveBed>Vrátit do otrocké postele</ReturnToSlaveBed>
+  <!-- EN: not allowed for faction -->
+  <NotAllowedForFaction>TODO</NotAllowedForFaction>
 
   <!-- EN: Remove -->
   <Remove>Odstranit</Remove>
@@ -52,8 +72,8 @@
   <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>nekmenovou</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
   <RoleApparelRequirementIncompatibleAnyMemeRequired>vyžaduje některá z těchto přesvědčení</RoleApparelRequirementIncompatibleAnyMemeRequired>
-  <!-- EN: already assigned -->
-  <AlreadyAssigned>již přidělěno</AlreadyAssigned>
+  <!-- EN: cannot be worn with assigned apparel -->
+  <BodyPartAlreadyCovered>TODO</BodyPartAlreadyCovered>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>Lidé jsou spokojení, pokud jsou splněny jejich požadavky na oblečení, a nešťastní, když splněny nejsou.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -79,6 +99,8 @@
   <ConflictsWithMemes>v konfliktu s přesvědčeními</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
   <IdeoAlreadyHasAltar>lze mít pouze jeden oltář/ideogram</IdeoAlreadyHasAltar>
+  <!-- EN: recolor apparel -->
+  <RecolorApparel>TODO</RecolorApparel>
 
   <!-- EN: Hack {0} -->
   <Hack>Nabourat {lookup: {0}; case\singular; 4}</Hack>
@@ -103,6 +125,9 @@
   <InstallInReliquary>Instalovat do relikviáře</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
   <NoEmptyReliquary>není k dispozici žádný prázdný relikviář</NoEmptyReliquary>
+
+  <!-- EN: No {MEMBERNAME} warden -->
+  <NoWardenOfIdeo>TODO</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Odebrat aktuální roli</RemoveCurrentRole>
