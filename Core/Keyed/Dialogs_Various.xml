@@ -22,9 +22,9 @@
   <!-- EN: Disable -->
   <Disable>Deaktivovat</Disable>
   <!-- EN: Modify -->
-  <Modify>TODO</Modify>
+  <Modify>Upravit</Modify>
   <!-- EN: Settle here anyways? -->
-  <ConfirmSettle>I přesto se tam chceš usídlit?</ConfirmSettle>
+  <ConfirmSettle>I přesto se zde chceš usídlit?</ConfirmSettle>
   <!-- EN: add -->
   <Add>přidat</Add>
   <!-- EN: Cannot shoot -->
@@ -80,27 +80,27 @@
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>Inicializuji rozhraní</InitializingInterface>
+  <InitializingInterface>Inicializování rozhraní</InitializingInterface>
   <!-- EN: Unloading unused assets -->
-  <UnloadingUnusedAssets>Čistím nepoužité prostředky</UnloadingUnusedAssets>
+  <UnloadingUnusedAssets>Odstraňování nepoužitých objektů</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
-  <LoadingAllActiveMods>Načítám všechny aktivní mody</LoadingAllActiveMods>
+  <LoadingAllActiveMods>Načítání všech aktivních modů</LoadingAllActiveMods>
   <!-- EN: Loading defs -->
-  <LoadingDefs>Načítám definice</LoadingDefs>
+  <LoadingDefs>Načítání definic</LoadingDefs>
   <!-- EN: Loading assets -->
-  <LoadingAssets>Načítám prostředky</LoadingAssets>
+  <LoadingAssets>Načítání objektů</LoadingAssets>
   <!-- EN: Initializing -->
-  <Initializing>Inicializuji</Initializing>
+  <Initializing>Inicializace</Initializing>
   <!-- EN: Loading world -->
-  <LoadingWorld>Načítám svět</LoadingWorld>
+  <LoadingWorld>Načítání světa</LoadingWorld>
   <!-- EN: Loading map -->
-  <LoadingMap>Načítám mapu</LoadingMap>
+  <LoadingMap>Načítání mapy</LoadingMap>
   <!-- EN: Initializing game -->
-  <InitializingGame>Zahajuji hru</InitializingGame>
+  <InitializingGame>Inicializace hry</InitializingGame>
   <!-- EN: Spawning things -->
-  <SpawningAllThings>Vytvářím věci</SpawningAllThings>
+  <SpawningAllThings>Vytváření věcí</SpawningAllThings>
   <!-- EN: Spawning colonists -->
-  <SpawningColonists>Vytvářím kolonisty</SpawningColonists>
+  <SpawningColonists>Vytváření kolonistů</SpawningColonists>
   
   <!-- Save/load -->
   <!-- EN: Save -->
@@ -112,7 +112,7 @@
   <!-- EN: Really delete {0}? -->
   <ConfirmDelete>Opravdu chceš smazat {0}?</ConfirmDelete>
   <!-- EN: Delete this savegame. -->
-  <DeleteThisSavegame>Smaže tuto uloženou pozici.</DeleteThisSavegame>
+  <DeleteThisSavegame>Smazat tuto uloženou pozici.</DeleteThisSavegame>
   <!-- EN: Saved as {0}. -->
   <SavedAs>Uloženo pod názvem {0}.</SavedAs>
   <!-- EN: Please enter a name. -->
@@ -144,7 +144,7 @@
   <!-- EN: Active -->
   <ContentActive>Aktivní</ContentActive>
   <!-- EN: Installed, but not active -->
-  <ContentInstalledButNotActive>Nainstalováno, ale není aktivní</ContentInstalledButNotActive>
+  <ContentInstalledButNotActive>Nainstalováno, ale neaktivní</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
   <ContentNotInstalled>Nenainstalováno</ContentNotInstalled>
   
@@ -238,7 +238,7 @@
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
-  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+  <RestartAfterImportingLegacyBackstoryTanslations>Minulosti jsou nyní implementovány jako defy a všechny původní překlady minulostí byly importovány do defu překladů. Soubor {0} byl impotován a přesunut do {1}, a může být smazán.\n\nRestartuj hru pro aplikování změn.</RestartAfterImportingLegacyBackstoryTanslations>
 
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
@@ -345,17 +345,17 @@
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
   <ArmorPenetrationExplanation>Průraznost zbroje je hodnota zbroje, kterou tato zbraň ignoruje při každém zásahu.\n\nPokud je průraznost vyšší než hodnota zbroje cíle, bude započítána, jako kdyby cíl nenosil žádnou zbroj. V opačném případě je průraznost snížena o hodnotu zbroje cíle.</ArmorPenetrationExplanation>
   <!-- EN: Building damage factor -->
-  <BuildingDamageFactor>TODO</BuildingDamageFactor>
+  <BuildingDamageFactor>Násobitel poškození staveb</BuildingDamageFactor>
   <!-- EN: Damage to all buildings is multiplied by this value. -->
-  <BuildingDamageFactorExplanation>TODO</BuildingDamageFactorExplanation>
+  <BuildingDamageFactorExplanation>Poškození uděleno stavebám je násobeno touto hodnotou.</BuildingDamageFactorExplanation>
   <!-- EN: Building damage factor (impassable) -->
-  <BuildingDamageFactorImpassable>TODO</BuildingDamageFactorImpassable>
+  <BuildingDamageFactorImpassable>Násobitel poškození neprůchozích staveb</BuildingDamageFactorImpassable>
   <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
-  <BuildingDamageFactorImpassableExplanation>TODO</BuildingDamageFactorImpassableExplanation>
+  <BuildingDamageFactorImpassableExplanation>Poškození uděleno neprůchozím stavebám je násobeno touto hodnotou.</BuildingDamageFactorImpassableExplanation>
   <!-- EN: Building damage factor (passable) -->
-  <BuildingDamageFactorPassable>TODO</BuildingDamageFactorPassable>
+  <BuildingDamageFactorPassable>Násobitel poškození průchozích staveb</BuildingDamageFactorPassable>
   <!-- EN: Damage to all passable buildings is multiplied by this value. -->
-  <BuildingDamageFactorPassableExplanation>TODO</BuildingDamageFactorPassableExplanation>
+  <BuildingDamageFactorPassableExplanation>Poškození uděleno průchozím stavebám je násobeno touto hodnotou.</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Přesnost</Accuracy>
   <!-- EN: Burst shot count -->
@@ -487,9 +487,9 @@
   <!-- EN: Safe dose interval for adults -->
   <SafeDoseInterval>Interval bezpečné dávky pro dospělé</SafeDoseInterval>
   <!-- EN: age {0}-{1} -->
-  <AgeXToY>TODO</AgeXToY>
+  <AgeXToY>Stáří {0}-{1}</AgeXToY>
   <!-- EN: age {0}+ -->
-  <AgePlus>TODO</AgePlus>
+  <AgePlus>Stáří {0}+</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Šance na vznik závislosti</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -667,15 +667,15 @@
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Bonus za obchodování se základnou frakce</TradeWithFactionBaseBonus>
   <!-- EN: Joins as slave -->
-  <JoinsAsSlave>TODO</JoinsAsSlave>
+  <JoinsAsSlave>Připojí se jako otrok</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
-  <JoinsAsColonist>TODO</JoinsAsColonist>
+  <JoinsAsColonist>Připojí se jako kolonista</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
-  <JoinsAsSlaveDesc>TODO</JoinsAsSlaveDesc> <!--  -->
+  <JoinsAsSlaveDesc>Po koupi se tato osoba přidá jako otrok k tvojí kolonii.</JoinsAsSlaveDesc> <!--  -->
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
-  <JoinsAsColonistDesc>TODO</JoinsAsColonistDesc>
+  <JoinsAsColonistDesc>Po koupi se tato osoba přidá jako kolonista k tvojí kolonii.</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
-  <TradingDrugsBonus>TODO</TradingDrugsBonus>
+  <TradingDrugsBonus>Bonus obchodování s drogami</TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>minimum</minimum>
   <!-- EN: Final price -->
@@ -721,7 +721,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Varování: Někteří z přiřazených kolonistů nejsou schopni se dostat k místu odchodu ({0}).</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
-  <CaravanRoamerCannotReachSpots>TODO</CaravanRoamerCannotReachSpots>
+  <CaravanRoamerCannotReachSpots>{1_labelShort} se nemůže dostat k místu pro tvoření karavan nebo k okraji mapy, i kdyby byl veden jakýmkoly přiřazeným kolonistou.</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Žádný z přiřazených kolonistů se není schopen dostat k {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -745,7 +745,7 @@
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo pouze na {0} dnů. Poté rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
-  <DaysWorthOfFoodDietWarningDialog>TODO</DaysWorthOfFoodDietWarningDialog>
+  <DaysWorthOfFoodDietWarningDialog>Jídelníčky některých členů karavany jim brání konzumavat většinu jídla v karavaně. Pokud budou hladem donuceni ke konzumaci zakázaného jídla, tak budou nešťastní.</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
@@ -845,7 +845,7 @@
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Automaticky navolit cestovní zásoby</AutomaticallySelectTravelSupplies>
   <!-- EN: This animal is sick. It is suffering from the following illnesses -->
-  <CaravanAnimalSick>TODO</CaravanAnimalSick>
+  <CaravanAnimalSick>Tento tvor je nemocný a má následující nemoci</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -987,7 +987,7 @@
   <!-- EN: Food restriction -->
   <FoodRestriction>Omezení potravy</FoodRestriction>
   <!-- EN: Food -->
-  <FoodRestrictionShort>TODO</FoodRestrictionShort>
+  <FoodRestrictionShort>Jídlo</FoodRestrictionShort>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Bohaté</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1001,7 +1001,7 @@
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Nic</FoodRestrictionNothing>
   <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Vybrat omezení</SelectFoodRestriction>
+  <SelectFoodRestriction>Vyber omezení</SelectFoodRestriction>
   <!-- EN: New food restriction -->
   <NewFoodRestriction>Nové omezení</NewFoodRestriction>
   <!-- EN: Delete food restriction -->
@@ -1258,8 +1258,8 @@
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>žádné oltáře</RoomRequirementNoAltars>
 
-  <!-- EN: Lifestage max food factor -->
-  <LifeStageMaxFood>TODO</LifeStageMaxFood>
+  <!-- EN: Lifestage max food factor ***-->
+  <LifeStageMaxFood>Maximální násobitel jídla životní fáze</LifeStageMaxFood>
 
   <!-- EN: Expand all -->
   <ExpandAllCategories>Rozbalit vše</ExpandAllCategories>
@@ -1269,8 +1269,8 @@
   <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
   <TooltipDyeExplanation>Barvivo lze vypěstovat z barvovníku nebo ho lze zakoupit od obchodníků.</TooltipDyeExplanation>
 
-  <!-- EN: Zoom range {0} -->
-  <ZoomRange>TODO</ZoomRange>
+  <!-- EN: Zoom range {0} ***-->
+  <ZoomRange>Přibližovací vzdálenost {0}</ZoomRange>
 
   <!-- Color picker -->
   <!-- EN: color temperature -->
@@ -1288,11 +1288,11 @@
   <!-- EN: sat -->
   <Saturation>sytost</Saturation>
   <!-- EN: value -->
-  <ColorValue>TODO</ColorValue>
+  <ColorValue>hodnota</ColorValue>
   <!-- EN: darklight -->
   <Darklight>temné světlo</Darklight>
   <!-- EN: not darklight -->
-  <NotDarklight>nejedná se o temné světlo</NotDarklight>
+  <NotDarklight>není temným světlem</NotDarklight>
   <!-- EN: current color -->
   <CurrentColor>aktuální barva</CurrentColor>
   <!-- EN: old color -->
