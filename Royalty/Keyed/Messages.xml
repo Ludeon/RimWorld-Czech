@@ -21,7 +21,7 @@
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Udíleč je mimo dosah!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
-  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
+  <MessageBestowingTargetIsBusy>{0} je {0_gender ? zaneprázdněný : zaneprázdněná}.</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
   <MessageBestowingSpotUnreachable>Udíleč se kvůli vměšování naštval a rozhodl se odejít.</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
@@ -29,7 +29,7 @@
   <!-- EN: The bestower is leaving due to life-threatening temperature. -->
   <MessageBestowingDangerTemperature>Udíleč odchází kvůli život ohrožující teplotě.</MessageBestowingDangerTemperature>
   <!-- EN: The bestower is leaving due to life-threatening gases in the area. -->
-  <MessageBestowingDangerGas>TODO</MessageBestowingDangerGas><!-- text_todo -->
+  <MessageBestowingDangerGas>Udíleč odchází kvůli život ohrožující plynům.</MessageBestowingDangerGas>
   <!-- EN: The bestowing ceremony has been interrupted. -->
   <MessageBestowingInterrupted>Slavnostní předání bylo přerušeno.</MessageBestowingInterrupted>
 
@@ -44,6 +44,6 @@
   <MessagePermitTransportDropCaravan>{PAWN_nameDef} {PAWN_gender ? nechal : nechala} své karavaně odeslat materiální pomoc z frakce {FACTION_name}.</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
-  <MessageNoFactionForVerbMechCluster>TODO</MessageNoFactionForVerbMechCluster>
+  <MessageNoFactionForVerbMechCluster>Nenalezeni žádní mechanoidi na orbitě.</MessageNoFactionForVerbMechCluster>
 
 </LanguageData>
