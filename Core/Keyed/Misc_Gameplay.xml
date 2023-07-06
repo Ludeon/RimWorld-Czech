@@ -25,9 +25,9 @@
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Přiřazený kolonista</AssignedColonist>
   <!-- EN: Uncomfortable room temperature -->
-  <BedUncomfortableTemperature>Nepříjemná teplota pokoje</BedUncomfortableTemperature>
+  <BedUncomfortableTemperature>Nepříjemná teplota místnosti</BedUncomfortableTemperature>
   <!-- EN: Unsafe room temperature -->
-  <BedUnsafeTemperature>Nebezpečná teplota pokoje.</BedUnsafeTemperature>
+  <BedUnsafeTemperature>Nebezpečná teplota místnosti.</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>Zemřel dne {0}</DiedOn>
   <!-- EN: Nobody -->
@@ -549,7 +549,7 @@
   <!-- EN: Punctured - will explode soon. -->
   <PuncturedWillExplode>Proraženo - brzy vybouchne.</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
-  <ClickToOpenResearchTab>Kliknutím se otevře okno výzkumu.</ClickToOpenResearchTab>
+  <ClickToOpenResearchTab>Kliknutím se otevře okno výzkumu</ClickToOpenResearchTab>
   <!-- EN: Target belongs to another faction. -->
   <TargetBelongsToNPCFaction>Cíl patří jiné frakci.</TargetBelongsToNPCFaction>
   <!-- EN: more ***-->
@@ -793,7 +793,7 @@
   <!-- EN: Choose who should activate this. -->
   <ChooseWhoShouldActivate>Vyber někoho, kdo provede aktivaci.</ChooseWhoShouldActivate>
   <!-- EN: No fuel -->
-  <NoFuel>Došlo palivo</NoFuel>
+  <NoFuel>Bez paliva</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -925,7 +925,7 @@
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{0} pod frakcí {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{replace: {2_lifeStageAdjective} ; "dítě"-"{2_gender ? dětský : dětská}"; "nemluvně"-"{2_gender ? maličký : maličká}"; "{2_lifeStageAdjective}"-"{2_lifeStageAdjective}"} {0}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{replace: {2_lifeStageAdjective}; "dítě"-"{2_gender ? dětský : dětská}"; "nemluvně"-"{2_gender ? maličký : maličká}"; "{2_lifeStageAdjective}"-"{2_lifeStageAdjective}"} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Frakce</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
@@ -959,15 +959,15 @@
   <!-- EN: stun -->
   <StunLower>omráčený</StunLower>
   <!-- EN: Slowed by damage -->
-  <SlowedByDamage>TODO</SlowedByDamage>
+  <SlowedByDamage>Zpomalený poškozením</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\n(*SectionTitle)Klávesová zkratka:(/SectionTitle) {0}\n\nStejné věci docílíš opětovným pomalým klikáním na to samé políčko.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Vybrat další věc na tom samém políčku.\n\n(*SectionTitle)Klávesová zkratka:(/SectionTitle) {0}\n\nStejného efektu docílíš pomalým opakovaným klikáním na to samé políčko.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Zobrazit informace.</DefInfoTip>
   <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTipController>Vyberat následující věc na stejném políčku.\n\nTaké můžeš pomalu klikat na to samé políčko pro stejný efekt.</SelectNextInSquareTipController>
+  <SelectNextInSquareTipController>Vybrat další věc na tom samém políčku.\n\nStejného efektu docílíš pomalým opakovaným klikáním na to samé políčko.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -1013,7 +1013,7 @@
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Nezastřešeno</IndoorsUnroofed>
   <!-- EN: outdoors -->
-  <Outdoors>Venku</Outdoors>
+  <Outdoors>venku</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
@@ -1073,9 +1073,9 @@
   <!-- EN: Mature. -->
   <Mature>Zralé.</Mature>
   <!-- EN: Average plant age -->
-  <AveragePlantAge>TODO</AveragePlantAge>
+  <AveragePlantAge>Průměrné stáří roslin</AveragePlantAge>
   <!-- EN: Oldest plant age -->
-  <OldestPlantAge>TODO</OldestPlantAge>
+  <OldestPlantAge>Nejstarší rostlina</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>Vegetační období</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -1099,7 +1099,7 @@
   <!-- EN: Cut all blight -->
   <CutAllBlight>Posekat všechnu plíseň</CutAllBlight>
   <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
-  <CutAllBlightDesc>Označí všechny rostliny napadené plísní aby byly posekány. Sklízení rostlin napadených plísní nevydá žádné suroviny a proto by měly být posekány předtím než se plíseň rozšíří.</CutAllBlightDesc>
+  <CutAllBlightDesc>Označí všechny rostliny napadené plísní, aby byly posekány. Sklízení rostlin napadených plísní nevydá žádné suroviny, a proto by měly být posekány dříve, než se plíseň rozšíří.</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1255,7 +1255,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent není připraven</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>Neexistuje žádná kolonie do které by bylo možné se vrátit.</ShipNoSettlementToReturnTo>
+  <ShipNoSettlementToReturnTo>Neexistuje žádná kolonie, do které by bylo možné se vrátit.</ShipNoSettlementToReturnTo>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) je připraven spustit sekvenci na probuzení lodního reaktoru z hluboké hibernace.\n\nVaruje tě, že tento proces zabere asi 15 dnů a jeho energetický podpis bude detekovatelný z velké vzdálenosti.\n\nTento druh energetického podpisu naznačuje schopnost mezihvězdného letu a jistě přiláká gangy zoufalých lupičů a roje smrtících mechanoidů.\n\nBudeš napadán intenzitou, jakou jsi ještě nezažil. Ujisti se, že tvá obrana je skvěle připravena.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1285,9 +1285,9 @@
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>Název/Titul</Title>
+  <Title>Název</Title>
   <!-- EN: Untitled -->
-  <Untitled>Bez názvu/titulu</Untitled>
+  <Untitled>Bez názvu</Untitled>
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
@@ -1451,9 +1451,9 @@
   <!-- EN: Calculating for: {0} -->
   <RoutePlannerUsingTicksPerMoveOfCaravan>Výpočet pro: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Pravé tlačítko: Přidá/odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Pravé tlačítko myši: Přidá/odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: Left trigger button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>levá spoušť (LT): Přidá/odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Levá spoušť (LT): Přidá/odstraní záchytné body.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Ukončit režim plánování.</RoutePlannerPressEscapeToExit>
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
@@ -1690,10 +1690,10 @@
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění budou mít na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
-  <RitualOutcomeNoQuality>Tento rituál nemá žádné odměny podle kvality a proto jeho vykonání bude vždy nejvyšší kvality.</RitualOutcomeNoQuality>
+  <RitualOutcomeNoQuality>Tento rituál nemá žádné odměny podle kvality, a proto jeho vykonání bude vždy nejvyšší kvality.</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}.*** -->
-  <ChooseParticipants>Vyber kdo všechno se má účastnit {RITUAL_labelDef}.</ChooseParticipants>
+  <ChooseParticipants>Vyber, kdo všechno se má účastnit {RITUAL_labelDef}.</ChooseParticipants>
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
   <!-- EN: Begin {0} -->
@@ -1725,7 +1725,7 @@
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Očekávání ({PAWN_labelShort})</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
-  <RitualOutcomeLovedOnePresentLabel>Přítomnost milované osoby</RitualOutcomeLovedOnePresentLabel>
+  <RitualOutcomeLovedOnePresentLabel>Přítomnost blízké osoby</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
   <RitualOutcomeLovedOnePresentTip>Osoba kterou {PAWN_labelShort} považuje za přítele.</RitualOutcomeLovedOnePresentTip>
 
@@ -1782,7 +1782,7 @@
   <Charges>TODO</Charges>
 
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInMentalState>{0_nameDef} je nyní v agresivním mentálním stavu.</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} je nyní v agresivním psychickém stavu.</PawnIsInMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Zakázané činnosti</DisabledWorkLabel>

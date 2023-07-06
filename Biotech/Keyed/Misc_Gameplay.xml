@@ -82,17 +82,17 @@
   <!-- EN: Initiating mech birth -->
   <InitMechBirth>TODO</InitMechBirth>
   <!-- EN: Mech energy -->
-  <MechEnergy>Úroveň nabití</MechEnergy>
+  <MechEnergy>Energie mecha</MechEnergy>
   <!-- EN: Energy -->
   <Energy>Energie</Energy>
   <!-- EN: energy -->
   <EnergyLower>energie</EnergyLower>
   <!-- EN: Bandwidth usage -->
-  <BandwidthUsage>TODO</BandwidthUsage>
+  <BandwidthUsage>Využívaná šířka pásma</BandwidthUsage>
   <!-- EN: Mech gestation bandwidth -->
   <MechGestationBandwidthUsed>TODO</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>TODO</CannotSummon>
+  <CannotSummon>Hrozbu {lookup: {0}; case\singular; 2} nelze přivolat</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
   <ReadyToSummonThreat>TODO</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
@@ -216,19 +216,19 @@
   <!-- EN: Genetic mother -->
   <MotherTip>Genetická matka</MotherTip>
   <!-- EN: an unoccupied bed -->
-  <RitualTargetChildBirth>TODO</RitualTargetChildBirth>
+  <RitualTargetChildBirth>neobsazené lůžko</RitualTargetChildBirth>
   <!-- EN: No appropriate bed for giving birth. -->
-  <NoAppropriateBedChildBirth>TODO</NoAppropriateBedChildBirth>
+  <NoAppropriateBedChildBirth>Chybí vhodné lůžko k porodu</NoAppropriateBedChildBirth>
   <!-- EN: No doctor around. -->
-  <NoDoctorChildBirth>TODO</NoDoctorChildBirth>
+  <NoDoctorChildBirth>Poblíž není žádný doktor.</NoDoctorChildBirth>
   <!-- EN: Can't use this bed. -->
   <CantUseThisBed>TODO</CantUseThisBed>
   <!-- EN: Not in labor. -->
   <NotInLabor>TODO</NotInLabor>
   <!-- EN: labor -->
-  <Labor>TODO</Labor>
+  <Labor>porodní bolesti</Labor>
   <!-- EN: dilation -->
-  <LaborDilation>TODO</LaborDilation>
+  <LaborDilation>otvírání</LaborDilation>
   <!-- EN: normal -->
   <PregnancyApproach_Normal>TODO</PregnancyApproach_Normal>
   <!-- EN: avoid pregnancy -->
@@ -244,7 +244,7 @@
   <!-- EN: Pregnancy is not possible -->
   <PregnancyNotPossible>TODO</PregnancyNotPossible>
   <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
-  <BirthRitualHealthyBabyChance>TODO</BirthRitualHealthyBabyChance>
+  <BirthRitualHealthyBabyChance>Při této úrovni kvality byla šance na narození zdravého dítěte {0_percentage}.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>TODO</GivingBirth>
 
@@ -440,9 +440,9 @@
 
   <!-- Child birth -->
   <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
-  <ChildBirthAlwaysHealthy_Desc>TODO</ChildBirthAlwaysHealthy_Desc>
+  <ChildBirthAlwaysHealthy_Desc>Svolání za účelem poskytnutí pomoci matce při porodu. Přivést dítě na svět může pomoci doktor.</ChildBirthAlwaysHealthy_Desc>
   <!-- EN: until the baby is born -->
-  <UntilBabyIsBorn>TODO</UntilBabyIsBorn>
+  <UntilBabyIsBorn>dokud se dítě nenarodí</UntilBabyIsBorn>
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>TODO</LearningDesireTooltip>
@@ -554,7 +554,7 @@
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Vloží osobu do růstové kádě. Bude stárnout 20krát rychleji než normálně.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Implantuje embryo do růstové kádě. Po 18 dnech vývoje se v kádi zformuje plně vyvinuté dítě, doufej, že v dobrém zdravotním stavu.</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Implantuje embryo do růstové kádě. Po uplynutí {0} vývoje se v kádi zformuje plně vyvinuté dítě, snad zcela zdravé.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Vložit embryo</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -670,7 +670,7 @@
   <!-- EN: Nearby pollution -->
   <TilePollutionNearby>Znečištění v okolí</TilePollutionNearby>
   <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
-  <NearbyPollutionTip>Celková hodnota znečištění všech oblastí v okruhu {replace: ^{0}^ ; "^1^"-"1 políčka"; "^{0}^"-"{0} políček"}. S rostoucí vzdáleností od tohoto políčka se podíl znečištění snižuje:\n\n{1}\n\nČím vyšší je znečištění v blízkém okolí, tím vyšší je pravděpodobnost výskytu kyselého smogu.</NearbyPollutionTip>
+  <NearbyPollutionTip>Celková hodnota znečištění všech oblastí v okruhu {replace: ^{0}^; "^1^"-"1 políčka"; "^{0}^"-"{0} políček"}. S rostoucí vzdáleností od tohoto políčka se podíl znečištění snižuje:\n\n{1}\n\nČím vyšší je znečištění v blízkém okolí, tím vyšší je pravděpodobnost výskytu kyselého smogu.</NearbyPollutionTip>
   <!-- EN: This tile will have acidic smog every {0} days on average. -->
   <NoxiousHazeInterval>Na tomto políčku se v průměru každých {0} dnů objeví kyselý smog.</NoxiousHazeInterval>
   <!-- EN: This tile will never have acidic smog. -->
@@ -767,8 +767,8 @@
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
-  <MyChildIsHappy>TODO</MyChildIsHappy>
+  <MyChildIsHappy>mé dítko je štastné</MyChildIsHappy>
   <!-- EN: my child is sad -->
-  <MyChildIsSad>TODO</MyChildIsSad> 
+  <MyChildIsSad>mé dítko je smutné</MyChildIsSad>
 
 </LanguageData>

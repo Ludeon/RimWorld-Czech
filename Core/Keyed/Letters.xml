@@ -16,7 +16,7 @@
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Léto</LetterLabelFirstSummerWarning>
   <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
-  <FirstSummerWarning>Začalo léto! Avšak zima se blíží.\n\nTvá rostlinná potrava v zimě neporoste. Nezapomeň uskladnit dostatek potravy pro přežití. Můžeš si postavit chladírnu, aby se zabránilo zkažení potravin.\n\nNakup, ukradni nebo vyrob pár kabátů, nebo zmrzneš hned, jakmile vystrčíš nos ven.</FirstSummerWarning>
+  <FirstSummerWarning>Začalo léto! Avšak zima se blíží.\n\nTvá rostlinná potrava v zimě neporoste. Nezapomeň uskladnit dostatek potravy pro přežití. Můžeš si postavit chladírnu, aby se zabránilo zkažení potravin.\n\nChceš-li se řádně připravit na zimu, nakup, ukradni nebo vyrob pár kabátů, jinak zmrzneš hned, jakmile vyjdeš ven.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
   <LetterRelationsChange_Hostile>Vztahy s frakcí {0} se zcela pokazily. Nyní jsou k tobě nepřátelští.</LetterRelationsChange_Hostile>  
@@ -48,7 +48,7 @@
   <Death>Smrt</Death>
 
   <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
-  <ShortCircuitRain>{1_label} kvůli zkratu, který způsobil déšť, začíná hořet.</ShortCircuitRain>
+  <ShortCircuitRain>{1_label} v důsledku srážek {1_gender ? zkratoval : zkratovala : zkratovalo} a {1_gender ? začal : začala : začalo} hořet.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
   <LetterLabelAreaRevealed>Odhalen nový prostor</LetterLabelAreaRevealed>
@@ -79,7 +79,7 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>Dneska {0} slaví své chronologické narozeniny! Biologický věk {1} je {3} let.\n\nChronologicky {1} právě završil {2}.\n\nVšimni si, že když lidé v kryptospánku nestárnou, chronologické narozeniny jsou odlišné od těch biologických.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>{0_nameFull} {0_gender ? dosáhl : dosáhla} biologického věku {replace: ^{1}^ ; "^1^"-"1 roku"; "^{1}^"-"{1} let"}.</LetterBirthdayBiological>
+  <LetterBirthdayBiological>{0_nameFull} {0_gender ? dosáhl : dosáhla} biologického věku {replace: ^{1}^; "^1^"-"1 roku"; "^{1}^"-"{1} let"}.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
   <BirthdayBiologicalAgeInjuries>Naneštěstí se u {0_gender ? něj : ní} v důsledku stárnutí objevily následující choroby</BirthdayBiologicalAgeInjuries>
 
@@ -402,7 +402,7 @@
   <!-- EN: Faction base proximity -->
   <LetterLabelFactionBaseProximity>Frakční základna v sousedství</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
-  <LetterFactionBaseProximity>Protože jsi tak blízko k ostatním frakcím, tak mají pocit, že zasahuješ do jejich teritoria.\n\nZa poslední uplynulý quadrum se vztahy s frakcí snížily o:</LetterFactionBaseProximity>
+  <LetterFactionBaseProximity>Jelikož se nacházíš v těsné blízkosti ostatních frakcí, považují tě za narušitele jejich území.\n\nZa poslední uplynulý kvadrum se vztahy s frakcí snížily o:</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
@@ -424,7 +424,7 @@
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
-  <LetterDisease_Blocked>Díky {0} se zabránilo propuknutí nemoci {1} u: {2}.</LetterDisease_Blocked>
+  <LetterDisease_Blocked>Díky {0} se zabránilo propuknutí nemoci {1} u</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Nemoc: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
@@ -548,7 +548,7 @@
   <!-- EN: Unwavering prisoner -->
   <LetterLabelUnrecruitablePawnCaptured>Neochvějně loajální vězeň</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} je neochvějně loajální jeho frakci a odmítá být jakkoliv narekrutován.\n\nTo jestli je někdo neochvějně loajální můžeš zjistit tak, že se podíváš na jeho životopis.</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} je neochvějně loajální své frakci a odmítá být jakkoliv {PAWN_gender ? naverbován : naverbována}.\n\nTo jestli je někdo neochvějně loajální můžeš zjistit tak, že se podíváš na jeho životopis.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
   <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
 

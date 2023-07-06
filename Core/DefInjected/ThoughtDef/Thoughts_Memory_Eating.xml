@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: ate corpse -->
-  <AteCorpse.stages.ate_corpse.label>{PAWN_gender ? Jedl : Jedla} mrtvého tvora</AteCorpse.stages.ate_corpse.label>
+  <AteCorpse.stages.ate_corpse.label>{PAWN_gender ? jedl : jedla} mrtvého tvora</AteCorpse.stages.ate_corpse.label>
   <!-- EN: I had to eat the flesh of a dead creature without even butchering or cooking it. -->
   <AteCorpse.stages.ate_corpse.description>{PAWN_gender ? Jedl : Jedla} jsem mrtvého tvora za syrova, aniž by byl naporcovaný, natož uvařený.</AteCorpse.stages.ate_corpse.description>
   
   <!-- EN: ate fine meal -->
-  <AteFineMeal.stages.ate_fine_meal.label>{PAWN_gender ? Jedl : Jedla} chutné jídlo</AteFineMeal.stages.ate_fine_meal.label>
+  <AteFineMeal.stages.ate_fine_meal.label>{PAWN_gender ? jedl : jedla} chutné jídlo</AteFineMeal.stages.ate_fine_meal.label>
   <!-- EN: I ate a really tasty fine meal. Yum! -->
   <AteFineMeal.stages.ate_fine_meal.description>{PAWN_gender ? Jedl : Jedla} jsem chutné jídlo. Hm, mňam!</AteFineMeal.stages.ate_fine_meal.description>
   
@@ -32,33 +32,33 @@
   <AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>{PAWN_gender ? Jedl : Jedla} jsem maso jiného člověka, syrové, jako nějaké zvíře. Bylo tak... šťavnaté.</AteHumanlikeMeatDirectCannibal.stages.raw_cannibalism.description>
   
   <!-- EN: ate cooked insect meat -->
-  <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>pozření vařeného hmyzího masa</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>
+  <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>{PAWN_gender ? jedl : jedla} vařené hmyzí maso</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.label>
   <!-- EN: I ate a meal cooked from gray, slimy insect meat. The seasoning partly covered the taste, but there were glands and fluid pockets in there that I can't identify. -->
   <AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.description>{PAWN_gender ? Jedl : Jedla} jsem jídlo uvařené ze slizkého šedého hmyzího masa. Koření sice částečně překrylo chuť, ale byly v něm žlázy a měchýře plné tekutin, které jsem {PAWN_gender ? nedokázal : nedokázala} identifikovat.</AteInsectMeatAsIngredient.stages.ate_cooked_insect_meat.description>
   
   <!-- EN: ate insect meat -->
-  <AteInsectMeatDirect.stages.ate_insect_meat.label>pozření hmyzího masa</AteInsectMeatDirect.stages.ate_insect_meat.label>
+  <AteInsectMeatDirect.stages.ate_insect_meat.label>{PAWN_gender ? jedl : jedla} hmyzí maso</AteInsectMeatDirect.stages.ate_insect_meat.label>
   <!-- EN: I ate some gray, slimy insect meat. It was, possibly, the most disgusting thing I've ever tasted. -->
   <AteInsectMeatDirect.stages.ate_insect_meat.description>{PAWN_gender ? Jedl : Jedla} jsem syrové šedé slizké hmyzí maso. Asi to bylo to nejhnusnější, co jsem kdy v životě {PAWN_gender ? pozřel : pozřela}.</AteInsectMeatDirect.stages.ate_insect_meat.description>
   
   <!-- EN: ate kibble -->
-  <AteKibble.stages.ate_kibble.label>pozření zvířecích granulí</AteKibble.stages.ate_kibble.label>
+  <AteKibble.stages.ate_kibble.label>{PAWN_gender ? jedl : jedla} zvířecí granule</AteKibble.stages.ate_kibble.label>
   <!-- EN: I had to eat animal kibble. It's like I don't get to be human any more. -->
   <AteKibble.stages.ate_kibble.description>{PAWN_gender ? Musel : Musela} jsem jíst granule pro zvířata. Je to jako bych už ani {PAWN_gender ? nebyl : nebyla} člověk.</AteKibble.stages.ate_kibble.description>
   
   <!-- EN: ate lavish meal -->
-  <AteLavishMeal.stages.ate_lavish_meal.label>{PAWN_gender ? Jedl : Jedla} bohaté jídlo</AteLavishMeal.stages.ate_lavish_meal.label>
+  <AteLavishMeal.stages.ate_lavish_meal.label>{PAWN_gender ? jedl : jedla} bohaté jídlo</AteLavishMeal.stages.ate_lavish_meal.label>
   <!-- EN: That lavish meal was amazing. It nourished my body and my soul. -->
   <AteLavishMeal.stages.ate_lavish_meal.description>Tohle bohaté jídlo bylo tak vydatné a chutné. Potěšení pro mé tělo i duši.</AteLavishMeal.stages.ate_lavish_meal.description>
   
   <!-- EN: ate raw food -->
-  <AteRawFood.stages.ate_raw_food.label>pozření syrového jídla</AteRawFood.stages.ate_raw_food.label>
+  <AteRawFood.stages.ate_raw_food.label>{PAWN_gender ? jedl : jedla} syrové jídlo</AteRawFood.stages.ate_raw_food.label>
   <!-- EN: I had to eat raw food. We should be cooking that kind of food before eating it. We're not animals. -->
   <AteRawFood.stages.ate_raw_food.description>{PAWN_gender ? Musel : Musela} jsem jíst syrové jídlo. Měli bychom si to nejdříve uvařit, než to budeme jíst. Nejsme přece zvířata!</AteRawFood.stages.ate_raw_food.description>
   
   <!-- EN: ate rotten food -->
-  <AteRottenFood.stages.ate_rotten_food.label>pozření zkaženého jídla</AteRottenFood.stages.ate_rotten_food.label>
+  <AteRottenFood.stages.ate_rotten_food.label>{PAWN_gender ? jedl : jedla} zkažené jídlo</AteRottenFood.stages.ate_rotten_food.label>
   <!-- EN: I ate some disgusting, putrid food. It was melting in my mouth - but not in a good way. -->
-  <AteRottenFood.stages.ate_rotten_food.description>{PAWN_gender ? Jedl : Jedla} jsem hnusné hnijící jídlo. Rozpadalo se mi přímo v puse - ale ne tím příjemným způsobem!</AteRottenFood.stages.ate_rotten_food.description>
+  <AteRottenFood.stages.ate_rotten_food.description>{PAWN_gender ? Jedl : Jedla} jsem odporné zkažené jídlo. Rozpadalo se mi přímo v puse - ale ne tím příjemným způsobem!</AteRottenFood.stages.ate_rotten_food.description>
   
 </LanguageData>

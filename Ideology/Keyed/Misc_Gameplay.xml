@@ -72,9 +72,9 @@
   <!-- EN: Current total animal bodysize per colonist -->
   <CurrentTotalAnimalBodySizePerColonist>Aktuální součet zvířecích tělesných výšek na jednoho kolonistu</CurrentTotalAnimalBodySizePerColonist>
   <!-- EN: total bodysize per colonist -->
-  <AnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu</AnimalsBodySizePerColonist>
+  <AnimalsBodySizePerColonist>součet těl․ výšek na kolonistu</AnimalsBodySizePerColonist>
   <!-- EN: total nearby bodysize per colonist -->
-  <VeneratedAnimalsBodySizePerColonist>souhrná tělesná výška na kolonistu v blízkém okolí</VeneratedAnimalsBodySizePerColonist>
+  <VeneratedAnimalsBodySizePerColonist>součet hrubých těl․ výšek na kolonistu</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>Očekávaná alsepoň {0} tělesná výška na jednoho kolonistu.</MinAnimalBodySizePerColonist>
   <!-- EN: Disables -->
@@ -92,9 +92,9 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Šance k získání zásady</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort} považuje tuto barvu za svou oblíbenou. Bude-li více než {PERCENTAGE} {PAWN_possessive} výstroje v této barvě, nebo barvě {PAWN_gender ? jeho : jejího} ideoboženství, bude o něco šťastnější.\n\nBarvy oděvů můžeš měnit na stylingové stanici pomocí barviva získaného z barvovníku.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort} považuje tuto barvu za svou oblíbenou. Bude-li více než {PERCENTAGE} {PAWN_possessive} výstroje v této barvě{ORIDEO}, bude o něco šťastnější.\n\nBarvy oděvů můžeš měnit na stylingové stanici pomocí barviva získaného z barvovníku.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor> nebo barva {PAWN_possessive} ideologie,</OrIdeoColor>
+  <OrIdeoColor>, nebo barvě {PAWN_gender ? jeho : jejího} ideoboženství</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Nastavit na ideo barvu</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -149,9 +149,9 @@
   <WearingDesiredApparelMulti>tento oděv</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
-  <UnableToLoadIdeoTitle>Nepovedlo se načíst ideologii</UnableToLoadIdeoTitle>
+  <UnableToLoadIdeoTitle>Nepovedlo se načíst ideoboženství</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>Nepovedlo se načíst vybranou ideologii, protože neodpovídá požadavkům frakce která jí má věřit. Porušené požadavky jsou:</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>Nepovedlo se načíst vybrané ideoboženství, protože neodpovídá požadavkům frakce, která jí má věřit. Porušenými požadavky jsou:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
   <UnableToLoadIdeoMemeNotAllowed>Toto přesvědčení je zakázané pro {FACTIONTYPE} frakce.</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
@@ -160,13 +160,13 @@
   <UnableToLoadIdeoPreceptNotAllowed>Tato zásada není povolená nehráčským frakcím ({PRECEPT}).</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
-  <RitualTargetGraveInfo>Hrob, ve kterém odpočívá {PAWN_labelShort}.</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>Hrob, ve kterém odpočívá {PAWN_labelShort}</RitualTargetGraveInfo>
   <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
-  <RitualTargetEmptyGraveInfo>Prázdný hrob k truchlení (chybějící {PAWN_labelShort}).</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>Prázdný hrob k truchlení (chybějící {PAWN_labelShort})</RitualTargetEmptyGraveInfo>
   <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Hrob, ve kterém odpočívá {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: Grave containing a corpse -->
-  <RitualTargetGraveInfoAbstractNoIdeo>Hrob obsahující mrtvolu.</RitualTargetGraveInfoAbstractNoIdeo>
+  <RitualTargetGraveInfoAbstractNoIdeo>Hrob obsahující mrtvolu</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
   <RitualTargetEmptyGraveInfoAbstract>Prázdný hrob k truchlení (chybějící {IDEO_memberNameIndef}).</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -190,9 +190,9 @@
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>V blízkém okolí je potřeba alespoň {0} nezastřešených políček.</RitualTargetNeedUnroofedCells>
   <!-- EN: a lit campfire -->
-  <RitualTargetCampfirePartyInfo>Rozdělané ohniště nebo rituální místo.</RitualTargetCampfirePartyInfo>
+  <RitualTargetCampfirePartyInfo>rozdělané ohniště</RitualTargetCampfirePartyInfo>
   <!-- EN: an unconnected Gauranlen tree -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>Nespojený gauranlení strom.</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>nespojený gauranlení strom</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Spojení již {PAWN_gender ? navázal : navázala} {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
@@ -200,15 +200,15 @@
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   <!-- EN: {0} must be able to reach ritual target. -->
-  <RitualTargetUnreachable>{0} musí být {0_gender ? schopen : schopna} se dostat k cílu rituálu.</RitualTargetUnreachable>
+  <RitualTargetUnreachable>{0} musí být {0_gender ? schopen : schopna} se dostat k cíli rituálu.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Obvinit</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
-  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} nevěří v ideologické obětování a nebude {PAWN_gender ? štastný : šťastná} pokud {PAWN_gender ? ho : jí} obětuješ.</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} nevěří v ideoboženské obětování a nebude {PAWN_gender ? štastný : šťastná} pokud {PAWN_gender ? ho : ji} obětuješ.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
-  <RitualScarificationWarnWimp>{PAWN_labelShort} je {PAWN_gender ? slaboch : slaboška} a nebude {PAWN_gender ? štastný : šťastná} pokud {PAWN_gender ? ho : jí} obětuješ.</RitualScarificationWarnWimp>
+  <RitualScarificationWarnWimp>{PAWN_labelShort} je {PAWN_gender ? slaboch : slaboška} a nebude {PAWN_gender ? štastný : šťastná} pokud {PAWN_gender ? ho : ji} obětuješ.</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
-  <RitualBlindingWarnWimp>{PAWN_labelShort} je {PAWN_gender ? slaboch : slaboška} a nebude se {PAWN_gender ? mu : jí} líbit když bude {PAWN_gender ? oslepen : oslepena}.</RitualBlindingWarnWimp>
+  <RitualBlindingWarnWimp>{PAWN_labelShort} je {PAWN_gender ? slaboch : slaboška} a nebude se {PAWN_gender ? mu : jí} líbit, bude-li {PAWN_gender ? oslepen : oslepena}.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
   <RitualScarificationTriggerExtraDesc>TODO</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
@@ -223,16 +223,16 @@
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>TODO</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
-  <RitualOutcomeExtraDesc_SkylanternWanderers>Tvoje lampiony přivolali náhodné kolemjdoucí. Navštíví tě a nechají ti dárek.</RitualOutcomeExtraDesc_SkylanternWanderers>
+  <RitualOutcomeExtraDesc_SkylanternWanderers>Tvoje lampiony přivolaly náhodné kolemjdoucí. Navštíví tě a nechají ti dárek.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <!-- EN: All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level. -->
   <RitualOutcomeExtraDesc_Execution>Všichni zúčastnění otroci byli otřeseni pohledem na smrt. Jejich útlak vyskočil na maximální úroveň.</RitualOutcomeExtraDesc_Execution>
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>V závislosti na kvalitě rituálu byly tvé vývojové body zvýšeny o {2} (ze současných {0} na {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>V závislosti na kvalitě rituálu byly tvé rozvojové body zvýšeny o {2} (ze současných {0} na {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Can't award development points beyond {0}. -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>Není možné obdržet rozvojové body přes {0}.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
-  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Kvůli špatné kvalitě rituálu nebyly získány žádné vývojové body.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Kvůli špatné kvalitě rituálu nebyly získány žádné rozvojové body.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <!-- EN: Additional reward -->
   <RitualAttachedReward>Dodatečná odměna</RitualAttachedReward>
@@ -343,13 +343,13 @@
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
   <AbilityDisabledNoAltarIdeogramOrRitualsSpot>Není dostupný žádný oltář, ideogram ani rituální místo.</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
   <!-- EN: No reachable ritual spot. -->
-  <AbilityDisabledNoRitualSpot>Žádné dosažitelné místo pro vykonání rituálu.</AbilityDisabledNoRitualSpot>
+  <AbilityDisabledNoRitualSpot>Žádné dosažitelné rituální místo.</AbilityDisabledNoRitualSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>Vůle\n{0} na {1}</TextMote_WillReduced>
 
   <!-- EN: Accepting this join offer is an act of charity. If you refuse, the following people will be unhappy due to their pro-charity beliefs:\n{0}\n\nAre you sure you want to reject this join offer? -->
-  <ConfirmationCharityJoiner>Přijmutí této nabídky připojení je charitativní gesto. Pokud odmítneš, tito lidé budou nešťastní, protože chritativní přesvědčení\n{0}\n\n:Opravdu chceš odmítnout tuto nabídku?</ConfirmationCharityJoiner>
+  <ConfirmationCharityJoiner>Přijmutí této nabídky připojení je aktem dobročinosti. následující lidé budou kvůli svému procharitativnímu přesvědčení nešťastní:\n{0}\n\nOpravdu chceš odmítnout tuto nabídku?</ConfirmationCharityJoiner>
 
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>TODO</BelieversIn>
@@ -403,13 +403,13 @@
   <EmancipateCololonistTooltip>Z otroka se stane opět kolonista.</EmancipateCololonistTooltip>
 
   <!-- EN: You've stayed in the village too long. The people of {FACTION_name} are attacking! -->
-  <WorshippedTerminalFactionBecameHostileTimed>Zůstal jsi ve vesnici příliš dlouho. Lidé domovské frakce na tebe začínají útočit.</WorshippedTerminalFactionBecameHostileTimed>
+  <WorshippedTerminalFactionBecameHostileTimed>Zůstal jsi ve vesnici příliš dlouho. Lidé domovské frakce {FACTION_name} na tebe začínají útočit.</WorshippedTerminalFactionBecameHostileTimed>
   <!-- EN: Villagers are returning from nearby to protect the venerated terminal! -->
-  <WorshippedTerminalRaidIncoming>Vesničané se vrací z blízkého okolí aby ochraňovali posvátný terminál.</WorshippedTerminalRaidIncoming>
+  <WorshippedTerminalRaidIncoming>Vesničané se vrací z blízkého okolí, aby ochraňovali posvátný terminál!</WorshippedTerminalRaidIncoming>
 
   <!-- Relic hunt -->
   <!-- EN: The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you. -->
-  <RelicHuntFoundRelicSite>Relikvie je uchovávána ve starodávné struktuře, chráněna nekolika bezpečnostními týmy.\n\nMůžeš přemoct bezpečnostní síly jednu za druhou anebo popadni relikvii a uteč než tě chytí.</RelicHuntFoundRelicSite>
+  <RelicHuntFoundRelicSite>Relikvie je uchovávána ve starodávné struktuře, chráněna nekolika bezpečnostními týmy.\n\nMůžeš přemoct bezpečnostní síly jednu za druhou anebo popadni relikvii a uteč dřív, než tě chytí.</RelicHuntFoundRelicSite>
   <!-- EN: The relic rests in an ancient structure nearby. -->
   <RelicHuntFoundRelicSitePeaceful>Relikvie je uchovávána v nedaleké starodávné struktuře.</RelicHuntFoundRelicSitePeaceful>
 
@@ -520,11 +520,11 @@
   <!-- EN: Target outdoors and night-time -->
   <TargetNightOutdoors>Cíl je venku v noci</TargetNightOutdoors>
   <!-- EN: Target indoors and dark -->
-  <TargetDarkIndoors>Cíl je vevnitř a ve tmě</TargetDarkIndoors>
+  <TargetDarkIndoors>Cíl je uvnitř a ve tmě</TargetDarkIndoors>
   <!-- EN: Target outdoors and daytime -->
   <TargetDayOutdoors>Cíl je venku za světla.</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
-  <TargetLitIndoors>Cíl je vevnitř a na světle</TargetLitIndoors>  
+  <TargetLitIndoors>Cíl je uvnitř a na světle</TargetLitIndoors>  
   <!-- EN: Charging -->
   <RechargeableCharging>Nabíjení</RechargeableCharging>
   <!-- EN: Ready -->
@@ -533,13 +533,13 @@
   <!-- EN: Skill -->
   <RoleRequirementSkill>Dovednost</RoleRequirementSkill>
   <!-- EN: Any of skills -->
-  <RoleRequirementSkillAny>Jakákoli z dovedností</RoleRequirementSkillAny>
+  <RoleRequirementSkillAny>Jedna z dovedností</RoleRequirementSkillAny>
   <!-- EN: Won't use ranged weapons -->
-  <RoleEffectWontUseRangedWeapons>Nepoužije zbraně na dálku</RoleEffectWontUseRangedWeapons>
+  <RoleEffectWontUseRangedWeapons>Nebude používat zbraně na dálku</RoleEffectWontUseRangedWeapons>
   <!-- EN: Won't use melee weapons -->
-  <RoleEffectWontUseMeleeWeapons>Nepoužije zbraně na blízko</RoleEffectWontUseMeleeWeapons>
+  <RoleEffectWontUseMeleeWeapons>Nebude používat zbraně na blízko</RoleEffectWontUseMeleeWeapons>
   <!-- EN: {0} quality to crafting or construction -->
-  <RoleEffectProductionQualityOffset>TODO</RoleEffectProductionQualityOffset>
+  <RoleEffectProductionQualityOffset>{0} ke kvalitě při řemeslu či konstrukci</RoleEffectProductionQualityOffset>
   <!-- EN: Hunting revenge chance {0} -->
   <RoleEffectHuntingRevengeChance>TODO</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
@@ -632,7 +632,7 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} svůj omlazovací cyklus. Za {replace: ​{DEADLINE}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>Za {replace: ​{DEADLINE}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} potěšovací cyklus.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -655,7 +655,7 @@
   <!-- EN: basic -->
   <Basic>základní</Basic>
   <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
-  <ChangeStyleDesc>Změň styl ve kterém je toto postaveno.</ChangeStyleDesc>
+  <ChangeStyleDesc>Změň styl, ve kterém je toto postaveno. Jedná se o čistě vizuální záležitost, která nemá žádný vliv na hratelnost.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Žádné dostupné styly.</ChangeStyleDisabledNoCategories>
 

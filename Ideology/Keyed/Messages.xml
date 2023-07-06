@@ -4,7 +4,7 @@
   <!-- EN: Create or select an ideoligion for your faction. -->
   <MessageMustChooseIdeo>Vytvoř nebo vyber ideoboženství pro tvou frakci.</MessageMustChooseIdeo>
   <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>Jméno ideologie nemůže být prázdné.</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoNameCantBeEmpty>Jméno ideoboženství nemůže být prázdné.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} a {PRECEPT2} nejsou kompatibilní.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
@@ -18,7 +18,7 @@
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} to odmítá udělat z důvodu svého ideoboženství.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} se {INITIATOR_gender ? pokusil : pokusila} konvertovat {RECIPIENT_nameDef} na své ideoboženství. {RECIPIENT_possessive} jistota klesla z {CERTAINTYBEFORE} na {CERTAINTYAFTER}. {RECIPIENT_nameDef} nelibě nese snahu o konverzi.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} se {INITIATOR_gender ? pokusil : pokusila} konvertovat {RECIPIENT_nameDef} na své ideoboženství. {RECIPIENT_possessive} jistota klesla z {CERTAINTYBEFORE} na {CERTAINTYAFTER}. {RECIPIENT_nameDef} pokus o konverzi nese s nelibostí.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} se {PAWN1_gender ? pokusil : pokusila} konvertovat {PAWN2_nameDef} na své ideoboženství. Skončilo to rvačkou!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
@@ -104,7 +104,7 @@
   <OverlappingRoleApparel>Role nesmí mít překrývající se požadavky na oblečení.</OverlappingRoleApparel>
   
   <!-- EN: {0} will self-destruct in {1}. -->
-  <SelfDestructCountdown>K samozničení {lookup: {0_label}; case\singular; 2} dojde za {1}.</SelfDestructCountdown>
+  <SelfDestructCountdown>K samozničení {lookup: {0}; case\singular; 2} dojde za {1}.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
   <PreceptNameTooLong>Název je příliš dlouhý (povoleno je maximálně {0} znaků)</PreceptNameTooLong>
 

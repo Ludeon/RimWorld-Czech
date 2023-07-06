@@ -53,7 +53,7 @@
   <!-- EN: The icon of this xenotype. -->
   <SelectIconDesc>Ikona tohoto xenotypu.</SelectIconDesc>
   <!-- EN: Inspect the genes inside the {0_labelShort}. -->
-  <InspectGenesDesc>Zobrazí geny uvnitř {replace: {0_labelShort} ; "genobalík"-"genobalíku"; "{0_labelShort}"-"{0_labelShort}"}.</InspectGenesDesc>
+  <InspectGenesDesc>Zobrazí geny uvnitř {replace: {0_labelShort}; "genobalík"-"genobalíku"; "{0_labelShort}"-"{0_labelShort}"}.</InspectGenesDesc>
   <!-- EN: Inspect the unborn baby's genes. -->
   <InspectGenesHediffDesc>Zobrazí geny nenarozeného dítěte.</InspectGenesHediffDesc>
   <!-- EN: Inspect the embryo's genes. -->
@@ -81,7 +81,7 @@
   <!-- EN: Xenogenes are genes derived from an implanted xenogerm. If the xenogerm is removed or replaced, the xenogenes go with it. Since xenogenes are not part of the organism's own germline DNA, they are not passed to children. -->
   <XenogenesDesc>TODO</XenogenesDesc>
   <!-- EN: Germline genes are naturally-inherited genes which are in every cell in an organism's body and don't require any external support. They are passed from parent to child. -->
-  <EndogenesDesc>TODO</EndogenesDesc>
+  <EndogenesDesc>Zárodečné geny jsou přirozeně zděděné geny, které se vyskytují v každé buňce organismu a ke svému vzniku nevyžadují žádný vnější zásah. Přenáší se z rodičů na děti.</EndogenesDesc>
   <!-- EN: Member xenotypes -->
   <MemberXenotypeChances>Xenotypy v této frakci</MemberXenotypeChances>
   <!-- EN: xenotype name -->
@@ -119,9 +119,9 @@
   <!-- EN: Inspect baby genes -->
   <InspectBabyGenes>Prohlédnout geny dítěte</InspectBabyGenes>
   <!-- EN: no xenogerm implanted -->
-  <NoXenogermImplanted>TODO</NoXenogermImplanted>
+  <NoXenogermImplanted>žádný implantovaný xenozárodek</NoXenogermImplanted>
   <!-- EN: germline genes -->
-  <Endogenes>TODO</Endogenes>
+  <Endogenes>zárodečné geny</Endogenes>
   <!-- EN: xenogenes -->
   <Xenogenes>xenogeny</Xenogenes>
   <!-- EN: overridden -->
@@ -145,7 +145,7 @@
   <!-- EN: custom -->
   <Custom>vlastní</Custom>
   <!-- EN: hybrid -->
-  <Hybrid>TODO</Hybrid>
+  <Hybrid>hybridní</Hybrid>
   <!-- EN: Genes are heritable -->
   <GenesAreInheritable>Geny jsou dědičné</GenesAreInheritable>
   <!-- EN: Whether or not this xenotype can be passed on to children. -->
@@ -183,7 +183,7 @@
   <!-- EN: Colonists will always be within this developmental stage's age range when generated. -->
   <DevelopmentalAgeSelectionDesc>Kolonisté se při vytváření budou vždy nacházet ve věkovém rozmezí této vývojové fáze.</DevelopmentalAgeSelectionDesc>
   <!-- EN: Colonists will always carry the genes defined by this xenotype. -->
-  <XenotypeSelectionDesc>Kolonisté ponesou vždy geny definované tímto xenotypem.</XenotypeSelectionDesc>
+  <XenotypeSelectionDesc>Kolonisté budou mít vždy geny spojené s tímto xenotypem.</XenotypeSelectionDesc>
   <!-- EN: Save and apply -->
   <SaveAndApply>Uložit a použít</SaveAndApply>
   <!-- EN: Load custom -->
@@ -235,9 +235,9 @@
   <!-- EN: The work activities that can be performed by this mechanoid.\n\nThe following list details which work activities can be done within each work type -->
   <MechWorkActivitiesExplanation>TODO</MechWorkActivitiesExplanation>
   <!-- EN: Recharge settings -->
-  <MechRechargeSettingsTitle>TODO</MechRechargeSettingsTitle>
+  <MechRechargeSettingsTitle>Nastavení dobíjení</MechRechargeSettingsTitle>
   <!-- EN: Change when mechanoids will start and stop charging.\n\nMechanoids with energy below this range will automatically seek out a recharger. They will stop charging once they reach the top of this range. These settings only apply in work mode. -->
-  <MechRechargeSettingsExplanation>TODO</MechRechargeSettingsExplanation>
+  <MechRechargeSettingsExplanation>Uprav, kdy se mají mechanoidi začít a přestat dobíjet.\n\nMechanoidi, jejichž energie je nižší než tento rozsah, budou automaticky vyhledávat dobíječku. Po dosažení horní hranice stanoveného rozsahu se přestanou dobíjet. Tato nastavení platí pouze v režimu práce.</MechRechargeSettingsExplanation>
   <!-- EN: Work skill -->
   <MechWorkSkill>TODO</MechWorkSkill>
   <!-- EN: The skill level that this mechanoid acts with. -->
@@ -329,21 +329,21 @@
   <NeanderthalFactionGreetingWarm>TODO</NeanderthalFactionGreetingWarm>
 
   <!-- EN: Max tier -->
-  <MaxTier>TODO</MaxTier>
+  <MaxTier>Růst na maximu</MaxTier>
   <!-- EN: {PAWN_nameDef} has accumulated the maximum number of growth points. -->
-  <MaxTierDesc>TODO</MaxTierDesc>
+  <MaxTierDesc>{PAWN_nameDef} {PAWN_gender ? nastřádal : nastřádala} maximální počet bodů růstu.</MaxTierDesc>
   <!-- EN: Progress to next growth tier -->
-  <ProgressToNextGrowthTier>TODO</ProgressToNextGrowthTier>
+  <ProgressToNextGrowthTier>Pokrok do další fáze</ProgressToNextGrowthTier>
   <!-- EN: This growth tier -->
-  <ThisGrowthTier>TODO</ThisGrowthTier>
+  <ThisGrowthTier>Tato fáze růstu</ThisGrowthTier>
   <!-- EN: Next growth tier -->
-  <NextGrowthTier>TODO</NextGrowthTier>
+  <NextGrowthTier>Příští fáze růstu</NextGrowthTier>
   <!-- EN: Choose {0} passions from {1} options. -->
-  <NumPassionsFromOptions>TODO</NumPassionsFromOptions>
+  <NumPassionsFromOptions>volba {replace: ^{0}^; "^1^"-"1 vášně"; "^{0}^"-"{0} vášní"} {replace: ^{1}^; "^1^"-"z 1 možné"; "^2^"-"ze 2 možných"; "^3^"-"ze 3 možných"; "^4^"-"ze 4 možných"; "^5^"-"z 5 možných"; "^6^"-"ze 6 možných"; "^{1}^"-"z {1} možných"}</NumPassionsFromOptions>
   <!-- EN: Choose {0} trait from {1} options. -->
-  <NumTraitsFromOptions>TODO</NumTraitsFromOptions>
+  <NumTraitsFromOptions>volba {replace: ^{0}^; "^1^"-"1 rysu"; "^{0}^"-"{0} rysů"} {replace: ^{1}^; "^1^"-"z 1 možného"; "^2^"-"ze 2 možných"; "^3^"-"ze 3 možných"; "^4^"-"ze 4 možných"; "^5^"-"z 5 možných"; "^6^"-"ze 6 možných"; "^{1}^"-"z {1} možných"}</NumTraitsFromOptions>
   <!-- EN: Next growth moment at age -->
-  <NextGrowthMomentAt>TODO</NextGrowthMomentAt>
+  <NextGrowthMomentAt>Další okamžik růstu ve věku</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
   <RoomRequirementNoBiotechBuildings>TODO</RoomRequirementNoBiotechBuildings>

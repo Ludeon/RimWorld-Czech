@@ -54,11 +54,11 @@
   <!-- EN: {0_nameDef} became a child -->
   <LetterLabelBecameChild>{0_nameDef} se {0_gender ? stal : stala} dítětem</LetterLabelBecameChild>
   <!-- EN: {0_nameDef} became an adult -->
-  <LetterLabelBecameAdult>{0_nameDef} {0_gender ? dospěl : dospěla}</LetterLabelBecameAdult>
+  <LetterLabelBecameAdult>{0_nameDef} {0_gender ? stal dospělým : stala dospělou}</LetterLabelBecameAdult>
   <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>TODO</LetterBecameChild>
+  <LetterBecameChild>{0_gender ? Chlapeček : Holčička} jménem {0_nameDef} {0_gender ? vyrostl : vyrostla} a {0_gender ? stal : stala} se tak dítětem! Nyní je dostatečně {0_gender ? starý : stará} na to, aby {0_gender ? mohl : mohla} vykonávat následující činnosti:</LetterBecameChild>
   <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>TODO</LetterBecameChildChanges>
+  <LetterBecameChildChanges>Děti mohou vykonávat různé druhy činností. Čím jsou starší, tím se jejich pracovní schopnosti dále rozšiřují.\n\nTaké se věnují různým volnočasovým aktivitám specifickým pro děti.\n\nMimoto potřebují speciální oblečení v dětských velikostech.</LetterBecameChildChanges>
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
   <LetterChildLegalStatus>TODO</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
@@ -68,7 +68,7 @@
   <!-- EN: enslave -->
   <Enslave>zotročit</Enslave>
   <!-- EN: emancipate -->
-  <Emancipate>TODO</Emancipate>
+  <Emancipate>osvobodit</Emancipate>
   <!-- EN: remain {0} -->
   <RemainX>ponechat {lookup: {0}; case\singular; 7}</RemainX>
   <!-- EN: {BABY_nameDef} adopted -->
@@ -109,36 +109,36 @@
   <!-- EN: {0_nameDef} has already been named. -->
   <BabyAlreadyNamed>TODO</BabyAlreadyNamed>
   <!-- EN: name baby -->
-  <NameBaby>TODO</NameBaby>
+  <NameBaby>pojmenovat dítě</NameBaby>
   <!-- EN: immediately -->
   <Immediately>TODO</Immediately>
   <!-- EN: within -->
   <Within>TODO</Within>
   <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
-  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <LetterPartTempBabyName>Dítě zatím dostalo jméno {0_nameFull}.</LetterPartTempBabyName>
   <!-- EN: You can change it until {0} after birth. -->
-  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <LetterPartLiveBirthNameDeadline>Na jeho změnu máš nanejvýš {0} od porodu.</LetterPartLiveBirthNameDeadline>
   <!-- EN: Would you like to give the baby another name? -->
   <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
   <LetterPartNameBabyAdopt>TODO</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
-  <BirthdayGrowthMoment>TODO</BirthdayGrowthMoment>
+  <BirthdayGrowthMoment>Okamžiku růstu: {PAWNNAME}</BirthdayGrowthMoment>
   <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
-  <BirthdayBiologicalGrowthMoment>TODO</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalGrowthMoment>{0_nameFull} {0_gender ? dosáhl : dosáhla} biologického věku {1} let a {0_gender ? prožil : prožila} tak okamžik růstu!</BirthdayBiologicalGrowthMoment>
   <!-- EN: {0_nameDef} is now old enough to do the following work -->
-  <BirthdayBiologicalAgeWorkTypes>TODO</BirthdayBiologicalAgeWorkTypes>
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} je nyní dost {0_gender ? starý : stará} na to, aby {0_gender ? mohl : mohla} vykonávat následující činnosti</BirthdayBiologicalAgeWorkTypes>
   <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>TODO</BirthdayPickPassion>
+  <BirthdayPickPassion>Vyber 1 dovednost, pro kterou má {0_nameDef} rozvinout svou vášeň</BirthdayPickPassion>
   <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>TODO</BirthdayPickPassions>
+  <BirthdayPickPassions>Vyber {replace: ^{1}^; "^2^"-"2 dovednosti"; "^3^"-"3 dovednosti"; "^4^"-"4 dovednosti"; "^{1}^"-"{1} dovedností"}, pro které má {0_nameDef} rozvinout svou vášeň</BirthdayPickPassions>
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
-  <BirthdayPickTrait>TODO</BirthdayPickTrait>
+  <BirthdayPickTrait>Vyber povahový rys, kterým se má {0_nameDef} vyznačovat</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
   <BirthdayGrowthTier>TODO</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
-  <BirthdayChooseHowPawnWillGrow>TODO</BirthdayChooseHowPawnWillGrow>
+  <BirthdayChooseHowPawnWillGrow>Otevřením tohoto dopisu urči, jak se bude {0_nameDef} dále vyvíjet.</BirthdayChooseHowPawnWillGrow>
 
   <!-- EN: Passion was increased for {0}. -->
   <BirthdayPassionArchive>TODO</BirthdayPassionArchive>
@@ -152,13 +152,13 @@
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>TODO</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
-  <BirthdayNickname>TODO</BirthdayNickname>
+  <BirthdayNickname>{0} má nyní přezdívku {1}.</BirthdayNickname>
   <!-- EN: Select a trait. -->
   <SelectATrait>Vyber povahový rys.</SelectATrait>
   <!-- EN: Select a passion. -->
-  <SelectPassionSingular>TODO</SelectPassionSingular>
+  <SelectPassionSingular>Vyber vášeň.</SelectPassionSingular>
   <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>TODO</SelectPassionsPlural>
+  <SelectPassionsPlural>Vyber {replace: ^{0}^; "^2^"-"2 vášně"; "^3^"-"3 vášně"; "^4^"-"4 vášně"; "^{0}^"-"{0} vášní"}.</SelectPassionsPlural>
   <!-- EN: Later -->
   <Later>Později</Later>
   
