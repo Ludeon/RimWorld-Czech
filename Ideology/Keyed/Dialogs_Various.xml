@@ -3,9 +3,9 @@
 
   <!-- Misc -->
   <!-- EN: Trading animal products bonus -->
-  <TradingAnimalProduceBonus>TODO</TradingAnimalProduceBonus>
+  <TradingAnimalProduceBonus>Bonus obchodování se zvířecími produkty</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
-  <SlavesSection>TODO</SlavesSection>
+  <SlavesSection>Otroci</SlavesSection>
   <!-- EN: dominant style -->
   <DominantStyle>dominantní styl</DominantStyle>
   <!-- EN: Date -->
@@ -13,9 +13,9 @@
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
   <RitualDevelopmentPointRewards>V závislosti na rituálním výsledku budou přiděleny následující vývojové body</RitualDevelopmentPointRewards>
   <!-- EN: Use global style -->
-  <UseGlobalStyle>TODO</UseGlobalStyle>
+  <UseGlobalStyle>Použít globální styl</UseGlobalStyle>
   <!-- EN: No style variations available -->
-  <NoStylesAvailable>TODO</NoStylesAvailable>
+  <NoStylesAvailable>Nemé žádné stylové variace</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Vyber si symbolickou strukturu svého ideoboženství. Ta ovlivňuje pouze symboly - nemá vliv na hratelnost.</ChooseStructureMemesInfo>
@@ -41,9 +41,9 @@
   <NotEnoughMemesFluidIdeo>Vyber si {0} přesvědčení.</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
-  <ChangesRandomizePrecepts>Kliknutím na '{0}' přenastavíš všechny zásady, včetně těch, které sis již upravil.\n\nPřeješ si pokračovat?</ChangesRandomizePrecepts>
+  <ChangesRandomizePrecepts>Kliknutím na '{0}' přenastavíš všechny zásady, včetně těch, které sis již upravil.\n\nChceš i přesto pokračovat?</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
-  <ChangesRemovePrecepts>TODO</ChangesRemovePrecepts>
+  <ChangesRemovePrecepts>Následující zásady jsou nekompatibilní s novými přesvědčeními a budou odstraněny:\n\n{0}\n\nChceš i přesto pokračovat?</ChangesRemovePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>Požadavky na místnost</RoomRequirements>
@@ -63,7 +63,7 @@
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Není přidělena žádná role</NoRoleAssigned>
   <!-- EN: Children cannot take on roles -->
-  <ChildNoRoleAssigned>TODO</ChildNoRoleAssigned>
+  <ChildNoRoleAssigned>Dětem nomouhou být přiděleny role</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
   <RemoveRole>Odebere roli {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
@@ -75,9 +75,9 @@
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
   <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} v současné době zastává roli {ROLE_label} a nebude {PAWN_gender ? rád : ráda}, pokud o ni přijde.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>TODO</ChooseRoleConfirmAssignReplaceLeader>
-  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>TODO</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmAssignReplaceLeader>Můžeš mít najednou pouze jednoho vůdce. Touto akcí {PAWN_labelShort} přijde o svoji roli ({OTHERROLE_labelDef}), což {PAWN_gender ? ho : jí} zarmoutí.</ChooseRoleConfirmAssignReplaceLeader>
+  <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. ***-->
+  <ChooseRoleConfirmUnassign>Touto akcí {PAWN_labelShort} přijde o roli ({ROLE_labelIndef}). To {PAWN_gender ? ho : jí} zarmoutí.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
   <ChooseRoleListAbilities>{PAWN_labelShort} získá následující schopnosti</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
@@ -93,9 +93,9 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>Odemčené rituály</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>TODO</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>Pozor: {PAWN_nameDef} není schopen provádět práci která je po roli vyžadovaná ({ROLE_label}).</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
-  <YourLeaderTradeBonus>TODO</YourLeaderTradeBonus>
+  <YourLeaderTradeBonus>Bonus vůdce</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
   <CannotNotAddRoleApparelDueToMeme>Přesvědčení {MEME} neumožňuje přidávat k rolím vyžadované oblečení.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
@@ -125,7 +125,7 @@
   <AbilityIdeoConvertBreakdownMemeVsTrait>'{MEME}' vs povahový rys '{TRAIT}'</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
-  <AbilityCantApplyAlreadyCounselled>TODO</AbilityCantApplyAlreadyCounselled>
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} už obdržel radu v blízké minulosti.</AbilityCantApplyAlreadyCounselled>
 
   <!-- EN: Reform... -->
   <ReformIdeo>Reformovat...</ReformIdeo>
@@ -148,21 +148,21 @@
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
   <ReformIdeoRelicHuntQuestEnd>TODO</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
-  <ReformIdeoCancelRituals>TODO</ReformIdeoCancelRituals>
+  <ReformIdeoCancelRituals>Rituál, který právě probíhá, bude ukončen.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
-  <ReformIdeoContinue>TODO</ReformIdeoContinue>
+  <ReformIdeoContinue>Chceš i přesto pokračovat?</ReformIdeoContinue>
 
   <!-- Slavery -->
   <!-- EN: Slave -->
-  <CannotAssignBedToSlave>TODO</CannotAssignBedToSlave>
+  <CannotAssignBedToSlave>Otrok</CannotAssignBedToSlave>
   <!-- EN: Colonist -->
-  <CannotAssignBedToColonist>TODO</CannotAssignBedToColonist>
+  <CannotAssignBedToColonist>Kolonista</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
-  <AnySlave>Každý otrok</AnySlave>
+  <AnySlave>Jakýkoli otrok</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
-  <NegotiatorWillNotTradeSlaves>TODO</NegotiatorWillNotTradeSlaves>
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} odmítá prodat kohokoli do otroctví kvůli {0_gender ? jeho : jejím} přesvědčením.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>TODO</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>Tvůj vyjednávač {0_nameDef} odmítá prodat někoho do otroctví kvůli {0_gender ? jeho : jejím} víře v {1}.\n\nZato ale nemá problém někoho z otroctví odkoupit.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>Poslední lidské maso</LastHumanMeat>
@@ -301,7 +301,7 @@
   <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>Stávající vyznavač</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>Opouštíš oblast, ve které se nachází archotecké struktury, které jsi ještě zcela neprozkoumal.\n\nBudeš se sem moci přesídlit později, ale tvá kolonie bude již vymazána.</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>Opouštíš oblast, ve které se nachází archotecké struktury, které jsi ještě zcela neprozkoumal.\n\nBudeš se sem moci vrátit později, ale tvá kolonie bude vymazána.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>TODO</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
@@ -311,7 +311,7 @@
   <ConfirmHackEnenyTerminal>Nabouráním {lookup: {0}; case\singular; 2} upozorníš nepřátele a přiměješ je k útoku. Opravdu chceš nabourat {lookup: {0}; case\singular; 4}?</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
-  <RelicsSection>TODO</RelicsSection>
+  <RelicsSection>Relikvie</RelicsSection>
 
   <!-- Food restrictions -->
   <!-- EN: Vegetarian -->
@@ -326,5 +326,5 @@
   <!-- EN: Styles in use -->
   <StylesInUse>Používané styly</StylesInUse>
   <!-- EN: Add a style. -->
-  <StyleCategoryAddDesc>TODO</StyleCategoryAddDesc>
+  <StyleCategoryAddDesc>Přidát styl.</StyleCategoryAddDesc>
 </LanguageData>

@@ -41,14 +41,14 @@
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
   <IdeoBuildingArchitectTabDesc>TODO</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->
-  <IdeoBuildingCanBeCraftedAt>TODO</IdeoBuildingCanBeCraftedAt>
+  <IdeoBuildingCanBeCraftedAt>Může to být vytvořeno v:\n{0}.</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>TODO</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
-  <IdeoBuildingExpectations>TODO</IdeoBuildingExpectations>
+  <IdeoBuildingExpectations>očekávání jsou</IdeoBuildingExpectations>
 
   <!-- EN: {0} disrespected -->
-  <IdeoBuildingDisrespected>TODO</IdeoBuildingDisrespected>
+  <IdeoBuildingDisrespected>{0} {0_gender ? zneúctěný : zneuctěná : zneúctěné : zneúctěny}</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingDisrespectedDesc>TODO</IdeoBuildingDisrespectedDesc>
   
@@ -79,9 +79,9 @@
   <AlertRitualComingEntry>{0} (objeví se {1}, tedy přibližně za {2})</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
-  <AlertAgeReversalDemandNear>TODO</AlertAgeReversalDemandNear>
+  <AlertAgeReversalDemandNear>Požadován omlazovací cyklus</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
-  <AlertAgeReversalDemandDesc>TODO</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc>Kvůli náboženství tvých kolonistů, požadují omlazovací cyklus na konzistentní bázi. Pokud ho neobdrží, budou neštastní.\n\nNásledující kolonisté požadují omlazovací cyklus</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Recruit>TODO</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
@@ -99,24 +99,24 @@
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
   <AlertGauranlenTreeWithoutDryadTypeDesc>Jeden nebo více gauranleních stromů nemá nastavenou dryádí kastu.\n\nVyber strom a kliknutím na tlačítko '{0}' urči kastu, kterou má vytvářet.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>TODO</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Spojovač nemá povolenou činost lesníka</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>TODO</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Máš gauranlení stromy které potřebují ořezat, ale jejich spojovači nemají přidělenou práci lesníka.\n\nMěl by si přidat práci lesníka následujícím lidem</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>TODO</AlertFuelNodeIgniting>
   <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
-  <AlertFuelNodeIgnitingDesc>TODO</AlertFuelNodeIgnitingDesc>
+  <AlertFuelNodeIgnitingDesc>Nestabilní palivový uzel se vznítil. V okamžiku exploduje.\n\nUteč od něj a buď připraven na to uhasit vzniklý požár anebo utéct.</AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
   <AlertInfestationArriving>TODO</AlertInfestationArriving>
   <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
-  <AlertInfestationArrivingDesc>TODO</AlertInfestationArrivingDesc>
+  <AlertInfestationArrivingDesc>Obří hmyzáci ucítili tvojí aktivitu a hrabou se na povrch aby zaútočili. Zachvíli proběhne zamoření.</AlertInfestationArrivingDesc>
 
   <!-- EN: {0_pawnsPlural} waking in {1} -->
   <AlertHostilesWakingUp>TODO</AlertHostilesWakingUp>
   <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
-  <AlertHostilesWakingUpDesc>TODO</AlertHostilesWakingUpDesc>
+  <AlertHostilesWakingUpDesc>Kolemjdoucí {0_pawnsPlural} právě přichází.\n\nPokud tě najdou, tak na tebe zaútočí.</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
   <AlertCasketOpening>Kryptospánkové komory se otevřou za {0}</AlertCasketOpening>
@@ -124,9 +124,9 @@
   <AlertCasketOpeningDesc>Kryptospánkové komory obsahující neznámé hrozby se brzy otevřou.</AlertCasketOpeningDesc>
 
   <!-- EN: Slave rebellion likely -->
-  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely>
+  <AlertSlaveRebellionLikely>Velká pravděpodobnost vzpoury otroků</AlertSlaveRebellionLikely>
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
-  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount>
+  <AlertSlaveRebellionLikelyRebelliousCount>Je tu {REBELLIOUSCOUNT} otroků, kteří mají velkou šanci na zahájení vzpory.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
   
