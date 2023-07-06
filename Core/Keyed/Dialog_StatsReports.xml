@@ -137,7 +137,7 @@
   <!-- EN: Ideoligion -->
   <StatsReport_Ideoligion>Ideoboženství</StatsReport_Ideoligion>
   <!-- EN: Multiplier for malnutrition {0} -->
-  <StatsReport_Malnutrition>Násobytel vyhladovění {0}</StatsReport_Malnutrition>
+  <StatsReport_Malnutrition>Násobitel vyhladovění {0}</StatsReport_Malnutrition>
 
   <!-- EN: Possible offsets -->
   <StatReport_PossibleOffsets>Možné bonusy</StatReport_PossibleOffsets>
@@ -379,46 +379,45 @@
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
-  <Stat_Thing_Drug_Chemical_Desc>Aktivní chemická látka v této droze.\n\nV některých případech je stejná chemická látka přítomna i v jiných drogách. Takové drogy umožňují uspokojit stejnou závislost různými způsoby.</Stat_Thing_Drug_Chemical_Desc>
+  <Stat_Thing_Drug_Chemical_Desc>Aktivní chemická látka v této droze.\n\nV některých případech se tatáž chemická látka nachází v několika rozdílných drogách. Takové drogy dokáží uspokojit stejnou závislost různými způsoby.</Stat_Thing_Drug_Chemical_Desc>
   <!-- EN: The category this drug belongs to. -->
-  <Stat_Thing_Drug_Category_Desc>Kategorie, do které tato droga patří.</Stat_Thing_Drug_Category_Desc>
+  <Stat_Thing_Drug_Category_Desc>Kategorie, do které tato droga spadá.</Stat_Thing_Drug_Category_Desc>
   <!-- EN: The intensity of high gained per dose of this drug. -->
-  <Stat_Thing_Drug_HighGainPerDose_Desc>Intenzita nárůstu euforie po podání jedné dávky této drogy.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <Stat_Thing_Drug_HighGainPerDose_Desc>Intenzita euforie získaná po jedné dávce této drogy.</Stat_Thing_Drug_HighGainPerDose_Desc>
   <!-- EN: How much this drug's high will decay each day. -->
-  <Stat_Thing_Drug_HighFallPerDay_Desc>Kolik euforie se vytratí za den.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Kolik euforie vyvolané touto drogou se vytratí za den.</Stat_Thing_Drug_HighFallPerDay_Desc>
   <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
-  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak dlouho vydrží pocit euforie po podání jedné dávky.\n\nTato hodnota je vypočtena z nárůstu euforie na dávku a rychlosti poklesu euforie.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Jak dlouho přetrvává pocit euforie po podání jedné dávky.\n\nTato hodnota se vypočítává z nárůstu euforie za dávku a rychlosti poklesu euforie.</Stat_Thing_Drug_HighDurationPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
-  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>O kolik se zvýší snášenlivost uživatele na chemickou látku s každou dávkou této drogy.\n\nTato hodnota se může lišit u drog se stejnou chemickou látkou.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>O kolik se zvýší tolerance konzumenta vůči této chemikálii s každou podanou dávkou této drogy.\n\nTato hodnota se může u různých forem téže chemické látky lišit.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
-  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Kolik snášenlivosti uživatele vůči chemické látce klesne za den.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>O kolik denně klesne tolerance konzumenta vůči této chemikálii.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimální snášenlivost vyžadována k opětovnému vzniku závislosti na této droze.\n\nPokud má uživatel snášenlivost pod touto úrovní, nemůže se stát po podání jedné dávky opět závislým.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Minimální tolerance potřebná k tomu, aby vznikla nová závislost na této droze.\n\nPokud konzument nedosahuje této úrovně tolerance, nemůže se stát po podání jedné dávky nově závislým.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Uživatel se nikdy nestane závislým, pokud nebere drogu častěji, než je uvedeno.\n\nTato hodnota je vypočtena z minimální snášenlivosti ke vzniku závislosti, nárůstu euforie na dávku a rychlosti poklesu snášenlivosti.\n\nBer na vědomí, že některé drogy nemají bezpečný interval mezi dávkami. Takové drogy mohou způsobit vznik závislosti při kterékoli dávce, dokonce i při té první.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Dospělý se stane závislým pouze tehdy, pokud bude brát drogu častěji, než je uvedená hodnota.\n\nTato hodnota se vypočítává z minimální tolerance ke vzniku závislosti, nárůstu euforie za dávku a rychlosti poklesu tolerance.\n\nNěkteré drogy nemají bezpečný interval mezi jednotlivými dávkami. Takové drogy mohou vyvolat závislosti při kterékoli dávce, dokonce i při té první.\n\nMěj na paměti, že interval bezpečné dávky závisí na tělesné výšce konkrétní osoby.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
-  <Stat_Thing_Drug_RandomODChance_Desc>Šance náhodného předávkování při užívání této drogy. K náhodnému předávkování může dojít při jakékoli dávce, ať už se jedná o první zkušenost nového uživatele, nebo o sté šlehnutí zkušeného narkomana.</Stat_Thing_Drug_RandomODChance_Desc>
+  <Stat_Thing_Drug_RandomODChance_Desc>Šance náhodného předávkování při užívání této drogy. K náhodnému předávkování může dojít při jakékoli dávce, ať už se jedná o první zkušenost nového konzumenta, nebo o sté šlehnutí zkušeného narkomana.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>Šance na vznik závislosti při podání jedné dávky této drogy.\n\nPokud má droga minimální snášenlivost ke vzniku závislosti, musí být snášenlivost aplikována nad touto úrovní. Pokud nemá minimální snášenlivost, pak dávka může způsobit závislost.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>Pravděpodobnost, že jedna dávka této drogy vyvolá závislost.\n\nPokud je u drogy stanovena minimální tolerance ke vzniku závislosti, tak aby k ní došlo, musí být tolerance vyšší než tato hodnota. Pokud minimální tolerance neexistuje, může závislost vyvolat jakákoli dávka.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
-  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nová závislost způsobená touto drogou začíná na této úrovni závažnosti.\n\nČím více je droga užívána, tím větší je závažnost závislosti. V průběhu času se však závažnost opět snižuje.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Nové závislosti způsobené touto drogou začínají na této úrovni závažnosti.\n\nUžíváním většího množství drogy se závažnost závislosti zvyšuje, zatímco v průběhu času se opět snižuje.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
-  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Jak dlouho trvá zotavení od začátku vzniku závislosti na této droze.\n\nTato hodnota je vypočtena z počáteční závažnosti závislosti vydělené dobou zotavení ze závislosti. U závislosti, která byla uspokojena, to bude trvat déle.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Jak dlouho trvá zotavování od vzniku závislosti na této droze.\n\nTato hodnota se počítá z počáteční závažnosti závislosti vydělené rychlostí zotavování ze závislosti. U závislosti, která byla živena, to bude trvat déle.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
   <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
-  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Kolik závažnosti je přidáno k existující závislosti pro každou dávku této drogy.\n\nZávažnost závislosti nesmí překročit 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>O kolik se zvýší závažnost stávající závislosti při každé dávce této drogy.\n\nZávažnost závislosti nesmí překročit 100%.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
   <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
-  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Jak často potřebuje brát narkoman tuto drogu, aby uspokojil svou závislost a zabránil jejímu ústupu.\n\nTato hodnota se počítá z rychlosti poklesu chemické potřeby a nárůstu chemické potřeby na dávku.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Jak často potřebuje brát závislý tuto drogu, aby ukojil svou závislost a zabránil abstinenčním příznakům.\n\nTato hodnota se vypočítává z rychlosti poklesu chemické potřeby a uspokojení chemické potřeby za dávku.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
   <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
-  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Nakolik naplní každá dávka této drogy narkomanovu potřebu na chemické látky.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Do jaké míry každá dávka této drogy uspokojí chemickou potřebu narkomana.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
   <!-- EN: How quickly an addict's need for the chemical will fall. -->
-  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Jakou rychlostí klesá narkomanova chemická potřeba při užití této chemikálie.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Jakou rychlostí klesá narkomanova potřeba po této chemikálii.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
   <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
-  <Stat_Thing_Drug_AddictionCost_Desc>Tržní hodnota drog, kterou je potřeba denně vynaložit, aby se udržela závislost bez případného ústupu.\n\nTato hodnota je vypočtena z narkomanovy chemické potřeby na dávku, rychlosti poklesu chemické potřeby a tržní hodnoty této drogy.\n\nMěj na paměti, že chemikálii lze získat i jinými způsoby - možná dokonce levněji.</Stat_Thing_Drug_AddictionCost_Desc>
-
+  <Stat_Thing_Drug_AddictionCost_Desc>Tržní hodnota drog, kterou je třeba denně vynaložit, aby se závislost na této droze udržela, a zároveň nedocházelo k odvykání.\n\nTato hodnota je vypočtena z narkomanova uspokojení chemické potřeby za dávku, rychlosti poklesu chemické potřeby a tržní hodnoty této drogy.\n\nJe třeba poznamenat, že tuto chemikálii lze získat i jinými způsoby, a možná i levněji.</Stat_Thing_Drug_AddictionCost_Desc>
   <!-- EN: Style -->
   <Stat_Thing_StyleLabel>Styl</Stat_Thing_StyleLabel>
   <!-- EN: An object's style determines its appearance. This has no gameplay effect. Styles often form the differing methods of construction used by people of different beliefs and cultures. -->
-  <Stat_Thing_StyleDesc>Styl předmětu určuje jeho vzhled. Rozdílné styly se vznikly používáním rozdílných metod při tvorbě předmětů, ovlivněné kulturou a vírou tvůrce.</Stat_Thing_StyleDesc>
+  <Stat_Thing_StyleDesc>Styl předmětu určuje jeho vzhled. Nemá naprosto žádný vliv na hratelnost. Rozdílné styly vznikly používáním rozdílných metod při tvorbě předmětů, ovlivněné kulturou a vírou tvůrce.</Stat_Thing_StyleDesc>
 
   <!-- EN: Gestation time -->
   <Stat_Animal_GestationTime>Doba březosti</Stat_Animal_GestationTime>

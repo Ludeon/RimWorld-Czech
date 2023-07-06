@@ -60,71 +60,71 @@
 
   <!-- Social tab (romance) -->
   <!-- EN: Romance -->
-  <TryRomanceButtonLabel>TODO</TryRomanceButtonLabel>
+  <TryRomanceButtonLabel>Svádět</TryRomanceButtonLabel>
   <!-- EN: Nobody for {0_labelShort} to romance. -->
-  <TryRomanceNoOptsMessage>TODO</TryRomanceNoOptsMessage>
+  <TryRomanceNoOptsMessage>V okolí není nikdo, koho by {0_labelShort} {0_gender ? mohl : mohla} svádět.</TryRomanceNoOptsMessage>
   <!-- EN: unreachable -->
-  <CantRomanceTargetUnreachable>TODO</CantRomanceTargetUnreachable>
+  <CantRomanceTargetUnreachable>mimo dosah</CantRomanceTargetUnreachable>
   <!-- EN: sleeping -->
-  <CantRomanceTargetSleeping>TODO</CantRomanceTargetSleeping>
+  <CantRomanceTargetSleeping>spí</CantRomanceTargetSleeping>
   <!-- EN: incapacitated -->
-  <CantRomanceTargetDowned>TODO</CantRomanceTargetDowned>
+  <CantRomanceTargetDowned>v neshopnosti</CantRomanceTargetDowned>
   <!-- EN: drafted -->
-  <CantRomanceTargetDrafted>TODO</CantRomanceTargetDrafted>
+  <CantRomanceTargetDrafted>v bojovém režimu</CantRomanceTargetDrafted>
   <!-- EN: mental break -->
-  <CantRomanceTargetMentalState>TODO</CantRomanceTargetMentalState>
+  <CantRomanceTargetMentalState>psychické zhroucení</CantRomanceTargetMentalState>
   <!-- EN: incestuous -->
-  <CantRomanceTargetIncest>TODO</CantRomanceTargetIncest>
+  <CantRomanceTargetIncest>incestní</CantRomanceTargetIncest>
   <!-- EN: low opinion -->
-  <CantRomanceTargetOpinion>TODO</CantRomanceTargetOpinion>
+  <CantRomanceTargetOpinion>nízké mínění</CantRomanceTargetOpinion>
   <!-- EN: incompatible orientation -->
-  <CantRomanceTargetSexuality>TODO</CantRomanceTargetSexuality>
+  <CantRomanceTargetSexuality>odlišná orientace</CantRomanceTargetSexuality>
   <!-- EN: prisoner -->
-  <CantRomanceTargetPrisoner>TODO</CantRomanceTargetPrisoner>
+  <CantRomanceTargetPrisoner>v zajetí</CantRomanceTargetPrisoner>
   <!-- EN: too young -->
-  <CantRomanceTargetYoung>TODO</CantRomanceTargetYoung>
+  <CantRomanceTargetYoung>nízký věk</CantRomanceTargetYoung>
   <!-- EN: zero chance -->
-  <CantRomanceTargetZeroChance>TODO</CantRomanceTargetZeroChance>
+  <CantRomanceTargetZeroChance>nulová šance</CantRomanceTargetZeroChance>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>TODO</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} nemůže nikoho svádět, protože je {0_gender ? zajatcem : zajatkyní}.</CantRomanceInitiateMessagePrisoner>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>TODO</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} nemůže nikoho svádět, protože je {0_gender ? otrokem : otrokyní}.</CantRomanceInitiateMessageSlave>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>TODO</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} nemůže nikoho svádět, protože je {0_gender ? asexuál : asexuálka}.</CantRomanceInitiateMessageAsexual>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>TODO</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} nemůže nikoho svádět, protože je {0_gender ? zneschopněn : zneschopněna}.</CantRomanceInitiateMessageDowned>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>TODO</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} nemůže nikoho svádět, protože je {0_gender ? povolán : povolána} do zbraně.</CantRomanceInitiateMessageDrafted>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>TODO</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} nemůže nikoho svádět, protože je ve špatném psychickém stavu.</CantRomanceInitiateMessageMentalState>
   <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>TODO</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} nemůže nikoho svádět, protože nedokáže mluvit.</CantRomanceInitiateMessageTalk>
   <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>TODO</CantRomanceInitiateMessageCooldown>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} se nedávno {0_gender ? pokoušel : pokoušela} o svádění a musí počkat {1}, než to zkusí znovu.</CantRomanceInitiateMessageCooldown>
   <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>TODO</TryRomanceFailedMessage>
+  <TryRomanceFailedMessage>{0_labelShort} {0_gender ? neuspěl : neuspěla} se snahou o svádění vůči {1_labelShort}</TryRomanceFailedMessage>
   <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>TODO</RomanceExistingRelationshipWarning>
+  <RomanceExistingRelationshipWarning>Románek mezi {INITIATOR_nameDef} a {TARGET_nameDef} by mohl zasít nelibost mezi stávajícími partnery, vést k rozchodům a vyvolávat hádky.</RomanceExistingRelationshipWarning>
   <!-- EN: Romance chance -->
-  <RomanceChance>TODO</RomanceChance>
+  <RomanceChance>Šance na svádění</RomanceChance>
   <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
-  <RomanceChanceExistingRelation>TODO</RomanceChanceExistingRelation>
+  <RomanceChanceExistingRelation>už je {PAWN_possessive} {RELATION}</RomanceChanceExistingRelation>
   <!-- EN: Cannot romance -->
-  <RomanceChanceCant>TODO</RomanceChanceCant>
+  <RomanceChanceCant>Nemůže svádět</RomanceChanceCant>
   <!-- EN: Relative age -->
-  <RomanceChanceAgeFactor>TODO</RomanceChanceAgeFactor>
+  <RomanceChanceAgeFactor>Věkový rozdíl</RomanceChanceAgeFactor>
   <!-- EN: Beauty -->
-  <RomanceChanceBeautyFactor>TODO</RomanceChanceBeautyFactor>
+  <RomanceChanceBeautyFactor>Krása</RomanceChanceBeautyFactor>
   <!-- EN: Opinion -->
-  <RomanceChanceOpinionFactor>TODO</RomanceChanceOpinionFactor>
+  <RomanceChanceOpinionFactor>Mínění</RomanceChanceOpinionFactor>
   <!-- EN: Opinion of partner -->
-  <RomanceChancePartnerFactor>TODO</RomanceChancePartnerFactor>
+  <RomanceChancePartnerFactor>Mínění protějšku</RomanceChancePartnerFactor>
   <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
-  <RomanceFailedUnexpected>TODO</RomanceFailedUnexpected>
+  <RomanceFailedUnexpected>{0_labelShort} {0_gender ? nedokázal : nedokázala} navázat vztah s {1_labelShort}</RomanceFailedUnexpected>
   <!-- EN: {0_nameDef} is already in a relationship. -->
-  <RomanceWarningMonogamous>TODO</RomanceWarningMonogamous>
+  <RomanceWarningMonogamous>{0_nameDef} je již ve vztahu.</RomanceWarningMonogamous>
   <!-- EN: {0_nameDef} already has {1} partners. -->
-  <RomanceWarningPolygamous>TODO</RomanceWarningPolygamous>
+  <RomanceWarningPolygamous>{0_nameDef} už má {replace: ^{1}^; "^1^"-"1 partnera"; "^2^"-"2 partnery"; "^3^"-"3 partnery"; "^4^"-"4 partnery"; "^{1}^"-"{1} partnerů"}</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
   <!-- EN: Multiplier for genes -->

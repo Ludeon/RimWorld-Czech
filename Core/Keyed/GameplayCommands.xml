@@ -293,7 +293,7 @@
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Zacíleno na</CommandSelectMineralToScanFor>
   <!-- EN: Select the mineral type to scan for. -->
-  <CommandSelectMineralToScanForDesc>Vyber druh minerálu pro který chceš skenovat.</CommandSelectMineralToScanForDesc>
+  <CommandSelectMineralToScanForDesc>Vyber druh minerálu, pro který chceš skenovat.</CommandSelectMineralToScanForDesc>
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -612,33 +612,33 @@
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Přerušit {lookup: {RITUAL_label}; case\singular; 4}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Okamžitě ukončí {lookup: {RITUAL_label}; case\singular; 4}. Rituální závazek bude zachován. Rituál mužeš znovuzahájit později.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>Okamžitě ukončí {lookup: {RITUAL_label}; case\singular; 4}. Rituální závazek bude zachován. Rituál můžeš později znovu zahájit.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Opravdu chceš přerušit {lookup: {RITUAL_label}; case\singular; 4}?</CommandCancelRitualConfirm>
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
-  <LinkStorageSettings>Spojit nastavení</LinkStorageSettings>
+  <LinkStorageSettings>Propojit nastavení</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>Propoj nastavení několika vybraných skladišť do jednoho.\n\nNově vytvořená skupina použije nastavení které bylo vybráno jako první.</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>Propojí nastavení několika vybraných skladišť do jednoho.\n\nNově vytvořená skupina použije nastavení, které bylo vybráno jako první.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>Musíš vybrat alespoň dvě sruktury aby si mohl propojit jejich nastavení.</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>Musíš vybrat alespoň dva objekty, aby jsi mohl propojit jejich nastavení.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
-  <AlreadyLinked>Už propojeno</AlreadyLinked>
+  <AlreadyLinked>Již propojeno</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>Rozpoj nastavení</UnlinkStorageSettings>
+  <UnlinkStorageSettings>Rozpojit nastavení</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
-  <UnlinkStorageSettingsDesc>Odpojí vybraný objekt od nastavení ostatních, tak že bude mít individuální nastavení.</UnlinkStorageSettingsDesc>
+  <UnlinkStorageSettingsDesc>Odpojí vybraný objekt od nastavení ostatních tak, aby bylo možné jej nastavovat nezávisle.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>Spojené nastavení skladiště</LinkedStorageSettings>
+  <LinkedStorageSettings>Propojená nastavení skladišť</LinkedStorageSettings>
   <!-- EN: {0} buildings -->
-  <NumBuildings>{0} staveb</NumBuildings>
+  <NumBuildings>ﾠ{replace: ^{0}^; "^1^"-"u 1 objektu"; "^{0}^"-"u {0} objektů"}</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>Skladuje</StoresThings>
+  <StoresThings>Uchovává</StoresThings>
   <!-- EN: Select all linked -->
-  <SelectAllLinked>Vyber všechny propojené objekty</SelectAllLinked>
+  <SelectAllLinked>Vybrat všechny propojené</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>Vybere všechny objekty které jsou s tímto objektem spojené.</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>Vybere všechny objekty, které jsou s ním propojené.</SelectAllLinkedDesc>
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} je v bezvědomí.</CommandDisabledUnconscious>

@@ -73,7 +73,7 @@
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Varování: {ANIMAL_kindBase} může po neúspěšném pokusu o ochočení zaútočit (šance {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>Pouze kolonisté se sympatií pro hmyz ho mohou ochočit.</MessageInsectTameDesignated>
+  <MessageInsectTameDesignated>Pouze ti se sympatií pro hmyz mohou ochočit {lookup: {INSECT_indefinite}; case\singular; 2}.</MessageInsectTameDesignated>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>{PAWN_labelShort} je agresivní a při ochočování se pokusí napadnout tvého kolonistu, když ho půjde ochočit.</MessageInsectsHostileOnTaming>
@@ -688,7 +688,7 @@
   <!-- EN: {0_labelShort} is being released. -->
   <MessageRitualPawnReleased>TODO</MessageRitualPawnReleased>
   <!-- EN: {0_labelShort} is injured. -->
-  <MessageRitualPawnInjured>TODO</MessageRitualPawnInjured>
+  <MessageRitualPawnInjured>{0_labelShort} je {0_gender ? zraněný : zraněná}.</MessageRitualPawnInjured>
   <!-- EN: {0_labelShort} must hold one of these roles -->
   <MessageRitualRoleRequired>{0_labelShort} musí zastávat jednu z těchto rolí</MessageRitualRoleRequired>
   <!-- EN: {0} must be a prisoner. -->
@@ -778,7 +778,7 @@
   <MessageActivationCanceled>TODO</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>TODO</NothingAvailableInCategory>
+  <NothingAvailableInCategory>V této kategorii se momentálně nenachází nic k vybudování</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>TODO</SettingsLinkedFor>

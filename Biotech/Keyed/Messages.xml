@@ -2,11 +2,11 @@
 <LanguageData>
   
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
-  <MessageColonistReaching2ndTrimesterPregnancy>TODO</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort} {PAWN_gender ? postoupil : postoupila} z prvního trimestru těhotenství do druhého.</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
-  <MessageColonistReaching3rdTrimesterPregnancy>TODO</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>{PAWN_labelShort} {PAWN_gender ? postoupil : postoupila} z druhého trimestru těhotenství do třetího.</MessageColonistReaching3rdTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
-  <MessageColonistInFinalStagesOfLabor>TODO</MessageColonistInFinalStagesOfLabor>
+  <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} se {PAWN_gender ? dostal : dostala} do závěrečné fáze porodu.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
   <MessageMechChargerDestroyedMechGoesBerserk>TODO</MessageMechChargerDestroyedMechGoesBerserk>
@@ -68,7 +68,7 @@
   <MessageTargetMustBeDownedToForceReimplant>TODO</MessageTargetMustBeDownedToForceReimplant>
 
   <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>{0_nameDef} má teprve {replace: ^{1}^ ; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; case\singular; 2} : {lookup: {2}; case\singularfem; 2}} může vykonávat až od {replace: ^{3}^ ; "^1^"-"1 roku"; "^{3}^"-"{3} let"}.</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef} má teprve {replace: ^{1}^; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; case\singular; 2} : {lookup: {2}; case\singularfem; 2}} může vykonávat až od {replace: ^{3}^; "^1^"-"1 roku"; "^{3}^"-"{3} let"}.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
   <MessageDeathrestingPawnCanWakeSafely>TODO</MessageDeathrestingPawnCanWakeSafely>
