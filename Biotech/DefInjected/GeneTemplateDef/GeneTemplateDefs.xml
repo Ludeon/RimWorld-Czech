@@ -2,44 +2,44 @@
 <LanguageData>
   
   <!-- EN: {0} impervious -->
-  <AddictionImmune.label>TODO</AddictionImmune.label>
+  <AddictionImmune.label>Odolnost vůči {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}</AddictionImmune.label>
   <!-- EN: Carriers of this gene never get addicted to {0}. -->
-  <AddictionImmune.description>TODO</AddictionImmune.description>
+  <AddictionImmune.description>Nositel tohoto genu se nikdy nestane závislím na {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}.</AddictionImmune.description>
   <!-- EN: {0}-impervious -->
-  <AddictionImmune.labelShortAdj>TODO</AddictionImmune.labelShortAdj>
+  <AddictionImmune.labelShortAdj>{replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"} {0_gender ? odolný : odolná : odolné}</AddictionImmune.labelShortAdj>
   
   <!-- EN: {0} resistant -->
-  <AddictionResistant.label>TODO</AddictionResistant.label>
+  <AddictionResistant.label>Vzdornost vůči {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}</AddictionResistant.label>
   <!-- EN: Carriers are only half as likely to become addicted to {0}. -->
-  <AddictionResistant.description>TODO</AddictionResistant.description>
+  <AddictionResistant.description>Nositel tohoto genu má poloviční šanci, že stane závislím na {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}.</AddictionResistant.description>
   <!-- EN: {0}-resistant -->
-  <AddictionResistant.labelShortAdj>TODO</AddictionResistant.labelShortAdj>
+  <AddictionResistant.labelShortAdj>{replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"} {0_gender ? vzdorný : vzdorná : vzdorné}</AddictionResistant.labelShortAdj>
   
   <!-- EN: poor {0} -->
-  <AptitudePoor.label>TODO</AptitudePoor.label>
+  <AptitudePoor.label>{replace: ^{0}^; "^střelba^"-"špatná"; "^boj zblízka^"-"špatný"; "^konstrukce^"-"špatná"; "^hornictví^"-"špatné"; "^vaření^"-"špatné"; "^zemědělství^"-"špatné"; "^zvířata^"-"špatná"; "^řemeslo^"-"špatné"; "^umění^"-"špatné"; "^lékařství^"-"špatné"; "^socializace^"-"špatná"; "^intelekt^"-"špatný"; "^{0}^"-"špatné"} {0}</AptitudePoor.label>
   <!-- EN: The carrier's aptitude in {0} is reduced by 4. Aptitude acts like an offset on skill level. -->
-  <AptitudePoor.description>TODO</AptitudePoor.description>
+  <AptitudePoor.description>{0} nositele tohoto genu bude horší o 4. Tento gen účinkuje také jako posun pro danou úroveň (10. úroveň bude vyžadovat stejný počet zkušenostních bodů jako normálně 14. úroveň).</AptitudePoor.description>
   
   <!-- EN: great {0} -->
-  <AptitudeRemarkable.label>TODO</AptitudeRemarkable.label>
+  <AptitudeRemarkable.label>{replace: ^{0}^; "^střelba^"-"skvělá"; "^boj zblízka^"-"skvělý"; "^konstrukce^"-"skvělá"; "^hornictví^"-"skvělé"; "^vaření^"-"skvělé"; "^zemědělství^"-"skvělé"; "^zvířata^"-"skvělá"; "^řemeslo^"-"skvělé"; "^umění^"-"skvělé"; "^lékařství^"-"skvělé"; "^socializace^"-"skvělá"; "^intelekt^"-"skvělý"; "^{0}^"-"skvělé"} {0}</AptitudeRemarkable.label>
   <!-- EN: The carrier's aptitude in {0} is increased by 8. Aptitude acts like an offset on skill level. Additionally, one level of passion is added to {0}. -->
-  <AptitudeRemarkable.description>TODO</AptitudeRemarkable.description>
+  <AptitudeRemarkable.description>{0} nositele tohoto genu bude lepší o 8. Tento gen účinkuje také jako posun na dané úrovni (10. úroveň bude vyžadovat stejný počet zkušenostních bodů jako normálně 2. úroveň).</AptitudeRemarkable.description>
   
   <!-- EN: strong {0} -->
-  <AptitudeStrong.label>TODO</AptitudeStrong.label>
+  <AptitudeStrong.label>{replace: ^{0}^; "^střelba^"-"dobrá"; "^boj zblízka^"-"dobrý"; "^konstrukce^"-"dobrá"; "^hornictví^"-"dobré"; "^vaření^"-"dobré"; "^zemědělství^"-"dobré"; "^zvířata^"-"dobrá"; "^řemeslo^"-"dobré"; "^umění^"-"dobré"; "^lékařství^"-"dobré"; "^socializace^"-"dobrá"; "^intelekt^"-"dobrý"; "^{0}^"-"dobré"} {0}</AptitudeStrong.label>
   <!-- EN: The carrier's aptitude in {0} is increased by 4. Aptitude acts like an offset on skill level. -->
-  <AptitudeStrong.description>TODO</AptitudeStrong.description>
+  <AptitudeStrong.description>{0} nositele tohoto genu bude lepší o 4. Tento gen účinkuje také jako posun na dané úrovni (10. úroveň bude vyžadovat stejný počet zkušenostních bodů jako normálně 6. úroveň).</AptitudeStrong.description>
   
   <!-- EN: awful {0} -->
-  <AptitudeTerrible.label>TODO</AptitudeTerrible.label>
+  <AptitudeTerrible.label>{replace: ^{0}^; "^střelba^"-"strašná"; "^boj zblízka^"-"strašný"; "^konstrukce^"-"strašná"; "^hornictví^"-"strašné"; "^vaření^"-"strašné"; "^zemědělství^"-"strašné"; "^zvířata^"-"strašná"; "^řemeslo^"-"strašné"; "^umění^"-"strašné"; "^lékařství^"-"strašné"; "^socializace^"-"strašná"; "^intelekt^"-"strašný"; "^{0}^"-"strašné"} {0}</AptitudeTerrible.label>
   <!-- EN: The carrier's aptitude in {0} is reduced by 8. Aptitude acts like an offset on skill level. Additionally, all passion is removed from {0}. -->
-  <AptitudeTerrible.description>TODO</AptitudeTerrible.description>
+  <AptitudeTerrible.description>{0} nositele tohoto genu bude horší o 8. Tento gen účinkuje také jako posun na dané úrovni (10. úroveň bude vyžadovat stejný počet zkušenostních bodů jako normálně 18. úroveň).</AptitudeTerrible.description>
   
   <!-- EN: {0} dependency -->
-  <ChemicalDependency.label>TODO</ChemicalDependency.label>
+  <ChemicalDependency.label>Závislost na {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}</ChemicalDependency.label>
   <!-- EN: Carriers of this gene need to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, carriers will suffer from {0} deficiency. After {COMADURATION}, they will fall into a coma. After {DEATHDURATION}, they will die. -->
-  <ChemicalDependency.description>TODO</ChemicalDependency.description>
+  <ChemicalDependency.description>Nositel tohoto genu musí konzumovat pravidelně {replace: ^{0}^; "^šťáva-go^"-"šťávu-go"; "^{0}^"-"{0}"} aby přežil. Po {replace: {DEFICIENCYDURATION}; "^1 dnů^"-"1 dnu"; " dnů"-" dnech"} bude trpět nedostatkem {replace: ^{0}^; "^pivo^"-"piva"; "^šťáva-go^"-"šťávy-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}. Po {replace: {COMADURATION}; "^1 dnů^"-"1 dnu"; " dnů"-" dnech"} upadnou do komatu a po {replace: {DEATHDURATION}; "^1 dnů^"-"1 dnu"; " dnů"-" dnech"} zemře.</ChemicalDependency.description>
   <!-- EN: {0}-dependent -->
-  <ChemicalDependency.labelShortAdj>TODO</ChemicalDependency.labelShortAdj>
+  <ChemicalDependency.labelShortAdj>{0_gender ? závislí : závislá : závislé} na {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}</ChemicalDependency.labelShortAdj>
   
 </LanguageData>
