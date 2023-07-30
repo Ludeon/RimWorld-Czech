@@ -24,7 +24,7 @@
   <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>Kolonisté potřebují zachránit</ColonistsNeedRescue>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDesc>Tito kolonisté leží na zemi v bezvědomí:\n\n{0}\nPošli k němu jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni pravým tlačítkem na oběť a vyber Zachraň!)</ColonistsNeedRescueDesc>
+  <ColonistsNeedRescueDesc>Tito kolonisté leží na zemi v bezvědomí:\n\n{0}\nPošli k němu jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni pravým tlačítkem myši na oběť a vyber Zachraň!)</ColonistsNeedRescueDesc>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
   <ColonistsNeedRescueDescController>Tito kolonisté leží na zemi v bezvědomí:\n\n{0}\nPošli k němu jiného kolonistu, ať jej odnese do postele.\n\n(Pro záchranu vyber jiného kolonistu, klikni levou spouští (LT) na oběť a vyber Zachraň!)</ColonistsNeedRescueDescController>
 
@@ -113,7 +113,7 @@
   <!-- EN: Need recreation variety -->
   <NeedJoySource>Potřebuješ relaxační rozmanitost</NeedJoySource>
   <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
-  <NeedJoySourceDesc>{1} má k dispozici pouze {replace: ​{0}​; "​2​"-"2 různé typy"; "​3​"-"3 různé typy"; "​4​"-"4 různé typy"; "​{0}​"-"{0} různých typů"} relaxací. Při aktuální úrovni očekávání ({2}) kolonisté vyžadují {replace: ​{3}​; "​2​"-"2 různé typy"; "​3​"-"3 různé typy"; "​4​"-"4 různé typy"; "​{3}​"-"{3} různých typů"} relaxačních aktivit. Zpestři jim volný čas přidáním nových druhů relaxačních aktivit.\n\n{4}\n\n{5}\n\nPoznámka: Typ relaxace veškerých předmětů můžeš zjistit v jejich informačním okně, které vyvoláš kliknutím na písmeno 'i' na jejich kartě.</NeedJoySourceDesc>
+  <NeedJoySourceDesc>{1} má k dispozici pouze {replace: ^{0}^; "^2^"-"2 různé typy"; "^3^"-"3 různé typy"; "^4^"-"4 různé typy"; "^{0}^"-"{0} různých typů"} relaxací. Při aktuální úrovni očekávání ({2}) kolonisté vyžadují {replace: ^{3}^; "^2^"-"2 různé typy"; "^3^"-"3 různé typy"; "^4^"-"4 různé typy"; "^{3}^"-"{3} různých typů"} relaxačních aktivit. Zpestři jim volný čas přidáním nových druhů relaxačních aktivit.\n\n{4}\n\n{5}\n\nPoznámka: Typ relaxace veškerých předmětů můžeš zjistit v jejich informačním okně, které vyvoláš kliknutím na písmeno 'i' na jejich kartě.</NeedJoySourceDesc>
   <!-- EN: Available recreation types -->
   <AvailableRecreationTypes>Dostupné typy relaxací</AvailableRecreationTypes>
   <!-- EN: Missing recreation types -->
@@ -153,7 +153,7 @@
   <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený žádný projekt.\n\nOtevři kartu Výzkum a vyber si projekt.</NeedResearchProjectDesc>
 
   <!-- EN: {0} colonists idle -->
-  <ColonistsIdle>{replace: ​{0}​; "​1​"-"1 nečinný kolonista"; "​2​"-"2 nečinní kolonisté"; "​3​"-"3 nečinní kolonisté"; "​4​"-"4 nečinní kolonisté"; "​{0}​"-"{0} nečinných kolonistů"}</ColonistsIdle>
+  <ColonistsIdle>{replace: ^{0}^; "^1^"-"1 nečinný kolonista"; "^2^"-"2 nečinní kolonisté"; "^3^"-"3 nečinní kolonisté"; "^4^"-"4 nečinní kolonisté"; "^{0}^"-"{0} nečinných kolonistů"}</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Tito kolonisté se poflakují:\n\n{0}\nAsi bys jim měl najít něco produktivního.</ColonistsIdleDesc>
   
@@ -325,9 +325,9 @@
   <FactionWillBecomeHostileIfNotLeavingWithinDesc>Následující frakce se stanou nepřátelskými, pokud v jejich osadě nebo stanovišti zůstaneš delší dobu:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
   <!-- EN: {0} trees dying -->
-  <AlertMinifiedTreeAboutToDie>{replace: ​{0}​; "​1​"-"Umírá 1 strom"; "​2​"-"Umírají 2 stromy"; "​3​"-"Umírají 3 stromy"; "​4​"-"Umírají 4 stromy"; "​{0}​"-"Umírá {0} stromů"}</AlertMinifiedTreeAboutToDie>
+  <AlertMinifiedTreeAboutToDie>{replace: ^{0}^; "^1^"-"Umírá 1 strom"; "^2^"-"Umírají 2 stromy"; "^3^"-"Umírají 3 stromy"; "^4^"-"Umírají 4 stromy"; "^{0}^"-"Umírá {0} stromů"}</AlertMinifiedTreeAboutToDie>
   <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
-  <AlertMinifiedTreeAboutToDieDesc>Za méně než jeden den {replace: ​{0}​; "​1​"-"uhyne 1 vykopaný strom"; "​2​"-"uhynou 2 vykopané stromy"; "​3​"-"uhynou 3 vykopané stromy"; "​4​"-"uhynou 4 vykopané stromy"; "​{0}​"-"uhyne {0} vykopaných stromů"}. To způsobí, že někteří kolonisté budou nešťastní kvůli jejich přesvědčení.\n\nMůžeš tomu zabránit tím, že {replace: ​{0}​; "​1​"-"tento strom"; "​{0}​"-"tyto stromy"} znovu zasadíš.\n\nPostihnuti by byli následující kolonisté</AlertMinifiedTreeAboutToDieDesc>
+  <AlertMinifiedTreeAboutToDieDesc>Za méně než jeden den {replace: ^{0}^; "^1^"-"uhyne 1 vykopaný strom"; "^2^"-"uhynou 2 vykopané stromy"; "^3^"-"uhynou 3 vykopané stromy"; "^4^"-"uhynou 4 vykopané stromy"; "^{0}^"-"uhyne {0} vykopaných stromů"}. To způsobí, že někteří kolonisté budou kvůli svému přesvědčení nešťastní.\n\nMůžeš tomu zabránit tím, že {replace: ^{0}^; "^1^"-"tento strom"; "^{0}^"-"tyto stromy"} znovu zasadíš.\n\nDotklo by se to těchto kolonistů</AlertMinifiedTreeAboutToDieDesc>
 
   <!-- EN: Need research bench -->
   <NeedResearchBench>Potřebuješ výzkumné stanoviště</NeedResearchBench>

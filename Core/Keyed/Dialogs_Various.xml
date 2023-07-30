@@ -80,7 +80,7 @@
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
-  <InitializingInterface>Inicializování rozhraní</InitializingInterface>
+  <InitializingInterface>Inicializace rozhraní</InitializingInterface>
   <!-- EN: Unloading unused assets -->
   <UnloadingUnusedAssets>Odstraňování nepoužitých objektů</UnloadingUnusedAssets>
   <!-- EN: Loading all active mods -->
@@ -351,11 +351,11 @@
   <!-- EN: Building damage factor (impassable) -->
   <BuildingDamageFactorImpassable>Násobitel poškození neprůchozích staveb</BuildingDamageFactorImpassable>
   <!-- EN: Damage to all impassable buildings is multiplied by this value. -->
-  <BuildingDamageFactorImpassableExplanation>Poškození uděleno neprůchozím stavebám je násobeno touto hodnotou.</BuildingDamageFactorImpassableExplanation>
+  <BuildingDamageFactorImpassableExplanation>Poškození uděleno neprůchozím stavbám je násobeno touto hodnotou.</BuildingDamageFactorImpassableExplanation>
   <!-- EN: Building damage factor (passable) -->
   <BuildingDamageFactorPassable>Násobitel poškození průchozích staveb</BuildingDamageFactorPassable>
   <!-- EN: Damage to all passable buildings is multiplied by this value. -->
-  <BuildingDamageFactorPassableExplanation>Poškození uděleno průchozím stavebám je násobeno touto hodnotou.</BuildingDamageFactorPassableExplanation>
+  <BuildingDamageFactorPassableExplanation>Poškození uděleno průchozím stavbám je násobeno touto hodnotou.</BuildingDamageFactorPassableExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Přesnost</Accuracy>
   <!-- EN: Burst shot count -->
@@ -519,7 +519,7 @@
   <!-- EN: Pack animal -->
   <PackAnimal>Nákladní zvíře</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
-  <PackAnimalExplanation>Zda je toto zvíře vhodné použít v karavaně k přepravě položek na dlouhé vzdálenosti.</PackAnimalExplanation>
+  <PackAnimalExplanation>Zda je toto zvíře vhodné k přepravě nákladu formou karavany i na dlouhé vzdálenosti.</PackAnimalExplanation>
   <!-- EN: Skill -->
   <Skill>Dovednost</Skill>
   <!-- EN: Success rate multiplier -->
@@ -635,7 +635,7 @@
   <!-- EN: No more to sell. -->
   <ColonyHasNoMore>Nic dalšího k prodeji.</ColonyHasNoMore>
   <!-- EN: Trader is not willing to buy this. -->
-  <TraderWillNotTrade>Obchodník není ochotný tohle odkoupit.</TraderWillNotTrade>
+  <TraderWillNotTrade>Obchodník nemá o tuto položku zájem.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Vyjednavač</Negotiator>
   <!-- EN: Negotiator: {0} (+{1}) -->
@@ -667,9 +667,9 @@
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Bonus za obchodování se základnou frakce</TradeWithFactionBaseBonus>
   <!-- EN: Joins as slave -->
-  <JoinsAsSlave>Připojí se jako otrok</JoinsAsSlave>
+  <JoinsAsSlave>Dorazí jako otrok</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
-  <JoinsAsColonist>Připojí se jako kolonista</JoinsAsColonist>
+  <JoinsAsColonist>Dorazí jako kolonista</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
   <JoinsAsSlaveDesc>Po koupi se tato osoba přidá jako otrok ke tvé kolonii.</JoinsAsSlaveDesc> <!--  -->
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
@@ -745,7 +745,7 @@
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Tvá karavana má jídlo pouze na {0} dnů. Poté rychle vyhladoví.</DaysWorthOfFoodWarningDialog>
   <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
-  <DaysWorthOfFoodDietWarningDialog>Jídelníčky některých členů karavany jim brání konzumovat většinu jídla v karavaně. Pokud budou hladem donuceni ke konzumaci zakázaného jídla, tak budou nešťastní.</DaysWorthOfFoodDietWarningDialog>
+  <DaysWorthOfFoodDietWarningDialog>Stravovací návyky některých členů karavany jim brání konzumovat většinu jídla v karavaně. Pokud budou hladem donuceni ke konzumaci zakázaného jídla, tak budou nešťastní.</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Tvá karavana nemá žádné jídlo a velmi rychle vyhladoví.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
@@ -959,7 +959,7 @@
   <!-- EN: {0} times per day -->
   <TimesPerDay>{0} krát za den</TimesPerDay>
   <!-- EN: Every {0} days -->
-  <EveryDays>Každ{replace: ​{0}​; "​2​"-"é 2 dny"; "​3​"-"é 3 dny"; "​4​"-"é 4 dny"; "​{0}​"-"ých {0} dnů"}</EveryDays>
+  <EveryDays>Každ{replace: ^{0}^; "^2^"-"é 2 dny"; "^3^"-"é 3 dny"; "^4^"-"é 4 dny"; "^{0}^"-"ých {0} dnů"}</EveryDays>
   <!-- EN: Any -->
   <NoDrugUseRequirement>Kdykoliv</NoDrugUseRequirement>
   <!-- EN: Delete this drug. -->
@@ -1061,7 +1061,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>Vzhledem k tomu, že se tato lokace nachází v okruhu {replace: ​{0}​; "​1​"-"1 políčka"; "​2​"-"2 políček"; "​3​"-"3 políček"; "​4​"-"4 políček"; "​{0}​"-"{0} políček"} od základny jiné frakce, budou mít pocit, že zasahuješ na jejich území. Vztahy s takovými frakcemi se budou každých {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} zhoršovat.</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Vzhledem k tomu, že se tato lokace nachází v okruhu {replace: ^{0}^; "^1^"-"1 políčka"; "^2^"-"2 políček"; "^3^"-"3 políček"; "^4^"-"4 políček"; "^{0}^"-"{0} políček"} od základny jiné frakce, budou mít pocit, že zasahuješ na jejich území. Vztahy s takovými frakcemi se budou každých {replace: ^{1}^; "^1^"-"1 den"; "^2^"-"2 dny"; "^3^"-"3 dny"; "^4^"-"4 dny"; "^{1}^"-"{1} dnů"} zhoršovat.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1135,13 +1135,13 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} se momentálně nemůže inspirovat.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>{0_labelShort} musí být jiného ideoboženství než {1_labelShort}.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>{0_labelShort} musí být jiného ideobožství než {1_labelShort}.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>{0_labelShort} musí být stejného ideoboženství jako {1_labelShort}.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>{0_labelShort} musí být stejného ideobožství jako {1_labelShort}.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>{0_labelShort} musí být {0_gender ? nemocný nebo zraněný : nemocná nebo zraněná}.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>{0} může radit pouze stoupencům stejného ideoboženství.</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>{0} může radit pouze stoupencům stejného ideobožství.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
   <AbilityMustBeNotGuilty>{0_labelShort} je již {0_gender ? považován : považována} za viníka.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->

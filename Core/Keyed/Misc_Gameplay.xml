@@ -669,9 +669,9 @@
   <!-- EN: Roped by -->
   <RopedByPawn>Nechává se vést od</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>TODO</RopedToThing>
+  <RopedToThing>Přivázáno k</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>TODO</RopedToSpot>
+  <RopedToSpot>Přivázáno k uvazišti.</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>Velikost výběhu</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -689,7 +689,7 @@
   <!-- EN: Example animals -->
   <PenExampleAnimals>Příklady zvířecí kapacity</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
-  <NoExteriorAccess>Žádný vnější přístup - Zvířata nemohou být přiváděna ani odváděna.</NoExteriorAccess>
+  <NoExteriorAccess>Bez přístupu zvenčí - zvířata nelze přivádět dovnitř ani ven.</NoExteriorAccess>
 
   <!-- Cell Inspector -->
   <!-- EN: Beauty -->
@@ -1131,41 +1131,41 @@
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>Přepínač pro viditelnost/skrytí výukového pomocníka, pokud je prázdný.\n\nPokud je dostupná látka k výuce, je výukový pomocník viditelný vždy. Tento přepínač ho skryje, pokud není aktivní žádná látka k výuce.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Zobrazení výukového pomocníka.\n\nPři zapnutí zobrazuje výukového pomocníka i bez aktivních témat k učení. Při vypnutí se po naučení témat skryje.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
-  <ZoneVisibilityToggleButton>Viditelnost oblastí.</ZoneVisibilityToggleButton>
+  <ZoneVisibilityToggleButton>Zobrazení oblastí.\n\nPři zapnutí jsou barevně zvýrazněny všechny oblasti.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
-  <ShowBeautyToggleButton>Zobrazení krásy prostředí.\n\nZobrazuje krásu světa tak, jak by jej vnímala postava stojící v místě, kde se nachází kurzor myši.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Zobrazení krásy prostředí.\n\nPři zapnutí zobrazuje krásu světa tak, jak by ji vnímala postava stojící v místě, kam ukazuje kurzor.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
-  <ShowRoomStatsToggleButton>Zobrazení statistik místností.\n\nZobrazí statistiky místnosti v místě, ve které se nachází kurzor myši.</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>Zobrazení statistik místností.\n\nPři zapnutí zobrazuje statistiky místnosti, na kterou právě ukazuje kurzor myši.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Zobrazení lišty s kolonisty.\n\nPodél horního okraje obrazovky se zobrazují ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením pravého tlačítka a tažením na požadované místo.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Zobrazení lišty s kolonisty.\n\nPři zapnutí zobrazuje podél horního okraje obrazovky ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením pravého tlačítka myši a tažením na požadované místo.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>Zobrazení lišty s kolonisty.\n\nPodél horního okraje obrazovky se zobrazují ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením levé spouště (LT) a tažením na požadované místo.</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>Zobrazení lišty s kolonisty.\n\nPři zapnutí zobrazuje podél horního okraje obrazovky ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením levé spouště (LT) a tažením na požadované místo.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>Automaticky rozšiřovat domovskou oblast okolo nových staveb.</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>Automatické rozšiřování domovské oblasti.\n\nPři zapnutí se kolem nových staveb automaticky rozšíří domovská oblast.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Automatické přestavby zničených struktur.</AutoRebuildButton>
+  <AutoRebuildButton>Automatická obnova zničených struktur.\n\nPři zapnutí jsou struktury zničené v domovské oblasti automaticky obnovovány tvými kolonisty.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Kategorizovaný režim pro seznam dostupných zásob.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Zobrazení kategorizovaného režimu.\n\nPři zapnutí se ukazatel dostupných zdrojů v levém horním rohu zobrazuje v kategorizovaném režimu.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>Zobrazení jmen ochočených pojmenovaných zvířat.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Zobrazení jmen ochočených zvířat.\n\nPři zapnutí se zobrazují jména pojmenovaných domácích zvířat.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>Zobrazení střech.</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Zobrazení střech.\n\nPři zapnutí se zvýrazňují střechy, stropy jeskyní apod.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Zobrazení úrodnosti.\n\nZobrazí úrodnost půdy, která napoví, jaké plodiny je možné na dané půdě pěstovat a jak rychle porostou.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Zobrazení úrodnosti půdy.\n\nPři zapnutí zvýrazňuje úrodnost půdy, což napovídá, jaké plodiny je možné na daném typu půdy pěstovat a jak rychle porostou.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>Zobrazení nosnosti terénu.\n\nUkáže, které typy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy podlah přijímají pouze lehké nebo střední, ale žádné těžké struktury. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Zobrazení nosnosti terénu.\n\nUkáže, které druhy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy povrchů unesou pouze lehké nebo střední, ale žádné těžké stavby. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>Zamknout kameru tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>Uzamčení kamery.\n\nPři zapnutí je otáčení kamery uzamčeno tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>Dynamické slunce.\n\nPři vypnutí je celá planeta nasvícená jako by všude bylo poledne.</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Dynamické slunce.\n\nPři zapnutí je nasvícení planety v režimu střídání den a noc. Při vypnutí je celá planeta nasvícená denním světlem.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Zobrazení zvětšujících se ikon frakcí.</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Zobrazení piktogramů.\n\nPři zapnutí zobrazuje důležitá místa na planetě formou zvětšených piktogramů namísto těch běžných.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>Zobrazení názvů přírodních úkazů.</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Zobrazení názvů přírodních útvarů.\n\nPři zapnutí zobrazuje názvy přírodních útvarů.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>Zobrazení teploty.\n\nKolonisté budou nešťastní pokud je teplota jejich okolí příliš vysoká či nízká. Vystavení kolonistů extrémním teplotám může vést k podchazení, omrzlinám, úpalu, popáleninám a smrti.</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Zobrazení teploty.\n\nPři zapnutí zobrazuje teplotu vzduchu v každé místnosti a venku.\n\nKolonisté budou nešťastní, pokud je teplota jejich okolí příliš vysoká či nízká. Vystavení kolonistů extrémním teplotám může vést k podchazení, omrzlinám, úpalu, popáleninám i smrti.</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1255,7 +1255,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent není připraven</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>Neexistuje žádná kolonie, do které by bylo možné se vrátit.</ShipNoSettlementToReturnTo>
+  <ShipNoSettlementToReturnTo>Neexistuje žádná osada, do které by se dalo vrátit. Nejprve založ osadu.</ShipNoSettlementToReturnTo>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) je připraven spustit sekvenci na probuzení lodního reaktoru z hluboké hibernace.\n\nVaruje tě, že tento proces zabere asi 15 dnů a jeho energetický podpis bude detekovatelný z velké vzdálenosti.\n\nTento druh energetického podpisu naznačuje schopnost mezihvězdného letu a jistě přiláká gangy zoufalých lupičů a roje smrtících mechanoidů.\n\nBudeš napadán intenzitou, jakou jsi ještě nezažil. Ujisti se, že tvá obrana je skvěle připravena.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1690,10 +1690,10 @@
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění budou mít na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
-  <RitualOutcomeNoQuality>Tento rituál nemá žádné odměny podle kvality, a proto jeho vykonání bude vždy nejvyšší kvality.</RitualOutcomeNoQuality>
+  <RitualOutcomeNoQuality>Tento rituál nemá žádné kvalitativní odchylky, a proto lze vždy očekávat nejlepší výsledek.</RitualOutcomeNoQuality>
   
-  <!-- EN: Choose who should participate in {RITUAL_labelDef}.*** -->
-  <ChooseParticipants>Vyber, kdo všechno se má účastnit {RITUAL_labelDef}.</ChooseParticipants>
+  <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
+  <ChooseParticipants>Vyber, kdo všechno se má účastnit rituálu '{RITUAL_labelDef}'.</ChooseParticipants>
   <!-- EN: Begin -->
   <Begin>Zahájit</Begin>
   <!-- EN: Begin {0} -->
@@ -1746,7 +1746,7 @@
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0} kvality</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{replace: {OUTCOMELABEL}​; "á​"-"ý"; "é​"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{replace: {OUTCOMELABEL}^; "ý^"-"ý"; "á^"-"ý"; "é^"-"ý"} rituál: {RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>max {0}</MaxValue>
 
@@ -1797,7 +1797,7 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>Štítový opasek ochraňuje jeho nositele od projektilů a šrapnelu, ale zabraňuje mu střílet. Pokud je nostitel zasažený EMP, štít se okamžitě vypne.</ShieldPersonalTip>
+  <ShieldPersonalTip>Osobní štít, který chrání svého nositele od projektilů a šrapnelů, ale zabraňuje mu střílet. V případě zasažení EMP se štít okamžitě vypne.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
   <UnrecruitableDesc>TODO</UnrecruitableDesc>

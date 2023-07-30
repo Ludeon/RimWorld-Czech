@@ -77,9 +77,9 @@
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>již naplněno</AlreadyFilledLower>
   <!-- EN: missing {0} -->
-  <MissingMaterials>chybí materiály</MissingMaterials>
+  <MissingMaterials>chybí {0}</MissingMaterials>
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
-  <NoMedicineMatchingCategory>Žádná volná medicína odpovídající restrikci '{CATEGORY}'.</NoMedicineMatchingCategory>
+  <NoMedicineMatchingCategory>Žádná volná léčiva odpovídající omezení '{CATEGORY}'.</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>potřebuje dovednost na úrovni {0}</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -123,7 +123,7 @@
   <!-- EN: can't touch -->
   <CantRopeAnimalCantTouch>nedosažitelné zvíře</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
-  <CantRopeAnimalNoSpace>žádná volná ohrada</CantRopeAnimalNoSpace>
+  <CantRopeAnimalNoSpace>žádné místo ve výběhu</CantRopeAnimalNoSpace>
   <!-- EN: {0_labelShort} is in {1} state -->
   <CantRopeAnimalMentalState>{0_labelShort} je ve stavu '{1}'</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
@@ -211,10 +211,10 @@
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Zachránit - {1_label}</Rescue>
-  <!-- EN: Put {1_label} somewhere safe (Odlož {1_label} někam do bezpečí)-->
-  <PutSomewhereSafe>TODO</PutSomewhereSafe>
-  <!-- EN: Taking {0_labelShort} to bed. Vede {0_labelShort} k postely -->
-  <TakingToBed>TODO</TakingToBed>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>Odložit někam do bezpečí - {1_label}</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>Odvést do postele - {0_labelShort}</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Nelze zachránit</CannotRescue>
 
@@ -295,7 +295,7 @@
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>Nelze sebrat - {1_label} (vše)</CannotPickUpAll>
   <!-- EN: Pick up {1_labelShort} x1 -->
-  <PickUpOne>Sebrat - {1_labelShort} (x1)</PickUpOne>
+  <PickUpOne>Sebrat - {1_labelShort} x1</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Sebrat - {1_label} (vše)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -305,7 +305,7 @@
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>Nelze sebrat - {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>Maximálně lze sebrat {replace: ​{0} {1}​; "​1 droga​"-"1 droga"; "​2 droga​"-"2 drogy"; "​3 droga​"-"3 drogy"; "​4 droga​"-"4 drogy"; "​{0} droga​"-"{0} drog"; "​1 léčivo​"-"1 léčivo"; "​2 léčivo​"-"2 léčiva"; "​3 léčivo​"-"3 léčiva"; "​4 léčivo​"-"4 léčiva"; "​{0} léčivo​"-"{0} léčiv"}</MaxPickUpAllowed>
+  <MaxPickUpAllowed>Maximálně lze sebrat {replace: ^{0} {1}^; "^1 droga^"-"1 droga"; "^2 droga^"-"2 drogy"; "^3 droga^"-"3 drogy"; "^4 droga^"-"4 drogy"; "^{0} droga^"-"{0} drog"; "^1 léčivo^"-"1 léčivo"; "^2 léčivo^"-"2 léčiva"; "^3 léčivo^"-"3 léčiva"; "^4 léčivo^"-"4 léčiva"; "^{0} léčivo^"-"{0} léčiv"}</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>Nelze naložit na nákladní zvíře - {1_label}</CannotGiveToPackAnimal>
@@ -377,7 +377,7 @@
   <!-- EN: no doctor -->
   <NoDoctor>TODO</NoDoctor>
   <!-- EN: medical bed not for slaves -->
-  <NotForSlaves>Nemocniční lůžko není pro otroky</NotForSlaves>
+  <NotForSlaves>toto zdravotní lůžko není určeno pro otroky</NotForSlaves>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>Obsazeno - {0}</SomeoneElseSleeping>
   
@@ -526,7 +526,7 @@
 
   <!-- CommsConsole -->
   <!-- EN: Nobody to call -->
-  <NoCommsTarget>Není komu zavoloat</NoCommsTarget>
+  <NoCommsTarget>Není komu zavolat</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
   <Invoke>Probudit {0}</Invoke>
@@ -556,9 +556,9 @@
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
-  <CannotRomance>{0} se nenechá svést</CannotRomance>
+  <CannotRomance>Nelze svádět - {0}</CannotRomance>
   <!-- EN: Romance {0} -->
-  <CanRomance>TODO</CanRomance>
+  <CanRomance>Svádět - {0}</CanRomance>
 
   <!-- Feeding -->
   <!-- EN: disliked food -->
