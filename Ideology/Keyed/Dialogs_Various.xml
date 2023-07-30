@@ -11,16 +11,16 @@
   <!-- EN: Date -->
   <Date>Datum</Date>
   <!-- EN: The following development points will be awarded depending on the ritual outcome -->
-  <RitualDevelopmentPointRewards>V závislosti na rituálním výsledku budou přiděleny následující vývojové body</RitualDevelopmentPointRewards>
+  <RitualDevelopmentPointRewards>V závislosti na rituálním výsledku budou přiděleny rozvojové body následovně</RitualDevelopmentPointRewards>
   <!-- EN: Use global style -->
   <UseGlobalStyle>Použít globální styl</UseGlobalStyle>
   <!-- EN: No style variations available -->
   <NoStylesAvailable>Nemé žádné stylové variace</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
-  <ChooseStructureMemesInfo>Vyber si symbolickou strukturu svého ideoboženství. Ta ovlivňuje pouze symboly - nemá vliv na hratelnost.</ChooseStructureMemesInfo>
+  <ChooseStructureMemesInfo>Vyber si symbolickou strukturu svého ideobožství. Ta ovlivňuje pouze symboly - nemá vliv na hratelnost.</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
-  <ChooseNormalMemesInfo>Vyber si {0}-{1} přesvědčení, které utvoří základní myšlenky tohoto ideoboženství.</ChooseNormalMemesInfo>
+  <ChooseNormalMemesInfo>Vyber si {0}-{1} přesvědčení, které utvoří základní myšlenky tohoto ideobožství.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>Vyber si alespoň {0} přesvědčení.</NotEnoughMemes>
   <!-- EN: Choose at most {0} memes. -->
@@ -32,7 +32,7 @@
   <!-- EN: Some of these have much more gameplay impact than others. -->
   <SomeMemesHaveMoreImpact>Některá z těchto přesvědčení mají na hru větší vliv než jiná.</SomeMemesHaveMoreImpact>
   <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
-  <ChooseNormalMemesFluidIdeoInfo>Vyber si jedno přesvědčení, které utvoří prvotní myšlenku ideoboženství. Jak se bude ideoboženství postupem času vyvíjet, budeš moci přidat další přesvědčení.</ChooseNormalMemesFluidIdeoInfo>
+  <ChooseNormalMemesFluidIdeoInfo>Vyber si jedno přesvědčení, které utvoří prvotní myšlenku ideobožství. Jak se bude ideobožství postupem času vyvíjet, budeš moci přidat další přesvědčení.</ChooseNormalMemesFluidIdeoInfo>
   <!-- EN: Choose a meme or remove a meme. -->
   <ChooseOrRemoveMeme>Vyber nebo odeber některé přesvědčení.</ChooseOrRemoveMeme>
   <!-- EN: Reset changes -->
@@ -48,7 +48,7 @@
   <!-- EN: Room requirements -->
   <RoomRequirements>Požadavky na místnost</RoomRequirements>
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
-  <ConfirmChangeMemesForFluidIdeo>Ideoboženství, které se pokoušíš načíst, zahrnuje přesvědčení nekompatibilní s čerstvě vzniklým proměnlivým ideoboženstvím. Jeho přesvědčení bude proto nutné vybrat znovu (proměnlivé ideoboženství může začínat pouze s jedním přesvědčením s nízkým dopadem).</ConfirmChangeMemesForFluidIdeo>
+  <ConfirmChangeMemesForFluidIdeo>Ideobožství, které se pokoušíš načíst, zahrnuje přesvědčení nekompatibilní s čerstvě vzniklým proměnlivým ideobožstvím. Jeho přesvědčení bude proto nutné vybrat znovu (proměnlivé ideobožství může začínat pouze s jedním přesvědčením s nízkým dopadem).</ConfirmChangeMemesForFluidIdeo>
   <!-- EN: The following memes are incompatible -->
   <ConfirmIncompatibleMemes>Kompatibilní nejsou následující přesvědčení</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
@@ -108,7 +108,7 @@
   <!-- EN: {PAWN_labelShort}'s conversion power -->
   <AbilityIdeoConvertBreakdownConversionPower>Konverzní síla ({PAWN_labelShort})</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
-  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>Faktor ztráty jistoty v ideoboženství {IDEO_name} u osoby {PAWN_labelShort}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>Faktor ztráty jistoty v ideobožství {IDEO_name} u osoby {PAWN_labelShort}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} je {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
@@ -130,9 +130,9 @@
   <!-- EN: Reform... -->
   <ReformIdeo>Reformovat...</ReformIdeo>
   <!-- EN: Reform ideoligion -->
-  <ReformIdeoligion>Reformuj ideoboženství</ReformIdeoligion>
+  <ReformIdeoligion>Reformuj ideobožství</ReformIdeoligion>
   <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
-  <ReformIdeoligionDesc>Reformuj své ideoboženství změnou jeho struktury, přesvědčení nebo stylu.</ReformIdeoligionDesc>
+  <ReformIdeoligionDesc>Reformuj své ideobožství změnou jeho struktury, přesvědčení nebo stylu.</ReformIdeoligionDesc>
   <!-- EN: Change styles -->
   <ReformIdeoChangeStyles>Změnit styly</ReformIdeoChangeStyles>
   <!-- EN: Add or remove a meme -->
@@ -167,7 +167,7 @@
   <!-- EN: Last human meat -->
   <LastHumanMeat>Poslední lidské maso</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>Setrvá-li {PAWN_nameDef} déle než {DURATION} dnů bez konzumace lidského masa, bude vzhledem ke své víře v ideoboženství '{IDEO_name}' {PAWN_gender ? nespokojený : nespokojená}.</LastHumanMeatDesc>
+  <LastHumanMeatDesc>Setrvá-li {PAWN_nameDef} déle než {DURATION} dnů bez konzumace lidského masa, bude vzhledem ke své víře v ideobožství '{IDEO_name}' {PAWN_gender ? nespokojený : nespokojená}.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>Bude-li {PAWN_labelShort} {PAWN_gender ? popraven : popravena}, negativně to ovlivní vztahy s frakcí {FACTION_name}.</ExectueNeutralFactionSlave>
@@ -199,13 +199,13 @@
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>{PAWN_nameDef} bude {PAWN_gender ? nešťastný : nešťastná} kvůli</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>Druhy stylů ovlivňují vzhled některých struktur, oděvů a zbraní, které {IDEO_memberName} vyrobí. Pokud stejnou věc ovlivňuje více než jedna kategorie, upřednostní se ta úplně vlevo.</StyleCategoryDescription>
+  <StyleCategoryDescription>Druhy stylů ovlivňují vzhled některých objektů, oděvů a zbraní, které {IDEO_memberName} vyrobí. Pokud stejnou věc ovlivňuje více než jedna kategorie, použije se ta úplně vlevo.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>Druhy stylů ovlivňují vzhled některých struktur, oděvů a zbraní vyrobených tvou kolonií. Pokud stejnou věc ovlivňuje více než jedna kategorie, upřednostní se ta úplně vlevo.</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>Druhy stylů ovlivňují vzhled některých objektů, oděvů a zbraní vyrobených tvou kolonií. Pokud stejnou věc ovlivňuje více než jedna kategorie, použije se ta úplně vlevo.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>Každý {IDEO_memberName} bude rád, pokud ve své blízkosti spatří struktury, podlahy a umělecká díla, která odpovídají tomuto stylu.</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>Každý {IDEO_memberName} bude rád, pokud ve své blízkosti spatří objekty, podlahy a umělecká díla, která odpovídají tomuto stylu.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>Ideoboženští stoupenci budou rádi, pokud ve své blízkosti spatří struktury, podlahy a umělecká díla, která odpovídají tomuto stylu.</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>Stoupenci ideobožství budou rádi, pokud ve své blízkosti spatří objekty, podlahy a umělecká díla, která odpovídají tomuto stylu.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>{0} druh stylu ovlivňuje</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
@@ -217,11 +217,11 @@
   <!-- EN: Hair and beards -->
   <HairAndBeards>Vlasy a vousy</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>Tato nastavení určují, jak často se jednotlivé styly objeví u členů tohoto ideoboženství.</HairAndBeardsDesc>
+  <HairAndBeardsDesc>Tato nastavení určují, jak často se jednotlivé styly objeví u členů tohoto ideobožství.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
   <Tattoos>Tetování</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
-  <TattoosDesc>Tato nastavení určují, jak často se jednotlivá tetování objeví u členů tohoto ideoboženství.</TattoosDesc>
+  <TattoosDesc>Tato nastavení určují, jak často se jednotlivá tetování objeví u členů tohoto ideobožství.</TattoosDesc>
   <!-- EN: Never -->
   <StyleItemFrequencyNever>Nikdy</StyleItemFrequencyNever>
   <!-- EN: Rare -->
@@ -269,9 +269,9 @@
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
-  <ChooseColonistsForIdeoTitle>Vyber, koho chceš převést na své ideoboženství</ChooseColonistsForIdeoTitle>
+  <ChooseColonistsForIdeoTitle>Vyber, koho chceš převést na své ideobožství</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
-  <ChooseColonistsForIdeoDesc>Při zakládání nové kolonie můžeš lidi konvertovat na své primární ideoboženství.</ChooseColonistsForIdeoDesc>
+  <ChooseColonistsForIdeoDesc>Při zakládání nové kolonie můžeš lidi konvertovat na své primární ideobožství.</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>Nová kolonie</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
