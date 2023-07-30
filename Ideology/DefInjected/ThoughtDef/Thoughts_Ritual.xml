@@ -22,7 +22,7 @@
   <!-- EN: exonerated -->
   <TrialExonerated.stages.exonerated.label>{PAWN_gender ? zproštěn : zproštěna} viny</TrialExonerated.stages.exonerated.label>
   <!-- EN: They had nothing on me, and I showed them! -->
-  <TrialExonerated.stages.exonerated.description>Neměli na mě absolutně nic a všem jsem jim to tam dokázal.</TrialExonerated.stages.exonerated.description>
+  <TrialExonerated.stages.exonerated.description>Neměli na mě absolutně nic a všem jsem jim to tam {PAWN_gender ? dokázal : dokázala}!</TrialExonerated.stages.exonerated.description>
   
   <!-- EN: failed trial -->
   <TrialFailed.stages.failed_trial.label>neúspěšný soud</TrialFailed.stages.failed_trial.label>
