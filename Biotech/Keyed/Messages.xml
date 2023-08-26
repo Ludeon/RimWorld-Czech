@@ -9,28 +9,28 @@
   <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} se {PAWN_gender ? dostal : dostala} do závěrečné fáze porodu.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>TODO</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>Zatím co se {PAWN_nameDef} nabíjel, připojená dobíječka byla zničena! To způsobylo přehlcení některých obvodu a teď je zuřivý.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
-  <MessageCantUseOnResistingPerson>TODO</MessageCantUseOnResistingPerson>
+  <MessageCantUseOnResistingPerson>{ABILITY_label} nemůže být použito na osobu, která se bude aktivně vzpírat.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>TODO</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort} nemá žádné dostupné xenogeny k implantování.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>TODO</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Xenovštipovače mohou být implantovány pouze kolonistům, vězňům a otrokům.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
-  <MessageCannotImplantInTempFactionMembers>TODO</MessageCannotImplantInTempFactionMembers>
+  <MessageCannotImplantInTempFactionMembers>Nemožné implantovat dočasnému členu frakce.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>TODO</MessageXenogermCompleted>
+  <MessageXenogermCompleted>Xenovštipovač byl dokončen.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>TODO</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>Práce na xenovštipovači v {replace: ^{0_labelShort}^; "^genový sestavovač^"-"genovém sestavovači"; "^{1}^"-"{1}"} byla zrušena. (chybící potřebný genobalík)</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
   <MessageAbsorbingXenogermWillAngerFaction>TODO</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
-  <MessageCannotUseOnOtherFactions>TODO</MessageCannotUseOnOtherFactions>
+  <MessageCannotUseOnOtherFactions>{ABILITY_label} může být použito pouze na kolonisty, vězně a otroky.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>TODO</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} se odmítá stát nenáviděným xenotypem</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>TODO</MessageCaravanAddingEscortingMech> 
@@ -38,10 +38,10 @@
   <MessageCaravanRemovingEscortingMech>TODO</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>TODO</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0} byl{0_pronoun} mechanitor. Mužeš jí odebrat {0_possessive} {1_label} a použít ho na jiného kolonistu.</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>TODO</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>Interakční módy některých vězňů potřebují krvesaje. Protože odešel i poslední krvesaj, jejich mód byl nastaven na "žádnou interakci".</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>TODO</MessagePregnancyTerminated>
@@ -50,9 +50,9 @@
   <!-- EN: {0} has been angered ({1}) -->
   <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
-  <MessageWarningPollutedCell>TODO</MessageWarningPollutedCell>
+  <MessageWarningPollutedCell>Potřebuje neznečištěný terén.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
-  <MessageWarningNotPollutedCell>TODO</MessageWarningNotPollutedCell>
+  <MessageWarningNotPollutedCell>Potřebuje znečištěný terén.</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
   <MessagePlantDiedOfPollution>TODO</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
@@ -60,9 +60,9 @@
   <!-- EN: Pollution has increased by {0} at {1}. -->
   <MessageWorldTilePollutionChanged>TODO</MessageWorldTilePollutionChanged>
   <!-- EN: A cocoon has been disturbed and is opening! -->
-  <MessageCocoonDisturbed>TODO</MessageCocoonDisturbed>
+  <MessageCocoonDisturbed>Kokon byl vyrušen a otvírá se!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>TODO</MessageCocoonDisturbedPlural>
+  <MessageCocoonDisturbedPlural>Kokony byly vyrušeny a otvírají se!</MessageCocoonDisturbedPlural>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
   <MessageTargetMustBeDownedToForceReimplant>TODO</MessageTargetMustBeDownedToForceReimplant>
@@ -71,7 +71,7 @@
   <MessageWorkTypeDisabledAge>{0_nameDef} má teprve {replace: ^{1}^; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"}. Práci {0_gender ? {lookup: {2}; case\singular; 2} : {lookup: {2}; case\singularfem; 2}} může vykonávat až od {replace: ^{3}^; "^1^"-"1 roku"; "^{3}^"-"{3} let"}.</MessageWorkTypeDisabledAge>
 
   <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
-  <MessageDeathrestingPawnCanWakeSafely>TODO</MessageDeathrestingPawnCanWakeSafely>
+  <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} se nyní muže bezpečně probudit z mrtvospánku.</MessageDeathrestingPawnCanWakeSafely>
 
   <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
   <MessageMechanitorLostControlOfMech>TODO</MessageMechanitorLostControlOfMech>
@@ -98,19 +98,19 @@
   <MessageDeathrestCapacityChanged>TODO</MessageDeathrestCapacityChanged>
 
   <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>TODO</SanguophagesArrivingSoon>
+  <SanguophagesArrivingSoon>Sanguofágové přijdou do několika hodin na svojí schůzku.</SanguophagesArrivingSoon>
   <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>TODO</SanguophagesBegunMeeting>
+  <SanguophagesBegunMeeting>Sanguofágové zahájili svojí schůzku.</SanguophagesBegunMeeting>
   <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>TODO</SanguophagesLeavingTemperature>
+  <SanguophagesLeavingTemperature>Sanguofágové odchází z důvodu života ohrožujících teplot.</SanguophagesLeavingTemperature>
 
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>TODO</MessagePawnWokenFromSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} se vzbudil{PAWN_pronoun} z {PAWN_gender ? jeho : jejího} mrtvospánku kvůli vystavení slunečnímu světlu.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>TODO</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>Postel kterou má {PAWN_nameDef} přiřazenou pro mrtvospánek byla vystavena slunci. {PAWN_nameDef} v ní proto nemůže mrtvospát.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>TODO</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} byl{PAWN_pronoun} vyhozen{PAWN_pronoun} z genového extraktoru, kvůly nedostatku proudu.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
@@ -122,32 +122,32 @@
   <MessageCannotResurrectDessicatedCorpse>TODO</MessageCannotResurrectDessicatedCorpse>
 
   <!-- EN: {0} is about to explode! -->
-  <MessageAboutToExplode>TODO</MessageAboutToExplode>
+  <MessageAboutToExplode>{0} za chvíli vybouchne!</MessageAboutToExplode>
 
   <!-- Childcare -->
   <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>TODO</MessageChildcareDisabled>
+  <MessageChildcareDisabled>{FEEDER_labelShort} není schopen činnosti chůvy.</MessageChildcareDisabled>
   <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>TODO</MessageChildcareNotAssigned>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} nemá přiřazenou činnost chůvy.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>TODO</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>Už máš maximální počet vytvořených xenotypů. Musíš některý z nich smazat aby si si mohl/a vytvořit další.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>TODO</MessageConflictingGenesPresent>
+  <MessageConflictingGenesPresent>Není možné uložit xenotyp s několika konfliktními geny.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
   <MessageDeathrestBuildingBound>TODO</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
-  <MessageDevelopmentalStageSelectionDisabledByScenario>TODO</MessageDevelopmentalStageSelectionDisabledByScenario>
+  <MessageDevelopmentalStageSelectionDisabledByScenario>Výběr vývojové fáze vypnut scénářem.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>TODO</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} neměl{PAWN_pronoun} dost krve na vytvoření balíčku hemogenu.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>TODO</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} nemá dost krve pro vytvoření balíčku hemogenu.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
-  <MessageCannotPostponeGrowthMoment>TODO</MessageCannotPostponeGrowthMoment>
+  <MessageCannotPostponeGrowthMoment>Musíš si vybrat jak má {PAWN_nameDef} růst.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Varování: Než {0_gender ? byl {0_labelShort} povolán : byla {0_labelShort} povolána} do zbraně, {0_gender ? přenášel : přenášela} děťátko.</MessageDraftedPawnCarryingBaby>
@@ -155,10 +155,10 @@
   <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
 
   <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
-  <MessagePregnancyFailed>TODO</MessagePregnancyFailed>
+  <MessagePregnancyFailed>{MOTHER_nameDef} a {FATHER_nameDef} se neůspěšně pokusili o těhotenstvý.</MessagePregnancyFailed>
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
-  <MessageFerilizeFailed>TODO</MessageFerilizeFailed>
+  <MessageFerilizeFailed>{PAWN_nameDef} neuspěl při oplodňování vajíčka.</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
-  <CombinedGenesExceedMetabolismLimits>TODO</CombinedGenesExceedMetabolismLimits>
+  <CombinedGenesExceedMetabolismLimits>Vybrané geny přesahují limity metabolismu.</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>
