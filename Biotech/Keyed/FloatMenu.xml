@@ -110,11 +110,11 @@
 
   <!-- BreastfeedFailReason strings-->
   <!-- EN: {MOM_labelShort} does not have enough milk -->
-  <BreastfeedFailReason_MomNotEnoughMilk>TODO</BreastfeedFailReason_MomNotEnoughMilk>
+  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} nemá dost mléka</BreastfeedFailReason_MomNotEnoughMilk>
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
-  <BreastfeedFailReason_MomInMentalState>TODO</BreastfeedFailReason_MomInMentalState>
+  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} není zrovna schopná kojit</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>TODO</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} je příliš {BABY_gender ? plný : plná} na to aby se kojil</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
   <BreastfeedFailReason_BabyForbiddenToMom>TODO</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
@@ -130,11 +130,11 @@
   <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
   <BreastfeedFailReason_NoMomsAssignedToBaby>TODO</BreastfeedFailReason_NoMomsAssignedToBaby>
   <!-- EN: {MOM_labelShort} is not assigned to childcare -->
-  <BreastfeedFailReason_MomNotAssignedToChildcare>TODO</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} nemá přiřazenou činnost chůvy</BreastfeedFailReason_MomNotAssignedToChildcare>
   <!-- EN: {MOM_labelShort} is inside a container -->
-  <BreastfeedFailReason_MomInsideContainer>TODO</BreastfeedFailReason_MomInsideContainer> <!-- text_todo -->
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} je uložená v kontaineru</BreastfeedFailReason_MomInsideContainer>
   <!-- EN: {MOM_labelShort} is being carried -->
-  <BreastfeedFailReason_MomBeingCarried>TODO</BreastfeedFailReason_MomBeingCarried> <!-- text_todo -->
+  <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} je právě přenášena</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
   <OrderImplantationIntoPawn>TODO</OrderImplantationIntoPawn>
@@ -159,12 +159,12 @@
   <NotAllowedHemogen>TODO</NotAllowedHemogen>
 
   <!-- EN: Eject genepack from gene bank -->
-  <EjectGenepackFromGeneBank>TODO</EjectGenepackFromGeneBank>
+  <EjectGenepackFromGeneBank>Vyhodit genobalík z genobanky</EjectGenepackFromGeneBank>
 
   <!-- EN: Resulting metabolism would be too low -->
-  <ResultingMetTooLow>TODO</ResultingMetTooLow>
+  <ResultingMetTooLow>Výsledný metabolismus by byl příliš nízký</ResultingMetTooLow>
 
   <!-- EN: attempted romance too recently -->
-  <RomanceOnCooldown>TODO</RomanceOnCooldown><!-- text_todo -->
+  <RomanceOnCooldown>Pokusil{PAWN_pronoun} se o romanci příliš nedávno</RomanceOnCooldown>
 
 </LanguageData>
