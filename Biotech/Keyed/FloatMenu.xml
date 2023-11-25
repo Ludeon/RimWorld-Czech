@@ -2,29 +2,29 @@
 <LanguageData>
 
   <!-- EN: Not a mechanitor -->
-  <NotAMechanitor>TODO</NotAMechanitor>
+  <NotAMechanitor>Není mechanitor</NotAMechanitor>
   <!-- EN: Not enough bandwidth -->
-  <NotEnoughBandwidth>TODO</NotEnoughBandwidth>
+  <NotEnoughBandwidth>Nedostatečná šířka pásma</NotEnoughBandwidth>
   <!-- EN: Take control of {0} -->
-  <ControlMech>TODO</ControlMech>
+  <ControlMech>Ovládnout {lookup: {0}; case\singular; 4}</ControlMech>
   <!-- EN: Cannot control {0} -->
-  <CannotControlMech>TODO</CannotControlMech>
+  <CannotControlMech>Nelze ovládnout {lookup: {0}; case\singular; 4}</CannotControlMech>
   <!-- EN: Already controlled by {0} -->
-  <CannotControlMechAlreadyControlled>TODO</CannotControlMechAlreadyControlled>
+  <CannotControlMechAlreadyControlled>Již je ovládán {lookup: {0}; case\singular; 7}</CannotControlMechAlreadyControlled>
   <!-- EN: Not enough bandwidth -->
-  <CannotControlMechNotEnoughBandwidth>TODO</CannotControlMechNotEnoughBandwidth>
+  <CannotControlMechNotEnoughBandwidth>Nedostatečná šířka pásma</CannotControlMechNotEnoughBandwidth>
   <!-- EN: Never controllable -->
-  <CannotControlMechNeverControllable>TODO</CannotControlMechNeverControllable>
+  <CannotControlMechNeverControllable>Není ovladatelný</CannotControlMechNeverControllable>
   <!-- EN: Cannot disconnect from {0} -->
-  <CannotDisconnectMech>TODO</CannotDisconnectMech>
+  <CannotDisconnectMech>Nelze odpojit od {lookup: {0}; case\singular; 2}</CannotDisconnectMech>
   <!-- EN: Disconnect from {0} -->
-  <DisconnectMech>TODO</DisconnectMech>
+  <DisconnectMech>Odpojit od {lookup: {0}; case\singular; 2}</DisconnectMech>
   <!-- EN: Permanently disassemble {0} -->
-  <DisassembleMech>TODO</DisassembleMech>
+  <DisassembleMech>Rozmontovat {lookup: {0}; case\singular; 4}</DisassembleMech>
   <!-- EN: Cannot permanently disassemble {0} -->
-  <CannotDisassembleMech>TODO</CannotDisassembleMech>
+  <CannotDisassembleMech>Nelze rozmontovat {lookup: {0}; case\singular; 4}</CannotDisassembleMech>
   <!-- EN: Must be overseer -->
-  <MustBeOverseer>TODO</MustBeOverseer>
+  <MustBeOverseer>Musí být dohlížitelem</MustBeOverseer>
   <!-- EN: Extract -->
   <Extract>TODO</Extract>
   <!-- EN: Out of command range -->
@@ -92,11 +92,11 @@
   <EnterSubcoreScanner>Vstoupit do {lookup: {0}; case\singular; 2}</EnterSubcoreScanner>
 
   <!-- EN: Breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeed>TODO</BabyCareBreastfeed>
+  <BabyCareBreastfeed>Nakojit {BABY_labelShort}</BabyCareBreastfeed>
   <!-- EN: Cannot breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeedUnable>TODO</BabyCareBreastfeedUnable>
+  <BabyCareBreastfeedUnable>Nelze nakojit {BABY_labelShort}</BabyCareBreastfeedUnable>
   <!-- EN: No baby-edible food -->
-  <NoBabyFood>TODO</NoBabyFood>
+  <NoBabyFood>Žádný pokrm pro novorozence</NoBabyFood>
 
   <!-- EN: play need full -->
   <CannotInteractBabyPlayFull>TODO</CannotInteractBabyPlayFull>
@@ -114,7 +114,7 @@
   <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
   <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} není zrovna schopná kojit</BreastfeedFailReason_MomInMentalState>
   <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} je příliš {BABY_gender ? plný : plná} na to aby se kojil</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} je příliš {BABY_gender ? plný : plná} na to aby byl{BABY_pronoun} krmen{BABY_pronoun}</BreastfeedFailReason_BabyTooFull>
   <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
   <BreastfeedFailReason_BabyForbiddenToMom>TODO</BreastfeedFailReason_BabyForbiddenToMom>
   <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
@@ -122,7 +122,7 @@
   <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
   <BreastfeedFailReason_MomForbiddenToHauler>TODO</BreastfeedFailReason_MomForbiddenToHauler>
   <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
-  <BreastfeedFailReason_MomIsMobile>TODO</BreastfeedFailReason_MomIsMobile>
+  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort} může nakojit {BABY_labelShort} bez pomoci</BreastfeedFailReason_MomIsMobile>
   <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
   <BreastfeedFailReason_HaulerCannotReachMom>TODO</BreastfeedFailReason_HaulerCannotReachMom>
   <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
@@ -137,9 +137,9 @@
   <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} je právě přenášena</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>TODO</OrderImplantationIntoPawn>
+  <OrderImplantationIntoPawn>Vštípit geny do {PAWN_nameDef}</OrderImplantationIntoPawn>
   <!-- EN: Accept {0_xenotype} xenogerm -->
-  <AcceptXenogerm>TODO</AcceptXenogerm>
+  <AcceptXenogerm>Přijmou genovštipovač {0_xenotype}</AcceptXenogerm>
 
   <!-- EN: Carry {PAWN_labelShort} to recharger -->
   <CarryToRechargerOrdered>TODO</CarryToRechargerOrdered>

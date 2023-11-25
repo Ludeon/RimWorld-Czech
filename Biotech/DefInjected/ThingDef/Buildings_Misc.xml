@@ -4,12 +4,12 @@
   <!-- EN: band node -->
   <BandNode.label>pásmový uzel</BandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
-  <BandNode.description>Každý pásmovy uzel musí být naladěný na specifického mechanitora, kterému přidá jeden volný bod šířky pásma do jeho celkové kapacity.\n\nPo té co je pásmový uzel postaven, může být rychle nalazen na vybraného mechanitora. Ale předání pásmového uzlu mezi mechanitory trvá mnohem déle.</BandNode.description>
+  <BandNode.description>Zesilovač signálu v mechanoidím pásmu. Každý pásmovy uzel musí být naladěný na specifického mechanitora, kterému přidá jeden volný bod šířky pásma do jeho celkové kapacity.\n\nPo té co je pásmový uzel postaven, může být rychle nalaďen na vybraného mechanitora. Ale předání pásmového uzlu mezi mechanitory trvá mnohem déle.</BandNode.description>
   
   <!-- EN: mechband antenna -->
   <BurnoutMechlinkBooster.label>mechapásmová anténa</BurnoutMechlinkBooster.label>
   <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
-  <BurnoutMechlinkBooster.description>Mechapásmové signální zařízení. Při aktivaci vyšle silný puls na mechanoidích frekvencích, který přiláká divoké extratěžké mechanoidy se svojí eskortou. Pokud se ti je podaří porazit, můžeš použít jejich čipy pro vyzkoumání specifických technologií. Tento puls opotřebuje komponenty pro jeho vytvoření, takže se tato budova dá použít jenom jednou.</BurnoutMechlinkBooster.description>
+  <BurnoutMechlinkBooster.description>Mechapásmové signální zařízení. Při aktivaci vyšle silný pulz na mechanoidích frekvencích, který přiláká divoké extratěžké mechanoidy se svojí eskortou. Pokud se ti je podaří porazit, můžeš použít jejich čipy pro vyzkoumání specifických technologií. Tento pulz opotřebuje komponenty pro jeho vytvoření, takže se tato budova dá použít jenom jednou.</BurnoutMechlinkBooster.description>
   <!-- EN: Summon warqueen threat -->
   <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Přivolat válečnou královnu</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
   
@@ -41,7 +41,7 @@
   <!-- EN: mechband dish -->
   <MechbandDish.label>mechapásmový satelit</MechbandDish.label>
   <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
-  <MechbandDish.description>Mechapásmové signální zařízení. Při aktivaci vyšle velmi silný puls na mechanoidích frekvencích, který přiláká divoké extratěžké mechanoidy se svojí eskortou. Pokud se ti je podaří porazit, můžeš použít jejich čipy pro vyzkoumání specifických technologií. Tento puls opotřebuje komponenty pro jeho vytvoření, takže se tato budova dá použít jenom jednou.</MechbandDish.description>
+  <MechbandDish.description>Mechapásmové signální zařízení. Při aktivaci vyšle velmi silný pulz na mechanoidích frekvencích, který přiláká mechanoidího velitele se svojí eskortou. Pokud se ti je podaří porazit, můžeš použít jejich čipy pro vyzkoumání specifických technologií. Tento pulz opotřebuje komponenty pro jeho vytvoření, takže se tato budova dá použít jenom jednou.</MechbandDish.description>
   <!-- EN: Summon apocriton threat -->
   <MechbandDish.comps.CompUsable.useLabel>Přivolat sršňáka</MechbandDish.comps.CompUsable.useLabel>
   
@@ -58,7 +58,7 @@
   <!-- EN: blood torch -->
   <SanguphageMeetingTorch.label>krevní pochodeň</SanguphageMeetingTorch.label>
   <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
-  <SanguphageMeetingTorch.description>Speciálně vytvořená dřevěná pochodeň, která vytváří červené světlo na relativně velké ploše. Sanguofágové se shromažďují kolem takových to pochodní při ceremoniálních setkáních. Vydávaná sanguiní záře je velmi příjemná pro nositele krvesajského genu. Může být automaticky doplněná dřevem a produkuje trochu tepla.</SanguphageMeetingTorch.description>
+  <SanguphageMeetingTorch.description>Speciálně vytvořená dřevěná pochodeň, která vytváří červené světlo na relativně velké ploše. Sanguofágové se shromažďují kolem takovýchto pochodní při ceremoniálních setkáních. Vydávaná sanguiní záře je velmi příjemná pro nositele krvesajského genu. Může být automaticky doplněná dřevem a produkuje trochu tepla.</SanguphageMeetingTorch.description>
   
   <!-- EN: crashed shuttle -->
   <ShuttleCrashed_Exitable.label>havarovaný raketoplán</ShuttleCrashed_Exitable.label>
@@ -78,11 +78,11 @@
   <!-- EN: IED tox trap -->
   <TrapIED_ToxGas.label>jedoplynové IED</TrapIED_ToxGas.label>
   <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_ToxGas.description>Dojice jedoplynových dělostřeleckých granátů připojených, která se aktivuje při dotykem nebe při zásahu projektilem. Vzhledem k tomu že splývá s okolním terénem, nemůže být umístněna v blízkosti jiných pastí. Zvířata jsou schopna vycítit tuto past, pouze pokud jsou v klidu.</TrapIED_ToxGas.description>
+  <TrapIED_ToxGas.description>Dvojice jedoplynových dělostřeleckých granátů s roznětkou, která se aktivuje při dotyku nebe při zásahu projektilem. Vzhledem k tomu, že splývá s okolním terénem, nemůže být umístěna v blízkosti jiných pastí. Zvířata, pokud jsou v klidu, ji mohou vycítit a vyhnout se ji.</TrapIED_ToxGas.description>
   
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>atomízér toxivaků</WastepackAtomizer.label>
   <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
-  <WastepackAtomizer.description>Přístroj z vyspělého světa, který rozloží toxivaky na vzácné plyny použitím speciálních molekulárních procesů. Tyto procesy ale vyžadují značné množství elektřiny.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>Přístroj z vyspělého třpytosvěta, který rozloží toxivaky na neškodné plyny použitím speciálních molekulárních procesů. Tyto procesy ale vyžadují značné množství elektřiny.</WastepackAtomizer.description>
   
 </LanguageData>
