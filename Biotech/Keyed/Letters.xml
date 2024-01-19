@@ -5,39 +5,39 @@
   <!-- EN: Mech(s) gone feral -->
   <LetterLabelMechsFeral>Zdivočelí mechové</LetterLabelMechsFeral>
   <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>Někteří z tvých mechů, kteří neměli přiřazeného mechanitora, se nyní začali řídit podle prastarých celoplanetárních kontrolních signálů. Nyní je kontroluje {0}, což má za následek, že na tebe začnou útočit a pokusí se utéct z mapy.\n\nPokud zemřou, zdivočelí mechanoidi nemohou být oživeni v plodírně mechů.\n\nZdivočeli tito mechové:\n\n{1}</LetterMechsFeral>
+  <LetterMechsFeral>Někteří z tvých mechů, kteří neměli přiřazeného mechanitora, se nyní začali řídit podle starodávných celoplanetárních řídících signálů. Nyní je kontroluje {0}, což má za následek, že na tebe začnou útočit a pokusí se utéct z mapy.\n\nPokud zemřou, zdivočelí mechanoidi nemohou být oživeni v plodírně mechů.\n\nZdivočeli tito mechové:\n\n{1}</LetterMechsFeral>
   <!-- EN: Mechlink installed -->
   <LetterLabelMechlinkInstalled>Mechalink nainstalován</LetterLabelMechlinkInstalled>
   <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort} má nainstalovaný mechalink! Stal se z {PAWN_gender ? něj : ní} mechanitor, což {PAWN_gender ? mu : jí} mumožňuje vytvářet a ovládat mechanoidy.\n\nVyzkoumej základní mechotechnologii aby mohl{PAWN_pronoun} začít používat {PAWN_gender ? jeho : její} nově nabité technoligie.\n\n(*SectionTitle)Vytváření mechů:(/SectionTitle)</LetterMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort} má nainstalovaný mechalink! Stal se z {PAWN_gender ? něj : ní} mechanitor, což {PAWN_gender ? mu : jí} mumožňuje vytvářet a ovládat mechanoidy.\n\nVyzkoumej základní mechotechnologii aby mohl{PAWN_pronoun} začít používat {PAWN_gender ? jeho : její} nově nabité schopnosti.\n\n(*SectionTitle)Vytváření mechů:(/SectionTitle) mechanitoři můžou vyrábět mechanoidy ve stavbě zvané plodírna mechů.\n\n(*SectionTitle)Šířka pásma:(/SectionTitle) Mechanitoři mohou řídit tolik mechů, kolik jim dovolí jejich kapacita šířky pásma. Vyber {PAWN_lableShort} a podívej se na {PAWN_possessive} 'šířku pásma', abys viděl kolik ze šířky pásma využívá a kolik {PAWN_gender ? mu : jí} ještě zbývá. Śířku pásma lze rozšířit vybraným oblečením a stavěním pásmových uzlů.\n\n(*SectionTitle)Ovládané skupiny:(/SectionTitle) Mechanitoři ovládají mechanoidy po skupinách. Každá skupina může mít nastaven jeden z módů:\n\n- Práce\n- Eskorta\n- Dobíjení\n- Klidové samonabíjení\n\nAbys zjistil více, co který mód dělá. Vyber ikonku pracovního módu a podrž myš nad jinými pracovními módy. Maximální počet ovládaných skupin lze navýšit oblečením a implantáty.\n\n(*SectionTitle)Přivolání hrozby:(/SectionTitle) Mechanitor může vyslat signál na přilákání starodávných vůdců mechanoidů pro získání vzácných předmětů. Tato rizika musíš podstoupit pro navýšení určitých limitů mechanitora, ale buď připraven. Může to být nebezpečné.</LetterMechlinkInstalled>
 
   <!-- EN: This happened because of -->
   <MentalStateReason_Gene>To bylo způsobeno</MentalStateReason_Gene>
 
   <!-- EN: {0} summoned -->
-  <LetterLabelBossgroupSummoned>{0} {replace: ^{0}^; "^válečná královna^"-"přivolána"; "^{0}^"-"přivolán"}</LetterLabelBossgroupSummoned>
+  <LetterLabelBossgroupSummoned>{0} {replace: {lookup: {0}; case\gender; 1}; "ženský"-"přivolána"; "mužský"-"přivolán"; "střední"-"přivoláno"; "{0}"-"přivolán"}</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
-  <LetterBossgroupSummoned>{0} vysílá jednoho z okolních ultra těžkých mechů za tvýmy pásmovými signály. Pořádně se připrav.</LetterBossgroupSummoned>
+  <LetterBossgroupSummoned>{0} vysílá jednoho z okolních ultra těžkých mechů za tvými mechapásmovými signály. Pořádně se připrav.</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
-  <LetterLabelBossgroupArrived>{0} {replace: ^{0}^; "^válečná královna^"-"dorazila"; "^{0}^"-"dorazil"}</LetterLabelBossgroupArrived>
+  <LetterLabelBossgroupArrived>{0} {replace: {lookup: {0}; case\gender; 1}; "ženský"-"dorazila"; "mužský"-"dorazil"; "střední"-"dorazilo"; "{0}"-"dorazil"}</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>Ultra těžký mech a jeho přisluhovači tě přišeli zlikvidovat.\n\n{1}\n\nTato útočná skupina se zkládá z následujících mechů:\n\n{4}\n\nChvíli se budou připrovovat a potom zautočí.</LetterBossgroupArrived>
+  <LetterBossgroupArrived>Ultra těžký mech a jeho přisluhovači tě přišli zlikvidovat.\n\n{1}\n\nTato útočná skupina se skládá z následujících mechů:\n\n{4}\n\nChvíli se budou připravovat a potom zautočí.</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
-  <LetterLabelCommsConsoleSpawned>Je možné přivolat {replace: ^{LEADER_label}^; "^válečná královna^"-"válečné královny"; "^sršňák^"-"sršňáka"; "^ďábelník^"-"ďábelníka"; "^{LEADER_label}^"-"{LEADER_label}"}</LetterLabelCommsConsoleSpawned>
+  <LetterLabelCommsConsoleSpawned>Je možné přivolat {lookup: {LEADER_label}; case\singular; 4}</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>Tvůj mechanitor může použít {replace: ^{PARENT_label}^; "^mechapásmová anténa^"-"mechapásmovou anténu"; "^{PARENT_label}^"-"{PARENT_label}"}, aby přivolal {replace: ^{LEADER_label}^; "^válečná královna^"-"nepřátelskou válečnou královnu"; "^sršňák^"-"nepřátelského sršňáka"; "^ďábelník^"-"nepřátelského ďábelníka"; "^{LEADER_label}^"-"nepřátelského {LEADER_label}"}. Pořádně se připrav, protože je {replace: ^{LEADER_label}^; "^válečná královna^"-"její"; "^{LEADER_label}^"-"jeho"} útok bude opravdu tvrdý.\n\nPokud se ti podaří porazit {replace: ^{LEADER_label}^; "^válečná královna^"-"válečnou královnu"; "^sršňák^"-"sršňáka"; "^ďábelník^"-"ďábelníka"; "^{LEADER_label}^"-"{LEADER_label}"}, získáž z {replace: ^{LEADER_label}^; "^válečná královna^"-"ní"; "^{LEADER_label}^"-"něj"} následující předměty:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>Tvůj mechanitor může použít {lookup: {PARENT_label}; case\singular; 4}, aby přivolal {LEADER_gender ? nebezpečného a nepřátelského : nebezpečnou a nepřátelskou} {lookup: {LEADER_label}; case\singular; 4}. Pořádně se připrav, protože {LEADER_gender ? jeho : její} útok bude opravdu tvrdý.\n\nPokud se ti podaří porazit {lookup: {LEADER_label}; case\singular; 4}, získáš z {LEADER_gender ? něj : ní} následující předměty:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
-  <LetterLabelBossgroupCallerUnlocked>Možnost přivolání {replace: ^{LEADER_label}^; "^válečná královna^"-"válečné královny"; "^sršňák^"-"sršňáka"; "^ďábelník^"-"ďábelníka"; "^{LEADER_label}^"-"{LEADER_label}"}</LetterLabelBossgroupCallerUnlocked>
+  <LetterLabelBossgroupCallerUnlocked>Možnost přivolání {lookup: {LEADER_label}; case\singular; 2}</LetterLabelBossgroupCallerUnlocked>
   <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>Můžeš postavit {replace: ^{PARENT_label}^; "^mechapásmová anténa^"-"mechapásmovou anténu, se kterou"; "^mechapásmový satelit^"-"mechapásmový satelit, se kterým"; "^{PARENT_label}^"-"{PARENT_label}, se kterým"} tvůj mechanitor může přivolat {replace: ^{LEADER_label}^; "^válečná královna^"-"nepřátelskou válečnou královnu"; "^sršňák^"-"nepřátelského sršňáka"; "^ďábelník^"-"nepřátelského ďábelníka"; "^{LEADER_label}^"-"nepřátelského {LEADER_label}"}.\n\nPokud se ti podaří porazit {replace: ^{LEADER_label}^; "^válečná královna^"-"válečnou královnu"; "^sršňák^"-"sršňáka"; "^ďábelník^"-"ďábelníka"; "^{LEADER_label}^"-"{LEADER_label}"}, získáž z {replace: ^{LEADER_label}^; "^válečná královna^"-"ní"; "^{LEADER_label}^"-"něj"} následující předměty:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>Můžeš postavit {lookup: {PARENT_label}; case\singular; 4} se {PARENT_gender ? kterým : kterou} tvůj mechanitor může přivolat {lookup: {LEADER_label}; case\singular; 4}.\n\nPokud se ti podaří porazit {lookup: {LEADER_label}; case\singular; 4}, získáš z {LEADER_gender ? něj : ní} následující předměty:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
   <!-- EN: {0_nameDef}'s mechlink available -->
   <LetterLabelMechanitorCasketOpened>mrtvola s mechalinkem</LetterLabelMechanitorCasketOpened>
   <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>Povedlo se ti najít mrtvolu mechanitora!\n\nMůžeš znovu použít její mechalink vybráním kolonisty a pravým kliknutím na mrtvolu.</LetterMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>Povedlo se ti najít mrtvolu mechanitora!\n\nMůžeš znovu použít {0_possessive} mechalink vybráním kolonisty a pravým kliknutím na mrtvolu.</LetterMechanitorCasketOpened>
   <!-- EN: Mechanitor casket found -->
   <LetterLabelMechanitorCasketFound>Nalezena komora mechanitora</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
@@ -74,7 +74,7 @@
   <!-- EN: {BABY_nameDef} adopted -->
   <LetterLabelAdopted>{BABY_nameDef} {BABY_gender ? adoptován : adoptována}</LetterLabelAdopted>
   <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
-  <LetterTextAdopted>{BABY_nameDef}, novorozenec, {BABY_gender ? byl adoptován : byla adoptovaná} tvojí kolonií. Je dobré aby alespoň někteří kolonisté měly na starosti činnost chůvy, aby se o {BABY_gender ? něj : ní} měl kdo starat.</LetterTextAdopted>
+  <LetterTextAdopted>{BABY_nameDef}, novorozenec, {BABY_gender ? byl adoptován : byla adoptovaná} tvojí kolonií. Je dobré aby alespoň někteří kolonisté měli na starosti činnost chůvy, aby se o {BABY_gender ? něj : ní} měl kdo starat.</LetterTextAdopted>
 
   <!-- EN: {0_nameDef}'s baby prep -->
   <LetterLabelThirdTrimester>TODO</LetterLabelThirdTrimester>
@@ -86,11 +86,11 @@
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
   <LetterVatHealthyBaby>TODO</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
-  <LetterVatHealthyBabyNoParents>Embryo dokončilo svojí fázi růstu a je z něj zdravý novorozenec.</LetterVatHealthyBabyNoParents>
+  <LetterVatHealthyBabyNoParents>Embryo dokončilo svojí fázi v růstové kádi a je z něj zdravý novorozenec.</LetterVatHealthyBabyNoParents>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
   <LetterVatInfantIllness>TODO</LetterVatInfantIllness>
   <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllnessNoParents>Embryo dokončilo svojí fázi růstu a je z něj novorozenec. Bohužel je nemocný.</LetterVatInfantIllnessNoParents>
+  <LetterVatInfantIllnessNoParents>Embryo dokončilo svojí fázi v růstové kádi a je z něj novorozenec. Bohužel je nemocný.</LetterVatInfantIllnessNoParents>
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
   <LetterVatStillborn>TODO</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
@@ -165,7 +165,7 @@
   <!-- EN: Mechlink available -->
   <LetterLabelMechlinkAvailable>Získatelný mechalink</LetterLabelMechlinkAvailable>
   <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>{0} ti umožnil příležitost získat unikátní mechalink implantát.\n\nImplantováním mechalinku z kolonisty udělá mechanitora. Mechanitoři mohou vytvářet, ovládat a manipulovat s mechanoidy.</LetterMechlinkAvailable>
+  <LetterMechlinkAvailable>{0} ti umožnil příležitost k získání unikátní mechalink.\n\nImplantováním mechalinku se z kolonisty stane mechanitor. Mechanitoři mohou vytvářet, ovládat a manipulovat s mechanoidy.</LetterMechlinkAvailable>
 
   <!-- Genes -->
   <!-- EN: Xenogerm implantation ordered -->
@@ -192,12 +192,12 @@
   <DeathrestLethalDamage>Obdržena smrtelná dávka poškození.</DeathrestLethalDamage>
 
   <!-- EN: Xenogerm implantation -->
-  <LetterLabelSanguophageWaitingToReimplant>Implantace xenovštipovače</LetterLabelSanguophageWaitingToReimplant>
+  <LetterLabelSanguophageWaitingToReimplant>Všípení genovštipovače</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
   <LetterTextSanguophageWaitingToReimplant>TODO</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
-  <LetterLabelGenesImplanted>Geny přeimplantovány</LetterLabelGenesImplanted>
+  <LetterLabelGenesImplanted>Geny přepsány</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
   <LetterTextGenesImplanted>TODO</LetterTextGenesImplanted>
   
