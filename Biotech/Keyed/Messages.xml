@@ -9,28 +9,28 @@
   <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} se {PAWN_gender ? dostal : dostala} do závěrečné fáze porodu.</MessageColonistInFinalStagesOfLabor>
 
   <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>Zatím co se {PAWN_nameDef} nabíjel, připojená dobíječka byla zničena! To způsobylo přehlcení některých obvodu a teď je zuřivý.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageMechChargerDestroyedMechGoesBerserk>Zatím co se {PAWN_nameDef} {replace: {lookup: {PAWN_kind}; case\gender; 1}; "ženský"-"nabíjela"; "mužský"-"nabíjel"; "střední"-"nabíjelo", "{PAWN_kind}"-"nabíjel"}, připojená dobíječka byla zničena! To způsobilo přehlcení některých obvodů a teď je {replace: {lookup: {PAWN_kind}; case\gender; 1}; "ženský"-"zuřivá"; "mužský"-"zuřivý; "střední"-"zuřivé","{PAWN_kind}"-"zuřivý"}.</MessageMechChargerDestroyedMechGoesBerserk>
 
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>{ABILITY_label} nemůže být použito na osobu, která se bude aktivně vzpírat.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>TODO</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>{0_labelShort} nemá žádné dostupné xenogeny k implantování.</MessagePawnHasNoXenogenes>
+  <MessagePawnHasNoXenogenes>{0_labelShort} nemá žádné dostupné xenogeny ke vštípení.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Xenovštipovače mohou být implantovány pouze kolonistům, vězňům a otrokům.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Genovštipovače mohou být vštípeny pouze kolonistům, vězňům a otrokům.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
-  <MessageCannotImplantInTempFactionMembers>Nemožné implantovat dočasnému členu frakce.</MessageCannotImplantInTempFactionMembers>
+  <MessageCannotImplantInTempFactionMembers>Nelze vštípit dočasnému členu frakce.</MessageCannotImplantInTempFactionMembers>
   <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>Xenovštipovač byl dokončen.</MessageXenogermCompleted>
+  <MessageXenogermCompleted>Genovštipovač byl dokončen.</MessageXenogermCompleted>
   <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>Práce na xenovštipovači v {replace: ^{0_labelShort}^; "^genový sestavovač^"-"genovém sestavovači"; "^{1}^"-"{1}"} byla zrušena. (chybící potřebný genobalík)</MessageXenogermCancelledMissingPack>
+  <MessageXenogermCancelledMissingPack>Práce na genovštipovači v {lookup: {0_labelShort}; case\singular; 6} byla zrušena. Chybí potřebný genobalík.</MessageXenogermCancelledMissingPack>
   <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
   <MessageAbsorbingXenogermWillAngerFaction>TODO</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} může být použito pouze na kolonisty, vězně a otroky.</MessageCannotUseOnOtherFactions>
   <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} se odmítá stát nenáviděným xenotypem</MessageCannotBecomeNonPreferredXenotype>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort} se odmítá stát nenáviděným xenotypem.</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>TODO</MessageCaravanAddingEscortingMech> 
@@ -38,10 +38,10 @@
   <MessageCaravanRemovingEscortingMech>TODO</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>{0} byl{0_pronoun} mechanitor. Mužeš jí odebrat {0_possessive} {1_label} a použít ho na jiného kolonistu.</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0} byl{0_pronoun} mechanitor. Mužeš {0_gender ? mu : jí} odebrat {0_possessive} {lookup: {1_label}; case\singular; 4} a použít {1_objective} na jiného kolonistu.</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>Interakční módy některých vězňů potřebují krvesaje. Protože odešel i poslední krvesaj, jejich mód byl nastaven na "žádnou interakci".</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>Interakční módy některých vězňů vyžadovali krvesaje. Protože jsi přišel o posledního krvesaje, jejich módy byli nastaveny na "žádnou interakci".</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>TODO</MessagePregnancyTerminated>
@@ -50,9 +50,9 @@
   <!-- EN: {0} has been angered ({1}) -->
   <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
-  <MessageWarningPollutedCell>Potřebuje neznečištěný terén.</MessageWarningPollutedCell>
+  <MessageWarningPollutedCell>Potřebuje nezamořenou půdu.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
-  <MessageWarningNotPollutedCell>Potřebuje znečištěný terén.</MessageWarningNotPollutedCell>
+  <MessageWarningNotPollutedCell>Potřebuje zamořenou půdu.</MessageWarningNotPollutedCell>
   <!-- EN: {0} has died because of pollution. -->
   <MessagePlantDiedOfPollution>TODO</MessagePlantDiedOfPollution>
   <!-- EN: {0} has died because of a lack of pollution. -->
@@ -110,7 +110,7 @@
   <MessageBedExposedToSunlight>Postel kterou má {PAWN_nameDef} přiřazenou pro mrtvospánek byla vystavena slunci. {PAWN_nameDef} v ní proto nemůže mrtvospát.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} byl{PAWN_pronoun} vyhozen{PAWN_pronoun} z genového extraktoru, kvůly nedostatku proudu.</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort} byl{PAWN_pronoun} vyhozen{PAWN_pronoun} z genového extraktoru, kvůli nedostatku proudu.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
@@ -131,7 +131,7 @@
   <MessageChildcareNotAssigned>{FEEDER_labelShort} nemá přiřazenou činnost chůvy.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>Už máš maximální počet vytvořených xenotypů. Musíš některý z nich smazat aby si si mohl/a vytvořit další.</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>Už máš maximální počet vytvořených xenotypů. Musíš některý z nich smazat aby jsi si mohl/a vytvořit další.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
   <MessageConflictingGenesPresent>Není možné uložit xenotyp s několika konfliktními geny.</MessageConflictingGenesPresent>
 
@@ -155,7 +155,7 @@
   <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
 
   <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
-  <MessagePregnancyFailed>{MOTHER_nameDef} a {FATHER_nameDef} se neůspěšně pokusili o těhotenstvý.</MessagePregnancyFailed>
+  <MessagePregnancyFailed>{MOTHER_nameDef} a {FATHER_nameDef} se neůspěšně pokusili o těhotenství.</MessagePregnancyFailed>
   <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
   <MessageFerilizeFailed>{PAWN_nameDef} neuspěl při oplodňování vajíčka.</MessageFerilizeFailed>
   <!-- EN: Combined genes exceeded metabolism limits. -->
