@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort} je ve stavu '{MENTALSTATE_label}'.</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>Opravdu chceš rozebrat {lookup: {0}; case\singular; 4}?\n\nRozebráním {lookup: {0}; case\singular; 2} se získá</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>Mechanitor musí být schopný kovářství, aby mohl vytvářet mechanoidy\n\nChceš i přesto pokračovat?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>TODO</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>TODO</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>Nedostatečná šířka pásma</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
@@ -359,5 +361,8 @@
   <!-- Abandon home (including mechs) -->
   <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawnsIncMechs>Někteří z tvých kolonistů, zvířat či mechanoidů se zde stále nachází. Chceš to tu i přesto opustit?\n\nNásledující lidé, zvířata a mechové budou opuštěni:\n\n{0}</ConfirmAbandonHomeWithColonyPawnsIncMechs>
+
+  <!-- UNUSED -->
+  <ConfirmInstallMechlink>Mechanitor musí být schopný kovářství, aby mohl vytvářet mechanoidy\n\nChceš i přesto pokračovat?</ConfirmInstallMechlink>
 
 </LanguageData>

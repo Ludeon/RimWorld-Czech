@@ -1,72 +1,114 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: tox shell -->
   <Bullet_Shell_Tox.label>jedoplynový dělostřelecký granát</Bullet_Shell_Tox.label>
-  
+
   <!-- EN: deathrest capacity serum -->
   <DeathrestCapacitySerum.label>mrtvospánkové kapacitní sérum</DeathrestCapacitySerum.label>
   <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
   <DeathrestCapacitySerum.description>Sérum které permanentně zvedne počet mrtvospánkových přístrojů ke kterým se mohou připojit během mrtvospánku.\n\nToto sérum si mohou vzít pouze osoby které mají mrtvospánkový gen.</DeathrestCapacitySerum.description>
   <!-- EN: Ingest {0_label} -->
   <DeathrestCapacitySerum.comps.CompUsable.useLabel>Vzít si {lookup: {0_label}; case\singular; 4}</DeathrestCapacitySerum.comps.CompUsable.useLabel>
-  
+
   <!-- EN: nano structuring chip -->
   <NanostructuringChip.label>nanostrukturalizační čip</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <NanostructuringChip.description>Mechanoidní mikroorgán určený k molekulární restrukturalizaci. Je nezbytný k výrobě některých pokročilých mechanoidů a dalšího vybavení.\n\nMechanitor může tento čip podrobit zkoumání a zpřístupnit tak vyšší stupně mechotechnologického výzkumu.</NanostructuringChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <!-- EN: Analyze the nano structuring chip. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the nano structuring chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Nano structuring chip studied: {RESEARCH} unlocked -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.guiLabelString>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze nano structuring chip -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>TODO</NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>
+
+  <!-- UNUSED -->
   <NanostructuringChip.comps.CompStudiable.completedLetterText>Podrobným zkoumáním {lookup: {PARENT_label}; case\singular; 2} {STUDIER_gender ? získal : získala} {STUDIER_labelShort} poznatky potřebné pro výzkumný projekt {RESEARCH}.\n\nOd této chvíle mohou tví výzkumníci na výzkumných stanovištích začít zkoumat, jak tuto technologii využít v praxi.</NanostructuringChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <NanostructuringChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} {PARENT_gender ? dozkoumán : dozkoumána : dozkoumáno}: {RESEARCH} odemčeny</NanostructuringChip.comps.CompStudiable.completedLetterTitle>
-  
+
   <!-- EN: powerfocus chip -->
   <PowerfocusChip.label>energofokusační čip</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <PowerfocusChip.description>Mechanoidní mikroorgán určený k soustřeďování energie. Je nezbytný k výrobě některých pokročilých mechanoidů a dalšího vybavení.\n\nMechanitor může tento čip podrobit zkoumání a zpřístupnit tak vyšší stupně mechotechnologického výzkumu.</PowerfocusChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <!-- EN: Analyze the powerfocus chip. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the powerfocus chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Powerfocus chip studied: {RESEARCH} unlocked -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.guiLabelString>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze powerfocus chip -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>TODO</PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>
+
+  <!-- UNUSED -->
   <PowerfocusChip.comps.CompStudiable.completedLetterText>Podrobným zkoumáním {lookup: {PARENT_label}; case\singular; 2} {STUDIER_gender ? získal : získala} {STUDIER_labelShort} poznatky potřebné pro výzkumný projekt {RESEARCH}.\n\nOd této chvíle mohou tví výzkumníci na výzkumných stanovištích začít zkoumat, jak tuto technologii využít v praxi.</PowerfocusChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <PowerfocusChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} {PARENT_gender ? dozkoumán : dozkoumána : dozkoumáno}: {RESEARCH} odemčeny</PowerfocusChip.comps.CompStudiable.completedLetterTitle>
-  
+
   <!-- EN: tox shell -->
   <Shell_Toxic.label>jedoplynový dělostřelecký granát</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
   <Shell_Toxic.description>Dělostřelecký granát obsahující chemikálie které při smíchání vytvoří jedovatý plyn. Po dopadu na zem bude chvíli vypoštět jedovatý plyn.\n\nPálí v plicích a očích a způsobuje krátkodobé lapání po dechu a částečné oslepení. Dlouhodobé vystavení jedovatému plynu začne způsobovat toxické nahromadění a následně i smrt.</Shell_Toxic.description>
-  
+
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing.label>jedoplynový dělostřelecký granát</Shell_Toxic_Releasing.label>
-  
+
   <!-- EN: tox shell -->
   <Shell_Toxic_Releasing_Water.label>jedoplynový dělostřelecký granát</Shell_Toxic_Releasing_Water.label>
-  
+
   <!-- EN: signal chip -->
   <SignalChip.label>signálový čip</SignalChip.label>
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
   <SignalChip.description>Mikroorgán určený k synchonizaci mechanoidního pásma. Je nezbytný k výrobě některých pokročilých mechanoidů a dalšího vybavení.\n\nMechanitor může tento čip podrobit zkoumání a zpřístupnit tak vyšší stupně mechotechnologického výzkumu.</SignalChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <!-- EN: Analyze the signal chip. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the signal chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Signal chip studied: {RESEARCH} unlocked -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.guiLabelString>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze signal chip -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.jobString>TODO</SignalChip.comps.CompAnalyzableUnlockResearch.jobString>
+
+  <!-- UNUSED -->
   <SignalChip.comps.CompStudiable.completedLetterText>Podrobným zkoumáním {lookup: {PARENT_label}; case\singular; 2} {STUDIER_gender ? získal : získala} {STUDIER_labelShort} poznatky potřebné pro výzkumný projekt {RESEARCH}.\n\nOd této chvíle mohou tví výzkumníci na výzkumných stanovištích začít zkoumat, jak tuto technologii využít v praxi.</SignalChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
   <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} {PARENT_gender ? dozkoumán : dozkoumána : dozkoumáno}: {RESEARCH} odemčeny</SignalChip.comps.CompStudiable.completedLetterTitle>
-  
+
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>základní subjádro</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
   <SubcoreBasic.description>Jedná se o nejjednodušší možný mechanoidní mozek, drobná psychodynamická podkladová jednotka, v níž se nachází otupělá subosobnost. Jelikož se jedná pouze o subjádro základní třídy, může pohánět jen ty nejjednodušší mechanoidy.\n\nStejně jako všechna mechanoidní subjádra i toto obsahuje subosobnost s duševní přítomností, byť velmi slabou.</SubcoreBasic.description>
-  
+
   <!-- EN: high subcore -->
   <SubcoreHigh.label>špičkové subjádro</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
   <SubcoreHigh.description>Jde o mechanoidní mozek špičkové třídy, psychodynamickou podkladovou jednotku, která udržuje sofistikovanou subosobnost. Toto konkrétní subjádro odpovídá nejvýkonnější třídě a dokáže pohánět komplexní ultratěžké mechanoidy.\n\nSubosobnost uvnitř tohoto jádra se svou složitostí blíží živému člověku, i když je zcela jiné povahy. Jako každá taková mysl má i tato zřetelnou duševní přítomnost. Jediný způsob, jak toho dosáhnout bez obrovského strojového vybavení je vyříznout mozek živému člověku a přitom ho zabít.</SubcoreHigh.description>
-  
+
   <!-- EN: standard subcore -->
   <SubcoreRegular.label>standardní subjádro</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
   <SubcoreRegular.description>Jde o mechanoidní mozek standardní třídy, psychodynamickou podkladovou jednotku udržující přemýšlivou subosobnost. Toto konkrétní subjádro je dostatečně silné na to, aby pohánělo mechanoidy standardní úrovně.\n\nMechanoidi jsou více než roboti a tohle je více než křemíkový počítač. Díky jeho myslící, duševně přítomné subosobnosti je přizpůsobivější než křemíkové systémy. To však také znamená, že může být vytvořeno pouze analogovým převodem vzoru z jiné přemýšlivé mysli.</SubcoreRegular.description>
-  
+
   <!-- EN: toxic wastepack -->
   <Wastepack.label>toxivak</Wastepack.label>
   <!-- EN: A compacted package of toxic waste that will slowly dissolve if not frozen. The surface is heat-sealed for safe transport. Wastepacks will pollute the surrounding terrain if they dissolve, deteriorate, or are otherwise destroyed.\n\nToxic wastepacks are flammable. If burned or damaged, they will release tox gas. -->
   <Wastepack.description>Kompaktní balení toxického odpadu, které se pozvolna rozpouští, pokud není zmraženo. Pro zajištění bezpečné přepravy je jeho povrch tepelně zapečetěn. Toxivaky kontaminují okolní prostředí, pokud se rozpustí, rozpadnou nebo jinak zničí.\n\nToxivaky jsou hořlavé. Při jejich spálení nebo poškození se z nich uvolní toxický plyn.</Wastepack.description>
-  
+
 </LanguageData>

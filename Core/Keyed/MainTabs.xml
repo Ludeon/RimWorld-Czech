@@ -42,10 +42,8 @@
   <WorkDisabledByTrait>Vypnuté kvůli rysu: {0}</WorkDisabledByTrait>
   <!-- EN: Disabled by quest '{0}' -->
   <WorkDisabledByQuest>Vypnuté kvůli úkolu: {0}</WorkDisabledByQuest>
-  
+
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>Spravovat výstroje...</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>Nelze změnit</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,13 +54,17 @@
   <ApparelLockedLower>zamčené</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Vynucená výstroj</ForcedApparel>
-  <!-- EN: Edit... -->
+  <!-- EN: Edit -->
   <AssignTabEdit>Upravit...</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>TODO</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Spravovat drogovou politiku...</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Spravovat potravinové omezení...</ManageFoodRestrictions>
-  
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>TODO</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>TODO</ManageReadingPolicies>
+
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
   <Copy>Kopírovat</Copy>
@@ -70,7 +72,7 @@
   <Paste>Vložit</Paste>
   <!-- EN: Allowed area -->
   <AllowedArea>Povolená oblast</AllowedArea>
-  
+
   <!-- Animals tab -->
   <!-- EN: Master -->
   <Master>Páníček</Master>
@@ -82,13 +84,13 @@
   <SterilizeAnimal>Sterilizuje zvíře.</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
   <AnimalAlreadySterile>Zvíře je sterilní.</AnimalAlreadySterile>
-  
+
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Tento tvor je predátor. Při hladu bude lovit menší tvory - možná i lidi.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Tento tvor je aktuálně v psychickém stavu: {0}</IsInMentalState>
-  
+
   <!-- Factions tab -->
   <!-- EN: Hostile -->
   <Hostile>Nepřátelé</Hostile>
@@ -124,7 +126,7 @@
   <Rival>Rivalita</Rival>
   <!-- EN: Acquaintance -->
   <Acquaintance>Známost</Acquaintance>
-  
+
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->
   <Graph>Graf</Graph>
@@ -132,7 +134,7 @@
   <Messages>Zprávy</Messages>
   <!-- EN: Statistics -->
   <Statistics>Statistiky</Statistics>
-  
+
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
   <SelectGraph>Vybrat graf</SelectGraph>
@@ -198,14 +200,22 @@
   <InProgress>Probíhá</InProgress>
   <!-- EN: Locked -->
   <Locked>Uzamčené</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Předpoklady pro výzkum</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>TODO</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Potřebných technotisků: {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>- nedostatečný počet aplikovaných technotisků ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>- nejsou splněny všechny předpoklady</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>TODO</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>TODO</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>TODO</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>TODO</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>- chybí požadovaná výzkumná vybavení</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>Technologická úroveň tvé frakce je {0}, zatímco úroveň tohoto projektu je {1}. Rychlost výzkumu bude násobena {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Odemkne po výzkumu</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>TODO</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>TODO</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,27 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Vytváří potřebu</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>TODO</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>Kliknutím upravíš</ClickToEdit>
+  <!-- EN: Assign -->
+  <AssignButton>TODO</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>TODO</UnassignButton>
+
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>TODO</BookMentalBreakChance>
+
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>TODO</BookJoyFactor>
+
+  <!-- UNUSED -->
+  <ManageOutfits>Spravovat výstroje...</ManageOutfits>
+  <ManageFoodRestrictions>Spravovat potravinové omezení...</ManageFoodRestrictions>
+  <ResearchPrerequisites>Předpoklady pro výzkum</ResearchPrerequisites>
 
 </LanguageData>

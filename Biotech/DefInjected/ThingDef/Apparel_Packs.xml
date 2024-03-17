@@ -1,25 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: bandwidth pack -->
   <Apparel_PackBandwidth.label>batoh s rozšiřovačem pásma</Apparel_PackBandwidth.label>
   <!-- EN: A backpack containing bandwidth-expansion computer and antenna. It can increase a mechanitor's maximum total bandwidth. -->
   <Apparel_PackBandwidth.description>Batoh obsahující asistenční pásmorozšiřující počítač s anténou, který nositeli zvětší šířku pásma.</Apparel_PackBandwidth.description>
-  
+
   <!-- EN: control pack -->
   <Apparel_PackControl.label>řídící batoh</Apparel_PackControl.label>
   <!-- EN: A backpack containing mech control assist computers. It allows a mechanitor to control one additional control group. -->
   <Apparel_PackControl.description>Batoh obsahující podpůrný počítač pro řízení mechů, který svému nositeli umožňuje ovládat jednu další skupinu.</Apparel_PackControl.description>
-  
+
   <!-- EN: tox pack -->
   <Apparel_PackTox.label>batoh jedovatého plynu</Apparel_PackTox.label>
   <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nOnce used, it must be reloaded with chemfuel before it can be used again.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
   <Apparel_PackTox.description>Znovupoužitelný batoh obsahující kanistry s činidly a mechanizmem pro vytvoření jedovatého plynu. Při aktivaci začne kolem sebe na několik sekund vypouštět jedovatý plyn.\n\nPo použití musí být nejdříve doplněn chemickým palivem, než ho bude možné znovu použít.\n\nPlyn pálí v plicích a očích a způsobuje krátkodobé lapání po dechu a částečné oslepení. Dlouhodobé vystavení jedovatému plynu začne způsobovat toxické nahromadění, které může končit smrtí.</Apparel_PackTox.description>
   <!-- EN: tox pack -->
-  <Apparel_PackTox.comps.CompReloadable.chargeNoun>batoh jedovatého plynu</Apparel_PackTox.comps.CompReloadable.chargeNoun>
+  <Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>TODO</Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_PackTox.comps.CompReloadable.cooldownGerund>nabíjí se</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
+  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>TODO</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: deploy tox pack -->
   <Apparel_PackTox.verbs.deploy_tox_pack.label>vypustit plyn</Apparel_PackTox.verbs.deploy_tox_pack.label>
-  
+
+  <!-- UNUSED -->
+  <Apparel_PackTox.comps.CompReloadable.chargeNoun>batoh jedovatého plynu</Apparel_PackTox.comps.CompReloadable.chargeNoun>
+  <Apparel_PackTox.comps.CompReloadable.cooldownGerund>nabíjí se</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
+
 </LanguageData>

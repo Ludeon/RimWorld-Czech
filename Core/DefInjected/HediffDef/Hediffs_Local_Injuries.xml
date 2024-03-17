@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
+  <!-- EN: acid burn -->
+  <AcidBurn.label>kyselinová popálenina</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Popálenina způsobená silnou kyselinou.</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po kyselinové popálenině</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>Rozpuštěno</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>kyselinová popálenina</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>TODO</AcidBurn.labelNounPretty>
+
   <!-- EN: bite -->
   <Bite.label>pokousání</Bite.label>
   <!-- EN: A bite wound. -->
@@ -21,7 +34,7 @@
   <Bite.labelNoun>kousanec</Bite.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Bite.labelNounPretty>{0} na {1}</Bite.labelNounPretty>
-  
+
   <!-- EN: bruise -->
   <Bruise.label>pohmožděnina</Bruise.label>
   <!-- EN: A bruise. -->
@@ -38,7 +51,7 @@
   <Bruise.labelNoun>pohmožděnina</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Bruise.labelNounPretty>{0} na {1}</Bruise.labelNounPretty>
-  
+
   <!-- EN: burn -->
   <Burn.label>popálenina</Burn.label>
   <!-- EN: A burn. -->
@@ -59,7 +72,7 @@
   <Burn.labelNoun>popálenina</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{0} na {1}</Burn.labelNounPretty>
-  
+
   <!-- EN: chemical burn -->
   <ChemicalBurn.label>chemické poleptání</ChemicalBurn.label>
   <!-- EN: A chemical burn. -->
@@ -80,7 +93,7 @@
   <ChemicalBurn.labelNoun>chemické poleptání</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
   <ChemicalBurn.labelNounPretty>{0} na {1}</ChemicalBurn.labelNounPretty>
-  
+
   <!-- EN: crack -->
   <Crack.label>zlomenina</Crack.label>
   <!-- EN: A crack. -->
@@ -99,7 +112,7 @@
   <Crack.labelNoun>zlomenina</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Crack.labelNounPretty>{0} na {1}</Crack.labelNounPretty>
-  
+
   <!-- EN: crush -->
   <Crush.label>rozdrcení</Crush.label>
   <!-- EN: A crushing wound. -->
@@ -118,7 +131,7 @@
   <Crush.labelNoun>rozdrcení</Crush.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Crush.labelNounPretty>{0} na {1}</Crush.labelNounPretty>
-  
+
   <!-- EN: cut -->
   <Cut.label>pořezání</Cut.label>
   <!-- EN: A cut. -->
@@ -139,7 +152,31 @@
   <Cut.labelNoun>pořezání</Cut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{0} na {1}</Cut.labelNounPretty>
-  
+
+  <!-- EN: decayed organ -->
+  <Decayed.label>TODO</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>TODO</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>TODO</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>TODO</Decayed.labelNounPretty>
+
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>TODO</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>TODO</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>TODO</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>TODO</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>TODO</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>TODO</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>TODO</ElectricalBurn.labelNounPretty>
+
   <!-- EN: cut -->
   <ExecutionCut.label>podřezání</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
@@ -152,7 +189,7 @@
   <ExecutionCut.labelNoun>podřezání</ExecutionCut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <ExecutionCut.labelNounPretty>{0} na {1}</ExecutionCut.labelNounPretty>
-  
+
   <!-- EN: frostbite -->
   <Frostbite.label>omrzlina</Frostbite.label>
   <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
@@ -169,7 +206,7 @@
   <Frostbite.injuryProps.destroyedLabel>zničené mrazem</Frostbite.injuryProps.destroyedLabel>
   <!-- EN: {0} in the {1} -->
   <Frostbite.labelNounPretty>{0} na {1}</Frostbite.labelNounPretty>
-  
+
   <!-- EN: gunshot -->
   <Gunshot.label>střelná rána</Gunshot.label>
   <!-- EN: A gunshot wound. -->
@@ -192,10 +229,10 @@
   <Gunshot.labelNoun>střelné zranění</Gunshot.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>{0} na {1}</Gunshot.labelNounPretty>
-  
-  <!-- EN: misc -->
+
+  <!-- EN: wound -->
   <Misc.label>různorodá zranění</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
+  <!-- EN: Miscellaneous injuries. -->
   <Misc.description>Různorodá zranění.</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>vyztužené</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
@@ -211,7 +248,7 @@
   <Misc.labelNoun>zranění</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Misc.labelNounPretty>{0} na {1}</Misc.labelNounPretty>
-  
+
   <!-- EN: missing body part -->
   <MissingBodyPart.label>chybějící část těla</MissingBodyPart.label>
   <!-- EN: A body part is entirely missing. -->
@@ -220,7 +257,7 @@
   <MissingBodyPart.labelNoun>chybějící část těla</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
   <MissingBodyPart.labelNounPretty>chybějící {1}</MissingBodyPart.labelNounPretty>
-  
+
   <!-- EN: scratch -->
   <Scratch.label>škrábanec</Scratch.label>
   <!-- EN: A scratch or tear. -->
@@ -241,7 +278,7 @@
   <Scratch.labelNoun>škrábanec</Scratch.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Scratch.labelNounPretty>{0} na {1}</Scratch.labelNounPretty>
-  
+
   <!-- EN: shredded -->
   <Shredded.label>zranění výbuchem</Shredded.label>
   <!-- EN: A part of the body has been shredded and torn. -->
@@ -262,7 +299,7 @@
   <Shredded.labelNoun>zranění výbuchem</Shredded.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Shredded.labelNounPretty>{0} na {1}</Shredded.labelNounPretty>
-  
+
   <!-- EN: stab -->
   <Stab.label>bodnutí</Stab.label>
   <!-- EN: A stab wound. -->
@@ -283,7 +320,7 @@
   <Stab.labelNoun>bodné zranění</Stab.labelNoun>
   <!-- EN: {0} in the {1} -->
   <Stab.labelNounPretty>{0} na {1}</Stab.labelNounPretty>
-  
+
   <!-- EN: surgical cut -->
   <SurgicalCut.label>chirurgický řez</SurgicalCut.label>
   <!-- EN: A cut made during surgery. -->
@@ -300,5 +337,5 @@
   <SurgicalCut.labelNoun>chirurgický řez</SurgicalCut.labelNoun>
   <!-- EN: {0} in the {1} -->
   <SurgicalCut.labelNounPretty>{0} na {1}</SurgicalCut.labelNounPretty>
-  
+
 </LanguageData>

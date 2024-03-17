@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Cancel -->
   <DesignatorCancel>Zrušit</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
@@ -53,10 +53,23 @@
   <!-- EN: Designate areas of rock to be mined out. -->
   <DesignatorMineDesc>Označí oblasti se skalami, které mají být vytěženy.</DesignatorMineDesc>
 
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>TODO</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>TODO</DesignatorMineVeinDesc>
+
   <!-- EN: Smooth surface -->
   <DesignatorSmoothSurface>Vyhladit povrch</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>Označí hrubé kamenné povrchy a zdi, které mají být vyhlazeny.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>TODO</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>TODO</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>TODO</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>TODO</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>Naplánovat</DesignatorPlan>
@@ -142,7 +155,7 @@
 
   <!-- EN: Expand zone -->
   <DesignatorZoneExpand>Rozšířit oblast</DesignatorZoneExpand>
-  
+
   <!-- EN: Claim -->
   <DesignatorClaim>Zabrat</DesignatorClaim>
   <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
@@ -167,7 +180,7 @@
   <DesignatorOpen>Otevřít</DesignatorOpen>
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Označí nádoby nebo hroby, které mají být otevřeny.</DesignatorOpenDesc>
-  
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Porazit</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -280,13 +293,13 @@
   <MonumentAdjacentToBuilding>Zde nelze umístit: {0} stojí v těsné blízkosti.</MonumentAdjacentToBuilding>
   <!-- EN: Cannot be planted here -->
   <CannotBePlantedHere>Zde nelze zasadit</CannotBePlantedHere>
-  
+
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
   <ExpandOrCreateZone>Rozšířit {0} nebo\nvytvořit {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Vytvoří {0}</CreateNewZone>
-  
+
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
   <TransmitsPower>Vede elektřinu</TransmitsPower>
@@ -300,5 +313,10 @@
   <NoColonistWithAllSkillsForConstructing>Žádný z tvých {lookup: {0}; case\plural; 2} nemá ani jednu z potřebných dovedností.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>Všichni z tvých {lookup: {0}; case\plural; 2}, kteří mají tuto úroveň dovednosti, nemají přidělenou činnost {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>Extrahovat lebku</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>Extrahuje lebku z mrtvoly.</DesignatorExtractSkullDesc>
 
 </LanguageData>

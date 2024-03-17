@@ -1,44 +1,59 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
+  <!-- EN: acid burn -->
+  <AcidBurn.label>kyselinové popáleniny</AcidBurn.label>
+  <!-- EN: {0} has burned to death. -->
+  <AcidBurn.deathMessage>{0} {0_gender ? byl : byla : bylo} {0_gender ? rozežrán : rozežrána : rozežráno} kyselinou</AcidBurn.deathMessage>
+
   <!-- EN: bomb -->
   <Bomb.label>exploze</Bomb.label>
   <!-- EN: {0} has died in an explosion. -->
   <Bomb.deathMessage>{0} zemřel[PAWN_pronoun] při explozi.</Bomb.deathMessage>
-  
+
   <!-- EN: bomb -->
   <BombSuper.label>exploze</BombSuper.label>
   <!-- EN: {0} has died in an explosion. -->
   <BombSuper.deathMessage>{0} zemřel[PAWN_pronoun] při explozi.</BombSuper.deathMessage>
-  
+
+  <!-- EN: decayed organ -->
+  <Decayed.label>TODO</Decayed.label>
+  <!-- EN: {0} died from metabolic disruptions caused by organ decay. -->
+  <Decayed.deathMessage>TODO</Decayed.deathMessage>
+
   <!-- EN: deterioration -->
   <Deterioration.label>rozklad</Deterioration.label>
   <!-- EN: {0} has been killed. -->
   <Deterioration.deathMessage>{0} byl[PAWN_pronoun] zabit[PAWN_pronoun].</Deterioration.deathMessage>
-  
+
   <!-- EN: extinguish -->
   <Extinguish.label>uhašení</Extinguish.label>
   <!-- EN: {0} has been killed. -->
   <Extinguish.deathMessage>{0} byl[PAWN_pronoun] zabit[PAWN_pronoun].</Extinguish.deathMessage>
-  
+
   <!-- EN: mining -->
   <Mining.label>vytěžení</Mining.label>
   <!-- EN: {0} has been killed. -->
   <Mining.deathMessage>{0} byl[PAWN_pronoun] zabit[PAWN_pronoun].</Mining.deathMessage>
-  
+
   <!-- EN: rotting -->
   <Rotting.label>hniloba</Rotting.label>
   <!-- EN: {0} has been killed. -->
   <Rotting.deathMessage>{0} byl[PAWN_pronoun] zabit[PAWN_pronoun].</Rotting.deathMessage>
-  
+
   <!-- EN: smoke -->
   <Smoke.label>kouř</Smoke.label>
   <!-- EN: {0} has been killed. -->
   <Smoke.deathMessage>{0} byl[PAWN_pronoun] zabit[PAWN_pronoun].</Smoke.deathMessage>
-  
+
   <!-- EN: thump -->
   <Thump.label>rázová vlna</Thump.label>
   <!-- EN: {0} has been shot to death. -->
   <Thump.deathMessage>{0} byl[PAWN_pronoun] zastřelen[PAWN_pronoun].</Thump.deathMessage>
-  
+
+  <!-- EN: vaporize -->
+  <Vaporize.label>vypařit</Vaporize.label>
+  <!-- EN: {0} has been vaporized by extreme heat. -->
+  <Vaporize.deathMessage>{0} {0_gender ? byl : byla : bylo} {0_gender ? vypařen : vypařena : vypařeno} extrémním teplem.</Vaporize.deathMessage>
+
 </LanguageData>
