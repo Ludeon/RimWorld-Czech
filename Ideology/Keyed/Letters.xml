@@ -62,7 +62,7 @@
   <!-- EN: {0} skipped. -->
   <LetterObligationRoleInactive>{0} {0_gender ? přeskočen : přeskočena : přeskočeno : přeskočeny}.</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>{0} je den {1}, ale jelikož je role {ROLE_labelDef} neaktvní rituál se nebude konat.</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>{0} je den {1}, ale jelikož je role {ROLE_labelDef} neaktivní, rituál se nebude konat.</LetterObligationRoleInactiveDateDesc>
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
@@ -73,11 +73,11 @@
   <!-- EN: {0} rituals deactivated -->
   <LetterTitleObligationsDeactivated>{0} rituály deaktivovány</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>Jelikož je teď méně než {1} {IDEO_memberNamePlural} ve tvé frakci, nebudou požadovat aby byly pořádány rituály ideoboženství {IDEO} dokud jich zase nebude {1} ve tvé frakci.</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>Jelikož je teď méně než {1} {IDEO_memberNamePlural} ve tvé frakci, nebudou požadovat, aby byly pořádány rituály ideobožství {IDEO}, dokud jich zase nebude {1} ve tvé frakci.</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>Jelikož je teď {1} {IDEO_memberNamePlural} ve tvé frakci, budou požadovat aby byly pořádány rituály ideoboženství {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>Jelikož je teď {1} {IDEO_memberNamePlural} ve tvé frakci, budou požadovat, aby byly pořádány rituály ideobožství {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>Jelikož {IDEO} je nyní hlavním ideoboženstvím tvé frakce. {IDEO_memberNamePlural} budou požadovat aby byly pořádány rituály ideoboženství {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>Jelikož {IDEO} je nyní hlavním ideobožstvím tvé frakce. {IDEO_memberNamePlural} budou požadovat, aby byly pořádány rituály ideobožství {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>Pouta odstraněna</LetterBondRemoved>
@@ -94,7 +94,7 @@
   <!-- EN: Primary ideoligion changed -->
   <LetterLabelNewPrimaryIdeo>Změna primárního ideobožství</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>Hlavní ideoboženství tvé frakce se změnilo z {OLDIDEO_name} na {NEWIDEO_name}.\n\nStalo se tak, protože ideoboženství {NEWIDEO_name} je teď více populární mezi tvými kolonisty než kterékoliv jiné ideoboženství.\n\nHlavní ideoboženství ovlivňuje vztahy s ostatními frakcemi podle toho jak moc blízké si víry jsou.</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>Hlavní ideobožství tvé frakce se změnilo z {OLDIDEO_name} na {NEWIDEO_name}.\n\nStalo se tak, protože ideobožství {NEWIDEO_name} je teď více populární mezi tvými kolonisty, než kterékoliv jiné ideobožství.\n\nHlavní ideobožství ovlivňuje vztahy s ostatními frakcemi podle toho, jak moc blízké si víry jsou.</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
@@ -118,13 +118,13 @@
   <!-- EN: Divorce -->
   <LetterIdeoChangedDivorce>Rozvod</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>{PAWN_nameDef} má novou víru a ta {PAWN_gender ? mu : jí} zakazuje aktuální počet partnerů. \n\n{PAWN_nameDef} se rozhodl{PAWN_pronoun} rozvést s:\n{1}</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>{PAWN_nameDef} má novou víru a ta {PAWN_gender ? mu : jí} zakazuje aktuální počet partnerů.\n\n{PAWN_nameDef} se rozhodl{PAWN_pronoun} rozvést s:\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
   <LetterLabelSurpriseReinforcements>Nečekané posily</LetterLabelSurpriseReinforcements>
   <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
-  <LetterSurpriseReinforcements>Nečekané posily od frakce {1} dorazily! Chystají se pomoci {0}.</LetterSurpriseReinforcements>
+  <LetterSurpriseReinforcements>Nečekané posily od frakce {1} právě dorazily! Chystají se pomoci {0}.</LetterSurpriseReinforcements>
 
   <!-- Style change -->
   <!-- EN: Look change desired -->
