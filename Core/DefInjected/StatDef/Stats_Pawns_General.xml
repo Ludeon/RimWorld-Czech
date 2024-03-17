@@ -10,9 +10,9 @@
   <BedHungerRateFactor.label>Násobitel hladu v posteli</BedHungerRateFactor.label>
   
   <!-- EN: caravan riding speed -->
-  <CaravanRidingSpeedFactor.label>rychost v karavaně</CaravanRidingSpeedFactor.label>
+  <CaravanRidingSpeedFactor.label>rychlost v karavaně</CaravanRidingSpeedFactor.label>
   <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
-  <CaravanRidingSpeedFactor.description>Násobitel pro rychlost pohybu osoby, pokud osedlá toto zvíře v karavaně. Zvířata mouhou být osedlána pouze v karavaně.</CaravanRidingSpeedFactor.description>
+  <CaravanRidingSpeedFactor.description>Násobitel, který se aplikuje na rychlost pohybu osoby, která si osedlá toto zvíře v rámci karavany. Zvířata mohou být osedlána pouze v karavanách.</CaravanRidingSpeedFactor.description>
   
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>kapacita nošení</CarryingCapacity.label>
@@ -55,9 +55,9 @@
   <ImmunityGainSpeed.description>Rychlost, jakou tato postava získává imunitu vůči nemocem.\n\nPokud je tato hodnota příliš nízká, osoba může zemřít na nemoc před rozvinutím imunity.</ImmunityGainSpeed.description>
   
   <!-- EN: injury healing factor -->
-  <InjuryHealingFactor.label>násobitel hojení ran</InjuryHealingFactor.label>
+  <InjuryHealingFactor.label>faktor hojení ran</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
-  <InjuryHealingFactor.description>Násobitel pro rycholst hojení ran daného tvora.</InjuryHealingFactor.description>
+  <InjuryHealingFactor.description>Násobitel aplikovaný na rychlost hojení ran dotčené osoby.</InjuryHealingFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>množství kůže</LeatherAmount.label>
@@ -67,12 +67,12 @@
   <!-- EN: lifespan factor -->
   <LifespanFactor.label>faktor délky života</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
-  <LifespanFactor.description>Faktor který ovlivňuje efektivní délku život stoření, který zvyšuje nebo snižuje dobu za kterou se vyvinou nemoci související s věkem. Faktor přes 100% opozdí nástup nemoci a prodlouží celkouvou délku života, zatímco faktor pod 100% urychlí nástup nemocí a zkratí průměrnou délku života.</LifespanFactor.description>
+  <LifespanFactor.description>Faktor, který ovlivňuje faktickou délku života tvora tím, že zkracuje nebo prodlužuje dobu, za kterou se vyvinou nemoci související s věkem. Faktor přes 100% opozdí nástup nemoci a prodlouží celkovou délku života, zatímco faktor pod 100% urychlí nástup nemoci a zkratí tak délku dožití.</LifespanFactor.description>
   
   <!-- EN: max nutrition -->
-  <MaxNutrition.label>maximální příjem potravy</MaxNutrition.label>
+  <MaxNutrition.label>maximální příjem výživy</MaxNutrition.label>
   <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
-  <MaxNutrition.description>Maximální množství potravy které je schopné stvoření uchovat ve svém žaludku.</MaxNutrition.description>
+  <MaxNutrition.description>Množství výživy potřebné k úplnému naplnění žaludku tohoto tvora.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>množství masa</MeatAmount.label>
@@ -128,22 +128,22 @@
   <PsychicSensitivity.description>Citlivější lidé trpí více negativními psychickými účinky a více těží z těch pozitivních. Vyšší psychická citlivost také posouvá hranici neurálního tepla směrem nahoru.</PsychicSensitivity.description>
   
   <!-- EN: sleep fall rate -->
-  <RestFallRateFactor.label>rychlost nahromadění únavy</RestFallRateFactor.label>
+  <RestFallRateFactor.label>rychlost hromadění únavy</RestFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
-  <RestFallRateFactor.description>Násobitel rychlosti který určuje rychlost upadání potřeby spánku.</RestFallRateFactor.description>
+  <RestFallRateFactor.description>Násobitel rychlosti, jakou u této osoby narůstá únava.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>rychlost odpočinku</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
-  <RestRateMultiplier.description>Násobitel, jak rychle stvoření nabírá odpočinek při spánku.</RestRateMultiplier.description>
+  <RestRateMultiplier.description>Násobitel toho, jak rychle se tvor během spánku zotavuje.</RestRateMultiplier.description>
   
   <!-- EN: toxic environment resistance -->
-  <ToxicEnvironmentResistance.label>odolnost vůči toxickému okolí</ToxicEnvironmentResistance.label>
+  <ToxicEnvironmentResistance.label>odolnost vůči toxickému prostředí</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
-  <ToxicEnvironmentResistance.description>Jak moc odolné je stvoření proti toxinům v okolí. Toto platí na jedovatý plyn, hnilobný zápach, toxický spad a znečištěný terén, ale nevztahuje se to na přímé útoky s jedy. Čím vyšší je toto číslo tím je tvor odolnější.</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>Jak moc je toto stvoření odolné vůči účinkům toxinů z okolního prostředí. Toto platí proti jedovatému plynu, hnilobnému zápachu, toxickému spadu a zamořené půdě, ale ne proti přímým jedovým útokům nebo napřímo vstříknutému jedu. Čím je tato hodnota vyšší, tím méně toxických látek se v těle nahromadí při vystavení znečištění.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
-  <ToxicResistance.label>odolnost toxicity</ToxicResistance.label>
+  <ToxicResistance.label>odolnost vůči toxinům</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>Jak dobře zvládá toto stvoření toxické nahromadění.</ToxicResistance.description>
   

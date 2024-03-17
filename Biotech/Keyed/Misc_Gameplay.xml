@@ -122,11 +122,11 @@
   <!-- EN: hemogen -->
   <Hemogen>hemogen</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>Hemogen je biologický zdroj energie vyskytující se v lidské krvi. Obyčejníci ho jsou schopni vytvářet a také ho spotřebovávají podle jejich vnitřní rovnováhy. Některé xenotypy lidí ho využívají jako zvláštní druh paliva pro své schopnosti, zatímco jiní ho musí pravidelně konzumovat aby vůbec mohli žít.</HemogenDesc>
+  <HemogenDesc>Hemogen je biologický zdroj energie vyskytující se v lidské krvi. Obyčejníci ho jsou schopni vytvářet a také ho spotřebovávají podle jejich vnitřní rovnováhy. Některé xenotypy lidí ho využívají jako zvláštní druh paliva pro své schopnosti, zatímco jiní ho musí pravidelně konzumovat, aby vůbec mohli žít.</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>mrtvospánková kapacita</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
-  <DeathrestCapacityDesc>Tato kapacita určuje ke kolika přístrojům se daná osoba může připojit když je v mrtvospánku. Každý přístroj přidává své unikátní výhody a je proto lepší mít možnost se připojit k většímu počtu.\n\nMrtvospánkovou kapacitu je možné zvýšit použitím mrtvospánkového séra. Toto sérum je možné koupit od obchodníků.</DeathrestCapacityDesc>
+  <DeathrestCapacityDesc>Tato kapacita určuje, ke kolika přístrojům se daná osoba může připojit, když je v mrtvospánku. Každý přístroj přidává své unikátní výhody a je proto lepší mít možnost se připojit k většímu počtu.\n\nMrtvospánkovou kapacitu je možné zvýšit použitím mrtvospánkového séra. Toto sérum je možné koupit od obchodníků.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
   <PawnIsConnectedToBuildings>TODO</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
@@ -163,13 +163,13 @@
   <WakeDisabledCriticalCondition>{PAWN_nameDef} je v kritickém stavu.</WakeDisabledCriticalCondition>
   <!-- EN: Drain rate -->
   <!-- LF: hemogen se časem v organizmu vytrácí, asi to bude chtít vymyslet něco lepšího -->
-  <DrainRate>Rychost spotřeby</DrainRate>
+  <DrainRate>Rychlost spotřeby</DrainRate>
   <!-- EN: Regeneration rate -->
   <RegenerationRate>Rychlost regenerace</RegenerationRate>
   <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
   <NextDeathrestNeed>TODO</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
-  <PawnShouldDeathrestNow>{PAWN_nameDef} by měl jít mrtvospát, aby se vyhnul vyčerpání.</PawnShouldDeathrestNow>
+  <PawnShouldDeathrestNow>{PAWN_nameDef} by {PAWN_gender ? měl : měla} jít mrtvospát, aby se {PAWN_gender ? vyhnul : vyhnula} vyčerpání.</PawnShouldDeathrestNow>
   <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
   <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
@@ -207,10 +207,10 @@
   <!-- EN: aptitudes -->
   <AptitudePlural>vlohy</AptitudePlural>
   <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
-  <AptitudesDesc>Vlohy upravují úroveň dovedností na vyšší nebo nižší uroveň než je ta aktuální pro určité dovednosti.\n\nNapříklad někdo s vlohou +1 pro určitou dovednost, kterou má na úrovni 5, jí bude provádět na úrovni 6.\n\nCelková hodnota nikdy nepřesáhne 20 a nebude nižší než 1.</AptitudesDesc>
+  <AptitudesDesc>Vlohy upravují úroveň dovedností na vyšší nebo nižší úroveň, než je ta aktuální pro určité dovednosti.\n\nNapříklad někdo s vlohou +1 pro určitou dovednost, kterou má na úrovni 5, jí bude provádět na úrovni 6.\n\nCelková hodnota nikdy nepřesáhne 20 a nebude nižší než 1.</AptitudesDesc>
   <!-- EN: total -->
-  <Total>Celkově</Total>
-
+  <Total>celkově</Total>
+  
   <!-- Human pregnancy -->
   <!-- EN: Father -->
   <FatherTip>Otec</FatherTip>
@@ -323,35 +323,35 @@
   <!-- EN: Stop all work on the current xenogerm. -->
   <CancelXenogermDesc>Pozastaví práci na aktuálním genovštipovači.</CancelXenogermDesc>
   <!-- EN: Allow all genepacks -->
-  <AllowAllGenepacks>Povolit všechny genobalíky</AllowAllGenepacks>
+  <AllowAllGenepacks>Povolit všechny genobalíky</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>Zda mohou koloniské sem automaticky odkládat jakékoli genobalíky. Vypni toto nastavení pokud zde chceš mít uložené pouze specifické genobalíky.</AllowAllGenepacksDesc>
+  <AllowAllGenepacksDesc>Zda sem mohou kolonisté automaticky odkládat jakékoli genobalíky. Vypni toto nastavení, pokud zde chceš mít uložené pouze konkrétní genobalíky.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
-  <ContainedGenepacksDesc>Genobalíky uložené zde.</ContainedGenepacksDesc>
+  <ContainedGenepacksDesc>Genobalíky uložené zde.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
-  <GenepacksToLoadDesc>Genobalík určený k uložení zde.</GenepacksToLoadDesc>
+  <GenepacksToLoadDesc>Genobalík určený k uložení zde.</GenepacksToLoadDesc> 
   <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
-  <GenepacksIgnoredDesc>Neuložené genobalíky které nejsou určené k uložení zde.</GenepacksIgnoredDesc>
+  <GenepacksIgnoredDesc>Neuložené genobalíky, které nejsou určené k uložení zde.</GenepacksIgnoredDesc> 
   <!-- EN: Genepacks to load -->
-  <GenepacksToLoad>Genobalíky na uložení</GenepacksToLoad>
+  <GenepacksToLoad>Genobalíky na uložení</GenepacksToLoad> 
   <!-- EN: Genepacks to ignore -->
-  <GenepacksToIgnore>Ignorované genobalíky</GenepacksToIgnore>
+  <GenepacksToIgnore>Ignorované genobalíky</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>Vyhoď tento genobalík.</EjectGenepackDesc>
+  <EjectGenepackDesc>Vyhoď tento genobalík.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
-  <ConfirmRemoveGenepack>TODO</ConfirmRemoveGenepack>
+  <ConfirmRemoveGenepack>TODO</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>Chybí potřebný výzkum</MissingRequiredResearch>
   <!-- EN: No genepacks available in nearby gene banks. -->
-  <NoGenepacksAvailable>V okolních genových bankách nejsou k dispozici žádné genobalíky.</NoGenepacksAvailable>
+  <NoGenepacksAvailable>V okolních genových bankách nejsou k dispozici žádné genobalíky.</NoGenepacksAvailable> 
   <!-- EN: Allow this genepack to be loaded into this container. -->
-  <AddToLoadingListDesc>Povol tento genobalík aby byl zde uložen.</AddToLoadingListDesc>
+  <AddToLoadingListDesc>Povol tento genobalík, aby byl zde uložen.</AddToLoadingListDesc> 
   <!-- EN: Remove this genepack from the loading list. -->
-  <RemoveFromLoadingListDesc>Odstranit tento genobalík ze seznamu povolených.</RemoveFromLoadingListDesc>
+  <RemoveFromLoadingListDesc>Odstranit tento genobalík ze seznamu povolených.</RemoveFromLoadingListDesc> 
   <!-- EN: Recombine -->
   <Recombine>Kombinovat</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
-  <RecombineDesc>Stvoří nový implantovatelný xenozárodek využitím dat z genobalíků uložených ve tvé genotéce.</RecombineDesc>
+  <RecombineDesc>Vytvoří nový vštipovatelný genovštipovač využitím dat z genobalíků uložených ve tvé genotéce.</RecombineDesc>
   <!-- EN: Genes -->
   <ContainedGenesDesc>Geny</ContainedGenesDesc>
   <!-- EN: Order implantation -->
@@ -379,7 +379,7 @@
   <!-- EN: Factor for genetic metabolism -->
   <FactorForMetabolism>TODO</FactorForMetabolism>
   <!-- EN: Progress -->
-  <Progress>Proces</Progress>
+  <Progress>Pokrok</Progress>
   <!-- EN: In sunlight -->
   <InSunlight>Na slunečním světle</InSunlight>
   <!-- EN: {0_labelShort} is exposed to the sky. -->
@@ -395,7 +395,7 @@
   <!-- EN: Insert xenogerm -->
   <InsertXenogerm>Vložit genovštipovač</InsertXenogerm>
   <!-- EN: Insert a xenogerm to apply during growth. -->
-  <InsertXenogermDesc>Vložit genovštipovač který bude použit během růstu.</InsertXenogermDesc>
+  <InsertXenogermDesc>Vložit genovštipovač, který bude použit během růstu.</InsertXenogermDesc>
   <!-- EN: Waiting for {PAWN_nameDef}. -->
   <WaitingForPawn>Čeká na: {PAWN_nameDef}</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
@@ -421,9 +421,9 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>Genovštipovač</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} bude mrtvospát než se {PAWN_gender ? mu : jí} uzdraví {PAWN_gender ? jeho : její} smrtelná zranění.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} bude mrtvospát, než se {PAWN_gender ? mu : jí} uzdraví {PAWN_possessive} smrtelná zranění.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} zůstane v regeneračním komatu než se {PAWN_gender ? mu : jí} uzdraví {PAWN_gender ? jeho : její} smrtelná zranění.</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} zůstane v regeneračním kómatu, než se {PAWN_gender ? mu : jí} uzdraví {PAWN_possessive} smrtelná zranění.</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
   <DeathrestPaused>Mrtvospánek zastaven</DeathrestPaused>
   <!-- EN: Lethal injuries -->
@@ -471,7 +471,7 @@
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
   <LactatingAddedNutritionPerDay>TODO</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
-  <LactatingStoppedBecauseFull>Tvorba mléka je pozastavena z důvodu naplnění mlékem</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseFull>Tvorba mléka je pozastavena z důvodu 100% naplnění mlékem%.</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
   <LactatingStoppedBecauseHungry>Tvorba mléka je pozastavena kvůli hladovění.</LactatingStoppedBecauseHungry>
 
@@ -482,12 +482,12 @@
   <RemainingGestationCycles>Zbývající plodící cykly</RemainingGestationCycles>
   <!-- EN: Gestation cycles -->
   <GestationCycles>Plodící cykly</GestationCycles>
-  <!-- EN: Gestating {0} -->
+  <!-- EN: Gestating {0} TODO-->
   <GestatingMech>Plodí {lookup: {0}; case\singular; 4}</GestatingMech>
-  <!-- EN: Gestated {0} -->
+  <!-- EN: Gestated {0} TODO-->
   <GestatedMech>{0} plozen</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
-  <GestatedMechRequiresMechanitor>Vyžaduje {PAWN_nameDef} pro dokončení</GestatedMechRequiresMechanitor>
+  <GestatedMechRequiresMechanitor>Pro dokončení je {PAWN_gender ? vyžadován : vyžadována} {PAWN_nameDef}</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
   <GestationComplete>Zplození dokončeno</GestationComplete>
   <!-- EN: Resurrecting {0} -->
@@ -513,8 +513,8 @@
   <!-- EN: Power cell -->
   <MechPowerCell>Energetický článek</MechPowerCell>
   <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
-  <MechPowerCellTip>Válečné ježovky mají jednorázový zdroj energie. Když mu dojde energie tak mechanoid zemře.</MechPowerCellTip>
-
+  <MechPowerCellTip>Válečné ježovky mají jednorázový zdroj energie. Po vyčerpání energie mechanoid zemře.</MechPowerCellTip>
+  
 
   <!-- Bossgroup -->
   <!-- EN: available in {0}. -->
@@ -595,7 +595,7 @@
   <CellsPerDay>TODO</CellsPerDay>
 
   <!-- EN: {0} cannot wear clothing for {1} -->
-  <WrongDevelopmentalStageForClothing>TODO</WrongDevelopmentalStageForClothing>
+  <WrongDevelopmentalStageForClothing>TODO</WrongDevelopmentalStageForClothing> 
 
   <!-- Subcore scanner -->
   <!-- EN: Start scanner -->
@@ -643,7 +643,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>Vštípení genů</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>Jeden z členů této skupiny vštípí svoje xenogeny do jednoho z tvých kolonistů, podle tvého výběru, což jej promění na jednoho z nich. Tvůj kolonista zůstane součástí tvojí frakce pod tvojí kontrolou.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>Jeden z členů této skupiny vštípí svoje xenogeny do kolonisty dle tvého výběru, čímž jej promění na jednoho z nich. Tvůj kolonista zůstane součástí tvé frakce pod tvojí kontrolou.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->
@@ -654,7 +654,7 @@
   <MechStunPulseWarning>TODO</MechStunPulseWarning>
   <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
   <IsLowEnergySelfShutdown>TODO</IsLowEnergySelfShutdown>
-
+  
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
   <ShowPollutionOverlayToggleButton>Zobrazení zamoření\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které muže vést až k smrti. Většina rostlin není schopna žít v zamořené půdě.</ShowPollutionOverlayToggleButton>
@@ -687,7 +687,7 @@
   <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>Pohlcuje znečištění: K dalšímu dojde za {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>Jak moc zamořená je půda na tomto políčku.\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které muže vést až k smrti. Většina plodin není schopna žít v zamořené půdě.</TerrainPollutionTip>
+  <TerrainPollutionTip>Jak moc zamořená je půda na tomto políčku.\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které muže vést až k smrti. Většina rostlin není schopna žít v zamořené půdě.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
@@ -698,7 +698,7 @@
   <TriggerRadius>Rádius podráždění</TriggerRadius>
   <!-- EN: Opening -->
   <DormantCompOpening>Otvírá se</DormantCompOpening>
-
+  
   <!-- Fertility -->
   <!-- EN: ova extracted recently -->
   <SurgeryDisableReasonOvumExtracted>vajíčko nedávno odebráno</SurgeryDisableReasonOvumExtracted>
@@ -713,7 +713,7 @@
   <!-- EN: Cancel fertilization by {0} -->
   <FertilizeCancel>Přerušit oplodnění od {0}</FertilizeCancel>
   <!-- EN: sterile -->
-  <CannotSterile>sterilizovaný</CannotSterile>
+  <CannotSterile>po sterilizaci</CannotSterile>
   <!-- EN: pregnant -->
   <CannotPregnant>těhotná</CannotPregnant>
   <!-- EN: must be {0} -->
@@ -724,7 +724,7 @@
   <DisabledOption>TODO</DisabledOption>
   <!-- EN: No men can fertilize this ovum. -->
   <FertilizeDisabledNoMales>Žádný muž není schopen oplodnit toto vajíčko.</FertilizeDisabledNoMales>
-
+  
   <!-- EN: Implant embryo -->
   <ImplantLabel>Implantovat embryo</ImplantLabel>
   <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
@@ -764,7 +764,7 @@
 
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
-  <RemoteMechShieldTip>Vzdálený štít vytvořený mechanitorem, který se pokusí zastavit příchozí projektily a šrapnel, ale nechrání nijak před utoky zblízka nebo teplem. Zabraňuje nositeli střílet a okamžitě se zničí, pokud ho zasáhne EMP.</RemoteMechShieldTip>
+  <RemoteMechShieldTip>Vzdálený štít vytvořený mechanitorem, který se pokusí zastavit příchozí projektily a šrapnely, ale nechrání nijak před útoky zblízka nebo teplem. Zabraňuje nositeli střílet a při zásahu EMP se okamžitě vypne.</RemoteMechShieldTip>
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
