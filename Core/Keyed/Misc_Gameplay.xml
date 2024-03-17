@@ -888,9 +888,9 @@
   <!-- EN: inside {0_labelShort}. -->
   <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer> 
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>TODO</DownedCannotCrawl> 
+  <DownedCannotCrawl>zraněn, neschopný pohybu</DownedCannotCrawl> 
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>TODO</DownedUnconscious> 
+  <DownedUnconscious>zraněn, v bezvědomí</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1160,7 +1160,7 @@
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Skládka</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
-  <CorpseStockpile>TODO</CorpseStockpile>
+  <CorpseStockpile>Skladiště mrtvol</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>Priorita</Priority>
   <!-- EN: Clear all -->
@@ -1170,11 +1170,11 @@
 
   <!-- Storage Groups -->
   <!-- EN: Group -->
-  <StorageGroup>TODO</StorageGroup>
+  <StorageGroup>Skupina</StorageGroup>
   <!-- EN: Name -->
-  <StorageLabel>TODO</StorageLabel>
+  <StorageLabel>Název</StorageLabel>
   <!-- EN: Storage group -->
-  <StorageGroupLabel>TODO</StorageGroupLabel>
+  <StorageGroupLabel>Skupina uložišť</StorageGroupLabel>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
@@ -1236,7 +1236,7 @@
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
-  <HotKeyTip>TODO</HotKeyTip>
+  <HotKeyTip>Klávesa</HotKeyTip>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1400,7 +1400,7 @@
 
   <!-- Game over -->
   <!-- EN: Game Over -->
-  <GameOver>TODO</GameOver>
+  <GameOver>Konec hry</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Všichni jsou mrtví nebo pryč. Tento příběh skončil.\n\nPro rozvaliny tohoto místa možná najde využití někdo jiný.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
@@ -1416,15 +1416,15 @@
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>Na památku padlých:\n</GameOverInMemoryOf>
   <!-- EN: Keep watching -->
-  <GameOverKeepWatching>TODO</GameOverKeepWatching>
+  <GameOverKeepWatching>Sledovat</GameOverKeepWatching>
   <!-- EN: Keep watching for now -->
-  <GameOverKeepWatchingForNow>TODO</GameOverKeepWatchingForNow>
+  <GameOverKeepWatchingForNow>Prozatím sledovat</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
-  <GameOverCreateNewWanderers>TODO</GameOverCreateNewWanderers>
+  <GameOverCreateNewWanderers>Vytvořit nové poutníky</GameOverCreateNewWanderers>
   <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>TODO</GameOverCreateNewWanderersWait>
+  <GameOverCreateNewWanderersWait>Vytvořit nové poutníky (musíš počkat {0}h)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>TODO</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Všichni jsou mrtví nebo pryč. Pro rozvaliny tohoto místa možná najde využití někdo jiný.\n\nVyber nové poutníky, kteří dorazí do tvé kolonie a budou pokračovat v příběhu.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Hlavní menu</GameOverMainMenu>
   <!-- EN: No colony -->
@@ -1935,13 +1935,13 @@
   <!-- Books -->
 
   <!-- EN: Benefits -->
-  <Benefits>TODO</Benefits>
+  <Benefits>Výhody</Benefits>
   <!-- EN: Dangers -->
-  <Dangers>TODO</Dangers>
+  <Dangers>Rizika</Dangers>
   <!-- EN: already unlocked -->
-  <AlreadyUnlocked>TODO</AlreadyUnlocked>
+  <AlreadyUnlocked>již vyzkoumáno</AlreadyUnlocked>
   <!-- EN: when discovered -->
-  <WhenDiscovered>TODO</WhenDiscovered>
+  <WhenDiscovered>po vyzkoumání</WhenDiscovered>
 
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
@@ -1949,9 +1949,9 @@
   <BookReadProgress>TODO</BookReadProgress>
 
   <!-- EN: learning speed -->
-  <BookLearningModifier>TODO</BookLearningModifier>
+  <BookLearningModifier>Rychlost učení</BookLearningModifier>
   <!-- EN: Mental break chance -->
-  <BookMentalBreak>TODO</BookMentalBreak>
+  <BookMentalBreak>Šance na mentální zhroucení</BookMentalBreak>
 
   <!-- EN: {BOOK_labelShort} is not readable -->
   <BookNotReadable>TODO</BookNotReadable>
@@ -1963,7 +1963,7 @@
   <BookBlind>TODO</BookBlind>
 
   <!-- EN: max level {0} -->
-  <BookMaxLevel>TODO</BookMaxLevel>
+  <BookMaxLevel>maximální úroveň {0}</BookMaxLevel>
 
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>TODO</ReadingReportHeader>
@@ -1979,12 +1979,12 @@
   <ContainedBooksDesc>TODO</ContainedBooksDesc>
 
   <!-- EN: Books stored -->
-  <BookshelfStoredInspect>TODO</BookshelfStoredInspect>
+  <BookshelfStoredInspect>Uložené knihy</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>TODO</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>Bonus pro čtení v místnosti</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
-  <EjectBookTooltip>TODO</EjectBookTooltip>
+  <EjectBookTooltip>Vyjmout knihu z knihovny</EjectBookTooltip>
 
   <!-- Pushing -->
   <!-- EN: Push to... -->
