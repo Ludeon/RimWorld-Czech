@@ -41,7 +41,7 @@
   <MessageMechanitorCasketOpened>{0} byl{0_pronoun} mechanitor. Mužeš {0_gender ? mu : jí} odebrat {0_possessive} {lookup: {1_label}; case\singular; 4} a použít {1_objective} na jiného kolonistu.</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>Interakční módy některých vězňů vyžadovali krvesaje. Protože jsi přišel o posledního krvesaje, jejich módy byli nastaveny na "žádnou interakci".</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageNoBloodfeedersPrisonerInteractionReset>Interakční módy některých vězňů vyžadovaly krvesaje. Protože jsi přišel o posledního krvesaje, jejich módy byly nastaveny na "žádnou interakci".</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>TODO</MessagePregnancyTerminated>
@@ -82,9 +82,9 @@
   <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
   <MetabolismTooLowToCreateXenogerm>K pokračování musí být celkový metabolismus vybraných genů nejméně {MIN}, aktuálně je však {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
   <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>K vytvoření xenozárodku musí být celková složitost vybraných genů nejvýše {MAX}, aktuálně je však {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>K vytvoření genovštipovače musí být celková složitost vybraných genů nejvýše {MAX}, aktuálně je však {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
   <!-- EN: Cannot create a xenogerm with no genes. -->
-  <MessageNoSelectedGenepacks>Xenozárodek nelze vytvořit bez genů.</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenepacks>Genovštipovač nelze vytvořit bez genů.</MessageNoSelectedGenepacks>
   <!-- EN: Cannot create a xenotype with no genes. -->
   <MessageNoSelectedGenes>Xenotyp nelze vytvořit bez genů.</MessageNoSelectedGenes>
   <!-- EN: {0_label} can only store {1} genepacks. -->
@@ -131,7 +131,7 @@
   <MessageChildcareNotAssigned>{FEEDER_labelShort} nemá přiřazenou činnost chůvy.</MessageChildcareNotAssigned>
 
   <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>Už máš maximální počet vytvořených xenotypů. Musíš některý z nich smazat aby jsi si mohl/a vytvořit další.</MessageTooManyCustomXenotypes>
+  <MessageTooManyCustomXenotypes>Už máš maximální počet vytvořených xenotypů. Pokud chceš vytvořit další, musíš některé z nich smazat.</MessageTooManyCustomXenotypes>
   <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
   <MessageConflictingGenesPresent>Není možné uložit xenotyp s několika konfliktními geny.</MessageConflictingGenesPresent>
 
