@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>Vyber si nového dědice titulu, který momentálně vlastní {HOLDER_nameIndef}:</ChooseHeir>
@@ -28,7 +28,11 @@
   <CommandCallRoyalAidWarningNonHostileFactions>Chystáš se požádat o pomoc, jenže tito lidé pochází z frakcí, které frakce {0_name} nepovažuje za své nepřátele. Vojáci, které se chystáš přivolat, na ně proto nebudou útočit: {1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
   <CommandCallRoyalAidNotEnoughFavor>Nedostatečné množství pocty.</CommandCallRoyalAidNotEnoughFavor>
-  
+  <!-- EN: {FACTION_name} cannot reach this area. -->
+  <CommandCallRoyalAidMapUnreachable>TODO</CommandCallRoyalAidMapUnreachable>
+  <!-- EN: Cannot call aid here. -->
+  <CommandCallRoyalAidInvalidMap>TODO</CommandCallRoyalAidInvalidMap>
+
   <!-- Call laborers -->
   <!-- EN: Call laborers -->
   <CommandCallLaborers>Přivolání dělníků</CommandCallLaborers>
@@ -54,10 +58,14 @@
   <CommandPsycastPawnIsUnconscious>Uživatel schopnosti je v bezvědomí.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
   <CommandPsycastLowPsyfocus>Má-li tohle seslat, potřebuje nejméně {0} psiofokusu.</CommandPsycastLowPsyfocus>
+  <!-- EN: Psychic insanity immune. -->
+  <CommandPsycastInsanityImmune>TODO</CommandPsycastInsanityImmune>
   <!-- EN: H -->
   <NeuralHeatLetter>T</NeuralHeatLetter>
   <!-- EN: P -->
   <PsyfocusLetter>P</PsyfocusLetter>
+  <!-- EN: Psychic insanity immune -->
+  <IneffectivePsychicImmune>TODO</IneffectivePsychicImmune>
 
   <!-- Select monument marker -->
   <!-- EN: Select monument -->
@@ -70,7 +78,7 @@
   <CommandWarnInBuildingRadius>Varovat v případě blízké stavby</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
   <CommandWarnInBuildingRadiusDesc>Pokud je tato volba povolena, tento objekt zobrazí červenou čáru směrem ke stavbám, které umístíš pomocí nabídky architekta, a které by jinak narušovaly meditaci kvůli přílišné blízkosti.\n\nPokud tento objekt nevyužíváš k meditačním účelům, můžeš tuto volbu vypnout.</CommandWarnInBuildingRadiusDesc>
-  
+
   <!-- Permits -->
   <!-- EN: Choose permit -->
   <ChooseRoyalPermit>Vybrat oprávnění</ChooseRoyalPermit>
