@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
   <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort} {PAWN_gender ? postoupil : postoupila} z prvního trimestru těhotenství do druhého.</MessageColonistReaching2ndTrimesterPregnancy>
   <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
@@ -39,13 +39,13 @@
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
   <MessageMechanitorCasketOpened>{0} byl{0_pronoun} mechanitor. Mužeš {0_gender ? mu : jí} odebrat {0_possessive} {lookup: {1_label}; case\singular; 4} a použít {1_objective} na jiného kolonistu.</MessageMechanitorCasketOpened>
-  
+
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
   <MessageNoBloodfeedersPrisonerInteractionReset>Interakční módy některých vězňů vyžadovaly krvesaje. Protože jsi přišel o posledního krvesaje, jejich módy byly nastaveny na "žádnou interakci".</MessageNoBloodfeedersPrisonerInteractionReset>
 
   <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
   <MessagePregnancyTerminated>TODO</MessagePregnancyTerminated>
-  
+
   <!-- Pollution -->
   <!-- EN: {0} has been angered ({1}) -->
   <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
@@ -63,6 +63,8 @@
   <MessageCocoonDisturbed>Kokon byl vyrušen a otvírá se!</MessageCocoonDisturbed>
   <!-- EN: Cocoons have been disturbed and are opening! -->
   <MessageCocoonDisturbedPlural>Kokony byly vyrušeny a otvírají se!</MessageCocoonDisturbedPlural>
+  <!-- EN: {0} has rotted due to polluted terrain. -->
+  <MessagePlantDiedOfRot_PollutedTerrain>TODO</MessagePlantDiedOfRot_PollutedTerrain>
 
   <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
   <MessageTargetMustBeDownedToForceReimplant>TODO</MessageTargetMustBeDownedToForceReimplant>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: raw humanlike meat eaten -->
   <AteRawHumanlikeMeat.label>konzumace lidského masa</AteRawHumanlikeMeat.label>
   <!-- EN:
@@ -56,10 +56,10 @@
     <li>desc_sentence->Maso se leskne a vypadá velmi šťavnatě.</li>
     <li>desc_sentence->Po celém těle má kousky masa.</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
-  
+
   <!-- EN: humanlike corpse butchered -->
   <ButcheredHumanlikeCorpse.label>kuchání lidské mrtvoly</ButcheredHumanlikeCorpse.label>
-  
+
   <!-- EN: art crafted -->
   <CraftedArt.label>vytvoření díla</CraftedArt.label>
   <!-- EN:
@@ -117,7 +117,7 @@
     <li>title_sentence->[THING_definite] nese zdobený text, který zní '[THING_title]'</li>
     <li>title_sentence->Název '[THING_title]', kterým se [THING_definite] pyšní, visí na pozadí</li>
   </CraftedArt.rulePack.rulesStrings>
-  
+
   <!-- EN: drunk -->
   <Drunk.label>opilost</Drunk.label>
   <!-- EN:
@@ -185,7 +185,7 @@
     <li>desc_sentence->Zdá se, že ztratil[PAWN_pronoun] jednu botu.</li>
     <li>desc_sentence->[PAWN_possessive] vlasy jsou úplně rozcuchané.</li>
   </Drunk.rulePack.rulesStrings>
-  
+
   <!-- EN: research project finished -->
   <FinishedResearchProject.label>dokončení výzkumného projektu</FinishedResearchProject.label>
   <!-- EN:
@@ -216,7 +216,7 @@
     <li>desc_sentence->[PAWN_nameDef] je zcela obklopen[PAWN_pronoun] řadou nástrojů a přístrojů.</li>
     <li>desc_sentence->[PAWN_nameDef] zírá na svůj objev s velkým úžasem.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
-  
+
   <!-- EN: landed in pod -->
   <LandedInPod.label>přistál v modulu</LandedInPod.label>
   <!-- EN:
@@ -266,7 +266,7 @@
     <li>desc_sentence->V pozadí je vidět [TerrainFeatureUniNom].</li>
     <li>desc_sentence->Vše z dálky v tichosti pozoruje [PersonJobUniNom].</li>
   </LandedInPod.rulePack.rulesStrings>
-  
+
   <!-- EN: berserk rage -->
   <MentalStateBerserk.label>zuřivé běsnění</MentalStateBerserk.label>
   <!-- EN:
@@ -320,7 +320,7 @@
     <li>desc_sentence->Výraz [PAWN_possessive] tváře představuje zvrácený klid.</li>
     <li>desc_sentence->Po [PAWN_possessive] tváři stéká jediná slza.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
-  
+
   <!-- EN: gave up -->
   <MentalStateGaveUp.label>vzdal to</MentalStateGaveUp.label>
   <!-- EN:
@@ -366,7 +366,25 @@
     <li>desc_sentence->Zdá se, že ztratil[PAWN_pronoun] jednu botu.</li>
     <li>desc_sentence->[PAWN_possessive] vlasy jsou úplně rozcuchané.</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
-  
+
+  <!-- EN: read a book -->
+  <ReadBook.label>TODO</ReadBook.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+    <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting in quiet contemplation, reflecting on the profound truths within [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->while relaxing in [PAWN_possessive] favorite reading nook</li>
+    <li>circumstance_phrase->with a cup of tea by [PAWN_possessive] side</li>
+    <li>circumstance_phrase->under the soft glow of a reading lamp</li>
+    <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
+    <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
+    <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
+  -->
+  <ReadBook.rulePack.rulesStrings>TODO</ReadBook.rulePack.rulesStrings>
+
   <!-- EN: struck mineable -->
   <StruckMineable.label>narazil na nerostné bohatství</StruckMineable.label>
   <!-- EN:
@@ -401,7 +419,7 @@
     <li>desc_sentence->[PAWN_possessive] oblečení je úplně propocené a zašpiněné od práce.</li>
     <li>desc_sentence->Od práce má propocené a špinavé celé tělo.</li>
   </StruckMineable.rulePack.rulesStrings>
-  
+
   <!-- EN: vomited -->
   <Vomited.label>zvracel</Vomited.label>
   <!-- EN:
@@ -447,7 +465,7 @@
     <li>desc_sentence->Umělecky [PAWN_objective] obklopuje svatozář ohavnosti.</li>
     <li>desc_sentence->[AnimalUniNom] v pozadí žere utvořenou cestičku ze zvratků.</li>
   </Vomited.rulePack.rulesStrings>
-  
+
   <!-- EN: walked naked -->
   <WalkedNaked.label>chodil nahý</WalkedNaked.label>
   <!-- EN:
@@ -500,7 +518,7 @@
     <li>desc_sentence->[PAWN_nameDef] bez zjevné příčiny těžce dýchá.</li>
     <li>desc_sentence->[PAWN_nameDef] si hladí houští.</li>
   </WalkedNaked.rulePack.rulesStrings>
-  
+
   <!-- EN: on fire -->
   <WasOnFire.label>v plamenech</WasOnFire.label>
   <!-- EN:
@@ -543,5 +561,5 @@
     <li>desc_sentence->Od hořícího těla stoupá dým.</li>
     <li>desc_sentence->[PAWN_nameDef] je umělecky vykreslen[PAWN_pronoun] jako mtrvola po uhoření.</li>
   </WasOnFire.rulePack.rulesStrings>
-  
+
 </LanguageData>

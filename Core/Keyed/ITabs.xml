@@ -48,11 +48,17 @@
   <TabFormingCaravan>Karavana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Obsah</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>TODO</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>Obsah</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>TODO</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>TODO</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Údržba</TabWindTurbineAutoCut>
-  
+
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
   <AddBill>Přidat úkol</AddBill>
@@ -82,6 +88,8 @@
   <PasteBillTip>Vložit</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>Nelze přidat více</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Dokončí za</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,9 +112,9 @@
   <NotWhileAsleep>Nehrozí, spí</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>Právě probíhá</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
+  <!-- EN: Door count -->
   <FactorForDoorCount>Násobitel pro počet dveří</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
+  <!-- EN: Movement -->
   <FactorForMovement>Násobitel pro mobilitu</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Cena pro otrokáře</SlavePrice>
@@ -138,6 +146,8 @@
   <NonRecruitableTip>Tento vězeň je tak loajální ke své vlasti, že se nenechá naverbovat.</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
   <NonRecruitableTipCannotConvert>Jeho loajalita se vztahuje i na jeho víru, a nenechá se konvertovat</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>TODO</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +223,19 @@
   <PainFactor>Bolest</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Zabraňuje vzniku nákazy</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Sebeošetření</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>TODO</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>Pokud je sebeošetření zapnuto, kolonisté se budou o své zranění automaticky starat, ale pouze se {1} účinností oproti normálu.</SelfTendTip>
+  <AllowSelfTendTip>TODO</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>zemře za {0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>TODO</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>TODO</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>TODO</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Nic</None>
@@ -260,7 +276,7 @@
 
   <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Potřebný předpoklad: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <!-- EN: Kidnapped -->
   <Kidnapped>Unesený</Kidnapped>
@@ -280,7 +296,7 @@
   <IAmDead>Jsem po smrti</IAmDead>
   <!-- EN: I'm a psychopath -->
   <IAmPsychopath>Jsem psychopat</IAmPsychopath>
-  
+
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
   <OverallArmor>Celková hodnota zbroje (odolnosti)</OverallArmor>
@@ -294,7 +310,7 @@
   <ArmorSharp>Ostré škody</ArmorSharp>
   <!-- EN: Heat -->
   <ArmorHeat>Tepelné škody</ArmorHeat>
-  
+
   <!-- Log tab -->
   <!-- EN: Show all -->
   <ShowAll>Ukázat vše</ShowAll>
@@ -346,7 +362,7 @@
   <ContainedItems>Obsažené položky</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
   <ConfirmRemoveItemDialog>Opravdu chceš odstranit {0}?</ConfirmRemoveItemDialog>
-  
+
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
   <DismissQuest>Zamítne tento úkol a přesune jej do záložky historické.\n\nÚkol může být kdykoliv obnoven. Jeho zadání a expirační časy budou pokračovat jako obvykle. U zamítnutých úkolů nebudeš dostávat žádná oznámení.</DismissQuest>
@@ -422,5 +438,21 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Automatické sekání rostlin</WindTurbineAutoCut_EnabledCheckbox>
+
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>TODO</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>TODO</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>TODO</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>TODO</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
+
+  <!-- UNUSED -->
+  <SelfTend>Sebeošetření</SelfTend>
+  <SelfTendTip>Pokud je sebeošetření zapnuto, kolonisté se budou o své zranění automaticky starat, ale pouze se {1} účinností oproti normálu.</SelfTendTip>
 
 </LanguageData>
