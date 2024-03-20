@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: Animal calm -->
   <AnimalCalm.label>Zklidnění zvířete</AnimalCalm.label>
   <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
   <AnimalCalm.description>K uklidnění vzteklé šelmy použije jedinečné metody spojení se zvířaty.</AnimalCalm.description>
   <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
   <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort} úspěšně {INITIATOR_gender ? uklidnil : uklidnila} vzteklou šelmu ({RECIPIENT_labelShort}).</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
-
+  
   <!-- EN: berserk trance -->
   <BerserkTrance.label>zběsilý trans</BerserkTrance.label>
   <!-- EN: The caster fills themself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
   <BerserkTrance.description>Sesílatel se naplní hněvem nad ideologickými křivdami. Díky této schopnosti dokáže překonat běžné limity, ale také ztratí nad sebou kontrolu a smyslů zbavený zaútočí na každého nepřítele v dosahu. Stav šílenství bude trvat 3 hodiny.</BerserkTrance.description>
-
+  
   <!-- EN: combat command -->
   <CombatCommand.label>bojové velení</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
   <CombatCommand.description>Vytvoří auru, která posílí bojové dovednosti všech poblíž. Účinek trvá 24 hodin a zůstává přichycen k vůdci po celou dobu trvání.</CombatCommand.description>
-
+  
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>konverzní rituál</ConversionRitual.label>
   <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
   <ConversionRitual.description>Zkusí někoho přesvědčit, aby přijal tvou víru. Pokud se zadaří, cíl ztratí část jistoty ve své ideobožství a může konvertovat. Pokud dojde k selhání, cíl si upevní jistotu ve svou starou víru.\n\nK zahájení tohoto rituálu na konkrétním místě vyber rituální místo nebo vhodný oltář/ideogram.</ConversionRitual.description>
-
+  
   <!-- EN: convert -->
   <Convert.label>konvertovat</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
@@ -31,7 +31,7 @@
   <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} {INITIATOR_gender ? nedokázal : nedokázala} konvertovat {RECIPIENT_labelShort}. I přes neúspěšný pokus {RECIPIENT_gender ? byl : byla} {RECIPIENT_labelShort} {RECIPIENT_gender ? znejistěn : znejistěna}. {RECIPIENT_possessive} jistota proto klesla z původních {CERTAINTYBEFORE} na {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} úspěšně {INITIATOR_gender ? konvertoval : konvertovala} {RECIPIENT_labelShort} na své ideobožství {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
-
+  
   <!-- EN: counsel -->
   <Counsel.label>Poskytnout radu</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
@@ -42,62 +42,62 @@
   <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} úspěšně {INITIATOR_gender ? poradil : poradila} {RECIPIENT_labelShort} a {INITIATOR_gender ? zrušil : zrušila} tak účinek nálady '{2}'.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
   <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} úspěšně {INITIATOR_gender ? poradil : poradila} {RECIPIENT_labelShort}. {INITIATOR_gender ? Zvedl : Zvedla} {RECIPIENT_gender ? mu : jí} tak náladu o {replace: ​{MOODBONUS}​; "​1​"-"1 bod"; "​2​"-"2 body"; "​3​"-"3 body"; "​4​"-"4 body"; "​{MOODBONUS}​"-"{MOODBONUS} bodů"}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
-
+  
   <!-- EN: farming command -->
   <FarmingCommand.label>farmářské velení</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <FarmingCommand.description>Poskytne odborný dohled nad zemědělskými postupy, čímž posílí farmářské dovednosti všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</FarmingCommand.description>
-
+  
   <!-- EN: Immunity drive -->
   <ImmunityDrive.label>Nakopnutí imunity</ImmunityDrive.label>
   <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
   <ImmunityDrive.description>Poskytne morální podporu, která dodá tělu energii, čímž posílí rychlejší nárůst imunity na jeden den.</ImmunityDrive.description>
-
+  
   <!-- EN: leader speech -->
   <LeaderSpeech.label>vůdčí projev</LeaderSpeech.label>
   <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
   <LeaderSpeech.description>Zahájí vůdčí řeč. Pokud to dopadne dobře, posluchači získají lepší náladu, respekt k řečníkovi a možná i nové inspirace. V opačném případě způsobí společenské škody.</LeaderSpeech.description>
-
+  
   <!-- EN: marksman command -->
   <MarksmanCommand.label>střelecké velení</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <MarksmanCommand.description>V boji bude vyzývat ke střelbě a posilovat tak střelecké dovednosti všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</MarksmanCommand.description>
-
+  
   <!-- EN: mining command -->
   <MiningCommand.label>těžební velení</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <MiningCommand.description>Poskytne odborný dohled nad těžebními postupy, čímž posílí rychlost těžby všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</MiningCommand.description>
-
+  
   <!-- EN: preach health -->
   <PreachHealth.label>kázat zdraví</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
   <PreachHealth.description>Prostřednictvím své ideologie káže morální sílu nemocnému či zraněnému člověku. Tím urychlí hojení ran a nárůst imunity.</PreachHealth.description>
-
+  
   <!-- EN: production command -->
   <ProductionCommand.label>výrobní velení</ProductionCommand.label>
   <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <ProductionCommand.description>Poskytne odborný dohled nad konstrukčními postupy, čímž posílí konstrukční a výrobní dovednosti všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</ProductionCommand.description>
-
+  
   <!-- EN: reassure -->
   <Reassure.label>upevnit víru</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
   <Reassure.description>Zvýší něčí jistotu v jeho vlastní víře. Množství znovunabyté víry závisí na vyjednávacích schopnostech řečníka.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} {INITIATOR_gender ? ujistil : ujistila} {RECIPIENT_labelShort}, čímž zvýšila {RECIPIENT_possessive} jistotu v ideobožství {IDEO} z původních {BEFORECERTAINTY} na {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
-
+  
   <!-- EN: research command -->
   <ResearchCommand.label>výzkumné velení</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
   <ResearchCommand.description>Poskytne návrhy a psychickou podporu, čímž posílí rychlost výzkumu všech poblíž. Účinek zůstává přichycen k sesílateli po dobu 24 hodin.</ResearchCommand.description>
-
+  
   <!-- EN: trial -->
   <Trial.label>soudní proces</Trial.label>
   <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
   <Trial.description>Obviní někoho ze strašlivého provinění a zahájí tak soudní proces, při kterém bude dotyčný buď odsouzen, nebo zproštěn viny. Bude-li dotyčný odsouzen, může být bez postihu uvězněn, popraven či vyhoštěn. Šance na odsouzení závisí na sociálních dovednostech žalobce a obviněného.</Trial.description>
-
+  
   <!-- EN: work drive -->
   <WorkDrive.label>pracovní nakopnutí</WorkDrive.label>
   <!-- EN: Call on a person to work harder for some time. -->
   <WorkDrive.description>Vyzve osobu, aby nějakou dobu tvrději pracovala.</WorkDrive.description>
-
+  
 </LanguageData>
