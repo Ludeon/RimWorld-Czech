@@ -1,103 +1,102 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: bandwidth cost -->
   <BandwidthCost.label>počet vlnových pásem</BandwidthCost.label>
   <!-- EN: How much bandwidth this mech consumes when under mechanitor control. -->
   <BandwidthCost.description>Kolik vlnových páse je potřeba pro ovládnání tohoto mechanioda.</BandwidthCost.description>
-
+  
   <!-- EN: cancer rate factor -->
   <CancerRate.label>násobitel šance rakoviny</CancerRate.label>
   <!-- EN: A multiplier on how likely this person is to develop cancer in any given time frame. -->
   <CancerRate.description>Násobitel šance, jakou má daná osoba, pro vznik rakoviny v daný čas.</CancerRate.description>
-
+  
   <!-- EN: control taking time -->
   <ControlTakingTime.label>čas převzetí kontroly</ControlTakingTime.label>
   <!-- EN: How many seconds it will take for a mechanitor to take control of this mech. -->
   <ControlTakingTime.description>Kolik sekund trvá převzetí kontroly nad tímto mechanoidem.</ControlTakingTime.description>
   <!-- EN: {0}s -->
   <ControlTakingTime.formatString>{0}s</ControlTakingTime.formatString>
-
+  
   <!-- EN: fertility -->
   <Fertility.label>plodnost</Fertility.label>
   <!-- EN: Fertility affects the chance of a pregnancy occurring. Pregnancy chance is dependent on the fertility of both partners. This also affects the chance of successfully implanting an embryo in a surrogate. -->
   <Fertility.description>Plodnost ovlivňuje šanci na otěhotnění, přičemž záleží na plodnosti obou partnerů. Plodnost také ovlivňuje šanci na úspěšnou implantaci embrya.</Fertility.description>
-
+  
   <!-- EN: growth vat occupant speed -->
   <GrowthVatOccupantSpeed.label>rychlost vývoje v růstové kádi</GrowthVatOccupantSpeed.label>
   <!-- EN: A multiplier on how quickly this person will grow when in a growth vat. -->
   <GrowthVatOccupantSpeed.description>Násobitel rychlosti vývoje v růstové kádi.</GrowthVatOccupantSpeed.description>
-
+  
   <!-- EN: hemogen gain multiplier -->
   <HemogenGainFactor.label>násobitel získaného hemogenu</HemogenGainFactor.label>
   <!-- EN: A multiplier on the amount of hemogen gained. -->
   <HemogenGainFactor.description>Násobitel množství získaného hemogenu.</HemogenGainFactor.description>
-
+  
   <!-- EN: learning rate factor -->
   <LearningRateFactor.label>násobitel rychlosti učení</LearningRateFactor.label>
   <!-- EN: A multiplier on how quickly a child's learning need is fulfilled by learning activities. -->
   <LearningRateFactor.description>Násobitel rychlosti naplnění touhy po učení dítětě.</LearningRateFactor.description>
-
+  
   <!-- EN: mech bandwidth -->
   <MechBandwidth.label>šířka mechanitorova pásma</MechBandwidth.label>
   <!-- EN: How much bandwidth a mechanitor has. More bandwidth allows a mechanitor to produce and control more mechs at the same time.\n\nLosing bandwidth means losing control of mechs, leaving them without an overseer. Such mechs can eventually become feral if not re-dominated. -->
   <MechBandwidth.description>Jak velkou šířku pásma ovládá daný mechanitor. Větší šířka pásma umožní mechanitorovi ovládat více mechů najednou.\n\nZtráta šířky pásma způsobí ztrátu kontroly nad mechy a ponechání je bez dohlížitele. Tito mechové mohou postupem času zdivočet.</MechBandwidth.description>
-
+  
   <!-- EN: mech control groups -->
   <MechControlGroups.label>počet ovládaných skupin</MechControlGroups.label>
   <!-- EN: How many control groups this mechanitor can direct independently. Each control group can be given its own separate orders. -->
   <MechControlGroups.description>Kolik nezávislích skupin mechanitor je schopen ovládat. Každá ovládaná skupina může dostávat rozdílné příkazy.</MechControlGroups.description>
-
+  
   <!-- EN: repair energy cost -->
   <MechEnergyLossPerHP.label>cena energie opravy</MechEnergyLossPerHP.label>
   <!-- EN: The amount of energy that this mechanoid loses for every 100 damage repaired. -->
   <MechEnergyLossPerHP.description>Množství energie který tento mechanoid ztratí za každých 100 bodů poškození při opravě.</MechEnergyLossPerHP.description>
-
+  
   <!-- EN: energy usage multiplier -->
   <MechEnergyUsageFactor.label>násobitel spotřeby energie</MechEnergyUsageFactor.label>
   <!-- EN: A multiplier on how fast a mechanoid consumes its energy reserves while operating. -->
   <MechEnergyUsageFactor.description>Násobitel rychlosti spotřeby energie, kterou spotřebuje mechanoid ze svých zásob při práci.</MechEnergyUsageFactor.description>
-
+  
   <!-- EN: mech gestation speed -->
   <MechFormingSpeed.label>rychlost tvorby mechů</MechFormingSpeed.label>
   <!-- EN: A multiplier on the speed at which this mechanitor can form new mechanoids at a gestator. -->
   <MechFormingSpeed.description>Násobitel rychlosti tvorby mechanoidů tímto mechanitorem v plodírně mechů.</MechFormingSpeed.description>
-
+  
   <!-- EN: mech remote repair distance -->
   <MechRemoteRepairDistance.label>limit vzdálené opravy mechů</MechRemoteRepairDistance.label>
   <!-- EN: How far away a mech can be during remote repair. -->
   <MechRemoteRepairDistance.description>Jak daleko může být mech během vzdálené opravy.</MechRemoteRepairDistance.description>
-
+  
   <!-- EN: mech remote shield distance -->
   <MechRemoteShieldDistance.label>limit vzdáleného zaštítění mechů</MechRemoteShieldDistance.label>
   <!-- EN: The maximum range at which a mechanitor can place a shield on a mechanoid. -->
   <MechRemoteShieldDistance.description>Maximální vzdálenost, na kterou může mechanitor zaštítovat mechanoida.</MechRemoteShieldDistance.description>
-
+  
   <!-- EN: mech remote shield energy -->
   <MechRemoteShieldEnergy.label>energie vytvořeného štítu</MechRemoteShieldEnergy.label>
   <!-- EN: The energy a remote shield will have when created by a mechanitor. -->
   <MechRemoteShieldEnergy.description>Energie, kterou bude mít vzdálený štít po vytvoření mechanitorem.</MechRemoteShieldEnergy.description>
-
+  
   <!-- EN: mech repair speed -->
   <MechRepairSpeed.label>rychlost opravy mechů</MechRepairSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can repair mechanoids. -->
   <MechRepairSpeed.description>Násobitel rychlosti vzdálené opravy mechanoidů.</MechRepairSpeed.description>
-
+  
   <!-- EN: raw nutrition multiplier -->
   <RawNutritionFactor.label>syrová nutriční hodnota</RawNutritionFactor.label>
   <!-- EN: A multiplier on how nutritious raw food is for this person. Note that since meals usually have more nutrition than their raw ingredients, a boost to this stat may only mean the person gets the same nutrition from raw food as if it were cooked. -->
   <RawNutritionFactor.description>Násobitel jak moc je syrové jídlo výživné pro danou osobu. Pokrmy mají většinou větší nutriční hodnotu než jejich ingredience a zlepšení této hodnoty může maximálně znamenat že jí syrové jídlo dá stejnou nutriční hodotu jako by bylo uvařené.</RawNutritionFactor.description>
-
+  
   <!-- EN: subcore encoding speed -->
   <SubcoreEncodingSpeed.label>rychlost kódování subjader</SubcoreEncodingSpeed.label>
   <!-- EN: A multiplier on how fast a mechanitor can create subcores. -->
   <SubcoreEncodingSpeed.description>Násobitel rychlosti, jakou je mechanitor schopen kódovat subjádra.</SubcoreEncodingSpeed.description>
-
+  
   <!-- EN: wastepacks per recharge -->
   <WastepacksPerRecharge.label>toxivaky vytvořené nabíjením</WastepacksPerRecharge.label>
   <!-- EN: How many toxic wastepacks this mechanoid will generate at a mech recharger when going from 0 to 100% energy. Larger mechanoids will generally create more toxic wastepacks. -->
   <WastepacksPerRecharge.description>Kolik toxivaků vyprodukuje tento mechanoid při dobíjení z 0 na 100% energie. Větší mechanoidi obecně vytváří větší množství toxivaků.</WastepacksPerRecharge.description>
-  <!-- EN: Relevant stats -->
   <WastepacksPerRecharge.statFactorsExplanationHeader>Relevantní statistiky</WastepacksPerRecharge.statFactorsExplanationHeader>
-
+  
 </LanguageData>
