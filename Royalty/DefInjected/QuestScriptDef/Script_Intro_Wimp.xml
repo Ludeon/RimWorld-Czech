@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN:
     <li>questDescription->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] is calling from nearby. [asker_possessive] guards were killed in an ambush. [asker_pronoun] escaped, but is now being followed by (*Threat)a manhunting [animalKindDef_label](/Threat).\n\n[asker_nameDef] wants you to keep [asker_objective] safe at [map_definite] for a few hours until [asker_possessive] shuttle can come pick [asker_objective] up.\n\n[asker_pronoun] will bestow [royalFavorReward] [asker_faction_royalFavorLabel] on whoever accepts this quest. This is enough [asker_faction_royalFavorLabel] to receive the royal title of Yeoman, and all benefits that come with it - including the first level of psychic powers.</li>
   -->
@@ -58,34 +58,28 @@
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. Because of this violation, [asker_pronoun] will now attempt to leave. [failLetterEndingCommon] -->
   <Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} neoprávněně {SUBJECT_gender ? operován : operována}. Co nejdříve se pokusí uniknout. [failLetterEndingCommon]</Intro_Wimp.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>Xenogerm absorbován: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>Pohlcení genovštipovače: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. Because of this violation, {SUBJECT_pronoun} will now attempt to leave. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterého : kterou} jsi dostal za úkol chránit, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? přinucen : přinucena} k absorbování xenogermu. Proto se teď pokusí odejít. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterého : kterou} jsi dostal za úkol chránit, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? přinucen : přinucena} ke vštípení genovštipovače. Co nejdříve se pokusí uniknout. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Captured: {SUBJECT_definite} -->
-  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>TODO</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>Zadržení {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to host, has been arrested. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>TODO</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>
+  <Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}. [failLetterEndingCommon]</Intro_Wimp.root.nodes.askerArrested.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <Intro_Wimp.LetterLabelCaptured.slateRef>Zadržení {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
+  <Intro_Wimp.LetterLabelCaptured.slateRef>Ztráta {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the designated settlement. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? byl : byla} {SUBJECT_gender ? zadržen : zadržena}. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
+  <Intro_Wimp.LetterTextCaptured.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? opustil : opustila} vyhrazenou osadu. [failLetterEndingCommon]</Intro_Wimp.LetterTextCaptured.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Intro_Wimp.LetterLabelGuestLost.slateRef>Ztráta {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, {SUBJECT_gender ? opustil : opustila} vyhrazenou osadu. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
+  <Intro_Wimp.LetterTextGuestLost.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, právě {SUBJECT_gender ? zdivočel : zdivočela}. [failLetterEndingCommon]</Intro_Wimp.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
-  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Ztráta {SUBJECT_gender ? hosta : návštěvnice}: {SUBJECT_definite}</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterLabelLodgerRanWild.slateRef>Raketoplán byl zničen</Intro_Wimp.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has been destroyed. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>{SUBJECT_definite}, {SUBJECT_gender ? kterému : které} jsi přislíbil ochranu, právě {SUBJECT_gender ? zdivočel : zdivočela}. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
+  <Intro_Wimp.LetterTextLodgerRanWild.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, byl právě zničen. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>TODO</Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>
+  <Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>Nezdařený úkol: [resolvedQuestName]</Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.label.slateRef>
   <!-- EN: The shuttle sent to collect [asker_nameDef] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>TODO</Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>
-
-  <!-- UNUSED -->
-  <Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>Raketoplán byl zničen</Intro_Wimp.LetterLabelShuttleDestroyed.slateRef>
-  <Intro_Wimp.LetterTextShuttleDestroyed.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, byl právě zničen. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.LetterTextShuttleDestroyed.slateRef>
-  <Intro_Wimp.LetterLabelQuestFailed.slateRef>Nezdařený úkol: [resolvedQuestName]</Intro_Wimp.LetterLabelQuestFailed.slateRef>
-  <Intro_Wimp.LetterTextQuestFailed.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, odletěl bez [asker_nej_ni_long]. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.LetterTextQuestFailed.slateRef>
-
+  <Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>Raketoplán, ve kterém měl[asker_x_a] [asker_nameDef] odletět, odletěl bez [asker_nej_ni_long]. Nyní odejde po svých. [failLetterEndingCommon]</Intro_Wimp.root.nodes.pickupShipThingSentUnsatisfied.node.nodes.Letter.text.slateRef>
+  
 </LanguageData>

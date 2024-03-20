@@ -38,7 +38,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} z frakce {1} opouští oblast z důvodu nebezpečné teploty.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
-  <MessageVisitorsAnomalousWeather>TODO</MessageVisitorsAnomalousWeather>
+  <MessageVisitorsAnomalousWeather>{0} z frakce {1} opouští oblast z důvodu nebezpečného počasí.</MessageVisitorsAnomalousWeather>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>Část výstroje ({0}), kterou {1_nameFull} {1_gender ? nosil : nosila}, se rozpadla na cucky.</MessageWornApparelDeterioratedAway>
@@ -58,7 +58,7 @@
 
   <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} byl zničen.</MessageConditionCauserDespawned>
-
+  
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Úkol '{0}' byl dokončen.</MessageBillComplete>
 
@@ -82,7 +82,7 @@
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Varování: {PAWN_labelShort} je agresivní a při ochočování se pokusí napadnout tvého kolonistu.</MessageInsectsHostileOnTaming>
-
+  
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nový rekrut</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
@@ -131,9 +131,9 @@
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Musíš označit hrubé kamenné povrchy.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Must designate rough stone terrain. -->
-  <MessageMustDesignateSmoothableFloor>TODO</MessageMustDesignateSmoothableFloor>
+  <MessageMustDesignateSmoothableFloor>Musíš označit hrubý kamenný terén.</MessageMustDesignateSmoothableFloor>
   <!-- EN: Must designate rough stone wall. -->
-  <MessageMustDesignateSmoothableWall>TODO</MessageMustDesignateSmoothableWall>
+  <MessageMustDesignateSmoothableWall>Musíš označit hrubou kamennou stěnu.</MessageMustDesignateSmoothableWall>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Tak silný strop není možné odstranit.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
@@ -155,14 +155,14 @@
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} {1_gender ? odmítl : odmítla} být {1_gender ? zadržen : zadržena}!</MessageRefusedArrest>
-
+  
   <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>Nejsou k dispozici žádné zdravotnické postele.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Nejsou k dispozici žádná místa pro zvířata, na kterých by mohla spát.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
   <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
-
+  
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
@@ -185,7 +185,7 @@
   <MessageMiscarriedPoorHealth>{0} kvůli špatnému zdravotnímu stavu potratila.</MessageMiscarriedPoorHealth>
   <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} porodila.</MessageGaveBirth>
-
+  
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
   <MessagePsylinkNoSensitivity>{PAWN_labelShort} nebude moci využívat psiovazbu, jelikož má nulovou psychickou citlivost.</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
@@ -197,7 +197,7 @@
 
   <!-- EN: No handler capable of taming {ANIMAL_kindBase} (requires level {1} in {2}, best capable handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>Žádný chovatel nedokáže tohle zvíře ochočit ({ANIMAL_kindBase} vyžaduje dovednost {2} na úrovni {1}; {HANDLER_gender ? nejlepším : nejlepší} {HANDLER_gender ? chovatelem : chovatelkou} je aktuálně {HANDLER_labelShort} s úrovní {4}).</MessageNoHandlerSkilledEnough>
-
+  
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
   <MessageEatenByPredator>{EATEN_labelShort} {EATEN_gender ? byl : byla} {EATEN_gender ? sežrán : sežrána} {lookup: {PREDATOR}; case\singular; 7}.</MessageEatenByPredator>
   <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
@@ -208,20 +208,20 @@
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Kolonie brouků se samovolně reprodukovala.</MessageHiveReproduced>
-
+  
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>Obchodní karavana z frakce {0} odchází.</MessageTraderCaravanLeaving>
   <!-- EN: The trade caravan from {0} has been dismissed. -->
-  <MessageTraderCaravanDismissed>TODO</MessageTraderCaravanDismissed>
+  <MessageTraderCaravanDismissed>Obchodní karavana z frakce {0} byla poslána pryč.</MessageTraderCaravanDismissed>
 
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_labelShort} je {1_gender ? mrtvý : mrtvá}.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{1_labelShort} je mimo mapu.</MessageCantSelectOffMapPawn>
-
+  
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_labelShort} a {PAWN2_labelShort} se začali prát. První ránu {PAWN1_gender ? udělil : udělila} {PAWN1_labelShort}.</MessageSocialFight>
-
+  
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
   <MessageNewMarriageCeremony>Kolonisté se scházejí, aby oslavili sňatek, při kterém se {PAWN1_labelShort} a {PAWN2_labelShort} stanou manželi.</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
@@ -232,22 +232,22 @@
   <MessageNewlyMarried>{PAWN1_labelShort} a {PAWN2_labelShort} uzavřeli manželství. Kolonisté nyní tuto událost řádně oslaví.</MessageNewlyMarried>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>Svatební slavnost, kterou {PAWN1_labelShort} a {PAWN2_labelShort} uspořádali, je nyní u konce.</MessageMarriageCeremonyAfterPartyFinished>
-
+  
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
   <MessageNewBondRelation>Mezi {HUMAN_labelShort} a {ANIMAL_labelShort} se vytvořilo pouto.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
   <MessageNewBondRelationNewName>Mezi {HUMAN_labelShort} a {1} se vytvořilo pouto. {HUMAN_labelShort} {HUMAN_gender ? dal : dala} zvířeti jméno {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
-
+  
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, {ANIMAL} se začíná nervově hroutit.</MessageBondedAnimalMentalBreak>
   <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, {ANIMAL_kindIndef} jménem {ANIMAL_label} se začíná nervově hroutit.</MessageNamedBondedAnimalMentalBreak>
   <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalsMentalBreak>Jelikož {HUMAN_labelShort} {HUMAN_gender ? zemřel : zemřela}, zvířata (celkem {0}) se nervově zhroutila.</MessageBondedAnimalsMentalBreak>
-
+  
   <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
   <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort} úspěšně {SURGEON_gender ? odstranil : odstranila} {HEDIFF} pacientovi jménem {PATIENT_labelShort}.</MessageSuccessfullyRemovedHediff>
-
+  
   <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Nedaleko dopadly kusy vesmírné lodě. Můžeš je rozebrat, abys získal nějaké suroviny.</MessageShipChunkDrop>
 
@@ -259,10 +259,10 @@
 
   <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Snímek obrazovky byl uložen jako: {0}</MessageScreenshotSavedAs>
-
+  
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} a {PAWN2_labelShort} se přestali prát.</MessageNoLongerSocialFighting>
-
+  
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
   <MessageNoLongerBingingOnDrug>{2_labelShort} {2_gender ? přestal : přestala} nekontrolovatelně užívat {1}.</MessageNoLongerBingingOnDrug>
 
@@ -271,10 +271,10 @@
 
   <!-- EN: {1_label} has rotted away in storage. -->
   <MessageRottedAwayInStorage>Ve skladišti shnilo: {1_label}</MessageRottedAwayInStorage>
-
+  
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_labelShort} jeví známky otravy jídlem. Původcem otravy je {FOOD_labelShort}. Příčina: {2}.</MessageFoodPoisoning>
-
+  
   <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? byl : byla} {0_gender ? odstraněn : odstraněna} z karavany.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
@@ -283,10 +283,10 @@
   <MessageCaravanFormationPaused>Průběh shromažďování karavany bude pokračovat, až se všichni zotaví z nervového zhroucení.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
   <MessageCaravanFormationUnpaused>Tví kolonisté teď budou pokračovat ve shromažďování karavany.</MessageCaravanFormationUnpaused>
-
+  
   <!-- EN: One of the caravan members has had a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>Jeden z členů karavany se nervově zhroutil.</MessageCaravanMemberHasExtremeMentalBreak>
-
+  
   <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
   <MessageMaxPlanetCoveragePerformanceWarning>Varování: Generování celé planety může trvat velmi dlouhou dobu.</MessageMaxPlanetCoveragePerformanceWarning>
 
@@ -308,66 +308,66 @@
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{INGESTER} se {INGESTER_gender ? předávkoval : předávkovala}, když omylem {INGESTER_gender ? pozřel : pozřela} drogu zvanou {DRUG_labelShort}!</MessageAccidentalOverdose>
-
+  
   <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} dorazila na místo určení.</MessageCaravanArrivedAtDestination>
-
+  
   <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} {1_gender ? opustil : opustila} oblast a {1_gender ? zformoval : zformovala} karavanu.</MessagePawnLeftMapAndCreatedCaravan>
   <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Tvá zvířata se k ní připojí.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
-
+  
   <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>Úspěšně ses usídlil v nové oblasti.</MessageSettledInExistingMap>
-
+  
   <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{PAWN_labelShort} se {PAWN_gender ? uzdravil : uzdravila}. {PAWN_possessive} {2} vypadá lépe. Příčina: {0}</MessagePermanentWoundHealed>
-
+  
   <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
   <MessageRescueeDidntJoin>[PAWN_nameDef] se zotavil[PAWN_pronoun] a rozhodl[PAWN_pronoun] se raději odejít.</MessageRescueeDidntJoin>
-
+  
   <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>K některým přepravním modulům se nelze dostat.</MessageTransporterUnreachable>
   <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
   <MessageTransportersNotAdjacent>Všechny odpalovací rampy napojené na vybrané přepravní moduly musí být umístěny hned vedle sebe.</MessageTransportersNotAdjacent>
-
+  
   <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>Průběh nakládání byl přerušen, neboť došlo ke zničení jednoho z přepravních modulů.</MessageTransportersLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
   <MessageTransporterSingleLoadCanceled_TransporterDestroyed>Průběh nakládání byl přerušen, neboť došlo ke zničení raketoplánu.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
   <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
   <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Průběh nakládání byl přerušen, neboť došlo ke zničení jedné z odpalovacích ramp.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
-
+  
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do přepravních modulů.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
   <MessageTransporterSingleLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do raketoplánu.</MessageTransporterSingleLoadingProcessStarted>
-
+  
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Tvé přepravní moduly dorazily na místo určení.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
   <MessageTransportPodsArrivedAndLost>Tvé přepravní moduly dorazily na místo určení, ale protože uvnitř nebyli žádní kolonisté, je jejich obsah navždy ztracen.</MessageTransportPodsArrivedAndLost>
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Tvé přepravní moduly dorazily na místo určení. {0} posbírala veškerý obsah z přepravních modulů.</MessageTransportPodsArrivedAndAddedToCaravan>
-
+  
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Nakládání přepravního modulu bylo dokončeno. Až budeš připraven, můžeš odstartovat.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
   <MessageFinishedLoadingTransporterSingle>Do raketoplánu byl naložen požadovaný náklad, a tak může ihned odstartovat.</MessageFinishedLoadingTransporterSingle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Tvá skupina {1} nemůže dokončit nakládání přepravních modulů, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoTransporters>Tvá skupina {lookup: {1}; case\plural; 2} nemůže dokončit nakládání přepravních modulů, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>TODO</MessageCantLoadMoreIntoPortal>
-
+  <MessageCantLoadMoreIntoPortal>Tvá skupina {lookup: {1}; case\plural; 2} nemůže dokončit průchod {0}, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
+  
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Zvolený cíl není platný.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Každá odpalovací rampa bude potřebovat alespoň {0} jednotek chemického paliva, aby dokázala vyslat přepravní moduly tak daleko.</MessageTransportPodsDestinationIsTooFar>
-
+  
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>Karavana byla shromážděna.</MessageReformedCaravan>
-
+  
   <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>Posledního kolonisty se nemůžeš zbavit.</MessageCantBanishLastColonist>
 
@@ -385,12 +385,12 @@
   <MessageCantUnequipLockedApparel>Tato osoba to odmítá odstranit.</MessageCantUnequipLockedApparel>
   <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
   <MessageWouldReplaceLockedApparel>Nelze si obléknout: Nahradilo by se tím oblečení, které {1_labelShort} odmítá odstranit.</MessageWouldReplaceLockedApparel>
-
+  
   <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageSlaughteringBondedAnimal>Pokud bude {DESIGNATED_labelShort} {DESIGNATED_gender ? poražen : poražena}, {BONDED_labelShort}, se {BONDED_gender ? kterým : kterou} má pouto, bude {BONDED_gender ? nešťastný : nešťastná}.</MessageSlaughteringBondedAnimal>
   <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
   <MessageReleaseBondedAnimal>Pokud bude {DESIGNATED_labelShort} {DESIGNATED_gender ? vypuštěn : vypuštěna} do volné přírody, {BONDED_labelShort}, se {BONDED_gender ? kterým : kterou} má pouto, bude {BONDED_gender ? nešťastný : nešťastná}.</MessageReleaseBondedAnimal>
-
+  
   <!-- EN: {0} has run out of food. -->
   <MessageCaravanRanOutOfFood>{0} nemá dostatek potravin.</MessageCaravanRanOutOfFood>
   <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
@@ -401,10 +401,10 @@
 
   <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>Při tomto rozlišení a měřítku uživatelského rozhraní se rozhraní nevejde na obrazovku. Sniž prosím měřítko uživatelského rozhraní nebo zvyš rozlišení obrazovky.</MessageScreenResTooSmallForUIScale>
-
+  
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
   <MessageYouHaveToReformCaravanNow>Nyní musíš shromáždit karavanu. Každý kdo ji opustil bude navždy ztracen.</MessageYouHaveToReformCaravanNow>
-
+  
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Skupina {lookup: {0}; case\plural; 2} z frakce {1} byla napadena tvými {lookup: {2}; case\plural; 7}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
@@ -418,7 +418,7 @@
   <MessageSelfTendUnsatisfied>Aby se {1_labelShort} {1_gender ? mohl sám : mohla sama} ošetřit, musí mít přidělenou činnost {1_gender ? doktor : doktorka}.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{1_labelShort} není {1_gender ? způsobilý : způsobilá} vykonávat práci {1_gender ? doktora : doktorky}, proto se {1_gender ? sám : sama} nikdy neošetří.</MessageCannotSelfTendEver>
-
+  
   <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>Toto políčko je neprůchodné</MessageCantAddWaypointBecauseImpassable>
   <!-- EN: It's not possible to reach this tile from the last waypoint. -->
@@ -427,10 +427,10 @@
   <MessageCantAddWaypointBecauseLimit>Nemůžeš přidat více jak {0} záchytných bodů.</MessageCantAddWaypointBecauseLimit>
   <!-- EN: You can't remove this waypoint. -->
   <MessageCantRemoveWaypointBecauseFirst>Tento záchytný bod nemůžeš odstranit.</MessageCantRemoveWaypointBecauseFirst>
-
+  
   <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Žádný z tvých dozorců není schopen násilí. Poprava nebude provedena.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
-
+  
   <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
   <MessageCanReformCaravanNowNoMoreEnemies>Oblast je nyní bezpečná. Karavanu můžeš upravit na mapě světa.</MessageCanReformCaravanNowNoMoreEnemies>
   <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
@@ -655,7 +655,7 @@
 
   <!-- EN: An extracted tree just died. -->
   <MessageMinifiedTreeDied>Právě uhynul vykopaný strom.</MessageMinifiedTreeDied>
-
+  
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
   <MessageResearchMenuWithoutBench>Varování: Výzkum nezačne, dokud nepostavíš výzkumné stanoviště.</MessageResearchMenuWithoutBench>
@@ -679,9 +679,9 @@
 
   <!-- Lord jobs -->
   <!-- EN: You need {0_indefinite}. -->
-  <MessageLordJobNeedsAtLeastOneRolePawn>TODO</MessageLordJobNeedsAtLeastOneRolePawn>
+  <MessageLordJobNeedsAtLeastOneRolePawn>Potřebuješ {lookup: {0}; case\singular; 4}.</MessageLordJobNeedsAtLeastOneRolePawn>
   <!-- EN: You need at least {1} {0}. -->
-  <MessageLordJobNeedsAtLeastNumRolePawn>TODO</MessageLordJobNeedsAtLeastNumRolePawn>
+  <MessageLordJobNeedsAtLeastNumRolePawn>Potřebuješ alespoň {replace: ^{1} {0}^; "^1 duelant^"-"1 duelanta"; "^2 duelant^"-"2 duelanty"; "^3 duelant^"-"3 duelanty"; "^4 duelant^"-"4 duelanty"; "^{1} duelant^"-"{1} duelantů"; "^1 sekundant^"-"1 sekundanta"; "^2 sekundant^"-"2 sekundanty"; "^3 sekundant^"-"3 sekundanty"; "^4 sekundant^"-"4 sekundanty"; "^{1} sekundant^"-"{1} sekundantů"}.</MessageLordJobNeedsAtLeastNumRolePawn>
 
   <!-- Rituals -->
   <!-- EN: spectate -->
@@ -717,7 +717,7 @@
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} musí být {replace: {0}; "Účastníci"-"lidé"; "Přihlížející"-"lidé"; "{0}"-"člověk"}.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeABaby>TODO</MessageRitualRoleCannotBeABaby>
+  <MessageRitualRoleCannotBeABaby>{0} nemůže být nemluvně.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>TODO</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -731,7 +731,7 @@
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} musí být vězeň nebo otrok.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
-  <MessageRitualRoleMustBeCapableOfFighting>TODO</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} musí být {0_gender ? schopen : schopna} boje.</MessageRitualRoleMustBeCapableOfFighting>
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>tuto roli nemůže zastávat nikdo jiný.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
@@ -769,9 +769,9 @@
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>TODO</MessageRitualRoleMustNotBeImprisoned>
   <!-- EN: {0} cannot be a child. -->
-  <MessageRitualRoleCannotBeChild>TODO</MessageRitualRoleCannotBeChild>
+  <MessageRitualRoleCannotBeChild>{0} nemůže být dítě.</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeBaby>TODO</MessageRitualRoleCannotBeBaby>
+  <MessageRitualRoleCannotBeBaby>{0} nemůže být nemluvně.</MessageRitualRoleCannotBeBaby>
   <!-- EN: {0} is busy. -->
   <MessageRitualRoleBusy>TODO</MessageRitualRoleBusy>
 
@@ -815,15 +815,11 @@
   <StorageSettingsCopiedToClipboard>Nastavení skladiště uloženo do schránky.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
   <StorageSettingsPastedFromClipboard>Nastavení skladiště vloženo ze schránky.</StorageSettingsPastedFromClipboard>
-
+  
   <!-- EN: {0_label} requires adjacent walls to function. -->
   <MessageBuildingRequiresAdjacentWalls>TODO</MessageBuildingRequiresAdjacentWalls>
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>TODO</MessageLodgersCantFarskip>
-
-  <!-- UNUSED -->
-  <MessageRitualNeedsAtLeastOneRolePawn>Potřebuješ {lookup: {0}; case\singular; 4}.</MessageRitualNeedsAtLeastOneRolePawn>
-  <MessageRitualNeedsAtLeastNumRolePawn>Potřebuješ alespoň {replace: ​{1} {0}​; "​1 duelant​"-"1 duelanta"; "​2 duelant​"-"2 duelanty"; "​3 duelant​"-"3 duelanty"; "​4 duelant​"-"4 duelanty"; "​{1} duelant​"-"{1} duelantů"; "​1 sekundant​"-"1 sekundanta"; "​2 sekundant​"-"2 sekundanty"; "​3 sekundant​"-"3 sekundanty"; "​4 sekundant​"-"4 sekundanty"; "​{1} sekundant​"-"{1} sekundantů"}.</MessageRitualNeedsAtLeastNumRolePawn>
 
 </LanguageData>
