@@ -29,7 +29,7 @@
   <Add>přidat</Add>
   <!-- EN: Cannot shoot -->
   <CannotShoot>Nemůže střílet</CannotShoot>
-
+  
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>RimWorld byl aktualizován z verze {0} na verzi {1}.\n\n</GameUpdatedToNewVersionInitial>
@@ -43,13 +43,13 @@
   <GameUpdatedToNewVersionSteam>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Beta verze".\n\n  1. V knihovně Steamu klikni pravým na RimWorld.\n  2. Klikni na Vlastnosti.\n  3. Klikni na záložku Beta verze.\n  4. Z roletové nabídky si vyber verzi, kterou chceš.</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
   <GameUpdatedToNewVersionSteamController>Chceš-li pokračovat ve hraní staré verze, můžeš si zvolit funkci Steamu "Beta verze".</GameUpdatedToNewVersionSteamController>
-
+  
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
   <RecoveredFromErrorsDialogTitle>Obnoveno po chybách způsobených nekompatibilními nebo poškozenými mody</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
   <RecoveredFromErrorsText>Zdá se, že některé aktivní mody způsobovaly chyby.\n\nByly vzájemně nekompatibilní, určené pro jinou verzi RimWorldu, nebo poškozené.\n\nVšechny mody byly deaktivovány a mohou být znovu aktivovány v dialogovém okně modů.</RecoveredFromErrorsText>
-
+  
   <!-- Errors during loading -->
   <!-- EN: Error while loading assets -->
   <ErrorWhileLoadingAssetsTitle>Chyba při načítání prostředků</ErrorWhileLoadingAssetsTitle>
@@ -65,7 +65,7 @@
   <ErrorWhileLoadingMapTitle>Chyba při načítání mapy</ErrorWhileLoadingMapTitle>
   <!-- EN: An error occurred while loading a map. See error log for more information. -->
   <ErrorWhileLoadingMap>Při načítání mapy se vyskytla chyba. Pro další informace se podívej do záznamu o chybách.</ErrorWhileLoadingMap>
-
+  
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
   <ModsChanged>Seznam modů byl změněn. Hra se nyní automaticky restartuje.</ModsChanged>
@@ -73,11 +73,11 @@
   <FailedToRestart>Při restartování hry se něco pokazilo. Hra nedokázala zcela odstranit kód modů po vypnutých modech, takže kód z vypnutých modů může být stále aktivní.\n\nPro čisté načtení modů se nyní doporučuje ukončit a znovu spustit hru.</FailedToRestart>
   <!-- EN: Restarting -->
   <Restarting>Restartování</Restarting>
-
+  
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
   <SteamClientMissing>Nepodařilo se zavést Steam API. Možné příčiny:\n\n-Steam neběží.\n-Spuštěno mimo Steam bez souboru steam_appid.txt na správném místě.\n-Spuštění s jiným oprávněním jak Steam klient (např. "jako správce").\n\nVe většině případů tento problém spraví restartování počítače.\n\nMůžeš hrát i tak, ale nebudou zaznamenávány žádné Steam statistiky a nebudou dostupné žádné Steam funkce.</SteamClientMissing>
-
+  
   <!-- Long events -->
   <!-- EN: Initializing interface -->
   <InitializingInterface>Inicializace rozhraní</InitializingInterface>
@@ -101,7 +101,7 @@
   <SpawningAllThings>Vytváření věcí</SpawningAllThings>
   <!-- EN: Spawning colonists -->
   <SpawningColonists>Vytváření kolonistů</SpawningColonists>
-
+  
   <!-- Save/load -->
   <!-- EN: Save -->
   <SaveGameButton>Uložit</SaveGameButton>
@@ -147,7 +147,7 @@
   <ContentInstalledButNotActive>Nainstalováno, ale neaktivní</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
   <ContentNotInstalled>Nenainstalováno</ContentNotInstalled>
-
+  
   <!-- Player faction naming -->
   <!-- EN: Since it looks like you'll be here for a while, {0} thinks that you should give your faction a name. What should your faction be called? -->
   <NamePlayerFactionMessage>Zdá se, že tu nějakou dobu zůstaneš. {0} proto navrhuje, abys svou frakci nějak pojmenoval. Jak by se tvá frakce měla nazývat?</NamePlayerFactionMessage>
@@ -163,13 +163,13 @@
   <PlayerFactionBaseGainsName>Tato osada je odteď známá jako {0}.</PlayerFactionBaseGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerFactionBaseNameIsInvalid>Tento název je nepřípustný.</PlayerFactionBaseNameIsInvalid>
-
+  
   <!-- Player faction and faction base naming -->
   <!-- EN: {0} also thinks that you should give this settlement a name. What should this local settlement be called? -->
   <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} si také myslí, že bys měl pojmenovat i tuto osadu. Jak by se tato zdejší osada měla nazývat?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <!-- EN: Your faction is now known as {0}, and this community is now known as {1}. -->
   <PlayerFactionAndBaseGainsName>Tvá frakce bude odteď známá jako {0} a tato osada jako {1}.</PlayerFactionAndBaseGainsName>
-
+  
   <!-- Renaming -->
   <!-- EN: Please enter a valid name. -->
   <NameIsInvalid>Zadej prosím platné jméno.</NameIsInvalid>
@@ -177,7 +177,7 @@
   <NameIsInUse>Toto jméno se již používá jinde.</NameIsInUse>
   <!-- EN: The zone is now called {0}. -->
   <ZoneGainsName>Oblast se nyní nazývá {0}.</ZoneGainsName>
-
+  
   <!-- Pawn naming -->
   <!-- EN: Chosen name is invalid. -->
   <NameInvalid>Zvolené jméno není platné.</NameInvalid>
@@ -201,7 +201,7 @@
   <LastName>příjmení</LastName>
   <!-- EN: suggested -->
   <Suggested>doporučené</Suggested>
-
+  
   <!-- Choose new wanderers -->
   <!-- EN: Choose new wanderers -->
   <ChooseNewWanderers>Vybrat nové poutníky</ChooseNewWanderers>
@@ -301,7 +301,7 @@
   <AnyWorker>Každý pracovník</AnyWorker>
   <!-- EN: Unlimited -->
   <Unlimited>∞</Unlimited>
-
+  
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(Tento recept nemůže mít cílový počet, protože se skládá z rozmanitých nebo nepředvídatelných produktů.)</RecipeCannotHaveTargetCount>
   <!-- EN: Work amount -->
@@ -346,7 +346,7 @@
   <ShelfPlural>TODO</ShelfPlural>
   <!-- EN: Groups -->
   <GroupPlural>TODO</GroupPlural>
-
+  
   <!-- Info card -->
   <!-- EN: Damage -->
   <Damage>Poškození</Damage>
@@ -616,7 +616,7 @@
   <MeditationFocusDisabledByTrait>nemá rys</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
   <EnablesMeditationFocusType>Umožňuje tyto typy meditací</EnablesMeditationFocusType>
-
+  
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
   <PositiveBuysNegativeSells>Kladná čísla znamenají nákup.\nZáporná čísla znamenají prodej.</PositiveBuysNegativeSells>
@@ -712,7 +712,7 @@
   <NextTraderRestock>Další doplnění zásob: {0} dnů</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Tvorové</PawnsTabShort>
-
+  
   <!-- Select caravan settlement -->
   <!-- EN: Select colony to send caravan -->
   <SelectCaravanOrigin>TODO</SelectCaravanOrigin> 
@@ -720,7 +720,7 @@
   <SelectCaravanDesc>TODO</SelectCaravanDesc> 
   <!-- EN: Colonists -->
   <SelectCaravanColonists>TODO</SelectCaravanColonists>
-
+  
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <FormCaravan>Vytvoření karavany</FormCaravan>
@@ -876,11 +876,11 @@
   <SourceCaravanMustHaveAtLeastOneColonist>Musíš ponechat alespoň jednoho kolonistu při vědomí.</SourceCaravanMustHaveAtLeastOneColonist>
   <!-- EN: How many of this item the caravan has ready to give to the new caravan. -->
   <SplitCaravanThingCountTip>Kolik této položky má karavana připraveno k přeložení na novou karavanu.</SplitCaravanThingCountTip>
-
+  
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
   <ConfirmAttackFriendlyFaction>Opravdu chceš zaútočit na osadu zvanou {0}?\n\nKvůli tomu se frakce {1} stane nepřátelskou. Časem začnou podnikat nájezdy na tvou kolonii!</ConfirmAttackFriendlyFaction>
-
+  
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
   <LoadTransporters>Nastavení nakládky pro {0}</LoadTransporters>
@@ -906,11 +906,11 @@
   <TransporterSingleItemIsUnreachableMulti>Mezi raketoplánem a {0}x {1} nevede žádná cesta.</TransporterSingleItemIsUnreachableMulti>
   <!-- EN: Only {0} colonists maximum allowed. -->
   <TransporterSingleTooManyColonists>Povoleno je maximálně {0} kolonistů.</TransporterSingleTooManyColonists>
-
+  
   <!-- Comms -->
   <!-- EN: Social skill: {0} -->
   <SocialSkillIs>Dovednost socializace: {0}</SocialSkillIs>
-
+  
   <!--Research-->
   <!-- EN: Research finished: {0} -->
   <ResearchFinished>Výzkum dokončen: {0}</ResearchFinished>
@@ -918,7 +918,7 @@
   <ResearchScreen>Obrazovka výzkumu</ResearchScreen>
   <!-- EN: By researching {0} you have discovered the {1} research project. -->
   <ResearchUnknownProjectRevealed>TODO</ResearchUnknownProjectRevealed>
-
+  
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
   <HistoryUploadMessage>Chceš nahrát své záznamy herních dat na server RimWorldu, abys pomohl vývojářům vyladit hru? Pokud souhlasíš, tvá data budou nahrávána každé {0} dny (a v jiných výjimečných případech jako třeba konec hry). Nastavení soukromí lze změnit později v nabídce nastavení.</HistoryUploadMessage>
@@ -932,7 +932,7 @@
   <HistoryUploadYesOnce>Nahrát pouze tentokrát</HistoryUploadYesOnce>
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>Tentokrát nenahrávat, zeptej se mě později</HistoryUploadNoOnce>
-
+  
   <!-- Policies -->
   <!-- EN: Available policies -->
   <AvailablePolicies>Dostupné předpisy</AvailablePolicies>
@@ -954,7 +954,7 @@
   <DeletePolicyConfirmButton>Smazat</DeletePolicyConfirmButton>
   <!-- EN: No policy selected -->
   <NoPolicySelected>Není vybrán žádný předpis</NoPolicySelected>
-
+  
   <!-- Outfit management -->
   <!-- EN: Apparel policies -->
   <ApparelPolicyTitle>Předepsaná výstroj</ApparelPolicyTitle>
@@ -964,7 +964,7 @@
   <ApparelPolicy>Oděvní předpis</ApparelPolicy>
   <!-- EN: Apparel policy is in use by {0}. -->
   <OutfitInUse>Oděvní předpis používá {0}.</OutfitInUse>
-
+  
   <!-- Drug policy management -->
   <!-- EN: Drug policies -->
   <DrugPolicyTitle>Předepsané drogy</DrugPolicyTitle>
@@ -1038,7 +1038,7 @@
   <FoodRestrictionRaw>Syrové</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Nic</FoodRestrictionNothing>
-
+  
   <!-- Reading management -->
   <!-- EN: Reading policies -->
   <ReadingPolicyTitle>Předepsané knihy</ReadingPolicyTitle>
@@ -1046,7 +1046,7 @@
   <ReadingPolicyTip>Vytvoř a spravuj předpisy pro řízení toho, jaké knihy mají členové kolonie dovoleno číst.</ReadingPolicyTip>
   <!-- EN: Reading policy -->
   <ReadingPolicy>Knižní předpis</ReadingPolicy>
-
+  
   <!-- EN: Anything -->
   <AllReadingPolicy>Cokoliv</AllReadingPolicy>
   <!-- EN: None -->
@@ -1063,15 +1063,15 @@
   <DefaultMedicineSettings>Nastavení norem medicíny</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
   <DefaultMedicineSettingsDesc>TODO</DefaultMedicineSettingsDesc>
-
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>Norma</MedGroupDefaults>
-
+  
   <!-- EN: Colonists -->
   <MedGroupColonists>TODO</MedGroupColonists>
   <!-- EN: Free members of your colony -->
   <MedGroupColonistsDesc>TODO</MedGroupColonistsDesc>
-
+  
   <!-- EN: Prisoners -->
   <MedGroupPrisoners>TODO</MedGroupPrisoners>
   <!-- EN: Prisoners in your colony, regardless of faction. -->
@@ -1086,7 +1086,7 @@
   <MedGroupFriendlyFaction>TODO</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
   <MedGroupFriendlyFactionDesc>TODO</MedGroupFriendlyFactionDesc>
-
+  
   <!-- EN: Neutral faction members -->
   <MedGroupNeutralFaction>Neutrální frakce</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
@@ -1101,7 +1101,7 @@
   <MedGroupNoFaction>TODO</MedGroupNoFaction>
   <!-- EN: Humans who are not members of any faction. -->
   <MedGroupNoFactionDesc>TODO</MedGroupNoFactionDesc>
-
+  
   <!-- EN: Wildlife -->
   <MedGroupWildlife>TODO</MedGroupWildlife>
   <!-- EN: Animals and other creatures which are not members of any faction. -->
@@ -1118,11 +1118,11 @@
   <ConfirmAbandonHomeNegativeThoughts>Pokud tu {0} zůstane, bude to navždy, a tito lidé získají tyto myšlenky:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Všichni:</ConfirmAbandonHomeNegativeThoughts_Everyone>
-
+  
   <!-- Move caravan and leave prisoners and animals behind -->
   <!-- EN: Some animals or prisoners are trying to join this caravan. If you move it, they won't be able to anymore.\n\nAnimals, prisoners, and downed colonists left behind in a map without any non-downed colonists are considered abandoned and can be captured by the enemies.\n\nAre you sure you want to move your caravan? -->
   <ConfirmMoveAutoJoinableCaravan>Některá zvířata nebo vězni se pokoušejí připojit k této karavaně.\n\nPokud ji přesuneš, už nebudou moci se připojit.\n\nZvířata, vězni, a kolonisté v bezvědomí, kteří byli ponecháni v oblasti některým z kolonistů, jsou považováni za opuštěné a mohou být zajmuti nepřáteli.\n\nJsi si jistý, že chceš svou karavanu přesunout?</ConfirmMoveAutoJoinableCaravan>
-
+  
   <!-- Abandon pawn -->
   <!-- EN: Do you really want to banish {1_label}? -->
   <ConfirmBanishPawnDialog>Opravdu se chceš zbavit {1_label}?</ConfirmBanishPawnDialog>
@@ -1142,7 +1142,7 @@
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
   <ConfirmSettleNearFactionBase>Vzhledem k tomu, že se tato lokace nachází v okruhu {replace: ^{0}^; "^1^"-"1 políčka"; "^2^"-"2 políček"; "^3^"-"3 políček"; "^4^"-"4 políček"; "^{0}^"-"{0} políček"} od základny jiné frakce, budou mít pocit, že zasahuješ na jejich území. Vztahy s takovými frakcemi se budou každých {replace: ^{1}^; "^1^"-"1 den"; "^2^"-"2 dny"; "^3^"-"3 dny"; "^4^"-"4 dny"; "^{1}^"-"{1} dnů"} zhoršovat.</ConfirmSettleNearFactionBase>
-
+  
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
   <ConfirmCleanupTranslationFiles>Opravdu chceš pročistit všechny překladové soubory české lokalizace?\n\nCo tento krok způsobí:\n  - přidá chybějící rezervovaná místa pro překlady keyed, def-injected a backstories\n  - přidá nebo aktualizuje komentář v originálním nepřeloženém tvaru ke každému textu\n  - přesune všechny keyed a def-injected překlady do příslušných XML souborů\n  - automaticky upraví formátování ve všech XML souborech\n  - aktualtizuje zpětně kompatibilní def názvy\n  - odstraní všechny existující XML komentáře (vyjma úplných seznamů)\n\nSoubory, které nejsou XML, nebudou odstraněny ani modifikovány.\n\nPo této úpravě souborů pomocí tohoto nástroje nezapomeň restartovat hru, aby se znovu načetla všechna data.\n\nPřed použitím tohoto nástroje proveď zálohu všech překladových souborů.</ConfirmCleanupTranslationFiles>
@@ -1252,7 +1252,7 @@
   <PsychicLoveFor>Psychická láska</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>Pokud {PAWN_labelShort} skočí do jiné oblasti nebo ke karavaně, související úkol se nezdaří a {PAWN_gender ? on : ona} okamžitě odejde.\n\nOpravdu chceš, aby {PAWN_labelShort} {PAWN_gender ? skočil : skočila} s tebou?</FarskipConfirmTeleportingLodger>
-
+  
   <!-- EN: minor -->
   <MentalBreakIntensityMinor>mírné</MentalBreakIntensityMinor>
   <!-- EN: major -->
@@ -1417,28 +1417,5 @@
   <MapSearchResultSingular>TODO</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>TODO</Searching>
-
-  <!-- UNUSED -->
-  <Outfit>Výstroj</Outfit>
-  <SelectOutfit>Vybrat výstroj...</SelectOutfit>
-  <NewOutfit>Nová výstroj</NewOutfit>
-  <DeleteOutfit>Smazat výstroj...</DeleteOutfit>
-  <NoOutfitSelected>Není vybrána žádná výstroj</NoOutfitSelected>
-  <SelectDrugPolicy>Vybrat politiku...</SelectDrugPolicy>
-  <NewDrugPolicy>Nová politika</NewDrugPolicy>
-  <DeleteDrugPolicy>Smazat politiku...</DeleteDrugPolicy>
-  <NoDrugPolicySelected>Není vybrána žádná drogová politika</NoDrugPolicySelected>
-  <DrugUsageColumnLabel>Dávkování</DrugUsageColumnLabel>
-  <DrugUsageColumnDesc>Jakým způsobem je užívání drogy povoleno.</DrugUsageColumnDesc>
-  <FoodRestriction>Omezení potravy</FoodRestriction>
-  <FoodRestrictionShort>Jídlo</FoodRestrictionShort>
-  <SelectFoodRestriction>Vybrat omezení</SelectFoodRestriction>
-  <NewFoodRestriction>Nové omezení</NewFoodRestriction>
-  <DeleteFoodRestriction>Smazat omezení</DeleteFoodRestriction>
-  <NoFoodRestrictionSelected>Není vybráno žádné potravinové omezení</NoFoodRestrictionSelected>
-  <MedGroupColonist>Kolonista</MedGroupColonist>
-  <MedGroupImprisonedColonist>Uvězněný kolonista</MedGroupImprisonedColonist>
-  <MedGroupColonyAnimal>Ochočené zvíře</MedGroupColonyAnimal>
-  <MedGroupNeutralAnimal>Neutrální zvíře</MedGroupNeutralAnimal>
 
 </LanguageData>
