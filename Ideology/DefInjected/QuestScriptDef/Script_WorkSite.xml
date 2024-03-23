@@ -3,12 +3,12 @@
   
   <!-- EN:
     <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
     <li>questDescription->Nedaleko odsud jsi odhalil [siteLabelAcc] ovládan[siteLabel_y_ou] frakcí [faction_name].\n\nPokud chceš, můžeš do tábora vpadnout a získat kořist ([loot]). [raidConsequences]\n\nKe sbalení tábora a následného opuštění oblasti dojde za [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->Pokud to uděláš, frakce [faction_name] tě začne považovat za svého nepřítele.</li>
+    <li>raidConsequences(faction_temporary==false)->Pokud to uděláš, frakce [faction_name] se stane nepřátelskou, pokud již není.</li>
     <li>raidConsequences(faction_temporary==true)->Jelikož [faction_name] se řadí mezi malé nezávislé skupiny, můžeš na ně zaútočit bez větších diplomatických následků.</li>
     <li>siteLabelAcc(sitePart==WorkSite_Farming)->zemědělskou farmu</li>
     <li>siteLabelAcc(sitePart==WorkSite_Hunting)->lovecký revír</li>
