@@ -341,11 +341,11 @@
   <!-- EN: Look in {0} -->
   <IncludeSpecific>Hledat v {0}</IncludeSpecific>
   <!-- EN: Stockpiles -->
-  <StockpilePlural>TODO</StockpilePlural>
+  <StockpilePlural>Skladiště</StockpilePlural>
   <!-- EN: Shelves -->
-  <ShelfPlural>TODO</ShelfPlural>
+  <ShelfPlural>Regály</ShelfPlural>
   <!-- EN: Groups -->
-  <GroupPlural>TODO</GroupPlural>
+  <GroupPlural>Skupiny</GroupPlural>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -719,7 +719,7 @@
   <!-- EN: Send a caravan from {0}. -->
   <SelectCaravanDesc>TODO</SelectCaravanDesc> 
   <!-- EN: Colonists -->
-  <SelectCaravanColonists>TODO</SelectCaravanColonists>
+  <SelectCaravanColonists>Kolonisté</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -1062,50 +1062,50 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Nastavení norem medicíny</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>TODO</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>Tyto nastavení norem medicíny budou přiřazena pro všechna stvoření, když se poprvé přiřadí k dané skupině. Toto nastavení můžeš manuálně změnit v __TODO__ zdraví.\n\nPokud se toto stvoření připojí k jiné skupině, změní se i jeho nastavení na nastavení této skupiny a to i v případě že už mělo nastavení manuálně upraveno.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>Norma</MedGroupDefaults>
   
   <!-- EN: Colonists -->
-  <MedGroupColonists>TODO</MedGroupColonists>
+  <MedGroupColonists>Kolonisté</MedGroupColonists>
   <!-- EN: Free members of your colony -->
-  <MedGroupColonistsDesc>TODO</MedGroupColonistsDesc>
+  <MedGroupColonistsDesc>Volní členové tvé kolonie</MedGroupColonistsDesc>
   
   <!-- EN: Prisoners -->
-  <MedGroupPrisoners>TODO</MedGroupPrisoners>
+  <MedGroupPrisoners>Vězni</MedGroupPrisoners>
   <!-- EN: Prisoners in your colony, regardless of faction. -->
-  <MedGroupPrisonersDesc>TODO</MedGroupPrisonersDesc>
+  <MedGroupPrisonersDesc>Vězni v tvojí kolonii bez ohledu na frakci.</MedGroupPrisonersDesc>
 
   <!-- EN: Tamed animals -->
-  <MedGroupTamedAnimals>TODO</MedGroupTamedAnimals>
+  <MedGroupTamedAnimals>Ochočená zvířata</MedGroupTamedAnimals>
   <!-- EN: Animals which have been tamed by your colony. -->
-  <MedGroupTamedAnimalsDesc>TODO</MedGroupTamedAnimalsDesc>
+  <MedGroupTamedAnimalsDesc>Ochočená zvířata patřící tvojí kolonii.</MedGroupTamedAnimalsDesc>
 
-  <!-- EN: Friendly faction members -->
-  <MedGroupFriendlyFaction>TODO</MedGroupFriendlyFaction>
+  <!-- EN: Friendly faction members ***-->
+  <MedGroupFriendlyFaction>Přátelská frakce</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>TODO</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>Lidé nebo zvířata které jsou součástí frakce které je přátelská s tvou frakcí. (prestiž nad 75)</MedGroupFriendlyFactionDesc>
   
-  <!-- EN: Neutral faction members -->
+  <!-- EN: Neutral faction members ***-->
   <MedGroupNeutralFaction>Neutrální frakce</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>TODO</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>Lidé nebo zvířata které jsou součástí frakce které je neutrální k tvé frakcí. (prestiž mezi -75 a 75)</MedGroupNeutralFactionDesc>
 
-  <!-- EN: Hostile faction members -->
+  <!-- EN: Hostile faction members ***-->
   <MedGroupHostileFaction>Nepřátelská frakce</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>TODO</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>Lidé nebo zvířata které jsou součástí frakce které je nepřátelská k tvé frakcí. (prestiž pod -75)</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
-  <MedGroupNoFaction>TODO</MedGroupNoFaction>
+  <MedGroupNoFaction>Ostatní lidé</MedGroupNoFaction>
   <!-- EN: Humans who are not members of any faction. -->
-  <MedGroupNoFactionDesc>TODO</MedGroupNoFactionDesc>
+  <MedGroupNoFactionDesc>Lidé kteří nejsou členy žádné frakce.</MedGroupNoFactionDesc>
   
   <!-- EN: Wildlife -->
-  <MedGroupWildlife>TODO</MedGroupWildlife>
+  <MedGroupWildlife>Divoká zvěř</MedGroupWildlife>
   <!-- EN: Animals and other creatures which are not members of any faction. -->
-  <MedGroupWildlifeDesc>TODO</MedGroupWildlifeDesc>
+  <MedGroupWildlifeDesc>Zvířata a jiná stvoření které nejsou součástí žádné frakce.</MedGroupWildlifeDesc>
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
@@ -1203,7 +1203,7 @@
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Nelze použít: {0} je asexuální.</AbilityCantApplyOnAsexual>
   <!-- EN: {PAWN_labelShort} has no healable injuries. -->
-  <AbilityCannotCastNoHealableInjury>TODO</AbilityCannotCastNoHealableInjury>
+  <AbilityCannotCastNoHealableInjury>{PAWN_labelShort} nemá žádné ošetřitelné zranění.</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} je nesprávného pohlaví, než které {0_labelShort} vyhledává.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1408,14 +1408,14 @@
   <CannotShootPawnIsPsychicallyDeaf>TODO</CannotShootPawnIsPsychicallyDeaf>
 
   <!-- EN: Search the current map. -->
-  <SearchTheMap>TODO</SearchTheMap>
+  <SearchTheMap>Prohledej aktuální mapu.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
-  <SearchTheMapDesc>TODO</SearchTheMapDesc>
+  <SearchTheMapDesc>Prohledej aktuální mapu pro věci, budovy, lidi, zvířata, rostliny a další.</SearchTheMapDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>TODO</MapSearchResults>
   <!-- EN: 1 result found -->
-  <MapSearchResultSingular>TODO</MapSearchResultSingular>
+  <MapSearchResultSingular>1 odpovýdající objekt</MapSearchResultSingular>
   <!-- EN: Searching -->
-  <Searching>TODO</Searching>
+  <Searching>Hledá</Searching>
 
 </LanguageData>
