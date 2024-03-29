@@ -1,6 +1,6 @@
 # RimWorld Czech
 
-Czech Translation of RimWorld (Core, Royalty, Ideology and Biotech)
+Czech Translation of RimWorld (Core, Royalty, Ideology, Biotech and Anomaly)
 
 See this page for license info:
 
