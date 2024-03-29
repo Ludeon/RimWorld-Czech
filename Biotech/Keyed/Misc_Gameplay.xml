@@ -20,11 +20,11 @@
   <!-- EN: with -->
   <WithLower>s</WithLower>
   <!-- EN: tiles -->
-  <TilesLower>políčka</TilesLower>
+  <TilesLower>políček</TilesLower>
   <!-- EN: 1 mech -->
   <CaravanMech>1 mech</CaravanMech>
   <!-- EN: {0} mechs -->
-  <CaravanMechsCount>{replace: ​{0}​; "​1​"-"1 mech"; "​2​"-"2 mechové"; "​3​"-"3 mechové"; "​4​"-"4 mechové"; "​{0}​"-"{0} mechů"}</CaravanMechsCount>
+  <CaravanMechsCount>{replace: ^{0}^; "^1^"-"1 mech"; "^2^"-"2 mechové"; "^3^"-"3 mechové"; "^4^"-"4 mechové"; "^{0}^"-"{0} mechů"}</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>TODO</BossWithApparel>
 
@@ -66,7 +66,7 @@
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
   <BandNodeTuningDesc>Naladit tento pásmový uzel na mechanitora. Ladění bude trvat {0}.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>Přeladit tento pásmový uzel na jiného mechanitora. Přelaďování bude trvat {replace: ​{0}​; "​1 den​"-"1 den"; "​2 dnů​"-"2 dny"; "​3 dnů​"-"3 dny"; "​4 dnů​"-"4 dny"}.</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>Přeladit tento pásmový uzel na jiného mechanitora. Přelaďování bude trvat {replace: ^{0}^; "^1 den^"-"1 den"; "^2 dnů^"-"2 dny"; "^3 dnů^"-"3 dny"; "^4 dnů^"-"4 dny"}.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>TODO</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
@@ -186,7 +186,7 @@
   <!-- EN: Bound to -->
   <BoundTo>TODO</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
-  <WillBindOnFirstUse>Permanentně se propojí při prvním použití.</WillBindOnFirstUse>
+  <WillBindOnFirstUse>Při prvním použití se trvale propojí.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
   <TimeActiveThisDeathrest>TODO</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->

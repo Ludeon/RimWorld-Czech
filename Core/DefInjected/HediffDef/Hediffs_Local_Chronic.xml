@@ -98,17 +98,17 @@
   <HeartArteryBlockage.stages.extreme.label>extrémní</HeartArteryBlockage.stages.extreme.label>
   
   <!-- EN: organ decay -->
-  <OrganDecay.label>odumírání orgánu</OrganDecay.label>
-  <!-- EN: A degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people. -->
-  <OrganDecay.description>Degenerativní nemoc postihující konkrétní orgán. Může být bakteriálního nebo virového původu. Zdá se, že nemoc náhodně udeří z neznámého přírodního důvodu; není tedy nakažlivá.</OrganDecay.description>
+  <OrganDecay.label>rozklad orgánu</OrganDecay.label>
+  <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
+  <OrganDecay.description>Neléčitelné degenerativní onemocnění postihující konkrétní orgán. Může být bakteriálního i virového původu. Nemoc zřejmě udeří náhodně z neznámého přirozeného rezervoáru; mezi lidmi tedy není přímo nakažlivá.\n\nTento orgán bude pomalu ztrácet svou funkci, než zcela odumře. Nahraď jej bionickým nebo přirozeným orgánem.</OrganDecay.description>
   <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
-  <OrganDecay.comps.HediffComp_DestroyOrgan.messageText>TODO</OrganDecay.comps.HediffComp_DestroyOrgan.messageText>
+  <OrganDecay.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort} {PAWN_gender ? přišel : přišla} kvůli rozkladu orgánu o {lookup: {1}; case\singular; 4}.</OrganDecay.comps.HediffComp_DestroyOrgan.messageText>
   <!-- EN: minor -->
-  <OrganDecay.stages.minor.label>mírné</OrganDecay.stages.minor.label>
+  <OrganDecay.stages.minor.label>mírný</OrganDecay.stages.minor.label>
   <!-- EN: moderate -->
   <OrganDecay.stages.moderate.label>střední</OrganDecay.stages.moderate.label>
   <!-- EN: severe -->
-  <OrganDecay.stages.severe.label>vážné</OrganDecay.stages.severe.label>
+  <OrganDecay.stages.severe.label>vážný</OrganDecay.stages.severe.label>
   <!-- EN: extreme -->
   <OrganDecay.stages.extreme.label>extrémní</OrganDecay.stages.extreme.label>
   

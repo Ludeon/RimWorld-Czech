@@ -2,17 +2,17 @@
 <LanguageData>
   
   <!-- EN: acid burn -->
-  <AcidBurn.label>kyselinová popálenina</AcidBurn.label>
-  <!-- EN: An acid burn. ***-->
-  <AcidBurn.description>Popálenina způsobená silnou kyselinou.</AcidBurn.description>
+  <AcidBurn.label>kyselinové poleptání</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Kyselinové poleptání.</AcidBurn.description>
   <!-- EN: acid burn scar -->
-  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po kyselinové popálenině</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po kyselinovém poleptání</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Dissolved off -->
-  <AcidBurn.injuryProps.destroyedLabel>Rozpuštěno</AcidBurn.injuryProps.destroyedLabel>
+  <AcidBurn.injuryProps.destroyedLabel>Rozpuštěné</AcidBurn.injuryProps.destroyedLabel>
   <!-- EN: an acid burn -->
-  <AcidBurn.labelNoun>kyselinová popálenina</AcidBurn.labelNoun>
+  <AcidBurn.labelNoun>kyselinové poleptání</AcidBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <AcidBurn.labelNounPretty>TODO</AcidBurn.labelNounPretty>
+  <AcidBurn.labelNounPretty>{0} na {1}</AcidBurn.labelNounPretty>
   
   <!-- EN: bite -->
   <Bite.label>pokousání</Bite.label>
@@ -27,9 +27,9 @@
   <!-- EN: bite scar -->
   <Bite.comps.HediffComp_GetsPermanent.permanentLabel>jizva po kousnutí</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Bitten off -->
-  <Bite.injuryProps.destroyedLabel>ukousnuté</Bite.injuryProps.destroyedLabel>
+  <Bite.injuryProps.destroyedLabel>Ukousnuté</Bite.injuryProps.destroyedLabel>
   <!-- EN: Bitten out -->
-  <Bite.injuryProps.destroyedOutLabel>rozkousané</Bite.injuryProps.destroyedOutLabel>
+  <Bite.injuryProps.destroyedOutLabel>Yykousnuté</Bite.injuryProps.destroyedOutLabel>
   <!-- EN: a bite wound -->
   <Bite.labelNoun>kousanec</Bite.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -46,7 +46,7 @@
   <!-- EN: tended -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>ošetřené</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
-  <Bruise.injuryProps.destroyedLabel>zničené</Bruise.injuryProps.destroyedLabel>
+  <Bruise.injuryProps.destroyedLabel>Zničené</Bruise.injuryProps.destroyedLabel>
   <!-- EN: a bruise -->
   <Bruise.labelNoun>pohmožděnina</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -65,9 +65,9 @@
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po popálenině</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
-  <Burn.injuryProps.destroyedLabel>zničené ohněm</Burn.injuryProps.destroyedLabel>
+  <Burn.injuryProps.destroyedLabel>Spálené ohněm</Burn.injuryProps.destroyedLabel>
   <!-- EN: Burned out -->
-  <Burn.injuryProps.destroyedOutLabel>vypálené</Burn.injuryProps.destroyedOutLabel>
+  <Burn.injuryProps.destroyedOutLabel>Vypálené ohněm</Burn.injuryProps.destroyedOutLabel>
   <!-- EN: a burn -->
   <Burn.labelNoun>popálenina</Burn.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -84,11 +84,11 @@
   <!-- EN: tended -->
   <ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>ošetřené</ChemicalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: chemical burn scar -->
-  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po poleptání</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po chemickém poleptání</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedLabel>zničené chemikálií</ChemicalBurn.injuryProps.destroyedLabel>
+  <ChemicalBurn.injuryProps.destroyedLabel>Spálené chemikálií</ChemicalBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out (chemical) -->
-  <ChemicalBurn.injuryProps.destroyedOutLabel>vypálené chemikálií</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <ChemicalBurn.injuryProps.destroyedOutLabel>Vypálené chemikálií</ChemicalBurn.injuryProps.destroyedOutLabel>
   <!-- EN: a chemical burn -->
   <ChemicalBurn.labelNoun>chemické poleptání</ChemicalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -107,7 +107,7 @@
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>trvalé následky po zlomenině</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Shattered -->
-  <Crack.injuryProps.destroyedLabel>roztříštěné</Crack.injuryProps.destroyedLabel>
+  <Crack.injuryProps.destroyedLabel>Roztříštěné</Crack.injuryProps.destroyedLabel>
   <!-- EN: a crack wound -->
   <Crack.labelNoun>zlomenina</Crack.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -126,7 +126,7 @@
   <!-- EN: mangled scar -->
   <Crush.comps.HediffComp_GetsPermanent.permanentLabel>jizva po rozdrcení</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Crushed -->
-  <Crush.injuryProps.destroyedLabel>rozdrcené</Crush.injuryProps.destroyedLabel>
+  <Crush.injuryProps.destroyedLabel>Rozdrcené</Crush.injuryProps.destroyedLabel>
   <!-- EN: a crush wound -->
   <Crush.labelNoun>rozdrcení</Crush.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -145,9 +145,9 @@
   <!-- EN: cut scar -->
   <Cut.comps.HediffComp_GetsPermanent.permanentLabel>jizva po pořezání</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
-  <Cut.injuryProps.destroyedLabel>odříznuté</Cut.injuryProps.destroyedLabel>
+  <Cut.injuryProps.destroyedLabel>Odříznuté</Cut.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <Cut.injuryProps.destroyedOutLabel>vyříznuté</Cut.injuryProps.destroyedOutLabel>
+  <Cut.injuryProps.destroyedOutLabel>Vyříznuté</Cut.injuryProps.destroyedOutLabel>
   <!-- EN: a cut -->
   <Cut.labelNoun>pořezání</Cut.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -156,11 +156,11 @@
   <!-- EN: decayed organ -->
   <Decayed.label>odumřelý orgán</Decayed.label>
   <!-- EN: This organ has completely decayed. -->
-  <Decayed.description>Tento orgán již kompletně odumřel</Decayed.description>
+  <Decayed.description>Tento orgán již zcela odumřel.</Decayed.description>
   <!-- EN: a decayed organ -->
   <Decayed.labelNoun>odumřelý orgán</Decayed.labelNoun>
   <!-- EN: decayed {1} -->
-  <Decayed.labelNounPretty>TODO</Decayed.labelNounPretty>
+  <Decayed.labelNounPretty>odumřelý {1}</Decayed.labelNounPretty>
   
   <!-- EN: electrical burn -->
   <ElectricalBurn.label>elektrická popálenina</ElectricalBurn.label>
@@ -169,22 +169,22 @@
   <!-- EN: electrical burn scar -->
   <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>jizva po elektrické popálenině</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Burned off -->
-  <ElectricalBurn.injuryProps.destroyedLabel>spáleno</ElectricalBurn.injuryProps.destroyedLabel>
+  <ElectricalBurn.injuryProps.destroyedLabel>Spálené proudem</ElectricalBurn.injuryProps.destroyedLabel>
   <!-- EN: Burned out -->
-  <ElectricalBurn.injuryProps.destroyedOutLabel>zničeno proudem</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <ElectricalBurn.injuryProps.destroyedOutLabel>Vypálené proudem</ElectricalBurn.injuryProps.destroyedOutLabel>
   <!-- EN: an electrical burn -->
   <ElectricalBurn.labelNoun>elektrická popálenina</ElectricalBurn.labelNoun>
   <!-- EN: {0} in the {1} -->
-  <ElectricalBurn.labelNounPretty>TODO</ElectricalBurn.labelNounPretty>
+  <ElectricalBurn.labelNounPretty>{0} na {1}</ElectricalBurn.labelNounPretty>
   
   <!-- EN: cut -->
   <ExecutionCut.label>podřezání</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
   <ExecutionCut.description>Řez provedený během popravy nebo porážky.</ExecutionCut.description>
   <!-- EN: Cut off -->
-  <ExecutionCut.injuryProps.destroyedLabel>podříznuté</ExecutionCut.injuryProps.destroyedLabel>
+  <ExecutionCut.injuryProps.destroyedLabel>Odříznuté</ExecutionCut.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <ExecutionCut.injuryProps.destroyedOutLabel>vyříznuté</ExecutionCut.injuryProps.destroyedOutLabel>
+  <ExecutionCut.injuryProps.destroyedOutLabel>Vyříznuté</ExecutionCut.injuryProps.destroyedOutLabel>
   <!-- EN: a cut -->
   <ExecutionCut.labelNoun>podřezání</ExecutionCut.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -203,7 +203,7 @@
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>jizva po omrzlině</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Lost to frostbite -->
-  <Frostbite.injuryProps.destroyedLabel>zničené mrazem</Frostbite.injuryProps.destroyedLabel>
+  <Frostbite.injuryProps.destroyedLabel>Zničené mrazem</Frostbite.injuryProps.destroyedLabel>
   <!-- EN: {0} in the {1} -->
   <Frostbite.labelNounPretty>{0} na {1}</Frostbite.labelNounPretty>
   
@@ -222,9 +222,9 @@
   <!-- EN: old gunshot -->
   <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>staré střelné zranění</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Shot off -->
-  <Gunshot.injuryProps.destroyedLabel>ustřelené</Gunshot.injuryProps.destroyedLabel>
+  <Gunshot.injuryProps.destroyedLabel>Ustřelené</Gunshot.injuryProps.destroyedLabel>
   <!-- EN: Shot out -->
-  <Gunshot.injuryProps.destroyedOutLabel>vystřelené</Gunshot.injuryProps.destroyedOutLabel>
+  <Gunshot.injuryProps.destroyedOutLabel>Vystřelené</Gunshot.injuryProps.destroyedOutLabel>
   <!-- EN: a gunshot wound -->
   <Gunshot.labelNoun>střelné zranění</Gunshot.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -243,7 +243,7 @@
   <!-- EN: scar -->
   <Misc.comps.HediffComp_GetsPermanent.permanentLabel>jizva</Misc.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Destroyed -->
-  <Misc.injuryProps.destroyedLabel>zničené</Misc.injuryProps.destroyedLabel>
+  <Misc.injuryProps.destroyedLabel>Zničené</Misc.injuryProps.destroyedLabel>
   <!-- EN: an injury -->
   <Misc.labelNoun>zranění</Misc.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -271,9 +271,9 @@
   <!-- EN: scratch scar -->
   <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>jizva po škrábnutí</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Torn off -->
-  <Scratch.injuryProps.destroyedLabel>odpárané</Scratch.injuryProps.destroyedLabel>
+  <Scratch.injuryProps.destroyedLabel>Odpárané</Scratch.injuryProps.destroyedLabel>
   <!-- EN: Torn out -->
-  <Scratch.injuryProps.destroyedOutLabel>vyškrábané</Scratch.injuryProps.destroyedOutLabel>
+  <Scratch.injuryProps.destroyedOutLabel>Vypárané</Scratch.injuryProps.destroyedOutLabel>
   <!-- EN: a scratch -->
   <Scratch.labelNoun>škrábanec</Scratch.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -292,9 +292,9 @@
   <!-- EN: shredded scar -->
   <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>jizva po výbuchu</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Torn off -->
-  <Shredded.injuryProps.destroyedLabel>utržené výbuchem</Shredded.injuryProps.destroyedLabel>
+  <Shredded.injuryProps.destroyedLabel>Utržené výbuchem</Shredded.injuryProps.destroyedLabel>
   <!-- EN: Torn out -->
-  <Shredded.injuryProps.destroyedOutLabel>poškozené výbuchem</Shredded.injuryProps.destroyedOutLabel>
+  <Shredded.injuryProps.destroyedOutLabel>Vytržené výbuchem</Shredded.injuryProps.destroyedOutLabel>
   <!-- EN: a shredded wound -->
   <Shredded.labelNoun>zranění výbuchem</Shredded.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -313,9 +313,9 @@
   <!-- EN: stab scar -->
   <Stab.comps.HediffComp_GetsPermanent.permanentLabel>jizva po bodnutí</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Cut off -->
-  <Stab.injuryProps.destroyedLabel>odříznuté</Stab.injuryProps.destroyedLabel>
+  <Stab.injuryProps.destroyedLabel>Odříznuté</Stab.injuryProps.destroyedLabel>
   <!-- EN: Cut out -->
-  <Stab.injuryProps.destroyedOutLabel>vybodnuté</Stab.injuryProps.destroyedOutLabel>
+  <Stab.injuryProps.destroyedOutLabel>Vyříznuté</Stab.injuryProps.destroyedOutLabel>
   <!-- EN: a stab wound -->
   <Stab.labelNoun>bodné zranění</Stab.labelNoun>
   <!-- EN: {0} in the {1} -->

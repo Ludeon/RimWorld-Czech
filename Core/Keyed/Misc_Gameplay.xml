@@ -193,7 +193,7 @@
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>využívá 1 spacák</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>{replace: ​{0}​; "​0​"-"nemá žádný spacák"; "​2​"-"využívá 2 spacáky"; "​3​"-"využívá 3 spacáky"; "​4​"-"využívá 4 spacáky"; "​{0}​"-"využívá {0} spacáků"}</UsingBedrolls>
+  <UsingBedrolls>{replace: ^{0}^; "^0^"-"nemá žádný spacák"; "^2^"-"využívá 2 spacáky"; "^3^"-"využívá 3 spacáky"; "^4^"-"využívá 4 spacáky"; "^{0}^"-"využívá {0} spacáků"}</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Odhadovaný čas do cíle: {0} dnů</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
@@ -211,17 +211,17 @@
   <!-- EN: Stopped because: Everyone is in a mental break. -->
   <AllCaravanMembersMentalBreak>Stojí, protože se všichni nervově zhroutili.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
-  <CaravanColonistsCount>{replace: ​{0}​ {1}; "​2​ domorodci"-"2 domorodci"; "​3​ domorodci"-"3 domorodci"; "​4​ domorodci"-"4 domorodci"; "​{0}​ domorodci"-"{0} domorodců"; "​2​ kolonisté"-"2 kolonisté"; "​3​ kolonisté"-"3 kolonisté"; "​4​ kolonisté"-"4 kolonisté"; "​{0}​ kolonisté"-"{0} kolonistů"}</CaravanColonistsCount>
+  <CaravanColonistsCount>{replace: ^{0}^ {1}; "^1^"-"1"; "^2^ domorodci"-"2 domorodci"; "^3^ domorodci"-"3 domorodci"; "^4^ domorodci"-"4 domorodci"; "^{0}^ domorodci"-"{0} domorodců"; "^2^ kolonisté"-"2 kolonisté"; "^3^ kolonisté"-"3 kolonisté"; "^4^ kolonisté"-"4 kolonisté"; "^{0}^ kolonisté"-"{0} kolonistů"}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
   <CaravanAnimal>1 zvíře</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{replace: ​{0}​; "​1​"-"1 zvíře"; "​2​"-"2 zvířata"; "​3​"-"3 zvířata"; "​4​"-"4 zvířata"; "​{0}​"-"{0} zvířat"}</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{replace: ^{0}^; "^2^"-"2 zvířata"; "^3^"-"3 zvířata"; "^4^"-"4 zvířata"; "^{0}^"-"{0} zvířat"}</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
   <CaravanPrisoner>1 vězeň</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{replace: ​{0}​; "​1​"-"1 vězeň"; "​2​"-"2 vězni"; "​3​"-"3 vězni"; "​4​"-"4 vězni"; "​{0}​"-"{0} vězňů"}</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{replace: ^{0}^; "^2^"-"2 vězni"; "^3^"-"3 vězni"; "^4^"-"4 vězni"; "^{0}^"-"{0} vězňů"}</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{replace: ​{0}​; "​1​"-"1 nervově zhroucený"; "​2​"-"2 nervově zhroucení"; "​3​"-"3 nervově zhroucení"; "​4​"-"4 nervově zhroucení"; "​{0}​"-"{0} nervově zhroucených"}</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{replace: ^{0}^; "^1^"-"1 nervově zhroucený"; "^2^"-"2 nervově zhroucení"; "^3^"-"3 nervově zhroucení"; "^4^"-"4 nervově zhroucení"; "^{0}^"-"{0} nervově zhroucených"}</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
   <CaravanPawnsDowned>{0} v bezvědomí</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
@@ -335,7 +335,7 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift + Klik: Označit vše\nShift + Pravý klik: Zrušit vše</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>{replace: ​{0}​ {1}; "​1​ lidé"-"1 osoba"; "​2​ lidé"-"2 osoby"; "​3​ lidé"-"3 osoby"; "​4​ lidé"-"4 osoby"; "​{0}​ lidé"-"{0} osob"; "​1​ minomety"-"1 minomet"; "​2​ minomety"-"2 minomety"; "​3​ minomety"-"3 minomety"; "​4​ minomety"-"4 minomety"; "​{0}​ minomety"-"{0} minometů"; "​1​ nepřátelé"-"1 nepřítel"; "​2​ nepřátelé"-"2 nepřátelé"; "​3​ nepřátelé"-"3 nepřátelé"; "​4​ nepřátelé"-"4 nepřátelé"; "​{0}​ nepřátelé"-"{0} nepřátel"; "​1​ střelecké věže"-"1 střelecká věž"; "​2​ střelecké věže"-"2 střelecké věže"; "​3​ střelecké věže"-"3 střelecké věže"; "​4​ střelecké věže"-"4 střelecké věže"; "​{0}​ střelecké věže"-"{0} střeleckých věží"}</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{replace: ^{0}^ {1}; "^1^ lidé"-"1 osoba"; "^2^ lidé"-"2 osoby"; "^3^ lidé"-"3 osoby"; "^4^ lidé"-"4 osoby"; "^{0}^ lidé"-"{0} osob"; "^1^ minomety"-"1 minomet"; "^2^ minomety"-"2 minomety"; "^3^ minomety"-"3 minomety"; "^4^ minomety"-"4 minomety"; "^{0}^ minomety"-"{0} minometů"; "^1^ nepřátelé"-"1 nepřítel"; "^2^ nepřátelé"-"2 nepřátelé"; "^3^ nepřátelé"-"3 nepřátelé"; "^4^ nepřátelé"-"4 nepřátelé"; "^{0}^ nepřátelé"-"{0} nepřátel"; "^1^ střelecké věže"-"1 střelecká věž"; "^2^ střelecké věže"-"2 střelecké věže"; "^3^ střelecké věže"-"3 střelecké věže"; "^4^ střelecké věže"-"4 střelecké věže"; "^{0}^ střelecké věže"-"{0} střeleckých věží"}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>Požadované dovednosti</SkillRequirements>
   <!-- EN: Products -->
@@ -1280,11 +1280,11 @@
   <!-- EN: Must be placed under thick roof. -->
   <MustPlaceUnderThickRoof>Musí být pod silným stropem.</MustPlaceUnderThickRoof>
   <!-- EN: Must be placed against a wall. -->
-  <MustPlaceOnWall>Musí být umstněno na zdi.</MustPlaceOnWall>
+  <MustPlaceOnWall>Musí být umístěno na zdi.</MustPlaceOnWall>
   <!-- EN: Something is already placed on this wall. -->
-  <SomethingPlacedOnThisWall>Něco už je umístněno na této zdi.</SomethingPlacedOnThisWall>
+  <SomethingPlacedOnThisWall>Na této zdi je již něco umístěno.</SomethingPlacedOnThisWall>
   <!-- EN: This building can not support attachments. -->
-  <CannotSupportAttachment>TODO</CannotSupportAttachment>
+  <CannotSupportAttachment>Tento objekt neumožňuje uchycení předmětů.</CannotSupportAttachment>
   <!-- EN: Must place with head attached to ship structural beam. -->
   <MustPlaceHeadOnShipBeam>Musí být čelem připojeno k lodnímu strukturálnímu nosníku.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
@@ -1448,9 +1448,9 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Nemá vliv na žádný objekt</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>TODO</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Maximum připojených na objekt</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>TODO</FacilityFrontBlocked>
+  <FacilityFrontBlocked>Přední část objektu je blokovaná.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1640,9 +1640,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Kořist z tábora</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>Není jisté co se stane pokud přijmeš tento úkol</Reward_Unknown> 
+  <Reward_Unknown>Pokud přijmeš tento úkol, není jasné, co se stane</Reward_Unknown> 
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>TODO</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>Velká neznámá</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>návštěva bude pracovat a bojovat po tvém boku</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1802,7 +1802,7 @@
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění budou mít na {replace: ​{1}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{1}​"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Všichni zúčastnění budou mít na {replace: ^{1}^; "^1^"-"1 den"; "^2^"-"2 dny"; "^3^"-"3 dny"; "^4^"-"4 dny"; "^{1}^"-"{1} dnů"} {0} k náladě.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>Tento rituál nemá žádné kvalitativní odchylky, a proto lze vždy očekávat nejlepší výsledek.</RitualOutcomeNoQuality>
 
@@ -1987,7 +1987,7 @@
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>Uložené knihy</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
-  <BookshelfReadingBonusInspect>Bonus pro čtení v místnosti</BookshelfReadingBonusInspect>
+  <BookshelfReadingBonusInspect>Bonus ze čtení v místnosti</BookshelfReadingBonusInspect>
 
   <!-- EN: Remove this book from the bookshelf. -->
   <EjectBookTooltip>Vyjmout knihu z knihovny.</EjectBookTooltip>

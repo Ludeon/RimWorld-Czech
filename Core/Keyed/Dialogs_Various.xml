@@ -1046,7 +1046,9 @@
   <ReadingPolicyTip>Vytvoř a spravuj předpisy pro řízení toho, jaké knihy mají členové kolonie dovoleno číst.</ReadingPolicyTip>
   <!-- EN: Reading policy -->
   <ReadingPolicy>Knižní předpis</ReadingPolicy>
-  
+  <!-- EN: Reading policy is in use -->
+  <ReadingPolicyInUse>Knižní předpis používá {0}.</ReadingPolicyInUse> <!-- text_todo -->
+
   <!-- EN: Anything -->
   <AllReadingPolicy>Cokoliv</AllReadingPolicy>
   <!-- EN: None -->
@@ -1062,7 +1064,7 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Nastavení norem medicíny</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>Tyto nastavení norem medicíny budou přiřazena pro všechna stvoření, když se poprvé přiřadí k dané skupině. Toto nastavení můžeš manuálně změnit v záložce zdraví.\n\nPokud se toto stvoření připojí k jiné skupině, změní se i jeho nastavení na nastavení této skupiny a to i v případě že už mělo nastavení manuálně upraveno.</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>Tato zdravotnická nastavení jsou bytostem přiřazena, když se poprvé začlenění do dané skupiny. Toto nastavení můžeš jednotlivci přiřadit i ručně na jeho kartě zdraví.\n\nPoznámka: Pokud se bytost připojí k jiné skupině, vždy přebírá nastavení této nové skupiny a to i v případě, že jsi jí předtím nějaké nastavení přiřadil.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>Norma</MedGroupDefaults>
@@ -1075,37 +1077,37 @@
   <!-- EN: Prisoners -->
   <MedGroupPrisoners>Vězni</MedGroupPrisoners>
   <!-- EN: Prisoners in your colony, regardless of faction. -->
-  <MedGroupPrisonersDesc>Vězni v tvojí kolonii bez ohledu na frakci.</MedGroupPrisonersDesc>
+  <MedGroupPrisonersDesc>Vězni ve tvé kolonii bez ohledu na frakci.</MedGroupPrisonersDesc>
 
   <!-- EN: Tamed animals -->
   <MedGroupTamedAnimals>Ochočená zvířata</MedGroupTamedAnimals>
   <!-- EN: Animals which have been tamed by your colony. -->
-  <MedGroupTamedAnimalsDesc>Ochočená zvířata patřící tvojí kolonii.</MedGroupTamedAnimalsDesc>
+  <MedGroupTamedAnimalsDesc>Zvířata, která si tvá kolonie ochočila.</MedGroupTamedAnimalsDesc>
 
-  <!-- EN: Friendly faction members ***-->
-  <MedGroupFriendlyFaction>Přátelská frakce</MedGroupFriendlyFaction>
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>Členové přátelské frakce</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>Lidé nebo zvířata které jsou součástí frakce které je přátelská s tvou frakcí. (prestiž nad 75)</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>Lidé nebo zvířata, která jsou součástí frakce, která je vůči tvé frakci přátelská (prestiž nad 75).</MedGroupFriendlyFactionDesc>
   
-  <!-- EN: Neutral faction members ***-->
-  <MedGroupNeutralFaction>Neutrální frakce</MedGroupNeutralFaction>
+  <!-- EN: Neutral faction members -->
+  <MedGroupNeutralFaction>Členové neutrální frakce</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>Lidé nebo zvířata které jsou součástí frakce které je neutrální k tvé frakcí. (prestiž mezi -75 a 75)</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>Lidé nebo zvířata, která jsou součástí frakce, která je vůči tvé frakci neutrální (prestiž mezi -75 a 75).</MedGroupNeutralFactionDesc>
 
-  <!-- EN: Hostile faction members ***-->
-  <MedGroupHostileFaction>Nepřátelská frakce</MedGroupHostileFaction>
+  <!-- EN: Hostile faction members -->
+  <MedGroupHostileFaction>Členové nepřátelské frakce</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>Lidé nebo zvířata které jsou součástí frakce které je nepřátelská k tvé frakcí. (prestiž pod -75)</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>Lidé nebo zvířata, která jsou součástí frakce, která je vůči tvé frakci nepřátelská (prestiž pod -75).</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
   <MedGroupNoFaction>Ostatní lidé</MedGroupNoFaction>
   <!-- EN: Humans who are not members of any faction. -->
-  <MedGroupNoFactionDesc>Lidé kteří nejsou členy žádné frakce.</MedGroupNoFactionDesc>
+  <MedGroupNoFactionDesc>Lidé, kteří nejsou členy žádné frakce.</MedGroupNoFactionDesc>
   
   <!-- EN: Wildlife -->
   <MedGroupWildlife>Divoká zvěř</MedGroupWildlife>
   <!-- EN: Animals and other creatures which are not members of any faction. -->
-  <MedGroupWildlifeDesc>Zvířata a jiná stvoření které nejsou součástí žádné frakce.</MedGroupWildlifeDesc>
+  <MedGroupWildlifeDesc>Zvířata a jiná stvoření, která nejsou součástí žádné frakce.</MedGroupWildlifeDesc>
 
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
@@ -1410,11 +1412,11 @@
   <!-- EN: Search the current map. -->
   <SearchTheMap>Prohledej aktuální mapu.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
-  <SearchTheMapDesc>Prohledej aktuální mapu pro věci, budovy, lidi, zvířata, rostliny a další.</SearchTheMapDesc>
+  <SearchTheMapDesc>Prohledej aktuální mapu za účelem nalezení předmětů, budov, osob, zvířat, rostlin a dalších věcí.</SearchTheMapDesc>
   <!-- EN: {0} results found -->
-  <MapSearchResults>TODO</MapSearchResults>
+  <MapSearchResults>{replace: ^{0}^; "^1^"-"1 zjištěný nález"; "^2^"-"2 zjištěné nálezy"; "^3^"-"3 zjištěné nálezy"; "^4^"-"4 zjištěné nálezy"; "^{0}^"-"{0} zjištěných nálezů"}</MapSearchResults>
   <!-- EN: 1 result found -->
-  <MapSearchResultSingular>1 odpovýdající objekt</MapSearchResultSingular>
+  <MapSearchResultSingular>1 zjištěný nález</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Hledá</Searching>
 
