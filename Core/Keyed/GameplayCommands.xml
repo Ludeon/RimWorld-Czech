@@ -240,13 +240,13 @@
   <!-- EN: Auto rearm -->
   <CommandAutoRearm>Automaticky nastražit</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>Pokud je tato volba zapnuta, tato past se po svém spuštění automaticky znovu nastraží.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Pokud je tato volba zapnuta, tato past se po spuštění automaticky znovu nastraží.</CommandAutoRearmDesc>
   
   <!-- Firefoam popper -->
   <!-- EN: Auto rebuild -->
-  <CommandAutoRebuild_Building>Automat.\nznovupostavit</CommandAutoRebuild_Building>
+  <CommandAutoRebuild_Building>Automaticky znovupostavit</CommandAutoRebuild_Building>
   <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
-  <CommandAutoRebuild_BuildingDesc>Pokud je toto nastavení aktivní, tato budova se po použití znovu znovu označí k postavení.</CommandAutoRebuild_BuildingDesc>
+  <CommandAutoRebuild_BuildingDesc>Pokud je tato volba zapnuta, {BUILDING_definite} se po detonaci automaticky znovu nahradí.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -341,7 +341,7 @@
   <CommandMergeCaravansDesc>Sloučí vybrané karavany.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Vyber všechny karavany, které mají být sloučeny. Karavany musí být blízko sebe.</CommandMergeCaravansFailCaravansNotSelected>
-  <!-- EN: Join ?-->
+  <!-- EN: Join -->
   <CommandJoinCaravan>Přidat se</CommandJoinCaravan>
   
   <!-- Settle -->
@@ -578,9 +578,9 @@
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Pustí přepravovanou osobu.</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>Vybrat {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>Vybrat neseného tvora.</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>Vybere neseného tvora.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
   <CommandSelectCarriedThing>Vybrat {lookup: {0_label}; case\singular; 4}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
@@ -590,9 +590,9 @@
   <!-- EN: Select the containing item. -->
   <CommandSelectContainerThingDesc>Vybere nádobu.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>Vybrat {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>Vybrat nesoucího tvora.</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>Vybere nesoucího tvora.</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
   <CommandSelectContainedPawn>Vybrat {lookup: {0_label}; case\singular; 4}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
@@ -658,9 +658,9 @@
 
   <!-- Study -->
   <!-- EN: Toggle study -->
-  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <CommandToggleStudy>Umožnit zkoumání</CommandToggleStudy>
   <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
-  <CommandToggleStudyDesc>Zda bude dozorce toto automaticky zkoumat. Zakázané věci nebudou nikdy zkoumány.</CommandToggleStudyDesc>
+  <CommandToggleStudyDesc>Určuje, zda toto budou dozorci automaticky zkoumat. Zakázané věci nebudou nikdy zkoumány.</CommandToggleStudyDesc>
 
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
