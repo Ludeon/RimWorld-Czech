@@ -4,9 +4,11 @@
   <!-- EN: chitchat -->
   <Chitchat.label>povídání</Chitchat.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [subject] to [RECIPIENT_nameDef].</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
     <li>talkedabout(p=4)->chatted about</li>
     <li>talkedabout->shared a word about</li>
     <li>talkedabout->spoke about</li>
@@ -21,9 +23,11 @@
     <li>commentedabout->told a joke about</li>
   -->
   <Chitchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] a [RECIPIENT_nameDef] [talkedaboutPlu] [TalkTopicLightLoc].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLightLoc].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLightLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] a [RECIPIENT_nameDef] [talkedaboutPlu] [subjectLoc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subjectLoc].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [subjectLoc].</li>
+    <li>subjectLoc(INITIATOR_cubeInterest==false)->[TalkTopicLightLoc]</li>
+    <li>subjectLoc(INITIATOR_cubeInterest==true)->[TalkTopicCubeLoc]</li>
     <li>talkedaboutPlu(p=4)->si povídali o</li>
     <li>talkedaboutPlu->si vyměnili pár slov o</li>
     <li>talkedaboutPlu->mluvili o</li>
@@ -60,7 +64,8 @@
     <li>talkedabout->talked quietly about</li>
     <li>talkedabout->talked deeply about</li>
     <li>talkedabout->connected on the topic of</li>
-    <li>subject->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==false)->[TalkTopicHeavy]</li>
+    <li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
   -->
   <DeepTalk.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] a [RECIPIENT_nameDef] [talkedaboutPlu].</li>
@@ -85,17 +90,23 @@
     <li>talkedabout->mluvil[INITIATOR_pronoun] šeptem s osobou jménem [RECIPIENT_nameDef] o [subjectLoc]</li>
     <li>talkedabout->podrobně mluvil[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] o [subjectLoc]</li>
     <li>talkedabout->navázal[INITIATOR_pronoun] s osobou jménem [RECIPIENT_nameDef] na téma '[subjectNom]'</li>
-    <li>subjectNom->[TalkTopicHeavyNom]</li>
-    <li>subjectAcc->[TalkTopicHeavyAcc]</li>
-    <li>subjectLoc->[TalkTopicHeavyLoc]</li>
+    <li>subjectNom(INITIATOR_cubeInterest==false)->[TalkTopicHeavyNom]</li>
+    <li>subjectNom(INITIATOR_cubeInterest==true)->[TalkTopicCubeNom]</li>
+    <li>subjectAcc(INITIATOR_cubeInterest==false)->[TalkTopicHeavyAcc]</li>
+    <li>subjectAcc(INITIATOR_cubeInterest==true)->[TalkTopicCubeAcc]</li>
+    <li>subjectLoc(INITIATOR_cubeInterest==false)->[TalkTopicHeavyLoc]</li>
+    <li>subjectLoc(INITIATOR_cubeInterest==true)->[TalkTopicCubeLoc]</li>
   </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
   <Insult.label>urážka</Insult.label>
   <!-- EN:
-    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
     <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
     <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>insulted(p=3)->insulted</li>
@@ -108,17 +119,22 @@
     <li>insulted->slandered</li>
     <li>insulted->hurled invective about</li>
     <li>insulted->derided</li>
-    <li>insultcomparison(p=2)->[Animal]</li>
-    <li>insultcomparison->[Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->sphere</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->non-cubic geometric shape</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted].</li>
     <li>r_logentry->[INITIATOR_nameDef] přirovnal[INITIATOR_pronoun] [target] [insultcomparisonToDat].</li>
     <li>r_logentry->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [target] [insultcomparisonIns].</li>
-    <li>targetInsulted(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetInsulted->osobu jménem [RECIPIENT_nameDef] tím, že se negativně vyjádřil[INITIATOR_pronoun] k [RECIPIENT_possessive] rodině, konkrétně [PersonFamilyToWhi] [PersonalCharacteristicUniAcc]</li>
-    <li>targetInsultedTo(p=4)->k osobě jménem [RECIPIENT_nameDef]. Negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetInsultedTo->[PersonFamilyInsTo] [PersonalCharacteristicUniAcc]</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [target] uctívačem falešné modly.</li>
+    <li>characteristicUniAcc(INITIATOR_cubeInterest==false)->[PersonalCharacteristicUniAcc]</li>
+    <li>characteristicUniAcc(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCubeUniAcc]</li>
+    <li>targetInsulted(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetInsulted->osobu jménem [RECIPIENT_nameDef] tím, že se negativně vyjádřil[INITIATOR_pronoun] k [RECIPIENT_possessive] rodině, konkrétně [PersonFamilyToWhi] [characteristicUniAcc]</li>
+    <li>targetInsultedTo(p=4)->k osobě jménem [RECIPIENT_nameDef]. Negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetInsultedTo->[PersonFamilyInsTo] [characteristicUniAcc]</li>
     <li>target(p=4)->osobu jménem [RECIPIENT_nameDef]</li>
     <li>target->[PersonFamilyUniAcc] osoby jménem [RECIPIENT_nameDef]</li>
     <li>insulted(p=4)->urazil[INITIATOR_pronoun] [targetInsulted]</li>
@@ -131,16 +147,22 @@
     <li>insulted->pomluvil[INITIATOR_pronoun] [targetInsulted]</li>
     <li>insulted->vychrlil[INITIATOR_pronoun] urážky směrem [targetInsultedTo]</li>
     <li>insulted->zesměšnil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insultcomparisonToDat(p=2)->[AnimalToUniDat]</li>
-    <li>insultcomparisonToDat->[EnemyToUniDat]</li>
-    <li>insultcomparisonIns(p=2)->[AnimalUniIns]</li>
-    <li>insultcomparisonIns->[EnemyUniIns]</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==false,p=2)->[AnimalToUniDat]</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==false)->[EnemyToUniDat]</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->kouli</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->nekubickému geometrickému tvaru</li>
+    <li>insultcomparisonIns(INITIATOR_cubeInterest==false,p=2)->[AnimalUniIns]</li>
+    <li>insultcomparisonIns(INITIATOR_cubeInterest==false)->[EnemyUniIns]</li>
+    <li>insultcomparisonIns(INITIATOR_cubeInterest==true)->koulí</li>
+    <li>insultcomparisonIns(INITIATOR_cubeInterest==true)->nekubickým geometrickým tvarem</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
   <KindWords.label>milá slova</KindWords.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>complimented(p=3)->complimented</li>
     <li>complimented->praised</li>
     <li>complimented->commended</li>
@@ -156,7 +178,9 @@
     <li>complimented->said good things about</li>
   -->
   <KindWords.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_possessive] [characteristicUniAcc].</li>
+    <li>characteristicUniAcc(INITIATOR_cubeInterest==false)->[PersonalCharacteristicUniAcc]</li>
+    <li>characteristicUniAcc(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCubeUniAcc]</li>
     <li>complimented(p=3)->chválil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
     <li>complimented->ocenil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
     <li>complimented->pochválil[INITIATOR_pronoun] osobě jménem [RECIPIENT_nameDef]</li>
@@ -175,7 +199,9 @@
   <!-- EN: slight -->
   <Slight.label>opovržení</Slight.label>
   <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [characteristic].</li>
+    <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+    <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
     <li>madefunof->made fun of</li>
@@ -193,18 +219,20 @@
   -->
   <Slight.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [madefunof].</li>
-    <li>targetmadefunofNom(p=4)->[RECIPIENT_nameDef] oplývá. Řešil[INITIATOR_pronoun] zejména [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofNom->oplývá [PersonFamilyMadNom] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofGen(p=4)->z osoby jménem [RECIPIENT_nameDef]. Komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofGen->[PersonFamilyMadGen] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofDat(p=4)->osobě jménem [RECIPIENT_nameDef]. Nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofDat->[PersonFamilyMadDat] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofAcc(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofAcc->[PersonFamilyMadAcc] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofLoc(p=4)->k osobě jménem [RECIPIENT_nameDef]. Řešil[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofLoc->o [PersonFamilyMadLoc] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofIns(p=4)->osobou jménem [RECIPIENT_nameDef]. Nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [PersonalCharacteristicUniAcc]</li>
-    <li>targetmadefunofIns->[PersonFamilyMadIns] [PersonalCharacteristicUniAcc]</li>
+    <li>characteristicUniAcc(INITIATOR_cubeInterest==false)->[PersonalCharacteristicUniAcc]</li>
+    <li>characteristicUniAcc(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCubeUniAcc]</li>
+    <li>targetmadefunofNom(p=4)->[RECIPIENT_nameDef] oplývá. Řešil[INITIATOR_pronoun] zejména [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetmadefunofNom->oplývá [PersonFamilyMadNom] [characteristicUniAcc]</li>
+    <li>targetmadefunofGen(p=4)->z osoby jménem [RECIPIENT_nameDef]. Komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetmadefunofGen->[PersonFamilyMadGen] [characteristicUniAcc]</li>
+    <li>targetmadefunofDat(p=4)->osobě jménem [RECIPIENT_nameDef]. Nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetmadefunofDat->[PersonFamilyMadDat] [characteristicUniAcc]</li>
+    <li>targetmadefunofAcc(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetmadefunofAcc->[PersonFamilyMadAcc] [characteristicUniAcc]</li>
+    <li>targetmadefunofLoc(p=4)->k osobě jménem [RECIPIENT_nameDef]. Řešil[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetmadefunofLoc->o [PersonFamilyMadLoc] [characteristicUniAcc]</li>
+    <li>targetmadefunofIns(p=4)->osobou jménem [RECIPIENT_nameDef]. Nevhodně komentoval[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
+    <li>targetmadefunofIns->[PersonFamilyMadIns] [characteristicUniAcc]</li>
     <li>madefunof->si dělal[INITIATOR_pronoun] srandu [targetmadefunofGen]</li>
     <li>madefunof->znemožnil[INITIATOR_pronoun] [targetmadefunofAcc]</li>
     <li>madefunof->lstivě opovrhoval[INITIATOR_pronoun] [targetmadefunofIns]</li>
