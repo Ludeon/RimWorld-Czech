@@ -2,34 +2,34 @@
 <LanguageData>
   
   <!-- EN: {0} was born healthy -->
-  <BabyBorn.stages.was_born_healthy.label>{0} se narodil{1_pronoun} {1_gender ? zdravý : zdravá}</BabyBorn.stages.was_born_healthy.label>
+  <BabyBorn.stages.was_born_healthy.label>{0} se narodil{0_pronoun} {0_gender ? zdravý : zdravá : zdravé}</BabyBorn.stages.was_born_healthy.label>
   <!-- EN: My baby brings me so much joy. I would move earth and sky for my little one. -->
-  <BabyBorn.stages.was_born_healthy.description>Moje dítě mi přináší tolik radosti. Přenesl{0_pronoun} bych hory pro {1_gender ? mého malého : moji malou}.</BabyBorn.stages.was_born_healthy.description>
+  <BabyBorn.stages.was_born_healthy.description>Moje dítě mi přináší tolik radosti. {0_gender ? Přenesl : Přenesla} bych hory pro {1_gender ? mého malého : moji malou}.</BabyBorn.stages.was_born_healthy.description>
   
   <!-- EN: fed on by {0} -->
-  <FedOn.stages.fed_on_by.label>krmil se na mě krvesaj</FedOn.stages.fed_on_by.label>
+  <FedOn.stages.fed_on_by.label>{1_gender ? Krmil : Krmila} se na mě {0}</FedOn.stages.fed_on_by.label>
   <!-- EN: I was violated by a bloodfeeder like some kind of livestock. -->
-  <FedOn.stages.fed_on_by.description>Byl{PAWN_pronoun} jsem znesvědcen{PAWN_pronoun} krvesajem, jako bych byl{PAWN_pronoun} nějaká chovná zvěř.</FedOn.stages.fed_on_by.description>
+  <FedOn.stages.fed_on_by.description>{0_gender ? Byl : Byla} jsem {0_gender ? znesvěcen : znesvěcena} {1_gender ? krvesajem : krvesajkou}, jako bych {0_gender ? byl : byla} nějaká chovná zvěř.</FedOn.stages.fed_on_by.description>
   
   <!-- EN: ingested hemogen pack -->
-  <IngestedHemogenPack.stages.ingested_hemogen_pack.label>snědl{PAWN_pronoun} balíček hemogenu</IngestedHemogenPack.stages.ingested_hemogen_pack.label>
+  <IngestedHemogenPack.stages.ingested_hemogen_pack.label>{0_gender ? Pozřel : Pozřela} hemogenový balíček</IngestedHemogenPack.stages.ingested_hemogen_pack.label>
   <!-- EN: I ingested a hemogen pack. It might keep me alive, but it was absolutely disgusting. -->
-  <IngestedHemogenPack.stages.ingested_hemogen_pack.description>Snědl{PAWN_pronoun} jsem balíček hemogenu. Možná mě to udrží naživu, ale bylo to absolutně odporné.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
+  <IngestedHemogenPack.stages.ingested_hemogen_pack.description>{0_gender ? Pozřel : Pozřela} jsem hemogenový balíček. Možná mě to udrží naživu, ale bylo to absolutně odporné.</IngestedHemogenPack.stages.ingested_hemogen_pack.description>
   
   <!-- EN: miscarried -->
-  <Miscarried.stages.miscarried.label>potratil{0_pronoun}</Miscarried.stages.miscarried.label>
+  <Miscarried.stages.miscarried.label>{0_gender ? Potratil : Potratila} jsem</Miscarried.stages.miscarried.label>
   <!-- EN: I lost my child. -->
   <Miscarried.stages.miscarried.description>{0_gender ? Přišel : Přišla} jsem svoje dítě.</Miscarried.stages.miscarried.description>
   
   <!-- EN: {0} miscarried -->
-  <PartnerMiscarried.stages.miscarried.label>{0} potratil{1_pronoun}</PartnerMiscarried.stages.miscarried.label>
+  <PartnerMiscarried.stages.miscarried.label>{0} {0_gender ? potratil : potratila}</PartnerMiscarried.stages.miscarried.label>
   <!-- EN: My child's story ended before it started. -->
   <PartnerMiscarried.stages.miscarried.description>Příběh mého dítěte skončil dřív, než vůbec začal.</PartnerMiscarried.stages.miscarried.description>
   
   <!-- EN: pregnancy ended -->
   <PregnancyEnded.stages.pregnancy_ended.label>dokončené těhotenství</PregnancyEnded.stages.pregnancy_ended.label>
   <!-- EN: I'm relieved I'm not pregnant any more. -->
-  <PregnancyEnded.stages.pregnancy_ended.description>Ulevilo se mi, že už nejsem těhotn{0_gender ? ý : á}.</PregnancyEnded.stages.pregnancy_ended.description>
+  <PregnancyEnded.stages.pregnancy_ended.description>Ulevilo se mi, že už nejsem {0_gender ? těhotný : těhotná}.</PregnancyEnded.stages.pregnancy_ended.description>
   
   <!-- EN: pregnancy terminated -->
   <PregnancyTerminated.stages.pregnancy_terminated-0.label>přerušení těhotenství</PregnancyTerminated.stages.pregnancy_terminated-0.label>
@@ -57,6 +57,6 @@
   <!-- EN: genes harvested -->
   <XenogermHarvested_Prisoner.stages.genes_harvested.label>odebraní genů</XenogermHarvested_Prisoner.stages.genes_harvested.label>
   <!-- EN: They extracted my genes like I'm some sort of lab creature. -->
-  <XenogermHarvested_Prisoner.stages.genes_harvested.description>Odebrali mi geny, jako bych byl{0_pronoun} nějaká laboratorní krysa.</XenogermHarvested_Prisoner.stages.genes_harvested.description>
+  <XenogermHarvested_Prisoner.stages.genes_harvested.description>Odebrali mi geny, jako bych {0_gender ? byl : byla} nějaká laboratorní krysa.</XenogermHarvested_Prisoner.stages.genes_harvested.description>
   
 </LanguageData>

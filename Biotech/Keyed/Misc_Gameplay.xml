@@ -10,7 +10,7 @@
   <!-- EN: Danger -->
   <Danger>Nebezpečí</Danger>
   <!-- EN: {0} damage -->
-  <DamageType>TODO</DamageType>
+  <DamageType>poškození {lookup: {0}; case\singular; 7}</DamageType>
   <!-- EN: Contained {0_labelPlural} -->
   <ContainedThings>Obsahuje {lookup: {0}; case\plural; 4}</ContainedThings>
   <!-- EN: Time until next atomization -->
@@ -64,9 +64,9 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>Přeladit</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>Naladit tento pásmový uzel na mechanitora. Ladění bude trvat {0}.</BandNodeTuningDesc>
+  <BandNodeTuningDesc>Naladí tento pásmový uzel na libovolného mechanitora. Ladění bude trvat {0}.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>Přeladit tento pásmový uzel na jiného mechanitora. Přelaďování bude trvat {replace: ^{0}^; "^1 den^"-"1 den"; "^2 dnů^"-"2 dny"; "^3 dnů^"-"3 dny"; "^4 dnů^"-"4 dny"}.</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>Přeladí tento pásmový uzel na jiného mechanitora. Přelaďování bude trvat {replace: ^{0}^; "^1 den^"-"1 den"; "^2 dnů^"-"2 dny"; "^3 dnů^"-"3 dny"; "^4 dnů^"-"4 dny"; "^{0}^"-"{0}"}.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>TODO</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
@@ -432,7 +432,7 @@
   <!-- EN: capacity -->
   <Capacity>kapacita</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
-  <MissingGeneRomanceChance>TODO</MissingGeneRomanceChance>
+  <MissingGeneRomanceChance>Šance vztahu s někým bez {lookup: {GENE}; case\singular; 2}</MissingGeneRomanceChance>
   <!-- EN: Not in gene bank -->
   <NotInGeneBank>Není v genové bance</NotInGeneBank>
 
