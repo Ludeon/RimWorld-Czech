@@ -144,9 +144,9 @@
   <MessageDevelopmentalStageSelectionDisabledByScenario>Výběr vývojové fáze vypnut scénářem.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
   <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} neměl{PAWN_pronoun} dost krve na vytvoření balíčku hemogenu.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} {PAWN_gender ? neměl : neměla} dost krve na vytvoření hemogenového balíčku.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
   <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} nemá dost krve pro vytvoření balíčku hemogenu.</MessageCannotStartHemogenExtraction>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} nemá dost krve pro vytvoření hemogenového balíčku.</MessageCannotStartHemogenExtraction>
 
   <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
   <MessageCannotPostponeGrowthMoment>Musíš si vybrat jak má {PAWN_nameDef} růst.</MessageCannotPostponeGrowthMoment>

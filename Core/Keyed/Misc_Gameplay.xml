@@ -557,7 +557,7 @@
   <!-- EN: Target belongs to another faction. -->
   <TargetBelongsToNPCFaction>Cíl patří jiné frakci.</TargetBelongsToNPCFaction>
   <!-- EN: more -->
-  <MoreLower>více</MoreLower>
+  <MoreLower>navíc</MoreLower>
   <!-- EN: Requires -->
   <RequiredTechprintTip>Vyžaduje</RequiredTechprintTip>
   <!-- EN: size -->
@@ -946,9 +946,9 @@
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>Vyrábí {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
-  <RecipeAdminister>poskytnout {0}</RecipeAdminister>
+  <RecipeAdminister>podat {lookup: {0}; case\singular; 4}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Poskytuje {0}.</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Podává {lookup: {0}; case\singular; 4}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>abstinent bude nešťastný</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->

@@ -76,37 +76,37 @@
   <!-- EN: Immune to -->
   <ImmuneTo>Imunní vůči</ImmuneTo>
   <!-- EN: Social fight chance factor -->
-  <SocialFightChanceFactor>TODO</SocialFightChanceFactor>
+  <SocialFightChanceFactor>Faktor šance vyvolání rvačky</SocialFightChanceFactor>
   <!-- EN: Chance mental break is violent -->
-  <AggroMentalBreakSelectionChanceFactor>Šance na násilné mentální zhroucení.</AggroMentalBreakSelectionChanceFactor>
+  <AggroMentalBreakSelectionChanceFactor>Šance násilného psychického zhroucení</AggroMentalBreakSelectionChanceFactor>
   <!-- EN: Prison break interval factor -->
   <PrisonBreakIntervalFactor>Faktor intervalu pokusu o útěk</PrisonBreakIntervalFactor>
   <!-- EN: Will never prison break. -->
-  <WillNeverPrisonBreak>Nikdy se nepokusí utéct.</WillNeverPrisonBreak>
+  <WillNeverPrisonBreak>Nikdy se nepokusí o útěk.</WillNeverPrisonBreak>
   <!-- EN: Mental breaks are always violent. -->
-  <AlwaysAggroMentalBreak>Mentální zhroucení jsou vždy násilné.</AlwaysAggroMentalBreak>
+  <AlwaysAggroMentalBreak>Psychická zhroucení jsou vždy násilná.</AlwaysAggroMentalBreak>
   <!-- EN: Mental breaks are never violent. -->
-  <NeverAggroMentalBreak>Mentální zhroucení nejsou nikdy násilné.</NeverAggroMentalBreak>
+  <NeverAggroMentalBreak>Psychická zhroucení nejsou nikdy násilná.</NeverAggroMentalBreak>
   <!-- EN: {0_label} addiction chance factor -->
-  <AddictionChanceFactor>TODO</AddictionChanceFactor>
+  <AddictionChanceFactor>Faktor šance vzniku návyku na {lookup: {0_label}; case\singular; 6}</AddictionChanceFactor>
   <!-- EN: {0_label} overdose chance factor -->
-  <OverdoseChanceFactor>TODO</OverdoseChanceFactor>
+  <OverdoseChanceFactor>Faktor šance předávkování {lookup: {0_label}; case\singular; 7}</OverdoseChanceFactor>
   <!-- EN: {0_label} tolerance buildup factor -->
-  <ToleranceBuildupFactor>TODO</ToleranceBuildupFactor>
+  <ToleranceBuildupFactor>Faktor nárůstu tolerance vůči {lookup: {0_label}; case\singular; 3}</ToleranceBuildupFactor>
   <!-- EN: Immune to {0_label} addiction. -->
-  <AddictionImmune>TODO</AddictionImmune>
+  <AddictionImmune>Immunita vůči vzniku návyku na {lookup: {0_label}; case\singular; 6}.</AddictionImmune>
   <!-- EN: Immune to food poisoning. -->
-  <FoodPoisoningImmune>Imunní vůči otravě jídlem.</FoodPoisoningImmune>
+  <FoodPoisoningImmune>Immunita vůči otravě jídlem.</FoodPoisoningImmune>
   <!-- EN: Will never do social fights. -->
   <WillNeverSocialFight>Nikdy se nebude pouštět do rvaček.</WillNeverSocialFight>
   <!-- EN: Aging factors -->
   <AgeFactors>Faktory stárnutí</AgeFactors>
   <!-- EN: Work speed is unaffected by darkness. -->
-  <UnaffectedByDarkness>Rychlost práce neovlivňuje tma.</UnaffectedByDarkness>
+  <UnaffectedByDarkness>Rychlost práce není ovlivněna tmou.</UnaffectedByDarkness>
   <!-- EN: Adds one level of passion in {0_label}. -->
-  <PassionModAdd>TODO</PassionModAdd>
+  <PassionModAdd>Zvýšení vášně u {lookup: {0_label}; case\skills; 2} o jednu úroveň.</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
-  <PassionModDrop>TODO</PassionModDrop>
+  <PassionModDrop>Odebrání všech vášní u {lookup: {0_label}; case\skills; 2}.</PassionModDrop>
   <!-- EN: Causes need -->
   <CausesNeed>Vyvolává potřebu</CausesNeed>
   <!-- EN: Gives ability -->
@@ -132,12 +132,12 @@
   <StatsReport_GrowthVatSpeedFactor>TODO</StatsReport_GrowthVatSpeedFactor>
 
   <!-- EN: Carriers cannot build a tolerance to {0_label}. -->
-  <GeneToleranceBuildupImmune>TODO</GeneToleranceBuildupImmune>
+  <GeneToleranceBuildupImmune>Vůči {lookup: {0_label}; case\singular; 3} si nemohou vybudovat toleranci.</GeneToleranceBuildupImmune>
   <!-- EN: Carriers build a tolerance to {0_label} {1} as quickly. -->
-  <GeneToleranceBuildupFactor>TODO</GeneToleranceBuildupFactor>
+  <GeneToleranceBuildupFactor>Toleranci vůči {lookup: {0_label}; case\singular; 3} si budují o {1} rychleji.</GeneToleranceBuildupFactor>
   <!-- EN: Carriers cannot overdose on {0_label}. -->
-  <GeneOverdoseImmune>TODO</GeneOverdoseImmune>
+  <GeneOverdoseImmune>Užíváním {lookup: {0_label}; case\singular; 2} se nemohou předávkovat.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
-  <GeneOverdoseFactor>TODO</GeneOverdoseFactor>
+  <GeneOverdoseFactor>Jsou o {1} náchylnější k předávkování {lookup: {0_label}; case\singular; 7}.</GeneOverdoseFactor>
 
 </LanguageData>
