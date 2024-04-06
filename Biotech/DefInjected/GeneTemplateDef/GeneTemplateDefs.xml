@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN: {0} impervious -->
-  <AddictionImmune.label>Odolnost vůči {lookup: {0}; case\singular; 3}</AddictionImmune.label>
+  <AddictionImmune.label>odolnost vůči {lookup: {0}; case\singular; 3}</AddictionImmune.label>
   <!-- EN: Carriers of this gene never get addicted to {0}. -->
   <AddictionImmune.description>Nositelé tohoto genu se nikdy nestanou závislými na {lookup: {0}; case\singular; 6}.</AddictionImmune.description>
   <!-- EN: {0}-impervious -->
   <AddictionImmune.labelShortAdj>{lookup: {0}; case\singular; 3} odolávající</AddictionImmune.labelShortAdj>
   
   <!-- EN: {0} resistant -->
-  <AddictionResistant.label>Vzdornost vůči {lookup: {0}; case\singular; 3}</AddictionResistant.label>
+  <AddictionResistant.label>vzdornost vůči {lookup: {0}; case\singular; 3}</AddictionResistant.label>
   <!-- EN: Carriers are only half as likely to become addicted to {0}. -->
   <AddictionResistant.description>U nositelů tohoto genu je jen poloviční šance, že se stanou závislými na {lookup: {0}; case\singular; 6}.</AddictionResistant.description>
   <!-- EN: {0}-resistant -->
@@ -36,10 +36,10 @@
   <AptitudeTerrible.description>Vlohy nositele tohoto genu jsou u {lookup: {0}; case\skills; 2} sníženy o 8 úrovní. Vlohy účinkují také jako posun na dané úrovni. To znamená, že 10․ úroveň bude vyžadovat stejný počet zkušenostních bodů jako normálně 18. Kromě toho je u {lookup: {0}; case\skills; 2} odebrána veškerá vášeň.</AptitudeTerrible.description>
   
   <!-- EN: {0} dependency -->
-  <ChemicalDependency.label>Závislost na {lookup: {0}; case\singular; 6}</ChemicalDependency.label>
+  <ChemicalDependency.label>závislost na {lookup: {0}; case\singular; 6}</ChemicalDependency.label>
   <!-- EN: Carriers of this gene need to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, carriers will suffer from {0} deficiency. After {COMADURATION}, they will fall into a coma. After {DEATHDURATION}, they will die. -->
   <ChemicalDependency.description>Nositelé tohoto genu potřebují k přežití pravidelně konzumovat {lookup: {0}; case\singular; 4}. Po {replace: {DEFICIENCYDURATION}^; "dnů^"-"dnech"; "{DEFICIENCYDURATION}^"-"{DEFICIENCYDURATION}"} bez {lookup: {0}; case\singular; 2} budou trpět {0_gender ? jeho : jejím : jeho} nedostatkem. Po {replace: {COMADURATION}^; "dnů^"-"dnech"; "{COMADURATION}^"-"{COMADURATION}"} upadnou do kómatu a po {replace: {DEATHDURATION}^; "dnů^"-"dnech"; "{DEATHDURATION}^"-"{DEATHDURATION}"} zemřou.</ChemicalDependency.description>
   <!-- EN: {0}-dependent -->
-  <ChemicalDependency.labelShortAdj>{0_gender ? závislí : závislá : závislé} na {replace: ^{0}^; "^pivo^"-"pivu"; "^šťáva-go^"-"šťávě-go"; "^psychit^"-"psychitu"; "^dýmovník^"-"dýmovníku"; "^budíček^"-"budíčku"; "^{0}^"-"{0}"}</ChemicalDependency.labelShortAdj>
+  <ChemicalDependency.labelShortAdj>závislý na {lookup: {0}; case\singular; 6}</ChemicalDependency.labelShortAdj>
   
 </LanguageData>
