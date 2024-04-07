@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -1202,6 +1202,684 @@
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
   -->
-  <Description_SkillBook.rulePack.rulesStrings>TODO</Description_SkillBook.rulePack.rulesStrings>
+  <Description_SkillBook.rulePack.rulesStrings>
+    <li>subject->[subject_primary]</li>
+    <li>desc->[resolve_all][discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
+    <li>discussion->[discussion_preamble][detail]</li>
+    <li>discussion_preamble->[this_textbook] poskytuje [useful_information] [on_subject]</li>
+    <li>discussion_preamble->[this_textbook] [establishes_authora_authority] [on_subject]</li>
+    <li>discussion_preamble->Ti co hledají [understanding_subject] směřují k [this_notable_book]</li>
+    <li>discussion_preamble->[standard_book] [on_subject]</li>
+    <li>discussion_preamble->[early_edition] [textbook_case2] [on_subject] od [notable_author]</li>
+    <li>detail->. [summary_synonym] se zaměřuje na [detailed_adj] [aspects_synonym] [subject_synonym_case2]</li>
+    <li>detail->. Je to [succinct_synonym] [summary_synonym] do [detailed_adj][subject_synonym_case2_plus_adj_ho]</li>
+    <li>detail->. [summary_synonym] tvrdí, že když [author_name] [wrote] [this_textbook_case4], jednalo se o publikaci, která byla špičkou v oboru</li>
+    <li>detail->. [quote] tvrdí: "[true_synonym] [students] z oboru nemohou ignorovat [this_textbook_case4]"</li>
+    <li>detail->. Provede tě [subject_synonym_case7] krok za krokem</li>
+    <li>detail(quality[less_than]4)->, i přes to, že [author][author_name_if_not_mentioned] [rushed_subject]</li>
+    <li>detail(quality[greater_than]3)->. Jde o [detailed_adj] zpracování [subject_synonym_case2]</li>
+    <li>detail->. [author][author_name_if_not_mentioned] tvrdí ve svém [summary_synonym_case6], že existují [fraudulent_copies] [this_textbook_case2], ale toto není [one_fradulent_copy] z nich</li>
+    <li>detail(quality[less_than]4)->, ačkoli možná pokus sdělit své myšlenky prostřednictvím [failed_convey_ideas] nebylo nejšťastnější</li>
+    <li>detail(ANYPAWN_gender==female)->. Autorčina slovní obratnost ve svém [summary_synonym_case6] neodvádí pozornost od [core_concepts]</li>
+    <li>detail(ANYPAWN_gender==male)->. Autorova slovní obratnost ve svém [summary_synonym_case6] neodvádí pozornost od [core_concepts]</li>
+    <li>anecdote->Vzhledem k velkému rozdílu mezi datem narození [author_case2] a datem vydání [textbook_case2] se zdá být nemožné, že by se [author] dožil[author_x_a] vydání</li>
+    <li>anecdote->[review_location] někdo napsal [review_adj] [review] na [textbook_case4]</li>
+    <li>anecdote->[summary_synonym] naznačuje, že [textbook] [textbook_passed] přes systém veřejné knihovny světa [urbworld]</li>
+    <li>anecdote->Podle [note] [author_if_not_mentioned][author_full_name] byl[author_x_a] znám[author_x_a] jako [author_master] v mnoha oborech</li>
+    <li>anecdote->Podle [note] lidé ze světa [worldname] stále hovoří o [author_case6] a vzpomínají na [ANYPAWN_possessive] lásku k oboru [subject]</li>
+    <li>anecdote(p=0.5)->Podle [note] [author], [author_full_name], zemřel[author_x_a] při podivně zapletené nehodě krátce po vydání [textbook_case2]</li>
+    <li>anecdote(p=0.5)->Podle [note] byl[author_x_a] [author], [author_full_name], zabit[author_x_a] při podivně zapletené nehodě krátce po vydání [textbook_case2]</li>
+    <li>anecdote->Podle [summary_synonym_case2] [author_if_not_mentioned][author_full_name] strávil[author_x_a] své dny studiem na univerzitě světa [coreworld]. [this_textbook] je výsledkem [author_jeho_jejich] lekcí</li>
+    <li>anecdote->Podle [summary_synonym_case2] měl[author_x_a] [author_if_not_mentioned][author_full_name] takové znalosti z oboru [subject], že [author_ho_ji] lidé zastavovali na ulici a pokládali [author_mu_ji] otázky z tohoto oboru</li>
+    <li>anecdote->Podle [note] [author_if_not_mentioned][author_full_name] byl[author_x_a] tak chud[author_y_a], že prodal[author_x_a] práva na [series_case4] [textbook_plural_case2] [for_very_little]</li>
+    <li>anecdote->Podle [note] [author_if_not_mentioned][author_full_name] byl[author_x_a] slep[author_y_a] od narození, takže nikdy neviděl[author_x_a] [textbook_own] [textbook_case4]</li>
+    <li>anecdote(p=0.5)->Podle [note] první vydání [this_textbook_case2] nechvalně obsahovalo 50 stran zavádějících informací. Ty byly odstraněny až v druhém vydání</li>
+    <li>anecdote->Podle [note] [author_if_not_mentioned][author_full_name] měl[author_x_a] tak špatnou pověst, že musel[author_x_a] vydat [this_textbook_case4] pod pseudonymem</li>
+    <li>anecdote->Podle [note] [author_if_not_mentioned][author_full_name] jako [author_child] byl[author_x_a] tak lín[author_y_a][despaired_parents], ale [this_textbook] [is_a_vindication_of_skill]</li>
+    <li>anecdote->Podle [summary_synonym_case2] během [nth_marriage] svatby začal[author_x_a] [author_if_not_mentioned][author_full_name] přemýšlet nad [textbook_case7] na téma [subject]. (To vedlo k [author_jeho_jejimu] [nth_divorce] rozvodu)</li>
+    <li>production->[summary_synonym] tvrdí, že [this_textbook] byl[textbook_x_a_o] vytištěn[textbook_x_a_o] ručně na světě [worldname]</li>
+    <li>production->[in_summary_synonym] se píše, že univerzita světa [worldname] prohlásila [this_textbook_case4] za povinnou četbu</li>
+    <li>production->[in_summary_synonym] se píše, že i přes to, že si tyto poznámky [author] psal[author_x_a] [author_self] pro sebe, rozšířily se mezi mnoho lidí</li>
+    <li>production->[useful_information_bio] [this_textbook_case2] jsou [bio_hidden] v [author_adj_case6] [biography_synonym]</li>
+    <li>production->Ručně psané [note] tvrdí, že tiskárenský komplex na [worldname] byl zavřen krátce po tamních nepokojích. Toto vydání je tedy velice vzácné</li>
+    <li>production->[note] tvrdí, že většina výtisků [textbook_case2] byla ztracena během [incident] na světě [worldname]</li>
+    <li>production->[in_summary_synonym] se píše, že čtenáři se znalostí archoteckých technik šíření informací se záměrně vyhýbají [this_series_case3] [textbook_plural_case2]. Ale už se nepíše proč</li>
+    <li>production->[in_summary_synonym] se píše, že novověrci v oboru [subject] na světě [worldname] zaplatili celé jmění za vytištění dalších kopií [this_textbook_case2], aby [textbook_ho_ji_ho] rozšířili po celém světě</li>
+    <li>production->[in_summary_synonym] se vysvětluje, že první výtisky [this_textbook_case2] napsal[author_x_a] vlastnoručně [author_self] [author][author_name_if_not_mentioned]</li>
+    <li>production->[royals] ze světa [worldname] podpořil[royals_a_i] [this_textbook_case4] za podmínky, že bude volně dostupn[textbook_y_a_e]</li>
+    <li>production->[note] tvrdí, že první vydání [this_textbook_case2] bylo vydáno jako předplatitelský závazek knihkupců na světě [coreworld]</li>
+    <li>production->Na zadní straně vydavatel inzeruje větší [series_case4], kde je vysvětleno vše potřebné k přežití na světech vnějšího okraje</li>
+    <li>production->Vydavatelé asi měli být v redakčních povinnostech přímočařější s ohledem na špatnou gramatiku</li>
+    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <li>page_quality->stránky [page_condition]</li>
+    <li>exterior_quality(quality[greater_than]4)->Obal [this_textbook_case2] je kvalitně vázán a</li>
+    <li>exterior_quality(quality[greater_than]4)->Mistrovský kousek tiskařského umění, [this_textbook] září a</li>
+    <li>exterior_quality(quality[greater_than]4)->Kožený obal je drsný, avšak</li>
+    <li>exterior_quality(quality[greater_than]4)->I když je obal velmi strohý,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1,tag=quality_ale)->[this_textbook] zažil[textbook_x_a_o] lepší časy, ale</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->I přestože je to použit[textbook_y_a_e] [textbook],</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1,tag=quality_ale)->[this_textbook] proš[textbook_el_la_lo] rukama mnoha lidí, ale</li>
+    <li>exterior_quality(quality[less_than]2,tag=quality_ale)->Přední strana [this_textbook_case2] se zdá být atraktivní, ale</li>
+    <li>exterior_quality(quality[less_than]2)->Někdo vytrhl první třetinu [textbook_case2] a ostatní</li>
+    <li>exterior_quality(quality[less_than]2)->Obal je nasáklý silně smrdící tekutinou a</li>
+    <li>exterior_quality(quality[less_than]2,tag=quality_ale)->Na první pohled {replace: ^s [textbook_case7]; "^s s"-"se s"; "^"-""} není nic v nepořádku, ale</li>
+    <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
+    <li>page_condition(quality[less_than]2)->[page_awful]</li>
+    <li>page_excellent->jsou v úžasném stavu, jako by je nikdo nikdy nečetl</li>
+    <li>page_excellent->jsou ve výborném stavu</li>
+    <li>page_excellent->jsou skvěle zachovalé</li>
+    <li>page_excellent->jsou výborně udržované</li>
+    <li>page_excellent->jsou v perfektním stavu</li>
+    <li>page_excellent->jsou v dokonalém stavu</li>
+    <li>page_excellent->jsou nedotčené</li>
+    <li>page_excellent->jsou čisté</li>
+    <li>page_excellent->jsou bez poskvrny</li>
+    <li>page_excellent->jsou unikátně zachovalé</li>
+    <li>page_excellent->jsou výjimečně dobře zachované</li>
+    <li>page_excellent->jsou mimořádně dobře zachovalé</li>
+    <li>page_excellent->jsou neobyčejně zachovalé</li>
+    <li>page_decent(requiredTag=quality_ale,priority=1)->[page_decent_no_ale]</li>
+    <li>page_decent(p=4)->[page_decent_no_ale]</li>
+    <li>page_decent(p=2)->[page_decent_ale]</li>
+    <li>page_decent_no_ale->jsou v dobrém stavu</li>
+    <li>page_decent_ale->jsou sice pomačkané, ale stále čitelné</li>
+    <li>page_decent_ale->jsou sice pomačkané, ale text na nich je stále čitelný</li>
+    <li>page_decent_no_ale->jsou čitelné</li>
+    <li>page_decent_no_ale->jsou obstojné, i když trochu počmárané</li>
+    <li>page_decent_no_ale->jsou solidní, i když mírně poškozené</li>
+    <li>page_awful->vypadají, jako by byly z rozpadajícího se pergamenu</li>
+    <li>page_awful->působí, jako by byly z křehkého pergamenu</li>
+    <li>page_awful->se zdají být z rozpadajícího se pergamenu</li>
+    <li>page_awful->vypadají, jako by byly z křehkého pergamenu</li>
+    <li>page_awful->působí, jako by byly z rozpadajícího se pergamenu</li>
+    <li>page_awful->jsou vážně poškozené</li>
+    <li>page_awful->jsou značně poškozené</li>
+    <li>page_awful->jsou hodně poškozené</li>
+    <li>page_awful->jsou velmi poškozené</li>
+    <li>page_awful(p=4)->jsou [stained] tmavou [substance]</li>
+    <li>page_awful->jsou nečitelné</li>
+    <li>page_awful(p=2)->jsou napsány nečitelným rukopisem</li>
+    <li>resolve_all->[resolve_textbook][resolve_textbook_this]</li>
+    <li>resolve_textbook(p=3,tag=kniha)-></li>
+    <li>resolve_textbook_this(requiredTag=kniha,tag=book_f)-></li>
+    <li>textbook(requiredTag=kniha)->kniha</li>
+    <li>textbook_case2(requiredTag=kniha)->knihy</li>
+    <li>textbook_case3(requiredTag=kniha)->knize</li>
+    <li>textbook_case4(requiredTag=kniha)->knihu</li>
+    <li>textbook_case7(requiredTag=kniha)->knihou</li>
+    <li>textbook_plural_case2(requiredTag=kniha)->knih</li>
+    <li>resolve_textbook(tag=manuál)-></li>
+    <li>resolve_textbook_this(requiredTag=manuál,tag=book_m)-></li>
+    <li>textbook(requiredTag=manuál)->manuál</li>
+    <li>textbook_case2(requiredTag=manuál)->manuálu</li>
+    <li>textbook_case3(requiredTag=manuál)->manuálu</li>
+    <li>textbook_case4(requiredTag=manuál)->manuál</li>
+    <li>textbook_case7(requiredTag=manuál)->manuálem</li>
+    <li>textbook_plural_case2(requiredTag=manuál)->manuálů</li>
+    <li>resolve_textbook(tag=učebnice)-></li>
+    <li>resolve_textbook_this(requiredTag=učebnice,tag=book_f)-></li>
+    <li>textbook(requiredTag=učebnice)->učebnice</li>
+    <li>textbook_case2(requiredTag=učebnice)->učebnice</li>
+    <li>textbook_case3(requiredTag=učebnice)->učebnici</li>
+    <li>textbook_case4(requiredTag=učebnice)->učebnici</li>
+    <li>textbook_case7(requiredTag=učebnice)->učebnicí</li>
+    <li>textbook_plural_case2(requiredTag=učebnice)->učebnic</li>
+    <li>resolve_textbook(tag=příručka)-></li>
+    <li>resolve_textbook_this(requiredTag=příručka,tag=book_f)-></li>
+    <li>textbook(requiredTag=příručka)->příručka</li>
+    <li>textbook_case2(requiredTag=příručka)->příručky</li>
+    <li>textbook_case3(requiredTag=příručka)->příručce</li>
+    <li>textbook_case4(requiredTag=příručka)->příručku</li>
+    <li>textbook_case7(requiredTag=příručka)->příručkou</li>
+    <li>textbook_plural_case2(requiredTag=příručka)->příruček</li>
+    <li>resolve_textbook(tag=cvičebnice)-></li>
+    <li>resolve_textbook_this(requiredTag=cvičebnice,tag=book_f)-></li>
+    <li>textbook(requiredTag=cvičebnice)->cvičebnice</li>
+    <li>textbook_case2(requiredTag=cvičebnice)->cvičebnice</li>
+    <li>textbook_case3(requiredTag=cvičebnice)->cvičebnici</li>
+    <li>textbook_case4(requiredTag=cvičebnice)->cvičebnici</li>
+    <li>textbook_case7(requiredTag=cvičebnice)->cvičebnicí</li>
+    <li>textbook_plural_case2(requiredTag=cvičebnice)->cvičebnic</li>
+    <li>resolve_textbook(tag=slovník)-></li>
+    <li>resolve_textbook_this(requiredTag=slovník,tag=book_m)-></li>
+    <li>textbook(requiredTag=slovník)->slovník</li>
+    <li>textbook_case2(requiredTag=slovník)->slovníku</li>
+    <li>textbook_case3(requiredTag=slovník)->slovníku</li>
+    <li>textbook_case4(requiredTag=slovník)->slovník</li>
+    <li>textbook_case7(requiredTag=slovník)->slovníkem</li>
+    <li>textbook_plural_case2(requiredTag=slovník)->slovníků</li>
+    <li>resolve_textbook(tag=encyklopedie)-></li>
+    <li>resolve_textbook_this(requiredTag=encyklopedie,tag=book_f)-></li>
+    <li>textbook(requiredTag=encyklopedie)->encyklopedie</li>
+    <li>textbook_case2(requiredTag=encyklopedie)->encyklopedie</li>
+    <li>textbook_case3(requiredTag=encyklopedie)->encyklopedii</li>
+    <li>textbook_case4(requiredTag=encyklopedie)->encyklopedii</li>
+    <li>textbook_case7(requiredTag=encyklopedie)->encyklopedií</li>
+    <li>textbook_plural_case2(requiredTag=encyklopedie)->encyklopedií</li>
+    <li>resolve_textbook(tag=brožura)-></li>
+    <li>resolve_textbook_this(requiredTag=brožura,tag=book_f)-></li>
+    <li>textbook(requiredTag=brožura)->brožura</li>
+    <li>textbook_case2(requiredTag=brožura)->brožury</li>
+    <li>textbook_case3(requiredTag=brožura)->brožuře</li>
+    <li>textbook_case4(requiredTag=brožura)->brožuru</li>
+    <li>textbook_case7(requiredTag=brožura)->brožurou</li>
+    <li>textbook_plural_case2(requiredTag=brožura)->brožur</li>
+    <li>resolve_textbook(tag=kompendium)-></li>
+    <li>resolve_textbook_this(requiredTag=kompendium,tag=book_n)-></li>
+    <li>textbook(requiredTag=kompendium)->kompendium</li>
+    <li>textbook_case2(requiredTag=kompendium)->kompendia</li>
+    <li>textbook_case3(requiredTag=kompendium)->kompendiu</li>
+    <li>textbook_case4(requiredTag=kompendium)->kompendium</li>
+    <li>textbook_case7(requiredTag=kompendium)->kompendiem</li>
+    <li>textbook_plural_case2(requiredTag=kompendium)->kompendií</li>
+    <li>resolve_textbook(tag=práce)-></li>
+    <li>resolve_textbook_this(requiredTag=práce,tag=book_f)-></li>
+    <li>textbook(requiredTag=práce)->práce</li>
+    <li>textbook_case2(requiredTag=práce)->práce</li>
+    <li>textbook_case3(requiredTag=práce)->práci</li>
+    <li>textbook_case4(requiredTag=práce)->práci</li>
+    <li>textbook_case7(requiredTag=práce)->prací</li>
+    <li>textbook_plural_case2(requiredTag=práce)->prací</li>
+    <li>this_textbook(requiredTag=book_f)->tato [textbook]</li>
+    <li>this_textbook(requiredTag=book_m)->tento [textbook]</li>
+    <li>this_textbook(requiredTag=book_n)->toto [textbook]</li>
+    <li>this_textbook_case2(requiredTag=book_f)->této [textbook_case2]</li>
+    <li>this_textbook_case2(requiredTag=book_m)->tohoto [textbook_case2]</li>
+    <li>this_textbook_case2(requiredTag=book_n)->tohoto [textbook_case2]</li>
+    <li>this_textbook_case4(requiredTag=book_f)->tuto [textbook_case4]</li>
+    <li>this_textbook_case4(requiredTag=book_m)->tento [textbook_case4]</li>
+    <li>this_textbook_case4(requiredTag=book_n)->toto [textbook_case4]</li>
+    <li>textbook_y_a_e(requiredTag=book_f)->á</li>
+    <li>textbook_y_a_e(requiredTag=book_m)->ý</li>
+    <li>textbook_y_a_e(requiredTag=book_n)->é</li>
+    <li>textbook_x_a_o(requiredTag=book_f)->a</li>
+    <li>textbook_x_a_o(requiredTag=book_m)-></li>
+    <li>textbook_x_a_o(requiredTag=book_n)->o</li>
+    <li>textbook_el_la_lo(requiredTag=book_f)->la</li>
+    <li>textbook_el_la_lo(requiredTag=book_m)->el</li>
+    <li>textbook_el_la_lo(requiredTag=book_n)->lo</li>
+    <li>textbook_passed(requiredTag=book_f)->prošla</li>
+    <li>textbook_passed(requiredTag=book_m)->prošel</li>
+    <li>textbook_passed(requiredTag=book_n)->prošlo</li>
+    <li>textbook_own(requiredTag=book_f)->svoji</li>
+    <li>textbook_own(requiredTag=book_m)->svůj</li>
+    <li>textbook_own(requiredTag=book_n)->své</li>
+    <li>textbook_ho_ji_ho(requiredTag=book_f)->ji</li>
+    <li>textbook_ho_ji_ho(requiredTag=book_m)->ho</li>
+    <li>textbook_ho_ji_ho(requiredTag=book_n)->ho</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->potvrzuje autorčinu odbornost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->potvrzuje autorovu odbornost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->zakládá autoritu autorky</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->zakládá autoritu autora</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->stanovuje autorčinu znalost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->stanovuje autorovu znalost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->je důkazem autorčiny erudice</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->je důkazem autorovy erudice</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->upevňuje autorčinu pozici experta</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->upevňuje autorovu pozici experta</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->demonstruje autorčinu zasvěcenost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->demonstruje autorovu zasvěcenost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->odráží autorčinu hlubokou znalost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->odráží autorovu hlubokou znalost</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==female)->je manifestem autorčiny odbornosti</li>
+    <li>establishes_authora_authority(ANYPAWN_gender==male)->je manifestem autorovy odbornosti</li>
+    <li>understanding_subject->znalosti [on_subject]</li>
+    <li>understanding_subject->sebepoznání [on_subject]</li>
+    <li>understanding_subject->pochopení oboru [subject]</li>
+    <li>understanding_subject->význam oboru [subject]</li>
+    <li>understanding_subject->odbornost na téma [subject]</li>
+    <li>this_notable_book(requiredTag=book_f)->této [notable_adj_f] [textbook_case3]</li>
+    <li>this_notable_book(requiredTag=book_m)->tomuto [notable_adj_mn] [textbook_case3]</li>
+    <li>this_notable_book(requiredTag=book_n)->tomuto [notable_adj_mn] [textbook_case3]</li>
+    <li>notable_author(ANYPAWN_gender==female)->[notable_adj_f] autorky [author_name_if_not_mentioned]</li>
+    <li>notable_author(ANYPAWN_gender==male)->[notable_adj_f]ho autora [author_name_if_not_mentioned]</li>
+    <li>notable_adj_mn->[notable_adj_f]mu</li>
+    <li>notable_adj_f->slavné</li>
+    <li>notable_adj_f->klasické</li>
+    <li>notable_adj_f->věhlasné</li>
+    <li>notable_adj_f->ikonické</li>
+    <li>notable_adj_f->obskurní</li>
+    <li>notable_adj_f->známé</li>
+    <li>notable_adj_f->nadčasové</li>
+    <li>notable_adj_f->harmonické</li>
+    <li>notable_adj_f->praktické</li>
+    <li>notable_adj_f->třpytosvětské</li>
+    <li>notable_adj_f->městské</li>
+    <li>notable_adj_f(quality[less_than]3)->primitivní</li>
+    <li>notable_adj_f(quality[less_than]3)->dekorativní</li>
+    <li>standard_book->[standard_adj] [textbook]</li>
+    <li>standard_adj->běžn[textbook_y_a_e]</li>
+    <li>standard_adj->klasick[textbook_y_a_e]</li>
+    <li>standard_adj->standardní</li>
+    <li>standard_adj->normalizovan[textbook_y_a_e]</li>
+    <li>early_edition->rané vydání</li>
+    <li>early_edition->počáteční verze</li>
+    <li>early_edition->úvodní vydání</li>
+    <li>early_edition->prvotní vydání</li>
+    <li>early_edition->původní edice</li>
+    <li>rushed_subject->[rushed] při psaní problematiky</li>
+    <li>rushed_subject->[rushed] při rozebírání problematiky</li>
+    <li>rushed_subject->[subject_synonym_case3] zcela ne[understood]</li>
+    <li>failed_convey_ideas->imaginárního dialogu</li>
+    <li>failed_convey_ideas->černobílých ilustrací</li>
+    <li>failed_convey_ideas->měnícího se písma</li>
+    <li>failed_convey_ideas->barevného písma</li>
+    <li>for_very_little->za babku</li>
+    <li>for_very_little->za směšnou cenu</li>
+    <li>for_very_little->za pár korun</li>
+    <li>for_very_little->za hubičku</li>
+    <li>for_very_little->za pár drobných</li>
+    <li>for_very_little->za pakatel</li>
+    <li>for_very_little->za almužnu</li>
+    <li>for_very_little->za mizivou sumu</li>
+    <li>despaired_parents-> až své rodiče přiváděl[author_x_a] k zoufalství</li>
+    <li>despaired_parents->, že [ANYPAWN_possessive] rodiče propadli beznaději</li>
+    <li>despaired_parents-> až [ANYPAWN_possessive] rodiče rezignovali</li>
+    <li>despaired_parents-> až [ANYPAWN_possessive] rodiče byli v koncích</li>
+    <li>despaired_parents->, že [ANYPAWN_possessive] rodiče byli až zoufalí</li>
+    <li>despaired_parents-> až [ANYPAWN_possessive] rodiče ztráceli víru</li>
+    <li>is_a_vindication_of_skill->je důkazem [author_jeho_jejich] schopnosti</li>
+    <li>is_a_vindication_of_skill->je důkazem [author_jeho_jejich] dovedností</li>
+    <li>is_a_vindication_of_skill->je důkazem [author_jeho_jejich] umu</li>
+    <li>is_a_vindication_of_skill->je důkazem [author_jeho_jejich] talentu</li>
+    <li>is_a_vindication_of_skill->ospravedlňuje [ANYPAWN_possessive] schopnosti</li>
+    <li>is_a_vindication_of_skill->ospravedlňuje [ANYPAWN_possessive] dovednosti</li>
+    <li>is_a_vindication_of_skill->ospravedlňuje [ANYPAWN_possessive] um</li>
+    <li>nth_marriage(tag=třetí_svatba)->třetí</li>
+    <li>nth_marriage(tag=čtvrtá_svatba)->čtvrté</li>
+    <li>nth_marriage(tag=pátá_svatba)->páté</li>
+    <li>nth_divorce(requiredTag=třetí_svatba)->třetímu</li>
+    <li>nth_divorce(requiredTag=čtvrtá_svatba)->čtvrtému</li>
+    <li>nth_divorce(requiredTag=pátá_svatba)->pátému</li>
+    <li>subject_synonym_case2->problému</li>
+    <li>subject_synonym_case2->problematiky</li>
+    <li>subject_synonym_case2->oboru</li>
+    <li>subject_synonym_case2->tématu</li>
+    <li>subject_synonym_case2_plus_adj_ho->ho problému</li>
+    <li>subject_synonym_case2_plus_adj_ho-> problematiky</li>
+    <li>subject_synonym_case2_plus_adj_ho->ho oboru</li>
+    <li>subject_synonym_case2_plus_adj_ho->ho tématu</li>
+    <li>subject_synonym_case3->problému</li>
+    <li>subject_synonym_case3->problematice</li>
+    <li>subject_synonym_case3->oboru</li>
+    <li>subject_synonym_case3->tématu</li>
+    <li>subject_synonym_case7->problémem</li>
+    <li>subject_synonym_case7->problematikou</li>
+    <li>subject_synonym_case7->oborem</li>
+    <li>subject_synonym_case7->tématem</li>
+    <li>on_subject-> na téma [subject]</li>
+    <li>on_subject-> v oboru [subject]</li>
+    <li>useful_information_bio(tag=ty_bio_info)->[useful]é střípky informací</li>
+    <li>useful_information_bio(tag=ty_bio_info)->[useful]é informace</li>
+    <li>useful_information_bio(tag=ta_bio_info)->[useful]á fakta</li>
+    <li>useful_information_bio(tag=ty_bio_info)->[useful]é tipy</li>
+    <li>useful_information_bio(tag=ty_bio_info)->[useful]é rady</li>
+    <li>useful_information_bio(tag=ty_bio_info)->[useful]é podrobnosti</li>
+    <li>useful_information->[useful]é střípky informací</li>
+    <li>useful_information->[useful]é informace</li>
+    <li>useful_information->[useful]á fakta</li>
+    <li>useful_information->[useful]ý vhled</li>
+    <li>useful_information->[useful]é tipy</li>
+    <li>useful_information->[useful]é rady</li>
+    <li>useful_information->[useful]é podrobnosti</li>
+    <li>useful->užitečn</li>
+    <li>useful->zajímav</li>
+    <li>useful->praktick</li>
+    <li>useful->hodnotn</li>
+    <li>bio_hidden(requiredTag=ty_bio_info)->skryty</li>
+    <li>bio_hidden(requiredTag=ta_bio_info)->skryta</li>
+    <li>biography_synonym(p=3)->životopise</li>
+    <li>biography_synonym->biografii</li>
+    <li>summary_synonym->náhled</li>
+    <li>summary_synonym->vhled</li>
+    <li>summary_synonym->výtah</li>
+    <li>summary_synonym->souhrn</li>
+    <li>summary_synonym->přehled</li>
+    <li>summary_synonym->konspekt</li>
+    <li>summary_synonym_case2->náhledu</li>
+    <li>summary_synonym_case2->vhledu</li>
+    <li>summary_synonym_case2->výtahu</li>
+    <li>summary_synonym_case2->souhrnu</li>
+    <li>summary_synonym_case2->přehledu</li>
+    <li>summary_synonym_case2->konspektu</li>
+    <li>summary_synonym_case6->náhledu</li>
+    <li>summary_synonym_case6->vhledu</li>
+    <li>summary_synonym_case6->výtahu</li>
+    <li>summary_synonym_case6->souhrnu</li>
+    <li>summary_synonym_case6->přehledu</li>
+    <li>summary_synonym_case6->konspektu</li>
+    <li>in_summary_synonym->v{replace: ^[summary_synonym_case6]; "^v"-"e v"; "^"-" "}</li>
+    <li>detailed_adj->detailnější</li>
+    <li>detailed_adj->odbornější</li>
+    <li>detailed_adj->komplexní</li>
+    <li>aspects_synonym->aspekty</li>
+    <li>aspects_synonym->rysy</li>
+    <li>aspects_synonym->hlediska</li>
+    <li>aspects_synonym->stránky</li>
+    <li>succinct_synonym->stručný</li>
+    <li>succinct_synonym->lapidární</li>
+    <li>succinct_synonym->úsečný</li>
+    <li>succinct_synonym->zkrácený</li>
+    <li>wrote(ANYPAWN_gender==male)->napsal</li>
+    <li>wrote(ANYPAWN_gender==male)->sepsal</li>
+    <li>wrote(ANYPAWN_gender==female)->napsala</li>
+    <li>wrote(ANYPAWN_gender==female)->sepsala</li>
+    <li>quote(p=9)->Citát [quote_note_location]</li>
+    <li>quote->Citát v životopise [author_case2]</li>
+    <li>quote->Citát pod čarou</li>
+    <li>note(p=9)->poznámky [quote_note_location]</li>
+    <li>note->poznámky v životopise [author_case2]</li>
+    <li>note->poznámky pod čarou</li>
+    <li>note->poznámky</li>
+    <li>quote_note_location(p=3)->[location_stran]ě</li>
+    <li>quote_note_location(p=2)->[location_stran_page]ce</li>
+    <li>quote_note_location->ve vysvětlivce</li>
+    <li>quote_note_location->na okraji</li>
+    <li>quote_note_location->na přebalu</li>
+    <li>quote_note_location->na přepravním štítku</li>
+    <li>review_location(p=3)->[location_stran]u</li>
+    <li>review_location(p=2)->[location_stran_page]ku</li>
+    <li>review_location->ve vysvětlivce</li>
+    <li>review_location->na okraj</li>
+    <li>review_location->na přebal</li>
+    <li>review_location->na přepravní štítkek</li>
+    <li>review_location->do poznámky</li>
+    <li>location_stran->na přední stran</li>
+    <li>location_stran->na zadní stran</li>
+    <li>location_stran->na titulní stran</li>
+    <li>location_stran_page->na první strán</li>
+    <li>location_stran_page->na poslední strán</li>
+    <li>true_synonym->Opravdoví</li>
+    <li>true_synonym->Skuteční</li>
+    <li>students(p=2)->studenti</li>
+    <li>students->obdivovatelé</li>
+    <li>students->cvičenci</li>
+    <li>students->badatelé</li>
+    <li>students->vzdělanci</li>
+    <li>rushed(ANYPAWN_gender==male)->spěchal</li>
+    <li>rushed(ANYPAWN_gender==female)->spěchala</li>
+    <li>understood(ANYPAWN_gender==male)->porozuměl</li>
+    <li>understood(ANYPAWN_gender==female)->porozuměla</li>
+    <li>fraudulent_copies(tag=podvodné kopie)->podvodné kopie</li>
+    <li>fraudulent_copies(tag=plagiáty)->plagiáty</li>
+    <li>one_fradulent_copy(requiredTag=podvodné kopie)->jedna</li>
+    <li>one_fradulent_copy(requiredTag=plagiáty)->jeden</li>
+    <li>core_concepts->fundamentálních základů</li>
+    <li>core_concepts->stěžejní myšlenky</li>
+    <li>core_concepts->klíčových myšelenek</li>
+    <li>core_concepts->základní teze</li>
+    <li>core_concepts->jádra pudla</li>
+    <li>author(ANYPAWN_gender==female)->autorka</li>
+    <li>author(ANYPAWN_gender==male)->autor</li>
+    <li>author_case2(ANYPAWN_gender==female)->autorky</li>
+    <li>author_case2(ANYPAWN_gender==male)->autora</li>
+    <li>author_case6(ANYPAWN_gender==female)->autorce</li>
+    <li>author_case6(ANYPAWN_gender==male)->autorovi</li>
+    <li>author_adj_case6(ANYPAWN_gender==female)->autorčině</li>
+    <li>author_adj_case6(ANYPAWN_gender==male)->autorově</li>
+    <li>author_jeho_jejich(ANYPAWN_gender==female)->jejích</li>
+    <li>author_jeho_jejich(ANYPAWN_gender==male)->jeho</li>
+    <li>author_jeho_jejimu(ANYPAWN_gender==female)->jejímu</li>
+    <li>author_jeho_jejimu(ANYPAWN_gender==male)->jeho</li>
+    <li>author_ho_ji(ANYPAWN_gender==female)->ji</li>
+    <li>author_ho_ji(ANYPAWN_gender==male)->ho</li>
+    <li>author_mu_ji(ANYPAWN_gender==female)->jí</li>
+    <li>author_mu_ji(ANYPAWN_gender==male)->mu</li>
+    <li>author_x_a(ANYPAWN_gender==female)->a</li>
+    <li>author_x_a(ANYPAWN_gender==male)-></li>
+    <li>author_y_a(ANYPAWN_gender==female)->á</li>
+    <li>author_y_a(ANYPAWN_gender==male)->ý</li>
+    <li>author_child(ANYPAWN_gender==female)->děvče</li>
+    <li>author_child(ANYPAWN_gender==male)->kluk</li>
+    <li>author_self(ANYPAWN_gender==female)->sama</li>
+    <li>author_self(ANYPAWN_gender==male)->sám</li>
+    <li>author_full_name(tag=author_mentioned)->[ANYPAWN_nameFull]</li>
+    <li>author_name(tag=author_mentioned)->[ANYPAWN_label]</li>
+    <li>author_name_if_not_mentioned(requiredTag=author_mentioned,priority=1)-></li>
+    <li>author_name_if_not_mentioned-> [author_name]</li>
+    <li>author_if_not_mentioned(requiredTag=author_mentioned,priority=1)-></li>
+    <li>author_if_not_mentioned->[author] </li>
+    <li>author_master(ANYPAWN_gender==female)->mistryně</li>
+    <li>author_master(ANYPAWN_gender==male)->mistr</li>
+    <li>review_adj->pobuřující</li>
+    <li>review_adj->pohoršující</li>
+    <li>review_adj->extravagantní</li>
+    <li>review_adj->zajímavou</li>
+    <li>review_adj->geniální</li>
+    <li>review_adj->vtipnou</li>
+    <li>review->recenzi</li>
+    <li>review->kritiku</li>
+    <li>this_series_case3->této sérii</li>
+    <li>this_series_case3->tomuto cyklu</li>
+    <li>this_series_case3->této řadě</li>
+    <li>this_series_case3->této kolekci</li>
+    <li>this_series_case3->tomuto kompletu</li>
+    <li>this_series_case3->této sáze</li>
+    <li>this_series_case3->tomuto souboru</li>
+    <li>series_case4->sérii</li>
+    <li>series_case4->cyklus</li>
+    <li>series_case4->řadu</li>
+    <li>series_case4->kolekci</li>
+    <li>series_case4->komplet</li>
+    <li>series_case4->ságu</li>
+    <li>series_case4->soubor</li>
+    <li>incident->incidentu</li>
+    <li>incident->krize</li>
+    <li>incident->konfliktu</li>
+    <li>royals(tag=royals_ta, p=2)->Hrabata</li>
+    <li>royals(tag=royals_ti)->Baroni</li>
+    <li>royals(tag=royals_ta)->Šlechta</li>
+    <li>royals(tag=royals_ti)->Velmistři kulatého stolu</li>
+    <li>royals_a_i(requiredTag=royals_ta)->a</li>
+    <li>royals_a_i(requiredTag=royals_ti)->i</li>
+    <li>stained->pošpiněny</li>
+    <li>stained->potřísněny</li>
+    <li>stained->znečištěny</li>
+    <li>substance->látkou</li>
+    <li>substance->substancí</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Stelleria</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda </li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->Nová Čína</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->Nový Londýn CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>
+  </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>
