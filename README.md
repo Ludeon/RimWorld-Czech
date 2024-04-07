@@ -1,4 +1,4 @@
-# RimWorld Czech
+﻿# RimWorld Czech
 
 Czech Translation of RimWorld (Core, Royalty, Ideology, Biotech and Anomaly)
 
