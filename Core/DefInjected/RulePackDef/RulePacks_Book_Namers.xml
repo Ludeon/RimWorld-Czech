@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -214,9 +214,6 @@
     <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
     <li>title->The [referenceType] of [studiesStart] [randAdjective] [subject_primary]</li>
     <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li>
-    <li>title->A [bookCompound] [referenceType]</li>
-    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
-    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
     <li>studiesStart->Studies in</li>
     <li>studiesStart->Fundamentals of</li>
     <li>studiesStart->Managing</li>
@@ -473,53 +470,54 @@
     <li>randTheme->understanding</li>
   -->
   <Namer_TextBook.rulePack.rulesStrings>
-      <li>title->[title3]</li>
-      <li>title3->[titleBasic3]</li>
-      <li>title3(p=0.05)->[ANYPAWN_label]: [allSubjects]</li>
-      <li>titleBasic3(p=0.4)->Lekce k tématu [allSubjects]</li>
-      <li>titleBasic3(p=0.4)->Tipy na téma: [allSubjects]</li>
-      <li>titleBasic3(p=4)->[allSubjects] [titleCount]</li>
-      <li>titleBasic3->[allSubjects] pro začátečníky</li>
-      <li>titleBasic3->[allSubjects] pro pokročilý</li>
-      <li>titleBasic3->[allSubjects] pro mistry</li>
-      <li>titleBasic3->[allSubjects] pro veterány</li>
-      <li>titleBasic3->[allSubjects] ve světě</li>
-      <li>titleCount(p=40)->I.</li>
-      <li>titleCount(p=28)->II.</li>
-      <li>titleCount(p=20)->III.</li>
-      <li>titleCount(p=14)->IV.</li>
-      <li>titleCount(p=10)->V.</li>
-      <li>titleCount(p=8)->VI.</li>
-      <li>titleCount(p=6)->VII.</li>
-      <li>titleCount(p=4)->VIII.</li>
-      <li>titleCount(p=3)->IX.</li>
-      <li>titleCount(p=2)->X.</li>
-      <li>titleCount(p=1)->XI.</li>
-      <li>titleCount(p=0.5)->XII.</li>
-      <li>allSubjects->[oneSubject]</li>
-      <li>allSubjects(length_subject_primary[less_than]20,p=4)->[subject_primary]</li>
-      <li>allSubjects(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[twoSubjects]</li>
-      <li>allSubjects(length_subject_primary[less_than]15,has_subject_secondary==true,length_subject_secondary[less_than]15,p=4)->[twoSubjectsAndNoun]</li>
-      <li>allSubjects(length_subject_primary[less_than]15,has_subject_secondary==true,length_subject_secondary[less_than]15,has_subject_tertiary==true,length_subject_tertiary[less_than]15,p=8)->[threeSbujects]</li>
-      <li>allSubjects(length_subject_primary[less_than]12,has_subject_secondary==true,length_subject_secondary[less_than]12,has_subject_tertiary==true,length_subject_tertiary[less_than]12,p=8)->[threeSbujectsAndNoun]</li>
-      <li>twoSubjects->[subject_secondary] a [subject_primary]</li>
-      <li>twoSubjectsAndNoun->[twoSubjects]</li>
-      <li>twoSubjectsAndNoun->[subject_secondary], [subject_primary] a [randNoun]</li>
-      <li>threeSbujects->[subject_secondary], [subject_primary] a [subject_tertiary]</li>
-      <li>threeSbujectsAndNoun->[threeSbujects]</li>
-      <li>threeSbujectsAndNoun->[subject_secondary], [subject_primary], [subject_tertiary], a [randNoun]</li>
-      <li>oneSubject(p=4)->[subject_primary]</li>
-      <li>oneSubject->[subject_primary] a [randNoun]</li>
-      <li>randNoun->smrt</li>
-      <li>randNoun->život</li>
-      <li>randNoun->láska</li>
-      <li>randNoun->rozvoj</li>
-      <li>randNoun->odvaha</li>
-      <li>randNoun->moudrost</li>
-      <li>randNoun->zdraví</li>
-      <li>randNoun->bumalopy</li>
-      <li>randNoun->piráti</li>
-      <li>randNoun->vědomí</li>
-      <li>randNoun->porozumění</li>
+    <li>title->[title3]</li>
+    <li>title3->[titleBasic3]</li>
+    <li>title3(p=0.05)->[ANYPAWN_label]: [allSubjects]</li>
+    <li>titleBasic3(p=0.4)->Lekce k tématu [allSubjects]</li>
+    <li>titleBasic3(p=0.4)->Tipy na téma: [allSubjects]</li>
+    <li>titleBasic3(p=4)->[allSubjects] [titleCount]</li>
+    <li>titleBasic3->[allSubjects] pro začátečníky</li>
+    <li>titleBasic3->[allSubjects] pro pokročilý</li>
+    <li>titleBasic3->[allSubjects] pro mistry</li>
+    <li>titleBasic3->[allSubjects] pro veterány</li>
+    <li>titleBasic3->[allSubjects] ve světě</li>
+    <li>titleCount(p=40)->I.</li>
+    <li>titleCount(p=28)->II.</li>
+    <li>titleCount(p=20)->III.</li>
+    <li>titleCount(p=14)->IV.</li>
+    <li>titleCount(p=10)->V.</li>
+    <li>titleCount(p=8)->VI.</li>
+    <li>titleCount(p=6)->VII.</li>
+    <li>titleCount(p=4)->VIII.</li>
+    <li>titleCount(p=3)->IX.</li>
+    <li>titleCount(p=2)->X.</li>
+    <li>titleCount(p=1)->XI.</li>
+    <li>titleCount(p=0.5)->XII.</li>
+    <li>allSubjects->[oneSubject]</li>
+    <li>allSubjects(length_subject_primary[less_than]20,p=4)->[subject_primary]</li>
+    <li>allSubjects(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[twoSubjects]</li>
+    <li>allSubjects(length_subject_primary[less_than]15,has_subject_secondary==true,length_subject_secondary[less_than]15,p=4)->[twoSubjectsAndNoun]</li>
+    <li>allSubjects(length_subject_primary[less_than]15,has_subject_secondary==true,length_subject_secondary[less_than]15,has_subject_tertiary==true,length_subject_tertiary[less_than]15,p=8)->[threeSbujects]</li>
+    <li>allSubjects(length_subject_primary[less_than]12,has_subject_secondary==true,length_subject_secondary[less_than]12,has_subject_tertiary==true,length_subject_tertiary[less_than]12,p=8)->[threeSbujectsAndNoun]</li>
+    <li>twoSubjects->[subject_secondary] a [subject_primary]</li>
+    <li>twoSubjectsAndNoun->[twoSubjects]</li>
+    <li>twoSubjectsAndNoun->[subject_secondary], [subject_primary] a [randNoun]</li>
+    <li>threeSbujects->[subject_secondary], [subject_primary] a [subject_tertiary]</li>
+    <li>threeSbujectsAndNoun->[threeSbujects]</li>
+    <li>threeSbujectsAndNoun->[subject_secondary], [subject_primary], [subject_tertiary], a [randNoun]</li>
+    <li>oneSubject(p=4)->[subject_primary]</li>
+    <li>oneSubject->[subject_primary] a [randNoun]</li>
+    <li>randNoun->smrt</li>
+    <li>randNoun->život</li>
+    <li>randNoun->láska</li>
+    <li>randNoun->rozvoj</li>
+    <li>randNoun->odvaha</li>
+    <li>randNoun->moudrost</li>
+    <li>randNoun->zdraví</li>
+    <li>randNoun->bumalopy</li>
+    <li>randNoun->piráti</li>
+    <li>randNoun->vědomí</li>
+    <li>randNoun->porozumění</li>
   </Namer_TextBook.rulePack.rulesStrings>
+  
 </LanguageData>
