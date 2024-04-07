@@ -102,9 +102,11 @@
   <Insult.label>urážka</Insult.label>
   <!-- EN:
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
-    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [target] [insultcomparison].</li>
     <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] the golden cube.</li>
     <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
     <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
@@ -119,42 +121,57 @@
     <li>insulted->slandered</li>
     <li>insulted->hurled invective about</li>
     <li>insulted->derided</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->[Animal]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==false)->[Enemy]</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->sphere</li>
-    <li>insultcomparison(INITIATOR_cubeInterest==true)->non-cubic geometric shape</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->a [Animal]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==false)->a [Enemy]</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a sphere</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->something totally pointless</li>
+    <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li>
   -->
   <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted].</li>
-    <li>r_logentry->[INITIATOR_nameDef] přirovnal[INITIATOR_pronoun] [target] [insultcomparisonToDat].</li>
-    <li>r_logentry->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [target] [insultcomparisonIns].</li>
-    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [target] uctívačem falešné modly.</li>
+    <li>r_logentry->[INITIATOR_nameDef] přirovnal[INITIATOR_pronoun] [targetAcc] [insultcomparisonToDat].</li>
+    <li>r_logentry->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [targetAcc] [insultcomparisonIns].</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] nazval[INITIATOR_pronoun] [targetAcc] uctívačem falešné modly.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] naznačil[INITIATOR_pronoun], že [targetAcc] dožene ta zlatá krychle akorát k šílenství.</li>
+    <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insultedCube] zlatou kostku.</li>
     <li>characteristicUniAcc(INITIATOR_cubeInterest==false)->[PersonalCharacteristicUniAcc]</li>
     <li>characteristicUniAcc(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCubeUniAcc]</li>
     <li>targetInsulted(p=4)->osobu jménem [RECIPIENT_nameDef] tím, že negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
     <li>targetInsulted->osobu jménem [RECIPIENT_nameDef] tím, že se negativně vyjádřil[INITIATOR_pronoun] k [RECIPIENT_possessive] rodině, konkrétně [PersonFamilyToWhi] [characteristicUniAcc]</li>
     <li>targetInsultedTo(p=4)->k osobě jménem [RECIPIENT_nameDef]. Negativně hodnotil[INITIATOR_pronoun] [RECIPIENT_possessive] [characteristicUniAcc]</li>
     <li>targetInsultedTo->[PersonFamilyInsTo] [characteristicUniAcc]</li>
-    <li>target(p=4)->osobu jménem [RECIPIENT_nameDef]</li>
-    <li>target->[PersonFamilyUniAcc] osoby jménem [RECIPIENT_nameDef]</li>
+    <li>targetAcc(p=4)->osobu jménem [RECIPIENT_nameDef]</li>
+    <li>targetAcc->[PersonFamilyUniAcc] osoby jménem [RECIPIENT_nameDef]</li>
     <li>insulted(p=4)->urazil[INITIATOR_pronoun] [targetInsulted]</li>
     <li>insulted->veřejně urazil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insulted->nahlas urazil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insulted->zjevně urazil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insulted->bez okolků urazil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insulted->hrubě urazil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insulted->zjevně znemožnil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->hlasitě urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->nehorázně urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->neskrytě urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->zákeřně urazil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insulted->hrubě znevážil[INITIATOR_pronoun] [targetInsulted]</li>
     <li>insulted->pomluvil[INITIATOR_pronoun] [targetInsulted]</li>
-    <li>insulted->vychrlil[INITIATOR_pronoun] urážky směrem [targetInsultedTo]</li>
+    <li>insulted->vychrlil[INITIATOR_pronoun] nadávky směrem [targetInsultedTo]</li>
     <li>insulted->zesměšnil[INITIATOR_pronoun] [targetInsulted]</li>
+    <li>insultedCube(p=3)->urazil[INITIATOR_pronoun]</li>
+    <li>insultedCube->veřejně urazil[INITIATOR_pronoun]</li>
+    <li>insultedCube->hlasitě urazil[INITIATOR_pronoun]</li>
+    <li>insultedCube->nehorázně urazil[INITIATOR_pronoun]</li>
+    <li>insultedCube->neskrytě urazil[INITIATOR_pronoun]</li>
+    <li>insultedCube->zákeřně urazil[INITIATOR_pronoun]</li>
+    <li>insultedCube->hrubě znevážil[INITIATOR_pronoun]</li>
+    <li>insultedCube->pomluvil[INITIATOR_pronoun]</li>
+    <li>insultedCube->vychrlil[INITIATOR_pronoun] nadávky směrem</li>
+    <li>insultedCube->zesměšnil[INITIATOR_pronoun]</li>
     <li>insultcomparisonToDat(INITIATOR_cubeInterest==false,p=2)->[AnimalToUniDat]</li>
     <li>insultcomparisonToDat(INITIATOR_cubeInterest==false)->[EnemyToUniDat]</li>
-    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->kouli</li>
-    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->nekubickému geometrickému tvaru</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->ke kouli</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->k něčemu naprosto zbytečnému</li>
+    <li>insultcomparisonToDat(INITIATOR_cubeInterest==true)->k nekubickému platonickému objektu</li>
     <li>insultcomparisonIns(INITIATOR_cubeInterest==false,p=2)->[AnimalUniIns]</li>
     <li>insultcomparisonIns(INITIATOR_cubeInterest==false)->[EnemyUniIns]</li>
     <li>insultcomparisonIns(INITIATOR_cubeInterest==true)->koulí</li>
-    <li>insultcomparisonIns(INITIATOR_cubeInterest==true)->nekubickým geometrickým tvarem</li>
+    <li>insultcomparisonIns(INITIATOR_cubeInterest==true)->něčím naprosto zbytečným</li>
+    <li>insultcomparisonIns(INITIATOR_cubeInterest==true)->nekubickým platonickým objektem</li>
   </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->

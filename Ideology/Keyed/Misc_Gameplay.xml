@@ -204,7 +204,7 @@
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; case\singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ​{0}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{0}​"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ​{1}​; "​1​"-"1 kus"; "​2​"-"2 kusy"; "​3​"-"3 kusy"; "​4​"-"4 kusy"; "​{1}​"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
+  <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ^{0}^; "^1^"-"1 kus"; "^2^"-"2 kusy"; "^3^"-"3 kusy"; "^4^"-"4 kusy"; "^{0}^"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ^{1}^; "^1^"-"1 kus"; "^2^"-"2 kusy"; "^3^"-"3 kusy"; "^4^"-"4 kusy"; "^{1}^"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} musí být {0_gender ? schopen : schopna} se dostat k cíli rituálu.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -284,7 +284,7 @@
   <!-- EN: expectations -->
   <Expectations>očekávání</Expectations>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
-  <RitualRepeatPenaltyTip>Opakování rituálu v průběhu {0} dnů snižuje jeho kvalitu. Od posledního rituálu {replace: ​{1}​; "​1​"-"uběhl 1 den"; "​2​"-"uběhly (*DateTime)2 dny(/DateTime)"; "​3​"-"uběhly (*DateTime)3 dny(/DateTime)"; "​4​"-"uběhly (*DateTime)4 dny(/DateTime)"; "​{1}​"-"uběhlo {1} dnů"}, takže současné snížení kvality je {2}. Tento postih klesne k nule za {replace: ​{3}​; "​1​"-"1 den"; "​2​"-"(*DateTime)2 dny(/DateTime)"; "​3​"-"(*DateTime)3 dny(/DateTime)"; "​4​"-"(*DateTime)4 dny(/DateTime)"; "​{3}​"-"{3} dnů"}.</RitualRepeatPenaltyTip>
+  <RitualRepeatPenaltyTip>Opakování rituálu v průběhu {0} dnů snižuje jeho kvalitu. Od posledního rituálu {replace: ^{1}^; "^1^"-"uběhl 1 den"; "^2^"-"uběhly (*DateTime)2 dny(/DateTime)"; "^3^"-"uběhly (*DateTime)3 dny(/DateTime)"; "^4^"-"uběhly (*DateTime)4 dny(/DateTime)"; "^{1}^"-"uběhlo {1} dnů"}, takže současné snížení kvality je {2}. Tento postih klesne k nule za {replace: ^{3}^; "^1^"-"1 den"; "^2^"-"(*DateTime)2 dny(/DateTime)"; "^3^"-"(*DateTime)3 dny(/DateTime)"; "^4^"-"(*DateTime)4 dny(/DateTime)"; "^{3}^"-"{3} dnů"}.</RitualRepeatPenaltyTip>
   <!-- EN: For best quality, start the {0} at {1}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart1>Chceš-li dosáhnout nejlepší kvality, zahaj konání {lookup: {0}; case\singular; 2} u {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
@@ -298,8 +298,6 @@
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Určení: Pro otroky</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>Otrok</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Pokud prodáš kohokoli nějaké frakci, mimo jeho vlastní, tak bude zotročen.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -333,9 +331,9 @@
   <!-- EN: Has role in rituals -->
   <RoleRitualsLabel>Má roli při rituálech</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
-  <RoleBelieverCountDesc>Tato role bude aktivní, pokud tvá frakce bude mít {replace: ​{1}​; "​1​"-"1 stoupence"; "​2​"-"2 stoupence"; "​3​"-"3 stoupence"; "​4​"-"4 stoupence"; "​{1}​"-"{1} stoupenců"} ({0}). Deaktivuje se v případě, bude-li mít pouze {3}.</RoleBelieverCountDesc>
+  <RoleBelieverCountDesc>Tato role bude aktivní, pokud tvá frakce bude mít {replace: ^{1}^; "^1^"-"1 stoupence"; "^2^"-"2 stoupence"; "^3^"-"3 stoupence"; "^4^"-"4 stoupence"; "^{1}^"-"{1} stoupenců"} ({0}). Deaktivuje se v případě, bude-li mít pouze {3}.</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
-  <RoleExpectationOffset>Zvýšená o {replace: ​{0}​; "​1​"-"1 úroveň"; "​2​"-"2 úrovně"; "​3​"-"3 úrovně"; "​4​"-"4 úrovně"; "​{0}​"-"{0} úrovní"}.</RoleExpectationOffset>
+  <RoleExpectationOffset>Zvýšená o {replace: ^{0}^; "^1^"-"1 úroveň"; "^2^"-"2 úrovně"; "^3^"-"3 úrovně"; "^4^"-"4 úrovně"; "^{0}^"-"{0} úrovní"}.</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
   <RoleRaisedExpectation>TODO</RoleRaisedExpectation>
   <!-- EN: The {0} will have higher expectations in {1}. -->
@@ -504,7 +502,7 @@
   <!-- EN: {0} hours every other day -->
   <HoursEveryOtherDay>TODO</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
-  <DryadProducesResourcesDesc>Každá {DRYAD_label} produkuje {replace: ​{DURATION}​; "2 dnů"-"každé (*DateTime)2 dny(/DateTime)"; "3 dnů"-"každé (*DateTime)3 dny(/DateTime)"; "4 dnů"-"každé (*DateTime)4 dny(/DateTime)"; "​{DURATION}​"-"každých {DURATION}"}:\n{RESOURCES}</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>Každá {DRYAD_label} produkuje {replace: ^{DURATION}^; "^2 dnů^"-"každé (*DateTime)2 dny(/DateTime)"; "^3 dnů^"-"každé (*DateTime)3 dny(/DateTime)"; "^4 dnů^"-"každé (*DateTime)4 dny(/DateTime)"; "^{DURATION}^"-"každých {DURATION}"}:\n{RESOURCES}</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>TODO</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
@@ -628,7 +626,7 @@
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
   <BiosculpterCarryStartedMessage>{PAWN_labelShort} vyzvedne {INGREDIENTS}, umístí {DOWNED_labelShort} do bioplastické komory a zahájí {replace: {CYCLE}; "bioregenerace"-"bioregenerační"; "omlazení"-"omlazovací"; "ozdravování"-"ozdravovací"; "potěšení"-"potěšovací"} cyklus.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
-  <NumNutrition>{replace: ​{0}​; "​1​"-"1 jednotka"; "​2​"-"2 jednotky"; "​3​"-"3 jednotky"; "​4​"-"4 jednotky"; "​{0}​"-"{0} jednotek"} výživy</NumNutrition>
+  <NumNutrition>{replace: ^{0}^; "^1^"-"1 jednotka"; "^2^"-"2 jednotky"; "^3^"-"3 jednotky"; "^4^"-"4 jednotky"; "^{0}^"-"{0} jednotek"} výživy</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} {PAWN_gender ? byl : byla} z důvodu nedostatku energie {PAWN_gender ? vyhozen : vyhozena} z bioplastické komory.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
@@ -636,9 +634,9 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} léčebný cyklus. {PAWN_possessive} {HEDIFF_label} je pryč.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} svůj omlazovací cyklus. Za {replace: ​{DEADLINE}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} svůj omlazovací cyklus. Za {replace: ^{DEADLINE}^; "^1^"-"1 den"; "^2^"-"2 dny"; "^3^"-"3 dny"; "^4^"-"4 dny"; "^{DEADLINE}^"-"{DEADLINE} dnů"} očekává další omlazování.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>Za {replace: ​{DEADLINE}​; "​1​"-"1 den"; "​2​"-"2 dny"; "​3​"-"3 dny"; "​4​"-"4 dny"; "​{DEADLINE}​"-"{DEADLINE} dnů"} očekává další omlazování.</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>Za {replace: ^{DEADLINE}^; "^1^"-"1 den"; "^2^"-"2 dny"; "^3^"-"3 dny"; "^4^"-"4 dny"; "^{DEADLINE}^"-"{DEADLINE} dnů"} očekává další omlazování.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} {PAWN_gender ? dokončil : dokončila} potěšovací cyklus.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
