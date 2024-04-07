@@ -6,7 +6,11 @@
     <li>discoveryDesc(discovered==false)->learned</li>
     <li>discoveryDesc(discovered==true)->determined the location</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryDesc], který obsahuje pozůstatky dávno zesnulého mechanitora.\n\nMechanitoři mohou vytvářet, ovládat či jinak využívat mechanoidy jak pro práci, tak v boji. Pokud se ti podaří proniknout do komplexu a najdeš mechanitorovu mrtvolu, můžeš získat jeho mechalink a proměnit jednoho ze svých kolonistů v mechanitora.\n\nDávej si pozor - tyto druhy struktur mohou skrývat řadu hrozeb a tvá aktivita v komplexu může přitáhnout nežádoucí pozornost.</li>
+    <li>discoveryDesc(discovered==false)->Dověděl ses o nedalekém starobylém komplexu</li>
+    <li>discoveryDesc(discovered==true)->Podařilo se ti lokalizovat nedaleký starobylý komplex</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[complexAdj] mechanitor [complex]</li>
     <li>questName->mechanitor [complex]</li>
@@ -25,6 +29,53 @@
     <li>complex->mechplex</li>
     <li>complex->mechsite</li>
   -->
-  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>TODO</OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+  <OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
+    <li>questName(p=3)->[complexAdj][complex][questName_1]</li>
+    <li>questName_1(p=3)->[complexAdjNom] mechanitoří [complexNom]</li>
+    <li>questName->[complexAdj][complex][questName_2]</li>
+    <li>questName_2->[complexAdjNom] [complexNom]</li>
+    <li>complexAdj(tag=tajný)-></li>
+    <li>complexAdj(tag=tajemný)-></li>
+    <li>complexAdj(tag=tajuplný)-></li>
+    <li>complexAdj(tag=starobylý)-></li>
+    <li>complexAdj(tag=starodávný)-></li>
+    <li>complexAdj(tag=starý)-></li>
+    <li>complexAdj(tag=prastarý)-></li>
+    <li>complexAdj(tag=utajený)-></li>
+    <li>complexAdj(tag=zaprášený)-></li>
+    <li>complexAdj(tag=nebezpečný)-></li>
+    <li>complexAdj(tag=skrytý)-></li>
+    <li>complexAdj(tag=ukrytý)-></li>
+    <li>complexAdjNom(requiredTag=tajný)->tajn[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=tajemný)->tajemn[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=tajuplný)->tajupln[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=starobylý)->starobyl[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=starodávný)->starodávn[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=starý)->star[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=prastarý)->prastar[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=utajený)->utajen[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=zaprášený)->zaprášen[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=nebezpečný)->nebezpečn[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=skrytý)->skryt[adj_yae] </li>
+    <li>complexAdjNom(requiredTag=ukrytý)->ukryt[adj_yae] </li>
+    <li>complex(tag=komplex)->[mas]</li>
+    <li>complex(tag=doupě)->[neu]</li>
+    <li>complex(tag=základna)->[fem]</li>
+    <li>complex(tag=areál)->[mas]</li>
+    <li>complex(tag=krypta)->[fem]</li>
+    <li>complex(tag=mechplex)->[mas]</li>
+    <li>complex(tag=mechareál)->[mas]</li>
+    <li>complex(tag=mechoviště)->[neu]</li>
+    <li>complex(tag=mechárna)->[fem]</li>
+    <li>complexNom(requiredTag=komplex)->komplex</li>
+    <li>complexNom(requiredTag=doupě)->doupě</li>
+    <li>complexNom(requiredTag=základna)->základna</li>
+    <li>complexNom(requiredTag=areál)->areál</li>
+    <li>complexNom(requiredTag=krypta)->krypta</li>
+    <li>complexNom(requiredTag=mechplex)->mechplex</li>
+    <li>complexNom(requiredTag=mechareál)->mechareál</li>
+    <li>complexNom(requiredTag=mechoviště)->mechoviště</li>
+    <li>complexNom(requiredTag=mechárna)->mechárna</li>
+  </OpportunitySite_AncientComplex_Mechanitor.questNameRules.rulesStrings>
   
 </LanguageData>
