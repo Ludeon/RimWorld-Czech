@@ -101,15 +101,15 @@
   <!-- EN: This xenogerm requires more genetic complexity than the gene assembler and nearby powered gene processors can support. -->
   <GeneProcessorUnpowered>Tvorba tohoto genovštipovače je příliš komplexní pro tento genový sestavovač a okolní genové procesory.</GeneProcessorUnpowered>
   <!-- EN: Estimated recombination time -->
-  <RecombineDuration>Odhadovaný čas zakomponování</RecombineDuration>
+  <RecombineDuration>Odhadovaná doba rekombinování</RecombineDuration>
   <!-- EN: How long it would take for an average worker to combine the selected genes into a xenogerm. Recombination time increases with the total complexity of the genes in the xenogerm. -->
-  <RecombineDurationDesc>Jak dlouho bude trvat průměrnému kolonistovi zkombinovat vybrané geny do genovštipovače. Zakomponovávací čas se prodlužuje s celkovou složitostí genů v genovštipovači.</RecombineDurationDesc>
+  <RecombineDurationDesc>Jak dlouho by průměrnému pracovníkovi trvalo zkombinovat vybrané geny do genovštipovače. Doba rekombinování se prodlužuje s celkovou složitostí genů obsažených v genovštipovači.</RecombineDurationDesc>
   <!-- EN: You must research {0_label} before you can assemble a xenogerm that requires archite capsules. -->
   <MustResearchProject>Než budeš moci sestavit genovštipovač, který vyžaduje architové kapsle, musíš se pustit do výzkumu {lookup: {0_label}; case\singular; 2}.</MustResearchProject>
   <!-- EN: Assembling xenogerms with archite genes requires {0_label} research. -->
   <AssemblingRequiresResearch>Sestavení genovštipovačů s architovými geny vyžaduje {lookup: {0_label}; case\adjective; 1} výzkum.</AssemblingRequiresResearch>
   <!-- EN: You are currently combining a {XENOGERMNAME} xenogerm. If you start combining a new xenogerm, it will cancel your current xenogerm.\n\nAre you sure you want to continue? -->
-  <ConfirmStartNewXenogerm>{XENOGERMNAME} je právě zakomponováván. Pokud začneš vytvářet další genovštipovač, zrušíš tím tvorbu stávajícího genovštipovače.\n\nChceš i přes to pokračovat?</ConfirmStartNewXenogerm>
+  <ConfirmStartNewXenogerm>V současné době provádíš kombinování genovštipovače nazvaného {XENOGERMNAME}. Pokud začneš kombinovat další genovštipovač, zrušíš tím tvorbu toho stávajícího.\n\nChceš i přesto pokračovat?</ConfirmStartNewXenogerm>
   <!-- EN: Select at least one gene to randomize a name for this xenotype. -->
   <SelectAGeneToRandomizeName>Vyber alespoň jeden gen pro náhodný výběr názvu tohoto xenotypu.</SelectAGeneToRandomizeName>
   <!-- EN: Select at least one gene to choose a name for this xenotype. -->
@@ -348,7 +348,7 @@
   <NextGrowthMomentAt>Další okamžik růstu ve věku</NextGrowthMomentAt>
 
   <!-- EN: no biotech buildings allowed -->
-  <RoomRequirementNoBiotechBuildings>TODO</RoomRequirementNoBiotechBuildings>
+  <RoomRequirementNoBiotechBuildings>žádné stavby ani zařízení biotechu</RoomRequirementNoBiotechBuildings>
 
   <!-- EN: Bloodfeeding on {PAWN_nameDef} will result in serious blood loss, leaving {PAWN_objective} unconscious.\n\nAre you sure? -->
   <WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>TODO</WarningPawnWillHaveSeriousBloodlossFromBloodfeeding>

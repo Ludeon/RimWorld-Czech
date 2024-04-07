@@ -64,7 +64,7 @@
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
   <LetterRoyalTitleRewardGranted>Prostřednictvím přepravního modulu {PAWN_gender ? obdržel : obdržela} tyto položky:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} {replace: ​{1}​; "​1​"-"1 bod"; "​2​"-"2 body"; "​3​"-"3 body"; "​4​"-"4 body"; "​{1}​"-"{1} bodů"} {lookup: {FACTION_royalFavorLabel}; case\singular; 2}.</PeaceTalksRoyalFavorGain>
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort} {PAWN_gender ? získal : získala} od frakce {FACTION_name} {replace: ^{1}^; "^1^"-"1 bod"; "^2^"-"2 body"; "^3^"-"3 body"; "^4^"-"4 body"; "^{1}^"-"{1} bodů"} {lookup: {FACTION_royalFavorLabel}; case\singular; 2}.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
