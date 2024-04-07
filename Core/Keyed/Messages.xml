@@ -575,13 +575,13 @@
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
   <MessageBillValidationPawnUnavailable>{0} už nebude provádět úkol '{1}', ke kterému je zapotřebí '{2}', protože bylo odstraněno omezení.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat do skladiště s názvem {2}, neboť bylo odstraněno.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeZoneDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat ke skladišti s názvem {2}, neboť bylo odstraněno.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
-  <MessageBillValidationIncludeBuildingDeleted>TODO</MessageBillValidationIncludeBuildingDeleted>
+  <MessageBillValidationIncludeBuildingDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat k budově s názvem {2}, neboť byla odstraněna.</MessageBillValidationIncludeBuildingDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
-  <MessageBillValidationIncludeStorageGroupDeleted>TODO</MessageBillValidationIncludeStorageGroupDeleted>
+  <MessageBillValidationIncludeStorageGroupDeleted>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat ke skupině skladišť s názvem {2}, neboť byla odstraněna.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat do skladiště s názvem {2}, neboť je nedostupné.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationIncludeZoneUnavailable>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze dopočítávat ke skladišti s názvem {2}, neboť je nedostupné.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
   <MessageBillValidationStoreZoneInsufficient>Výrobky z úkolu '{0}', ke kterému je zapotřebí '{1}', již nelze uskladnit všechny do skladiště s názvem {2}.</MessageBillValidationStoreZoneInsufficient>
 
@@ -719,15 +719,15 @@
   <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeABaby>{0} nemůže být nemluvně.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
-  <MessageRitualNoRolesAvailable>TODO</MessageRitualNoRolesAvailable>
+  <MessageRitualNoRolesAvailable>Nezbývají žádné role, které by {0_labelShort} mohl{0_pronoun} mít.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
-  <MessageRitualNotOfPlayerIdeo>TODO</MessageRitualNotOfPlayerIdeo>
+  <MessageRitualNotOfPlayerIdeo>{0_labelShort} není členem žádného ideobožství.</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} musí mít oči.</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
-  <MessageRitualRoleMustRequireScarification>TODO</MessageRitualRoleMustRequireScarification>
+  <MessageRitualRoleMustRequireScarification>{0_labelShort} nepotřebuje žádné další zjizvení.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0_labelShort} does not require blinding. -->
-  <MessageRitualRoleMustRequireBlinding>TODO</MessageRitualRoleMustRequireBlinding>
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort} nepotřebuje být oslepen{0_pronoun}.</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} musí být vězeň nebo otrok.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -737,13 +737,13 @@
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
   <MessageRitualRolePawnRecentlyTornConnection>TODO</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>TODO</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} má již stejné ideobožství jako konvertovatel.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} musí být {0_gender ? schopen : schopna} vykonávat činnost dozorce.</MessageRitualRoleMustBeCapableOfWardening>
-  <!-- EN: {0} must be capable of {1}. -->
+  <!-- EN: {0} must be capable of {1}. ***-->
   <MessageRitualRoleMustBeCapableOfGeneric>TODO</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: {0} must be capable of violence. -->
-  <MessageRitualRoleMustBeCapableOfViolence>TODO</MessageRitualRoleMustBeCapableOfViolence>
+  <MessageRitualRoleMustBeCapableOfViolence>{0} musí být schopn{0_gender ? ý : á} násilí.</MessageRitualRoleMustBeCapableOfViolence>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>vězni {replace: nemohou {0}; "nemohou účastnit"-"se nemohou účastnit"}.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -755,7 +755,7 @@
   <!-- EN: must not be a prisoner for the {0} role. -->
   <MessageRitualRoleMustBeFree>TODO</MessageRitualRoleMustBeFree>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
-  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort} se nebude účastnit kvůli příliš vysoké teplotě v místě konání rituálu.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
   <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
