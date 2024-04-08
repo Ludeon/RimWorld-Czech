@@ -30,7 +30,7 @@
   <AnimalChat.logRulesInitiator.rulesStrings>TODO</AnimalChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: nuzzle -->
-  <Nuzzle.label>TODO</Nuzzle.label>
+  <Nuzzle.label>přitulení</Nuzzle.label>
   <!-- EN:
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
@@ -56,11 +56,38 @@
     <li>rubbedpart->hand</li>
     <li>rubbedpart->side</li>
     <li>rubbedpart->arm</li>
+
+    <li>nuzzled->otřel</li>
   -->
-  <Nuzzle.logRulesInitiator.rulesStrings>TODO</Nuzzle.logRulesInitiator.rulesStrings>
+  <Nuzzle.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] se [nuzzleadverb] [nuzzled]{INITIATOR_gender ? ​ : a : o} k osobě jménem [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] se [nuzzleadverb] otřel{INITIATOR_gender ? ​ : a : o} [INITIATOR_possessive] nos o [rubbedpart] osoby jménem [RECIPIENT_nameDef].</li>
+    <li>nuzzled(p=2)->přitulil</li>
+    <li>nuzzled->přivinul</li>
+    <li>nuzzleadverb(p=4)-></li>
+    <li>nuzzleadverb->něžně</li>
+    <li>nuzzleadverb->povzbudivě</li>
+    <li>nuzzleadverb->šťastně</li>
+    <li>nuzzleadverb->jemně</li>
+    <li>nuzzleadverb->podpůrně</li>
+    <li>nuzzleadverb->lehce</li>
+    <li>nuzzleadverb->warmly</li>
+    <li>nuzzleadverb->plaintively</li>
+    <li>nuzzleadverb->milujícně</li>
+    <li>nuzzleadverb->vlídně</li>
+    <li>rubbedpart->nohu</li>
+    <li>rubbedpart->koleno</li>
+    <li>rubbedpart->holeň</li>
+    <li>rubbedpart->loket</li>
+    <li>rubbedpart->bok</li>
+    <li>rubbedpart->rameno</li>
+    <li>rubbedpart->dlaň</li>
+    <li>rubbedpart->stehno</li>
+    <li>rubbedpart->ruku</li>
+  </Nuzzle.logRulesInitiator.rulesStrings>
   
   <!-- EN: release to the wild -->
-  <ReleaseToWild.label>TODO</ReleaseToWild.label>
+  <ReleaseToWild.label>vypuštění do volné přírody</ReleaseToWild.label>
   <!-- EN:
     <li>r_logentry->[farewell] [released]</li>
     <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
@@ -74,10 +101,22 @@
     <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
     <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
   -->
-  <ReleaseToWild.logRulesInitiator.rulesStrings>TODO</ReleaseToWild.logRulesInitiator.rulesStrings>
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] něžně pohladil[INITIATOR_pronoun] zvíře [RECIPIENT_nameDef] poslední krát</li>
+    <li>farewell->[INITIATOR_nameDef] řekl pár posledních slov žvířeti [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] sundal obojek zvířeti[RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] si zavzpomínal na dobré časy které strávil[INITIATOR_pronoun] se zvířetem jménem [RECIPIENT_nameDef]</li>
+    <li>released->a vypustil[INITIATOR_pronoun] [RECIPIENT_objective] do volné přírody.</li>
+    <li>released->a naposledy [RECIPIENT_objective] odvázal[INITIATOR_pronoun].</li>
+    <li>released->a nechal[INITIATOR_pronoun] [RECIPIENT_objective] se pomalu odtoulat pryč.</li>
+    <li>released->a let [RECIPIENT_objective] go.</li>
+    <li>released->a poté se otočil[INITIATOR_pronoun] a nechal[INITIATOR_pronoun] [RECIPIENT_objective] opustit kolonii.</li>
+    <li>released->předtím, než [RECIPIENT_objective] nechal si vychutnat svobodu.</li>
+  </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
-  <TameAttempt.label>TODO</TameAttempt.label>
+  <TameAttempt.label>pokus o ochočení</TameAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
@@ -95,7 +134,23 @@
     <li>r_logentry->[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come.</li>
     <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
   -->
-  <TameAttempt.logRulesInitiator.rulesStrings>TODO</TameAttempt.logRulesInitiator.rulesStrings>
+  <TameAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] se pokusil[INITIATOR_pronoun] ochočit [lookup: [RECIPIENT_nameDef]; case\singular; 4].</li>
+    <li>r_logentry->[INITIATOR_nameDef] se pokusil[INITIATOR_pronoun] dostat [lookup: [RECIPIENT_nameDef]; case\singular; 4] pod kontrolu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] se pokusil[INITIATOR_pronoun] nasadit obojek [lookup: [RECIPIENT_nameDef]; case\singular; 4].</li>
+    <li>r_logentry->[INITIATOR_nameDef] požadoval[INITIATOR_pronoun] poslušnost po [lookup: [RECIPIENT_nameDef]; case\singular; 6].</li>
+    <li>r_logentry->[INITIATOR_nameDef] zavolal[INITIATOR_pronoun] na [lookup: [RECIPIENT_nameDef]; case\singular; 4], aby k [INITIATOR_objective] přišel.</li>
+    <li>r_logentry->[INITIATOR_nameDef] se pokusil[INITIATOR_pronoun] udržet [lookup: [RECIPIENT_nameDef]; case\singular; 4] v sedě.</li>
+    <li>r_logentry->[INITIATOR_nameDef] získal[INITIATOR_pronoun] pozornost [lookup: [RECIPIENT_nameDef]; case\singular; 2] a začala po něm štěkat pokyny.</li>
+    <li>r_logentry->[INITIATOR_nameDef] zkusil[INITIATOR_pronoun] udržet [lookup: [RECIPIENT_nameDef]; case\singular; 4] na místě.</li>
+    <li>r_logentry->[INITIATOR_nameDef] řval[INITIATOR_pronoun] příkazy na [lookup: [RECIPIENT_nameDef]; case\singular; 4].</li>
+    <li>r_logentry->[INITIATOR_nameDef] plácnul[INITIATOR_pronoun] [lookup: [RECIPIENT_nameDef]; case\singular; 4] aby předvedl[INITIATOR_pronoun] svojí nadřazenost.</li>
+    <li>r_logentry->[INITIATOR_nameDef] se snažil[INITIATOR_pronoun] nasměrovat [RECIPIENT_nameDef] směrem ke komunitě.</li>
+    <li>r_logentry->[INITIATOR_nameDef] zavolal[INITIATOR_pronoun] na [lookup: [RECIPIENT_nameDef]; case\singular; 4] aby se připojil{RECIPIENT_pronoun} ke komunitě.</li>
+    <li>r_logentry->[INITIATOR_nameDef] uchopil[INITIATOR_pronoun] zranitelnou část těla [RECIPIENT_nameDef], požadující poslušnost.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ukázal[INITIATOR_pronoun] vedle sebe na zem, požadující aby k {INITIATOR_gender ? němu : ní} [lookup: [RECIPIENT_nameDef]; case\singular; 4] přiš{RECIPIENT_gender ? el : la : lo}.</li>
+    <li>r_logentry->[INITIATOR_nameDef] se pokusil[INITIATOR_nameDef] dát [lookup: [RECIPIENT_nameDef]; case\singular; 4] {RECIPIENT_gender ? jeho : její} první povel.</li>
+  </TameAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: train attempt -->
   <TrainAttempt.label>TODO</TrainAttempt.label>
