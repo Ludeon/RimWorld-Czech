@@ -69,6 +69,6 @@
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>Komu by {replace: ​[royalFavorReward_amount]​; "​1​"-"měl být připsán 1 bod"; "​2​"-"měly být připsány 2 body"; "​3​"-"měly být připsány 3 body"; "​4​"-"měly být připsány 4 body"; "​[royalFavorReward_amount]​"-"mělo být připsáno [royalFavorReward_amount] bodů"} {lookup: [asker_faction_royalFavorLabel]; case\singular; 2} za splnění obchodní nabídky?</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Komu by {replace: ^[royalFavorReward_amount]^; "^1^"-"měl být připsán 1 bod"; "^2^"-"měly být připsány 2 body"; "^3^"-"měly být připsány 3 body"; "^4^"-"měly být připsány 4 body"; "^[royalFavorReward_amount]^"-"mělo být připsáno [royalFavorReward_amount] bodů"} {lookup: [asker_faction_royalFavorLabel]; case\singular; 2} za splnění obchodní nabídky?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>
