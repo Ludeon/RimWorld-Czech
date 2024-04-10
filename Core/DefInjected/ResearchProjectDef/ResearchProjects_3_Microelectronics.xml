@@ -12,7 +12,13 @@
     <li>subject_story->became wealthy from the resources dug out of the world's core</li>
     <li>subject_gerund->mining deeply</li>
   -->
-  <DeepDrilling.generalRules.rulesStrings>TODO</DeepDrilling.generalRules.rulesStrings>
+  <DeepDrilling.generalRules.rulesStrings>
+    <li>subject->hlubinné vrtání</li>
+    <li>subject_story->se připojil[0_pronoun]??? ke krtkounímu společenství a studoval[0_pronoun]??? jejich hlubiné exkavace</li>
+    <li>subject_story->vrtal[0_pronoun]??? v polárních ledovcích tak hluboko, až našla pozůstatky světa datovaného před vznikem lidí</li>
+    <li>subject_story->se stal[0_pronoun]??? jedním z nejbohatších lidí, těžbou na kovy bohatého jádra jednoho z okrajových světů</li>
+    <li>subject_gerund->hlubinné vrtání</li>
+  </DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
   <FlatscreenTelevision.label>televizor s plochou obrazovkou</FlatscreenTelevision.label>
@@ -30,7 +36,18 @@
     <li>subject_story->became a television executive, in charge of [tv_content]</li>
     <li>subject_gerund->producing flatscreen televisions</li>
   -->
-  <FlatscreenTelevision.generalRules.rulesStrings>TODO</FlatscreenTelevision.generalRules.rulesStrings>
+  <FlatscreenTelevision.generalRules.rulesStrings>
+    <li>subject->televizory s plochou obrazovkou</li>
+    <li>subject_story->experimentoval[0_pronoun]??? s odstraněním katod z televizorů</li>
+    <li>subject_story->loboval[0_pronoun]??? za celogalaktický přenos [tv_content] ve vysokém rozlišení</li>
+    <li>tv_content->telenovel</li>
+    <li>tv_content->zpravodajství</li>
+    <li>tv_content->revoluční propagandy</li>
+    <li>tv_content->třpytosvětové módy</li>
+    <li>tv_content->politických karikatur</li>
+    <li>subject_story->stal[0_pronoun]??? se vrchním [0_gender ? ředitelem : ředitelkou]??? větve televize, která měl na starosti přenos [tv_content]</li>
+    <li>subject_gerund->producing flatscreen televisions</li>
+  </FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>hloubkový snímač</GroundPenetratingScanner.label>
@@ -44,7 +61,14 @@
     <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
     <li>subject_gerund->constructing geophysical scanners</li>
   -->
-  <GroundPenetratingScanner.generalRules.rulesStrings>TODO</GroundPenetratingScanner.generalRules.rulesStrings>
+  <GroundPenetratingScanner.generalRules.rulesStrings>
+    <li>subject->geologie</li>
+    <li>subject->hloubkové snímače</li>
+    <li>subject_story->objevil[0_pronoun]??? kosti prastarých gigantů hluboko pod povrchem planety</li>
+    <li>subject_story->narazil[0_pronoun]??? na bohatou žílu zlata při hledání cínu a stal[0_pronoun]??? se neuvěřitelně bohat[0_gender ? ým : ou]???</li>
+    <li>subject_story->skenoval[0_pronoun]??? zem pro pozůstatky pradávných minových polí, aby ocránil[0_pronoun]??? svůj lid</li>
+    <li>subject_gerund->stavění geologických skenerů</li>
+  </GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>těžký kanón</HeavyTurrets.label>
@@ -57,7 +81,13 @@
     <li>subject_story->built turret after turret, never asking who was buying them</li>
     <li>subject_gerund->crafting heavy autocannon turrets</li>
   -->
-  <HeavyTurrets.generalRules.rulesStrings>TODO</HeavyTurrets.generalRules.rulesStrings>
+  <HeavyTurrets.generalRules.rulesStrings>
+    <li>subject->těžké kanóny</li>
+    <li>subject_story->zvládl[0_pronoun]??? odrazit [0_gender ? sám : sama]??? útok kultistů, schovan[0_gender ? ý : á]??? za řadou střelných věží</li>
+    <li>subject_story->byl[0_pronoun]??? najmut[0_pronoun]???, aby vytvořil obraný perimetr pro místní somorodce</li>
+    <li>subject_story->vyráběl[0_pronoun]??? věž za věží, anichž by se ptala komu vlastně se prodávají</li>
+    <li>subject_gerund->vyrábění těžkých automatických věží</li>
+  </HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>nemocniční lůžko</HospitalBed.label>
@@ -70,7 +100,13 @@
     <li>subject_story->focused on profit, selling their superior medical suites to the wealthy</li>
     <li>subject_gerund->constructing hospital beds</li>
   -->
-  <HospitalBed.generalRules.rulesStrings>TODO</HospitalBed.generalRules.rulesStrings>
+  <HospitalBed.generalRules.rulesStrings>
+    <li>subject->hospitalizace</li>
+    <li>subject_story->dohlížel[0_pronoun]??? na standardy při revoluci v oblasti zdravotní péče</li>
+    <li>subject_story->postavil[0_pronoun]??? první veřejnou nemocnici v systému</li>
+    <li>subject_story->zaměřen[0_gender ? ý : á]??? na profit, prodával[0_pronoun]??? své zdravotní pomůcky primárně bohatým záazníkům</li>
+    <li>subject_gerund->výroba nemocničních lůžek</li>
+  </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>dalekosáhlý snímač minerálů</LongRangeMineralScanner.label>
@@ -83,7 +119,13 @@
     <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
     <li>subject_gerund->constructing long-range mineral scanners</li>
   -->
-  <LongRangeMineralScanner.generalRules.rulesStrings>TODO</LongRangeMineralScanner.generalRules.rulesStrings>
+  <LongRangeMineralScanner.generalRules.rulesStrings>
+    <li>subject->dalekosáhlé snímače minerálů</li>
+    <li>subject_story->postavil[0_pronoun]??? tolik hlubyných skenerů, že byl[0_pronoun]??? schop[0_gender ? en : na]??? popsat geologii celé planety</li>
+    <li>subject_story->využil[0_pronoun]??? skenerů aby zjistil[0_pronoun]??? které osady těžily jaké materiály a zbohatl[0_pronoun]??? obchodováním s nimi</li>
+    <li>subject_story->vytěžil[0_pronoun]??? všechen jadeit své planety, aby z nich mohl[0_pronoun]??? vytvářet ideoboženské sošky</li>
+    <li>subject_gerund->výstavba dalekosáhlých snímačů minerálů</li>
+  </LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
   <MedicineProduction.label>produkce lékárniček</MedicineProduction.label>
@@ -97,7 +139,14 @@
     <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
     <li>subject_gerund->producing industrial-tech medicine</li>
   -->
-  <MedicineProduction.generalRules.rulesStrings>TODO</MedicineProduction.generalRules.rulesStrings>
+  <MedicineProduction.generalRules.rulesStrings>
+    <li>subject->medikálně nezávadná synteze</li>
+    <li>subject->produkce lékárniček</li>
+    <li>subject_story->zkoumal[0_pronoun]??? medicínu městských světů a snažila se rozšířit znalosti o její výrobě</li>
+    <li>subject_story->byl[0_pronoun]??? zaujat[0_gender ? ý : á]??? vznikem neutroaminu a chtěl[0_pronoun]???vědět více</li>
+    <li>subject_story->zabavil[0_pronoun]??? zásoby místního drogového dealera a vyráběl[0_pronoun]??? z nich užitečnou medicínu</li>
+    <li>subject_gerund->výroba industriální medicíny</li>
+  </MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>základy mikroelektroniky</MicroelectronicsBasics.label>
@@ -110,7 +159,13 @@
     <li>subject_story->moved from town to town, praising the virtues of pure research</li>
     <li>subject_gerund->crafting microelectronics</li>
   -->
-  <MicroelectronicsBasics.generalRules.rulesStrings>TODO</MicroelectronicsBasics.generalRules.rulesStrings>
+  <MicroelectronicsBasics.generalRules.rulesStrings>
+    <li>subject->microelektronika</li>
+    <li>subject_story->se začal[0_pronoun]??? zabývat výrobou elektroniky už v mladém věku</li>
+    <li>subject_story->zkonstruoval[0_pronoun]??? jako první mnoho variant výzkumných stanovišť</li>
+    <li>subject_story->navštěvoval[0_pronoun]??? různá města a vyhledáal[0_pronoun]??? jim unikátní technologie</li>
+    <li>subject_gerund->výroba microelektroniky</li>
+  </MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
   <MoisturePump.label>odvodňovací čerpadlo</MoisturePump.label>
@@ -123,7 +178,13 @@
     <li>subject_story->tried to drain the seas, foolishly</li>
     <li>subject_gerund->constructing moisture pumps</li>
   -->
-  <MoisturePump.generalRules.rulesStrings>TODO</MoisturePump.generalRules.rulesStrings>
+  <MoisturePump.generalRules.rulesStrings>
+    <li>subject->odvodňovací čerpadla</li>
+    <li>subject_story->studoval[0_pronoun]??? prastaré struktury větrem poháněných odvodňovacích čerpadel na Zemi</li>
+    <li>subject_story->vysušil[0_pronoun]??? místní bažiny, které byly kolébkami pro mnoho mícních nemocí</li>
+    <li>subject_story->pokusil[0_pronoun]??? se vysušit celé moře, ale neúspěšně</li>
+    <li>subject_gerund->stavění odvodňovacích čerpadel</li>
+  </MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>vícehlavňové zbraně</MultibarrelWeapons.label>
@@ -136,7 +197,13 @@
     <li>subject_story->built guns explicitly to kill every last person in a room</li>
     <li>subject_gerund->crafting multibarrel weapons</li>
   -->
-  <MultibarrelWeapons.generalRules.rulesStrings>TODO</MultibarrelWeapons.generalRules.rulesStrings>
+  <MultibarrelWeapons.generalRules.rulesStrings>
+    <li>subject->kulomety</li>
+    <li>subject_story->sestrojil[0_pronoun]??? jedinečný přenosný kulomet, který byl ta jediná věc, co se našla po zmizení jeho jednotky</li>
+    <li>subject_story->nadesignoval[0_pronoun]??? masivní rychle vyměnitelné zásobníky, aby jejich kulometům nikdy nedošly náboje</li>
+    <li>subject_story->vytvořil[0_pronoun]??? arzenál zbraní aby byl[0_pronoun]??? schopn[0_gender ? ý : á]??? zabít každého jedince v místnosti</li>
+    <li>subject_gerund->tvorba vícehlavňových zbraní</li>
+  </MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>přesné zbraně</PrecisionRifling.label>
@@ -149,7 +216,13 @@
     <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
     <li>subject_gerund->crafting rifles</li>
   -->
-  <PrecisionRifling.generalRules.rulesStrings>TODO</PrecisionRifling.generalRules.rulesStrings>
+  <PrecisionRifling.generalRules.rulesStrings>
+    <li>subject->pušky</li>
+    <li>subject_story->vylepšil[0_pronoun]??? tolerance místní továrny, což umožnilo výrobu komplexnějších střelných zbraní</li>
+    <li>subject_story->byl[0_pronoun]??? loven[0_pronoun]??? kmenem neandrtálců, ale povedlo se [0_gender ? mu ? jí]??? vyrobit odstřelovací pušku, kterou byl[0_pronoun]??? schopn[0_gender ? ý : á]??? zastřelit jejich vůdce</li>
+    <li>subject_story->stal[0_pronoun]??? se znám[0_gender ? ý : ou]???, když se jí povedlo vystřelit ambrozii z rukou [0_gender ? jeho : jejího]??? nadvládce</li>
+    <li>subject_gerund->výroba pušek</li>
+  </PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
   <ShieldBelt.label>energetické štíty</ShieldBelt.label>
@@ -162,7 +235,13 @@
     <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
     <li>subject_gerund->crafting personal shields</li>
   -->
-  <ShieldBelt.generalRules.rulesStrings>TODO</ShieldBelt.generalRules.rulesStrings>
+  <ShieldBelt.generalRules.rulesStrings>
+    <li>subject->osobní zaštítění</li>
+    <li>subject_story->přežil[0_pronoun]??? pokus o vraždu díky [0_gender ? jeho : jejímu]??? prototypu osobního štítu</li>
+    <li>subject_story->podváděl[0_pronoun]??? v biliárdu za pomocí speciálního odpuzovače pohybu</li>
+    <li>subject_story->zabil[0_pronoun]??? nepřítele tak, že svým ostřím postupoval[0_pronoun]??? příliš pomalu na to, aby ho štít zachytil</li>
+    <li>subject_gerund->vyrábění osobního štítu</li>
+  </ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
   <TransportPod.label>přepravní modul</TransportPod.label>
@@ -175,6 +254,12 @@
     <li>subject_story->staved off famine through judicious pod deployment</li>
     <li>subject_gerund->constructing transport pods</li>
   -->
-  <TransportPod.generalRules.rulesStrings>TODO</TransportPod.generalRules.rulesStrings>
+  <TransportPod.generalRules.rulesStrings>
+    <li>subject->přepravní moduly</li>
+    <li>subject_story->omylem přistál[0_pronoun]??? se svým modulem uprostřed divokého kmene a málem přišla o život</li>
+    <li>subject_story->utratil[0_pronoun]??? mění aby doručil[0_pronoun]??? přepravním modulem zásnubní prsten [0_gender ? jeho milé : jejímu milému]???</li>
+    <li>subject_story->odvrátil[0_pronoun]??? hladomor prozíravím zasláním zásob</li>
+    <li>subject_gerund->stavěnípřepravních modulů</li>
+  </TransportPod.generalRules.rulesStrings>
   
 </LanguageData>
