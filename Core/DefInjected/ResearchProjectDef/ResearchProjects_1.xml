@@ -13,7 +13,14 @@
     <li>subject_gerund->constructing breweries</li>
     <li>subject_gerund->brewing beer</li>
   -->
-  <Brewing.generalRules.rulesStrings>TODO</Brewing.generalRules.rulesStrings>
+  <Brewing.generalRules.rulesStrings>
+    <li>subject->brewing</li>
+    <li>subject_story->uvařil[0_pronoun]??? unikátní ležák, který se stal ceněný v celém systému</li>
+    <li>subject_story->sekl[0_pronoun]??? se svou prací, aby mohl[0_pronoun]??? provozovat hostinac na zvířecím světě</li>
+    <li>subject_story->specializoval[0_pronoun]??? se na klimatem ovlivněnými fermentačními technikami</li>
+    <li>subject_gerund->stavění pivovarů</li>
+    <li>subject_gerund->vaření piva</li>
+  </Brewing.generalRules.rulesStrings>
   
   <!-- EN: carpet-making -->
   <CarpetMaking.label>výroba koberců</CarpetMaking.label>
@@ -26,7 +33,13 @@
     <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
     <li>subject_gerund->weaving carpets</li>
   -->
-  <CarpetMaking.generalRules.rulesStrings>TODO</CarpetMaking.generalRules.rulesStrings>
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject->výroba koberců</li>
+    <li>subject_story->se naučil[0_pronoun]??? tkát koberce od Císaře daleké říše</li>
+    <li>subject_story->zanechal[0_pronoun]??? za sebou jedinečnou kolekci koberců a tkanin</li>
+    <li>subject_story->se usadil[0_pronoun]??? na středověkém měsíci, kde výroba koberců byla uznávanýmřemeslem</li>
+    <li>subject_gerund->tkaní koberců</li>
+  </CarpetMaking.generalRules.rulesStrings>
   
   <!-- EN: cocoa -->
   <Cocoa.label>kakao</Cocoa.label>
@@ -41,7 +54,15 @@
     <li>subject_gerund->producing chocolate</li>
     <li>subject_gerund->cultivating cocoa</li>
   -->
-  <Cocoa.generalRules.rulesStrings>TODO</Cocoa.generalRules.rulesStrings>
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject->kakao</li>
+    <li>subject->čokoláda</li>
+    <li>subject_story->se stal[0_pronoun]??? posedl[0_gender ? ý : á]??? čokoládou a musel[0_pronoun] se omezit</li>
+    <li>subject_story->studoval[0_pronoun]??? fermentační proces kakaa pro svojí diplomovou práci</li>
+    <li>subject_story->založil[0_pronoun]??? nejlepší obchod s čokoládou v sektoru</li>
+    <li>subject_gerund->vyrábění čokolády</li>
+    <li>subject_gerund->kultivace kakaa</li>
+  </Cocoa.generalRules.rulesStrings>
   
   <!-- EN: complex clothing -->
   <ComplexClothing.label>komplexní oblečení</ComplexClothing.label>
@@ -67,9 +88,14 @@
     <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
     <li>subject_gerund->building complex furniture</li>
   -->
-  <ComplexFurniture.generalRules.rulesStrings>TODO</ComplexFurniture.generalRules.rulesStrings>
-  
-  <!-- EN: devilstrand -->
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject->dřevořezbářství</li>
+    <li>subject_story->studoval[0_pronoun]??? dřevořezbářství u veleznámého mistra</li>
+    <li>subject_story->postavil[0_pronoun]??? [0_gender ? sám : sama]??? městečko srubů</li>
+    <li>subject_story->založil[0_pronoun]??? továrnu na vysoce kvalitní nábytek, který přeprodával[0_pronoun]??? obchodníkům.</li>
+    <li>subject_gerund->building complex furniture</li>
+  </ComplexFurniture.generalRules.rulesStrings>
+    <!-- EN: devilstrand -->
   <Devilstrand.label>ďáblova houba</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
   <Devilstrand.description>Umožní pěstovat pomalu rostoucí houbu, která produkuje výjimečně houževnaté, tepelně odolné, rostlinné vlákno.</Devilstrand.description>
@@ -80,7 +106,13 @@
     <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of their kingdom</li>
     <li>subject_gerund->cultivating devilstrand</li>
   -->
-  <Devilstrand.generalRules.rulesStrings>TODO</Devilstrand.generalRules.rulesStrings>
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject->kultivace ďáblovy houby</li>
+    <li>subject_story->použil[0_pronoun]??? ďáblovy houby jako přírodní bariéru pro oheň</li>
+    <li>subject_story->zdokumentoval[0_pronoun]??? techniku pro kultivování ďáblovy houby</li>
+    <li>subject_story->stal[0_pronoun]??? posedlou houbami a prohlásila se za [0_gender ? prince : princeznu] jejich království</li>
+    <li>subject_gerund->kultivování ďáblovy houby</li>
+  </Devilstrand.generalRules.rulesStrings>
   
   <!-- EN: drug production -->
   <DrugProduction.label>produkce léčiv</DrugProduction.label>
@@ -95,7 +127,15 @@
     <li>subject_gerund->building drug labs</li>
     <li>subject_gerund->producing drugs</li>
   -->
-  <DrugProduction.generalRules.rulesStrings>TODO</DrugProduction.generalRules.rulesStrings>
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->produkce drog</li>
+    <li>subject->synteze drog</li>
+    <li>subject_story->pracoval[0_pronoun]??? v asteroidové laboratoři na okraji osídleného vesmíru</li>
+    <li>subject_story->naučil[0_pronoun]??? se jak vtvářet drogy z vyhozených chemikálií, což ho poslalo na mnoho let za mříže</li>
+    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
+    <li>subject_gerund->building drug labs</li>
+    <li>subject_gerund->producing drugs</li>
+  </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>výroba šťávy-go</GoJuiceProduction.label>
