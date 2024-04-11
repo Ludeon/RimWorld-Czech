@@ -16,7 +16,13 @@
     <li>subject_story->harvested shipwrecks in the debris belt of a deadworld</li>
     <li>subject_gerund->constructing starship structures</li>
   -->
-  <ShipBasics.generalRules.rulesStrings>TODO</ShipBasics.generalRules.rulesStrings>
+  <ShipBasics.generalRules.rulesStrings>
+    <li>subject->strukturální inženýrství vesmírných lodí</li>
+    <li>subject_story->rekrutoval[0_pronoun]??? inženýry vesmírných lodí pro třpytosvětovou flotilu</li>
+    <li>subject_story->byl[0_pronoun]??? strukturáln[0_gender ? ím inženýrem : í inženýrkou]??? v mrakodrapové čtvrti na městském světě</li>
+    <li>subject_story->sklízel[0_pronoun]??? vraky lodí v pásu trosek mrtvosvěta</li>
+    <li>subject_gerund->konstrukce struktur mezihvězdných lodí</li>
+  </ShipBasics.generalRules.rulesStrings>
   
   <!-- EN: machine persuasion -->
   <ShipComputerCore.label>strojní přesvědčování</ShipComputerCore.label>
@@ -32,7 +38,16 @@
     <li>subject_gerund->maintaining starship AI sanity</li>
     <li>subject_gerund->constructing reward-signal systems</li>
   -->
-  <ShipComputerCore.generalRules.rulesStrings>TODO</ShipComputerCore.generalRules.rulesStrings>
+  <ShipComputerCore.generalRules.rulesStrings>
+    <li>subject->odměňování osobního jádra</li>
+    <li>subject->udržování příčetnosti umělé inteligence mezihvězdných lodí</li>
+    <li>subject_story->znovu získal[0_pronoun]??? kontrolu nad zblázněným jádrem lodi opatrným přecvičením umělé inteligence</li>
+    <li>subject_story->vytvořil[0_pronoun]??? simulátor řízení kolonie, aby se umělá inteligence v jádru lodi nenudila v čase stráveném v mezihvězdném prostoru</li>
+    <li>subject_story->strávil[0_pronoun]??? čas s umělou inteligencí lodě při krátké cestě, aby pochopil[0_pronoun]??? jak taková umělá inteligence funguje</li>
+    <li>subject_gerund->motivování osobních jader</li>
+    <li>subject_gerund->udržování příčetnosti umělé inteligence</li>
+    <li>subject_gerund->skládání odměňovacích signálů</li>
+  </ShipComputerCore.generalRules.rulesStrings>
   
   <!-- EN: vacuum cryptosleep casket -->
   <ShipCryptosleep.label>vakuové kryptospánkové komory</ShipCryptosleep.label>
@@ -45,8 +60,14 @@
     <li>subject_story->lectured on the differences between planetary- and starship-grade equipment</li>
     <li>subject_gerund->constructing hardened cryptosleep caskets</li>
   -->
-  <ShipCryptosleep.generalRules.rulesStrings>TODO</ShipCryptosleep.generalRules.rulesStrings>
-  
+  <ShipCryptosleep.generalRules.rulesStrings>
+    <li>subject->mezihvězdná třída kryptospánkových komor</li>
+    <li>subject_story->vyměnil[0_pronoun]??? nefunkční kryptospánkové komory na CMC Celeste, což umožnilo její opětovné nasazení</li>
+    <li>subject_story->byl[0_pronoun]??? omylem  vypuštěn[0_pronoun]??? do hlubokého vesmíru, kde přežil[0_pronoun]??? dva měsíce ve vlastnoručně nadesignované kryptospánkové komoře</li>
+    <li>subject_story->školil[0_pronoun]??? ostaní v rozdílech mezi planetární a kosmickou třídou vybavení</li>
+    <li>subject_gerund->sestrojování stvrzelých kryptospánkových komor</li>
+  </ShipCryptosleep.generalRules.rulesStrings>
+
   <!-- EN: Johnson-Tanaka drive -->
   <ShipEngine.label>pohon Johnson-Tanaka</ShipEngine.label>
   <!-- EN: Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere. -->
@@ -59,7 +80,14 @@
     <li>subject_story->maintained a Johnson-Tanaka drive for two decades, as the ship traveled between the stars</li>
     <li>subject_gerund->constructing starship drives</li>
   -->
-  <ShipEngine.generalRules.rulesStrings>TODO</ShipEngine.generalRules.rulesStrings>
+  <ShipEngine.generalRules.rulesStrings>
+    <li>subject->Johnson-Tanaka theory</li>
+    <li>subject->exotický přenos hybnosti</li>
+    <li>subject_story->přednášel[0_pronoun]???na universitě o Johnson, Tanakových a kvantových efektech</li>
+    <li>subject_story->sestrojil[0_pronoun]??? Johnson-Tanakově pohonu pro praktickou část [0_gender ? jeho : její]??? diplomové práce</li>
+    <li>subject_story->udržoval[0_pronoun]??? prototyp motoru založeném na Johnson-Tanakaově pohonu po dvě dekády při meziplanetární cestě</li>
+    <li>subject_gerund->výstavba pohonů lodi</li>
+  </ShipEngine.generalRules.rulesStrings>
   
   <!-- EN: starship reactor -->
   <ShipReactor.label>reaktor vesmírné lodě</ShipReactor.label>
@@ -72,7 +100,13 @@
     <li>subject_story->used a starship reactor as the back-up power for a genebank buried beneath the planet's ice-cap</li>
     <li>subject_gerund->constructing starship reactors</li>
   -->
-  <ShipReactor.generalRules.rulesStrings>TODO</ShipReactor.generalRules.rulesStrings>
+  <ShipReactor.generalRules.rulesStrings>
+    <li>subject->starship nuclear reactor</li>
+    <li>subject_story->sestrojil[0_pronoun]??? nový reaktor pro vesmírnou loď, ale nežil dost dlouho na to aby ho mohl[0_pronoun]??? vidět vzlétnout</li>
+    <li>subject_story->bránil[0_pronoun]??? loď při startování reaktoru před nájezdníky, kteří se zoufale snažili dostat z toho mizerného světa</li>
+    <li>subject_story->použil[0_pronoun]??? lodní reaktor jako náhradní zdroj energie pro genovou banku hluboko pod pólem</li>
+    <li>subject_gerund->výstavba reaktoru mezihvězdná lodě</li>
+  </ShipReactor.generalRules.rulesStrings>
   
   <!-- EN: starflight sensors -->
   <ShipSensorCluster.label>senzory vesmírného letu</ShipSensorCluster.label>
