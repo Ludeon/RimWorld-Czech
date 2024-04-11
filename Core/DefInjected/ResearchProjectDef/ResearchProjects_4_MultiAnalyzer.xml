@@ -119,7 +119,13 @@
     <li>subject_story->helped identify new stable isotopes</li>
     <li>subject_gerund->constructing multi-analyzers</li>
   -->
-  <MultiAnalyzer.generalRules.rulesStrings>TODO</MultiAnalyzer.generalRules.rulesStrings>
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>subject->komplexní analýza</li>
+    <li>subject_story->zautomatizoval[0_pronoun]??? výzkumnou laboratoř</li>
+    <li>subject_story->odhalil[0_pronoun]??? tajemství transformního spektra vesmíru</li>
+    <li>subject_story->pomohl[0_pronoun]??? identifikovat nové stabilní izotopy</li>
+    <li>subject_gerund->stavba multifunkčního analyzátoru</li>
+  </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
   <PoweredArmor.label>mariňácká zbroj</PoweredArmor.label>
@@ -134,7 +140,15 @@
     <li>subject_gerund->constructing marine armor</li>
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
-  <PoweredArmor.generalRules.rulesStrings>TODO</PoweredArmor.generalRules.rulesStrings>
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->mariňácká zbroj</li>
+    <li>subject_story->byl[0_pronoun]??? zaměstn[0_gender ? án : aná]??? jako čistič zbroje úderných vojsk</li>
+    <li>subject_story->otestoval[0_pronoun]??? svou zbroj tím, že proš[0_gender ? el : la]??? neozbrojen[0_gender ? ý : á]??? skrz vesnici nepřátelského kmene, aniž by obdržel[0_pronoun]??? jediné škrábnutí</li>
+    <li>subject_story->vytvořil[0_pronoun]??? tuto zbroj jako ochranu před divokým počasím [0_gender ? jeho : její]??? domovské planet a zjistil[0_pronoun]???, že je také velmi učínná proti pirátům</li>
+    <li>subject_gerund->výroba zbroje úderných vojsk</li>
+    <li>subject_gerund->výroba mariňácké zbroje</li>
+    <li>subject_gerund->výroba zbroje pro všeobecné použití</li>
+  </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
   <ReconArmor.label>průzkumnická zbroj</ReconArmor.label>
@@ -148,7 +162,14 @@
     <li>subject_gerund->crafting recon armor</li>
     <li>subject_gerund->reducing armor weight</li>
   -->
-  <ReconArmor.generalRules.rulesStrings>TODO</ReconArmor.generalRules.rulesStrings>
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject->průzkumnická zbroj</li>
+    <li>subject_story->vedl[0_pronoun]??? rebelské skauty proti Impériálním jednotkám, až do chvíle kdy byl[0_pronoun]??? zadržen[0_pronoun]???</li>
+    <li>subject_story->vyrobil[0_pronoun]??? dostatečně odlehčenou zbroj a odolnou zbroj, aby jednotky s kladivy se mohly dostat do úderné vzdálenosti</li>
+    <li>subject_story->plánoval[0_pronoun]??? prodávat průzkumnická zbroj spíše lovcům než vojáků. I přesto šla na dranc</li>
+    <li>subject_gerund->výroba průzkumnické zbroje</li>
+    <li>subject_gerund->snížení váhy zbroje</li>
+  </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>salvový raketomet</RocketswarmLauncher.label>
@@ -161,7 +182,13 @@
     <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
     <li>subject_gerund->constructing rocket turrets</li>
   -->
-  <RocketswarmLauncher.generalRules.rulesStrings>TODO</RocketswarmLauncher.generalRules.rulesStrings>
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject->salvové raketomety</li>
+    <li>subject_story->vypovídal[0_pronoun]??? proti zneužívání salvových rakotemotů proti civilním cílům</li>
+    <li>subject_story->sestrojil[0_pronoun]??? poslední linii obrany is s automatickými raketomety pro případ, že by jejich osada byla napadena</li>
+    <li>subject_story->začal[0_pronoun]??? tvorbou primitivních raket schopných doletět na orbitu, ale jejich vysoká míra selhání vedl k tomu, že byly přebudovány na útočné zbraně</li>
+    <li>subject_gerund->výstavba raketových věží</li>
+  </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>odstřelovací kanón</SniperTurret.label>
@@ -174,7 +201,13 @@
     <li>subject_story->researched the effects of ammunition density on armor</li>
     <li>subject_gerund->constructing sniper turrets</li>
   -->
-  <SniperTurret.generalRules.rulesStrings>TODO</SniperTurret.generalRules.rulesStrings>
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject->odstřelovací kanóny</li>
+    <li>subject_story->vedl[0_pronoun]??? poválečný úklid krajiny, u kterého nasbíral[0_pronoun]??? mnoho radioaktivních uranových projektilů z válečných front</li>
+    <li>subject_story->viděl[0_pronoun]??? jak kanón prostřelil přímo skrz útočného mechanoida a potřeboval[0_pronoun]??? vědět jak to bylo vůbec možné</li>
+    <li>subject_story->zkoumal[0_pronoun]??? efekty hustější munice na zbroj</li>
+    <li>subject_gerund->stavění odstřelovacích kanónů</li>
+  </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>monitory životních funkcí</VitalsMonitor.label>
@@ -188,6 +221,13 @@
     <li>subject_gerund->monitoring vital signs</li>
     <li>subject_gerund->constructing vital signs monitors</li>
   -->
-  <VitalsMonitor.generalRules.rulesStrings>TODO</VitalsMonitor.generalRules.rulesStrings>
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject->monitorování životních funkcí</li>
+    <li>subject_story->trpěl[0_pronoun]??? v přeplněné nemocnici and rozhodl[0_pronoun]??? se že s tím musí něco udělat</li>
+    <li>subject_story->ošetřiloval[0_pronoun]??? přeživšího ze skleněného světa a povedlo se [0_gender ? mu : jí]??? ho kompletně uzdravit</li>
+    <li>subject_story->monitoroval[0_pronoun]??? vzdáleně pacienty v karanténě a ošetřoval[0_pronoun]??? je mechanoidy</li>
+    <li>subject_gerund->monitorování životních funkcí</li>
+    <li>subject_gerund->výroba monitorů životních funkcí</li>
+  </VitalsMonitor.generalRules.rulesStrings>
   
 </LanguageData>
