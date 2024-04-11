@@ -27,7 +27,7 @@
     <li>tamed->sat patiently near</li>
     <li>tamed->whispered a story about [TalkTopicAny] to</li>
   -->
-  <AnimalChat.logRulesInitiator.rulesStrings>    
+  <AnimalChat.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed].</li>
     <li>r_logentry->[INITIATOR_nameDef] se posadil[INITIATOR_pronoun] a začal[INITIATOR_pronoun] povídat o [TalkTopicAny].</li>
     <li>r_logentry->[INITIATOR_nameDef] se přiblížil[INITIATOR_pronoun], u toho co si pro sebe šeptal[INITIATOR_pronoun] o [TalkTopicAny].</li>
@@ -50,7 +50,7 @@
     <li>tamed->se pokusil[INITIATOR_pronoun] navodit uvolněnou náladu</li>
     <li>tamed->položil[INITIATOR_pronoun] otázku, skoro jako by čekal[INITIATOR_pronoun] na odpověď</li>
     <li>tamed->začal[INITIATOR_pronoun] šeptat příběh o [TalkTopicAny]</li>
-    </AnimalChat.logRulesInitiator.rulesStrings>
+  </AnimalChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: nuzzle -->
   <Nuzzle.label>přitulení</Nuzzle.label>
@@ -79,8 +79,6 @@
     <li>rubbedpart->hand</li>
     <li>rubbedpart->side</li>
     <li>rubbedpart->arm</li>
-
-    <li>nuzzled->otřel</li>
   -->
   <Nuzzle.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=2)->[INITIATOR_nameDef] se [nuzzleadverb] [nuzzled]{INITIATOR_gender ? ​ : a : o} k osobě jménem [RECIPIENT_nameDef].</li>
