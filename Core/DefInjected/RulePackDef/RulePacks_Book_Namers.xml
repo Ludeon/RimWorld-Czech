@@ -317,8 +317,137 @@
     <li>randTheme->faith</li>
     <li>randTheme->rights</li>
     <li>randTheme->ethics</li>
+
+
+        <li>title->Poznámky k [subject_primary]</li> <-#3->
+    <li>title->Průlom v [subject_primary]</li> <!-#6->
+    <li>title->Studie [subject_primary]</li> <!-#2->
+    <li>title->Nová využití [subject_primary]</li> <!-#2->
+    <li>title->Porozumění [subject_primary]</li> <!-#2->
+    <li>title->Principy [subject_primary]</li> <!-#2->
+    <li>title->Základy [subject_primary]</li> <!-#2->
+    <li>title->[subject_primary]: Část [volNumeral]</li> <!-#1->
+    <li>title->[subject_primary] Svazek [volNumeral]</li> <!-#1->
+    <li>title->[randAdjective] [subject_primary]</li> <!-#1?->
+    <li>title->[randAdjective] [subject_primary] Část [volNumeral]</li> <!-#1?->
+    <li>title->[maybe_authored_title]</li> 
+    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] in the [subject_secondary] sector</li> <!-#3/other->
+    <li>title->[studiesStart] [subject_primary] následující [lifeEvent]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: [randAdjective] [discussionNoun]</li>
+    <li>title->[randAdjective] [subject_primary] [referenceType]</li>
+    <li>title->[referenceType] of [randAdjective] [subject_primary], Svazek [volNumeral]</li>
+    <li>title->[studiesStart] [randAdjective] [subject_primary], Svazek [volNumeral]</li>
+    <li>title->[referenceType] of [studiesStart] [randAdjective] [subject_primary]</li>
+    <li>title->[lifeEvent] [discussionNoun] a [subject_primary]</li>
   -->
-  <Namer_Schematic.rulePack.rulesStrings>TODO</Namer_Schematic.rulePack.rulesStrings>
+  <Namer_Schematic.rulePack.rulesStrings>
+    <li>title->Design {replace: ^[subject_primary]^; "^výroba^"-"výroby"; "^kakao^"-"kakaa";"^čokoláda^"-"čokolády";"^komplexní oblečení^"-"komplexního oblečení";"^dlouhé luky^"-"dlouhých luků";"^středověké^"-"středověkých";"^pasivní chlazení^"-"pasivního chlazení";"^plátová^"-"plátové";"^psychoid^"-"psychoidu";"^automatické dveře^"-"automatických dveří";"^baterie^"-"baterií";"^biopalivo^"-"biopaliva";"^pistole^"-"pistolí";"^zbraně^"-"zbraní";"^pokročilé osvětlení^"-"pokročilého osvětlení";"^elektřina^"-"elektřiny";"^protipožární zařízení^"-"protipožárních zařízení";"^střepinová^"-"střepinové";"^zbroj^"-"zbroje";"^hasící děla^"-"hasících děl";"^tlumící děla^"-"tlumících děl";"^těžké^"-"těžkých";"^vysokovýkonné^"-"vysokovýkonných";"^jednoduché střelné^"-"jednoduchých střelných";"^střelné věže^"-"střelných věží";"^minomety^"-"minometu";"^pasta^"-"pasty";"^nouzové potravinové balíčky^"-"nouzových potravinových balíčků";"^trvanlivé potraviny^"-"trvanlivých potravin";"^protetika^"-"protetik";"^kouřová clona^"-"kouřových clon";"^solarní panely^"-"solarních panelů";"^sterilní povrchy^"-"sterilních povrchů";"^elevizor^"-"elevizoru";"^vodní generátor^"-"vodního generátoru";"^hlubinné vrtání^"-"hlubinného vrtání";"^hloubkové snímače^"-"hloubkového snímače";"^kanóny^"-"kanónů";"^dalekosáhlé snímače^"-"dalekosáhlého snímače";"^nezávadná ^"-"nezávadné ";"^elektronika^"-"elektroniky";"^odvodňovací čerpadla^"-"odvodňovacího čerpadla";"^kulomety^"-"kulometů";"^pušky^"-"pušek";"^osobní zaštítění^"-"osobního zaštítění";"^přepravní moduly^"-"přepravních modulů";"^bionické protézy^"-"bionických protéz";"^energetická munice^"-"energetické munice";"^kryptospánek^"-"kryptospánku";"^špičkové monážní stroje^"-"špičkových monážních strojů";"^analýza^"-"analýzy";"^mariňácká^"-"mariňácké";"^průzkumnická^"-"průzkumnické";"^salvové raketomety^"-"salvových raketometů";"^odstřelovací^"-"odstřelovacích";"^strukturální in^"-"strukturálního in";"^mezihvězdná třída^"-"mezihvězdné třídy";"^-Tanakova t^"-"-Tanakovi t";"^exotický přenos^"-"exotického přenosu";"^lodní nukleární reaktor^"-"lodního nukleárního reaktoru"; "^[subject_primary]^"-"[subject_primary]X"}</li> <!--#2-->
+    <li>title->Poznámky k{replace: ^[subject_primary]^; "^výroba^"-" výrobě"; "^kakao^"-" výrobě kakaa";"^čokoláda^"-" výrobě čokolády";"^komplexní oblečení^"-"e komplexnímu oblečení";"^kultivace^"-"e kultivaci";"^dlouhé luky^"-" dlouhým lukům";"^středověké^"-" středověkým";"^pasivní chlazení^"-" pasivnímu chlazení";"^plátová^"-" plátové";"^psychoid^"-" psychoidu";"^automatické dveře^"-" automatickým dveřím";"^baterie^"-" bateriím";"^biopalivo^"-" biopalivu";"^pistole^"-" pistolím";"^zbraně s^"-"e zbraním s";"^zbraně^"-"zbraním";"^pokročilé osvětlení^"-" pokročilému osvětlení";"^elektřina^"-" elektřině";"^protipožární zařízení^"-" protipožárním zařízením";"^zařízení požární^"-" zařízením požární";"^střepinová^"-" střepinové";"^zbroj^"-"zbroji";"^hasící děla^"-" hasícím dělům";"^oheň tlumící děla^"-" oheň tlumícím dělům";"^těžké^"-" těžkým";"^vysokovýkonné^"-" vysokovýkonným";"^geotermalní^"-"e geotermalní";"^energie^"-"energii";"^jednoduché střelné^"-" jednoduchým střelným";"^střelné věže^"-"e střelným věžím";"^hydroponie^"-" hydroponii";"^minomety^"-" minometům";"^pasta^"-"pastě";"^nouzové potravinové balíčky^"-" nouzovým potravinovým balíčkům";"^trvanlivé potraviny^"-" trvanlivým potravinám";"^protetika^"-" protetikám";"^kouřová clona^"-"e kouřovým clonám";"^solarní panely^"-" solarním panelům";"^sterilní povrchy^"-" sterilním povrchům";"^CRT televizor^"-"CRT televizorům";"^televizor s^"-" televizorům s";"^vodní generátor^"-" vodním generátorům";"^hlubinné vrtání^"-" hlubinnému vrtání";"^hloubkové snímače^"-" hloubkovým snímačům";"^kanóny^"-"kanónům";"^dalekosáhlé snímače^"-" dalekosáhléhlým snímačům";"^medikálně nezávadná synteze^"-" medikálně nezávadné syntezy";"^mikroelektronika^"-" mikroelektronice";"^odvodňovací čerpadla^"-" odvodňovacím čerpadlům";"^kulomety^"-"e kulometům";"^pušky^"-" puškám";"^osobní zaštítění^"-" osobnímu zaštítění";"^přepravní moduly^"-" přepravním modulům";"^fabrikace^"-" fabrikaci";"^bionické protézy^"-" bionickým protézám";"^energetická munice^"-" energetické munici";"^kryptospánek^"-"e kryptospánku";"^špičkové monážní stroje^"-"e špičkovým monážním strojům";"^komplexní analýza^"-"e komplexní analýze";"^mariňácká^"-" mariňácké";"^průzkumnická^"-" průzkumnické";"^salvové raketomety^"-" salvovým raketometům";"^odstřelovací^"-" odstřelovacím";"^strukturální in^"-"e strukturálnímu in";"^mezihvězdná třída^"-" mezihvězdné třídě";"^Johnson-Tanakova teorie^"-" Johnson-Tanakově teorii";"^exotický přenos^"-" exotickému přenosu";"^lodní nukleární reaktor^"-" lodnímu nukleárnímu reaktoru"; "^[subject_primary]^"-" [subject_primary]X"}</li> <!--#3-->
+    <li>studiesStart->Studies in</li>
+    <li>studiesStart->Fundamentals of</li>
+    <li>studiesStart->Managing</li>
+    <li>studiesStart->Histories of</li>
+    <li>studiesStart->Working in</li>
+    <li>studiesStart->Representation of</li>
+    <li>studiesStart->Surviving</li>
+    <li>studiesStart->Advances in</li>
+    <li>studiesStart->Applications of</li>
+    <li>studiesStart->Shaping the future of</li>
+    <li>studiesStart->Documenting of</li>
+    <li>referenceType->Encyklopedie</li>
+    <li>referenceType->Slovník</li>
+    <li>referenceType->Almanach</li>
+    <li>referenceType->Registr</li>
+    <li>referenceType->Anál</li>
+    <li>referenceType->Záznam</li>
+    <li>referenceType->Příručka</li>
+    <li>referenceType->Kronika</li>
+    <li>referenceType->Mentor??</li>
+    <li>referenceType->Sbírka</li>
+    <li>anecdotes->thoughts</li>
+    <li>anecdotes->anecdotes</li>
+    <li>anecdotes->folk tales</li>
+    <li>anecdotes->hearsay</li>
+    <li>anecdotes->stories</li>
+    <li>anecdotes->narratives</li>
+    <li>discussionNoun->diskuze</li>
+    <li>discussionNoun->debata</li>
+    <li>discussionNoun->discourse???</li>
+    <li>discussionNoun->dialog</li>
+    <li>discussionNoun->dialectika</li>
+    <li>discussionNoun->zkouška</li>
+    <li>discussionNoun->konzultace</li>
+    <li>discussionNoun->kontroverze</li>
+    <li>lifeEvent->zranění</li>
+    <li>lifeEvent->klonování</li>
+    <li>lifeEvent->trauma</li>
+    <li>lifeEvent->oddělení</li>
+    <li>lifeEvent->přistání</li>
+    <li>lifeEvent->revoluce</li>
+    <li>lifeEvent->archotechšské vyvolání</li>
+    <li>lifeEvent->Horax</li>
+    <li>lifeEvent->narození dítěte</li>
+    <li>lifeEvent->nehoda</li>
+    <li>lifeEvent->fleshmelding???</li>
+    <li>lifeEvent->mrtvospánek</li>
+    <li>lifeEvent->povstání</li>
+    <li>lifeEvent->prodělání chiméry</li>
+    <li>lifeEvent->zamyšlení</li>
+    <li>lifeEvent->ripperfall???</li>
+    <li>lifeEvent->lobotomie</li>
+    <li>lifeEvent->architská infekce</li>
+    <li>volNumeral->I</li>
+    <li>volNumeral->II</li>
+    <li>volNumeral->III</li>
+    <li>volNumeral->IV</li>
+    <li>volNumeral->V</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+    <li>titleTwoSubjects->Úvod k [subjectsTuple]</li>
+    <li>titleTwoSubjects->Analíza [subjectsTuple]</li>
+    <li>maybe_authored_title->[author_gen]</li>
+    <li>author_gen->[ANYPAWN_nameIndef]'s Studie</li>
+    <li>author_gen->[ANYPAWN_nameIndef]'s Poznámky</li>
+    <li>author_gen->[ANYPAWN_nameIndef]'s Záznamy</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] and [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] a [randTheme]</li>
+    <li>randAdjective->Základní</li>
+    <li>randAdjective->Nejlepší</li>
+    <li>randAdjective->třpytosvětov_</li>
+    <li>randAdjective->Středověk_</li>
+    <li>randAdjective->Archaick_</li>
+    <li>randAdjective->Neuvěřiteln_</li>
+    <li>randAdjective->Soumračn_</li>
+    <li>randAdjective->Mrtvosvětov_</li>
+    <li>randAdjective->Grotesque</li>
+    <li>randAdjective->Sepulchral</li>
+    <li>randAdjective->Svat_</li>
+    <li>randAdjective->Nejtmavší</li>
+    <li>randAdjective->Podzemní</li>
+    <li>randAdjective->Primitivní</li>
+    <li>randAdjective->Survival</li>
+    <li>randAdjective->Stygiánsk_</li>
+    <li>randAdjective->Náladov_</li>
+    <li>randAdjective->Strašideln_</li>
+    <li>randAdjective->Kryptick_</li>
+    <li>randAdjective->Proklet_</li>
+    <li>randTheme->inženýrství</li>
+    <li>randTheme->folklór</li>
+    <li>randTheme->science-fiction</li>
+    <li>randTheme->typy pro přežití</li>
+    <li>randTheme->rim</li>
+    <li>randTheme->autofagie</li>
+    <li>randTheme->víra</li>
+    <li>randTheme->práva</li>
+    <li>randTheme->etika</li>
+  </Namer_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->[titleBasic]</li>
