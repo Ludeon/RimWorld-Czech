@@ -383,7 +383,7 @@
     <li>lifeEvent->přistání</li>
     <li>lifeEvent->revoluce</li>
     <li>lifeEvent->archotechšské vyvolání</li>
-    <li>lifeEvent->Horax</li>
+    <li>lifeEvent->horax???</li>
     <li>lifeEvent->narození dítěte</li>
     <li>lifeEvent->nehoda</li>
     <li>lifeEvent->fleshmelding???</li>
@@ -400,20 +400,20 @@
     <li>volNumeral->IV</li>
     <li>volNumeral->V</li>
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
-    <li>titleTwoSubjects->Úvod k [subjectsTuple]</li>
-    <li>titleTwoSubjects->Analíza [subjectsTuple]</li>
+    <li>titleTwoSubjects->Úvod k{replace: [subjectsTuple]; "výroba"-" výrobě"; "kakao"-" výrobě kakaa";"čokoláda"-" výrobě čokolády";"komplexní oblečení"-"e komplexnímu oblečení";"kultivace"-"e kultivaci";"dlouhé luky"-" dlouhým lukům";"středověké"-" středověkým";"pasivní chlazení"-" pasivnímu chlazení";"plátová"-" plátové";"psychoid"-" psychoidu";"automatické dveře"-" automatickým dveřím";"baterie"-" bateriím";"biopalivo"-" biopalivu";"pistole"-" pistolím";"zbraně s"-"e zbraním s";"zbraně"-"zbraním";"pokročilé osvětlení"-" pokročilému osvětlení";"elektřina"-" elektřině";"protipožární zařízení"-" protipožárním zařízením";"zařízení požární"-" zařízením požární";"střepinová"-" střepinové";"zbroj"-"zbroji";"hasící děla"-" hasícím dělům";"oheň tlumící děla"-" oheň tlumícím dělům";"těžké"-" těžkým";"vysokovýkonné"-" vysokovýkonným";"geotermalní"-"e geotermalní";"energie"-"energii";"jednoduché střelné"-" jednoduchým střelným";"střelné věže"-"e střelným věžím";"hydroponie"-" hydroponii";"minomety"-" minometům";"pasta"-"pastě";"nouzové potravinové balíčky"-" nouzovým potravinovým balíčkům";"trvanlivé potraviny"-" trvanlivým potravinám";"protetika"-" protetikám";"kouřová clona"-"e kouřovým clonám";"solarní panely"-" solarním panelům";"sterilní povrchy"-" sterilním povrchům";"CRT televizor"-"CRT televizorům";"televizor s"-" televizorům s";"vodní generátor"-" vodním generátorům";"hlubinné vrtání"-" hlubinnému vrtání";"hloubkové snímače"-" hloubkovým snímačům";"kanóny"-"kanónům";"dalekosáhlé snímače"-" dalekosáhléhlým snímačům";"medikálně nezávadná synteze"-" medikálně nezávadné syntezy";"mikroelektronika"-" mikroelektronice";"odvodňovací čerpadla"-" odvodňovacím čerpadlům";"kulomety"-"e kulometům";"pušky"-" puškám";"osobní zaštítění"-" osobnímu zaštítění";"přepravní moduly"-" přepravním modulům";"fabrikace"-" fabrikaci";"bionické protézy"-" bionickým protézám";"energetická munice"-" energetické munici";"kryptospánek"-"e kryptospánku";"špičkové montážní stroje"-"e špičkovým montážním strojům";"komplexní analýza"-"e komplexní analýze";"mariňácká"-" mariňácké";"průzkumnická"-" průzkumnické";"salvové raketomety"-" salvovým raketometům";"odstřelovací"-" odstřelovacím";"strukturální in"-"e strukturálnímu in";"mezihvězdná třída"-" mezihvězdné třídě";"Johnson-Tanakova teorie"-" Johnson-Tanakově teorii";"exotický přenos"-" exotickému přenosu";"lodní nukleární reaktor"-" lodnímu nukleárnímu reaktoru"; "[subjectsTuple]"-" [subjectsTuple]"}</li>
+    <li>titleTwoSubjects->Analýza {replace: [subjectsTuple]; "výroba"-"výroby"; "kakao"-"kakaa";"čokoláda"-"čokolády";"komplexní oblečení"-"komplexního oblečení";"dlouhé luky"-"dlouhých luků";"středověké"-"středověkých";"pasivní chlazení"-"pasivního chlazení";"plátová"-"plátové";"psychoid"-"psychoidu";"automatické dveře"-"automatických dveří";"baterie"-"baterií";"biopalivo"-"biopaliva";"pistole"-"pistolí";"zbraně"-"zbraní";"pokročilé osvětlení"-"pokročilého osvětlení";"elektřina"-"elektřiny";"protipožární zařízení"-"protipožárních zařízení";"střepinová"-"střepinové";"zbroj"-"zbroje";"hasící děla"-"hasících děl";"tlumící děla"-"tlumících děl";"těžké"-"těžkých";"vysokovýkonné"-"vysokovýkonných";"jednoduché střelné"-"jednoduchých střelných";"střelné věže"-"střelných věží";"minomety"-"minometu";"pasta"-"pasty";"nouzové potravinové balíčky"-"nouzových potravinových balíčků";"trvanlivé potraviny"-"trvanlivých potravin";"protetika"-"protetik";"kouřová clona"-"kouřových clon";"solarní panely"-"solarních panelů";"sterilní povrchy"-"sterilních povrchů";"elevizor"-"elevizoru";"vodní generátor"-"vodního generátoru";"hlubinné vrtání"-"hlubinného vrtání";"hloubkové snímače"-"hloubkového snímače";"kanóny"-"kanónů";"dalekosáhlé snímače"-"dalekosáhlého snímače";"nezávadná "-"nezávadné ";"elektronika"-"elektroniky";"odvodňovací čerpadla"-"odvodňovacího čerpadla";"kulomety"-"kulometů";"pušky"-"pušek";"osobní zaštítění"-"osobního zaštítění";"přepravní moduly"-"přepravních modulů";"bionické protézy"-"bionických protéz";"energetická munice"-"energetické munice";"kryptospánek"-"kryptospánku";"špičkové montážní stroje"-"špičkových montážních strojů";"analýza"-"analýzy";"mariňácká"-"mariňácké";"průzkumnická"-"průzkumnické";"salvové raketomety"-"salvových raketometů";"odstřelovací"-"odstřelovacích";"strukturální in"-"strukturálního in";"mezihvězdná třída"-"mezihvězdné třídy";"-Tanakova t"-"-Tanakovi t";"exotický přenos"-"exotického přenosu";"lodní nukleární reaktor"-"lodního nukleárního reaktoru"; "[subjectsTuple]"-"[subjectsTuple]"}</li>
     <li>maybe_authored_title->[author_gen]</li>
     <li>author_gen->[ANYPAWN_nameIndef]'s Studie</li>
     <li>author_gen->[ANYPAWN_nameIndef]'s Poznámky</li>
     <li>author_gen->[ANYPAWN_nameIndef]'s Záznamy</li>
     <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
     <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
-    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
-    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
-    <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef] a [subject_primary]</li>
+    <li>authored_title_gen->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li> proti
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef] a [subjectsTuple]</li>
     <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
-    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] and [subject_secondary]</li>
-    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] a [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] a [randTheme]</li>
     <li>subjectsTuple->[subject_primary] a [randTheme]</li>
     <li>randAdjective->Základní</li>
     <li>randAdjective->Nejlepší</li>
