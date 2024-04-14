@@ -22,17 +22,17 @@
   <!-- EN: choose a location -->
   <PsychicRitual_LocationTargetting>TODO</PsychicRitual_LocationTargetting>
   <!-- EN: total quality -->
-  <PsychicRitualExpectedQualityLabel>TODO</PsychicRitualExpectedQualityLabel>
+  <PsychicRitualExpectedQualityLabel>celková kvalita</PsychicRitualExpectedQualityLabel>
   <!-- EN: quality factors -->
-  <PsychicRitualQualityFactorLabel>TODO</PsychicRitualQualityFactorLabel>
+  <PsychicRitualQualityFactorLabel>faktory kvality</PsychicRitualQualityFactorLabel>
   <!-- EN: duration -->
-  <PsychicRitualExpectedDurationLabel>TODO</PsychicRitualExpectedDurationLabel>
+  <PsychicRitualExpectedDurationLabel>doba trvání</PsychicRitualExpectedDurationLabel>
   <!-- EN: required offering -->
-  <PsychicRitualRequiredOffering>TODO</PsychicRitualRequiredOffering>
+  <PsychicRitualRequiredOffering>povinná oběť</PsychicRitualRequiredOffering>
   <!-- EN: Caused by psychic ritual -->
   <CausedByPsychicRitual>TODO</CausedByPsychicRitual>
   <!-- EN: Cooldown -->
-  <PsychicRitualCooldownLabel>TODO</PsychicRitualCooldownLabel>
+  <PsychicRitualCooldownLabel>Doba obnovení</PsychicRitualCooldownLabel>
 
   <!-- EN: Psychic ritual area obstructed. -->
   <PsychicRitualSpotObstructed>TODO</PsychicRitualSpotObstructed>
@@ -112,9 +112,9 @@
   <!-- EN: {PAWN_labelShort} is not humanlike -->
   <PsychicRitualLeaveReason_NonHumanlike>TODO</PsychicRitualLeaveReason_NonHumanlike>
   <!-- EN: {PAWN_labelShort} is a prisoner -->
-  <PsychicRitualLeaveReason_Prisoner>TODO</PsychicRitualLeaveReason_Prisoner>
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} je {PAWN_gender ? vězněm : vězeňkyní}.</PsychicRitualLeaveReason_Prisoner>
   <!-- EN: {PAWN_labelShort} is a slave -->
-  <PsychicRitualLeaveReason_Slave>TODO</PsychicRitualLeaveReason_Slave>
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} je {PAWN_gender ? otrokem : otrokyní}.</PsychicRitualLeaveReason_Slave>
   <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>TODO</PsychicRitualLeaveReason_Freeman>
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
