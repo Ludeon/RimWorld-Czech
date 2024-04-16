@@ -4,12 +4,12 @@
   <!-- EN: deadlife dust -->
   <DeadlifeDust.label>TODO</DeadlifeDust.label>
   <!-- EN: {0} has been killed. -->
-  <DeadlifeDust.deathMessage>TODO</DeadlifeDust.deathMessage>
+  <DeadlifeDust.deathMessage>{0} zemře{PAWN_gender ? l : la : lo} na TODO</DeadlifeDust.deathMessage>
   
   <!-- EN: digestion -->
-  <Digested.label>TODO</Digested.label>
+  <Digested.label>strávení</Digested.label>
   <!-- EN: {0} died from being digested. -->
-  <Digested.deathMessage>TODO</Digested.deathMessage>
+  <Digested.deathMessage>{0} zemře{PAWN_gender ? l : la : lo}, porotože by{PAWN_gender ? l : la : lo} stráve{PAWN_gender ? n : na : no}.</Digested.deathMessage>
   
   <!-- EN: energy bolt -->
   <EnergyBolt.label>TODO</EnergyBolt.label>
@@ -27,13 +27,13 @@
   <NerveStun.deathMessage>TODO</NerveStun.deathMessage>
   
   <!-- EN: vaporize -->
-  <NociosphereVaporize.label>TODO</NociosphereVaporize.label>
+  <NociosphereVaporize.label>vypaření</NociosphereVaporize.label>
   <!-- EN: {0} has been vaporized by extreme heat. -->
-  <NociosphereVaporize.deathMessage>TODO</NociosphereVaporize.deathMessage>
+  <NociosphereVaporize.deathMessage>{0} by{PAWN_gender ? l : la : lo} vypaře{PAWN_gender ? n : na : no} exrémním teplem.</NociosphereVaporize.deathMessage>
   
   <!-- EN: psychic -->
-  <Psychic.label>TODO</Psychic.label>
+  <Psychic.label>psychická smrt</Psychic.label>
   <!-- EN: {0} has been killed by a psychic attack. -->
-  <Psychic.deathMessage>TODO</Psychic.deathMessage>
+  <Psychic.deathMessage>{0} zemře{PAWN_gender ? l : la : lo} na psychický útok.</Psychic.deathMessage>
   
 </LanguageData>
