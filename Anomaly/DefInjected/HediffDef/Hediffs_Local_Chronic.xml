@@ -2,44 +2,44 @@
 <LanguageData>
   
   <!-- EN: organ decay -->
-  <OrganDecayCreepjoiner.label>TODO</OrganDecayCreepjoiner.label>
+  <OrganDecayCreepjoiner.label>rozklat orgánu</OrganDecayCreepjoiner.label>
   <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayCreepjoiner.description>TODO</OrganDecayCreepjoiner.description>
+  <OrganDecayCreepjoiner.description>Neléčitelné degenerativní onemocnění postihující konkrétní orgán. Může být bakteriálního i virového původu. Nemoc zřejmě udeří náhodně z neznámého přirozeného rezervoáru; mezi lidmi tedy není přímo nakažlivá.\n\nTento orgán bude pomalu ztrácet svou funkci, než zcela odumře. Nahraď jej bionickým nebo přirozeným orgánem.</OrganDecayCreepjoiner.description>
   <!-- EN: {PAWN_labelShort}'s {1} was destroyed by organ decay. -->
-  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>TODO</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
+  <OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>{PAWN_labelShort} {PAWN_gender ? přišel : přišla} kvůli rozkladu orgánu o {lookup: {1}; case\singular; 4}.</OrganDecayCreepjoiner.comps.HediffComp_DestroyOrgan.messageText>
   <!-- EN: minor -->
-  <OrganDecayCreepjoiner.stages.minor.label>TODO</OrganDecayCreepjoiner.stages.minor.label>
+  <OrganDecayCreepjoiner.stages.minor.label>mírný</OrganDecayCreepjoiner.stages.minor.label>
   <!-- EN: moderate -->
-  <OrganDecayCreepjoiner.stages.moderate.label>TODO</OrganDecayCreepjoiner.stages.moderate.label>
+  <OrganDecayCreepjoiner.stages.moderate.label>střední</OrganDecayCreepjoiner.stages.moderate.label>
   <!-- EN: severe -->
-  <OrganDecayCreepjoiner.stages.severe.label>TODO</OrganDecayCreepjoiner.stages.severe.label>
+  <OrganDecayCreepjoiner.stages.severe.label>vážný</OrganDecayCreepjoiner.stages.severe.label>
   <!-- EN: extreme -->
-  <OrganDecayCreepjoiner.stages.extreme.label>TODO</OrganDecayCreepjoiner.stages.extreme.label>
+  <OrganDecayCreepjoiner.stages.extreme.label>extrémní</OrganDecayCreepjoiner.stages.extreme.label>
   
   <!-- EN: organ decay -->
-  <OrganDecayUndiagnosedCreepjoiner.label>TODO</OrganDecayUndiagnosedCreepjoiner.label>
+  <OrganDecayUndiagnosedCreepjoiner.label>rozklad orgánu</OrganDecayUndiagnosedCreepjoiner.label>
   <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayUndiagnosedCreepjoiner.description>TODO</OrganDecayUndiagnosedCreepjoiner.description>
+  <OrganDecayUndiagnosedCreepjoiner.description>Neléčitelné degenerativní onemocnění postihující konkrétní orgán. Může být bakteriálního i virového původu. Nemoc zřejmě udeří náhodně z neznámého přirozeného rezervoáru; mezi lidmi tedy není přímo nakažlivá.\n\nTento orgán bude pomalu ztrácet svou funkci, než zcela odumře. Nahraď jej bionickým nebo přirozeným orgánem.</OrganDecayUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} vykazuje známky vážné nemoci, která způsobý rychlé odehnívání jejich orgánu. {SURGEON_nameDef} není stále schop{SURGEON_gender ? en : na} určit, co je příčinou, ale za pár dní už bude pozdě.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. {PAWN_possessive} body is riddled with rotting organs - {PAWN_pronoun} is little more than a walking corpse. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>TODO</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} už není schop{PAWN_gender ? en : na} skrývat je{PAWN_gender ? ho : jí} zhoršující se stav. Je{PAWN_gender ? ho : jí} tělo je plné hnijících orgánů, a začíná se pomalu podobat na mrtvolu. Rozklad se týká následujících orgánů:\n\n{ORGANS}\n\nMůžeš nahradit je{PAWN_gender ? ho : jí} odumíracící orgány, aby zůstal{PAWN_pronoun} při životě, na co můžeš použít ať už bionické náhrady nebo orgány od dárců.</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
-  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>TODO</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>rozklad orgánu: {PAWN_nameDef}</OrganDecayUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>TODO</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
+  <OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>diagnozov{PAWN_gender ? án : aná}</OrganDecayUndiagnosedCreepjoiner.stages.diagnosed.label>
   
   <!-- EN: organ decay -->
-  <OrganDecayUndiagnosedDuplicaton.label>TODO</OrganDecayUndiagnosedDuplicaton.label>
+  <OrganDecayUndiagnosedDuplicaton.label>rozklad orgánu</OrganDecayUndiagnosedDuplicaton.label>
   <!-- EN: An untreatable degenerative disease affecting a single organ. The cause may be bacterial or viral. The illness seems to strike randomly from an unknown natural reservoir; it is not directly contagious between people.\n\nThis organ will slowly lose function before dying completely. Replace it with a bionic or natural organ. -->
-  <OrganDecayUndiagnosedDuplicaton.description>TODO</OrganDecayUndiagnosedDuplicaton.description>
+  <OrganDecayUndiagnosedDuplicaton.description>Neléčitelné degenerativní onemocnění postihující konkrétní orgán. Může být bakteriálního i virového původu. Nemoc zřejmě udeří náhodně z neznámého přirozeného rezervoáru; mezi lidmi tedy není přímo nakažlivá.\n\nTento orgán bude pomalu ztrácet svou funkci, než zcela odumře. Nahraď jej bionickým nebo přirozeným orgánem.</OrganDecayUndiagnosedDuplicaton.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will cause their organs to rapidly deteriorate. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} vykazuje známky vážné nemoci, která způsobý rychlé odehnívání jejich orgánu. {SURGEON_nameDef} není stále schop{SURGEON_gender ? en : na} určit, co je příčinou, ale za pár dní už bude pozdě.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} can no longer hide {PAWN_possessive} crippling condition. The duplication process has left {PAWN_possessive} body riddled with rotting organs. {PAWN_nameDef} has organ decay affecting the following body parts:\n\n{ORGANS}\n\nReplace the organs soon to keep {PAWN_nameDef} healthy. You can use bionic organs or natural ones taken from donors. -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>TODO</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} už není schop{PAWN_gender ? en : na} skrývat je{PAWN_gender ? ho : jí} zhoršující se stav. Je{PAWN_gender ? ho : jí} tělo je plné hnijících orgánů, a začíná se pomalu podobat na mrtvolu. Rozklad se týká následujících orgánů:\n\n{ORGANS}\n\nMůžeš nahradit je{PAWN_gender ? ho : jí} odumíracící orgány, aby zůstal{PAWN_pronoun} při životě, na co můžeš použít ať už bionické náhrady nebo orgány od dárců.</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Organ decay: {PAWN_nameDef} -->
-  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>TODO</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
+  <OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>rozklad orgánu: {PAWN_nameDef}</OrganDecayUndiagnosedDuplicaton.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>TODO</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
+  <OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>diagnozov{PAWN_gender ? án : aná}</OrganDecayUndiagnosedDuplicaton.stages.diagnosed.label>
   
 </LanguageData>
