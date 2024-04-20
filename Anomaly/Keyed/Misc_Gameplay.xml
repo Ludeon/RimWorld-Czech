@@ -106,19 +106,19 @@
 
   <!-- Pit Burrow -->
   <!-- EN: Fill in -->
-  <DesignatorFillIn>TODO</DesignatorFillIn>
+  <DesignatorFillIn>Zasypat</DesignatorFillIn>
   <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>TODO</DesignatorFillInDesc>
+  <DesignatorFillInDesc>Zasype tuto propastnou noru.</DesignatorFillInDesc>
 
     <!-- Undercave -->
   <!-- EN: Enter pit gate -->
-  <EnterPitGate>TODO</EnterPitGate> 
+  <EnterPitGate>Vstoupit do propastné brány</EnterPitGate> 
   <!-- EN: Climb to surface -->
   <ExitPitGate>Vylézt na povrch</ExitPitGate>
   <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>TODO</LetterLabelGateEntered> 
+  <LetterLabelGateEntered>Masostvůří doupě</LetterLabelGateEntered> 
   <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>TODO</LetterGateEntered> 
+  <LetterGateEntered>V hlubinách propastné brány jsi objevil rozsáhlý jeskynní systém zamořený masostvůrami.\n\nJeskynní systém je ucpaný nánosy živoucího masa, které ti brání v postupu. Vrhni se na masohmotu a znič ji.\n\nCelý jeskynní systém se zdá být nestabilní. Pokud zjistíš, co se skrývá za samotnou masohmotou, možná se ti pak podaří zavalit tunely a zavřít propastnou bránu.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
   <LetterLabelDreadmeldWarning>TODO</LetterLabelDreadmeldWarning> 
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
@@ -130,7 +130,7 @@
 
   <!-- Holding platform -->
   <!-- EN: Holding -->
-  <HoldingThing>TODO</HoldingThing>
+  <HoldingThing>Zadržuje</HoldingThing>
   <!-- EN: Remove {0_labelShort} -->
   <RemoveFromPlatform>TODO</RemoveFromPlatform>
   <!-- EN: Remove the current entity held on the platform. -->
@@ -450,18 +450,18 @@
 
   <!-- Creepjoiners -->
   <!-- EN: {PAWN_pronoun} wants to talk. You can send a colonist to hear what {PAWN_pronoun} has to say. -->
-  <LetterCreeperAppearedAppended>TODO</LetterCreeperAppearedAppended>
+  <LetterCreeperAppearedAppended>Chce si o něčem promluvit. Můžeš poslat kolonistu, aby si vyslechl, co ti chce říct.</LetterCreeperAppearedAppended>
   <!-- EN: {PAWN_nameDef} wants to join -->
-  <LetterCreeperInviteJoins>TODO</LetterCreeperInviteJoins>
+  <LetterCreeperInviteJoins>{PAWN_nameDef} se chce přidat</LetterCreeperInviteJoins>
   <!-- EN: {PAWN_pronoun} may be very useful, but you also sense there is something {PAWN_nameDef} is not telling you. -->
-  <LetterCreeperInviteAppend>TODO</LetterCreeperInviteAppend>
+  <LetterCreeperInviteAppend>Možná bude velmi {PAWN_gender ? užitečný : užitečná}, ale zároveň máš pocit, že ti {PAWN_gender ? tenhle : tahle} {PAWN_nameDef} něco tají.</LetterCreeperInviteAppend>
   
   <!-- EN: Allow {PAWN_nameDef} to join -->
-  <AcceptCreeper>TODO</AcceptCreeper>
+  <AcceptCreeper>Ať se {PAWN_nameDef} přidá</AcceptCreeper>
   <!-- EN: Send {SPEAKER_nameDef} to capture {PAWN_nameDef} -->
-  <CaptureCreeper>TODO</CaptureCreeper>
+  <CaptureCreeper>Ať {PAWN_gender ? ho : ji} zajme {SPEAKER_nameDef}</CaptureCreeper>
   <!-- EN: Send {PAWN_nameDef} away -->
-  <RejectCreeper>TODO</RejectCreeper>
+  <RejectCreeper>Ať {PAWN_nameDef} odejde pryč</RejectCreeper>
   
   <!-- Unnatural healing ability -->
   <!-- EN: Unnatural healing -->
@@ -481,9 +481,9 @@
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
-  <ElectroharvesterNoEntity>TODO</ElectroharvesterNoEntity>
+  <ElectroharvesterNoEntity>Žádná zajištěná entita.</ElectroharvesterNoEntity>
   <!-- EN: Not connected to a holding platform. -->
-  <ElectroharvesterNoPlatform>TODO</ElectroharvesterNoPlatform>
+  <ElectroharvesterNoPlatform>Není připojen k zadržovací plošině.</ElectroharvesterNoPlatform>
   
   <!-- Fleshmass Heart -->
   <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
@@ -830,17 +830,17 @@
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
-  <BioferriteHarvesterContained>TODO</BioferriteHarvesterContained>
+  <BioferriteHarvesterContained>Obsažený bioferit</BioferriteHarvesterContained>
   <!-- EN: per day -->
-  <BioferriteHarvesterPerDay>TODO</BioferriteHarvesterPerDay>
+  <BioferriteHarvesterPerDay>za den</BioferriteHarvesterPerDay>
   <!-- EN: Eject contents -->
-  <BioferriteHarvesterEjectContents>TODO</BioferriteHarvesterEjectContents>
+  <BioferriteHarvesterEjectContents>Vysunout obsah</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>TODO</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>Vysune všechen obsažený {0} na zem.</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>TODO</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>Automaticky vykládat bioferit</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>TODO</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>Pokud je tato volba aktivní, kolonisté automaticky vyloží bioferit ze sklízeče, jakmile se naplní.</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->

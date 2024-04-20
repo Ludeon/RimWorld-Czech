@@ -2,38 +2,38 @@
 <LanguageData>
   
   <!-- EN: deadlife dust -->
-  <DeadlifeDust.label>TODO</DeadlifeDust.label>
+  <DeadlifeDust.label>nekrovitový prach</DeadlifeDust.label>
   <!-- EN: {0} has been killed. -->
-  <DeadlifeDust.deathMessage>{0} zemře{PAWN_gender ? l : la : lo} na TODO</DeadlifeDust.deathMessage>
+  <DeadlifeDust.deathMessage>{0} {0_gender ? byl zabit : byla zabita : bylo zabito}.</DeadlifeDust.deathMessage>
   
   <!-- EN: digestion -->
   <Digested.label>strávení</Digested.label>
   <!-- EN: {0} died from being digested. -->
-  <Digested.deathMessage>{0} zemře{PAWN_gender ? l : la : lo}, porotože by{PAWN_gender ? l : la : lo} stráve{PAWN_gender ? n : na : no}.</Digested.deathMessage>
+  <Digested.deathMessage>{0} {PAWN_gender ? zemřel : zemřela : zemřelo} na následky strávení.</Digested.deathMessage>
   
   <!-- EN: energy bolt -->
-  <EnergyBolt.label>TODO</EnergyBolt.label>
+  <EnergyBolt.label>energetická šipka</EnergyBolt.label>
   <!-- EN: {0} has been killed by an energy bolt. -->
-  <EnergyBolt.deathMessage>TODO</EnergyBolt.deathMessage>
+  <EnergyBolt.deathMessage>{0} {0_gender ? byl zabit : byla zabita : bylo zabito} energetickou šipkou</EnergyBolt.deathMessage>
   
   <!-- EN: nerve -->
-  <Nerve.label>TODO</Nerve.label>
+  <Nerve.label>nervová smrt</Nerve.label>
   <!-- EN: {0} has been killed by nerve shock. -->
-  <Nerve.deathMessage>TODO</Nerve.deathMessage>
+  <Nerve.deathMessage>{0} {0_gender ? byl zabit : byla zabita : bylo zabito} nervovým šokem.</Nerve.deathMessage>
   
   <!-- EN: nerve stun -->
-  <NerveStun.label>TODO</NerveStun.label>
+  <NerveStun.label>nervové omráčení</NerveStun.label>
   <!-- EN: {0} has been killed. -->
-  <NerveStun.deathMessage>TODO</NerveStun.deathMessage>
+  <NerveStun.deathMessage>{0} {0_gender ? byl zabit : byla zabita : bylo zabito}.</NerveStun.deathMessage>
   
   <!-- EN: vaporize -->
   <NociosphereVaporize.label>vypaření</NociosphereVaporize.label>
   <!-- EN: {0} has been vaporized by extreme heat. -->
-  <NociosphereVaporize.deathMessage>{0} by{PAWN_gender ? l : la : lo} vypaře{PAWN_gender ? n : na : no} exrémním teplem.</NociosphereVaporize.deathMessage>
+  <NociosphereVaporize.deathMessage>{0} {0_gender ? byl vypařen : byla vypařena : bylo vypařeno} extrémním teplem.</NociosphereVaporize.deathMessage>
   
   <!-- EN: psychic -->
   <Psychic.label>psychická smrt</Psychic.label>
   <!-- EN: {0} has been killed by a psychic attack. -->
-  <Psychic.deathMessage>{0} zemře{PAWN_gender ? l : la : lo} na psychický útok.</Psychic.deathMessage>
+  <Psychic.deathMessage>{0} {0_gender ? byl zabit : byla zabita : bylo zabito} psychickým útokem.</Psychic.deathMessage>
   
 </LanguageData>
