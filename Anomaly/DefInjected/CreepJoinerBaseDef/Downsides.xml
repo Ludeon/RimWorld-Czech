@@ -4,12 +4,12 @@
   <!-- EN: aggressive -->
   <Aggressive.label>agresivní</Aggressive.label>
   <!-- EN: {PAWN_nameDef}'s demeanor has suddenly changed. A menacing grin splits {PAWN_possessive} face.\n\n{PAWN_nameDef} has become hostile. -->
-  <Aggressive.letterDesc>{PAWN_nameDef} a je{PAWN_gender ? ho : jí} chování se z ničeho nic drasticky změnilo. S hrozivým ušklebkem se otočil proti tobě.\n\n{PAWN_nameDef} se stal{PAWN_pronoun} nepřátelsk{PAWN_gender ? ým : ou}.</Aggressive.letterDesc>
+  <Aggressive.letterDesc>{PAWN_nameDef} a {PAWN_possessive} chování se náhle změnilo. S hrozivým úšklebkem se {PAWN_gender ? otočil : otočila} proti tobě.\n\n{PAWN_nameDef} se {PAWN_gender ? stal nepřátelským : stala nepřátelskou}.</Aggressive.letterDesc>
   <!-- EN: {PAWN_nameDef} hostile -->
-  <Aggressive.letterLabel>nepřátelský {PAWN_nameDef}</Aggressive.letterLabel>
+  <Aggressive.letterLabel>{PAWN_gender ? Nepřátelský : Nepřátelská} {PAWN_nameDef}</Aggressive.letterLabel>
   
   <!-- EN: crumbling mind -->
-  <CrumblingMind.label>rozpadající se mysl</CrumblingMind.label>
+  <CrumblingMind.label>drolící se mysl</CrumblingMind.label>
   
   <!-- EN: disturbing -->
   <Disturbing.label>znepokojující</Disturbing.label>
@@ -20,7 +20,7 @@
   <!-- EN: leaves -->
   <Leaves.label>odchází</Leaves.label>
   <!-- EN: {PAWN_nameDef} thanks you for your hospitality, but says that it is time for {PAWN_objective} to move on. -->
-  <Leaves.letterDesc>{PAWN_nameDef} vám poděkoval za vaší pohostinost, ale říká že už je na čase, aby zase š{PAWN_gender ? el : la}.</Leaves.letterDesc>
+  <Leaves.letterDesc>{PAWN_nameDef} ti děkuje za pohostinost, ale říká, že je načase jít zase dál.</Leaves.letterDesc>
   <!-- EN: {PAWN_nameDef} departure -->
   <Leaves.letterLabel>{PAWN_nameDef} odchází</Leaves.letterLabel>
   
@@ -31,15 +31,15 @@
   <Nothing.label>nic</Nothing.label>
   
   <!-- EN: organ decay -->
-  <OrganDecay.label>rozklad orgánů</OrganDecay.label>
+  <OrganDecay.label>orgánový rozklad</OrganDecay.label>
   
   <!-- EN: psychic agony -->
   <PsychicAgony.label>psychická agónie</PsychicAgony.label>
   <!-- EN: {PAWN_nameDef} has involuntarily released a wave of psychic suffering! {PAWN_pronoun} tried to prevent it, but was unable to do so.\n\nNearby creatures will experience intense pain. The effects will linger for several days. -->
-  <PsychicAgony.letterDesc>{PAWN_nameDef} nechtěně vypustil{PAWN_pronoun} vlnu psychického utrpení! Snažil{PAWN_pronoun} se tomu předejít, ale nepovedlo se {PAWN_gender ? mu : jí} to.\n\nTvorové nacházející se poblíž pocítí intenzivní bolest, která bude odeznívat několik dní.</PsychicAgony.letterDesc>
+  <PsychicAgony.letterDesc>{PAWN_nameDef} nechtěně {PAWN_gender ? vypustil : vypustila} vlnu psychického utrpení! {PAWN_gender ? Snažil : Snažila} se tomu předejít, ale nepovedlo se {PAWN_gender ? mu : jí} to.\n\nTvorové nacházející se poblíž pocítí intenzivní bolest, která bude odeznívat několik dnů.</PsychicAgony.letterDesc>
   <!-- EN: Psychic agony -->
   <PsychicAgony.letterLabel>Psychická agónie</PsychicAgony.letterLabel>
   <!-- EN: {SURGEON_nameDef} detected a faint but painful psychic presence emanating from {PAWN_nameDef} but failed to understand what was causing it. -->
-  <PsychicAgony.surgicalInspectionLetterExtra>{SURGEON_nameDef} narazil{PAWN_pronoun} na slabý ale bolestivý výskyt, ale nepovedlo se {PAWN_gender ? mu : jí} pochopit, co jí způsobuje. Tímto jevem trpí {PAWN_nameDef}.</PsychicAgony.surgicalInspectionLetterExtra>
+  <PsychicAgony.surgicalInspectionLetterExtra>{SURGEON_nameDef} {PAWN_gender ? zaznamenal : zaznamenala} slabou, ale bolestivou psychickou přítomnost, kterou {PAWN_nameDef} vyzařuje, ale nepovedlo se {SURGEON_gender ? mu : jí} pochopit, co ji způsobuje.</PsychicAgony.surgicalInspectionLetterExtra>
   
 </LanguageData>

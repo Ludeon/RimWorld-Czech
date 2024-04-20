@@ -2,22 +2,22 @@
 <LanguageData>
   
   <!-- EN: basic assault -->
-  <Assault.label>útok</Assault.label>
+  <Assault.label>obvyklý útok</Assault.label>
   <!-- EN: {PAWN_nameDef} has become hostile! -->
-  <Assault.message>{PAWN_nameDef} na tebe začal{PAWN_pronoun} útočit!</Assault.message>
+  <Assault.message>{PAWN_nameDef} se {PAWN_gender ? stal nepřátelským : stala nepřátelskou}!</Assault.message>
   
   <!-- EN: fleshbeast emergence -->
-  <FleshbeastEmergence.label>zjevení masostvůry</FleshbeastEmergence.label>
+  <FleshbeastEmergence.label>zrození masostvůry</FleshbeastEmergence.label>
   <!-- EN: {PAWN_nameDef} has transformed into a hideous fleshbeast! -->
-  <FleshbeastEmergence.letterDesc>{PAWN_nameDef} se proměnil na ohavnou masostvůru!</FleshbeastEmergence.letterDesc>
+  <FleshbeastEmergence.letterDesc>{PAWN_nameDef} se {PAWN_gender ? proměnil : proměnila} na ohavnou masostvůru!</FleshbeastEmergence.letterDesc>
   <!-- EN: {PAWN_nameDef} transformed -->
-  <FleshbeastEmergence.letterLabel>{PAWN_nameDef} se proměnil{PAWN_pronoun}</FleshbeastEmergence.letterLabel>
+  <FleshbeastEmergence.letterLabel>{PAWN_nameDef} se {PAWN_gender ? proměnil : proměnila}</FleshbeastEmergence.letterLabel>
   
   <!-- EN: sightstealer attack -->
-  <SightstealerAttack.label>TODO</SightstealerAttack.label>
+  <SightstealerAttack.label>útok zrakokrada</SightstealerAttack.label>
   <!-- EN: {PAWN_nameDef} has let out a twisted half-human scream.\n\nIn the distance, you can hear other screams answering the call.\n\nThey are coming... -->
-  <SightstealerAttack.letterDesc>{PAWN_nameDef} ze sebe vydal{PAWN_pronoun} zvláštní až nelidský řev.\n\nZpět ne {PAWN_gender ? mu : jí} na jeho volání vrátilo rovnou několik odpovědí.\n\nUž se blíží...</SightstealerAttack.letterDesc>
+  <SightstealerAttack.letterDesc>{PAWN_nameDef} ze sebe {PAWN_gender ? vydal : vydala} děsivé, až nelidské zaječení.\n\nV dáli jsou slyšet další ječivé výkřiky, které odpovídájí na {PAWN_possessive} volání.\n\nUž se blíží...</SightstealerAttack.letterDesc>
   <!-- EN: {PAWN_nameDef}'s howl -->
-  <SightstealerAttack.letterLabel>zděsující řvy</SightstealerAttack.letterLabel>
+  <SightstealerAttack.letterLabel>{PAWN_nameDef} {PAWN_gender ? zakvílel : zakvílela}</SightstealerAttack.letterLabel>
   
 </LanguageData>
