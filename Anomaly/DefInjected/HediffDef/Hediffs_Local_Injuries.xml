@@ -4,24 +4,24 @@
   <!-- EN: digestion -->
   <Digested.label>roztrávení</Digested.label>
   <!-- EN: This part has been digested. -->
-  <Digested.description>Tato část těla bylo roztrávena</Digested.description>
+  <Digested.description>Tato část těla byla roztrávena.</Digested.description>
   <!-- EN: a digested part -->
-  <Digested.labelNoun>roztrávený kus těla</Digested.labelNoun>
-  <!-- EN: digested {1} roztrávený/á/é-->
-  <Digested.labelNounPretty>TODO</Digested.labelNounPretty>
+  <Digested.labelNoun>roztrávená část těla</Digested.labelNoun>
+  <!-- EN: digested {1} -->
+  <Digested.labelNounPretty>{1_gender ? roztrávený : roztrávená : roztrávené} {1}</Digested.labelNounPretty>
   
   <!-- EN: energy bolt -->
   <EnergyBolt.label>energetický blesk</EnergyBolt.label>
   <!-- EN: A wound from an energy bolt. -->
   <EnergyBolt.description>Zranění od energetického blesku.</EnergyBolt.description>
   <!-- EN: permanent energy bolt wound -->
-  <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>permanentní zranění elektrickým bleskem</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>trvalé zranění od energetického blesku</EnergyBolt.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
   <!-- EN: old energy bolt wound -->
-  <EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>jizva po energetickém blesku.</EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>
+  <EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>stará rána od energetického blesku</EnergyBolt.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Blasted off -->
-  <EnergyBolt.injuryProps.destroyedLabel>Upáleno</EnergyBolt.injuryProps.destroyedLabel>
+  <EnergyBolt.injuryProps.destroyedLabel>Utržené</EnergyBolt.injuryProps.destroyedLabel>
   <!-- EN: Blasted out -->
-  <EnergyBolt.injuryProps.destroyedOutLabel>Utrženo</EnergyBolt.injuryProps.destroyedOutLabel>
+  <EnergyBolt.injuryProps.destroyedOutLabel>Vytržené</EnergyBolt.injuryProps.destroyedOutLabel>
   <!-- EN: an energy bolt wound -->
   <EnergyBolt.labelNoun>zranění od energetického blesku</EnergyBolt.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -32,9 +32,9 @@
   <!-- EN: A psychic burn. -->
   <PsychicInjury.description>Psychická popálenina.</PsychicInjury.description>
   <!-- EN: psychic scarring -->
-  <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>psychická jizva</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>psychické zjizvení</PsychicInjury.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjury.injuryProps.destroyedLabel>TODO</PsychicInjury.injuryProps.destroyedLabel>
+  <PsychicInjury.injuryProps.destroyedLabel>Psychicky spálené</PsychicInjury.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
   <PsychicInjury.labelNoun>psychická popálenina</PsychicInjury.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -45,9 +45,9 @@
   <!-- EN: A psychic burn. -->
   <PsychicInjurySkin.description>Psychická popálenina.</PsychicInjurySkin.description>
   <!-- EN: psychic scarring -->
-  <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>psychická jizva</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>psychické zjizvení</PsychicInjurySkin.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjurySkin.injuryProps.destroyedLabel>TODO</PsychicInjurySkin.injuryProps.destroyedLabel>
+  <PsychicInjurySkin.injuryProps.destroyedLabel>Psychicky spálené</PsychicInjurySkin.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
   <PsychicInjurySkin.labelNoun>psychická popálenina</PsychicInjurySkin.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -58,9 +58,9 @@
   <!-- EN: A psychic burn. -->
   <PsychicInjurySolid.description>Psychická popálenina.</PsychicInjurySolid.description>
   <!-- EN: permanent psychic scarring -->
-  <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>psychická jizva</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
+  <PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>psychické zjizvení</PsychicInjurySolid.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Psychically incinerated -->
-  <PsychicInjurySolid.injuryProps.destroyedLabel>TODO</PsychicInjurySolid.injuryProps.destroyedLabel>
+  <PsychicInjurySolid.injuryProps.destroyedLabel>Psychicky spálené</PsychicInjurySolid.injuryProps.destroyedLabel>
   <!-- EN: a psychic burn -->
   <PsychicInjurySolid.labelNoun>psychická popálenina</PsychicInjurySolid.labelNoun>
   <!-- EN: {0} in the {1} -->
