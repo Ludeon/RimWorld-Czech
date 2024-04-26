@@ -13,7 +13,14 @@
     <li>subject_gerund->crafting digestion-related bionics</li>
     <li>subject_gerund->crafting artificial guts</li>
   -->
-  <ArtificialMetabolism.generalRules.rulesStrings>TODO</ArtificialMetabolism.generalRules.rulesStrings>
+  <ArtificialMetabolism.generalRules.rulesStrings>
+    <li>subject->umělý metabolismus</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} tak ukrutný hlad, že implantace umělého žaludku bylo jeho jediným řešením</li>
+    <li>subject_story->{ANYPAWN_gender ? byl královský ochutnávač : byla královskou ochutnávačkou} jídla, ale nezmínil{ANYPAWN_pronoun} se jim o je{ANYPAWN_gender ? ho : jím} sterilizujícím žaludku</li>
+    <li>subject_story->je{ANYPAWN_gender ? ho : jí} neuvěřitelná spotřeba jídla si vyžádala implantaci jaderného žaludku, i přesto že {ANYPAWN_gender ? mu : jí} jeho radiace způsobovala potíže</li>
+    <li>subject_gerund->výroba bionik pro trávení</li>
+    <li>subject_gerund->tvorba umělých žaludků</li>
+  </ArtificialMetabolism.generalRules.rulesStrings>
   
   <!-- EN: brain wiring -->
   <BrainWiring.label>mozkové vedení</BrainWiring.label>
@@ -26,7 +33,13 @@
     <li>subject_story->had a joywire installed and, though happy after that, stumbled simply through life</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <BrainWiring.generalRules.rulesStrings>TODO</BrainWiring.generalRules.rulesStrings>
+  <BrainWiring.generalRules.rulesStrings>    
+    <li>subject->mozkové implantáty</li>
+    <li>subject_story->sepsal{ANYPAWN_pronoun} studii o masochistických kultech, které využívaly nervové šrouby pro zlepšení morálky</li>
+    <li>subject_story->implantoval{ANYPAWN_pronoun} blokovače bolesti útočné jednotce, která sice přemohla značně početnějšího nepřítele, ale všichni její členové zemřeli</li>
+    <li>subject_story->nechal{ANYPAWN_pronoun} si implantovat čip štěstí, aby byl{ANYPAWN_pronoun} v životě šťastnější a pozoroval{ANYPAWN_pronoun} jeho efekty</li>
+    <li>subject_gerund->výroba mozkových implantátů</li>
+  </BrainWiring.generalRules.rulesStrings>
   
   <!-- EN: circadian influence -->
   <CircadianInfluence.label>cirkadiánní vliv</CircadianInfluence.label>
@@ -39,7 +52,13 @@
     <li>subject_story->studied bullfrogs and giraffes to ascertain what  xenogerms would be necessary for a circadian assistance gland</li>
     <li>subject_gerund->crafting sleep reduction implants</li>
   -->
-  <CircadianInfluence.generalRules.rulesStrings>TODO</CircadianInfluence.generalRules.rulesStrings>
+  <CircadianInfluence.generalRules.rulesStrings>
+    <li>subject->implantáty upravující spánek</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} vliv na lidské tělo při spánku pouze jedné mozkové hemisféry a navrhl{ANYPAWN_pronoun} nový cirkadiánní cyklovač</li>
+    <li>subject_story->donutil{ANYPAWN_pronoun} všechny členy městské gardy, aby si nechali implantovat cirkadiánní cyklovače, což jim umožnilo hlídat své pozice do odvolání v případě potřeby</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} ropuchy a žirafy, ze ve kterých objevil{ANYPAWN_pronoun} možný xenogen pro odvrácení potřeby spánku</li>
+    <li>subject_gerund->výroba implantátů upravující spánek</li>
+  </CircadianInfluence.generalRules.rulesStrings>
   
   <!-- EN: compact weaponry -->
   <CompactWeaponry.label>kompaktní zbraně</CompactWeaponry.label>
@@ -52,7 +71,13 @@
     <li>subject_story->was working in security, scanning visitors to the hall, when the cyborg attempted to enter</li>
     <li>subject_gerund->crafting compact bionic weapons</li>
   -->
-  <CompactWeaponry.generalRules.rulesStrings>TODO</CompactWeaponry.generalRules.rulesStrings>
+  <CompactWeaponry.generalRules.rulesStrings>
+    <li>subject->kompaktní zbraně</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} jako detektiv a při jedné operaci {ANYPAWN_gender ? mu : jí} kolenní bodec zachránil život</li>
+    <li>subject_story->ztrávil{ANYPAWN_pronoun} léto zotavováním se poté, co n{ANYPAWN_gender ? ěj : í} zaútočil vězeň ručním spárem</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} směnu u detektoru kovů, když se skrz něj pokusil proplýžit kyborg</li>
+    <li>subject_gerund->výroba kompaktních bionických zbraní</li>
+  </CompactWeaponry.generalRules.rulesStrings>
   
   <!-- EN: flesh shaping -->
   <FleshShaping.label>tvarování těla</FleshShaping.label>
@@ -65,7 +90,13 @@
     <li>subject_story->gathered the glitterworld children around the campfire and told horror stories about getting their non-aesthetic noses back</li>
     <li>subject_gerund->crafting aesthetic bionics</li>
   -->
-  <FleshShaping.generalRules.rulesStrings>TODO</FleshShaping.generalRules.rulesStrings>
+  <FleshShaping.generalRules.rulesStrings>
+    <li>subject->plastické operace</li>
+    <li>subject_story->odvrátil{ANYPAWN_pronoun} úpadek populace na městském světě distribucí sexuálních posilovačů a drog</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} jako vrchní kosmetický chirurg pro prestižní kliniku</li>
+    <li>subject_story->vyprávěl{ANYPAWN_pronoun} děsivé povídky třpytosvětským dětem u táboráků o lidech znetvořených válkou</li>
+    <li>subject_gerund->výroba okrasných bionik</li>
+  </FleshShaping.generalRules.rulesStrings>
   
   <!-- EN: healing factors -->
   <HealingFactors.label>faktory hojení</HealingFactors.label>
@@ -78,7 +109,13 @@
     <li>subject_story->studied the ancient corpses found in a cryptosleep shrine and harvested rapid healing devices from them</li>
     <li>subject_gerund->crafting regeneration bionics</li>
   -->
-  <HealingFactors.generalRules.rulesStrings>TODO</HealingFactors.generalRules.rulesStrings>
+  <HealingFactors.generalRules.rulesStrings>
+    <li>subject->léčení zlepšující bionika</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} krev císařské rodiny, zda byla opravdu modrá. To se prokázalo jako mýtus, ale zranění se jim zastrupovala neuvěřitelně rychle</li>
+    <li>subject_story->zajišťoval{ANYPAWN_pronoun} aby všichni gladiátoři měli léčení zlepšující bionika a odpovídající xenovštipovače</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} prastaré mrtvoly z kryptospánkové svatyně a odebral{ANYPAWN_pronoun} jim jejich hojení urychlující bionika</li>
+    <li>subject_gerund->výroba regeneračních bionik</li>
+  </HealingFactors.generalRules.rulesStrings>
   
   <!-- EN: molecular analysis -->
   <MolecularAnalysis.label>molekulární analýza</MolecularAnalysis.label>
@@ -91,7 +128,13 @@
     <li>subject_story->lectured on the potential hardware conflicts between bionic parts and molecular analysis implants</li>
     <li>subject_gerund->crafting molecular analysis bionics</li>
   -->
-  <MolecularAnalysis.generalRules.rulesStrings>TODO</MolecularAnalysis.generalRules.rulesStrings>
+  <MolecularAnalysis.generalRules.rulesStrings>
+    <li>subject->bionika schopná molekulové analýzy</li>
+    <li>subject_story->snažil{ANYPAWN_pronoun} se vysvětlit vrchnímu kuchaři gastronomické školy, že plastická operace jejich nosu mu zničí jeho jedinečný čuch</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} posilovač imunity, což {ANYPAWN_gender ? mu : jí} umožnilo navštěvovat kolonii v karanténě</li>
+    <li>subject_story->přednšel{ANYPAWN_pronoun} o možném konfliktu mezi bionickými a molekuly analyzujícími implantáty</li>
+    <li>subject_gerund->výroba bionik schopných molekulové analýzy</li>
+  </MolecularAnalysis.generalRules.rulesStrings>
   
   <!-- EN: neural computation -->
   <NeuralComputation.label>neurální výpočet</NeuralComputation.label>
@@ -105,7 +148,14 @@
     <li>subject_story->had a learning assistant installed. It proved to be a problem later, when captured by pirates, who halted any escape attempts with EMP attacks</li>
     <li>subject_gerund->crafting brain implants</li>
   -->
-  <NeuralComputation.generalRules.rulesStrings>TODO</NeuralComputation.generalRules.rulesStrings>
+  <NeuralComputation.generalRules.rulesStrings>
+    <li>subject->mozkové implantáty</li>
+    <li>subject->neurové výpočty</li>
+    <li>subject_story->věděl{ANYPAWN_pronoun} přesně jak zneškodnit dozorce s EMP útokem, který zasáhl jeho vzdělávacího asistenta a poté pomáhal{ANYPAWN_pronoun} uprchnout vězňům</li>
+    <li>subject_story->nařídil{ANYPAWN_pronoun} vybavení všech členů fakulty vzdělávacími asistenty</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} implantovaného vzdělávacího asistenta, který {ANYPAWN_gender ? mu : jí} znemožnil útěk ze zajetí pirátů</li>
+    <li>subject_gerund->výroba mozkových implantátů</li>
+  </NeuralComputation.generalRules.rulesStrings>
   
   <!-- EN: skin hardening -->
   <SkinHardening.label>zpevnění pokožky</SkinHardening.label>
@@ -118,7 +168,13 @@
     <li>subject_story->worked with nanonmachine glands to thicken the human epidermis, at the expense of meeting traditional standards of beauty</li>
     <li>subject_gerund->crafting subdermal armor implants</li>
   -->
-  <SkinHardening.generalRules.rulesStrings>TODO</SkinHardening.generalRules.rulesStrings>
+  <SkinHardening.generalRules.rulesStrings>
+    <li>subject->podkožní implantáty</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} žlázy kůrokožných dryád a vykonstruoval{ANYPAWN_pronoun} geny jejich lidského ekvivalentu</li>
+    <li>subject_story->cestoval{ANYPAWN_pronoun} mezi komenokoženými ochočovateli na dinosvětě a studovala jejich keratinový exoskeleton</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} s umělými nanožlázami, které jsou schopné ztvrdnout lidskou kůži, ale jijich vedlejší efekt je značně nevábivě vypadající zevnějšek</li>
+    <li>subject_gerund->výroba implantátů podkožní zbroje</li>
+  </SkinHardening.generalRules.rulesStrings>
   
   <!-- EN: specialized limbs -->
   <SpecializedLimbs.label>specializované končetiny</SpecializedLimbs.label>
@@ -131,7 +187,13 @@
     <li>subject_story->worked as a surgeon on the rim, replacing missing arms with everything from a woodhand to a power claw</li>
     <li>subject_gerund->crafting specialized bionic arms</li>
   -->
-  <SpecializedLimbs.generalRules.rulesStrings>TODO</SpecializedLimbs.generalRules.rulesStrings>
+  <SpecializedLimbs.generalRules.rulesStrings>
+    <li>subject->specializované prostézy</li>
+    <li>subject_story->vedl{ANYPAWN_pronoun} rozhovory s poddanými farmáři na feudálním světě před a po instalaci jejich bionických náhrad</li>
+    <li>subject_story->stal{ANYPAWN_pronoun} se svědkem boje gladiátora s horníkem se dvěma vrtacími pažemi</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} jako chirurg v důlní kolonii na okrajovém světě, přižemž nahrazoval{ANYPAWN_pronoun} chybící ruce s vrtacími pažemi</li>
+    <li>subject_gerund->výroba specializovaných náhrad rukou</li>
+  </SpecializedLimbs.generalRules.rulesStrings>
   
   <!-- EN: poison synthesis -->
   <VenomSynthesis.label>syntéza jedu</VenomSynthesis.label>
@@ -144,6 +206,12 @@
     <li>subject_story->learned to love sharp little cutting edges, which could kill with a mere nick</li>
     <li>subject_gerund->crafting poisonous bionic weapons</li>
   -->
-  <VenomSynthesis.generalRules.rulesStrings>TODO</VenomSynthesis.generalRules.rulesStrings>
+  <VenomSynthesis.generalRules.rulesStrings>
+    <li>subject->jedová bionika</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} na výrobě malých reaktorů produkujících jed, které bylo možno implantovat do těla</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} toxotkany odpadního světa a jejich zvláštní jedy, které si vyvilnuli</li>
+    <li>subject_story->miloval{ANYPAWN_pronoun} ostré hrany a bodce, které zabijí při pouhém doteku</li>
+    <li>subject_gerund->výroba jedových bionických zbraní</li>
+  </VenomSynthesis.generalRules.rulesStrings>
   
 </LanguageData>

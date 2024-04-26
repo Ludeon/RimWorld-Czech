@@ -1,4 +1,5 @@
 {replace: [subject_primary]; "výroba"-" výrobě"; "kakao"-" výrobě kakaa";"čokoláda"-" výrobě čokolády"; "[subject_primary]"-" [subject_primary]"}
+{replace: [subject_primary]; "výroba"-" výrobě"; "kakao"-" výrobě kakaa";"čokoláda"-" výrobě čokolády";"komplexní oblečení"-"e komplexnímu oblečení";"kultivace"-"e kultivaci";"dlouhé luky"-" dlouhým lukům";"středověké"-" středověkým";"pasivní chlazení"-" pasivnímu chlazení";"plátová"-" plátové";"psychoid"-" psychoidu";"automatické dveře"-" automatickým dveřím";"baterie"-" bateriím";"biopalivo"-" biopalivu";"pistole"-" pistolím";"zbraně s"-"e zbraním s";"zbraně"-"zbraním";"pokročilé osvětlení"-" pokročilému osvětlení";"elektřina"-" elektřině";"protipožární zařízení"-" protipožárním zařízením";"zařízení požární"-" zařízením požární";"střepinová"-" střepinové";"zbroj"-"zbroji";"hasící děla"-" hasícím dělům";"oheň tlumící děla"-" oheň tlumícím dělům";"těžké"-" těžkým";"vysokovýkonné"-" vysokovýkonným";"geotermalní"-"e geotermalní";"energie"-"energii";"jednoduché střelné"-" jednoduchým střelným";"střelné věže"-"e střelným věžím";"hydroponie"-" hydroponii";"minomety"-" minometům";"pasta"-"pastě";"nouzové potravinové balíčky"-" nouzovým potravinovým balíčkům";"trvanlivé potraviny"-" trvanlivým potravinám";"protetika"-" protetikám";"kouřová clona"-"e kouřovým clonám";"solarní panely"-" solarním panelům";"sterilní povrchy"-" sterilním povrchům";"CRT televizor"-"CRT televizorům";"televizor s"-" televizorům s";"vodní generátor"-" vodním generátorům";"hlubinné vrtání"-" hlubinnému vrtání";"hloubkové snímače"-" hloubkovým snímačům";"kanóny"-"kanónům";"dalekosáhlé snímače"-" dalekosáhléhlým snímačům";"medikálně nezávadná synteze"-" medikálně nezávadné syntezy";"mikroelektronika"-" mikroelektronice";"odvodňovací čerpadla"-" odvodňovacím čerpadlům";"kulomety"-"e kulometům";"pušky"-" puškám";"osobní zaštítění"-" osobnímu zaštítění";"přepravní moduly"-" přepravním modulům";"fabrikace"-" fabrikaci";"bionické protézy"-" bionickým protézám";"energetická munice"-" energetické munici";"kryptospánek"-"e kryptospánku";"špičkové montážní stroje"-"e špičkovým montážním strojům";"komplexní analýza"-"e komplexní analýze";"mariňácká"-" mariňácké";"průzkumnická"-" průzkumnické";"salvové raketomety"-" salvovým raketometům";"odstřelovací"-" odstřelovacím";"strukturální in"-"e strukturálnímu in";"mezihvězdná třída"-" mezihvězdné třídě";"Johnson-Tanakova teorie"-" Johnson-Tanakově teorii";"exotický přenos"-" exotickému přenosu";"lodní nukleární reaktor"-" lodnímu nukleárnímu reaktoru"; "[subject_primary]"-" [subject_primary]"}
 <!-- 2 v poli/v sektoru/na poli/... -->
     <li>studiesStart->Studies in</li> 2
     <li>studiesStart->Fundamentals of</li> 2
@@ -12,18 +13,21 @@
     <li>studiesStart->Shaping the future of</li> 2
     <li>studiesStart->Documenting of</li> 2
 
+"__"-"něm";
+{lookup: [subject_primary]; case\research; 2}
+
 1.
-<li>subject->vaření piva</li>
-<li>subject->výroba koberců</li>
-<li>subject->kakao</li>
-<li>subject->čokoláda</li>
-<li>subject->komplexní oblečení</li>
-<li>subject->dřevořezbářství</li>
-<li>subject->kultivace ďáblovy houby</li>
-<li>subject->produkce drog</li>
-<li>subject->synteze drog</li>
-<li>subject->výroba šťávy-go</li>
-<li>subject->dlouhé luky</li>
+<li>subject->vaření piva</li> #ě
+<li>subject->výroba koberců</li> #í
+<li>subject->kakao</li> #ě
+<li>subject->čokoláda</li> #í
+<li>subject->komplexní oblečení</li> #ě
+<li>subject->dřevořezbářství</li> #ě
+<li>subject->kultivace ďáblovy houby</li> #í
+<li>subject->produkce drog</li> #í
+<li>subject->synteze drog</li> #í
+<li>subject->výroba šťávy-go</li> #í
+<li>subject->dlouhé luky</li> #i
 <li>subject->středověké zbraně</li>
 <li>subject->vypařování</li>
 <li>subject->pasivní chlazení</li>
@@ -110,3 +114,55 @@
 <li>subject->Johnson-Tanakova teorie</li>
 <li>subject->lodní nukleární reaktor</li>
 <li>subject->navigace mezihvězdným prostorem</li>
+R
+<li>subject->katafraktská zbroj</li>
+<li>subject->zvýšení přesnosti</li>
+<li>subject->skokové batohy</li>
+<li>subject->let na krátkou vzdálenost</li>
+<li>subject->formální oblečení</li>
+<li>subject->nóbl oblečení</li>
+<li>subject->královské oblečení</li>
+
+<li>subject->umělý metabolismus</li>
+<li>subject->mozkové implantáty</li>
+<li>subject->implantáty upravující spánek</li>
+<li>subject->kompaktní zbraně</li>
+<li>subject->plastické operace</li>
+<li>subject->léčení zlepšující bionika</li>
+<li>subject->bionika schopná molekulové analýzy</li>
+<li>subject->mozkové implantáty</li>
+<li>subject->neurové výpočty</li>
+<li>subject->podkožní implantáty</li>
+<li>subject->specializované prostézy</li>
+<li>subject->jedová bionika</li>
+
+<li>subject->harfy</li>
+<li>subject->cembalo</li>
+<li>subject->klavír</li>
+I
+<li>subject->bioregenerace</li>
+<li>subject->neurální supernabíječky</li>
+<li>subject->bioplastika</li>
+B
+<li>subject->mechanoidi</li>
+<li>subject->špičkový mechanoidi</li>
+<li>subject->standartní mechanoidi</li>
+<li>subject->ultramoderní mechanoidi</li>
+<li>subject->atomizace toxického odpadu</li>
+
+<li>subject->archogenetika</li>
+<li>subject->mrtvospánek</li>
+<li>subject->procedury plodnosti</li>
+<li>subject->genové procesory</li>
+<li>subject->umělý růst embrya</li>
+<li>subject->umělé dělohy</li>
+<li>subject->filtrace toxinů</li>
+<li>subject->protitoxinová metabolizace</li>
+<li>subject->plynové zbraně</li>
+<li>subject->chemická válka</li>
+<li>subject->toxifikační generátor</li>
+<li>subject->xenovštipovače</li>
+<li>subject->genetické implantace</li>
+A
+<li>subject->bezpečnostní dveře</li>
+<li>subject->nasaditelné věže</li>
