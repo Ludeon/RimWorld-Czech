@@ -12,7 +12,13 @@
     <li>subject_story->fought with the rebels and studied the armor of a captured cataphract</li>
     <li>subject_gerund->crafting cataphract armor</li>
   -->
-  <CataphractArmor.generalRules.rulesStrings>TODO</CataphractArmor.generalRules.rulesStrings>
+  <CataphractArmor.generalRules.rulesStrings>
+    <li>subject->katafraktská zbroj</li>
+    <li>subject_story->poprvé vyvinul{ANYPAWN_pronoun} je{ANYPAWN_gender ? ho : jí} ekvivalent katafraktské zbroje pro výzkum aktivních vulkánů</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} zaměstn{ANYPAWN_gender ? án : aná} jako výrobce speciální katafraktské zbroje pro imperiální přehlídky</li>
+    <li>subject_story->bojoval{ANYPAWN_pronoun} s rebely a studoval{ANYPAWN_pronoun} jejich zbroj</li>
+    <li>subject_gerund->výroba katafraktské zbroje</li>
+  </CataphractArmor.generalRules.rulesStrings>
   
   <!-- EN: gunlink -->
   <Gunlink.label>náhlavní zaměřovací souprava</Gunlink.label>
@@ -25,7 +31,13 @@
     <li>subject_story->bulk-purchased gunlinks for the snipers in the army, forbidding them to front-line soldiers</li>
     <li>subject_gerund->enhancing accuracy with gunlinks</li>
   -->
-  <Gunlink.generalRules.rulesStrings>TODO</Gunlink.generalRules.rulesStrings>
+  <Gunlink.generalRules.rulesStrings>
+    <li>subject->zvýšení přesnosti</li>
+    <li>subject_story->upravil{ANYPAWN_pronoun} třpytosvětský počítač očního implantátu pro lepší kompatibilitu s předpovědí trajektorií střelných zbraní</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} spokojen{ANYPAWN_gender ? ý : á} s funkčností jejich zaměřovacích souprav, ale nebyl{ANYPAWN_pronoun} šťastn{ANYPAWN_gender ? ý : á} se zvýšenou úmrtností, způsobenou bojem bez helmy</li>
+    <li>subject_story->masově nakoupil{ANYPAWN_pronoun} zaměřovací soupravy pro armádní odstřelovače a zkoumal{ANYPAWN_pronoun} zvýšení jejich přesnosti</li>
+    <li>subject_gerund->zvyšování přesnosti zaměřovacími soupravami</li>
+  </Gunlink.generalRules.rulesStrings>
   
   <!-- EN: jump packs -->
   <JumpPack.label>skokové batohy</JumpPack.label>
@@ -40,7 +52,15 @@
     <li>subject_gerund->performing aerial assaults</li>
     <li>subject_gerund->crafting jump packs</li>
   -->
-  <JumpPack.generalRules.rulesStrings>TODO</JumpPack.generalRules.rulesStrings>
+  <JumpPack.generalRules.rulesStrings>
+    <li>subject->skokové batohy</li>
+    <li>subject->let na krátkou vzdálenost</li>
+    <li>subject_story->provozoval{ANYPAWN_pronoun} zábavní park zaměřující se na extrémní sporty jako hlazení třaskrys a skokobatohové dráhy</li>
+    <li>subject_story->provozoval{ANYPAWN_pronoun} výpravy zdolávání vrcholů na planetách s nízkou gravitací</li>
+    <li>subject_story->obeš{ANYPAWN_gender ? el : la} obrané věže ve výcviku vzdušným přeletem</li>
+    <li>subject_gerund->provádění vzdušných útoků</li>
+    <li>subject_gerund->výroba skokových batohů</li>
+  </JumpPack.generalRules.rulesStrings>
   
   <!-- EN: noble apparel -->
   <NobleApparel.label>šlechtické oblečení</NobleApparel.label>
@@ -55,7 +75,15 @@
     <li>subject_gerund->tailoring for the nobility</li>
     <li>subject_gerund->crafting noble apparel</li>
   -->
-  <NobleApparel.generalRules.rulesStrings>TODO</NobleApparel.generalRules.rulesStrings>
+  <NobleApparel.generalRules.rulesStrings>
+    <li>subject->formální oblečení</li>
+    <li>subject->nóbl oblečení</li>
+    <li>subject_story->šil{ANYPAWN_pronoun} formální korzety pro promoce studentů na městském světě</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} zaměnstn{ANYPAWN_gender ? án : aná} jako osobní krejčí císařské rodiny se specializací na cilindry</li>
+    <li>subject_story->vymyslel{ANYPAWN_pronoun} nový módní styl zakomponovávající barety</li>
+    <li>subject_gerund->šití honosného oblečení</li>
+    <li>subject_gerund->šití šlechtického oblečení</li>
+  </NobleApparel.generalRules.rulesStrings>
   
   <!-- EN: royal apparel -->
   <RoyalApparel.label>královské oblečení</RoyalApparel.label>
@@ -69,6 +97,13 @@
     <li>subject_gerund->tailoring for monarchs</li>
     <li>subject_gerund->crafting royal apparel</li>
   -->
-  <RoyalApparel.generalRules.rulesStrings>TODO</RoyalApparel.generalRules.rulesStrings>
+  <RoyalApparel.generalRules.rulesStrings>
+    <li>subject->královské oblečení</li>
+    <li>subject_story->šil{ANYPAWN_pronoun} celý rok oblečení pro korunovaci vladaře</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} požadavky různých vyšších tříd, aby mohl{ANYPAWN_pronoun} tvořit oblečení podle jejich představ</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} vychován{ANYPAWN_pronoun} v královské rodině, přičemž jí šil{ANYPAWN_pronoun} oblečení</li>
+    <li>subject_gerund->šití vladařského oblečení</li>
+    <li>subject_gerund->šití královského oblečení</li>
+  </RoyalApparel.generalRules.rulesStrings>
   
 </LanguageData>

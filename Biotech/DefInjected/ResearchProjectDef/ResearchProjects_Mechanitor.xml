@@ -13,7 +13,14 @@
     <li>subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage</li>
     <li>subject_gerund->creating basic mechanoids</li>
   -->
-  <BasicMechtech.generalRules.rulesStrings>TODO</BasicMechtech.generalRules.rulesStrings>
+  <BasicMechtech.generalRules.rulesStrings>
+    <li>subject->mechanoidi</li>
+    <li>subject_story->je autor{ANYPAWN_gender ? em : kou} leporela o různých typů mechanoidů</li>
+    <li>subject_story->byl {ANYPAWN_gender ? mu : jí} implantován jeden z prvních prototypů mechlink</li>
+    <li>subject_story->zreplikoval{ANYPAWN_prnoun} separátně základy biomechových technik</li>
+    <li>subject_story->rozebíral{ANYPAWN_prnoun} prastarého exochodce a naš{ANYPAWN_gender ? el : la} v jeho troskách zachovalý mechlink</li>
+    <li>subject_gerund->výroba základních mechanoidů</li>
+  </BasicMechtech.generalRules.rulesStrings>
   
   <!-- EN: high mechtech -->
   <HighMechtech.label>špičkové mechotechnologie</HighMechtech.label>
@@ -27,7 +34,14 @@
     <li>subject_story->built prototype mechanoid micro-organs for an offworld client</li>
     <li>subject_gerund->creating high-tier mechanoids</li>
   -->
-  <HighMechtech.generalRules.rulesStrings>TODO</HighMechtech.generalRules.rulesStrings>
+  <HighMechtech.generalRules.rulesStrings>
+    <li>subject->špičkový mechanoidi</li>
+    <li>subject_story->přežil{ANYPAWN_prnoun} útok válečné královny na imperiálním světě</li>
+    <li>subject_story->koupil{ANYPAWN_prnoun} si energofokusační čip od obchodníka, který neznal jeho pravou cenu</li>
+    <li>subject_story->vyslíchal{ANYPAWN_prnoun} mechanitory zajmuté v nájezdech</li>
+    <li>subject_story->postavil{ANYPAWN_prnoun} prototyp mechanoidích microorgánů pro neznámeho klienta</li>
+    <li>subject_gerund->výroba špičkových mechanoidů</li>
+  </HighMechtech.generalRules.rulesStrings>
   
   <!-- EN: standard mechtech -->
   <StandardMechtech.label>standardní mechotechnologie</StandardMechtech.label>
@@ -41,7 +55,14 @@
     <li>subject_story->collated reports of mechanoid attacks, looking for commonalities</li>
     <li>subject_gerund->creating standard mechanoids</li>
   -->
-  <StandardMechtech.generalRules.rulesStrings>TODO</StandardMechtech.generalRules.rulesStrings>
+  <StandardMechtech.generalRules.rulesStrings>
+    <li>subject->standartní mechanoidi</li>
+    <li>subject_story->získal{ANYPAWN_prnoun} signální čip za pochybných okolností</li>
+    <li>subject_story->nalezl{ANYPAWN_prnoun} zachovalý signální čip ve vraku ďábelníka</li>
+    <li>subject_story->přežil{ANYPAWN_prnoun} útok skupiny mechanoidů</li>
+    <li>subject_story->shromažďoval{ANYPAWN_prnoun} zprávy o mechanoidích útocích a hledal{ANYPAWN_prnoun} v nich spojitosti</li>
+    <li>subject_gerund->výroba standartních mechanoidů</li>
+  </StandardMechtech.generalRules.rulesStrings>
   
   <!-- EN: ultra mechtech -->
   <UltraMechtech.label>ultramoderní mechotechnologie</UltraMechtech.label>
@@ -55,7 +76,13 @@
     <li>subject_story->found an ascension diary next to an inert archonexus</li>
     <li>subject_gerund->creating ultra-tier mechanoids</li>
   -->
-  <UltraMechtech.generalRules.rulesStrings>TODO</UltraMechtech.generalRules.rulesStrings>
+  <UltraMechtech.generalRules.rulesStrings>
+    <li>subject->ultramoderní mechanoidi</li>
+    <li>subject_story->naš{ANYPAWN_gender ? el : la} vypnutého sršňáka z pozůstatků civilizace na mrtvém světě</li>
+    <li>subject_story->pozoroval{ANYPAWN_prnoun} z povzdálí jak sršňák oživuje padlé mechanoidy</li>
+    <li>subject_story->naboural{ANYPAWN_prnoun} se do psychických obvodů nenávisti sršňáka a prozřel{ANYPAWN_prnoun} jeho záměr</li>
+    <li>subject_story->naš{ANYPAWN_gender ? el : la} diář neznámeho mechanitora u opuštěného archonexusu</li>
+    <li>subject_gerund->výroba ultramoderních mechanoidů</li></UltraMechtech.generalRules.rulesStrings>
   
   <!-- EN: wastepack atomizer -->
   <WastepackAtomizer.label>atomizér toxivaků</WastepackAtomizer.label>
@@ -69,6 +96,13 @@
     <li>subject_story->observed a toxicworld from orbit</li>
     <li>subject_gerund->constructing wastepack atomizers</li>
   -->
-  <WastepackAtomizer.generalRules.rulesStrings>TODO</WastepackAtomizer.generalRules.rulesStrings>
+  <WastepackAtomizer.generalRules.rulesStrings>
+    <li>subject->atomizace toxického odpadu</li>
+    <li>subject_story->studoval{ANYPAWN_prnoun} atomizaci nebezpečných sloučenin a její efekt na ně</li>
+    <li>subject_story->naverboval{ANYPAWN_prnoun} členy týmu pro úklid zbytků solárních panelů</li>
+    <li>subject_story->navrhl{ANYPAWN_prnoun} první teorii atomické destabilizace molekul a její využití</li>
+    <li>subject_story->zkoumal{ANYPAWN_prnoun} toxický svět z jeho orbity</li>
+    <li>subject_gerund->stavba atomizérů toxivaků</li>
+  </WastepackAtomizer.generalRules.rulesStrings>
   
 </LanguageData>
