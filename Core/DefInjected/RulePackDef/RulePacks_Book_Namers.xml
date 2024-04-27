@@ -318,7 +318,7 @@
     <li>randTheme->rights</li>
     <li>randTheme->ethics</li>
   -->
-    <!-- CZ
+  <Namer_Schematic.rulePack.rulesStrings>
     <li>title->Design {lookup: [subject_primary]; case\research; 2}</li>
     <li>title->Poznámky k{lookup: [subject_primary]; case\research; 9} {lookup: [subject_primary]; case\research; 3}</li>
     <li>title->Průlom v{lookup: [subject_primary]; case\research; 10} {lookup: [subject_primary]; case\research; 6}</li>
@@ -328,17 +328,24 @@
     <li>title->Základy {lookup: [subject_primary]; case\research; 2}</li>
     <li>title->[subject_primary] [volNumeral]. Část</li>
     <li>title->[subject_primary] Svazek [volNumeral]</li>
-    <li>title->{replace: [randAdjective];"_"-"{lookup: [subject_primary]; case\research; 11}";"[randAdjective]"-"[randAdjective]"} [subject_primary]</li>
-    <li>title->{replace: [randAdjective];"_"-"{lookup: [subject_primary]; case\research; 11}";"[randAdjective]"-"[randAdjective]"} [subject_primary] Svazek [volNumeral]</li>
+    <li>title(p=0.3)->[randAdjective1] [subject_primary]</li>
+    <li>title(p=0.3)->[randAdjective1] [subject_primary] Svazek [volNumeral]</li>
+    <li>title(p=0.7)->{replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 11} [subject_primary]</li>
+    <li>title(p=0.7)->{replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 11} [subject_primary] Svazek [volNumeral]</li>
     <li>title->[maybe_authored_title]</li> 
     <li>title(has_subject_secondary==true)->[studiesStart] {lookup: [subject_primary]; case\singular; 2} v oblasti {lookup: [subject_secondary]; case\research; 2}</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} po [lifeEvent]</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} a [anecdotes] o {lookup: [subject_primary]; case\research; 8}</li>
-    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: {replace: [randAdjective] [discussionNoun];"_ diskurz"-"ý diskurz";"_ dialog"-"ý dialog";"_ [discussionNoun]"-"á [discussionNoun]";"[randAdjective] [discussionNoun]"-"[randAdjective] [discussionNoun]"}</li>
-    <li>title->{replace: [randAdjective] [referenceType];"_ Encyklopedie"-"á Encyklopedie";"_ Příručka"-"á Příručka";"_ Kronika"-"á Kronika";"_ Sbírka"-"á Sbírka";"_ [referenceType]"-"ý [referenceType]";"[randAdjective] [referenceType]"-"[randAdjective] [referenceType]"} {lookup: [subject_primary]; case\research; 2}</li>
-    <li>title->[referenceType] {replace: [randAdjective];"_"-"{lookup: [subject_primary]; case\research; 12}";"[randAdjective]"-"[randAdjective]"} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
-    <li>title->[studiesStart] {replace: [randAdjective];"_"-"{lookup: [subject_primary]; case\research; 12}";"[randAdjective]"-"[randAdjective]"} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
-    <li>title->[referenceType] {replace: [randAdjective] [studiesStart];"_ Studie"-"ých Studií";"_ Základy"-"ých Základů";"_ Management"-"ého Management";"_ Historie"-"é Historie";"_ Práce z pole"-"ých Prácí v polích";"_ Reprezentace"-"ých Reprezentací";"_ Přežívání"-"ých Přežití";"_ Pokrok"-"ých Pokroků";"_ Aplikace"-"ých Aplikace";"_ Budoucnost"-"ých Budoucností";"_ Dokumentace"-"ých Dokumentací";"_ [subject_primary]"-"ých [subject_primary]";"[randAdjective] [subject_primary]"-"[randAdjective] [subject_primary]"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: [randAdjective1] [discussionNoun]</li>
+    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: {replace: [randAdjective0] [discussionNoun];"_ diskurz"-"ý diskurz";"_ dialog"-"ý dialog";"_ [discussionNoun]"-"á [discussionNoun]"}</li>
+    <li>title(p=0.3)->[randAdjective1] [referenceType] {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.7)->{replace: [randAdjective0] [referenceType];"_ Encyklopedie"-"á Encyklopedie";"_ Příručka"-"á Příručka";"_ Kronika"-"á Kronika";"_ Sbírka"-"á Sbírka";"_ [referenceType]"-"ý [referenceType]";"[randAdjective0] [referenceType]"-"[randAdjective0] [referenceType]"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.3)->[referenceType] [randAdjective1]{lookup: [subject_primary]; case\research; 13} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
+    <li>title(p=0.7)->[referenceType] {replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 12} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
+    <li>title(p=0.3)->[studiesStart] [randAdjective1]{lookup: [subject_primary]; case\research; 13} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
+    <li>title(p=0.7)->[studiesStart] {replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 12} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
+    <li>title(p=0.3)->[referenceType] [randAdjective1] {replace:[studiesStart];"Studie"-"ch Studií";"Základy"-"ch Základů";"Management"-"ho Management";"Historie"-" Historie";"Rozbor"-"ch Rozborů";"Reprezentace"-"ch Reprezentací";"Přežívání"-"ch Přežití";"Pokrok"-"ch Pokroků";"Aplikace"-"ch Aplikace";"Budoucnost"-"ch Budoucnosti";"Dokumentace"-"ch Dokumentací"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.7)->[referenceType] {replace: [randAdjective0] [studiesStart];"_ Studie"-"ých Studií";"_ Základy"-"ých Základů";"_ Management"-"ého Management";"_ Historie"-"é Historie";"Rozbor"-"ých Rozborů";"_ Reprezentace"-"ých Reprezentací";"_ Přežívání"-"ých Přežití";"_ Pokrok"-"ých Pokroků";"_ Aplikace"-"ých Aplikace";"_ Budoucnost"-"é Budoucnosti";"_ Dokumentace"-"ých Dokumentací"} {lookup: [subject_primary]; case\research; 2}</li>
     <li>title->[discussionNoun] po [lifeEvent] o {lookup: [subject_primary]; case\research; 6}</li>
     <li>studiesStart->Studie</li>
     <li>studiesStart->Základy</li>
@@ -361,7 +368,7 @@
     <li>referenceType->Kronika</li>
     <li>referenceType->Průvodce</li>
     <li>referenceType->Sbírka</li>
-    <li>anecdotes->myšlenky##</li>
+    <li>anecdotes->myšlenky???</li>
     <li>anecdotes->anekdoty</li>
     <li>anecdotes->folklór</li>
     <li>anecdotes->pověsti</li>
@@ -420,26 +427,26 @@
     <li>subjectsTuple3(has_subject_secondary==true,p=2)->{lookup: [subject_primary]; case\research; 3} a {lookup: [subject_secondary]; case\research; 3}</li>
     <li>subjectsTuple3(has_subject_secondary==true)->{lookup: [subject_secondary]; case\research; 3} a {replace: [randTheme];"tipů pro přežití"-"tipům pro přežití";"autofagie"-"autofagii";"víry"-"víře";"práv"-"právům";"etiky"-"etice";"[randTheme]"-" [randTheme]"}</li>
     <li>subjectsTuple3->{lookup: [subject_primary]; case\research; 3} a {replace: [randTheme];"tipů pro přežití"-"tipům pro přežití";"autofagie"-"autofagii";"víry"-"víře";"práv"-"právům";"etiky"-"etice";"[randTheme]"-" [randTheme]"}</li>
-    <li>randAdjective->Základní</li>
-    <li>randAdjective->Nejlepší</li>
-    <li>randAdjective->Třpytosvětov_</li>
-    <li>randAdjective->Středověk_</li>
-    <li>randAdjective->Archaick_</li>
-    <li>randAdjective->Neuvěřiteln_</li>
-    <li>randAdjective->Soumračn_</li>
-    <li>randAdjective->Mrtvosvětov_</li>
-    <li>randAdjective->Groteskní</li>
-    <li>randAdjective->Magick_</li>
-    <li>randAdjective->Svat_</li>
-    <li>randAdjective->Nejtmavší</li>
-    <li>randAdjective->Podzemní</li>
-    <li>randAdjective->Primitivní</li>
-    <li>randAdjective->Důležit_</li>
-    <li>randAdjective->Stygiánsk_</li>
-    <li>randAdjective->Náladov_</li>
-    <li>randAdjective->Strašideln_</li>
-    <li>randAdjective->Kryptick_</li>
-    <li>randAdjective->Proklet_</li>
+    <li>randAdjective1->Základní</li>
+    <li>randAdjective1->Nejlepší</li>
+    <li>randAdjective0->Třpytosvětov_</li>
+    <li>randAdjective0->Středověk_</li>
+    <li>randAdjective0->Archaick_</li>
+    <li>randAdjective0->Neuvěřiteln_</li>
+    <li>randAdjective0->Soumračn_</li>
+    <li>randAdjective0->Mrtvosvětov_</li>
+    <li>randAdjective1->Groteskní</li>
+    <li>randAdjective0->Magick_</li>
+    <li>randAdjective0->Svat_</li>
+    <li>randAdjective1->Nejtmavší</li>
+    <li>randAdjective1->Podzemní</li>
+    <li>randAdjective1->Primitivní</li>
+    <li>randAdjective0->Důležit_</li>
+    <li>randAdjective0->Stygiánsk_</li>
+    <li>randAdjective0->Náladov_</li>
+    <li>randAdjective0->Strašideln_</li>
+    <li>randAdjective0->Kryptick_</li>
+    <li>randAdjective0->Proklet_</li>
     <li>randTheme->inženýrství</li>
     <li>randTheme->folklóru</li>
     <li>randTheme->science-fiction</li>
@@ -448,9 +455,8 @@
     <li>randTheme->autofagie</li>
     <li>randTheme->víry</li>
     <li>randTheme->práv</li>
-    <li>randTheme->etiky</li>-->
-
-  <Namer_Schematic.rulePack.rulesStrings>TODO</Namer_Schematic.rulePack.rulesStrings>
+    <li>randTheme->etiky</li>
+  </Namer_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->[titleBasic]</li>

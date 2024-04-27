@@ -12,14 +12,12 @@
     <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
     <li>subject_gerund->fabricating advanced components</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->prodával[0_pronoun]??? pokročilé komponenty zoufalým kolonistům na okrajových světech</li>
-    <li>subject_story->objevil[0_pronoun]??? tajemstý fabrikace pokročílých komponentů a zemřel[0_pronoun]??? aniž by ho komukoli prozradil[0_pronoun]???</li>
-    <li>subject_story->odmítal[0_pronoun]??? extrémní náklady na výrobu pokročilých komponentů a tak se rozhodl[0_pronoun]??? pro jednodušší životní styl</li>
-    <li>subject_gerund->fabricating advanced components</li>
-    -->
   <AdvancedFabrication.generalRules.rulesStrings>
     <li>subject->fabrikace pokročilých komponentů</li>
+    <li>subject_story->prodával[ANYPAWN_pronoun] pokročilé komponenty zoufalým kolonistům na okrajových světech</li>
+    <li>subject_story->objevil[ANYPAWN_pronoun] tajemstý fabrikace pokročílých komponentů a zemřel[ANYPAWN_pronoun] aniž by ho komukoli prozradil[ANYPAWN_pronoun]</li>
+    <li>subject_story->odmítal[ANYPAWN_pronoun] extrémní náklady na výrobu pokročilých komponentů a tak se rozhodl[ANYPAWN_pronoun] pro jednodušší životní styl</li>
+    <li>subject_gerund->fabricating advanced components</li>
   </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
@@ -34,15 +32,13 @@
     <li>subject_gerund->constructing bionic prosthetics</li>
     <li>subject_gerund->utilizing bionic body parts</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->pracocal[0_pronoun]??? primárně se znetvořenými vojáky, pro které vytvářel[0_pronoun]??? bionické náhrady části obličeje, aby se mohly vrátit ke svým milovaným</li>
-    <li>subject_story->studoval[0_pronoun]??? zpomalená videa lidských pohybů, aby mohl[0_pronoun]??? vytvořit věrohodnější bionické protézy</li>
-    <li>subject_story->udělal[0_pronoun]??? ze sebe testovací platformu pro mnoho různých prototypů bionických protéz. Na konci měl[0_pronoun]??? blíže k robotovy než člověku</li>
-    <li>subject_gerund->výroba bionických protéz</li>
-    <li>subject_gerund->využívání bionických částí těla</li>
-    -->
   <Bionics.generalRules.rulesStrings>
     <li>subject->bionické protézy</li>
+    <li>subject_story->pracocal[ANYPAWN_pronoun] primárně se znetvořenými vojáky, pro které vytvářel[ANYPAWN_pronoun] bionické náhrady části obličeje, aby se mohly vrátit ke svým milovaným</li>
+    <li>subject_story->studoval[ANYPAWN_pronoun] zpomalená videa lidských pohybů, aby mohl[ANYPAWN_pronoun] vytvořit věrohodnější bionické protézy</li>
+    <li>subject_story->udělal[ANYPAWN_pronoun] ze sebe testovací platformu pro mnoho různých prototypů bionických protéz. Na konci měl[ANYPAWN_pronoun] blíže k robotovy než člověku</li>
+    <li>subject_gerund->výroba bionických protéz</li>
+    <li>subject_gerund->využívání bionických částí těla</li>
   </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
@@ -57,15 +53,13 @@
     <li>subject_gerund->constructing pulse munitions</li>
     <li>subject_gerund->utilising pulse munitions</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->studoval[0_pronoun]??? třpytosvětové monoraily a adaptoval[0_pronoun]??? jejich technologii na vrhání projektylů</li>
-    <li>subject_story->zabil[0_pronoun]??? mechanického plaziče mistrovskou prací s energetickým kopím</li>
-    <li>subject_story->objevil[0_pronoun]??? způsob jak nabít puškové náboje elektrickým nábojem, což drasticky zvýšilo jejich letalitu</li>
-    <li>subject_gerund->tvorba energetické munice</li>
-    <li>subject_gerund->využití energetické munice</li>
-    -->
   <ChargedShot.generalRules.rulesStrings>
     <li>subject->energetická munice</li>
+    <li>subject_story->studoval[ANYPAWN_pronoun] třpytosvětové monoraily a adaptoval[ANYPAWN_pronoun] jejich technologii na vrhání projektylů</li>
+    <li>subject_story->zabil[ANYPAWN_pronoun] mechanického plaziče mistrovskou prací s energetickým kopím</li>
+    <li>subject_story->objevil[ANYPAWN_pronoun] způsob jak nabít puškové náboje elektrickým nábojem, což drasticky zvýšilo jejich letalitu</li>
+    <li>subject_gerund->tvorba energetické munice</li>
+    <li>subject_gerund->využití energetické munice</li>
   </ChargedShot.generalRules.rulesStrings>
   
   <!-- EN: cryptosleep casket -->
@@ -80,15 +74,13 @@
     <li>subject_gerund->constructing cryptosleep caskets</li>
     <li>subject_gerund->inducing cryptosleep</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->chtěl[0_pronoun]??? pouze otestovat prototyp kryptospánkové komory, ale namísto toho se vzbudil[0_pronoun]??? o generaci později, úplně osaměl[0_gender ? ý : á]???</li>
-    <li>subject_story->odsoudil[0_pronoun]??? nejhoršího zločince v systému k nepřetržitému kryptospánku namísto smrti</li>
-    <li>subject_story->využíval[0_pronoun]??? kryptospánkové komory k zamražení nevyléčitelně nemocných, aby mohli vidět svoje děti když vyrostou</li>
-    <li>subject_gerund->výstavba kryptospánkových komor</li>
-    <li>subject_gerund->vyvolávání kryptospánku</li>
-    -->
   <Cryptosleep.generalRules.rulesStrings>
     <li>subject->kryptospánek</li>
+    <li>subject_story->chtěl[ANYPAWN_pronoun] pouze otestovat prototyp kryptospánkové komory, ale namísto toho se vzbudil[ANYPAWN_pronoun] o generaci později, úplně osaměl[ANYPAWN_gender ? ý : á]</li>
+    <li>subject_story->odsoudil[ANYPAWN_pronoun] nejhoršího zločince v systému k nepřetržitému kryptospánku namísto smrti</li>
+    <li>subject_story->využíval[ANYPAWN_pronoun] kryptospánkové komory k zamražení nevyléčitelně nemocných, aby mohli vidět svoje děti když vyrostou</li>
+    <li>subject_gerund->výstavba kryptospánkových komor</li>
+    <li>subject_gerund->vyvolávání kryptospánku</li>
   </Cryptosleep.generalRules.rulesStrings>
   
   <!-- EN: fabrication -->
@@ -107,15 +99,13 @@
     <li>subject_gerund->constructing high-tech projects</li>
     <li>subject_gerund->building high-tech fabrication stations</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->strávil[0_pronoun]??? mnoho let fabrikací pokročilých komponentů pro vytváření montážních strojů, aby mohl[0_pronoun]??? vyrobit více pokročilých komponentů</li>
-    <li>subject_story->prodal[0_pronoun]??? všechno aby si mohl[0_pronoun]??? pořídit jeden montážní stroj</li>
-    <li>subject_story->vytvořil[0_pronoun]??? technologické divy, které divocí vesničané vyznávali jako magické</li>
-    <li>subject_gerund->konstruování technologicky pokročilých projektů</li>
-    <li>subject_gerund->stavba špičkových montážních strojů</li>
-    -->
   <Fabrication.generalRules.rulesStrings>
     <li>subject->špičkové montážní stroje</li>
+    <li>subject_story->strávil[ANYPAWN_pronoun] mnoho let fabrikací pokročilých komponentů pro vytváření montážních strojů, aby mohl[ANYPAWN_pronoun] vyrobit více pokročilých komponentů</li>
+    <li>subject_story->prodal[ANYPAWN_pronoun] všechno aby si mohl[ANYPAWN_pronoun] pořídit jeden montážní stroj</li>
+    <li>subject_story->vytvořil[ANYPAWN_pronoun] technologické divy, které divocí vesničané vyznávali jako magické</li>
+    <li>subject_gerund->konstruování technologicky pokročilých projektů</li>
+    <li>subject_gerund->stavba špičkových montážních strojů</li>
   </Fabrication.generalRules.rulesStrings>
   
   <!-- EN: multi-analyzer -->
@@ -129,14 +119,12 @@
     <li>subject_story->helped identify new stable isotopes</li>
     <li>subject_gerund->constructing multi-analyzers</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->zautomatizoval[0_pronoun]??? výzkumnou laboratoř</li>
-    <li>subject_story->odhalil[0_pronoun]??? tajemství transformního spektra vesmíru</li>
-    <li>subject_story->pomohl[0_pronoun]??? identifikovat nové stabilní izotopy</li>
-    <li>subject_gerund->stavba multifunkčního analyzátoru</li>
-    -->
   <MultiAnalyzer.generalRules.rulesStrings>
     <li>subject->komplexní analýza</li>
+    <li>subject_story->zautomatizoval[ANYPAWN_pronoun] výzkumnou laboratoř</li>
+    <li>subject_story->odhalil[ANYPAWN_pronoun] tajemství transformního spektra vesmíru</li>
+    <li>subject_story->pomohl[ANYPAWN_pronoun] identifikovat nové stabilní izotopy</li>
+    <li>subject_gerund->stavba multifunkčního analyzátoru</li>
   </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
@@ -152,16 +140,14 @@
     <li>subject_gerund->constructing marine armor</li>
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->byl[0_pronoun]??? zaměstn[0_gender ? án : aná]??? jako čistič zbroje úderných vojsk</li>
-    <li>subject_story->otestoval[0_pronoun]??? svou zbroj tím, že proš[0_gender ? el : la]??? neozbrojen[0_gender ? ý : á]??? skrz vesnici nepřátelského kmene, aniž by obdržel[0_pronoun]??? jediné škrábnutí</li>
-    <li>subject_story->vytvořil[0_pronoun]??? tuto zbroj jako ochranu před divokým počasím [0_gender ? jeho : její]??? domovské planet a zjistil[0_pronoun]???, že je také velmi učínná proti pirátům</li>
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->mariňácká zbroj</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] zaměstn[ANYPAWN_gender ? án : aná] jako čistič zbroje úderných vojsk</li>
+    <li>subject_story->otestoval[ANYPAWN_pronoun] svou zbroj tím, že proš[ANYPAWN_gender ? el : la] neozbrojen[ANYPAWN_gender ? ý : á] skrz vesnici nepřátelského kmene, aniž by obdržel[ANYPAWN_pronoun] jediné škrábnutí</li>
+    <li>subject_story->vytvořil[ANYPAWN_pronoun] tuto zbroj jako ochranu před divokým počasím [ANYPAWN_gender ? jeho : její] domovské planet a zjistil[ANYPAWN_pronoun], že je také velmi učínná proti pirátům</li>
     <li>subject_gerund->výroba zbroje úderných vojsk</li>
     <li>subject_gerund->výroba mariňácké zbroje</li>
     <li>subject_gerund->výroba zbroje pro všeobecné použití</li>
-    -->
-  <PoweredArmor.generalRules.rulesStrings>
-      <li>subject->mariňácká zbroj</li>
   </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
@@ -176,15 +162,13 @@
     <li>subject_gerund->crafting recon armor</li>
     <li>subject_gerund->reducing armor weight</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->vedl[0_pronoun]??? rebelské skauty proti Impériálním jednotkám, až do chvíle kdy byl[0_pronoun]??? zadržen[0_pronoun]???</li>
-    <li>subject_story->vyrobil[0_pronoun]??? dostatečně odlehčenou zbroj a odolnou zbroj, aby jednotky s kladivy se mohly dostat do úderné vzdálenosti</li>
-    <li>subject_story->plánoval[0_pronoun]??? prodávat průzkumnická zbroj spíše lovcům než vojáků. I přesto šla na dranc</li>
-    <li>subject_gerund->výroba průzkumnické zbroje</li>
-    <li>subject_gerund->snížení váhy zbroje</li>
-    -->
   <ReconArmor.generalRules.rulesStrings>
     <li>subject->průzkumnická zbroj</li>
+    <li>subject_story->vedl[ANYPAWN_pronoun] rebelské skauty proti Impériálním jednotkám, až do chvíle kdy byl[ANYPAWN_pronoun] zadržen[ANYPAWN_pronoun]</li>
+    <li>subject_story->vyrobil[ANYPAWN_pronoun] dostatečně odlehčenou zbroj a odolnou zbroj, aby jednotky s kladivy se mohly dostat do úderné vzdálenosti</li>
+    <li>subject_story->plánoval[ANYPAWN_pronoun] prodávat průzkumnická zbroj spíše lovcům než vojáků. I přesto šla na dranc</li>
+    <li>subject_gerund->výroba průzkumnické zbroje</li>
+    <li>subject_gerund->snížení váhy zbroje</li>
   </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
@@ -198,14 +182,12 @@
     <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
     <li>subject_gerund->constructing rocket turrets</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->vypovídal[0_pronoun]??? proti zneužívání salvových rakotemotů proti civilním cílům</li>
-    <li>subject_story->sestrojil[0_pronoun]??? poslední linii obrany is s automatickými raketomety pro případ, že by jejich osada byla napadena</li>
-    <li>subject_story->začal[0_pronoun]??? tvorbou primitivních raket schopných doletět na orbitu, ale jejich vysoká míra selhání vedl k tomu, že byly přebudovány na útočné zbraně</li>
-    <li>subject_gerund->výstavba raketových věží</li>
-    -->
   <RocketswarmLauncher.generalRules.rulesStrings>
-      <li>subject->salvové raketomety</li>
+    <li>subject->salvové raketomety</li>
+    <li>subject_story->vypovídal[ANYPAWN_pronoun] proti zneužívání salvových rakotemotů proti civilním cílům</li>
+    <li>subject_story->sestrojil[ANYPAWN_pronoun] poslední linii obrany is s automatickými raketomety pro případ, že by jejich osada byla napadena</li>
+    <li>subject_story->začal[ANYPAWN_pronoun] tvorbou primitivních raket schopných doletět na orbitu, ale jejich vysoká míra selhání vedl k tomu, že byly přebudovány na útočné zbraně</li>
+    <li>subject_gerund->výstavba raketových věží</li>
   </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
@@ -219,14 +201,12 @@
     <li>subject_story->researched the effects of ammunition density on armor</li>
     <li>subject_gerund->constructing sniper turrets</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->vedl[0_pronoun]??? poválečný úklid krajiny, u kterého nasbíral[0_pronoun]??? mnoho radioaktivních uranových projektilů z válečných front</li>
-    <li>subject_story->viděl[0_pronoun]??? jak kanón prostřelil přímo skrz útočného mechanoida a potřeboval[0_pronoun]??? vědět jak to bylo vůbec možné</li>
-    <li>subject_story->zkoumal[0_pronoun]??? efekty hustější munice na zbroj</li>
-    <li>subject_gerund->stavění odstřelovacích kanónů</li>
-    -->
   <SniperTurret.generalRules.rulesStrings>
     <li>subject->odstřelovací kanóny</li>
+    <li>subject_story->vedl[ANYPAWN_pronoun] poválečný úklid krajiny, u kterého nasbíral[ANYPAWN_pronoun] mnoho radioaktivních uranových projektilů z válečných front</li>
+    <li>subject_story->viděl[ANYPAWN_pronoun] jak kanón prostřelil přímo skrz útočného mechanoida a potřeboval[ANYPAWN_pronoun] vědět jak to bylo vůbec možné</li>
+    <li>subject_story->zkoumal[ANYPAWN_pronoun] efekty hustější munice na zbroj</li>
+    <li>subject_gerund->stavění odstřelovacích kanónů</li>
   </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
@@ -241,15 +221,13 @@
     <li>subject_gerund->monitoring vital signs</li>
     <li>subject_gerund->constructing vital signs monitors</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->trpěl[0_pronoun]??? v přeplněné nemocnici and rozhodl[0_pronoun]??? se že s tím musí něco udělat</li>
-    <li>subject_story->ošetřiloval[0_pronoun]??? přeživšího ze skleněného světa a povedlo se [0_gender ? mu : jí]??? ho kompletně uzdravit</li>
-    <li>subject_story->monitoroval[0_pronoun]??? vzdáleně pacienty v karanténě a ošetřoval[0_pronoun]??? je mechanoidy</li>
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject->monitorování životních funkcí</li>
+    <li>subject_story->trpěl[ANYPAWN_pronoun] v přeplněné nemocnici and rozhodl[ANYPAWN_pronoun] se že s tím musí něco udělat</li>
+    <li>subject_story->ošetřiloval[ANYPAWN_pronoun] přeživšího ze skleněného světa a povedlo se [ANYPAWN_gender ? mu : jí] ho kompletně uzdravit</li>
+    <li>subject_story->monitoroval[ANYPAWN_pronoun] vzdáleně pacienty v karanténě a ošetřoval[ANYPAWN_pronoun] je mechanoidy</li>
     <li>subject_gerund->monitorování životních funkcí</li>
     <li>subject_gerund->výroba monitorů životních funkcí</li>
-    -->
-  <VitalsMonitor.generalRules.rulesStrings>
-      <li>subject->monitorování životních funkcí</li>
   </VitalsMonitor.generalRules.rulesStrings>
   
 </LanguageData>
