@@ -368,7 +368,7 @@
     <li>referenceType->Kronika</li>
     <li>referenceType->Průvodce</li>
     <li>referenceType->Sbírka</li>
-    <li>anecdotes->myšlenky???</li>
+    <li>anecdotes->záznamy</li>
     <li>anecdotes->anekdoty</li>
     <li>anecdotes->folklór</li>
     <li>anecdotes->pověsti</li>
@@ -409,9 +409,9 @@
     <li>titleTwoSubjects->Základy [subjectsTuple2]</li>
     <li>titleTwoSubjects->Analýza [subjectsTuple2]</li>
     <li>maybe_authored_title->[author_gen]</li>
-    <li>author_gen->[ANYPAWN_nameIndef]'s Studie ???</li>
-    <li>author_gen->[ANYPAWN_nameIndef]'s Poznámky ???</li>
-    <li>author_gen->[ANYPAWN_nameIndef]'s Záznamy ???</li>
+    <li>author_gen->[ANYPAWN_nameIndef]: Studie {lookup: [primary_subject]; case/research; 2}</li>
+    <li>author_gen->[ANYPAWN_nameIndef]: Poznámky k{lookup: [subject_primary]; case\research; 9} {lookup: [primary_subject]; case/research; 3}</li>
+    <li>author_gen->[ANYPAWN_nameIndef]: Záznamy k{lookup: [subject_primary]; case\research; 9} {lookup: [primary_subject]; case/research; 3}</li>
     <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
     <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
     <li>authored_title_gen->[ANYPAWN_nameIndef] a [subject_primary]</li>
