@@ -337,9 +337,9 @@
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} po [lifeEvent]</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} a [anecdotes] o {lookup: [subject_primary]; case\research; 8}</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: [randAdjective1] [discussionNoun]</li>
-    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: {replace: [randAdjective0] [discussionNoun];"_ diskurz"-"ý diskurz";"_ dialog"-"ý dialog";"_ [discussionNoun]"-"á [discussionNoun]"}</li>
+    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: {replace: [randAdjective0] [discussionNoun];"_ diskurz"-"ý diskurz";"_ dialog"-"ý dialog";"_"-"á"}</li>
     <li>title(p=0.3)->[randAdjective1] [referenceType] {lookup: [subject_primary]; case\research; 2}</li>
-    <li>title(p=0.7)->{replace: [randAdjective0] [referenceType];"_ Encyklopedie"-"á Encyklopedie";"_ Příručka"-"á Příručka";"_ Kronika"-"á Kronika";"_ Sbírka"-"á Sbírka";"_ [referenceType]"-"ý [referenceType]";"[randAdjective0] [referenceType]"-"[randAdjective0] [referenceType]"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.7)->{replace: [randAdjective0] [referenceType];"_ Encyklopedie"-"á Encyklopedie";"_ Příručka"-"á Příručka";"_ Kronika"-"á Kronika";"_ Sbírka"-"á Sbírka";"_"-"ý"} {lookup: [subject_primary]; case\research; 2}</li>
     <li>title(p=0.3)->[referenceType] [randAdjective1]{lookup: [subject_primary]; case\research; 13} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
     <li>title(p=0.7)->[referenceType] {replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 12} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
     <li>title(p=0.3)->[studiesStart] [randAdjective1]{lookup: [subject_primary]; case\research; 13} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
@@ -419,14 +419,14 @@
     <li>authored_title_gen_two->[ANYPAWN_nameIndef] a [subjectsTuple1]</li>
     <li>authored_title_gen_two->[ANYPAWN_nameIndef] proti [subjectsTuple3]</li>
     <li>subjectsTuple1(has_subject_secondary==true,p=2)->[subject_primary] s {lookup: [subject_secondary]; case\research; 7}</li>
-    <li>subjectsTuple1(has_subject_secondary==true)->[subject_secondary] s{replace: [randTheme];"inženýrství"-" inženýrstvím";"folklóru"-" folklórem";"science-fiction"-"e science-fiction";"tipů pro přežití"-" tipy pro přežití";"rimu"-" rimem";"autofagie"-" autofagií";"víry"-" vírou";"práv"-" právy";"etiky"-" etikou";"[randTheme]"-" [randTheme]"}</li>
-    <li>subjectsTuple1->[subject_primary] s{replace: [randTheme];"inženýrství"-" inženýrstvím";"folklóru"-" folklórem";"science-fiction"-"e science-fiction";"tipů pro přežití"-" tipy pro přežití";"rimu"-" rimem";"autofagie"-" autofagií";"víry"-" vírou";"práv"-" právy";"etiky"-" etikou";"[randTheme]"-" [randTheme]"}</li>
+    <li>subjectsTuple1(has_subject_secondary==true)->[subject_secondary] s{replace: [randTheme];"inženýrství"-" inženýrstvím";"folklóru"-" folklórem";"science-fiction"-"e science-fiction";"tipů pro přežití"-" tipy pro přežití";"rimu"-" rimem";"autofagie"-" autofagií";"víry"-" vírou";"práv"-" právy";"etiky"-" etikou"}</li>
+    <li>subjectsTuple1->[subject_primary] s{replace: [randTheme];"inženýrství"-" inženýrstvím";"folklóru"-" folklórem";"science-fiction"-"e science-fiction";"tipů pro přežití"-" tipy pro přežití";"rimu"-" rimem";"autofagie"-" autofagií";"víry"-" vírou";"práv"-" právy";"etiky"-" etikou"}</li>
     <li>subjectsTuple2(has_subject_secondary==true,p=2)->{lookup: [subject_primary]; case\research; 2} a {lookup: [subject_secondary]; case\research; 2}</li>
     <li>subjectsTuple2(has_subject_secondary==true)->{lookup: [subject_secondary]; case\research; 2} a [randTheme]</li>
     <li>subjectsTuple2->{lookup: [subject_primary]; case\research; 2} a [randTheme]</li>
     <li>subjectsTuple3(has_subject_secondary==true,p=2)->{lookup: [subject_primary]; case\research; 3} a {lookup: [subject_secondary]; case\research; 3}</li>
-    <li>subjectsTuple3(has_subject_secondary==true)->{lookup: [subject_secondary]; case\research; 3} a {replace: [randTheme];"tipů pro přežití"-"tipům pro přežití";"autofagie"-"autofagii";"víry"-"víře";"práv"-"právům";"etiky"-"etice";"[randTheme]"-" [randTheme]"}</li>
-    <li>subjectsTuple3->{lookup: [subject_primary]; case\research; 3} a {replace: [randTheme];"tipů pro přežití"-"tipům pro přežití";"autofagie"-"autofagii";"víry"-"víře";"práv"-"právům";"etiky"-"etice";"[randTheme]"-" [randTheme]"}</li>
+    <li>subjectsTuple3(has_subject_secondary==true)->{lookup: [subject_secondary]; case\research; 3} a {replace: [randTheme];"tipů pro přežití"-"tipům pro přežití";"autofagie"-"autofagii";"víry"-"víře";"práv"-"právům";"etiky"-"etice"}</li>
+    <li>subjectsTuple3->{lookup: [subject_primary]; case\research; 3} a {replace: [randTheme];"tipů pro přežití"-"tipům pro přežití";"autofagie"-"autofagii";"víry"-"víře";"práv"-"právům";"etiky"-"etice"}</li>
     <li>randAdjective1->Základní</li>
     <li>randAdjective1->Nejlepší</li>
     <li>randAdjective0->Třpytosvětov_</li>
