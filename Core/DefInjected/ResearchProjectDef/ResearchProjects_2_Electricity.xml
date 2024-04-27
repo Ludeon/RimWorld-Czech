@@ -12,14 +12,12 @@
     <li>subject_story->learned all about air conditioning and freezers, then returned home</li>
     <li>subject_gerund->building air conditioning units</li>
   -->
-    <!-- CZ: 
-    <li>subject_story->navštívil[0_pronoun]??? nejteplejší město na planetě</li>
-    <li>subject_story->pracoval[0_pronoun]??? s materiály vyžadující teplotu blízkou absolutní nule v mezihvězdném skladě</li>
-    <li>subject_story->se vyučil[0_pronoun]??? vše kolem klimatizace a kontroly teploty a poté se vrátila domů</li>
-    <li>subject_gerund->stavění klimatizačních jednotek</li>
-    -->
   <AirConditioning.generalRules.rulesStrings>
     <li>subject->klimatizace</li>
+    <li>subject_story->navštívil[ANYPAWN_pronoun] nejteplejší město na planetě</li>
+    <li>subject_story->pracoval[ANYPAWN_pronoun] s materiály vyžadující teplotu blízkou absolutní nule v mezihvězdném skladě</li>
+    <li>subject_story->se vyučil[ANYPAWN_pronoun] vše kolem klimatizace a kontroly teploty a poté se vrátila domů</li>
+    <li>subject_gerund->stavění klimatizačních jednotek</li>
   </AirConditioning.generalRules.rulesStrings>
   
   <!-- EN: autodoor -->
@@ -34,15 +32,13 @@
     <li>subject_story->worked very hard to ensure the doors made a satisfying 'hiss' when they opened or closed</li>
     <li>subject_gerund->constructing autodoors</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->byl[0_pronoun]??? rekrutován[0_pronoun]??? robotickou bezpečnostní firmou, která [0_gender ? mu : jí] otevřela dveře ke kariéře testera automatických dveří</li>
-    <li>subject_story->prototypoval[0_pronoun]??? unikátní model automatických dveří</li>
-    <li>subject_story->tvrdě pracoval[0_pronoun]??? na tom aby dveře vydaly uspokojivé 'tss', když se otevřou nebo zavřou</li>
-    <li>subject_gerund->stavění automatických dveří</li>
-    -->
   <Autodoors.generalRules.rulesStrings>
     <li>subject->automatické dveře</li>
     <li>subject->automatické dveře</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] rekrutován[ANYPAWN_pronoun] robotickou bezpečnostní firmou, která [ANYPAWN_gender ? mu : jí] otevřela dveře ke kariéře testera automatických dveří</li>
+    <li>subject_story->prototypoval[ANYPAWN_pronoun] unikátní model automatických dveří</li>
+    <li>subject_story->tvrdě pracoval[ANYPAWN_pronoun] na tom aby dveře vydaly uspokojivé 'tss', když se otevřou nebo zavřou</li>
+    <li>subject_gerund->stavění automatických dveří</li>
   </Autodoors.generalRules.rulesStrings>
   
   <!-- EN: battery -->
@@ -56,14 +52,12 @@
     <li>subject_story->worked in the scrapworlds, repairing machines and batteries</li>
     <li>subject_gerund->building batteries</li>
   -->
-  <!-- CZ:
-    <li>subject_story->oběvil[0_pronoun]???, že kyselinové jezero na olověném pobřeží mrtvého světa fungovalo jako přírodní baterie</li>
-    <li>subject_story->měl[0_pronoun]??? na starosti udržení podpory života, když její kolona ztratila proud</li>
-    <li>subject_story->pracoval[0_pronoun]??? na šrotových světech, kde opravoval[0_pronoun]??? stroje a baterie</li>
-    <li>subject_gerund->stavění baterií</li>
-    -->
   <Batteries.generalRules.rulesStrings>
     <li>subject->baterie</li>
+    <li>subject_story->oběvil[ANYPAWN_pronoun], že kyselinové jezero na olověném pobřeží mrtvého světa fungovalo jako přírodní baterie</li>
+    <li>subject_story->měl[ANYPAWN_pronoun] na starosti udržení podpory života, když její kolona ztratila proud</li>
+    <li>subject_story->pracoval[ANYPAWN_pronoun] na šrotových světech, kde opravoval[ANYPAWN_pronoun] stroje a baterie</li>
+    <li>subject_gerund->stavění baterií</li>
   </Batteries.generalRules.rulesStrings>
   
   <!-- EN: biofuel refining -->
@@ -77,14 +71,12 @@
     <li>subject_story->started a distillery to make moonshine but, realizing it was undrinkable, sold it as chemfuel instead</li>
     <li>subject_gerund->refining biofuel</li>
   -->
-  <!-- CZ:
-    <li>subject_story->byl[0_pronoun]??? uvězněn[0_pronoun]??? když její vesmírná loď ztratila proud. Použila svojí znalost rafinačního procesu, aby proměnila zbytky lidských těl na biopalivo kterým restartoval[0_pronoun]??? motory</li>
-    <li>subject_story->použil[0_pronoun]??? automatizované biorafinerie, aby nastartovala dlouhý teraformační proces na ledovém světě</li>
-    <li>subject_story->pokusil[0_pronoun]??? se destilovat pálenku, ale po realizaci že byla nepitelná, jí začal[0_pronoun]??? prodávat jako chemické palivo</li>
-    <li>subject_gerund->rafinování biopaliva</li>
-    -->
   <BiofuelRefining.generalRules.rulesStrings>
-      <li>subject->biopalivo</li>
+    <li>subject->biopalivo</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] uvězněn[ANYPAWN_pronoun] když její vesmírná loď ztratila proud. Použila svojí znalost rafinačního procesu, aby proměnila zbytky lidských těl na biopalivo kterým restartoval[ANYPAWN_pronoun] motory</li>
+    <li>subject_story->použil[ANYPAWN_pronoun] automatizované biorafinerie, aby nastartovala dlouhý teraformační proces na ledovém světě</li>
+    <li>subject_story->pokusil[ANYPAWN_pronoun] se destilovat pálenku, ale po realizaci že byla nepitelná, jí začal[ANYPAWN_pronoun] prodávat jako chemické palivo</li>
+    <li>subject_gerund->rafinování biopaliva</li>
   </BiofuelRefining.generalRules.rulesStrings>
   
   <!-- EN: blowback operation -->
@@ -99,15 +91,13 @@
     <li>subject_story->crafted blowback-operated guns for near-sighted conscripts</li>
     <li>subject_gerund->crafting blowback firearms</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->využil[0_pronoun]??? lehkých samopalů v zákopových bojích, kterým převzali kontrolu nad celou planetou</li>
-    <li>subject_story->prodával[0_pronoun]??? nízkovýkoné automatické pistole donucovacím orgánům na orbitalech</li>
-    <li>subject_story->vyráběl[0_pronoun]??? zbraně s dynamickým závěrem pro krátkozraké vojáky</li>
-    <li>subject_gerund->vytváření zbraní s dynamickým závěrem</li>
-    -->
   <BlowbackOperation.generalRules.rulesStrings>
     <li>subject->pistole</li>
     <li>subject->zbraně s dynamickým závěrem</li>
+    <li>subject_story->využil[ANYPAWN_pronoun] lehkých samopalů v zákopových bojích, kterým převzali kontrolu nad celou planetou</li>
+    <li>subject_story->prodával[ANYPAWN_pronoun] nízkovýkoné automatické pistole donucovacím orgánům na orbitalech</li>
+    <li>subject_story->vyráběl[ANYPAWN_pronoun] zbraně s dynamickým závěrem pro krátkozraké vojáky</li>
+    <li>subject_gerund->vytváření zbraní s dynamickým závěrem</li>
   </BlowbackOperation.generalRules.rulesStrings>
   
   <!-- EN: advanced lights -->
@@ -121,14 +111,12 @@
     <li>subject_story->moved into running concerts for interstellar troubadours, specializing in controlling the ship's massive lighting rigs</li>
     <li>subject_gerund->building advanced lights</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->instaloval[0_pronoun]??? světlomety na mnohých perimetrech vězeňského světa</li>
-    <li>subject_story->si vzal[0_pronoun]??? na starost osvětlení temné strany planety</li>
-    <li>subject_story->začal[0_pronoun]??? pracovat na koncertech pro mezihvězdné troubadúry, specializující se na kontrolování masivních světelných souprav</li>
-    <li>subject_gerund->stavění pokročilého osvětlení</li>
-    -->
   <ColoredLights.generalRules.rulesStrings>
     <li>subject->pokročilé osvětlení</li>
+    <li>subject_story->instaloval[ANYPAWN_pronoun] světlomety na mnohých perimetrech vězeňského světa</li>
+    <li>subject_story->si vzal[ANYPAWN_pronoun] na starost osvětlení temné strany planety</li>
+    <li>subject_story->začal[ANYPAWN_pronoun] pracovat na koncertech pro mezihvězdné troubadúry, specializující se na kontrolování masivních světelných souprav</li>
+    <li>subject_gerund->stavění pokročilého osvětlení</li>
   </ColoredLights.generalRules.rulesStrings>
   
   <!-- EN: electricity -->
@@ -146,14 +134,12 @@
     <li>subject_story->was executed on a feudal world for the blasphemy of creating light</li>
     <li>subject_gerund->harnessing electricity</li>
   -->
-  <!-- CZ:
-    <li>subject_story->byl[0_pronoun]??? zasažena bleskem a rozhodl[0_pronoun]??? se, že najde způsob jak ho využít</li>
-    <li>subject_story->vytvořil[0_pronoun]??? první generátor a žárovku na středověkém světě</li>
-    <li>subject_story->byl[0_pronoun]??? popravena na aristokratickém světě za rouhání tvorbou světla</li>
-    <li>subject_gerund->využivání elektřiny</li>
-    -->
   <Electricity.generalRules.rulesStrings>
-      <li>subject->elektřina</li>
+    <li>subject->elektřina</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] zasažena bleskem a rozhodl[ANYPAWN_pronoun] se, že najde způsob jak ho využít</li>
+    <li>subject_story->vytvořil[ANYPAWN_pronoun] první generátor a žárovku na středověkém světě</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] popravena na aristokratickém světě za rouhání tvorbou světla</li>
+    <li>subject_gerund->využivání elektřiny</li>
   </Electricity.generalRules.rulesStrings>
   
   <!-- EN: firefoam -->
@@ -169,16 +155,14 @@
     <li>subject_gerund->constructing firefoam poppers</li>
     <li>subject_gerund->suppressing fires with poppers</li>
   -->
-  <!-- CZ:
-    <li>subject_story->řídil[0_pronoun]??? úřad propagující požární bezpečnost v populaci</li>
-    <li>subject_story->se stal[0_pronoun]??? požárníkem</li>
-    <li>subject_story->byl[0_pronoun]??? zachráněn[0_pronoun]??? protipožárními zařízeními když se ropný požár vymknul kontrole</li>
-    <li>subject_gerund->tvorba protipožární zařízeních</li>
-    <li>subject_gerund->bojování s požáry automatizovanými systémy</li>
-    -->
   <Firefoam.generalRules.rulesStrings>
     <li>subject->protipožární zařízení</li>
     <li>subject->zařízení požární bezpečnosti</li>
+    <li>subject_story->řídil[ANYPAWN_pronoun] úřad propagující požární bezpečnost v populaci</li>
+    <li>subject_story->se stal[ANYPAWN_pronoun] požárníkem</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] zachráněn[ANYPAWN_pronoun] protipožárními zařízeními když se ropný požár vymknul kontrole</li>
+    <li>subject_gerund->tvorba protipožární zařízeních</li>
+    <li>subject_gerund->bojování s požáry automatizovanými systémy</li>
   </Firefoam.generalRules.rulesStrings>
   
   <!-- EN: flak armor -->
@@ -192,14 +176,12 @@
     <li>subject_story->survived a rifle bullet thanks to the metal plate sewn into the breast pocket</li>
     <li>subject_gerund->crafting flak armor</li>
   -->
-  <!-- CZ:
-    <li>subject_story->zásoboval[0_pronoun]??? střepinovou zbroj milicím, které řídily města</li>
-    <li>subject_story->naučil[0_pronoun]??? se prokládat kovové pláty do oblečení, aby ochránila svoje příbuzné od pirátských gangů</li>
-    <li>subject_story->přežil[0_pronoun]??? zásah kulkou z pušky díky hodinkám v [0_gender ? jeho : její]??? náprsní kapse</li>
-    <li>subject_gerund->výroba střepinové zbroje</li>
-    -->
   <FlakArmor.generalRules.rulesStrings>
     <li>subject->střepinová zbroj</li>
+    <li>subject_story->zásoboval[ANYPAWN_pronoun] střepinovou zbroj milicím, které řídily města</li>
+    <li>subject_story->naučil[ANYPAWN_pronoun] se prokládat kovové pláty do oblečení, aby ochránila svoje příbuzné od pirátských gangů</li>
+    <li>subject_story->přežil[ANYPAWN_pronoun] zásah kulkou z pušky díky hodinkám v [ANYPAWN_gender ? jeho : její] náprsní kapse</li>
+    <li>subject_gerund->výroba střepinové zbroje</li>
   </FlakArmor.generalRules.rulesStrings>
   
   <!-- EN: foam turret -->
@@ -215,16 +197,14 @@
     <li>subject_gerund->constructing fire suppression turrets</li>
     <li>subject_gerund->suppressing fires with turrets</li>
   -->
-  <!-- CZ:
-    <li>subject_story->předesignoval[0_pronoun]??? střelné věže, aby hasily požáry, ne je vytvářely</li>
-    <li>subject_story->inkorporoval[0_pronoun]??? tepelné senzory a kapsy s hasící pěnou na tělo střelných věží</li>
-    <li>subject_story->byl[0_pronoun]??? oslavován[0_pronoun]???, poté co nainstalovala hasící děla, které zachránily mnoho životů</li>
-    <li>subject_gerund->konstruce hasících děl</li>
-    <li>subject_gerund->bojování s požáry automatizovanými systémy</li>
-    -->
   <FoamTurret.generalRules.rulesStrings>
     <li>subject->hasící děla</li>
     <li>subject->oheň tlumící děla</li>
+    <li>subject_story->předesignoval[ANYPAWN_pronoun] střelné věže, aby hasily požáry, ne je vytvářely</li>
+    <li>subject_story->inkorporoval[ANYPAWN_pronoun] tepelné senzory a kapsy s hasící pěnou na tělo střelných věží</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] oslavován[ANYPAWN_pronoun], poté co nainstalovala hasící děla, které zachránily mnoho životů</li>
+    <li>subject_gerund->konstruce hasících děl</li>
+    <li>subject_gerund->bojování s požáry automatizovanými systémy</li>
   </FoamTurret.generalRules.rulesStrings>
   
   <!-- EN: gas operation -->
@@ -239,15 +219,13 @@
     <li>subject_story->designed new types of high-power gun, still known today</li>
     <li>subject_gerund->crafting heavy firearms</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->vyzbrojil[0_pronoun]??? speciální stráže tyrana těžkými samopaly</li>
-    <li>subject_story->zásobyl[0_pronoun]??? mnoho planetárních armád těžkými zbraněmi</li>
-    <li>subject_story->nadesignoval[0_pronoun]??? nové typy zbraní, které jsou stále dnes v použití</li>
-    <li>subject_gerund->výroba těžkých zbraní</li>
-    -->
   <GasOperation.generalRules.rulesStrings>
     <li>subject->těžké zbraně</li>
     <li>subject->vysokovýkonné zbraně</li>
+    <li>subject_story->vyzbrojil[ANYPAWN_pronoun] speciální stráže tyrana těžkými samopaly</li>
+    <li>subject_story->zásobyl[ANYPAWN_pronoun] mnoho planetárních armád těžkými zbraněmi</li>
+    <li>subject_story->nadesignoval[ANYPAWN_pronoun] nové typy zbraní, které jsou stále dnes v použití</li>
+    <li>subject_gerund->výroba těžkých zbraní</li>
   </GasOperation.generalRules.rulesStrings>
   
   <!-- EN: geothermal power -->
@@ -262,15 +240,13 @@
     <li>subject_gerund->tapping geothermal energy</li>
     <li>subject_gerund->building geothermal power plants</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->studoval[0_pronoun]??? parní pohon a jeho znalost využil[0_pronoun]??? pro vytváření geotermálních elektráren v regionech</li>
-    <li>subject_story->využil[0_pronoun]??? energii spícího volkánu pro pohon místní elektrické sítě</li>
-    <li>subject_story->se hádal[0_pronoun]??? s místními aktivisty, kteří chtěli zachovat vzhled prostředí s malebnýmy gejzíry a ne je využívat jako zdroj energie</li>
-    <li>subject_gerund->využívání geotermálních energií</li>
-    <li>subject_gerund->stavění geotermálních elektráren</li>
-    -->
   <GeothermalPower.generalRules.rulesStrings>
     <li>subject->geotermalní energie</li>
+    <li>subject_story->studoval[ANYPAWN_pronoun] parní pohon a jeho znalost využil[ANYPAWN_pronoun] pro vytváření geotermálních elektráren v regionech</li>
+    <li>subject_story->využil[ANYPAWN_pronoun] energii spícího volkánu pro pohon místní elektrické sítě</li>
+    <li>subject_story->se hádal[ANYPAWN_pronoun] s místními aktivisty, kteří chtěli zachovat vzhled prostředí s malebnýmy gejzíry a ne je využívat jako zdroj energie</li>
+    <li>subject_gerund->využívání geotermálních energií</li>
+    <li>subject_gerund->stavění geotermálních elektráren</li>
   </GeothermalPower.generalRules.rulesStrings>
   
   <!-- EN: gunsmithing -->
@@ -285,15 +261,13 @@
     <li>subject_gerund->gunsmithing</li>
     <li>subject_gerund->crafting firearms</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->vytvořil[0_pronoun]??? jedinečný 12 ranný revolver a vyhrál[0_pronoun]??? přestřelku za přestřelkou</li>
-    <li>subject_story->se specializoval[0_pronoun]??? v jednoduché výrobě zbraní, které poskytoval[0_pronoun]??? lovcům</li>
-    <li>subject_story->vyškolen[0_gender ? ý : á]??? ve výrobě zbraní, dosáhl[0_pronoun]??? velké slávy napříč celým sektorem</li>
-    <li>subject_gerund->vytváření střelných zbraní</li>
-    <li>subject_gerund->výroba střelných zbraní</li>
-    -->
   <Gunsmithing.generalRules.rulesStrings>
     <li>subject->jednoduché střelné zbraně</li>
+    <li>subject_story->vytvořil[ANYPAWN_pronoun] jedinečný 12 ranný revolver a vyhrál[ANYPAWN_pronoun] přestřelku za přestřelkou</li>
+    <li>subject_story->se specializoval[ANYPAWN_pronoun] v jednoduché výrobě zbraní, které poskytoval[ANYPAWN_pronoun] lovcům</li>
+    <li>subject_story->vyškolen[ANYPAWN_gender ? ý : á] ve výrobě zbraní, dosáhl[ANYPAWN_pronoun] velké slávy napříč celým sektorem</li>
+    <li>subject_gerund->vytváření střelných zbraní</li>
+    <li>subject_gerund->výroba střelných zbraní</li>
   </Gunsmithing.generalRules.rulesStrings>
   
   <!-- EN: gun turrets -->
@@ -307,14 +281,12 @@
     <li>subject_story->disabled the enemy's turrets remotely, before leading the charge</li>
     <li>subject_gerund->constructing automated gun turrets</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->pracoval[0_pronoun]??? na AI, které umí rozlišit přátele od nepřátel</li>
-    <li>subject_story->navrhl[0_pronoun]??? modulární věž, která zvládla automaticky střílet z jakéhokoli typu zbraně</li>
-    <li>subject_story-> se naboural[0_pronoun]??? do systémů nepřátelských věží a na dálku je zneškodnil[0_pronoun]???</li>
-    <li>subject_gerund->stavba automatických střelných věží</li>
-    -->
   <GunTurrets.generalRules.rulesStrings>
     <li>subject->střelné věže</li>
+    <li>subject_story->pracoval[ANYPAWN_pronoun] na AI, které umí rozlišit přátele od nepřátel</li>
+    <li>subject_story->navrhl[ANYPAWN_pronoun] modulární věž, která zvládla automaticky střílet z jakéhokoli typu zbraně</li>
+    <li>subject_story-> se naboural[ANYPAWN_pronoun] do systémů nepřátelských věží a na dálku je zneškodnil[ANYPAWN_pronoun]</li>
+    <li>subject_gerund->stavba automatických střelných věží</li>
   </GunTurrets.generalRules.rulesStrings>
   
   <!-- EN: hydroponics -->
@@ -329,15 +301,13 @@
     <li>subject_gerund->building hydroponics</li>
     <li>subject_gerund->growing plants indoors</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->připojil[0_pronoun]??? se k posádce generační lodě jako jejich specialista na rostliny</li>
-    <li>subject_story->založil[0_pronoun]??? hydroponickou farmu pro krmení hladových</li>
-    <li>subject_story->cestoval[0_pronoun]??? mezi koloniemi, kde učil[0_pronoun]??? nové kolonisty jak uměle pěstovat rostliny</li>
-    <li>subject_gerund->stavba hydroponických nádrží</li>
-    <li>subject_gerund->pěstování rostlin vevnitř</li>
-  -->
   <Hydroponics.generalRules.rulesStrings>
     <li>subject->hydroponie</li>
+    <li>subject_story->připojil[ANYPAWN_pronoun] se k posádce generační lodě jako jejich specialista na rostliny</li>
+    <li>subject_story->založil[ANYPAWN_pronoun] hydroponickou farmu pro krmení hladových</li>
+    <li>subject_story->cestoval[ANYPAWN_pronoun] mezi koloniemi, kde učil[ANYPAWN_pronoun] nové kolonisty jak uměle pěstovat rostliny</li>
+    <li>subject_gerund->stavba hydroponických nádrží</li>
+    <li>subject_gerund->pěstování rostlin vevnitř</li>
   </Hydroponics.generalRules.rulesStrings>
   
   <!-- EN: IEDs -->
@@ -351,14 +321,12 @@
     <li>subject_story->advocated for the rights of small settlements, where unexploded munitions were a constant peril</li>
     <li>subject_gerund->crafting improvised explosive traps</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->zajistil[0_pronoun]??? zbylé dělostřelecké granáty z války, které přetvořil[0_pronoun]??? na miny</li>
-    <li>subject_story->přežil[0_pronoun]??? oblkíčení a minometnou palbu, pouze protože přetvořil[0_pronoun]??? nevybuchlou nepřátelskou munici na výbušné pasti</li>
-    <li>subject_story->hájil[0_pronoun]??? zájmy malých osad, kde nevybuchlá munice byla neustálým nebezpečím</li>
-    <li>subject_gerund->vytváření improvizovaných výbušných pastí</li>
-  -->
   <IEDs.generalRules.rulesStrings>
     <li>subject->improvizované výbušné pasti</li>
+    <li>subject_story->zajistil[ANYPAWN_pronoun] zbylé dělostřelecké granáty z války, které přetvořil[ANYPAWN_pronoun] na miny</li>
+    <li>subject_story->přežil[ANYPAWN_pronoun] oblkíčení a minometnou palbu, pouze protože přetvořil[ANYPAWN_pronoun] nevybuchlou nepřátelskou munici na výbušné pasti</li>
+    <li>subject_story->hájil[ANYPAWN_pronoun] zájmy malých osad, kde nevybuchlá munice byla neustálým nebezpečím</li>
+    <li>subject_gerund->vytváření improvizovaných výbušných pastí</li>
 </IEDs.generalRules.rulesStrings>
   
   <!-- EN: machining -->
@@ -373,15 +341,13 @@
     <li>subject_gerund->building machining equipment</li>
     <li>subject_gerund->machining</li>
   -->
-  <!-- CZ:
-    <li>subject_story->sbíral[0_pronoun]??? zbytky mrtvých mechanoidů a rozebýral[0_pronoun]??? je na součástky</li>
-    <li>subject_story->nenápadně nahromadil[0_pronoun]??? arzenál vlastnoručně vyrobených zbraní ve sklepě předměstského domu</li>
-    <li>subject_story->vytvořil[0_pronoun]??? mnoho obráběcích stolů pro tvůrce zbraní,přesto že byl[0_pronoun]??? [0_gender ? pacifistou : pacifistkou]???</li>
-    <li>subject_gerund->výroba obráběcích nástrojů</li>
-    <li>subject_gerund->obrábění</li>
-   -->
   <Machining.generalRules.rulesStrings>
     <li>subject->obrábění</li>
+    <li>subject_story->sbíral[ANYPAWN_pronoun] zbytky mrtvých mechanoidů a rozebýral[ANYPAWN_pronoun] je na součástky</li>
+    <li>subject_story->nenápadně nahromadil[ANYPAWN_pronoun] arzenál vlastnoručně vyrobených zbraní ve sklepě předměstského domu</li>
+    <li>subject_story->vytvořil[ANYPAWN_pronoun] mnoho obráběcích stolů pro tvůrce zbraní,přesto že byl[ANYPAWN_pronoun] [ANYPAWN_gender ? pacifistou : pacifistkou]</li>
+    <li>subject_gerund->výroba obráběcích nástrojů</li>
+    <li>subject_gerund->obrábění</li>
 </Machining.generalRules.rulesStrings>
   
   <!-- EN: mortars -->
@@ -397,16 +363,14 @@
     <li>subject_gerund->crafting mortars</li>
     <li>subject_gerund->constructing simple artillery</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->byl[0_pronoun]??? nezbytn[0_gender ? ý : á]??? při obléhání skleněného domu, které svrhlo mandát městké rady</li>
-    <li>subject_story->vyvinul[0_pronoun]??? lehký a přenosný minomet pro místní policejní sbor</li>
-    <li>subject_story->demoloval[0_pronoun]??? nezpočet opuštěných budov na dálku pomocí explozivní munice</li>
-    <li>subject_gerund->tvorba minometů</li>
-    <li>subject_gerund->výroba jednoduché artilerie</li>
-  -->
   <Mortars.generalRules.rulesStrings>
     <li>subject->artilerie</li>
     <li>subject->minomety</li>
+    <li>subject_story->byl[ANYPAWN_pronoun] nezbytn[ANYPAWN_gender ? ý : á] při obléhání skleněného domu, které svrhlo mandát městké rady</li>
+    <li>subject_story->vyvinul[ANYPAWN_pronoun] lehký a přenosný minomet pro místní policejní sbor</li>
+    <li>subject_story->demoloval[ANYPAWN_pronoun] nezpočet opuštěných budov na dálku pomocí explozivní munice</li>
+    <li>subject_gerund->tvorba minometů</li>
+    <li>subject_gerund->výroba jednoduché artilerie</li>
 </Mortars.generalRules.rulesStrings>
   
   <!-- EN: nutrient paste -->
@@ -420,14 +384,12 @@
     <li>subject_story->advocated for the recycling of all organic matter into nutrient paste, even corpses</li>
     <li>subject_gerund->building nutrient paste dispensers</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->pracoval[0_pronoun]??? v podnikové kuchyni a vytvořil[0_pronoun]??? nutriční pastu, aby se vyhnul[0_pronoun]??? práci</li>
-    <li>subject_story->ztratil[0_pronoun]??? čich i chuť po prodělání nemoci a tak si vytvořil[0_pronoun]??? jednoduchou a levnou stravu</li>
-    <li>subject_story->loboval[0_pronoun]??? za recyklování všeho organické materiálu na nutriční pastu a to i mrtvol</li>
-    <li>subject_gerund->stavění dávkovačů nutriční pasty</li>
-  -->
   <NutrientPaste.generalRules.rulesStrings>
     <li>subject->nutriční pasta</li>
+    <li>subject_story->pracoval[ANYPAWN_pronoun] v podnikové kuchyni a vytvořil[ANYPAWN_pronoun] nutriční pastu, aby se vyhnul[ANYPAWN_pronoun] práci</li>
+    <li>subject_story->ztratil[ANYPAWN_pronoun] čich i chuť po prodělání nemoci a tak si vytvořil[ANYPAWN_pronoun] jednoduchou a levnou stravu</li>
+    <li>subject_story->loboval[ANYPAWN_pronoun] za recyklování všeho organické materiálu na nutriční pastu a to i mrtvol</li>
+    <li>subject_gerund->stavění dávkovačů nutriční pasty</li>
 </NutrientPaste.generalRules.rulesStrings>
   
   <!-- EN: packaged survival meal -->
@@ -442,15 +404,13 @@
     <li>subject_story->discovered survival meals in the mountains that were hundreds of years old</li>
     <li>subject_gerund->preparing survival meals</li>
   -->
-  <!-- CZ:
-    <li>subject->trvanlivé potraviny</li>
-    <li>subject_story->nahromadil[0_pronoun]??? si zásoby trvanlivých potravin, aby přežil[0_pronoun]??? jakoukoli událost do chvíle než bude zachráněna</li>
-    <li>subject_story->založil[0_pronoun]??? kuchyni, která vydávala nouzové potravinové balíčky všem lodím směřujícím do řídce osídleného vesmíru</li>
-    <li>subject_story->objevil[0_pronoun]??? nouzové potravinové balíčky v jeskyni, které byly stré přes stovky let</li>
-    <li>subject_gerund->připrava potravinových balíčků</li>
-   -->
   <PackagedSurvivalMeal.generalRules.rulesStrings>
     <li>subject->nouzové potravinové balíčky</li>
+    <li>subject->trvanlivé potraviny</li>
+    <li>subject_story->nahromadil[ANYPAWN_pronoun] si zásoby trvanlivých potravin, aby přežil[ANYPAWN_pronoun] jakoukoli událost do chvíle než bude zachráněna</li>
+    <li>subject_story->založil[ANYPAWN_pronoun] kuchyni, která vydávala nouzové potravinové balíčky všem lodím směřujícím do řídce osídleného vesmíru</li>
+    <li>subject_story->objevil[ANYPAWN_pronoun] nouzové potravinové balíčky v jeskyni, které byly stré přes stovky let</li>
+    <li>subject_gerund->připrava potravinových balíčků</li>
 </PackagedSurvivalMeal.generalRules.rulesStrings>
   
   <!-- EN: prosthetics -->
@@ -464,14 +424,12 @@
     <li>subject_story->began crafting bespoke fake limbs for the many war veterans in the area</li>
     <li>subject_gerund->crafting prosthetics</li>
   -->
-  <!-- CZ:
-    <li>subject_story->nechal[0_pronoun]??? si nahradit končetinu za protézu, aby demostroval[0_pronoun]??? jak jednoduché to je</li>
-    <li>subject_story->otevřel[0_pronoun]??? prostetickou kliniku</li>
-    <li>subject_story->rozhodl[0_pronoun]??? se vytvářet umělé končetiny pro četné místní válečné veterány</li>
-    <li>subject_gerund->výroba protéz</li>
-  -->
   <Prosthetics.generalRules.rulesStrings>
     <li>subject->protetika</li>
+    <li>subject_story->nechal[ANYPAWN_pronoun] si nahradit končetinu za protézu, aby demostroval[ANYPAWN_pronoun] jak jednoduché to je</li>
+    <li>subject_story->otevřel[ANYPAWN_pronoun] prostetickou kliniku</li>
+    <li>subject_story->rozhodl[ANYPAWN_pronoun] se vytvářet umělé končetiny pro četné místní válečné veterány</li>
+    <li>subject_gerund->výroba protéz</li>
 </Prosthetics.generalRules.rulesStrings>
   
   <!-- EN: smokepop packs -->
@@ -486,15 +444,13 @@
     <li>subject_gerund->building smokepop packs</li>
     <li>subject_gerund->deploying smokescreens</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->pracoval[0_pronoun]??? jako specialista speciálních efektů pro rockové skupiny, přičemž používal kouřové vrhače specialní efekty</li>
-    <li>subject_story->ustanovil[0_pronoun]??? obraný perimetr kolem místní měst, aby z nich udržel místní divokou zvěř</li>
-    <li>subject_story->využíval[0_pronoun]??? kouřové vrhače pro výcvik požárníků bez hrozeb spojených s opravdovým ohněm</li>
-    <li>subject_gerund->vyrábění kouřových vrhačů</li>
-    <li>subject_gerund->nasazení kouřových clon</li>
-  -->
   <SmokepopBelt.generalRules.rulesStrings>
     <li>subject->kouřová clona</li>
+    <li>subject_story->pracoval[ANYPAWN_pronoun] jako specialista speciálních efektů pro rockové skupiny, přičemž používal kouřové vrhače specialní efekty</li>
+    <li>subject_story->ustanovil[ANYPAWN_pronoun] obraný perimetr kolem místní měst, aby z nich udržel místní divokou zvěř</li>
+    <li>subject_story->využíval[ANYPAWN_pronoun] kouřové vrhače pro výcvik požárníků bez hrozeb spojených s opravdovým ohněm</li>
+    <li>subject_gerund->vyrábění kouřových vrhačů</li>
+    <li>subject_gerund->nasazení kouřových clon</li>
 </SmokepopBelt.generalRules.rulesStrings>
   
   <!-- EN: solar panel -->
@@ -509,15 +465,13 @@
     <li>subject_story->left on a sundiver to see a fly-by of a star's photosphere</li>
     <li>subject_gerund->building solar panels</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->založil[0_pronoun]??? multispektrální solarní farmu</li>
-    <li>subject_story->studoval[0_pronoun]??? způsoby jak maximalizovat množství využitelné solární energie</li>
-    <li>subject_story->měl vizy obřího solárního panelu ve vesmíru, který by ukojil energické požadavky celé planety</li>
-    <li>subject_gerund->výstavba solarních panelů</li>
-    -->
   <SolarPanels.generalRules.rulesStrings>
     <li>subject->solarní panely</li>
     <li>subject->solarní energie</li>
+    <li>subject_story->založil[ANYPAWN_pronoun] multispektrální solarní farmu</li>
+    <li>subject_story->studoval[ANYPAWN_pronoun] způsoby jak maximalizovat množství využitelné solární energie</li>
+    <li>subject_story->měl vizy obřího solárního panelu ve vesmíru, který by ukojil energické požadavky celé planety</li>
+    <li>subject_gerund->výstavba solarních panelů</li>
   </SolarPanels.generalRules.rulesStrings>
   
   <!-- EN: sterile materials -->
@@ -532,15 +486,13 @@
     <li>subject_gerund->sterilizing surfaces</li>
     <li>subject_gerund->constructing sterilized surfaces</li>
   -->
-  <!-- CZ:
-    <li>subject_story->předeš[0_gender ? el : la]??? mnoha smrtem, protože many deaths by trval[0_pronoun]??? na tom, aby všechny nástroje byly pravidelně sterilizovány</li>
-    <li>subject_story->založil[0_pronoun]??? kuchyni, jejíž pokrmy nezpůsobovaly otravu jídlem, což byla v daném systému vzácnost</li>
-    <li>subject_story->založil[0_pronoun]??? továrnu na dekorativní dlaždice, které byly kompatibilní s čistotnými prostředími</li>
-    <li>subject_gerund->sterilní povrchy</li>
-    <li>subject_gerund->výstavba sterilních povrchů</li>
-    -->
   <SterileMaterials.generalRules.rulesStrings>
     <li>subject->sterilní povrchy</li>
+    <li>subject_story->předeš[ANYPAWN_gender ? el : la] mnoha smrtem, protože many deaths by trval[ANYPAWN_pronoun] na tom, aby všechny nástroje byly pravidelně sterilizovány</li>
+    <li>subject_story->založil[ANYPAWN_pronoun] kuchyni, jejíž pokrmy nezpůsobovaly otravu jídlem, což byla v daném systému vzácnost</li>
+    <li>subject_story->založil[ANYPAWN_pronoun] továrnu na dekorativní dlaždice, které byly kompatibilní s čistotnými prostředími</li>
+    <li>subject_gerund->sterilní povrchy</li>
+    <li>subject_gerund->výstavba sterilních povrchů</li>
   </SterileMaterials.generalRules.rulesStrings>
   
   <!-- EN: tube television -->
@@ -554,14 +506,12 @@
     <li>subject_story->ensured that everyone knew the dangers of cathode ray tubes</li>
     <li>subject_gerund->producing tube televisions</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->vytvořil[0_pronoun]??? faux-retro televizní set, který byl schopný přijímat mezihvězdné signály</li>
-    <li>subject_story->přeš[0_gender ? el : la] na vysílání pouze pro staré CRT televizory</li>
-    <li>subject_story->zajistil[0_pronoun]???, aby znali nebezpečí paprsků z katod v CRT televizorech</li>
-    <li>subject_gerund->výroba CRT televizotů</li>
-    -->
   <TubeTelevision.generalRules.rulesStrings>
     <li>subject->CRT televizor</li>
+    <li>subject_story->vytvořil[ANYPAWN_pronoun] faux-retro televizní set, který byl schopný přijímat mezihvězdné signály</li>
+    <li>subject_story->přeš[ANYPAWN_gender ? el : la] na vysílání pouze pro staré CRT televizory</li>
+    <li>subject_story->zajistil[ANYPAWN_pronoun], aby znali nebezpečí paprsků z katod v CRT televizorech</li>
+    <li>subject_gerund->výroba CRT televizotů</li>
   </TubeTelevision.generalRules.rulesStrings>
   
   <!-- EN: watermill generator -->
@@ -575,14 +525,12 @@
     <li>subject_story->beached a paddle steamer on a ruinworld's shores and converted it into a watermill</li>
     <li>subject_gerund->watermill generators</li>
   -->
-  <!-- CZ: 
-    <li>subject_story->pozoroval[0_pronoun]??? větvičky a lístky jak byly unášeny proudem a zamyslel[0_pronoun]??? se nad potenciálem vodního proudu</li>
-    <li>subject_story->připojil[0_pronoun]??? starý mlýk k elektrické síti na středověké planetě</li>
-    <li>subject_story->ztroskotal[0_pronoun]??? s parníkem na břehu pustého světa a konvertoval[0_pronoun]??? jeho kolo na vodní elektrárnu</li>
-    <li>subject_gerund->vodní elektrárna</li>
-    -->
   <WatermillGenerator.generalRules.rulesStrings>
     <li>subject->vodní generátor</li>
+    <li>subject_story->pozoroval[ANYPAWN_pronoun] větvičky a lístky jak byly unášeny proudem a zamyslel[ANYPAWN_pronoun] se nad potenciálem vodního proudu</li>
+    <li>subject_story->připojil[ANYPAWN_pronoun] starý mlýk k elektrické síti na středověké planetě</li>
+    <li>subject_story->ztroskotal[ANYPAWN_pronoun] s parníkem na břehu pustého světa a konvertoval[ANYPAWN_pronoun] jeho kolo na vodní elektrárnu</li>
+    <li>subject_gerund->vodní elektrárna</li>
   </WatermillGenerator.generalRules.rulesStrings>
   
 </LanguageData>
