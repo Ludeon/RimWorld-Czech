@@ -335,17 +335,17 @@
     <li>title->[maybe_authored_title]</li> 
     <li>title(has_subject_secondary==true)->[studiesStart] {lookup: [subject_primary]; case\singular; 2} v oblasti {lookup: [subject_secondary]; case\research; 2}</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} po [lifeEvent]</li>
-    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} a [anecdotes] o {lookup: [subject_primary]; case\research; 8}</li>
+    <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2} a [anecdotes] o {replace: [studiesStart];"studie"-"ní";"základy"-"nich";"management"-"něm";"historie"-"ní";"rozbor"-"něm";"reprezentace"-"ní";"přežívání"-"něm";"pokrok"-"něm";"aplikace"-"nich";"budoucnost"-"ní";"dokumentace"-"ní"}</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: [randAdjective1] [discussionNoun]</li>
     <li>title->[studiesStart] {lookup: [subject_primary]; case\research; 2}: {replace: [randAdjective0] [discussionNoun];"_ debata"-"é debaty";"_ diskurz"-"ý diskurz";"_ dialogy"-"é dialogy";"_ zkouška"-"é zkoušky";"_ dialektika"-"á dialektika";"_"-"é"}</li>
     <li>title(p=0.3)->[randAdjective1] [referenceType] {lookup: [subject_primary]; case\research; 2}</li>
-    <li>title(p=0.7)->{replace: [randAdjective0] [referenceType];"_ Encyklopedie"-"á Encyklopedie";"_ Příručka"-"á Příručka";"_ Kronika"-"á Kronika";"_ Sbírka"-"á Sbírka";"_"-"ý"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.7)->{replace: [randAdjective0] [referenceType];"_ encyklopedie"-"á encyklopedie";"_ příručka"-"á příručka";"_ kronika"-"á kronika";"_ sbírka"-"á sbírka";"_"-"ý"} {lookup: [subject_primary]; case\research; 2}</li>
     <li>title(p=0.3)->[referenceType] [randAdjective1]{lookup: [subject_primary]; case\research; 13} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
     <li>title(p=0.7)->[referenceType] {replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 12} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
     <li>title(p=0.3)->[studiesStart] [randAdjective1]{lookup: [subject_primary]; case\research; 13} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
     <li>title(p=0.7)->[studiesStart] {replace: [randAdjective0];"_"-""}{lookup: [subject_primary]; case\research; 12} {lookup: [subject_primary]; case\research; 2}, Svazek [volNumeral]</li>
-    <li>title(p=0.3)->[referenceType] [randAdjective1]{replace:[studiesStart];"Studie"-"ch Studií";"Základy"-"ch Základů";"Management"-"ho Management";"Historie"-" Historie";"Rozbor"-"ch Rozborů";"Reprezentace"-"ch Reprezentací";"Přežívání"-"ch Přežití";"Pokrok"-"ch Pokroků";"Aplikace"-"ch Aplikace";"Budoucnost"-"ch Budoucnosti";"Dokumentace"-"ch Dokumentací"} {lookup: [subject_primary]; case\research; 2}</li>
-    <li>title(p=0.7)->[referenceType] {replace: [randAdjective0] [studiesStart];"_ Studie"-"ých Studií";"_ Základy"-"ých Základů";"_ Management"-"ého Management";"_ Historie"-"é Historie";"Rozbor"-"ých Rozborů";"_ Reprezentace"-"ých Reprezentací";"_ Přežívání"-"ých Přežití";"_ Pokrok"-"ých Pokroků";"_ Aplikace"-"ých Aplikace";"_ Budoucnost"-"é Budoucnosti";"_ Dokumentace"-"ých Dokumentací"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.3)->[referenceType] [randAdjective1]{replace:[studiesStart];"studie"-"ch studií";"základy"-"ch základů";"management"-"ho management";"historie"-" historie";"rozbor"-"ch rozborů";"reprezentace"-"ch reprezentací";"přežívání"-"ch přežití";"pokrok"-"ch pokroků";"aplikace"-"ch aplikace";"budoucnost"-"ch budoucnosti";"dokumentace"-"ch dokumentací"} {lookup: [subject_primary]; case\research; 2}</li>
+    <li>title(p=0.7)->[referenceType] {replace: [randAdjective0] [studiesStart];"_ studie"-"ých studií";"_ základy"-"ých základů";"_ management"-"ého management";"_ historie"-"é historie";"rozbor"-"ých rozborů";"_ reprezentace"-"ých reprezentací";"_ přežívání"-"ých přežití";"_ pokrok"-"ých Pokroků";"_ aplikace"-"ých aplikace";"_ budoucnost"-"é budoucnosti";"_ dokumentace"-"ých dokumentací"} {lookup: [subject_primary]; case\research; 2}</li>
     <li>title->[discussionNoun] po [lifeEvent] o {lookup: [subject_primary]; case\research; 6}</li>
     <li>studiesStart->studie</li>
     <li>studiesStart->základy</li>
