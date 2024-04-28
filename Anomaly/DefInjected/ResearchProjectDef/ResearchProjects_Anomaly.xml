@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: advanced psychic rituals -->
-  <AdvancedPsychicRituals.label>TODO</AdvancedPsychicRituals.label>
+  <AdvancedPsychicRituals.label>pokročilé psychické rituály</AdvancedPsychicRituals.label>
   <!-- EN: Perform advanced psychic rituals. -->
-  <AdvancedPsychicRituals.description>TODO</AdvancedPsychicRituals.description>
+  <AdvancedPsychicRituals.description>Umožní provádět pokročilé psychické rituály.</AdvancedPsychicRituals.description>
   <!-- EN:
     <li>subject->advanced psychic rituals</li>
     <li>subject_story->was brought into a cult circle</li>
@@ -13,12 +13,19 @@
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
-  <AdvancedPsychicRituals.generalRules.rulesStrings>TODO</AdvancedPsychicRituals.generalRules.rulesStrings>
+  <AdvancedPsychicRituals.generalRules.rulesStrings>
+    <li>subject->pokročilé psychické rituály</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} unesen{ANYPAWN_pronoun} kultem a později se stal{ANYPAWN_pronoun} jeho plnohodnotným členem</li>
+    <li>subject_story->potkal{ANYPAWN_pronoun} vyhoštěného vůdce kultu, který se {ANYPAWN_gender ? mu : jí} pochlubil s jeho tajemstvými</li>
+    <li>subject_story->prohloubil{ANYPAWN_pronoun} své znalosti rituálních obětí návštěvou jednoho kultu</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} jmenován{ANYPAWN_pronoun} profesor{ANYPAWN_gender ? em : kou} psychické historie na Univerzitě Ix</li>
+    <li>subject_gerund->provádění pokročilých psychicých rituálů</li>
+  </AdvancedPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: atmospheric heater -->
-  <AtmosphericHeater.label>TODO</AtmosphericHeater.label>
+  <AtmosphericHeater.label>atmosferický ohřívač</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>TODO</AtmosphericHeater.description>
+  <AtmosphericHeater.description>Umožní postavit atmosferické ohřívače poháněné bioferitem, které jsou schopné ohřát celý region.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -28,12 +35,20 @@
     <li>subject_gerund->heating with bioferrite</li>
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
-  <AtmosphericHeater.generalRules.rulesStrings>TODO</AtmosphericHeater.generalRules.rulesStrings>
+  <AtmosphericHeater.generalRules.rulesStrings>
+    <li>subject->bioferitové vytápění</li>
+    <li>subject_story->zlepšoval{ANYPAWN_pronoun} archaické geotermální elektrárny</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} tepelnou produkci biokovů</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} nemožné kapacity archoteckých energetických úložišť</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} hypokaustové systémy na hustě okupovaných ledosvětěch</li>
+    <li>subject_gerund->vytápění bioferitem</li>
+    <li>subject_gerund->výroba bioferitem poháněných ohřívačů</li>
+  </AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
-  <BasicPsychicRituals.label>TODO</BasicPsychicRituals.label>
+  <BasicPsychicRituals.label>provokace nicoty</BasicPsychicRituals.label>
   <!-- EN: Build a psychic ritual spot and perform psychic rituals. Use the void provocation ritual to discover new entities. -->
-  <BasicPsychicRituals.description>TODO</BasicPsychicRituals.description>
+  <BasicPsychicRituals.description>Umožní postavit psychické rituální místo a provádět psychické rituály. Provedení provokačního rituálu může přilákat stále neobjevené entity.</BasicPsychicRituals.description>
   <!-- EN:
     <li>subject->psychic rituals</li>
     <li>subject_story->studied the rituals of Horax cultists</li>
@@ -45,12 +60,22 @@
     <li>subject_gerund->establishing ritual spots</li>
     <li>subject_gerund->provoking void entities</li>
   -->
-  <BasicPsychicRituals.generalRules.rulesStrings>TODO</BasicPsychicRituals.generalRules.rulesStrings>
+  <BasicPsychicRituals.generalRules.rulesStrings>
+    <li>subject->psychické rituály</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} rituály kultistů uctívajících entitu jménem Horax</li>
+    <li>subject_story->rekonstruoval{ANYPAWN_pronoun} primitivní uctívací oltáře</li>
+    <li>subject_story->zdokumentoval{ANYPAWN_pronoun} základy psychických komunikací</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} nepovedený provokační rituál rituál na mrtvém světě</li>
+    <li>subject_story->komunikoval{ANYPAWN_pronoun} s archoteckým střepem na vrcholu pouštního pylíře</li>
+    <li>subject_gerund->provádění psychických rituálů</li>
+    <li>subject_gerund->zakládání rituálních míst</li>
+    <li>subject_gerund->provokování nicotných entity</li>
+  </BasicPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: bioferrite generator -->
-  <BioferriteGenerator.label>TODO</BioferriteGenerator.label>
+  <BioferriteGenerator.label>bioferitový generátor</BioferriteGenerator.label>
   <!-- EN: Build power generators that burn bioferrite as a fuel. -->
-  <BioferriteGenerator.description>TODO</BioferriteGenerator.description>
+  <BioferriteGenerator.description>Umožní výstavbu elektrických generátorů používajících bioferit jako palivo.</BioferriteGenerator.description>
   <!-- EN:
     <li>subject->bioferrite power generation</li>
     <li>subject_story->was trained in the use of innovative power sources</li>
@@ -61,12 +86,21 @@
     <li>subject_gerund->constructing bioferrite-powered generators</li>
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
-  <BioferriteGenerator.generalRules.rulesStrings>TODO</BioferriteGenerator.generalRules.rulesStrings>
+  <BioferriteGenerator.generalRules.rulesStrings>
+    <li>subject->generace elektřiny z bioferitu</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} s inovativními zdroji energie</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} použití kovových a vlákených paliv</li>
+    <li>subject_story->objevil{ANYPAWN_pronoun} svojí lásku k ohni a věcem ukrívající energii</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} jako technik udržující orbitální energetické systémy</li>
+    <li>subject_story->zpracoval{ANYPAWN_pronoun} všechny živé prvky systému an palivo</li>
+    <li>subject_gerund->stavba bioferitem poháněných generátorů</li>
+    <li>subject_gerund->pohánění generatorů bioferitem</li>
+  </BioferriteGenerator.generalRules.rulesStrings>
   
   <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>TODO</BioferriteHarvesting.label>
+  <BioferriteHarvesting.label>sklízení bioferitu</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>TODO</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>Umožní výstavbu bioferitových sklízečů, které jsou schopné produkovat bioferit z entit uvázaných k zachycovacím platformám.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -75,12 +109,19 @@
     <li>subject_story->observed strange metal-infested wildlife</li>
     <li>subject_gerund->harvesting bioferrite</li>
   -->
-  <BioferriteHarvesting.generalRules.rulesStrings>TODO</BioferriteHarvesting.generalRules.rulesStrings>
+  <BioferriteHarvesting.generalRules.rulesStrings>
+    <li>subject->bioferit</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} s exotickým kov připomínajícím vláknitým materiálem</li>
+    <li>subject_story->pytval{ANYPAWN_pronoun} mrtvolu připomínající ghúly</li>
+    <li>subject_story->objevil{ANYPAWN_pronoun} ukritou skrýš s organickými kovy</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} podivnou kovem propletenou formu života</li>
+    <li>subject_gerund->sklízení bioferitu bioferrite</li>
+  </BioferriteHarvesting.generalRules.rulesStrings>
   
   <!-- EN: bioferrite weaponry -->
-  <BioferriteIgnition.label>TODO</BioferriteIgnition.label>
+  <BioferriteIgnition.label>bioferitové zbraně</BioferriteIgnition.label>
   <!-- EN: Create advanced weapons that use bioferrite as a fuel source. -->
-  <BioferriteIgnition.description>TODO</BioferriteIgnition.description>
+  <BioferriteIgnition.description>Umožní výrobu pokročilých zbraní využívajících bioferit jako zdroj energie.</BioferriteIgnition.description>
   <!-- EN:
     <li>subject->bioferrite combustion</li>
     <li>subject->bioferrite weaponry</li>
@@ -90,12 +131,20 @@
     <li>subject_story->cleared biomines in an archotech desert</li>
     <li>subject_gerund->building bioferrite-based weapons</li>
   -->
-  <BioferriteIgnition.generalRules.rulesStrings>TODO</BioferriteIgnition.generalRules.rulesStrings>
+  <BioferriteIgnition.generalRules.rulesStrings>
+    <li>subject->spalování bioferitu</li>
+    <li>subject->bioferitové zbraně</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} na extrakční platformě na archoteckém asteroidu</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} body vzplanutí exotických kovů</li>
+    <li>subject_story->připojil{ANYPAWN_pronoun} se k vojenské výzkumné skupině korporace válečného světa</li>
+    <li>subject_story->zneškodnil{ANYPAWN_pronoun} biominové pole v archotecké poušti</li>
+    <li>subject_gerund->výroba bioferitových zbraní</li>
+  </BioferriteIgnition.generalRules.rulesStrings>
   
   <!-- EN: bioferrite shaping -->
-  <BioferriteShaping.label>TODO</BioferriteShaping.label>
+  <BioferriteShaping.label>tvarování bioferitu</BioferriteShaping.label>
   <!-- EN: Shape and re-form bioferrite into useful tools, weapons, flooring, and more. -->
-  <BioferriteShaping.description>TODO</BioferriteShaping.description>
+  <BioferriteShaping.description>Umožní výstavbu bioferitového tvarovače, ve kterém je možné upravovat a tvarovat bioferit do užitečných nástrojů, zbraní a dalších věcí.</BioferriteShaping.description>
   <!-- EN:
     <li>subject->bioferrite shaping</li>
     <li>subject_story->learned unique techniques for molding and sculpting</li>
@@ -105,12 +154,20 @@
     <li>subject_story->studied the formation of archotech artefacts</li>
     <li>subject_gerund->shaping bioferrite</li>
   -->
-  <BioferriteShaping.generalRules.rulesStrings>TODO</BioferriteShaping.generalRules.rulesStrings>
+  <BioferriteShaping.generalRules.rulesStrings>
+    <li>subject->tvarování bioferitu</li>
+    <li>subject_story->znal{ANYPAWN_pronoun} jedinečnou techniku tvarování a opracovávání kovů</li>
+    <li>subject_story->trénoval{ANYPAWN_pronoun} své schopnosti tvarování tepla</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} v exotické slévárně kovů</li>
+    <li>subject_story->pomáhal{ANYPAWN_pronoun} výzkumníkovi archoteckých materiálů</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} formaci kovů v archoteckých artefaktech</li>
+    <li>subject_gerund->tvarování bioferitu</li>
+  </BioferriteShaping.generalRules.rulesStrings>
   
   <!-- EN: bliss lobotomy -->
-  <BlissLobotomy.label>TODO</BlissLobotomy.label>
+  <BlissLobotomy.label>blaholobotomie</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
-  <BlissLobotomy.description>TODO</BlissLobotomy.description>
+  <BlissLobotomy.description>Umožní provést chirurgickou operaci, která lobotomizuje danou osobu, což jí po provedení udělá šťastnější, ale neschopnou některých intelektuálních a dovednostních prací.</BlissLobotomy.description>
   <!-- EN:
     <li>subject->lobotomy</li>
     <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
@@ -119,12 +176,19 @@
     <li>subject_gerund->performing lobotomies</li>
     <li>subject_gerund->excising brain tissue</li>
   -->
-  <BlissLobotomy.generalRules.rulesStrings>TODO</BlissLobotomy.generalRules.rulesStrings>
+  <BlissLobotomy.generalRules.rulesStrings>
+    <li>subject->lobotomie</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} lobotomizován{ANYPAWN_pronoun} za je{ANYPAWN_gender ? ho : jí} protistátní zločiny</li>
+    <li>subject_story->rehabilitoval{ANYPAWN_pronoun} pár zbylých přeživších Eldofského experimentu</li>
+    <li>subject_story->vyučil{ANYPAWN_pronoun} se jako mozkový chirurg a kadeřník</li>
+    <li>subject_gerund->provádění lobotomií</li>
+    <li>subject_gerund->vyřezávání mozkové tkáně</li>
+  </BlissLobotomy.generalRules.rulesStrings>
   
   <!-- EN: blood rain -->
-  <BloodRain.label>TODO</BloodRain.label>
+  <BloodRain.label>krvavý déšť</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
-  <BloodRain.description>TODO</BloodRain.description>
+  <BloodRain.description>Umožní provést psychický rituál, který vyvolá déšť červené tekutiny připomínající krev. Kdokoli kdo jí bude vystaven se pomalu zblázní do zběsilé vzteklosti.</BloodRain.description>
   <!-- EN:
     <li>subject->blood rain</li>
     <li>subject_story->investigated ancient deist myths about organic precipitation</li>
@@ -133,12 +197,19 @@
     <li>subject_story->was exposed to a psychofluid shower and filled with unmanageable rage</li>
     <li>subject_gerund->causing it to rain blood</li>
   -->
-  <BloodRain.generalRules.rulesStrings>TODO</BloodRain.generalRules.rulesStrings>
+  <BloodRain.generalRules.rulesStrings>
+    <li>subject->krvavý déšť</li>
+    <li>subject_story->pátral{ANYPAWN_pronoun} po starodávných deistových mýtech o organických srážkách</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} neurální cesty u lidí trpících potížemi se hněvem</li>
+    <li>subject_story->popsal{ANYPAWN_pronoun} psychotekutinové proudy na povznešené planetě Ix</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} vystaven{ANYPAWN_pronoun} psychotekutinové sprše, která v {ANYPAWN_gender? něm : ní} vyvolala nesnesitelný vztek</li>
+    <li>subject_gerund->vyvolávání psychokapalinového deště</li>
+  </BloodRain.generalRules.rulesStrings>
   
   <!-- EN: brainwipe -->
-  <Brainwipe.label>TODO</Brainwipe.label>
+  <Brainwipe.label>vymýtí mozku</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>TODO</Brainwipe.description>
+  <Brainwipe.description>Umožní provést psychický rituál, který smaže většinu episodických vzpomínek. Většina traumatických událostí bude zapomenuta a neochvějivě loajální vězni zapomenou na svou domovskou frakci.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodice amnesia</li>
@@ -148,12 +219,20 @@
     <li>subject_gerund->wiping a subject's mind</li>
     <li>subject_gerund->performing a ritual to erase a subject's mind</li>
   -->
-  <Brainwipe.generalRules.rulesStrings>TODO</Brainwipe.generalRules.rulesStrings>
+  <Brainwipe.generalRules.rulesStrings>
+    <li>subject->promazání mysli</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} příběhy lidí s episodickou ztrátou paměti</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} v klinice pro lidi s poškozením mozku</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} neurové cesty lidí se ztrátou paměti</li>
+    <li>subject_story->spravoval{ANYPAWN_pronoun} státní zařízení pro vymývání mozků po Zapomenutých Válkách</li>
+    <li>subject_gerund->smazání mysli člověka</li>
+    <li>subject_gerund->provádění myslčistící rituál</li>
+  </Brainwipe.generalRules.rulesStrings>
   
   <!-- EN: chronophagy -->
-  <Chronophagy.label>TODO</Chronophagy.label>
+  <Chronophagy.label>chronofágie</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>TODO</Chronophagy.description>
+  <Chronophagy.description>Umožní provést psychický rituál, který způsobí rapidní stárnutí cíle rituálu, zatímco vyvolávač tohoto rituálu omládne. Cíl tohoto rituálu utrpí poškození mozku, které může být smrtelné pro některé cíle.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -164,12 +243,21 @@
     <li>subject_gerund->invoking chronophagy</li>
     <li>subject_gerund->performing a chronophagy ritual</li>
   -->
-  <Chronophagy.generalRules.rulesStrings>TODO</Chronophagy.generalRules.rulesStrings>
+  <Chronophagy.generalRules.rulesStrings>
+    <li>subject->chronofágie</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} s věkem spojenou degeneraci</li>
+    <li>subject_story->destruktivně replikoval{ANYPAWN_pronoun} zdrávé struktury organismu v jíném</li>
+    <li>subject_story->teorizoval{ANYPAWN_pronoun} nad různými rituály, které umožní zabudovaná archotechnika</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} programy dlouhověkosti pro bohaté třpytosvětových klinik</li>
+    <li>subject_gerund->kradení mládí</li>
+    <li>subject_gerund->vyvolávání chronofágie</li>
+    <li>subject_gerund->provádění rituálu chronofágie</li>
+  </Chronophagy.generalRules.rulesStrings>
   
   <!-- EN: deadlife dust -->
-  <DeadlifeDust.label>TODO</DeadlifeDust.label>
+  <DeadlifeDust.label>nekrovitový prach</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
-  <DeadlifeDust.description>TODO</DeadlifeDust.description>
+  <DeadlifeDust.description>Umožní výrobu zařízení, které při aktivaci vypustí oblak mikroskopických architů. Tito archité jsou schopni oživit mrtvoly a vytvářet bloudy kteří budou útočitna nepřítele.</DeadlifeDust.description>
   <!-- EN:
     <li>subject->deadlife dust</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
@@ -179,12 +267,20 @@
     <li>subject_gerund->crafting deadlife dust</li>
     <li>subject_gerund->distributing archites to create shamblers</li>
   -->
-  <DeadlifeDust.generalRules.rulesStrings>TODO</DeadlifeDust.generalRules.rulesStrings>
+  <DeadlifeDust.generalRules.rulesStrings>
+    <li>subject->nekrovitový prach</li>
+    <li>subject_story->syntezoval{ANYPAWN_pronoun} aerosol který obsahoval nanoroboty</li>
+    <li>subject_story->použil{ANYPAWN_pronoun} atomické centrifugy pro separaci různých druhů architů</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} bloudí útok na čtvrt městského světa</li>
+    <li>subject_story->vyvinul{ANYPAWN_pronoun} zařízení, které je schopné kontrolovat archity automatizovanými IFF systémy</li>
+    <li>subject_gerund->výroba nekrovitého prachu</li>
+    <li>subject_gerund->využití architů k vytvoření bloudů</li>
+  </DeadlifeDust.generalRules.rulesStrings>
   
   <!-- EN: death refusal -->
-  <DeathRefusal.label>TODO</DeathRefusal.label>
+  <DeathRefusal.label>odmítnutí smrti</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
-  <DeathRefusal.description>TODO</DeathRefusal.description>
+  <DeathRefusal.description>Umožní provést psychický rituál, který dá odmítnutí smrti dané osobě, což jí umožní se jednou sebeoživit.</DeathRefusal.description>
   <!-- EN:
     <li>subject->death refusal invocation</li>
     <li>subject_story->investigated tales of impossible survival</li>
@@ -194,12 +290,20 @@
     <li>subject_gerund->fending off death</li>
     <li>subject_gerund->performing a ritual to rebuke death</li>
   -->
-  <DeathRefusal.generalRules.rulesStrings>TODO</DeathRefusal.generalRules.rulesStrings>
+  <DeathRefusal.generalRules.rulesStrings>
+    <li>subject->vyvolání odmítnutí smrti</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} příběhy nemožných přežití</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} svědkem posledních momentů mnohých lidí v Poslední Bitvě VII</li>
+    <li>subject_story->učastnil{ANYPAWN_pronoun} se pokusu o vzkříšení proroka z Axhoru</li>
+    <li>subject_story->sbíral{ANYPAWN_pronoun} důkazy o odmítání smrti z knihoven na centrosvětech</li>
+    <li>subject_gerund->ubránění se smrti</li>
+    <li>subject_gerund->provádění rituálu odmítnutí smrti</li>
+  </DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>TODO</DisruptorFlares.label>
+  <DisruptorFlares.label>rušivé světlice</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>TODO</DisruptorFlares.description>
+  <DisruptorFlares.description>Umožní výrobu bioferitových světlic, které odhalí neviditelné stvoření a zároveň osvětlí místo dopadu.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -210,12 +314,21 @@
     <li>subject_gerund->boosting visibility temporarily</li>
     <li>subject_gerund->crafting bioferrite flares</li>
   -->
-  <DisruptorFlares.generalRules.rulesStrings>TODO</DisruptorFlares.generalRules.rulesStrings>
+  <DisruptorFlares.generalRules.rulesStrings>
+    <li>subject->bioferitové světlice</li>
+    <li>subject->dočasné osvětlení</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} neviditelnou část electromagnetického spektra</li>
+    <li>subject_story->zneschopnil{ANYPAWN_pronoun} vizualní centra testovaných subjektů</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} techniky bioluminiscence fauny nočního světa</li>
+    <li>subject_story->zúžil{ANYPAWN_pronoun} electromagnetické spektrum vypoštěné architskou energií</li>
+    <li>subject_gerund->dočasné zvýšení viditelnosti</li>
+    <li>subject_gerund->výroba bioferitových světlic</li>
+  </DisruptorFlares.generalRules.rulesStrings>
   
   <!-- EN: electroharvester -->
-  <Electroharvester.label>TODO</Electroharvester.label>
+  <Electroharvester.label>elektrosklízeč</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
-  <Electroharvester.description>TODO</Electroharvester.description>
+  <Electroharvester.description>Umožní výstavbu generátoru, který jeschopný sklízet elektrickou energii ze zadržených entit, avšak tento proces jim zvyšuje náročnost zadržení.</Electroharvester.description>
   <!-- EN:
     <li>subject->entity-derived power generation</li>
     <li>subject_story->researched ion pumps in cell membranes</li>
