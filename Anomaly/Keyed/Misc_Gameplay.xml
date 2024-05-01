@@ -315,7 +315,7 @@
   <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
   <NoActiveResearchProject>TODO</NoActiveResearchProject>
   <!-- EN: Capturable -->
-  <Capturable>TODO</Capturable>
+  <Capturable>Lze zajmout</Capturable>
   <!-- EN: Must be captured in a holding platform. -->
   <RequiresHoldingPlatform>TODO</RequiresHoldingPlatform>
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
@@ -483,7 +483,7 @@
   <!-- EN: No restrained entity. -->
   <ElectroharvesterNoEntity>Žádná zajištěná entita.</ElectroharvesterNoEntity>
   <!-- EN: Not connected to a holding platform. -->
-  <ElectroharvesterNoPlatform>Není připojen k zadržovací plošině.</ElectroharvesterNoPlatform>
+  <ElectroharvesterNoPlatform>Není připojen k zadržovací platformě.</ElectroharvesterNoPlatform>
   
   <!-- Fleshmass Heart -->
   <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
@@ -520,11 +520,11 @@
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
   <LetterFleshTentacleAttack>TODO</LetterFleshTentacleAttack>
   <!-- EN: Biosignature -->
-  <Biosignature>TODO</Biosignature>
+  <Biosignature>Biologický podpis</Biosignature>
   <!-- EN: Bliss lobotomy -->
-  <BlissLobotomy>TODO</BlissLobotomy>
+  <BlissLobotomy>Blažená lobotomie</BlissLobotomy>
   <!-- EN: hp -->
-  <HP>TODO</HP>
+  <HP>bz</HP>
   <!-- EN: analyzed -->
   <Analyzed>TODO</Analyzed>
   <!-- EN: Highest skill -->
@@ -534,25 +534,25 @@
   <MessageShardDropped>TODO</MessageShardDropped>
   
   <!-- Blood rain -->
-  <!-- EN: The blood rain has driven {0} into a berserk rage! -->
-  <Berserk_BloodRain>TODO</Berserk_BloodRain>
-  <!-- EN: The blood rain has driven {0} into a manhunting rage! -->
-  <Manhunter_BloodRain>TODO</Manhunter_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
+  <Berserk_BloodRain>{0_nameIndef} se působením krvavého deště {0_gender ? rozzuřil : rozzuřila}!</Berserk_BloodRain>
+  <!-- EN: The blood rain has driven {0_nameIndef} into a manhunting rage! -->
+  <Manhunter_BloodRain>{0_nameIndef} se působením krvavého deště {0_gender ? rozzuřil : rozzuřila : rozzuřilo}!</Manhunter_BloodRain>
   <!-- EN: This happened because of blood rage buildup. -->
-  <MentalBreakReason_BloodRage>TODO</MentalBreakReason_BloodRage>
+  <MentalBreakReason_BloodRage>Stalo se tak v důsledku hromadění krvavého vzteku.</MentalBreakReason_BloodRage>
   
   <!-- Unnatural corpses -->
   <!-- EN: Corpse disappearance -->
-  <LetterLabelCorpseDisappeared>TODO</LetterLabelCorpseDisappeared>
+  <LetterLabelCorpseDisappeared>Zmizení mrtvoly</LetterLabelCorpseDisappeared>
   <!-- EN: The unnatural corpse has vanished. -->
-  <LetterCorpseDisappeared>TODO</LetterCorpseDisappeared>
+  <LetterCorpseDisappeared>Nepřirozená mrtvola právě zmizela.</LetterCorpseDisappeared>
   <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
-  <LetterCorpseDisappearedPawnAliveAppend>TODO</LetterCorpseDisappearedPawnAliveAppend>
+  <LetterCorpseDisappearedPawnAliveAppend>{PAWN_nameDef} začíná být klidnější.</LetterCorpseDisappearedPawnAliveAppend>
 
   <!-- EN: Corpse appearance -->
-  <LetterLabelCorpseReappeared>TODO</LetterLabelCorpseReappeared>
+  <LetterLabelCorpseReappeared>Zjevení mrtvoly</LetterLabelCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
-  <LetterCorpseReappeared>TODO</LetterCorpseReappeared>
+  <LetterCorpseReappeared>Z ničeho nic se znovu objevila mrtvola, která vypadá jako {PAWN_nameDef}.</LetterCorpseReappeared>
   
   <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
   <MessageCorpseEscaped>TODO</MessageCorpseEscaped>
@@ -844,11 +844,11 @@
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->
-  <ProximityDetectorCreatureDetected>TODO</ProximityDetectorCreatureDetected>
+  <ProximityDetectorCreatureDetected>Odhalen neviditelný tvor.</ProximityDetectorCreatureDetected>
   
   <!-- Frenzy inducer -->
   <!-- EN: Generating frenzy field. -->
-  <FrenzyInducerEffectDescription>TODO</FrenzyInducerEffectDescription>
+  <FrenzyInducerEffectDescription>Generování pole šílenství.</FrenzyInducerEffectDescription>
   <!-- EN: This happened due to the influence of a frenzy inducer. -->
   <MentalBreakReason_FrenzyInducer>TODO</MentalBreakReason_FrenzyInducer>
   
@@ -862,15 +862,29 @@
 
   <!-- Chimeras -->
   <!-- EN: The chimera is {0} -->
-  <MessageChimeraModeChangeSingular>TODO</MessageChimeraModeChangeSingular>
+  <MessageChimeraModeChangeSingular>Chiméra se {0}e.</MessageChimeraModeChangeSingular>
   <!-- EN: The chimeras are {0} -->
-  <MessageChimeraModeChangePlural>TODO</MessageChimeraModeChangePlural>
+  <MessageChimeraModeChangePlural>Chiméry se {0}í.</MessageChimeraModeChangePlural>
   <!-- EN: temporarily withdrawing. -->
-  <MessageChimeraWithdrawing>TODO</MessageChimeraWithdrawing>
+  <MessageChimeraWithdrawing>dočasně stahuj</MessageChimeraWithdrawing>
 
   <!-- EN: Chimeras attacking -->
-  <LetterChimerasAttackingLabel>TODO</LetterChimerasAttackingLabel>
+  <LetterChimerasAttackingLabel>Útočící chiméry</LetterChimerasAttackingLabel>
   <!-- EN: The chimeras have begun their attack! -->
-  <LetterChimerasAttacking>TODO</LetterChimerasAttacking>
-
+  <LetterChimerasAttacking>Chiméry právě zahájily útok!</LetterChimerasAttacking>
+  
+  <!-- Anomaly event frequency -->
+  <!-- EN: No major threats -->
+  <AnomalyFrequency_None>Žádné hlavní hrozby</AnomalyFrequency_None>
+  <!-- EN: Very rare -->
+  <AnomalyFrequency_VeryRare>Velmi vzácné</AnomalyFrequency_VeryRare>
+  <!-- EN: Rare -->
+  <AnomalyFrequency_Rare>Vzácné</AnomalyFrequency_Rare>
+  <!-- EN: Balanced -->
+  <AnomalyFrequency_Balanced>Vyvážené</AnomalyFrequency_Balanced>
+  <!-- EN: Intense -->
+  <AnomalyFrequency_Intense>Intenzivní</AnomalyFrequency_Intense>
+  <!-- EN: Overwhelming -->
+  <AnomalyFrequency_Overwhelming>Zdrcující</AnomalyFrequency_Overwhelming>
+  
 </LanguageData>
