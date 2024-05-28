@@ -25,7 +25,7 @@
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>atmosferický ohřívač</AtmosphericHeater.label>
   <!-- EN: Build bioferrite-powered heaters that produce enough heat to warm an entire region. -->
-  <AtmosphericHeater.description>Umožní postavit atmosferické ohřívače poháněné bioferitem, které jsou schopné ohřát celý region.</AtmosphericHeater.description>
+  <AtmosphericHeater.description>Umožní výstavbu atmosferických ohřívačů poháněné bioferitem, které jsou schopné ohřát celý region.</AtmosphericHeater.description>
   <!-- EN:
     <li>subject->bioferrite heating</li>
     <li>subject_story->upgraded archaic geothermal plants</li>
@@ -338,12 +338,20 @@
     <li>subject_gerund->harvesting from entities</li>
     <li>subject_gerund->constructing electroharvesters</li>
   -->
-  <Electroharvester.generalRules.rulesStrings>TODO</Electroharvester.generalRules.rulesStrings>
+  <Electroharvester.generalRules.rulesStrings>
+    <li>subject->energie derivovaná z entit</li>
+    <li>subject_story->navrhl{ANYPAWN_pronoun} jontové pumpy obcházející membrány buňek</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} život vzácného Terranského elektrického úhoře</li>
+    <li>subject_story->provokoval{ANYPAWN_pronoun} archity a studoval{ANYPAWN_pronoun} jejich tepelný výkon</li>
+    <li>subject_story->teoretizoval{ANYPAWN_pronoun} o energickém potenciálu archoteckých stvoření</li>
+    <li>subject_gerund->sklízení energie z entit</li>
+    <li>subject_gerund->výstavba elektrosklízečů</li>
+  </Electroharvester.generalRules.rulesStrings>
   
   <!-- EN: entity containment -->
-  <EntityContainment.label>TODO</EntityContainment.label>
+  <EntityContainment.label>zadržování entit</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
-  <EntityContainment.description>TODO</EntityContainment.description>
+  <EntityContainment.description>Umožní výstavbu zadržovacích platforem a inhibitorů pro zadržování entit.</EntityContainment.description>
   <!-- EN:
     <li>subject->entity containment</li>
     <li>subject_story->worked in a prisonworld research facility</li>
@@ -353,12 +361,20 @@
     <li>subject_gerund->containing entities</li>
     <li>subject_gerund->construction entity containment facilities</li>
   -->
-  <EntityContainment.generalRules.rulesStrings>TODO</EntityContainment.generalRules.rulesStrings>
+  <EntityContainment.generalRules.rulesStrings>
+    <li>subject->zadržování entit</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} na vězeňském světě ve výzkumném zařízení</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} vězněn{ANYPAWN_pronoun} na vězeňském světě</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} součástí s partyzánského hnutím, které nabourávalo vězeňské zařízení a osvobozovalo vězněné odpůrce režimu</li>
+    <li>subject_story->zakládal{ANYPAWN_pronoun} masokombináty na dinosvětech</li>
+    <li>subject_gerund->zadržování entit</li>
+    <li>subject_gerund->konstrukce zařízení zadržování entit</li>
+  </EntityContainment.generalRules.rulesStrings>
   
   <!-- EN: frenzy inducer -->
-  <FrenzyInducer.label>TODO</FrenzyInducer.label>
+  <FrenzyInducer.label>vyvolávač pracovního běsnění</FrenzyInducer.label>
   <!-- EN: Build shard-powered structures that generate a frenetic psychic field to make anyone nearby move and work faster. However, the unstable emotional energy creates a tendency towards violence, irritating anyone nearby. -->
-  <FrenzyInducer.description>TODO</FrenzyInducer.description>
+  <FrenzyInducer.description>Umožní výstavbu bioferitem poháněných vyvolávačů pole pracovního běsnění, které nabíjí osoby v okolí nervozitu, ale hýbou se a pracují rychleji. Příliv této nestabilní emocionální energie irituje okolí a pokud se někdo v jeho vlivu zhroutí, je garance že toto zhroucení bude násilné.</FrenzyInducer.description>
   <!-- EN:
     <li>subject->archotech frenzy inducers</li>
     <li>subject_story->worked as a motivational therapist</li>
@@ -368,12 +384,20 @@
     <li>subject_gerund->inducing frenzy</li>
     <li>subject_gerund->constructing frenzy inducers from archotech</li>
   -->
-  <FrenzyInducer.generalRules.rulesStrings>TODO</FrenzyInducer.generalRules.rulesStrings>
+  <FrenzyInducer.generalRules.rulesStrings>
+    <li>subject->archotecké vyvolávač běsnění</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} jako motivační kouč</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} bubeníkem na galeji divokého světa</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} efekty různých archoteckých polí na lidské vědomí</li>
+    <li>subject_story->spravoval{ANYPAWN_pronoun} transstanici na podsvětí městského světa</li>
+    <li>subject_gerund->vyvolávání běsnění</li>
+    <li>subject_gerund->výstavba vyvolávačů pracovního běsnění</li>
+  </FrenzyInducer.generalRules.rulesStrings>
   
   <!-- EN: ghoul enhancements -->
-  <GhoulEnhancements.label>TODO</GhoulEnhancements.label>
+  <GhoulEnhancements.label>vylepšení ghúlů</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>TODO</GhoulEnhancements.description>
+  <GhoulEnhancements.description>Umožní výrobu bioferitových protéz pro ghúly.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -381,12 +405,18 @@
     <li>subject_story->researched more complex ghoul prosthesis</li>
     <li>subject_gerund->enhancing a ghoul with bioferrite prosthetics</li>
   -->
-  <GhoulEnhancements.generalRules.rulesStrings>TODO</GhoulEnhancements.generalRules.rulesStrings>
+  <GhoulEnhancements.generalRules.rulesStrings>
+    <li>subject->vylepšení ghúlů</li>
+    <li>subject_story->experimentoval{ANYPAWN_pronoun} s mrtvými i podruhé mrtvými</li>
+    <li>subject_story->implantoval{ANYPAWN_pronoun} postupně divnější objekty do ghúlů</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} komplexní protézy pro ghúly</li>
+    <li>subject_gerund->vylepšování ghúlů bioferitovýmí protézami</li>
+  </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>TODO</GhoulInfusion.label>
+  <GhoulInfusion.label>ghúlý infuze</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
-  <GhoulInfusion.description>TODO</GhoulInfusion.description>
+  <GhoulInfusion.description>Umožní provést chirurgickou operaci implantování archoteckého střepu do živoucí osoby, který jí transformuje na ghúla. Ghůlové jsou silní v boji zblíska, ale nejsou schopni provádět jakoukoli práci. Jedí pouze syrové maso, ale pokud začnou být hladový, tak je přestane zajímat že jste přátelští.</GhoulInfusion.description>
   <!-- EN:
     <li>subject->ghoul creation</li>
     <li>subject_story->supplied condemned prisonworld inhabitants for urbworld conflicts</li>
@@ -395,12 +425,19 @@
     <li>subject_gerund->infusing an archotech shard into a living person</li>
     <li>subject_gerund->creating a ghoul</li>
   -->
-  <GhoulInfusion.generalRules.rulesStrings>TODO</GhoulInfusion.generalRules.rulesStrings>
+  <GhoulInfusion.generalRules.rulesStrings>
+    <li>subject->tvorba ghúlů</li>
+    <li>subject_story->dodával{ANYPAWN_pronoun} odsouzené obyvatele vězeňského světa jako lévnou vojenskou sílu městským světům</li>
+    <li>subject_story->militarizoval{ANYPAWN_pronoun} architské injekce jako součást experimentálního programu</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} divoké bživlé mrtvoly v ruinách mrtvosvěta</li>
+    <li>subject_gerund->infuze archoteckého střepu žijící osobě</li>
+    <li>subject_gerund->vytváření ghúlů</li>
+  </GhoulInfusion.generalRules.rulesStrings>
   
   <!-- EN: ghoul resurrection -->
-  <GhoulResurrection.label>TODO</GhoulResurrection.label>
+  <GhoulResurrection.label>vzkříšení ghúlů</GhoulResurrection.label>
   <!-- EN: Synthesize a serum that can bring dead ghouls back to life. -->
-  <GhoulResurrection.description>TODO</GhoulResurrection.description>
+  <GhoulResurrection.description>Umožní syntezy séra, které je schopné vzkřísit mrtvé ghúly.</GhoulResurrection.description>
   <!-- EN:
     <li>subject->ghoul resurrection</li>
     <li>subject_story->developed a new method of resurrecting ghouls</li>
@@ -410,12 +447,20 @@
     <li>subject_gerund->resurrecting a ghoul</li>
     <li>subject_gerund->synthesizing a serum to resurrect ghouls</li>
   -->
-  <GhoulResurrection.generalRules.rulesStrings>TODO</GhoulResurrection.generalRules.rulesStrings>
+  <GhoulResurrection.generalRules.rulesStrings>
+    <li>subject->vzkřísení ghúlů</li>
+    <li>subject_story->vyvinul{ANYPAWN_pronoun} novou metodu vzkřišování ghúlů</li>
+    <li>subject_story->pokoušel{ANYPAWN_pronoun} se oživit mrtvolu injekcí různých sloučenin</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} efekty vyšší koncentrace archotechu v ghúlech</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} opakované vzkříšení jednoho a toho samého ghúla</li>
+    <li>subject_gerund->vzkřišování ghúla</li>
+    <li>subject_gerund->synteze vzkřišovacího séra pro ghúly</li>
+  </GhoulResurrection.generalRules.rulesStrings>
   
   <!-- EN: insanity weaponry -->
-  <InsanityWeaponry.label>TODO</InsanityWeaponry.label>
+  <InsanityWeaponry.label>zbraně šílenství</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>TODO</InsanityWeaponry.description>
+  <InsanityWeaponry.description>Umožní restrukturovat archotecké střepy na zbraně s omezeným počtem použití, které šokují, manipulují nebo zničí nepřátele.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
     <li>subject_story->explored psychological warfare for their dissertation</li>
@@ -424,12 +469,19 @@
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
     <li>subject_gerund->restructuring archotech into insanity-inducing weaponry</li>
   -->
-  <InsanityWeaponry.generalRules.rulesStrings>TODO</InsanityWeaponry.generalRules.rulesStrings>
+  <InsanityWeaponry.generalRules.rulesStrings>
+    <li>subject->archotecké zbraně šílenství</li>
+    <li>subject_story->prozkoumával{ANYPAWN_pronoun} psychické válečné taktiky pro je{ANYPAWN_gender ? ho : jí} diplomovou práci</li>
+    <li>subject_story->přednášel{ANYPAWN_pronoun} imperiálním vojskům o síle strachu</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} v blázinci pro lidi zblázněné archoteckýmí vlivy</li>
+    <li>subject_story->pytval{ANYPAWN_pronoun} archity ovlivněnou divokou zvěř, aby pochopil{ANYPAWN_pronoun} jejich dopad na mozky savců</li>
+    <li>subject_gerund->strukturování archoteckých střepů na zbraně šílenství</li>
+  </InsanityWeaponry.generalRules.rulesStrings>
   
   <!-- EN: juggernaut serum -->
   <JuggernautSerum.label>TODO</JuggernautSerum.label>
   <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
-  <JuggernautSerum.description>TODO</JuggernautSerum.description>
+  <JuggernautSerum.description>Umožní syntezy séra, které dočasně zvýší sílu, rychlost a hojení zranění dané osoby, ale zároveň snižuje jejich náladu. </JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
     <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
@@ -441,9 +493,9 @@
   <JuggernautSerum.generalRules.rulesStrings>TODO</JuggernautSerum.generalRules.rulesStrings>
   
   <!-- EN: metalblood serum -->
-  <MetalbloodSerum.label>TODO</MetalbloodSerum.label>
+  <MetalbloodSerum.label>kovokrevné sérum</MetalbloodSerum.label>
   <!-- EN: Synthesize metalblood serums that make the user more resistant to damage. -->
-  <MetalbloodSerum.description>TODO</MetalbloodSerum.description>
+  <MetalbloodSerum.description>Umožní syntezy kovokrevného séra, které zvýší odolnost uživatele vůči poškození.</MetalbloodSerum.description>
   <!-- EN:
     <li>subject->metalblood serums</li>
     <li>subject_story->researched reactive liquids for use in milworld armor</li>
@@ -452,12 +504,19 @@
     <li>subject_story->deployed flamethrowers against a metalblood-using militia</li>
     <li>subject_gerund->synthesizing metalblood serums</li>
   -->
-  <MetalbloodSerum.generalRules.rulesStrings>TODO</MetalbloodSerum.generalRules.rulesStrings>
+  <MetalbloodSerum.generalRules.rulesStrings>
+    <li>subject->kovokrevné sérum</li>
+    <li>subject_story->prováděl{ANYPAWN_pronoun} výzkum na reaktivních tekutinách pro výrobu kvalitnější</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} pionýrem v adopci náhrad krve</li>
+    <li>subject_story->objevil{ANYPAWN_pronoun} kovokrevný automat na zničeném mrtvosvětě</li>
+    <li>subject_story->využil{ANYPAWN_pronoun} plamenomety k útoku na kovokrev využívající milici</li>
+    <li>subject_gerund->synteze kovokrevného séra</li>
+  </MetalbloodSerum.generalRules.rulesStrings>
   
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>TODO</MindNumbSerum.label>
+  <MindNumbSerum.label>mysltupící sérum</MindNumbSerum.label>
   <!-- EN: Synthesize a serum that stabilizes a person's mood, preventing mental breaks. -->
-  <MindNumbSerum.description>TODO</MindNumbSerum.description>
+  <MindNumbSerum.description>Umožní syntezy mysltupícího séra, které stabilizuje náladu uživatele a zabrání mentálním zhroucením ale i inspiracím.</MindNumbSerum.description>
   <!-- EN:
     <li>subject->mind-numb serum</li>
     <li>subject_story->sabotaged an emotional performance by secretly numbing the lead singer</li>
@@ -466,12 +525,19 @@
     <li>subject_story->investigated the use of archotech to numb pain</li>
     <li>subject_gerund->synthesizing mind-numb serums</li>
   -->
-  <MindNumbSerum.generalRules.rulesStrings>TODO</MindNumbSerum.generalRules.rulesStrings>
+  <MindNumbSerum.generalRules.rulesStrings>
+    <li>subject->mysltupící sérum</li>
+    <li>subject_story->sabotoval{ANYPAWN_pronoun} emoční představení emočním otupěním hlavní zpěvačky</li>
+    <li>subject_story->pravidelně vypouštěl{ANYPAWN_pronoun} zředěné mysltupící sérum do místního zdroje pitné vody</li>
+    <li>subject_story->distribuoval{ANYPAWN_pronoun} mysltupící sérum novým rekrutům před bitvami</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} využití archoteckého séra tlumící bolest</li>
+    <li>subject_gerund->synteze mysltupícího séra</li>
+  </MindNumbSerum.generalRules.rulesStrings>
   
   <!-- EN: mutation weaponry -->
-  <MutationWeaponry.label>TODO</MutationWeaponry.label>
+  <MutationWeaponry.label>mutační zbraně</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>TODO</MutationWeaponry.description>
+  <MutationWeaponry.description>Umožní restrukturovat archotecké střepy na s omezeným počtem použití, které překroutí žijící cíle na hrůzná stvoření.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -483,12 +549,22 @@
     <li>subject_gerund->inducing mutations</li>
     <li>subject_gerund->restructuring archotech into mutation-inducing weaponry</li>
   -->
-  <MutationWeaponry.generalRules.rulesStrings>TODO</MutationWeaponry.generalRules.rulesStrings>
+  <MutationWeaponry.generalRules.rulesStrings>
+    <li>subject->indukování mutace</li>
+    <li>subject->archotecké mutační zbraně</li>
+    <li>subject_story->snil{ANYPAWN_pronoun} o novém životě, ve kterém by byl{ANYPAWN_pronoun} v synergii s archity</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} archotecké vlivy tvarující rostliný život</li>
+    <li>subject_story->experimentoval{ANYPAWN_pronoun} s výrobou nových konceptů zbraní</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} nové formy života na transcendentním světě</li>
+    <li>subject_story->vytvořil{ANYPAWN_pronoun} život na bázy architů v laboratorních podmínkách</li>
+    <li>subject_gerund->indukování mutací</li>
+    <li>subject_gerund->strukturování archoteckých střepů na mutační zbraně</li>
+  </MutationWeaponry.generalRules.rulesStrings>
   
   <!-- EN: neurosis pulse -->
-  <NeurosisPulse.label>TODO</NeurosisPulse.label>
+  <NeurosisPulse.label>neurotický puls</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
-  <NeurosisPulse.description>TODO</NeurosisPulse.description>
+  <NeurosisPulse.description>Umožní provádět psychický rituál, který zvýší rychlost práce všem v regionu, ale zároveň budou jednodušeji iritovaní.</NeurosisPulse.description>
   <!-- EN:
     <li>subject->neurosis pulse</li>
     <li>subject->work imperative</li>
@@ -499,12 +575,21 @@
     <li>subject_gerund->inducing neuroses psychically</li>
     <li>subject_gerund->performing a ritual to raise worker productivity</li>
   -->
-  <NeurosisPulse.generalRules.rulesStrings>TODO</NeurosisPulse.generalRules.rulesStrings>
+  <NeurosisPulse.generalRules.rulesStrings>
+    <li>subject->neurotický puls</li>
+    <li>subject->zvýšení pracovní morálky</li>
+    <li>subject_story->připojil{ANYPAWN_pronoun} se ke kultu pracovníku na městském světě</li>
+    <li>subject_story->při práci pocítil{ANYPAWN_pronoun} psychický tlak rituálu</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} neurové cesty pod efektem neurotického pulsu</li>
+    <li>subject_story->prozkoumával{ANYPAWN_pronoun} spojení mezi menežmentem vojsk a pořádáním kultových rituálů</li>
+    <li>subject_gerund->psychická indukce neurózy</li>
+    <li>subject_gerund->provádění rituálu zvyšujícího produktivitu</li>
+  </NeurosisPulse.generalRules.rulesStrings>
   
   <!-- EN: philophagy -->
-  <Philophagy.label>TODO</Philophagy.label>
+  <Philophagy.label>filofágie</Philophagy.label>
   <!-- EN: Perform a psychic ritual that drains experience from a victim and gives it to the invoker. The process will dull the target's mind, weakening their skills and causing brain damage. -->
-  <Philophagy.description>TODO</Philophagy.description>
+  <Philophagy.description>Umožní provádět psychický rituál, který odebere zkušenosti určité dovednosti cíly a získá je vyvolávač rituálu. Cíl tohoto rituálu utrpí poškození mozku a oslabení jejjich dovedností.</Philophagy.description>
   <!-- EN:
     <li>subject->philophagy</li>
     <li>subject->skill transfer</li>
@@ -515,12 +600,21 @@
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
-  <Philophagy.generalRules.rulesStrings>TODO</Philophagy.generalRules.rulesStrings>
+  <Philophagy.generalRules.rulesStrings>
+    <li>subject->filofágie</li>
+    <li>subject->přenos dovedností</li>
+    <li>subject_story->následoval{ANYPAWN_pronoun} spustošené kolonie, které zasebou nechal kult filofágů</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} neurální replikace procesů prováděných v třpytosvětových laboratoří</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} poničené mysli obětí kultů</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} oslabení je{ANYPAWN_gender ? ho : jích} dovedností po psychickém útoku</li>
+    <li>subject_gerund->přenos vědomostí</li>
+    <li>subject_gerund->provádění rituálu krádeže dovedností</li>
+  </Philophagy.generalRules.rulesStrings>
   
   <!-- EN: pleasure pulse -->
-  <PleasurePulse.label>TODO</PleasurePulse.label>
+  <PleasurePulse.label>puls radosti</PleasurePulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region happier but reduces their desire to work. -->
-  <PleasurePulse.description>TODO</PleasurePulse.description>
+  <PleasurePulse.description>Umožní provádět psychický rituál, který zvýší náladu všem v regionu, ale sníží jejich pracovní nadání.</PleasurePulse.description>
   <!-- EN:
     <li>subject->pleasure invocation</li>
     <li>subject_story->read an ancient Earth story that boasted of a miracle food called soma</li>
@@ -530,12 +624,20 @@
     <li>subject_gerund->inducing pleasure psychically</li>
     <li>subject_gerund->performing a psychic ritual to induce pleasure</li>
   -->
-  <PleasurePulse.generalRules.rulesStrings>TODO</PleasurePulse.generalRules.rulesStrings>
+  <PleasurePulse.generalRules.rulesStrings>
+    <li>subject->vyvolávání radosti</li>
+    <li>subject_story->četl{ANYPAWN_pronoun} prastarý příběh ze země o zázračném ovoci jménem soma</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} prastarý mýtus Lotusožroutů</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} se sociálními filozofy na tvorbě utilitárního rituálu</li>
+    <li>subject_story->přidal{ANYPAWN_pronoun} se k nevšednímu archoteckému kultu se zaměřením na požitek ze života a radost</li>
+    <li>subject_gerund->psychické vyvolávání radosti</li>
+    <li>subject_gerund->provádění rituálu vyvolávání radosti</li>
+  </PleasurePulse.generalRules.rulesStrings>
   
   <!-- EN: proximity detector -->
-  <ProximityDetector.label>TODO</ProximityDetector.label>
+  <ProximityDetector.label>detektor entit</ProximityDetector.label>
   <!-- EN: Build a device that can detect invisible creatures. -->
-  <ProximityDetector.description>TODO</ProximityDetector.description>
+  <ProximityDetector.description>Umožní výstavbu zařízení, které zvládne upozornit na přítomnost neviditelných entit.</ProximityDetector.description>
   <!-- EN:
     <li>subject->proximity detectors</li>
     <li>subject->motion sensors</li>
@@ -546,12 +648,21 @@
     <li>subject_gerund->revealing the unseen</li>
     <li>subject_gerund->detecting invisible creatures</li>
   -->
-  <ProximityDetector.generalRules.rulesStrings>TODO</ProximityDetector.generalRules.rulesStrings>
+  <ProximityDetector.generalRules.rulesStrings>
+    <li>subject->detektory entit</li>
+    <li>subject->senzory pohybu</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} prastaré zábavné filmy nahrané na filmouvou pásku</li>
+    <li>subject_story->prototypoval{ANYPAWN_pronoun} jednoduché psychicky odolé zařízení</li>
+    <li>subject_story->udržoval{ANYPAWN_pronoun} varovné systémy na mrtvosvětové základně</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} multipásmové skenry a hledala opakující se jevy</li>
+    <li>subject_gerund->odhalování neviděného</li>
+    <li>subject_gerund->detekování neviditelných stvoření</li>
+  </ProximityDetector.generalRules.rulesStrings>
   
   <!-- EN: psychophagy -->
-  <Psychophagy.label>TODO</Psychophagy.label>
+  <Psychophagy.label>psychofágie</Psychophagy.label>
   <!-- EN: Perform a psychic ritual which deadens a target's psychic sensitivity and temporarily boosts the ritual invoker's psychic sensitivity. The target will suffer brain damage as a side-effect. -->
-  <Psychophagy.description>TODO</Psychophagy.description>
+  <Psychophagy.description>Umožní provádět psychický rituál, který umrtvý psychickou citlivost a dočasně zvýší psychickou citlivost vyvolávače. Cíl tohoto rituálu utrpí poškození mozku.</Psychophagy.description>
   <!-- EN:
     <li>subject->psychophagy</li>
     <li>subject_story->studied managed desensitization to psychic effects</li>
@@ -561,7 +672,15 @@
     <li>subject_gerund->stealing psychic abilities</li>
     <li>subject_gerund->performing a psychophagy ritual</li>
   -->
-  <Psychophagy.generalRules.rulesStrings>TODO</Psychophagy.generalRules.rulesStrings>
+  <Psychophagy.generalRules.rulesStrings>
+    <li>subject->psychofágie</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} řízené psychické znecitlivění a jeho efekty</li>
+    <li>subject_story->koordinoval{ANYPAWN_pronoun} extrakci architů z mrtvých osob</li>
+    <li>subject_story->shromažďoval{ANYPAWN_pronoun} povídky o  psychyckých přenosů psychic transference rituals</li>
+    <li>subject_story->witnessed a Horax cult sap the power of an Imperial noble</li>
+    <li>subject_gerund->stealing psychic abilities</li>
+    <li>subject_gerund->performing a psychophagy ritual</li>
+  </Psychophagy.generalRules.rulesStrings>
   
   <!-- EN: revenant invisibility -->
   <RevenantInvisibility.label>TODO</RevenantInvisibility.label>
