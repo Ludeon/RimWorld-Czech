@@ -87,7 +87,7 @@
     <li>subject_gerund->powering generators using bioferrite</li>
   -->
   <BioferriteGenerator.generalRules.rulesStrings>
-    <li>subject->generace elektřiny z bioferitu</li>
+    <li>subject->výroba elektřiny z bioferitu</li>
     <li>subject_story->pracoval{ANYPAWN_pronoun} s inovativními zdroji energie</li>
     <li>subject_story->zkoumal{ANYPAWN_pronoun} použití kovových a vlákených paliv</li>
     <li>subject_story->objevil{ANYPAWN_pronoun} svojí lásku k ohni a věcem ukrívající energii</li>
@@ -268,7 +268,7 @@
     <li>subject_gerund->distributing archites to create shamblers</li>
   -->
   <DeadlifeDust.generalRules.rulesStrings>
-    <li>subject->nekrovitový prach</li>
+    <li>subject->nekrovitý prach</li>
     <li>subject_story->syntezoval{ANYPAWN_pronoun} aerosol který obsahoval nanoroboty</li>
     <li>subject_story->použil{ANYPAWN_pronoun} atomické centrifugy pro separaci různých druhů architů</li>
     <li>subject_story->pozoroval{ANYPAWN_pronoun} bloudí útok na čtvrt městského světa</li>
@@ -385,7 +385,7 @@
     <li>subject_gerund->constructing frenzy inducers from archotech</li>
   -->
   <FrenzyInducer.generalRules.rulesStrings>
-    <li>subject->archotecké vyvolávač běsnění</li>
+    <li>subject->archotecké vyvolávače běsnění</li>
     <li>subject_story->pracoval{ANYPAWN_pronoun} jako motivační kouč</li>
     <li>subject_story->byl{ANYPAWN_pronoun} bubeníkem na galeji divokého světa</li>
     <li>subject_story->zkoumal{ANYPAWN_pronoun} efekty různých archoteckých polí na lidské vědomí</li>
@@ -479,7 +479,7 @@
   </InsanityWeaponry.generalRules.rulesStrings>
   
   <!-- EN: juggernaut serum -->
-  <JuggernautSerum.label>TODO</JuggernautSerum.label>
+  <JuggernautSerum.label>sérum nezastavitelnosti</JuggernautSerum.label>
   <!-- EN: Synthesize a serum which temporarily increases the user's strength and speed, and allows them to recover from injuries faster. However, it reduces their mood. -->
   <JuggernautSerum.description>Umožní syntezy séra, které dočasně zvýší sílu, rychlost a hojení zranění dané osoby, ale zároveň snižuje jejich náladu. </JuggernautSerum.description>
   <!-- EN:
@@ -490,7 +490,14 @@
     <li>subject_story->fell into a barrel of juggernaut serum</li>
     <li>subject_gerund->synthesizing juggernaut serums</li>
   -->
-  <JuggernautSerum.generalRules.rulesStrings>TODO</JuggernautSerum.generalRules.rulesStrings>
+  <JuggernautSerum.generalRules.rulesStrings>
+    <li>subject->sérum nezastavitelnosti</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} vyhoštěn{ANYPAWN_gender ? ý : á} z centrosvých lig poté co se přišlo na to že zneužíval{ANYPAWN_pronoun} zakázané látky</li>
+    <li>subject_story->podával{ANYPAWN_pronoun} sérum nezastavitelnosti vojákům kteří přišli o zbraně</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} efekty séra na dělnících stavební společnosti</li>
+    <li>subject_story->zakopl{ANYPAWN_pronoun} a spadl{ANYPAWN_pronoun} do barelu séra nezastavitelnosti</li>
+    <li>subject_gerund->synteze séra nezastavitelnosti</li>
+  </JuggernautSerum.generalRules.rulesStrings>
   
   <!-- EN: metalblood serum -->
   <MetalbloodSerum.label>kovokrevné sérum</MetalbloodSerum.label>
@@ -698,9 +705,9 @@
   <RevenantInvisibility.generalRules.rulesStrings>TODO</RevenantInvisibility.generalRules.rulesStrings>
   
   <!-- EN: serum synthesis -->
-  <SerumSynthesis.label>TODO</SerumSynthesis.label>
+  <SerumSynthesis.label>synteze sér</SerumSynthesis.label>
   <!-- EN: Build a serum lab to synthesize high-tech serums. Serums harness archotechnological power to bestow a temporary effect on the user. -->
-  <SerumSynthesis.description>TODO</SerumSynthesis.description>
+  <SerumSynthesis.description>Umožní výstavbu sérové laboratoře ve které je možné syntezovat výšší úrovně sér. Séra využívají archotechnologických sil, které značně zlepší jisté kapacity uživatele.</SerumSynthesis.description>
   <!-- EN:
     <li>subject->serum synthesis</li>
     <li>subject_story->was injected with archites to understand their effects</li>
@@ -709,12 +716,19 @@
     <li>subject_story->managed a serum-testing programme for a coreworld brigade</li>
     <li>subject_gerund->synthesizing serums</li>
   -->
-  <SerumSynthesis.generalRules.rulesStrings>TODO</SerumSynthesis.generalRules.rulesStrings>
+  <SerumSynthesis.generalRules.rulesStrings>
+    <li>subject->synteze sér</li>
+    <li>subject_story->byla na n{ANYPAWN_gender ? ěm : í} testovaná vnitrotělní aplikace architů</li>
+    <li>subject_story->objevil{ANYPAWN_pronoun} tmavou zakalenou tekutinu v prostorách mrtvosvětového chrámu</li>
+    <li>subject_story->přežil{ANYPAWN_pronoun} běžně smrtelný pád pod vlivem speciálního séra</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} na starosti laboratoř ozbrojených sil pro výzkum efektů různých sér na lidské tělo</li>
+    <li>subject_gerund->synteze sér</li>
+  </SerumSynthesis.generalRules.rulesStrings>
   
   <!-- EN: skip abduction -->
-  <SkipAbductionPlayer.label>TODO</SkipAbductionPlayer.label>
+  <SkipAbductionPlayer.label>skokový únos</SkipAbductionPlayer.label>
   <!-- EN: Perform a psychic ritual that abducts a random hostile person from anywhere in the world, putting them in a short-term coma for capture. -->
-  <SkipAbductionPlayer.description>TODO</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>Umožní provádět psychický rituál, který přenese náhodnou nepřátelskou osobu z jakéhokoli místa světa. Tento přenos uhodí danou osobu do komatu.</SkipAbductionPlayer.description>
   <!-- EN:
     <li>subject->psychic abduction</li>
     <li>subject->skip abduction</li>
@@ -725,12 +739,21 @@
     <li>subject_gerund->abducting enemies through psychic ritual</li>
     <li>subject_gerund->performing a ritual of skip abduction</li>
   -->
-  <SkipAbductionPlayer.generalRules.rulesStrings>TODO</SkipAbductionPlayer.generalRules.rulesStrings>
+  <SkipAbductionPlayer.generalRules.rulesStrings>
+    <li>subject->psychický únos</li>
+    <li>subject->skokový únos</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} svědkem pokusu o únos Imperiálního šlechtice</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} prodán{ANYPAWN_pronoun} jako rukojmí krtkouního gangu</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} nepovedený přenášecí rituál prováděný hlavou kultu</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} meziprostorový transfer zprostředkovaný archoteckými jevy</li>
+    <li>subject_gerund->únos nepřátel psychickým rituálem</li>
+    <li>subject_gerund->provádění rituálu dálkového únosu</li>
+  </SkipAbductionPlayer.generalRules.rulesStrings>
   
   <!-- EN: sleep suppressor -->
-  <SleepSuppressor.label>TODO</SleepSuppressor.label>
+  <SleepSuppressor.label>spánkový potlačovač</SleepSuppressor.label>
   <!-- EN: Build shard-powered structures that stimulate those nearby to prevent fatigue. The device will irritate anyone nearby. -->
-  <SleepSuppressor.description>TODO</SleepSuppressor.description>
+  <SleepSuppressor.description>Umožní výstavbu střepy poháněnými strukturami, které stimulují spánková centra mozku a tím předchází únavě. Každý kdo se nachází v jejich poli působnosti bude značně iritován.</SleepSuppressor.description>
   <!-- EN:
     <li>subject->sleep suppression</li>
     <li>subject_story->studied sleep deprivation in factory workers</li>
@@ -741,12 +764,21 @@
     <li>subject_gerund->constructing sleep suppressors from archotech</li>
     <li>subject_gerund->suppressing sleep with archotech</li>
   -->
-  <SleepSuppressor.generalRules.rulesStrings>TODO</SleepSuppressor.generalRules.rulesStrings>
+  <SleepSuppressor.generalRules.rulesStrings>
+    <li>subject->potlačování spánku</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} spánkovou deprivaci dělníků továrny</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} užívání stimulantů mezi Imperiálními vojáky</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} efekty různých archopolí na lidské vědomí</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} v třpytosvětové spánkové laboratoři, ve které bohatí žili ve stavu permanentního snění</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} na starosti budíček v pracovním táboře na vězeňském světě</li>
+    <li>subject_gerund->stavba archoteckých spánkových potlačovačů</li>
+    <li>subject_gerund->potlačování spánku archoteckými polemi</li>
+  </SleepSuppressor.generalRules.rulesStrings>
   
   <!-- EN: draw animals -->
-  <SummonAnimals.label>TODO</SummonAnimals.label>
+  <SummonAnimals.label>lákání zvěře</SummonAnimals.label>
   <!-- EN: Perform a psychic ritual which will draw a herd of animals. -->
-  <SummonAnimals.description>TODO</SummonAnimals.description>
+  <SummonAnimals.description>Umožní provádět psychický rituál, který přiláká celé stádo zvířat.</SummonAnimals.description>
   <!-- EN:
     <li>subject->stampede invocation</li>
     <li>subject_story->worked as a shepherd amidst the mountains of a primitive world</li>
@@ -755,12 +787,19 @@
     <li>subject_story->watched a nature cult commune with their herds</li>
     <li>subject_gerund->summoning animal herds</li>
   -->
-  <SummonAnimals.generalRules.rulesStrings>TODO</SummonAnimals.generalRules.rulesStrings>
+  <SummonAnimals.generalRules.rulesStrings>
+    <li>subject->vyvolávání stádové tlačenice</li>
+    <li>subject_story->pracoval{ANYPAWN_pronoun} jako pastýř v údolích mezi horami primitivního světa</li>
+    <li>subject_story->naučil{ANYPAWN_pronoun} se komukovat s bestiemi z polí</li>
+    <li>subject_story->experimentoval{ANYPAWN_pronoun} s efekty architů na různých plemenech zvířat</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} přírodní kult s jejich stády</li>
+    <li>subject_gerund->vyvolávání stád zvěře</li>
+  </SummonAnimals.generalRules.rulesStrings>
   
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>TODO</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>vyvolávání masostvůr</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
-  <SummonFleshbeastsPlayer.description>TODO</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>Umožní provádět psychický rituál vyprovokující masostvůry, které se vynoří ze země u nepřátel a zautočí na kohokoli koho spatří.</SummonFleshbeastsPlayer.description>
   <!-- EN:
     <li>subject->fleshbeast summoning</li>
     <li>subject_story->read ancient tomes about the origins of life</li>
@@ -771,12 +810,21 @@
     <li>subject_gerund->summoning fleshbeasts</li>
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   -->
-  <SummonFleshbeastsPlayer.generalRules.rulesStrings>TODO</SummonFleshbeastsPlayer.generalRules.rulesStrings>
+  <SummonFleshbeastsPlayer.generalRules.rulesStrings>
+    <li>subject->vyvolávání masostvůr</li>
+    <li>subject_story->četl{ANYPAWN_pronoun} prastaré svazky pojednávající o vzniku života</li>
+    <li>subject_story->zažil{ANYPAWN_pronoun} populáční explozi třaskrys v Sahe</li>
+    <li>subject_story->sledoval{ANYPAWN_pronoun} starodávný nauční film o masotvarování</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} přenos vědomí při při organickém separování a splynutí</li>
+    <li>subject_story->zaslechl{ANYPAWN_pronoun} příběhy krtkouní komunity, která potkala nepopsatelná živoucí monstra pod povrchem země</li>
+    <li>subject_gerund->vyvolávání masostvůr</li>
+    <li>subject_gerund->provádění rituálu vyvolávání masostvůr</li>
+  </SummonFleshbeastsPlayer.generalRules.rulesStrings>
   
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>TODO</SummonPitGate.label>
+  <SummonPitGate.label>provokování propastné brány</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
-  <SummonPitGate.description>TODO</SummonPitGate.description>
+  <SummonPitGate.description>Umožní provádět psychický rituál, který vyprovokuje masostvůry aby otevřely propastní bránu v okolí. Tato jáma vede do hlubiné masostvůrami obydlené jeskyně, ve které se zároveň ale nachází mnoho surovin.</SummonPitGate.description>
   <!-- EN:
     <li>subject->pit gate invocation</li>
     <li>subject_story->researched fleshmeld infestations</li>
@@ -786,12 +834,20 @@
     <li>subject_gerund->performing a ritual to create a pit gate</li>
     <li>subject_gerund->summoning a pit gate</li>
   -->
-  <SummonPitGate.generalRules.rulesStrings>TODO</SummonPitGate.generalRules.rulesStrings>
+  <SummonPitGate.generalRules.rulesStrings>
+    <li>subject->vyvolávání propastné brány</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} masohmotové zamoření</li>
+    <li>subject_story->sbíral{ANYPAWN_pronoun} příběhy o koloniích superorganismů</li>
+    <li>subject_story->měl{ANYPAWN_pronoun} na starosti knihovnu plnou svazků z mrtvosvětové školy místního kultu</li>
+    <li>subject_story->organizoval{ANYPAWN_pronoun} rituály propadů půdy</li>
+    <li>subject_gerund->provádění rituálu provokující propasnou bránu</li>
+    <li>subject_gerund->vyvolávání propastné brány</li>
+  </SummonPitGate.generalRules.rulesStrings>
   
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>TODO</SummonShamblers.label>
+  <SummonShamblers.label>lákání bloudů</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>TODO</SummonShamblers.description>
+  <SummonShamblers.description>Umožní provádět psychický rituál, který přiláká hordy obživlých mrtvol. I přesto že jsou agresivní, nebudou útočit přímo na tvou kolonii.</SummonShamblers.description>
   <!-- EN:
     <li>subject->shambler summoning rituals</li>
     <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
@@ -801,12 +857,20 @@
     <li>subject_gerund->summoning shamblers</li>
     <li>subject_gerund->calling shamblers through ritual</li>
   -->
-  <SummonShamblers.generalRules.rulesStrings>TODO</SummonShamblers.generalRules.rulesStrings>
+  <SummonShamblers.generalRules.rulesStrings>
+    <li>subject->rituál lákání bloudů</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} nekrokulty mrtvosvětů, z bezpečí univerzitní knihovny</li>
+    <li>subject_story->sbíral{ANYPAWN_pronoun} příběhy o koloniích napedených hordami bloudů</li>
+    <li>subject_story->dokumentoval{ANYPAWN_pronoun} vlákenné formace architů v mrtvých organismech</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} svědkem všech možných prapodivných zjevení jako správce mrtvosvěta</li>
+    <li>subject_gerund->svolávání bloudů</li>
+    <li>subject_gerund->vyvolávání hord bloudů rituálem</li>
+  </SummonShamblers.generalRules.rulesStrings>
   
   <!-- EN: void sculptures -->
-  <VoidSculptures.label>TODO</VoidSculptures.label>
+  <VoidSculptures.label>nicotné sošky</VoidSculptures.label>
   <!-- EN: Craft special void sculptures from bioferrite to enhance the quality of psychic rituals. -->
-  <VoidSculptures.description>TODO</VoidSculptures.description>
+  <VoidSculptures.description>Umožní výrobu speciálních bioferitových sošek, které zvýší kvalitu psychických rituálů.</VoidSculptures.description>
   <!-- EN:
     <li>subject->void sculptures</li>
     <li>subject->bioferrite sculpture</li>
@@ -818,6 +882,16 @@
     <li>subject_gerund->sculpting with bioferrite</li>
     <li>subject_gerund->crafting bioferrite ritual sculptures</li>
   -->
-  <VoidSculptures.generalRules.rulesStrings>TODO</VoidSculptures.generalRules.rulesStrings>
+  <VoidSculptures.generalRules.rulesStrings>
+    <li>subject->nicotné sošky</li>
+    <li>subject->bioferitové sochařství</li>
+    <li>subject_story->digitálně modeloval{ANYPAWN_pronoun} archotecké prostory</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} zaměstn{ANYPAWN_gender ? án : aná} hraběnkou které vytvářel{ANYPAWN_pronoun} sochy jejích snů</li>
+    <li>subject_story->snažil{ANYPAWN_pronoun} se oživit historicky významné sochy</li>
+    <li>subject_story->snil{ANYPAWN_pronoun} o nekonečném oceánu, který byl tvarován lidskými rukami</li>
+    <li>subject_story->pozoroval{ANYPAWN_pronoun} Imperial fyziky při práci</li>
+    <li>subject_gerund->sochaření s bioferitem</li>
+    <li>subject_gerund->výroba bioferitových rituálových sošek</li>
+  </VoidSculptures.generalRules.rulesStrings>
   
 </LanguageData>
