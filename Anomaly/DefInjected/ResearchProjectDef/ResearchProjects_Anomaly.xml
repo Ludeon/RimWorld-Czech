@@ -414,7 +414,7 @@
   </GhoulEnhancements.generalRules.rulesStrings>
   
   <!-- EN: ghoul infusion -->
-  <GhoulInfusion.label>ghúlý infuze</GhoulInfusion.label>
+  <GhoulInfusion.label>ghúlí infuze</GhoulInfusion.label>
   <!-- EN: Perform a surgery that infuses a living person with an archotech shard, transforming them into a terrifying ghoul. Ghouls are strong melee combatants but are incapable of doing work. Ghouls will go mad if they are not fed enough raw meat. -->
   <GhoulInfusion.description>Umožní provést chirurgickou operaci implantování archoteckého střepu do živoucí osoby, který jí transformuje na ghúla. Ghůlové jsou silní v boji zblíska, ale nejsou schopni provádět jakoukoli práci. Jedí pouze syrové maso, ale pokud začnou být hladový, tak je přestane zajímat že jste přátelští.</GhoulInfusion.description>
   <!-- EN:
@@ -684,15 +684,15 @@
     <li>subject_story->studoval{ANYPAWN_pronoun} řízené psychické znecitlivění a jeho efekty</li>
     <li>subject_story->koordinoval{ANYPAWN_pronoun} extrakci architů z mrtvých osob</li>
     <li>subject_story->shromažďoval{ANYPAWN_pronoun} povídky o  psychyckých přenosů psychic transference rituals</li>
-    <li>subject_story->witnessed a Horax cult sap the power of an Imperial noble</li>
-    <li>subject_gerund->stealing psychic abilities</li>
-    <li>subject_gerund->performing a psychophagy ritual</li>
+    <li>subject_story->byl{ANYPAWN_pronoun} svědkem vysátí schopností Imperiální nobility kultisty horaxu</li>
+    <li>subject_gerund->kradení psychických schopností</li>
+    <li>subject_gerund->provádění psychofágie</li>
   </Psychophagy.generalRules.rulesStrings>
   
   <!-- EN: revenant invisibility -->
-  <RevenantInvisibility.label>TODO</RevenantInvisibility.label>
+  <RevenantInvisibility.label>soumračníkova neviditelnost</RevenantInvisibility.label>
   <!-- EN: Modify a revenant spine so that it can be implanted in a human, allowing them to become temporarily invisible. -->
-  <RevenantInvisibility.description>TODO</RevenantInvisibility.description>
+  <RevenantInvisibility.description>Umožní upravit soumračníkovu páteř tak, aby její obratle mohli být implantovány do člověka, což mu umožní být dočasně neviditelný.</RevenantInvisibility.description>
   <!-- EN:
     <li>subject->invisibility</li>
     <li>subject_story->implanted a monster's spine into a human, without considering the consequences</li>
@@ -702,7 +702,15 @@
     <li>subject_gerund->adapting a revenant spine</li>
     <li>subject_gerund->implanting a revenant spine into a human</li>
   -->
-  <RevenantInvisibility.generalRules.rulesStrings>TODO</RevenantInvisibility.generalRules.rulesStrings>
+  <RevenantInvisibility.generalRules.rulesStrings>
+    <li>subject->neviditelnost</li>
+    <li>subject_story->implantoval{ANYPAWN_pronoun} páteř monstra člověku a až poté se zabýval{ANYPAWN_pronoun} následky, které způsobil{ANYPAWN_pronoun}</li>
+    <li>subject_story->sepsal{ANYPAWN_pronoun} román o mizící moralitě neviditelné osoby</li>
+    <li>subject_story->oběvil{ANYPAWN_pronoun} zvláštní kovovou páteř v mrtvém hvězdném systému</li>
+    <li>subject_story->snil{ANYPAWN_pronoun} o armádě neviditelných vojáků</li>
+    <li>subject_gerund->adaptování soumračníkovy páteře</li>
+    <li>subject_gerund->implantace cizý páteře člověku</li>
+  </RevenantInvisibility.generalRules.rulesStrings>
   
   <!-- EN: serum synthesis -->
   <SerumSynthesis.label>synteze sér</SerumSynthesis.label>
@@ -797,7 +805,7 @@
   </SummonAnimals.generalRules.rulesStrings>
   
   <!-- EN: summon fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>vyvolávání masostvůr</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>provokování masostvůr</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
   <SummonFleshbeastsPlayer.description>Umožní provádět psychický rituál vyprovokující masostvůry, které se vynoří ze země u nepřátel a zautočí na kohokoli koho spatří.</SummonFleshbeastsPlayer.description>
   <!-- EN:
@@ -811,7 +819,7 @@
     <li>subject_gerund->performing a ritual to summon fleshbeasts</li>
   -->
   <SummonFleshbeastsPlayer.generalRules.rulesStrings>
-    <li>subject->vyvolávání masostvůr</li>
+    <li>subject->provokování masostvůr</li>
     <li>subject_story->četl{ANYPAWN_pronoun} prastaré svazky pojednávající o vzniku života</li>
     <li>subject_story->zažil{ANYPAWN_pronoun} populáční explozi třaskrys v Sahe</li>
     <li>subject_story->sledoval{ANYPAWN_pronoun} starodávný nauční film o masotvarování</li>
@@ -822,7 +830,7 @@
   </SummonFleshbeastsPlayer.generalRules.rulesStrings>
   
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>provokování propastné brány</SummonPitGate.label>
+  <SummonPitGate.label>vyvolávání propastné brány</SummonPitGate.label>
   <!-- EN: Perform a psychic ritual which causes underground fleshbeasts to open up a massive hole in the ground. The hole leads down to a fleshbeast-infested cavern which can be explored for resources. -->
   <SummonPitGate.description>Umožní provádět psychický rituál, který vyprovokuje masostvůry aby otevřely propastní bránu v okolí. Tato jáma vede do hlubiné masostvůrami obydlené jeskyně, ve které se zároveň ale nachází mnoho surovin.</SummonPitGate.description>
   <!-- EN:
@@ -836,7 +844,7 @@
   -->
   <SummonPitGate.generalRules.rulesStrings>
     <li>subject->vyvolávání propastné brány</li>
-    <li>subject_story->zkoumal{ANYPAWN_pronoun} masohmotové zamoření</li>
+    <li>subject_story->zkoumal{ANYPAWN_pronoun} masohmotné zamoření</li>
     <li>subject_story->sbíral{ANYPAWN_pronoun} příběhy o koloniích superorganismů</li>
     <li>subject_story->měl{ANYPAWN_pronoun} na starosti knihovnu plnou svazků z mrtvosvětové školy místního kultu</li>
     <li>subject_story->organizoval{ANYPAWN_pronoun} rituály propadů půdy</li>

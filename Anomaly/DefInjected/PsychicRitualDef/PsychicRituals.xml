@@ -13,7 +13,7 @@
   <!-- EN: Erase a person's memories. Traumatic events will be forgotten. Prisoners will forget their allegiance and become easier to recruit, even if they were unwavering before. Inhumanized individuals will forget their connection to the void. Unfortunately, the disruptive effect of the ritual will induce a coma that could last a long time, especially if the ritual is of poor quality. -->
   <Brainwipe.description>Smaže vzpomínky dané osoby. Všechny traumatické události budou zapomenuty a vězeň zapomene ke komu patřil, což zjednoduší jeho rekrutování a to i v případě, že byl neochvějně loajální. Pokud byli odlidštěni zapomenou na své spojení s nicotou. Tento rituál je velice agresivní a složí jeho cíl do komatu na dlouhou dobu, obzvlášť pokud se nevydařil.</Brainwipe.description>
   <!-- EN: The target will be brainwiped.\n\nWith the current ritual quality, the target will also enter a coma for {0}. ???-->
-  <Brainwipe.outcomeDescription>Cíly tohoto rituálu bude vymyt mozek.\n\nS aktuální kvalitou rituálu cíl upadne do komanu na {0}.</Brainwipe.outcomeDescription>
+  <Brainwipe.outcomeDescription>Cíly tohoto rituálu bude vymyt mozek.\n\nS aktuální kvalitou rituálu cíl upadne do komatu na {0}.</Brainwipe.outcomeDescription>
   
   <!-- EN: chronophagy -->
   <Chronophagy.label>chronofágie</Chronophagy.label>
@@ -53,76 +53,76 @@
   <!-- EN: psychophagy -->
   <Psychophagy.label>psychofágie</Psychophagy.label>
   <!-- EN: Consume the psychic sensitivity of a target. The invoker will increase their psychic sensitivity for a period of time. The effect does not stack. The target will suffer brain damage, causing them to fall into a coma for several days. -->
-  <Psychophagy.description>TODO</Psychophagy.description>
+  <Psychophagy.description>Zkonzumuje psychickou citlivost cíle a dočasně posílí psychickou citlivost vyvolávače. Tento efekt se neskládá. Cíl tohoto rituálu také utrpí poškození mozku, což ho uvrhne do komatu na několik dní.</Psychophagy.description>
   <!-- EN: At the current ritual quality, the invoker will increase their psychic sensitivity for {0}.\n\nThe target will suffer brain damage and fall into a coma. -->
   <Psychophagy.outcomeDescription>S aktuální kvalitou rituálu vyvolávač si zvýší svou psychickou citlivost na {0}.\n\nCíl tohoto rituálu také utrpí poškození mozku, což ho uvrhne do komatu na několik dní.</Psychophagy.outcomeDescription>
   
   <!-- EN: skip abduction -->
-  <SkipAbduction.label>TODO</SkipAbduction.label>
+  <SkipAbduction.label>skokový únos</SkipAbduction.label>
   <!-- EN: Teleport a random hostile person to the ritual location and place them in a coma. -->
-  <SkipAbduction.description>TODO</SkipAbduction.description>
+  <SkipAbduction.description>Přenese náhodnou nepřátelskou osobu na místo rituálu a uvrhne ji do komatu</SkipAbduction.description>
   <!-- EN: They intend to use a psychic ritual to abduct a colonist via teleportation. -->
-  <SkipAbduction.letterAIArrivedText>TODO</SkipAbduction.letterAIArrivedText>
+  <SkipAbduction.letterAIArrivedText>Mají v plánu skokově přenést jednoho z tvých kolonistů a následně ho unést.</SkipAbduction.letterAIArrivedText>
   <!-- EN: Skip abduction -->
-  <SkipAbduction.letterAICompleteLabel>TODO</SkipAbduction.letterAICompleteLabel>
+  <SkipAbduction.letterAICompleteLabel>Skokový únos</SkipAbduction.letterAICompleteLabel>
   <!-- EN: {PAWN_nameDef} has been abducted by the cultists! -->
-  <SkipAbduction.letterAICompleteText>TODO</SkipAbduction.letterAICompleteText>
+  <SkipAbduction.letterAICompleteText>{PAWN_nameDef} byl{PAWN_pronoun} unešen{PAWN_pronoun} skupinou kultistů!</SkipAbduction.letterAICompleteText>
   <!-- EN: The target will be teleported to the invoker's location and fall into a coma. -->
-  <SkipAbduction.outcomeDescription>TODO</SkipAbduction.outcomeDescription>
+  <SkipAbduction.outcomeDescription>Cíl bude skokově přenešen k vyvolávači a upadne do komatu.</SkipAbduction.outcomeDescription>
   
   <!-- EN: skip abduction -->
-  <SkipAbductionPlayer.label>TODO</SkipAbductionPlayer.label>
+  <SkipAbductionPlayer.label>skokový únos</SkipAbductionPlayer.label>
   <!-- EN: Abduct a random hostile person from anywhere in the world, prioritizing those nearby. The ritual induces a dark archotech to warp space, teleporting a distant person to the center of the ritual circle. The process causes the target to fall into a short coma. -->
-  <SkipAbductionPlayer.description>TODO</SkipAbductionPlayer.description>
+  <SkipAbductionPlayer.description>Unese náhodnou nepřátekskou osobu ze světa, prioritizující ty které se nachází poblíž. Tento rituál využívá temných archoteckých sil pro ohnutí prostoru k přenosu vzdálených osob do středu rituálového kruhu. Tento proces uvrhne přenáššenou osobu do krátkého komatu.</SkipAbductionPlayer.description>
   <!-- EN: At the current ritual quality, the target will remain in a coma for {0}. -->
-  <SkipAbductionPlayer.outcomeDescription>TODO</SkipAbductionPlayer.outcomeDescription>
+  <SkipAbductionPlayer.outcomeDescription>S aktuální kvalitou rituálu zůstane cíl v komatu {0}.</SkipAbductionPlayer.outcomeDescription>
   
   <!-- EN: draw animals -->
-  <SummonAnimals.label>TODO</SummonAnimals.label>
+  <SummonAnimals.label>lákání zvěře</SummonAnimals.label>
   <!-- EN: Create a psychic pulse which will draw a distant herd of animals into the local area. You can then hunt or make use of them as you choose. If not done correctly, this may attract scaria-infected manhunters. -->
-  <SummonAnimals.description>TODO</SummonAnimals.description>
+  <SummonAnimals.description>Vyšle psychický puls, který přiláká vzdálené stádo zvěře do této oblasti. Takto přilákanou zvěř můžeš lovit anebo s ní zacházet jakse ti zlíbí. Pokud se tento rituál nepovede, přiláká skárií nakažené zvířata běsnící po krvi.</SummonAnimals.description>
   <!-- EN: With the current ritual quality, there is a {0} chance that the animals will arrive as manhunters. -->
-  <SummonAnimals.outcomeDescription>TODO</SummonAnimals.outcomeDescription>
+  <SummonAnimals.outcomeDescription>S aktuální kvalitou rituálu je {0} šance, že přilákaná zvěř bude běsnit po krvi.</SummonAnimals.outcomeDescription>
   
   <!-- EN: draw fleshbeasts -->
-  <SummonFleshbeasts.label>TODO</SummonFleshbeasts.label>
+  <SummonFleshbeasts.label>vyprovokování masostvůr</SummonFleshbeasts.label>
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonFleshbeasts.description>TODO</SummonFleshbeasts.description>
+  <SummonFleshbeasts.description>Vyšle psychický puls, který vyprovokuje masostvůry aby se vynořily u tvých nepřátel. I přesto ale zaútočí jak na nepřítele tak tvé spojence. Masostvůry mohou být zajmuty a studovány nebo poraženy pro zkroucené maso.</SummonFleshbeasts.description>
   <!-- EN: They intend to use a psychic ritual to summon hideous fleshbeasts to attack you. -->
-  <SummonFleshbeasts.letterAIArrivedText>TODO</SummonFleshbeasts.letterAIArrivedText>
+  <SummonFleshbeasts.letterAIArrivedText>Mají v plánu psychicky vyvolat strašlivé masostvůry které na tebe zaůtočí.</SummonFleshbeasts.letterAIArrivedText>
   <!-- EN: Fleshbeasts emerging -->
-  <SummonFleshbeasts.letterAICompleteLabel>TODO</SummonFleshbeasts.letterAICompleteLabel>
+  <SummonFleshbeasts.letterAICompleteLabel>Zjevující se masostvůry</SummonFleshbeasts.letterAICompleteLabel>
   <!-- EN: Fleshbeasts are clawing their way out of the ground. Prepare for their attack! -->
-  <SummonFleshbeasts.letterAICompleteText>TODO</SummonFleshbeasts.letterAICompleteText>
+  <SummonFleshbeasts.letterAICompleteText>Masostvůry se začínají vynářet ze země. Připrav se na jejich útok!</SummonFleshbeasts.letterAICompleteText>
   <!-- EN: Create a psychic pulse which will draw a horde of fleshbeasts. -->
-  <SummonFleshbeasts.outcomeDescription>TODO</SummonFleshbeasts.outcomeDescription>
+  <SummonFleshbeasts.outcomeDescription>Vyšle psychický puls, který vyprovokuje hordu masostvůr.</SummonFleshbeasts.outcomeDescription>
   
   <!-- EN: draw fleshbeasts -->
-  <SummonFleshbeastsPlayer.label>TODO</SummonFleshbeastsPlayer.label>
+  <SummonFleshbeastsPlayer.label>vyprovokování masostvůr</SummonFleshbeastsPlayer.label>
   <!-- EN: Create a psychic pulse which will draw fleshbeasts to dig upwards and emerge near your enemies. They will attack anyone they find, including your enemies and allies. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonFleshbeastsPlayer.description>TODO</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>Vyšle psychický puls, který vyprovokuje masostvůry, aby se vynořily u tvých nepřátel. I přesto ale zaútočí jak na nepřítele tak tvé spojence. Masostvůry mohou být zajmuty a studovány nebo poraženy pro zkroucené maso.</SummonFleshbeastsPlayer.description>
   <!-- EN: A higher quality ritual will attract more fleshbeasts. -->
-  <SummonFleshbeastsPlayer.outcomeDescription>TODO</SummonFleshbeastsPlayer.outcomeDescription>
+  <SummonFleshbeastsPlayer.outcomeDescription>Rituál vyšší kvality vyprovokuje více masostvůr.</SummonFleshbeastsPlayer.outcomeDescription>
   
   <!-- EN: provoke pit gate -->
-  <SummonPitGate.label>TODO</SummonPitGate.label>
+  <SummonPitGate.label>vyvolávání propastné brány</SummonPitGate.label>
   <!-- EN: Use a psychic pulse to provoke underground fleshbeasts into opening a massive pit gate in the ground somewhere in the local area. The massive sinkhole will lead down to a fleshbeast-infested cavern which can be explored for resources. -->
-  <SummonPitGate.description>TODO</SummonPitGate.description>
+  <SummonPitGate.description>Vyšle psychický puls, který vyprovokuje podzemní masostvůry k otevření obří propastní brány někde v okolí. Tato propastní brána vede do místního podzemí zamořeného masostvůrami, které můžeš prozkoumat pro suroviny.</SummonPitGate.description>
   <!-- EN: A higher-quality ritual will attract more fleshbeasts. The fleshbeasts can be captured and studied, or butchered for twisted meat. -->
-  <SummonPitGate.outcomeDescription>TODO</SummonPitGate.outcomeDescription>
+  <SummonPitGate.outcomeDescription>Rituál vyšší kvality vyprovokuje více masostvůr. Masostvůry mohou být zajmuty a studovány nebo poraženy pro zkroucené maso.</SummonPitGate.outcomeDescription>
   
   <!-- EN: draw shamblers -->
-  <SummonShamblers.label>TODO</SummonShamblers.label>
+  <SummonShamblers.label>lákání bloudů</SummonShamblers.label>
   <!-- EN: Create a psychic pulse which will draw a distant horde of animated corpses towards your local area. While they attack any humans that they see, they won't attack your colony directly. You can capture them for study. -->
-  <SummonShamblers.description>TODO</SummonShamblers.description>
+  <SummonShamblers.description>Vyšle psychický puls, který přiláká hordu oživlých mrtvol do tvého okolí. I přesto že zautočí na jakéhokoli člověka, nebudou útočit přímo na tvou kolonii. Můžeš je zajmout a studovat.</SummonShamblers.description>
   <!-- EN: The higher the ritual quality, the more shamblers that will be summoned. -->
-  <SummonShamblers.outcomeDescription>TODO</SummonShamblers.outcomeDescription>
+  <SummonShamblers.outcomeDescription>Rituál vyšší kvality přiláká více bloudů.</SummonShamblers.outcomeDescription>
   
   <!-- EN: void provocation -->
-  <VoidProvocation.label>TODO</VoidProvocation.label>
+  <VoidProvocation.label>provokace nicoty</VoidProvocation.label>
   <!-- EN: Psychically commune with the void, attracting an entity which can be captured and studied. There’s a chance that the invoker will fall into a coma for several hours. -->
-  <VoidProvocation.description>TODO</VoidProvocation.description>
+  <VoidProvocation.description>Psychické spojení s nicotou, které přiláká entity, které mohou být zajmuty a studovány. Hrozí šance, že vyvolávač upadne do komatu na několik hodin.</VoidProvocation.description>
   <!-- EN: With the current quality, there's a {0} chance the invoker will receive dark psychic shock. -->
-  <VoidProvocation.outcomeDescription>TODO</VoidProvocation.outcomeDescription>
+  <VoidProvocation.outcomeDescription>S aktuální kvalitou rituálu je {0} šance, že vyvolávač obdrží temný psychický šok.</VoidProvocation.outcomeDescription>
   
 </LanguageData>
