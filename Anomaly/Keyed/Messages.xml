@@ -3,7 +3,7 @@
 
   <!-- Entities -->
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
-  <MessageActivityRisingDamage>TODO</MessageActivityRisingDamage>
+  <MessageActivityRisingDamage>Aktivita {lookup: {0}; case\entities; 2} se zvyšuje, protože obdržel{replace: {0}; "nociosféra"-"a"; "{0}"-"​"} poškození.</MessageActivityRisingDamage>
   <!-- EN: {0_definite} has died on a holding platform. -->
   <EntityDiedOnHoldingPlatform>{0_definite} zemře{0_gender ? l : la : lo} na zadržovací platformě.</EntityDiedOnHoldingPlatform>
   <!-- EN: New entity discovered -->
