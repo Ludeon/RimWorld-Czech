@@ -5,47 +5,47 @@
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
   <MessageActivityRisingDamage>TODO</MessageActivityRisingDamage>
   <!-- EN: {0_definite} has died on a holding platform. -->
-  <EntityDiedOnHoldingPlatform>TODO</EntityDiedOnHoldingPlatform>
+  <EntityDiedOnHoldingPlatform>{0_definite} zemře{0_gender ? l : la : lo} na zadržovací platformě.</EntityDiedOnHoldingPlatform>
   <!-- EN: New entity discovered -->
   <MessageEntityDiscovered>Objevena nová entita</MessageEntityDiscovered>
 
   <!-- Hate chanters -->
   <!-- EN: The cultists are in a trance and don't respond when attacked. -->
-  <MessageHateChantersAbsorbed>TODO</MessageHateChantersAbsorbed>
+  <MessageHateChantersAbsorbed>Kultisté jsou v tranzu a nebudou agresivní pokud na ně zaútočíš.</MessageHateChantersAbsorbed>
   <!-- EN: The hate chanting has increased in volume. -->
-  <MessageHateChantIncreased>TODO</MessageHateChantIncreased>
+  <MessageHateChantIncreased>Nenávistné odříkávání nabralo na síle.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <SelfResurrectText>TODO</SelfResurrectText>
+  <SelfResurrectText>{0_nameDef} se může oživit dle libosti pomocí odmítnutí smrti.</SelfResurrectText>
   <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
-  <MessageUsingSelfResurrection>TODO</MessageUsingSelfResurrection>
+  <MessageUsingSelfResurrection>{0_nameDef} prochází odmítnutím smrti a brzy se oživí.</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
   <!-- EN: The pit gate has collapsed. -->
-  <MessagePitGateCollapsed>TODO</MessagePitGateCollapsed>
+  <MessagePitGateCollapsed>Propastná brána se zasypala.</MessagePitGateCollapsed>
   <!-- EN: A pit burrow has collapsed. -->
-  <MessagePitBurrowCollapsed>TODO</MessagePitBurrowCollapsed>
+  <MessagePitBurrowCollapsed>Podzemní nora se zasypala.</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
   <!-- EN: The flesh sack contained something -->
-  <FleshmassContainedMessage>TODO</FleshmassContainedMessage>
+  <FleshmassContainedMessage>Masový pytel v sobě něco skrýval</FleshmassContainedMessage>
 
   <!-- Psychic rituals -->
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>TODO</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>TODO</MessageAIPsychicRitualBegan>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} začínají jejich psychický rituál</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
   <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
-  <MessageBiomutationLanceInvalidTargetRace>TODO</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceInvalidTargetRace>Nelze zacílit: {0_nameDef} není ani člověk ani zvíře.</MessageBiomutationLanceInvalidTargetRace>
   <!-- EN: Cannot target: {0_nameDef} is too large. -->
   <MessageBiomutationLanceTargetTooBig>TODO</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>TODO</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageNoRoomWithMinimumContainmentStrength>Varování: {0} má vyšší minimální zadržovací sílu než jakákoli volná zadržovací cela. Pravděpodobně se brzy pokusí utéct.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
   <MessageTargetBelowMinimumContainmentStrength>TODO</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
@@ -53,11 +53,11 @@
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
   <MessageEntityExecuted>TODO</MessageEntityExecuted>
   <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformReinstalled>TODO</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformReinstalled>Varování: Přemontování okupované zadržovací platformy vypustí na ní zadrženou entitu. Přenes ji jako první na jinou platformu.</MessageOccupiedHoldingPlatformReinstalled>
   <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformUninstalled>TODO</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>Varování: Odmontování okupované zadržovací platformy vypustí na ní zadrženou entitu. Přenes ji jako první na jinou platformu.</MessageOccupiedHoldingPlatformUninstalled>
   <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformDeconstructed>TODO</MessageOccupiedHoldingPlatformDeconstructed>
+  <MessageOccupiedHoldingPlatformDeconstructed>Varování: Rozebrání okupované zadržovací platformy vypustí na ní zadrženou entitu. Přenes ji jako první na jinou platformu.</MessageOccupiedHoldingPlatformDeconstructed>
   
   <!-- Duplicator obelisk -->
   <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
@@ -65,26 +65,26 @@
   
   <!-- Proximity detector -->
   <!-- EN: A proximity detector has detected an invisible creature. -->
-  <MessageProximityDetectorTriggered>TODO</MessageProximityDetectorTriggered>
+  <MessageProximityDetectorTriggered>Detektor entit zaznamenal neviditelnou entitu v jeho okolí.</MessageProximityDetectorTriggered>
   
   <!-- Unnatural darkness --> 
   <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
-  <MessagePawnAttackedInDarkness>TODO</MessagePawnAttackedInDarkness>
+  <MessagePawnAttackedInDarkness>{0_nameDef} je pod útokem něčeho, co se schovávalo v temnotě.</MessagePawnAttackedInDarkness>
   
   <!-- Revenant -->
   <!-- EN: A hidden revenant has been revealed! -->
-  <MessageRevenantForcedVisibility>TODO</MessageRevenantForcedVisibility>
+  <MessageRevenantForcedVisibility>Skrývající se soumračník byl odhalen!</MessageRevenantForcedVisibility>
   <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
   <MessageRevenantHeard>TODO</MessageRevenantHeard>
   
   <!-- Abilities -->
   <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
-  <MessageCannotUseOnNonBleeder>TODO</MessageCannotUseOnNonBleeder>
+  <MessageCannotUseOnNonBleeder>{ABILITY_label} nemůže být použito na nekrvácející stvoření.</MessageCannotUseOnNonBleeder>
   
   <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
-  <MessageFingerspikeDisturbed>TODO</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} probudil{WAKER_pronoun} šťourohrot.</MessageFingerspikeDisturbed>
   <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
-  <MessageFingerspikeDisturbedPlural>TODO</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} probudil{WAKER_pronoun} šťourohroty.</MessageFingerspikeDisturbedPlural>
 
   <!-- EN: The death pall has resurrected {0_indefinite}. -->
   <DeathPallResurrectedMessage>TODO</DeathPallResurrectedMessage>

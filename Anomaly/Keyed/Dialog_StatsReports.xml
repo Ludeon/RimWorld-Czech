@@ -2,22 +2,22 @@
 <LanguageData>
 
   <!-- EN: Knowledge gain from study -->
-  <KnowledgeFromStudy>TODO</KnowledgeFromStudy>
+  <KnowledgeFromStudy>Vědomosti získané studiem</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>TODO</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>Druh a množství vědomostí které získáš studiem dané entity. Výzkum sofistikovanějších entity může odemknout pokročilejší výzkumy.</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
-  <Stat_Knowledge>TODO</Stat_Knowledge>
+  <Stat_Knowledge>{replace: ^{0} {1}^; "^1 základní^"-"1 základní"; "^2 základní^"-"2 základní"; "^3 základní^"-"3 základní"; "^4 základní^"-"4 základní"; "^{0} základní^"-"{0} základních"; "^1 pokročilá^"-"1 pokročilá"; "^2 pokročilá^"-"2 pokročilé"; "^3 pokročilá^"-"3 pokročilé"; "^4 pokročilá^"-"4 pokročilé"; "^{0} pokročilá^"-"{0} pokročilých"}</Stat_Knowledge>
   <!-- EN: Study interval -->
-  <StudyFrequency>TODO</StudyFrequency>
+  <StudyFrequency>Interval studií</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
-  <StudyFrequencyDesc>TODO</StudyFrequencyDesc>
+  <StudyFrequencyDesc>Doba po které je možno provést další studii této entity.</StudyFrequencyDesc>
   
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>TODO</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
   <Stat_Hediff_Regeneration_Desc>TODO</Stat_Hediff_Regeneration_Desc>
   <!-- EN: {0} hp/day -->
-  <Stat_Hediff_Regeneration_Stat>TODO</Stat_Hediff_Regeneration_Stat>
+  <Stat_Hediff_Regeneration_Stat>{0} hp/den</Stat_Hediff_Regeneration_Stat>
 
   <!-- EN: Average lighting -->
   <Stat_ContainmentStrength_AverageLighting>Zprůměrované osvětlení</Stat_ContainmentStrength_AverageLighting>
@@ -41,7 +41,7 @@
   <!-- EN: Bioferrite generation -->
   <StatsReport_BioferriteGeneration>Vytváření bioferitu</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>Kolik bioferitu tato entita denně vyprodukuje, když je připojena k bioferitovému sklízeči.</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>Kolik bioferitu tato entita denně vyprodukuje, když je připojena k sklízeči bioferitu.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
   <StatsReport_BioferriteDensityMultiplier>Násobitel pro bioferitovou hustotu</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite extracted recently -->
@@ -53,9 +53,9 @@
   <StatsReport_Offering_Desc>TODO</StatsReport_Offering_Desc>
 
   <!-- EN: Ritual duration -->
-  <StatsReport_RitualDuration>TODO</StatsReport_RitualDuration>
+  <StatsReport_RitualDuration>Délka rituálu</StatsReport_RitualDuration>
   <!-- EN: The time it takes to perform this ritual. -->
-  <StatsReport_RitualDuration_Desc>TODO</StatsReport_RitualDuration_Desc>
+  <StatsReport_RitualDuration_Desc>Čas jak dlouho trvá tento rituál.</StatsReport_RitualDuration_Desc>
 
   <!-- EN: Cooldown -->
   <StatsReport_RitualCooldown>TODO</StatsReport_RitualCooldown>
