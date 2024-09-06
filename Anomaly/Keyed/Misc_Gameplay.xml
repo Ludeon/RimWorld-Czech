@@ -42,7 +42,7 @@
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
   <LetterPawnHypnotized>{PAWN_nameDef} byl{PAWN_pronoun} zhypnotizov{PAWN_gender ? án : aná} soumračníkem a teď nesouvisle mulmá o nepředstavitelných děsech.\n\nZabití soumračníka ukončí {PAWN_possessive} hypnózu.\n\nSoumračník používá psychických energií k překroucení vizuálních věmů těm, kteří se nacházejí v jeho blízkosti, což ho dělá pro ně neviditelným. Stále je možné ho najít podle mastných šmuh a stop které za sebou zasechává. Soumračník se odhalí, pokud je zasažen výbuchem, hasicí pěnou, EMP, ohněm nebo světlicemi.\n\nPokud ho nezabiješ, bude si periodicky chodit pro další oběti.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
-  <LetterRevenantFleshChunkLabel>Kus soumračníka</LetterRevenantFleshChunkLabel>
+  <LetterRevenantFleshChunkLabel>Kus tkáně soumračníka</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
   <LetterRevenantFleshChunkText>Zraněný soumračník za sebou zanechal část sama sebe. Můžeš jí analyzovat a zjistit, jak je možné najít soumračníka, kterému patří.</LetterRevenantFleshChunkText>
   <!-- EN: Revenant seen -->
@@ -371,7 +371,7 @@
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
   <MetalhorrorReasonSurgeryInspected>{PAWN_nameDef} spozoroval{PAWN_pronoun}, že {INFECTED_nameDef} byl{PAWN_pronoun} infikov{PAWN_gender ? án : aná} kovoďasem, při chirurgické inspekci. Kovoďas se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonSurgeryInspected>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
-  <MetalhorrorReasonRandom>{INFECTED_nameDef} z neznámích důvodů upadl{INFECTED_pronoun} a začal se z něj vyřezávat kovoďas.</MetalhorrorReasonRandom>
+  <MetalhorrorReasonRandom>{INFECTED_nameDef} z neznámých důvodů upadl{INFECTED_pronoun} a začal se z něj vyřezávat kovoďas.</MetalhorrorReasonRandom>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged upon sensing it was being taken away from the colony. -->
   <MetalhorrorReasonTriedToLeaveMap>{INFECTED_nameDef} upadl{INFECTED_pronoun} a začal se z něj vyřezávat kovoďas poté, co zjistil že opouští kolonii.</MetalhorrorReasonTriedToLeaveMap>
   
@@ -386,7 +386,7 @@
   <MetalhorrorNoticedDetailsAppended>Kovoďasové jsou parazité, kteří kontrolují mysl hosta a využívají jjeho těla k nakažení dalších.\n\nKovoďasové rostou a nabírají na síle uvnotř hosta s postupem času. Pokud zjistí že byl objeven, vyřeže se z hostova těla. Tento proces je velmi znepokojující, ale host ho většinou přežije.\n\nJediný způsob jakým je možné zjistit že někdo byl nakažen kovoďasem, je sledovat kusy masa s biostopu kovoďase a poté ho podrobit chirurgické inspekci s důvěryhodným doktorem.\n\nPoté co přijdeš na to kdo je nakažen, můžeš chirurgickou inspekcí vylákat kovoďase z hostova těla. Očekávej boj.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
-  <LetterGrayFleshDiscoveredLabel>Šedá tkáň</LetterGrayFleshDiscoveredLabel>
+  <LetterGrayFleshDiscoveredLabel>Kus šedé tkáně</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
   <LetterGrayFleshDiscovered>{PAWN_nameDef} naš{PAWN_gender ? el : la} kus masa, který připomíná lidské maso poseté malinkými kovovými částečkami. Muselo z někoho updadnout při procesu zkapalňování tkáně.\n\nNěkdo tu možná není, to co předstírá.\n\nJe několik způsobu jakými lze odhalit toho, kdo je nakažený:\n\n{METHODS}\n\nVarování: Někteří parazité jsou schopni ovládat mysl hosta a i nakazit ostatní.</LetterGrayFleshDiscovered>
   
@@ -526,7 +526,7 @@
   <!-- EN: hp -->
   <HP>hp</HP>
   <!-- EN: analyzed -->
-  <Analyzed>analizováno</Analyzed>
+  <Analyzed>analyzováno</Analyzed>
   <!-- EN: Highest skill -->
   <HighestSkill>Nejvyšší dovednost</HighestSkill>
   
@@ -582,7 +582,7 @@
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>Výsledek studie nepřirozené mrtvoly</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>Tvý kolonisté přišli na způsob, jakým je možné bezpečně odstranit archotecký střep z těla mrtvoly. {VICTIM_nameDef} si konečně bude moci odpočinout od psychické bombardace, kterou trpěl{PAWN_pronoun} od chvíle, co se tato mrtvola oběvila v tvojí kolonii. Vyjmutí archoteckého střepu z této mrtvoly jí však zbaví její výzkumné hodnoty.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>Tvý kolonisté přišli na způsob, jakým je možné bezpečně odstranit archotecký střep z těla mrtvoly. {VICTIM_nameDef} si konečně bude moci odpočinout od psychické bombardace, kterou trpěl{VICTIM_pronoun} od chvíle, co se tato mrtvola oběvila v tvojí kolonii. Vyjmutí archoteckého střepu z této mrtvoly jí však zbaví její výzkumné hodnoty.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>Střep z mrtvoly</UnnaturalCorpseDeactivatedLetter>
@@ -616,7 +616,7 @@
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>Proubouzící se mrtvola</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
-  <UnnaturalCorpseAwokenLetterDesc>Nepřirozená mrtvola se pomalu zvedá a vypadáto, že {PAWN_nameDef} je jejím cílem!\n\n{PAWN_nameDef} bude pronásledován{PAWN_pronoun} mrtvolou do té doby než se k {PAWN_gender ? němu : ní} nedostane.\n\nMusíš jí okamžitě zničit!</UnnaturalCorpseAwokenLetterDesc>
+  <UnnaturalCorpseAwokenLetterDesc>Nepřirozená mrtvola se pomalu zvedá a vypadá to, že {PAWN_nameDef} je jejím cílem!\n\n{PAWN_nameDef} bude pronásledován{PAWN_pronoun} mrtvolou do té doby než se k {PAWN_gender ? němu : ní} nedostane.\n\nMusíš jí okamžitě zničit!</UnnaturalCorpseAwokenLetterDesc>
 
   <!-- EN: Unnatural corpse destroyed! -->
   <UnnaturalCorpseAwokenDefeatedLetter>Nepřirozená mrtvola zničena!</UnnaturalCorpseAwokenDefeatedLetter>

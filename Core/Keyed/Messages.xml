@@ -161,7 +161,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Nejsou k dispozici žádná místa pro zvířata, na kterých by mohla spát.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>{PAWN_nameDef} nemůže být operován{PAWN_pronoun}, protože je omezen{PAWN_gender ? ý : á} na {replace: ^{RESTRICTIONLABEL}^; "^bez lékařské péče^"-"žádnou lékařskou péči"; "^lékařská péče bez léků^"-"lékařskou péči bez léků"; "^lékařská péče nejlepší kvality^"-"lékařskou péči nejlepší kvality"; "^{0}^"-"{0}"}. Zvaž změnu {PAWN_gender ? jeho : jejího} omezení medicíny.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}</PawnDiedBecauseOf>

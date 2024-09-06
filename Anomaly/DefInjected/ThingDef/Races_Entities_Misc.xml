@@ -42,13 +42,13 @@
   <!-- EN: Digesting {PAWN_nameDef}: {SECONDS} seconds left -->
   <Devourer.comps.CompDevourer.digestingInspector>TODO</Devourer.comps.CompDevourer.digestingInspector>
   <!-- EN: A devourer swallowed {PAWN_nameDef} whole! Kill the devourer before it digests {PAWN_nameDef}. -->
-  <Devourer.comps.CompDevourer.messageDigested>TODO</Devourer.comps.CompDevourer.messageDigested>
+  <Devourer.comps.CompDevourer.messageDigested>{PAWN_nameDef} byl{PAWN_pronoun} shltnuta v celku! Zabij požírače který {PAWN_gender ? ho slupnul, než ho : jí slupnul, než jí} roztáví.</Devourer.comps.CompDevourer.messageDigested>
   <!-- EN: The devourer has regurgitated {PAWN_nameDef}. -->
   <Devourer.comps.CompDevourer.messageDigestionCompleted>{PAWN_nameDef} byl{PAWN_pronoun} vyvržen{PAWN_pronoun} požíračem.</Devourer.comps.CompDevourer.messageDigestionCompleted>
   <!-- EN: {PAWN_nameDef} emerged from the devourer. -->
-  <Devourer.comps.CompDevourer.messageEmerged>TODO</Devourer.comps.CompDevourer.messageEmerged>
+  <Devourer.comps.CompDevourer.messageEmerged>{PAWN_nameDef} se dostal{PAWN_pronoun} z požírače.</Devourer.comps.CompDevourer.messageEmerged>
   <!-- EN: {PAWN_nameDef} emerged from the devourer's corpse. -->
-  <Devourer.comps.CompDevourer.messageEmergedCorpse>TODO</Devourer.comps.CompDevourer.messageEmergedCorpse>
+  <Devourer.comps.CompDevourer.messageEmergedCorpse>{PAWN_nameDef} se dostal{PAWN_pronoun} z mrtvoly požírače.</Devourer.comps.CompDevourer.messageEmergedCorpse>
   <!-- EN: left fin -->
   <Devourer.tools.left_fin.label>levá ploutev</Devourer.tools.left_fin.label>
   <!-- EN: fin -->
@@ -65,9 +65,9 @@
   <!-- EN: The archotech core of a fleshmass heart. It is a chaotic lattice of fluid-smeared metal. Solid chunks of jagged metal appear here and there, packed with archotechnology. The whole structure slowly twists and bends under its own power.\n\nIt constantly grows meat on its surface, which occasionally erupts violently. If too much meat builds up, it will regrow into a fleshmass heart. -->
   <FleshmassNucleus.description>Archotecké jádro masohmotného srdce, které vypadá jako chaotická mřížka z kovu pokrytá tekutinou. Pevné kusy kovu jako by místy probodávaly tkáň jako takovou. Celé jádro se pomalu přetvarovává svou vlastní silou.\n\nNeustále na jeho povrchu výrůstá maso, které se čas od času agresivně roztrhne. Pokud naroste dostatečná masa tkáně, tak z tohoto jádra znovu vyroste masohmotné srdce.</FleshmassNucleus.description>
   <!-- EN: The fleshmass nucleus has grown a critical mass of new flesh. It has developed into a new fleshmass heart!\n\nIn the process, the fleshmass heart has mutated and adopted a new biosignature. -->
-  <FleshmassNucleus.comps.CompActivity.letterDesc>TODO</FleshmassNucleus.comps.CompActivity.letterDesc>
+  <FleshmassNucleus.comps.CompActivity.letterDesc>Masohmotný nukleus si narostl kritické množstvý masohmoty a stalo se z něj masohmotné srdce!\n\nTímto procesem toto srdce získalo novou biostopu.</FleshmassNucleus.comps.CompActivity.letterDesc>
   <!-- EN: Fleshmass transformation -->
-  <FleshmassNucleus.comps.CompActivity.letterTitle>TODO</FleshmassNucleus.comps.CompActivity.letterTitle>
+  <FleshmassNucleus.comps.CompActivity.letterTitle>Masohmotná transformace</FleshmassNucleus.comps.CompActivity.letterTitle>
   
   <!-- EN: gorehulk -->
   <Gorehulk.label>ostnotluk</Gorehulk.label>
@@ -102,37 +102,37 @@
   <!-- EN: nociosphere -->
   <Nociosphere.label>nociosféra</Nociosphere.label>
   <!-- EN: A dark metallic sphere covered with curved and jagged grooves. The sphere emanates sensations of pain. It hurts to be near it.\n\nThe sphere thrums with a mysterious energy. It appears to be increasing in activity. It's not clear what will happen when it reaches its full capacity. However, if you capture it, you can decrease its activity by suppressing it. -->
-  <Nociosphere.description>TODO</Nociosphere.description>
+  <Nociosphere.description>Tmavá kovová koule s ostrými vzory vyrytými na jejím povrch. V její blízkosti je cítít specifická bolest.\n\nOplývá záhadnou energií a vypadá to že nabírá na aktivitě. Není známé co se stane, když dosáhne plné aktivity. Pokud jí zadržíš, budeš moci snižovat její aktivitu potlačováním.</Nociosphere.description>
   <!-- EN: The nociosphere's activity level has reached 100% and it has activated. It has begun an onslaught of pain and destruction.\n\nIt will eventually depart - if you can survive long enough. -->
   <Nociosphere.comps.CompActivity.letterDesc>TODO</Nociosphere.comps.CompActivity.letterDesc>
   <!-- EN: Nociosphere activated -->
-  <Nociosphere.comps.CompActivity.letterTitle>TODO</Nociosphere.comps.CompActivity.letterTitle>
+  <Nociosphere.comps.CompActivity.letterTitle>Nociosféra se zaktivovala</Nociosphere.comps.CompActivity.letterTitle>
   <!-- EN: Nociosphere study progress -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>TODO</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>Pokrok ve studii nociosféry</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.label>
   <!-- EN: {PAWN_nameDef} has learned more about the inner workings of the nociosphere. It seems to have a single purpose - to inflict pain on those around it.\n\n{PAWN_nameDef} thinks {PAWN_pronoun} may be able to weaponize the nociosphere but you must study it more first. -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>TODO</Nociosphere.comps.CompStudyUnlocks.studyNotes.0.text>
   <!-- EN: Nociosphere study progress -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>TODO</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>Pokrok ve studii nociosféry</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.label>
   <!-- EN: By studying the nociosphere, you've learned how to intentionally activate it.\n\nWhen activated, the nociosphere will teleport to a remote location of your choice and unleash a barrage of pain on anyone nearby. The nociosphere will continue to hunt down anything nearby until it is destroyed or it chooses to return. Select the nociosphere to activate it. -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>TODO</Nociosphere.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Nociosphere study complete -->
-  <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>TODO</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>
+  <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>Studie nociosféry dokončena</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.label>
   <!-- EN: {PAWN_nameDef} has made an alarming discovery about the nociosphere. The entity is showing early signs of instability.\n\nOnce the nociosphere starts to become unstable, you can dispose of it by sending it to attack a hostile threat. For a short period, the nociosphere will hunt down anything nearby - friend or foe.\n\nOnce its onslaught is complete, it will permanently depart. If it becomes fully unstable, it will no longer respond to suppression. -->
   <Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>TODO</Nociosphere.comps.CompStudyUnlocks.studyNotes.2.text>
   <!-- EN: Teleport the nociosphere to a nearby location. It will then unleash an onslaught of murder and pain on everyone nearby for a short time. The nociosphere will hunt down any creature, including allies and other entities.\n\nThe nociosphere can be sent multiple times. -->
   <Nociosphere.comps.CompNociosphere.activateDescString>TODO</Nociosphere.comps.CompNociosphere.activateDescString>
   <!-- EN: Send the nociosphere... -->
-  <Nociosphere.comps.CompNociosphere.activateLabelString>TODO</Nociosphere.comps.CompNociosphere.activateLabelString>
+  <Nociosphere.comps.CompNociosphere.activateLabelString>Vyšli nociosféru...</Nociosphere.comps.CompNociosphere.activateLabelString>
   <!-- EN: sending {0}: {1}s -->
-  <Nociosphere.comps.CompNociosphere.activatingString>TODO</Nociosphere.comps.CompNociosphere.activatingString>
+  <Nociosphere.comps.CompNociosphere.activatingString>posílá nociosféru: {1}s</Nociosphere.comps.CompNociosphere.activatingString>
   <!-- EN: Becoming unstable -->
-  <Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>TODO</Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>
+  <Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>Stává se nestabilní</Nociosphere.comps.CompNociosphere.becomingUnstableInspectText>
   <!-- EN: The nociosphere is departing. -->
-  <Nociosphere.comps.CompNociosphere.departingMessage>TODO</Nociosphere.comps.CompNociosphere.departingMessage>
+  <Nociosphere.comps.CompNociosphere.departingMessage>Nociosféra odchází.</Nociosphere.comps.CompNociosphere.departingMessage>
   <!-- EN: send nociosphere -->
-  <Nociosphere.comps.CompNociosphere.jobString>TODO</Nociosphere.comps.CompNociosphere.jobString>
+  <Nociosphere.comps.CompNociosphere.jobString>vyšli nociosféru</Nociosphere.comps.CompNociosphere.jobString>
   <!-- EN: Nociosphere departed -->
-  <Nociosphere.comps.CompNociosphere.leftLetterLabel>TODO</Nociosphere.comps.CompNociosphere.leftLetterLabel>
+  <Nociosphere.comps.CompNociosphere.leftLetterLabel>Nociosféra odešla.</Nociosphere.comps.CompNociosphere.leftLetterLabel>
   <!-- EN: The nociosphere has disappeared, ending its onslaught.\n\nIt's unclear where the nociosphere has gone or if it will return. -->
   <Nociosphere.comps.CompNociosphere.leftLetterText>TODO</Nociosphere.comps.CompNociosphere.leftLetterText>
   <!-- EN: Nociosphere onslaught cooldown -->
@@ -142,9 +142,9 @@
   <!-- EN: Onslaught mode: {0} seconds left -->
   <Nociosphere.comps.CompNociosphere.onslaughtInspectText>TODO</Nociosphere.comps.CompNociosphere.onslaughtInspectText>
   <!-- EN: Unstable: cannot be suppressed -->
-  <Nociosphere.comps.CompNociosphere.unstableInspectText>TODO</Nociosphere.comps.CompNociosphere.unstableInspectText>
+  <Nociosphere.comps.CompNociosphere.unstableInspectText>Nestabilní: nemůže bít potlačena</Nociosphere.comps.CompNociosphere.unstableInspectText>
   <!-- EN: Warning: the nociosphere will resist suppression in {0} days. -->
-  <Nociosphere.comps.CompNociosphere.unstableWarning>TODO</Nociosphere.comps.CompNociosphere.unstableWarning>
+  <Nociosphere.comps.CompNociosphere.unstableWarning>Varování: Za {replace: ^{0}^; "^1 den^"-"1 den"; "^2 dnů^"-"2 dny"; "^3 dnů^"-"3 dny"; "^4 dnů^"-"4 dny"; "^{0}^"-"{0} dní"} bude nociosféra odolná potlačování.</Nociosphere.comps.CompNociosphere.unstableWarning>
   
   <!-- EN: noctol -->
   <Noctol.label>noktol</Noctol.label>
