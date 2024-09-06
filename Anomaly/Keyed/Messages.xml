@@ -33,7 +33,7 @@
 
   <!-- Psychic rituals -->
   <!-- EN: {0_pawnsPluralDef} are attacking! -->
-  <MessagePsychicRitualAssault>TODO</MessagePsychicRitualAssault>
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef} útočí!</MessagePsychicRitualAssault>
   <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
   <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} začínají jejich psychický rituál</MessageAIPsychicRitualBegan>
   
@@ -47,11 +47,11 @@
   <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
   <MessageNoRoomWithMinimumContainmentStrength>Varování: {0} má vyšší minimální zadržovací sílu než jakákoli volná zadržovací cela. Pravděpodobně se brzy pokusí utéct.</MessageNoRoomWithMinimumContainmentStrength>
   <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>TODO</MessageTargetBelowMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>Varování: {0} nemá zadržovací sílu na úrovni minimální zadržovací síly pro {lookup: {1}; case\entities; 4}. Pravděpodobně se brzy pokusí utéct.</MessageTargetBelowMinimumContainmentStrength>
   <!-- EN: Can't transfer to {0} reserved by someone else. -->
-  <MessageHolderReserved>TODO</MessageHolderReserved>
+  <MessageHolderReserved>{0} je už rezervov{replace: {0}; "zadržovací platforma"-"aná"; "zadržovací místo"-"áno"} někým jiným.</MessageHolderReserved>
   <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
-  <MessageEntityExecuted>TODO</MessageEntityExecuted>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort} popravil{EXECUTIONER_pronoun} {lookup: {VICTIM_kindIndef}; case\entities; 4}.</MessageEntityExecuted>
   <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
   <MessageOccupiedHoldingPlatformReinstalled>Varování: Přemontování okupované zadržovací platformy vypustí na ní zadrženou entitu. Přenes ji jako první na jinou platformu.</MessageOccupiedHoldingPlatformReinstalled>
   <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
@@ -60,8 +60,8 @@
   <MessageOccupiedHoldingPlatformDeconstructed>Varování: Rozebrání okupované zadržovací platformy vypustí na ní zadrženou entitu. Přenes ji jako první na jinou platformu.</MessageOccupiedHoldingPlatformDeconstructed>
   
   <!-- Duplicator obelisk -->
-  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
-  <MessageHostileDuplicate>TODO</MessageHostileDuplicate>
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. ???-->
+  <MessageHostileDuplicate>Nepřátelský duplikát jednoho z tvých kolonistů se objevil.</MessageHostileDuplicate>
   
   <!-- Proximity detector -->
   <!-- EN: A proximity detector has detected an invisible creature. -->
@@ -87,6 +87,6 @@
   <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} probudil{WAKER_pronoun} šťourohroty.</MessageFingerspikeDisturbedPlural>
 
   <!-- EN: The death pall has resurrected {0_indefinite}. -->
-  <DeathPallResurrectedMessage>TODO</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>{0_indefinite} by{0_gender ? l : la : lo} ožive{0_gender ? n : na : no} mrtvolným závojem.</DeathPallResurrectedMessage>
   
 </LanguageData>

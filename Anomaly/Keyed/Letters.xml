@@ -13,7 +13,7 @@
   <!-- EN: Cultist hate chanters -->
   <HateChantersLabel>nenávistní kultisté</HateChantersLabel>
   <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
-  <HateChantersText>Přišli nenávistní odříkávači a plánují provést rituál nenávistného odříkávní. Tento rituál bude mít silný dopad na mentální stav tvých kolonistů a může je přivést až k šílenstvý. Odříkáváním vyvolaná nenávist bude růst na intezitě, do té doby, než nepřerušíš rituál kultistů.</HateChantersText>
+  <HateChantersText>Přišli nenávistní odříkávači a plánují provést rituál nenávistného odříkávní. Tento rituál bude mít silný dopad na mentální stav tvých kolonistů a může je přivést až k šílenství. Odříkáváním vyvolaná nenávist bude růst na intezitě, do té doby, než nepřerušíš rituál kultistů.</HateChantersText>
   <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>Kultisté útočí</HateChantersAttackingLabel>
   <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
@@ -21,274 +21,274 @@
 
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
-  <PsychicRitualCompleteLabel>TODO</PsychicRitualCompleteLabel>
+  <PsychicRitualCompleteLabel>rituál {lookup: {0}; case\ritual; 2} dokončen</PsychicRitualCompleteLabel>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
-  <VoidProvocationCompletedText>TODO</VoidProvocationCompletedText>
+  <VoidProvocationCompletedText>{INVOKER_nameDef} dokončil{PAWN_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2} a tím vyslal{INVOKER_pronoun} psychickou vlnu, která přiláká entity.</VoidProvocationCompletedText>
   <!-- EN: Prepare for what comes next. -->
-  <VoidProvocationSucceeded>TODO</VoidProvocationSucceeded>
+  <VoidProvocationSucceeded>Připrav se na to co bude následovat.</VoidProvocationSucceeded>
   <!-- EN: Unfortunately, your call has been left unanswered. -->
-  <VoidProvocationFailed>TODO</VoidProvocationFailed>
+  <VoidProvocationFailed>Buhužel, tvé volání nebylo zodpovězeno.</VoidProvocationFailed>
   <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
-  <VoidProvocationDarkPsychicShock>TODO</VoidProvocationDarkPsychicShock>
+  <VoidProvocationDarkPsychicShock>Při rituálu, {INVOKER_nameDef} přejel{INVOKER_pronoun} pohledem něco vymikající se lidskému pochopení. To co spatřil{INVOKER_pronoun} {INVOKER_gender ? ho : jí} uhadilo do krátkého kómatu.</VoidProvocationDarkPsychicShock>
   <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
-  <PhilophagyCompleteText>TODO</PhilophagyCompleteText>
+  <PhilophagyCompleteText>{INVOKER_nameDef} dokončila rituál {lookup: {RITUAL}; case\ritual; 2} a absorbovala zkušenosti a vzpomínky, zatím co {TARGET_nameDef} o ně přiš{TARGET_gender ? el : la}.</PhilophagyCompleteText>
   <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
-  <PawnGainedXPInSkill>TODO</PawnGainedXPInSkill>
+  <PawnGainedXPInSkill>{0_nameDef} získal{0_pronoun} {1} zkušeností {lookup: {2}; case\skills; 2}</PawnGainedXPInSkill>
   <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
-  <PawnLostXPInSkill>TODO</PawnLostXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef} ztratil{0_pronoun} {1} zkušeností {lookup: {2}; case\skills; 2}</PawnLostXPInSkill>
   <!-- EN: rising from skill level {0} to {1}. -->
-  <PhilophagySkillLevelGained>TODO</PhilophagySkillLevelGained>
+  <PhilophagySkillLevelGained>přičemž je teď na {1}. úrovni z původní {0}.</PhilophagySkillLevelGained>
   <!-- EN: falling from skill level {0} to {1}. -->
-  <PhilophagySkillLevelLost>TODO</PhilophagySkillLevelLost>
+  <PhilophagySkillLevelLost>přičemž je teď na {1}. úrovni z původní {0}.</PhilophagySkillLevelLost>
   <!-- EN: remaining at skill level {0}. -->
-  <PhilophagySkillLevelRemains>TODO</PhilophagySkillLevelRemains>
+  <PhilophagySkillLevelRemains>přičemž se stále nachází na {0}. úrovni.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PhilophagyDamagedTarget>TODO</PhilophagyDamagedTarget>
+  <PhilophagyDamagedTarget>{TARGET_nameDef} důsledkem tohoto rituálu utrpěl{TARGET_pronoun} poškození mozku, což {TARGET_gender ? ho : jí} uvrhlo do krátkého kómatu.</PhilophagyDamagedTarget>
 
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
-  <ImbueDeathRefuralCompleteText>TODO</ImbueDeathRefuralCompleteText>
+  <ImbueDeathRefuralCompleteText>{0_nameDef} nabyl{PAWN_pronoun} schopnost odmítnutí smrti, což {PAWN_gender ? mu : jí} umožňuje se sebeoživit po smrti.\n\nTento proces zachoval {PAWN_gender ? jeho : její} mozek, což bude mít za následek, že ztratí {1} zkušeností {lookup: {SKILL_label}; case\skills; 2}.</ImbueDeathRefuralCompleteText>
 
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
-  <SummonAnimalsSuccessText>TODO</SummonAnimalsSuccessText>
+  <SummonAnimalsSuccessText>{0_nameDef} dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Očekávej příchod stáda zvěře.</SummonAnimalsSuccessText>
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
-  <SummonAnimalsFailureText>TODO</SummonAnimalsFailureText>
+  <SummonAnimalsFailureText>{0_nameDef} dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}, ale něco se strašlivě zvrtlo! Tento rituál přivolal skárií nakažená zvířata. Připrav se na jejich příchod!</SummonAnimalsFailureText>
   
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
-  <SummonShamblersCompleteText>TODO</SummonShamblersCompleteText>
+  <SummonShamblersCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Připrav se na jejich příchod.</SummonShamblersCompleteText>
 
   <!-- EN: They are attacking from multiple directions. -->
-  <AttackingFromMultipleDirections>TODO</AttackingFromMultipleDirections> 
+  <AttackingFromMultipleDirections>Přichází z několika směrů.</AttackingFromMultipleDirections> 
 
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
-  <ChronophagyCompleteText>TODO</ChronophagyCompleteText>
+  <ChronophagyCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Tento rituál způsobil:</ChronophagyCompleteText>
   <!-- EN: {0_nameDef} aged {1} years -->
-  <ChronophagyTargetAged>TODO</ChronophagyTargetAged>
+  <ChronophagyTargetAged>{0_nameDef} zastárl{0_pronoun} o {replace: ^{1}^; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"} a je {0_gender ? mu : jí} teď</ChronophagyTargetAged>
   <!-- EN: {0_nameDef} became {1} years younger -->
-  <ChronophagyInvokerRejuvenated>TODO</ChronophagyInvokerRejuvenated>
+  <ChronophagyInvokerRejuvenated>{0_nameDef} omládl{0_pronoun} o {replace: ^{1}^; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{1}^"-"{1} let"} a je {0_gender ? mu : jí} teď</ChronophagyInvokerRejuvenated>
   <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
-  <ChronophagyTargetDiedOfOldAge>TODO</ChronophagyTargetDiedOfOldAge>
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef} nevydržel{0_pronoun} nápor stárnutí chronofágie a jeho důsledkem zemřel{0_pronoun}.</ChronophagyTargetDiedOfOldAge>
   <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
-  <ChronophagyTargetOldAgeDiseases>TODO</ChronophagyTargetOldAgeDiseases>
+  <ChronophagyTargetOldAgeDiseases>{0_nameDef} sice přežil{0_pronoun} rituál, ale začal{0_pronoun} trpět následujícími kondicemi</ChronophagyTargetOldAgeDiseases>
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
-  <ChronophagyInvokerCuredDiseases>TODO</ChronophagyInvokerCuredDiseases>
+  <ChronophagyInvokerCuredDiseases>Dokonce {0_nameDef} při tomto procesu přiš{0_gender ? el : la} o následující kondice:</ChronophagyInvokerCuredDiseases>
   <!-- EN: and is now {0} years old -->
-  <ChronophagyCurrentAge>TODO</ChronophagyCurrentAge>
+  <ChronophagyCurrentAge>{replace: ^{0}^; "^1^"-"1 rok"; "^2^"-"2 roky"; "^3^"-"3 roky"; "^4^"-"4 roky"; "^{0}^"-"{0} let"}</ChronophagyCurrentAge>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
-  <PleasurePulseCompleteText>TODO</PleasurePulseCompleteText>
+  <PleasurePulseCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Příští{replace: ch {1}; "ch 1.0 dnů"-" 1 den"; "ch 2.0 dnů"-" 2 dny"; "ch 3.0 dnů"-" 3 dny"; "ch 4.0 dnů"-" 4 dny"; ".0 dnů"-" dní"; "dnů"-"dne"} všichni, které zasáhl, budou šťastnější, ale zároveň budou pomaleji pracovat.</PleasurePulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
-  <NeurosisPulseCompleteText>TODO</NeurosisPulseCompleteText>
+  <NeurosisPulseCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Příští{replace: ch {1}; "ch 1.0 dnů"-" 1 den"; "ch 2.0 dnů"-" 2 dny"; "ch 3.0 dnů"-" 3 dny"; "ch 4.0 dnů"-" 4 dny"; ".0 dnů"-" dní"; "dnů"-"dne"} všichni, které zasáhl, budou pracovat rychleji, ale budou jednodušeji iritováni.</NeurosisPulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
-  <BloodRainCompleteText>TODO</BloodRainCompleteText>
+  <BloodRainCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Husté červené kapky začaly padat z nebe. Lidé, kteří budou pod střechou, nebudou tímto deštěm nijak ovlivněni.</BloodRainCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
-  <BrainwipeCompleteText>TODO</BrainwipeCompleteText>
+  <BrainwipeCompleteText>{INVOKER_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2} a {TARGET_nameDef} tím přiš{TARGET_gender ? el : la} o většinu vzpomínek, které {TARGET_gender ? mu : jí} byly chaoticky vymazány.</BrainwipeCompleteText>
   <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
-  <BrainwipeTargetComa>TODO</BrainwipeTargetComa>
+  <BrainwipeTargetComa>{TARGET_pronoun} zůstane v kómatu {replace: {1}; "1.0 dnů"-"1 den"; "2.0 dnů"-"2 dny"; "3.0 dnů"-"3 dny"; "4.0 dnů"-"4 dny"; ".0 dnů"-" dní"; "dnů"-"dne"}.</BrainwipeTargetComa>
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
-  <BrainwipeUnwaveringlyLoyal>TODO</BrainwipeUnwaveringlyLoyal>
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} už není neochvějivě loajální.</BrainwipeUnwaveringlyLoyal>
   <!-- EN: {TARGET_nameDef} has been re-humanized. -->
-  <BrainwipeRehumanized>TODO</BrainwipeRehumanized>
+  <BrainwipeRehumanized>{TARGET_nameDef} byla polidštěn{TARGET_pronoun}.</BrainwipeRehumanized>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
-  <PsychophagyCompleteText>TODO</PsychophagyCompleteText>
+  <PsychophagyCompleteText>{INVOKER_nameDef} si uspěšně zvýšil{INVOKER_pronoun} psychickou citlivost rituálem {lookup: {RITUAL}; case\ritual; 2}, kterým {TARGET_nameDef} přiš{TARGET_gender ? el o jeho : la o její} psychickou citlivost.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PsychophagyTargetSurvived>TODO</PsychophagyTargetSurvived>
+  <PsychophagyTargetSurvived>{TARGET_nameDef} je od teď psychicky hluchý. Tento proces poškodil je{TARGET_gender ? ho mozek a uvrhl ho: jí mozek a uvrhl ji} do kómatu.</PsychophagyTargetSurvived>
   
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>TODO</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>Tento proces zkapalněl mozek oběti a tím ji usmrtil.</PsychicRitualTargetBrainLiquified>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
-  <SummonFleshbeastsPlayerCompleteText>TODO</SummonFleshbeastsPlayerCompleteText>
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Masostvůry se začnou nořit ze země!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
   <GhoulInfusionCompleteText>TODO</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
-  <AttackersMayCastRitualMultipleTimes>TODO</AttackersMayCastRitualMultipleTimes>
+  <AttackersMayCastRitualMultipleTimes>Hrozí, že mohou tento rituál znovu zopakovat. Musíš je zastavit.</AttackersMayCastRitualMultipleTimes>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
-  <SkipAbductionPlayerCompleteText>TODO</SkipAbductionPlayerCompleteText>
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} uspěšně dokončil{INVOKER_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Manipulací časoprostoru, {TARGET_nameDef} byl{TARGET_pronoun} unesen{TARGET_pronoun} z frakce {FACTION_name}. Strašidelná forma tohoto rituálu {TARGET_gender ? ho : ji} uvrhla do kómatu.</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
-  <FleshmassResponseLabel>TODO</FleshmassResponseLabel> 
+  <FleshmassResponseLabel>Odpověď masohmoty</FleshmassResponseLabel> 
   <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
-  <FleshmassResponseText>TODO</FleshmassResponseText> 
+  <FleshmassResponseText>Smrt kusu masohmoty vyvolala silnou odpověď! Okolní masohmota se začala třást po při tom co z ní začaly vznikat masostvůry pro její obranu.</FleshmassResponseText> 
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
-  <VoidAwakeningStageOneStructuresActivatedLabel>TODO</VoidAwakeningStageOneStructuresActivatedLabel>
+  <VoidAwakeningStageOneStructuresActivatedLabel>Tmavnoucí obloha</VoidAwakeningStageOneStructuresActivatedLabel>
   <!-- EN: Structures activated -->
-  <VoidAwakeningStageTwoStructuresActivatedLabel>TODO</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <VoidAwakeningStageTwoStructuresActivatedLabel>Struktury se aktivovaly</VoidAwakeningStageTwoStructuresActivatedLabel>
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
-  <VoidAwakeningStageOneStructuresActivatedText>TODO</VoidAwakeningStageOneStructuresActivatedText>
+  <VoidAwakeningStageOneStructuresActivatedText>Když se druhá struktura aktivovala, temnota začala zesilovat. Nepřirozená tma brzy zaplaví okolí. Ujisti se, že je tvoje kolonie připravena. Nahromaď suroviny, postav světla, vyrob světlice a posil obranu. Všich co se ocitnou ve tmě budou v nebezpečí.\n\nDalší zkroucené struktury se zjevý brzy.</VoidAwakeningStageOneStructuresActivatedText>
   <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
-  <VoidAwakeningStageTwoStructuresActivatedText>TODO</VoidAwakeningStageTwoStructuresActivatedText> 
+  <VoidAwakeningStageTwoStructuresActivatedText>Všechni nicotné struktury byly aktivovány. Prostor kolem monolitu se začíná třást. Připrav se.</VoidAwakeningStageTwoStructuresActivatedText> 
   <!-- EN: {STUDIER_nameDef} teleported -->
-  <VoidAwakeningFinalStructuresActivatedLabel>TODO</VoidAwakeningFinalStructuresActivatedLabel> 
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} se teleportoval{STUDIER_pronoun}</VoidAwakeningFinalStructuresActivatedLabel> 
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>TODO</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} byl{STUDIER_pronoun} vytržen{STUDIER_pronoun} z našeho časoprostoru neznámo kam.\n\n{STUDIER_nameDef} v místnosti plné kovových ostů. Všechno je pokryto mastnou tmavou vrstvou a vzduch tu vibruje temnou energií.\n\nToto kovové peklo je spojnicí k nelidské hyperinteligenci.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
-  <VoidAwakeningShamblerArrivalLabel>TODO</VoidAwakeningShamblerArrivalLabel>
+  <VoidAwakeningShamblerArrivalLabel>Bloudi útočí</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
-  <VoidAwakeningShamblerArrivalText>TODO</VoidAwakeningShamblerArrivalText>
+  <VoidAwakeningShamblerArrivalText>Horda bloudů byla přilákána nicotnými strukturami.</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
-  <VoidAwakeningFleshbeastBurrowLabel>TODO</VoidAwakeningFleshbeastBurrowLabel>
+  <VoidAwakeningFleshbeastBurrowLabel>Kopající se masostvůry</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
-  <VoidAwakeningFleshbeastBurrowText>TODO</VoidAwakeningFleshbeastBurrowText>
+  <VoidAwakeningFleshbeastBurrowText>Monolit vypustil silný psychický puls, který přiláká okolní entity.\n\nZ podzemí se začínají ozývat prapodivné skřeky a škrábání pařátů. Masostvůry se hrabou na povrch směrem k tobě.</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
-  <VoidAwakeningMetalhorrorArrivalLabel>TODO</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalLabel>Kovoďasové útočí</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
-  <VoidAwakeningMetalhorrorArrivalText>TODO</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningMetalhorrorArrivalText>Kovoďasové se zjevují u nicotného monolitu.</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
-  <VoidAwakeningEntityArrivalLabel>TODO</VoidAwakeningEntityArrivalLabel> 
+  <VoidAwakeningEntityArrivalLabel>Entity útočí</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
-  <VoidAwakeningEntityArrivalText>TODO</VoidAwakeningEntityArrivalText>
+  <VoidAwakeningEntityArrivalText>Nicotná struktury vypustila psychickou vlnu, která přivolá entity z širokého okolí.</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
-  <VoidAwakeningBreadcrumbLetterLabel>TODO</VoidAwakeningBreadcrumbLetterLabel>
+  <VoidAwakeningBreadcrumbLetterLabel>Splynutí s nicotou</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
-  <VoidAwakeningBreadcrumbLetterText>TODO</VoidAwakeningBreadcrumbLetterText>
+  <VoidAwakeningBreadcrumbLetterText>Při interakci s nicotnou strukturou, {PAWN_nameDef} měl{PAWN_pronoun} zvláštní vizi. Na chvíli zahlédl{PAWN_pronoun} černý nekonečný oceán a ucítil{PAWN_pronoun} jeho moc.\n\n{PAWN_nameDef} si myslí, že by měl existovat způsob jakým ho lze ovládnout, pokud se {PAWN_gender ? mu : jí} povede s ním splynout. Pokud by se ti podařilo permanentně otevřít spojnici s nicotou, místo jejího zničení, vzniklé možnosti by mohli být kolosální.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
-  <VoidNodeReturnedLabel>TODO</VoidNodeReturnedLabel>
+  <VoidNodeReturnedLabel>{PAWN_nameDef} se vrátil{PAWN_pronoun}</VoidNodeReturnedLabel>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
-  <VoidNodeReturnedMessage>TODO</VoidNodeReturnedMessage>
+  <VoidNodeReturnedMessage>{PAWN_nameDef} se znovuzjevil{PAWN_pronoun}</VoidNodeReturnedMessage>
   <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
-  <EmbracedVoidText>TODO</EmbracedVoidText>
+  <EmbracedVoidText>{PAWN_nameDef} se znovuzjevil{PAWN_pronoun}.\n\nVypadá zvadle, po té co si proš{PAWN_gender ? el : la} svým zážikem s nicotou. Všechny znaky lidskosti opustily {PAWN_possessive} oči.\n\n{PAWN_possessive} mysl a tělo jsou permanentně spřažené s nicotou. Poháně{PAWN_gender ? n : ná} tímto temným spojením, {PAWN_nameDef} se necítí omezována lidskými potřebami jako je pohodlí a spánek a přitom získal{PAWN_pronoun} schopnost vyvolat hrůzu v ostatních je{PAWN_gender ? ho : jími} temnými schopnostmi nicoty.\n\nMonolit hučí silněji v je{PAWN_gender : ho : jí} přítomnosti, poukazující na je{PAWN_gender : ho : jí} permanentní spřažení s nicotou.</EmbracedVoidText>
   <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
-  <DisruptedLinkText>TODO</DisruptedLinkText>
+  <DisruptedLinkText>{PAWN_nameDef} se znovuzjevil{PAWN_pronoun}. Je vyčerp{PAWN_gender ? án : aná}, ale jinak zdrav{PAWN_gender ? ý : á}.\n\nZavřením uzlu spojující nicotu s naším světem, {PAWN_nameDef} zastavil prosakování nepřirozených fenoménů do našeho světa. Všechny nepřátelské entity zkolabovaly a leží bez známek života na zemi.\n\nPříběhy o je{PAWN_gender ? ho : jím} nesmírném hrdinstý se zajisté rozšíří široko daleko.</DisruptedLinkText>
   <!-- EN: fleshcrafting -->
-  <RewardFleshcraftingAbility>TODO</RewardFleshcraftingAbility>
+  <RewardFleshcraftingAbility>masotvarování</RewardFleshcraftingAbility>
   <!-- EN: slaughter -->
-  <RewardSlaughterAbility>TODO</RewardSlaughterAbility>
+  <RewardSlaughterAbility>zabijačka</RewardSlaughterAbility>
   <!-- EN: shambler control -->
-  <RewardShamblerControlAbility>TODO</RewardShamblerControlAbility>
+  <RewardShamblerControlAbility>kontrola nad bloudy</RewardShamblerControlAbility>
 
   <!-- Duplicate sickness -->
   <!-- EN: Duplicate sickness -->
-  <DuplicateSicknessLabel>TODO</DuplicateSicknessLabel>
+  <DuplicateSicknessLabel>Duplikační nemoc</DuplicateSicknessLabel>
   <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
-  <DuplicateSicknessText>TODO</DuplicateSicknessText>
+  <DuplicateSicknessText>{0_nameDef} i je{0_gender ? ho : jí} klon se necítí dobře. Kondice, která to způsobuje, je pozůstatkem duplikačního procesu a postupně se zhoršuje. Psychický most který je spojuje, způsobuje postupnou ztrátu vědomí. Jediný způsob jak se jí zbavit je smrtí {0_gender ? jednoho : jedné} z nich.</DuplicateSicknessText>
 
   <!-- Frenzied animals -->
   <!-- EN: Frenzied animals -->
-  <FrenziedAnimalsLabel>TODO</FrenziedAnimalsLabel>
+  <FrenziedAnimalsLabel>Běsnící zvířata</FrenziedAnimalsLabel>
   <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
-  <FrenziedAnimalsText>TODO</FrenziedAnimalsText>
+  <FrenziedAnimalsText>Smečka lidožravých {0}, kterou přilákal tvůj rituál, přišla do tvé oblasti! Budou se toulat po krajině a lovit lidské maso.\n\nNebudou útočit na dveře, pokud však neuvidí, že nimi někdo prošel. Skryj se uvnitř a budeš v bezpečí. Nebudou útočit ani na vypnuté střelecké věže, takže pokud je chceš zachránit, vypni je.\n\nSkupina {0} opustí oblast během jednoho až dvou dnů. Můžeš se schovat a vyčkat, nebo s nimi bojovat.</FrenziedAnimalsText>
 
   <!-- Ghouls -->
   <!-- EN: Ghoul betrayal -->
-  <GhoulBetrayalLabel>TODO</GhoulBetrayalLabel>
+  <GhoulBetrayalLabel>Ghúlí zrada</GhoulBetrayalLabel>
   <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
-  <GhoulBetrayalText>TODO</GhoulBetrayalText>
+  <GhoulBetrayalText>{PAWN_nameDef} zešílela hladem po syrovém mase!</GhoulBetrayalText>
   
   <!-- Distress signal -->
   <!-- EN: Distress signal -->
-  <DistressSignalLabel>TODO</DistressSignalLabel>
+  <DistressSignalLabel>Žádost o pomoc</DistressSignalLabel>
   <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
-  <DistressSignalText>TODO</DistressSignalText>
+  <DistressSignalText>Povedlo se ti zachytit žádost o pomoc z nedaleké usazení. Frakce {FACTION_name} žádá o pomoc kohokoli, kdo se nachází poblíž.\n\nVystresovaný hlas tě žádá o okamžitou pomoc před neznámím nebezpečím. Nabízí jejich celou usedlost jako odměnu a zmínil se i o archoteckých střepech.\n\nKdyž se hlas dostane k popisu nebezpečí ssignál se přeruší.</DistressSignalText>
   <!-- EN: Ambush -->
-  <DistressSignalAmbushLabel>TODO</DistressSignalAmbushLabel>
+  <DistressSignalAmbushLabel>Přepadení</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
-  <DistressSignalAmbushText>TODO</DistressSignalAmbushText>
+  <DistressSignalAmbushText>Masostvůry se začaly vyhrabávat z nedaleké nory!</DistressSignalAmbushText>
 
   <!-- Chimeras -->
   <!-- EN: Chimeras approach -->
-  <ChimeraAssaultLabel>TODO</ChimeraAssaultLabel>
+  <ChimeraAssaultLabel>Chiméry se blíží</ChimeraAssaultLabel>
   <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
-  <ChimeraAssaultText>TODO</ChimeraAssaultText>
+  <ChimeraAssaultText>Skupinka zvláštních zvířata připomínajících tvorů se pomalu blíží.\n\nTyto znetvoření tvorové budou pozorovat tvou kolonii a čekat na příležitost kdy budou moci zaútočit.</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
   <!-- EN: Darkness lifting -->
-  <DarknessLiftingEarlyLetterLabel>TODO</DarknessLiftingEarlyLetterLabel>
+  <DarknessLiftingEarlyLetterLabel>Temnota opadá</DarknessLiftingEarlyLetterLabel>
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
-  <DarknessLiftingEarlyLetterText>TODO</DarknessLiftingEarlyLetterText>
+  <DarknessLiftingEarlyLetterText>Poslední ze noktolitů se zhroutil. Nepřirozená tma začíná pomalu ustupovat. Tvý kolonisté si konečně mohou oddechnout na čistém vzduchu.</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
-  <PawnAttackedInDarknessLabel>TODO</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessLabel>{0_nameDef} pod útokem</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
-  <PawnAttackedInDarknessText>TODO</PawnAttackedInDarknessText>
+  <PawnAttackedInDarknessText>{0_nameDef} je pod útokem!\n\nTo co na {0_gender ? něj : ní} útočí nepřestane do té doby, než se znovu ocitne na světle.</PawnAttackedInDarknessText>
   <!-- EN: Noctol attack -->
-  <NoctolAttackLetterLabel>TODO</NoctolAttackLetterLabel>
+  <NoctolAttackLetterLabel>Noktolové útočí</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
-  <NoctolAttackLetterText>TODO</NoctolAttackLetterText>
+  <NoctolAttackLetterText>Ze tmy se začalo ozívat tiché štěbětání. Něco co nechce být viděno se v ní ukrývá.\n\nČerná hmyz připomínající stvoření nazívaní noktolové na tebe brzy zaútočí.</NoctolAttackLetterText>
   <!-- EN: Darkness soon -->
-  <DarknessWarningLetterLabel>TODO</DarknessWarningLetterLabel>
+  <DarknessWarningLetterLabel>Temnota přichází</DarknessWarningLetterLabel>
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
-  <DarknessWarningLetterText>TODO</DarknessWarningLetterText>
+  <DarknessWarningLetterText>Temnota už je skoro tu. Pouze místa se zdrojem přímeho světla, jako jsou lampy, pochodně a světlice, budou bezpečná.\n\nAby kolonisté nezabloudili do tmy, můžeš jim v záložce HARMONOGRAM nastavit zóny, ve kterých se smějí pohybovat.</DarknessWarningLetterText>
   <!-- EN: Darkness wavering -->
-  <DarknessWaveringLetterLabel>TODO</DarknessWaveringLetterLabel>
+  <DarknessWaveringLetterLabel>Díra v temnotě</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
-  <DarknessWaveringLetterText>TODO</DarknessWaveringLetterText>
+  <DarknessWaveringLetterText>Zničení noktolitu vytvořilo prasklinu ve tmě, která byla rychle znovu zaplněna.\n\nZnič zbývající noktolity a tím ukončíš nepřirozenou tmu.</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
-  <LetterLabelShamblerSwarmArrived>TODO</LetterLabelShamblerSwarmArrived>
+  <LetterLabelShamblerSwarmArrived>Bloudi přichází</LetterLabelShamblerSwarmArrived>
   <!-- EN: Shambler approaches -->
-  <LetterLabelShamblerArrived>TODO</LetterLabelShamblerArrived>
+  <LetterLabelShamblerArrived>Bloud přichází</LetterLabelShamblerArrived>
   <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerSwarmArrived>TODO</LetterShamblerSwarmArrived>
+  <LetterShamblerSwarmArrived>Skupinka {0} hnijících mrtvol pomalu přichází. Nejaká nelidská síla oživila jejich mrtvá těla a dala jim nesmírnou chuť zabíjet.\n\nBudou se toulat po okolí a pokud spatří člověka, tak na něj zaútočí. Pokud ne, po několik dnech zase odejdou.\n\nMůžeš je zadžet a studovat.</LetterShamblerSwarmArrived>
   <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
-  <LetterShamblerArrived>TODO</LetterShamblerArrived>
-  <!-- EN: {ANIMALKIND_label} shamblers -->
+  <LetterShamblerArrived>Hnijící mrtvola pomalu přichází. Nejaká nelidská síla oživila mrtvé tělo a dala jí nesmírnou chuť zabíjet.\n\nBude se toulat po okolí a pokud spatří člověka, tak na něj zaútočí. Pokud ne, po několik dnech zase odejde.\n\nMůžeš ji zadžet a studovat.</LetterShamblerArrived>
+  <!-- EN: {ANIMALKIND_label} shamblers *-->
   <LetterLabelShamblerAnimalsArrived>TODO</LetterLabelShamblerAnimalsArrived>
   <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerAnimalsArrived>TODO</LetterShamblerAnimalsArrived>
 
   <!-- Ghoul pod crash -->
   <!-- EN: Transport pod crash -->
-  <GhoulPodCrashLabel>TODO</GhoulPodCrashLabel>
+  <GhoulPodCrashLabel>Zřícení přepravního modulu</GhoulPodCrashLabel>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashText>TODO</GhoulPodCrashText>
+  <GhoulPodCrashText>Poblíž havaroval přepravní modul s vyhladovělím ghúlem.\n\nTento ghúl je aktuálně v šoku, ale brzy sse z něj probere a zaútočí na toho koho uvidí. Múže být zadržen a studován.\n\nZadrž ho nebo ho zabij předtím, než se vzbudí.</GhoulPodCrashText>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashStartingPawnText>TODO</GhoulPodCrashStartingPawnText>
+  <GhoulPodCrashStartingPawnText>Poblíž havaroval přepravní modul s vyhladovělím ghúlem, který vypadá jako {PAWN_nameDef}, jeden z tvých kolonistů, který se ztratil.\n\nTento ghúl je aktuálně v šoku, ale brzy sse z něj probere a zaútočí na toho koho uvidí. Múže být zadržen a studován.\n\nZadrž ho nebo ho zabij předtím, než se vzbudí.</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
   <!-- EN: New research available -->
-  <LetterLabelEntityDiscovery>TODO</LetterLabelEntityDiscovery>
+  <LetterLabelEntityDiscovery>Nový výzkum odemčen</LetterLabelEntityDiscovery>
   <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
-  <LetterTextEntityDiscoveryResearch>TODO</LetterTextEntityDiscoveryResearch>
+  <LetterTextEntityDiscoveryResearch>Objevení {lookup: {ENTITY_definite}; case\entities; 2} přineslo nové poznatky. Následující výzkumné projekty v záložce Anomálie byly odemčeny</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
-  <NociosphereDefeatedLabel>TODO</NociosphereDefeatedLabel>
+  <NociosphereDefeatedLabel>Nociosféra poražena</NociosphereDefeatedLabel>
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
-  <NociosphereDefeatedText>TODO</NociosphereDefeatedText>
+  <NociosphereDefeatedText>Nociosféra byla zničena a zanechala za sebou cenné suroviny.</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
-  <NociosphereBecomingUnstableLabel>TODO</NociosphereBecomingUnstableLabel> 
+  <NociosphereBecomingUnstableLabel>Nociosféra se destabilizuje</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>TODO</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableText>Energické jevy nociosféry naznačují, že se začíná měnit a přizpůsobovat. Během 10 dní přestane reagovat na pokusy o potlačení.\n\nPokud nebude nociosféra potlačena, tak se zaktivuje.</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereBecomingUnstableTextExtraSendable>TODO</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
-  <NociosphereBecomingUnstableTextExtraNotSendable>TODO</NociosphereBecomingUnstableTextExtraNotSendable>
+  <NociosphereBecomingUnstableTextExtraNotSendable>Její studie ti umožní najít způsob jak se jí zbavit.</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
-  <NociosphereUnstableLabel>TODO</NociosphereUnstableLabel>
+  <NociosphereUnstableLabel>Nociosféra je nestabilní</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
-  <NociosphereUnstableText>TODO</NociosphereUnstableText>
+  <NociosphereUnstableText>Nociosféra se stala nestabilní a nereaguje na pokusi o potlačení. Pokud její aktivita dosáhne 100%, tak se probudí.</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereUnstableTextExtraSendable>TODO</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere’s onslaught. -->
   <NociosphereUnstableTextExtraNotSendable>TODO</NociosphereUnstableTextExtraNotSendable>
 
   <!-- EN: Strange corpse -->
-  <UnnaturalCorpseArrivalLabel>TODO</UnnaturalCorpseArrivalLabel>
+  <UnnaturalCorpseArrivalLabel>Zvláštní mrtvola</UnnaturalCorpseArrivalLabel>
   <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
-  <UnnaturalCorpseArrivalText>TODO</UnnaturalCorpseArrivalText>
+  <UnnaturalCorpseArrivalText>Nepřirozená lidská mrtvola se zničeho nic objevila poblíž.\n\nPo bližším prozkoumání vypadá jako by jí {PAWN_nameDef} z oka vypadl{PAWN_pronoun}. Je mastná a teplá na dotek.\n\nJejí studií toho o ní zjistíš více.</UnnaturalCorpseArrivalText>
 
   <!-- EN: Golden cube -->
-  <GoldenCubeArrivalLabel>TODO</GoldenCubeArrivalLabel>
+  <GoldenCubeArrivalLabel>Zlatá krychle</GoldenCubeArrivalLabel>
   <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
-  <GoldenCubeArrivalText>TODO</GoldenCubeArrivalText>
+  <GoldenCubeArrivalText>Zvláštní krychle přistála o podál. Zlatě se leskne a není ji možné poškrábat. Je lehká, teplá na dotek a světlo se čarovně odráží od jejího povrchu.\n\n{PAWN_nameDef} se k ní cítí nevysvětlitelně přitahován{PAWN_pronoun}.\n\nJejí studií toho o ní zjistíš více.</GoldenCubeArrivalText>
 
   <!-- EN: Void curiosity -->
-  <VoidCuriosityLabel>TODO</VoidCuriosityLabel>
+  <VoidCuriosityLabel>Nicotná zvědavost</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>TODO</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef} začal{PAWN_pronoun} být fascinován{PAWN_pronoun} nicotou a chtěl{PAWN_pronoun} by zjistit čeho je schopná, pokud jí vyprovokuje.\n\nPoužij rituál provokace nicoty k objevení a zadržení nových entit. Tyto entity mohou být studovány, címž je možné zkoumat výzkumné projekty anebo je z nich možné sklízet buď to elektřinu nebo bioferit.\n\nMusíš nejprve někam položit psychické rituální místo, které ti umožní provádět rituál provokace nicoty.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>TODO</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} začal{PAWN_pronoun} být fascinován{PAWN_pronoun} nicotou a chtěl{PAWN_pronoun} by zjistit čeho je schopná, pokud jí vyprovokuje.\n\nPoužij rituál provokace nicoty k objevení a zadržení nových entit. Tyto entity mohou být studovány, címž je možné zkoumat výzkumné projekty anebo je z nich možné sklízet buď to elektřinu nebo bioferit.\n\nMusíš nejprve vyzkoumat provokaci nicoty, což ti jí umožní provádět na psychickém rituálním místě.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

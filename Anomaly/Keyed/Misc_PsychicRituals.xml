@@ -69,7 +69,7 @@
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>TODO</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} není schop{PAWN_gender ? en : na} dosáhnout na cíl rituálu.</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} není schop{PAWN_gender ? en : ná} dosáhnout na cíl rituálu.</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
   <CommandLeavePsychicRitual>opusti rituál {lookup: {0}; case\ritual; 2}</CommandLeavePsychicRitual>
@@ -211,7 +211,7 @@
   
   <!-- Philophagy -->
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
-  <PhilophagyTransferReport>{INVOKER_labelShort} ukrande {1} zkušeností {lookup: {SKILL_label}; case\skills; 2}, zatím co {TARGET_labelShort} bude uhozen{TARGET_pronoun} do kómatu.</PhilophagyTransferReport>
+  <PhilophagyTransferReport>{INVOKER_labelShort} ukrande {1} zkušeností {lookup: {SKILL_label}; case\skills; 2}, zatím co {TARGET_labelShort} bude uvržen{TARGET_pronoun} do kómatu.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
   <NoSkillsToTransfer>{TARGET_labelShort} nemá žádné skušenosti na přenešení.</NoSkillsToTransfer>
 </LanguageData>
