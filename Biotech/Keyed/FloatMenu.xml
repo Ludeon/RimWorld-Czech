@@ -6,7 +6,7 @@
   <!-- EN: Not enough bandwidth -->
   <NotEnoughBandwidth>Nedostatečná šířka pásma</NotEnoughBandwidth>
   <!-- EN: Take control of {0} -->
-  <ControlMech>Ovládnout {lookup: {0}; case\singular; 4}</ControlMech>
+  <ControlMech>Ovládni {lookup: {0}; case\singular; 4}</ControlMech>
   <!-- EN: Cannot control {0} -->
   <CannotControlMech>Nelze ovládnout {lookup: {0}; case\singular; 4}</CannotControlMech>
   <!-- EN: Already controlled by {0} -->
@@ -18,9 +18,9 @@
   <!-- EN: Cannot disconnect from {0} -->
   <CannotDisconnectMech>Nelze odpojit od {lookup: {0}; case\singular; 2}</CannotDisconnectMech>
   <!-- EN: Disconnect from {0} -->
-  <DisconnectMech>Odpojit od {lookup: {0}; case\singular; 2}</DisconnectMech>
+  <DisconnectMech>Odpoj od {lookup: {0}; case\singular; 2}</DisconnectMech>
   <!-- EN: Permanently disassemble {0} -->
-  <DisassembleMech>Rozmontovat {lookup: {0}; case\singular; 4}</DisassembleMech>
+  <DisassembleMech>Rozmontuj {lookup: {0}; case\singular; 4}</DisassembleMech>
   <!-- EN: Cannot permanently disassemble {0} -->
   <CannotDisassembleMech>Nelze rozmontovat {lookup: {0}; case\singular; 4}</CannotDisassembleMech>
   <!-- EN: Must be overseer -->
@@ -39,7 +39,7 @@
   <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
   <ExtractXenogermFrom>TODO</ExtractXenogermFrom>
   <!-- EN: Enter {0_labelShort} -->
-  <EnterBuilding>Vstoupit do {lookup: {0_labelShort}; case\singular; 2}</EnterBuilding>
+  <EnterBuilding>Vstup do {lookup: {0_labelShort}; case\singular; 2}</EnterBuilding>
   <!-- EN: {PAWN_nameDef} has no genes -->
   <PawnHasNoGenes>{PAWN_nameDef} nemá žádné geny</PawnHasNoGenes>
   <!-- EN: {PAWN_nameDef} has no extractable genes. -->
@@ -89,12 +89,12 @@
   <!-- EN: Occupied -->
   <SubcoreScannerOccupied>Obsazený</SubcoreScannerOccupied>
   <!-- EN: Enter {0} -->
-  <EnterSubcoreScanner>Vstoupit do {lookup: {0}; case\singular; 2}</EnterSubcoreScanner>
+  <EnterSubcoreScanner>Vstup do {lookup: {0}; case\singular; 2}</EnterSubcoreScanner>
 
   <!-- EN: Breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeed>Nakojit {BABY_labelShort}</BabyCareBreastfeed>
+  <BabyCareBreastfeed>Nakoj - {BABY_labelShort}</BabyCareBreastfeed>
   <!-- EN: Cannot breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeedUnable>Nelze nakojit {BABY_labelShort}</BabyCareBreastfeedUnable>
+  <BabyCareBreastfeedUnable>Nelze nakojit - {BABY_labelShort}</BabyCareBreastfeedUnable>
   <!-- EN: No baby-edible food -->
   <NoBabyFood>Žádný pokrm pro novorozence</NoBabyFood>
 
@@ -137,9 +137,9 @@
   <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} je právě přenášena</BreastfeedFailReason_MomBeingCarried>
 
   <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>Vštípit geny do {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <OrderImplantationIntoPawn>Vštip geny do {PAWN_nameDef}</OrderImplantationIntoPawn>
   <!-- EN: Accept {0_xenotype} xenogerm -->
-  <AcceptXenogerm>Přijmou genovštipovač {0_xenotype}</AcceptXenogerm>
+  <AcceptXenogerm>Přijmi genovštipovač {0_xenotype}</AcceptXenogerm>
 
   <!-- EN: Carry {PAWN_labelShort} to recharger -->
   <CarryToRechargerOrdered>TODO</CarryToRechargerOrdered>
@@ -151,7 +151,7 @@
   <!-- EN: Hemogen packs disabled by food restriction. -->
   <NotAllowedHemogen>TODO</NotAllowedHemogen>
 
-  <!-- EN: Eject genepack from gene bank -->
+  <!-- EN: Eject genepack from gene bank **-->
   <EjectGenepackFromGeneBank>Vyhodit genobalík z genobanky</EjectGenepackFromGeneBank>
 
   <!-- EN: Resulting metabolism would be too low -->
@@ -161,7 +161,7 @@
   <RomanceOnCooldown>Pokusil{PAWN_pronoun} se o romanci příliš nedávno</RomanceOnCooldown>
 
   <!-- EN: Take to safe location -->
-  <CarryToSafePlace>Přenést na bezpečné místo</CarryToSafePlace>
+  <CarryToSafePlace>Přenes na bezpečné místo</CarryToSafePlace>
   <!-- EN: Cannot take to safe location -->
   <CannotCarryToSafePlace>Nelze přenést na bezpečné místo</CannotCarryToSafePlace>
 

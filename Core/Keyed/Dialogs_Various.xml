@@ -182,7 +182,7 @@
   <!-- EN: Chosen name is invalid. -->
   <NameInvalid>Zvolené jméno není platné.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
-  <PawnGainsName>Přezdívka této osoby je nyní {0}. {PAWN_possessive} titul je {PAWN_title}.</PawnGainsName>
+  <PawnGainsName>Přezdívka této osoby je nyní {0}. {PAWN_possessive} titul je {replace: ^{PAWN_title}^; "^neznámé^"-"neznámý"; "^{PAWN_title}^"-"{PAWN_title}"}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Zvíře se nyní jmenuje {0}.</AnimalGainsName>
   <!-- EN: rename person -->
@@ -331,9 +331,9 @@
   <Unpause>Zrušit přestávku</Unpause>
 
   <!-- EN: Count equipped -->
-  <IncludeEquipped>Počet vybavených</IncludeEquipped>
+  <IncludeEquipped>Počítat nošené</IncludeEquipped>
   <!-- EN: Count tainted -->
-  <IncludeTainted>Počet znečištěných</IncludeTainted>
+  <IncludeTainted>Počítat znečištěné</IncludeTainted>
   <!-- EN: Only allowed ingredients -->
   <LimitToAllowedStuff>Pouze povolené suroviny</LimitToAllowedStuff>
   <!-- EN: Look everywhere -->
