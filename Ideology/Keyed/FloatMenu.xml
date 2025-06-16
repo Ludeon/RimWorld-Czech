@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>Může postavit pouze {0}</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} už probíhá.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>TODO</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>Jeden či více účastníků se nemohou přidat z důvodu nebezpečné teploty.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>nepovolené pro frakci</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>Odstranit</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>Odstranit zásadu</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -99,19 +99,8 @@
   <ConflictsWithMemes>v konfliktu s přesvědčeními</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
   <IdeoAlreadyHasAltar>lze mít pouze jeden oltář/ideogram</IdeoAlreadyHasAltar>
-  <!-- EN: recolor apparel *si*-->
+  <!-- EN: recolor apparel -->
   <RecolorApparel>přebarvi oblečení</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>Nabourej se do {lookup: {0}; case\singular; 4}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>Nelze nabourat {lookup: {0}; case\singular; 4}</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>Již nabouráno</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>neschopnost nabourávání</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>ke shození zásob</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>Instaluj {0}</InstallRelic>
@@ -129,10 +118,10 @@
   <!-- EN: No {MEMBERNAME} warden -->
   <NoWardenOfIdeo>Žádný dozorce vybraného ideobožství</NoWardenOfIdeo>
 
-  <!-- EN: Remove current role *-->
+  <!-- EN: Remove current role -->
   <RemoveCurrentRole>Odebrat aktuální roli</RemoveCurrentRole>
 
-  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) *-->
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
   <EnterBiosculpterPod>Vstup do bioplastické komory kvůli {replace: {0}; "bioregenerace"-"bioregeneračnímu"; "omlazení"-"omlazovacímu"; "ozdravování"-"ozdravovacímu"; "potěšení"-"potěšovacímu"} cyklu (na {1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
   <BiosculpterBiotunedToAnother>Biologicky přizpůsobena na někoho jiného.</BiosculpterBiotunedToAnother>

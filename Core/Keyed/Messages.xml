@@ -39,6 +39,8 @@
   <MessageVisitorsDangerousTemperature>{0} z frakce {1} opouští oblast z důvodu nebezpečné teploty.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>{0} z frakce {1} opouští oblast z důvodu nebezpečného počasí.</MessageVisitorsAnomalousWeather>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
+  <MessageVisitorsDangerousConditions>TODO</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>Část výstroje ({0}), kterou {1_nameFull} {1_gender ? nosil : nosila}, se rozpadla na cucky.</MessageWornApparelDeterioratedAway>
@@ -79,6 +81,10 @@
   <MessageAnimalManhuntsOnTameFailed>Varování: {ANIMAL_kindBase} může po neúspěšném pokusu o ochočení zaútočit (šance {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Pouze ti se sympatií pro hmyz mohou ochočit {lookup: {INSECT_indefinite}; case\singular; 2}.</MessageInsectTameDesignated>
+  <!-- EN: No colonists are assigned to hunt. -->
+  <MessageNoHuntersAvailable>TODO</MessageNoHuntersAvailable>
+  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+  <MessageNoHuntersWithProperWeapon>TODO</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Varování: {PAWN_labelShort} je agresivní a při ochočování se pokusí napadnout tvého kolonistu.</MessageInsectsHostileOnTaming>
@@ -108,6 +114,8 @@
   <MessageMustDesignateHarvestable>Musíš označit dostatečně vzrostlé rostliny, které lze sklidit.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Musíš označit dostatečně vzrostlé rostliny, ze kterých se získává dřevo.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Prevent cutting is enabled for this plant. -->
+  <MessageMustPlantCuttingForbidden>TODO</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Musíš označit rostliny.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -149,9 +157,15 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Musíš označit zakázané předměty.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>Nelze zabrat {CLAIMABLE_labelShort}, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>TODO</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhilePawnThreatsAreNear>TODO</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>Nelze zabrat {CLAIMABLE_labelShort}, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>Nelze adoptovat {CLAIMABLE_labelShort}, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot remove foundation that supports a building. -->
+  <MessageCannotRemoveSupportingFoundation>TODO</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} {1_gender ? odmítl : odmítla} být {1_gender ? zadržen : zadržena}!</MessageRefusedArrest>
@@ -279,6 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0} {0_gender ? byl : byla} {0_gender ? odstraněn : odstraněna} z karavany.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>Průběh shromažďování karavany byl přerušen.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost> <!-- text_todo -->
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>Průběh shromažďování karavany bude pokračovat, až se všichni zotaví z nervového zhroucení.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -340,9 +356,11 @@
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do přepravních modulů.</MessageTransportersLoadingProcessStarted>
-  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
+  <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do raketoplánu.</MessageTransporterSingleLoadingProcessStarted>
-  
+  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
+  <MessageShuttleLoadingProcessStarted>TODO</MessageShuttleLoadingProcessStarted> <!-- text_todo -->
+
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Tvé přepravní moduly dorazily na místo určení.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
@@ -353,15 +371,23 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Nakládání přepravního modulu bylo dokončeno. Až budeš připraven, můžeš odstartovat.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>Do raketoplánu byl naložen požadovaný náklad, a tak může ihned odstartovat.</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingShuttle>TODO</MessageFinishedLoadingShuttle> <!-- text_todo -->
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Tvá skupina {lookup: {1}; case\plural; 2} nemůže dokončit nakládání přepravních modulů, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle> <!-- text_todo -->
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>Tvá skupina {lookup: {1}; case\plural; 2} nemůže dokončit průchod {0}, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Zvolený cíl není platný.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Destination is reserved by {0}. -->
+  <MessageTransportPodsDestinationReservedBy>TODO</MessageTransportPodsDestinationReservedBy> <!-- text_todo -->
+  <!-- EN: Destination is reserved. -->
+  <MessageTransportPodsDestinationReserved>TODO</MessageTransportPodsDestinationReserved> <!-- text_todo -->
+  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid> <!-- text_todo -->
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Každá odpalovací rampa bude potřebovat alespoň {0} jednotek chemického paliva, aby dokázala vyslat přepravní moduly tak daleko.</MessageTransportPodsDestinationIsTooFar>
   
@@ -784,6 +810,10 @@
   <CannotPlantThing>{lookup: {0_labelShort}; case\singular; 4} nelze zasadit</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Vyžaduje úrodnější půdu.</MessageWarningNotEnoughFertility>
+  <!-- EN: Temperature too extreme. -->
+  <CannotPlantExtremeTemp>TODO</CannotPlantExtremeTemp>
+  <!-- EN: Plants cannot grow on this terrain. -->
+  <CannotPlantMissingTerrainTag>TODO</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>překážející {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -792,6 +822,8 @@
   <TooCloseToOtherPlant>TODO</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>TODO</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Cannot be placed on {0}. -->
+  <MessageCannotBePlacedOn>TODO</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Varování: {0} byl označen k pokácení.</MessageWarningCutImportantPlant>
@@ -823,5 +855,23 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>TODO</MessageLodgersCantFarskip>
+  
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+  <MessageHackerLockedOut>TODO</MessageHackerLockedOut>
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+  <MessageHackerLockedOutPermanently>TODO</MessageHackerLockedOutPermanently>
+  <!-- EN: {0_labelShort} can be hacked again. -->
+  <MessageHackableUnlocked>TODO</MessageHackableUnlocked>
+
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>Raketoplán nelze přivolat</CannotCallShuttle>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>Raketoplán dorazil na místo určení.</MessageShuttleArrived>
+
+  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
+  <MessageGroundPenetratingScannerNoBedrock>TODO</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
+
+  <!-- UNUSED -->
+  <MessageFinishedLoadingTransporterSingle>Do raketoplánu byl naložen požadovaný náklad, a tak může ihned odstartovat.</MessageFinishedLoadingTransporterSingle>
 
 </LanguageData>

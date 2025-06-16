@@ -70,11 +70,6 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>Kolonista není řádně pohřben.\n\nMůže to negativně ovlivnit náladu tvých kolonistů.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks suitable weapon -->
-  <HunterLacksWeapon>Lovec postrádá střelnou zbraň</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
-  <HunterLacksWeaponDesc>Kolonista je přidělen k činnosti lovce, ale nemá střelnou zbraň.\n\nNebude lovit, dokud nějakou nedostane.\n\nTýká se to následujících kolonistů</HunterLacksWeaponDesc>
-
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roztrhané oblečení</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
@@ -152,6 +147,8 @@
   <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>Máš vybavení pro výzkum, ale nemáš zvolený žádný projekt.\n\nOtevři kartu Výzkum a vyber si projekt.</NeedResearchProjectDesc>
 
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>TODO</ColonistIdle>
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{replace: ^{0}^; "^1^"-"1 nečinný kolonista"; "^2^"-"2 nečinní kolonisté"; "^3^"-"3 nečinní kolonisté"; "^4^"-"4 nečinní kolonisté"; "^{0}^"-"{0} nečinných kolonistů"}</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
@@ -334,4 +331,8 @@
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
   <NeedResearchBenchDesc>Právě zkoumáš '{0}'. Na tento projekt potřebuješ {1}.</NeedResearchBenchDesc>
   
+  <!-- UNUSED -->
+  <HunterLacksWeapon>Lovec postrádá střelnou zbraň</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>Kolonista je přidělen k činnosti lovce, ale nemá střelnou zbraň.\n\nNebude lovit, dokud nějakou nedostane.\n\nTýká se to následujících kolonistů</HunterLacksWeaponDesc>
+
 </LanguageData>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Cancel -->
@@ -15,6 +15,11 @@
   <DesignatorDeconstruct>Rozebrat</DesignatorDeconstruct>
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Označí objekty, které mají být rozebrány. Část surovin získáš zpět.</DesignatorDeconstructDesc>
+
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
 
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Odmontovat</DesignatorUninstall>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Označí nádoby nebo hroby, které mají být otevřeny.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Porazit</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Ochočit</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Označí divoké zvíře, které má být ochočeno.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>TODO</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Vypustit do volné přírody</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Nabraná barva</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>TODO</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Není zvolený materiál</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} bude blokovat interakční bod objektu {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Na tomto místě se již nachází {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>TODO</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Tento povrch už je označený pro vyhlazení.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>Rozšířit {0} nebo\nvytvořit {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Vytvoří {0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>TODO</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
