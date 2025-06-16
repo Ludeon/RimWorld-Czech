@@ -4,19 +4,17 @@
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
   <ShuttleBlocked>Raketoplán nemohl přistát na dosedací ploše: {0}</ShuttleBlocked>
-  <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>Raketoplán dorazil na místo určení.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
   <MessageShuttleArrivedContentsLost>Raketoplán právě dorazil na místo určení, ale jelikož se na palubě nenacházeli žádní kolonisté, byl obsah ztracen.</MessageShuttleArrivedContentsLost>
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>Raketoplán nelze přivolat</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
   <ShuttleCannotLand_Fogged>V neobjevené oblasti nelze přistát.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
   <ShuttleCannotLand_Unwalkable>Oblast musí být schůdná.</ShuttleCannotLand_Unwalkable>
+  <!-- EN: Terrain does not support {0}. -->
+  <ShuttleCannotLand_Unaffordable>TODO</ShuttleCannotLand_Unaffordable> <!-- text_todo -->
 
-  <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
+  <!-- EN: Select {BESTOWER_definite} and click 'Begin bestowing ceremony' to commence the ceremony. -->
   <MessageBestowerWaiting>Vyber {BESTOWER_gender ? udíleče : udílečku} a klikni na 'Zahájit slavnostní předání' k zahájení ceremonie.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
   <MessageBestowerUnreachable>Udíleč je mimo dosah!</MessageBestowerUnreachable>

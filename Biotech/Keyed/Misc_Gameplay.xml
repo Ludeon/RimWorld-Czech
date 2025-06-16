@@ -27,10 +27,14 @@
   <CaravanMechsCount>{replace: ^{0}^; "^1^"-"1 mech"; "^2^"-"2 mechové"; "^3^"-"3 mechové"; "^4^"-"4 mechové"; "^{0}^"-"{0} mechů"}</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>TODO</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>TODO</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>TODO</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -99,6 +103,8 @@
   <ReadyToSummonThreat>Hrozba {lookup: {0}; case\singular; 2} je připravena k přivolání</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Přivolat hrozbu {lookup: {0}; case\singular; 2}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>TODO</MechsDisabled> <!-- text_todo -->
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>{0_gender ? Žádný dosažitelný : Žádná dosažitelná : Žádné dosažitelné} {0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -247,12 +253,6 @@
   <BirthRitualHealthyBabyChance>Při této úrovni kvality byla šance na narození zdravého dítěte {0_percentage}.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>Rodí.</GivingBirth>
-
-  <!-- Shield comp -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Energie štítu</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>Čas obnovy</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
@@ -755,10 +755,6 @@
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>Dítě bude mít genetické znaky po osobách {0} a {1}.</IvfPregnancyLetterParents>
 
-  <!-- Projectile interceptor -->
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Nízkoúhlově promítaný štít, který se pokusí zastavit příchozí projektily a šrapnely. Okamžitě se vypne, pokud ho zasáhne EMP.</ProjectileInterceptorTip>
-
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>Vzdálený štít vytvořený mechanitorem, který se pokusí zastavit příchozí projektily a šrapnely, ale nechrání nijak před útoky zblízka nebo teplem. Zabraňuje nositeli střílet a při zásahu EMP se okamžitě vypne.</RemoteMechShieldTip>
@@ -768,5 +764,10 @@
   <MyChildIsHappy>mé dítko je štastné</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>mé dítko je smutné</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>TODO</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>TODO</GeneticChemicalDependency_Desc>
 
 </LanguageData>
