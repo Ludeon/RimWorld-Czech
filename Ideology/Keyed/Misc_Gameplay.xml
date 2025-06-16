@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: Customize ideoligion -->
@@ -51,8 +51,6 @@
   <Appearance>Vzhled</Appearance>
   <!-- EN: Done -->
   <DoneButton>Hotovo</DoneButton>
-  <!-- EN: Caused by -->
-  <CausedBy>Příčina</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>Věří ve víru</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -101,9 +99,9 @@
   <SetIdeoColor>Nastavit na ideo barvu</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Nastavit na oblíbenou barvu</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>TODO</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>TODO</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Nastav si své frakční ideobožství</ConfigureIdeoligion>
@@ -203,8 +201,14 @@
   <RitualTargetConnectedGauranlenTree>Spojení již {PAWN_gender ? navázal : navázala} {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>Spojení s {lookup: {TREE_definite}; case\singular; 7} bylo nedávno přerušeno. Opětovné spojení bude možné za {1}.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ^{0}^; "^1^"-"1 kus"; "^2^"-"2 kusy"; "^3^"-"3 kusy"; "^4^"-"4 kusy"; "^{0}^"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ^{1}^; "^1^"-"1 kus"; "^2^"-"2 kusy"; "^3^"-"3 kusy"; "^4^"-"4 kusy"; "^{1}^"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>TODO</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>TODO</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>TODO</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>TODO</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} musí být {0_gender ? schopen : schopna} se dostat k cíli rituálu.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -377,18 +381,6 @@
   <!-- Outfits -->
   <!-- EN: Slave -->
   <OutfitSlave>Otrok</OutfitSlave>
-
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Průběh nabourávání</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>nabourává rychlostí</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>nabouráno</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Nabouraných terminálů</TerminalsHacked>
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Nalezených informací o relikvii</RelicInfoFound>
@@ -662,5 +654,10 @@
   <ChangeStyleDesc>Změň styl, ve kterém je toto postaveno. Jedná se o čistě vizuální záležitost, která nemá žádný vliv na hratelnost.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Žádné dostupné styly.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>Kosmodron se sebedestruuje za {replace: ​{1}​; "​1​"-"1 sekundu"; "​2​"-"2 sekundy"; "​3​"-"3 sekundy"; "​4​"-"4 sekundy"; "​{1}​"-"{1} sekund"}</SpacedroneSelfDestructsIn>
+
+  <!-- UNUSED -->
+  <RitualTargeWoodInfo>Každý účastník potřebuje {replace: ^{0}^; "^1^"-"1 kus"; "^2^"-"2 kusy"; "^3^"-"3 kusy"; "^4^"-"4 kusy"; "^{0}^"-"{0} kusů"} dřeva (celkem {2}). Máš {replace: ^{1}^; "^1^"-"1 kus"; "^2^"-"2 kusy"; "^3^"-"3 kusy"; "^4^"-"4 kusy"; "^{1}^"-"{1} kusů"} dřeva.</RitualTargeWoodInfo>
 
 </LanguageData>

@@ -322,6 +322,8 @@
   <QuestPawnNotOnColonyMap>{PAWN_gender ? kolonistu : kolonistku} {PAWN_definite} ve své domovské kolonii</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>vyčistit mapu od nepřátel, kteří by mohly ohrozit udělující frakci</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>TODO</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>dokončit probíhající úkol slavnostního předání</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -358,6 +360,10 @@
   <QuestNeutralTo>být neutrální s frakcí {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>dokončené zkoumání {lookup: {0_labelShort}; case\singular; 2}</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>TODO</QuestRequiredLayer> <!-- text_todo -->
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>TODO</QuestNotSpace> <!-- text_todo -->
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
