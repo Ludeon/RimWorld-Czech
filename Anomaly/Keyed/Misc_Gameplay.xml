@@ -110,13 +110,13 @@
   <!-- EN: Holding -->
   <HoldingThing>Zadržuje</HoldingThing>
   <!-- EN: Remove {0_labelShort} -->
-  <RemoveFromPlatform>TODO</RemoveFromPlatform>
+  <RemoveFromPlatform>Odpoutá {0_labelShort}</RemoveFromPlatform>
   <!-- EN: Remove the current entity held on the platform. -->
   <RemoveFromPlatformDesc>Odpoutá aktuální entitu zadržovanou na této platformě.</RemoveFromPlatformDesc>
   <!-- EN: {GERUND} {TARGETLABEL} from -->
-  <ReleasingEntity>TODO</ReleasingEntity>
+  <ReleasingEntity>{GERUND} {TARGETLABEL} z</ReleasingEntity>
   <!-- EN: {GERUND} {TARGETLABEL} -->
-  <TransferringEntity>TODO</TransferringEntity>
+  <TransferringEntity>{GERUND} {TARGETLABEL}</TransferringEntity>
   <!-- EN: Select holding platform -->
   <SelectHoldingPlatform>Vyber zadržovací platformu</SelectHoldingPlatform>
   <!-- EN: Entity escape -->
@@ -249,9 +249,9 @@
   <!-- EN: Is active -->
   <IsActive>Aktivní</IsActive>
   <!-- EN: resist -->
-  <Resisted>TODO</Resisted>
+  <Resisted>odolat</Resisted>
   <!-- EN: Damaged -->
-  <HealthFactor>TODO</HealthFactor>
+  <HealthFactor>Poškozené</HealthFactor>
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort} byl{PAWN_pronoun} poslán{PAWN_pronoun}.</CommandSent>
@@ -281,11 +281,11 @@
   <!-- EN: Capture -->
   <CaptureEntity>Zadrž</CaptureEntity>
   <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
-  <CaptureEntityDesc>TODO</CaptureEntityDesc>
+  <CaptureEntityDesc>Zadrž {0_definite}. Musí být zajištěno na záchytné plošině. Jakmile je zajištěno, lze ho studovat. </CaptureEntityDesc>
   <!-- EN: Cancel capture -->
-  <CancelCapture>TODO</CancelCapture>
+  <CancelCapture>Zrušit zadržení</CancelCapture>
   <!-- EN: Cancel capturing {0_definite}. -->
-  <CancelCaptureDesc>TODO</CancelCaptureDesc>
+  <CancelCaptureDesc>Zrušit zadržení {0_definite}. </CancelCaptureDesc>
   <!-- EN: ready to study -->
   <ReadyToStudy>připraveno ke zkoumání</ReadyToStudy>
   <!-- EN: No active anomaly research project selected for {0} knowledge category. -->
@@ -293,11 +293,11 @@
   <!-- EN: Capturable -->
   <Capturable>Lze zajmout</Capturable>
   <!-- EN: Must be captured in a holding platform. -->
-  <RequiresHoldingPlatform>TODO</RequiresHoldingPlatform>
+  <RequiresHoldingPlatform>Musí být zadržen na záchytné plošině.</RequiresHoldingPlatform>
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
   <ChooseNociosphereDest>Vyber místo kam se nociosféra teleportuje.</ChooseNociosphereDest>
   <!-- EN: Transfer {0_definite} -->
-  <TransferEntity>TODO</TransferEntity>
+  <TransferEntity>Přesun {0_definite}</TransferEntity>
   <!-- EN: Transfer the contained entity to another holding platform. -->
   <TransferEntityDesc>Naplánuje přesun zadržené entity na jinou platformu.</TransferEntityDesc>
   <!-- EN: Cancel transfer -->
@@ -316,15 +316,15 @@
   <!-- EN: Implanter insectoid -->
   <InsectImplant>TODO</InsectImplant>
   <!-- EN: Implanted during sleep by {SOURCE_nameDef} -->
-  <SleepImplant>TODO</SleepImplant>
+  <SleepImplant>Implantováno během spánku od {SOURCE_nameDef}</SleepImplant>
   <!-- EN: Implanted during surgery by {SOURCE_nameDef} -->
-  <SurgeryImplant>TODO</SurgeryImplant>
+  <SurgeryImplant>Implantováno během operace od {SOURCE_nameDef}</SurgeryImplant>
   <!-- EN: Implanted through a meal cooked by {SOURCE_nameDef} -->
-  <FoodImplant>TODO</FoodImplant>
+  <FoodImplant>Implantováno skrze uvařené jídlo od {SOURCE_nameDef}</FoodImplant>
   <!-- EN: Implanted during unnatural healing by {SOURCE_nameDef} -->
-  <UnnaturalHealingImplant>TODO</UnnaturalHealingImplant>
+  <UnnaturalHealingImplant>Implantováno během nepřirozeného hojení od {SOURCE_nameDef}</UnnaturalHealingImplant>
   <!-- EN: Implanted when fed a meal by {SOURCE_nameDef} -->
-  <FeedingImplant>TODO</FeedingImplant>
+  <FeedingImplant>Implantováno při krmení jídlem od {SOURCE_nameDef}</FeedingImplant>
 
   <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>Vypravující se kovoďas</MetalhorrorEmergingLabel>
@@ -354,9 +354,9 @@
   <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>Kovoďas odhalen</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InteractionDetectedDesc>TODO</InteractionDetectedDesc>
+  <InteractionDetectedDesc>{PAWN_nameDef} spozorov{PAWN_gender ? al : ala} něco nepořádku s {INFECTED_nameDef} během pronasledování. {INFECTED_nameDef} vykazov{INFECTED_gender ? al : ala} nějakou kombinaci nepřirozeného chování, podivných hlasových zvuků nebo sotva viditelných kovových červů v očích. {PAWN_nameDef} podezírá že {INFECTED_nameDef} je nakažen{INFECTED_gender ? ý : á} kovoďasem. </InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InterrogationDetectedDesc>TODO</InterrogationDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef} našel něco neobvyklého při výslechu {INFECTED_nameDef}. {INFECTED_nameDef} vykazov{INFECTED_gender ? al : ala} nějakou kombinaci nepřirozeného chování, podivných hlasových zvuků nebo sotva viditelných kovových červů v očích. {PAWN_nameDef} podezírá že {INFECTED_nameDef} je nakažen{INFECTED_gender ? ý : á} kovoďasem.</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
   <MetalhorrorNoticedDetailsAppended>Kovoďasové jsou parazité, kteří kontrolují mysl hosta a využívají jjeho těla k nakažení dalších.\n\nKovoďasové rostou a nabírají na síle uvnotř hosta s postupem času. Pokud zjistí že byl objeven, vyřeže se z hostova těla. Tento proces je velmi znepokojující, ale host ho většinou přežije.\n\nJediný způsob jakým je možné zjistit že někdo byl nakažen kovoďasem, je sledovat kusy masa s biostopu kovoďase a poté ho podrobit chirurgické inspekci s důvěryhodným doktorem.\n\nPoté co přijdeš na to kdo je nakažen, můžeš chirurgickou inspekcí vylákat kovoďase z hostova těla. Očekávej boj.</MetalhorrorNoticedDetailsAppended>
@@ -372,7 +372,7 @@
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>Uvězni a pošli dozorce vyslechnout kohokoli, kdo se chová podezřele, o jeho reálné identitě. Tento proces může trvat až několik dní.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
-  <LetterGrayFleshMethodTwo>TODO</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodTwo>Sesbírejte další šedé maso a analyzujte ho, abyste určili biosignaturu hrozby. Pak použijte chirurgickou inspekci k vyhledání daného biopodpisu. Odběr dostatečného množství vzorků může trvat dlouho, a operace je invazivní.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
   <LetterGrayFleshMethodThree>Poprav anebo vyhosti kohokoli, koho podezříváš.</LetterGrayFleshMethodThree>
   
@@ -449,11 +449,11 @@
   
   <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
-  <MessageTransmutedItem>TODO</MessageTransmutedItem>
+  <MessageTransmutedItem>{PAWN_nameDef} se {PAWN_gender ? proměnil : proměnila} z {ORIGINAL} na {TRANSMUTED}.</MessageTransmutedItem>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelShortIndef}. -->
-  <MessageTransmutedStuff>TODO</MessageTransmutedStuff>
+  <MessageTransmutedStuff>{PAWN_nameDef} se {PAWN_gender ? proměnil : proměnila} z {1} na {TRANSMUTED_labelShortIndef}.</MessageTransmutedStuff>
   <!-- EN: {PAWN_nameDef} has transmuted {1} into {TRANSMUTED_labelPluralIndef}. -->
-  <MessageTransmutedStuffPlural>TODO</MessageTransmutedStuffPlural>
+  <MessageTransmutedStuffPlural>{PAWN_nameDef} se {PAWN_gender ? proměnil : proměnila} z {1} na {TRANSMUTED_labelPluralIndef}.</MessageTransmutedStuffPlural>
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
@@ -576,9 +576,9 @@
   <!-- EN: destroy -->
   <UnnaturalCorpseJobString>znič</UnnaturalCorpseJobString>
   <!-- EN: destroying {0} -->
-  <UnnaturalCorpseActivatingEnroute>TODO</UnnaturalCorpseActivatingEnroute>
+  <UnnaturalCorpseActivatingEnroute>zničení {0}</UnnaturalCorpseActivatingEnroute>
   <!-- EN: destroying {0}: {1}s -->
-  <UnnaturalCorpseActivating>TODO</UnnaturalCorpseActivating>
+  <UnnaturalCorpseActivating>zničení {0}: {1}s</UnnaturalCorpseActivating>
   
   <!-- EN: Unnatural corpse -->
   <UnnaturalCorpseAwakeningLetter>Nepřirozená mrtvola</UnnaturalCorpseAwakeningLetter>
@@ -601,11 +601,11 @@
 
   <!-- Golden Cube -->
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
-  <MessageGoldenCubeSeverityIncreased>TODO</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeSeverityIncreased>{PAWN_labelShort} posedlost zlatou kostkou se zesílila.</MessageGoldenCubeSeverityIncreased>
   <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
   <MessageGoldenCubeWithdrawal>{PAWN_labelShort} si prochází absťák na krychli.</MessageGoldenCubeWithdrawal>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has worsened. -->
-  <MessageGoldenCubeWithdrawalIncreased>TODO</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeWithdrawalIncreased>{PAWN_labelShort} abstinenční příznaky z krychle se zhoršily.</MessageGoldenCubeWithdrawalIncreased>
   <!-- EN: {PAWN_labelShort} has become intrigued by the golden cube. -->
   <MessageGoldenCubeInterest>{PAWN_labelShort} byl{PAWN_pronoun} zaujata zlatou krychlí.</MessageGoldenCubeInterest>
   <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
@@ -653,9 +653,9 @@
   
   <!-- Slaughter ability -->
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
-  <MessageSlaughterNoFlesh>TODO</MessageSlaughterNoFlesh>
+  <MessageSlaughterNoFlesh>Nelze porážet: {PAWN_labelShort} nemá maso.</MessageSlaughterNoFlesh>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
-  <MessageSlaughterTooBig>TODO</MessageSlaughterTooBig>
+  <MessageSlaughterTooBig>Nelze porážet: {PAWN_labelShort} je příliš velký.</MessageSlaughterTooBig>
   
   <!-- Labyrinth -->
   <!-- EN: Entering the labyrinth -->
@@ -735,15 +735,15 @@
   <!-- EN: Target is busy -->
   <VoidMonolithActivatorBusy>Cíl je zaneprázdněn</VoidMonolithActivatorBusy>
   <!-- EN: Target is incapable -->
-  <VoidMonolithActivatorIncapable>TODO</VoidMonolithActivatorIncapable>
+  <VoidMonolithActivatorIncapable>Cíl je neschopný</VoidMonolithActivatorIncapable>
   <!-- EN: Monolith arrival -->
-  <MonolithArrivalLabel>TODO</MonolithArrivalLabel>
+  <MonolithArrivalLabel>Příchod monolitu</MonolithArrivalLabel>
   <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
   <MonolithArrivalText>Interakce s psychickým signálem způsobila zjevení podivé struktury.</MonolithArrivalText>
   <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
   <MonolithArrivalTextExt>Je velmi podobný ne-li identický tomu, který tví kolonisté nedávno spatřili.</MonolithArrivalTextExt>
   <!-- EN: Can't {0} monolith -->
-  <CantActivateMonolith>TODO</CantActivateMonolith>
+  <CantActivateMonolith>Nemůže {0} monolit</CantActivateMonolith>
 
   <!-- EN: Monolith twisting -->
   <MonolithTwistingAlert>Kroutící se monolit</MonolithTwistingAlert>
@@ -779,7 +779,7 @@
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>{PAWN_nameDef} vkročí do nicoty a nechá se zaplavit temným oceánem, přehlcující všechny {PAWN_possessive} smysly, zaplavující všechny {PAWN_possessive} myšlenky.\n\nUzel nicoty přesměroval své zaměření z celého světa na jednu osobu. Nicotná struktura začne skřípat a poté zničeho nic zmizí neznámo kam.\n\n{PAWN_nameDef} splynul{PAWN_pronoun} s nicotou.\n\n{PAWN_possessive} příběh ještě nekončí...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
-  <StructureActivatedMessage>TODO</StructureActivatedMessage>
+  <StructureActivatedMessage>{PAWN_nameDef} dokonči{PAWN_gender ? l : la} aktivaci {STRUCTURE_definite}</StructureActivatedMessage>
   <!-- EN: Structures activated -->
   <StructuresActivatedAlertLabel>Struktura aktivována</StructuresActivatedAlertLabel>
   <!-- EN: Activate void structures to complete the monolith awakening. -->
@@ -792,7 +792,7 @@
   <IncreasesChanceOfLovin>Zvýší šanci milování</IncreasesChanceOfLovin>
 
   <!-- EN: Unnatural {0_label} corpse -->
-  <UnnaturalCorpse>TODO</UnnaturalCorpse>
+  <UnnaturalCorpse>Nepřirozená {0_label} mrtvola</UnnaturalCorpse>
 
   <!-- Studiable -->
   <!-- EN: Knowledge from study reduced -->
@@ -800,9 +800,9 @@
 
   <!-- Unnatural darkness -->
   <!-- EN: Emergence in {0} -->
-  <EmergenceIn>TODO</EmergenceIn>
+  <EmergenceIn>Vznik za {0}</EmergenceIn>
   <!-- EN: Something will emerge from the ground in {0}. -->
-  <EmergenceInDesc>TODO</EmergenceInDesc>
+  <EmergenceInDesc>Něco se vynoří ze země za {0}.</EmergenceInDesc>
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
@@ -834,7 +834,7 @@
   
   <!-- Devourer -->
   <!-- EN: Being digested by {0_labelShort}. -->
-  <DigestedBy>TODO</DigestedBy>
+  <DigestedBy>Být tráven{PAWN_pronoun}</DigestedBy>
 
   <!-- Chimeras -->
   <!-- EN: The chimera is {0} -->
@@ -864,7 +864,7 @@
   <AnomalyFrequency_Overwhelming>Zdrcující</AnomalyFrequency_Overwhelming>
   
   <!-- EN: Security doors only -->
-  <SecurityDoorsOnly>TODO</SecurityDoorsOnly>
+  <SecurityDoorsOnly>Pouze bezpečnostní dveře</SecurityDoorsOnly>
   
   <!-- UNUSED -->
   <ViewUndercave>Zobrazit podhlubeň</ViewUndercave>
