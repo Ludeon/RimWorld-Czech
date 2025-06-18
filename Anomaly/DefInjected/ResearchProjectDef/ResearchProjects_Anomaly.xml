@@ -111,10 +111,10 @@
     <li>subject_gerund->pohánění generatorů bioferitem</li>
   </BioferriteGenerator.generalRules.rulesStrings>
   
-  <!-- EN: bioferrite harvesting -->
-  <BioferriteHarvesting.label>sklízení bioferitu</BioferriteHarvesting.label>
-  <!-- EN: Build bioferrite harvesters to generate bioferrite from captured entities contained in holding platforms. -->
-  <BioferriteHarvesting.description>Umožní výstavbu sklízečů bioferitu, které jsou schopné produkovat bioferit z entit uvázaných k zachycovacím platformám.</BioferriteHarvesting.description>
+  <!-- EN: bioferrite harvester -->
+  <BioferriteHarvesting.label>sklízeč bioferitu</BioferriteHarvesting.label>
+  <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
+  <BioferriteHarvesting.description>Umožní výstavbu sklízečů bioferitu, které jsou schopné automaticky extrahovat bioferit z entit uvázaných k zachycovacím platformám. Produkuje více bioferitu než ruční extrahování.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -477,7 +477,7 @@
   <InsanityWeaponry.description>Umožní restrukturovat archotecké střepy na zbraně s omezeným počtem použití, které šokují, manipulují nebo zničí nepřátele.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
-    <li>subject_story->explored psychological warfare for their dissertation</li>
+    <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
     <li>subject_story->watched an Imperial battalion rout and learned the value of fear</li>
     <li>subject_story->worked in an asylum of archotech victims</li>
     <li>subject_story->vivisected archite-infested wildlife to understand the effects on the mammalian brain</li>
@@ -498,7 +498,7 @@
   <JuggernautSerum.description>Umožní syntezy séra, které dočasně zvýší sílu, rychlost a hojení zranění dané osoby, ale zároveň snižuje jejich náladu.</JuggernautSerum.description>
   <!-- EN:
     <li>subject->juggernaut serum</li>
-    <li>subject_story->was banned from the coreworld leagues after he was caught doping a team with Juggernaut Serum</li>
+    <li>subject_story->was banned from the coreworld leagues after [ANYPAWN_pronoun] was caught doping a team with Juggernaut Serum</li>
     <li>subject_story->gave soldiers Juggernaut Serum when their ammo ran out</li>
     <li>subject_story->researched serum use among indentured building sectors</li>
     <li>subject_story->fell into a barrel of juggernaut serum</li>
@@ -617,7 +617,7 @@
     <li>subject_story->followed a trail of victims left by a philophage</li>
     <li>subject_story->researched neural replication processes in a glitterworld's labs</li>
     <li>subject_story->investigated the damaged minds of cult victims</li>
-    <li>subject_story->found their skills weakened after a psychic assault</li>
+    <li>subject_story->found [ANYPAWN_possessive] skills weakened after a psychic assault</li>
     <li>subject_gerund->transferring a subject's learning</li>
     <li>subject_gerund->performing a ritual to steal a victim's skills</li>
   -->
