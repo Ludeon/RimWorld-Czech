@@ -47,36 +47,36 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] o [talkingAbout] [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] ohledně [talkingAbout] [subjectDisturbing].</li>
     <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] k [RECIPIENT_nameDef] o [subjectDisturbing].</li>
-    <li>spoke->mluvil</li>
-    <li>spoke->zamumlal</li>
-    <li>spoke->koktal</li>
-    <li>spoke->kňučel</li>
-    <li>spoke->zavrčel</li>
-    <li>spoke->mumlal</li>
+    <li>spoke->mluvil[INITIATOR_pronoun]</li>
+    <li>spoke->zamumlal[INITIATOR_pronoun]</li>
+    <li>spoke->koktal[INITIATOR_pronoun]</li>
+    <li>spoke->kňučel[INITIATOR_pronoun]</li>
+    <li>spoke->zavrčel[INITIATOR_pronoun]</li>
+    <li>spoke->mumlal[INITIATOR_pronoun]</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
     <li>subjectDisturbing->[subjectInsane]</li>
-    <li>disturbed->vyrušený</li>
-    <li>disturbed->zděšený</li>
-    <li>disturbed->vystrašený</li>
-    <li>disturbed->rozčilený</li>
-    <li>disturbed->rozrušený</li>
-    <li>disturbed->neklidný</li>
-    <li>disturbed->znepokojený</li>
-    <li>disturbed->znervózněný</li>
-    <li>disturbed->vyděšený</li>
-    <li>disturbed->zoufalý</li>
-    <li>disturbed->zděšený</li>
+    <li>disturbed->je vyrušen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je zděšen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je vystrašen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je rozčílen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je rozrušen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je neklidn[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je znepokojen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je znervózněn[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je vyděšen[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je zoufal[INITIATOR_gender ? ý : á] z</li>
+    <li>disturbed->je zděšen[INITIATOR_gender ? ý : á] z</li>
     <li>maybeDarkSpeechAdverb-></li>
     <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
-    <li>talkingAbout->popisující</li>
-    <li>talkingAbout->vysvětlovat</li>
-    <li>talkingAbout->sténat [maybeDarkSpeechAdverb] o</li>
-    <li>talkingAbout->mluvit [maybeDarkSpeechAdverb] o</li>
-    <li>talkingAbout->řvát [maybeDarkSpeechAdverb] o</li>
-    <li>talkingAbout->zacházet do detailů o</li>
+    <li>talkingAbout->popisováníí</li>
+    <li>talkingAbout->vysvětlování</li>
+    <li>talkingAbout->sténání [maybeDarkSpeechAdverb] o</li>
+    <li>talkingAbout->mluvení [maybeDarkSpeechAdverb] o</li>
+    <li>talkingAbout->řvaní [maybeDarkSpeechAdverb] o</li>
+    <li>talkingAbout->zacházení do detailů o</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
@@ -134,26 +134,26 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-    <li>askedAbout->vyslýchán [RECIPIENT_nameDef] o</li>
-    <li>askedAbout->tázán [RECIPIENT_nameDef] o</li>
-    <li>askedAbout->přitlačit [RECIPIENT_nameDef] na podrobnosti o</li>
-    <li>askedAbout->informován [RECIPIENT_nameDef] o</li>
-    <li>askedAbout->grilovaný [RECIPIENT_nameDef] na</li>
-    <li>askedAbout->tlačen [RECIPIENT_nameDef] pro odpovědi ohledně</li>
-    <li>askedAbout->tázán [RECIPIENT_nameDef] záludné otázky o</li>
-    <li>askedAbout->snažil se chytit [RECIPIENT_nameDef] nepřipraveného s otázkami o</li>
-    <li>askedAbout->křičel na [RECIPIENT_nameDef], požadujicí informace o</li>
-    <li>askedAbout->bombardován [RECIPIENT_nameDef] s dotazy ohledně</li>
-    <li>askedAbout->čelil [RECIPIENT_nameDef] ohledně</li>
-    <li>askedAbout->otravoval [RECIPIENT_nameDef] ohledně</li>
-    <li>askedAbout->zkoumal [RECIPIENT_nameDef] na téma z</li>
+    <li>askedAbout->vyslýchá [RECIPIENT_nameDef] ohledně</li>
+    <li>askedAbout->se ptá [RECIPIENT_nameDef] ohledně</li>
+    <li>askedAbout->tlačí [RECIPIENT_nameDef] na podrobnosti oledně</li>
+    <li>askedAbout->informuje [RECIPIENT_nameDef] ohledně</li>
+    <li>askedAbout->gril [RECIPIENT_nameDef] na</li>
+    <li>askedAbout->tlačí [RECIPIENT_nameDef] pro odpovědi ohledně</li>
+    <li>askedAbout->se ptá [RECIPIENT_nameDef] na záludné otázky ohledně</li>
+    <li>askedAbout->se snažil načapat [RECIPIENT_nameDef] nepřipraveného s otázkami ohledně</li>
+    <li>askedAbout->křičí na [RECIPIENT_nameDef], požadujicí informace ohledně</li>
+    <li>askedAbout->bombarduje [RECIPIENT_nameDef] s dotazy ohledně</li>
+    <li>askedAbout->konfrontuje [RECIPIENT_nameDef] ohledně</li>
+    <li>askedAbout->otravuje [RECIPIENT_nameDef] ohledně</li>
+    <li>askedAbout->zkoumá [RECIPIENT_nameDef] na téma z</li>
     <li>identityTopic->[RECIPIENT_possessive] předchozí práce</li>
     <li>identityTopic->[RECIPIENT_possessive] předchozí vztahy s jinými frakcemi</li>
     <li>identityTopic->[RECIPIENT_possessive] narození</li>
-    <li>identityTopic->[RECIPIENT_possessive] výchova</li>
+    <li>identityTopic->[RECIPIENT_possessive] výchovu</li>
     <li>identityTopic->[RECIPIENT_possessive] rodiče</li>
-    <li>identityTopic->[RECIPIENT_possessive] staří přátelé</li>
-    <li>identityTopic->[RECIPIENT_possessive] romantická historie</li>
+    <li>identityTopic->[RECIPIENT_possessive] stařé přátelé</li>
+    <li>identityTopic->[RECIPIENT_possessive] romantickou historii</li>
     <li>identityTopic->[RECIPIENT_possessive] záliby a odpor </li>
     <li>identityTopic->[RECIPIENT_possessive] emoční reakce na znepokojivé situace</li>
     <li>identityTopic->[RECIPIENT_possessive] preference jídel</li>
@@ -163,15 +163,15 @@
     <li>identityTopic->[RECIPIENT_possessive] sny a touhy</li>
     <li>identityTopic->[RECIPIENT_possessive] důvody pro vstup [RECIPIENT_possessive] současné frakce</li>
     <li>identityTopic->[RECIPIENT_possessive] role v minulé významné události</li>
-    <li>identityTopic->[RECIPIENT_possessive] koníčky a zába</li>
+    <li>identityTopic->[RECIPIENT_possessive] koníčky a zábavu</li>
     <li>identityTopic->[RECIPIENT_possessive] morální hodnoty a principy</li>
     <li>identityTopic->[RECIPIENT_possessive] motivace</li>
-    <li>identityTopic->důvody za [RECIPIENT_possessive] duležitým rozhodnutím</li>
-    <li>identityTopic->minulost traumatických zážitků</li>
-    <li>identityTopic->lidské myšlenkové pochody</li>
-    <li>identityTopic->zážitky z dětství</li>
-    <li>identityTopic->školní zkušenosti</li>
-    <li>identityTopic->kulturní zážitky</li>
+    <li>identityTopic->důvodů za [RECIPIENT_possessive] duležitých rozhodnutích</li>
+    <li>identityTopic->minulosti traumatických zážitků</li>
+    <li>identityTopic->lidských myšlenkových pochodů</li>
+    <li>identityTopic->zážitků z dětství</li>
+    <li>identityTopic->školních zkušeností</li>
+    <li>identityTopic->kulturní zážitků</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
@@ -185,11 +185,11 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] vysvětlil [INITIATOR_possessive] teorie ohledně [subjectDarkStudy] k [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] sdílel [INITIATOR_possessive] nápady na [subjectDarkStudy] s [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] mluvil o [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] prošel tématem [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] dal lekci o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] vysvětlil[INITIATOR_pronoun] [INITIATOR_possessive] teorie ohledně [subjectDarkStudy] k [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] sdílel[INITIATOR_pronoun] [INITIATOR_possessive] nápady na [subjectDarkStudy] s [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] mluvil[INITIATOR_pronoun] o [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] proš[INITIATOR_gender ? el : la] tématem [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] dal[INITIATOR_pronoun] lekci o [subjectDarkStudy].</li>
   </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
@@ -200,9 +200,9 @@
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] zeptal se [RECIPIENT_nameDef] ohledně [subjectDarkStudy].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ptal se na [subjectDarkStudy].</li>
-    <li>r_logentry->[RECIPIENT_nameDef] mumlal o [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] zeptal[INITIATOR_pronoun] se [RECIPIENT_nameDef] ohledně [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ptal[INITIATOR_pronoun] se na [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] mumlal[INITIATOR_pronoun] o [subjectInsane].</li>
   </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>
