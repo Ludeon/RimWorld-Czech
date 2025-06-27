@@ -24,13 +24,13 @@
   <CompiledOn>Sestaveno dne {0}\nTato čeština není zcela hotova, je stále ve vývoji!</CompiledOn>
   <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>Přihlášen na Steamu jako {0}</LoggedIntoSteamAs>
-  
+
   <!-- ToCommaList() -->
   <!-- EN: {0} and {1} -->
   <ToCommaListAnd>{0} a {1}</ToCommaListAnd>
   <!-- EN: {0} or {1} -->
   <ToCommaListOr>{0} nebo {1}</ToCommaListOr>
-  
+
   <!-- General-use words -->
   <!-- EN: Yes -->
   <Yes>Ano</Yes>
@@ -64,8 +64,8 @@
   <durationDays>trvání (dny)</durationDays>
   <!-- EN: interval (days) -->
   <intervalDays>interval (dny)</intervalDays>
-  <!-- EN: delay (days) -->
-  <delayDays>TODO</delayDays>
+  <!-- EN: delay (days)* -->
+  <delayDays>zdržení (dny)</delayDays>
   <!-- EN: repeat -->
   <repeat>opakovat</repeat>
   <!-- EN: default -->
@@ -102,15 +102,15 @@
   <minDays>min. (dny)</minDays>
   <!-- EN: max(days) -->
   <maxDays>max. (dny)</maxDays>
-  <!-- EN: Processing -->
-  <Processing>TODO</Processing>
+  <!-- EN: Processing* -->
+  <Processing>Procesuje</Processing>
   <!-- EN: Inspect -->
-  <Inspect>TODO</Inspect>
+  <Inspect>Prohlédnout</Inspect>
   <!-- EN: Edit -->
   <Edit>Upravit</Edit>
 
   <!-- Content generation-->
-  
+
   <!-- EN: {0} meat -->
   <MeatLabel>Maso ({0})</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
@@ -160,7 +160,7 @@
 
   <!-- EN: Continue anyway? -->
   <StillWishContinue>Chceš i nadále pokračovat?</StillWishContinue>
-  
+
   <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
   <BabyTalk>ba,bah,bú,buh,ga,gah,gú,ňah,ňa,ňah,ňú,vú,vah,vuh,ma,mah</BabyTalk>
 
@@ -173,20 +173,20 @@
   <SomeonesRoom>{1} (využívá {PAWN_labelShort})</SomeonesRoom>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
   <CouplesRoom>{2} (využívá {PAWN1_labelShort} a {PAWN2_labelShort})</CouplesRoom>
-  
+
   <!-- EN: Important for this type of room. -->
   <StatRelatesToCurrentRoom>Důležité pro tento typ pokoje.</StatRelatesToCurrentRoom>
-  
+
   <!-- EN: {COUNT} {RESOURCE_label} underground here. -->
   <DeepResourceRemaining>V tomto místě se pod povrchem nachází {COUNT}x {RESOURCE_label}.</DeepResourceRemaining>
-  
+
   <!-- EN: (various) -->
   <VariousLabel>(různé)</VariousLabel>
 
   <!-- History events -->
   <!-- EN: Colonist died -->
   <ColonistDied>Kolonista zemřel</ColonistDied>
-  
+
   <!-- Rotation -->
   <!-- EN: North -->
   <North>Sever</North>
@@ -203,13 +203,13 @@
   <!-- Apparel Looks -->
   <!-- EN: variant of -->
   <VariantOf>je variantou</VariantOf>
-  
+
   <!-- Familial relationships -->
   <!-- EN: born to {0} -->
   <BornOfParents>TODO</BornOfParents>
   <!-- EN: unknown parents -->
   <ParentsUnknown>neznámí rodiče</ParentsUnknown>
-  
+
   <!-- Legal status -->
   <!-- EN: colonist -->
   <Colonist>kolonista</Colonist>
