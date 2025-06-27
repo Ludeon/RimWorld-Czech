@@ -247,13 +247,13 @@
   <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
   <Stat_Thing_Ingestible_Joy_Desc>Relaxační hodnota při užívání tohoto objektu. Vyšší čísla uspokojí potřebu relaxace více.</Stat_Thing_Ingestible_Joy_Desc>
   <!-- EN: The weight of this creature and their equipment. -->
-  <Stat_Mass_Desc>TODO</Stat_Mass_Desc>
+  <Stat_Mass_Desc>Váha tohoto stoření a její výbavy.</Stat_Mass_Desc>
   <!-- EN: Base mass -->
-  <Stat_Mass_Base>TODO</Stat_Mass_Base>
+  <Stat_Mass_Base>Váha</Stat_Mass_Base>
   <!-- EN: Mass from equipment -->
-  <Stat_Mass_Equipment>TODO</Stat_Mass_Equipment>
+  <Stat_Mass_Equipment>Váha výbavy</Stat_Mass_Equipment>
   <!-- EN: Total mass -->
-  <Stat_Mass_Total>TODO</Stat_Mass_Total>
+  <Stat_Mass_Total>Celková váha</Stat_Mass_Total>
   <!-- EN: The size of this creature's body, compared to an average adult human. -->
   <Stat_Race_BodySize_Desc>Výška tohoto tvora ve srovnání s průměrným dospělým člověkem.</Stat_Race_BodySize_Desc>
   <!-- EN: How close this creature is to adulthood.\n\nGrowth requires nourishment. A hungry animal will grow at a slower rate compared to a well-fed one. -->
@@ -269,11 +269,11 @@
   <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>Maximální dostřel této zbraně.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: Range multiplier -->
-  <Stat_Thing_Weapon_Range_Multiplier>TODO</Stat_Thing_Weapon_Range_Multiplier>
+  <Stat_Thing_Weapon_Range_Multiplier>Násobitel dostřelu</Stat_Thing_Weapon_Range_Multiplier>
   <!-- EN: Reduced from {ORIGINAL} to {CAP} by weather. -->
-  <Stat_Thing_Weapon_Range_Clamped>TODO</Stat_Thing_Weapon_Range_Clamped>
+  <Stat_Thing_Weapon_Range_Clamped>Snížen z {ORIGINAL} na {CAP} kvůli počasí.</Stat_Thing_Weapon_Range_Clamped>
   <!-- EN: Aiming time multiplier -->
-  <Stat_Thing_Weapon_WarmupTime_Multiplier>TODO</Stat_Thing_Weapon_WarmupTime_Multiplier>
+  <Stat_Thing_Weapon_WarmupTime_Multiplier>Násobitel zaměřování</Stat_Thing_Weapon_WarmupTime_Multiplier>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Poloměr náhodného rozptylu výstřelů vypálených touto zbraní.\n\nVysoké hodnoty způsobí, že se projektily budou náhodně rozptylovat kolem cíle.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
@@ -567,7 +567,7 @@
   <Stat_TrapDamageHitCount>{replace: ^{0}^; "^1^"-"1 zásah"; "^2^"-"2 zásahy"; "^3^"-"3 zásahy"; "^4^"-"4 zásahy"; "^{0}^"-"{0} zásahů"}</Stat_TrapDamageHitCount>
 
   <!-- EN: The amount of progress that has been made towards hacking this object. -->
-  <Stat_Thing_HackingProgress>TODO</Stat_Thing_HackingProgress>
+  <Stat_Thing_HackingProgress>Stav hackování daného objektu.</Stat_Thing_HackingProgress>
 
   <!-- EN: Multiplier for {0} terrain -->
   <StatsReport_TerrainSpeedMultiplier>TODO</StatsReport_TerrainSpeedMultiplier>
@@ -575,8 +575,8 @@
   <!-- EN: {0} trained -->
   <StatsReport_Trainable>TODO</StatsReport_Trainable>
   <!-- EN: Available training -->
-  <StatsReport_AvailableTraining>TODO</StatsReport_AvailableTraining>
+  <StatsReport_AvailableTraining>Dostupné výcviky</StatsReport_AvailableTraining>
   <!-- EN: The tasks that this creature can be trained to perform. The available training is dependent on the creature's trainability, body size, and species. -->
-  <StatsReport_AvailableTraining_Desc>TODO</StatsReport_AvailableTraining_Desc>
-  
+  <StatsReport_AvailableTraining_Desc>Činnosti na které se dá tento tvor vycvičit. Dostupná cvičení závisí na vycvičitelnosti, velikosti a druhu daného tvora.</StatsReport_AvailableTraining_Desc>
+
 </LanguageData>

@@ -119,9 +119,9 @@
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>Přijde o tato oprávnění</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} ztratí {POINTS} neutracených bodů oprávnění u frakce {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>Přesto si ale ponechá nabyté úroveň psiovazby a schopnosti.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>neznámý</UnknownLower>
   <!-- EN: On -->
@@ -265,7 +265,7 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>je venku</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>v dešti</DeterioratingRaining> 
+  <DeterioratingRaining>v dešti</DeterioratingRaining>
   <!-- EN: protected -->
   <Protected>chráněno</Protected>
   <!-- EN: Deteriorating -->
@@ -285,7 +285,7 @@
   <!-- EN: no power -->
   <NoPower>bez elektřiny</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>TODO</NotInRoomRole>
+  <NotInRoomRole>nenachází se v{lookup: {0}; case\room; 8} {lookup: {0}; case\room; 6}</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Rychlost práce</WorkSpeedPenalty>
   <!-- EN: Disabled -->
@@ -299,9 +299,9 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>chybí doplňovač paliva</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>nemá palivo</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>probíhá nakládání</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>Mimo maximální dosah</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: No path to {LAYER_label} -->
@@ -351,9 +351,9 @@
   <!-- EN: Requires -->
   <Requires>Vyžaduje</Requires>
   <!-- EN: Replaces -->
-  <Replaces>TODO</Replaces>
+  <Replaces>Nahradí</Replaces>
   <!-- EN: {0}x any of -->
-  <NumAnyOf>TODO</NumAnyOf>
+  <NumAnyOf>{0}x cokoli z následujícího</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0} » {1}</Relationship>
   <!-- EN: Prisoner -->
@@ -375,13 +375,13 @@
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Násobitel z jezdeckých zvířat</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
+  <MultiplierFromMoveSpeedBonus>Násobitel z bonusů</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Násobitel za nesenou hmotnost: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Na tomto zvířeti se dá jezdit. Karavanisté použijí k jízdě nejrychlejší zvířata, které mají v rámci karavany k dispozici, čímž zlepší rychlost pohybu celé karavany.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>TODO</CaravanBonusTip>
+  <CaravanBonusTip>Toto osoba zvyšuje rychlost karavany. Celková rychlost je průměrem bonusů všech členů karavany.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Tato karavana se nemůže pohybovat, protože toho nese příliš mnoho.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -579,45 +579,45 @@
   <!-- EN: size -->
   <Size>velikost</Size>
   <!-- EN: Total planning area -->
-  <TotalPlanningArea>TODO</TotalPlanningArea>
+  <TotalPlanningArea>Celkem naplánováno</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>náklady</Cost>
-  <!-- EN: Stunned by EMP -->
+  <!-- EN: Stunned by EMP --> <!-- ochromen/a/o EMP výbojem -->
   <StunnedByEMP>TODO</StunnedByEMP>
   <!-- EN: Title -->
   <BackstoryTitle>Titul</BackstoryTitle>
   <!-- EN: person -->
   <Person>osoba</Person>
   <!-- EN: activated. -->
-  <Activated>aktivované.</Activated> 
+  <Activated>aktivované.</Activated>
   <!-- EN: Contains -->
   <Contains>Obsahuje</Contains>
   <!-- EN: Hostiles -->
   <Hostiles>Nepřátelé</Hostiles>
   <!-- EN: Investigate -->
-  <Investigate>TODO</Investigate> 
+  <Investigate>Prozkoumat</Investigate>
   <!-- EN: Activate -->
-  <Activate>Aktivovat</Activate> 
+  <Activate>Aktivovat</Activate>
   <!-- EN: Deactivate -->
-  <Deactivate>TODO</Deactivate> <!-- text_todo -->
+  <Deactivate>Deaktivovat</Deactivate>
   <!-- EN: Activation -->
   <Activation>Aktivování</Activation>
   <!-- EN: complete -->
   <Complete>TODO</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>TODO</RequiresImprisonment> 
-  <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>TODO</HaulFromSource>
+  <RequiresImprisonment>Musí být vězněm.</RequiresImprisonment>
+  <!-- EN: Prioritize hauling contents* -->
+  <HaulFromSource>Prioritizovat přenešení obsahu</HaulFromSource>
   <!-- EN: Use -->
-  <UseGizmo>TODO</UseGizmo>
-  <!-- EN: Order someone to use the {0}. -->
-  <UseGizmoTooltip>TODO</UseGizmoTooltip>
+  <UseGizmo>Použij</UseGizmo>
+  <!-- EN: Order someone to use the {0}. TODO CASEs for {0}-->
+  <UseGizmoTooltip>Přikaž někomu aby použil {0}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
-  <UseGizmoMouse>TODO</UseGizmoMouse>
+  <UseGizmoMouse>Vyber někoho, kdo by to měl použít</UseGizmoMouse>
   <!-- EN: Select target -->
-  <TargetGizmoMouse>TODO</TargetGizmoMouse>
+  <TargetGizmoMouse>Vyber cíl</TargetGizmoMouse>
   <!-- EN: Cannot use this -->
-  <CannotUseGizmoMouse>TODO</CannotUseGizmoMouse>
+  <CannotUseGizmoMouse>Nemůže použít</CannotUseGizmoMouse>
   <!-- EN: Buildings -->
   <Buildings>Budovy</Buildings>
   <!-- EN: not yet discovered -->
@@ -627,25 +627,25 @@
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Plazí se do postele.</ReportStringCrawlingToBed>
   <!-- EN: flying -->
-  <Flying>TODO</Flying>
+  <Flying>letí</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>TODO</PreventCutting>
+  <PreventCutting>Zabránit pokácení</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+  <PreventCuttingDesc>Pokud je aktivní, kolonisté nikdy neposekají tuto rostlinu.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
-  <ComesFromTrait>TODO</ComesFromTrait>
+  <ComesFromTrait>Vychází z rysu</ComesFromTrait>
   <!-- EN: Resulting from condition -->
-  <ComesFromHediff>TODO</ComesFromHediff>
+  <ComesFromHediff>Vychází z zdravotního stavu</ComesFromHediff>
   <!-- EN: Adds need -->
-  <AddsNeed>TODO</AddsNeed>
+  <AddsNeed>Přidá potřebu</AddsNeed>
   <!-- EN: Adds needs -->
-  <AddsNeeds>TODO</AddsNeeds>
+  <AddsNeeds>Přidá potřeby</AddsNeeds>
   <!-- EN: Disables need -->
   <DisablesNeed>Vyřazuje potřebu</DisablesNeed>
   <!-- EN: Disables needs -->
   <DisablesNeeds>Vyřazuje potřeby</DisablesNeeds>
-  
+
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>Skenovací rychlost operátora</UserScanAbility>
@@ -653,7 +653,7 @@
   <ScanAverageInterval>Interval náhodného nalezení</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Pokrok k zaručenému nalezení</ScanningProgressToGuaranteedFind>
-  
+
   <!-- Meditation -->
   <!-- EN: meditating at -->
   <MeditatingAt>medituje u</MeditatingAt>
@@ -734,7 +734,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>Zmenšit</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>TODO</MaxAreasReached>
+  <MaxAreasReached>Maximum {0} možných zón.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -775,7 +775,7 @@
   <PenExampleAnimals>Příklady zvířecí kapacity</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>Bez přístupu zvenčí - zvířata nelze přivádět dovnitř ani ven.</NoExteriorAccess>
-  
+
   <!-- EN: Must be connected to walls on both sides to function. -->
   <DoorMustBeEnclosedByWalls>Musí mít stěny po obou stranách, aby fungovaly.</DoorMustBeEnclosedByWalls>
 
@@ -805,16 +805,16 @@
   <!-- EN: Road -->
   <Road_Label>Silnice</Road_Label>
   <!-- EN: River -->
-  <River_Label>Řeka</River_Label> 
+  <River_Label>Řeka</River_Label>
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Obtížnost pohybu</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Znečištění</Pollution_Label>
   <!-- EN: Filth -->
   <Filth_Label>Nepořádek</Filth_Label>
-  
+
   <!-- EN: Features -->
-  <Features_Label>TODO</Features_Label>
+  <Features_Label>Vlastnosti</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Frakce</Faction_Label>
   <!-- EN: Relationship -->
@@ -825,7 +825,7 @@
   <CaravanStatus_Label>Aktuální stav</CaravanStatus_Label>
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>Odhad. čas do cíle</CaravanTTD_Label>
-  
+
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -837,11 +837,11 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} není {1_gender ? povolán : povolána}.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_nameDef} nemůže používat střelné zbraně, protože v tom zabraňuje je{PAWN_gender ? ho : jí} {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>Dostřel snížen</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -933,13 +933,13 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>je nesen: {0_labelShort}</CarriedBy> 
+  <CarriedBy>je nesen: {0_labelShort}</CarriedBy>
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer> 
+  <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer>
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>zraněn, neschopný pohybu.</DownedCannotCrawl> 
+  <DownedCannotCrawl>zraněn, neschopný pohybu.</DownedCannotCrawl>
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>zraněn, v bezvědomí.</DownedUnconscious> 
+  <DownedUnconscious>zraněn, v bezvědomí.</DownedUnconscious>
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1105,7 +1105,7 @@
   <!-- EN: low -->
   <PowerConsumptionLow>nízká</PowerConsumptionLow>
   <!-- EN: off -->
-  <PowerConsumptionOff>TODO</PowerConsumptionOff>
+  <PowerConsumptionOff>žádná</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1123,11 +1123,11 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>Vysušené</RotStateDessicated>
   <!-- EN: Frozen -->
-  <CurrentlyFrozen>Zmražené (nezkazí se)</CurrentlyFrozen> 
+  <CurrentlyFrozen>Zmražené (nezkazí se)</CurrentlyFrozen>
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated> 
+  <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated>
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>Nechlazené (zkazí se za {0})</NotRefrigerated> 
+  <NotRefrigerated>Nechlazené (zkazí se za {0})</NotRefrigerated>
   <!-- EN: over a decade -->
   <OverADecade>více než deset let</OverADecade>
   <!-- EN: less than a day -->
@@ -1191,7 +1191,7 @@
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Umírá, protože je vystavené světlu</DyingBecauseExposedToLight>
   <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
+  <DyingBecauseOfTerrain>Úmírá na nevhodné prostředí</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Posekat nyní</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1209,11 +1209,11 @@
   <!-- EN: Growing zone -->
   <GrowingZone>Pole</GrowingZone>
   <!-- EN: growing -->
-  <GrowingGroup>TODO</GrowingGroup>
+  <GrowingGroup>roste</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Skladiště</Stockpile>
   <!-- EN: stockpile -->
-  <StockpileGroup>TODO</StockpileGroup>
+  <StockpileGroup>skladiště</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Skládka</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1224,7 +1224,7 @@
   <ClearAll>Zakázat vše</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>Povolit vše</AllowAll>
-  
+
   <!-- Storage Groups -->
   <!-- EN: Group -->
   <StorageGroup>Skupina</StorageGroup>
@@ -1244,7 +1244,7 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>Neobjevené</Undiscovered>
-  
+
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
   <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
@@ -1255,48 +1255,48 @@
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>Zobrazení výukového pomocníka.\n\nPři zapnutí zobrazuje výukového pomocníka i bez aktivních témat k učení. Při vypnutí se po naučení témat skryje.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Výukový pomocník.\n\nZobrazuje výukového pomocníka i bez aktivních témat k učení. Při vypnutí se po naučení témat skryje.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
-  <ZoneVisibilityToggleButton>Zobrazení oblastí.\n\nPři zapnutí jsou barevně zvýrazněny všechny oblasti.</ZoneVisibilityToggleButton>
+  <ZoneVisibilityToggleButton>Zobrazení oblastí.\n\nBarevně zvýrazní všechny oblasti.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
-  <ShowBeautyToggleButton>Zobrazení krásy prostředí.\n\nPři zapnutí zobrazuje krásu světa tak, jak by ji vnímala postava stojící v místě, kam ukazuje kurzor.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Krásy prostředí.\n\nZobrazuje krásu okolí tak, jak by ji vnímala postava stojící v místě, na které ukazuje kurzor.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
-  <ShowRoomStatsToggleButton>Zobrazení statistik místností.\n\nPři zapnutí zobrazuje statistiky místnosti, na kterou právě ukazuje kurzor myši.</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>Statistiky místností.\n\nZobrazuje statistiky místnosti, na kterou právě ukazuje kurzor.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Zobrazení lišty s kolonisty.\n\nPři zapnutí zobrazuje podél horního okraje obrazovky ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením pravého tlačítka myši a tažením na požadované místo.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Zobrazení lišty s kolonisty.\n\nZobrazuje podél horního okraje obrazovky ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením pravého tlačítka myši a tažením na požadované místo.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>Zobrazení lišty s kolonisty.\n\nPři zapnutí zobrazuje podél horního okraje obrazovky ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením levé spouště (LT) a tažením na požadované místo.</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>Zobrazení lišty s kolonisty.\n\nZobrazuje podél horního okraje obrazovky ikony a základní stav všech kolonistů.\n\nJejich uspořádání můžeš změnit přidržením levé spouště (LT) a tažením na požadované místo.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>Automatické rozšiřování domovské oblasti.\n\nPři zapnutí se kolem nových staveb automaticky rozšíří domovská oblast.</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>Automatické rozšiřování domovské oblasti.\n\nDomovská oblast se bude automaticky rozšiřovat kolem nově postavených struktur.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Automatická obnova zničených struktur.\n\nPři zapnutí jsou struktury zničené v domovské oblasti automaticky obnovovány tvými kolonisty.</AutoRebuildButton>
+  <AutoRebuildButton>Automatická obnova zničených struktur.\n\nPokud jsou struktury zničené v domovské oblasti budou automaticky obnoveny tvými kolonisty.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Zobrazení kategorizovaného režimu.\n\nPři zapnutí se ukazatel dostupných zdrojů v levém horním rohu zobrazuje v kategorizovaném režimu.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Kategorizovaný režim.\n\nUkazatel surovin v levém horním rohu zobrazuje suroviny v kategorijích.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>Zobrazení jmen ochočených zvířat.\n\nPři zapnutí se zobrazují jména pojmenovaných domácích zvířat.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Zobrazení jmen ochočených zvířat.\n\nZobrazí jména pojmenovaných domácích zvířat.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>Zobrazení střech.\n\nPři zapnutí se zvýrazňují střechy, stropy jeskyní apod.</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Zobrazení střech.\n\nZvýrazní střechy, stropy jeskyní apod.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>Zobrazení úrodnosti půdy.\n\nPři zapnutí zvýrazňuje úrodnost půdy, což napovídá, jaké plodiny je možné na daném typu půdy pěstovat a jak rychle porostou.</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Úrodnosti půdy.\n\nZvýrazní úrodnost půdy, která ovlivňuje, jaké plodiny je možné na daném typu půdy pěstovat a jak rychle porostou.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>Zobrazení nosnosti terénu.\n\nUkáže, které druhy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy povrchů unesou pouze lehké nebo střední, ale žádné těžké stavby. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Nosnosti terénu.\n\Zvýrazní nosnost terénu, která ovlivňuje jaké druhy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy povrchů unesou pouze lehké nebo střední, ale žádné těžké stavby. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>Uzamčení kamery.\n\nPři zapnutí je otáčení kamery uzamčeno tak, aby severní pól byl vždy nahoře.</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>Uzamčení kamery.\n\nKamera bude vždy orientovaná tak, aby se severní pól vždy nacházel nahoře.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>Dynamické slunce.\n\nPři zapnutí je nasvícení planety v režimu střídání den a noc. Při vypnutí je celá planeta nasvícená denním světlem.</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Dynamické slunce.\n\nNasvícení planety v režimu střídání dne a noci. Při vypnutí je celá planeta nasvícená denním světlem.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Osady cizích frakcí.\n\nUkazuje všechny osady cizích frakcí.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Body zájmu.\n\nUkazuje důležité lokace, jako tvoje kolonie, místa úkolů a aktvní mapy.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>Zobrazení názvů přírodních útvarů.\n\nPři zapnutí zobrazuje názvy přírodních útvarů.</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Názvy přírodních útvarů.\n\nZobrazuje názvy přírodních útvarů.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>Zobrazení teploty.\n\nPři zapnutí zobrazuje teplotu vzduchu v každé místnosti a venku.\n\nKolonisté budou nešťastní, pokud je teplota jejich okolí příliš vysoká či nízká. Vystavení kolonistů extrémním teplotám může vést k podchazení, omrzlinám, úpalu, popáleninám i smrti.</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Teplota.\n\nZvýrazní teplotu vzduchu v každé místnosti a venku.\n\nKolonisté budou nešťastní, pokud je teplota jejich okolí příliš vysoká či nízká. Vystavení kolonistů extrémním teplotám může vést k podchazení, omrzlinám, úpalu, popáleninám i smrti.</ShowTemperatureOverlayToggleButton>
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
   <HotKeyTip>Klávesa</HotKeyTip>
-  
+
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>hořící {1_label}</FireOn>
@@ -1391,7 +1391,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent není připraven</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>Neexistuje žádná osada, do které by se dalo vrátit. Nejprve založ osadu.</ShipNoSettlementToReturnTo> 
+  <ShipNoSettlementToReturnTo>Neexistuje žádná osada, do které by se dalo vrátit. Nejprve založ osadu.</ShipNoSettlementToReturnTo>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) je připraven spustit sekvenci na probuzení lodního reaktoru z hluboké hibernace.\n\nVaruje tě, že tento proces zabere asi 15 dnů a jeho energetický podpis bude detekovatelný z velké vzdálenosti.\n\nTento druh energetického podpisu naznačuje schopnost mezihvězdného letu a jistě přiláká gangy zoufalých lupičů a roje smrtících mechanoidů.\n\nBudeš napadán intenzitou, jakou jsi ještě nezažil. Ujisti se, že tvá obrana je skvěle připravena.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1484,10 +1484,10 @@
   <GameOverCreateNewWanderersText>Všichni jsou mrtví nebo pryč. Pro rozvaliny tohoto místa možná najde využití někdo jiný.\n\nVyber nové poutníky, kteří dorazí do tvé kolonie a budou pokračovat v příběhu.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Hlavní menu</GameOverMainMenu>
-  <!-- EN: No colony -->
-  <NoColony>TODO</NoColony>
+  <!-- EN: No colony* -->
+  <NoColony>Bez kolonie</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>TODO</NoWandererDestination>
+  <NoWandererDestination>Nelze dojít k žádnému z cílů</NoWandererDestination>
   <!-- EN: must wait {0}h -->
   <GameOverCreateNewWanderersWait>musíš počkat {0}h</GameOverCreateNewWanderersWait>
 
@@ -1574,7 +1574,7 @@
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
   <ChargesRemaining>Zbývající použití</ChargesRemaining>
-  
+
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Výukový pomocník</LearningHelper>
@@ -1635,7 +1635,7 @@
   <!-- EN: Nudist -->
   <OutfitNudist>Nudista</OutfitNudist>
   <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>TODO</OutfitSpacefarer>
+  <OutfitSpacefarer>Vesmírný farmář</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1648,7 +1648,7 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: Zobrazit dostupné příkazy...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>Zobrazit dostupné příkazy...</ClickToSeeAvailableOrders_Empty>
-  
+
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
   <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
@@ -1668,7 +1668,7 @@
   <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače neurálního tepla. Překročení horní meze tepla může způsobit psychický kolaps trvající několik dnů. Ten ale nezpůsobuje trvalé následky.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psiofokus: {0}</PawnTooltipPsyfocus>
-  
+
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
@@ -1720,7 +1720,7 @@
   <Reward_Title>{PAWNNAME} získá od frakce {FACTION} titul {lookup: {TITLE}; case\singular; 2}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>Celková hodnota {0}</TotalValue>
-  
+
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
   <BondedWith>Pouto: {0}</BondedWith>
@@ -1749,11 +1749,11 @@
   <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Zachytává {0}.</InterceptsProjectiles>
   <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
+  <InterceptsProjectiles_BothProjectiles>pozemní a protivzdušné projektily</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>pozemní projektily</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>vzdušné projektily</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>protivzdušné projektily</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
@@ -1762,14 +1762,14 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Příčina: {0}</CausedByHediff>
-  
+
   <!-- EN: {DAMAGE_label} weakness -->
   <DamageFactorWeakness>TODO</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
   <DamageFactorResistance>TODO</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
   <DamageFactor>TODO</DamageFactor>
-  
+
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
   <HealingHealHediff>TODO</HealingHealHediff>
@@ -1777,7 +1777,7 @@
   <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>TODO</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Stavbou zde proti sobě poštveš frakci {FACTION_name}!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Vyber místo pro přistání</ChooseLandingSite>
@@ -1839,7 +1839,7 @@
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Tuto pozici nejlépe zvládne kolonista zastávající sociální roli {0}.\n\nPokud někdo obsadí tuto pozici, aniž by zmíněnou roli zastával, nezíská následující bonus(y)</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>TODO</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>Neexistuje náhrada za roli {0}.</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
   <RitualOutcomeProgress>Průběh {lookup: {0}; case\singular; 2}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
@@ -1929,7 +1929,7 @@
   <!-- EN: rot stink -->
   <RotStink>hnilobný zápach</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>TODO</DeadlifeDust> 
+  <DeadlifeDust>nekrovitý prach</DeadlifeDust>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1937,24 +1937,24 @@
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>schopnost není připravena. Znovu dostupná bude za {0}.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
-  <AbilityNoCharges>TODO</AbilityNoCharges>
+  <AbilityNoCharges>schopnost bez nabití.</AbilityNoCharges>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>ve frontě se již nachází nějaká schopnost.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
   <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>TODO</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>Schopnosti připravena: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <AbilityDisabledInRitual>TODO</AbilityDisabledInRitual>
-  <!-- EN: Charges -->
-  <Charges>TODO</Charges>
+  <AbilityDisabledInRitual>{0_labelShort} se účastní rituálu ({1}).</AbilityDisabledInRitual>
+  <!-- EN: Charges* -->
+  <Charges>Počet použití</Charges>
 
   <!-- EN: {0_nameDef} is in a mental state. -->
-  <PawnIsInMentalState>{0_nameDef} je nyní v agresivním psychickém stavu.</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} je v psychickém stavu.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>TODO</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} je v agresivním psychickém stavu.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Zakázané činnosti</DisabledWorkLabel>
@@ -1994,7 +1994,7 @@
   <AbilitySpeechCooldown>Další projev bude připraven za</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
   <AbilitySpeechTargetsLabel>Zahájení na</AbilitySpeechTargetsLabel>
-  
+
   <!-- Books -->
 
   <!-- EN: Benefits -->
@@ -2005,42 +2005,42 @@
   <AlreadyUnlocked>již vyzkoumáno</AlreadyUnlocked>
   <!-- EN: when discovered -->
   <WhenDiscovered>po vyzkoumání</WhenDiscovered>
-  
+
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
   <BookReadProgress>TODO</BookReadProgress>
-  
+
   <!-- EN: learning speed -->
   <BookLearningModifier>Rychlost učení</BookLearningModifier>
   <!-- EN: Mental break chance -->
   <BookMentalBreak>Šance na mentální zhroucení</BookMentalBreak>
-  
+
   <!-- EN: {BOOK_labelShort} is not readable -->
-  <BookNotReadable>TODO</BookNotReadable>
+  <BookNotReadable>{BOOK_labelShort} nelze přečíst</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
   <BookCantRead>{PAWN_nameDef} neumí číst</BookCantRead>
-  <!-- EN: {PAWN_nameDef} must be a {STAGES} -->
-  <BookCantBeStage>TODO</BookCantBeStage>
+  <!-- EN: {PAWN_nameDef} must be a {STAGES} --> <!-- must be a dítě, dospělý-->
+  <BookCantBeStage>{PAWN_nameDef} nesmí být nemluvně</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef} je {PAWN_gender ? slepý : slepá}</BookBlind>
-  
+
   <!-- EN: max level {0} -->
   <BookMaxLevel>maximální úroveň {0}</BookMaxLevel>
-  
+
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>TODO</ReadingReportHeader>
-  
+
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>TODO</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
   <ReadingAssignTo>TODO</ReadingAssignTo>
   <!-- EN: Assign -->
-  <ReadingAssign>TODO</ReadingAssign>
+  <ReadingAssign>Přiřadit</ReadingAssign>
 
   <!-- EN: The books currently on this bookshelf. -->
   <ContainedBooksDesc>Knihy, které se aktuálně nacházejí v této knihovně.</ContainedBooksDesc>
-  
+
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>Uložené knihy</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
@@ -2048,7 +2048,7 @@
 
   <!-- EN: Remove this book from the bookshelf. -->
   <EjectBookTooltip>Vyjmout knihu z knihovny.</EjectBookTooltip>
-  
+
   <!-- Pushing -->
   <!-- EN: Push to... -->
   <CommandPushTo>TODO</CommandPushTo>
@@ -2062,9 +2062,9 @@
   <!-- EN: This category of research has not been discovered. -->
   <ResearchNotDiscovered>Tato kategorie výzkumu nebyla dosud objevena.</ResearchNotDiscovered>
 
-  <!-- EN: Emergence -->
-  <Emergence>TODO</Emergence>
-  
+  <!-- EN: Emergence* -->
+  <Emergence>Zjevení</Emergence>
+
   <!-- EN: remove {0} -->
   <RemovePart>TODO</RemovePart>
 
@@ -2072,17 +2072,17 @@
   <DoWorkAtThing>TODO</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
   <CanBeStudiedInDuration>lze zkoumat za {0}</CanBeStudiedInDuration>
-  
+
   <!-- EN: About to explode -->
-  <AboutToExplode>TODO</AboutToExplode>
+  <AboutToExplode>Brzy exploduje.</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject> <!-- text_todo -->
-  
+  <RefuelableNoFuelToEject>Neobsahuje žádné palivo</RefuelableNoFuelToEject>
+
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Nové rozšíření Anomaly je již dostupné!</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>TODO</DisabledByScenario>
+  <DisabledByScenario>Znemožněno scénářem</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>Překážející střecha</BlockedByRoof>
@@ -2095,39 +2095,39 @@
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->
-  <HackProgress>Průběh nabourávání</HackProgress>
+  <HackProgress>Průběh hackování</HackProgress>
   <!-- EN: hacking speed -->
-  <HackingSpeed>nabourává rychlostí</HackingSpeed>
+  <HackingSpeed>hackuje rychlostí</HackingSpeed>
   <!-- EN: {0}'s -->
   <HackingLastUser>{0}</HackingLastUser>
   <!-- EN: hacked -->
-  <Hacked>nabouráno</Hacked>
+  <Hacked>hacknuto</Hacked>
   <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Nabouraných terminálů</TerminalsHacked>
+  <TerminalsHacked>Hacknutých terminálů</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>Vyžaduje intelekt</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
-  <AutoHack>TODO</AutoHack>
+  <AutoHack>Automaticky hackovat</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>TODO</AutoHackDesc>
+  <AutoHackDesc>Pokud je zaškrtnuto, výzkumníci se pokusí o hacknutí dané věci.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
   <WorldSelectLayer>TODO</WorldSelectLayer>
   <!-- EN: Jump to location -->
-  <WorldJumpTo>TODO</WorldJumpTo>
+  <WorldJumpTo>Vycentrovat na</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <WorldJumpToDesc>Vycentruje mapu na vybrané kolonii, karavaně nebo lokaci na mapě.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <NothingToJumpTo>Není na co vycentrovat.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
   <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
-  <NewSettlement>TODO</NewSettlement>
-  <!-- EN: Settled -->
-  <Settled>TODO</Settled>
-  <!-- EN: Abandoned -->
-  <Abandoned>TODO</Abandoned>
+  <NewSettlement>Nová osada</NewSettlement>
+  <!-- EN: Settled* -->
+  <Settled>Osídleno</Settled>
+  <!-- EN: Abandoned* -->
+  <Abandoned>Opuštěno</Abandoned>
   <!-- EN: Cannot perform in {0} -->
   <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
@@ -2141,11 +2141,11 @@
   <!-- EN: Select people and items to enter the {0}. -->
   <CommandEnterPortalDesc>TODO</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>TODO</CommandCancelEnterPortal>
+  <CommandCancelEnterPortal>Zrušit vstup</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <CommandCancelExitPortal>Zrušit výstup</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>TODO</CommandCancelEnterPortalDesc>
+  <CommandCancelEnterPortalDesc>Zrušit nakládání lidí a věcí.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
   <ExitPortal>TODO</ExitPortal>
 
@@ -2155,32 +2155,32 @@
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>Čas obnovy</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
-  <ShieldDuration>TODO</ShieldDuration>
+  <ShieldDuration>Délka zaštítění</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <ShieldOnCooldown>Nabíjí se</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>Pod minimální úrovní energie</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>Nízkoúhlově promítaný štít, který se pokusí zastavit příchozí projektily a šrapnely. Okamžitě se vypne, pokud ho zasáhne EMP.</ProjectileInterceptorTip>
 
   <!-- EN: max {0} -->
-  <MaxOf>TODO</MaxOf>
+  <MaxOf>max. {0}</MaxOf>
 
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
   <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed> <!-- text_todo -->
+  <CannotUseScannerRoofed>Zablokován střechou</CannotUseScannerRoofed>
   <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock> <!-- text_todo -->
-  
+  <CannotUseScannerNoBedrock>Nefunguje v tomto biomu</CannotUseScannerNoBedrock>
+
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
   <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
-  
+  <CannotAcceptQuestNoMap>Tento úkol nelze přijmout bez permanentní kolonie.</CannotAcceptQuestNoMap>
+
   <!-- UNUSED -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>chybí palivo</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <TransportPodInGroupHasSomethingLeftToLoad>probíhá nakládka</TransportPodInGroupHasSomethingLeftToLoad>
