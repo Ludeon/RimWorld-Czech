@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: closed the void node -->
-  <ClosedTheVoid.label>{PAWN_gender ? uzavřel : uzavřela} uzel nicoty</ClosedTheVoid.label>
+  <ClosedTheVoid.label>uzavřít uzel nicoty</ClosedTheVoid.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] closing the void node.</li>
     <li>image->[PAWN_nameFull] sealing the connection to the void, ensuring the safety of the colony [circumstance_group]</li>
@@ -14,10 +14,20 @@
     <li>desc_sentence->The other colonists are shown [side_position], anxiously awaiting [PAWN_nameDef]'s return.</li>
     <li>desc_sentence->[PAWN_nameDef]'s face betrays that [PAWN_pronoun] is agonising over the choice before [PAWN_objective].</li>
   -->
-  <ClosedTheVoid.rulePack.rulesStrings>TODO</ClosedTheVoid.rulePack.rulesStrings>
+  <ClosedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] uzavírá prázdný uzel.</li>
+    <li>image->[PAWN_nameFull] zavře spojení do nicoty, pro bezpečnost kolonie [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stojí vzdorovitě před uzlem nicoty, odhodlan[PAWN_gender ? ý : á] chránit kolonii [circumstance_group]</li>
+    <li>circumstance_phrase->uprostřed praskající energie</li>
+    <li>circumstance_phrase->jak uzel prázdnoty vyzařuje strašidelnou záři</li>
+    <li>circumstance_phrase->zatímco prázdnota šeptá v pozadí</li>
+    <li>desc_sentence->Šedý kov tlačí do vnitř ze všech stran.</li>
+    <li>desc_sentence->Ostatní kolonisté jsou zobrazeni [side_position], úzkostlivě čekají na [PAWN_nameDef] návrat.</li>
+    <li>desc_sentence->[PAWN_nameDef] tvář prozrazuje že [PAWN_pronoun] se trápí nad volbou předtím [PAWN_objective].</li>
+  </ClosedTheVoid.rulePack.rulesStrings>
   
   <!-- EN: embraced the void -->
-  <EmbracedTheVoid.label>{PAWN_gender ? splynul : splynula} s nicotou</EmbracedTheVoid.label>
+  <EmbracedTheVoid.label>splynout s nicotou</EmbracedTheVoid.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] embracing the void</li>
     <li>image->[PAWN_nameFull] harnessing the forbidden knowledge of the void, transcending mortal limitations, [circumstance_group]</li>
@@ -33,7 +43,7 @@
   <EmbracedTheVoid.rulePack.rulesStrings>TODO</EmbracedTheVoid.rulePack.rulesStrings>
   
   <!-- EN: performed a psychic ritual -->
-  <PerformedPsychicRitual.label>{PAWN_gender ? provedl : provedla} psychický rituál</PerformedPsychicRitual.label>
+  <PerformedPsychicRitual.label>provést psychický rituál</PerformedPsychicRitual.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] leading a psychic ritual</li>
     <li>image->[PAWN_nameFull] channeling energy that dances around [PAWN_objective] as [PAWN_pronoun] weaves a potent psychic ritual, [circumstance_group]</li>

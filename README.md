@@ -18,6 +18,7 @@ See this page for license info:
 - LordFanger (active)
 - Galoth (inactive)
 - Azarian (inactive)
+- DarkDragoniaFox (active)
 
 ---
 ##### Special thanks: Leffi, Barbar, Aladalar
