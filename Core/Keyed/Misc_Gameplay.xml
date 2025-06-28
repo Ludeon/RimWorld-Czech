@@ -276,7 +276,7 @@
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>Do příchodu nepřátel zbývá {0}</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
   <CaravanDetectedRaidCountdownTip>Nepřátelské posily dorazí do této oblasti po uplynutí {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Místnost</Room>
@@ -352,6 +352,8 @@
   <Requires>Vyžaduje</Requires>
   <!-- EN: Replaces -->
   <Replaces>Nahradí</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>TODO</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}x cokoli z následujícího</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -488,9 +490,9 @@
   <MechCluster>Mechový klastr</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>Objeví se po uplynutí {0}</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{0} vyjede z montovny za {1}.</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
+  <!-- EN: {0} gestation completes in {1}. -->
+  <MechAssemblyCompleteIn>{0} se sestaví za {1}.</MechAssemblyCompleteIn>
+  <!-- EN: Will gestate -->
   <MechAssemblyNextType>Bude sestavovat</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>vyrobeno</ThingsProduced>
@@ -1166,8 +1168,8 @@
   <PlantResting>odpočívá</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
   <OutOfIdealTemperatureRange>Teplota není ideální. Násobitel teplotního růstu: {0}%</OutOfIdealTemperatureRange>
-  <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>Teplota není ideální. Neroste.</OutOfIdealTemperatureRangeNotGrowing>
+  <!-- EN: out of temperature growth range -->
+  <OutOfIdealTemperatureRangeNotGrowing>mimo rozsah teploty pro růst.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Připraveno ke sklizni.</ReadyToHarvest>
   <!-- EN: Mature. -->
@@ -1680,9 +1682,9 @@
   <Reward_Pawn_WalkIn>dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef}, {0_gender ? který : která} se k tobě přidá {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>dorazí {0_age}{0_gender ? letý : letá} {0_title} jménem {0_nameDef}, {0_gender ? který : která} se k tobě přidá {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>dorazí přepravní moduly s následujícími položkami (v celkové hodnotě {1}):\n\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>obdržíš následující položky (v celkové hodnotě {1}):\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>tvé vztahy s frakcí {0_name} se zlepší o {1} bodů</Reward_Goodwill>
