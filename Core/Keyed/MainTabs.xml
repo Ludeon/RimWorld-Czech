@@ -42,7 +42,7 @@
   <WorkDisabledByTrait>Vypnuté kvůli rysu: {0}</WorkDisabledByTrait>
   <!-- EN: Disabled by quest '{0}' -->
   <WorkDisabledByQuest>Vypnuté kvůli úkolu: {0}</WorkDisabledByQuest>
-  
+
   <!-- Assign tab -->
   <!-- EN: Unchangeable -->
   <Unchangeable>Nelze změnit</Unchangeable>
@@ -55,7 +55,7 @@
   <!-- EN: Forced apparel -->
   <ForcedApparel>Vynucená výstroj</ForcedApparel>
   <!-- EN: Edit -->
-  <AssignTabEdit>Upravit...</AssignTabEdit>
+  <AssignTabEdit>Upravit</AssignTabEdit>
   <!-- EN: Manage apparel policies -->
   <ManageApparelPolicies>Spravovat předepsanou výstroj</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
@@ -64,7 +64,7 @@
   <ManageFoodPolicies>Spravovat předepsané potraviny</ManageFoodPolicies>
   <!-- EN: Manage reading policies -->
   <ManageReadingPolicies>Spravovat předepsané knihy</ManageReadingPolicies>
-  
+
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
   <Copy>Kopírovat</Copy>
@@ -72,7 +72,7 @@
   <Paste>Vložit</Paste>
   <!-- EN: Allowed area -->
   <AllowedArea>Povolená oblast</AllowedArea>
-  
+
   <!-- Animals tab -->
   <!-- EN: Master -->
   <Master>Páníček</Master>
@@ -84,13 +84,13 @@
   <SterilizeAnimal>Sterilizuje zvíře.</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
   <AnimalAlreadySterile>Zvíře je sterilní.</AnimalAlreadySterile>
-  
+
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Tento tvor je predátor. Při hladu bude lovit menší tvory - možná i lidi.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
   <IsInMentalState>Tento tvor je aktuálně v psychickém stavu: {0}</IsInMentalState>
-  
+
   <!-- Factions tab -->
   <!-- EN: Hostile -->
   <Hostile>Nepřátelé</Hostile>
@@ -126,7 +126,7 @@
   <Rival>Rivalita</Rival>
   <!-- EN: Acquaintance -->
   <Acquaintance>Známost</Acquaintance>
-  
+
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->
   <Graph>Graf</Graph>
@@ -134,7 +134,7 @@
   <Messages>Zprávy</Messages>
   <!-- EN: Statistics -->
   <Statistics>Statistiky</Statistics>
-  
+
   <!-- History tab - Graphs -->
   <!-- EN: Select graph -->
   <SelectGraph>Vybrat graf</SelectGraph>
@@ -323,7 +323,7 @@
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>vyčistit mapu od nepřátel, kteří by mohly ohrozit udělující frakci</QuestRequiresNoDangerOnMap>
   <!-- EN: that {PROJECT_label} has been researched. -->
-  <QuestRequiresResearch>TODO</QuestRequiresResearch>
+  <QuestRequiresResearch>mít vyzkoumaný projekt {PROJECT_label}.</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>dokončit probíhající úkol slavnostního předání</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -361,9 +361,9 @@
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>dokončené zkoumání {lookup: {0_labelShort}; case\singular; 2}</QuestRequiredThingStudied>
   <!-- EN: cannot accept {GERUND} {LAYER} -->
-  <QuestRequiredLayer>TODO</QuestRequiredLayer> <!-- text_todo -->
+  <QuestRequiredLayer>TODO</QuestRequiredLayer>
   <!-- EN: cannot accept in space -->
-  <QuestNotSpace>TODO</QuestNotSpace> <!-- text_todo -->
+  <QuestNotSpace>nelze přijmout ve vesmíru</QuestNotSpace>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
@@ -378,12 +378,12 @@
   <AssignButton>Přiřadit</AssignButton>
   <!-- EN: Unassign -->
   <UnassignButton>Zrušit přiřazení</UnassignButton>
-  
+
   <!-- Books -->
   <!-- EN: Mental break chance -->
   <BookMentalBreakChance>šance na mentální zhroucení</BookMentalBreakChance>
-  
+
   <!-- EN: Recreation gain multiplier -->
   <BookJoyFactor>násobitel relaxace</BookJoyFactor>
-  
+
 </LanguageData>

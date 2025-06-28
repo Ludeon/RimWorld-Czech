@@ -19,20 +19,20 @@
   <FirstSummerWarning>Začalo léto! Avšak zima se blíží.\n\nTvá rostlinná potrava v zimě neporoste. Nezapomeň uskladnit dostatek potravy pro přežití. Můžeš si postavit chladírnu, aby se zabránilo zkažení potravin.\n\nChceš-li se řádně připravit na zimu, nakup, ukradni nebo vyrob pár kabátů, jinak zmrzneš hned, jakmile vyjdeš ven.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>Vztahy s frakcí {0} se zcela pokazily. Nyní jsou k tobě nepřátelští.</LetterRelationsChange_Hostile>  
+  <LetterRelationsChange_Hostile>Vztahy s frakcí {0} se zcela pokazily. Nyní jsou k tobě nepřátelští.</LetterRelationsChange_Hostile>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>Budou podnikat pravidelné nájezdy na tvou kolonii a karavany a zároveň s tebou nebudou chtít obchodovat. Pokud s nimi budeš chtít zlepšit vztahy, tak jim klidně můžeš nabízet dary pomocí karavan nebo přepravních modulů.\n\nStalo se tak, protože se prestiž ({0}) dostala pod hodnotu {1}. Aby bylo možné obnovit neutrální vztahy, musí se prestiž znovu dostat na hodnotu {2}.</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>Budou podnikat pravidelné nájezdy na tvou kolonii a karavany a zároveň s tebou nebudou chtít obchodovat. Pokud s nimi budeš chtít zlepšit vztahy, tak jim klidně můžeš nabízet dary pomocí karavan nebo přepravních modulů.\n\nStalo se tak, protože se prestiž ({0}) dostala pod hodnotu {1}. Aby bylo možné obnovit neutrální vztahy, musí se prestiž znovu dostat na hodnotu {2}.</LetterRelationsChange_HostileGoodwillDescription>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Vztahy s frakcí {0} se zlepšily. Nyní jsou k tobě neutrální a už na tebe nebudou útočit.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
   <LetterRelationsChange_NeutralFromHostileGoodwillDescription>Stalo se tak, protože se prestiž ({1}) dostala nad hodnotu {2}. Pokud klesne pod {3}, frakce {0} se opět stane nepřátelskou. Jestliže prestiž vzroste nad {4}, stanou se z nich tví spojenci a budou pro tebe bojovat.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
-  
+
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>Vztahy s frakcí {0} ochladly. Už tě nepovažují za spojence, ale za neutrální.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
   <LetterRelationsChange_NeutralFromAllyGoodwillDescription>I když s tebou budou nadále udržovat vzájemnou spolupráci, už ti nebudou posílat na pomoc své bojovníky, když budeš v ohrožení.\n\nStalo se tak, protože se prestiž ({1}) dostala pod hodnotu {2}. Pokud klesne pod {3}, frakce {0} se stane nepřátelskou. Jestliže prestiž vzroste nad {4}, stanou se z nich opět spojenci.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
-  
+
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Vztahy s frakcí {0} dosáhly vrcholu. Nyní tě považují za spojence.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
@@ -127,7 +127,7 @@
   <LetterHealthComplications>{PAWN_labelShort} pociťuje zhoršení zdravotního stavu:\n\n  {1}\n\nPříčina:\n\n  {2}</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
-  
+
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
   <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} pociťuje zhoršení zdravotního stavu: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
@@ -260,9 +260,9 @@
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>Touha na {0}</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>Touha po {lookup: {0}; case\singular; 6}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{2_label} toužebně vyhledává {1}.</LetterDrugBinge>
+  <LetterDrugBinge>{2_label} toužebně vyhledává {lookup: {1}; case\singular; 4}.</LetterDrugBinge>
 
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
@@ -294,9 +294,9 @@
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Základna byla zničena</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>Nepřátelská osada zvaná {0} byla zničena.\n\nPo uplynutí {1} napadnou tvou karavanu nepřátelé. Začnou vysílat své jednotky, dokud se karavana znovu nezformuje a neodeje.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>Nepřátelská osada {0} byla zničena.\n\nPo uplynutí {1} napadnou tvou karavanu nepřátelé. Začnou vysílat své jednotky, dokud se karavana znovu nezformuje a neodeje.</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>Nepřátelská osada {0} byla zničena.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Vzhledem k tomu, že tohle byla jejich poslední osada, byla frakce {0} definitivně poražena.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -418,7 +418,7 @@
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>{PAWN_nameDef} {PAWN_gender ? byl : byla} {PAWN_gender ? zachráněn : zachráněna} a {PAWN_gender ? připojil : připojila} se ke tvé skupině.</LetterRescueQuestFinished>
   <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
-  <LetterRescueQuestFinishedCaravanExtra>TODO</LetterRescueQuestFinishedCaravanExtra>
+  <LetterRescueQuestFinishedCaravanExtra>Můžeš {PAWN_gender ? ho : jí} vzít sebou. Stačí aby si na tomto políčku kliknul na "Upravit karavanu" a přidal {PAWN_gender ? ho : jí}.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -436,27 +436,27 @@
 
   <!-- Quests -->
   <!-- EN: Quest available: {0} -->
-  <LetterLabelQuestAvailableTitle>TODO</LetterLabelQuestAvailableTitle>
+  <LetterLabelQuestAvailableTitle>Dostupný úkol: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterLabelQuestAutomaticallyAcceptedTitle>TODO</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Aktivní úkol: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
   <!-- EN: {DISCOVEREDFROM} a new quest. -->
-  <LetterNewQuest>TODO</LetterNewQuest> <!-- text_todo -->
+  <LetterNewQuest>TODO</LetterNewQuest>
   <!-- EN: A new quest is available. -->
-  <LetterNewQuestFromUnknown>TODO</LetterNewQuestFromUnknown>
+  <LetterNewQuestFromUnknown>Nový dostupný úkol.</LetterNewQuestFromUnknown>
   <!-- EN: The quest is called '{0}'. -->
-  <LetterQuestIsNamed>TODO</LetterQuestIsNamed>
+  <LetterQuestIsNamed>Úkol se jmenuje "{0}".</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>\n\nDo konce jeho platnosti zbývá {0}.</LetterQuestActiveNowTime>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Na přijetí úkolu máš {0}, poté skončí jeho platnost.</LetterQuestRequiresAcceptance>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
-  <QuestDiscoveredFromBook>TODO</QuestDiscoveredFromBook>
+  <QuestDiscoveredFromBook>Když četl{READER_pronoun} knihu {BOOK_labelNoParenthesis}, {READER_nameDef} objevil{READER_pronoun}</QuestDiscoveredFromBook>
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
-  <QuestDiscoveredFromTrader>TODO</QuestDiscoveredFromTrader>
+  <QuestDiscoveredFromTrader>Když {NEGOTIATOR_nameDef} obchodoval{NEGOTIATOR_pronoun}, tak {NEGOTIATOR_gender ? mu : jí} {TRADER_nameDef} pověděl{TRADER_pronoun} o</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>TODO</QuestDiscoveredFromBeggar> <!-- text_todo -->
+  <QuestDiscoveredFromBeggar>{RECEIVER_nameDef} nevěděl{RECEIVER_pronoun} jak se ti má zavděčit za tvoji pohostinost, proto {GIVER_nameDef} od {RECEIVER_gender ? něj : ní} dostal{GIVER_pronoun} informace oe</QuestDiscoveredFromBeggar>
   <!-- EN: You have discovered -->
-  <QuestDiscoveredFromDebug>TODO</QuestDiscoveredFromDebug>
+  <QuestDiscoveredFromDebug>Objevil si</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -475,7 +475,7 @@
   <LetterLabelRefugeeJoins>{PAWN_nameDef} právě {PAWN_gender ? dorazil : dorazila}</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
   <LetterRefugeeJoins>Právě {PAWN_gender ? dorazil : dorazila} {PAWN_title} jménem {PAWN_nameDef} a {PAWN_gender ? připojil : připojila} se ke tvé kolonii.</LetterRefugeeJoins>
-  
+
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
   <LetterLabelRescueeJoins>{PAWN_nameDef} se {PAWN_gender ? připojil : připojila}</LetterLabelRescueeJoins>
@@ -505,14 +505,14 @@
   <LetterLabelPawnsLeaving>{0} odchází</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
   <LetterPawnsLeaving>{0} odchází.</LetterPawnsLeaving>
-  
+
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
   <LetterLabelPawnsKidnapped>{PAWN_nameDef} {PAWN_gender ? byl : byla} {PAWN_gender ? unesen : unesena}</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
   <LetterPawnsKidnapped>{PAWN_nameDef} {PAWN_gender ? byl : byla} {PAWN_gender ? unesen : unesena} frakcí {FACTION_name}!\n\nNení však {PAWN_gender ? ztracen : ztracena} navždy. Příležitost na {PAWN_possessive} záchranu může přijít v příštích dnech či letech.</LetterPawnsKidnapped>
-  
+
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
   <LetterTechprintAppliedLabel>Technotisk aplikován</LetterTechprintAppliedLabel>
@@ -528,7 +528,7 @@
   <LetterTechprintAppliedPartAlreadyResearched>Tento projekt byl již zcela vyzkoumán, takže tímto technotiskem nedošlo k žádnému pokroku tvých znalostí.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
   <LetterTechprintAppliedPartExpAwarded>Použitím technotisku {PAWN_gender ? získal : získala} {PAWN_labelShort} celkem {0} zkušeností k dovednosti {1}.</LetterTechprintAppliedPartExpAwarded>
-  
+
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
   <LetterQuestCompletedLabel>Úkol byl dokončen</LetterQuestCompletedLabel>
@@ -549,7 +549,7 @@
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
   <LetterBladelinkWeaponBonded>{PAWN_labelShort} si {PAWN_gender ? vytvořil : vytvořila} pouto k personě, která si říká {WEAPON_labelShort}.\n\nOd této chvíle může tuto zbraň ovládat pouze {PAWN_labelShort}. Kdokoli jiný se pokusí této zbraně zmocnit, toho její persona odmítne.</LetterBladelinkWeaponBonded>
-  
+
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
   <LetterLabelMechClusterArrived>Dorazili mechanoidi</LetterLabelMechClusterArrived>
@@ -564,13 +564,13 @@
   <!-- EN: Unwavering prisoner -->
   <LetterLabelUnrecruitablePawnCaptured>Neochvějně loajální vězeň</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} je neochvějně loajální ke své vlasti a odmítá být jakkoliv {PAWN_gender ? naverbován : naverbována}.\n\nZda je někdo neochvějně loajální, se můžeš přesvědčit jeho výběrem.</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} je neochvějně loajální ke své vlasti a odmítá být jakkoliv {PAWN_gender ? naverbován : naverbována}.\n\nZda je někdo neochvějně loajální, se můžeš přesvědčit v jeho životopisu.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>zotročit {PAWN_gender ? ho : jí}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>TODO</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} onemocněl{PAWN_pronoun} {replace: {1}; "plicní hniloba"-"plicní hnilobou"}, protože byl{PAWN_pronoun} příliš dlouho vystaven{PAWN_pronoun} hnilobnému zápachu (který pochází z hnijících mrtvol).\n\nUjisti se že máš zdravotnickou postel a schopného doktora, aby {PAWN_definite} obdržel{PAWN_pronoun} péči, kterou potřebuje.</LetterTextLungRot>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->

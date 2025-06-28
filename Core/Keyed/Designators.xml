@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Cancel -->
   <DesignatorCancel>Zrušit</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
@@ -17,9 +17,9 @@
   <DesignatorDeconstructDesc>Označí objekty, které mají být rozebrány. Část surovin získáš zpět.</DesignatorDeconstructDesc>
 
   <!-- EN: Deconstruct conduit -->
-  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <DesignatorDeconstructConduit>Rozebrat kabely</DesignatorDeconstructConduit>
   <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
-  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
+  <DesignatorDeconstructConduitDesc>Označí kabely, které mají být rozebrány. Část surovin získáš zpět.</DesignatorDeconstructConduitDesc>
 
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Odmontovat</DesignatorUninstall>
@@ -160,7 +160,7 @@
 
   <!-- EN: Expand zone -->
   <DesignatorZoneExpand>Rozšířit oblast</DesignatorZoneExpand>
-  
+
   <!-- EN: Claim -->
   <DesignatorClaim>Zabrat</DesignatorClaim>
   <!-- EN: Claim neutral structures for the colony, including ancient ruins and abandoned siege bases. Claimed structures can be repaired and maintained by your colonists. -->
@@ -185,11 +185,11 @@
   <DesignatorOpen>Otevřít</DesignatorOpen>
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Označí nádoby nebo hroby, které mají být otevřeny.</DesignatorOpenDesc>
-  
+
   <!-- EN: Eject fuel -->
-  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <DesignatorEjectFuel>Vyprázdnit palivo</DesignatorEjectFuel>
   <!-- EN: Eject all contained fuel onto the ground. -->
-  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+  <DesignatorEjectFuelDesc>Vyprázdní palivo z danáho zařízení a slije ho do kanistrů.</DesignatorEjectFuelDesc>
 
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Porazit</DesignatorSlaughter>
@@ -201,7 +201,7 @@
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Označí divoké zvíře, které má být ochočeno.</DesignatorTameDesc>
   <!-- EN: Scaria infected animals can't be tamed. -->
-  <CantTameScaria>TODO</CantTameScaria>
+  <CantTameScaria>Zvěř nakažená skárií se nedá ochočit.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Vypustit do volné přírody</DesignatorReleaseAnimalToWild>
@@ -227,9 +227,9 @@
   <!-- EN: Remove paint from walls, buildings, and floors. -->
   <DesignatorRemovePaintDesc>Odstraní barvu ze zdí, objektů a podlah.</DesignatorRemovePaintDesc>
   <!-- EN: Remove floor paint -->
-  <DesignatorRemoveFloorPaint>Odstranit podlahový nátěr</DesignatorRemoveFloorPaint> 
+  <DesignatorRemoveFloorPaint>Odstranit nátěr podlahy</DesignatorRemoveFloorPaint>
   <!-- EN: Remove paint from floors. -->
-  <DesignatorRemoveFloorPaintDesc>Odstraní barvu z podlah.</DesignatorRemoveFloorPaintDesc> 
+  <DesignatorRemoveFloorPaintDesc>Odstraní barvu z podlah.</DesignatorRemoveFloorPaintDesc>
   <!-- EN: Paint -->
   <Paint>Barva</Paint>
   <!-- EN: Color -->
@@ -253,14 +253,14 @@
   <GrabbedColor>Nabraná barva</GrabbedColor>
 
   <!-- EN: Expand plan -->
-  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <DesignatorExpandPlan>Rozšířit plán</DesignatorExpandPlan>
   <!-- EN: New plan -->
-  <NewPlan>TODO</NewPlan>
-  
+  <NewPlan>Nový plán</NewPlan>
+
   <!-- EN: Shrink plan -->
-  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <DesignatorPlanShrinkSingular>Odstranit plány</DesignatorPlanShrinkSingular>
   <!-- EN: Remove plans. -->
-  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+  <DesignatorPlanShrinkDesc>Odstraní již vytvořené plány.</DesignatorPlanShrinkDesc>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
@@ -282,9 +282,9 @@
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Na tomto místě se již nachází {0}.</TerrainIsAlready>
   <!-- EN: There is already foundation here. -->
-  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <FoundationAlreadyExists>Na tomto políčku už existují základy.</FoundationAlreadyExists>
   <!-- EN: The existing terrain here cannot be removed. -->
-  <TerrainUnremovable>TODO</TerrainUnremovable>
+  <TerrainUnremovable>Existující terén nelze odstranit.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Tento povrch už je označený pro vyhlazení.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -319,18 +319,18 @@
   <MonumentAdjacentToBuilding>Zde nelze umístit: {0} stojí v těsné blízkosti.</MonumentAdjacentToBuilding>
   <!-- EN: Cannot be planted here -->
   <CannotBePlantedHere>Zde nelze zasadit</CannotBePlantedHere>
-  
+
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
   <ExpandOrCreateZone>Rozšířit {0} nebo\nvytvořit {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Vytvoří {0}</CreateNewZone>
-  
+
   <!-- EN: Expand {0} or\nCreate new plan -->
-  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <ExpandOrCreatePlan>Rozšířit {0} nebo\nvytvořit nový plán</ExpandOrCreatePlan>
   <!-- EN: Create new plan -->
-  <CreateNewPlan>TODO</CreateNewPlan>
-  
+  <CreateNewPlan>Vytvoří nový plán</CreateNewPlan>
+
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
   <TransmitsPower>Vede elektřinu</TransmitsPower>
@@ -341,7 +341,7 @@
   <!-- EN: {0} needed -->
   <SkillNeededForConstructing>Vyžadována {0}</SkillNeededForConstructing>
   <!-- EN: None of your {0} have all skills required. -->
-  <NoColonistWithAllSkillsForConstructing>Žádný z tvých {lookup: {0}; case\plural; 2} nemá ani jednu z potřebných dovedností.</NoColonistWithAllSkillsForConstructing>
+  <NoColonistWithAllSkillsForConstructing>Žádný z tvých {lookup: {0}; case\plural; 2} nemá všechny z potřebných dovedností.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>Všichni z tvých {lookup: {0}; case\plural; 2}, kteří mají tuto úroveň dovednosti, nemají přidělenou činnost {1}.</AllColonistsWithSkillHaveDisabledConstructingTip>
 
