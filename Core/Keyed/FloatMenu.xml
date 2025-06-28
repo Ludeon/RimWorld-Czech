@@ -21,7 +21,7 @@
   <LeaderUnavailableNoLeader>Vůdce je nedostupný</LeaderUnavailableNoLeader>
   <!-- EN: Not allowed -->
   <NotAllowed>Není dovoleno</NotAllowed>
-
+  
   <!-- EN: Attack {1_labelShort} -->
   <Attack>Zaútoč na - {1_label}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
@@ -56,7 +56,7 @@
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Obsluhuj - {1_labelShort}</OrderManThing>
-
+  
   <!-- EN: Melee attack {1_labelShort} -->
   <MeleeAttack>Zaútoč zblízka - {1_label}</MeleeAttack>
   <!-- EN: Melee attack {1_labelShort} to death -->
@@ -194,10 +194,10 @@
   <ContainerFull>plný</ContainerFull>
   <!-- EN: already assigned -->
   <AlreadyAssigned>již přidělěno</AlreadyAssigned>
-
+  
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Zkonzumuj {1_labelShort}</ConsumeThing>
-
+  
   <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>Sem nelze jít (žádná cesta)</CannotGoNoPath>
   <!-- EN: Go here -->
@@ -205,7 +205,7 @@
 
   <!-- EN: Clean {0} -->
   <CleanRoom>Ukliď {lookup: {0}; case\room; 4}</CleanRoom>
-
+  
   <!-- EN: Arrest {0} -->
   <Arrest>Zadrž - {0}</Arrest>
   <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
@@ -224,7 +224,7 @@
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>neochvějně loajální</Unrecruitable>
   <!-- EN: not recruitable* -->
-  <UnrecruitableNoFaction>nelze rekrutovat</UnrecruitableNoFaction>
+  <UnrecruitableNoFaction>nelze rekrutovat</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
   <TransferEntity>Převeď {lookup: {0}; case\entities; 4}</TransferEntity>
 
@@ -287,7 +287,7 @@
 
   <!-- EN: min skill -->
   <MinSkill>min. dovednost</MinSkill>
-
+  
   <!-- EN: Equip {0} -->
   <Equip>Vyzbroj se - {0}</Equip>
   <!-- EN: (brawler will be unhappy) -->
@@ -296,7 +296,7 @@
   <CannotEquip>Nelze se vyzbrojit - {0}</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
   <CannotManThing>Nelze obsluhovat - {1_labelShort}</CannotManThing>
-
+  
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Vynuceně si nasaď - {1_labelShort}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
@@ -315,7 +315,7 @@
   <CannotForceTargetToEquipApparel>Nelze vybavit cíl - {1_label}</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>chybějící části těla</CannotWearBecauseOfMissingBodyParts>
-
+  
   <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
   <Reload>Nabij - {GEAR_labelShort}, použít {AMMO_label}</Reload>
   <!-- EN: Full -->
@@ -324,7 +324,7 @@
   <ReloadNotEnough>Nedostatečné množství</ReloadNotEnough>
   <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
   <ReloadCannotCarryEnough>Neunese {AMMO_label} v dostatečném množství ani jedno přebití.</ReloadCannotCarryEnough>
-
+  
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>Nelze sebrat - {1_label}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
@@ -341,7 +341,7 @@
   <CannotPickUpSome>Nelze sebrat - {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
   <MaxPickUpAllowed>Maximálně může sebrat {replace: ^{0} {1}^; "^1 droga^"-"1 droga"; "^2 droga^"-"2 drogy"; "^3 droga^"-"3 drogy"; "^4 droga^"-"4 drogy"; "^{0} droga^"-"{0} drog"; "^1 léčivo^"-"1 léčivo"; "^2 léčivo^"-"2 léčiva"; "^3 léčivo^"-"3 léčiva"; "^4 léčivo^"-"4 léčiva"; "^{0} léčivo^"-"{0} léčiv"}</MaxPickUpAllowed>
-
+  
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>Nelze naložit na nákladní zvíře - {1_label}</CannotGiveToPackAnimal>
   <!-- EN: Cannot load {1_label} (all) onto pack animal -->
@@ -354,7 +354,7 @@
   <GiveToPackAnimalSome>Nalož na nákladní zvíře - {1_label} (část)</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
   <GiveToPackAnimalCount>Nalož na nákladní zvíře - {1_labelShort} x{{0}}</GiveToPackAnimalCount>
-
+  
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>Nelze naložit na karavanu - {1_label}</CannotLoadIntoCaravan>
   <!-- EN: Cannot load {1_label} (all) into caravan -->
@@ -376,7 +376,7 @@
   <CarryToExit>Nalož a opusti oblast - {1_label}</CarryToExit>
   <!-- EN: Capture {1_labelShort} and leave the area -->
   <CarryToExitAndCapture>Zajmi a opusti oblast - {1_label}</CarryToExitAndCapture>
-
+  
   <!-- EN: Strip {1_labelShort} -->
   <Strip>Svlékni - {1_label}</Strip>
   <!-- EN: Cannot strip {1_labelShort} -->
@@ -403,7 +403,7 @@
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Provést zde sebezničení</SelfDestructHere>
-
+  
   <!-- EN: Drop {1_labelShort} -->
   <Drop>Upusti - {1_label}</Drop>
 
@@ -419,7 +419,7 @@
   <MedicalCareDisabled>Lékařské péče nenastavena</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>Obsazeno - {0}</SomeoneElseSleeping>
-
+  
   <!-- EN: Trade with {0} -->
   <TradeWith>Obchoduj - {0}</TradeWith>
   <!-- EN: Dismiss trader -->
@@ -433,7 +433,7 @@
   <Open>Otevři - {0_label}</Open>
   <!-- EN: Cannot open {0_label} -->
   <CannotOpen>Nelze otevřít - {0_label}</CannotOpen>
-
+  
   <!-- EN: Enter {0} -->
   <EnterMap>Vstup - {0}</EnterMap>
   <!-- EN: Visit {0} -->
@@ -525,12 +525,12 @@
   <AttackAndDropAtEdge>Zaútočit - {0}: Provést výsadek na okraji</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
   <AttackAndDropInCenter>Zaútočit - {0}: Provést výsadek uprostřed</AttackAndDropInCenter>
-
+  
   <!-- EN: vomiting -->
   <VomitingLower>zvracení</VomitingLower>
   <!-- EN: not interruptible -->
   <NotInterruptibleLower>není přerušitelné</NotInterruptibleLower>
-
+  
   <!-- EN: Add a new waypoint here -->
   <AddWaypoint>Přidat nový záchytný bod sem</AddWaypoint>
   <!-- EN: Remove this waypoint -->
@@ -602,7 +602,7 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>Nelze vstoupit</CannotEnter>
-
+  
   <!-- EN: Cannot enter {0} -->
   <CannotEnterPortal>TODO</CannotEnterPortal>
   <!-- EN: closed -->
@@ -622,7 +622,7 @@
 
   <!-- EN: Unsuitable drug -->
   <DrugNotSuitable>Nevhodná droga</DrugNotSuitable>
-
+  
   <!-- Books -->
   <!-- EN: Assign reading... *-->
   <AssignReading>Přiřadit čtení...</AssignReading>
