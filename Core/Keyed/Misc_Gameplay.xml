@@ -265,7 +265,7 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>je venku</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>v dešti</DeterioratingRaining>
+  <DeterioratingRaining>v dešti</DeterioratingRaining> 
   <!-- EN: protected -->
   <Protected>chráněno</Protected>
   <!-- EN: Deteriorating -->
@@ -277,7 +277,7 @@
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>Do příchodu nepřátel zbývá {0}</CaravanDetectedRaidCountdown>
   <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
-  <CaravanDetectedRaidCountdownTip>Nepřátelské posily dorazí do této oblasti po uplynutí {0}.</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Nepřátelé zjistili tvoji pozici. Dorazí za {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Místnost</Room>
   <!-- EN: Beauty here -->
@@ -591,24 +591,24 @@
   <!-- EN: person -->
   <Person>osoba</Person>
   <!-- EN: activated. -->
-  <Activated>aktivované.</Activated>
+  <Activated>aktivované.</Activated> 
   <!-- EN: Contains -->
   <Contains>Obsahuje</Contains>
   <!-- EN: Hostiles -->
   <Hostiles>Nepřátelé</Hostiles>
   <!-- EN: Investigate -->
-  <Investigate>Prozkoumat</Investigate>
+  <Investigate>Prozkoumat</Investigate> 
   <!-- EN: Activate -->
-  <Activate>Aktivovat</Activate>
+  <Activate>Aktivovat</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>Deaktivovat</Deactivate>
+  <Deactivate>Deaktivovat</Deactivate> <!-- text_todo -->
   <!-- EN: Activation -->
   <Activation>Aktivování</Activation>
   <!-- EN: complete -->
   <Complete>TODO</Complete>
   <!-- EN: Must be imprisoned. -->
-  <RequiresImprisonment>Musí být vězněm.</RequiresImprisonment>
-  <!-- EN: Prioritize hauling contents* -->
+  <RequiresImprisonment>Musí být vězněm.</RequiresImprisonment> 
+  <!-- EN: Prioritize hauling contents -->
   <HaulFromSource>Prioritizovat přenešení obsahu</HaulFromSource>
   <!-- EN: Use -->
   <UseGizmo>Použij</UseGizmo>
@@ -647,7 +647,7 @@
   <DisablesNeed>Vyřazuje potřebu</DisablesNeed>
   <!-- EN: Disables needs -->
   <DisablesNeeds>Vyřazuje potřeby</DisablesNeeds>
-
+  
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
   <UserScanAbility>Skenovací rychlost operátora</UserScanAbility>
@@ -655,7 +655,7 @@
   <ScanAverageInterval>Interval náhodného nalezení</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
   <ScanningProgressToGuaranteedFind>Pokrok k zaručenému nalezení</ScanningProgressToGuaranteedFind>
-
+  
   <!-- Meditation -->
   <!-- EN: meditating at -->
   <MeditatingAt>medituje u</MeditatingAt>
@@ -777,7 +777,7 @@
   <PenExampleAnimals>Příklady zvířecí kapacity</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
   <NoExteriorAccess>Bez přístupu zvenčí - zvířata nelze přivádět dovnitř ani ven.</NoExteriorAccess>
-
+  
   <!-- EN: Must be connected to walls on both sides to function. -->
   <DoorMustBeEnclosedByWalls>Musí mít stěny po obou stranách, aby fungovaly.</DoorMustBeEnclosedByWalls>
 
@@ -807,14 +807,14 @@
   <!-- EN: Road -->
   <Road_Label>Silnice</Road_Label>
   <!-- EN: River -->
-  <River_Label>Řeka</River_Label>
+  <River_Label>Řeka</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Obtížnost pohybu</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Znečištění</Pollution_Label>
   <!-- EN: Filth -->
   <Filth_Label>Nepořádek</Filth_Label>
-
+  
   <!-- EN: Features -->
   <Features_Label>Vlastnosti</Features_Label>
   <!-- EN: Faction -->
@@ -827,7 +827,7 @@
   <CaravanStatus_Label>Aktuální stav</CaravanStatus_Label>
   <!-- EN: Time to destination -->
   <CaravanTTD_Label>Odhad. čas do cíle</CaravanTTD_Label>
-
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -935,13 +935,13 @@
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>vyhrabává mrtvolu.</ReportDiggingUpCorpse>
   <!-- EN: being carried by {0_labelShort}. -->
-  <CarriedBy>je nesen: {0_labelShort}</CarriedBy>
+  <CarriedBy>je nesen: {0_labelShort}</CarriedBy> 
   <!-- EN: inside {0_labelShort}. -->
-  <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer>
+  <InContainer>uvnitř {lookup: {0}; case\singular; 2}.</InContainer> 
   <!-- EN: downed, cannot crawl. -->
-  <DownedCannotCrawl>zraněn, neschopný pohybu.</DownedCannotCrawl>
+  <DownedCannotCrawl>zraněn, neschopný pohybu.</DownedCannotCrawl> 
   <!-- EN: downed, unconscious. -->
-  <DownedUnconscious>zraněn, v bezvědomí.</DownedUnconscious>
+  <DownedUnconscious>zraněn, v bezvědomí.</DownedUnconscious> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -1125,11 +1125,11 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>Vysušené</RotStateDessicated>
   <!-- EN: Frozen -->
-  <CurrentlyFrozen>Zmražené (nezkazí se)</CurrentlyFrozen>
+  <CurrentlyFrozen>Zmražené (nezkazí se)</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated>
+  <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>Nechlazené (zkazí se za {0})</NotRefrigerated>
+  <NotRefrigerated>Nechlazené (zkazí se za {0})</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>více než deset let</OverADecade>
   <!-- EN: less than a day -->
@@ -1226,7 +1226,7 @@
   <ClearAll>Zakázat vše</ClearAll>
   <!-- EN: Allow all -->
   <AllowAll>Povolit vše</AllowAll>
-
+  
   <!-- Storage Groups -->
   <!-- EN: Group -->
   <StorageGroup>Skupina</StorageGroup>
@@ -1246,7 +1246,7 @@
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
   <Undiscovered>Neobjevené</Undiscovered>
-
+  
   <!-- Animal management -->
   <!-- EN: Are you sure you want to sterilize {PAWN_nameDef}? Doing this will anger {FACTION_name}. -->
   <AnimalSterilizeConfirm>TODO</AnimalSterilizeConfirm>
@@ -1298,7 +1298,7 @@
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
   <HotKeyTip>Klávesa</HotKeyTip>
-
+  
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
   <FireOn>hořící {1_label}</FireOn>
@@ -1393,7 +1393,7 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Komponent není připraven</ShipReportNotReady>
   <!-- EN: No settlement to return to. Form a settlement first. -->
-  <ShipNoSettlementToReturnTo>Neexistuje žádná osada, do které by se dalo vrátit. Nejprve založ osadu.</ShipNoSettlementToReturnTo>
+  <ShipNoSettlementToReturnTo>Neexistuje žádná osada, do které by se dalo vrátit. Nejprve založ osadu.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>(*Name)Charlon Whitestone(/Name) je připraven spustit sekvenci na probuzení lodního reaktoru z hluboké hibernace.\n\nVaruje tě, že tento proces zabere asi 15 dnů a jeho energetický podpis bude detekovatelný z velké vzdálenosti.\n\nTento druh energetického podpisu naznačuje schopnost mezihvězdného letu a jistě přiláká gangy zoufalých lupičů a roje smrtících mechanoidů.\n\nBudeš napadán intenzitou, jakou jsi ještě nezažil. Ujisti se, že tvá obrana je skvěle připravena.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1576,7 +1576,7 @@
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
   <ChargesRemaining>Zbývající použití</ChargesRemaining>
-
+  
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Výukový pomocník</LearningHelper>
@@ -1650,7 +1650,7 @@
   <ClickToSeeAvailableOrders_WorldObject>{0}: Zobrazit dostupné příkazy...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
   <ClickToSeeAvailableOrders_Empty>Zobrazit dostupné příkazy...</ClickToSeeAvailableOrders_Empty>
-
+  
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
   <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
@@ -1670,7 +1670,7 @@
   <PawnTooltipPsychicEntropyLimit>Přepínač pro vypnutí/zapnutí omezovače neurálního tepla. Překročení horní meze tepla může způsobit psychický kolaps trvající několik dnů. Ten ale nezpůsobuje trvalé následky.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psiofokus: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
@@ -1722,7 +1722,7 @@
   <Reward_Title>{PAWNNAME} získá od frakce {FACTION} titul {lookup: {TITLE}; case\singular; 2}</Reward_Title>
   <!-- EN: value {0} -->
   <TotalValue>Celková hodnota {0}</TotalValue>
-
+  
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
   <BondedWith>Pouto: {0}</BondedWith>
@@ -1764,14 +1764,14 @@
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
   <CausedByHediff>Příčina: {0}</CausedByHediff>
-
+  
   <!-- EN: {DAMAGE_label} weakness -->
   <DamageFactorWeakness>TODO</DamageFactorWeakness>
   <!-- EN: {DAMAGE_label} resistance -->
   <DamageFactorResistance>TODO</DamageFactorResistance>
   <!-- EN: {DAMAGE_label} damage that this creature receives is multiplied by this amount. -->
   <DamageFactor>TODO</DamageFactor>
-
+  
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was healed. -->
   <HealingHealHediff>TODO</HealingHealHediff>
@@ -1931,7 +1931,7 @@
   <!-- EN: rot stink -->
   <RotStink>hnilobný zápach</RotStink>
   <!-- EN: deadlife dust -->
-  <DeadlifeDust>nekrovitý prach</DeadlifeDust>
+  <DeadlifeDust>nekrovitý prach</DeadlifeDust> 
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
@@ -1996,7 +1996,7 @@
   <AbilitySpeechCooldown>Další projev bude připraven za</AbilitySpeechCooldown>
   <!-- EN: Initiated at -->
   <AbilitySpeechTargetsLabel>Zahájení na</AbilitySpeechTargetsLabel>
-
+  
   <!-- Books -->
 
   <!-- EN: Benefits -->
@@ -2007,17 +2007,17 @@
   <AlreadyUnlocked>již vyzkoumáno</AlreadyUnlocked>
   <!-- EN: when discovered -->
   <WhenDiscovered>po vyzkoumání</WhenDiscovered>
-
+  
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>TODO</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
   <BookReadProgress>TODO</BookReadProgress>
-
+  
   <!-- EN: learning speed -->
   <BookLearningModifier>Rychlost učení</BookLearningModifier>
   <!-- EN: Mental break chance -->
   <BookMentalBreak>Šance na mentální zhroucení</BookMentalBreak>
-
+  
   <!-- EN: {BOOK_labelShort} is not readable -->
   <BookNotReadable>{BOOK_labelShort} nelze přečíst</BookNotReadable>
   <!-- EN: {PAWN_nameDef} can't read -->
@@ -2026,13 +2026,13 @@
   <BookCantBeStage>{PAWN_nameDef} nesmí být nemluvně</BookCantBeStage>
   <!-- EN: {PAWN_nameDef} is blind -->
   <BookBlind>{PAWN_nameDef} je {PAWN_gender ? slepý : slepá}</BookBlind>
-
+  
   <!-- EN: max level {0} -->
   <BookMaxLevel>maximální úroveň {0}</BookMaxLevel>
-
+  
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>TODO</ReadingReportHeader>
-
+  
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>TODO</ReadingDialogTitle>
   <!-- EN: Assign to {0} -->
@@ -2042,7 +2042,7 @@
 
   <!-- EN: The books currently on this bookshelf. -->
   <ContainedBooksDesc>Knihy, které se aktuálně nacházejí v této knihovně.</ContainedBooksDesc>
-
+  
   <!-- EN: Books stored -->
   <BookshelfStoredInspect>Uložené knihy</BookshelfStoredInspect>
   <!-- EN: Reading bonus in room -->
@@ -2050,7 +2050,7 @@
 
   <!-- EN: Remove this book from the bookshelf. -->
   <EjectBookTooltip>Vyjmout knihu z knihovny.</EjectBookTooltip>
-
+  
   <!-- Pushing -->
   <!-- EN: Push to... -->
   <CommandPushTo>TODO</CommandPushTo>
@@ -2066,7 +2066,7 @@
 
   <!-- EN: Emergence* -->
   <Emergence>Zjevení</Emergence>
-
+  
   <!-- EN: remove {0} -->
   <RemovePart>TODO</RemovePart>
 
@@ -2074,12 +2074,12 @@
   <DoWorkAtThing>TODO</DoWorkAtThing>
   <!-- EN: can be studied in {0} -->
   <CanBeStudiedInDuration>lze zkoumat za {0}</CanBeStudiedInDuration>
-
+  
   <!-- EN: About to explode -->
   <AboutToExplode>Brzy exploduje.</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>Neobsahuje žádné palivo</RefuelableNoFuelToEject>
-
+  <RefuelableNoFuelToEject>Neobsahuje žádné palivo</RefuelableNoFuelToEject> <!-- text_todo -->
+  
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Nové rozšíření Anomaly je již dostupné!</MainScreen_AnomalyAvailableNow>
 
@@ -2126,11 +2126,11 @@
   <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
   <NewSettlement>Nová osada</NewSettlement>
-  <!-- EN: Settled* -->
+  <!-- EN: Settled -->
   <Settled>Osídleno</Settled>
-  <!-- EN: Abandoned* -->
+  <!-- EN: Abandoned -->
   <Abandoned>Opuštěno</Abandoned>
-  <!-- EN: Cannot perform in {0} -->
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
   <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
   <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
@@ -2173,16 +2173,16 @@
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>Zablokován střechou</CannotUseScannerRoofed>
+  <CannotUseScannerRoofed>Zablokován střechou</CannotUseScannerRoofed> <!-- text_todo -->
   <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>Nefunguje v tomto biomu</CannotUseScannerNoBedrock>
-
+  <CannotUseScannerNoBedrock>Nefunguje v tomto biomu</CannotUseScannerNoBedrock> <!-- text_todo -->
+  
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
   <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
   <CannotAcceptQuestNoMap>Tento úkol nelze přijmout bez permanentní kolonie.</CannotAcceptQuestNoMap>
-
+  
   <!-- UNUSED -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>chybí palivo</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <TransportPodInGroupHasSomethingLeftToLoad>probíhá nakládka</TransportPodInGroupHasSomethingLeftToLoad>
