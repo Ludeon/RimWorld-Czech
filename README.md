@@ -14,7 +14,7 @@ See this page for license info:
 
 # Czech Translation Team:
 - Medak (active)
-- Morticinus (inactive)
+- Morticinus (active)
 - LordFanger (active)
 - Galoth (inactive)
 - Azarian (inactive)
