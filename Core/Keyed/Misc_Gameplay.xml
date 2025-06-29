@@ -121,7 +121,7 @@
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} ztratí {POINTS} neutracených bodů oprávnění u frakce {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>Přesto si ale ponechá nabyté úroveň psiovazby a schopnosti.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>Přesto si ale ponechá nabyté úrovně psiovazby a schopnosti.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>neznámý</UnknownLower>
   <!-- EN: On -->
@@ -381,7 +381,7 @@
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Na tomto zvířeti se dá jezdit. Karavanisté použijí k jízdě nejrychlejší zvířata, které mají v rámci karavany k dispozici, čímž zlepší rychlost pohybu celé karavany.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>Toto osoba zvyšuje rychlost karavany. Celková rychlost je průměrem bonusů všech členů karavany.</CaravanBonusTip>
+  <CaravanBonusTip>Tato osoba zvyšuje rychlost karavany. Celková rychlost je průměrem bonusů všech členů karavany.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Tato karavana se nemůže pohybovat, protože toho nese příliš mnoho.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -611,7 +611,7 @@
   <!-- EN: Use -->
   <UseGizmo>Použij</UseGizmo>
   <!-- EN: Order someone to use the {0}. TODO CASEs for {0}-->
-  <UseGizmoTooltip>Přikaž někomu aby použil {0}.</UseGizmoTooltip>
+  <UseGizmoTooltip>Přikaž někomu, aby použil {0}.</UseGizmoTooltip>
   <!-- EN: Choose who should use this -->
   <UseGizmoMouse>Vyber někoho, kdo by to měl použít</UseGizmoMouse>
   <!-- EN: Select target -->
@@ -629,14 +629,14 @@
   <!-- EN: flying -->
   <Flying>letí</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>Zabránit pokácení</PreventCutting>
+  <PreventCutting>Zabránit posekání</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
   <PreventCuttingDesc>Pokud je aktivní, kolonisté nikdy neposekají tuto rostlinu.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
   <ComesFromTrait>Vychází z rysu</ComesFromTrait>
   <!-- EN: Resulting from condition -->
-  <ComesFromHediff>Vychází z zdravotního stavu</ComesFromHediff>
+  <ComesFromHediff>Vychází ze zdravotního stavu</ComesFromHediff>
   <!-- EN: Adds need -->
   <AddsNeed>Přidá potřebu</AddsNeed>
   <!-- EN: Adds needs -->
@@ -837,7 +837,7 @@
   <!-- EN: {1_labelShort} is not drafted. -->
   <IsNotDrafted>{1_labelShort} není {1_gender ? povolán : povolána}.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>{PAWN_nameDef} nemůže používat střelné zbraně, protože v tom zabraňuje je{PAWN_gender ? ho : jí} {APPAREL_label}.</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_nameDef} nemůže používat střelné zbraně, protože {PAWN_gender ? mu : jí} v tom brání {PAWN_possessive} {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>TODO</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
@@ -1271,7 +1271,7 @@
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
   <AutoRebuildButton>Automatická obnova zničených struktur.\n\nPokud jsou struktury zničené v domovské oblasti budou automaticky obnoveny tvými kolonisty.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Kategorizovaný režim.\n\nUkazatel surovin v levém horním rohu zobrazuje suroviny v kategorijích.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Kategorizovaný režim.\n\nUkazatel surovin v levém horním rohu zobrazuje suroviny v kategoriích.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
   <ShowAnimalNamesToggleButton>Zobrazení jmen ochočených zvířat.\n\nZobrazí jména pojmenovaných domácích zvířat.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
@@ -1635,7 +1635,7 @@
   <!-- EN: Nudist -->
   <OutfitNudist>Nudista</OutfitNudist>
   <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>Vesmírný farmář</OutfitSpacefarer>
+  <OutfitSpacefarer>Hvězdoplavec</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1749,11 +1749,11 @@
   <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Zachytává {0}.</InterceptsProjectiles>
   <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>pozemní a protivzdušné projektily</InterceptsProjectiles_BothProjectiles>
+  <InterceptsProjectiles_BothProjectiles>pozemní a vzdušné projektily</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>pozemní projektily</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>protivzdušné projektily</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>vzdušné projektily</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
@@ -1777,7 +1777,7 @@
   <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Stavbou zde proti sobě poštveš frakci {FACTION_name}!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Pozor: Umístěním stavby v tomto míste proti sobě poštveš frakci {FACTION_name}!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Vyber místo pro přistání</ChooseLandingSite>
@@ -1941,9 +1941,9 @@
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>ve frontě se již nachází nějaká schopnost.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
-  <AbilityReadyLabel>Schopnost připravena: {0}</AbilityReadyLabel>
+  <AbilityReadyLabel>Schopnost připravena pro {PAWN_nameDef}: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
-  <AbilitiesReadyLabel>Schopnosti připravena: {0}</AbilitiesReadyLabel>
+  <AbilitiesReadyLabel>Schopnosti připraveny pro {PAWN_nameDef}: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
   <AbilityReadyText>{0_nameDef} je {0_gender ? připraven : připravena} použít schopnost {1}.</AbilityReadyText>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -2117,7 +2117,7 @@
   <!-- EN: Jump to location -->
   <WorldJumpTo>Vycentrovat na</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>Vycentruje mapu na vybrané kolonii, karavaně nebo lokaci na mapě.</WorldJumpToDesc>
+  <WorldJumpToDesc>Vycentruje mapu na vybrané kolonii, karavaně nebo lokaci na mapě světa.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
   <NothingToJumpTo>Není na co vycentrovat.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
@@ -2155,7 +2155,7 @@
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>Čas obnovy</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
-  <ShieldDuration>Délka zaštítění</ShieldDuration>
+  <ShieldDuration>Trvání zaštítění</ShieldDuration>
   <!-- EN: On cooldown -->
   <ShieldOnCooldown>Nabíjí se</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
