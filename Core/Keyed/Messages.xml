@@ -84,7 +84,7 @@
   <!-- EN: No colonists are assigned to hunt. -->
   <MessageNoHuntersAvailable>Žádní kolonisté nemají na starosti lov.</MessageNoHuntersAvailable>
   <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
-  <MessageNoHuntersWithProperWeapon>Žádný z lovců nemá vyhovující zbraň. Ozbroj některého z nich s vyhovující střelnou zbraní.</MessageNoHuntersWithProperWeapon>
+  <MessageNoHuntersWithProperWeapon>Žádný z lovců nemá vyhovující zbraň. Vybav některého z nich vhodnou střelnou zbraní.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Varování: {PAWN_labelShort} je agresivní a při ochočování se pokusí napadnout tvého kolonistu.</MessageInsectsHostileOnTaming>
@@ -115,7 +115,7 @@
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Musíš označit dostatečně vzrostlé rostliny, ze kterých se získává dřevo.</MessageMustDesignateHarvestableWood>
   <!-- EN: Prevent cutting is enabled for this plant. -->
-  <MessageMustPlantCuttingForbidden>Tato rostlina má označené zabránit posekání.</MessageMustPlantCuttingForbidden>
+  <MessageMustPlantCuttingForbidden>U této rostliny je povolena funkce zabránit posekání.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Musíš označit rostliny.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -157,7 +157,7 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Musíš označit zakázané předměty.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenPawnThreatsAreNear>{CLAIMABLE_labelShort} nelze zebrat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenPawnThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>{CLAIMABLE_labelShort} nelze sebrat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotAdoptWhilePawnThreatsAreNear>{CLAIMABLE_labelShort} nelze adoptovat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhilePawnThreatsAreNear>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
@@ -165,7 +165,7 @@
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>{CLAIMABLE_labelShort} nelze adoptovat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
   <!-- EN: Cannot remove foundation that supports a building. -->
-  <MessageCannotRemoveSupportingFoundation>Nelze odstranit základy na kterých stojí nějaká budova.</MessageCannotRemoveSupportingFoundation>
+  <MessageCannotRemoveSupportingFoundation>Nelze odstranit základy, na kterých stojí nějaká budova.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} {1_gender ? odmítl : odmítla} být {1_gender ? zadržen : zadržena}!</MessageRefusedArrest>
@@ -635,7 +635,7 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Od tohoto okamžiku mohou pokusy o verbování začít.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>Mód s ID číslem {0} už je aktivní. Deaktuvuj "{1}" předtím mež aktuvuješ tento.</MessageModWithPackageIdAlreadyEnabled>
+  <MessageModWithPackageIdAlreadyEnabled>Mód s ID číslem {0} už je aktivní. Deaktuvuj "{1}" předtím, než aktivuješ tento.</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Před použitím tohoto nástroje deaktivuj všechny mody.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
@@ -686,7 +686,7 @@
   <MessageActivatorProximityTriggered>{0_indefinite} {0_gender ? narušil : narušila} snímaný prostor detektoru pohybu a {0_gender ? spustil : spustila} tak alarm.</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
-  <MessageCannotSelectInvisibleStat>{0_label} není vidět.</MessageCannotSelectInvisibleStat>
+  <MessageCannotSelectInvisibleStat>{0_label} není v současnosti vidět.</MessageCannotSelectInvisibleStat>
 
   <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} je {PAWN_gender ? zajatec : zajatkyně}</MessagePrisonerCannotEquipWeapon>
@@ -757,7 +757,7 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>tuto roli nemůže zastávat nikdo jiný.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} se nemůže spojit Gauranlením stromem, protože je{PAWN_gender ? ho : jí} spojení bylo nedávno přetrženo.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} se nemůže spojit Gauranlením stromem, protože {0_possessive} spojení bylo nedávno přetrženo.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} má již stejné ideobožství jako konvertovatel.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
@@ -828,7 +828,7 @@
   <MessageIncapableOfManipulation>TODO</MessageIncapableOfManipulation>
 
   <!-- EN: {0_labelShort} activation canceled -->
-  <MessageActivationCanceled>activace zrušena: {0_labelShort}</MessageActivationCanceled>
+  <MessageActivationCanceled>aktivace zrušena: {0_labelShort}</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
   <NothingAvailableInCategory>V této kategorii se momentálně nenachází nic k vybudování</NothingAvailableInCategory>
@@ -847,7 +847,7 @@
   <StorageSettingsPastedFromClipboard>Nastavení skladiště vloženo ze schránky.</StorageSettingsPastedFromClipboard>
   
   <!-- EN: {0_label} requires adjacent walls to function. -->
-  <MessageBuildingRequiresAdjacentWalls>{0_label} potřebují přilehlé zdi.</MessageBuildingRequiresAdjacentWalls>
+  <MessageBuildingRequiresAdjacentWalls>{0_label} vyžadují ke své funkci přilehlé zdi.</MessageBuildingRequiresAdjacentWalls>
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Nelze teleportovat: Uprchlík</MessageLodgersCantFarskip>
@@ -865,7 +865,7 @@
   <MessageShuttleArrived>Raketoplán dorazil na místo určení.</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>{THING_labelCap} nemůže fungovat v tomto biotopu.</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
+  <MessageGroundPenetratingScannerNoBedrock>{THING_labelCap} nemůže fungovat v tomto biomu.</MessageGroundPenetratingScannerNoBedrock> <!-- text_todo -->
 
   <!-- UNUSED -->
   <MessageTransportPodsDestinationReserved>Destinace je již rezervována.</MessageTransportPodsDestinationReserved>

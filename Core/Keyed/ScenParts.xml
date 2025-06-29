@@ -61,7 +61,7 @@
   <PawnCount>{replace: ^{COUNT}^; "^1^"-"1 {lookup: {KINDLABEL}; case\singular; 7}"; "^{COUNT}^"-"{COUNT} {lookup: {KINDLABEL}; case\plural; 7}"}</PawnCount>
   
   <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
-  <ScenPart_Error>Jedna anebo více částí tohoto scénáře nemohli být načteny, protože chybý dodatečný obsah.\n\nJe možné tento scénář načíst tak jak je anebo ho načíst se všemi potřebnými částmi.</ScenPart_Error>
+  <ScenPart_Error>Jednu nebo více částí tohoto scénáře se nepodařilo načíst kvůli chybějícímu obsahu modifikací.\n\nScénář můžeš načíst se všemi požadovanými mody, nebo jej můžeš načíst i bez chybějících částí scénáře.</ScenPart_Error>
 
   <!-- ======================== Grouped ========================-->
 

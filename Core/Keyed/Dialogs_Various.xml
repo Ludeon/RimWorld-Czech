@@ -250,7 +250,7 @@
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
-  <MapWinterWarning>Varování: Přistát a přežít v zimě může být velmi náročné, až nemožné. Pokud si myslíš že nezvládneš takovou výzvu, zkus přistát v jiném ročním období.</MapWinterWarning>
+  <MapWinterWarning>Varování: Přistát a přežít v zimě může být velmi náročné, až nemožné. Pokud si myslíš, že nezvládneš takovou výzvu, zkus přistát v jiném ročním období.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>Hra je určena pro hraní na středně velkých mapách. Tyto velikosti poskytují dostatek místa!\n\nVelké mapy nezhoršují pouze výkon - ve skutečnosti narušují design hry. UI dělá hloupá rozhodnutí a herní rovnováha bude zhoršena různými způsoby. Tyto velikosti jsou zahrnuty pouze z důvodů tradice a testování, nepoužívej je bez zvláštního důvodu.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -717,7 +717,7 @@
   
   <!-- Select caravan settlement -->
   <!-- EN: Select colony to send caravan -->
-  <SelectCaravanOrigin>Vyber kolonii ze které vyšleš karavanu</SelectCaravanOrigin> 
+  <SelectCaravanOrigin>Vyber kolonii, ze které vyšleš karavanu</SelectCaravanOrigin> 
   <!-- EN: Send a caravan from {0}. -->
   <SelectCaravanDesc>Vyšle karavanu z kolonie jménem {0}.</SelectCaravanDesc> 
   <!-- EN: Colonists -->
@@ -731,9 +731,9 @@
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Dostupný počet, který je možný odeslat pomocí karavany.</FormCaravanColonyThingCountTip>
   <!-- EN: Number available to transport. -->
-  <TransporterColonyThingCountTip>Počet možný transportovat.</TransporterColonyThingCountTip> <!-- text_todo -->
+  <TransporterColonyThingCountTip>Dostupný počet k přepravě.</TransporterColonyThingCountTip> <!-- text_todo -->
   <!-- EN: Number available to transfer. -->
-  <TransferMapPortalColonyThingCountTip>Počet možný přeložit.</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
+  <TransferMapPortalColonyThingCountTip>Dostupný počet k přeložení.</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>Lidé a zvířata</PawnsTab>
   <!-- EN: Items -->
@@ -1149,7 +1149,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: The following still need to be loaded -->
-  <ConfirmSendNotCompletelyLoadedLaunchable>Následující věci stále nejsou naloženy</ConfirmSendNotCompletelyLoadedLaunchable>
+  <ConfirmSendNotCompletelyLoadedLaunchable>Následující položky stále nejsou naloženy</ConfirmSendNotCompletelyLoadedLaunchable>
   <!-- EN: Launch anyway? -->
   <ConfirmSendLaunchAnyway>Přesto odletět?</ConfirmSendLaunchAnyway>
 
@@ -1428,7 +1428,7 @@
   <!-- EN: Search the world -->
   <SearchTheWorld>Prohledat planetu</SearchTheWorld>
   <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
-  <SearchTheWorldDesc>Hledat na planetě.\n\nUmožňuje najít specifické krajiny, prvky terénu, úkoli či osady.)</SearchTheWorldDesc>
+  <SearchTheWorldDesc>Slouží k prohledání mapy světa za účelem nalezení specifických prvků krajiny, orientačních bodů, úkolů či osad.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{replace: ^{0}^; "^1^"-"1 zjištěný nález"; "^2^"-"2 zjištěné nálezy"; "^3^"-"3 zjištěné nálezy"; "^4^"-"4 zjištěné nálezy"; "^{0}^"-"{0} zjištěných nálezů"}</MapSearchResults>
   <!-- EN: 1 result found -->

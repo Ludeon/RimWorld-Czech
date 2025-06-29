@@ -765,9 +765,9 @@
   <!-- EN: my child is sad -->
   <MyChildIsSad>mé dítko je smutné</MyChildIsSad> 
   
-  <!-- EN: Genetic {CHEMICAL_label} dependency* -->
-  <GeneticChemicalDependency_Label>Genetická závislost na {lookup: {CHEMICAL_label}; case\singular; 6}.</GeneticChemicalDependency_Label>
-  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any.* -->
-  <GeneticChemicalDependency_Desc>Potřebuji {lookup: {CHEMICAL_label}; case\singular; 4} kvůli mým genetickým nedostatkům. Už je to strašně dávno co jsem {replace: ^{CHEMICAL_label}^; "^šťáva-go^"-"jí"; "^{CHEMICAL_label}^"-"ho"} měl naposledy.</GeneticChemicalDependency_Desc>
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>Genetická závislost na {lookup: {CHEMICAL_label}; case\singular; 6}</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>Kvůli mému genetickému nedostatku potřebuji nutně {lookup: {CHEMICAL_label}; case\singular; 4}. Od poslední dávky uběhla už spousta času.</GeneticChemicalDependency_Desc>
 
 </LanguageData>
