@@ -8,7 +8,7 @@
   <!-- EN: Select a psychic ritual to perform -->
   <CastPsychicRitualDesc>Vyber rituál k provedení</CastPsychicRitualDesc>
   <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
-  <CannotCastPsychicRitual>{0_labelShort} nemůže provést {1} psychický rituál, protože {2}.</CannotCastPsychicRitual>
+  <CannotCastPsychicRitual>TODO</CannotCastPsychicRitual>
   <!-- EN: The {0} psychic ritual has begun. -->
   <PsychicRitualBegun>Rituál {lookup: {0}; case\ritual; 2} právě začal.</PsychicRitualBegun>
   <!-- EN: The {0} psychic ritual has been completed. -->
@@ -46,7 +46,7 @@
   <CantCastOnPocketMap>Rituál {lookup: {0}; case\ritual; 2} musí být proveden na povrchu.</CantCastOnPocketMap>
 
   <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
-  <PsychicRitualFactionWarning>Provádění rituálu na {PAWN_nameDef} naštve {PAWN_possessive} frakci ({FACTION_name})</PsychicRitualFactionWarning>
+  <PsychicRitualFactionWarning>TODO</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>{0} spí, ale vzbudí se na začátek psychického rituálu.</PsychicRitualWakingPawnWarning>
@@ -63,11 +63,11 @@
   <PsychicRitualLeftBecause>TODO</PsychicRitualLeftBecause>
   <!-- EN: The {0} psychic ritual has been canceled. -->
   <PsychicRitualCanceled>Rituál {lookup: {0}; case\ritual; 2} byl zrušen.</PsychicRitualCanceled>
-  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
-  <PsychicRitualCanceledBecause>Rituál {lookup: {0}; case\ritual; 2} byl zrušen protože {1}.</PsychicRitualCanceledBecause>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. --> <!--Rituál {lookup: {0}; case\ritual; 2} byl zrušen protože {1}.-->
+  <PsychicRitualCanceledBecause>TODO</PsychicRitualCanceledBecause>
 
   <!-- EN: {0} is needed but only {1} is available -->
-  <PsychicRitualOfferingsInsufficient>{0} je potřeba ale pouze {1} je dostupné</PsychicRitualOfferingsInsufficient>
+  <PsychicRitualOfferingsInsufficient>TODO</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
   <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} není schop{PAWN_gender ? en : ná} dosáhnout na cíl rituálu.</PsychicRitualTargetUnreachableByInvoker>
 
@@ -106,7 +106,7 @@
   <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
   <PsychicRitualLeaveReason_ExtremeTemperature>{PAWN_labelShort} by se u cíle nacházel{PAWN_pronoun} v nebezpečné teplotě</PsychicRitualLeaveReason_ExtremeTemperature>
   <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
-  <PsychicRitualLeaveReason_InsideBuilding>nemůže se účastnit zevnitř {BUILDING}</PsychicRitualLeaveReason_InsideBuilding>
+  <PsychicRitualLeaveReason_InsideBuilding>TODO</PsychicRitualLeaveReason_InsideBuilding>
   <!-- EN: {PAWN_labelShort} is humanlike -->
   <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} je lidská bytost</PsychicRitualLeaveReason_Humanlike>
   <!-- EN: {PAWN_labelShort} is not humanlike -->
@@ -118,7 +118,7 @@
   <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} je voln{PAWN_gender ? ý : á}</PsychicRitualLeaveReason_Freeman>
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
-  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} je v {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <PsychicRitualLeaveReason_DevelopmentalStage>TODO</PsychicRitualLeaveReason_DevelopmentalStage>
   <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} se není schopn{PAWN_gender ? ý : á} dostat na místo určení</PsychicRitualLeaveReason_CannotReachTarget>
   <!-- EN: {PAWN_labelShort} is asleep -->
@@ -126,7 +126,7 @@
   <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} není člověk</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
-  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort} víra v {IDEO_name} brání účasti</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <PsychicRitualLeaveReason_IdeoUnwilling>TODO</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
   <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} je psychicky necitliv{PAWN_gender ? ý : á}</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
@@ -143,7 +143,7 @@
   <PsychicRitualToil_Goto_JobReport_Waiting>čeká na ostatní</PsychicRitualToil_Goto_JobReport_Waiting>
 
   <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
-  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} nebyl schopen najít dostatek {1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>TODO</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
   <!-- EN: gathering offering -->
   <PsychicRitualToil_GatherOfferings_JobReport>sbírá oběti</PsychicRitualToil_GatherOfferings_JobReport>
 
@@ -154,7 +154,7 @@
   <!-- EN: psychic ritual target -->
   <PsychicRitualToil_InvokeHorax_JobReport_Target>cíl psychického rituálu</PsychicRitualToil_InvokeHorax_JobReport_Target>
   <!-- EN: {0} doesn't have enough {1} -->
-  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0} nemá dost {1}</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>TODO</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
   <!-- EN: {PAWN_labelShort} is out of position -->
   <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} je mimo místo určení</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
   <!-- EN: defending psychic ritual -->
