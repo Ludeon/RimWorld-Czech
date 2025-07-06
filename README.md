@@ -16,9 +16,10 @@ See this page for license info:
 - Medak (active)
 - Morticinus (active)
 - LordFanger (active)
+- DarkDragoniaFox (active)
+
 - Galoth (inactive)
 - Azarian (inactive)
-- DarkDragoniaFox (active)
 
 ---
 ##### Special thanks: Leffi, Barbar, Aladalar
