@@ -105,7 +105,7 @@
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef} uspěšně dokončil{0_pronoun} rituál {lookup: {RITUAL}; case\ritual; 2}. Masostvůry se začnou nořit ze země!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>TODO</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef} dokončil infuzi a {TARGET_nameDef} se proměnil{TARGET_pronoun}. Tento rituál překroutí mysl, zmutuje tělo a vytvoří tak děsivé stvoření známé jako ghúl. {INVOKER_nameDef} a {TARGET_nameDef} sdílí psychické pouto, což {INVOKER_gender ? mu : jí} umožňuje {TARGET_gender ? ho : jí} ovládat.\n\nGhúlové jedí pouze syrové maso a pokud vyhladvý, už je nezajímá kdo je přítel a kdo ne.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>Hrozí, že mohou tento rituál znovu zopakovat. Musíš je zastavit.</AttackersMayCastRitualMultipleTimes>
