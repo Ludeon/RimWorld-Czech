@@ -22,10 +22,10 @@
   <!-- EN: Laborer died: {SUBJECT_definite} -->
   <Permit_CallLaborers.LetterLabelLaborerDied.slateRef>Smrt {SUBJECT_gender ? dělníka : dělnice}: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerDied.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has died. Your goodwill with [permitFaction_name] has fallen by [goodwillPenaltyPawn]. -->
-  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>{SUBJECT_gender ? Dělník : Dělnice}, {SUBJECT_gender ? kterého : kterou} ti poslali z frakce [permitFaction_name], právě {SUBJECT_gender ? zemřel : zemřela}. Tvá prestiž s frakcí [permitFaction_name] proto klesla o [goodwillPenaltyPawn] bodů.</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
+  <Permit_CallLaborers.LetterTextLaborerDied.slateRef>{SUBJECT_gender ? Dělník : Dělnice}, {SUBJECT_gender ? kterého : kterou} ti poslali z frakce [permitFaction_name], právě zemřel{SUBJECT_pronoun}. Tvá prestiž s frakcí [permitFaction_name] proto klesla o [goodwillPenaltyPawn].</Permit_CallLaborers.LetterTextLaborerDied.slateRef>
   <!-- EN: Laborer abandoned: {SUBJECT_definite} -->
-  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>TODO</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
+  <Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>Ztráta {SUBJECT_gender ? dělníka : dělnice}: {SUBJECT_definite}</Permit_CallLaborers.LetterLabelLaborerLeftBehind.slateRef>
   <!-- EN: A laborer sent to you by [permitFaction_name] has been left behind. Any remaining laborers will now leave. -->
-  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>TODO</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
+  <Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>{SUBJECT_gender ? Dělník : Dělnice}, {SUBJECT_gender ? kterého : kterou} ti poslali z frakce [permitFaction_name], byl{SUBJECT_pronoun} právě opuštěn{SUBJECT_pronoun}. Všichni zbývající dělníci nyní odejdou po svých.</Permit_CallLaborers.LetterTextLaborerLeftBehind.slateRef>
   
 </LanguageData>

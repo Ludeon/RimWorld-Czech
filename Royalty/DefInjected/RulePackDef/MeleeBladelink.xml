@@ -59,6 +59,69 @@
     <li>endSyl->mar</li>
     <li>endSyl->gur</li>
   -->
-  <NamerWeaponBladelink.rulePack.rulesStrings>TODO</NamerWeaponBladelink.rulePack.rulesStrings>
+  <NamerWeaponBladelink.rulePack.rulesStrings>
+    <li>r_weapon_name(p=3)->[noun][verber]</li>
+    <li>r_weapon_name(p=2)->[beginSyl][middleSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[beginSyl][middleSyl][middleSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[beginSyl][endSyl]</li>
+    <li>r_weapon_name(p=1)->[NamePerson]</li>
+    <li>r_weapon_name(p=1)->[nameAnimal]</li>
+    <li>nameAnimal->[NameAnimalUnisex]</li>
+    <li>nameAnimal->[NameAnimalMale]</li>
+    <li>nameAnimal->[NameAnimalFemale]</li>
+    <li>noun->přísaho</li>
+    <li>noun->slibo</li>
+    <li>noun->smrti </li>
+    <li>noun->bolesti </li>
+    <li>noun->krve</li>
+    <li>noun->osudo</li>
+    <li>noun->vraždy </li>
+    <li>noun->spravedlnosti </li>
+    <li>noun->stracho</li>
+    <li>noun->děso</li>
+    <li>noun->chaoso</li>
+    <li>noun->řádu </li>
+    <li>noun->války </li>
+    <li>noun->ticho</li>
+    <li>noun->dluho</li>
+    <li>verber->strážce</li>
+    <li>verber->nosič</li>
+    <li>verber->strůjce</li>
+    <li>verber->dárce</li>
+    <li>verber->tvůrce</li>
+    <li>verber->drtič</li>
+    <li>verber->likvidátor</li>
+    <li>verber->spláceč</li>
+    <li>verber->ohybač</li>
+    <li>verber->věd</li>
+    <li>verber->vykonavatel</li>
+    <li>beginSyl->vy</li>
+    <li>beginSyl->na</li>
+    <li>beginSyl->lo</li>
+    <li>beginSyl->ra</li>
+    <li>beginSyl->to</li>
+    <li>beginSyl->ger</li>
+    <li>beginSyl->kr</li>
+    <li>beginSyl->kel</li>
+    <li>beginSyl->vl</li>
+    <li>beginSyl->a</li>
+    <li>beginSyl->e</li>
+    <li>beginSyl->ex</li>
+    <li>beginSyl->u</li>
+    <li>middleSyl->za</li>
+    <li>middleSyl->ger</li>
+    <li>middleSyl->ar</li>
+    <li>middleSyl->dor</li>
+    <li>middleSyl->ve</li>
+    <li>middleSyl->za</li>
+    <li>middleSyl->xa</li>
+    <li>endSyl->us</li>
+    <li>endSyl->tor</li>
+    <li>endSyl->var</li>
+    <li>endSyl->ner</li>
+    <li>endSyl->dor</li>
+    <li>endSyl->mar</li>
+    <li>endSyl->gur</li>
+  </NamerWeaponBladelink.rulePack.rulesStrings>
   
 </LanguageData>

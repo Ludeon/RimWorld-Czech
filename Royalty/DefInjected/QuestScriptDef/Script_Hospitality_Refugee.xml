@@ -2,7 +2,6 @@
 <LanguageData>
   
   <!-- EN:
-    * TODO revize
     <li>lastOrNot(lodgerCount==1)-></li>
     <li>lastOrNot(lodgerCount>=2)->last</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
@@ -102,7 +101,7 @@
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Nezdařený úkol</li>
     <li>lodgersAllArrestedLetterText->{SUBJECT_definite}, [lastOrNot], [whoAskedToStay], {SUBJECT_gender ? byl právě zadržen : byla právě zadržena}.\n\n[questOver]</li>
-    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], {SUBJECT_gender ? byl : byla} opuštěn.</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], byl{SUBJECT_pronoun} opuštěn{SUBJECT_pronoun}.</li>
     <li>lodgerLeftBehindMemoryThoughtLetterLabel->Opuštění [subjectLabelGen]: Hněv</li>
     <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
     <li>lodgerLeftBehindLeaveMapLetterLabel->Opuštění [subjectLabelGen]: Odchod</li>
@@ -344,7 +343,22 @@
     <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
     <li>questOver->The quest '[resolvedQuestName]' is over.</li>
   -->
-  <RefugeeBetrayal.questContentRules.rulesStrings>TODO</RefugeeBetrayal.questContentRules.rulesStrings>
+  <RefugeeBetrayal.questContentRules.rulesStrings>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>betrayalOfferRewardLetterLabel->Slíbená odměna: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] ti slíbil[factionOpponent_pronoun], pokud [asker_nameDef] [otherMembers]. Nemohla [factionOpponent_gender ? mu : jí] proto uniknout zpráva, že tak bylo vykonáno, a posílá ti přepravným modulem následující odměnu (v celkové hodnotě [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Odměna za zradu odřeknuta</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] se dozvěděl[factionOpponent_pronoun], že žijící členové frakce [faction_name] se přidali k tobě! [factionOpponent_nameDef] chtěl[factionOpponent_pronoun] všechny členy frakce [faction_name] mrtvé a proto ztahuje svojí nabídku.</li>
+    <li>betrayalOfferFailedLetterLabel->Odměna za zradu odřeknuta</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] se dozvěděl[factionOpponent_pronoun], že jeden ze členů frakce [faction_name] opustil tvojí kolonii [map_definite]. [factionOpponent_nameDef] chtěl[factionOpponent_pronoun] všechny členy frakce [faction_name] mrtvé a proto ztahuje svojí nabídku.</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->a další [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->a další [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)->zemře</li>
+    <li>otherMembers(lodgerCount>=2)->a všichni ostatní členové frakce [faction_name] zemřou</li>
+    <li>questOver->Úkol "[resolvedQuestName]" je tímto u konce.</li>
+  </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
@@ -365,7 +379,18 @@
     <li>areIs(lodgerCount==1)->is</li>
     <li>areIs(lodgerCount>=2)->are</li>
   -->
-  <RefugeeBetrayal.questDescriptionRules.rulesStrings>TODO</RefugeeBetrayal.questDescriptionRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] z frakce [factionOpponent_faction_name], se dozvěděl[factionOpponent_pronoun], že [asker_nameDef] [otherLodgers] se nachází ve tvojí kolonii [map_definite]. [factionOpponent_nameDef] a [asker_nameDef] jsou nepřátelé a [factionOpponent_nameDef] [asker_gender ? ho chce mrtvého : jí chce mrtvou] za každou cenu.\n\nNabízí ti následující odměnu, [otherMembers] (v celkové hodnotě [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->a další [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->a další [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)->pokud [asker_gender ? ho : jí] zabiješ</li>
+    <li>otherMembers(lodgerCount>=2)->pokud zabiješ všechny členy frakce [faction_name]</li>
+    <li>areIs(lodgerCount==1)->je</li>
+    <li>areIs(lodgerCount>=2)->jsou</li>
+  </RefugeeBetrayal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
   -->
