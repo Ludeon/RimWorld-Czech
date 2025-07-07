@@ -32,33 +32,52 @@
     <li>deliveredLetterLabel->Mysterious cargo</li>
     <li>deliveredLetterText->The mysterious cargo has been delivered. It resembles a thick, jagged human spine made out of a rough-cast black metal. It looks like it's covered in a dark fluid.\n\nThe spine vibrates in response to touch and twists angrily. You can study it on a holding platform to learn more.</li>
   -->
-  <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>TODO</MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
+  <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->Záhadný náklad</li>
+    <li>deliveredLetterText->Záhadný náklad byl doručen. Připomíná hrubou, kostrbatou, lidskou páteř z ledabile odlitého černého kovu a je celá pokrytá zváštní tmavou tekutinou.\n\nNa dotek reaguje vibrací a agrasevním ohýbáním. Můžeš jí upevnit k zadržovací platformě a začít zkoumat co je zač.</li>
+  </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
-  <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>TODO</MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
+  <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Anonymní umělá inteligence se ozvala s podivnou žádostí. Chtělo by, abyste přijali nějaký blíže neurčený náklad. Vyhne se všem vašim otázkám ohledně nákladu.\n\nPokud přijmete, doručí vám záhadný náklad transportním modulem.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z [asker_faction_name] má zvláštní požadavek. [asker_pronoun] rádi by, abyste přijali blíže neurčený náklad. Na dotazy ohledně podrobnějších informací se, [asker_pronoun] otázce vyhne. Je tam zoufalství v [asker_possessive] hlase.\n\nPokud souhlasíte, [asker_nameFull] doručí záhadný náklad transportním modulem.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z [asker_faction_name] má zvláštní požadavek. [asker_pronoun] rádi by, abyste přijali blíže neurčený náklad. Na dotazy ohledně podrobnějších informací se, [asker_pronoun] otázce vyhne. Je tam zoufalství v [asker_possessive] hlase.\n\nPokud souhlasíte, [asker_nameFull] doručí záhadný náklad transportním modulem.</li>
+  </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
   -->
-  <MysteriousCargoRevenantSpine.questNameRules.rulesStrings>TODO</MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
+  <MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
+    <li>questName->Záhadný náklad</li>
+  </MysteriousCargoRevenantSpine.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>deliveredLetterLabel->Mysterious cargo</li>
     <li>deliveredLetterText(pawnOnMap==true)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] is deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
     <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
   -->
-  <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>TODO</MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
+  <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->Záhadný náklad</li>
+    <li>deliveredLetterText(pawnOnMap==true)->Záhadný náklad byl doručen. Vypadá jako lidská mrtvola.\n\nPři řádném pohledu skoro jako by jí [pawn_nameDef] z oka vypadl[pawn_pronoun]. Její kůže je mastná a teplá na dotek. [pawn_nameDef] je silně znepokojen[pawn_pronoun] z její přítomnosti.\n\nPokud jí budeš studovat tak se o ní dozvíš víc.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->Záhadný náklad byl doručen. Vypadá jako lidská mrtvola.\n\nPři řádném pohledu skoro jako by jí [pawn_nameDef] z oka vypadl[pawn_pronoun]. Její kůže je mastná a teplá na dotek. [pawn_nameDef] bude silně znepokojen[pawn_pronoun] z její přítomnosti, až se o ní dozví.\n\nPokud jí budeš studovat tak se o ní dozvíš víc.</li>
+  </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
-  <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>TODO</MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
+  <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Anonymní umělá inteligence se ozvala s podivnou žádostí. Chtělo by, abyste přijali nějaký blíže neurčený náklad. Vyhne se všem vašim otázkám ohledně nákladu.\n\nPokud přijmete, doručí vám záhadný náklad transportním modulem.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] z [asker_faction_name] má zvláštní požadavek. [asker_pronoun] rádi by, abyste přijali blíže neurčený náklad. Na dotazy ohledně podrobnějších informací se, [asker_pronoun] otázce vyhne. Je tam zoufalství v [asker_possessive] hlase.\n\nPokud souhlasíte, [asker_nameFull] doručí záhadný náklad transportním modulem.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] z [asker_faction_name] má zvláštní požadavek. [asker_pronoun] rádi by, abyste přijali blíže neurčený náklad. Na dotazy ohledně podrobnějších informací se, [asker_pronoun] otázce vyhne. Je tam zoufalství v [asker_possessive] hlase.\n\nPokud souhlasíte, [asker_nameFull] doručí záhadný náklad transportním modulem.</li>
+  </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
   -->
-  <MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>TODO</MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
+  <MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
+    <li>questName->Záhadný náklad</li>
+  </MysteriousCargoUnnaturalCorpse.questNameRules.rulesStrings>
   
 </LanguageData>
