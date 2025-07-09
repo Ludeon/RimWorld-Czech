@@ -3,7 +3,7 @@
 
   <!-- Gravship -->
   <!-- EN: Gravship -->
-  <Gravship>TODO</Gravship>
+  <Gravship>Tíholoď</Gravship>
   <!-- EN: no grav engine -->
   <CannotLaunchNoEngine>TODO</CannotLaunchNoEngine>
   <!-- EN: not enough fuel -->
@@ -13,9 +13,9 @@
   <!-- EN: Cannot land on the same tile -->
   <CannotLandOnSameTile>TODO</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
-  <ConnectedSubstructure>TODO</ConnectedSubstructure>
+  <ConnectedSubstructure>připojená substruktura</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
-  <SubstructureBlueprintsCount>TODO</SubstructureBlueprintsCount>
+  <SubstructureBlueprintsCount>Položených plánů substruktury</SubstructureBlueprintsCount>
   <!-- EN: not connected to grav engine -->
   <CannotLaunchDisconnected>TODO</CannotLaunchDisconnected>
   <!-- EN: no substructure -->
@@ -23,7 +23,7 @@
   <!-- EN: no unblocked functioning thrusters -->
   <CannotLaunchNoThrusters>TODO</CannotLaunchNoThrusters>
   <!-- EN: engine cooldown: {0} -->
-  <CannotLaunchOnCooldown>TODO</CannotLaunchOnCooldown>
+  <CannotLaunchOnCooldown>motor se nabíjí: {0}</CannotLaunchOnCooldown>
   <!-- EN: Choose where to land -->
   <ChooseWhereToLand>TODO</ChooseWhereToLand>
   <!-- EN: Send a colonist to inspect this. -->
@@ -37,43 +37,43 @@
   <!-- EN: {0} {1_label} -->
   <FuelAmount>TODO</FuelAmount>
   <!-- EN: gravship name -->
-  <GravshipName>TODO</GravshipName>
+  <GravshipName>jméno tíholoďi</GravshipName>
   <!-- EN: gravship range -->
-  <GravshipRange>TODO</GravshipRange>
+  <GravshipRange>dosah tíholoďi</GravshipRange>
   <!-- EN: stored chemfuel -->
-  <StoredChemfuel>TODO</StoredChemfuel>
+  <StoredChemfuel>uložené palivo</StoredChemfuel>
   <!-- EN: thruster blocked -->
   <ThrusterBlocked>TODO</ThrusterBlocked>
   <!-- EN: fuel consumption -->
-  <FuelConsumption>TODO</FuelConsumption>
+  <FuelConsumption>spotřeba paliva</FuelConsumption>
   <!-- EN: {0} chemfuel per tile -->
-  <FuelPerTile>TODO</FuelPerTile>
+  <FuelPerTile>{0} na políčko</FuelPerTile>
   <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
   <RequiresSignalJammer>TODO</RequiresSignalJammer>
   <!-- EN: {0} landing site -->
   <GravshipLandingSite>TODO</GravshipLandingSite>
   <!-- EN: Confirm landing area -->
-  <ConfirmLandingArea>TODO</ConfirmLandingArea>
+  <ConfirmLandingArea>Potvrdit místo přistání</ConfirmLandingArea>
   <!-- EN: Blocked by {0_label} -->
   <GravshipBlockedBy>TODO</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
-  <GravshipBlockedByFog>TODO</GravshipBlockedByFog>
+  <GravshipBlockedByFog>Nelze přistát v neobjevené oblasti</GravshipBlockedByFog>
   <!-- EN: Blocked by roof -->
-  <GravshipBlockedByRoof>TODO</GravshipBlockedByRoof> <!-- text_todo -->
+  <GravshipBlockedByRoof>Blokováno střechou</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
-  <GravshipOutOfBounds>TODO</GravshipOutOfBounds>
+  <GravshipOutOfBounds>Nelze přistát mimo ohraničení mapy</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
-  <GravshipInNoBuildArea>TODO</GravshipInNoBuildArea>
+  <GravshipInNoBuildArea>Nelze přistát příliš blízko u kraje mapy</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>TODO</GravshipInBlockedArea>
+  <GravshipInBlockedArea>Nelze přistát v blokované oblasti</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
-  <GravshipBlockedByTerrain>TODO</GravshipBlockedByTerrain>
+  <GravshipBlockedByTerrain>{0_label} blokuje místo pro přistání</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
   <GravshipMustBeConnectedToLand>TODO</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
-  <ConfirmLandingToContinue>TODO</ConfirmLandingToContinue>
+  <ConfirmLandingToContinue>Potvrď místo přistání, aby si mohl pokračování</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
-  <RitualTargetPilotConsole>TODO</RitualTargetPilotConsole>
+  <RitualTargetPilotConsole>validní pilotní konzole</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
   <GravshipOutcomeChanceLetterExtra>TODO</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
@@ -83,7 +83,7 @@
   <!-- EN: No path to pilot console -->
   <NoPathToPilotConsole>TODO</NoPathToPilotConsole>
   <!-- EN: Pilot console is not accessible from gravship -->
-  <PilotConsoleInaccessible>TODO</PilotConsoleInaccessible>
+  <PilotConsoleInaccessible>Pilotní konzole není dostupná z tíholodi</PilotConsoleInaccessible>
   <!-- EN: Launch date -->
   <LaunchDate>TODO</LaunchDate>
   <!-- EN: Warning: {0} will be blocked by {1}. -->
@@ -91,37 +91,37 @@
   <!-- EN: Warning: {0} will be blocked due to being indoors. -->
   <WarningThrusterInside>TODO</WarningThrusterInside>
   <!-- EN: Max per gravship -->
-  <GravFacilityMaxSimultaneousConnections>TODO</GravFacilityMaxSimultaneousConnections>
+  <GravFacilityMaxSimultaneousConnections>Maximum na tíholoď</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>TODO</ShieldNotConnectedToGravship>
+  <ShieldNotConnectedToGravship>není připojená k tíholodi</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>TODO</GravshipLaunchInterrupted>
+  <GravshipLaunchInterrupted>Vzlet byl zrušen</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
-  <NotConnectedToGravEngine>TODO</NotConnectedToGravEngine>
+  <NotConnectedToGravEngine>Není připojená k tíhomotoru.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
-  <ThrusterNotFunctional>TODO</ThrusterNotFunctional>
+  <ThrusterNotFunctional>Nefunkční</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
-  <ThrusterNotConnected>TODO</ThrusterNotConnected>
+  <ThrusterNotConnected>není připojená k tíhomotoru</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
   <ThrusterBlockedBy>TODO</ThrusterBlockedBy>
   <!-- EN: must be outside -->
-  <MustBeOutside>TODO</MustBeOutside>
+  <MustBeOutside>musí být venku</MustBeOutside>
   <!-- EN: blocked by substructure -->
-  <BlockedBySubstructure>TODO</BlockedBySubstructure>
+  <BlockedBySubstructure>blokovaná substrukturou</BlockedBySubstructure>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
-  <Landmark>TODO</Landmark>
+  <Landmark>Bod zájmu</Landmark>
   <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>TODO</AnimalHabitat>
   <!-- EN: {0} grove -->
   <PlantGrove>TODO</PlantGrove>
   <!-- EN: {0} -->
-  <WildPlants>TODO</WildPlants>
+  <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
-  <MineralRich>TODO</MineralRich>
+  <MineralRich>zvýšený výskyt {lookup: {MINERAL_label}; case\singular; 4}</MineralRich>
   <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
-  <MineralRichDescription>TODO</MineralRichDescription>
+  <MineralRichDescription>Tato oblast je bohatá na ložiska {lookup: {MINERAL_label}; case\singular; 4}.</MineralRichDescription>
 
   <!-- Insect Lair -->
   <!-- EN: Cave entrance -->
@@ -139,9 +139,9 @@
   
   <!-- Overlay -->
   <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
-  <ShowVacuumOverlayToggleButton>TODO</ShowVacuumOverlayToggleButton>
+  <ShowVacuumOverlayToggleButton>Vákuum. Zobrazí překrytí které ti ukáže kde je vákuum a pomůže odhalit úniky vzduchu.\n\nBez správného vybavení vystavení vákuu může být smrtelně nebezpečné.</ShowVacuumOverlayToggleButton>
   <!-- EN: vacuum -->
-  <Vacuum>TODO</Vacuum>
+  <Vacuum>vákuum</Vacuum>
   
   <!-- World -->
   <!-- EN: No discovered orbital locations. -->
@@ -244,11 +244,11 @@
   <LetterAncientGravEngineDiscovered>TODO</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
-  <PlayerPawnsArriveMethod_Gravship>TODO</PlayerPawnsArriveMethod_Gravship>
+  <PlayerPawnsArriveMethod_Gravship>Tíholoď</PlayerPawnsArriveMethod_Gravship>
 
   <!-- Misc -->
   <!-- EN: Toggle displaying expanding icons for landmarks. -->
-  <ShowExpandingLandmarksToggleButton>TODO</ShowExpandingLandmarksToggleButton>
+  <ShowExpandingLandmarksToggleButton>Terénní útvary.\n\nZobrazí ikonky na políčkách se speciálními terénními útvary.</ShowExpandingLandmarksToggleButton>
 
   <!-- Mechive -->
   <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
