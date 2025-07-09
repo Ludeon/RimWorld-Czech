@@ -6,7 +6,7 @@
   <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
   <BloodTransfusion.description>Použije hemogenové balíčky ke zmírnění následků ztráty krve. Každý použitý hemogenový balíček obnoví 35% krevních ztrát. Při tomto zákroku se také obnoví hemogen u hemogenních jedinců.</BloodTransfusion.description>
   <!-- EN: performing blood transfusion on TargetA. -->
-  <BloodTransfusion.jobString>TODO</BloodTransfusion.jobString>
+  <BloodTransfusion.jobString>doplňuje krev (TargetA).</BloodTransfusion.jobString>
   
   <!-- EN: extract hemogen pack -->
   <ExtractHemogenPack.label>odebrat hemogen</ExtractHemogenPack.label>
@@ -20,21 +20,21 @@
   <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
   <ExtractOvum.description>Odebere vajíčko, které uschová ve skladovací kapsli. To může být oplozeno mužem a implantováno do ženy pro zahájení těhotenství.</ExtractOvum.description>
   <!-- EN: extracting ovum from TargetA. -->
-  <ExtractOvum.jobString>TODO</ExtractOvum.jobString>
+  <ExtractOvum.jobString>odeberá vajíčko (TargetA).</ExtractOvum.jobString>
   
   <!-- EN: implant embryo -->
   <ImplantEmbryo.label>zavést embryo</ImplantEmbryo.label>
   <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
   <ImplantEmbryo.description>Zavede embryo do náhradní matky za účelem započetí těhotenství.</ImplantEmbryo.description>
   <!-- EN: Implanting embryo in TargetA. -->
-  <ImplantEmbryo.jobString>Zavádí embryo osobě TargetA.</ImplantEmbryo.jobString>
+  <ImplantEmbryo.jobString>Zavádí embryo (TargetA).</ImplantEmbryo.jobString>
   
   <!-- EN: implant IUD -->
   <ImplantIUD.label>zavést IUD</ImplantIUD.label>
   <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
   <ImplantIUD.description>Zavede do dělohy malé kovové tělísko, které zabraňuje otěhotnění. Může být později odstraněno, ale existuje malé riziko, že dotyčná osoba zůstane trvale neplodná. Tento zákrok ukončí těhotenství v prvním trimestru.</ImplantIUD.description>
   <!-- EN: implanting a IUD in TargetA. -->
-  <ImplantIUD.jobString>zavádí IUD osobě TargetA.</ImplantIUD.jobString>
+  <ImplantIUD.jobString>zavádí IUD (TargetA).</ImplantIUD.jobString>
   <!-- EN: {0} has successfully implanted an IUD in {1}. -->
   <ImplantIUD.successfullyRemovedHediffMessage>{0} úspěšně {0_gender ? zavedl : zavedla} IUD do těla {1}.</ImplantIUD.successfullyRemovedHediffMessage>
   
@@ -48,44 +48,44 @@
   <!-- EN: remove IUD -->
   <RemoveIUD.label>odstranit IUD</RemoveIUD.label>
   <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
-  <RemoveIUD.description>Odstraní zavedené nitroděložní tělísko a znovu umožní těhotenství. Pokud se tato operace zvrtne, osoba se stane permanentně sterilizovanou.</RemoveIUD.description>
+  <RemoveIUD.description>Odstraní zavedené nitroděložní tělísko a znovu umožní těhotenství. Pokud se tato operace nepovede, pacient se stane permanentně neplodný.</RemoveIUD.description>
   <!-- EN: removing IUD from TargetA. -->
-  <RemoveIUD.jobString>TODO</RemoveIUD.jobString>
+  <RemoveIUD.jobString>odebírá IUD (TargetA).</RemoveIUD.jobString>
   <!-- EN: {0} has successfully removed {1}'s IUD. -->
-  <RemoveIUD.successfullyRemovedHediffMessage>TODO</RemoveIUD.successfullyRemovedHediffMessage>
+  <RemoveIUD.successfullyRemovedHediffMessage>{0} úspěšně odebral{0_pronoun} IUD ({1}).</RemoveIUD.successfullyRemovedHediffMessage>
   
   <!-- EN: reverse vasectomy -->
-  <ReverseVasectomy.label>TODO</ReverseVasectomy.label>
+  <ReverseVasectomy.label>provést reverzní vasektomii</ReverseVasectomy.label>
   <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
-  <ReverseVasectomy.description>TODO</ReverseVasectomy.description>
+  <ReverseVasectomy.description>Ucelý chámovod, aby se pacient stal schopný reprodukce. Většina reverzních vasektomií uspěje, ale pokud se tato operace nepovede, pacient se stane permanentně neplodný.</ReverseVasectomy.description>
   <!-- EN: performing a vasectomy reversal on TargetA. -->
-  <ReverseVasectomy.jobString>TODO</ReverseVasectomy.jobString>
+  <ReverseVasectomy.jobString>provádí reverzní vasektomii (TargetA).</ReverseVasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
-  <ReverseVasectomy.successfullyRemovedHediffMessage>TODO</ReverseVasectomy.successfullyRemovedHediffMessage>
+  <ReverseVasectomy.successfullyRemovedHediffMessage>{0} úspěšně odvrátil{0_pronoun} vasektomii ({1}).</ReverseVasectomy.successfullyRemovedHediffMessage>
   
   <!-- EN: terminate pregnancy -->
   <TerminatePregnancy.label>ukončit těhotenství</TerminatePregnancy.label>
   <!-- EN: Terminate the pregnancy of an animal or human. -->
   <TerminatePregnancy.description>Ukončí těhotenství u zvířete nebo člověka.</TerminatePregnancy.description>
   <!-- EN: terminating TargetA's pregnancy. -->
-  <TerminatePregnancy.jobString>TODO</TerminatePregnancy.jobString>
+  <TerminatePregnancy.jobString>ukončuje těhotenství (TargetA).</TerminatePregnancy.jobString>
   
   <!-- EN: perform tubal ligation -->
-  <TubalLigation.label>TODO</TubalLigation.label>
+  <TubalLigation.label>provést podvaz vejcovodů</TubalLigation.label>
   <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
-  <TubalLigation.description>TODO</TubalLigation.description>
+  <TubalLigation.description>Permanentně sterilizuje pacienta a znemožní mu se reprodukovat.</TubalLigation.description>
   <!-- EN: performing tubal ligation on TargetA. -->
-  <TubalLigation.jobString>TODO</TubalLigation.jobString>
+  <TubalLigation.jobString>provádí podvaz vejcovodů (TargetA).</TubalLigation.jobString>
   <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
-  <TubalLigation.successfullyRemovedHediffMessage>TODO</TubalLigation.successfullyRemovedHediffMessage>
+  <TubalLigation.successfullyRemovedHediffMessage>{0} úspěšně provedl{0_pronoun} podvaz vejcovodů ({1}).</TubalLigation.successfullyRemovedHediffMessage>
   
   <!-- EN: perform vasectomy -->
-  <Vasectomy.label>TODO</Vasectomy.label>
+  <Vasectomy.label>provést vasektomii</Vasectomy.label>
   <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
-  <Vasectomy.description>TODO</Vasectomy.description>
+  <Vasectomy.description>Přeřízne chámovod, aby se pacient stal neschopný reprodukce. Pokud se tato operace nepovede, pacient se stane permanentně neplodný.</Vasectomy.description>
   <!-- EN: performing a vasectomy on TargetA. -->
-  <Vasectomy.jobString>TODO</Vasectomy.jobString>
+  <Vasectomy.jobString>provádí vasektomii (TargetA).</Vasectomy.jobString>
   <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
-  <Vasectomy.successfullyRemovedHediffMessage>TODO</Vasectomy.successfullyRemovedHediffMessage>
+  <Vasectomy.successfullyRemovedHediffMessage>{0} úspěšně provedl{0_pronoun} vasektomii ({1}).</Vasectomy.successfullyRemovedHediffMessage>
   
 </LanguageData>
