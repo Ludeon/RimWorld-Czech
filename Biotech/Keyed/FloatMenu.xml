@@ -26,11 +26,11 @@
   <!-- EN: Must be overseer -->
   <MustBeOverseer>Musí být dohlížitelem</MustBeOverseer>
   <!-- EN: Extract -->
-  <Extract>TODO</Extract>
+  <Extract>Extrahuj</Extract>
   <!-- EN: Out of command range -->
-  <OutOfCommandRange>TODO</OutOfCommandRange>
+  <OutOfCommandRange>Mimo ovladatelnou vzdálenost</OutOfCommandRange>
   <!-- EN: Cannot go here -->
-  <CannotGoOutOfRange>TODO</CannotGoOutOfRange>
+  <CannotGoOutOfRange>Sem nelze jít</CannotGoOutOfRange>
   <!-- EN: Must be emptied -->
   <WasteContainerFull>TODO</WasteContainerFull>
   <!-- EN: Cannot repair mech {0} -->
@@ -65,22 +65,22 @@
   <!-- EN: Cannot enter {0_labelShort} -->
   <CannotEnterBuilding>Nelze vstoupit do {lookup: {0_labelShort}; case\singular; 2}</CannotEnterBuilding>
   <!-- EN: {0_labelShort} is assigned to another person. -->
-  <AssignedToOtherPawn>TODO</AssignedToOtherPawn>
+  <AssignedToOtherPawn>{0_labelShort} je přiřazen{replace: ^{0}^; "^kulometná housenka^"-"a"; "^kulometná housenka^"-"a"; "^pekelná housenka^"-"a"; "^energetická housenka^"-"a"; "^{0}^"-""} k jiné osobě.</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
   <AbsorbXenogerm>TODO</AbsorbXenogerm>
   <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
   <CannotAbsorbXenogerm>TODO</CannotAbsorbXenogerm>
   <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
-  <SameXenotype>TODO</SameXenotype>
+  <SameXenotype>{PAWN_nameDef} už je {PAWN_xenotype}</SameXenotype>
   <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>TODO</XenogermLossShockPresent>
+  <XenogermLossShockPresent>{PAWN_nameDef} trpý šokem ze ztráty genu</XenogermLossShockPresent>
   <!-- EN: Carry to {0_labelShort} -->
   <CarryToSpecificThing>TODO</CarryToSpecificThing>
   <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>TODO</NoCasketOrBed>
+  <NoCasketOrBed>Není dostupná žádná volná postel nebo mrtvospánková rakev v bezpečné teplotě.</NoCasketOrBed>
   <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
-  <TemporaryFactionMember>TODO</TemporaryFactionMember>
+  <TemporaryFactionMember>{PAWN_nameDef} je pouze dočasným členem frakce.</TemporaryFactionMember>
 
   <!-- EN: Scanner not initiated -->
   <SubcoreScannerNotInit>Snímač není uveden do provozu</SubcoreScannerNotInit>
@@ -96,19 +96,19 @@
   <!-- EN: Cannot breastfeed {BABY_labelShort} -->
   <BabyCareBreastfeedUnable>Nelze nakojit - {BABY_labelShort}</BabyCareBreastfeedUnable>
   <!-- EN: Already breastfeeding {BABY_labelShort} -->
-  <AlreadyBreastfeeding>TODO</AlreadyBreastfeeding>
+  <AlreadyBreastfeeding>Již kojí - {BABY_labelShort}</AlreadyBreastfeeding>
   <!-- EN: No baby-edible food -->
   <NoBabyFood>Žádný pokrm pro novorozence</NoBabyFood>
 
   <!-- EN: play need full -->
-  <CannotInteractBabyPlayFull>TODO</CannotInteractBabyPlayFull>
+  <CannotInteractBabyPlayFull>potřeba hraní naplněna</CannotInteractBabyPlayFull>
 
   <!-- EN: Feed on {PAWN_nameDef} -->
   <BloodfeedOn>TODO</BloodfeedOn>
   <!-- EN: Cannot feed on {PAWN_nameDef} -->
   <CannotBloodfeedOn>TODO</CannotBloodfeedOn>
   <!-- EN: Not enough blood. -->
-  <CannotFeedOnWouldKill>TODO</CannotFeedOnWouldKill>
+  <CannotFeedOnWouldKill>Nemá dostatek krve.</CannotFeedOnWouldKill>
 
   <!-- BreastfeedFailReason strings-->
   <!-- EN: {MOM_labelShort} does not have enough milk -->
@@ -144,14 +144,14 @@
   <AcceptXenogerm>Přijmi genovštipovač {0_xenotype}</AcceptXenogerm>
 
   <!-- EN: Carry {PAWN_labelShort} to recharger -->
-  <CarryToRechargerOrdered>TODO</CarryToRechargerOrdered>
+  <CarryToRechargerOrdered>Odnes {lookup: {PAWN}; case\singular; 4} k dobíječce</CarryToRechargerOrdered>
   <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
-  <CannotCarryToRecharger>TODO</CannotCarryToRecharger>
+  <CannotCarryToRecharger>Nelze odnést {lookup: {PAWN}; case\singular; 4} k dobíječce</CannotCarryToRecharger>
   <!-- EN: No available recharger -->
-  <CannotCarryToRechargerNoneAvailable>TODO</CannotCarryToRechargerNoneAvailable>
+  <CannotCarryToRechargerNoneAvailable>Žádná dostupná dobíječka</CannotCarryToRechargerNoneAvailable>
 
   <!-- EN: Hemogen packs disabled by food restriction. -->
-  <NotAllowedHemogen>TODO</NotAllowedHemogen>
+  <NotAllowedHemogen>Hemogenové balíčky nejsou povoleny v předepsané potravě.</NotAllowedHemogen>
 
   <!-- EN: Eject genepack from gene bank -->
   <EjectGenepackFromGeneBank>Vyhodit genobalík z genobanky</EjectGenepackFromGeneBank>
@@ -167,8 +167,8 @@
   <!-- EN: Cannot take to safe location -->
   <CannotCarryToSafePlace>Nelze přenést na bezpečné místo</CannotCarryToSafePlace>
   <!-- EN: No safer location than current location -->
-  <NoBetterSafePlace>TODO</NoBetterSafePlace>
+  <NoBetterSafePlace>Žádné bezpečnější místo není</NoBetterSafePlace>
   <!-- EN: Already taking to safe location -->
-  <AlreadyCarryingToSafePlace>TODO</AlreadyCarryingToSafePlace>
+  <AlreadyCarryingToSafePlace>Už je bráno na bezpečné místo</AlreadyCarryingToSafePlace>
 
 </LanguageData>

@@ -32,7 +32,7 @@
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
-  <ReportRemovingMechlink>TODO</ReportRemovingMechlink>
+  <ReportRemovingMechlink>odebírá {lookup: {0}; case\singular; 4}.</ReportRemovingMechlink>
   <!-- EN: from {TEACHER_labelShort} -->
   <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
 
@@ -82,7 +82,7 @@
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Doplňuje materiály plodírně mechů</LoadingMechGestator>
   <!-- EN: Time left this cycle -->
-  <GestatingInspect>TODO</GestatingInspect>
+  <GestatingInspect>Zbývající čas tohoto cyklu</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Zahajuje plodící cyklus</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -116,7 +116,7 @@
   <!-- EN: Gestating -->
   <Gestating>Vyvíjení</Gestating>
   <!-- EN: Escorting {TARGET_labelShort}. -->
-  <Escorting>TODO</Escorting>
+  <Escorting>Doprovází - {TARGET_labelShort}.</Escorting>
   <!-- EN: Worker -->
   <Worker>Pracovník</Worker>
   <!-- EN: Waiting for -->
@@ -136,11 +136,11 @@
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
   <DeathrestCapacityDesc>Tato kapacita určuje, ke kolika přístrojům se daná osoba může připojit, když je v mrtvospánku. Každý přístroj přidává své unikátní výhody a je proto lepší mít možnost se připojit k většímu počtu.\n\nMrtvospánkovou kapacitu je možné zvýšit použitím mrtvospánkového séra. Toto sérum je možné koupit od obchodníků.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>TODO</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} je připojen{PAWN_pronoun} k {CURRENT} / {MAX} (max) mrtvospánkových přístrojů.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
   <Wake>Vzbutit se hned</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>TODO</WakeDesc>
+  <WakeDesc>Vzbudit z mrtvospáneku.\n\n{PAWN_nameDef} byl{PAWN_pronoun} v mrtvospánku {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
   <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
@@ -150,7 +150,7 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Samobuzení</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>TODO</AutoWakeDesc>
+  <AutoWakeDesc>Pokud je zaškrtnuté, {PAWN_nameDef} se automaticky zbudí když si projde mrtvospánkem.\n\nPokud není zaškrtnuté, {PAWN_nameDef} bude odpočívat do té doby, než {PAWN_gender ? ho : jí} manuálně nevzbudíš.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} právě mrtvospí.</IsDeathresting>
   <!-- EN: cannot deathrest -->
@@ -230,23 +230,23 @@
   <!-- EN: Can't use this bed. -->
   <CantUseThisBed>Nemůže použít tuto postel.</CantUseThisBed>
   <!-- EN: Not in labor. -->
-  <NotInLabor>TODO</NotInLabor>
+  <NotInLabor>Nerodí.</NotInLabor>
   <!-- EN: labor -->
   <Labor>porodní bolesti</Labor>
   <!-- EN: dilation -->
   <LaborDilation>otvírání</LaborDilation>
   <!-- EN: normal -->
-  <PregnancyApproach_Normal>TODO</PregnancyApproach_Normal>
+  <PregnancyApproach_Normal>normální přístup</PregnancyApproach_Normal>
   <!-- EN: avoid pregnancy -->
-  <PregnancyApproach_AvoidPregnancy>TODO</PregnancyApproach_AvoidPregnancy>
+  <PregnancyApproach_AvoidPregnancy>vyhni se těhotenství</PregnancyApproach_AvoidPregnancy>
   <!-- EN: try for baby -->
-  <PregnancyApproach_TryForBaby>TODO</PregnancyApproach_TryForBaby>
+  <PregnancyApproach_TryForBaby>pokus se o dítě</PregnancyApproach_TryForBaby>
   <!-- EN: pregnancy chance -->
   <PregnancyChance>šance na otěhotnění</PregnancyChance>
   <!-- EN: Pregnancy approach -->
-  <PregnancyApproach>TODO</PregnancyApproach>
+  <PregnancyApproach>Přístup k těhotenství</PregnancyApproach>
   <!-- EN: Click to change pregnancy approach. -->
-  <ClickToChangePregnancyApproach>TODO</ClickToChangePregnancyApproach>
+  <ClickToChangePregnancyApproach>Kliknutím změníš přístup k těhotenství.</ClickToChangePregnancyApproach>
   <!-- EN: Pregnancy is not possible -->
   <PregnancyNotPossible>Těhotenství není možné</PregnancyNotPossible>
   <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
@@ -382,7 +382,7 @@
   <!-- EN: In sunlight -->
   <InSunlight>Na slunečním světle</InSunlight>
   <!-- EN: {0_labelShort} is exposed to the sky. -->
-  <ThingIsSkyExposed>TODO</ThingIsSkyExposed>
+  <ThingIsSkyExposed>{0_labelShort} je přes den vystavena slunci.</ThingIsSkyExposed>
   <!-- EN: Insert person -->
   <InsertPerson>Vložit osobu</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->

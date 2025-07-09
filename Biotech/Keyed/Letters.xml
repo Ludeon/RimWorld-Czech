@@ -62,9 +62,9 @@
   <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
   <LetterChildLegalStatus>TODO</LetterChildLegalStatus>
   <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
-  <LetterChildFollowIdeo>TODO</LetterChildFollowIdeo>
+  <LetterChildFollowIdeo>{0_labelShort} se rozhodl{0_pronoun} stát následovníkem ideologie {1_name}.</LetterChildFollowIdeo>
   <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
-  <CannotChangeChildStatusReason>TODO</CannotChangeChildStatusReason>
+  <CannotChangeChildStatusReason>{0_nameDef} již není otrokem od {0_gender ? jeho : jejích} narozenin.</CannotChangeChildStatusReason>
   <!-- EN: enslave -->
   <Enslave>zotročit</Enslave>
   <!-- EN: emancipate -->
@@ -77,12 +77,12 @@
   <LetterTextAdopted>{BABY_nameDef}, novorozenec, {BABY_gender ? byl adoptován : byla adoptovaná} tvojí kolonií. Je dobré, aby alespoň někteří kolonisté měli na starosti činnost chůvy, aby se o {BABY_gender ? něj : ní} měl kdo starat.</LetterTextAdopted>
 
   <!-- EN: {0_nameDef}'s baby prep -->
-  <LetterLabelThirdTrimester>TODO</LetterLabelThirdTrimester>
+  <LetterLabelThirdTrimester>{0_nameDef} se připravuje na porod</LetterLabelThirdTrimester>
   <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>TODO</LetterTextThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef} do šesti dní porodí a je dobré na to být připraven:\n\n- Měj místnost s čistou podlahou a dobrou postelí.\n- Měj připraveného schopného doktora.\n- V záložče činností měj alespoň jednu osobu s nastavenou činností chůvy.\n- Připrav si jídlo vhodné pro nemluvně. {0_nameDef} ho může kojit, nebo ho můžeš krmit mlékem, hmyzím želé nebo dětským příkrmem.\n- Měj kolébku. Vyšší kvalita bude mít vliv na náladu dítěte.\n\nDětský příkrm se dá připravit usporáku nebo na ohništi.</LetterTextThirdTrimester>
 
   <!-- EN: {0} vat birth -->
-  <LetterVatBirth>TODO</LetterVatBirth>
+  <LetterVatBirth>{0} z růstové kádě</LetterVatBirth>
   <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
   <LetterVatHealthyBaby>TODO</LetterVatHealthyBaby>
   <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
@@ -94,11 +94,11 @@
   <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
   <LetterVatStillborn>TODO</LetterVatStillborn>
   <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>TODO</LetterVatSillbornNoParents>
+  <LetterVatSillbornNoParents>Nemluvně zformované z růstové kádě bylo mrtvě narozené.</LetterVatSillbornNoParents>
   <!-- EN: {0_labelShort} in labor! -->
-  <LetterColonistPregnancyLaborLabel>TODO</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLaborLabel>{0_labelShort} rodí!</LetterColonistPregnancyLaborLabel>
   <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>TODO</LetterColonistPregnancyLabor>
+  <LetterColonistPregnancyLabor>{0_labelShort} začíná rodit! Bude mít kontrakce několik hodin před porodem. Porod může projít různými fázemi s rozdílnými úrovněmi námahy a nebezpečí.\n\nPro zvýšení šancí přivolej tvého nejlepšího doktora a ostatní, kteří mohou nějak pomoci. Pokud chceš začít vyber jí a klikni na "Svolat k porodu".</LetterColonistPregnancyLabor>
   <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
   <LetterPartColonistDiedAfterChildbirth>{0_labelShort} zemřel{0_pronoun} na komplikace při porodu.</LetterPartColonistDiedAfterChildbirth>
   <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
@@ -107,7 +107,7 @@
   <InbredBabyBorn>Novorozenec s genetickými známkami příbuzenského křížení.</InbredBabyBorn>
 
   <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>TODO</BabyAlreadyNamed>
+  <BabyAlreadyNamed>{0_nameDef} už byl{0_pronoun} pojmenovan{0_gender ? ý : á}.</BabyAlreadyNamed>
   <!-- EN: name baby -->
   <NameBaby>pojmenovat dítě</NameBaby>
   <!-- EN: immediately -->
@@ -136,7 +136,7 @@
   <!-- EN: Choose a trait for {0_nameDef} to gain -->
   <BirthdayPickTrait>Vyber povahový rys, kterým se má {0_nameDef} vyznačovat</BirthdayPickTrait>
   <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>TODO</BirthdayGrowthTier>
+  <BirthdayGrowthTier>Při okamžiku růstu {0_nameDef} byl{0_pronoun} ve {1}. fázi růstu. Děti na vyšších úrovních měli více příležitostí nasbírat více vášní a rysů mezi kterými si budeš moc vybrat. Naplněním potřeby učení se zrychlí postup fází růstu. Každý okamžik růstu zresetuje nasbírané fáze.</BirthdayGrowthTier>
   <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
   <BirthdayChooseHowPawnWillGrow>Otevřením tohoto dopisu urči, jak se bude {0_nameDef} dále vyvíjet.</BirthdayChooseHowPawnWillGrow>
 
@@ -173,19 +173,19 @@
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
   <LetterXenogermOrderedImplanted>TODO</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
-  <XenogermOrderedImplantedBedNeeded>TODO</XenogermOrderedImplantedBedNeeded>
+  <XenogermOrderedImplantedBedNeeded>\n\n{PAWN_nameDef} nemá dostupnou žádnou volnou zdravotnickou postel. Vyber nějakou postel a označ jí jako zdravotnickou.</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>TODO</XenogermOrderedImplantedMedicineNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>TODO</XenogermOrderedImplantedMedicineNeeded> <!-- \n\nNemáš dostatek medicíny k implantaci xenovštipovače. -->
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>Nedobrovolný mrtvospánek</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->
   <LetterLabelRegenerationComa>Regenerační kóma</LetterLabelRegenerationComa>
   <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
-  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef} nezemřel{PAWN_pronoun}, protože má gen nesmrtelnosti. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
-  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <LetterTextDeathrest>Místo toho upadl{PAWN_pronoun} do mrtvospánku.</LetterTextDeathrest>
   <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
-  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <LetterTextRegenerationComa>Místo toho upadl{PAWN_pronoun} do regeneračního kómatu.</LetterTextRegenerationComa>
   <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
   <DeathrestLostSkill>TODO</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
@@ -194,24 +194,24 @@
   <!-- EN: Xenogerm implantation -->
   <LetterLabelSanguophageWaitingToReimplant>Všípení genovštipovače</LetterLabelSanguophageWaitingToReimplant>
   <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>TODO</LetterTextSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>Jako odměnu, že si {PAWN_gender ? mu : jí} umožnil se zde setkat s ostatními sanguofágy, ti nabízím, že je ochotn{PAWN_gender ? ý : á} proměnit jednoho z tvých kolonistů. Tebou vybraný kolonista bude tímto proměněn na sanguofága.\n\nTuto nabítku přijmeš vybráním kolonisty a pravým kliknutím na příslušného sanguofága.\n\nPokud tuto nabídku nepřijmeš do {DURATION}, tak sanguofágové samovolně odejdou.</LetterTextSanguophageWaitingToReimplant>
 
   <!-- EN: Genes reimplanted -->
   <LetterLabelGenesImplanted>Geny přepsány</LetterLabelGenesImplanted>
   <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>TODO</LetterTextGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef} implantoval{CASTER_pronoun} kopii svých xenogenů, zatím co {TARGET_nameDef} o své xenogeny přiš{TARGET_gender ? el : la}, protože byli nahrazeny.\n\n{TARGET_nameDef} si nyní projde genovštipovacím kómatem na {COMADURATION}, zatím co {TARGET_possessive} tělo se přizpůsobý genetickým změnám.\n\n{CASTER_nameDef} si projde šokem ze ztráty genů na {SHOCKDURATION}, a zároveň {CASTER_gender ? mu : jí} budou muset dorůst geny, čož zabere čas. Pokud by {CASTER_nameDef} implantoval{CASTER_pronoun} své geny znovu, před tím než {CASTER_gender ? mu : jí} dorostou, tak zemře.</LetterTextGenesImplanted>
   
   <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>TODO</RefugeePodCrashBaby>
+  <RefugeePodCrashBaby>Nemluvně jménem {PAWN_nameDef} z frakce {PAWN_factionName} spadlo poblíž.\n\nMůžeš {PAWN_objective} adoptovat vybráním a kliknutím na "Adoptovat".</RefugeePodCrashBaby>
   <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
-  <RefugeePodCrashBabyHasParent>TODO</RefugeePodCrashBabyHasParent>
+  <RefugeePodCrashBabyHasParent>Tělo jednoho z rodičů se nacházelo s {PAWN_gender ? ním : ní} ve spadlém transportním modulu.</RefugeePodCrashBabyHasParent>
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>TODO</LetterPsychicBondCreated>
+  <LetterPsychicBondCreated>Instinktivním hledáním partner{OTHERPAWN_gender ? a : ky}, {BONDPAWN_nameDef} a {OTHERPAWN_nameDef} mezi sebou zformovali psychické pouto. {OTHERPAWN_nameDef} bude benefitovat z tohoto pouta, ale pokud se oba nenachází na stejném políčku nebo ve stejné karavaně, budou trpět psychickým stresem. Pokud jeden z nich zemře, ten druhý se ocitne na prahu šílenství.</LetterPsychicBondCreated>
 
   <!-- EN: Psychic bond -->
   <LetterPsychicBondCreatedLovinLabel>Psychické pouto</LetterPsychicBondCreatedLovinLabel>
   <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+  <LetterPsychicBondCreatedLovinText>Při partnerské aktivitě, {BONDPAWN_nameDef} a {OTHERPAWN_nameDef} mezi sebou zformovali psychické pouto. {OTHERPAWN_nameDef} bude benefitovat z tohoto pouta, ale pokud se oba nenachází na stejném políčku nebo ve stejné karavaně, budou trpět psychickým stresem. Pokud jeden z nich zemře, ten druhý se ocitne na prahu šílenství.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>
