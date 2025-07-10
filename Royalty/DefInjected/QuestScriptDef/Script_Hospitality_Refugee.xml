@@ -101,7 +101,7 @@
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Nezdařený úkol</li>
     <li>lodgersAllArrestedLetterText->{SUBJECT_definite}, [lastOrNot], [whoAskedToStay], {SUBJECT_gender ? byl právě zadržen : byla právě zadržena}.\n\n[questOver]</li>
-    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], byl{SUBJECT_pronoun} opuštěn{SUBJECT_pronoun}.</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], {SUBJECT_gender ? byl : byla} opuštěn.</li>
     <li>lodgerLeftBehindMemoryThoughtLetterLabel->Opuštění [subjectLabelGen]: Hněv</li>
     <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
     <li>lodgerLeftBehindLeaveMapLetterLabel->Opuštění [subjectLabelGen]: Odchod</li>
@@ -113,6 +113,13 @@
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
     <li>lodgerViolatedLeaveMapLetterLabel->Poranění [subjectLabelGen]: Odchod</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], se právě {SUBJECT_gender ? stal : stala} terčem psychického rituálu.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->Zneuctění [subjectLabelGen]: Hněv</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->Zneuctění [subjectLabelGen]: Pomsta</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->Zneuctění [subjectLabelGen]: Odchod</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Zrada</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef], [lodgersWhoAskedToStay], se obrátil[asker_x_a_i] proti tobě!\n\nZdá se, že tuhle [zradu] plánoval[asker_x_a_i] celou dobu.</li>
     <li>areIs(lodgerCount==1)->je</li>
