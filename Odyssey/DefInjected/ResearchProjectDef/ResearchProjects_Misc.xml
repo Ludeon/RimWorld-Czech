@@ -2,61 +2,81 @@
 <LanguageData>
   
   <!-- EN: advanced gravtech -->
-  <AdvancedGravtech.label>TODO</AdvancedGravtech.label>
+  <AdvancedGravtech.label>pokročilá tíhotechnologie</AdvancedGravtech.label>
   <!-- EN: Build advanced gravship parts. -->
-  <AdvancedGravtech.description>TODO</AdvancedGravtech.description>
+  <AdvancedGravtech.description>Umožní stavbu pokročilích tíhostruktur.</AdvancedGravtech.description>
   <!-- EN:
     <li>subject->advanced gravtech</li>
     <li>subject_story->researched advanced gravship components</li>
     <li>subject_gerund->researching signal jamming</li>
   -->
-  <AdvancedGravtech.generalRules.rulesStrings>TODO</AdvancedGravtech.generalRules.rulesStrings>
+  <AdvancedGravtech.generalRules.rulesStrings>
+    <li>subject->pokročilá tíhotechnologie</li>
+    <li>subject_story->navrhoval{ANYPAWN_pronoun} pokročilé komponenty tíholodí</li>
+    <li>subject_gerund->výzkum interference signálů</li>
+  </AdvancedGravtech.generalRules.rulesStrings>
   
   <!-- EN: basic gravtech -->
-  <BasicGravtech.label>TODO</BasicGravtech.label>
+  <BasicGravtech.label>základní tíhotechnologie</BasicGravtech.label>
   <!-- EN: Build a gravship and use it to travel the planet. Launching a gravship will abandon your current map. You won't be able to return. -->
-  <BasicGravtech.description>TODO</BasicGravtech.description>
+  <BasicGravtech.description>Umožní ti postavit základy tíholodě, se kterou budeš moct obcestovat planetu. Vzletem tíholodě permanentně opustíš tvojí aktuální mapu anebudeš mít možnost se vrátit.</BasicGravtech.description>
   <!-- EN:
     <li>subject->gravship</li>
     <li>subject_story->flew a gravship for a tourism company</li>
     <li>subject_gerund->constructing gravships</li>
   -->
-  <BasicGravtech.generalRules.rulesStrings>TODO</BasicGravtech.generalRules.rulesStrings>
+  <BasicGravtech.generalRules.rulesStrings>
+    <li>subject->tíholoď</li>
+    <li>subject_story->létal{ANYPAWN_pronoun} s tíholodí pro cestovní společnost</li>
+    <li>subject_gerund->výstavba tíholodi</li>
+  </BasicGravtech.generalRules.rulesStrings>
   
   <!-- EN: beam weapons -->
-  <BeamWeapons.label>TODO</BeamWeapons.label>
+  <BeamWeapons.label>laserové zbraně</BeamWeapons.label>
   <!-- EN: Construct weapons that use gamma ray beams to burn through armor and ignite targets. -->
-  <BeamWeapons.description>TODO</BeamWeapons.description>
+  <BeamWeapons.description>Umožní ti vyrábět zbraně které používají gama paprsky ke spálení cíle.</BeamWeapons.description>
   <!-- EN:
     <li>subject->beam weapons</li>
     <li>subject_story->made gamma-ray beam weaponry</li>
     <li>subject_gerund->making beam weapons</li>
   -->
-  <BeamWeapons.generalRules.rulesStrings>TODO</BeamWeapons.generalRules.rulesStrings>
+  <BeamWeapons.generalRules.rulesStrings>
+    <li>subject->laserové zbraně</li>
+    <li>subject_story->vyráběl{ANYPAWN_pronoun} paprskové zbraně</li>
+    <li>subject_gerund->výroba paprskových zbraní</li>
+  </BeamWeapons.generalRules.rulesStrings>
   
   <!-- EN: fishing -->
-  <Fishing.label>TODO</Fishing.label>
+  <Fishing.label>rybaření</Fishing.label>
   <!-- EN: Place zones where your colonists can go fishing. -->
-  <Fishing.description>TODO</Fishing.description>
+  <Fishing.description>Umožní ti vyznačit oblast, ve které budou tvoji kolonisti moct rybařit.</Fishing.description>
   <!-- EN: Fishing zone -->
-  <Fishing.customUnlockTexts.0>TODO</Fishing.customUnlockTexts.0>
+  <Fishing.customUnlockTexts.0>Rybářskou oblast</Fishing.customUnlockTexts.0>
   <!-- EN:
     <li>subject->fishing</li>
     <li>subject_story->fished for a living</li>
     <li>subject_gerund->fishing</li>
   -->
-  <Fishing.generalRules.rulesStrings>TODO</Fishing.generalRules.rulesStrings>
+  <Fishing.generalRules.rulesStrings>
+    <li>subject->rybaření</li>
+    <li>subject_story->se živil{ANYPAWN_pronoun} rybařením</li>
+    <li>subject_gerund->rybaření</li>
+  </Fishing.generalRules.rulesStrings>
   
   <!-- EN: heavy bridges -->
-  <HeavyBridges.label>TODO</HeavyBridges.label>
+  <HeavyBridges.label>mosty s vysokou nosností</HeavyBridges.label>
   <!-- EN: Build heavy bridges that support heavy buildings. You can use this to build whole colonies on the water. -->
-  <HeavyBridges.description>TODO</HeavyBridges.description>
+  <HeavyBridges.description>Umožní ti stavět mosty s vysokou nosností, na kterých můžeš postavit i těžké budovy a kamenné zdi. Můžeš na nich postavit celou kolonii.</HeavyBridges.description>
   <!-- EN:
     <li>subject->construction</li>
     <li>subject_story->built bridges</li>
     <li>subject_gerund->constructing</li>
   -->
-  <HeavyBridges.generalRules.rulesStrings>TODO</HeavyBridges.generalRules.rulesStrings>
+  <HeavyBridges.generalRules.rulesStrings>
+    <li>subject->stavba mostů</li>
+    <li>subject_story->stavěl{ANYPAWN_pronoun} mosty</li>
+    <li>subject_gerund->stavění mostů</li>
+  </HeavyBridges.generalRules.rulesStrings>
   
   <!-- EN: hunter drone -->
   <HunterDrones.label>TODO</HunterDrones.label>
@@ -70,9 +90,9 @@
   <HunterDrones.generalRules.rulesStrings>TODO</HunterDrones.generalRules.rulesStrings>
   
   <!-- EN: orbital tech -->
-  <OrbitalTech.label>TODO</OrbitalTech.label>
+  <OrbitalTech.label>orbitální příslušenství</OrbitalTech.label>
   <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
-  <OrbitalTech.description>TODO</OrbitalTech.description>
+  <OrbitalTech.description>Umožní ti vyrobit přístroje a obleky které ti umožní vyslat kolonisty na orbitu.</OrbitalTech.description>
   <!-- EN:
     <li>subject->orbital apparel</li>
     <li>subject_story->assembled liners for vacsuits</li>
@@ -83,12 +103,21 @@
     <li>subject_gerund->assembling rebreathers</li>
     <li>subject_gerund->testing vacsuits</li>
   -->
-  <OrbitalTech.generalRules.rulesStrings>TODO</OrbitalTech.generalRules.rulesStrings>
+  <OrbitalTech.generalRules.rulesStrings>
+    <li>subject->orbitální výbava</li>
+    <li>subject_story->vyráběl{ANYPAWN_pronoun} těsnění pro vakuobleky</li>
+    <li>subject_story->testoval{ANYPAWN_pronoun} vakuobleky</li>
+    <li>subject_story->vyvinul{ANYPAWN_pronoun} technologii recyklace vzduchu</li>
+    <li>subject_story->studoval{ANYPAWN_pronoun} účinky vesmírné radiace na lidské tkáni</li>
+    <li>subject_gerund->výroba vakuobleků</li>
+    <li>subject_gerund->recyklování vzduchu</li>
+    <li>subject_gerund->testování vakuobleků</li>
+  </OrbitalTech.generalRules.rulesStrings>
   
   <!-- EN: shuttle -->
-  <Shuttles.label>TODO</Shuttles.label>
+  <Shuttles.label>raketoplán</Shuttles.label>
   <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can be bought from orbital traders, salvaged from other shuttles, or obtained through quests. -->
-  <Shuttles.description>TODO</Shuttles.description>
+  <Shuttles.description>Umožní ti postavit raketoplán, které se dá použít k cestování na dlouhé vzdálenosti nebo k výstupu na orbitu. K jeho výrobě budeš potřebovat motor raketoplánu, který se dá koupit od orbitálních obchodníků, získat z již nefunkčního raketoplánu nebo obdržet jako odměnu za úkol.</Shuttles.description>
   <!-- EN:
     <li>subject->shuttles</li>
     <li>subject_story->flew in a shuttle</li>
@@ -96,21 +125,31 @@
     <li>subject_gerund->engineering shuttles</li>
     <li>subject_gerund->piloting shuttles</li>
   -->
-  <Shuttles.generalRules.rulesStrings>TODO</Shuttles.generalRules.rulesStrings>
+  <Shuttles.generalRules.rulesStrings>
+    <li>subject->raketoplány</li>
+    <li>subject_story->létal{ANYPAWN_pronoun} s raketoplány</li>
+    <li>subject_story->navrhoval{ANYPAWN_pronoun} raketoplány</li>
+    <li>subject_gerund->navrhování raketoplánů</li>
+    <li>subject_gerund->pilotování raketoplánů</li>
+  </Shuttles.generalRules.rulesStrings>
   
   <!-- EN: standard gravtech -->
-  <StandardGravtech.label>TODO</StandardGravtech.label>
+  <StandardGravtech.label>standardní tíhotechnologie</StandardGravtech.label>
   <!-- EN: Build complex gravship parts. -->
-  <StandardGravtech.description>TODO</StandardGravtech.description>
+  <StandardGravtech.description>Umožní vyrábět komplexní tíholodní součástky</StandardGravtech.description>
   <!-- EN: You now have the technology to build large thrusters. These require vacstone blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
-  <StandardGravtech.discoveredLetterText>TODO</StandardGravtech.discoveredLetterText>
+  <StandardGravtech.discoveredLetterText>Povedlo se ti vyzkoumat technologii která ti umožňuje postavit velké trysky. Na jejich výrobu jsou potřeba vakuostalitové bloky, které se dají získat těžením asteroidů.\n\nNa lokace na orbitě se můžeš dostat za pomocí transportních modulů, raketoplánů nebo tíholodí. Vybav své kolonisty, které chceš poslat do vesmíru vakuuvzdorným oblečením.</StandardGravtech.discoveredLetterText>
   <!-- EN: About: Getting vacstone -->
-  <StandardGravtech.discoveredLetterTitle>TODO</StandardGravtech.discoveredLetterTitle>
+  <StandardGravtech.discoveredLetterTitle>Info: Získání vakuostalitu</StandardGravtech.discoveredLetterTitle>
   <!-- EN:
     <li>subject->gravtech</li>
     <li>subject_story->researched complex gravship components</li>
     <li>subject_gerund->researching gravships</li>
   -->
-  <StandardGravtech.generalRules.rulesStrings>TODO</StandardGravtech.generalRules.rulesStrings>
+  <StandardGravtech.generalRules.rulesStrings>
+    <li>subject->tíhotechnologie</li>
+    <li>subject_story->navrhoval{ANYPAWN_pronoun} komplexní komponenty tíholodí</li>
+    <li>subject_gerund->výzkum tíholodi</li>
+  </StandardGravtech.generalRules.rulesStrings>
   
 </LanguageData>
