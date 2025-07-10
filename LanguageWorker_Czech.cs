@@ -12,8 +12,10 @@ namespace Verse
 
     public class LanguageWorker_Czech : LanguageWorker
     {
+        // constants
         private const int ReplaceRegexCacheSize = 107; // picked prime number from HashHelpers.cs
         private const int LookupCacheSize = 107; // picked prime number from HashHelpers.cs
+        private static readonly string _lookupGenderFile = $"case{Path.DirectorySeparatorChar}gender";
 
         // logging
         private static readonly StringBuilder _log = new StringBuilder();
@@ -221,7 +223,7 @@ namespace Verse
         private bool TryLookupRecursive(List<string> args, string originalInput, int fromIndex, int count, out string output)
         {
             // check for invalid range
-            if (fromIndex + count >= originalInput.Length)
+            if (fromIndex + count > originalInput.Length)
             {
                 if (DebugSettings.logTranslationLookupErrors)
                 {
@@ -251,7 +253,7 @@ namespace Verse
                     output = null;
                     return false;
                 }
-                
+
                 // try to find the next character that (in backwards) is a whitespace to match a whole word
                 var indexTo = fromIndex + count - 1;
                 if (TryFindWhiteSpaceBackward(originalInput, ref indexTo, fromIndex, true))
@@ -316,6 +318,18 @@ namespace Verse
                 }
 
                 return false;
+            }
+
+            // for gender lookup we want to return only result without any prefix or suffix
+            if (args[1] == _lookupGenderFile)
+            {
+                if (DebugSettings.logTranslationLookupErrors)
+                {
+                    _log.AppendLine($" - args[0]: '{args[0]}' - return: {output} (lookupResult: {lookupResult}, gender resolve)");
+                }
+
+                output = lookupResult;
+                return true;
             }
 
             // if lookup succeeded, we need to reconstruct the output string using the prefix and suffix of the original input
