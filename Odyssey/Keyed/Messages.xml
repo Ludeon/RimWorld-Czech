@@ -3,61 +3,61 @@
 
   <!-- Grav engine/substructrues -->
   <!-- EN: Must be placed on gravship substructure. -->
-  <MessageMustBePlacedOnSubstructure>TODO</MessageMustBePlacedOnSubstructure>
+  <MessageMustBePlacedOnSubstructure>Musí být na nosné struktuře.</MessageMustBePlacedOnSubstructure>
   <!-- EN: Must be placed within the radius of a grav engine or grav field extender. -->
-  <MessageMustBePlacedInRangeOfGravEngineOrExtender>TODO</MessageMustBePlacedInRangeOfGravEngineOrExtender>
+  <MessageMustBePlacedInRangeOfGravEngineOrExtender>Musí být postaveno v dosahu tíhomotoru, nebo tíhorozšiřovače.</MessageMustBePlacedInRangeOfGravEngineOrExtender>
   <!-- EN: Cannot be placed under rock or mountain roofs. -->
-  <MessageCannotPlaceUnderRockRoof>TODO</MessageCannotPlaceUnderRockRoof>
+  <MessageCannotPlaceUnderRockRoof>Nemůže být postavena pod kameným stropem.</MessageCannotPlaceUnderRockRoof>
   <!-- EN: {ACTIVATOR_labelShort} has finished hacking {SUBJECT_definite}. -->
-  <MessageStabilizerDeactivated>TODO</MessageStabilizerDeactivated>
+  <MessageStabilizerDeactivated>{ACTIVATOR_labelShort} dokončil{ACTIVATOR_pronoun} hackování {lookup: {SUBJECT_definite}; case\singular; 2}.</MessageStabilizerDeactivated>
   <!-- EN: Can't be placed on gravship substructure. -->
-  <MessageCannotPlaceOverSubstructure>TODO</MessageCannotPlaceOverSubstructure>
+  <MessageCannotPlaceOverSubstructure>Nemůže být položeno na nosnou struktura.</MessageCannotPlaceOverSubstructure>
   <!-- EN: Gravship substructure is blocked. -->
-  <MessageSubstructureBlocked>TODO</MessageSubstructureBlocked>
+  <MessageSubstructureBlocked>Nosná struktura je blokovaná.</MessageSubstructureBlocked>
   <!-- EN: Must be placed within range of a grav engine. -->
-  <MessageMustBePlacedInRangeOfGravEngine>TODO</MessageMustBePlacedInRangeOfGravEngine>
+  <MessageMustBePlacedInRangeOfGravEngine>Musí být položena v dosahu tíhomotoru.</MessageMustBePlacedInRangeOfGravEngine>
 
   <!-- Alerts -->
   <!-- EN: {0} has died from vacuum exposure. -->
-  <MessagePlantDiedOfRot_ExposedToVacuum>TODO</MessagePlantDiedOfRot_ExposedToVacuum>
+  <MessagePlantDiedOfRot_ExposedToVacuum>Rostlina uhynula, protože byla vystavena vákuu vesmíru. ({0})</MessagePlantDiedOfRot_ExposedToVacuum>
 
   <!-- Ancient Vents -->
   <!-- EN: The ancient smoke vents have become active, darkening the sky. -->
-  <AncientSmokeVentStartUp>TODO</AncientSmokeVentStartUp>
+  <AncientSmokeVentStartUp>Prastaré kouřové ventilace se probudily k životu a začala chrlit mraky kouře zakrývající.</AncientSmokeVentStartUp>
   <!-- EN: The ancient smoke vents are stopping. -->
-  <AncientSmokeVentShutdown>TODO</AncientSmokeVentShutdown>
+  <AncientSmokeVentShutdown>Prastaré kouřové ventilace se vypínají.</AncientSmokeVentShutdown>
   <!-- EN: The ancient toxic vents have become active, causing toxic fallout. -->
-  <AncientToxVentStartUp>TODO</AncientToxVentStartUp>
+  <AncientToxVentStartUp>Prastaré toxické ventilace se probudily k životu a začala chrlit toxický spad po okolí.</AncientToxVentStartUp>
   <!-- EN: The ancient toxic vents are stopping. -->
-  <AncientToxVentShutdown>TODO</AncientToxVentShutdown>
+  <AncientToxVentShutdown>Prastaré toxické ventilace se vypínají.</AncientToxVentShutdown>
   <!-- EN: The ancient heat vents have become active, raising temperatures. -->
-  <AncientHeatVentStartUp>TODO</AncientHeatVentStartUp>
+  <AncientHeatVentStartUp>Prastaré tepelné ventilace se probudily k životu a začala zvedat teplotu v okolí.</AncientHeatVentStartUp>
   <!-- EN: The ancient heat vents are stopping. -->
-  <AncientHeatVentShutdown>TODO</AncientHeatVentShutdown>
+  <AncientHeatVentShutdown>Prastaré tepelné ventilace se vypínají.</AncientHeatVentShutdown>
   
   <!-- EN: Must be placed over water containing fish. -->
-  <CannotPlaceFishingZone>TODO</CannotPlaceFishingZone>
+  <CannotPlaceFishingZone>Musí být vyznačena přes vodu, která obsahuje ryby.</CannotPlaceFishingZone>
   
   <!-- EN: {TRAP_indefinite} was triggered. -->
-  <MessageTrapSprung>TODO</MessageTrapSprung>
+  <MessageTrapSprung>{TRAP_indefinite} byla aktivována.</MessageTrapSprung>
 
   <!-- EN: {0} is ready to launch again. -->
-  <GravshipReadyToLaunch>TODO</GravshipReadyToLaunch>
+  <GravshipReadyToLaunch>Tíholoď {0} je připravena k odletu.</GravshipReadyToLaunch>
 
   <!-- EN: An orbital scanner has found a signal and is locating its origin -->
-  <MessageOrbitalSignalDetected>TODO</MessageOrbitalSignalDetected>
+  <MessageOrbitalSignalDetected>Orbitální skener objevil signál a snaží se lokalizovat jeho původ</MessageOrbitalSignalDetected>
   <!-- EN: completes in {0} -->
-  <OrbitalScannerCompletesIn>TODO</OrbitalScannerCompletesIn>
+  <OrbitalScannerCompletesIn>dokončí se za {0}</OrbitalScannerCompletesIn>
 
   <!-- EN: While talking with {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of a new quest: {0} -->
-  <MessageTraderGaveQuest>TODO</MessageTraderGaveQuest>
+  <MessageTraderGaveQuest>Když se {NEGOTIATOR_nameDef} bavil{NEGOTIATOR_pronoun} s obchodníkem, {TRADER_nameDef} mu sdělil{TRADER_pronoun} informace o novém úkolu: {0}</MessageTraderGaveQuest>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered a quest: {0} -->
-  <MessageBookGaveQuest>TODO</MessageBookGaveQuest>
+  <MessageBookGaveQuest>Když {READER_nameDef} četl{READER_pronoun} {BOOK_labelNoParenthesis}, objevil{READER_pronoun} nový úkol: {0}</MessageBookGaveQuest>
 
   <!-- EN: Confirm gravship landing zone to continue. -->
-  <MessageConfirmLandingAreaFirst>TODO</MessageConfirmLandingAreaFirst>
+  <MessageConfirmLandingAreaFirst>Potvrď místo přistání tíholodi, aby se dalo pokračovat.</MessageConfirmLandingAreaFirst>
   <!-- EN: Choose a landing site first. -->
-  <MessageNoLandingSiteSelected>TODO</MessageNoLandingSiteSelected>
+  <MessageNoLandingSiteSelected>Nejprve vyber místo pro přistání.</MessageNoLandingSiteSelected>
   
   <!-- EN: Cannot store {THING_labelShort} on {TARGET_indefinite} -->
   <CannotStoreThingOnTarget>TODO</CannotStoreThingOnTarget>
