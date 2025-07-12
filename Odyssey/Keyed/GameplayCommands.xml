@@ -5,9 +5,9 @@
   <!-- EN: Show substructure overlay -->
   <CommandShowSubstructureOverlay>Zobrazit odpovídající nosnou strukturu</CommandShowSubstructureOverlay>
   <!-- EN: Display valid substructure in blue and invalid substructure in red. -->
-  <CommandShowSubstructureOverlayDesc>Zobrazí překrytí kde odpovídající nosné struktury jsou označené modře a neodpovídající červeně.</CommandShowSubstructureOverlayDesc>
+  <CommandShowSubstructureOverlayDesc>Zobrazí překrytí, kde odpovídající nosné struktury jsou označené modře a neodpovídající červeně.</CommandShowSubstructureOverlayDesc>
   <!-- EN: Inspect {0_labelShort} -->
-  <CommandInspectGravEngine>Prohledej </CommandInspectGravEngine>
+  <CommandInspectGravEngine>Prozkoumej {lookup: {0}; case\singular; 4}</CommandInspectGravEngine>
   <!-- EN: Choose a colonist to inspect the mysterious grav engine. -->
   <CommandInspectGravEngineDesc>Vyber kolonistu, který má prozkoumat záhadný tíhomotor.</CommandInspectGravEngineDesc>
   <!-- EN: Choose navigator -->
@@ -18,12 +18,12 @@
   <!-- EN: Launch -->
   <CommandLaunchGravship>Vzletět</CommandLaunchGravship>
   <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
-  <CommandLaunchGravshipDesc>Vyber kolonistu který bude pilotovat tíholoď. Cokoli co je na nosné struktuře tíholodi bude transportováno spolu s tebou na novou mapu. Toje akuální mapa bude opuštěná pokud na ní nemáš tíhokotvu.</CommandLaunchGravshipDesc>
+  <CommandLaunchGravshipDesc>Vyber kolonistu, který bude pilotovat tíholoď. Cokoli co je na nosné struktuře tíholodi bude transportováno spolu s tebou na novou mapu. Tvoje akuální mapa bude opuštěná, pokud na ní nemáš tíhokotvu.</CommandLaunchGravshipDesc>
 
   <!-- EN: Allow fishing -->
   <CommandAllowFish>Povolit rybaření</CommandAllowFish>
   <!-- EN: When disabled, colonists will never fish in this zone. -->
-  <CommandAllowFishDesc>Pokud je zakázáno, kolonisté nebudou rybařir v této zóně.</CommandAllowFishDesc>
+  <CommandAllowFishDesc>Pokud je zakázáno, kolonisté nebudou v této oblasti rybařit.</CommandAllowFishDesc>
   
   <!-- EN: Allow removing items -->
   <CommandAllowRemovingApparel>Povolit odebírání obsahu</CommandAllowRemovingApparel>
@@ -74,5 +74,6 @@
   <GravshipShieldOrderDeactivationDesc>TODO</GravshipShieldOrderDeactivationDesc>
 
   <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
-  <ConfirmMergeShuttles>Pokud spojíš karavany, následující věty budou ztraceny:\n\n{0}\n\nOpravdu chceš pokračovat?</ConfirmMergeShuttles>
+  <ConfirmMergeShuttles>Pokud spojíš karavany, následující věci budou ztraceny:\n\n{0}\n\nOpravdu chceš pokračovat?</ConfirmMergeShuttles>
+  
 </LanguageData>
