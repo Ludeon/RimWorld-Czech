@@ -5,15 +5,15 @@
   <!-- EN: Gravship -->
   <Gravship>Tíholoď</Gravship>
   <!-- EN: no grav engine -->
-  <CannotLaunchNoEngine>TODO</CannotLaunchNoEngine>
+  <CannotLaunchNoEngine>Chybí tíhomotor</CannotLaunchNoEngine>
   <!-- EN: not enough fuel -->
   <CannotLaunchNotEnoughFuel>nedostatek paliva</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>TODO</CannotLaunchDestination>
   <!-- EN: Cannot land on the same tile -->
-  <CannotLandOnSameTile>TODO</CannotLandOnSameTile>
+  <CannotLandOnSameTile>Nelze přistát na stejném políčku</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
-  <ConnectedSubstructure>připojená nosná struktura</ConnectedSubstructure>
+  <ConnectedSubstructure>Připojená nosná struktura</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
   <SubstructureBlueprintsCount>Položených plánů nosné struktury</SubstructureBlueprintsCount>
   <!-- EN: not connected to grav engine -->
@@ -37,9 +37,9 @@
   <!-- EN: {0} {1_label} -->
   <FuelAmount>{0} {lookup: {1}; case\singular; 2}</FuelAmount>
   <!-- EN: gravship name -->
-  <GravshipName>jméno tíholoďi</GravshipName>
+  <GravshipName>jméno tíholodi</GravshipName>
   <!-- EN: gravship range -->
-  <GravshipRange>dosah tíholoďi</GravshipRange>
+  <GravshipRange>dolet tíholodi</GravshipRange>
   <!-- EN: stored chemfuel -->
   <StoredChemfuel>uložené palivo</StoredChemfuel>
   <!-- EN: thruster blocked -->
@@ -59,7 +59,7 @@
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Nelze přistát v neobjevené oblasti</GravshipBlockedByFog>
   <!-- EN: Blocked by roof -->
-  <GravshipBlockedByRoof>Blokováno střechou</GravshipBlockedByRoof>
+  <GravshipBlockedByRoof>Blokovánno střechou</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Nelze přistát mimo ohraničení mapy</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
@@ -71,13 +71,13 @@
   <!-- EN: Must be connected to solid ground -->
   <GravshipMustBeConnectedToLand>Musí být připojena k pevné zemi.</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
-  <ConfirmLandingToContinue>Potvrď místo přistání, aby si mohl pokračování</ConfirmLandingToContinue>
+  <ConfirmLandingToContinue>Vyber místo přistání tíholodi, aby se dalo pokračovat.</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
   <RitualTargetPilotConsole>validní pilotní konzole</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
   <GravshipOutcomeChanceLetterExtra>TODO</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
-  <ThrustersBrokeDown>TODO</ThrustersBrokeDown>
+  <ThrustersBrokeDown>To se týká nasledujících trysek</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
   <NoPathToGravship>Nelze najít cestu k tíholodi</NoPathToGravship>
   <!-- EN: No path to pilot console -->
@@ -93,17 +93,17 @@
   <!-- EN: Max per gravship -->
   <GravFacilityMaxSimultaneousConnections>Maximum na tíholoď</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>není připojená k tíholodi</ShieldNotConnectedToGravship>
+  <ShieldNotConnectedToGravship>Není připojený k tíholodi</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
   <GravshipLaunchInterrupted>Vzlet byl zrušen</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
-  <NotConnectedToGravEngine>Není připojená k tíhomotoru.</NotConnectedToGravEngine>
+  <NotConnectedToGravEngine>Není připojeno k tíhomotoru.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
   <ThrusterNotFunctional>Nefunkční</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
   <ThrusterNotConnected>není připojená k tíhomotoru</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>blokovaná {lookup: {1}; case\singular; 7}</ThrusterBlockedBy>
+  <ThrusterBlockedBy>blokovaná {lookup: {0}; case\singular; 7}</ThrusterBlockedBy>
   <!-- EN: must be outside -->
   <MustBeOutside>musí být venku</MustBeOutside>
   <!-- EN: blocked by substructure -->
@@ -139,7 +139,7 @@
   
   <!-- Overlay -->
   <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
-  <ShowVacuumOverlayToggleButton>Vákuum. Zobrazí překrytí které ti ukáže kde je vákuum a pomůže odhalit úniky vzduchu.\n\nBez správného vybavení vystavení vákuu může být smrtelně nebezpečné.</ShowVacuumOverlayToggleButton>
+  <ShowVacuumOverlayToggleButton>Vákuum\n\nZobrazí překrytí, které ti ukáže, kde je vákuum, a pomůže ti odhalit úniky vzduchu.\n\nBez správného vybavení se vystavení vákuu může stát smrtelně nebezpečným.</ShowVacuumOverlayToggleButton>
   <!-- EN: vacuum -->
   <Vacuum>vákuum</Vacuum>
   
@@ -149,7 +149,7 @@
   <!-- EN: Dying from vacuum exposure -->
   <DyingBecauseExposedToVacuum>Umírá na vystavení vákuu.</DyingBecauseExposedToVacuum>
   <!-- EN: Vacstone with traces of {RESOURCE_label} -->
-  <TracesOfPreciousResource>Vakuostalit s stopou {lookup: {RESOURCE_label}; case\singular; 2}</TracesOfPreciousResource>
+  <TracesOfPreciousResource>Vakuostalit se stopami {lookup: {RESOURCE_label}; case\singular; 2}</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
   <TransportPodDestinationRequiresSignalJammer>Vyžaduje rušičku signálů</TransportPodDestinationRequiresSignalJammer>
   <!-- EN: cannot function in vacuum. -->
@@ -241,7 +241,7 @@
   <!-- EN: Ancient grav engine -->
   <LetterAncientGravEngineDiscoveredLabel>Prastarý tíhomotor</LetterAncientGravEngineDiscoveredLabel>
   <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>Povedlo se ti objevit prastará tíhomotor. Když ho zničíš, tak z něj dostaneš jeho tíhojádro.</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>Povedlo se ti objevit prastarý tíhomotor. Když ho zničíš, tak z něj získáš jeho tíhojádro.</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
   <PlayerPawnsArriveMethod_Gravship>Tíholoď</PlayerPawnsArriveMethod_Gravship>
@@ -275,7 +275,7 @@
   <CoreNotInteractableDeactivated>Deaktivováno</CoreNotInteractableDeactivated>
 
   <!-- EN: Shuttle fuel -->
-  <CaravanShuttleFuel>TODO</CaravanShuttleFuel>
+  <CaravanShuttleFuel>Palivo raketoplánu</CaravanShuttleFuel>
 
   <!-- EN: Passively scanning for orbital signals. -->
   <OrbitalScannerScanning>Pasivně vyhledává orbitální signály.</OrbitalScannerScanning>
