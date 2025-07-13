@@ -5,15 +5,15 @@
   <!-- EN: Gravship -->
   <Gravship>Tíholoď</Gravship>
   <!-- EN: no grav engine -->
-  <CannotLaunchNoEngine>TODO</CannotLaunchNoEngine>
+  <CannotLaunchNoEngine>Chybí tíhomotor</CannotLaunchNoEngine>
   <!-- EN: not enough fuel -->
-  <CannotLaunchNotEnoughFuel>TODO</CannotLaunchNotEnoughFuel>
+  <CannotLaunchNotEnoughFuel>nedostatek paliva</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>TODO</CannotLaunchDestination>
   <!-- EN: Cannot land on the same tile -->
-  <CannotLandOnSameTile>TODO</CannotLandOnSameTile>
+  <CannotLandOnSameTile>Nelze přistát na stejném políčku</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
-  <ConnectedSubstructure>připojená nosná struktura</ConnectedSubstructure>
+  <ConnectedSubstructure>Připojená nosná struktura</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
   <SubstructureBlueprintsCount>Položených plánů nosné struktury</SubstructureBlueprintsCount>
   <!-- EN: not connected to grav engine -->
@@ -35,31 +35,31 @@
   <!-- EN: Launch gravship -->
   <PilotGravship>TODO</PilotGravship>
   <!-- EN: {0} {1_label} -->
-  <FuelAmount>TODO</FuelAmount>
+  <FuelAmount>{0} {lookup: {1}; case\singular; 2}</FuelAmount>
   <!-- EN: gravship name -->
-  <GravshipName>jméno tíholoďi</GravshipName>
+  <GravshipName>jméno tíholodi</GravshipName>
   <!-- EN: gravship range -->
-  <GravshipRange>dosah tíholoďi</GravshipRange>
+  <GravshipRange>dolet tíholodi</GravshipRange>
   <!-- EN: stored chemfuel -->
   <StoredChemfuel>uložené palivo</StoredChemfuel>
   <!-- EN: thruster blocked -->
-  <ThrusterBlocked>TODO</ThrusterBlocked>
+  <ThrusterBlocked>tryska blokována</ThrusterBlocked>
   <!-- EN: fuel consumption -->
   <FuelConsumption>spotřeba paliva</FuelConsumption>
   <!-- EN: {0} chemfuel per tile -->
   <FuelPerTile>{0} na políčko</FuelPerTile>
   <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
-  <RequiresSignalJammer>TODO</RequiresSignalJammer>
+  <RequiresSignalJammer>Těžké zbraňové systémi: Je potřeba mít rušičku signálů</RequiresSignalJammer>
   <!-- EN: {0} landing site -->
   <GravshipLandingSite>TODO</GravshipLandingSite>
   <!-- EN: Confirm landing area -->
   <ConfirmLandingArea>Potvrdit místo přistání</ConfirmLandingArea>
   <!-- EN: Blocked by {0_label} -->
-  <GravshipBlockedBy>TODO</GravshipBlockedBy>
+  <GravshipBlockedBy>Blokováno {lookup: {0}; case\singular; 7}</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Nelze přistát v neobjevené oblasti</GravshipBlockedByFog>
   <!-- EN: Blocked by roof -->
-  <GravshipBlockedByRoof>Blokováno střechou</GravshipBlockedByRoof>
+  <GravshipBlockedByRoof>Blokovánno střechou</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Nelze přistát mimo ohraničení mapy</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
@@ -69,23 +69,23 @@
   <!-- EN: Can't place on {0_label} -->
   <GravshipBlockedByTerrain>{0_label} blokuje místo pro přistání</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
-  <GravshipMustBeConnectedToLand>TODO</GravshipMustBeConnectedToLand>
+  <GravshipMustBeConnectedToLand>Musí být připojena k pevné zemi.</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
-  <ConfirmLandingToContinue>Potvrď místo přistání, aby si mohl pokračování</ConfirmLandingToContinue>
+  <ConfirmLandingToContinue>Vyber místo přistání tíholodi, aby se dalo pokračovat.</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
   <RitualTargetPilotConsole>validní pilotní konzole</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
   <GravshipOutcomeChanceLetterExtra>TODO</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
-  <ThrustersBrokeDown>TODO</ThrustersBrokeDown>
+  <ThrustersBrokeDown>To se týká nasledujících trysek</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
-  <NoPathToGravship>TODO</NoPathToGravship>
+  <NoPathToGravship>Nelze najít cestu k tíholodi</NoPathToGravship>
   <!-- EN: No path to pilot console -->
-  <NoPathToPilotConsole>TODO</NoPathToPilotConsole>
+  <NoPathToPilotConsole>Nelze najít cestu k pilotní konzoli.</NoPathToPilotConsole>
   <!-- EN: Pilot console is not accessible from gravship -->
   <PilotConsoleInaccessible>Pilotní konzole není dostupná z tíholodi</PilotConsoleInaccessible>
   <!-- EN: Launch date -->
-  <LaunchDate>TODO</LaunchDate>
+  <LaunchDate>Datum startu</LaunchDate>
   <!-- EN: Warning: {0} will be blocked by {1}. -->
   <WarningThrusterBlocked>TODO</WarningThrusterBlocked>
   <!-- EN: Warning: {0} will be blocked due to being indoors. -->
@@ -93,17 +93,17 @@
   <!-- EN: Max per gravship -->
   <GravFacilityMaxSimultaneousConnections>Maximum na tíholoď</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>není připojená k tíholodi</ShieldNotConnectedToGravship>
+  <ShieldNotConnectedToGravship>Není připojený k tíholodi</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
   <GravshipLaunchInterrupted>Vzlet byl zrušen</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
-  <NotConnectedToGravEngine>Není připojená k tíhomotoru.</NotConnectedToGravEngine>
+  <NotConnectedToGravEngine>Není připojeno k tíhomotoru.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
   <ThrusterNotFunctional>Nefunkční</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
   <ThrusterNotConnected>není připojená k tíhomotoru</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>TODO</ThrusterBlockedBy>
+  <ThrusterBlockedBy>blokovaná {lookup: {0}; case\singular; 7}</ThrusterBlockedBy>
   <!-- EN: must be outside -->
   <MustBeOutside>musí být venku</MustBeOutside>
   <!-- EN: blocked by substructure -->
@@ -115,13 +115,13 @@
   <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>TODO</AnimalHabitat>
   <!-- EN: {0} grove -->
-  <PlantGrove>TODO</PlantGrove>
+  <PlantGrove>háj {lookup: {0}; case\plural; 2}</PlantGrove>
   <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
-  <MineralRich>zvýšený výskyt {lookup: {MINERAL_label}; case\singular; 4}</MineralRich>
+  <MineralRich>zvýšený výskyt {lookup: {MINERAL_label}; case\singular; 2}</MineralRich>
   <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
-  <MineralRichDescription>Tato oblast je bohatá na ložiska {lookup: {MINERAL_label}; case\singular; 4}.</MineralRichDescription>
+  <MineralRichDescription>Tato oblast je bohatá na ložiska {lookup: {MINERAL_label}; case\singular; 2}.</MineralRichDescription>
 
   <!-- Insect Lair -->
   <!-- EN: Cave entrance -->
@@ -139,23 +139,23 @@
   
   <!-- Overlay -->
   <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
-  <ShowVacuumOverlayToggleButton>Vákuum. Zobrazí překrytí které ti ukáže kde je vákuum a pomůže odhalit úniky vzduchu.\n\nBez správného vybavení vystavení vákuu může být smrtelně nebezpečné.</ShowVacuumOverlayToggleButton>
+  <ShowVacuumOverlayToggleButton>Vákuum\n\nZobrazí překrytí, které ti ukáže, kde je vákuum, a pomůže ti odhalit úniky vzduchu.\n\nBez správného vybavení se vystavení vákuu může stát smrtelně nebezpečným.</ShowVacuumOverlayToggleButton>
   <!-- EN: vacuum -->
   <Vacuum>vákuum</Vacuum>
   
   <!-- World -->
   <!-- EN: No discovered orbital locations. -->
-  <CannotSelectOrbitReason>TODO</CannotSelectOrbitReason>
+  <CannotSelectOrbitReason>Nemáš objevené žádné lokace na orbitě.</CannotSelectOrbitReason>
   <!-- EN: Dying from vacuum exposure -->
-  <DyingBecauseExposedToVacuum>TODO</DyingBecauseExposedToVacuum>
+  <DyingBecauseExposedToVacuum>Umírá na vystavení vákuu.</DyingBecauseExposedToVacuum>
   <!-- EN: Vacstone with traces of {RESOURCE_label} -->
-  <TracesOfPreciousResource>TODO</TracesOfPreciousResource>
+  <TracesOfPreciousResource>Vakuostalit se stopami {lookup: {RESOURCE_label}; case\singular; 2}</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
-  <TransportPodDestinationRequiresSignalJammer>TODO</TransportPodDestinationRequiresSignalJammer>
+  <TransportPodDestinationRequiresSignalJammer>Vyžaduje rušičku signálů</TransportPodDestinationRequiresSignalJammer>
   <!-- EN: cannot function in vacuum. -->
-  <CannotFunctionInVacuum>TODO</CannotFunctionInVacuum>
+  <CannotFunctionInVacuum>nefunguje ve vákuu.</CannotFunctionInVacuum>
   <!-- EN: Gravship -->
-  <GravshipOnTileInspectString>TODO</GravshipOnTileInspectString>
+  <GravshipOnTileInspectString>Tíholoď</GravshipOnTileInspectString>
   
   <!-- Ruins -->
   <!-- EN: Hack to open. -->
@@ -163,85 +163,85 @@
   
   <!-- Fishing -->
   <!-- EN: Fish -->
-  <Fish>TODO</Fish>
+  <Fish>Ryba</Fish>
   <!-- EN: fishing -->
-  <Fishing>TODO</Fishing>
+  <Fishing>rybaření</Fishing>
   <!-- EN: Cannot fish -->
-  <CannotFish>TODO</CannotFish>
+  <CannotFish>Nelze rybařit</CannotFish>
   <!-- EN: blocked -->
-  <FishingSpotBlocked>TODO</FishingSpotBlocked>
+  <FishingSpotBlocked>blokovaná</FishingSpotBlocked>
   <!-- EN: frozen -->
-  <FishingSpotFrozen>TODO</FishingSpotFrozen>
+  <FishingSpotFrozen>zamrzlá</FishingSpotFrozen>
   <!-- EN: below minimum fish population -->
-  <FishingSpotUnderTargetPopulation>TODO</FishingSpotUnderTargetPopulation>
+  <FishingSpotUnderTargetPopulation>pod minimem populace</FishingSpotUnderTargetPopulation>
   <!-- EN: stored fish exceed fishing zone settings -->
-  <FishingSpotOverTargetResourceCount>TODO</FishingSpotOverTargetResourceCount>
+  <FishingSpotOverTargetResourceCount>dostatek ulovených ryb</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
-  <TabFishing>TODO</TabFishing>
+  <TabFishing>Rybaření</TabFishing>
   <!-- EN: Fish population -->
-  <FishPopulation>TODO</FishPopulation>
+  <FishPopulation>Populace ryb</FishPopulation>
   <!-- EN: Population declining -->
-  <FishPopulationDecline>TODO</FishPopulationDecline>
+  <FishPopulationDecline>Populace ubývá</FishPopulationDecline>
   <!-- EN: very low -->
-  <FishPopulation_VeryLow>TODO</FishPopulation_VeryLow>
+  <FishPopulation_VeryLow>velmi nízká</FishPopulation_VeryLow>
   <!-- EN: low -->
-  <FishPopulation_Low>TODO</FishPopulation_Low> 
+  <FishPopulation_Low>nízká</FishPopulation_Low> 
   <!-- EN: moderate -->
-  <FishPopulation_Moderate>TODO</FishPopulation_Moderate>
+  <FishPopulation_Moderate>podprůměrná</FishPopulation_Moderate>
   <!-- EN: healthy -->
-  <FishPopulation_Healthy>TODO</FishPopulation_Healthy>
+  <FishPopulation_Healthy>zdravá</FishPopulation_Healthy>
 
   <!-- Sand -->
   <!-- EN: Windswept sand -->
-  <Sand>TODO</Sand>
+  <Sand>Nafoukaný písek</Sand>
   <!-- EN: No sand -->
-  <SandNone>TODO</SandNone>
+  <SandNone>žádný</SandNone>
   <!-- EN: dusting -->
-  <SandDusting>TODO</SandDusting>
+  <SandDusting>jemná vrstva</SandDusting>
   <!-- EN: thin -->
-  <SandThin>TODO</SandThin>
+  <SandThin>tenká vrstva</SandThin>
   <!-- EN: medium -->
-  <SandMedium>TODO</SandMedium>
+  <SandMedium>silná vrstva</SandMedium>
   <!-- EN: thick -->
-  <SandThick>TODO</SandThick>
+  <SandThick>hrubá vrstva</SandThick>
   <!-- EN: Windswept sand -->
-  <Sand_Label>TODO</Sand_Label>
+  <Sand_Label>Nafoukaný písek</Sand_Label>
   <!-- EN: clearing sand. -->
-  <JobClearingSand>TODO</JobClearingSand>
+  <JobClearingSand>zametá písek.</JobClearingSand>
   <!-- EN: clearing sand -->
-  <ClearingSandGerund>TODO</ClearingSandGerund>
+  <ClearingSandGerund>zametá písek</ClearingSandGerund>
 
   <!-- Stockpile -->
   <!-- EN: medicine stockpile -->
-  <StockpileMedicine>TODO</StockpileMedicine>
+  <StockpileMedicine>rezerva lekařských pomůcek</StockpileMedicine>
   <!-- EN: chemfuel stockpile -->
-  <StockpileChemfuel>TODO</StockpileChemfuel>
+  <StockpileChemfuel>rezerva paliva</StockpileChemfuel>
   <!-- EN: component stockpile -->
-  <StockpileComponent>TODO</StockpileComponent>
+  <StockpileComponent>rezerva komponentů</StockpileComponent>
   <!-- EN: weapons stockpile -->
-  <StockpileWeapons>TODO</StockpileWeapons>
+  <StockpileWeapons>rezerva zbraní</StockpileWeapons>
   <!-- EN: drug stockpile -->
-  <StockpileDrugs>TODO</StockpileDrugs>
+  <StockpileDrugs>rezerva drog</StockpileDrugs>
   
   <!-- Outfit Stand -->
   <!-- EN: equip outfit -->
-  <SwapOutfit>TODO</SwapOutfit>
+  <SwapOutfit>nasaď si oblečení</SwapOutfit>
   <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>TODO</SwapOutfitGizmo>
+  <SwapOutfitGizmo>nasaď si oblečení...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>TODO</SwapOutfitDesc>
+  <SwapOutfitDesc>Přikaž kolonistovi, aby si oblékl všechno oblečení z věšáku. Svléknuté oblečení odloží zpět na věšák.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
-  <CannotSwapOutfit>TODO</CannotSwapOutfit>
+  <CannotSwapOutfit>Nemůže si obléct oblečení</CannotSwapOutfit>
   <!-- EN: outfit stand is empty -->
   <OutfitStandEmpty>TODO</OutfitStandEmpty>
   <!-- EN: Remove this from the outfit stand. -->
-  <EjectApparelTooltip>TODO</EjectApparelTooltip>
+  <EjectApparelTooltip>Sundej toto oblečení z věšáku.</EjectApparelTooltip>
   
   <!-- Orbital mechanoid platform -->
   <!-- EN: Ancient grav engine -->
-  <LetterAncientGravEngineDiscoveredLabel>TODO</LetterAncientGravEngineDiscoveredLabel>
+  <LetterAncientGravEngineDiscoveredLabel>Prastarý tíhomotor</LetterAncientGravEngineDiscoveredLabel>
   <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>TODO</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>Povedlo se ti objevit prastarý tíhomotor. Když ho zničíš, tak z něj získáš jeho tíhojádro.</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
   <PlayerPawnsArriveMethod_Gravship>Tíholoď</PlayerPawnsArriveMethod_Gravship>
@@ -254,15 +254,15 @@
   <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
   <CerebrexCoreDialog>TODO</CerebrexCoreDialog>
   <!-- EN: Destroy the core -->
-  <CerebrexCoreOption_Destroy>TODO</CerebrexCoreOption_Destroy>
+  <CerebrexCoreOption_Destroy>Znič ho</CerebrexCoreOption_Destroy>
   <!-- EN: Scavenge technology -->
   <CerebrexCoreOption_Scavenge>TODO</CerebrexCoreOption_Scavenge>
   <!-- EN: Postpone -->
-  <CerebrexCoreOption_Postpone>TODO</CerebrexCoreOption_Postpone>
+  <CerebrexCoreOption_Postpone>Odložit</CerebrexCoreOption_Postpone>
   <!-- EN: Stabilizers remaining -->
-  <StabilizersRemaining>TODO</StabilizersRemaining>
+  <StabilizersRemaining>zbývajících stabilizátorů</StabilizersRemaining>
   <!-- EN: Gestating mechanoids. -->
-  <ProducingMechanoids>TODO</ProducingMechanoids>
+  <ProducingMechanoids>Vytváří mechanoidy.</ProducingMechanoids>
 
   <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
   <OdysseyDestroyedCredits>TODO</OdysseyDestroyedCredits>
@@ -270,17 +270,17 @@
   <OdysseyScavengedCredits>TODO</OdysseyScavengedCredits>
 
   <!-- EN: {0} stabilizers remaining -->
-  <CoreNotInteractableStabilizersRemaining>TODO</CoreNotInteractableStabilizersRemaining>
+  <CoreNotInteractableStabilizersRemaining>{0} zbývajících stabilizátorů</CoreNotInteractableStabilizersRemaining>
   <!-- EN: Deactivated -->
-  <CoreNotInteractableDeactivated>TODO</CoreNotInteractableDeactivated>
+  <CoreNotInteractableDeactivated>Deaktivováno</CoreNotInteractableDeactivated>
 
   <!-- EN: Shuttle fuel -->
-  <CaravanShuttleFuel>TODO</CaravanShuttleFuel>
+  <CaravanShuttleFuel>Palivo raketoplánu</CaravanShuttleFuel>
 
   <!-- EN: Passively scanning for orbital signals. -->
-  <OrbitalScannerScanning>TODO</OrbitalScannerScanning>
+  <OrbitalScannerScanning>Pasivně vyhledává orbitální signály.</OrbitalScannerScanning>
   <!-- EN: Locating orbital signal -->
-  <OrbitalScannerLocating>TODO</OrbitalScannerLocating>
+  <OrbitalScannerLocating>Lokalizuje orbitální signál</OrbitalScannerLocating>
 
   <!-- EN: Traits -->
   <WeaponTraits>Vlastnosti</WeaponTraits>
@@ -329,15 +329,15 @@
   <DigEnabled>TODO</DigEnabled>
 
   <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>TODO</ConfirmSealHatch>
+  <ConfirmSealHatch>Uzavřít vstup do prastaré rezervy. Cokoli a kdokoli kdo tam zůstal bude permanentně ztracen.{0}\n\nOpravdu chceš pokračovat.</ConfirmSealHatch>
   <!-- EN: Cannot seal -->
-  <CannotChooseSealer>TODO</CannotChooseSealer>
+  <CannotChooseSealer>Nelze uzavřít</CannotChooseSealer>
   <!-- EN: Sealed -->
-  <Sealed>TODO</Sealed>
+  <Sealed>Uzavřen</Sealed>
   <!-- EN: Permanently sealed. -->
-  <HatchSealed>TODO</HatchSealed>
+  <HatchSealed>Permanentně uzavřen.</HatchSealed>
   <!-- EN: Unlocked. -->
-  <HatchUnlocked>TODO</HatchUnlocked>
+  <HatchUnlocked>Odemknut.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
   <GravshipShieldTip>TODO</GravshipShieldTip>
