@@ -18,7 +18,7 @@
   <!-- EN: grav anchor -->
   <GravAnchor.label>tíhokotva</GravAnchor.label>
   <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
-  <GravAnchor.description>TODO</GravAnchor.description>
+  <GravAnchor.description>Budova, která zabrání zničení mapy při vzletu tíholodi.\n\nTíhokotva pasivně snižuje nestabilní gravitační tření v jejím okolí a je tak schopná zabránit zničujícím efektům vzletu tíholodě. Nelze jí postavit na nosnou strukturu, protože by působyla opačnou silou vůči tíhomotoru a zabránila by tak letu.</GravAnchor.description>
   
   <!-- EN: gravcore power cell -->
   <GravcorePowerCell.label>tíhojádrový generátor</GravcorePowerCell.label>
@@ -28,7 +28,7 @@
   <!-- EN: grav engine -->
   <GravEngine.label>tíhomotor</GravEngine.label>
   <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
-  <GravEngine.description>TODO</GravEngine.description>
+  <GravEngine.description>Ultratecké srdce každé tíholodě. Tento tíhomotor funguje na bázi převracení a intenzifikování efektů tíhy v okolním gravitačním poli. Tento motor je schopen pouze vertikálního pohybu vůči centru gravitační síly, ale už né horizonálního. Je naprosto k ničemu mimo gravitačních polí velkých oběktů jako jsou planety, takže se nedá použít pro meziplanetární cestování.\n\nKdyž vzlétneš, celá nosná konstrukce lodi se přesune na novou mapu. Pokud se v oblasti vzletu nenachází tíhokotva, bude tato mapa opuštěna.\n\nTřpytosvětoví inženýři používají tíholodě k nízkonákladové dopravě orbitálních stanic do vesmíru, ale také se využívají ke stavbě mrakodrapů. Jejich výroba je extrémně náročný proces, který vyžaduje masivní továrny s velmi vyspělou technologií, což je dělá neobnovitelným a vzácným zbožím mimo třpytosvěty.</GravEngine.description>
   
   <!-- EN: grav field extender -->
   <GravFieldExtender.label>tíhorozšiřovač</GravFieldExtender.label>
@@ -43,7 +43,7 @@
   <!-- EN: gravship shield generator -->
   <GravshipShieldGenerator.label>tíholodní generátor štítů</GravshipShieldGenerator.label>
   <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
-  <GravshipShieldGenerator.description>TODO</GravshipShieldGenerator.description>
+  <GravshipShieldGenerator.description>Přístroj shopný vytvořit štít k obraně tíholodě. Moduluje gravitačním polem a tím vytváří jednosměrnou bariéru pro rychle se hýbající projektily, ať už z běžné střelné zbraně nebo z minometu. Stále je ale možné střílet z tohoto pole směrem ven.\n\Před každým použitím se musí nabít. Jeden tíhomotor je schopen napájet až dva generátory štítů.</GravshipShieldGenerator.description>
   <!-- EN: activate -->
   <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>aktivovat</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
   
@@ -72,14 +72,14 @@
   <!-- EN: pilot subpersona core -->
   <PilotSubpersonaCore.label>jádro pilotní subosobnosti</PilotSubpersonaCore.label>
   <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
-  <PilotSubpersonaCore.description>TODO</PilotSubpersonaCore.description>
+  <PilotSubpersonaCore.description>Malé jádro UI, ve kterém se nachází nízký stupeň osobnosti specializující se na let tíholodí. Snižuje šanci incidentu při přistání s lodí, ale není schopno kompletně předejít lidským chybám.\n\nJedna tíholoď může využít efektů až dvou jader.</PilotSubpersonaCore.description>
   
   <!-- EN: mechanoid ship chunk -->
-  <ShipChunk_Mech.label>TODO</ShipChunk_Mech.label>
+  <ShipChunk_Mech.label>kus vesmírné mechanoidí lodě</ShipChunk_Mech.label>
   <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
-  <ShipChunk_Mech.description>TODO</ShipChunk_Mech.description>
+  <ShipChunk_Mech.description>Kus vesmírné mechanoidí lodě skládající se z tíholitových panelů. Zdá se, že došlo k utržení buď nekontrolovanými návratovými silami nebo nějakým druhem zbraně.\n\nVzhledem k tomu, že ke zřícení došlo nedávno, stále obsahuje užitečné suroviny, které můžeš získat rozebráním trosek.</ShipChunk_Mech.description>
   <!-- EN: Deconstruct for valuable resources. -->
-  <ShipChunk_Mech.comps.CompInspectString.inspectString>TODO</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>Rozebráním získáš hodnotné suroviny.</ShipChunk_Mech.comps.CompInspectString.inspectString>
   
   <!-- EN: signal jammer -->
   <SignalJammer.label>rušička signálů</SignalJammer.label>
