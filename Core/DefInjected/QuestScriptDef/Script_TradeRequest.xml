@@ -2,14 +2,18 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Nedaleká osada [settlement_label] [TR_hasA] [TR_special] obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPokud chceš obchod uskutečnit, vyšli karavanu s požadovanými předměty. Předpokládaná doba cesty je [estimatedTravelTime_duration].</li>
+    <li>questDescription->Nedaleká osada [settlement_label] [TR_hasA] [TR_special] obchodní nabídkou. Rádi by od tebe koupili:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](hodnota [requestedThingMarketValue_money])\n\nPokud chceš obchod uskutečnit, vyšli karavanu s požadovanými předměty.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->běžné nebo lepší kvality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> Předpokládaná doba cesty je [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
     <li>TR_hasA->přichází</li>
     <li>TR_hasA->se na tebe obrací</li>
     <li>TR_special->se speciální</li>

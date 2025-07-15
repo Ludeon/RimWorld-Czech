@@ -370,8 +370,8 @@
   
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Nakládání přepravního modulu bylo dokončeno. Až budeš připraven, můžeš odstartovat.</MessageFinishedLoadingTransporters>
-  <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>Raketoplán je naložen a připraven k odletu.</MessageFinishedLoadingShuttle> 
+  <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
+  <MessageFinishedLoadingShuttle>Raketoplán je naložen a připraven k odletu. ({SHUTTLE_label})</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Tvá skupina {lookup: {1}; case\plural; 2} nemůže dokončit nakládání přepravních modulů, protože některé předměty nebo lidé se stali nedostupnými ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>

@@ -690,15 +690,15 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Opustit {lookup: {RITUAL_label}; case\singular; 4}</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Přestane se účastnit {lookup: {RITUAL_label}; case\singular; 2}. Rituál bude pokračovat do té doby, dokud bude přítomen alespoň jeden z účastníků.</CommandLeaveRitualDesc>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Přestane se účastnit {lookup: {RITUAL_label}; case\singular; 2}. Událost bude pokračovat do té doby, dokud bude přítomen alespoň jeden z účastníků.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>Tohle je poslední účastník {lookup: {RITUAL_label}; case\singular; 2}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Přerušit {lookup: {RITUAL_label}; case\singular; 4}</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Okamžitě ukončí {lookup: {RITUAL_label}; case\singular; 4}. Rituální závazek bude zachován. Rituál můžeš později znovu zahájit.</CommandCancelRitualDesc>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>{RITUAL_label} bude okamžitě ukončen. Lze kdykoli znovu zahájit.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Opravdu chceš přerušit {lookup: {RITUAL_label}; case\singular; 4}?</CommandCancelRitualConfirm>
 
