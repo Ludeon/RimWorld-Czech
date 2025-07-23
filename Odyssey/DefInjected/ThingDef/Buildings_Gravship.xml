@@ -4,7 +4,7 @@
   <!-- EN: small chemfuel tank -->
   <ChemfuelTank.label>malá palivová nádrž</ChemfuelTank.label>
   <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <ChemfuelTank.description>Palivová nádrž, ze které se čerpá palivo do trysek tíholodi.</ChemfuelTank.description>
+  <ChemfuelTank.description>Palivová nádrž, ze které se čerpá palivo do trysek gravilodi.</ChemfuelTank.description>
   <!-- EN: Chemfuel -->
   <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Chemické palivo</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
@@ -13,44 +13,44 @@
   <!-- EN: fuel optimizer -->
   <FuelOptimizer.label>optimalizátor paliva</FuelOptimizer.label>
   <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
-  <FuelOptimizer.description>Tíhotecký přístroj, který umožní efektivněji koordinovat zážeh trysek. Sníží tak spotřebu paliva tíholodi.\n\nJedna tíholoď může využít efektů až dvou optimalizátorů.</FuelOptimizer.description>
+  <FuelOptimizer.description>Gravitecký přístroj, který umožní efektivněji koordinovat zážeh trysek. Sníží tak spotřebu paliva gravilodi.\n\nJedna graviloď může využít efektů až dvou optimalizátorů.</FuelOptimizer.description>
   
   <!-- EN: grav anchor -->
-  <GravAnchor.label>tíhokotva</GravAnchor.label>
+  <GravAnchor.label>gravikotva</GravAnchor.label>
   <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
-  <GravAnchor.description>Budova, která zabrání zničení mapy při vzletu tíholodi.\n\nTíhokotva pasivně snižuje nestabilní gravitační tření v jejím okolí a je tak schopná zabránit zničujícím efektům vzletu tíholodě. Nelze jí postavit na nosnou strukturu, protože by působyla opačnou silou vůči tíhomotoru a zabránila by tak letu.</GravAnchor.description>
+  <GravAnchor.description>Budova, která zabrání zničení mapy při vzletu gravilodi.\n\nTíhokotva pasivně snižuje nestabilní gravitační tření v jejím okolí a je tak schopná zabránit zničujícím efektům vzletu gravilodě. Nelze jí postavit na nosnou strukturu, protože by působyla opačnou silou vůči tíhomotoru a zabránila by tak letu.</GravAnchor.description>
   
   <!-- EN: gravcore power cell -->
-  <GravcorePowerCell.label>tíhojádrový generátor</GravcorePowerCell.label>
+  <GravcorePowerCell.label>gravijádrový generátor</GravcorePowerCell.label>
   <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
-  <GravcorePowerCell.description>Generátor, který mění energii gravitačních vln procházejících tíholodí na elektřinu.</GravcorePowerCell.description>
+  <GravcorePowerCell.description>Generátor, který mění energii gravitačních vln procházejících gravilodí na elektřinu.</GravcorePowerCell.description>
   
   <!-- EN: grav engine -->
-  <GravEngine.label>tíhomotor</GravEngine.label>
+  <GravEngine.label>gravimotor</GravEngine.label>
   <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
-  <GravEngine.description>Ultratecké srdce každé tíholodě. Tento tíhomotor funguje na bázi převracení a intenzifikování efektů tíhy v okolním gravitačním poli. Tento motor je schopen pouze vertikálního pohybu vůči centru gravitační síly, ale už né horizonálního. Je naprosto k ničemu mimo gravitačních polí velkých oběktů jako jsou planety, takže se nedá použít pro meziplanetární cestování.\n\nKdyž vzlétneš, celá nosná konstrukce lodi se přesune na novou mapu. Pokud se v oblasti vzletu nenachází tíhokotva, bude tato mapa opuštěna.\n\nTřpytosvětoví inženýři používají tíholodě k nízkonákladové dopravě orbitálních stanic do vesmíru, ale také se využívají ke stavbě mrakodrapů. Jejich výroba je extrémně náročný proces, který vyžaduje masivní továrny s velmi vyspělou technologií, což je dělá neobnovitelným a vzácným zbožím mimo třpytosvěty.</GravEngine.description>
+  <GravEngine.description>Ultratecké srdce každé gravilodě. Tento gravimotor funguje na bázi převracení a intenzifikování efektů tíhy v okolním gravitačním poli. Tento motor je schopen pouze vertikálního pohybu vůči centru gravitační síly, ale už né horizonálního. Je naprosto k ničemu mimo gravitačních polí velkých oběktů jako jsou planety, takže se nedá použít pro meziplanetární cestování.\n\nKdyž vzlétneš, celá nosná konstrukce lodi se přesune na novou mapu. Pokud se v oblasti vzletu nenachází gravikotva, bude tato mapa opuštěna.\n\nTřpytosvětoví inženýři používají gravilodě k nízkonákladové dopravě orbitálních stanic do vesmíru, ale také se využívají ke stavbě mrakodrapů. Jejich výroba je extrémně náročný proces, který vyžaduje masivní továrny s velmi vyspělou technologií, což je dělá neobnovitelným a vzácným zbožím mimo třpytosvěty.</GravEngine.description>
   
   <!-- EN: grav field extender -->
-  <GravFieldExtender.label>tíhorozšiřovač</GravFieldExtender.label>
+  <GravFieldExtender.label>gravirozšiřovač</GravFieldExtender.label>
   <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support. Must be built near a grav engine.\n\nA gravship can support up to six grav field extenders. -->
-  <GravFieldExtender.description>Ultratecké zřízení, které umožní zvětšit velikost tíholodi. Zvětší plochu, ve které je možné postavit nosou strukturu a zvýší množství nosné struktury kterou tato tíholoď unese. Musí se nacházet u tíhomotoru.\n\nJedna tíholoď může využít efektů až šesti tíhorozšiřovačů.</GravFieldExtender.description>
+  <GravFieldExtender.description>Ultratecké zřízení, které umožní zvětšit velikost gravilodi. Zvětší plochu, ve které je možné postavit nosou strukturu a zvýší množství nosné struktury kterou tato graviloď unese. Musí se nacházet u gravimotoru.\n\nJedna graviloď může využít efektů až šesti gravirozšiřovačů.</GravFieldExtender.description>
   
   <!-- EN: gravship hull -->
-  <GravshipHull.label>trup tíholodi</GravshipHull.label>
+  <GravshipHull.label>trup gravilodi</GravshipHull.label>
   <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
-  <GravshipHull.description>Silné vzduchotěsné stěny, které zabrání uniku kyslíku do vákua vesmíru. Tato stěna se musí připojit přímo k nosné struktuře, takže lze postavit pouze na tíholodi.</GravshipHull.description>
+  <GravshipHull.description>Silné vzduchotěsné stěny, které zabrání uniku kyslíku do vákua vesmíru. Tato stěna se musí připojit přímo k nosné struktuře, takže lze postavit pouze na gravilodi.</GravshipHull.description>
   
   <!-- EN: gravship shield generator -->
-  <GravshipShieldGenerator.label>tíholodní generátor štítů</GravshipShieldGenerator.label>
+  <GravshipShieldGenerator.label>gravilodní generátor štítů</GravshipShieldGenerator.label>
   <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
-  <GravshipShieldGenerator.description>Přístroj shopný vytvořit štít k obraně tíholodě. Moduluje gravitačním polem a tím vytváří jednosměrnou bariéru pro rychle se hýbající projektily, ať už z běžné střelné zbraně nebo z minometu. Stále je ale možné střílet z tohoto pole směrem ven.\n\Před každým použitím se musí nabít. Jeden tíhomotor je schopen napájet až dva generátory štítů.</GravshipShieldGenerator.description>
+  <GravshipShieldGenerator.description>Přístroj shopný vytvořit štít k obraně gravilodě. Moduluje gravitačním polem a tím vytváří jednosměrnou bariéru pro rychle se hýbající projektily, ať už z běžné střelné zbraně nebo z minometu. Stále je ale možné střílet z tohoto pole směrem ven.\n\Před každým použitím se musí nabít. Jeden gravimotor je schopen napájet až dva generátory štítů.</GravshipShieldGenerator.description>
   <!-- EN: activate -->
   <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>aktivovat</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
   
   <!-- EN: large chemfuel tank -->
   <LargeChemfuelTank.label>velká palivová nádrž</LargeChemfuelTank.label>
   <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <LargeChemfuelTank.description>Masivní palivová nádrž, ze které se čerpá palivo do trysek tíholodi.</LargeChemfuelTank.description>
+  <LargeChemfuelTank.description>Masivní palivová nádrž, ze které se čerpá palivo do trysek gravilodi.</LargeChemfuelTank.description>
   <!-- EN: Chemfuel -->
   <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Chemické palivo</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
@@ -59,7 +59,7 @@
   <!-- EN: large thruster -->
   <LargeThruster.label>velká tryska</LargeThruster.label>
   <!-- EN: An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
-  <LargeThruster.description>Pokročilá palivová tryska s tepluodolnou vakuostalitovou vrstvou, která značně zvyšuje dolet dané tíholodě. Aby byly trysky operovatelné, musí za nimi být místo, ve kterém se nenachází žádné budovy ani nosná struktura.\n\nNa její výrobu jsou potřeba vakuostalitové bloky, které se dají získat na asteroidech.\n\nJedna tíholoď může využít efektů až šesti velkých trysek.</LargeThruster.description>
+  <LargeThruster.description>Pokročilá palivová tryska s tepluodolnou vakuostalitovou vrstvou, která značně zvyšuje dolet dané gravilodě. Aby byly trysky operovatelné, musí za nimi být místo, ve kterém se nenachází žádné budovy ani nosná struktura.\n\nNa její výrobu jsou potřeba vakuostalitové bloky, které se dají získat na asteroidech.\n\nJedna graviloď může využít efektů až šesti velkých trysek.</LargeThruster.description>
   
   <!-- EN: minified thing -->
   <MinifiedGravEngine.label>zabalený předmět</MinifiedGravEngine.label>
@@ -67,28 +67,28 @@
   <!-- EN: pilot console -->
   <PilotConsole.label>pilotní konzole</PilotConsole.label>
   <!-- EN: An interface that allows launching and piloting a gravship. It draws power directly from the grav engine. -->
-  <PilotConsole.description>Rozhraní, skrz které je možné pilotovat tíholoď. Elektřinu odebírá přímo z tíhomotoru.</PilotConsole.description>
+  <PilotConsole.description>Rozhraní, skrz které je možné pilotovat graviloď. Elektřinu odebírá přímo z gravimotoru.</PilotConsole.description>
   
   <!-- EN: pilot subpersona core -->
   <PilotSubpersonaCore.label>jádro pilotní subosobnosti</PilotSubpersonaCore.label>
   <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
-  <PilotSubpersonaCore.description>Malé jádro UI, ve kterém se nachází nízký stupeň osobnosti specializující se na let tíholodí. Snižuje šanci incidentu při přistání s lodí, ale není schopno kompletně předejít lidským chybám.\n\nJedna tíholoď může využít efektů až dvou jader.</PilotSubpersonaCore.description>
+  <PilotSubpersonaCore.description>Malé jádro UI, ve kterém se nachází nízký stupeň osobnosti specializující se na let gravilodí. Snižuje šanci incidentu při přistání s lodí, ale není schopno kompletně předejít lidským chybám.\n\nJedna graviloď může využít efektů až dvou jader.</PilotSubpersonaCore.description>
   
   <!-- EN: mechanoid ship chunk -->
   <ShipChunk_Mech.label>kus vesmírné mechanoidí lodě</ShipChunk_Mech.label>
   <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
-  <ShipChunk_Mech.description>Kus vesmírné mechanoidí lodě skládající se z tíholitových panelů. Zdá se, že došlo k utržení buď nekontrolovanými návratovými silami nebo nějakým druhem zbraně.\n\nVzhledem k tomu, že ke zřícení došlo nedávno, stále obsahuje užitečné suroviny, které můžeš získat rozebráním trosek.</ShipChunk_Mech.description>
+  <ShipChunk_Mech.description>Kus vesmírné mechanoidí lodě skládající se z gravlitových panelů. Zdá se, že došlo k utržení buď nekontrolovanými návratovými silami nebo nějakým druhem zbraně.\n\nVzhledem k tomu, že ke zřícení došlo nedávno, stále obsahuje užitečné suroviny, které můžeš získat rozebráním trosek.</ShipChunk_Mech.description>
   <!-- EN: Deconstruct for valuable resources. -->
   <ShipChunk_Mech.comps.CompInspectString.inspectString>Rozebráním získáš hodnotné suroviny.</ShipChunk_Mech.comps.CompInspectString.inspectString>
   
   <!-- EN: signal jammer -->
   <SignalJammer.label>rušička signálů</SignalJammer.label>
   <!-- EN: A signal emitter that disguises the electromagnetic signature of your gravship, allowing it to approach heavily-defended landing sites. -->
-  <SignalJammer.description>Vysílač signálů, který je schopný překrýt elekromagnetické stopy tvojí tíholodě. Díky němu můžeš přistát i na těžce bráněných místech.</SignalJammer.description>
+  <SignalJammer.description>Vysílač signálů, který je schopný překrýt elekromagnetické stopy tvojí gravilodě. Díky němu můžeš přistát i na těžce bráněných místech.</SignalJammer.description>
   
   <!-- EN: small thruster -->
   <SmallThruster.label>malá tryska</SmallThruster.label>
   <!-- EN: A chemfuel thruster that increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nA gravship can support up to four small thrusters. -->
-  <SmallThruster.description>Palivová tryska, která zvyšuje dolet dané tíholodě. Aby byly trysky operovatelné, musí za nimi být místo, ve kterém se nenachází žádné budovy ani nosná struktura.\n\nJedna tíholoď může využít efektů až čtyřech malých trysek.</SmallThruster.description>
+  <SmallThruster.description>Palivová tryska, která zvyšuje dolet dané gravilodě. Aby byly trysky operovatelné, musí za nimi být místo, ve kterém se nenachází žádné budovy ani nosná struktura.\n\nJedna graviloď může využít efektů až čtyřech malých trysek.</SmallThruster.description>
   
 </LanguageData>
