@@ -31,9 +31,9 @@
   <!-- EN: Choose who should inspect {0_definite} -->
   <ChooseWhoShouldInspect>TODO</ChooseWhoShouldInspect>
   <!-- EN: Cannot launch gravship -->
-  <CannotPilotGravship>TODO</CannotPilotGravship>
+  <CannotPilotGravship>Nelze vzletět s gravilodí</CannotPilotGravship>
   <!-- EN: Launch gravship -->
-  <PilotGravship>TODO</PilotGravship>
+  <PilotGravship>Vzleť s gravilodí</PilotGravship>
   <!-- EN: {0} {1_label} -->
   <FuelAmount>{0} {lookup: {1}; case\singular; 2}</FuelAmount>
   <!-- EN: gravship name -->
@@ -49,7 +49,7 @@
   <!-- EN: {0} chemfuel per tile -->
   <FuelPerTile>{0} na políčko</FuelPerTile>
   <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
-  <RequiresSignalJammer>Těžké zbraňové systémi: Je potřeba mít rušičku signálů</RequiresSignalJammer>
+  <RequiresSignalJammer>Těžké zbraňové systémy: Je potřeba mít rušičku signálů</RequiresSignalJammer>
   <!-- EN: {0} landing site -->
   <GravshipLandingSite>TODO</GravshipLandingSite>
   <!-- EN: Confirm landing area -->
@@ -75,7 +75,7 @@
   <!-- EN: a valid pilot console -->
   <RitualTargetPilotConsole>validní pilotní konzole</RitualTargetPilotConsole>
   <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
-  <GravshipOutcomeChanceLetterExtra>TODO</GravshipOutcomeChanceLetterExtra>
+  <GravshipOutcomeChanceLetterExtra>V závislosti na vzletu gravilodi, byla {0_percentage} šance nepovedeného přistání.</GravshipOutcomeChanceLetterExtra>
   <!-- EN: The following thrusters were affected -->
   <ThrustersBrokeDown>To se týká nasledujících trysek</ThrustersBrokeDown>
   <!-- EN: No path to gravship -->
@@ -155,7 +155,7 @@
   <!-- EN: cannot function in vacuum. -->
   <CannotFunctionInVacuum>nefunguje ve vákuu.</CannotFunctionInVacuum>
   <!-- EN: Gravship -->
-  <GravshipOnTileInspectString>Tíholoď</GravshipOnTileInspectString>
+  <GravshipOnTileInspectString>Graviloď</GravshipOnTileInspectString>
   
   <!-- Ruins -->
   <!-- EN: Hack to open. -->
@@ -239,12 +239,12 @@
   
   <!-- Orbital mechanoid platform -->
   <!-- EN: Ancient grav engine -->
-  <LetterAncientGravEngineDiscoveredLabel>Prastarý tíhomotor</LetterAncientGravEngineDiscoveredLabel>
+  <LetterAncientGravEngineDiscoveredLabel>Prastarý gravimotor</LetterAncientGravEngineDiscoveredLabel>
   <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>Povedlo se ti objevit prastarý tíhomotor. Když ho zničíš, tak z něj získáš jeho tíhojádro.</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>Povedlo se ti objevit prastarý gravimotor. Když ho zničíš, tak z něj získáš jeho gravijádro.</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
-  <PlayerPawnsArriveMethod_Gravship>Tíholoď</PlayerPawnsArriveMethod_Gravship>
+  <PlayerPawnsArriveMethod_Gravship>Graviloď</PlayerPawnsArriveMethod_Gravship>
 
   <!-- Misc -->
   <!-- EN: Toggle displaying expanding icons for landmarks. -->
@@ -291,9 +291,9 @@
   <ConfirmLoseShuttle>TODO</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
-  <BookHasQuest>TODO</BookHasQuest>
+  <BookHasQuest>Odhalí úkol</BookHasQuest>
   <!-- EN: discovered -->
-  <DiscoveredQuest>TODO</DiscoveredQuest>
+  <DiscoveredQuest>již odhalen</DiscoveredQuest>
 
   <!-- EN: Your orbital scanner has detected -->
   <QuestDiscoveredFromOrbitalScanner>TODO</QuestDiscoveredFromOrbitalScanner>

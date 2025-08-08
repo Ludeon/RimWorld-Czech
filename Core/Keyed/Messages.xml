@@ -161,9 +161,9 @@
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotAdoptWhilePawnThreatsAreNear>{CLAIMABLE_labelShort} nelze adoptovat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhilePawnThreatsAreNear>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>{CLAIMABLE_labelShort} nelze zabrat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>{CLAIMABLE_labelShort} nelze zabrat, dokud je {THREAT} poblíž.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>{CLAIMABLE_labelShort} nelze adoptovat, dokud jsou poblíž bojeschopní {THREAT_factionPawnsPlural}.</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhileThreatsAreNear>{CLAIMABLE_labelShort} nelze adoptovat, dokud je {THREAT} poblíž.</MessageCannotAdoptWhileThreatsAreNear>
   <!-- EN: Cannot remove foundation that supports a building. -->
   <MessageCannotRemoveSupportingFoundation>Nelze odstranit základy, na kterých stojí nějaká budova.</MessageCannotRemoveSupportingFoundation>
 
@@ -853,11 +853,11 @@
   <MessageLodgersCantFarskip>Nelze teleportovat: Uprchlík</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>{HACKER_nameDef} byl{HACKER_pronoun} detekována a je {HACKER_gender ? mu : jí} znemožněno pokračovat na {DURATION}.</MessageHackerLockedOut>
+  <MessageHackerLockedOut>{HACKER_nameDef} byl{HACKER_pronoun} detekován{HACKER_pronoun} a je {HACKER_gender ? mu : jí} znemožněno pokračovat na {DURATION}.</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>{HACKER_nameDef} byl{HACKER_pronoun} detekována a je {HACKER_gender ? mu : jí} permanentně znemožněno pokračovat.</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>{HACKER_nameDef} byl{HACKER_pronoun} detekován{HACKER_pronoun} a je {HACKER_gender ? mu : jí} permanentně znemožněno pokračovat.</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
-  <MessageHackableUnlocked>{0_labelShort} se odblokoval* a je možné pokračovat v hackování.</MessageHackableUnlocked>
+  <MessageHackableUnlocked>{0_labelShort} se odblokoval a je možné pokračovat v hackování.</MessageHackableUnlocked>
 
   <!-- EN: Cannot call shuttle -->
   <CannotCallShuttle>Raketoplán nelze přivolat</CannotCallShuttle>
