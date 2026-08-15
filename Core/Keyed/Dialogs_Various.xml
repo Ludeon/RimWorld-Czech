@@ -76,7 +76,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>Nepodařilo se zavést Steam API. Možné příčiny:\n\n-Steam neběží.\n-Spuštěno mimo Steam bez souboru steam_appid.txt na správném místě.\n-Spuštění s jiným oprávněním jak Steam klient (např. "jako správce").\n\nVe většině případů tento problém spraví restartování počítače.\n\nMůžeš hrát i tak, ale nebudou zaznamenávány žádné Steam statistiky a nebudou dostupné žádné Steam funkce.</SteamClientMissing>
+  <SteamClientMissing>Nepodařilo se zavést Steam API. Možné příčiny:\n\n-Steam neběží.\n-Spuštěno mimo Steam bez souboru steam_appid.txt na správném místě.\n-Spuštění s jiným oprávněním, než má Steam klient (např. "jako správce").\n\nVe většině případů tento problém spraví restartování počítače.\n\nMůžeš hrát i tak, ale nebudou zaznamenávány žádné Steam statistiky a nebudou dostupné žádné Steam funkce.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -212,9 +212,9 @@
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
   <SaveGameIncompatibleWarningText>Tato hra byla uložena na verzi {0}\nHra teď běží na verzi {1}\n\nNačtení této uložené pozice může způsobovat chyby a pády hry.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
-  <WorldFileVersionMismatch>Soubor světa byl vytvořen verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení tohoto světa může způsobovat chyby a pády hry. Možná bys asi měl vytvořit celý nový svět od základu.</WorldFileVersionMismatch>
+  <WorldFileVersionMismatch>Soubor světa byl vytvořen verzí hry {0}\nHra teď běží na verzi {1}\n\nNačtení tohoto světa může způsobovat chyby a pády hry. Možná bys asi měl vytvořit celý nový svět od základu.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
-  <FileIncompatibleWarning>Tento soubor byl uložen verzí hry {0}\nHra teď běží na verzi {1}\n\Načtení tohoto souboru může způsobovat chyby a pády hry.</FileIncompatibleWarning>
+  <FileIncompatibleWarning>Tento soubor byl uložen verzí hry {0}\nHra teď běží na verzi {1}\n\nNačtení tohoto souboru může způsobovat chyby a pády hry.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Neshoda modů</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
@@ -461,7 +461,7 @@
   <!-- EN: Cover effectiveness -->
   <CoverEffectiveness>Účinnost krytí</CoverEffectiveness>
   <!-- EN: How effective this is when used as cover in a gunfight.\n\nHigher percentages will block more shots. -->
-  <CoverEffectivenessExplanation>Jak účinné poskytuje krytí, když je použit jako kryt při přestřelce.\n\nVyšší procentní hodnota zablokuje více střel.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>Jak účinné krytí poskytuje, když je použit jako kryt při přestřelce.\n\nVyšší procentní hodnota zablokuje více střel.</CoverEffectivenessExplanation>
   <!-- EN: Experience gain factor -->
   <MedicineXpGainFactor>Faktor získávání zkušeností</MedicineXpGainFactor>
   <!-- EN: Mood change -->
@@ -553,7 +553,7 @@
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Pomsta za zranění</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
-  <HarmedRevengeChanceExplanation>Šance, že toto stvoření zautočí, když je mu ublíženo.\n\nTuto šanci lze až ztrojnásobit, pokud je útočník blíže.\n\nTato šance se uplatní při každém úspěšném zásahu. To znamená, že u zbraní s nižší kadencí a vyšším poškozením je méně pravděpodobné, že během lovu dojde k vyprovokování.</HarmedRevengeChanceExplanation>
+  <HarmedRevengeChanceExplanation>Šance, že toto stvoření zaútočí, když je mu ublíženo.\n\nTuto šanci lze až ztrojnásobit, pokud je útočník blíže.\n\nTato šance se uplatní při každém úspěšném zásahu. To znamená, že u zbraní s nižší kadencí a vyšším poškozením je méně pravděpodobné, že během lovu dojde k vyprovokování.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Pomsta při neúspěšném ochočení</TameFailedRevengeChance>
   <!-- EN: Terrain requirement -->
@@ -801,7 +801,7 @@
   <!-- EN: This animal can graze food from the environment instead of eating carried food. Grazing is only possible in some biomes and temperature ranges. -->
   <AnimalCanGrazeTip>Toto zvíře může spásat potravu přímo v prostředí, ve kterém se nachází, namísto toho, aby jedla nesené zásoby. Pastva je možná pouze v některých biomech a v určitém teplotním rozmezí.</AnimalCanGrazeTip>
   <!-- EN: Nutrition foraged per day. The actual amount foraged is also affected by biome forageability.\n\n{0} -->
-  <NutritionForagedPerDayTip>Výživy shromážděné za den. Skutečné množsví nasbírané potravy je také ovlivněné možností sběru v daném biomu.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionForagedPerDayTip>Výživy shromážděné za den. Skutečné množství nasbírané potravy je také ovlivněné možností sběru v daném biomu.\n\n{0}</NutritionForagedPerDayTip>
   <!-- EN: Nutrition eaten per day. For reference, simple meals have {0} nutrition. -->
   <NutritionEatenPerDayTip>Výživy spotřebované za den. Prosté jídlo má pro srovnání {0} výživy.</NutritionEatenPerDayTip>
   <!-- EN: Can eat -->
@@ -927,7 +927,7 @@
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
-  <HistoryUploadMessage>Chceš nahrát své záznamy herních dat na server RimWorldu, abys pomohl vývojářům vyladit hru? Pokud souhlasíš, tvá data budou nahrávána každé {0} dny (a v jiných výjimečných případech jako třeba konec hry). Nastavení soukromí lze změnit později v nabídce nastavení.</HistoryUploadMessage>
+  <HistoryUploadMessage>Chceš nahrát své záznamy herních dat na server RimWorldu, abys pomohl vývojářům vyladit hru? Pokud souhlasíš, tvá data budou nahrávána každ{replace: ^{0}^; "^1^"-"ý den"; "^2^"-"é 2 dny"; "^3^"-"é 3 dny"; "^4^"-"é 4 dny"; "^{0}^"-"ých {0} dnů"} (a v jiných výjimečných případech jako třeba konec hry). Nastavení soukromí lze změnit později v nabídce nastavení.</HistoryUploadMessage>
   <!-- EN: Even though history is sent anonymously, you can attach your name. -->
   <HistoryUploadMessagePlayerName>I když je historie odesílána anonymně, můžeš připojit své jméno.</HistoryUploadMessagePlayerName>
   <!-- EN: Allow uploading gameplay data -->
@@ -1001,7 +1001,7 @@
   <!-- EN: Every day -->
   <EveryDay>Každý den</EveryDay>
   <!-- EN: {0} times per day -->
-  <TimesPerDay>{0} krát za den</TimesPerDay>
+  <TimesPerDay>{0}krát za den</TimesPerDay>
   <!-- EN: Every {0} days -->
   <EveryDays>Každ{replace: ^{0}^; "^2^"-"é 2 dny"; "^3^"-"é 3 dny"; "^4^"-"é 4 dny"; "^{0}^"-"ých {0} dnů"}</EveryDays>
   <!-- EN: Any -->
@@ -1074,7 +1074,7 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Nastavení norem medicíny</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>Tato zdravotnická nastavení jsou bytostem přiřazena, když se poprvé začlenění do dané skupiny. Toto nastavení můžeš jednotlivci přiřadit i ručně na jeho kartě zdraví.\n\nPoznámka: Pokud se bytost připojí k jiné skupině, vždy přebírá nastavení této nové skupiny a to i v případě, že jsi jí předtím nějaké nastavení přiřadil.</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>Tato zdravotnická nastavení jsou bytostem přiřazena, když se poprvé začlení do dané skupiny. Toto nastavení můžeš jednotlivci přiřadit i ručně na jeho kartě zdraví.\n\nPoznámka: Pokud se bytost připojí k jiné skupině, vždy přebírá nastavení této nové skupiny a to i v případě, že jsi jí předtím nějaké nastavení přiřadil.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>Norma</MedGroupDefaults>
@@ -1159,7 +1159,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Opravdu chceš pročistit všechny překladové soubory české lokalizace?\n\nCo tento krok způsobí:\n  - přidá chybějící rezervovaná místa pro překlady keyed, def-injected a backstories\n  - přidá nebo aktualizuje komentář v originálním nepřeloženém tvaru ke každému textu\n  - přesune všechny keyed a def-injected překlady do příslušných XML souborů\n  - automaticky upraví formátování ve všech XML souborech\n  - aktualtizuje zpětně kompatibilní def názvy\n  - odstraní všechny existující XML komentáře (vyjma úplných seznamů)\n\nSoubory, které nejsou XML, nebudou odstraněny ani modifikovány.\n\nPo této úpravě souborů pomocí tohoto nástroje nezapomeň restartovat hru, aby se znovu načetla všechna data.\n\nPřed použitím tohoto nástroje proveď zálohu všech překladových souborů.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Opravdu chceš pročistit všechny překladové soubory české lokalizace?\n\nCo tento krok způsobí:\n  - přidá chybějící rezervovaná místa pro překlady keyed, def-injected a backstories\n  - přidá nebo aktualizuje komentář v originálním nepřeloženém tvaru ke každému textu\n  - přesune všechny keyed a def-injected překlady do příslušných XML souborů\n  - automaticky upraví formátování ve všech XML souborech\n  - aktualizuje zpětně kompatibilní def názvy\n  - odstraní všechny existující XML komentáře (vyjma úplných seznamů)\n\nSoubory, které nejsou XML, nebudou odstraněny ani modifikovány.\n\nPo této úpravě souborů pomocí tohoto nástroje nezapomeň restartovat hru, aby se znovu načetla všechna data.\n\nPřed použitím tohoto nástroje proveď zálohu všech překladových souborů.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Ano, mám zálohu</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1340,7 +1340,7 @@
   <!-- EN: no beds allowed -->
   <RoomRequirementNoBeds>žádné postele</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>velikost mísnosti {0} políček</RoomRequirementArea>
+  <RoomRequirementArea>velikost místnosti {0} políček</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>působivost místnosti</RoomRequirementImpressiveness>
   <!-- EN: all floored -->

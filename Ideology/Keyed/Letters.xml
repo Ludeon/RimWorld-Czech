@@ -29,7 +29,7 @@
   <!-- EN: Local slave escape -->
   <LetterLabelLocalSlaveEscape>Lokální útěk otroků</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveEscape>Začal lokální útěk otroků. {0_nameDef} a něktěří otroci v blízkosti se pokusí uniknout.\n\nZapojeni jsou tito otroci:\n\n{1}</LetterLocalSlaveEscape>
+  <LetterLocalSlaveEscape>Začal lokální útěk otroků. {0_nameDef} a někteří otroci v blízkosti se pokusí uniknout.\n\nZapojeni jsou tito otroci:\n\n{1}</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
   <LetterLabelSingleSlaveEscape>Útěk otroka</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
@@ -58,7 +58,7 @@
   <!-- EN: Role became inactive due to low {0} count. -->
   <LetterRoleLostReasonLowBelieversDesc>Role přestala být aktivní kvůli nízkému počtu věřících.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
-  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} {PAWN_gender ? přišel : přišla} o svojí roli jako {ROLE_labelDef} protože {PAWN_gender ? opustil : opustila} {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort} {PAWN_gender ? přišel : přišla} o svou roli jako {ROLE_labelDef}, protože {PAWN_gender ? opustil : opustila} {OLDIDEO_name}.</LetterRoleLostLetterIdeoChangedPostfix>
   <!-- EN: {0} skipped -->
   <LetterObligationRoleInactive>{0} {0_gender ? přeskočen : přeskočena : přeskočeno : přeskočeny}</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
@@ -77,7 +77,7 @@
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
   <LetterTitleObligationsActivatedEnoughBelievers>Jelikož je teď {1} {IDEO_memberNamePlural} ve tvé frakci, budou požadovat, aby byly pořádány rituály ideobožství {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>Jelikož {IDEO} je nyní hlavním ideobožstvím tvé frakce. {IDEO_memberNamePlural} budou požadovat, aby byly pořádány rituály ideobožství {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>Jelikož {IDEO} je nyní hlavním ideobožstvím tvé frakce, {IDEO_memberNamePlural} budou požadovat, aby byly pořádány rituály ideobožství {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>Pouta odstraněna</LetterBondRemoved>
@@ -100,7 +100,7 @@
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
   <JoinerCharityInfo>Toto je charitativní incident. Pokud je pošleš pryč, věřící s charitativními přesvědčeními budou smutní.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
-  <AfflictedJoinerChartityInfo>Toto je charitativní incident. Pokud kdokoliv z nich zemře anichž by byl ošetřen, věřící s charitativními přesvědčeními budou smutní. Pokud bude ošetřen nebo narekrutován, věřící budou štastní.</AfflictedJoinerChartityInfo>
+  <AfflictedJoinerChartityInfo>Toto je charitativní incident. Pokud kdokoliv z nich zemře, aniž by byl ošetřen, věřící s charitativními přesvědčeními budou smutní. Pokud bude ošetřen nebo narekrutován, věřící budou šťastní.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
   <PawnsHaveCharitableBeliefs>Následující kolonisté mají charitativní přesvědčení</PawnsHaveCharitableBeliefs>
 
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>Požadovaná změna vzhledu</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef} si chce změnit {PAWN_possessive} vzhled, protože už neodpovídá {PAWN_possessive} přesvědčení.\n\n{PAWN_pronoun} si půjde změnit vzhled jakmile bude volná stylingová stanice. Pokud chceš upravit {PAWN_possessive} vzhled, vyber {PAWN_objective} a klikni pravým tlačítkem na stylovací stanici.</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} si chce změnit {PAWN_possessive} vzhled, protože už neodpovídá {PAWN_possessive} přesvědčení.\n\n{PAWN_pronoun} si půjde změnit vzhled jakmile bude volná stylingová stanice. Pokud chceš upravit {PAWN_possessive} vzhled, vyber {PAWN_objective} a klikni pravým tlačítkem na stylingovou stanici.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->

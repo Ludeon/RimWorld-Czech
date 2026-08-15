@@ -8,7 +8,7 @@
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
   <FactionGreetingWary>{0} zdraví {NEGOTIATOR_gender ? kolonistu : kolonistku} jménem {NEGOTIATOR_labelShort} a ptá se {NEGOTIATOR_objective}, co potřebuje.</FactionGreetingWary>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>{0} vřele zdraví {NEGOTIATOR_gender ? kolonistu : kolonistku} jménem {NEGOTIATOR_labelShort} a ptá se {NEGOTIATOR_objective}, s čím by {NEGOTIATOR_gender ? mu : jí} mohl pomoci.</FactionGreetingWarm>
+  <FactionGreetingWarm>{0} vřele zdraví {NEGOTIATOR_gender ? kolonistu : kolonistku} jménem {NEGOTIATOR_labelShort} a ptá se {NEGOTIATOR_objective}, s čím by {NEGOTIATOR_gender ? mu : jí} {LEADER_gender ? mohl : mohla} pomoci.</FactionGreetingWarm>
 
   <!-- EN: won't do {0} -->
   <WorkTypeDisablesOption>vyhýbá se dovednosti {0}</WorkTypeDisablesOption>

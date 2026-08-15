@@ -32,7 +32,7 @@
   <!-- EN: Revenant smear discovered -->
   <LetterLabelRevenantSmearDiscovered>Objevení soumračníkovy stopy</LetterLabelRevenantSmearDiscovered>
   <!-- EN: {0} has noticed a black slick on the ground. It looks unnatural and gives off a foul, acrid smell. It is still fresh and wet. An eldritch entity passed by recently. -->
-  <LetterRevenantSmearDiscovered>{0} si všiml{0_pronoun} černé mastné šmouhy na zemi. Vypadá nepřirozeně a páchne nakyslím odorem. Je stále čerstvá a mokrá. To co jí vytvořilo se musí nacházet poblíž.</LetterRevenantSmearDiscovered>
+  <LetterRevenantSmearDiscovered>{0} si všiml{0_pronoun} černé mastné šmouhy na zemi. Vypadá nepřirozeně a páchne nakyslím odorem. Je stále čerstvá a mokrá. To, co ji vytvořilo, se musí nacházet poblíž.</LetterRevenantSmearDiscovered>
   <!-- EN: Revenant killed -->
   <LetterLabelRevenantKilled>Soumračník zabit</LetterLabelRevenantKilled>
   <!-- EN: The revenant is dead! Those who were hypnotized will recover.\n\nIts body has dissipated, leaving behind its spine. You can gather and study the spine, or destroy it. -->
@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>Zhypnotizovan{PAWN_gender ? ý : á} {PAWN_nameDef}</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>{PAWN_nameDef} byl{PAWN_pronoun} zhypnotizov{PAWN_gender ? án : aná} soumračníkem a teď nesouvisle mulmá o nepředstavitelných děsech.\n\nZabití soumračníka ukončí {PAWN_possessive} hypnózu.\n\nSoumračník používá psychických energií k překroucení vizuálních věmů těm, kteří se nacházejí v jeho blízkosti, což ho dělá pro ně neviditelným. Stále je možné ho najít podle mastných šmuh a stop které za sebou zasechává. Soumračník se odhalí, pokud je zasažen výbuchem, hasicí pěnou, EMP, ohněm nebo světlicemi.\n\nPokud ho nezabiješ, bude si periodicky chodit pro další oběti.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef} byl{PAWN_pronoun} zhypnotizov{PAWN_gender ? án : aná} soumračníkem a teď nesouvisle mumlá o nepředstavitelných děsech.\n\nZabití soumračníka ukončí {PAWN_possessive} hypnózu.\n\nSoumračník používá psychických energií k překroucení vizuálních vjemů těm, kteří se nacházejí v jeho blízkosti, což ho dělá pro ně neviditelným. Stále je možné ho najít podle mastných šmuh a stop, které za sebou zanechává. Soumračník se odhalí, pokud je zasažen výbuchem, hasicí pěnou, EMP, ohněm nebo světlicemi.\n\nPokud ho nezabiješ, bude si periodicky chodit pro další oběti.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>Kus tkáně soumračníka</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -82,7 +82,7 @@
   <!-- EN: Pit gate closing -->
   <LetterLabelGateClosing>Propastná brána se zavírá</LetterLabelGateClosing>
   <!-- EN: The pit gate is closing! Its entrance is about to crumble.\n\nThe pit gate entrance was unstable from the start and is finally sealing itself. -->
-  <LetterGateClosing>Propastná brána se se pomalu zavírá a její vstup se pomalu zasypává!\n\nJejí vstup byl na pokraji zřícení a nyní se pomalu hroutí.</LetterGateClosing>
+  <LetterGateClosing>Propastná brána se pomalu zavírá a její vstup se pomalu zasypává!\n\nJejí vstup byl na pokraji zřícení a nyní se pomalu hroutí.</LetterGateClosing>
   <!-- EN: Must be placed adjacent to a pit gate. -->
   <MustPlaceNextToPitGate>Musí se nacházet vedle propastní brány.</MustPlaceNextToPitGate>
   <!-- EN: Pit gate closed -->
@@ -122,7 +122,7 @@
   <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>Útěk entit</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>Následujícím entitám se povedlo útect:\n\n{0}\n\nPostav pro ně místnost s vyšší zadržovací silou, aby příště neutekly. Entity mají mnohem menší šanci útěku, pokud jsou na platformě s vyšší zadržovací silou, která pochází ze zdí, dveří, dobrého osvětlení a speciálních přístrojů.</LetterEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Následujícím entitám se povedlo utéct:\n\n{0}\n\nPostav pro ně místnost s vyšší zadržovací silou, aby příště neutekly. Entity mají mnohem menší šanci útěku, pokud jsou na platformě s vyšší zadržovací silou, která pochází ze zdí, dveří, dobrého osvětlení a speciálních přístrojů.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>vyžaduje {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
@@ -153,7 +153,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>Mutace obeliskem</ObeliskFleshmassStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
-  <ObeliskFleshmassStomachLetter>Když interagoval{PAWN_pronoun} s obeliskem, {PAWN_nameDef} ucítil{PAWN_pronoun} žaludek svírající bolest. V zápětí na to ucítil{PAWN_pronoun}, jak se je{PAWN_gender ? ho : jí} žaludek kroutí a převrací. Je{PAWN_gender ? ho : jí} žaludek zmutoval na částečně sebevědomí kus tkáně. Jeho žaludeční kyseliny jsou mnohem silnější a až bolestivě napadají samotnou žaludeční tkáň, ale také zabraňují otravě jídlem.</ObeliskFleshmassStomachLetter>
+  <ObeliskFleshmassStomachLetter>Když interagoval{PAWN_pronoun} s obeliskem, {PAWN_nameDef} ucítil{PAWN_pronoun} žaludek svírající bolest. V zápětí na to ucítil{PAWN_pronoun}, jak se je{PAWN_gender ? ho : jí} žaludek kroutí a převrací. Je{PAWN_gender ? ho : jí} žaludek zmutoval na částečně sebevědomý kus tkáně. Jeho žaludeční kyseliny jsou mnohem silnější a až bolestivě napadají samotnou žaludeční tkáň, ale také zabraňují otravě jídlem.</ObeliskFleshmassStomachLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedStomachLetterLabel>Interakce s obeliskem</MutatorObeliskFailedStomachLetterLabel>
@@ -163,7 +163,7 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassLungLetterLabel>Mutace obeliskem</ObeliskFleshmassLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
-  <ObeliskFleshmassLungLetter>Když interagoval{PAWN_pronoun} s obeliskem, {PAWN_nameDef} ucítil{PAWN_pronoun} ostrou až dechberoucí bolest ve své hrudi. V zápětí na to ucítil{PAWN_pronoun}, jak se je{PAWN_gender ? ho : jí} plíce kroutí a převrací. Je{PAWN_gender ? ho : jí} plíce zmutovala na částečně sebevědomí kus tkáně. Její vnitřní tkáň neustále odumírá a nahrazuje se novou, což jí dělá imuní nemocem jako je astma nebo plicní hniloba.</ObeliskFleshmassLungLetter>
+  <ObeliskFleshmassLungLetter>Když interagoval{PAWN_pronoun} s obeliskem, {PAWN_nameDef} ucítil{PAWN_pronoun} ostrou až dechberoucí bolest ve své hrudi. V zápětí na to ucítil{PAWN_pronoun}, jak se je{PAWN_gender ? ho : jí} plíce kroutí a převrací. Je{PAWN_gender ? ho : jí} plíce zmutovala na částečně sebevědomý kus tkáně. Její vnitřní tkáň neustále odumírá a nahrazuje se novou, což jí dělá imunní nemocem jako je astma nebo plicní hniloba.</ObeliskFleshmassLungLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedLungLetterLabel>Interakce s obeliskem</MutatorObeliskFailedLungLetterLabel>
@@ -201,22 +201,22 @@
   <!-- EN: Obelisk activation -->
   <DuplicatorObeliskLetterLabel>Aktivace obelisku</DuplicatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <DuplicatorObeliskLetter>Obelisk se pomalu aktivuje a vzduch kolem něj praská a syčí energií! Agresivní duplikáty tvých kolonistů se brzy zjevý a zaútočí na své originály.\n\nMěj na pamněti, že nestabilní energie, která pulsuje obeliskem, může bez varován způsobit silnou explozi.</DuplicatorObeliskLetter>
+  <DuplicatorObeliskLetter>Obelisk se pomalu aktivuje a vzduch kolem něj praská a syčí energií! Agresivní duplikáty tvých kolonistů se brzy zjeví a zaútočí na své originály.\n\nMěj na paměti, že nestabilní energie, která pulsuje obeliskem, může bez varování způsobit silnou explozi.</DuplicatorObeliskLetter>
 
   <!-- EN: Colonists disappearing -->
   <ObeliskAbductorLetterLabel>Mizící kolonisté</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <ObeliskAbductorLetter>Zakřivený obelisk praská a syčí neznámou energií, a zakřivuje kolem sebe časoprostor. Všechny možné stvoření začínají pomalu mizet a brzy po nich nic nezbyde.\n\nMěj na pamněti, že nestabilní energie, která pulsuje obeliskem, může bez varován způsobit silnou explozi.</ObeliskAbductorLetter>
+  <ObeliskAbductorLetter>Zakřivený obelisk praská a syčí neznámou energií, a zakřivuje kolem sebe časoprostor. Všechny možné stvoření začínají pomalu mizet a brzy po nich nic nezbyde.\n\nMěj na paměti, že nestabilní energie, která pulsuje obeliskem, může bez varování způsobit silnou explozi.</ObeliskAbductorLetter>
   
   <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} mizí</ObeliskAbductedDisappearingLetterLabel>
   <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
-  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} si všiml{PAWN_pronoun} aktivity zakřiveného obelisku. Nějaký záhadný vnitříní mechanismus se pomalu probouzí a bere si {PAWN_gender ? ho : jí} sebou neznámo kam. {PAWN_nameDef} brzy úplně zmizí.</ObeliskAbductedDisappearingLetter>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} si všiml{PAWN_pronoun} aktivity zakřiveného obelisku. Nějaký záhadný vnitřní mechanismus se pomalu probouzí a bere si {PAWN_gender ? ho : jí} sebou neznámo kam. {PAWN_nameDef} brzy úplně zmizí.</ObeliskAbductedDisappearingLetter>
   
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} se zjevil{PAWN_pronoun}</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>{PAWN_nameDef} se zjevil{PAWN_pronoun} v prapodivné místnosti. Stěny jsou tu ze zvláštního šedého kovu a vzduch je tu neúnosně těžký. {PAWN_nameDef} nemá nejmenší tušení kde je, ani jak se odsud dostat.\n\nVypadá to že z této místnosti vedou zaseknuté dveře, které by se dali s trochou síly otevřít. Kliknutím na ně pravým je můžeš zkusit otevřít.\n\nStudijí obelisku můžou ostatní kolonisté zjistit, kam zmizel{PAWN_pronoun} {PAWN_nameDef} a jak {PAWN_gender ? mu : jí} pomoc. Nebo ho také můžeš zkusit vyprovokovat k tomu aby unesl další tvé kolonisty.</ObeliskAbductedLetter>
+  <ObeliskAbductedLetter>{PAWN_nameDef} se zjevil{PAWN_pronoun} v prapodivné místnosti. Stěny jsou tu ze zvláštního šedého kovu a vzduch je tu neúnosně těžký. {PAWN_nameDef} nemá nejmenší tušení kde je, ani jak se odsud dostat.\n\nVypadá to že z této místnosti vedou zaseknuté dveře, které by se daly s trochou síly otevřít. Kliknutím na ně pravým je můžeš zkusit otevřít.\n\nStudií obelisku můžou ostatní kolonisté zjistit, kam zmizel{PAWN_pronoun} {PAWN_nameDef} a jak {PAWN_gender ? mu : jí} pomoci. Nebo ho také můžeš zkusit vyprovokovat k tomu aby unesl další tvé kolonisty.</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef} se zmutoval{PAWN_pronoun} na masostvůru.</MutatorObeliskMutated>
@@ -235,7 +235,7 @@
   <!-- EN: Activity level -->
   <ActivityLevel>Úroveň aktivity</ActivityLevel>
   <!-- EN: Psychic suppression -->
-  <IsPsychicallySuppressed>Psychické potlační</IsPsychicallySuppressed>
+  <IsPsychicallySuppressed>Psychické potlačení</IsPsychicallySuppressed>
   <!-- EN: Increase rate -->
   <ActivityIncrease>Nárůst</ActivityIncrease>
   <!-- EN: Not in sealed room -->
@@ -245,7 +245,7 @@
   <!-- EN: Unstable -->
   <Unstable>Nestabilní</Unstable>
   <!-- EN: Base level -->
-  <BaseLevel>Základní uroveň</BaseLevel>
+  <BaseLevel>Základní úroveň</BaseLevel>
   <!-- EN: Is active -->
   <IsActive>Aktivní</IsActive>
   <!-- EN: resist -->
@@ -265,11 +265,11 @@
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>Automatické potlačování</ActivitySuppressionTooltipTitle>
   <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
-  <ActivitySuppressionTooltipDisabled>Automatické potlačování není aktivní. Pokud je aktivováno, {0} bude automaticky potlačovaná dozorci.</ActivitySuppressionTooltipDisabled>
+  <ActivitySuppressionTooltipDisabled>Automatické potlačování není aktivní. Pokud je aktivováno, {0} bude automaticky potlačov{0_gender ? án : ána : áno} dozorci.</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
   <ActivitySuppressionTooltipDesc>Aktivita {lookup: {0}; case\entities; 2} bude časem růst a poroste rychleji pokud bude poškozen{replace: {0}; "nociosféra"-"á nebo provokovaná"; "{0}"-" nebo provokován"}.\n\nPokud aktivita dosáhne 100%, {0} se zaktivuje.\n\nDozorci mohou potlačovat entity, čímž sníží jejich úroveň aktivity a učiní tak když její úroveň aktivity přesáhne stanovený limit: {LEVEL}\n\nEntity s vyšší úrovní aktivity poskytují při studování více vědomostí.</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>Rozhoduje zda bude {0} automaticky potlačov{replace: {0}; "nociosféra"-"aná, když její"; "{0}"-"án, když jeho"} aktivita přesáhne {LEVEL}.\n\nAutomatické potlačovaní je aktuálně {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>Rozhoduje, zda bude {0} automaticky potlačov{replace: {0}; "nociosféra"-"aná, když její"; "{0}"-"án, když jeho"} aktivita přesáhne {LEVEL}.\n\nAutomatické potlačovaní je aktuálně {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -295,7 +295,7 @@
   <!-- EN: Must be captured in a holding platform. -->
   <RequiresHoldingPlatform>Musí být zadrže{replace: ^{0_definite}^;"^nociosféra^"-"na";"^hlízobluda^"-"na";"^chiméra^"-"na";"^soumračníkovy obratle^"-"ny"; "^{0}^"-"n"} na zadržovací platformě.</RequiresHoldingPlatform>
   <!-- EN: Choose a location for the nociosphere to teleport to. -->
-  <ChooseNociosphereDest>Vyber místo kam se nociosféra teleportuje.</ChooseNociosphereDest>
+  <ChooseNociosphereDest>Vyber místo, kam se nociosféra teleportuje.</ChooseNociosphereDest>
   <!-- EN: Transfer {0_definite} -->
   <TransferEntity>Přesuň {lookup: {0_definite}; case\singular; 4}</TransferEntity>
   <!-- EN: Transfer the contained entity to another holding platform. -->
@@ -307,7 +307,7 @@
   
   <!-- Metalhorrors -->
   <!-- EN: Emerged from -->
-  <EmergedFrom>Vypravil se z</EmergedFrom>
+  <EmergedFrom>Vynořil se z</EmergedFrom>
   <!-- EN: Metalhorror emerging -->
   <Emerging>Zjevující se kovoďas</Emerging>
   
@@ -327,23 +327,23 @@
   <FeedingImplant>Implantoval{SOURCE_pronoun} krmením: {SOURCE_nameDef}</FeedingImplant>
 
   <!-- EN: Metalhorror emerging -->
-  <MetalhorrorEmergingLabel>Vypravující se kovoďas</MetalhorrorEmergingLabel>
+  <MetalhorrorEmergingLabel>Zjevující se kovoďas</MetalhorrorEmergingLabel>
   <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
-  <MetalhorrorEmergingDesc>Vypravující se kovoďas! Prořezávající se masem a kůží, toto hrůzostrašné stvoření se vyřezává ze svého hosta. Kovoďas se vyřezává z:</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingDesc>Zjevující se kovoďas! Prořezávající se masem a kůží, toto hrůzostrašné stvoření se vyřezává ze svého hosta. Kovoďas se vyřezává z:</MetalhorrorEmergingDesc>
   <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
-  <MetalhorrorEmergingPluralDesc>Vypravující se kovoďasové! Prořezávající se masem a kůží, tyto hrůzostrašná stvoření se vyřezávají ze svých hostů. Kovoďasové se vyřezávají z:</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingPluralDesc>Zjevující se kovoďasové! Prořezávající se masem a kůží, tato hrůzostrašná stvoření se vyřezávají ze svých hostů. Kovoďasové se vyřezávají z:</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
   <MetalhorrorEmergingDescAppended>Tyto hrůzostrašní kovový parazité žijí v tělech svých hostů a nabourávají se do jejich chování za pomocí tenkých kovových vlasů zakončených v mozku. Ovládají tak hostovo tělo a přimějí ho k nakažení dalších novými kovoďasy.</MetalhorrorEmergingDescAppended>
   
   <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
-  <MetalhorrorSurgicalInspectionDetails>Tito doktoři byli infikováni a lhaly o výsledcích chirurgických inspekcí, které provedly.</MetalhorrorSurgicalInspectionDetails>
+  <MetalhorrorSurgicalInspectionDetails>Tito doktoři byli infikováni a lhali o výsledcích chirurgických inspekcí, které provedli.</MetalhorrorSurgicalInspectionDetails>
   
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during a social interaction. -->
-  <MetalhorrorReasonInteraction>{PAWN_nameDef} spozoroval{PAWN_pronoun}, že {INFECTED_nameDef} byl{PAWN_pronoun} infikován kovoďasem při sociální interakci s {INFECTED_gender ? ním : ní}. Kovoďas se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonInteraction>
+  <MetalhorrorReasonInteraction>{PAWN_nameDef} zpozoroval{PAWN_pronoun}, že {INFECTED_nameDef} byl{PAWN_pronoun} infikován kovoďasem při sociální interakci s {INFECTED_gender ? ním : ní}. Kovoďas se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonInteraction>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was discovered by {PAWN_nameDef} during an interrogation. -->
-  <MetalhorrorReasonInterrogation>{PAWN_nameDef} spozoroval{PAWN_pronoun}, že {INFECTED_nameDef} byl{PAWN_pronoun} infikov{PAWN_gender ? án : aná} kovoďasem, když {INFECTED_gender ? ho : jí} výslechal{PAWN_pronoun}. Kovoďas se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonInterrogation>
+  <MetalhorrorReasonInterrogation>{PAWN_nameDef} zpozoroval{PAWN_pronoun}, že {INFECTED_nameDef} byl{PAWN_pronoun} infikov{PAWN_gender ? án : aná} kovoďasem, když {INFECTED_gender ? ho : jí} výslechal{PAWN_pronoun}. Kovoďas se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonInterrogation>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because {INFECTED_nameDef} died. -->
-  <MetalhorrorReasonHostDied>{INFECTED_nameDef} zemřel a kovoďas který se v něm ukrval se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonHostDied>
+  <MetalhorrorReasonHostDied>{INFECTED_nameDef} zemřel a kovoďas, který se v něm ukrýval, se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonHostDied>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged because it was detected by {PAWN_nameDef} during a surgical inspection. -->
   <MetalhorrorReasonSurgeryInspected>{PAWN_nameDef} spozoroval{PAWN_pronoun}, že {INFECTED_nameDef} byl{PAWN_pronoun} infikov{PAWN_gender ? án : aná} kovoďasem, při chirurgické inspekci. Kovoďas se teď z {INFECTED_gender ? něj : ní} vyřeže a pokusí utéct.</MetalhorrorReasonSurgeryInspected>
   <!-- EN: {INFECTED_nameDef}'s metalhorror emerged for unknown reasons. -->
@@ -354,17 +354,17 @@
   <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>Kovoďas odhalen</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InteractionDetectedDesc>{PAWN_nameDef} doš{PAWN_gender ? el : la} k závěru že tady něco nehraje. {INFECTED_nameDef} se během jejich poslední konverzace choval{INFECTED_pronoun} podivně, vydával{INFECTED_pronoun} zvláštní zvuky a v očích měl{INFECTED_pronoun} sotva vyditelné kovové červíky. {PAWN_nameDef} má podezření, že {INFECTED_nameDef} je nakažen{INFECTED_gender ? ý : á} kovoďasem.</InteractionDetectedDesc>
+  <InteractionDetectedDesc>{PAWN_nameDef} doš{PAWN_gender ? el : la} k závěru, že tady něco nehraje. {INFECTED_nameDef} se během jejich poslední konverzace choval{INFECTED_pronoun} podivně, vydával{INFECTED_pronoun} zvláštní zvuky a v očích měl{INFECTED_pronoun} sotva viditelné kovové červíky. {PAWN_nameDef} má podezření, že {INFECTED_nameDef} je nakažen{INFECTED_gender ? ý : á} kovoďasem.</InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InterrogationDetectedDesc>{PAWN_nameDef} doš{PAWN_gender ? el : la} k závěru že tady něco nehraje. {INFECTED_nameDef} se během je{INFECTED_gender ? ho : jího} posledního výslechu choval{INFECTED_pronoun} podivně, vydával{INFECTED_pronoun} zvláštní zvuky a v očích měl{INFECTED_pronoun} sotva vyditelné kovové červíky. {PAWN_nameDef} má podezření, že {INFECTED_nameDef} je nakažen{INFECTED_gender ? ý : á} kovoďasem.</InterrogationDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef} doš{PAWN_gender ? el : la} k závěru, že tady něco nehraje. {INFECTED_nameDef} se během je{INFECTED_gender ? ho : jího} posledního výslechu choval{INFECTED_pronoun} podivně, vydával{INFECTED_pronoun} zvláštní zvuky a v očích měl{INFECTED_pronoun} sotva viditelné kovové červíky. {PAWN_nameDef} má podezření, že {INFECTED_nameDef} je nakažen{INFECTED_gender ? ý : á} kovoďasem.</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>Kovoďasové jsou parazité, kteří kontrolují mysl hosta a využívají jjeho těla k nakažení dalších.\n\nKovoďasové rostou a nabírají na síle uvnotř hosta s postupem času. Pokud zjistí že byl objeven, vyřeže se z hostova těla. Tento proces je velmi znepokojující, ale host ho většinou přežije.\n\nJediný způsob jakým je možné zjistit že někdo byl nakažen kovoďasem, je sledovat kusy masa s biostopu kovoďase a poté ho podrobit chirurgické inspekci s důvěryhodným doktorem.\n\nPoté co přijdeš na to kdo je nakažen, můžeš chirurgickou inspekcí vylákat kovoďase z hostova těla. Očekávej boj.</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorNoticedDetailsAppended>Kovoďasové jsou parazité, kteří kontrolují mysl hosta a využívají jeho těla k nakažení dalších.\n\nKovoďasové rostou a nabírají na síle uvnitř hosta s postupem času. Pokud zjistí že byl objeven, vyřeže se z hostova těla. Tento proces je velmi znepokojující, ale host ho většinou přežije.\n\nJediný způsob jakým je možné zjistit že někdo byl nakažen kovoďasem, je sledovat kusy masa s biostopu kovoďase a poté ho podrobit chirurgické inspekci s důvěryhodným doktorem.\n\nPoté co přijdeš na to kdo je nakažen, můžeš chirurgickou inspekcí vylákat kovoďase z hostova těla. Očekávej boj.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>Kus šedé tkáně</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
-  <LetterGrayFleshDiscovered>{PAWN_nameDef} naš{PAWN_gender ? el : la} kus masa, který připomíná lidské maso poseté malinkými kovovými částečkami. Muselo z někoho updadnout při procesu zkapalňování tkáně.\n\nNěkdo tu možná není, to co předstírá.\n\nJe několik způsobu jakými lze odhalit toho, kdo je nakažený:\n\n{METHODS}\n\nVarování: Někteří parazité jsou schopni ovládat mysl hosta a i nakazit ostatní.</LetterGrayFleshDiscovered>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef} naš{PAWN_gender ? el : la} kus masa, který připomíná lidské maso poseté malinkými kovovými částečkami. Muselo z někoho upadnout při procesu zkapalňování tkáně.\n\nNěkdo tu možná není, to co předstírá.\n\nJe několik způsobu jakými lze odhalit toho, kdo je nakažený:\n\n{METHODS}\n\nVarování: Někteří parazité jsou schopni ovládat mysl hosta a i nakazit ostatní.</LetterGrayFleshDiscovered>
   
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
   <LetterInterrogationUnlocked>Nová akce "vyslíchání" byla odemčena v záložce vězně.</LetterInterrogationUnlocked>
@@ -372,14 +372,14 @@
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>Uvězni a pošli dozorce vyslechnout kohokoli, kdo se chová podezřele, o jeho reálné identitě. Tento proces může trvat až několik dní.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
-  <LetterGrayFleshMethodTwo>Sesbírej další šedé maso a analyzuj ho, aby si určil biostopu hrozby. To ti umožní použít chirurgickou inspekci k vyhledání dané biostopy. Odběr dostatečného množství vzorků může trvat dlouho, a následná operace je invazivní.</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodTwo>Sesbírej další šedé maso a analyzuj ho, abys určil biostopu hrozby. To ti umožní použít chirurgickou inspekci k vyhledání dané biostopy. Odběr dostatečného množství vzorků může trvat dlouho, a následná operace je invazivní.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
   <LetterGrayFleshMethodThree>Poprav anebo vyhosti kohokoli, koho podezříváš.</LetterGrayFleshMethodThree>
   
   <!-- EN: Metalhorrors awakening -->
   <LetterMetalhorrorReawakeningLabel>Kovoďasové se probouzí</LetterMetalhorrorReawakeningLabel>
   <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
-  <LetterMetalhorrorReawakening>Kovoďasové byli vyušeni a znovu se probouzí!</LetterMetalhorrorReawakening>
+  <LetterMetalhorrorReawakening>Kovoďasové byli vyrušeni a znovu se probouzí!</LetterMetalhorrorReawakening>
 
   <!-- EN: The metalhorrors are beginning to hibernate. They will awaken again if disturbed. -->
   <MessageMetalHorrorDormant>Kovoďasové se pomalu ukládají k hibernaci. Pokud je vyrušíš tak se znovu vzbudí.</MessageMetalHorrorDormant>
@@ -391,9 +391,9 @@
   <!-- EN: Surgical inspection results -->
   <LetterSurgicallyInspectedLabel>Výsledky chirurgické inspekce</LetterSurgicallyInspectedLabel>
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
-  <LetterSurgicallyInspectedHeader>{PATIENT_nameDef} podstoupil{PAWN_pronoun} chirurgickou inspekci.</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedHeader>{PATIENT_nameDef} podstoupil{PATIENT_pronoun} chirurgickou inspekci.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
-  <LetterSurgicallyInspectedNothing>{DOCTOR_nameDef} tvrdí, že nenaš{PAWN_gender ? el : la} žádné anomálie, ale měj na paměti, že mohl{DOCTOR_pronoun} lhát.</LetterSurgicallyInspectedNothing>
+  <LetterSurgicallyInspectedNothing>{DOCTOR_nameDef} tvrdí, že nenaš{DOCTOR_gender ? el : la} žádné anomálie, ale měj na paměti, že mohl{DOCTOR_pronoun} lhát.</LetterSurgicallyInspectedNothing>
   
   <!-- Death refusal -->
   <!-- EN: use -->
@@ -443,7 +443,7 @@
   <!-- EN: Unnatural healing -->
   <LetterUnnaturalHealingLabel>Nepřirozené léčení</LetterUnnaturalHealingLabel>
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
-  <LetterUnnaturalHealing>{PAWN_nameDef} byl magicky vyléčen.</LetterUnnaturalHealing>
+  <LetterUnnaturalHealing>{PAWN_nameDef} byl{PAWN_pronoun} magicky vyléčen{PAWN_pronoun}.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
   <LetterUnnaturalHealingTentacle>Bohužel se něco strašlivě zvrtlo.\n\n{PAWN_nameDef} najednou ucítil{PAWN_pronoun} jak se {PAWN_gender ? mu : jí} roztrhnula ruka pod ramenem, a na jejím místě teď má masité chapadlo.</LetterUnnaturalHealingTentacle>
   
@@ -473,7 +473,7 @@
   <!-- EN: Fleshmass heart defeated -->
   <LetterLabelFleshmassHeartDestroyed>Masohmotné srdce poraženo</LetterLabelFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
-  <LetterFleshmassHeartDestroyed>Masohmotné srdce bylo zničeno, přičemž za sebou zanechalo částečně rozbité, ale stále funkční jádro - prapodivný amalgám masa a archotechnologie. Tento nukleus bude neustále růst nové zmutované kusy masa, i poté co jeho okolní masohmota odumře.\n\nMůžeš ho zajmout a studovat anebo ho zničit a uknočit tím tuhle noční můru. Pokud zůstane nehlídán hrozí že zformuje nové masohmotné srdce.</LetterFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>Masohmotné srdce bylo zničeno, přičemž za sebou zanechalo částečně rozbité, ale stále funkční jádro - prapodivný amalgám masa a archotechnologie. Tento nukleus bude neustále růst nové zmutované kusy masa, i poté co jeho okolní masohmota odumře.\n\nMůžeš ho zajmout a studovat anebo ho zničit a ukončit tím tuhle noční můru. Pokud zůstane nehlídán hrozí že zformuje nové masohmotné srdce.</LetterFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
   <NerveBundleGrewMessage>Masohmotnému srdci narostl nový nervový svazek.</NerveBundleGrewMessage>
   <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
@@ -485,7 +485,7 @@
   <!-- EN: Gathering acid. Ready in -->
   <SpitterGatheringSpit>Shromažďuje kyselinu. Připravený za</SpitterGatheringSpit>
   <!-- EN: Ready to spit acid. -->
-  <SpitterReadyToSpit>Přpravený plivat kyselinu.</SpitterReadyToSpit>
+  <SpitterReadyToSpit>Připravený plivat kyselinu.</SpitterReadyToSpit>
 
   <!-- EN: Active fleshmass. May birth fleshbeasts if destroyed. -->
   <ActiveFleshmassInspect>Aktivní masohmota. Pokud je zničena, může za sebou zanechat masostvůry.</ActiveFleshmassInspect>
@@ -494,7 +494,7 @@
   <!-- EN: Flesh tentacle attack -->
   <LetterLabelFleshTentacleAttack>Masové chapadlo útočí</LetterLabelFleshTentacleAttack>
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
-  <LetterFleshTentacleAttack>{PAWN_nameDef} proš{PAWN_gender ? el : la} uspěšnou operací, ale {PAWN_possessive} chapadlo přišlo ke své vlastní mysli a začalo útočit.</LetterFleshTentacleAttack>
+  <LetterFleshTentacleAttack>{PAWN_nameDef} proš{PAWN_gender ? el : la} úspěšnou operací, ale {PAWN_possessive} chapadlo přišlo ke své vlastní mysli a začalo útočit.</LetterFleshTentacleAttack>
   <!-- EN: Biosignature -->
   <Biosignature>Biologická stopa</Biosignature>
   <!-- EN: Bliss lobotomy -->
@@ -558,7 +558,7 @@
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>Výsledek studie nepřirozené mrtvoly</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>Tvý kolonisté přišli na způsob, jakým je možné bezpečně odstranit archotecký střep z těla mrtvoly. {VICTIM_nameDef} si konečně bude moci odpočinout od psychické bombardace, kterou trpěl{VICTIM_pronoun} od chvíle, co se tato mrtvola oběvila v tvojí kolonii. Vyjmutí archoteckého střepu z této mrtvoly jí však zbaví její výzkumné hodnoty.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>Tví kolonisté přišli na způsob, jakým je možné bezpečně odstranit archotecký střep z těla mrtvoly. {VICTIM_nameDef} si konečně bude moci odpočinout od psychické bombardace, kterou trpěl{VICTIM_pronoun} od chvíle, co se tato mrtvola objevila v tvojí kolonii. Vyjmutí archoteckého střepu z této mrtvoly jí však zbaví její výzkumné hodnoty.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>Střep z mrtvoly</UnnaturalCorpseDeactivatedLetter>
@@ -590,7 +590,7 @@
   <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>Studií této mrtvoly přijdeš na způsob, jak jí zničit.</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
 
   <!-- EN: Corpse awakened -->
-  <UnnaturalCorpseAwokenLetter>Proubouzící se mrtvola</UnnaturalCorpseAwokenLetter>
+  <UnnaturalCorpseAwokenLetter>Probouzející se mrtvola</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
   <UnnaturalCorpseAwokenLetterDesc>Nepřirozená mrtvola se pomalu zvedá a vypadá to, že {PAWN_nameDef} je jejím cílem!\n\n{PAWN_nameDef} bude pronásledován{PAWN_pronoun} mrtvolou do té doby než se k {PAWN_gender ? němu : ní} nedostane.\n\nMusíš jí okamžitě zničit!</UnnaturalCorpseAwokenLetterDesc>
 
@@ -617,7 +617,7 @@
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>Krychlové kóma: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
-  <LetterGoldenCubeComa>{PAWN_labelShort} měl{PAWN_possessive} absťák po krychli tak dlouho, že se zhroutil{PAWN_pronoun} do kómatu. Zůstane v kómatu do té doby, než se nepřeruší {PAWN_possessive} psychické propojení se zlatou krychlí.</LetterGoldenCubeComa>
+  <LetterGoldenCubeComa>{PAWN_labelShort} měl{PAWN_possessive} absťák po krychli tak dlouho, že se zhroutil{PAWN_pronoun} do kómatu. Zůstane v kómatu do té doby, než se přeruší {PAWN_possessive} psychické propojení se zlatou krychlí.</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
   <CubeDeactivationConfirmation>Deaktivováním zlaté krychle všichni kolonisté ní posedlí začnou zuřivě běsnit. Krychlí posedlí kolonisté v karavanách se rozutečou a budou permanentně ztraceni.</CubeDeactivationConfirmation>
@@ -634,7 +634,7 @@
   <!-- EN: These people have entered a temporary berserk rage -->
   <CubeDeactivationBerserkPawns>Tito lidé jsou v dočasném stavu zuřivého běsnění</CubeDeactivationBerserkPawns>
   <!-- EN: These people in caravans have run away in a rage -->
-  <CubeDeactivationLostPawns>Tito lidé vztekle utekly od tvých karavan</CubeDeactivationLostPawns>
+  <CubeDeactivationLostPawns>Tito lidé vztekle utekli od tvých karavan</CubeDeactivationLostPawns>
 
   <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
   <MentalBreakReason_CubeSculpting>Toto způsobila {PAWN_possessive} posedlost krychlí.</MentalBreakReason_CubeSculpting>
@@ -671,7 +671,7 @@
   <!-- EN: Warped obelisk -->
   <LetterLabelObeliskDiscovered>Zakřivený obelisk</LetterLabelObeliskDiscovered>
   <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
-  <LetterObeliskDiscovered>{PAWN_nameDef} objevil{PAWN_pronoun} podivně povědomí obelisk. Vypadá skoro identicky k tomu, který {PAWN_gender ? ho : jí} sem přenesl. Možná by bylo ho možné aktivovat aby {PAWN_gender ? ho : jí} přenesl zpět.\n\nVyber kolonistu a klikni pravým na obelisk, aby ho zaktivoval.</LetterObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef} objevil{PAWN_pronoun} podivně povědomý obelisk. Vypadá skoro identicky k tomu, který {PAWN_gender ? ho : jí} sem přenesl. Možná by bylo ho možné aktivovat aby {PAWN_gender ? ho : jí} přenesl zpět.\n\nVyber kolonistu a klikni pravým na obelisk, aby ho zaktivoval.</LetterObeliskDiscovered>
   
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>Rýhy v podlaze</LetterLabelFloorEtchings>
@@ -765,9 +765,9 @@
 
   <!-- Void Awakening -->
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
-  <VoidAwakeningConfirmationText>Probuzení monolitu ponoří tvou kolonii do temnoty na několik dní a přiláká nespočet entit. Ujisti se že je na to tvá kolonie připravena:\n\n- Nahromaď jídlo, stavební materiály a zbraně.\n-Ujisti se že je tvá kolonie dostatečně osvícená a má dost energie pokud možno z jiných než solárních zdrojů.\n-Všichni tví kolonisté jsou schopni boje.\n\nJakmile probudíš monolit, už není cesty zpět.\n\nChceš i přesto pokračovat?</VoidAwakeningConfirmationText>
+  <VoidAwakeningConfirmationText>Probuzení monolitu ponoří tvou kolonii do temnoty na několik dní a přiláká nespočet entit. Ujisti se že je na to tvá kolonie připravena:\n\n- Nahromaď jídlo, stavební materiály a zbraně.\n- Ujisti se, že je tvá kolonie dostatečně osvícená a má dost energie pokud možno z jiných než solárních zdrojů.\n- Všichni tví kolonisté jsou schopni boje.\n\nJakmile probudíš monolit, už není cesty zpět.\n\nChceš i přesto pokračovat?</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>{PAWN_nameDef} se ocitl{PAWN_pronoun} před pulsující koulí energie.\n\n{PAWN_nameDef} cítí její přítomnost v je{PAWN_gender ? ho : jí} mysli, mnohem houběji než jakoukoli jinou myšlenku. {PAWN_nameDef} stojí před nekonečným oceánem moci. Aktivně {PAWN_objective} to láká dovnitř...\n\nArchotecké přístroje v okolí, které udržují tuto kouli energie, jsou s ní spojené pouze křehkým spojením. {PAWN_nameDef} by ho mohl{PAWN_pronoun} přerušit a uzavřít tak spoj mezi těmito dvěma světy.\n\nAnebo může vstoupit do temné energie a splynout s nicotou v jedno. Nikdo nemá tušení co by mohl takovýto nelidský akt mít za následek.</VoidNodeLetter>
+  <VoidNodeLetter>{PAWN_nameDef} se ocitl{PAWN_pronoun} před pulsující koulí energie.\n\n{PAWN_nameDef} cítí její přítomnost v je{PAWN_gender ? ho : jí} mysli, mnohem hlouběji než jakoukoli jinou myšlenku. {PAWN_nameDef} stojí před nekonečným oceánem moci. Aktivně {PAWN_objective} to láká dovnitř...\n\nArchotecké přístroje v okolí, které udržují tuto kouli energie, jsou s ní spojené pouze křehkým spojením. {PAWN_nameDef} by ho mohl{PAWN_pronoun} přerušit a uzavřít tak spoj mezi těmito dvěma světy.\n\nAnebo může vstoupit do temné energie a splynout s nicotou v jedno. Nikdo nemá tušení co by mohl takovýto nelidský akt mít za následek.</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>Přerušit spojení</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
@@ -775,7 +775,7 @@
   <!-- EN: Postpone -->
   <VoidNodePostpone>Odložit</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>Bez psychického toku energie se začne shluk temné energie destabilizovat a podpůrné stroje začnou skřípat a rozsypávat se. Vířící nicota se zažne mihotat. {PAWN_nameDef} cítí jak se začne propadat sama do sebe.\n\nKovová slůj se začníná kroutit, pomalu připomínající komoru masivního srdce. Předtím než {PAWN_nameDef} je schopn{PAWN_gender ? ý : á} zařvat zmizí neznámo kam.\n\n{PAWN_nameDef} je odmítnut{PAWN_pronoun} nicotou.\n\n{PAWN_possessive} příběh ještě nekončí...</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>Bez psychického toku energie se začne shluk temné energie destabilizovat a podpůrné stroje začnou skřípat a rozsypávat se. Vířící nicota se zažne mihotat. {PAWN_nameDef} cítí jak se začne propadat sama do sebe.\n\nKovová slůj se začíná kroutit, pomalu připomínající komoru masivního srdce. Předtím než {PAWN_nameDef} je schopn{PAWN_gender ? ý : á} zařvat zmizí neznámo kam.\n\n{PAWN_nameDef} je odmítnut{PAWN_pronoun} nicotou.\n\n{PAWN_possessive} příběh ještě nekončí...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>{PAWN_nameDef} vkročí do nicoty a nechá se zaplavit temným oceánem, přehlcující všechny {PAWN_possessive} smysly, zaplavující všechny {PAWN_possessive} myšlenky.\n\nUzel nicoty přesměroval své zaměření z celého světa na jednu osobu. Nicotná struktura začne skřípat a poté zničeho nic zmizí neznámo kam.\n\n{PAWN_nameDef} splynul{PAWN_pronoun} s nicotou.\n\n{PAWN_possessive} příběh ještě nekončí...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->

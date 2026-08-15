@@ -135,7 +135,7 @@
   <!-- EN: Must designate painted buildings or floors. -->
   <MessageMustDesignatePainted>Musíš označit obarvené objekty nebo podlahy.</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Před tím, než to budeš moci rozebrat, musíš porazit mechový klastr.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateDeconstructibleMechCluster>Předtím, než to budeš moci rozebrat, musíš porazit mechový klastr.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Musíš označit hrubé kamenné povrchy.</MessageMustDesignateSmoothableSurface>
   <!-- EN: Must designate rough stone terrain. -->
@@ -178,7 +178,7 @@
   <MessageWarningNoMedicineForRestriction>{PAWN_nameDef} nemůže být operován{PAWN_pronoun}, protože je omezen{PAWN_gender ? ý : á} na {replace: ^{RESTRICTIONLABEL}^; "^bez lékařské péče^"-"žádnou lékařskou péči"; "^lékařská péče bez léků^"-"lékařskou péči bez léků"; "^lékařská péče nejlepší kvality^"-"lékařskou péči nejlepší kvality"; "^{0}^"-"{0}"}. Zvaž změnu {PAWN_gender ? jeho : jejího} omezení medicíny.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{PAWN_labelShort} {PAWN_gender ? zemřel : zemřela}.\n\nPříčina: {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
   <PawnDied>{1_labelShort} {1_gender ? zemřel : zemřela}.</PawnDied>
 
@@ -357,7 +357,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do přepravních modulů.</MessageTransportersLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
-  <MessageTransporterSingleLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do raketoplánu.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do přepravního modulu.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
   <MessageShuttleLoadingProcessStarted>Vybraní lidé a položky se nyní naloží do raketoplánu.</MessageShuttleLoadingProcessStarted>
 
@@ -398,7 +398,7 @@
   <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>Nelze se vybavit: {1_labelShort} není {1_gender ? schopen : schopna} násilí.</MessageCantEquipIncapableOfViolence>
   <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
-  <MessageCantEquipIncapableOfShooting>Nelze se vybavit: {1_labelShort} není {1_gender ? schopen : schopna} střelby</MessageCantEquipIncapableOfShooting>
+  <MessageCantEquipIncapableOfShooting>Nelze se vybavit: {1_labelShort} není {1_gender ? schopen : schopna} střelby.</MessageCantEquipIncapableOfShooting>
   <!-- EN: Cannot equip: Incapable. -->
   <MessageCantEquipIncapableOfManipulation>Nelze se vybavit: Neschopný.</MessageCantEquipIncapableOfManipulation>
   <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
@@ -425,24 +425,24 @@
   <MessageScreenResTooSmallForUIScale>Při tomto rozlišení a měřítku uživatelského rozhraní se rozhraní nevejde na obrazovku. Sniž prosím měřítko uživatelského rozhraní nebo zvyš rozlišení obrazovky.</MessageScreenResTooSmallForUIScale>
   
   <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>Nyní musíš shromáždit karavanu. Každý kdo ji opustil bude navždy ztracen.</MessageYouHaveToReformCaravanNow>
+  <MessageYouHaveToReformCaravanNow>Nyní musíš shromáždit karavanu. Každý, kdo ji opustil, bude navždy ztracen.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>Skupina {lookup: {0}; case\plural; 2} z frakce {1} byla napadena tvými {lookup: {2}; case\plural; 7}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Mechanoidi právě sestavili posilu, která bude bránit svůj klastr.</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>Mechanoidi byli stvořeni a budou bránit svůj klastr.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to gestate -->
-  <MessageMechanoidsLeftToAssemble>Zbývajících mechanoidů k sestavení</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsLeftToAssemble>Zbývajících mechanoidů ke stvoření</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>Mechanoidní výsadkový maják přivolal prostřednictvím výsadkových modulů posily.</MessageMechanoidsReinforcementsDrop>
 
   <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Aby se {1_labelShort} {1_gender ? mohl sám : mohla sama} ošetřit, musí mít přidělenou činnost {1_gender ? doktor : doktorka}.</MessageSelfTendUnsatisfied>
+  <MessageSelfTendUnsatisfied>Aby se {1_labelShort} {1_gender ? mohl sám : mohla sama} ošetřit, musí mít přidělenou činnost {1_gender ? doktora : doktorky}.</MessageSelfTendUnsatisfied>
   <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{1_labelShort} není {1_gender ? způsobilý : způsobilá} vykonávat práci {1_gender ? doktora : doktorky}, proto se {1_gender ? sám : sama} nikdy neošetří.</MessageCannotSelfTendEver>
   
   <!-- EN: This tile is impassable. -->
-  <MessageCantAddWaypointBecauseImpassable>Toto políčko je neprůchodné</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseImpassable>Toto políčko je neprůchodné.</MessageCantAddWaypointBecauseImpassable>
   <!-- EN: It's not possible to reach this tile from the last waypoint. -->
   <MessageCantAddWaypointBecauseUnreachable>Dosáhnout tohoto políčka z posledního záchytného bodu není možné.</MessageCantAddWaypointBecauseUnreachable>
   <!-- EN: You can't add more than {0} waypoints. -->
@@ -493,7 +493,7 @@
   <MessagePeaceTalksNoDiplomat>Žádný vyjednavač není při vědomí.</MessagePeaceTalksNoDiplomat>
 
   <!-- EN: Warning: {0} cannot live when exposed to light. -->
-  <MessageWarningCavePlantsExposedToLight>Varování: {0} při vystavení světla uhyne.</MessageWarningCavePlantsExposedToLight>
+  <MessageWarningCavePlantsExposedToLight>Varování: {0} při vystavení světlu uhyne.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
   <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} se {PAWN_gender ? rozhodl : rozhodla} přesměrovat svůj hněv, neboť se {OLDTARGET_labelShort} {OLDTARGET_gender ? dostal : dostala} mimo {PAWN_possessive} dosah. Nyní to schytá {TARGET_labelShort}.</MessageTargetedTantrumChangedTarget>
@@ -539,7 +539,7 @@
   <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort} {1_gender ? zemřel : zemřela}</GoodwillChangedReason_PawnDied>
   <!-- EN: {0_labelShort} stripped -->
-  <GoodwillChangedReason_PawnStripped>{0_labelShort} {1_gender ? byl : byla} {1_gender ? svlečen : svlečena}</GoodwillChangedReason_PawnStripped>
+  <GoodwillChangedReason_PawnStripped>{0_labelShort} {0_gender ? byl : byla} {0_gender ? svlečen : svlečena}</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
   <GoodwillChangedReason_Traded>uskutečněný obchod</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
@@ -635,7 +635,7 @@
   <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Od tohoto okamžiku mohou pokusy o verbování začít.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>Mód s ID číslem {0} už je aktivní. Deaktuvuj "{1}" předtím, než aktivuješ tento.</MessageModWithPackageIdAlreadyEnabled>
+  <MessageModWithPackageIdAlreadyEnabled>Mód s ID číslem {0} už je aktivní. Deaktivuj "{1}" předtím, než aktivuješ tento.</MessageModWithPackageIdAlreadyEnabled>
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Před použitím tohoto nástroje deaktivuj všechny mody.</MessageDisableModsBeforeCleaningTranslationFiles>
   <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
@@ -757,13 +757,13 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>tuto roli nemůže zastávat nikdo jiný.</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} se nemůže spojit Gauranlením stromem, protože {0_possessive} spojení bylo nedávno přetrženo.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} se nemůže spojit s gauranlením stromem, protože {0_possessive} spojení bylo nedávno přetrženo.</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
   <MessageRitualRolePawnHasSameIdeo>{0_labelShort} má již stejné ideobožství jako konvertovatel.</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} musí být {0_gender ? schopen : schopna} vykonávat činnost dozorce.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
-  <MessageRitualRoleMustBeCapableOfGeneric>{0} musí zvládat {replace: {1}; "střelba"-"střelbu"; "konsturkce"-"konsturkci";"zvířata"-"práci se zvířaty";"socializace"-"socializaci";"intelekt"-"intelektuální činnost"; "{1}"-"{1}" }</MessageRitualRoleMustBeCapableOfGeneric>
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} musí zvládat {replace: {1}; "střelba"-"střelbu"; "konstrukce"-"konstrukci";"zvířata"-"práci se zvířaty";"socializace"-"socializaci";"intelekt"-"intelektuální činnost"; "{1}"-"{1}" }</MessageRitualRoleMustBeCapableOfGeneric>
   <!-- EN: {0} must be capable of violence. -->
   <MessageRitualRoleMustBeCapableOfViolence>{0} musí být schopn{0_gender ? ý : á} násilí.</MessageRitualRoleMustBeCapableOfViolence>
   <!-- EN: prisoners cannot {0}. -->
@@ -847,7 +847,7 @@
   <StorageSettingsPastedFromClipboard>Nastavení skladiště vloženo ze schránky.</StorageSettingsPastedFromClipboard>
   
   <!-- EN: {0_label} requires adjacent walls to function. -->
-  <MessageBuildingRequiresAdjacentWalls>{0_label} vyžadují ke své funkci přilehlé zdi.</MessageBuildingRequiresAdjacentWalls>
+  <MessageBuildingRequiresAdjacentWalls>{0_label} vyžaduje ke své funkci přilehlé zdi.</MessageBuildingRequiresAdjacentWalls>
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Nelze teleportovat: Uprchlík</MessageLodgersCantFarskip>
@@ -859,8 +859,6 @@
   <!-- EN: {0_labelShort} can be hacked again. -->
   <MessageHackableUnlocked>{0_labelShort} se odblokoval a je možné pokračovat v hackování.</MessageHackableUnlocked>
 
-  <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>Raketoplán nelze přivolat</CannotCallShuttle>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>Raketoplán dorazil na místo určení.</MessageShuttleArrived>
 
@@ -869,6 +867,6 @@
 
   <!-- UNUSED -->
   <MessageTransportPodsDestinationReserved>Destinace je již rezervována.</MessageTransportPodsDestinationReserved>
-  <MessageFinishedLoadingTransporterSingle>Do raketoplánu byl naložen požadovaný náklad, a může ihned odstartovat.</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingTransporterSingle>Do raketoplánu byl naložen požadovaný náklad a může ihned odstartovat.</MessageFinishedLoadingTransporterSingle>
 
 </LanguageData>

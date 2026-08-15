@@ -45,7 +45,7 @@
   <!-- EN: Filth on feet: -->
   <FilthOnFeet>Špína na nohách:</FilthOnFeet>
   <!-- EN: not enough stored -->
-  <NotEnoughStoredLower>není na skladě</NotEnoughStoredLower>
+  <NotEnoughStoredLower>nedostatek na skladě</NotEnoughStoredLower>
   <!-- EN: nothing -->
   <NothingLower>nic</NothingLower>
   <!-- EN: Nothing -->
@@ -111,7 +111,7 @@
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
   <ExecuteColonist>Popravit vinného kolonistu\n\nPokud tohle zaklikneš, dorazí dozorce a tuto osobu popraví.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort} je nyní {0_gender ? označen : označena} k popravě. Nedaleký dostupný dozorce se k {0_gender ? němu : ní} přiblíží a provede {0_possessive} popravu.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort} je nyní {0_gender ? označen : označena} k popravě. Nejbližší dostupný dozorce se k {0_gender ? němu : ní} přiblíží a provede {0_possessive} popravu.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} ({1})</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
@@ -381,7 +381,7 @@
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Násobitel za nesenou hmotnost: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>Na tomto zvířeti se dá jezdit. Karavanisté použijí k jízdě nejrychlejší zvířata, které mají v rámci karavany k dispozici, čímž zlepší rychlost pohybu celé karavany.</RideableAnimalTip>
+  <RideableAnimalTip>Na tomto zvířeti se dá jezdit. Karavanisté použijí k jízdě nejrychlejší zvířata, která mají v rámci karavany k dispozici, čímž zlepší rychlost pohybu celé karavany.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
   <CaravanBonusTip>Tato osoba zvyšuje rychlost karavany. Celková rychlost je průměrem bonusů všech členů karavany.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
@@ -401,7 +401,7 @@
   <!-- EN: No letter -->
   <NoDietCategoryLetter>Bez značky</NoDietCategoryLetter>
   <!-- EN: expires in -->
-  <ExpiresIn>Expiruje za</ExpiresIn>
+  <ExpiresIn>expiruje za</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>Karavana {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
@@ -467,7 +467,7 @@
   <!-- EN: prisoner -->
   <PrisonerLower>zajatec</PrisonerLower>
   <!-- EN: prisoners -->
-  <PrisonersLower>zajatec</PrisonersLower>
+  <PrisonersLower>zajatci</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
   <ClickToViewInQuestsTab>Kliknutím zobrazíš tento úkol na kartě Úkoly.</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
@@ -609,7 +609,7 @@
   <!-- EN: Must be imprisoned. -->
   <RequiresImprisonment>Musí být vězněm.</RequiresImprisonment> 
   <!-- EN: Prioritize hauling contents -->
-  <HaulFromSource>Prioritizovat přenešení obsahu</HaulFromSource>
+  <HaulFromSource>Prioritizovat přenesení obsahu</HaulFromSource>
   <!-- EN: Use -->
   <UseGizmo>Použij</UseGizmo>
   <!-- EN: Order someone to use the {0}. -->
@@ -670,7 +670,7 @@
   <!-- EN: Progress: {0} ({1} left) -->
   <FermentationProgress>Pokrok: {0} (zbývá {1})</FermentationProgress>
   <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
-  <FermentationBarrelOutOfIdealTemperature>Teplota není ideální. Rychlosti kvašení: {0}</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>Teplota není ideální. Rychlost kvašení: {0}</FermentationBarrelOutOfIdealTemperature>
 
   <!-- TextMotes -->
   <!-- EN: Headshot -->
@@ -736,7 +736,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>Zmenšit</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>Maximum {0} možných zón.</MaxAreasReached>
+  <MaxAreasReached>Maximum {0} možných oblastí.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -1083,7 +1083,7 @@
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>Není připojeno k elektrické síti.</PowerNotConnected>
   <!-- EN: Grid excess: {0} W ({1} Wd stored) -->
-  <PowerConnectedRateStored>Elektrická síť (přebytek/uloženo): {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>Přebytek v síti: {0} W (uloženo {1} Wd)</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Potřebný příkon</PowerNeeded>
   <!-- EN: Power output -->
@@ -1125,11 +1125,11 @@
   <!-- EN: Dessicated -->
   <RotStateDessicated>Vysušené</RotStateDessicated>
   <!-- EN: Frozen -->
-  <CurrentlyFrozen>Zmražené (nezkazí se)</CurrentlyFrozen> 
+  <CurrentlyFrozen>Zmražené</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>Chlazené (zkazí se za {0})</CurrentlyRefrigerated> 
+  <CurrentlyRefrigerated>Chlazené, zkazí se za {0}</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>Nechlazené (zkazí se za {0})</NotRefrigerated> 
+  <NotRefrigerated>Nechlazené, zkazí se za {0}</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>více než deset let</OverADecade>
   <!-- EN: less than a day -->
@@ -1167,7 +1167,7 @@
   <!-- EN: resting -->
   <PlantResting>odpočívá</PlantResting>
   <!-- EN: temperature growth multiplier {0}% -->
-  <OutOfIdealTemperatureRange>Teplota není ideální. Násobitel teplotního růstu: {0}%</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>násobitel teplotního růstu {0}%</OutOfIdealTemperatureRange>
   <!-- EN: out of temperature growth range -->
   <OutOfIdealTemperatureRangeNotGrowing>mimo rozsah teploty pro růst.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
@@ -1175,7 +1175,7 @@
   <!-- EN: Mature. -->
   <Mature>Zralé.</Mature>
   <!-- EN: Average plant age -->
-  <AveragePlantAge>Průměrné stáří roslin</AveragePlantAge>
+  <AveragePlantAge>Průměrné stáří rostlin</AveragePlantAge>
   <!-- EN: Oldest plant age -->
   <OldestPlantAge>Nejstarší rostlina</OldestPlantAge>
   <!-- EN: Growing period -->
@@ -1193,7 +1193,7 @@
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Umírá, protože je vystavené světlu</DyingBecauseExposedToLight>
   <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>Úmírá na nevhodné prostředí</DyingBecauseOfTerrain>
+  <DyingBecauseOfTerrain>Umírá na nevhodné prostředí</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Posekat nyní</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1271,7 +1271,7 @@
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Automatické rozšiřování domovské oblasti\n\nDomovská oblast se bude automaticky rozšiřovat kolem nově postavených struktur.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Automatická obnova zničených struktur\n\nPokud jsou struktury zničené v domovské oblasti budou automaticky obnoveny tvými kolonisty.</AutoRebuildButton>
+  <AutoRebuildButton>Automatická obnova zničených struktur\n\nPokud jsou struktury zničené v domovské oblasti, budou automaticky obnoveny tvými kolonisty.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
   <CategorizedResourceReadoutToggleButton>Kategorizovaný režim\n\nUkazatel surovin v levém horním rohu zobrazuje suroviny v kategoriích.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
@@ -1281,7 +1281,7 @@
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
   <ShowFertilityOverlayToggleButton>Úrodnost půdy\n\nZvýrazní úrodnost půdy, která ovlivňuje, jaké plodiny je možné na daném typu půdy pěstovat a jak rychle porostou.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>Nosnost terénu\n\nZvýrazní nosnost terénu, která ovlivňuje jaké druhy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy povrchů unesou pouze lehké nebo střední, ale žádné těžké stavby. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Nosnost terénu\n\nZvýrazní nosnost terénu, která ovlivňuje, jaké druhy konstrukcí mohou být postaveny na jednotlivých místech.\n\nNapříklad některé typy povrchů unesou pouze lehké nebo střední, ale žádné těžké stavby. Mosty lze stavět pouze na vodě.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
   <LockNorthUpToggleButton>Uzamčení kamery\n\nKamera bude vždy orientovaná tak, aby se severní pól vždy nacházel nahoře.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
@@ -1289,11 +1289,11 @@
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
   <ShowBasesExpandingIconsToggleButton>Osady cizích frakcí\n\nUkazuje všechny osady cizích frakcí.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>Body zájmu\n\nUkazuje důležité lokace, jako tvoje kolonie, místa úkolů a aktvní mapy.</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Body zájmu\n\nUkazuje důležité lokace, jako tvoje kolonie, místa úkolů a aktivní mapy.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Názvy přírodních útvarů\n\nZobrazuje názvy přírodních útvarů.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
-  <ShowTemperatureOverlayToggleButton>Teplota\n\nZvýrazní teplotu vzduchu v každé místnosti a venku.\n\nKolonisté budou nešťastní, pokud je teplota jejich okolí příliš vysoká či nízká. Vystavení kolonistů extrémním teplotám může vést k podchazení, omrzlinám, úpalu, popáleninám i smrti.</ShowTemperatureOverlayToggleButton>
+  <ShowTemperatureOverlayToggleButton>Teplota\n\nZvýrazní teplotu vzduchu v každé místnosti a venku.\n\nKolonisté budou nešťastní, pokud je teplota jejich okolí příliš vysoká či nízká. Vystavení kolonistů extrémním teplotám může vést k podchlazení, omrzlinám, úpalu, popáleninám i smrti.</ShowTemperatureOverlayToggleButton>
 
   <!-- Hotkeys -->
   <!-- EN: Hotkey -->
@@ -1349,7 +1349,7 @@
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
   <MustPlaceCoolerWithFreeSpaces>Horká i studená strana klimatizace musí zůstat volná.</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
-  <MustPlaceVentWithFreeSpaces>Obě strany musí zůstat volné, aby jí mohl procházet vzduch.</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>Obě strany musí zůstat volné, aby jimi mohl procházet vzduch.</MustPlaceVentWithFreeSpaces>
   <!-- EN: Must be placed with standable space on all sides. -->
   <MustPlaceAdjacentStandable>Musí být umístěn tak, aby na všech stranách bylo volné místo.</MustPlaceAdjacentStandable>
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
@@ -1555,7 +1555,7 @@
 
   <!-- Maintainable -->
   <!-- EN: Due for maintenance. -->
-  <DueForMaintenance>Kvůli údržbě.</DueForMaintenance>
+  <DueForMaintenance>Vyžaduje údržbu.</DueForMaintenance>
   <!-- EN: Deteriorating due to lack of maintenance. -->
   <DeterioratingDueToLackOfMaintenance>Zhoršuje se z důvodu nedostatečné údržby.</DeterioratingDueToLackOfMaintenance>
 
@@ -1779,7 +1779,7 @@
   <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>Pozor: Umístěním stavby v tomto míste proti sobě poštveš frakci {FACTION_name}!</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Pozor: Umístěním stavby v tomto místě proti sobě poštveš frakci {FACTION_name}!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
   <ChooseLandingSite>Vyber místo pro přistání</ChooseLandingSite>
@@ -1835,9 +1835,9 @@
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Otrok. Člověk patřící jiným.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} právě spí. Bude-li však součástí tohoto rituálu, po jeho zahájení se probudí.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} právě spí. Bude-li však součástí této události, po jejím zahájení se probudí.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Probudí se, jakmile zahájíš rituál.</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>Někteří z vybraných účastníků spí. Probudí se, jakmile zahájíš tuto událost.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Tuto pozici nejlépe zvládne kolonista zastávající sociální roli {0}.\n\nPokud někdo obsadí tuto pozici, aniž by zmíněnou roli zastával, nezíská následující bonus(y)</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -1893,7 +1893,7 @@
   <!-- EN: Loved one present -->
   <RitualOutcomeLovedOnePresentLabel>Přítomnost blízké osoby</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
-  <RitualOutcomeLovedOnePresentTip>Osoba kterou {PAWN_labelShort} považuje za přítele.</RitualOutcomeLovedOnePresentTip>
+  <RitualOutcomeLovedOnePresentTip>Osoba, kterou {PAWN_labelShort} považuje za přítele.</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Cokoliv z</RitualOutcomeLabelAnyOfThese>
@@ -1973,7 +1973,7 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>Osobní štít, který chrání svého nositele od projektilů a šrapnelů, ale zabraňuje mu střílet. V případě zasažení EMP se štít okamžitě vypne.</ShieldPersonalTip>
+  <ShieldPersonalTip>Osobní štít, který chrání svého nositele před projektily a šrapnely, ale zabraňuje mu střílet. V případě zasažení EMP se štít okamžitě vypne.</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
   <UnrecruitableDesc>{PAWN_nameDef} je tak loajální svojí domovské frakci, že odmítne jakýkoli pokus o zrekrutování.</UnrecruitableDesc>

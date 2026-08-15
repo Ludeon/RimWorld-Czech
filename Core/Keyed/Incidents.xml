@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_nameDef} patří k nepřátelské frakci {PAWN_factionName}. Můžeš {PAWN_objective} zajmout pro účely náboru či otroctví.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If {PAWN_pronoun} returns home safely, {PAWN_pronoun} will spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef} patří k frakci {PAWN_factionName}. Pokud se vrátí domů v bezpečí bude šířit dobrou pověst tvé frakci.\n\nMůžeš {PAWN_objective} také zajmout pro účely náboru či otroctví, to však vyvolá hněv v {PAWN_possessive} frakci.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef} patří k frakci {PAWN_factionName}. Pokud se vrátí domů v bezpečí, bude šířit dobrou pověst tvé frakci.\n\nMůžeš {PAWN_objective} také zajmout pro účely náboru či otroctví, to však vyvolá hněv v {PAWN_possessive} frakci.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>{PAWN_gender ? Dorazil poutník : Dorazila poutnice} {PAWN_nameDef}</LetterLabelWandererJoins>
@@ -99,7 +99,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Lidožravá smečka</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravých {0}! Budou se toulat po krajině a lovit lidské maso. Jejich šílenství způsobuje nemoc zvaná skárie.\n\nNebudou útočit na dveře, pokud však neuvidí, že nimi někdo prošel. Skryj se uvnitř a budeš v bezpečí. Nebudou útočit ani na vypnuté střelecké věže, takže pokud je chceš zachránit, vypni je.\n\nSkupina {0} opustí oblast během jednoho až dvou dnů. Můžeš se schovat a vyčkat, nebo s nimi bojovat.</ManhunterPackArrived>
+  <ManhunterPackArrived>Do oblasti vstoupila smečka lidožravých {0}! Budou se toulat po krajině a lovit lidské maso. Jejich šílenství způsobuje nemoc zvaná skárie.\n\nNebudou útočit na dveře, pokud však neuvidí, že jimi někdo prošel. Skryj se uvnitř a budeš v bezpečí. Nebudou útočit ani na vypnuté střelecké věže, takže pokud je chceš zachránit, vypni je.\n\nSkupina {0} opustí oblast během jednoho až dvou dnů. Můžeš se schovat a vyčkat, nebo s nimi bojovat.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -205,7 +205,7 @@
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>běžná kvalita nebo lepší</NormalQualityOrBetter>
   <!-- EN: not tainted -->
-  <NotTainted>nepoškozené</NotTainted>
+  <NotTainted>neznečištěné</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->

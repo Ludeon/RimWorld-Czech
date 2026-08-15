@@ -9,14 +9,14 @@
   <!-- EN: construction speed -->
   <ConstructionSpeedFactor.label>konstrukční rychlost</ConstructionSpeedFactor.label>
   <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
-  <ConstructionSpeedFactor.description>Rychlost, jakou jsou konstruovány objekty z tohoto materiálu, je vynásobena touto hodnotou.\n\nKonstrukční rychlost je s některými materiály zdlouhavá, například u kamene, zatímco u jiných, kupříkladu dřevo, je konstrukční rychlost vyšší.</ConstructionSpeedFactor.description>
+  <ConstructionSpeedFactor.description>Rychlost, jakou jsou konstruovány objekty z tohoto materiálu, je vynásobena touto hodnotou.\n\nKonstrukční rychlost je s některými materiály zdlouhavá, například u kamene, zatímco u jiných, kupříkladu dřeva, je konstrukční rychlost vyšší.</ConstructionSpeedFactor.description>
   <!-- EN: construction speed (material factor) -->
   <ConstructionSpeedFactor.labelForFullStatList>konstrukční rychlost (faktor materiálu)</ConstructionSpeedFactor.labelForFullStatList>
   
   <!-- EN: filth multiplier -->
   <FilthMultiplier.label>multiplikátor znečištění</FilthMultiplier.label>
   <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. This only applies to organic filth. -->
-  <FilthMultiplier.description>Jak citlivý je tento povrch na nečistoty. Pokud je tato hodnota menší než 100%, část nečistot při kontaktu se zemí zmizí.</FilthMultiplier.description>
+  <FilthMultiplier.description>Jak citlivý je tento povrch na nečistoty. Pokud je tato hodnota menší než 100%, část nečistot při kontaktu se zemí zmizí. Toto platí pouze pro organické nečistoty.</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>léčivá síla</MedicalPotency.label>
@@ -31,7 +31,7 @@
   <!-- EN: meditation psyfocus bonus -->
   <MeditationFocusStrength.label>přírůstek psiofokusu při meditaci</MeditationFocusStrength.label>
   <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
-  <MeditationFocusStrength.description>Bonusové množství psiofokusu, které někdo získá při soustředění na tento objekt během meditace. U některých objektů se tato hodnota může měnit v závislosti na prostředí nebo osobě provádějící meditaci.</MeditationFocusStrength.description>
+  <MeditationFocusStrength.description>Bonusové množství psiofokusu, které někdo získá při soustředění na tento objekt během meditace, nad rámec vlastního základního přírůstku psiofokusu z meditace.\n\nU některých objektů se tato hodnota může měnit v závislosti na prostředí nebo osobě provádějící meditaci.</MeditationFocusStrength.description>
   <!-- EN: {0} / day -->
   <MeditationFocusStrength.formatString>{0} / den</MeditationFocusStrength.formatString>
   <!-- EN: {0} / day -->
@@ -43,7 +43,7 @@
   <PsychicEntropyMaxOffset.description>Posun ovlivňující kapacitu neurálního tepla dané osoby.</PsychicEntropyMaxOffset.description>
   
   <!-- EN: neural heat recovery rate offset -->
-  <PsychicEntropyRecoveryRateOffset.label>násobitel rychlosti rozptylu neurotepla</PsychicEntropyRecoveryRateOffset.label>
+  <PsychicEntropyRecoveryRateOffset.label>posun rychlosti rozptylu neurotepla</PsychicEntropyRecoveryRateOffset.label>
   <!-- EN: An offset applied to the user's neural heat recovery rate. -->
   <PsychicEntropyRecoveryRateOffset.description>Násobitel ovlivňující rychlost rozptylu neurálního tepla dané osoby.</PsychicEntropyRecoveryRateOffset.description>
   <!-- EN: {0}/s -->

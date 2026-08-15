@@ -14,7 +14,7 @@
   <!-- EN: The {0} psychic ritual has been completed. -->
   <PsychicRitualCompleted>Rituál {lookup: {0}; case\ritual; 2} byl dokončen.</PsychicRitualCompleted>
   <!-- EN: attending {RITUALNAME} psychic ritual -->
-  <PsychicRitualAttending>učastní se rituálu {lookup: {RITUALNAME}; case\ritual; 2}</PsychicRitualAttending>
+  <PsychicRitualAttending>účastní se rituálu {lookup: {RITUALNAME}; case\ritual; 2}</PsychicRitualAttending>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <ParticipatingInPsychicRitual>{0_labelShort} se podílí na rituálu {lookup: {1}; case\ritual; 2}.</ParticipatingInPsychicRitual>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
@@ -69,15 +69,15 @@
   <!-- EN: {0} is needed but only {1} is available -->
   <PsychicRitualOfferingsInsufficient>TODO</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} není schop{PAWN_gender ? en : ná} dosáhnout na cíl rituálu.</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} není schop{INVOKER_gender ? en : ná} dosáhnout na cíl rituálu.</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
-  <CommandLeavePsychicRitual>opusti rituál {lookup: {0}; case\ritual; 2}</CommandLeavePsychicRitual>
+  <CommandLeavePsychicRitual>opustit rituál {lookup: {0}; case\ritual; 2}</CommandLeavePsychicRitual>
   <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
   <CommandLeavePsychicRitualDesc>přestane se podílet na rituálu {lookup: {0}; case\ritual; 2}. Tento rituál bude nadále pokračovat, pokud bude mít alespoň jednoho účastníka.</CommandLeavePsychicRitualDesc>
 
   <!-- EN: cancel the {0} psychic ritual -->
-  <CommandCancelPsychicRitual>přeušit rituál {lookup: {0}; case\ritual; 2}</CommandCancelPsychicRitual>
+  <CommandCancelPsychicRitual>přerušit rituál {lookup: {0}; case\ritual; 2}</CommandCancelPsychicRitual>
   <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
   <CommandCancelPsychicRitualDesc>ukončí okamžitě rituál {lookup: {0}; case\ritual; 2}. Můžeš ho znovu začít později.</CommandCancelPsychicRitualDesc>
   <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
@@ -132,9 +132,9 @@
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
   <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} je dočasným členem frakce</PsychicRitualLeaveReason_TemporaryFactionMember>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
-  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} se věnuje jíným povinostem</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} se věnuje jiným povinnostem</PsychicRitualLeaveReason_PawnBusyWithLord>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
-  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} se věnuje jíným povinostem</PsychicRitualLeaveReason_ForcedByQuest>
+  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} se věnuje jiným povinnostem</PsychicRitualLeaveReason_ForcedByQuest>
 
   <!-- PsychicRitualToils-->
   <!-- EN: moving into position -->
@@ -191,7 +191,7 @@
 
   <!-- Animal summoning -->
   <!-- EN: Not enough animals in this biome. -->
-  <NotEnoughAnimals>Nedostatek zvířat v tomto podnebí.</NotEnoughAnimals>
+  <NotEnoughAnimals>Nedostatek zvířat v tomto biomu.</NotEnoughAnimals>
 
   <!-- Shambler summoning -->
   <!-- EN: No nearby shamblers. -->
@@ -207,11 +207,11 @@
   <!-- EN: The target must be at least {0} years old. -->
   <PsychicRitualTargetTooYoung>Cíl musí být starší {0} let.</PsychicRitualTargetTooYoung>
   <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
-  <CronophagyAgeChange>{INVOKER_labelShort} omládne na {1} let, zatím co {TARGET_labelShort} zestárne na {3} let.</CronophagyAgeChange>
+  <CronophagyAgeChange>{INVOKER_labelShort} omládne na {1} let, zatímco {TARGET_labelShort} zestárne na {3} let.</CronophagyAgeChange>
   
   <!-- Philophagy -->
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
-  <PhilophagyTransferReport>{INVOKER_labelShort} ukrande {1} zkušeností {lookup: {SKILL_label}; case\skills; 2}, zatím co {TARGET_labelShort} bude uvržen{TARGET_pronoun} do kómatu.</PhilophagyTransferReport>
+  <PhilophagyTransferReport>{INVOKER_labelShort} ukradne {1} zkušeností {lookup: {SKILL_label}; case\skills; 2}, zatímco {TARGET_labelShort} bude uvržen{TARGET_pronoun} do kómatu.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
-  <NoSkillsToTransfer>{TARGET_labelShort} nemá žádné skušenosti na přenešení.</NoSkillsToTransfer>
+  <NoSkillsToTransfer>{TARGET_labelShort} nemá žádné zkušenosti k přenesení.</NoSkillsToTransfer>
 </LanguageData>

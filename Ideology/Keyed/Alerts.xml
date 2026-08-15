@@ -48,14 +48,14 @@
   <IdeoBuildingExpectations>očekávání jsou</IdeoBuildingExpectations>
 
   <!-- EN: {0} disrespected -->
-  <IdeoBuildingDisrespected>{0} {0_gender ? zneúctěný : zneuctěná : zneúctěné : zneúctěny}</IdeoBuildingDisrespected>
+  <IdeoBuildingDisrespected>{0} {0_gender ? zneuctěný : zneuctěná : zneuctěné}</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingDisrespectedDesc>TODO</IdeoBuildingDisrespectedDesc>
   
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>Útoky přijdou za {0}</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
-  <QuestPartRaidsDelayDesc>Útoky začnou za {0}.\n\nNájezdníci se pokusí zaútočit na kosmodron aby ho zničili. Ochraň ho, aby ho tví kolonisté mohli hacknout a získat z něj užitečná data.</QuestPartRaidsDelayDesc>
+  <QuestPartRaidsDelayDesc>Útoky začnou za {0}.\n\nNájezdníci se pokusí zaútočit na kosmodron, aby ho zničili. Ochraň ho, aby ho tví kolonisté mohli hacknout a získat z něj užitečná data.</QuestPartRaidsDelayDesc>
 
   <!-- EN: {0} role unfilled -->
   <IdeoRoleEmpty>Neobsazená role ({0})</IdeoRoleEmpty>
@@ -81,7 +81,7 @@
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Požadován omlazovací cyklus</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
-  <AlertAgeReversalDemandDesc>Někteří z tvých kolonistů požadují kvůli svému přesvědčení pravidelné procedury na zvrácení věku v bioplastické komoře. Pokud ji nepodstoupí, budou neštastní.\n\nNásledující osoby požadují omlazovací cyklus</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc>Někteří z tvých kolonistů požadují kvůli svému přesvědčení pravidelné procedury na zvrácení věku v bioplastické komoře. Pokud ji nepodstoupí, budou nešťastní.\n\nNásledující osoby požadují omlazovací cyklus</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Recruit>TODO</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
@@ -99,9 +99,9 @@
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
   <AlertGauranlenTreeWithoutDryadTypeDesc>Jeden nebo více gauranleních stromů nemá nastavenou dryádí kastu.\n\nVyber strom a kliknutím na tlačítko '{0}' urči kastu, kterou má vytvářet.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Spojovač nemá povolenou činost lesníka</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Spojovač nemá povolenou činnost lesníka</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Máš gauranlení stromy které potřebují ořezat, ale jejich spojovači nemají přidělenou práci lesníka.\n\nMěl by si přidat práci lesníka následujícím lidem</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Máš gauranlení stromy, které potřebují ořezat, ale jejich spojovači nemají přidělenou práci lesníka.\n\nMěl bys přidat práci lesníka následujícím lidem</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>TODO</AlertFuelNodeIgniting>
@@ -126,7 +126,7 @@
   <!-- EN: Slave rebellion likely -->
   <AlertSlaveRebellionLikely>Velká pravděpodobnost vzpoury otroků</AlertSlaveRebellionLikely>
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
-  <AlertSlaveRebellionLikelyRebelliousCount>Je tu {REBELLIOUSCOUNT} otroků, kteří mají velkou šanci na zahájení vzpory.</AlertSlaveRebellionLikelyRebelliousCount>
+  <AlertSlaveRebellionLikelyRebelliousCount>Je tu {REBELLIOUSCOUNT} otroků, kteří mají velkou šanci na zahájení vzpoury.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
   

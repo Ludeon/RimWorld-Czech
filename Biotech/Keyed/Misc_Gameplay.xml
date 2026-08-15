@@ -130,17 +130,17 @@
   <!-- EN: hemogen -->
   <Hemogen>hemogen</Hemogen>
   <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
-  <HemogenDesc>Hemogen je biologický zdroj energie vyskytující se v lidské krvi. Obyčejníci ho jsou schopni vytvářet a také ho spotřebovávají podle jejich vnitřní rovnováhy. Některé xenotypy lidí ho využívají jako zvláštní druh paliva pro své schopnosti, zatímco jiní ho musí pravidelně konzumovat, aby vůbec mohli žít.</HemogenDesc>
+  <HemogenDesc>Hemogen je biologický zdroj energie vyskytující se v lidské krvi. Obyčejníci ho jsou schopni vytvářet a také ho spotřebovávají podle své vnitřní rovnováhy. Některé xenotypy lidí ho využívají jako zvláštní druh paliva pro své schopnosti, zatímco jiní ho musí pravidelně konzumovat, aby vůbec mohli žít.</HemogenDesc>
   <!-- EN: deathrest capacity -->
   <DeathrestCapacity>mrtvospánková kapacita</DeathrestCapacity>
   <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
   <DeathrestCapacityDesc>Tato kapacita určuje, ke kolika přístrojům se daná osoba může připojit, když je v mrtvospánku. Každý přístroj přidává své unikátní výhody a je proto lepší mít možnost se připojit k většímu počtu.\n\nMrtvospánkovou kapacitu je možné zvýšit použitím mrtvospánkového séra. Toto sérum je možné koupit od obchodníků.</DeathrestCapacityDesc>
   <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
-  <PawnIsConnectedToBuildings>{PAWN_nameDef} je připojen{PAWN_pronoun} k {CURRENT} / {MAX} (max) mrtvospánkových přístrojů.</PawnIsConnectedToBuildings>
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} je připojen{PAWN_pronoun} k {CURRENT} / {MAX} (max) mrtvospánkovým přístrojům.</PawnIsConnectedToBuildings>
   <!-- EN: wake now -->
-  <Wake>Vzbutit se hned</Wake>
+  <Wake>Vzbudit se hned</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>Vzbudit z mrtvospáneku.\n\n{PAWN_nameDef} byl{PAWN_pronoun} v mrtvospánku {DURATION}.</WakeDesc>
+  <WakeDesc>Vzbudit z mrtvospánku.\n\n{PAWN_nameDef} byl{PAWN_pronoun} v mrtvospánku {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
   <WakeExtraDesc_Exhaustion>TODO</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
@@ -280,7 +280,7 @@
   <!-- EN: Auto-load -->
   <GenepackAutoLoad>Automaticky doplnit</GenepackAutoLoad>
   <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
-  <GenepackAutoLoadDesc>Pokud je aktviní, nosiči automaticky uloží tento genobalík do genové banky.</GenepackAutoLoadDesc>
+  <GenepackAutoLoadDesc>Pokud je aktivní, nosiči automaticky uloží tento genobalík do genové banky.</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>Vynucené povahové rysy</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -466,7 +466,7 @@
   <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
   <LactatingAddedNutritionPerDay>TODO</LactatingAddedNutritionPerDay>
   <!-- EN: Lactation is paused because milk fullness is 100% -->
-  <LactatingStoppedBecauseFull>Tvorba mléka je pozastavena z důvodu 100% naplnění mlékem%.</LactatingStoppedBecauseFull>
+  <LactatingStoppedBecauseFull>Tvorba mléka je pozastavena z důvodu 100% naplnění mlékem.</LactatingStoppedBecauseFull>
   <!-- EN: Lactation is paused due to starvation. -->
   <LactatingStoppedBecauseHungry>Tvorba mléka je pozastavena kvůli hladovění.</LactatingStoppedBecauseHungry>
 
@@ -502,7 +502,7 @@
   <!-- EN: Autofill -->
   <MechCarrierAutofillResources>Automatické doplnění</MechCarrierAutofillResources>
   <!-- EN: Click to set the desired autofill amount. -->
-  <MechCarrierClickToSetAutofillAmount>Kiknutím nastavíš požadované množství pro automatické doplnění.</MechCarrierClickToSetAutofillAmount>
+  <MechCarrierClickToSetAutofillAmount>Kliknutím nastavíš požadované množství pro automatické doplnění.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
   <MechCarrierAutofillDesc>Toto automatické doplnění určuje maximální množství suroviny, které bude doplněno do {lookup: {0}; case\singular; 2}. Suroviny jsou použity pro tvorbu {lookup: {1}; case\plural; 2}.</MechCarrierAutofillDesc>
 
@@ -525,7 +525,7 @@
   <!-- EN: {0_labelShort} does not have enough hemogen. -->
   <AbilityDisabledNoHemogen>{0_labelShort} nemá dostatek hemogenu.</AbilityDisabledNoHemogen>
   <!-- EN: children cannot do this. -->
-  <AbilityStartRitualDisabledChild>Děti nejsou schopni této činnosti.</AbilityStartRitualDisabledChild>
+  <AbilityStartRitualDisabledChild>Děti nejsou schopny této činnosti.</AbilityStartRitualDisabledChild>
   <!-- EN: need a {0}. -->
   <AbilityStartRitualNoMembersOfIdeo>TODO</AbilityStartRitualNoMembersOfIdeo>
   <!-- EN: Hemogen cost -->
@@ -654,7 +654,7 @@
   
   <!-- Pollution -->
   <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
-  <ShowPollutionOverlayToggleButton>Zamoření\n\nZobrazuje, které části terénu jsou kontaminované.\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které muže vést až k smrti. Většina rostlin není schopna žít v zamořené půdě.</ShowPollutionOverlayToggleButton>
+  <ShowPollutionOverlayToggleButton>Zamoření\n\nZobrazuje, které části terénu jsou kontaminované.\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které může vést až k smrti. Většina rostlin není schopna žít v zamořené půdě.</ShowPollutionOverlayToggleButton>
   <!-- EN: None -->
   <TilePollutionNone>Žádné</TilePollutionNone>
   <!-- EN: Light -->
@@ -684,7 +684,7 @@
   <!-- EN: Absorbing pollution: Next in {0} -->
   <AbsorbingPollutionNext>Pohlcuje znečištění: K dalšímu dojde za {0}</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>Jak moc zamořená je půda na tomto políčku.\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které muže vést až k smrti. Většina rostlin není schopna žít v zamořené půdě.</TerrainPollutionTip>
+  <TerrainPollutionTip>Jak moc zamořená je půda na tomto políčku.\n\nVystavení zamořené půdě způsobuje nárůst toxického nahromadění, které může vést až k smrti. Většina rostlin není schopna žít v zamořené půdě.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
@@ -761,7 +761,7 @@
 
   <!-- Thoughtdef fallbacks -->
   <!-- EN: my child is happy -->
-  <MyChildIsHappy>mé dítko je štastné</MyChildIsHappy>
+  <MyChildIsHappy>mé dítko je šťastné</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>mé dítko je smutné</MyChildIsSad> 
   

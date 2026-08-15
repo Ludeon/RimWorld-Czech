@@ -6,9 +6,9 @@
   <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
   <AlertMechLacksOverseerDesc>Jeden či více tvých mechů není ovládán. Přiřaď je k mechanitorům s dostatečnou pásmovou kapacitou.\n\nPokud budou neovládaní déle než den, hrozí, že zdivočí. Pokud se tak stane, přiřadí se k mechanoidní frakci a budou nepřátelští. Pokud jeden z mechanoidů zdivočí, strhne sebou i ostatní okolní mechanoidy.\n\nZdivočelí mechanoidi nemohou být po smrti znovu oživeni.</AlertMechLacksOverseerDesc>
   <!-- EN: The following mechanoids are uncontrolled -->
-  <AlertMechLacksOverseerUncontrolled>Nasledující mechanoidi nejsou nikým ovládáni</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerUncontrolled>Následující mechanoidi nejsou nikým ovládáni</AlertMechLacksOverseerUncontrolled>
   <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
-  <AlertMechLacksOverseerMayGoFeral>Nasledující mechanoidi nejsou nikým ovládáni a mouhou každou chvílí zdivočet.</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseerMayGoFeral>Následující mechanoidi nejsou nikým ovládáni a mohou každou chvíli zdivočet.</AlertMechLacksOverseerMayGoFeral>
 
   <!-- EN: {0} is low on resources -->
   <AlertWarqueenHasLowResources>{replace: ^{0}^; "^válečná královna^"-"válečné královny"; "^{0}^"-"{0}"} má málo surovin</AlertWarqueenHasLowResources>
@@ -20,7 +20,7 @@
   <!-- EN: {NUMCULPRITS} colonists need deathrest -->
   <AlertLowDeathrestPawns>{NUMCULPRITS} kolonist{replace: ^{NUMCULPRITS}^; "^2^"-"i"; "^3^"-"i"; "^4^"-"i"; "^{NUMCULPRITS}^"-"ů"} potřebuje mrtvospánek</AlertLowDeathrestPawns>
   <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>Colonista už dolouho nemrtvospal. Pokud bude delší dobu nemrtvospát, bude trpět mrtvospánkovým vyčerpáním.\n\nPravým kliknutím vybraným kolonistou na jeho postel nebo mrtvospánkovou rakev ho pošle mrtvospát.\n\nNásledující lidé potřebují mrtvospát:\n{CULPRITS}</AlertLowDeathrestDesc>
+  <AlertLowDeathrestDesc>Kolonista už dlouho nemrtvospal. Pokud bude delší dobu nemrtvospát, bude trpět mrtvospánkovým vyčerpáním.\n\nS vybraným kolonistou klikni pravým tlačítkem na jeho postel nebo mrtvospánkovou rakev, čímž ho pošleš mrtvospát.\n\nNásledující lidé potřebují mrtvospát:\n{CULPRITS}</AlertLowDeathrestDesc>
 
   <!-- EN: Low hemogen -->
   <AlertLowHemogen>Nízká hladina hemogenu</AlertLowHemogen>
@@ -30,7 +30,7 @@
   <!-- EN: Recharger full -->
   <AlertRechargerFull>Přeplněná dobíječka</AlertRechargerFull>
   <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>Některé dobíječky mechů jsou plné toxivaků. Mechové se nemohou nabíjet u těchto dobíječek dokovať je nebudou vyprázdněny.\n\nS vybraným kolonistou klikni pravým tlačítkem na dobíječku aby si upřednostnil její vprázdnění.</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>Některé dobíječky mechů jsou plné toxivaků. Mechové se nemohou nabíjet u těchto dobíječek dokud nebudou vyprázdněny.\n\nS vybraným kolonistou klikni pravým tlačítkem na dobíječku aby si upřednostnil její vyprázdnění.</AlertRechargerFullDesc>
 
   <!-- EN: Need mech rechargers -->
   <AlertNeedMechChargers>Potřebuješ dobíječky mechů</AlertNeedMechChargers>
@@ -55,17 +55,17 @@
   <!-- EN: Abandoned baby -->
   <AlertAbandonedBaby>Opuštěný novorozenec</AlertAbandonedBaby>
   <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
-  <AlertAbandonedBabyDesc>V blízkém okolí se náchzí opuštění novorozenci bez pečovatele. Pokud je neadoptuješ, nejspíš zemřou na vyhladovění.\n\nPokud ho chceš adoptovat, vyber ho a klikni na "{0}".</AlertAbandonedBabyDesc>
+  <AlertAbandonedBabyDesc>V blízkém okolí se nachází opuštění novorozenci bez pečovatele. Pokud je neadoptuješ, nejspíš zemřou na vyhladovění.\n\nPokud ho chceš adoptovat, vyber ho a klikni na "{0}".</AlertAbandonedBabyDesc>
 
   <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>karavana bez kojenecké stravy</AlertNoBabyFoodCaravan>
   <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>Novorozenci v této karavaně nemají žádné dostupné dětské příkrmy ani žádného mlékotvořícího {FACTION_pawnsPlural} který by je měl na starosti krmit.</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>Novorozenci v této karavaně nemají žádné dostupné dětské příkrmy ani žádného mlékotvořícího {lookup: {FACTION_pawnSingular}; case\singular; 4}, který by je měl na starosti krmit.</AlertNoBabyFoodCaravanDesc>
 
   <!-- EN: Toxic buildup -->
   <AlertToxicBuildup>Toxické nahromadění</AlertToxicBuildup>
   <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
-  <AlertToxicBuildupDesc>Tito kolonisté trpý vážným toxickým nahromaděním:\n\n{0}\n\nPokus se je dostat do bezpečného prostředí.\n\nToxické nahromadění může být způsobeno mnoha příčinami, jako například: toxickým spadem, jedovatým plynem a znečištěným terénem.</AlertToxicBuildupDesc>
+  <AlertToxicBuildupDesc>Tito kolonisté trpí vážným toxickým nahromaděním:\n\n{0}\n\nPokus se je dostat do bezpečného prostředí.\n\nToxické nahromadění může být způsobeno mnoha příčinami, jako například: toxickým spadem, jedovatým plynem a znečištěným terénem.</AlertToxicBuildupDesc>
 
   <!-- EN: Need baby cribs -->
   <AlertNeedBabyCribs>Potřebuješ dětské postýlky</AlertNeedBabyCribs>
@@ -79,7 +79,7 @@
   <!-- EN: Polluted terrain -->
   <AlertPollutedTerrain>Znečištěný terén</AlertPollutedTerrain>
   <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>Osoba nebo zvíře trpý následky toxického nahromadění a nachází se na znečištěném terénu. Pokažde když se někdo nacází na znečištěném terénu, jejich toxické nahromadění se bude zhoršovat až do chvíle kdy zemřou.\n\nNásledující osoby anebo zvířata se nachází na znečištěném terénu:\n\n{0}\n\nSnaž se soje kolonisty udržet od znečištěného terénu anebo jim poskytni ochranu před znečištěním. Některé oblečení, implantáty a genetické modifikace chrání před toxickým nahromaděním. Toxický terén nemůže být zakryt podlahou, ale může být vyčištěn ručně anebo pokročilejšími metodami.</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrainDesc>Osoba nebo zvíře trpí následky toxického nahromadění a nachází se na znečištěném terénu. Pokaždé když se někdo nachází na znečištěném terénu, jejich toxické nahromadění se bude zhoršovat až do chvíle kdy zemřou.\n\nNásledující osoby anebo zvířata se nachází na znečištěném terénu:\n\n{0}\n\nSnaž se své kolonisty udržet od znečištěného terénu anebo jim poskytni ochranu před znečištěním. Některé oblečení, implantáty a genetické modifikace chrání před toxickým nahromaděním. Toxický terén nemůže být zakryt podlahou, ale může být vyčištěn ručně anebo pokročilejšími metodami.</AlertPollutedTerrainDesc>
 
   <!-- EN: Mechanoid missing part -->
   <AlertMechMissingBodyPart>Mechanoidovy chybí část těla</AlertMechMissingBodyPart>
@@ -93,7 +93,7 @@
   <!-- EN: These mechanoids are damaged and need repair -->
   <AlertMechNeedsRepairDescPrefix>Následující mechanoidi jsou poškození a potřebují opravit</AlertMechNeedsRepairDescPrefix>
   <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>Nařiď mechanitorovy aby je opravil anebo je vyber a zapni sebeopravu. Opravova mechanoida spotřebovává jeho energii. Pokud má mechanoid příliš málo energie a není schopen pohybu, musí být odnešen k dobíječce.</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepairDesc>Nařiď mechanitorovi, aby je opravil anebo je vyber a zapni sebeopravu. Oprava mechanoida spotřebovává jeho energii. Pokud má mechanoid příliš málo energie a není schopen pohybu, musí být odnesen k dobíječce.</AlertMechNeedsRepairDesc>
   
   <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} se zastavil</AlertToxifierGeneratorStopped>
@@ -103,7 +103,7 @@
   <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>Vzdálenost psychického pouta</AlertPsychicBondedPawnsSeparated>
   <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>Nekteří z kolonistů spojení psychickým poutem jsou od sebe příliš daleko. Kolonisté s psychickým poutem jsou příliš vzdálení, pokud nejsou ve stejné karavaně, stejném raketoplánu ani na stejné mapě. Také ale nesmí být v kryptospánkové komoře nebo jiném pozastaveném stavu.\n\nTento stav se týká následujících lidí</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>Někteří z kolonistů spojení psychickým poutem jsou od sebe příliš daleko. Kolonisté s psychickým poutem jsou příliš vzdálení, pokud nejsou ve stejné karavaně, stejném raketoplánu ani na stejné mapě. Také ale nesmí být v kryptospánkové komoře nebo jiném pozastaveném stavu.\n\nTento stav se týká následujících lidí</AlertPsychicBondedPawnsSeparatedDesc>
 
   <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>Genová banka bez proudu</AlertGenebankUnpowered>

@@ -78,7 +78,7 @@
   <!-- EN: executed innocent prisoner -->
   <ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.label>{PAWN_gender ? popravil : popravila} nevinného vězně</ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.label>
   <!-- EN: I had to execute an innocent prisoner. It's a horrible offense against my beliefs. -->
-  <ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.description>{PAWN_gender ? Popravil : Popravila} jsem nevinného vězně. Jak jsem to mohla dopustit.</ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.description>
+  <ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.description>{PAWN_gender ? Popravil : Popravila} jsem nevinného vězně. Jak jsem to {PAWN_gender ? mohl : mohla} dopustit.</ExecutedPrisonerInnocent_Horrible.stages.executed_innocent_prisoner.description>
   
   <!-- EN: executed innocent prisoner -->
   <ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>{PAWN_gender ? popravil : popravila} nevinného vězně</ExecutedPrisonerInnocent_Know_Horrible.stages.executed_innocent_prisoner.label>
@@ -120,7 +120,7 @@
   <!-- EN: no execution -->
   <NoRecentExecution.stages.no_execution.label>žádné popravy</NoRecentExecution.stages.no_execution.label>
   <!-- EN: It has been too long since we executed a prisoner. Are we so weak as to take no life? -->
-  <NoRecentExecution.stages.no_execution.description>Už je to opravdu dlouho co jsme někoho popravili. Jsme snad tak slabí na to, abychom někomu byli schopni vzít život?</NoRecentExecution.stages.no_execution.description>
+  <NoRecentExecution.stages.no_execution.description>Už je to opravdu dlouho, co jsme někoho popravili. Jsme snad tak slabí, že nejsme schopni nikomu vzít život?</NoRecentExecution.stages.no_execution.description>
   
   <!-- EN: responsible for the death of a prisoner -->
   <PrisonerDied_Know_Respected.stages.responsible_for_the_death_of_a_prisoner.label>{PAWN_gender ? zodpovědný : zodpovědná} za smrt vězně</PrisonerDied_Know_Respected.stages.responsible_for_the_death_of_a_prisoner.label>
@@ -128,6 +128,6 @@
   <!-- EN: prisoner died (responsible) -->
   <PrisonerDied_Respected.stages.prisoner_died_responsible.label>{PAWN_gender ? zodpovědný : zodpovědná} za smrt vězně</PrisonerDied_Respected.stages.prisoner_died_responsible.label>
   <!-- EN: I was responsible for the death of a prisoner! Now they'll all respect me. -->
-  <PrisonerDied_Respected.stages.prisoner_died_responsible.description>Mám na starosti smrt vězně. Teď jsem mnohem víc {PAWN_gender ? respektováný : respektovaná}.</PrisonerDied_Respected.stages.prisoner_died_responsible.description>
+  <PrisonerDied_Respected.stages.prisoner_died_responsible.description>Mám na starosti smrt vězně. Teď jsem mnohem víc {PAWN_gender ? respektovaný : respektovaná}.</PrisonerDied_Respected.stages.prisoner_died_responsible.description>
   
 </LanguageData>

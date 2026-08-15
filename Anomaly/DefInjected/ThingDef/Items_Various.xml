@@ -10,7 +10,7 @@
   <!-- EN: Analyze... -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>Analyzovat...</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>Při analýze neurové tkáně, {PAWN_nameDef} přiš{PAWN_gender ? el : la} na důležitý objev!\n\nTkáň této biostopy silně reaguje na specifický elektrický puls. Pokud by tento puls byl použit na samotné srdce, měl b vyvolat tachykardiální smrt.\n\nOd těď můžeš zničit masohmotné srdce s biostopou {BIOSIGNATURE} interakcí přímou s ním.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>Při analýze neurové tkáně, {PAWN_nameDef} přiš{PAWN_gender ? el : la} na důležitý objev!\n\nTkáň této biostopy silně reaguje na specifický elektrický puls. Pokud by tento puls byl použit na samotné srdce, měl by vyvolat tachykardiální smrt.\n\nOd těď můžeš zničit masohmotné srdce s biostopou {BIOSIGNATURE} interakcí přímou s ním.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>Analýza dokončena</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -29,7 +29,7 @@
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Analýza dokončena</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: golden cube -->
-  <GoldenCube.label>Zlatá krychle</GoldenCube.label>
+  <GoldenCube.label>zlatá krychle</GoldenCube.label>
   <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
   <GoldenCube.description>Krychle která se perfektně vejde do ruky. Zlatě zbarvená, je vždy příjemně hřejivá na dotek, jako důvěryhodný mazlíček nebo přítel. Ti co se na ní pečlivě podívají jsou odměněni nádhernou podívanou, jak se světlo čarovně odráží od jejího povrchu.\n\nVypadá, že je odolná většině poškození.</GoldenCube.description>
   <!-- EN: Golden cube study progress -->
@@ -41,7 +41,7 @@
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef} dokončil{PAWN_pronoun} studii zlaté krychle, která odhalila možnost jí deaktivovat archoteckým střepem. Touto deaktivací jí zničiš a zlomíš její kontrolu nad ovlivněnými kolonisty.\n\nTento proces vyšle psychickou vlnu, která bude mít vliv na každého kdo byl v její sféře vlivu a uvalí je do zuřivého běsnění.\n\nVyber zlatou krychli k deaktivaci.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
   <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
-  <GoldenCube.comps.CompGoldenCube.activateDescString>Zničí zlatou krychli a zlomí tak její kontrolu nad tvými kolonisty. Všichni kteří jsou pod jejím vlivem posedne zuřivého běsnění. Pokud jsou v karavaně budou Permanentně ztraceni.\n\nVyžaduje 1 střep.</GoldenCube.comps.CompGoldenCube.activateDescString>
+  <GoldenCube.comps.CompGoldenCube.activateDescString>Zničí zlatou krychli a zlomí tak její kontrolu nad tvými kolonisty. Všichni, kteří jsou pod jejím vlivem, upadnou do dočasného zuřivého běsnění. Pokud jsou v karavaně, budou permanentně ztraceni.\n\nVyžaduje 1 střep.</GoldenCube.comps.CompGoldenCube.activateDescString>
   <!-- EN: Deactivate golden cube -->
   <GoldenCube.comps.CompGoldenCube.activateLabelString>Deaktivuj zlatou krychli</GoldenCube.comps.CompGoldenCube.activateLabelString>
   <!-- EN: deactivating {0}: {1}s -->
@@ -54,9 +54,9 @@
   <GoldenCube.comps.CompGoldenCube.jobString>deaktivuje</GoldenCube.comps.CompGoldenCube.jobString>
   
   <!-- EN: gray flesh sample -->
-  <GrayFleshSample.label>Kus šedé tkáně</GrayFleshSample.label>
+  <GrayFleshSample.label>kus šedé tkáně</GrayFleshSample.label>
   <!-- EN: This strip of human flesh is stained with a dark and gritty ferrous material. Tiny threads of metallic filament run throughout, interspersed with tiny silvery beads. Its form suggests that it sloughed off someone's body during some unnatural liquification process. -->
-  <GrayFleshSample.description>Tento kus lidského masa je pokrytý temným smýtky kovového materiálu. Kovová vlákna ho prochází skrz na skrz a místami se smotají do malých stříbřitých chomáčů. Jeho forma napovídá, že z někoho spadl při procesu zkapalnění masa.</GrayFleshSample.description>
+  <GrayFleshSample.description>Tento kus lidského masa je pokrytý temnými smítky kovového materiálu. Kovová vlákna ho prochází skrz na skrz a místami se smotají do malých stříbřitých chomáčů. Jeho forma napovídá, že z někoho spadl při procesu zkapalnění masa.</GrayFleshSample.description>
   <!-- EN: Analyze the gray flesh sample. Once enough flesh samples are collected and analyzed, the threat's biosignature will be detectable using a surgical inspection operation, allowing you to identify its host. -->
   <GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>Analyzuj tento vzorek masa. Poté co byl analyzován dostatečný počet podobných vzorků, budeš moci odhalit hrozbu chirurgickou inspekcí podle její biostopy, což ti umožní odhalit v kom se ukrývá.</GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
@@ -83,19 +83,19 @@
   <!-- EN: twisted meat -->
   <Meat_Twisted.label>zkroucené maso</Meat_Twisted.label>
   <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
-  <Meat_Twisted.description>Kusy pokrouceného svalstva, chrupavek a nádory připomínající růsty. Tyto byzardní kusy masa musí pocházet z nějakého monstrózního stvoření.</Meat_Twisted.description>
+  <Meat_Twisted.description>Kusy pokrouceného svalstva, chrupavek a výrůstků připomínajících nádory. Tyto bizarní kusy masa musí pocházet z nějakého monstrózního stvoření.</Meat_Twisted.description>
   
   <!-- EN: monolith fragment -->
   <MonolithFragment.label>fragment monolitu</MonolithFragment.label>
   <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
-  <MonolithFragment.description>Ulomený kus nicotného monolitu. Může být studován pro více informací o nicotnýh úkazech.</MonolithFragment.description>
+  <MonolithFragment.description>Ulomený kus nicotného monolitu. Může být studován pro více informací o nicotných úkazech.</MonolithFragment.description>
   
   <!-- EN: revenant flesh chunk -->
-  <RevenantFleshChunk.label>Kus tkáně soumračníka</RevenantFleshChunk.label>
+  <RevenantFleshChunk.label>kus tkáně soumračníka</RevenantFleshChunk.label>
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
   <RevenantFleshChunk.description>Pruh vysušené kůže s masem, který spadl ze soumračníka, když byl zraněn. Vytéká z něj tmavá olejovitá tekutina.</RevenantFleshChunk.description>
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>Zyzuj tento kus soumračníka a přijdeš na to jak ho vystopovat.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>Analyzuj tento kus soumračníka a přijdeš na to jak ho vystopovat.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>Analyzovat...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
@@ -113,16 +113,16 @@
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef} dokončil{PAWN_pronoun} analýzu soumračníkovy tkáně s biostopou {BIOSIGNATURE}.\n\n{PAWN_nameDef} přiš{PAWN_gender ? el : la} na to jak identifikovat tekutiny, které za sebou zanechává tento soumračník.\n\nTento soumračník za sebou bude zanechávat mnohem delší viditelnou stopu.\n\nMožná ho bude možné najít a zabít když bude spát. Můžeš se ho pokusit najít s pomocí stop které za sebou zanechává a poté ho odhalit světlicemi, výbuchy, emp, protipožární pěnou a nebo ohněm.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef} dokončil{PAWN_pronoun} analýzu soumračníkovy tkáně s biostopou {BIOSIGNATURE}.\n\n{PAWN_nameDef} se dozvěděla více o biologii tohoto specifického soumračníka a způsob jakým vydává zvuky. Pokud ho budeš lovit a bude se nacházet poblíž některého z tvých kolonistů, tak ho uslišíš.\n\nMožná ho bude možné najít a zabít když bude spát. Můžeš se ho pokusit najít s pomocí stop které za sebou zanechává a poté ho odhalit světlicemi, výbuchy, emp, protipožární pěnou a nebo ohněm.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef} dokončil{PAWN_pronoun} analýzu soumračníkovy tkáně s biostopou {BIOSIGNATURE}.\n\n{PAWN_nameDef} se dozvěděla více o biologii tohoto specifického soumračníka a způsob jakým vydává zvuky. Pokud ho budeš lovit a bude se nacházet poblíž některého z tvých kolonistů, tak ho uslyšíš.\n\nMožná ho bude možné najít a zabít když bude spát. Můžeš se ho pokusit najít s pomocí stop které za sebou zanechává a poté ho odhalit světlicemi, výbuchy, emp, protipožární pěnou a nebo ohněm.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef} dokončil{PAWN_pronoun} analýzu soumračníkovy tkáně s v minulosti odhalenou biostopou {BIOSIGNATURE}.\n\n{PAWN_nameDef} přiš{PAWN_gender ? el : la} na způsob jakým rozeznat, zda se tento soumračník nachází v je{PAWN_gender ? ho : jím} zorném poli. Tvoji kolonisté nyní uvidí tohoto soumračníka pokud se bude nacházet poblíž.\n\nMožná ho bude možné najít a zabít když bude spát.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Analýza dokončena</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
   
   <!-- EN: revenant spine -->
-  <RevenantSpine.label>Soumračníkovy obratle</RevenantSpine.label>
+  <RevenantSpine.label>soumračníkovy obratle</RevenantSpine.label>
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
-  <RevenantSpine.description>Obratle připomínající objekt z mrtvého soumračníka. Je chaotickou změtí kovových tyčí ve tvaru hrudního koše. Materiál ze kterého se skládá připomíná hrubě odlité černé železo namazané tmavou kluzkou tekutinou. Kohokoli kdo se do nich zblízka podívá postihne hlavutrhající migréna.\n\nMůžeš je zničit a tím permanentně zabiješ v nich skrývajícího se soumračníka.\n\nAlternativně je můžeš umístnit na zadžovací platformu a počkat na to až se soumračník znovu objeví, což ti umožní ho studovat.</RevenantSpine.description>
+  <RevenantSpine.description>Obratle připomínající objekt z mrtvého soumračníka. Je chaotickou změtí kovových tyčí ve tvaru hrudního koše. Materiál ze kterého se skládá připomíná hrubě odlité černé železo namazané tmavou kluzkou tekutinou. Kohokoli kdo se do nich zblízka podívá postihne hlavutrhající migréna.\n\nMůžeš je zničit a tím permanentně zabiješ v nich skrývajícího se soumračníka.\n\nAlternativně je můžeš umístit na zadržovací platformu a počkat na to až se soumračník znovu objeví, což ti umožní ho studovat.</RevenantSpine.description>
   <!-- EN: Revenant reformed -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>Znovuzjevení soumračníka</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
@@ -132,7 +132,7 @@
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
   <RevenantSpine.comps.CompUsable.useMessage>{PAWN_nameDef} roztříštil{PAWN_pronoun} soumračníkovy obratle, za kterými zůstal střep archotechnologie.</RevenantSpine.comps.CompUsable.useMessage>
   <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
-  <RevenantSpine.comps.CompRevenantSpine.activateDescString>Roztříšti soumračníkovy obratle, čímž zabráníš tomu aby so zformovaly nové tělo.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
+  <RevenantSpine.comps.CompRevenantSpine.activateDescString>Roztříšti soumračníkovy obratle, čímž zabráníš tomu, aby se z nich zformovalo nové tělo.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
   <!-- EN: Smash... -->
   <RevenantSpine.comps.CompRevenantSpine.activateLabelString>Roztříštit</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
   <!-- EN: smashing revenant spine -->

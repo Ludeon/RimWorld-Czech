@@ -4,7 +4,7 @@
   <!-- EN: ancient blast door -->
   <AncientBlastDoor.label>prastaré krytové dveře</AncientBlastDoor.label>
   <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
-  <AncientBlastDoor.description>Těžce obrněné dveře, vytvořené z ultarateckých polymerů. Můžeš je otevřít, ale nejprve je musíš hacknout.</AncientBlastDoor.description>
+  <AncientBlastDoor.description>Těžce obrněné dveře, vytvořené z ultrateckých polymerů. Můžeš je otevřít, ale nejprve je musíš hacknout.</AncientBlastDoor.description>
   <!-- EN: Unlocked. -->
   <AncientBlastDoor.comps.CompHackable.hackedInspectString>Hacknuty.</AncientBlastDoor.comps.CompHackable.hackedInspectString>
   <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
@@ -32,7 +32,7 @@
   <!-- EN: ancient grav reactor -->
   <AncientGravReactor.label>prastarý gravireaktor</AncientGravReactor.label>
   <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
-  <AncientGravReactor.description>Prastarý reaktor poháněný gravijádrem. Zatím co v minulosti byl schopen produkovat obrovské množství energie, dnes nerozsvítí ani žárovku. Z jeho ochraného krytu unikají plyny a částice, způsobující toxický spad v okolním regionu.\n\nHackni anebo ho znič aby se ti povedlo dostat k jeho jádru. Měj se na pozoru, protože pokud bude dostatečně poškozen, hrozí že vybouchne.</AncientGravReactor.description>
+  <AncientGravReactor.description>Prastarý reaktor poháněný gravijádrem. Zatímco v minulosti byl schopen produkovat obrovské množství energie, dnes nerozsvítí ani žárovku. Z jeho ochraného krytu unikají plyny a částice, způsobující toxický spad v okolním regionu.\n\nHackni anebo ho znič aby se ti povedlo dostat k jeho jádru. Měj se na pozoru, protože pokud bude dostatečně poškozen, hrozí že vybouchne.</AncientGravReactor.description>
   <!-- EN: Gravcore obtained -->
   <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>Gravijádro získáno</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
   <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
@@ -51,23 +51,35 @@
   <AncientGravReactor.comps.CompLetterOnRevealed.text>Povedlo se ti objevit prastarý gravireaktor. Pokud ho hackneš nebo zničíš, tak přerušíš vypouštění toxického spadu po okolí a získáš tak i jeho gravijádro.\n\nMěj se na pozoru, protože pokud bude dostatečně poškozen, hrozí že vybouchne.</AncientGravReactor.comps.CompLetterOnRevealed.text>
   
   <!-- EN: ancient stockpile entrance -->
-  <AncientHatch.label>Vstup prastaré rezervy</AncientHatch.label>
+  <AncientHatch.label>vstup prastaré rezervy</AncientHatch.label>
   <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
   <AncientHatch.description>Vstup do dávno opuštěného podzemního zařízení. Hacknutím ho otevřeš.</AncientHatch.description>
   <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
   <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort} prolomil obranu prastarého vstupu prastaré rezervy.</AncientHatch.comps.CompHackable.hackedMessage>
   <!-- EN: Hack to open. -->
   <AncientHatch.comps.CompHackable.notHackedInspectString>Hacknutím odemkneš.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>Uzavřít vstup</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>Vyber kolonistu, který natrvalo uzavře tento vstup. Cokoli a kdokoli, kdo zůstane dole, bude navždy ztracen.</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>Nelze uzavřít</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>Uzavření vstupu do prastaré rezervy je nevratné. Cokoli a kdokoli, kdo zůstane dole, bude navždy ztracen.{0}\n\nOpravdu chceš pokračovat?</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>Natrvalo uzavřen.</AncientHatch.comps.CompSealable.sealedInspectString>
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>Uzavřen</AncientHatch.comps.CompSealable.cannotEnterLabel>
   
   <!-- EN: ancient stockpile exit -->
-  <AncientHatchExit.label>Východ prastaré rezervy</AncientHatchExit.label>
+  <AncientHatchExit.label>východ prastaré rezervy</AncientHatchExit.label>
   <!-- EN: A ladder which links to the surface hatch above. -->
   <AncientHatchExit.description>Žebřík spojující toto zařízení s povrchem.</AncientHatchExit.description>
   
   <!-- EN: ancient mining charge -->
   <AncientMiningCharge.label>prastará těžební výbušnina</AncientMiningCharge.label>
   <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
-  <AncientMiningCharge.description>Výbušnina určená k těžení kamene. Je vyrobená z přerafinovaného chemického paliva. Je sice stará, ale stále schopná svého účelu.\n\nJejí exploze je dostatečně silná nato, aby prošla zdmi.</AncientMiningCharge.description>
+  <AncientMiningCharge.description>Výbušnina určená k těžení kamene. Je vyrobená z přerafinovaného chemického paliva. Je sice stará, ale stále schopná svého účelu.\n\nJejí exploze je dostatečně silná na to, aby prošla zdmi.</AncientMiningCharge.description>
   
   <!-- EN: ancient security terminal -->
   <AncientSecurityTerminal.label>prastarý bezpečnostní terminál</AncientSecurityTerminal.label>
@@ -102,7 +114,7 @@
   <!-- EN: ancient transport pod -->
   <AncientTransportPod.label>prastarý přepravní modul</AncientTransportPod.label>
   <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
-  <AncientTransportPod.description>Prastarý přepravní modul pro cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Vypadá že je stále funkční.</AncientTransportPod.description>
+  <AncientTransportPod.description>Prastarý přepravní modul pro cestování, ve kterém lze přepravovat osoby, předměty nebo zvířata. Vypadá to, že je stále funkční.</AncientTransportPod.description>
   
   <!-- EN: ancient uplink -->
   <AncientUplink.label>prastarý vysílač</AncientUplink.label>
@@ -152,12 +164,12 @@
   <!-- EN: locust cocoon -->
   <CocoonLocust.label>kokon saranče</CocoonLocust.label>
   <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
-  <CocoonLocust.description>Stázový kokon se sarančetem.\n\nObčas když jsou podmínky příliš nehostinné, hmyzáci si vytvoří stázové kokony a zahrabou se pod zem. Tyto kokony ochraňují pavouky proti ohni, extrémním teplotám a dalším nebezpečím po desetiletí.\n\nZnečištění může stimulovat kokony, které přinutí se vyhrabat ze země. Silné zamoření může přilákat kokony i na dlouhé vzdálenosti.\n\nKokony nedělají nic, dokud nejsou vyrušeny. Pokud jsou kokony vyrušeny nebo zničeny, hmyzáci se vzbudí a zautočí, čímž probudí ostatní blízké kokony.</CocoonLocust.description>
+  <CocoonLocust.description>Stázový kokon se sarančetem.\n\nObčas když jsou podmínky příliš nehostinné, hmyzáci si vytvoří stázové kokony a zahrabou se pod zem. Tyto kokony ochraňují hmyz proti ohni, extrémním teplotám a dalším nebezpečím po desetiletí.\n\nZnečištění může stimulovat kokony, které přinutí se vyhrabat ze země. Silné zamoření může přilákat kokony i na dlouhé vzdálenosti.\n\nKokony nedělají nic, dokud nejsou vyrušeny. Pokud jsou kokony vyrušeny nebo zničeny, hmyzáci se vzbudí a zautočí, čímž probudí ostatní blízké kokony.</CocoonLocust.description>
   
   <!-- EN: egg sac -->
   <EggSac.label>vaječný vak</EggSac.label>
   <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
-  <EggSac.description>Slizký obal nevylíhlé larvy. Procesy, které v něm probýhají, vyzařijí jemné bioluminiscenční světlo.</EggSac.description>
+  <EggSac.description>Slizký obal nevylíhlé larvy. Procesy, které v něm probíhají, vyzařují jemné bioluminiscenční světlo.</EggSac.description>
   
   <!-- EN: gauss cannon -->
   <GaussCannon.label>gaussův kanón</GaussCannon.label>
@@ -193,7 +205,7 @@
   <!-- EN: Relay crash -->
   <MechRelay.comps.CompMechRelay.crashedLetterLabel>Zřícené relé</MechRelay.comps.CompMechRelay.crashedLetterLabel>
   <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
-  <MechRelay.comps.CompMechRelay.crashedLetterText>Mechanoidí relé, které se zřítilo k zemi.\n\nMěj se na pozoru, brzy přiletí mechanoidi, aby zjistili, co se stalo s jejich relém.</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <MechRelay.comps.CompMechRelay.crashedLetterText>Mechanoidí relé se zřítilo k zemi. Zničením získáš gravijádro.\n\nMěj se na pozoru, brzy přiletí mechanoidi, aby zjistili, co se stalo s jejich relém.</MechRelay.comps.CompMechRelay.crashedLetterText>
   <!-- EN: Destabilizing -->
   <MechRelay.comps.CompMechRelay.destabilizationInspectString>Destabilizované relé</MechRelay.comps.CompMechRelay.destabilizationInspectString>
   <!-- EN: The mechanoid relay has begun to destabilize. -->

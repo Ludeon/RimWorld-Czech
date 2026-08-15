@@ -73,8 +73,8 @@
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>raidSingOrPlural(threatCount==1)->svůj nájednický oddíl, který</li>
-    <li>raidSingOrPlural(threatCount>=2)->své nájednické oddíly, které</li>
+    <li>raidSingOrPlural(threatCount==1)->svůj nájezdnický oddíl, který</li>
+    <li>raidSingOrPlural(threatCount>=2)->své nájezdnické oddíly, které</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_faction_leaderTitle] [asker_nameFull] z frakce [asker_faction_name] zajal[asker_x_a] [lodgersCountPrisoners] z nepřátelské frakce. Jelikož nemá místo, kam by je mohl[asker_x_a] umístit, žádá tě, abys na ně [shuttleDelayTicks_duration] dohlížel, dokud pro ně nezřídí své vězení.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nVězni mají s frakcí [enemyFaction_name] uzavřený kontrakt na svou záchranu, takže očekávej, že zmíněná frakce k tobě vyšle své [enemyFaction_pawnsPluralAcc]. [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[asker_nameDef] sdělil[asker_x_a], že [asker_possessive] nepřátelé přiměli nějaké mechanoidy, aby se vydali po vězních, takže očekávej mechanoidní přepadení. [enemyGroupsParagraph]</li>

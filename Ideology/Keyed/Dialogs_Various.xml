@@ -15,7 +15,7 @@
   <!-- EN: Use global style -->
   <UseGlobalStyle>Použít globální styl</UseGlobalStyle>
   <!-- EN: No style variations available -->
-  <NoStylesAvailable>Nemé žádné stylové variace</NoStylesAvailable>
+  <NoStylesAvailable>Žádné dostupné stylové variace</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>Vyber si symbolickou strukturu svého ideobožství. Ta ovlivňuje pouze symboly - nemá vliv na hratelnost.</ChooseStructureMemesInfo>
@@ -63,7 +63,7 @@
   <!-- EN: No role assigned -->
   <NoRoleAssigned>Není přidělena žádná role</NoRoleAssigned>
   <!-- EN: Children cannot take on roles -->
-  <ChildNoRoleAssigned>Dětem nomouhou být přiděleny role</ChildNoRoleAssigned>
+  <ChildNoRoleAssigned>Dětem nemohou být přiděleny role</ChildNoRoleAssigned>
   <!-- EN: Remove {0} role -->
   <RemoveRole>Odebere roli {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
@@ -152,7 +152,7 @@
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
   <ReformIdeoRelicHuntQuestEnd>TODO</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
-  <ReformIdeoCancelRituals>Rituál, který právě probíhá, bude ukončen.</ReformIdeoCancelRituals>
+  <ReformIdeoCancelRituals>Rituál '{0}' právě probíhá a bude ukončen.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
   <ReformIdeoContinue>Chceš i přesto pokračovat?</ReformIdeoContinue>
 
@@ -166,7 +166,7 @@
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
   <NegotiatorWillNotTradeSlaves>{0_nameDef} odmítá prodat kohokoli do otroctví kvůli {0_gender ? jeho : jejím} přesvědčením.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>Tvůj vyjednávač {0_nameDef} odmítá prodat někoho do otroctví kvůli {0_gender ? jeho : jejím} víře v {1}.\n\nZato ale nemá problém někoho z otroctví odkoupit.</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>Tvůj vyjednávač {0_nameDef} odmítá prodat někoho do otroctví kvůli {0_gender ? jeho : jejím} víře v {1}.\n\nZato ale nemá problém prodat někoho zpět jeho vlastní frakci za výkupné. Odmítá jen prodej do frakce cizí.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>Poslední lidské maso</LastHumanMeat>
